@@ -1,0 +1,122 @@
+Description: Unknown
+Version: Unknown
+Author: Unknown
+None
+^
+Undead Legions	ul	0			Lord:%max=50,Hero:%max=50,Core:%min=25,Spec:%max=50,Rare:%max=25		info:display="30 Sep 2014";info:display="";info:always="All units are Undead (Unbreakable, Unstable and cause Fear). Only characters or Units with the Vampiric special rule or a unit within 12in of the General may March.";info:display="";info:always="Vampiric - Units made entirely of models with Vampiric special rule can make March Moves.";info:display="";info:display="Undead Battle Standard - in addition to the normal rules units with Undead special rule suffer one less wound as a result of the Unstable special rule.";info:display="";info:display="Animated Construct - Armour save of 5+, suffer one less Wound from Unstable special rule which is cumulative with other such rules.";info:display="";info:display="Arrows of the Asaph - never count bonuses or penalties To-Hit when shooting.";info:display="";none:"Undead Legions";info:always="It is your responsibility to know the rules ";ulmt:comp=core,spec,rare,ncor-min@unit=3	
+^
+ularkhan	Arkhan the Black		Lord	Lord		1:1	650	0	spec:+spel;spec:+weap;spec:+wzrd;type:Ld9;attr:US="Mo";take:ultblade-free-perm;take:ulsspiri-free-perm	umax:1u		Fly, Large Target, Terror, Undead; Feaster of Souls - At end of any CC phase in which model causes an unsaved Wound roll a D6. On a 6 he reains one Wound lost earlier. ; First of the Mortarchs - Crumbles one les due to Instable and can make March moves as normal. Mortarch of Scrament - Summons double points worth including additional points from counters.				6	4	3	5	6	8	3	7	9	6	7	0	0	0	0	0	0	0	1
+ulkrell	Krell		Lord	Lord	lord	1:1	250	0	attr:US="In";take:ulbarrow-free-perm;take:ulblacax-free-perm;spec:+weap;spec:+armr;type:Ld10	umax:1		Killing Blow, Terror, Undead, Champion of Nagash - If fighting in a challenge he has Heroic Killing Blow, Mortarch of Despair - Whenever an enemy unit fails a Fear, Teror or Break Test within 12" he automatically regains a single Wound lost earlier in the battle.				4	5	0	4	5	4	5	4	10	4	7	0	0	0	0	0	0	0	1
+ulmann	Mannfred Von Carstein		Lord	Lord		1:1	650	0	attr:US="Mo";take:ulunholy-free-perm;take:ultemple-free-perm;spec:+armr;spec:+spel;spec:+weap;type:Ld10;type:vampire	umax:1u		Fly, Large Target, Terror, Undead, Vampiric, Magic - Can generate all spells from one lore or from several. Dark Cunning - At start of each friendly magic phase after rolling for Winds of Magic Mannfried may choose to remove or add up to 3 dice from the power pool. For each dice Attacks are increased by one to above 10 if possible. For each dice that is added Attacks are decreased by one until the start of the next friendly Magic phase. Only Mannfred can use the added power dice. Fester of Souls - At end of CC phase in which he has caused an unsaved Wound roll a D6. On a 6 he gains one Wound lost earlier. Master of the Black Arts - May reroll one dice when determining the strength of the Winds of Magic. Mortarch of Night - doubles range of the summoning spells of Lore of Undeath.				6	7	5	5	6	10	7	9	10	4	7	0	0	0	0	0	0	0	1
+ulnagash	Nagash		Lord	Lord	Lord	1:1	1000	0	type:Ld10;attr:US="Mo";take:ulalakan-free-perm;take:ulmorikh-free-perm;take:ulnineb-free-perm;take:ulmortis-free-perm;take:ulundeaS-free-perm;spec:+armr;spec:+wzrd;spec:+weap;spec:+spel	umax:1u		Large Target, Terror, Undead; Lvl 5 Wizard; Arch-Necromancer - may re-roll miscast result accepting second one.; Death Incarnate - Nagash and friendly Undead units suffer 2 Wounds less in Instability. Stacks.; Supreme Lord of Undead - triple points valus of models when summining and in Raise Dead  Counters. Also triples range of spell.				6	7	7	7	7	7	6	6	10	4	4	0	0	0	0	0	0	0	1
+ulnefera	Neferata, Mortarch of Blood		Lord	Lord		1:1	650	0	spec:+spel;spec:+wzrd;spec:+weap;type:Ld10;attr:US="Mo";take:uljet-free-perm;take:ulspain-free-perm;type:vampire	umax:1u		Always Atrikes First, Fly, Large Target, Terror, Undead; Vampiric; Feaster of Souls - At end of any CC phase in which model causes an unsaved Wound roll a D6. Mortarch of Blood - First time she slays opponent in a challenge place a Vampire without upgrades within 12". Twilight's Allure -  -1To-Hit penalty except for Khalida				6	8	6	5	6	8	9	8	10	6	7	0	0	0	0	0	0	0	0
+ulvlad	Vlad Von Carstein		Lord	Lord		1:1	500	0	type:Ld10;attr:US="In";take:ulcarste-free-perm;take:ulbloodd-free-perm;spec:+weap;spec:+ward;spec:+spel;type:vampire	umax:1u		Terror, Undead, Vampiric, Magic - can choose spells from one or several lores. The Hunger - At end of any CC phase in which Vlad has caused an unsaved Wound roll a D6. On a 4+ he regains one Wound lost earlier. 6+ if the Blood Drinker has been destroyed. Mortarch of Shadow - All enemy units within 12" suffer -1 to LDR. In addition all shooting and CC attacks at Vlad or unit are  -1 To-Hit. 				6	7	5	5	5	3	7	5	10	5	4	0	0	0	0	0	0	0	1
+ulmharb	Morghast Harbiners		Special	Regiment		2	80	0	calc:Num=#;attr:US="MI"	umax:3u@2999-part;umax:6;race:vm		Hover, Killing Blow, Terror, Undead, Heralds of the Accursed One - Units with the rule and all friendly units within 12" suffer one less Wound due to Instable.  Stacks.				6	5	3	5	5	4	4	3	10	5	7	0	0	0	0	0	0	0	0
+ulmota	Morghast Archai		Rare	Regiment		2	90	0	calc:Num=#;attr:US="MI"	umax:3u@2999-part;umax:6;race:vm		Hover, Killing Blow, Terror, Undead, Heralds of the Accursed One - Units with the rule and all friendly units within 12" suffer one less Wound due to Instable.  Stacks.				6	5	3	5	5	4	4	3	10	4	7	0	0	0	0	0	0	0	1
+^
+ullorea	Lore table		SpellType	N/A	0	tabl:none=mgnone,Death=mgdeath,Undeath=ulundlor-noname-nobrackets				
+ullorem	Lore table		SpellType	N/A	0	tabl:none=mgnone,Vampire=vmnecrcm,Death=mgdeath,Undeath=ulundlor-noname-nobrackets				
+ulloren	Lore table		SpellType	N/A	0	tabl:none=mgnone,Vampire=vmnecrcm,Shadow=mgshadow,Death=mgdeath,Undeath=ulundlor-noname-nobrackets				
+ulnagtab	Lore table Nagash		SpellType	N/A	0	tabl:none=mgnone,Vampire=vmnecrcm,Nehekhara=tkincant,Death=mgdeath,Light=mglight,Undeath=ulundlor-noname-nobrackets				
+ulnagta2	Lore table Nagash 2		SpellType	N/A	0	tabl:none=mgnone,Vampire=vmnecrcm,Nehekhara=tkincant,Death=mgdeath,Light=mglight,Undeath=ulundlor-noname-nobrackets				
+ulewa	Ebon-wrought Armour		Armour	N/A	0				4+ Armour save.	
+ulshow	List Undeath Spells		Priority2	N/A	0	take:ulundeaA;take:ulundea0;take:ulundea1;take:ulundea2;take:ulundea3;take:ulundea4;take:ulundea5;take:ulundea6;take:ulundeaE;stat:Wz=8;item:+9			Shows all spells for this lore, and lists short descriptions on the roster.	
+ulfull	Print Undeath Spell List		Priority3	N/A	0	more:ulundeaA=incl;more:ulundea0=incl;more:ulundea1=incl;more:ulundea2=incl;more:ulundea3=incl;more:ulundea4=incl;more:ulundea5=incl;more:ulundea0=incl;more:ulundeaE=incl			Appends full descriptions of all spells for this Lore to the roster.	
+ulundea1	UL1. Breath of Darkness		Priority3	N/A	0	apnd:foot;hide	6+ to cast; Augment; 12" range; one friendly Undead unit gains D3+1 wounds worth of models. Also if not in CC may make a normal move as in the Remaining Moves sub-phase.			
+ulundea2	UL2: Hand of Dust		Priority3	N/A	0	apnd:foot;hide	7+ to cast; Augment; Cast on Wizard. In CC can choose to make single Hand of Dust attack against one enemy model in base. If To-Hit roll is successful target suffers a Multiple Wound (D6) with no armour save. If character slain in challenge you immediatley gain D6 Raise the Dead counters.			
+ulundea3	UL3: Soul Stealer		Priority3	N/A	0	apnd:foot;hide	8+ to cast; Direct Damage; 12" range; Roll 2D6+2. For each point the result exceeds the targets LDR it suffers 1 Wound no armour save. If at least one Wound caused you immediately gain additional D3 Raise the Dead counters.			
+ulundea4	UL4: Abyssal Swarm		Priority3	N/A	0	apnd:foot;hide	10+ to cast; Summoning; 12" range; summons single unit of Undead War Beasts or Swarms worth up to 75 pts. Can instead summon unit of Monstous Beasts worth up to 150pts at 16+ to cast.			
+ulundea5	UL5: Harbringer		Priority3	N/A	0	apnd:foot;hide	10+ to cast; Summoning; 12" range; summons single Undead character worth up to 65 pts. instead can summon single Undead Monster, Chariot or War Machine worth up to 200pts at 24+ to cast.			
+ulundea6	UL6: Dark Riders		Priority3	N/A	0	apnd:foot;hide	16+ to cast; Summoning; 12" range; Summons single unit of Undead Cavalry, Monstrous Cavalry or  Chariots worth up to 150pts.			
+ulundeaA	ULA: Raise the Dead		Priority3	N/A	0	apnd:foot;hide	Lore Attribute; After each successful friendly casting place a counter. Any friendly Wizard after can choose to expend the counter. For each counter expended increase summoned points by +10.			
+ulundeaE	ULE: Malediction of Nagash		Priority3	N/A	0	apnd:foot;hide		End of Times; 20+ to Cast, Hex, Targets all enemy units within 24", All targets halve the Str on their profile rounding up until the start of the casters next Magic Phase.		
+ulundea0	ULS: Ryze The Grave Call		Priority3	N/A	0	apnd:foot;hide	Signature Spell; 9+ to cast; Summoning; 12" Range; summons single Undead Infantry unit worth up to 50pts. Can choose to increase to 100pts at 14+ to cast. Can choose to summon single Monstrous Inf unit worth up to 150pts at 16+ to cast.			
+ulundlor	Lore of Undeath	Undth	Last	N/A	0	show:ulfull;show:ulshow;item:+8				
+^
+uljet	Akmet-kar, Dagger of Jet	weap	N/A	0	1	itst:reg=ulnefera		Magic Weapon, if she inflicts at least one unsaved Wound in a challenge that models Str, To and At characteristics are reduced immdeiately by one to a min of one for the remainder of the game. A model can only be affected by the Dagger once per game.	^	^	
+ulblacax	Black Axe of Krell	weap	N/A	0	1	stat:St+2;itst:reg=ulkrell		Magic Weapon, Requires 2 hands, Always Strikes Last and Multiple Wounds (D3). Any model taking an unsaved Wound but not removed must roll a D6 at the start of each subsequent turn. If the result is higher than his remaining Wounds the model suffers an additional Wound with no Armour save.	^	^	
+ulbloodd	Blood Drinker	weap	N/A	0	1	stat:St+1;itst:reg=ulvlad		+1 Str, restores lost wounds on a 4+ for the purposes of The Hunger special rule.	^	^	
+ulunholy	Sword of Unholy Power	weap	N/A	0	1	itst:reg=ulmann		Magic Weapon, For each unsaved Wound Mannfred gains an extra dice at the start of the ensuing Magic Phase. Cannot gain more than 5 in this manner in any one phase.	^	^	
+ultblade	Zefet-kar, the Tomb Blade	weap	N/A	0	1	itst:reg=ularkhan		Magic Weapon, For every unsaved Wound in CC he immediately regains one Wound lost earlier. Cannot regain more than 4 in any one phase.	^	^	
+ulmortis	Zefet-nebtar, the Mortis Blade	weap	N/A	0	1	itst:reg=ulnagash;stat:St+1		Magic Weapon; +1 Str in Close Combat, Multiple Wounds (D3).	^	^	
+ultemple	Armour of Templehof	armr	N/A	0	1	itst:reg=ulmann		Magic Armour, 5+ armour save plus gains +2 Wounds already in profile.	^	^	
+ulbarrow	Armour of the Barrows	armr	N/A	0	1	itst:reg=ulkrell		Magic Armour, 4+ Armour save, If a character with a magic weapon wounds Krell in CC and he passes his armour save that magic weapons abilities are nullified.	^	^	
+ulmorikh	Morikhane, the Black Armour	armr	Arm	0	1	itst:reg=ulnagash		Magic Armour; Gives 4+ Armour save and 4+ Ward save.	^	^	
+ulcarste	The Carstein Ring	ward	N/A	0	1	itst:reg=ulvlad		4+ Ward; First time Vlad is removed from play roll a D6 at the end of the phase.  On a 2+ he is immediately returned to life with a single wound. He must be placed in the front rank of a friendly unit within 12".  If no unit availble he is removed as casualty.	^	^	
+ulspain	Aken-seth, the Staff of Pain	wzrd	N/A	0	1	itst:reg=ulnefera		Arcane Item, Then she successfully casts a Magic Missle, Direct Damage or Hex spell each target unit suffers D3 additional magical Str5 Hits after the spell has been resolved.	^	^	
+ulalakan	Alakanash, the Staff of Power	wzrd	Arc	0	1	itst:reg=ulnagash		Arcane Item; can store up to 4 power dice. Remove the dice during your Magic Phase. Nagash can expend any or all in his future Magic Phase. May use dice in addition to normal 6 so up to 10 to cast. In addition in the CC phase you may expend dice and for each expended one of his attacks confers the Heroic Killing Blow special rule.	^	^	
+ulsspiri	Khenash-an, the Staff of Spirits	wzrd	N/A	0	1	itst:reg=ularkhan		Arcane Item, Can store up to 2 power dice.  Remove dice from your power pool.  He can expend stored dice in any furure Magic Phase.  Can cast them in addition to the normal 6 dice fom a max of 8 power dice in one casting . 	^	^	
+ulnineb	Nine Books of Nagash	wzrd	N/A	0	1	itst:reg=ulnagash		Arcane Item; Nagash knows nine spells of which the first is Ryze from Lore of Undeath. He can generate the other 8 from Lores of Death, Light, Nehehara, Vampires and Undeath in any combination. Declare how many from each lore BEFORE generating.	^	^	
+ulundeaS	Ryze - The Grave Call	wzrd	N/A	0	1	itst:reg=ulnagash;xtot		9+ to cast; Summoning; 12" Range; summons single Undead Infantry unit worth up to 50pts. Can choose to increase to 100pts at 14+ to cast. Can choose to summon single Monstrous Inf unit worth up to 150pts at 16+ to cast.	^	^	
+ulundea1	1. Breath of Darkness	spel	N/A	0	50	xtot		6+ to cast; Augment; 12" range; one friendly Undead unit gains D3+1 wounds worth of models. Also if not in CC may make a normal move as in the Remaining Moves sub-phase.	^	^	
+ulundea2	2. Hand of Dust	spel	N/A	0	50	xtot		7+ to cast; Augment; Cast on Wizard. In CC can choose to make single Hand of Dust attack against one enemy model in base. If To-Hit roll is successful target suffers a Multiple Wound (D6) with no armour save. If character slain in challenge you immediatley gain D6 Raise the Dead counters.	^	^	
+ulundea3	3. Soul Stealer	spel	N/A	0	50	xtot		8+ to cast; Direct Damage; 12" range; Roll 2D6+2. For each point the result exceeds the targets LDR it suffers 1 Wound no armour save. If at least one Wound caused you immediately gain additional D3 Raise the Dead counters.	^	^	
+ulundea4	4. Abyssal Swarm	spel	N/A	0	50	xtot		10+ to cast; Summoning; 12" range; summons single unit of Undead War Beasts or Swarms worth up to 75 pts. Can instead summon unit of Monstous Beasts worth up to 150pts at 16+ to cast.	^	^	
+ulundea5	5. Harbringer	spel	N/A	0	1	xtot		10+ to cast; Summoning; 12" range; summons single Undead character worth up to 65 pts. instead can summon single Undead Monster, Chariot or War Machine worth up to 200pts at 24+ to cast.	^	^	
+ulundea6	6. Dark Riders	spel	N/A	0	1	xtot		16+ to cast; Summoning; 12" range; Summons single unit of Undead Cavalry, Monstrous Cavalry or  Chariots worth up to 150pts.	^	^	
+ulundeaA	Attribute: Raise the Dead	spel	N/A	0	50	xtot		Lore Attribute; After each successful friendly casting place a counter. Any friendly Wizard after can choose to expend the counter. For each counter expended increase summoned points by +10.	^	^	
+ulundeaE	E: Malediction of Nagash	spel	N/A	0	99	xtot		End of Times; 20+ to Cast, Hex, Targets all enemy units within 24", All targets halve the Str on their profile rounding up until the start of the casters next Magic Phase.	^	^	
+ulundea0	Signature: Ryze The Grave Call	spel	N/A	0	50	xtot		Signature Spell; 9+ to cast; Summoning; 12" Range; summons single Undead Infantry unit worth up to 50pts. Can choose to increase to 100pts at 14+ to cast. Can choose to summon single Monstrous Inf unit worth up to 150pts at 16+ to cast.	^	^	
+^
+^
+^
+ulnagash	ulnagtab	incl
+ulnagash	ulfull	hide
+ulnagash	ulshow	hide
+ulnagash	vmfull	hide
+ulnagash	vmshow	hide
+ulnagash	tkfull	hide
+ulnagash	tkshow	hide
+ulnagash	general	cost
+ulnagash	mgfull	hide
+ulnagash	mgshow	hide
+ulnagash	mgmiscas	cost
+ulkrell	general	cost
+ulmharb	2ndhwtr2	incl
+ulmharb	hatrp	incl
+ulmota	haltrp1	incl
+ulmota	ulewa	incl
+ulmann	ullorem	incl
+ulmann	mg4lvl	incl
+ulmann	ulfull	hide
+ulmann	ulshow	hide
+ulmann	vmfull	hide
+ulmann	vmshow	hide
+ulmann	general	cost
+ulmann	mgfull	hide
+ulmann	mgshow	hide
+ulmann	mgmiscas	cost
+ularkhan	general	cost
+ularkhan	mg4lvl	incl
+ularkhan	ulfull	hide
+ularkhan	ulshow	hide
+ularkhan	mgfull	hide
+ularkhan	mgshow	hide
+ularkhan	mgmiscas	cost
+ularkhan	ullorea	incl
+ulnefera	general	cost
+ulnefera	mg3lvl	incl
+ulnefera	ulfull	hide
+ulnefera	ulshow	hide
+ulnefera	mgfull	hide
+ulnefera	mgshow	hide
+ulnefera	mgmiscas	cost
+ulnefera	mgfull4	hide
+ulnefera	vmfull	hide
+ulnefera	vmshow	hide
+ulnefera	ulloren	incl
+ulvlad	general	cost
+ulvlad	hatrp	incl
+ulvlad	mg3lvl	incl
+ulvlad	ulloren	incl
+ulvlad	ulfull	hide
+ulvlad	ulshow	hide
+ulvlad	mgfull	hide
+ulvlad	mgshow	hide
+ulvlad	mgmiscas	cost
+ulvlad	mgfull4	hide
+ulvlad	vmfull	hide
+ulvlad	vmshow	hide
+^
+^
+^

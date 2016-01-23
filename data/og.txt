@@ -1,0 +1,1016 @@
+Description: Orc and Goblin for Ravening Hordes
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, bugs - email - mach_5@rocketmail.com
+
+Certain spec characters from the GW US Website.
+^
+Orcs & Goblins	og	0	sm,dw,he,we,br,lz,ok,ch,dm,dk,em,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="October 2015, Version 0.10.0 Beta";info:display="by DeBelial";info:display="";info:always="Unruly: Unruly units have -1 Ld to rolls on following tests: Restrain Frenzy, Restrain Pursuit. In addition, if in horde formation roll 3 dice for panic tests and discard the highest.";info:display="";info:always="Born to Fight: Models or parts of them with this Special Rule have +1 Strength until they lose or draw a combat.";info:display="";info:display="Waaargh!: Once per game, a model with this Special Rule that is the army’s General may declare a Waaagh! at the start of the turn All models in the army belonging to any Greenhide Race gain the Devastating Charge and Swiftstride Special Rules until the end of the the turn.";info:display="";skip info:display="Green Tide: Model and all Goblins with same Greenhide Race in It's Unit gain Fight In Extra Ranks Special Rule.";info:display="";info:display="Mark of da Boss: Up to one unit with this special rule in the army, that is of the same race as the general, may take a magic standard worth 25 pt more than they otherwise would.";none:"Standard Army";ulmt:type=wyvern-max@unit=2-msg=ogmsg5-mode=d;tlmt:common-unit=1@min-msg=ogmsg11-istype=grom;tlmt:bbmgstd-unit=1@max-msg=ogmsg12;tlmt:sobbmgstd-unit=1@max-msg=ogmsg13;trat:boss@100u:shaman@99u-msg=ogmsg15-mode=g;trat:grimgor@1u:grimgorinarmy@1u;skip info:display="Big 'Uns are unit upgrade, you can upgrade one unit in army, unless Gorbad Ironclaw is the general.";ulmt:type=obig-max@unit=1-msg=ogmsg7;trat:savsha@1u:ogwargia@1u-flat-msg=ogmsg16;trat:grimgor@0u:grimgorincarnate@1u-msg=ogmsg17;skip tlmt:markofdaboss-unit=1@max-msg=ogmsg901;tlmt:coregoblins-unit=4+4/4000-msg=ogmsg902;skip trat:boarveterans@0u:orcveterans@1u-msg=ogmsg904;tlmt:coreboarboyz-unit=0@max-msg=ogmsg905-istype=!snarlashoof	
+^
+ogazhag	 Azhag the Slaughterer		N/A	Special Characters		1:1	390	0	take:ogslagga-perm;take:ogazarm-perm;take:ogcrsorc-perm;type:Hero;ipts:total=0;catg:wiz;spec:+wzrd;type:OHero;spec:+armr;type:Ld9;attr:Type="In"	umax:1;hide		Infantry; Choppas; Size Matters; Re-roll failed Animosity tests within his Inspiring Presence range		Rides Skullmuncha the Wyvern		4	7	3	5	5	3	5	4	9	5	5	2	1	1	2	0	0
+ogbadruk	 Badruk 'Eadsplitta		N/A	Special Characters	badruk	1:1	150	0	spec:+ench;take:ogdwarf-perm;type:OHero;ipts:total=0;type:Ld8;attr:Type="In"	umax:1;hide		Infantry; Immune to Psychology; Choppas; Quell Animosity; Killing Blow		Hero; From the GWUS Website.	From the GWUS Website	4	6	3	5	5	2	3	3	8	5	7	0	0	1	0	0	0
+ogborgut	 Borgut Facebeater	Hero	N/A	Special Characters	Hero	1:1	175	0	ipts:total=0;type:OHero;type:skirmishers;type:Ld9;take:oggrog-free-perm;take:ogborgu1-free-perm;spec:+weap;spec:+armr;type:Borgut;type:boss;attr:Type="In"	hide		Infantry; Ignore greenskin panic; Quell Animosity; Facebeater (in challenge: +1A, strikes first, S7, if wounded but not killed, opponent reduced to WS1)		Hero;		4	5	3	5	5	2	3	3	9	7	7	0	0	1	0	0	0
+ognboyz	 Core: Cave Goblins	NGob	N/A	N/A	infantry	20:60	3	0	calc:Num=#;attr:Type="In";ipts:total=25-each=25;type:coregoblins;type:cavegoblin	hide		Infantry; Unruly; Insignificant; Hatred (Dwarfs); Mark of da Boss		Default shield, can have spear or replace shield with shortbow; Up to 3 fanatics;		4	2	3	3	3	1	3	1	5	7	7	0	0	1	0	0	0
+ogspirid	 Core: Forest Goblin Spider Riders	Spidr	N/A	N/A		5	13	0	calc:Num=#;attr:Type="Ca"	hide		Cavalry; Animosity; Fear Elves; Fast Cavalry; Wall-crawlers; Forest Strider; Obstacle Strider; Creeping Assault		Spears, shields		4	2	3	3	3	1	2	1	6	6	7	0	0	2	0	0	0
+ogforgob	 Core: Forest Goblins	Gobs	N/A	N/A	forest	20:60	3	0	type:infantry;calc:Num=#;attr:Type="In";ipts:total=25-each=25;type:coregoblins;type:forestgoblin	hide		Infantry; Unruly; Mark of da Boss; Insignificant; Strider (Forest)				4	2	3	3	3	1	2	1	6	6	7	0	0	1	0	0	0
+ogoaboyz	 Core: Orc Arrer Boyz	Boyz	N/A	N/A	o	10	7	0	type:infantry;calc:Num=#;attr:Type="In"	hide		Infantry; Animosity; Choppas; Size Matters;		Light armour, bow		4	3	3	3	4	1	2	1	7	6	7	0	0	1	0	0	0
+ogsboyz	 Core: Savage Orcs	Boyz	N/A	N/A		10	8	0	ipts:total=50-each=50;type:infantry;calc:Num=#;type:so;attr:Type="In"	hide		Infantry; Animosity; Choppas; Size Matters;		Frenzy.		4	3	3	3	4	1	2	1	7	7	7	0	0	1	0	0	0
+oghowler	 Da Howlerz	Wolfs	N/A	Regiment		5	10	0	calc:Num=#;attr:Type="Ca"	hide		Cavalry; Fast Cavalry; Animosity; Fear Elves; Quick to Fire				4	2	4	3	3	1	2	1	6	5	7	0	0	2	0	0	0
+ogbodygd	 Da Immortulz		N/A	Other	infantry	10	12	1	calc:Num=#;ipts:total=50-each=50;attr:Type="In"	hide;forc		Infantry;  Immune to Psychology; Choppas; Armed to da Teef; Hatred (Everyone!)				4	5	3	4	4	1	2	1	8	5	7	0	0	1	0	0	0
+ogdeff	 Deff Creepers	Spidr	N/A	Regiment		5	13	0	calc:Num=#;attr:Type="Ca"	hide		Cavalry; Animosity; Fear Elves; Fast Cavalry; Wall-crawlers; Forest Strider; Obstacle Strider; Creeping Assault; Ambushers; Devastating Charge; Hatred (Empire)		Spears, shields		4	2	3	3	3	1	2	1	6	6	7	0	0	2	0	0	0
+oggitill	 Gitilla the Hunter	Hero	N/A	Special Characters		1:1	110	0	take:ogbonebo-perm;type:Hero;type:skirmishers;type:Ld7;spec:+weap;attr:Type="Ca";take:ogstinky-perm;spec:+armr	hide		Cavalry; Fast Cavalry; Fear Elves;		Hero; Comes with Da Howlerz - elite Wolf Riders.		4	4	4	4	4	2	4	3	7	6	7	0	0	1	0	0	0
+oggorbad	 Gorbad Ironclaw	Lord	N/A	Special Characters		1:1	375	0	take:ogmangle-perm;type:Hero;type:OHero;type:skirmishers;type:Ld10;type:boss;type:Gorbad;spec:+weap;attr:Type="Ca"	hide		Cavalry; Choppas; Waaagh!; Size Matters; He is both BSB & General with 18" range of abilities; Friendly units within 18" add his current number of Wounds to their roll on Animosity table; 		Lord; No limit on the amount of Orc Boyz and Orc Boar Boyz Big 'Un units (Savage Orcs and Savage Boar Boyz are restricted as normal);		4	7	3	5	5	3	5	4	10	7	7	0	0	1	0	0	0
+ogrotgut	 Gorfang Rotgut		N/A	Special Characters	Hero	1:1	195	0	spec:+weap;spec:+armr;ipts:total=0;take:ogredfng-free-perm;take:ogevilso-free-perm;type:OHero;type:Ld8;attr:Type="In"	umax:1;hide		Infantry	Ignore Goblin Panic; Hate Dwarfs	Chieftain of Black Crag; Incls Red Fang and Evil Sun Armour; Ignores Goblin Panic; and Hates Dwarfs; From GW Website		4	5	3	5	5	3	3	3	8	4	7	0	0	1	0	0	0
+oggrimgr	 Grimgor Ironhide		N/A	Special Characters	grimgor	1:1	355	0	take:oggitsnk-perm;take:ogbldfor-perm;spec:+weap;spec:+armr;spec:+ench;ipts:total=0;type:Ld9;attr:Type="In"	umax:1;hide		Infantry; He and unit joined are Immune to Psychology & have Hatred; Can leave bodyguard, can't join other units, other characters can't join bodyguard		Lord		4	8	1	5	5	3	5	5	9	1	7	0	0	1	0	0	0
+oggrimin	 Grimgor, Incarnate of Beasts		N/A	Special Characters		1:1	460	0	take:oggrimi1-free-perm;take:oggitsnk-perm;take:ogbldfor-perm;spec:+weap;spec:+armr;spec:+ench;ipts:total=0;type:Ld9;attr:Type="In";type:grimgorincarnate	umax:1;hide		Infantry (Special Character); Choppas; Hatred; Immune to Psychology; Waaagh!; #Da Immortulz: After deployment, nominate single unit of Black Orcs to be Da Immortulz - this unit gains +1 WS and Hatred; #Best of da Best: re-roll failed To Hit and To Wound rolls in a challenge		Lord		4	8	1	6	6	4	5	6	9	1	7	0	0	1	0	0	0
+ogpaunch	 Grom the Paunch		N/A	Special Characters		1:1	285	0	ipts:total=0;spec:+weap;type:grom;take:ogelfbit-free-perm;type:skirmishers;type:Ld8;attr:Type="In"	umax:1u;hide		Infantry; Regeneration; Grom's Waaagh! (also affects any Goblins, Night Goblins, Spider Riders and Wolf Riders with 5+ models); Eats Elves for Breakfast: as long as Grom is alive, units in army don't Fear Elves; Niblit dies with the chariot		Lord		4	5	3	4	4	3	4	4	8	4	7	0	0	1	0	0	0
+oggcchgm	 Grom's Chariot	Char	N/A	Machine		1:1	0	0	attr:At="D6+1";attr:Type="Ch"	hide		Chariot; Scythes; 				0	0	0	5	4	3	0	0	0	5	7	0	0	4	0	0	0
+ogbhero	 Hero: Black Orc Big Boss	Hero	N/A	N/A	Hero	1:1	90	100	ipts:total=100-each=100;type:OHero;type:skirmishers;type:Ld8;type:boss;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;hide		Infantry (Ca if on boar); Choppas; Immune to psychology; Quell Animosity;		Hero		4	6	3	4	5	2	3	3	8	7	7	0	0	1	0	0	0
+ognhero	 Hero: Night Goblin Big Boss	Hero	N/A	N/A	Hero	1:1	30	100	ipts:total=100;type:nightgoblin;type:skirmishers;type:Ld6;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;hide		Infantry (MC if on Giant squig); Fear Elves; Hate Dwarfs;		Hero		4	4	3	4	4	2	4	3	6	7	7	0	0	1	0	0	0
+ognshm	 Hero: Night Goblin Shaman	Shm	N/A	N/A	Hero	1:1	50	100	ipts:total=50-each=50;type:skirmishers;type:Ld5;type:nightgoblin;attr:Type="In"	clmt:spel<=Wz-msg=ogmsg1;hide		Infantry; Magic Mushrooms; Fear Elves; Hate Dwarfs;		Hero; Wizard		4	2	3	3	3	2	3	1	5	7	7	1	1	1	1	0	0
+ogshero	 Hero: Savage Orc Big Boss	Hero	N/A	N/A	Hero	1:1	75	100	ipts:total=100;type:sav;type:OHero;type:skirmishers;type:Ld8;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;hide		Infantry (Ca if on boar); Choppas; Size Matters; Wild Abandon;		Hero; Frenzy. 		4	5	3	4	5	2	3	3	8	7	7	0	0	1	0	0	0
+ogblord	 Lord: 'Ard Orc Warboss	Lord	N/A	N/A	Lord	1:1	130	100	ipts:total=100-each=100;type:skirmishers;type:Ld9;type:boss;attr:Type="In";type:ardorc;type:orcwarboss	hide		Infantry (Ca if on boar, MC on Wyvern); Born to Fight, Weapon Masters, Heavy Armour, Ruler, Immune to Psychology		Lord		4	7	3	5	5	3	4	4	9	7	7	0	0	1	0	0	0
+ogcggtsh	 Lord: Cave Goblin High Shaman	ShmLd	N/A	N/A	Lord	1:1	135	100	ipts:total=100-each=100;type:Hero;type:common;type:skirmishers;type:Ld8;attr:Type="In";type:goblinhighshaman	clmt:spel<=Wz-msg=ogmsg1;hide		Infantry; Insignificant; Hatred (Armybook: Dwarven Holds)		Lord; Wizard; Cave Goblin: -1 Leadership, +1 Initiative		4	2	3	3	4	3	3	1	6	7	7	3	2	1	3	0	0
+ogcglord	 Lord: Cave Goblin Warboss	Lord	N/A	N/A	Lord	1:1	60	100	ipts:total=100-each=100;type:Hero;type:common;type:skirmishers;type:Ld7;attr:Type="In";type:cavegoblin;type:goblinwarboss	hide		Infantry; Insignificant; Hatred (Armybook: Dwarven Holds)		Lord; Cave Goblin: -1 Leadership, +1 Initiative		4	5	3	4	4	3	5	4	7	7	7	0	0	1	0	0	0
+ogfggtsh	 Lord: Forest Goblin High Shaman	ShmLd	N/A	N/A	Lord	1:1	135	100	ipts:total=100-each=100;type:Hero;type:common;type:skirmishers;type:Ld8;attr:Type="In";type:goblinhighshaman	clmt:spel<=Wz-msg=ogmsg1;hide		Infantry (Ca if on wolf); Insignificant; Strider (Forest)		Lord; Wizard; 		4	2	3	3	4	3	2	1	8	7	7	3	2	1	3	0	0
+ogfglord	 Lord: Forest Goblin Warboss	Lord	N/A	N/A	Lord	1:1	60	100	ipts:total=100-each=100;type:Hero;type:common;type:skirmishers;type:Ld8;attr:Type="In";type:commongoblin;type:goblinwarboss	hide		Infantry (Ca on giant spider, MC on gargantuan spider);  Insignificant; Strider (Forest)		Lord		4	5	3	4	4	3	4	4	8	7	7	0	0	1	0	0	0
+ogsgtshm	 Lord: Neanderorc High Shaman	ShmLd	N/A	N/A	Lord	1:1	155	100	ipts:total=100-each=100;type:skirmishers;type:Ld8;type:shaman;attr:Type="In";type:orcgreatshaman	clmt:spel<=Wz-msg=ogmsg1;hide		Infantry (Ca if on boar, MC on Wyvern); Born to Fight; Ward Save (6+)		Lord; Wizard; Uses Path of da Big Green Gods; Frenzy		4	3	3	4	5	3	2	1	8	7	7	3	2	1	3	0	0
+ogslord	 Lord: Neanderorc Warboss	Lord	N/A	N/A	Lord	1:1	125	100	ipts:total=100-each=100;type:skirmishers;type:Ld9;type:boss;attr:Type="In";type:feralorc;type:orcwarboss	hide		Infantry (Ca if on boar, MC on Wyvern); Born to Fight; Ward Save 6+		Lord; Frenzy		4	6	3	5	5	3	4	4	9	6	7	0	0	1	0	0	0
+ogmorglm	 Morglum Necksnapper		N/A	Special Characters		1:1	210	0	spec:+armr;ipts:total=0;take:ogbulak-free-perm;type:OHero;type:Ld9;attr:Type="Ca"	umax:1;reqd:unit=ogblacks@1m:1u;hide		Cavalry	Natural Leader, Immune to Psychology, Fear, Quell Animosity	Requires Black Orc unit in army; From GW Website; Immune to Psychology; Quell Animosity; Cause Fear; Natural Leader:  all other characters w/ Ld 9+ will be Ld 8; Uses additional hand weapon on Boar; Incl Bulak's Bloody Armor, 2 Axes, and a boar		4	7	3	5	5	3	4	4	9	3	7	0	0	2	0	0	0
+ogniblit	 Niblit		N/A	Hero		1:1	0	0	spec:+ench;ipts:total=0;take:oglucky-free-perm;type:skirmishers	hide						4	3	0	3	0	0	2	1	0	7	7	0	0	1	0	0	0
+ogngtshm	 Night Goblin Great Shaman	ShmLd	N/A	Wizard		1:1	140	100	ipts:total=100-each=100;type:Hero;type:skirmishers;type:Ld6;type:nightgoblin;attr:Type="In"	clmt:spel<=Wz-msg=ogmsg1;hide		Infantry; Fear Elves; Hate Dwarfs;		Lord; Wizard		4	2	3	3	4	3	3	1	6	7	7	3	2	1	3	0	0
+ognherd	 Night Goblin Herders	Herd	N/A	Regiment	infantry	1	3	0	ratp:min=1:3;calc:Num=#;attr:Type="In"	hide		Infantry; Hate Dwarfs, Fear Elves				4	2	3	3	3	1	3	1	5	7	7	0	0	1	0	0	0
+ogoglok	 Oglok the 'orrible	Hero	N/A	Special Characters	Hero	1:1	95	100	ipts:total=50-each=50;type:OHero;type:skirmishers;type:Ld9;type:boss;attr:Type="In";spec:+weap;spec:+armr;spec:+ward;spec:+ench	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;hide		Cavalry; Choppas; Size Matters		Hero; UNOFFICIAL - 5th edition special character - Morglum Necknappers' Lieutenant, by DeBelial; Can take up to 50 points of magic items	UNOFFICIAL - 5th edition special character, by DeBelial	4	6	3	4	5	2	3	4	9	7	7	0	0	1	0	0	0
+ogbodyg2	 Orc Big 'Uns	Boyz	N/A	Regiment		10	6	0	ipts:total=50-each=50;type:infantry;calc:Num=#;type:o;attr:Type="In"	hide		Infantry; Animosity.		Includes light armour and choppa		4	3	3	3	4	1	2	1	7	6	7	0	0	1	0	0	0
+ogxboyx	 Orc Crossboyz	Boyz	N/A	Alternate Rules	o	10	9	0	type:infantry;calc:Num=#;attr:Type="In"	hide		Infantry; Animosity; Choppas; Size Matters;		UNOFFICIAL - by DeBelial; Light armour, crossbow;		4	3	3	3	4	1	2	1	7	6	7	0	0	1	0	0	0
+ogpumpwg	 Rare: Snotling Pump Wagon		N/A	N/A		1:1	45	0	attr:Mv="2D6";attr:At="2D6";calc:Num=#;attr:Type="Ch"	hide		Chariot; Unbreakable; Unstable; Impact Hits (2D6); Random Movement (2D6); Too Pumped Up!; Pump Harder Ladz! (May chooose to move extra D6" -decide before movement);		Max 4 in army; Max 8 in Grand Army		0	0	0	4	4	3	0	0	0	6	0	0	0	4	0	0	0
+ogrtroll	 River Trolls	Troll	N/A	Regiment	infantry	1	45	0	calc:Num=#;attr:Type="MI"	hide		Monstrous Infantry (Stomp); River Strider; Marsh Strider; Enemies suffer -1 to Hit a River Troll in Close Combat	Fear, Regenerate, Stupid, Optional vomit attack: S5, always hits, no armour save	Cause fear; Regenerate; Stupid; May vomit instead of normal attack: vomit is S5, always hits, and allows no armour save; River Strider; Marsh Strider; Enemies suffer -1 to Hit a River Troll in Close Combat		6	3	1	5	4	3	1	3	4	7	7	0	0	3	0	0	0
+ogsnark	 Skarsnik, Warlord of Eight Peaks		N/A	Special Characters		1:1	275	0	take:ogproder-free-perm;ipts:total=0;type:Hero;spec:+weap;type:Ld8;attr:Type="In"	umax:1;hide		Infantry; Fear Elves; Hate Dwarfs; Roll D6 for every enemy unit during deployment. On a 6 they enter the board as reinforcements in their first turn; Night Goblins that flee from a charge and rally may move and shoot		Lord		4	5	3	4	4	6	5	4	8	6	7	0	0	3	0	0	0
+ogsnagla	 Snagla Grobspit	Hero	N/A	Special Characters		1:1	115	0	take:ogsting-perm;take:ogfangsp-perm;type:Hero;type:skirmishers;type:Ld7;spec:+weap;attr:Type="Ca";take:ogstinky-perm;spec:+ench	hide		Cavalry; Animosity; Fear Elves; Fast Cavalry; Wall-crawlers; Forest Strider; Obstacle Strider; Creeping Assault; Ambushers; Devastating Charge; Hatred (Empire)		Hero; Comes with Deff Creepers - elite Spider Riders		4	4	3	4	4	2	4	3	7	6	7	0	0	1	0	0	0
+ogsboars	 Special: Savage Orc Boar Boyz	Boar	N/A	N/A		5	18	0	ipts:total=50-each=50;calc:Num=#;type:sob;attr:Type="Ca"	hide		Cavalry; Animosity; Choppas; Size Matters; Wild Abandon;		Frenzy.		4	3	3	3	4	1	2	1	7	5	7	0	0	2	0	0	0
+oghsqig	 Special: Squig Herd	Squig	N/A	N/A		1	8	0	calc:Num=#;attr:Type="In"	hide		Infantry; Animosity; Immune to Psychology; Hate Dwarfs; Obnoxious; Randomise shooting hits: 1-4 Squig, 5-6 Goblin; Squigs Go Wild!: If broken or without handlers, cause D6 S5 hits on all units within 2D6" before unit is removed. Add +1 Hit for every 5 Squigs remaining; Animosity		IMPORTANT! Unit size is minimum 10 models between squigs and herders. Minimum unit size is NOT enforced by army builder - you must take care of it yourself; There is minimum 1 herder per 3 squigs - this is enforced by army buider;		4	4	0	5	3	1	3	2	3	7	7	0	0	1	0	0	0
+oghopers	 Special: Squig Hoppers	Hopps	N/A	N/A	infantry	5	12	0	calc:Num=#;attr:Type="Ca"	hide		Cavalry; Immune to Psychology; Hate Dwarfs; Skirmish, Extra Boingy; Animosity				0	2	3	3	3	1	3	1	5	6	7	0	0	0	0	0	0
+oghopsqu	 Squigs	Hopps	N/A	Regiment	infantry	5	0	0	attr:Mv="3D6"	hide						0	4	0	5	3	1	3	2	3	7	7	0	0	0	0	0	0
+ogstroll	 Stone Trolls	Troll	N/A	Regiment	infantry	1	45	0	calc:Num=#;attr:Type="MI"	hide		Monstrous Infantry (Stomp); Scaly Skin (5+); Magic Resistance (2);	Fear, Regenerate, Stupid, Optional vomit attack: S5, always hits, no armour save	Cause fear; Regenerate; Stupid; May vomit instead of normal attack: vomit is S5, always hits, and allows no armour save; Scaly Skin (5+); Magic Resistance (2);		6	3	1	5	4	3	1	3	4	5	7	0	0	3	0	0	0
+ogblack	 The Black Gobbo	Lord	N/A	Special Characters		1:1	190	0	ipts:total=0;type:Hero;type:skirmishers;type:Ld7;take:ogbg01-free-perm;take:ogbg02-free-perm;take:ogbg03-free-perm;take:ogbg04-free-perm;type:blackgobbo;spec:+weap;attr:Type="In"	must:option=ogchoice-msg=ogmsg9;hide		Infantry; Against Dwarfs, unit and he reroll all misses  and are Stubborn		From the GW Website;Lord		4	5	3	4	4	3	5	4	7	7	7	0	0	1	0	0	0
+ogulda	 Ulda the Great Wolf	Wolf	N/A	Mount		1:1	0	0		hide						9	3	0	3	3	1	3	2	3	7	7	0	0	0	0	0	0
+ogwurzag	 Wurrzag Ud Ura Zahubu		N/A	Special Characters		1:1	350	0	type:Ld8;attr:Type="In";take:ogbones-perm;spec:+weap;take:ogmask-perm;spec:+ench;take:ogpower-perm;spec:+wzrd;take:ogwurrev-perm	umax:1;hide		Infantry (Ca if mounted on Boar); Choppas, Warpaint of Wurrzag (Ward 5+); 				4	3	3	4	5	3	2	1	8	7	5	0	0	0	0	0	0
+ogarasha	Arachnarok Spider		N/A	Mount	monster	1:1	290	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Swiftstride; Forest Strider; Obstacle Strider; Wall-crawler; Howdah Crew; Immune to Psychology; Stubborn; Terror; Large Target; Natural Armour (4+); Poisoned Attacks (Spider only); Venom Surge (one of its attacks cause D6 wounds - decide which one before rolling to hit);		Arachnarok Spider and 8 Forest Goblin Crew		7	4	0	5	6	8	4	8	0	4	7	0	0	0	0	0	0
+ogchboar	Boar Riders Champion	Boar	N/A	Champion	champ	1:1	10	0	coun	hide						4	4	4	3	4	1	2	2	7	5	7	0	0	2	0	0	0
+oggrcasq	Cave Gnasher		N/A	Mount	mount	1:1	0	0	attr:Mv="3D6"	hide		Monstrous Beast (Stomp 1); Impact Hits (D3); Immune to Psychology; Shambolic (3D6, Steady), Blurry; Boing!; Mount’s Protection (6+)				0	4	0	6	4	3	3	3	3	7	0	0	0	3	0	0	0
+ogchnboy	Cave Goblin Boss	Boyz	N/A	Champion	champ	1:1	10	0	coun	hide						4	3	4	3	3	1	3	2	5	7	7	0	0	1	0	0	0
+ogchhowl	Da Howlerz Boss	Wolf	N/A	Champion	champ	1:1	10	0	coun	hide						4	2	4	3	3	1	2	2	6	5	7	0	0	2	0	0	0
+ogarage2	Gargantula		N/A	Mount	monster	1:1	0	0	attr:Type="Mo"	hide		Monster (Stomp D6); Large Target; Terror; Strider, Immune to Psychology, Scaly Skin (4+), Poisoned Attack (Spider only), Stubborn, Swiftstride, Insignificant		Arachnageddon Spider and 8 Forest Goblin Crew		7	4	0	5	6	8	4	8	0	4	7	0	0	0	0	0	0
+ogaraged	Gargantula		N/A	Mount	monster	1:1	0	0	attr:Type="Mo"	hide		Monster (Stomp D6); Large Target; Terror; Strider, Immune to Psychology, Innate Defence (4+), Poisoned Attack (Spider only), Stubborn, Swiftstride, Insignificant		Arachnageddon Spider and 8 Forest Goblin Crew		7	4	0	5	6	8	4	8	0	4	7	0	0	0	0	0	0
+ogspide3	Giant Spider	Spidr	N/A	Mount	mount	1	0	0		hide					Spider of Snagla Grobspit	7	3	0	3	3	1	4	1	2	7	7	0	0	0	0	0	0
+oggnarla	Gnarla	Boar	N/A	Mount		1	0	0		hide		+2S on charge				7	3	0	4	4	1	3	1	3	7	7	0	0	0	0	0	0
+oggobbla	Gobbla		N/A	Monster		1:1	0	0	attr:Mv="S"	umax:1;hide		Killing Blow; Hate Dwarfs				0	5	0	6	0	0	4	4	0	7	7	0	0	0	0	0	0
+ogchgboy	Goblin Champion	Boyz	N/A	Champion	champ	1:1	10	0	coun	hide						4	3	4	3	3	1	2	2	6	6	7	0	0	1	0	0	0
+ogchwolf	Goblin Raidaz Champion	Wolf	N/A	Champion	champ	1:1	10	0	coun	hide						4	3	4	3	3	1	2	2	6	6	7	0	0	2	0	0	0
+oggcchar	Goblin Wolf Chariot	Char	N/A	Mount	mount	1:1	0	0	attr:At="D6+1";attr:Type="Ch"	hide		Chariot; Scythed Wheels		Includes 2 crew with short bows,  and 2 wolves; Includes Scythes, D6+1 impact hits.	chariot of hero or lord	0	0	0	5	4	3	0	0	0	5	7	0	0	4	0	0	0
+oggigspi	Huntsmen Spider		N/A	Mount	mount	1:1	0	0		hide		Monstrous Beast (Stomp 1); Strider; Poisoned Attacks; Mount’s Protection (5+)				7	3	0	4	4	3	4	3	7	7	0	0	0	3	0	0	0
+ogchblak	Iron Orc Boss	Black	N/A	Champion	champ	1:1	10	0	coun	hide						4	6	4	4	4	1	2	2	8	5	7	0	0	1	0	0	0
+ogcharer	Orc Arrer Boy Boss	Boyz	N/A	Champion	champ	1:1	10	0	coun	hide						4	3	4	4	4	1	2	1	7	6	7	0	0	1	0	0	0
+ogocchar	Orc Boar Chariot	Chrt	N/A	Mount	chariot	1:1	0	0	attr:At="D6+1"	hide		Scythed Wheels; Born to Fight (Orc Brute and War Boar only); Light Armour; Mount’s Protection (5+)		Includes 1 crew with lance, and 2 boars; Includes Scythes, D6+1 impact hits		0	0	0	5	5	4	0	0	0	4	7	0	0	4	0	0	0
+ogchboyz	Orc Champion	Boyz	N/A	Champion	champ	1:1	10	0	coun	hide						4	4	4	3	4	1	2	2	7	6	7	0	0	1	0	0	0
+ogobully	Orc Overseer	Bully	N/A	Champion		1:2	10	0	calc:Num=#;ratp:max=1:1	hide		Born to Fight		Includes light armour and choppa		4	3	3	3	3	1	2	1	7	6	7	0	0	0	0	0	0
+ogvetch	Orc Veteran Champion	Vetz	N/A	Champion	champ	1:1	10	0	coun	hide						4	5	4	4	4	1	2	2	7	7	7	0	0	1	0	0	0
+ogchsbor	Savage Orc Boar Boy Boss	Boar	N/A	Champion	champ	1:1	15	0	coun	hide						4	4	3	4	4	1	2	2	7	5	7	0	0	2	0	0	0
+ogchsboy	Savage Orc Boss	Boyz	N/A	Champion	champ	1:1	15	0	coun	hide						4	4	3	4	4	1	2	2	7	7	7	0	0	1	0	0	0
+ogspider	Scuttler Spider	Spidr	N/A	Mount	mount	1	0	0		hide		Fast Cavalry, Strider, Scout, Poisoned Attacks; Mount’s Protection (6+)				7	3	0	3	3	1	4	1	2	7	7	0	0	0	0	0	0
+ogspide2	Scuttler Spiders	Spidr	N/A	Mount	mount	1	0	0		hide		Fast Cavalry, Strider, Poisoned Attacks				7	3	0	3	3	1	4	1	2	7	7	0	0	0	0	0	0
+ognastys	Shady Gits		N/A	Other		1:3	15	0	coun	hide		Infantry; Supernatural Reflexes, in this unit’s first round of combat in the game: Killing Blow and Multiple Wounds (D3, Infantry and Cavalry)				4	4	3	3	3	1	6	2	6	6	7	0	0	1	0	0	0
+ogchspdr	Spider Rider Boss	Spdr	N/A	Champion	champ	1:1	10	0	coun	hide						4	2	3	3	3	1	2	2	6	6	7	0	0	2	0	0	0
+ogsquig	Squigs	Squig	N/A	Regiment		3	10	0	attr:Mv="2D6";calc:Num=#	hide					September 1, 2006	0	4	0	5	3	1	3	2	3	7	7	0	0	1	0	0	0
+ogboar	War Boar	Boar	N/A	Mount	mount	1	0	0		hide		Mount’s Protection (5+), Thunderous Charge				7	3	0	3	3	1	3	1	3	7	7	0	0	0	0	0	0
+oghboar	War Boar	Boar	N/A	Mount	mount	1:1	0	0		hide		Mount’s Protection (5+), Thunderous Charge				7	3	0	3	3	1	3	1	3	7	7	0	0	0	0	0	0
+oghwolf	Wolf	Wolf	N/A	Mount	mount	1:1	0	0		hide		Mount’s Protection (6+)				9	3	0	3	3	1	3	1	3	7	7	0	0	0	0	0	0
+ogwolf	Wolf	Wolf	N/A	Mount	mount	1	0	0		hide		Mount’s Protection (6+)				9	3	0	3	3	1	3	1	3	7	7	0	0	0	0	0	0
+ogwyvern	Wyvern	Wyver	N/A	Mount	mount	1:1	0	0	attr:Type="MB"	hide;umax:2-mode=d		Monstrous Beast (Stomp 1); Fly (8), Large Target, Poisoned Attacks, Fear, Beware the Sting: Nominate one attack of the model with this Special Rule, before rolling to hit. This attack has Multiple Wounds (Ordnance) special rule.				4	5	0	6	5	4	3	3	6	7	7	0	0	5	0	0	0
+ogggtshm	 Lord: Goblin Big Shaman	ShmLd	Hero	Wizard	Lord	1:1	150	100	ipts:total=100-each=100;type:common;type:skirmishers;type:Ld7;attr:Type="In";type:goblinhighshaman	clmt:spel<=Wz-msg=ogmsg1;umax:3u@4000-free=3-msg=crmsg901		Infantry; Insignificant		Lord; Wizard	091	4	2	3	3	4	3	2	1	7	7	7	3	2	1	3	0	0
+ogglord	 Lord: Goblin King	Lord	Hero	Lord	Lord	1:1	60	100	ipts:total=100-each=100;type:common;type:skirmishers;attr:Type="In";type:goblinwarboss;type:Ld8	umax:3u@4000-free=3-msg=crmsg901		Infantry; Insignificant; Unruly; Green Tide: Model and all Goblins with same Greenhide Race in It's Unit gain Fight In Extra Ranks Special Rule		Lord	9th age, 091	4	5	3	4	4	3	4	4	8	7	7	0	0	1	0	0	0
+ogogtshm	 Lord: Orc Big Shaman	ShmLd	Hero	Wizard	Lord	1:1	155	100	ipts:total=100-each=100;type:skirmishers;type:Ld8;type:shaman;attr:Type="In";type:orcgreatshaman;type:orc	clmt:spel<=Wz-msg=ogmsg1;umax:3u@4000-free=3-msg=crmsg901		Infantry (Ca if on boar, MC on Wyvern); Born to Fight		Lord; Wizard; Uses Path of da Big Green Gods	091	4	3	3	4	5	3	2	1	8	7	7	3	2	1	3	0	0
+ogolord	 Lord: Orc Warlord	Lord	Hero	Lord	Lord	1:1	130	100	ipts:total=100-each=100;type:skirmishers;type:Ld9;type:boss;attr:Type="In";type:orcwarboss;type:orc	umax:3u@4000-free=3-msg=crmsg901		Infantry; Born to Fight; Waaargh!		Lord	9th age, 091	4	6	3	5	5	3	4	4	9	7	7	0	0	1	0	0	0
+ogghero	Hero: Goblin Chief	Hero	Hero	Hero	Hero	1:1	40	100	ipts:total=100;type:common;type:skirmishers;attr:Type="In";type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;umax:3u@4000-free=3-msg=crmsg901		Infantry; Insignificant		Hero		4	4	3	4	4	2	3	3	7	7	7	0	0	1	0	0	0
+oggshm	Hero: Goblin Shaman	Shm	Hero	Wizard	Hero	1:1	60	100	ipts:total=50;type:common;type:skirmishers;type:Ld6;attr:Type="In"	clmt:spel<=Wz-msg=ogmsg1		Infantry; Insignificant		Hero; Wizard		4	2	3	3	3	2	2	1	6	7	7	1	1	1	1	0	0
+ogohero	Hero: Orc Chief	Hero	Hero	Hero	Hero	1:1	55	100	ipts:total=100;type:OHero;type:skirmishers;type:Ld8;type:boss;attr:Type="In";type:orc;type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;umax:3u@4000-free=3-msg=crmsg901		Infantry; Born to Fight; Waaargh!		Hero	091	4	5	3	4	5	2	3	3	8	7	7	0	0	1	0	0	0
+ogoshm	Hero: Orc Shaman	Shm	Hero	Wizard	Hero	1:1	60	100	ipts:total=50-each=50;type:OHero;type:skirmishers;type:Ld7;type:shaman;attr:Type="In";type:orc	clmt:spel<=Wz-msg=ogmsg1;umax:3u@4000-free=3-msg=crmsg901		Infantry; Born to Fight		Hero; Wizard	9th age	4	3	3	3	4	2	2	1	7	7	7	1	1	1	1	0	0
+oggobski	Forest Goblin Skirmishers	Gobs	Core	Regiment		20:20	4	0	type:infantry;calc:Num=#;attr:Type="In";ipts:total=25-each=25;type:coregoblins;type:forestgoblin	skip umax:4u@4000-free=4-msg=crmsg902		Infantry; Unruly; Mark of da Boss; Insignificant; Strider (Forest)				4	2	3	3	3	1	2	1	6	7	7	0	0	1	0	0	0
+oggwolf	Goblin Raiders	Wolfs	Core	Regiment		5:20	8	0	calc:Num=#;attr:Type="Ca";type:mounted	umax:4u@4000-free=4-msg=crmsg902		Unruly; Fast Cavalry; Insignificant; Mount's Protection (6+)		base cost: 60		4	2	3	3	3	1	2	1	6	6	7	0	0	2	0	0	0
+oggboyz	Goblins	Gobs	Core	Regiment	common	20:60	3	0	type:infantry;calc:Num=#;attr:Type="In";ipts:total=25-each=25;type:coregoblins	skip umax:4u@4000-free=4-msg=crmsg902		Infantry; Unruly; Mark of da Boss; Insignificant				4	2	3	3	3	1	2	1	6	7	7	0	0	1	0	0	0
+ogovet	Orc 'Eadbashers	Vetz	Core	Regiment		10:40	8	0	ipts:total=25-each=50;type:infantry;calc:Num=#;attr:Type="In";type:orcveterans	skip umax:4u@4000-free=4-msg=crmsg902;umax:1u		Infantry; Unruly; Born to Fight; Mark of da Boss		base cost: 60		4	4	3	4	4	1	2	1	7	7	7	0	0	1	0	0	0
+ogoboyz	Orcs	Boyz	Core	Regiment		10:50	6	0	ipts:total=25-each=25;type:infantry;calc:Num=#;attr:Type="In"	umax:4u@4000-free=4-msg=crmsg902		Infantry; Unruly; Mark of da Boss, Born to Fight		base cost: 50, size: 10-50		4	3	3	3	4	1	2	1	7	7	7	0	0	1	0	0	0
+oggiant	Giant	Giant	Special	Monster		1:1	140	0	attr:At="S";attr:Type="Mo"	skip must:option=ogwargia@min=1-msg=ogmsg16-istype=savsha;umax:3u@4000-free=3-msg=crmsg903		Monster (Stomp D6); Immune to Psychology; Stubborn; Large Target; Terror; Giant Attacks				6	3	3	6	5	6	3	0	10	7	7	0	0	6	0	0	0
+oggnadas	Gnasher Dashers	Hopps	Special	Regiment	infantry	5:10	10	0	calc:Num=#;attr:Type="Ca";attr:Mv="3D6"	umax:3u@4000-free=3-msg=crmsg903		Cavalry' Shambolic(3D6, Steady); Bouncy; Skirmishers; Mount's Protection (6+); Light Armour; Rows of Teeth: Gnashers make supporting attacks instead of their Cave Goblin riders				0	4	0	5	3	1	4	2	5	5	7	0	0	0	0	0	0
+oggnaher	Gnasher Herd	Squi	Special	Regiment	infantry	5:50	7	0	calc:Num=#;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903		Infantry; Cannot be joined by characters; Immune to Psychology; Insignificant; They're Everywhere!: When a Gnasher Herd breaks from combat, the unit is immediately removed as a casualty and all units within 4’’ take a number of Strength 5 hits equal to twice the number Full Ranks in the Gnasher Herd.				4	4	0	5	3	1	4	2	5	7	7	0	0	0	0	0	0
+oggchar	Goblin Wolf Chariot	Char	Special	Machine		1:3	55	0	attr:At="D6+1";calc:Num=#;attr:Type="Ch"	umax:3u@4000-free=3-msg=crmsg903		Chariot; Scythes; Free Reform; Insignificant;  Mount's Protection (6+); Scythes		Includes 3 crew with short bows and 2 wolves; Includes Scythes, D6+1 impact hits.		0	0	0	5	4	3	0	0	0	5	7	0	0	4	0	0	0
+ogsnots	Grotlings	Snots	Special	Regiment		2:6	10	0	calc:Num=#;attr:Type="Sw"	umax:3u@4000-free=3-msg=crmsg903		Swarm; Insignificant; Scout		base cost: 40	9th Age	4	2	3	2	2	5	2	5	4	7	7	0	0	0	0	0	0
+ogblacks	Iron Orcs	Black	Special	Regiment	infantry	10:35	12	0	calc:Num=#;ipts:total=50-each=50;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903		Infantry; Born to Fight; Weapon Masters; Immune to Psychology; Additional Hand Weapon (+1A,+1In); Great Weapon (+2St, 0In)		Heavy armour		4	5	3	4	4	1	2	1	8	7	7	0	0	1	0	0	0
+ogochar	Orc Boar Chariot	Char	Special	Machine		1:1	85	0	attr:At="D6+1";attr:Type="Ch"	umax:3u@4000-free=3-msg=crmsg903		Chariot; Born to Fight; Mount's Protection (5+); Scythes		Includes 2 crew with lances and 2 boars; Includes Scythes, D6+1 impact hits	9th Age	0	0	0	5	5	4	0	0	0	5	7	0	0	4	0	0	0
+ogoboars	Orc Boar Riders	Boar	Special	Regiment	Cavalry	5:15	14	0	ipts:total=25-each=50;calc:Num=#;type:ob;attr:Type="Ca";type:mounted	umax:3u@4000-free=3-msg=crmsg903		Cavalry; Unruly; Mark of da Boss; Born to Fight			9th Age	4	3	3	3	4	1	2	1	7	5	7	0	0	2	0	0	0
+ogscrapw	Scrap Wagon		Special	Machine		1:1	45	0	attr:Mv="3D6";calc:Num=#;attr:Type="Ch"	umax:3u@4000-free=3-msg=crmsg903		Chariot; Shambolic (3d6); Impact Hits (2D6); Insignificant; Unstable				0	0	0	4	4	3	0	0	0	6	0	0	0	4	0	0	0
+oggbolt	Skewerer	Bolt	Special	Machine	warmachine	1:1	45	0	calc:Num=#;attr:Type="WM"	ocat:Champion@1:1m-max-msg=ogmsg10;umax:3u@4000-free=3-msg=crmsg903		War Machine; Insignificant; Bolt Thrower Artillery Weapon: Range 48”, Strength 6, Multiple Wounds (D3), Armour Piercing (6)				0	0	0	0	7	3	0	0	0	7	7	0	0	3	0	0	0
+ogtrolls	Trolls	Troll	Special	Regiment	infantry	1:10	42	0	calc:Num=#;attr:Type="MI"	umax:3u@4000-free=3-msg=crmsg903		Monstrous Infantry (Stomp 1); Regeneration (4+); Stupidity; Troll Belch		Regeneration (4+); Stupidity; Troll Belch; Magic Resistance (3), Innate Defence (4+) (Stone Trolls Only); Distracting, Strider (Water) (River Troll only)	9th Age	6	3	2	5	4	3	2	3	4	7	7	0	0	3	0	0	0
+ogbobb	Black Orcs on Boars	Boar	Rare	Alternate Rules		5	28	0	ipts:total=50-each=50;calc:Num=#;type:ob;attr:Type="Ca"			Cavalry; Choppas; Immune to Psychology; Choppas; Armed to da Teef		UNOFFICIAL - by DeBelial; Includes heavy armour	UNOFFICIAL - by DeBelial	4	4	3	4	4	1	2	1	8	3	7	0	0	2	0	0	0
+ogarachn	Gargantula		Rare	Monster	monster	1:1	210	0	attr:Type="Mo"	umax:2u@4000-free=2-msg=crmsg904		Monster (Stomp D6); Large Target; Terror; Strider; Immune to Psychology; Innate Defence (4+); Poisoned Attacks (Spider only); Stubborn; Swiftstride; Insignificant; Venomous Fangs		Arachnarok Spider and 8 Forest Goblin Crew		7	4	0	5	6	8	4	8	0	4	7	0	0	0	0	0	0
+ogdoom	Git Launcher	Doom	Rare	Machine	warmachine	1:1	110	0	attr:Type="WM"	umax:2u@4000-free=2-msg=crmsg904		War Machine; Insignificant; Git Launcher: a Catapult Artillery Weapon: Range 12-60”, 1” Template, Strength 5, Armour Piercing (6). Instead of hitting models under the Template, any unit under the Template suffers D6 hits. After scatter of the Template has been determined, you may roll D6 and move the Template that amount of inches in any direction except moving on to units in close combat or onto friendly units. This is Final Position of the Template.				0	0	0	0	7	3	0	0	0	7	7	0	0	3	0	0	0
+ogmangle	Gnasher Wreckin' Team		Rare	Monster		1:1	80	0	attr:Mv="3D6";calc:Num=#;attr:Type="MB"	umax:2u@4000-free=2-msg=crmsg904		Monstrous Beast; Shambolic(3D6); Ricochet (2D6); Accident Prone; Blurry; Look At 'Em Go!: After touching the unit for the first time in the game Gnashers substitute their Shambolic (3d6) with Shambolic (3d6, Running Amok!!) Special Rule.			9th Age	0	0	0	6	4	3	3	2	3	7	7	0	0	0	0	0	0
+ogavatar	Great Green Idol	Giant	Rare	Monster		1:1	240	0	attr:Type="Mo";ipts:total=100	skip must:option=ogwargia@min=1-msg=ogmsg16-istype=savsha;umax:3u@4000-free=3-msg=crmsg903		Monster (Stomp D6); Immune to Psychology; Large Target; Terror; Crush Attack; Innate Defence (2+); Impact Hits (D3); Smash 'Em Flat: All friendly Units within 8“ have the Hatred Special Rule if Idol is in combat; We've Got the Green Light: All friendly Units within 8” can re-roll charge distance rolls if Idol declared a charge this turn.				6	2	0	6	6	7	2	3	10	2	7	0	0	6	0	0	0
+oggstone	Splatterer	Stone	Rare	Machine	warmachine	1:1	90	0	attr:Type="WM"	umax:2u@4000-free=2-msg=crmsg904		War Machine; Insignificant; Stone Thrower: Catapult Artillery Weapon: Range 12-60”, 3” template, Strength 3 [9], [Multiple Wounds (Ordnance)]		Stone Thrower	9th Age	0	0	0	0	7	3	0	0	0	7	7	0	0	3	0	0	0
+xogochar	Brutal Rider	Char	N/A	Regiment	crew	1	0	0	type:mounted							0	4	3	4	0	0	2	1	7	7	7	0	0	0	0	0	0
+xogcagor	Cave Goblin Riders	Char	N/A	Regiment		1	0	0	type:mounted			Hatred (Dwarven Holds)				0	2	3	3	3	1	3	1	5	7	7	0	0	0	0	0	0
+xoggchar	Common Goblin Crew	Char	N/A	Regiment		1	0	0	type:mounted							0	2	3	3	0	0	2	1	6	7	7	0	0	0	0	0	0
+xogblt	Common Goblins	Crew	N/A	Regiment		1	0	0	calc:Num=#					Goblin crew		4	2	3	3	3	1	2	1	6	7	7	0	0	0	0	0	0
+xogspicr	Forest Goblin Crew		N/A	Regiment		1	0	0	type:mounted							0	2	3	3	0	0	2	1	6	7	7	0	0	0	0	0	0
+xogsnot	Grotlings	Char	N/A	Regiment		1	0	0								0	2	3	2	0	0	2	1	4	7	7	0	0	0	0	0	0
+xogfanat	Mad Git	Fanat	N/A	Siege		1:3	30	0	attr:Mv="2D6";calc:Num=#;attr:Type="In"			Infantry; Hidden and Mad, Shambolic (2D6, Running Amok!!), Accident Prone, Ricochet (1D6), Blurry; Suprise!				0	0	0	5	3	1	0	1	5	7	7	0	0	0	0	0	0
+xogsocha	Orc Crew	Char	N/A	Regiment		1	0	0				Ignore goblin panic.		Frenzy.	crew for savage character's chariot	0	3	3	3	0	0	2	1	7	7	7	0	0	0	0	0	0
+^
+oga	A		Priority	N/A	0	hide;rept:ogsquig@32				
+ogbbbgn2	Big 'Uns		Priority	N/A	4	unam:="Orc Boar Big 'Uns";base:St+1;base:Ws+1;lglx:mode=g			+1Ws, +1St, Allowed Magic Standard	Big 'Uns upgrade for OrcBoar Boyz
+ogbbbgns	Big 'Uns		Priority	N/A	4	unam:="Orc Boar Big 'Uns";type:bigun;base:St+1;base:Ws+1;dtyp:ob;type:obig;lglx:!mode=g			+1Ws, +1St, Allowed Magic Standard	Big 'Uns upgrade for OrcBoar Boyz
+ogobbgn2	Big 'Uns		Priority	N/A	2	unam:="Orc Big 'Uns";base:St+1;base:Ws+1;over:st10=delete;show:stmg10;lglx:mode=g			+1Ws, +1St, Allowed Magic Standard	Big 'Uns upgrade for Orc Boyz
+ogobbgns	Big 'Uns		Priority	N/A	2	unam:="Orc Big 'Uns";type:bigun;base:St+1;base:Ws+1;dtyp:o;type:obig;lglx:!mode=g;over:st10=delete;show:stmg10			+1Ws, +1St, Allowed Magic Standard	Big 'Uns upgrade for Orc Boyz
+ogsbbgns	Big 'Uns		Priority	N/A	4	unam:="Savage Orc Boar Big 'Uns";type:bigun;base:St+1;base:Ws+1;dtyp:sob;type:obig			+1Ws, +1St,	Big 'Uns upgrade for Savage Orc Boar Boyz
+ogsobgns	Big 'Uns		Priority	N/A	2	unam:="Savage Orc Big 'Uns";type:bigun;base:St+1;base:Ws+1;dtyp:so;type:obig			+1Ws, +1St, 	Big 'Uns upgrade for Savage Orc Boyz
+ogbless2	Blessing Spells		Priority	N/A	0	take:ogwaghl5-free-perm;take:ogwaghl6-free-perm;take:ogwaghb3-free-perm				
+ogbg	Bodyguard		Priority	N/A	0			Forms unit with Grabnatz; Protects Grabnatz against first missile/one model in CC on 4+	Must remain in btb contact with Grabnatz (count as single skirmishing unit, can join other units); First missile hitting Grabnatz hits Gulag instead on a 4+; Attacks from one model on Grabnatz are directed at Gulag instead on a 4+	
+ogbodyg2	Bodyguard		Priority	N/A	0	unit:ogbodyg2@var				
+ogbodygd	Bodyguard		Priority	N/A	0	unit:ogbodygd@var				
+ogmarkb3	Boss' Magic Standard	ModB	Priority	N/A	0	type:markofdaboss;type:markforest;over:st10=delete;show:stmg10			One unit in army that have Mark of da Boss and is of the same race as the general, may take a magic standard worth 25pts more than they otherwise would.	Forest Goblins
+ogobullr	Bully Required		Priority	N/A	0	lglx:mode=g;slct:ogobully=auto;hide				Grimgor's list
+ognogen	Can't be General		Priority	N/A	0	over:general=delete;lglx:mode=g;hide				
+ogspishr	Catchweb Spidershrine	CaSp	Priority	N/A	40		Catchweb Spidershrine: A Shaman riding Arachnarok has Loremaster (Little Waaagh!) special rule. Any friendly Wizards within 12" of Arachnarok add +2 to their channeling attempts.			
+ogcorebb	Count as Core	Core	Priority	N/A	0	xcmp:core;type:coreboarboyz				
+ogmarkb1	Da Boss' Magic Standard	ModB	Priority	N/A	0	type:markofdaboss;over:st10=delete;show:stmg10			One unit in army that have Mark of da Boss and is of the same race as the general, may take a magic standard worth 25pts more than they otherwise would.	Goblins, Goblin Wolf Riders
+ogmarkb2	Da Boss' Magic Standard	ModB	Priority	N/A	0	type:markofdaboss;ichg:-25			One unit in army that have Mark of da Boss and is of the same race as the general, may take a magic standard worth 25pts more than they otherwise would.	Cave Goblins
+oghowler	Da Howlerz		Priority	N/A	0	unit:oghowler@var				
+ogdeff	Deff Creepers		Priority	N/A	0	unit:ogdeff@var				
+ogextra	Extra base cost		Priority	N/A	-20	hide;cost:single;xcst:20-unit=oggwolf;xcst:20-unit=ogsnots;xcst:-10-unit=ogoboyz				
+oggboss0	Goblin Boss type		Priority	N/A	0	tabl:CommonGoblin=oggboss1,ForestGoblin=oggboss2,CaveGoblin=oggboss3				
+ogghsha0	Goblin High Shaman type		Priority	N/A	0	tabl:CommonGoblin=ogghsha1,ForestGoblin=ogghsha2,CaveGoblin=ogghsha3-noname				
+oggrai0	Goblin Raidaz type		Priority	N/A	0	tabl:CommonGoblins=oggrai1,ForestGoblins=oggrai2-noname				
+oggob0	Goblin Runts type		Priority	N/A	0	tabl:CommonGoblins=oggob1,ForestGoblins=oggob2,CaveGoblins=oggob3-noname				
+oggsha0	Goblin Shaman type		Priority	N/A	0	tabl:CommonGoblin=oggsha1,ForestGoblin=oggsha2,CaveGoblin=oggsha3-noname				
+oggwar0	Goblin Warboss type		Priority	N/A	0	tabl:CommonGoblin=oggwar1,ForestGoblin=oggwar2,CaveGoblin=oggwar3				
+ogbless	Gork's Blessing	Bless	Priority	N/A	0		Roll for every Orcs Standard before game to see what Bound Spell it gets: 1-2 Hand of Gork, 3-4 Bash 'em Ladz, 5-6 'Ere We Go. Power Level 4 + 1 for having US15+, a Warboss or Bigboss in unit and/or being in close combat		Prints Gork's Blessing	
+oggrina2	Grimgor in army	Trust	Priority	N/A	0	over:general=delete	Must deploy within 12" of Grimgor			
+oggrinar	Grimgor in army		Priority	N/A	-40	type:grimgorinarmy			Effigy is free when you have Grimgor in your army	
+ogignor2	Ignore		Priority	N/A	0	hide;acmp:Hero+1u				
+ogignor3	Ignore		Priority	N/A	0	hide;acmp:Hero+1u;utyp:mounted;lglx:mode=g				
+ogignore	Ignore		Priority	N/A	0	hide;acmp:Hero+1u;lglx:!mode=g				
+ogmushro	Magic Mushrooms		Priority	N/A	0		After rolling dice to cast a spell, you MUST eat Magic Mushroom. This adds D6 to casting roll, but it is not counted as Power Dice, so cannot cause Irresistible Force. If this extra dice rolls '1', roll D6. On 1-3 Shaman receives 1 wound, on 4+ nothing happens. Furthermore spell automaticaly fails, unless it was cast with IF.			
+ogmasqru	Mangler Squig Rules		Priority	N/A	0		If his move will bring him into contnact with another unit he is automaticaly placed 1" behind it. Any unit Mangler moves through suffer 2D6 S6 Armour piercing hits; After first hitting of another unit Mangler will move in random direction; Mangler may not be charged, but any unit can come into base contact with him, take 3D6 S6 Armour piercing hits and the squig is removed; Counts as being in soft cover; He dies if he contact another Magler Squig, rolles triple for movement or is touched by any unit (see above); In Forest, Marshes, Obstacles and Mystical Monuments he must take a Dangerous Terrain test. He also tests for DT if he comes into base contact with Building or Impassable Terrain.			
+ogmtncon	Mountain/Troll Country		Priority	N/A	0	show:oglwmnt;lglx:mode=d			Provides availability of Wyvern mount for Mountain/Troll Country armies.	September 1, 2002
+ogboarvt	Mounted 'Eadbashers		Priority	N/A	4	type:boarveterans;unam:="Mounted 'Eadbashers";base:St+1;base:WS+1;chld:champ@St+1-base;chld:champ@WS+1-base;show:ogha2;over:st10=delete;show:stmg10;over:ogcorebb=delete			Models gain +1Ws and +1St. Can carry magic standard worth up to 25 points.	
+ogniblit	Niblit		Priority	N/A	0	hide;unit:ogniblit@abs=1				
+ognocore	No Core Choice		Priority	N/A	0	acmp:Core-1u;hide				
+ogchoice	Opponent's Approval		Priority	N/A	0					
+ogboar0	Orc Boar Riders type		Priority	N/A	0	tabl:CommonOrcs=ogboar1,FeralOrcs=ogboar2-noname				
+ogoboss0	Orc Boss type		Priority	N/A	0	tabl:CommonOrc=ogoboss1,FeralOrc=ogoboss2,IronOrc=ogoboss3				
+ogovet0	Orc Brutes type		Priority	N/A	0	tabl:CommonOrcs=ogovet1,FeralOrcs=ogovet2-noname				
+ogohsha0	Orc High Shaman type		Priority	N/A	0	tabl:CommonOrc=ogohsha1,FeralOrc=ogohsha2-noname				
+ogoladz0	Orc Ladz type		Priority	N/A	0	tabl:CommonOrcs=ogoladz1,FeralOrc=ogoladz2-noname				
+ogosha0	Orc Shaman type		Priority	N/A	0	tabl:CommonOrc=ogosha1,FeralOrc=ogosha2				
+ogowar0	Orc Warboss type		Priority	N/A	0	tabl:CommonOrc=ogowar1,FeralOrc=ogowar2,IronOrc=ogowar3				
+ogpw3	Pointy Sticks	Flapp	Priority	N/A	10		Impact Hits have Armour Piercing (2).			
+ogpowmu	Power 'Shrooms	PMush	Priority	N/A	20	utyp:cavegoblin	Generate D3+1 Power ‘Shrooms at the end of deployment. When declaring usage of Power Dice you may use single mushroom to add D3 to Casting Result. If this die rolls a natural 1, the wizard takes a Strength 3 hit with Armour Piercing (6).			
+ogpw2	Pursuit Mode	Outrg	Priority	N/A	15		Unit replaces Shambolic (3d6) with Shambolic (3d6, steady) and gains Bouncy Special Rule.			
+ogrivtro	River Trolls	River	Priority	N/A	20	name:"River Trolls"	-1 to be hit in close combat			
+ogpw1	Smasher	SpikR	Priority	N/A	15	base:St+1	Scrap Wagon has +1 Strength			
+ogpw4	Smells Like Green Spirit	GXSpo	Priority	N/A	10		Unit gains Distracting and Blurry Special Rules.			
+ogstotro	Stone Trolls	Stone	Priority	N/A	20	name:"Stone Trolls"	Magic Resistance (2)		5+ Armour Save	
+ogtaunt	Taunt		Priority	N/A	0				May taun one Dwarf unit at start of Dwarf turn: They must pass a LD-test or charge Grotsnag	
+ogtroll0	Troll types		Priority	N/A	0	tabl:CommonTrolls=ogtroll1,StoneTroll=ogtroll2,RiverTroll=ogtroll3				
+ogscarp1	Trolley upgrade	TrUpg	Priority	N/A	25	base:St+1			+1 Strength.	
+ogmiscas	Waaagh! Miscast Table	MsT	Priority	N/A	0	apnd:foot		Roll 2D6: 2 = Killed, models in base contact suffer S10 hit, all friendly units on table suffer D6 S3 hits; 3-4 = Killed, models in base contact suffer S10 hit; 5-6 = Suffers D3 S4 hits (no armour save); 7 = Forgets this spell; 8-9 = Suffer 1 Wo (no armour save); 10-11 = Stupidity & Frenzied (never lost) for rest of battle; 12 = Spell is cast with IF, roll again on this table but re-roll further rolls of 12.	Attaches Miscast Table to end of roster	
+ogward5	Ward Save (5+)	Ward5	Priority	N/A	0	base:WSv=5;hide				
+ogward6	Ward Save (6+)		Priority	N/A	10					
+ogweptbl	Weapon table		Priority	N/A	0	tabl:Great_Weapon=2handtr4,Extra_Weapon=2ndhwtr2				
+ogspifli	Web Launcher	WebL	Priority	N/A	30		Catapult Artillery Weapon: Range 6-36”, 3” template, Strength 3, targets hit suffers -D3 to Movement and Initiative characteristics until the start of your next turn. Effect of several Web launches doesn’t combine.			
+ogstabba	Mammoth Stabber	MStab	First	N/A	15	cost:single;utyp:feralorc	^	^	Unit with at least one Full rank on charge inflicts Impact Hits (D3) with a Strength 5, Multiple Wounds (Ordnance; Large Targets).	
+ognet	Nets	Net	First	N/A	45	cost:single;utyp:cavegoblin	At the start of a round of combat, choose one unit in base contact with the unit carrying nets. roll a D6. On 2+ the target unit suffers -1 Strength (to a minimum of 1) for the remainder of the player turn. On the roll of 1, the unit with Nets suffer the penalty instead. . Unit can be affected by nets only once per phase.			
+ogbig	Big Waagh	Wgh	SpellType	Mgc	0	type:ogwaghb;show:ogshow;show:ogfull;item:+12				
+oglittle	Little Waagh	Wgh	SpellType	Mgc	0	type:ogwaghl;show:ogfull;show:ogshow;item:+6				
+og2ndftl	2nd Weapon	xhw	Weapon	2Hd	5	stat:At+1;stat:In+1;utyp:!mounted;xcst:0-unit=ogghero	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.			
+og2ndhdm	2nd Weapon	xhw	Weapon	N/A	2	stat:At+1;stat:In+1;utyp:feralorc	Requires Two Hands. +1 Attack and +1 Initiative. 			Savage orcs only - can use while mounted
+og2ndmt	2nd Weapon	xhw	Weapon	2Hd	5	stat:At+1;stat:In+1	Requires Two Hands. +1 Attack and +1 Initiative. 			Savage orc only - can use while mounted
+ogteeth	Armed to Da Teef		Weapon	N/A	0		Count as having 2 choppas and a great weapon. Choose weapon at start of combat			
+ogteeth2	Armed to Da Teef		Weapon	N/A	0		Count as having Spears and Great weapons. Choose weapon at start of combat.			
+ogchoppa	Choppa	Cho	Weapon	N/A	0			On foot, +1S in 1st round. Parry with shield.	On foot, +1 Strength in 1st round of combat. Works for 1 or 2 choppas. With a shield, also get +1 Armour Save in close combat (like other hand weapons).	
+ogspores	Explodin' Spores	ExpSp	Weapon	N/A	0		Thrown Weapon; Range 6"; Hits automaticaly, No armour saves			
+ogxhw	Extra Axe	xhw	Weapon	N/A	0	olgl:unit=ogmorglm;stat:At+1	+1 At  - even tho on boar			
+ogbrew	Fungas Brew		Weapon	N/A	0		One barrel per 2 models; Two Goblins can move at full speed with barrel, one at half speed; Fuse lit at start of O&G movement phase, explodes at end of the phase; D3" blast radius (not inside tower), Roll an artillery dice to determine Strength; Misfire = nothing happens, otherwise the hit causes 2D6 Wounds; Each barrel after the first means you roll extra dice but you only take the highest, though the explosion causes +1W per additional barrel; Loons removed before explosion, no VP for them		Prints rules for Fungas Brew	
+oggw	Great Weapon	GW	Weapon	2Hd	15	stat:St+2;type:GreatWeapon;xcst:10-unit=ogohero;xcst:5-unit=ogghero;xcst:10-unit=ogglord	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+oggwao	Great Weapon	GW	Weapon	2Hd	1	utyp:ardorc;stat:St+2;type:GreatWeapon;chld:champ@St+2	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+oggwftl	Great Weapon	GW	Weapon	2Hd	6	stat:St+2;utyp:!mounted;type:GreatWeapon	+2S, Always strikes last, Two-handed		Lord Great Weapon on Foot	
+oggwmth	Great Weapon	GW	Weapon	2Hd	4	stat:St+2;utyp:mounted;type:GreatWeapon	+2S, Always strikes last, Two-handed		Hero Great Weapon Mounted	
+oglance	Lance	Lnc	Weapon	Wep	15	utyp:mounted;xcst:10-unit=ogohero;xcst:2-unit=ogoboars;xcst:10-unit=ogglord;xcst:5-unit=ogghero	+2 Strength when charging. Mounted models only.			
+oglance2	Lance	Lnc	Weapon	N/A	4	over:ogllance=delete;utyp:commonorc	+2 Strength when charging. Mounted models only.			
+ogllance	Light Lance	LLnc	Weapon	Wep	8	utyp:mounted;xcst:0-unit=ogghero;xcst:1-unit=oggwolf	+1 Strength when charging. Mounted models only.			
+ogsh1	Shield	Sh	Weapon	Shd	1	more:save1=incl	+1 AS; Parry (foot models only)			boyz shield - conflicts with weapons
+ogsh2	Shield	Sh	Weapon	Shd	2	more:save1=incl;utyp:commonorc	+1 AS; Parry (foot models only)			brutes shield - conflicts with weapons
+ogsh3	Shield	Sh	Weapon	Shd	3	more:save1=incl;utyp:feralorc	+1 AS; Parry (foot models only)			neanderorc brutes shield - conflicts with weapons
+ogshbsh	Shortbow & Shield	SBSh	Weapon	Wep	1	more:save1=incl;utyp:commongoblin;over:ogspsh=delete;over:ogsh1=delete;over:ogsbow=delete	Range 18". Strength 3 hit. Volley fire. Shield (Parry)			
+ogspsh	Spear & Shield	SpSh	Weapon	Shd	1	more:save1=incl;utyp:!MagicShield;xcst:0-unit=oggboyz	Fight in Extra Ranks. Killing Blow against Cavalry, Monstrous Cavalry and Chariots engaged in the front.			
+ogblow	Blowpipe		Missile	N/A	0		Rng 12"; 2xMultiple Shots; St3; Suffer LR, moving & shooting penalties			
+ogbow2	Bows	NBw	Missile	Rng	1			24", St3, Volley fire	Range 24". Strength 3 hit. Volley fire	
+ogxbha	Crossbows & Heavy Armour	XbHa	Missile	N/A	4	utyp:commonorc;more:hahro=incl;over:ogsh1=delete;over:ogbow2=delete;over:2ndhwtr1=delete;over:ogspsh=delete;over:lahro=delete	Range 30". Strength 4. Unwieldy. 	24", St3, Volley fire	Exchange all their equipment for Crossbows and Heavy Armour.	
+ogsbhalf	Shortbow	SBw	Missile	N/A	1	utyp:commongoblin;over:sprtrp=delete;over:ogsb1=delete	Range 18". Strength 3 hit. Volley fire.			
+ogsbhro	Shortbow	SBw	Missile	Wep	2	over:sprtrp=delete;type:missiles		18", St3 hit, Volley	Range 18". Strength 3 hit. Volley fire	
+ogsbow	Shortbow	SBw	Missile	Wep	0	type:missiles		18", St3 hit, Volley	Range 18". Strength 3 hit. Volley fire	
+ogsbow1	Shortbow	SBw	Missile	N/A	1	over:javtrp=delete		18", St3 hit, Volley	Range 18". Strength 3 hit. Volley fire.	
+ogsb1	Shortbow (repl.Shield)	SBw	Missile	N/A	0	over:sprtrp=delete;over:ogsbhalf=delete;over:shoptrp=delete	Range 18". Strength 3 hit. Volley fire.		Replace Shields with Short Bows.	
+ogthrow	Throwing Weapons	Thr	Missile	N/A	0	utyp:forestgoblin		24", St3, Volley fire	Range 12". Strength as user. Muliple Shots (2). Quick to Fire	
+ogha	Heavy Armour	HvAr	Armour	N/A	10	more:save2=incl;over:lalrd=delete;utyp:!MagicArmour;xcst:15-unit=ogglord;xcst:5-unit=ogohero;xcst:10-unit=ogghero;xcst:2-unit=ogoboars				
+ogha2	Heavy Armour	HvAr	Armour	N/A	2	more:save2=incl;over:lalrd=delete;utyp:commonorc				
+ogplate	Plate Armour	PlAr	Armour	N/A	20	more:save3=incl;over:lalrd=delete;utyp:!MagicArmour&ardorc;over:hahro=delete;xcst:15-unit=ogohero;xcst:2-unit=ogblacks				
+ogsh	Shield	Sh	Armour	N/A	10	more:save1=incl;utyp:!MagicShield;xcst:5-unit=ogglord	+1 AS; Parry (foot models only)			
+ogbbpnt	Warpaint	Pnt	Armour	N/A	3	base:Wsv=6;type:ward;chld:champ@Wsv=6-base	6+ ward save			Warpaint for SO Boar Boyz
+oghpaint	Warpaint	Pnt	Armour	N/A	8	base:Wsv=6;type:ward	6+ ward save			Warpaint for SO Hero
+oglpaint	Warpaint	Pnt	Armour	N/A	12	base:Wsv=6;type:ward	6+ ward save			Warpaint for SO Lord
+ogpaint	Warpaint	Pnt	Armour	N/A	1	base:Wsv=6;type:ward;chld:champ@Wsv=6-base	6+ ward save			Warpaint for SO Boyz
+ogwargia	Warpaint	Pnt	Armour	N/A	20	base:Wsv=6;type:ward;type:ogwargia	6+ ward save			Warpaint for Giant
+ogbbmgst	Allow Magic Standard		Standard	N/A	0	spec:+stnd;type:bbmgstd;cost:single;item:1			One unit of Boar Boyz may take a magic standard.	Magic Standard for Boar Boyz
+ogsbbmst	Allow Magic Standard		Standard	N/A	0	spec:+stnd;type:sobbmgstd;cost:single;item:1			One unit of Savage Orc Boar Boyz may take a magic standard.	Magic Standard for Boar Boyz
+ogbbstd	Standard	Std	Standard	N/A	14	cost:single;show:ogbbmgst		+1CR	Adds +1 to combat result	
+ogsbbstd	Standard	Std	Standard	N/A	14	cost:single;show:ogsbbmst		+1CR	Adds +1 to combat result	
+ogst	Standard	Std	Standard	N/A	83	cost:single		+1 to CR		
+ogbobbb	Boss		Champion	N/A	0	unit:ogchblak@abs=1;csiz:ogboar+1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogcharer	Boss		Champion	N/A	0	unit:ogcharer@abs=1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchblak	Boss		Champion	N/A	0	unit:ogchblak@abs=1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchboar	Boss		Champion	N/A	0	unit:ogchboar@abs=1;csiz:ogboar+1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchboyz	Boss		Champion	N/A	0	unit:ogchboyz@abs=1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchgboy	Boss		Champion	N/A	0	unit:ogchgboy@abs=1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchhowl	Boss		Champion	N/A	0	unit:ogchhowl@abs=1;csiz:ogwolf+1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchnboy	Boss		Champion	N/A	0	unit:ogchnboy@abs=1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchsbor	Boss		Champion	N/A	0	unit:ogchsbor@abs=1;csiz:ogboar+1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchsboy	Boss		Champion	N/A	0	unit:ogchsboy@abs=1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchspdr	Boss		Champion	N/A	0	unit:ogchspdr@abs=1;csiz:ogspide2+1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogchwolf	Boss		Champion	N/A	0	unit:ogchwolf@abs=1;csiz:ogwolf+1;modl:-1;cost:model			Upgrades a model to a Boss	
+ogvetch	Boss		Champion	N/A	0	unit:ogvetch@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+ogobully	Orc Overseer	Bul	Champion	N/A	15	unit:ogobully@per=1;base:Wo=4			Add one Common Orc as a Crew member. Increases Wounds of the Machine to 4, and removes the Insignificant special rule.	
+ogarage2	Arachnageddon Spider		Mount	Mon	210	utyp:forestgoblin;unit:ogarage2@abs=1;slct:heromnt=incl;type:mounted				Shaman's version
+ogaraged	Arachnageddon Spider		Mount	Mon	210	utyp:forestgoblin;unit:ogaraged@abs=1;slct:heromnt=incl;type:mounted				
+ogarasha	Arachnarok Spider		Mount	Mon	0	unit:ogarasha@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl				
+oggrcasq	Cave Gnasher		Mount	Mnt	20	utyp:cavegoblin;unit:oggrcasq@abs=1;slct:heromnt=incl;type:mounted;stxt:Type="MC";more:save1=incl;xcst:15-unit=ogghero				
+ogcagor	Cave Goblin Riders		Mount	Mnt	0	unit:xogcagor@per=1;hide				
+oggromcr	Chariot		Mount	Chr	0	unit:oggcchgm@abs=1;slct:heromnt=incl;type:mounted;hide;stat:Sv-1				
+ogspide3	Giant Spider		Mount	Mnt	0	unit:ogspide3@per=1				
+oggnarla	Gnarla		Mount	Mnt	16	unit:oggnarla@abs=1;slct:heromnt=incl;more:save2=incl;type:mounted				
+oggobbla	Gobbla		Mount	N/A	0	unit:oggobbla@abs=1;hide				
+oggccha	Goblin Wolf Chariot		Mount	Chr	20	unit:oggcchar@abs=1;slct:heromnt=incl;type:mounted;stat:Sv-1;xcst:40-unit=ogghero;xcst:25-unit=oggshm				
+oggrcs50	Great Cave Squig		Mount	Mnt	50	unit:oggrcasq@abs=1;slct:heromnt=incl;type:mounted;stxt:Type="MC";more:save1=incl				
+oggiaspi	Huntsmen Spider		Mount	Mnt	20	utyp:forestgoblin;unit:oggigspi@abs=1;slct:heromnt=incl;type:mounted;more:save2=incl;stxt:Type="MC";xcst:15-unit=ogghero				
+ogironbk	Ironback Boar		Mount	Mnt,Chr,Mon	0	unit:oghboar@abs=1;slct:heromnt=incl;more:save2=incl;type:mounted;over:choppa=delete;slct:choppa2=incl;utyp:Cyboar;over:oghbmnt=delete;over:oglbmnt=delete;over:ogoccha=delete;stxt:Type="Ca"				
+ogoccha	Orc Boar Chariot		Mount	Chr	35	unit:ogocchar@abs=1;slct:heromnt=incl;type:mounted;stat:Sv-2;type:boarchariot;xcst:50-unit=ogoshm;xcst:70-unit=ogohero				
+oggisphe	Scuttler Spider		Mount	Mnt	15	utyp:forestgoblin;unit:ogspider@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl;stxt:Type="Ca";xcst:25-unit=oggshm				
+oggisplo	Scuttler Spider		Mount	Mnt	20	utyp:forestgoblin;unit:ogspider@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl;stxt:Type="Ca"				
+ogspider	Scuttler Spider		Mount	Mnt	0	unit:ogspide2@per=1;utyp:forestgoblin				
+oghopsqu	Squig Hoppers		Mount	Mnt	0	unit:oghopsqu@per=1;hide				
+ogulda	Ulda the Wolf		Mount	Mnt	12	unit:ogulda@abs=1;type:mounted				
+ogboar	War Boar		Mount	Mnt	0	unit:ogboar@per=1				
+oghbmnt	War Boar		Mount	Mnt	15	unit:oghboar@abs=1;slct:heromnt=incl;more:save2=incl;type:mounted;over:choppa=delete;slct:choppa2=incl;type:boar;stxt:Type="Ca"				
+oglbmnt	War Boar		Mount	Mnt	20	unit:oghboar@abs=1;slct:heromnt=incl;more:save2=incl;type:mounted;over:choppa=delete;slct:choppa2=incl;type:boar;stxt:Type="Ca"				
+oghwolf	Wolf		Mount	Mnt	15	utyp:commongoblin;unit:oghwolf@abs=1;slct:heromnt=incl;more:save1=incl;type:mounted;stxt:Type="Ca"				
+oglwolf	Wolf		Mount	Mnt	15	utyp:commongoblin;unit:oghwolf@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl;stxt:Type="Ca"				
+ogwolf	Wolf		Mount	Mnt	0	unit:ogwolf@per=1;utyp:commongoblin				
+oglwmnt	Wyvern		Mount	Mon	120	unit:ogwyvern@abs=1;slct:heromnt=incl;type:mounted;stxt:Type="MC";xcst:150-unit=ogohero				
+ogg3wolf	3rd wolf		Crew	N/A	5	unit:ogwolf@per=3;over:oggwolf=delete			   	
+oggcchar	Chariot Crew		Crew	N/A	0	unit:xoggchar@per=2;hide			   	
+oggchar	Chariot Crew		Crew	N/A	0	unit:xoggchar@per=3;hide			   	
+ogocchar	Chariot Crew		Crew	N/A	0	unit:xogochar@per=1;unit:ogboar@per=2;hide			   	
+ogochar	Chariot Crew		Crew	N/A	0	unit:xogochar@per=2;unit:ogboar@per=2;hide			   	
+ogsochar	Chariot Crew		Crew	N/A	0	unit:xogsocha@per=2;unit:ogboar@per=2;hide			   	
+oggwolf	Chariot Wolves		Crew	N/A	0	unit:ogwolf@per=2;hide			   	
+ogbltcrw	Crew		Crew	N/A	0	hide;unit:xogblt@per=3			   	
+ogspicr	Crew		Crew	N/A	0	hide;unit:xogspicr@per=8			   	
+ogstncrw	Crew		Crew	N/A	0	hide;unit:xogblt@per=3			   	
+oggxccrw	Extra Crew		Crew	N/A	5	unit:xoggchar@per=3;over:oggcchar=delete			   	
+oggxcrew	Extra Crew		Crew	N/A	5	unit:xoggchar@per=4;over:oggchar=deselect			   	
+ogoxccrw	Extra Crew		Crew	N/A	5	unit:xogochar@per=2;unit:ogboar@per=2;over:ogocchar=delete			   	
+ogoxcrew	Extra Crew		Crew	N/A	5	unit:xogochar@per=3;unit:ogboar@per=2;over:ogochar=delete			   	
+ogsoxcrw	Extra Crew		Crew	N/A	5	unit:xogsocha@per=3;unit:ogboar@per=2;over:ogsochar=delete			   	
+ogpumpcw	Pump Wagon Crew		Crew	N/A	0	unit:xogsnot@per=5;hide				
+ogfrchoc	"Free" choice		Priority1	N/A	0	type:2ndC;acmp:Spec-1u;dtyp:1stC;type:2ndC-grand;dtyp:1stC-grand;usiz:max=1				
+ogtroll3	Bridge Trolls	CT	Priority1	N/A	8	type:rivertrolls;unam:<"Bridge "	Distracting; Strider (Water)		Only units of 9 or less models - NOT validated by army builder.	
+ogghsha3	Cave Goblin Big Shaman	CHSh	Priority1	N/A	0	type:cavegoblinhighshaman;type:cavegoblin;unam:="Lord: Cave Goblin Big Shaman";over:oggccha=delete;base:In+1;base:Ld-1	Hatred (Armybook: Dwarven Holds)		In+1, Ld -1	
+oggboss3	Cave Goblin Chief	CGB	Priority1	N/A	0	type:cavegoblinboss;type:cavegoblin;show:lahro;unam:="Hero: Cave Goblin Chief";over:oggccha=delete;base:In+1;base:Ld-1	Hatred (Armybook: Dwarven Holds)			
+oggwar3	Cave Goblin King	CGWB	Priority1	N/A	5	type:cavegoblinwarboss;type:cavegoblin;unam:="Lord: Cave Goblin King";over:oggccha=delete;base:In+1	Hatred (Armybook: Dwarven Holds)		+1 In	
+oggsha3	Cave Goblin Shaman	CSh	Priority1	N/A	0	type:cavegoblinshaman;type:cavegoblin;unam:="Hero: Cave Goblin Shaman";over:oggccha=delete;base:In+1;base:Ld-1	Hatred (Armybook: Dwarven Holds)			
+oggob3	Cave Goblins	CGB	Priority1	N/A	0	type:cavegoblin;unam:="Cave Goblins";base:Ld-1;base:In+1	Hatred (Armybook: Dwarven Holds)			
+ogtroll2	Cave Trolls	CT	Priority1	N/A	8	type:stonetrolls;unam:<"Cave ";base:Sv-3	Magic Resistance (3), Innate Defence (4+)		Only units of 9 or less models - NOT validated by army builder.	
+ogovet2	Feral Orc 'Eadbashers		Priority1	N/A	2	type:feralorc;unam:="Feral Orc 'Eadbashers";more:frenzy=incl;stat:WSv=6;type:ward	Ward Save (6+)		Frenzy	
+ogboar2	Feral Orc Boar Riders		Priority1	N/A	0	type:feralorc;unam:<"Feral ";more:frenzy=incl;stat:WSv=6;type:ward	Ward Save (6+)		Frenzy	
+ogoboss2	Feral Orc Chief		Priority1	N/A	10	type:feralorcboss;type:feralorc;unam:="Hero: Feral Orc Chief";more:frenzy=incl;over:lahro=delete;stat:WSv=6;type:ward;over:og2ndftl=delete;show:og2ndmt;over:ogoccha=delete	Ward Save (6+)		Frenzy	
+ogohsha2	Feral Orc High Shaman	NSh	Priority1	N/A	5	type:feralorchighshaman;type:feralorc;unam:="Lord: Feral Orc Big Shaman";more:frenzy=incl;stat:WSv=6;type:ward;over:ogoccha=delete	Ward Save (6+)		Frenzy	
+ogosha2	Feral Orc Shaman	NSh	Priority1	N/A	0	type:feralorcshaman;type:feralorc;unam:="Hero: Feral Orc Shaman";more:frenzy=incl;stat:WSv=6;type:ward;over:ogoccha=delete	Ward Save (6+)		Frenzy	
+ogowar2	Feral Orc Warlord		Priority1	N/A	20	type:feralorcwarboss;type:feralorc;unam:="Lord: Feral Orc Warboss";more:frenzy=incl;over:lalrd=delete;stat:WSv=6;type:ward;over:ogoccha=delete;over:og2ndftl=delete;show:og2ndmt	Unruly; Ward Save (6+)		Frenzy	
+ogoladz2	Feral Orcs		Priority1	N/A	2	type:feralorc;unam:="Feral Orcs";more:frenzy=incl;stat:WSv=6;type:ward	Ward Save (6+)		Frenzy	
+ogghsha2	Forest Goblin Big Shaman	FGHSh	Priority1	N/A	0	type:forestgoblinhighshaman;type:forestgoblin;unam:="Lord: Forest Goblin Big Shaman";over:oggccha=delete	Strider (Forest)			
+oggboss2	Forest Goblin Boss	FGB	Priority1	N/A	0	type:forestgoblinboss;type:forestgoblin;type:Ld7;show:lahro;unam:="Hero: Forest Goblin Boss";over:oggccha=delete	Strider (Forest)			
+oggwar2	Forest Goblin King	FGWB	Priority1	N/A	0	type:forestgoblinwarboss;type:forestgoblin;show:lahro;unam:="Lord: Forest Goblin King";over:oggccha=delete	Strider (Forest)			
+oggrai2	Forest Goblin Raidaz	FGB	Priority1	N/A	0	type:forestgoblin;unam:="Forest Goblin Raidaz"	Strider (Forest); Scouts			
+oggsha2	Forest Goblin Shaman	FGSh	Priority1	N/A	0	type:forestgoblinshaman;type:forestgoblin;unam:="Hero: Forest Goblin Shaman";over:oggccha=delete	Strider (Forest)			
+oggob2	Forest Goblins	FGB	Priority1	N/A	0	type:forestgoblin;unam:="Forest Goblins"	Strider (Forest)			
+ogghsha1	Goblin Big Shaman	GHSh	Priority1	N/A	0	type:commongoblinhighshaman;type:commongoblin				
+oggboss1	Goblin Boss	GB	Priority1	N/A	0	type:commongoblinboss;type:commongoblin;type:Ld8;dtyp:Ld7;base:Ld+1;show:ogha			+1 Leadership , Light Armour	
+oggwar1	Goblin King	GWB	Priority1	N/A	0	type:commongoblinwarboss;type:commongoblin				
+oggrai1	Goblin Raiders	GB	Priority1	N/A	0	type:commongoblin;more:lahro=incl			Light Armour	
+oggsha1	Goblin Shaman	GSh	Priority1	N/A	0	type:commongoblinshaman;type:commongoblin;type:Ld7;dtyp:Ld6;base:Ld+1			+1 Leadership	
+oggob1	Goblins	GB	Priority1	N/A	0	type:commongoblin;more:lahro=incl			 Light Armour	
+ogoboss3	Iron Orc Chief	HA	Priority1	N/A	10	type:ardorcboss;type:ardorc;unam:="Hero: Iron Orc Chief";slct:hahro=incl;base:WS+1	Weapon Masters; Ruler; Immune to Psychology		+1 Weapon Skill; Heavy Armour	
+ogovet3	Iron Orc Veteranz	HA	Priority1	N/A	4	type:ardorcboss;type:ardorc;unam:="Iron Orc Veteranz";more:hahro=incl;base:WS+1;chld:champ@WS+1-base	Weapon Masters; Ruler; Immune to Psychology		+1 Weapon Skill; Heavy Armour	
+ogowar3	Iron Orc Warlord	HA	Priority1	N/A	20	type:ardorcwarboss;type:ardorc;unam:="Lord: Iron Orc Warlord";slct:hahro=incl;base:WS+1	Weapon Masters; Immune to Psychology		+1 Weapon Skill; Heavy Armour	
+oglore1	Lore Table		Priority1	N/A	0	tabl:BigGods=ogbig,Wilderness=mgbeasts-noname-nobrackets				
+oglore2	Lore Table		Priority1	N/A	0	tabl:LittleGods=oglittle,Shadow=mgshadow-noname-nobrackets				
+oglore3	Lore Table		Priority1	N/A	0	tabl:Death=mgdeath,Undeath=unundeat-noname-nobrackets				
+ogovet1	Orc 'Eadbashers	LA	Priority1	N/A	0	type:commonorc;more:lahro=incl				
+ogohsha1	Orc Big Shaman	OHSh	Priority1	N/A	0	type:commonorchighshaman;type:commonorc				
+ogboar1	Orc Boar Riders	LA	Priority1	N/A	0	type:commonorc;slct:lalrd=incl;show:lalrd				
+ogoboss1	Orc Chief	LA	Priority1	N/A	0	type:commonorcboss;type:commonorc;show:lalrd;slct:lalrd=incl;show:ogha				
+ogoladz1	Orc Ladz	LA	Priority1	N/A	0	type:commonorc;slct:lahro=incl;show:lahro				
+ogosha1	Orc Shaman	OSh	Priority1	N/A	0	type:commonorcshaman;type:commonorc				
+ogowar1	Orc Warlord	LA	Priority1	N/A	0	type:commonorcwarboss;type:commonorc;show:lalrd;slct:lalrd=incl;show:ogha	Unruly			
+ogspec	Special Choice		Priority1	N/A	0	hide;usiz:min=2;dtyp:1stC;dtyp:1stC-grand				
+ogtroll1	Trolls	CT	Priority1	N/A	0	type:commontrolls				
+ogshow	All Lore Spells		Priority2	N/A	0	take:ogwaghla;take:ogwaghl0;take:ogwaghl1;take:ogwaghl2;take:ogwaghl3;take:ogwaghl4;take:ogwaghl5;take:ogwaghl6;take:ogwaghba;take:ogwaghb0;take:ogwaghb1;take:ogwaghb2;take:ogwaghb3;take:ogwaghb4;take:ogwaghb5;take:ogwaghb6;stat:Wz=15;spec:+spel			Shows all spells for this lore, and lists short descriptions on the roster.	
+oggntbig	Big Things		Priority2	N/A	0	apnd	1. Yell and Bawl, 2-4. Thump with Club, 5-6. 'Eadbutt.		Random attack chart for big things printed at end of roster.	
+ogdoommf	Doomdiver Misfire Table		Priority2	N/A	0	apnd:foot		1-2. Catapult destroyed.; 3-4. Cannot fire this turn or next.; 5. Hits first unit or piece of terrain on the path to target point.; 6.Shot is fired D6x10" in random direction with no possibility to correct impact point by D6". 	Prints Doomdiver Misfire table at end of roster.	
+ogfull	Full Spell Lists		Priority2	N/A	0	more:ogbiga=incl;more:ogbig0=incl;more:ogbig1=incl;more:ogbig2=incl;more:ogbig3=incl;more:ogbig4=incl;more:ogbig5=incl;more:ogbig6=incl;more:oglittla=incl;more:oglittl0=incl;more:oglittl1=incl;more:oglittl2=incl;more:oglittl3=incl;more:oglittl4=incl;more:oglittl5=incl;more:oglittl6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+oggntltl	Little Things		Priority2	N/A	0	apnd	1.  Yell and Bawl, 2.  Jump up and down, 3.  Pick-up and ..., 4-6. Swing with Club/Chain.			
+oggiant	Random Attack Explanation	Att	Priority2	N/A	0	apnd:foot		Yell and Bawl: Combat ends, Giant wins with a -2 modifier to enemy break test; Jump Up and Down: Test for fall down (1 on D6), if not - does 2d6 S6 hits on unit.  Will continue to Jump Up and Down every turn until end of combat or fall over; Swing with Club:  D6 S6 hits; Thump with Club: Opponent takes In test, if failed takes 2d6 wounds (no armour save).  On doubles, club sticks giant cannot attack next round in this combat; 'Eadbutt: 1 auto wound (no armour saves).  if victim not dead, loses all attacks for this round (or next round if victim has already attacked); Pick up and....:  Giant selects target model.  Model has one attack to stop it.  If doesn't wound Giant, roll D6.  1-Stuff into Bag, 2-Throw Back into Combat, 3-Hurl, 4-Squash, 5-Eat, 6-Pick Another (see O&G Book for details) 	Puts description of the random attacks at the end of the roster.	
+ogomags	Allow Orc MagSt		Priority3	N/A	0	over:st10=delete;show:stmg10;lglx:mode=d;hide				
+oglittla	Attr: Dirty Thieving		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghl		Attribute. Hex. Focused. Range 36". Lasts one turn. If the target is a Wizard, roll a D6; on 5+ the target wizard suffers -1 to cast and dispel.		
+ogbiga	Attr: Get Them		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghb		Attribute. Augment. Range 24". Lasts one turn. Target may reroll 1's to wound in combat. Only units entirely consisting of Orcs and/or Goblins can be affected by this spell.		
+ogbig0	Big0: Here We Go		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghb		Signature. Augment. 11+ to cast, Range 12". Lasts one Turn. Target may reroll failed to hit rolls in close combat.		
+ogbig1	Big1: Headbutt		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghb		Hex. Focused. Direct. Damage. 7+ to cast, Range 24" OR 14+ to cast, Range 18'', Aura. Can only affect Wizards. Target(s) suffer a S5 hit with Armour Piercing (6).		
+ogbig2	Big2: Bashing Fists		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghb		Remains in play. Cast on 7+ to target Caster OR Cast on 12+ as Augment, Focused. Target has +3 Strength, +3 Attacks and Magical Attacks. If target is a multi-part model, only one part receives the Characteristic changes (nominate which when casting the spell).		
+ogbig3	Big3: Oi! No Dying!		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghb		Augment. 9+ to cast, Range 12" OR 12+ to cast, Range 24". Lasts one Turn. Target gains Ward Save (5+).		
+ogbig4	Big4: Great Green Hand		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghb		Augment. 12+/15+ to cast. Range 24''. Target may pivot (ignoring any obstructions), perform a 3D6”/5D6” Flying Magical Move (roll range before pivoting) and then at the end of the move, pivot again (ignoring any obstructions). Final position of the unit cannot be within 1” of other units or impassable terrain.		
+ogbig5	Big5: Zap!		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghb		Augment. 11+ to cast, Range 18" OR 14+ to cast, Range 24". Target suffers 2D6 Strength 5 hits.		
+ogbig6	Big6: The Big Stomp		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghb		Hex. Direct. Damage. 14+ to cast, Range 36". Place 3” template with centre over target unit and within Range. Scatter the template D6”. All models under template suffers 1 strength 6 hit with Multiple Wounds (D3). OR Cast on 17+ to increase Strength of hits to 8.		
+ogcomp	Goblin hero group		Priority3	N/A	0	hide;acmp:Hero-1u				
+ogherder	Herders		Priority3	N/A	0	unit:ognherd@var;hide			   	
+oglittl0	Little0: Evil Eye		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghl		Signature spell. Hex. Missile. Damage. 5+/[10+] to cast, Range 24". Target suffers 2D6/[3D6] strength 3 hits.		
+oglittl1	Little1: Sneaky Slicing		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghl		Augment. 6+ to cast, Range 12" OR 9+ to cast, Range24". Lasts one turn. Target has Armour Piercing (1) special rule. If target attacks a unit in its flank or rear, target may reroll failed to hit and to wound rolls.		
+oglittl2	Little2:Blessing of MotherSpdr		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghl		Augment. 7+ to cast, Range 12" OR 10+ to cast, Range 24". Lasts one turn. Target has Poisoned Attacks Special Rule. Attacks that already had Poisoned Attacks will wound automatically on a natural to hit roll of ‘5’ as well as ‘6’.		
+oglittl3	Little3: Itching and Scratchin		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghl		Hex. 7+ to cast, Range 24". Lasts one turn. Target has -D3 Movement and Initiative (to a minimum of 1).		
+oglittl4	Little4: Fix It Up		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghl		Hex. 10+ to cast, Range 24". Lasts one turn. Target must reroll to hit, to wound and armour save rolls of ‘6’.		
+oglittl5	Little5: Shh, Stay Quiet!		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghl		Augment. 11+ to cast on Caster's unit OR 14+ to cast as Range 6" Aura. Lasts one turn. Target has Distracting and Blurry special rules. All models in units successfully charging the target must take a dangerous terrain test.		
+oglittl6	Little6: Curse of Green Moon		Priority3	N/A	0	apnd:foot;hide;utyp:ogwaghl		Vortex (Range 4", Template 5"). Ground. 14+ to cast. Lasts one turn. Each model touched by the template suffers a Strength 3 hit with Armour Piercing (6). Any units touched by the template have -1 Weapon Skill.		
+ogfanats	Mad Gitz		Priority3	N/A	0	utyp:cavegoblin;unit:xogfanat@var			   	
+ognastys	Shady Gits		Priority3	N/A	0	utyp:commongoblin;unit:ognastys@var			   	
+ogpoison	Poisoned Attacks	pois	Special	Mon	10	utyp:forestgoblin				
+ogaracsh	Spider-Mother Shrine 	ShrAr	Special	N/A	40		All friendly models with the Channel Special Rule within 12” of a model with this shrine add +2 instead of +1 to Channel attempt. A Wizard mounted on model with this shrine has Pathmaster (Small Green Gods).			
+^
+ogwaaxe	Axe of the Aporcalypse	weap	MWp	65	1	itst:race=og&type=orc		Wielder has +D3 Strength and +D3 Attacks.	^	^	9th
+ogbkdirk	Backstabbin' Dirks	weap	MWp	15	1	itst:race=og&(type=cavegoblin|type=forestgoblin|type=commongoblin)&!type=mounted;stat:In+1;stat:At+1		Additional Hand Weapon. Wielder has Armour Piercing (1). If wielder is attacking an enemy unit in their flank or rear, wielder has +2 Strength.	^	^	
+ogdeathh	Death's Head on a Stick	weap	MWp	35	1	itst:race=og&categ=Wiz		Wizards only. Grants Heroic Killing Blow.	^, Shaman only	^	9th
+og9ma02	Crown of the Cavern King	armr	MAr	55	1	base:Sv-2;itst:race=og&type=cavegoblin		5+ Armour Save. Wearer can only join units of Cave Goblins. Wearer's unit gains Vanguard and can move (but not march nor shoot) after rallying. Furthermore, wearer’s Inspiring Presence or Hold Your Ground range is increased by 6".	^	^	9th age
+ogplork	Plates of Tuktek	armr	Arm,MAr	35	1	base:Sv-2;itst:race=og;type:MagicArmour		Heavy Armour. The wearer has +1 Toughness and Impact Hits (D3) special rule.	^	^	9th age
+og9ta01	Pan of Protection Pinchin'	ward	Tal	25	1	itst:race=og&(type=cavegoblin|type=forestgoblin|type=commongoblin)		If wearer suffers a wound it can use Armour, Ward, Regeneration saves, as well as Magic Resistance of the model that inflicted the wound.	^	^	
+og9ei01	Lucky Boar's Leg	ench	Enc	40	1	itst:race=og&type=orc&type=general&(type=boar|type=boarchariot);type:snarlashoof		Boar Riders (not Brutal Boar riders ) count as a core choice and wearer and his unit have +1 Movement that can't be combined with other Magic Items grating positive modifications to movement or swiftstride.	^, Orc General mounted on War Boar or Boar Chariot only. 	^	9th age
+og9ei02	Waaargh! Paint	ench	Enc	30	1	itst:race=og&type=feralorc;type:snarlashoof		Feral Orc only. Models with the Greenhide Race: Feral Orc in the wearer's unit have Frenzy (cannot lose it) and gain Swiftstride for the purpose of Pursue and Overrun.	^	^	9th age
+ogevilmo	Flag of the Evil Moon	stnd	Std	25	1	itst:race=og&type=cavegoblin;stat:Ld+1	bsb=incl	Cave Goblins only. Wearer's unit has +1 Ld. Contains a Bound Spell, Power Level 3. Contains the spell DarkShroud.	^,	^	9th age
+og9mb03	Ironclad Icon	stnd	Std	25	1	itst:race=og	bsb=incl	Grants Ward Save (5+) against shooting.	^	^	9th age
+ogsoult	Mikinok's Totem	stnd	Std	75	1	itst:race=og	bsb=incl	Magical Banner. Orcs only. Grants Magic Resistance (D6). Roll each time Magic Resistance is used. Furthermore, Magic items in base contact with wearer have no effects (revert to mundane version of the items). The ability to revert magic items into mundane version will always work regardless of similar effects affecting this banner.	^	^	
+ogbanara	Mother's Gift	stnd	Std	25	1	itst:race=og	bsb=incl	Forest Goblins in wearer's unit has Poisoned Attacks special rule.	^	^	9th age
+ogwaghla	Attr: Dirty Thieving	spel	N/A	0	99	itst:type=ogwaghl;xtot		Attribute. Hex. Focused. Range 36". Lasts one turn. If the target is a Wizard, roll a D6; on 5+ the target wizard suffers -1 to cast and dispel.	^	^	
+ogwaghba	Attr: Get Them	spel	N/A	0	99	itst:type=ogwaghb;xtot		Attribute. Augment. Range 24". Lasts one turn. Target may reroll 1's to wound in combat. Only units entirely consisting of Orcs and/or Goblins can be affected by this spell.	^	^	
+ogwaghb0	Big0: Here We Go	spel	N/A	0	99	itst:type=ogwaghb;xtot		Signature. Augment. 11+ to cast, Range 12". Lasts one Turn. Target may reroll failed to hit rolls in close combat.	^	^	
+ogwaghb1	Big1: Headbutt	spel	N/A	0	99	itst:type=ogwaghb;xtot		Hex. Focused. Direct. Damage. 7+ to cast, Range 24" OR 14+ to cast, Range 18'', Aura. Can only affect Wizards. Target(s) suffer a S5 hit with Armour Piercing (6).	^	^	
+ogwaghb2	Big2: Bashing Fists	spel	N/A	0	99	itst:type=ogwaghb;xtot		Remains in play. Cast on 7+ to target Caster OR Cast on 12+ as Augment, Focused. Target has +3 Strength, +3 Attacks and Magical Attacks. If target is a multi-part model, only one part receives the Characteristic changes (nominate which when casting the spell).	^	^	
+ogwaghb3	Big3: Oi! No Dying!	spel	N/A	0	99	itst:type=ogwaghb;xtot		Augment. 9+ to cast, Range 12" OR 12+ to cast, Range 24". Lasts one Turn. Target gains Ward Save (5+).	^	^	
+ogwaghb4	Big4: Great Green Hand	spel	N/A	0	99	itst:type=ogwaghb;xtot		Augment. 12+/15+ to cast. Range 24''. Target may pivot (ignoring any obstructions), perform a 3D6”/5D6” Flying Magical Move (roll range before pivoting) and then at the end of the move, pivot again (ignoring any obstructions). Final position of the unit cannot be within 1” of other units or impassable terrain.	^	^	
+ogwaghb5	Big5: Zap!	spel	N/A	0	99	itst:type=ogwaghb;xtot		Augment. 11+ to cast, Range 18" OR 14+ to cast, Range 24". Target suffers 2D6 Strength 5 hits.	^	^	
+ogwaghb6	Big6: The Big Stomp	spel	N/A	0	99	itst:type=ogwaghb;xtot		Hex. Direct. Damage. 14+ to cast, Range 36". Place 3” template with centre over target unit and within Range. Scatter the template D6”. All models under template suffers 1 strength 6 hit with Multiple Wounds (D3). OR Cast on 17+ to increase Strength of hits to 8.	^	^	
+ogwaghl0	Little0: Evil Eye	spel	N/A	0	99	itst:type=ogwaghl;xtot		Signature spell. Hex. Missile. Damage. 5+ to cast, Range 24". Target suffers 2D6 strength 3 hits. OR Cast on 10+ to cause 3D6 S3 hits instead.	^	^	
+ogwaghl1	Little1: Sneaky Slicing	spel	N/A	0	99	itst:type=ogwaghl;xtot		Augment. 6+ to cast, Range 12" OR 9+ to cast, Range24". Lasts one turn. Target has Armour Piercing (1) special rule. If target attacks a unit in its flank or rear, target may reroll failed to hit and to wound rolls.	^	^	
+ogwaghl2	Little2: Blessing of the Mother Spider	spel	N/A	0	99	itst:type=ogwaghl;xtot		Augment. 7+ to cast, Range 12" OR 10+ to cast, Range 24". Lasts one turn. Target has Poisoned Attacks Special Rule. Attacks that already had Poisoned Attacks will wound automatically on a natural to hit roll of ‘5’ as well as ‘6’.	^	^	
+ogwaghl3	Little3: Itching and Scratchin	spel	N/A	0	99	itst:type=ogwaghl;xtot		Hex. 7+ to cast, Range 24". Lasts one turn. Target has -D3 Movement and Initiative (to a minimum of 1).	^	^	
+ogwaghl4	Little4: Fix It Up	spel	N/A	0	99	itst:type=ogwaghl;xtot		Hex. 10+ to cast, Range 24". Lasts one turn. Target must reroll to hit, to wound and armour save rolls of ‘6’.	^	^	
+ogwaghl5	Little5: Shh, Stay Quiet!	spel	N/A	0	99	itst:type=ogwaghl;xtot		Augment. 11+ to cast on Caster's unit OR 14+ to cast as Range 6" Aura. Lasts one turn. Target has Distracting and Blurry special rules. All models in units successfully charging the target must take a dangerous terrain test.	^	^	
+ogwaghl6	Little6: Curse of the Green Moon	spel	N/A	0	99	itst:type=ogwaghl;xtot		Vortex (Range 4", Template 5"). Ground. 14+ to cast. Lasts one turn. Each model touched by the template suffers a Strength 3 hit with Armour Piercing (6). Any units touched by the template have -1 Weapon Skill.	^	^	
+ogargork	Armour of Gork	unk2	Arm,MAr	100	1	base:Sv-2;itst:race=og;type:MagicArmour		Heavy Armour. The wearer has +D3 Toughness (roll the first time bearer is hit each turn and use for the rest of the turn). Wearer has Impact Hits (D6) special rule.	^	^	
+ogbashas	Basha's Axe of Stunty Smashing	unk2	MWp	50	1	itst:race=og;stat:St+1;stat:At+1		Armour Piercing. +1 St & At, double bonus when in BtB with models from Dwarf army. Cause Fear in dwarfs.	^	^	
+oglushhe	Lucky Shrunken Head	unk2	Arc	50	1	itst:race=og&type=sav;base:WSv=5		Warpaint of bearer and his unit is upgraded to 5+. If Wurzag is with unit, his Warpaint is upgraded to 4+.	^, Savage orc shaman only	^	
+ogmork	Mork's War Banner	unk2	Std	100	1	itst:race=og	bsb=incl	Unit has Magic Resistance (D6) - roll again each turn. Magic items belonging to enemy models in BtB with the bearer do not work.	^, Orcs only	^	
+ogkaloth	Skull Wand of Kaloth	unk2	MWp	75	1	itst:race=og&categ=Wiz		At the start of CC phase one enemy in BtB must pass Ld test on his own, unmodified Ld, or dies with no saves of any kind.	^, Shaman only	^	
+ogspiban	Spider Banner	unk2	Std	85	1	itst:race=og&type=common	bsb=incl	All models in unit have Poisoned melee and missile Attacks	^, Goblins only	^	
+ogspitat	Spirit Tatoos	unk2	Arc	75	1	itst:race=og&type=feralorc		Arcane Item. All Neanderorcs in wearer’s unit has Ward Save (5+). Neanderorcs only.	^, 	^	9th age
+ogbad	The Bad Moon Banner	unk2	Std	50	1	itst:(race=og&type=nightgoblin)	bsb=incl	Night Goblins in unit with the banner are Stubborn. The unit counts as being in soft cover. Enemy models charging into BtB with  the unit with banner must take Dangerous Terrain test.	^, Night Goblins only	^	
+ogborgu1	'Ardladz' Axe o' Doom	spec	N/A	0	1	itst:type=Borgut;stat:St+1		+1 Strength. Always counts as being affected by the Big Waagh spell "Gork'll Fix It" (older version of the spell - he re-roll failed armour saves, and when his save is negated, he gets 6+ Ward Save)	^	^	
+ogazarm	Azhag's 'Ard Armour	spec	Arm,Shd,MAr	0	1	itst:reg=ogazhag		5+ Armour Save; 5+ Ward Save	5+ Armour Save; 5+ Ward Save. Azhag Only.	5+ ArSv; 5+ Ward Save	
+ogmask	Baleful Mask	spec	N/A	0	1	itst:reg=ogwurzag		Bound Spell (Power level 3). Vindicative Glare: Magic Missile, Range 24", 2D6S3 hits	^	^	
+ogbldfor	Blood-forged Armour	spec	Arm,MAr	0	1	itst:(type=grimgor|reg=oggrimin)	wsv5=incl,aws5=incl	1+Sv, 5+ ward save	1+ armour save. 5+ ward save.	1+Sv, 5+ ward save	
+ogbonebo	Bone Bow	spec	MWp	0	1	itst:reg=oggitill		Range 24", S3, Quick to Fire, Multiple Shots (3)	^	^	
+ogbones	Bonewood Staff	spec	N/A	0	1	itst:reg=ogwurzag		Magic Weapon. Grants Magic Resistance (3) and allows Wurrzag to re-roll miscast results.	Magic Weapon. Grants Magic Resistance (3) and allows Wurrzag to re-roll miscast results.	Magic Weapon. Grants Magic Resistance (3) and allows Wurrzag to re-roll miscast results.	
+ogbulak	Bulak's Bloody Armour	spec	Arm,MAr	0	1	itst:reg=ogmorglm	wsv4=incl,aws4=incl	Counts as Heavy Armor; 4+ Ward Save (if 1 rolled, Morglum takes 2 Wo instead of 1)	^; Morglum Necksnapper only.	Counts as Heavy Armor; 4+ Ward Save (if 1 rolled, Morglum takes 2 Wo instead of 1)	
+oggrog	Drog's Dead 'ard Armour	spec	Arm,MAr	0	1	itst:reg=ogborgut;base:Sv=1;type:unmod		1+ Sv, Can't be improved	^	^	
+ogdwarf	Dwarf Trinket	spec	N/A	0	1	itst:type=badruk		1/game - makes one model miss all attacks incl mounts' attacks - decide after to hit rolls (before wound rolls).	1/game - makes one model miss all attacks incl mounts' attacks - decide after to hit rolls (before wound rolls); Spec Char only.	1/game - makes one model miss all attacks incl mounts' attacks - decide after to hit rolls (before wound rolls).	
+ogelfbit	Elf-Biter - Axe of Grom	spec	N/A	0	1	itst:reg=ogpaunch;stat:St+2		+2S, Killing Blow (vs Elves on a 5+)	^ Grom the Paunch only	Strikes last, Killing Blow (vs Elves on a 5+)	
+ogevilso	Evil Sun Armour	spec	Arm,Shd,MAr	0	1	itst:reg=ogrotgut		Counts as Heavy Armour & Shield; Magic Resistance (2);	^ Gorfang Rotgut only.	Magic Resistance (2)	
+ogfangsp	Fangspike	spec	MWp	0	1	itst:reg=ogsnagla		Magic Weapon. Poisoned Attacks, Multiple Wounds (D3).	^	^	
+oggitsnk	Gitsnik	spec	MWp	0	1	stat:St+2;itst:(type=grimgor|reg=oggrimin)		Strength +2. Always Strikes First.	^	^	
+oggrimi1	Locus of Ghur	spec	Enc	0	1	itst:reg=oggrimin	wsv5=incl,aws5=incl	Innate Bound Spell (power level 6). Augment. All friendly units from Orcs & Goblins and Ogre Kingdoms army books within 12" gain +1 St and +1 To until start of caster's next Magic phase.	^	^	
+oglucky	Lucky Banner	spec	N/A	0	1	itst:reg=ogniblit;base:Wsv=5		Grom & chariot have a 5+ Ward Save.	^ OG Niblit only	^	
+ogmangle	Morglor The Mangler	spec	MWp	0	1	itst:type=Gorbad		Always Strikes First, No armour saves, Multiple Wounds (D3).	^	^	
+ogproder	Skarsnik's Prodder	spec	M2H	0	1	itst:reg=ogsnark		Magic Weapon. Bound Spell, Power Level 5: Magic missile, Range 24"; D3 S6 Hits with no armour saves. If within 12" of Night Goblin Horde number of hits is increased to D6.	^	^	
+ogslagga	Slagga's Slashas	spec	MWp	0	1	itst:reg=ogazhag;stat:At+1		+1A; Re-roll misses in first round of combat.	^	^	
+ogpower	Squiggly Beast	spec	N/A	0	1	itst:reg=ogwurzag		Arcane Item. At the end of either Magic phase, Wurrzag may store a single dice to be used next Magic phase.	^	^	
+ogsting	Sting of Snagla	spec	MWp	0	1	itst:reg=ogsnagla		One Use Only. Sting is a throwing weapon that has the Poisoned Attacks and Multiple Wounds (D3).	^	^	
+ogstinky	Stinky Pelt	spec	Arm,MAr	0	1	base:Sv-3;itst:reg=oggitill;type:MagicArmour		Armour Save 4+	^	^	
+ogbg01	Thagi Az	spec	Wep,MWp	0	1	elem:dwbrkrun;elem:dwcleav1;elem:dwrnfury;itst:type=blackgobbo		Master Rune of Breaking; Rune of Cleaving; Rune of Fury	^	^	
+ogcrsorc	The Crown of Sorcery	spec	N/A	0	1	itst:reg=ogazhag		Lvl 3 Wizard, uses Lore of Death; Stupidity	^	^	
+ogredfng	The Red Fang	spec	N/A	0	1	itst:reg=ogrotgut;stat:At+1		+1 Attack; +1 to hit	^; Gorfang Rotgut only.	+1 At; +1 to hit	
+ogwurrev	Wurrzag's Revenge	spec	N/A	0	1	itst:reg=ogwurzag		Hex spell, 8+ to Cast; all enemy Wizards within 12" must roll a dice - on 6 they die instantly along with their mounts, with no saves of any kind allowed. In addition Wurrzag may store one extra dice in Squiggly Beast for each Wizard killed with this spell.	^	^	
+ogbg04	Belt Buckle of Durzik	virt	N/A	0	1	elem:dwluckri;itst:type=blackgobbo		Rune of Luck	^	^	
+ogbg03	Gotkid's Beard	virt	N/A	0	1	stat:Wsv=6;itst:type=blackgobbo		6+ Ward Save	^	^	
+ogguz01	Guzzler's Bad Brew	virt	N/A	0	1	itst:type=guzzler		Use at start of any turn, lasts until your next turn; Roll a D6: 1 Stupid, 2-3 Hates all enemies, 4 Frenzied, 5 +1S, 6 +1T	^	^	
+ogbg02	Hood of Night	virt	N/A	0	1	itst:type=blackgobbo		Counts as Ld9 for Goblins only	^	^	
+^
+^
+ogmus	Mushroom Number	Mus	Priority	N/A	10	zrng:1-10				
+^
+ogazhag	general	cost
+ogazhag	oglore3	cost
+ogazhag	oglwmnt	incl
+ogazhag	mgmiscas	free
+ogazhag	mgshow	hide
+ogazhag	mg3lvl	incl
+ogbadruk	2handlrd	incl
+ogbadruk	general	cost
+ogbadruk	hatrp	appl
+ogbadruk	ogignore	incl
+ogbhero	ogteeth	incl
+ogbhero	btnostnd	incl
+ogbhero	btstand8	cost
+ogbhero	general	cost
+ogbhero	hahro	incl
+ogbhero	heromnt	hide
+ogbhero	oghbmnt	cost
+ogbhero	oglwmnt	hide
+ogbhero	ogmtncon	cost
+ogbhero	ogoccha	cost
+ogbhero	sprmthro	hide
+ogbhero	ogignor3	incl
+ogbhero	ogironbk	incl
+ogbhero	shhro	cost
+ogblacks	hahro	incl
+ogblacks	mus10	cost
+ogblacks	ogchblak	cost
+ogblacks	shhro	incl
+ogblacks	stmg10	cost
+ogblacks	ogteeth	incl
+ogbodygd	ogteeth	incl
+ogbodygd	hatrp	appl
+ogbodygd	mus10	cost
+ogbodygd	stmg10	cost
+ogdoom	ogstncrw	incl
+oggbolt	ogbltcrw	incl
+oggboyz	mus10	cost
+oggboyz	ogchgboy	cost
+oggboyz	ogsbow	free
+oggboyz	ogsh1	cost
+oggboyz	ogspsh	free
+oggboyz	st10	cost
+oggboyz	ognastys	cost
+oggboyz	stmg10vt	cost
+oggcchar	oggcchar	auto
+oggcchar	oggwolf	incl
+oggcchgm	ogniblit	incl
+oggchar	oggchar	auto
+oggchar	oggwolf	incl
+ogggtshm	general	cost
+ogggtshm	mg3lvl	incl
+ogggtshm	mg4lvl60	cost
+ogggtshm	ogfull	hide
+ogggtshm	oggccha	cost
+ogggtshm	oglwolf	cost
+ogggtshm	mgmiscas	free
+ogggtshm	ogshow	hide
+ogggtshm	oggisplo	cost
+ogghero	btnostnd	incl
+ogghero	btstand8	cost
+ogghero	general	cost
+ogghero	heromnt	hide
+ogghero	lalrd	incl
+ogghero	oggccha	cost
+ogghero	oghwolf	cost
+ogghero	shhro	free
+ogghero	oglance	cost
+ogghero	oggiaspi	cost
+ogghero	oggw	cost
+ogghero	og2ndftl	free
+oggiant	chgiant1	free
+oggiant	chgiant2	free
+ogglord	general	cost
+ogglord	heromnt	hide
+ogglord	lalrd	incl
+ogglord	oggccha	cost
+ogglord	oglwolf	cost
+ogglord	ogsh	cost
+ogglord	oglance	cost
+ogglord	oggw	cost
+ogglord	og2ndftl	cost
+oggrimgr	general	cost
+oggrimgr	ogbodygd	incl
+oggshm	general	cost
+oggshm	mg1lvl	incl
+oggshm	mg2lvl30	cost
+oggshm	ogfull	hide
+oggshm	oggccha	cost
+oggshm	oghwolf	cost
+oggshm	oglore2	cost
+oggshm	mgmiscas	free
+oggshm	ogshow	hide
+oggstone	ogstncrw	incl
+oggwolf	mus10	cost
+oggwolf	ogchwolf	cost
+oggwolf	ogwolf	appl
+oggwolf	ogsbow1	cost
+oggwolf	showtrp1	cost
+oggwolf	ogllance	cost
+oggwolf	st10	cost
+oggwolf	ogspider	appl
+oghsqig	ogherder	auto
+ogmorglm	general	incl
+ogmorglm	ogboar	incl
+ogmorglm	ogignore	incl
+ogmorglm	ogxhw	incl
+ognboyz	mus10	cost
+ognboyz	ogchnboy	cost
+ognboyz	ogfanats	cost
+ognboyz	ognet	cost
+ognboyz	ogsbow	cost
+ognboyz	shoptrp	incl
+ognboyz	sprtrp	cost
+ognboyz	st10	cost
+ogngtshm	general	cost
+ogngtshm	mg3lvl	incl
+ogngtshm	mg4lvl35	cost
+ogngtshm	oglore2	cost
+ogngtshm	ogfull	hide
+ogngtshm	mgmiscas	free
+ogngtshm	ogshow	hide
+ognhero	btnostnd	incl
+ognhero	btstand8	cost
+ognhero	general	cost
+ognhero	lahro	cost
+ognhero	shhro	cost
+ognhero	oggrcs50	cost
+ognhero	heromnt	hide
+ogniblit	btstand	incl
+ognshm	general	cost
+ognshm	mg1lvl	incl
+ognshm	mg2lvl35	cost
+ognshm	ogfull	hide
+ognshm	oglore2	cost
+ognshm	mgmiscas	free
+ognshm	ogshow	hide
+ogoaboyz	bowtrp	incl
+ogoaboyz	latrp	incl
+ogoaboyz	mus10	cost
+ogoaboyz	ogcharer	cost
+ogoaboyz	st10	cost
+ogoboars	mus10	cost
+ogoboars	ogboar	appl
+ogoboars	ogchboar	cost
+ogoboars	shlrd	cost
+ogoboars	oglance2	cost
+ogoboars	st10	cost
+ogoboars	ogboar0	cost
+ogoboyz	2ndhwtr1	cost
+ogoboyz	lahro	hide
+ogoboyz	mus10	cost
+ogoboyz	ogchboyz	cost
+ogoboyz	ogsh1	cost
+ogoboyz	ogspsh	cost
+ogoboyz	st10	cost
+ogoboyz	stmg10vt	cost
+ogoboyz	ogoladz0	cost
+ogocchar	ogocchar	incl
+ogochar	ogochar	incl
+ogogtshm	general	cost
+ogogtshm	heromnt	hide
+ogogtshm	mg3lvl	incl
+ogogtshm	mg4lvl60	cost
+ogogtshm	oglore1	cost
+ogogtshm	ogfull	hide
+ogogtshm	oglbmnt	cost
+ogogtshm	mgmiscas	cost
+ogogtshm	ogoccha	cost
+ogogtshm	ogshow	hide
+ogogtshm	ognogen	incl
+ogogtshm	oglwmnt	cost
+ogohero	btnostnd	incl
+ogohero	btstand8	cost
+ogohero	general	cost
+ogohero	heromnt	hide
+ogohero	lalrd	hide
+ogohero	oghbmnt	cost
+ogohero	oglwmnt	cost
+ogohero	ogmtncon	auto
+ogohero	ogoccha	cost
+ogohero	oglance	cost
+ogohero	oggw	cost
+ogohero	og2ndmt	hide
+ogohero	shhro5	cost
+ogolord	general	cost
+ogolord	heromnt	hide
+ogolord	oglbmnt	cost
+ogolord	oglwmnt	cost
+ogolord	ogoccha	cost
+ogolord	ogsh	cost
+ogolord	oggw	cost
+ogolord	og2ndftl	cost
+ogolord	oglance	cost
+ogoshm	general	cost
+ogoshm	heromnt	hide
+ogoshm	mg1lvl	incl
+ogoshm	mg2lvl30	cost
+ogoshm	ogfull	hide
+ogoshm	oghbmnt	cost
+ogoshm	oglore1	cost
+ogoshm	mgmiscas	free
+ogoshm	ogshow	hide
+ogoshm	ognogen	incl
+ogpaunch	general	cost
+ogpaunch	latrp	incl
+ogpaunch	oggromcr	auto
+ogrotgut	general	cost
+ogrotgut	ogignore	incl
+ogsboars	frenzy	incl
+ogsboars	mus10	cost
+ogsboars	ogboar	appl
+ogsboars	ogchsbor	cost
+ogsboars	ogbbpnt	incl
+ogsboars	showtrp2	cost
+ogsboars	sprmtrp2	cost
+ogsboars	stmg10	cost
+ogsboars	2ndhwtrp	cost
+ogsboyz	2ndhwtr1	cost
+ogsboyz	ogbow2	cost
+ogsboyz	frenzy	incl
+ogsboyz	mus10	cost
+ogsboyz	ogchsboy	cost
+ogsboyz	ogpaint	incl
+ogsboyz	showtrp1	cost
+ogsboyz	sprtrp1	cost
+ogsboyz	st10	cost
+ogsboyz	ogsobgns	cost
+ogsboyz	stmg10	hide
+ogshero	btnostnd	incl
+ogshero	btstand8	cost
+ogshero	frenzy	incl
+ogshero	general	cost
+ogshero	heromnt	hide
+ogshero	oghbmnt	cost
+ogshero	oghpaint	incl
+ogshero	sprmthro	hide
+ogshero	ogironbk	incl
+ogshero	2handhro	cost
+ogshero	og2ndmt	cost
+ogshero	shhro	cost
+ogsnark	general	cost
+ogsnark	latrp	appl
+ogsnark	oggobbla	incl
+ogwurzag	general	cost
+ogwurzag	mg4lvl35	appl
+ogwurzag	oglore1	cost
+ogwurzag	ogfull	hide
+ogwurzag	ogshow	hide
+ogwurzag	oglbmnt	cost
+ogwurzag	frenzy	incl
+xoggchar	sbowmnt	incl
+xoggchar	ogllance	incl
+xogochar	oglance	incl
+xogsocha	frenzy	incl
+xogsocha	sprmtrp2	incl
+ogborgut	choppa	incl
+ogborgut	general	incl
+ogborgut	ogignore	incl
+ogborgut	oggrina2	cost
+ogborgut	ogbodyg2	cost
+ogbodyg2	2ndhwtr1	cost
+ogbodyg2	choppa	incl
+ogbodyg2	choppa2	hide
+ogbodyg2	latrp	appl
+ogbodyg2	mus10	cost
+ogbodyg2	ogchboyz	cost
+ogbodyg2	ogomags	auto
+ogbodyg2	showtrp1	cost
+ogbodyg2	sprtrp1	cost
+ogbodyg2	stmg10	cost
+ogbodyg2	ogobbgns	incl
+ogbodyg2	ogobbgn2	incl
+ogblack	general	cost
+ogblack	galrd	incl
+ogblack	ogchoice	cost
+ogghero	oggisphe	cost
+ognhero	2handhro	cost
+ogspirid	mus10	cost
+ogspirid	ogchspdr	cost
+ogspirid	ogspider	appl
+ogspirid	sbowmnt1	cost
+ogspirid	showtrp1	incl
+ogspirid	sprmtrp1	incl
+ogspirid	st10	cost
+ogsquig	ogherder	incl
+ogpumpwg	ogpumpcw	incl
+oggorbad	general	auto
+oggorbad	heromnt	hide
+oggorbad	halrd	appl
+oggorbad	oggnarla	incl
+oggorbad	btstange	incl
+ogbodygd	showtrp1	cost
+ogbodygd	ogchblak	cost
+ognhero	og2ndmt	cost
+ognhero	sprmthro	hide
+ogpumpwg	2fr1UntA	incl
+ogghero	oggrcasq	cost
+ognastys	latrp	incl
+oggcchar	ogg3wolf	cost
+oggcchar	oggxccrw	cost
+ogsboars	ogsbbgns	cost
+oghopers	oghopsqu	incl
+ogpumpwg	ogspores	incl
+ogsnots	throww	incl
+ogpumpwg	ogpw1	cost
+ogpumpwg	ogpw2	cost
+ogpumpwg	ogpw3	cost
+ogpumpwg	ogpw4	cost
+xogspicr	sbowmnt	incl
+xogspicr	ogllance	incl
+ogarachn	ogspicr	incl
+ogarasha	ogspicr	incl
+ogarasha	ogspishr	cost
+ogggtshm	ogarage2	cost
+oggcchgm	ogg3wolf	incl
+oggitill	general	cost
+oggitill	heromnt	hide
+oggitill	ogulda	incl
+oggitill	sprmtrp1	incl
+oghowler	latrp	incl
+oghowler	mus10	cost
+oghowler	ogchhowl	cost
+oghowler	ogwolf	appl
+oghowler	sbowmnt1	cost
+oghowler	showtrp1	cost
+oghowler	sprmtrp1	cost
+oghowler	st10	cost
+ogulda	oghowler	incl
+ogdeff	mus10	cost
+ogdeff	ogchspdr	cost
+ogdeff	ogspider	appl
+ogdeff	sbowmnt1	cost
+ogdeff	showtrp1	incl
+ogdeff	sprmtrp1	incl
+ogdeff	st10	cost
+ogspide3	ogdeff	incl
+ogsnagla	general	cost
+ogsnagla	heromnt	hide
+ogsnagla	ogspide3	incl
+ogsnagla	shoptrp	incl
+ogngtshm	ogmushro	auto
+ognshm	ogmushro	auto
+ogsboyz	ogstabba	cost
+ogbobb	hatrp	appl
+ogbobb	mus10	cost
+ogbobb	ogboar	appl
+ogbobb	ogbobbb	cost
+ogbobb	showtrp2	cost
+ogbobb	stmg10	cost
+ogbobb	ogbbbgn2	cost
+ogbobb	ogteeth2	incl
+ogoglok	general	cost
+ogoglok	heromnt	hide
+ogoglok	lahro	incl
+ogoglok	oghbmnt	cost
+ogoglok	shhro	incl
+ogoglok	ogoccha	cost
+ogxboyx	xbowtrp	incl
+ogxboyx	latrp	incl
+ogxboyx	mus10	cost
+ogxboyx	ogcharer	cost
+ogxboyx	st10	cost
+ognhero	ogsbhro	cost
+ogwurzag	unshow	hide
+ogazhag	unshow	hide
+ogngtshm	unshow	hide
+ogogtshm	mgshow	hide
+oggshm	oggsha0	cost
+ognshm	unshow	hide
+ogoshm	mgshow	hide
+oggrimin	general	cost
+oggrimin	ogbodygd	cost
+oggboyz	ognet	cost
+oggboyz	ogfanats	cost
+ognboyz	stmg10	hide
+oggboyz	ogshbsh	cost
+ognboyz	latrp	incl
+ognboyz	ogmarkb2	cost
+ogforgob	latrp	incl
+ogforgob	mus10	cost
+ogforgob	ogchgboy	cost
+ogforgob	ogsbhalf	cost
+ogforgob	shoptrp	incl
+ogforgob	sprtrp	cost
+ogforgob	st10	cost
+ogforgob	ognastys	cost
+ogforgob	ogmarkb3	cost
+ogforgob	stmg10	hide
+ogblord	general	cost
+ogblord	heromnt	hide
+ogblord	halrd	incl
+ogblord	oglbmnt	cost
+ogblord	oglwmnt	cost
+ogblord	ogoccha	cost
+ogblord	shwlrd	cost
+ogblord	oggw	cost
+ogblord	2ndhwlr3	cost
+ogblord	oglance	cost
+ogslord	general	cost
+ogslord	heromnt	hide
+ogslord	lalrd	incl
+ogslord	oglbmnt	cost
+ogslord	oglwmnt	cost
+ogslord	ogoccha	cost
+ogslord	shwlrd	cost
+ogslord	oggw	cost
+ogslord	2ndhwlr3	cost
+ogslord	oglance	cost
+ogslord	frenzy	incl
+ogsgtshm	general	cost
+ogsgtshm	heromnt	hide
+ogsgtshm	mg3lvl	incl
+ogsgtshm	mg4lvl50	cost
+ogsgtshm	oglore1	hide
+ogsgtshm	ogfull	hide
+ogsgtshm	oglbmnt	cost
+ogsgtshm	mgmiscas	cost
+ogsgtshm	ogoccha	cost
+ogsgtshm	ogshow	hide
+ogsgtshm	ognogen	incl
+ogsgtshm	oglwmnt	cost
+ogsgtshm	unshow	hide
+ogsgtshm	frenzy	incl
+ogfglord	general	cost
+ogfglord	heromnt	hide
+ogfglord	lahro	cost
+ogfglord	oggccha	cost
+ogfglord	shlrd	cost
+ogfglord	ogllance	cost
+ogfglord	oggw	cost
+ogfglord	2ndhwlr3	cost
+ogfglord	oggisplo	cost
+ogfglord	oggiaspi	cost
+ogaraged	ogspicr	incl
+ogfglord	ogaraged	cost
+ogcglord	general	cost
+ogcglord	heromnt	hide
+ogcglord	lahro	cost
+ogcglord	oggccha	cost
+ogcglord	shlrd	cost
+ogcglord	ogllance	cost
+ogcglord	oggw	cost
+ogcglord	2ndhwlr3	cost
+ogcglord	oggrcasq	cost
+ogfggtsh	general	cost
+ogfggtsh	mg3lvl	incl
+ogfggtsh	mg4lvl50	cost
+ogfggtsh	ogfull	hide
+ogfggtsh	oggccha	cost
+ogfggtsh	mgmiscas	free
+ogfggtsh	ogshow	hide
+ogfggtsh	oglittle	auto
+ogfggtsh	unshow	hide
+ogfggtsh	oggisplo	cost
+ogarage2	ogspicr	incl
+ogarage2	ogaracsh	cost
+ogfggtsh	ogarage2	cost
+ogcggtsh	general	cost
+ogcggtsh	mg3lvl	incl
+ogcggtsh	mg4lvl50	cost
+ogcggtsh	ogfull	hide
+ogcggtsh	oggccha	cost
+ogcggtsh	mgmiscas	free
+ogcggtsh	ogshow	hide
+ogcggtsh	oglittle	auto
+ogcggtsh	unshow	hide
+ogcggtsh	ogpowmu	cost
+ogoshm	ogosha0	cost
+ogolord	lalrd	hide
+ogolord	ogowar0	cost
+ogglord	oggisplo	cost
+ogglord	oggiaspi	cost
+ogglord	ogaraged	cost
+ogglord	oggrcasq	cost
+ogglord	oggwar0	cost
+ogggtshm	ogpowmu	cost
+ogggtshm	ogghsha0	cost
+ogogtshm	ogohsha0	cost
+ogohero	ogoboss0	cost
+ogghero	oggboss0	cost
+oggshm	ogpowmu	cost
+oggshm	oggisphe	cost
+oggshm	mgshow	hide
+ogoboyz	ogbow2	cost
+ogoboyz	ogxbha	cost
+ogovet	2ndhwtr1	cost
+ogovet	mus10	cost
+ogovet	ogvetch	cost
+ogovet	ogsh2	cost
+ogovet	ogspsh	cost
+ogovet	st10	cost
+ogovet	stmg10vt	cost
+ogovet	ogovet0	cost
+ogovet	oggwao	cost
+oggboyz	oggob0	cost
+oggwolf	oggrai0	cost
+ogoboars	ogboarvt	cost
+ogoboars	ogcorebb	cost
+ogtrolls	ogtroll0	cost
+ogscrapw	ogpumpcw	incl
+ogscrapw	ogpw1	cost
+oggiant	ogward6	cost
+ogoboars	ogllance	incl
+ogolord	ogha	hide
+ogogtshm	mgfull	hide
+ogolord	og2ndmt	hide
+ogglord	ogpoison	cost
+ogglord	ogha	cost
+ogohero	og2ndftl	cost
+ogohero	ogha	hide
+ogolord	ogplate	cost
+ogohero	ogplate	cost
+ogolord	hahro	hide
+ogohero	hahro	hide
+ogoshm	mgfull	hide
+ogoshm	ogoccha	cost
+ogghero	ogha	hide
+ogggtshm	oglore2	cost
+oggshm	mgfull	hide
+ogggtshm	mgshow	hide
+ogggtshm	mgfull	hide
+ogoboyz	ogstabba	cost
+ogoboyz	ogextra	auto
+ogbodyg2	ogstabba	cost
+ogovet	ogstabba	cost
+ogovet	ogextra	auto
+ogovet	ogsh3	cost
+ognastys	og2ndftl	incl
+oggwolf	ogextra	auto
+ogsnots	ogextra	auto
+ogblacks	ogplate	cost
+ogoboars	lalrd	hide
+ogoboars	og2ndhdm	cost
+ogoboars	ogha2	hide
+ogoboars	stmg10	hide
+oggnadas	ogcagor	incl
+xogsnot	throww	incl
+ogscrapw	ogpw2	cost
+ogscrapw	ogpw3	cost
+ogscrapw	ogpw4	cost
+oggstone	ogobully	cost
+ogdoom	ogobully	cost
+ogarachn	ogspifli	cost
+ogavatar	btstanda	cost
+ogavatar	ogward5	hide
+ogghero	ogllance	free
+oggboyz	ogthrow	auto
+oggobski	mus10	cost
+oggobski	ogchgboy	cost
+oggobski	ogsbow	free
+oggobski	ogsh1	cost
+oggobski	ogspsh	free
+oggobski	st10	cost
+oggobski	stmg10vt	cost
+oggobski	ogthrow	auto
+ogochar	ogha	cost
+ogochar	lalrd	incl
+^
+^
+ogmsg8	Big 'Uns	You can only have one unit of Big 'Uns of each type. Ignore this message if you have Gorbad Ironclaw.
+ogmsg2	Biguns	At least as many Orcs of the same type must be taken with Big'uns
+ogmsg7	Biguns	Only one unit in the army can be upgraded to Big 'Uns. Ignore this message if you have Gorbad Ironclaw.
+ogmsg12	Boar Boyz Magic Standard	Only one unit of Boar Boyz is allowed a magic standard.
+ogmsg15	Bosses > Shamen	There must be more Bosses than Shamen
+ogmsg14	Chariot Free Choices	You have too many "Free" chariots.  Remember that adding a chariot with the "+" button counts as a "Free" choice!
+ogmsg905	Core Boar Boyz	You need Orc General with Lucky Boar's Leg in order to make Orc Boar Boyz core.
+ogmsg3	Extra Big Boss	Only one extra Goblin Big Boss may be taken per full 1000 points
+ogmsg4	Extra Big Boss	An extra Goblin Big Boss may only be taken if all characters are Goblins
+ogmsg11	Grom's Need	Grom the Paunch needs at least one common goblin unit.
+ogmsg6	No Orc Bullies	No Orc Bullies allowed in a Common Goblin Army
+ogmsg901	Only One Boss' Standard	Only one unit with Mark of da Boss can have better magic banner.
+ogmsg17	Only One Grimgor!	Only one Grimgor Ironhide version may be present.
+ogmsg9	Opponent's Approval	Need Opponent's Approval
+ogmsg16	Savage Orc Shaman Required	You must take Savage Orc Shaman or Great Shaman to buy Warpaint for Giant.
+ogmsg13	SO Boar Boyz Magic Standard	Only one unit of Savage Orc Boar Boyz is allowed a magic standard.
+ogmsg902	Too many Goblin units	You can only have 4 units of foot Goblins of any type (8 for armies of 4000 points or more).
+ogmsg10	Too Many Orc Bullies	Only 1 Orc Bully is needed for each Spear Chuka.  Any more and the crew will be beat to death before the battle!
+ogmsg1	Too many spells	Too many spells have been selected for a Shaman
+ogmsg904	Too many Veterans	You cannot have both foot and Boar Veteranz in your army.
+ogmsg5	Wyverns	No more than 2 wyverns in a Mountain/Troll Army
+^

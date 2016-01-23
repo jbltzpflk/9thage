@@ -1,0 +1,356 @@
+Description: Unknown
+Version: Unknown
+Author: Unknown
+None
+^
+Infernal Dwarves	dz	0	sm,dw,he,we,br,lz,ok,ch,dm,dk,og,sk,em,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="Dec 2015, ver. 0.10.0";info:display="by AJT";info:display="";info:always="Relentless: Units containing only models with this rule may march even when there are enemies within 8”. If not within 8” of an enemy unit Infantry may Mv x3 when marching instead of x2.";info:display="";info:always="Unruly: -1 Ld to rolls on following tests: Restrain, Frenzy, Restrain Pursuit.If in horde formation roll 3 dice for panic tests and discard the highest ";info:display="";info:always="Supreme Race: May re-roll failed Fear tests. Ignore penalties for Stand and Shoot.Have Lethal Strike in turn they charged until the end of the combat phase.  ";trat:Sneakychief@1m:chambush@1u-msg=dzmsgcha	
+^
+dztaurru	 Bull Centaur Taur'ruk		N/A	Hero	Hero	1:1	155	100	type:Ld9;type:Hero;ipts:total=50-each=50;attr:Type="MB"	reqd:unit=dzbullce-min=1-msg=dzmsg13;hide		Monstrous Beast (Stomp); Scaly Skin (5+); Contempt; Fear		Cannot be army's General; Requires a unit of Renders		7	5	2	5	5	4	4	4	9	5	0	0	0	0	0	1	0
+dzdrazha	 Drazhaoth the Ashen, Prophet of Hashut		N/A	Wizard	Lord	1:1	570	0	type:Ld10;type:dsmith;type:Hero;attr:Type="In";take:dzdrazh1-free-perm;take:dzdrazh2-free-perm;take:dzdrazh3-free-perm	hide		Infantry; Resolute; Relentless; Contempt; Daemonsmith; Dark Renown (+1 CR to all Chaos Dwarf units, including himself); 				3	6	4	4	5	4	2	3	10	7	0	0	0	0	0	1	0
+dzbaleta	Bull of Shamut		N/A	Mount		1	0	0	attr:Type="Mo"	hide		Monstrous Beast; Fly (8); Large Target; Fear; Flaming Attacks; Fireborn; Magical Attacks, Ward Save (5+) Magma Body (has Grinding Attacks (D3) (or Grinding Attacks (D6+1) if the model is a Large Target. These attacks are resolved at Strength 4 and has the Flaming Attacks. When rolling To Wound against a model with this rule, any natural roll of '6' must be re-rolled, Magical Attacks are not affected by this.  )				6	5	0	5	5	4	3	3	6	7	5	0	0	0	0	1	0
+dzchbull	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="MB";coun	hide						7	5	4	5	5	3	3	4	9	4	0	0	0	0	0	1	0
+dzchhobg	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="In";coun	hide						4	4	4	3	3	1	3	2	6	7	0	0	0	0	0	1	0
+dzchinf	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="MB";coun	hide						4	5	4	5	5	1	3	2	9	7	0	0	0	0	0	1	0
+dzchinfe	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="In";coun	hide						4	5	4	4	4	1	2	3	9	10	0	0	0	0	0	1	0
+dzchiron	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="In";coun	hide						3	6	4	4	4	1	2	3	9	10	0	0	0	0	0	1	0
+dzchkdaa	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="MI";coun	hide						6	5	4	5	4	2	4	4	7	7	0	0	0	0	0	1	0
+dzchtaur	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="MB";coun	hide						7	6	4	4	4	1	2	2	9	3	0	0	0	0	0	1	0
+dzchwarr	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="In";coun	hide						3	5	4	3	4	1	2	2	9	7	0	0	0	0	0	1	0
+dzchwolf	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="Ca";coun	hide						4	4	4	3	3	1	3	2	6	7	0	0	0	0	0	1	0
+dzhellf	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="In";coun	hide						3	5	4	3	4	1	2	1	9	10	0	0	0	0	0	1	0
+dzzealo	Champion		N/A	Champion	champ	1:1	10	0	attr:Type="In";coun	hide						3	5	4	4	4	1	2	2	9	10	0	0	0	0	0	1	0
+dzcinder	Cinderbreath		N/A	Mount		1	0	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Fly; Terror; Large Target; Flaming Attacks; # Blazing Body: any model in base contact with Great Taurus (except his rider) at the start of round of Close Combat suffers S4 Flaming hit. Non-magical attacks must re-roll successful to Wound rolls; # Fuelled By Fire: cannot be wounded by spells from Lore of Fire. If spell from Lore of Fire is successfully cast on him, he regains D3 Wounds; # Breath Weapon, St5, Flaming Attack				6	5	0	6	6	5	3	4	6	7	0	0	0	0	0	1	0
+dzcrew	Crew		N/A	N/A		1	0	0		hide		Heavy Armour				3	4	3	3	4	0	2	1	9	5	0	0	0	0	0	1	0
+dzcrew3	Crew		N/A	N/A		1	0	0		hide						0	4	3	3	0	0	2	1	9	7	0	0	0	0	0	1	0
+dztaurus	Great Bull of Shamut		N/A	Mount		1	0	0	attr:Type="Mo"	hide;umax:1		Monster ; Fly (7); Breath Weapon (Strength 4); Flaming Attacks); Magical Attacks; Ward Save (5+); Flaming Attacks; Fireborn ;Magma Body: has Grinding Attacks (D6+1). These attacks are resolved at Strength 4 and has the Flaming Attacks. When rolling To Wound against a model with this rule, any natural roll of '6' must be re-rolled, Magical Attacks are not affected by this.  		Innate Defence (5+) 		6	5	0	6	6	6	3	3	6	5	5	0	0	0	0	1	0
+dzogrecr	Slave Ogre		N/A	N/A		1:1	0	0		hide		Heavy Armour				6	3	2	4	4	3	2	3	7	7	0	0	0	0	0	1	0
+dzlammas	Temple Lammasu		N/A	Mount		1	0	0	attr:Type="Mo"	hide;umax:1		Fly (8); Large Target; Magic Resistance (2); Fear; Magical Attacks; Ward Save (5+); One of a kind				6	3	0	5	5	4	2	2	8	7	5	0	0	0	0	1	0
+dzwolf	Wolf		N/A	Mount		1	0	0		hide		Fast Cavalry				9	3	0	3	3	1	3	1	3	7	0	0	0	0	0	1	0
+dzhelish	 Lord: Overlord		Hero	Wizard	Lord	1:1	125	100	type:dsmith;type:Ld10;ipts:total=100-each=100;type:Hero;attr:Type="In";spec:+armr;type:chaosdwarf			Infantry ; Relentless; Chosen of Ashurk; Fuel for Hatred: The Overlord and his unit have the Hatred  (this does not affect mounts). 		Infernal Weapon		3	7	4	4	5	3	4	4	10	7	0	0	0	0	0	1	0
+dzsorclo	 Lord: Prophet		Hero	Wizard	Lord	1:1	220	100	type:dsmith;type:Ld10;ipts:total=100-each=100;type:Hero;attr:Type="In";spec:+armr;type:chaosdwarf			Infantry; Relentless; Chosen of Ashurk; Engineer ; My Wish Is Your Command:  At the start of any shooting phase can decide not to use the Engineer special rule in this phase and make an infantry unit within 6” ignore all penalties for moving and shooting. The unit can also march (but not triple their M), and still shoot. 		Infernal Weapon, Infernal Armour		3	5	5	4	5	3	2	3	10	7	0	0	0	0	0	1	0
+dzdwwach	Hero: Anointed Taurhuk		Hero	Hero	Hero	1:1	150	100	type:Ld9;type:Hero;ipts:total=50-each=50;attr:Type="In";type:chaosdwarf	clmt:weap+armr+ench+ward<=75-points-msg=dzmsg11;clmt:stnd<=1-count		Monstrous Beast ; Relentless; Chosen of Ashurk; Nat a Leader		Light Armour; Innate Defence (5+)		7	5	4	5	5	4	4	4	9	5	0	0	0	0	0	1	0
+dzsorche	Hero: Magus		Hero	Wizard	Hero	1:1	95	100	type:dsmith;type:Ld9;type:Hero;ipts:total=50-each=50;attr:Type="In";type:chaosdwarf;spec:+armr			Infantry; Relentless; Chosen of Ashurk;  Engineer, 		Infernal Weapon; Infernal Armour		3	4	4	4	4	2	2	2	9	7	0	0	0	0	0	1	0
+dzcastel	Hero: Visier		Hero	Hero	Hero	1:1	65	100	type:Ld9;type:Hero;ipts:total=50-each=50;attr:Type="In";type:chaosdwarf	clmt:weap+armr+ench+ward<=75-points-msg=dzmsg11;clmt:stnd<=1-count		Infantry; Relentless, Chosen of Ashurk		Infernal Weapon		3	6	4	4	5	2	3	3	9	7	0	0	0	0	0	1	0
+dzkhan	Hero:Hobgoblin Chieftain		Hero	Hero	Hero	1:1	35	100	type:Ld7;type:Hero;ipts:total=25-each=25;attr:Type="In";type:Sneakychief			Infantry; Insignificant;  Unruly; Dirty Deeds: Units entirely composed of models with the special rule may reroll charge move when charging enemy units in the flank or rear. When fighting an enemy unit in the flank units with this special rule gains the Fight in Extra Rank Special Rule as long as they are not themselves being attacked in their flank or rear.; Under Control:  If a Chieftain is taken one unit of Sneaky Gits can be upgraded to Ambushers for 2pt / model.				4	4	4	4	4	2	4	3	7	7	0	0	0	0	0	1	0
+dzhobcut	Hobgoblin Backstabbers		Core	Regiment	infantry	20:50	4	0	attr:Type="In";calc:Num=#			infantry; Unruly, Insignificant; Dirty Deeds: Units entirely composed of models with the special rule may reroll charge move when charging enemy units in the flank or rear. When fighting an enemy unit in the flank units with this special rule gains the Fight in Extra Rank Special Rule as long as they are not themselves being attacked in their flank or rear.		Light Armour 		4	3	3	3	3	1	3	1	6	7	0	0	0	0	0	1	0
+dzhelll	Infernal Marksmen		Core	Regiment	infantry	10:20	12	0	ipts:total=25-each=25;attr:Type="In";calc:Num=#	slmt:1-msg=dzmsg1		Infantry; Relentless; Chosen of Ashurk		Heavy Armour; Crossbow		3	4	3	3	4	1	2	1	9	7	0	0	0	0	0	1	0
+dzinfer	Infernal Warriors		Core	Regiment	infantry	10:40	9	0	ipts:total=25-each=25;attr:Type="In";calc:Num=#	slmt:1-msg=dzmsg1		Infantry; Relentless; Supreme Race		Infernal Armour		3	4	3	4	4	1	2	1	9	7	0	0	0	0	0	1	0
+dzinfzea	Dibbuk		Special	Regiment		5:30	13	0	ipts:total=50-each=50;attr:Type="In";calc:Num=#	skip slmt:1-msg=dzmsg3		Infantry ; Relentless; Chosen of Ashuruk; Frenzy; Daemonic possession: The model gains Frenzy (which it can never lose), Otherworldly, and Unbreakable special rules.		Additional Hand Weapon ; 		4	4	3	4	4	1	3	2	9	7	5	0	0	0	0	1	0
+dzhobrai	Hobgoblin Wolf Riders		Special	Regiment	infantry	5:15	12	0	attr:Type="Ca";calc:Num=#			Cavalry; Unruly; Insignificant; Fast Cavalry ; Dirty Deeds: Units entirely composed of models with the special rule may reroll charge move when charging enemy units in the flank or rear. When fighting an enemy unit in the flank units with this special rule gains the Fight in Extra Rank Special Rule as long as they are not themselves being attacked in their flank or rear.		Light Armour; Mounts Protection (6+)		4	3	3	3	3	1	3	1	6	7	0	0	0	0	0	1	0
+dzsworn	Immortals		Special	Regiment	infantry	10:30	15	0	ipts:total=50-each=50;attr:Type="In";calc:Num=#			Infantry; Relentless; Chosen of Ashuruk; Bodyguard (General, Infernal Overlord)		Great Weapon; Infernal Armour		3	5	3	4	4	1	2	2	9	7	0	0	0	0	0	1	0
+dzrocket	Infernal Machine		Special	Machine		1:1	100	0	attr:Type="WM";calc:Num=#			War Machine ; Supreme race		Heavy Armour 		0	0	0	0	7	3	0	0	0	7	0	0	0	0	0	1	0
+dzkdaai	Kadim Incarnates		Special	Regiment		3:9	55	0	attr:Type="MI";calc:Num=#	skip reqd:type=dsmith-min=1-msg=dzmsg12		Monstrous Infantry; Unstable; Otherworldly; Flaming Attacks; Fireborn; Volcanic Embrace: has Grinding Attacks (D3). These attacks are resolved at Strength 4 and has the Flaming Attacks. When rolling To Wound against a model with this rule, any natural roll of '6' must be re-rolled, Magical Attacks are not affected by this.  				6	4	3	5	4	3	4	3	7	7	5	0	0	0	0	1	0
+dzlam	Lammasu		Special	Monster	MB	1	170	0	attr:Type="MB"	umax:1		Fly (8); Large Target; Magic Resistance (2); Fear; Magical Attacks; Ward Save (5+); One of a kind				6	3	0	5	5	4	2	2	8	7	5	0	0	0	0	1	0
+dzmagma	Magma Cannon		Special	Machine		1:1	145	0	attr:Type="WM";calc:Num=#	hide		War Machine; Resolute; Relentless; Contempt; Flame Template, Range 24", S5, Multiple Wounds D3, Flaming Attacks, uses the Black Powder war machine misfire chart.		Includes 3 Chaos Dwarf crew		0	0	0	0	7	3	0	0	0	5	0	0	0	0	0	1	0
+dztaur	Taurukh		Special	Regiment		5:15	17	0	ipts:total=50-each=50;attr:Type="WB";calc:Num=#	skip slmt:1-msg=dzmsg3		War Beast ; Relentless; Chosen of Ashuruk		Light Armour; Innate Defense (5+)  		7	5	3	4	4	1	2	1	9	5	0	0	0	0	0	1	0
+dzbullce	Taurukh Ziggurat Guard		Special	Regiment		3:7	55	0	ipts:total=50-each=50;attr:Type="MB";calc:Num=#	skip slmt:1-msg=dzmsg3		Monstrous Beast; Relentless; Chosen of Taurukh		Light Armour; Innate Defense (5+)  		7	4	3	5	5	3	3	3	9	5	0	0	0	0	0	1	0
+dzsiegeg	Armoured Giant		Rare	Monster		1:1	160	0	attr:Type="Mo";calc:Num=#;attr:At="S"			Immune to Psychology; Stubborn; Giant Attacks		Heavy Armour; Innate Defence (6+) 		6	3	0	6	5	6	3	0	10	4	0	0	0	0	0	1	0
+dzmortar	Dreadquake Mortar		Rare	Machine		1:1	195	0	attr:Type="WM";calc:Num=#	hide		War Machine; Resolute; Relentless; Contempt; Dreadquake: Stone Thrower, Range 12-72", S5(10), Multiple Wounds (D6), Armour Piercing; Quake! (models in  unit suffering casualties in previous turn must test for dangerous terrain if the move or use move-or-fire weapons, war machines are treated as chariots in this case; Slow Reload (unless Slave Ogre is present, you must roll 3+ to fire, if failed mortar will not fire this turn); Uses Black Powder missfire chart with -1 to the roll		Includes 3 Chaos Dwarf crew		0	0	0	0	7	3	0	0	0	5	0	0	0	0	0	1	0
+dzhellca	Hellfire Cannon		Rare	Machine		1:1	180	0	attr:Type="Mo";calc:Num=#			Monster; Otherwordly; Unbreakable; Frenzy; Swiftstride; Hellmortar: Catapult Artillery Weapon: Range 60", 3" Template, Strength 4 [9], Armour Piercing (1), [Multiple Wounds Ordnance)].  A unit which suffers 1 or more casualties from a Hellmortar must immediately take a Panic Test. 		Innate Defence (4+)		4	4	3	5	6	5	1	5	6	4	5	0	0	0	0	1	0
+dzirond	Infernal Engine		Rare	Machine		1:1	250	0	attr:Type="Un";calc:Num=#			Chariot ; Innate Defence (3+) ; Unbreakable; Large Target; Grinding Attacks (D3) 		Includes Chaos Dwarf crew		6	0	0	6	6	7	2	0	0	3	0	0	0	0	0	1	0
+dzdestro	Kadim Titan		Rare	Monster		1:1	260	0	attr:Type="Mo";calc:Num=#	umax:1		Monster; Unstable; Otherworldly; Flaming Attacks; Fireborn; FrenzySwiftstride; Volcanic Embrace: has Grinding Attacks (D6+1). These attacks are resolved at Strength 4 and has the Flaming Attacks. When rolling To Wound against a model with this rule, any natural roll of '6' must be re-rolled, Magical Attacks are not affected by this.  				9	5	3	7	6	6	4	6	8	7	5	0	0	0	0	1	0
+^
+dzextra	Extra Base Cost		Priority	N/A	0	cost:single;xcst:5-unit=dzhobrai;xcst:-10-unit=dztaur;xcst:-15-unit=dzbullce				
+dzimopt	Infernal Machine		Priority	N/A	0	tabl:ExplosiveRockets=dzhell,VolcanoCannon=dzican,EarthquakeMortar=dzeshak,NaphtaRockets=dznapalm-noname-nobrackets				
+dzlore	Lore Table		Priority	N/A	0	tabl:Wilderness=mgbeasts,Forge=dzhashut,Death=mgdeath,Fire=mgfire,Alchemy=mgmetal-noname-nobrackets				
+dzlore2	Lore Table 2		Priority	N/A	0	tabl:Death=mgdeath,Fire=mgfire,Shadow=mgshadow-noname-nobrackets				
+dzlore3	Lore Table 3		Priority	N/A	0	tabl:Wilderness=mgbeasts,Fire=mgfire,Alchemy=mgmetal-noname-nobrackets				
+dzother	Otherworldly	ot	Priority	N/A	25	base:Wsv=5	Otherworldly Special Rule			
+dzhashut	Path of the Forge	Forg	Priority	N/A	0	type:dzhashut;show:dzshow;show:dzfull				
+dzgiapla	Plate Armour (Giant)	pl	Priority	N/A	15	base:Sv=3	Plate Armour			
+dzpoison	Poisoned Attacks in CC	poi	Priority	N/A	2		Poisoned Attacks in close combat			
+dzstmm	Steeldeamon		Priority	N/A	0	tabl:Hellguns=dzhellg,Hellhammers=dzhellh-noname-nobrackets				
+dzhails	Swap for Blunderbuss	hb	Priority	N/A	2	over:xbowhro=delete;over:dzalchfi=delete	Range 18", Strength 4,  Multiple Shoots (2). Quick to Fire. +1 Strength if the target is within 9" or for any stand & shoot charge reaction.			
+dzws4	Ward Save (4+)	ws4	Priority	N/A	40	base:Wsv=4	 Ward Save (4+)			
+dzchambu	Chieftains Ambushers	am	First	N/A	2	type:chambush	Ambushers			
+dzorcsla	Orc Slaves 	os	First	N/A	2	base:To+1;base:Ld+1;name:"Orc Slaves"	Orc slaves have +1 T, Ld, and has +1 strength in the first round of combat. Base size 25x25mm 			
+dzshow	All Path Spells	hash	SpellType	N/A	0	take:dzspella-perm;take:dzspell0-perm;take:dzspell1-perm;take:dzspell2-perm;take:dzspell3-perm;take:dzspell4-perm;take:dzspell5-perm;take:dzspell6-perm;spec:+spel;item:+8				
+dzfull	Full Spell List		SpellType	N/A	0	more:dzspella=incl;more:dzspell0=incl;more:dzspell1=incl;more:dzspell2=incl;more:dzspell3=incl;more:dzspell4=incl;more:dzspell5=incl;more:dzspell6=incl				
+dzahw1	Additional Hand Weapon	ahw	Weapon	N/A	1	stat:At+1;utyp:!mounted;skip over:sprtrp=delete			Gives +1A when on foot.	
+dzahw10	Additional Hand Weapon	ahw	Weapon	Wep,2Hd	10	stat:At+1;utyp:!mounted			Gives +1A when on foot.	
+dzahw2	Additional Hand Weapon	ahw	Weapon	Wep,2Hd	2	stat:At+1;utyp:!mounted			Gives +1A when on foot.	
+dzahw3	Additional Hand Weapon	ahw	Weapon	Wep,2Hd	3	stat:At+1;utyp:!mounted			Gives +1A when on foot.	
+dzahw4	Additional Hand Weapon	ahw	Weapon	Wep,2Hd	4	stat:At+1;utyp:!mounted			Gives +1A when on foot.	
+dzahw5	Additional Hand Weapons	ahw	Weapon	N/A	5	stat:At+1;chld:champ@At+1;over:dzgw10=delete;over:dzsp5=delete			Gives +1A when on foot.	
+dzalchfi	Alchemist Fire	af	Weapon	N/A	2		Shooting Attacks gain Flaming Attacks and Hellfire			
+dzbloodh	Blood of Hashut	bloh	Weapon	N/A	20		One Use Only. Instead of attacking, use against single enemy model in base contact. On 2+ target suffers D6 hits, wounding on roll equal to unmodified armour save (roll of 1 always fails), with no armour saves, and with Flaming and Magical Attacks.			
+dzblunde	Blunderbuss	HaBlu	Weapon	Wep	6	over:dzgw3=delete;over:dzfigl5=delete	Range 18", Strength 4,  Multiple Shoots (2). Quick to Fire. +1 Strength if the target is within 9" or for any stand & shoot charge reaction.			
+dzbow	Bow	bow	Weapon	N/A	1	over:2ndwhalf=delete	Range 24". S3. Volley fire.			
+dzbow2	Bow	bow	Weapon	N/A	2	over:sprmtrp1=delete	Range 24". S3. Volley fire.			
+dzenshw	Ensorcelled Hand Weapons	enshw	Weapon	N/A	0	stat:St+1	^	^	Hand Weapon, Magical Attacks, +1St	
+dzfigl15	Fireglaives	firgl	Weapon	N/A	15	stat:St+1	Range 18" S4 Armour Piercing, Melee S+1 Two Handed			
+dzfigl5	Fireglaives	firgl	Weapon	N/A	5	stat:St+1;chld:champ@St+1;over:dzblunde=delete;over:dzgw3=delete	Range 18", S4 Armour Piercing, Melee S+1 Two Handed			
+dzfiha	Flintlock Axe	fh	Weapon	Rng	10	stat:St+1;xcst:6-unit=dzcastel;xcst:3-unit=dzinfer	Range 18”. Strength 4. Armour Piercing (1). Flaming Attacks. Counts as Halberd in Close Combat.			
+dzgw15	Great Weapon	gw	Weapon	Wep,2Hd	15	stat:St+2;type:GreatWeapon	+2S, Always strikes last, Two-handed			
+dzgw4	Great Weapon	gw	Weapon	Wep,2Hd	4	stat:St+2;type:GreatWeapon	+2S, Always strikes last, Two-handed			
+dzgw5	Great Weapon	gw	Weapon	N/A	5	stat:St+2;type:GreatWeapon	+2S, Always strikes last, Two-handed			
+dzgw6	Great Weapon	gw	Weapon	N/A	6	stat:St+2;type:GreatWeapon	+2S, Always strikes last, Two-handed			
+dzgw10	Great Weapons	gws	Weapon	N/A	10	stat:St+2;chld:champ@St+2;type:GreatWeapon;over:dzsp5=delete;over:dzahw5=delete	+2S, Always strikes last, Two-handed			
+dzgw3	Great Weapons	gws	Weapon	N/A	3	stat:St+2;chld:champ@St+2;type:GreatWeapon;over:dzblunde=delete;over:dzfigl5=delete	+2S, Always strikes last, Two-handed			
+dzhal4	Halberd	hal	Weapon	Wep,2Hd	4	stat:St+1	Requires Two Hands. +1 Strength.			
+dzdarkwe	Infernal Armour	drkw	Weapon	Wep	15	stat:st+1;over:dzgw3=delete;xcst:6-unit=dzcastel	+1S, Magical Attack. 			
+dznap15	Naphta Bombs	NaBo	Weapon	N/A	15		^	^	Thrown Weapon, Range 6", St3, Armour Piercing, Flaming Attacks, hit=D3 hits, if 1 is rolled thrower suffers 1 wound with AP and flaming attack.	
+dznap5	Naphta Bombs	NaBo	Weapon	N/A	5		^	^	Thrown Weapon, Range 6", St3, Armour Piercing, Flaming Attacks, hit=D3 hits, if 1 is rolled thrower suffers 1 wound with AP and flaming attack.	
+dzsp5	Spears	Spr	Weapon	N/A	5	over:dzahw5=delete;over:dzgw10=delete			+1S when charging	
+dztaur	Taurukh Spear	tau	Weapon	Wep	8	xcst:5-unit=dzbullce;xcst:2-unit=dztaur	+2 Strength when charging.			
+dzeshak	Earthquake Mortar	es	Missile	Bs2	50		Catapult Artillery Weapon: Range 48", 3” Template, Strength 4, Aftershock (Any unit that suffers an unsaved wound from a weapon with this rule will count all terrain (including open ground) as dangerous terrain and must re-roll To Hit rolls of '6'. The effect lasts until the end of the next player turn. ).			
+dzhell	Explosive Rockets	hr	Missile	Bs2	0		Catapult Artillery Weapon: Range 48", 5" Template, Strength 2[10], Armour Piercing(1), [Multiple Wounds (Ordnance)]  			
+dzhellfl	Hellflame 	hell	Missile	N/A	2		The unit's shooting attacks gain the Flaming Attacks and Hellfire			
+dzhellg	Hellguns 	hg	Missile	Mrk	0		Volley Gun Artillery Weapon :  Range 18”, Strength 6, Quick to Fire, Armour Piercing (1), Multiple Shots (2D6), Multiple Wounds (D3) 			
+dzhellh	Hellhammers	hg	Missile	Mrk	0		Increases its Grinding Attacks and Impact Hits by D6 			
+dznapalm	Naphta Rockets 	nr	Missile	Bs2	10		Catapult Artillery Weapon: Range 48”, 5” Template, Strenght 3,  Flaming Attacks 			
+dzpisto2	Pistol	Pst	Missile	N/A	2		^	^	Range 12", St4, Armour Piercing, Quick to fire	
+dzpisto5	Pistol	Pst	Missile	N/A	5		^	^	Range 12", St4, Armour Piercing, Quick to fire	
+dztw	Throwing Weapons	tw	Missile	Rng	2	type:missiles;xcst:1-unit=dzhobcut	Range 12”. Strength 3. Quick to Fire. Multiple Shots (2)			
+dzican	Volcano Cannon 	ic	Missile	Bs2	30		Flame Thrower Artillery:  Range 15", Strength 5, Multiple Wounds (D3), Flaming Attacks  			
+dzblac15	Blackshard Armour	BlkAr	Armour	Arm	15	more:save3=incl;utyp:!MagicArmour;over:hahro=delete			4+ Armour Save. 5+ Ward Save against Flaming Attacks.	
+dzha8	Heavy Armour	ha	Armour	N/A	8	more:save2=incl;utyp:!MagicArmour;over:lahro=delete				
+dzblacks	Infernal Armour	BlkAr	Armour	Mus	0	more:save3=incl;utyp:!MagicArmour	Plate Armour. The wearer gains Ward Save (5+) against Flaming Attacks. 			
+dzsh5	Shields	Sh	Shield	N/A	5	more:save1=incl			+1 AS; Foot models gain 6+ Ward against attacks made against model's front.	
+dzchbull	Champion		Champion	N/A	0	unit:dzchbull@abs=1;modl:-1;cost:model				Renders champ
+dzchhobg	Champion		Champion	N/A	0	unit:dzchhobg@abs=1;modl:-1;cost:model				Cutthroats champ
+dzchinf	Champion		Champion	N/A	0	unit:dzchinf@abs=1;modl:-1;cost:model				Renders champ
+dzchinfe	Champion		Champion	N/A	0	unit:dzchinfe@abs=1;modl:-1;cost:model				Infernals champ
+dzchiron	Champion		Champion	N/A	0	unit:dzchiron@abs=1;modl:-1;cost:model				Ironsworn champ
+dzchkdaa	Champion		Champion	N/A	0	unit:dzchkdaa@abs=1;modl:-1;cost:model				Fireborn champ
+dzchtaur	Champion		Champion	N/A	0	unit:dzchtaur@abs=1;modl:-1;cost:model				Renders champ
+dzchwolf	Champion		Champion	N/A	0	unit:dzchwolf@abs=1;modl:-1;cost:model				Cutthroats champ
+dzhellf	Champion		Champion	N/A	0	unit:dzhellf@abs=1;modl:-1;cost:model				Infernals champ
+dzzealo	Champion		Champion	N/A	0	unit:dzzealo@abs=1;modl:-1;cost:model				Infernals champ
+dzbaleta	Bull of Shamut		Mount	Mnt	165	unit:dzbaleta@abs=1;slct:heromnt=incl;more:save1=incl				
+dzcinder	Cinderbreath		Mount	Mnt	0	unit:dzcinder@abs=1;slct:heromnt=incl;more:save1=incl;hide				
+dztaurus	Great Bull of Shamut		Mount	Mnt	250	unit:dztaurus@abs=1;slct:heromnt=incl;more:save1=incl				
+dzlammas	Temple Lammasu		Mount	Mnt	170	unit:dzlammas@abs=1;slct:heromnt=incl;more:save1=incl				
+dzwolf	Wolf		Mount	N/A	20	unit:dzwolf@per=1;slct:heromnt=incl;more:save1=incl;over:dzahw4=delete;show:sprmtrp4				
+dzcrew	Crew		Crew	N/A	0	unit:dzcrew@abs=3				Warriors champ
+dzcrew3	Crew		Crew	N/A	0	unit:dzcrew3@abs=3				Warriors champ
+dzogrecr	Slave Ogre		Crew	N/A	20	unit:dzogrecr@abs=1;stat:Wo+3				Warriors champ
+dztitan	Armour Plating	tn	Priority1	Oth	50	base:Sv=1	^	^	Innate Defence (1+)	
+dzdemonb	Otherworldly	db	Priority1	N/A	40	base:Wsv=5	^	^	 Otherworldly	
+dzrunesh	Runes of Hate	RuneH	Priority1	N/A	25		Berserk Rage; when rolling for random number of attacks, result may be re-rolled.			
+dzscaspi	Scaling Spikes	ScaSp	Priority1	N/A	10		If Siegie Giant dies on moat, ditch or wall, it is treated as clear ground for Chaos player from now on. If Siege Giant dies near a buiding or fortification, Chaos models assaulting it through location of his body gain +1 CR.			
+dzskullc	Skullcracker	SkuCr	Priority1	N/A	30	over:dzstcann=delete	Rolls 2D6 for Impact hits and Thunderstomp. +1 to wound rolls against buildings and fortifications.			
+dzstcann	Steam Cannonade	StCan	Priority1	N/A	0		Steam Cannonade: Range 18", St6, Armour Piercing, Multiple Wounds (D3), roll two artillery dice, picking the better result, roll to hit a target as normal. On missfire, which can occur only if double missfire is rolled, use black powder missfire table. If Cannonade explodes Iron Daemon suffers D6 Wounds with no saves.			
+dzsteamc	Steam Carriage	SCarr	Priority1	N/A	25		^	^	May not move, except to pivot on the spot,  unless attached to Iron Daemon. Counts as in hard cover and defended obstacle.	
+dzhellbo	Steel Beast	Hellb	Priority1	Oth	50	stat:To+1;stat:St+1	^	^	+1 Strength and +1 Toughness. 	
+dzmon	Whirling Blades	tn	Priority1	Oth	40	base:At=4;base:Ws=4	^	^	 A4 and WS4	
+dzspella	Attribute: Flames of Anger		Priority3	N/A	0	apnd:foot;hide	Range 18” Hex, Lasts one Turn, Units with the Supreme Race reroll to wound rolls of 1 against the Target.			
+dzspell0	Forge0: Shield of Dark Fire 		Priority3	N/A	0	apnd:foot;hide		Signature. Augment. 10+ to Cast. Range 12''. Remains in Play. Target has Magical Attacks and Flaming Attacks, and all to wound rolls against the target suffer -1 to wound.		
+dzspell1	Forge1: Burning Rage		Priority3	N/A	0	apnd:foot;hide		Hex. Missile. Damage. 6+ to Cast. Range 12". Target suffers 1D6 strength 6 hits with Flaming Attacks. OR 12+ to Cast, cause 2D6 S6 hits with Flaming Attacks. 		
+dzspell2	Forge2: Subjugation 		Priority3	N/A	0	apnd:foot;hide		Hex. 8+ to Cast. Range 24''. Permanent. Target has -1 Leadership.		
+dzspell3	Forge3: Breath of Hatred 		Priority3	N/A	0	apnd:foot;hide		Augment. 8+ to Cast. Range 12''. Target gains the Hatred while the spell is in effect. 		
+dzspell4	Forge4: Curse of Darkness 		Priority3	N/A	0	apnd:foot;hide		Focused, Hex, Direct Damage. 10+ to Cast, Range 18'' Instant: Target suffers 2D6 minus the target’s Toughness hits. These hits wound on 4+ and have Armour Piercing (6). 		
+dzspell5	Forge5: Choking Ash 		Priority3	N/A	0	apnd:foot;hide		Hex. Kasts One Turn. 12+ to Cast, Range 24'' OR 15+ to Cast, Range 48''. Target has -1 to hit in close combat and -2 to hit with shooting. Target cannot march in the remaining moves sub-phase. If the target wants to charge it must halve its charge distance roll (rounding up). All spells the target knows have their range decreased to a maximum of 12”. 		
+dzspell6	Forge6: Flames of the Forge		Priority3	N/A	0	apnd:foot;hide		Hex. Missile. Damage. 15+ to Cast. Range 36''. Place a 3” template with its centre over the target unit and within Range. Scatter the template 1D6”. All models under the template suffer a Strength 5 hit with Multiple Wounds (Ordnance) and Flaming Attacks. OR 18+ to Cast, hits have Strength 7.		
+dzfly	Fly(5)	fly	Special	N/A	0		Fly(5)			
+dzskirm	Skirmishers (Zealots)	sk	Special	N/A	1	prng:max=15	Skirmishers 			
+^
+dzdrazh3	Blade of Burning Steel	weap	N/A	45	1	itst:race=dz		Type: Hand weapon. Attacks made with this weapon have Metalshifting.	^	^	
+dzdarkma	Onyx Hammer	weap	MWp	45	1	itst:race=dz;stat:st+2		Type: Great Weapon.  Attacks made with this weapon have Flaming Attacks and Multiple Wounds (D3).   	^	^	
+dzdagger	Spear of Shamut	weap	MWp	30	1	itst:race=dz		Type: Taur Spear. +2 Strength when charging. In each of his own shooting phases the bearer can shoot this weapon once. This is resolved like a Bolt Thrower: Range 18”, uses the strength of the bearer, Quick to Fire.  	^	^	
+dzmaskfu	Mask of the Furnace	armr	MAr	50	1	itst:race=dz;base:Sv-1		Type: None (6+ armour save). Wearer has the Terror, Fireborn and Breath Weapon (Strength 3, Flaming Attacks)	^	^	
+dzdrazh1	Crown of Madzhab	ward	N/A	0	1	base:WSv=4;itst:race=dz		Wearer has Ward Save (4+). Once per game, after Ward Saves have been rolled, the bearer may re-roll failed Ward saves. For every successful Ward roll the wearer makes (not just when re-rolling), his Ld is reduced by 1. If his Ld ever reaches 0 in this way, the bearer is slain	^	^	
+dzcout	Dibbuki Goblet	ench	Enc	25	1	itst:race=dz&!type=mounted		One use only. Use at the start of any Player Turn.  The model gains Innate Defence (5+), Otherworldly, Holy Attacks and +1 Strength. Roll a D6 at the start of each Player Turn after the Chalice is used: On a 5+ the Chalice’s effects end. 	^	^	
+dzflaska	Ring of Desiccation	ench	Enc	30	1	itst:race=dz		All enemy units within 6” of the bearer are Flammable. 	^	^	
+dzchalic	Besheluk's Mechanism	wzrd	Arc	35	1	itst:race=dz		This item may be activated after Channels are rolled. 2 Power Dice and 1 Dispel Dice are removed from the Power/Dispel pools. After each use roll a D6: On a roll of 1 the Goblet can no longer be used. 	^	^	
+dzgb	Banner of Nezibkesh	stnd	Std	25	1	itst:race=dz	bsb=incl	All Special Close Combat Attacks against the bearer or his unit are at half strength (rounding fractions up). 	^	^	
+dzslaver	Banner of the Brazen Bull	stnd	Std	40	1	itst:race=dz	bsb=incl	Wearer’s unit has the Thunderous Charge and Vanguard special rules.	^	^	
+dzspell0	0: Shield of Dark Fire 	spel	N/A	0	1	itst:race=dz;xtot		Signature. Augment. 10+ to Cast. Range 12''. Remains in Play. Target has Magical Attacks and Flaming Attacks, and all to wound rolls against the target suffer -1 to wound.	^	^	
+dzspell1	1: Burning Rage	spel	N/A	0	1	itst:race=dz;xtot		Hex. Missile. Damage. 6+ to Cast. Range 12". Target suffers 1D6 strength 6 hits with Flaming Attacks. OR 12+ to Cast, cause 2D6 S6 hits with Flaming Attacks. 	^	^	
+dzspell2	2: Subjugation 	spel	N/A	0	1	itst:race=dz;xtot		Hex. 8+ to Cast. Range 24''. Permanent. Target has -1 Leadership.	^	^	
+dzspell3	3: Breath of Hatred 	spel	N/A	0	1	itst:race=dz;xtot		Augment. 8+ to Cast. Range 12''. Target gains the Hatred while the spell is in effect. 	^	^	
+dzspell4	4: Curse of Darkness 	spel	N/A	0	1	itst:race=dz;xtot		Focused, Hex, Direct Damage. 10+ to Cast, Range 18'' Instant: Target suffers 2D6 minus the target’s Toughness hits. These hits wound on 4+ and have Armour Piercing (6). 	^	^	
+dzspell5	5: Choking Ash 	spel	N/A	0	1	itst:race=dz;xtot		Hex. Kasts One Turn. 12+ to Cast, Range 24'' OR 15+ to Cast, Range 48''. Target has -1 to hit in close combat and -2 to hit with shooting. Target cannot march in the remaining moves sub-phase. If the target wants to charge it must halve its charge distance roll (rounding up). All spells the target knows have their range decreased to a maximum of 12”. 	^	^	
+dzspell6	6: Flames of the Forge	spel	N/A	0	1	itst:race=dz;xtot		Hex. Missile. Damage. 15+ to Cast. Range 36''. Place a 3” template with its centre over the target unit and within Range. Scatter the template 1D6”. All models under the template suffer a Strength 5 hit with Multiple Wounds (Ordnance) and Flaming Attacks. OR 18+ to Cast, hits have Strength 7.	^	^	
+dzspella	Attr: Fuel for Hatred	spel	N/A	0	1	itst:race=dz;xtot		Attribute. Hex. range 18''. Lasts one Turn. Target gains the Flammable special rule.	^	^	
+dzbazher	Armour of Bazherak the Cruel	unk2	Arm,MAr	50	1	itst:race=dz;base:Sv=2;type:unmod;type:MagicArmour		Armour Save 2+ that cannot be improved. Magic Resistance (2).	^	^	
+dzblhamm	Black Hammer of Hashut	unk2	MWp	35	1	itst:race=dz&type=chaosdwarf;stat:St+2		+2 Strength in CC. Flammable models are killed outright if wounded.	^	^	
+dzdrazh2	Daemonspite Crucible (Arcane)	unk2	N/A	0	1	itst:reg=dzdrazha		+1 to casting attempts. If Drazhoath or Cinderbreath kills an enemy Wizard in CC the bonus is increased to +2.	^	^	
+dzstonem	Stone Mantle	unk2	Tal	40	1	itst:race=dz&type=chaosdwarf;base:To+1;base:In-1		+1 Tounghness, -1 Initiative (to a minimum of 1).	^	^	
+^
+^
+^
+dzdrazha	mg4lvl	incl
+dzdrazha	general	cost
+dzsorclo	mg3lvl	incl
+dzsorclo	general	cost
+dzsorclo	mg4lvl60	cost
+dzsorche	mg1lvl	incl
+dzsorche	general	cost
+dzsorche	mg2lvl30	cost
+dzdrazha	dzblacks	incl
+dzsorclo	dzblacks	incl
+dzsorche	dzblacks	incl
+dzcastel	general	cost
+dzcastel	dzblacks	incl
+dzinfer	mus10	cost
+dzinfer	st10	cost
+dzinfer	dzzealo	cost
+dzchwarr	hahro	appl
+dzinfer	shoptrp	cost
+dzhobcut	lahro	appl
+dzhobcut	mus10	cost
+dzhobcut	st10	cost
+dzhobcut	dzchhobg	cost
+dzchhobg	lahro	appl
+dzsworn	dzblacks	incl
+dzsworn	mus10	cost
+dzsworn	stmg10	cost
+dzsworn	dzchiron	cost
+dzbullce	lahro	incl
+dzbullce	mus10	cost
+dzbullce	stmg10	cost
+dzbullce	dzchbull	cost
+dzcastel	btstand8	cost
+dzkdaai	dzchkdaa	cost
+dzmagma	dzcrew	incl
+dzmagma	dzsteamc	cost
+dzmagma	dzhellbo	cost
+dzrocket	dzcrew	incl
+dzrocket	dzother	cost
+dzrocket	dzimopt	cost
+dzhobrai	laoptrp	appl
+dzhobrai	mus10	cost
+dzhobrai	st10	cost
+dzhobrai	dzchwolf	cost
+dzchwolf	lahro	appl
+dzhobrai	dzwolf	incl
+dzirond	dzcrew3	incl
+dzirond	dzhellbo	cost
+dzmortar	dzcrew	incl
+dzmortar	dzsteamc	cost
+dzmortar	dzhellbo	cost
+dzmortar	dzogrecr	cost
+dzhellca	frenzy	incl
+dzinfer	2handtrp	cost
+dzinfer	dzblacks	incl
+dzhobcut	dztw	cost
+dzhobcut	shoptrp	cost
+dzhobcut	dzahw1	free
+dzhobcut	dzbow	cost
+dzbullce	dzgw10	cost
+dzbullce	dzhal4	cost
+dzbullce	dzahw3	cost
+dzbullce	dzsh5	cost
+dzsworn	shoptrp	cost
+dzsworn	dzdarkwe	free
+dzchiron	dzblacks	incl
+dzdrazha	dzhashut	auto
+dzdrazha	dzshow	hide
+dzdrazha	dzfull	hide
+dzkhan	lahro	cost
+dzkhan	shhro	cost
+dzkhan	dzahw2	cost
+dzkhan	dzwolf	cost
+dzkhan	sprmtrp4	hide
+dzkhan	dztw	cost
+dztaurru	hahro	incl
+dztaurru	dzblac15	cost
+dztaurru	shhro5	cost
+dztaurru	dzahw10	cost
+dztaurru	dzgw15	cost
+dzirond	dztitan	cost
+dzhobrai	dzbow	cost
+dzhobrai	dzextra	auto
+dzsorclo	dzdarkwe	incl
+dzsorclo	dzbaleta	cost
+dzsorclo	dzlammas	cost
+dzsorclo	dzlore	cost
+dzirond	dzmon	cost
+dzsorclo	dzfull	hide
+dzsorclo	dzshow	hide
+dzlammas	mg2lvl35	incl
+dzlammas	dzlore2	cost
+dzsorclo	mgshow	hide
+dzsorclo	mgfull	hide
+dzsorclo	mgmiscas	cost
+dzsiegeg	chgiant1	incl
+dzsiegeg	chgiant2	incl
+dzsorche	dzlore3	cost
+dzsorche	mgshow	hide
+dzsorche	mgfull	hide
+dzsorche	dzdarkwe	incl
+dzsorche	mgmiscas	cost
+dzcastel	shhro	cost
+dzcastel	dzpisto5	cost
+dzcastel	dzgw6	cost
+dzdrazha	dzcinder	incl
+dzhelish	general	cost
+dzhelish	dzblacks	incl
+dzhelish	dzdarkwe	cost
+dzhelish	dzpisto5	cost
+dzhelish	dztaurus	cost
+dzhelish	dzbaleta	cost
+dzhelish	mgfull	hide
+dzdwwach	shlrd4	cost
+dzdwwach	dzgw10	cost
+dzdwwach	btstand8	cost
+dzdwwach	lahro	incl
+dzhelish	dzgw10	cost
+dzhelish	shlrd	cost
+dzhelish	dzfiha	cost
+dzdwwach	dzha8	cost
+dzdwwach	dzahw3	cost
+dzdwwach	halhro	cost
+dzdwwach	dztaur	cost
+dzkhan	bowtrp4	cost
+dzkhan	dzgw4	cost
+dzinfer	haltrp1	cost
+dzinfer	dzfiha	cost
+dzhelll	mus10	cost
+dzhelll	st10	cost
+dzhelll	dzhellf	cost
+dzhelll	shoptrp	cost
+dzhelll	hahro	incl
+dzhelll	xbowhro	incl
+dzhelll	dzhellfl	cost
+dzhobcut	sprtrp	free
+dzhobcut	dzpoison	cost
+dzhobcut	dzorcsla	cost
+dzhobcut	dzchambu	cost
+dzhobrai	dzchambu	cost
+dzkdaai	dzfly	free
+dzsworn	dzgw3	incl
+dzbullce	dztaur	cost
+dzbullce	dzextra	auto
+dztaur	haupg3	cost
+dztaur	mus10	cost
+dztaur	stmg10	cost
+dztaur	dzchbull	cost
+dztaur	dzgw3	cost
+dztaur	haltrp1	cost
+dztaur	dzahw1	cost
+dztaur	shoptrp2	cost
+dztaur	dztaur	cost
+dztaur	dzextra	auto
+dzinfzea	mus10	cost
+dzinfzea	st10	cost
+dzinfzea	dzchinfe	cost
+dzinfzea	frenzy	incl
+dzinfzea	dzskirm	cost
+dzlam	mg2lvl35	incl
+dzlam	dzlore2	cost
+dzirond	dzdemonb	cost
+dzirond	dzstmm	cost
+dzdestro	frenzy	incl
+dzdestro	dzws4	cost
+dzsiegeg	dzgiapla	cost
+dzcastel	dzbaleta	cost
+dzcastel	dzdarkwe	cost
+dzcastel	dzfiha	cost
+dzhobrai	sprmtrp1	cost
+dztaur	lahro	incl
+dzhelll	dzhails	cost
+dzzealo	dzblacks	incl
+dzhelll	stmg10vt	cost
+dzhelll	dzalchfi	cost
+dzinfer	stmg10vt	cost
+^
+^
+dzmsg13	Bull Centaur Renders Required	Your army must include minimum one unit of Bull Centaur Renders to field Taur'ruk.
+dzmsgcha	Chieftains Ambushers	You have to have Sneaky Gits Chieftain to buy Ambushers rule for Sneaky Gits 
+dzmsg12	Daemonsmith Required	Your army must include minimum one Daemonsmith Sorcerer to field K'daai Fireborn.
+dzmsg1	Too many banners	Only one unit of Infernal Guard may carry magic banner.
+dzmsg3	Too many banners	Only one unit of Bull Centaurs may carry magic banner.
+dzmsg11	Too many items	Dark Castellan may have either a magic standard of unlimited points when chosen as a BSB or up to 75 points of other magic items
+^

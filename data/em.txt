@@ -1,0 +1,1255 @@
+Description: Empire Army Book
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, and bugs go to:
+^
+Empire of Sonnstahl	em	0	sm,dw,he,we,br,lz,ok,ch,dm,dk,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="October 2015, v0.9.2 beta";info:display="by DeBelial";info:display=" ";info:display="Steady men!: When a Combined Unit of Infantry Troop Type with one or more models with this Special Rule takes a Leadership Test, roll one additional D6 and remove the highest rolled D6.";info:display="If a model with this rule is the General, any number of units of Imperial Troops or Imperial Light Infantry may be upgraded to veterans (1 pt/model), giving them +1 WS and +1 I. One unit in the army upgraded to veterans may take a magic standard up to 25 points.";none:"Standard Army";olmt:type=?-emcount=1u-max-msg=emmsg2-mode<=e-istype=count;olmt:type=?-emcount=0u-max-msg=emmsg3-mode<=e-istype=!count;olmt:type=?-emcount=1u-max-msg=emmsg4-mode=f;trat:Elector_General@1u:Magic_Banner@1u-flat-msg=emmsg3;trat:Karl_Franz@0u:Karl_Asc@1u-msg=emmsg17;trat:balthasar1@0u:balthasar2@1u-msg=emmsg18;trat:seasonedgeneral@1u:empireveterans@1u-msg=emmsg21;tlmt:veteranmagicbanner-unit=1@max-msg=emmsg22;tlmt:empireveterans-unit=1@max-msg=emmsg24;tlmt:masterengineer-model=1@max-msg=emmsg25	mode:h="Army of Middenland - SoC" mode:g="The Cult of Ulric"  trat:Karl_Franz@1u:emcore@1u-flat-msg=emmsg10
+^
+emluden	 Aldebrand Ludenhof		N/A	Special Characters		1:1	360	0	take:emrunefg-free-perm;ipts:total=0;spec:+weap;type:Hero;type:count;type:Ld9;attr:Type="Ca"	lglx:!(mode=f|mode=c|mode=d|mode=b);umax:1;hide		Cavalry (Infantry if dismounted);		Elector Count of Hochland; GW Website; Counts as Lord choice; Incls Runefang, Full Plate Armor, Barded Warhorse and Hawk		4	5	5	5	4	3	5	3	9	2	7	0	0	2	0	0	0
+embalinc	 Balthasar Gelt, Incarnate of Metal		N/A	Wizard		1:1	475	1	spec:+spel;type:Hero;take:embalin2-free-perm;take:emvolstf-free-perm;take:embalin1-free-perm;take:emglrobe-free-perm;type:Wiz;catg:wiz;ipts:total=0;type:Ld9;attr:Type="MC";type:balthasar2	umax:1;hide		Monstrous Cavalry (Special Character, Stomp); Fly; Loremaster (Lore of Metal); #Mantle of Chamon: 2+ Ward Save against Flaming Attacks		Includes Quicksilver (his pegasus)	From End Times V: Archaon, 03-2015	8	4	3	4	4	6	4	3	9	6	7	8	2	1	6	0	0
+embalgel	 Balthasar Gelt, The Supreme Patriarch		N/A	Lord		1:1	360	0	spec:+spel;type:Hero;take:emvolstf-perm;take:emamcgld-perm;take:emglrobe-perm;type:Wiz;catg:wiz;spec:+wzrd;ipts:total=0;type:Ld8;attr:Type="MC";type:balthasar1	umax:1;lglx:!mode=d;hide		Monstrous Cavalry (Stomp); Loremaster (Lore of Metal); 				4	3	3	3	4	3	3	1	8	7	7	4	2	1	6	0	0
+emboris	 Boris Todbringer		N/A	Special Characters		1:1	278	0	type:Hero;take:emrunefg-free-perm;take:emtalulr-perm;spec:+weap;spec:+ward;type:count;ipts:total=0;type:Ld9;type:boris;attr:Type="Ca"	umax:1u;lglx:mode=h;hide		Cavalry;		Elector Count of Middenland; Lord; Includes Full Plate Armor, Shield, Runefang, Barded Warhorse, and Talisman of Ulric		4	6	1	4	4	3	5	3	9	1	7	0	0	2	0	0	0
+emtavdkr	 Captain Edvard Van Der Kraal		N/A	Special Characters	Hero	1:1	120	0	type:skirmishers;type:Ld9;attr:Type="In"	umax:1u;hide		Infantry; #Dirty Fighter: may always parry, as if he was equipped in hand weapon and shield; #Hard to Kill: Regeneration (5+). Immune to Killing Blow; #Must deploy with Manann's Blades (if they are present) but may leave thereafter. While he remains part of this unit both he and unit is Stubborn.		UNOFFICIAL!!! From Forge World - Tamurkhan; Allows Manann's Blades Swordsmen regiment to be fielded; by DeBelial		4	6	4	4	4	2	5	3	9	7	7	0	0	0	0	1	0
+emtajufa	 Castellan-Engineer Jubal Falk		N/A	Special Characters	Hero	1:1	95	0	type:skirmishers;type:Ld8;attr:Type="In";spec:+weap;take:emtajufa-free-perm	umax:1u;hide		Infantry; Master of Ballistics: ME within 3" of a war machine is allowed to take a ‘Look Out Sir!’. One war machine that is within 3" of a ME may re-roll either one scatter dice or one artillery dice per turn. This may not be used to re-roll the distance bounced by a cannonball; #Blackpowder Discipline:  when he joins Ironsides Handgunner unit, that unit may re-roll To Hit rolls of '1' when shooting with handguns		UNOFFICIAL!!! From Forge World - Tamurkhan; Allows Ironsides Handgunners to be fielded		4	3	4	3	3	2	4	2	8	7	7	0	0	0	0	1	0
+emknt43	 CJ 43 Knightly Orders	Kngt	N/A	Alternate Rules		5	23	0	ipts:total=50-each=50;type:knight;calc:Num=#;type:knorder;size:1-20-1-mode=zz;attr:Type="Ca"	lglx:mode=default|mode=c;reqd:unit=emknight@1u:0u-mode=c;hide		Cavalry;		TRIAL RULES from Citadel Journal 43; Unit Size: 5+		4	4	3	3	3	1	3	1	8	1	7	0	0	2	0	0	0
+emknt43b	 CJ 43 Knightly Orders	Kngt	N/A	Alternate Rules		5	23	0	ipts:total=50-each=50;type:knight;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	lglx:mode=c;hide		Cavalry'		Citadel Journal 43; Each Order has a special skill; Includes lance, heavy armour, shield, and barded warhorse; Unit Size: 5+		4	4	3	3	3	1	3	1	8	1	7	0	0	2	0	0	0
+emkoic2	 CJ 43 Knights of the Inner Circle 	Kngt	N/A	Alternate Rules		5	26	0	ipts:total=50-each=50;type:knight;type:koic;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	umax:1;lglx:mode=default|mode=c;reqd:unit=emkoic@1u:0u;reqd:unit=emicww@1u:0u-mode=c;hide;hide		Cavalry; Knights of the Inner Circle		TRIAL RULES from Citadel Journal 43; Unit Size: 5+; 1 unit per Army		4	4	3	4	3	1	3	1	8	1	7	0	0	2	0	0	0
+embowmen	 CORE: Archers		N/A	Regiment	emreg	10	7	0	xcmp:spec-legal=(mode=e|mode=g);type:skirmishers;calc:Num=#;size:1-20-1-mode=zz;xcst:7-mode=g;attr:Type="In"	umax:1-mode=c;hide		Infantry; Regimental Unit; Skirmish				4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emhalber	 CORE: Halberdiers		N/A	Regiment	emreg	10	6	0	type:state;ipts:total=50-each=50;xcmp:Spec-legal=(mode=d|mode=g);type:infantry;calc:Num=#;size:1-20-1-mode=zz;xcst:5-mode=g;attr:Type="In"	forc;hide		Infantry; Regimental Unit		Unit Size: 10+		4	3	3	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+emarqmen	 CORE: Handgunners		N/A	Regiment	emreg	10	9	0	type:state;ipts:total=50-each=50;xcmp:Spec-mode=d;type:infantry;calc:Num=#;size:1-20-1-mode=zz;xcmp:Rare-mode=h;attr:Type="In"	lglx:!(mode=e|mode=c|mode=g);forc;hide		Infantry; Regimental Unit		Unit Size: 10+	September 1, 2002	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emkoic	 CORE: Knights of the Inner Circle	Kngt	N/A	Regiment		5	25	0	ipts:total=50-each=50;type:knight;xcmp:Rare-mode=a;xcmp:Spec-mode=d;xcmp:Rare-mode=e;type:koic;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	reqd:unit=emwolves@1u:0u-mode=d;lglx:!mode=b;reqd:unit=emicww@1u:0u-mode=c;reqd:unit=emkoic2@1u:0u-mode=c;umax:1u;hide		Cavalry;		Unit Size: 5+		4	4	3	4	3	1	3	1	8	2	7	0	0	2	0	0	0
+emspear	 CORE: Spearmen		N/A	Regiment	emreg	10	5	0	ipts:total=50-each=50;xcmp:Spec-legal=(mode=d|mode=g);type:infantry;calc:Num=#;size:1-20-1-mode=zz;xcst:5-mode=g;attr:Type="In"	forc;hide		Infantry; Regimental Unit		Unit Size: 10+		4	3	3	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+emreiksf	 Foot Reiksguard	Great	N/A	Regiment	emreg	10	12	0	type:emspec;ipts:total=50-each=50;xcmp:Rare-mode=b;xcst:10-mode=b;xcmp:Core-mode=f;type:infantry;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	umax:1-legal=(mode<=b|mode=h);umax:2-mode>=e;lglx:!(mode=c|mode=d|mode=g);must:option=emspec@min=1-msg=emmsg10-istype=Karl_Franz;hide		Infantry; Friendly units within 6" may re-roll failed Fear, Terror and Panic tests. Stubborn in first round of combat		Unit Size: 10+; Max 1 Unit per Army		4	4	3	3	3	1	3	1	8	3	7	0	0	1	0	0	0
+emgrand2	 Grand Master with Great Weapon		N/A	Lord		1:1	166	100	ipts:total=100-each=100;dflt:emfpalrd;type:Hero;type:grandmaster;type:Ld9;attr:Type="Ca"	lglx:mode=g;reqd:type=whitewolf-min=1;hide		Cavalry; Crush the Weak: Character and his unit Hate models with Ld6 or less (even if Immune to Psychology		Includes full plate armor, hand weapon, Great Weapon and a barded warhorse		4	6	3	4	4	3	6	4	9	7	7	0	0	2	0	0	0
+emcannon	 Great Cannon		N/A	Machine		1:1	120	0	xcmp:Core-mode=a;xcmp:Rare-legal=(mode=d|mode=h);attr:Type="WM"	reqd:type=emreg@1u:1u-mode=a;lglx:!(mode=e|mode=c|mode=g);hide		War Machine (Great Cannon);		Includes 3 crew; Unit Size: 1		0	0	0	0	7	3	0	0	0	7	7	0	0	0	0	0	0
+emvolley	 Helblaster Volley Gun		N/A	Machine		1:1	120	0	xcmp:Spec-mode=f;attr:Type="WM"	lglx:!(mode=b|mode=c|mode=d|mode=e|mode=g|mode=h);hide		War Machine;	Includes 3 crew; 24" range, roll 3 artillery dice then roll to hit the number of shots; St5, Armour Piercing. If one or more artillery dice roll misfire, consult the chart.	Includes 3 crew; 24" range, always fires 3 barrels, use art. dice for each barrel then roll to hit the number of shots; St5, Armour Piercing		0	0	0	0	7	3	0	0	0	7	7	0	0	0	0	0	0
+emrocket	 Helstorm Rocket Battery		N/A	Machine		1:1	120	0	xcmp:Spec-mode=f;attr:Type="WM"	lglx:!(mode=b|mode=c|mode=d|mode=e|mode=g|mode=h);hide		War Machine;	Range 12-48", S3(3), Armour Piercing, Roll D3 - this is the number of rockets fired. Place all the templates in the same target spot, roll single artilllery dice and number of scatter dice equal to number of templates, and resolve each template completely before moving to next template. HRB always counts as firing indirectly and uses Black Powder Missfire chart.	Includes 3 crew; 48" range; St3, Armour Piercing, D3 templates, always fire indirectly		0	0	0	0	7	3	0	0	0	7	7	0	0	0	0	0	0
+emvalnei	 High Priest Ar-Ulric Emil Valgeir		N/A	Special Characters		1:1	325	0	ipts:total=0;spec:+spel;type:skirmishers;type:PriestOfUlric;type:arulric;take:emhamsko-free-perm;take:emwolfar-free-perm;take:emwwfan2-free-perm;take:emicedg2-free-perm;spec:+armr;spec:+weap;spec:+ward;type:notsigmar;attr:Type="In"	hide		Infantry (Ca if mounted); Has 4 Prayers of Ulric (Bound Spells, Power Level D3+3, RiPs are dispelled on a 3+ in subsequent turns).  The Ar-Ulric may use two Prayers per turn, even 2 RiP Prayers, but not the same Prayer twice;+2 dice to dispel pool.	Crush the Weak	Crush the Weak - Warrior Priest and his unit Hate models with a Ld characteristic of 6 or lower (even if immune to psych).		4	5	3	4	4	3	5	4	9	7	7	0	2	1	0	0	0
+emalulr	 High Priest of Ulric		N/A	Lord		1:1	145	100	ipts:total=100-each=100;spec:+spel;type:skirmishers;type:PriestOfUlric;type:Ld9;attr:Type="In"	lglx:mode=g;hide		Infantry (Ca if mounted); Has 4 Prayers of Ulric (Bound Spells, Power Level D3+3, RiPs are dispelled on a 3+ in subsequent turns).  The Ar-Ulric may use two Prayers per turn, even 2 RiP Prayers, but not the same Prayer twice;+2 dice to dispel pool.	Crush the Weak	Crush the Weak - Warrior Priest and his unit Hate models with a Ld characteristic of 6 or lower (even if immune to psych).		4	5	3	4	4	3	5	3	9	7	7	0	2	1	0	0	0
+emhnthn2	 Hunting Hounds		N/A	Regiment		5:20	7	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="WB"	lglx:mode=h;hide		War Beasts; Relentless Chase		Unit Size: 5-20		7	3	3	3	3	1	3	1	5	7	7	0	0	2	0	0	0
+emhnthnd	 Hunting Hounds		N/A	Regiment		5:20	7	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="WB"	lglx:mode=g;hide		War Beasts; Relentless Chase		Do not count towards minimum Core Unit requirements; Unit Size: 5-20		7	3	3	3	3	1	3	1	5	7	7	0	0	2	0	0	0
+emtairon	 Ironsides Handgunners		N/A	Special Characters	emreg	10	11	0	type:state;ipts:total=50-each=50;xcmp:Spec-mode=d;type:infantry;calc:Num=#;size:1-20-1-mode=zz;xcmp:Rare-mode=h;attr:Type="In"	reqd:unit=emtajufa;hide		Infantry; #Blackpowder Discipline:  when joined by Jubal Falk, they re-roll To Hit rolls of '1' when shooting with handguns		UNOFFICIAL!!! From Forge World - Tamurkhan; Require Jubal Falk to be fielded	September 1, 2002	4	3	3	3	3	1	3	1	7	5	7	0	0	1	0	0	0
+emkarlas	 Karl Franz Ascendant	KFAsc	N/A	Lord		1:1	810	0	attr:Type="Mo";type:Ld10;take:emkasc0-free-perm;take:emkasc1-free-perm;take:emkasc2-free-perm;type:Karl_Asc	umax:1u;hide		Monster (Spacial Character, Thunderstomp); Fly; Terror; Large Target; Immune to Psychology; Stubborn; #Bloodroar: enemy units roll additional D6, discarding the lowest, when making Ld tests caused by this model's Fear and Terror; #Inspiring Leader: if Karl Franz is your army General, his Inspiring Presence has a range of 24"		Combined profile includes Karl Franz riding his griffon, Deathclaw; NOTE: You cannot take both Karl Franz Ascendant and Karl Franz The Emperor in the same army.		6	7	5	6	5	9	7	10	10	3	4	0	0	4	0	0	0
+emfranz	 Karl Franz, The Emperor		N/A	Lord		1:1	340	0	ipts:total=0;xmpt:limit;type:count;take:emsseal-free-perm;spec:+weap;spec:+armr;spec:+ward;type:Ld10;type:emghamar;type:Karl_Franz;type:Elector_General;dflt:emrunef2;attr:Type="In"	umax:1u;lglx:!(mode=c|mode=d|mode=b);hide		Infantry (Ca on warhorse, MC on pegasus); #Leader of Men: Inspiring Presence range of 18", if mounted on LT, range is 24";  #Hold the Line! - unit he has joined rolls 3D6 for Break tests, discarding dice with highest score; Immune to Psychology				4	6	5	4	4	3	6	4	10	4	7	0	0	1	0	0	0
+emkncpt	 Knight-Captain	KnCpt	N/A	Hero	Hero	1:1	78	100	ipts:total=100-each=100;spec:-weap;spec:-armr;dflt:emfpahro;dflt:shhro;type:Hero;type:grandmaster;type:Ld8;attr:Type="Ca"	reqd:type=knight-min=1;lglx:mode=c;clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;hide		Cavalry; Immune to Psychology (extends to unit he is in).  May only join unit of their knightly order.		Includes full plate armor, hand weapon, lance, shield and ride a barded warhorse.  Need unit of knights from the same order.	Feb 12, 2003	4	5	3	4	4	2	5	3	8	7	7	0	0	2	0	0	0
+emknigh2	 Knightly Orders	Kngt	N/A	Regiment		5	23	0	ipts:total=50-each=50;type:knight;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	lglx:mode=c;hide		Cavalry; 		Unit Size: 5+		4	4	3	3	3	1	3	1	8	1	7	0	0	2	0	0	0
+emhelbog	 Kurt Helborg, Reiksmarshall of the Empire		N/A	Lord		1:1	320	0	spec:+weap;spec:+armr;spec:+ench;ipts:total=0;take:emsolrun-free-perm;type:grandmaster;type:Ld9;take:emlaurel-free-perm;attr:Type="Ca"	umax:1;lglx:!(mode=a|mode=b|mode=d|mode=e);reqd:type=knight-min=1;hide		Cavalry; Immune to Psychology; Stubborn; #The Emperor's Chosen: Reiksguard Knights joined by Kurt are Immune to Psychology				4	7	6	4	4	3	6	4	9	5	7	0	0	2	0	0	0
+emlegkni	 Legendary Knightly Orders	Kngt	N/A	Alternate Rules		5	23	0	ipts:total=50-each=50;type:knight;xcmp:Rare-mode=a;xcmp:Spec-mode=d;xcmp:Rare-mode=e;calc:Num=#;type:knorder;size:1-20-1-mode=zz;attr:Type="Ca"	umax:1-legal=(mode=d|mode=h);lglx:!(mode=b|mode=g);reqd:unit=emknt43@1u:0u-mode=c;must:emchoice@min=1;hide		Cavalry;		From UK WD 310; Cannot be fielded together with Knights of the White Wolf (as this is a Legendary Order too); Must have one Advantage and one Disadvantage; Includes lance, heavy armour, shield, and barded warhorse; Unit Size: 5+; One unit per army in Army of Middenland and Sigmarite Army lists		4	4	3	3	3	1	3	1	8	1	7	0	0	2	0	0	0
+emtaliet	 Lietpold the Black		N/A	Special Characters		1:1	245	0	spec:+weap;ipts:total=0;type:Ld9;attr:Type="Ca";type:lietpold;take:emtaliet-perm	umax:1u;hide		Cavalry; Immune to Psychology; #Blessing of Lethe: Ward Save 3+, but if he fails it, from his next turn he has -2 To and Ld; #Murderous Charge: Lietpold and any unit he joined gain Extra Attack on the turn they charge (does not apply to mounts); #Dark Renown: you cannot include Grand Masters, Warrior Priests, Steam Tanks, Emperor Karl Franz or any named Elector Counts. You may choose a single Core unit from Bretonnia, Ogre Kingdoms or Dwarfs army books, but they will not count towards minimum Core units. Empire army led by Lietpold is treated as Non-aligned force		UNOFFICIAL!!! Forge World special character; Lietpold must be your general; If you include Lietpold you cannot include Grand Masters, Warrior Priests, Steam Tanks, Emperor Karl Franz or any named Elector Counts - Army Builder does NOT validate this! 		4	7	4	4	4	3	5	3	9	5	3	0	0	0	0	0	0
+emludwig	 Ludwig Schwarzhelm, The Emperor's Champion		N/A	Hero	Hero	1:1	185	1	spec:+weap;spec:+stnd;take:emjustic-free-perm;take:emempstd-free-perm;type:Hero;attr:Type="Ca"	umax:1;lglx:!(mode=a|mode=b|mode=d|mode=e);hide		Cavalry; #Emperor's Bodyguard: if Karl Franz in same unit with Ludwig suffers a Wound, on 2+ Wound is resolved on Ludwig instead. No more than 1 Wound per phase can be alocated on Ludwig in this way. This does not work if Karl Franz is in challenge; #The Emperor's Herald: Ludwig is always army's Battle Standard Bearer				4	6	5	4	4	2	5	3	8	4	7	0	0	1	0	0	0
+emluthor	 Luthor Huss, The Prophet of Sigmar		N/A	Hero	Hero	1:1	155	0	spec:+spel;ipts:total=0;type:Hero;type:ward;type:Ld9;type:warriorpriest;attr:Type="Ca";take:emunbrig-free-perm	umax:1;lglx:!mode=f;hide		Cavalry; #Divine Power: can channel power and dispel dice; #Righteous Fury: unit he joined (but not other characters in the unit) Hate all enemy models; #Battle Prayers: Innate bound spells, Power Level 3, Augment, all last until start of caster's next Magic phase, can target caster and his unit (also affects unit's detachments, if they are within 3" of parent unit); #Chosen of Sigmar: Ward save 4+. Once per battle at the start of any CC phase roll D3 and add this number to Luthor's WS, St, To and At until the end of turn; #Fiery Demagogue: Luthor knows additional Battle Prayer: Unbending Righteousness		Hero		4	5	4	4	4	2	4	2	8	3	4	0	1	2	4	4	0
+emtaelsp	 Magisterix Elspeth von Draken		N/A	Special Characters		1:1	590	100	ipts:total=100-each=100;type:Hero;type:Wiz;spec:+weap;type:skirmishers;xcst:190-mode=c;type:Ld8;attr:Type="In";spec:+ench;take:emtaels1-free-perm;take:emtaels2-free-perm	clmt:spel<=Wz-msg=emmsg1;hide		Infantry; Loremaster (Death); #Darkwalker: Immune to Psychology, -1 to all To Wound rolls against her, suffers from extra effects specific for Daemons and Undead		UNOFFICIAL!!! Forge World special character; Level 4 Wizard with Lore of Death; Rides Carmine Dragon		4	3	3	3	4	3	4	2	10	7	7	3	2	1	3	0	0
+emtamabl	 Manann's Blades Swordsmen		N/A	Special Characters		10	7	0	ipts:total=50-each=50;xcmp:Spec-mode=d;type:infantry;calc:Num=#;attr:Type="In";take:emtaseab-perm	umax:1u;reqd:unit=emtavdkr;hide		Infantry; Stubborn if joined by Captain Van Der Kraal		UNOFFICIAL!!! From Forge World - Tamurkhan; Require Van Der Kraal to be fielded		4	4	3	3	3	1	4	1	7	5	7	0	0	1	0	0	0
+emtaland	 Marienburg Class Land Ship		N/A	Alternate Rules		1:1	300	0	attr:Type="Un";attr:Mv="*"	hide		Unique (Chariot); Thunderstomp; Large Target; Unbreakable; Fear; Impact Hits (D6); #Culverin: cannon, St7, grapeshot with St3. May move and fire, and can fire even if engaged in close combat (but can only target a unit in contact with its front. If culverin is destroyed by missfire, Land Ship suffers D3 Wounds with no saves allowed; #Fusillade: crew may fire D6 shots in Shooting Phase, in any direction. Shots have Range 18", St4, armour piercing. #The Wonder of Age: count's as chariot except following Movement rules: SLOW: move 6" directly forward, may not charge. FULL POWER: pivot in any direction and move 2D6", if contacts enemy unit it counts as charging. On double '1' or double '6' roll on Calamity Chart		UNOFFICIAL!!! From Forge World - Tamurkhan		0	0	0	6	6	12	0	0	0	3	6	0	0	0	0	1	0
+emleitdf	 Marius Leitdorf, Elector Count of Averland		N/A	Lord		1:1	220	0	type:Hero;take:emaverun-free-perm;spec:+weap;type:count;ipts:total=0;type:Ld9;attr:Type="Ca"	umax:1;lglx:!(mode=f|mode=c|mode=d|mode=b);hide		Cavalry (Infantry if dismounted); #Hold the Line! - unit he has joined rolls 3D6 for Break tests, discarding dice with highest score; #The Mad Count: at the start of every friendly turn test Marius' Ld on 3D6 discarding lowest dice. If failed roll on the table: 1- counts as failed Stupidity test, 2-Frenzy which cannot be lost and lasts until next roll on this table, 3- makes 1 attack against random friendly model in base contact, 4-every friendly unit within 12" can Reform, and then still march, charge and shoot as normal, 5- closest enemy character has the Hatred agaist Marius for the rest f the game, 6- Marius has Frenzy, Stubborn and must accept all challenges until next time he rolls on this table.				4	6	5	4	4	3	5	3	9	2	7	0	0	2	0	0	0
+emmarkus	 Markus Wulfhart, Huntsmarshall of the Empire		N/A	Hero	Hero	1:1	140	0	type:skirmishers;type:Ld8;attr:Type="In";take:emamberb-free-perm	umax:1u;hide		Infantry; Hatred (Monsters); Immune to Psychology; Scout; #Monster Hunter: re-roll failed To Hit rolls when shooting at monsters. If shooting at ridden monster and Monster and Handlers, always the monster itself is hit and wounded; #Wulfhart's Hunters: if you include Markus, one unit of Hunter's may be upgraded to Wulfhart's Hunters. This unit gains Monster Hunter anf Immune to Psychology rules.				4	5	5	4	4	2	5	3	8	7	7	0	0	0	0	1	0
+emmortar	 Mortar		N/A	Machine	machine	1:1	100	0	xcmp:Core-mode=a;xcmp:Rare-legal=(mode=d|mode=h);attr:Type="WM"	lglx:!(mode=e|mode=c|mode=g);reqd:type=emreg@1u:1u-mode=a;hide		War Machine;	Treat as Stone Thrower, Range 12-48", Large Template, S2(6), Multiple Wounds (D3), Armour Piercing, Black Powder Missfire chart	Includes 3 crew; Treat as Stone Thrower, Range 12-48", Large Template, S2(6), Multiple Wounds (D3), Armour Piercing, Black Powder Missfire chart		0	0	0	0	7	3	0	0	0	7	7	0	0	0	0	0	0
+emlumina	 RARE: Luminark of Hysh		N/A	Machine		1:1	120	0	attr:At="D6";attr:Type="Ch";spec:+ench;take:emlumi1-free-perm	hide		Chariot; Large Target; #Aura of Protection- Luminark and all friendly units within 6" have Ward Save 6+; #Locus of Hysh- if you have one or more Luminarks add 1 dice to your dispel pool				0	0	0	5	5	5	0	0	0	5	6	0	0	5	0	0	0
+emsnslww	 Seneschal of the White Wolf	HerEm	N/A	Hero	Hero	1:1	62	100	ipts:total=50;name:"EM Seneschal of the White Wolf"-race=vm;type:skirmishers;type:Ld8-race=!vm;dflt:emhamww2;dflt:emfpahro;attr:Type="In"	lglx:(race=em&(mode=g|mode=h))|(race=vm&mode=e);race:vm;hide		Infantry (Ca if mounted); Seneschal's Commanding Presence- Seneschal and his unit are Immune to Panic;Crush the Weak- Seneschal and his unit Hate models with Ld6 or less (even if Immune to Psychology)		Includes full plate armor, and a White Wolf hammer.		4	5	3	4	4	2	5	3	8	7	7	0	0	0	0	1	0
+emoutr	 SPECIAL: Outriders		N/A	Regiment	emreg	5	21	0	xcmp:Rare-mode=d;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	lglx:!(mode=e|mode=c|mode=g|mode=h);hide		Cavalry; Fast Cavalry (unless Barding is taken)		Unit Size:5+		4	3	4	3	3	1	3	1	7	5	7	0	0	2	0	0	0
+emtutgrd	 Teutogen Guard		N/A	Regiment	emreg	10	11	0	ipts:total=50-each=50;type:infantry;calc:Num=#;size:1-20-1-mode=zz;xcmp:Spec-mode=h;xcst:12-mode=h;attr:Type="In"	umax:1;lglx:(mode=g|mode=h);hide		Infantry;	Stubborn	Stubborn; Unit Size: 10+; Max 1 Unit per Army		4	4	3	3	3	1	3	1	8	4	7	0	0	1	0	0	0
+emtatheo	 Theodore Bruckner		N/A	Special Characters		1:1	335	100	ipts:total=100;attr:Type="In";spec:+weap;take:emtathe1-perm;spec:+ench;take:emtathe2-perm;spec:+ward;take:emtathe3-perm	umax:1u;hide		Infantry; #The Hand of Judgement: cannot be general. When fighting in a challenge, he is Unbreakable;		UNOFFICIAL!!! Forge World special character; Includes Reaper, the Demigryph		4	6	4	5	4	3	4	3	9	5	5	0	0	0	0	1	0
+emgorman	 Thyrus Gormann		N/A	Special Characters		1:1	500	0	take:emdrswd-perm;take:emruby-perm;take:emagni-perm;catg:Wiz;type:Wiz;type:Hero;ipts:total=0;type:Ld9;attr:Type="Ca"	umax:1;lglx:!mode=d;hide		Cavalry (In if dismounted);	Knows all Fire Spells; FireBall (1d6+1); Fiery Blast (2d6+2); Conflag of Doom (all D6+1s); +4 dice to casting and +2 to dispel pool. 	From GWUS Website.  Lvl 4 Fire Lord; Knows all Fire spells; gains +1 per D6 for damage rolls; Counts as Lord and Hero; Comes with 4 magic items and barded warhorse.		4	4	3	4	4	3	4	2	9	5	7	4	2	1	6	0	0
+emraukov	 Valmir von Raukov		N/A	Special Characters		1	280	0	ipts:total=0;xmpt:limit;take:emrunefg-free-perm;take:emdrgbow-free-perm;type:count;spec:+weap;type:Ld9;attr:Type="Ca"	umax:1;must:emchoice@min=1-msg=emmsg5;lglx:!(mode=f|mode=c|mode=d|mode=b);hide		Cavalry (In if dismounted);	Master Archer	Elector Count of Ostland; Counts as Lord choice; incl Plate Armor, Barded Warhorse, Runefang, and Dragon Bow; Master Archer: 3 shots per turn at same target; GW Website		4	5	6	5	4	3	5	3	9	2	7	0	0	2	0	0	0
+emvalten	 Valten		N/A	Special Characters	Hero	1	215	0	type:Ld8;xmpt:limit;spec:+unk2;ipts:total=0;take:emvaltn1-free-perm;take:emvaltn2-free-perm;take:emvaltn3-free-perm;type:emvalten;attr:Type="In"	umax:1;hide		Infantry;		Counts as Two Hero choices.;Cannot be the General unless he has the HIGHEST leadership in the army (if tied then the other character must be General).		4	5	5	4	4	2	5	4	9	7	5	0	0	0	0	1	0
+emvalte2	 Valten II		N/A	Special Characters		1	490	0	type:Ld9;xmpt:limit;spec:+unk2;ipts:total=0;take:emvaltn1-free-perm;take:emvaltn2-free-perm;take:emvaltn3-free-perm;spec:+weap;type:emghamar;take:emghalmv-free-perm;type:emvalten;attr:Type="Ca"	umax:1;hide		Cavalry;		Cannot be the General unless he has the HIGHEST leadership in the army (if tied then the other character must be General). Ghal Maraz: For the bonus Valten gives to combat resolution of friendly units, only count the wounds before multiplying them.		4	6	5	4	4	3	5	4	9	4	5	0	0	1	0	0	0
+emvalte3	 Valten III, Exalted of Sigmar		N/A	Special Characters		1	510	0	type:Ld9;xmpt:limit;spec:+unk2;ipts:total=0;take:emvaltn1-free-perm;take:emvaltn2-free-perm;take:emvaltn3-free-perm;spec:+weap;spec:+armr;type:emghamar;take:emghalmv-free-perm;type:emvalten;take:emhelden-free-perm;type:Valten3;attr:Type="MC"	umax:1;hide		Monstrousn Cavalry (Stomp); 		Cannot be the General unless he has the HIGHEST leadership in the army (if tied then the other character must be General). Ghal Maraz: For the bonus Valten gives to combat resolution of friendly units, only count the wounds before multiplying them.		4	7	5	4	4	3	5	4	9	2	5	0	0	1	0	0	0
+emvalte4	 Valten, Herald of Sigmar		N/A	Lord	Hero	1	330	0	type:Ld9;xmpt:limit;ipts:total=0;type:emvalten;type:emghamar;attr:Type="In"	umax:1;hide		Infantry (Ca if mounted); Immune to Psychology; #Awesome Presence: Valten and all friendly units within 6" have Stubborn special rule; #Chosen of Sigmar: ward save 4+. Once per game, at the start of close combat phase declare using power of Sigmar - roll D3 and add this number to WS, St, To and At until the end of the turn; #Iron Resolve: the first time he suffers a Wound that would remove him from the game roll 2D6. If result is equal or less than 9, the Wound is negated.		Lord (Special character)		4	7	6	4	4	3	6	4	9	7	4	0	0	0	0	1	0
+emvolkmr	 Volkmar the Grim, The Grand Theogonist		N/A	Lord		1:1	190	0	take:emjadgrf-perm;take:emstcom-perm;spec:+spel;type:Hero;type:Wiz;ipts:total=0;spec:+ward;spec:+weap;spec:+ench;type:Ld9;attr:Type="In"	umax:1;lglx:!mode=f;hide		Infantry; #Divine Power: can channel power and dispel dice; #Righteous Fury: unit he joined (but not other characters in the unit) Hate all enemy models; #Battle Prayers: Innate bound spells, Power Level 3, Augment, all last until start of caster's next Magic phase, can target caster and his unit (also affects unit's detachments, if they are within 3" of parent unit); #Grand Theogonist: +1 to any attempt to cast Battle Prayers		Note that Volkmar's Prayers are cast at Power Level 5 (this can easily be overlooked)		4	5	4	4	4	3	4	2	9	7	7	0	1	1	4	0	0
+emwaralt	 War Altar		N/A	Machine		1:1	0	0	attr:At="D6";attr:Type="Ch"	hide		Chariot; As long as not fleeing; units w/in 12" (including Volkmar) are Immune to Psychology, except that they will Hate Chaos (incl CD), Undead and Skaven.  Not autodestroyed by S7 hits.				0	0	0	5	6	5	0	0	0	4	7	0	0	4	0	0	0
+emwpulr	 Warrior Priest of Ulric		N/A	Alternate Rules	Hero	1:1	95	100	name:"Priest of Ulric"-mode=g;name:"EM Warrior-Priest of Ulric"-race=vm;spec:+spel;type:skirmishers;type:Ld8-race=!vm;note:"Has 4 Prayers of Ulric (Bound Spells, Power Level 3, may only use one Prayer per turn)."-legal=(!mode=g);note:"Has 4 Prayers of Ulric (Bound Spells, Power Level D3+3, RiPs are dispelled on a 3+ in subsequent turns).  May only use one Prayer per turn."-legal=(mode=g);note:"+1 dice to dispel pool.";note:"Cannot join units of Knights except White Wolves.;Cannot join a unit with a Warrior Priest of Sigmar."-legal=(!mode=g);type:PriestOfUlric;ipts:total=50-each=50;type:notsigmar;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;lglx:mode=h|(race=vm&mode=e);race:vm;hide		Infantry (Ca if mounted); Crush the Weak - Warrior Priest and his unit Hate models with a Ld characteristic of 6 or lower (even if immune to psych).				4	4	3	4	4	2	4	2	8	7	7	0	0	0	0	1	0
+emwpver	 Warrior Priest of Verena		N/A	Alternate Rules	Hero	1:1	95	100	name:"EM Warrior-Priest of Verena"-race=vm;spec:+spel;type:skirmishers;type:Ld8-race=!vm;note:"+1 dice to dispel pool.";note:"Cannot join units of White Wolves.;Cannot join a unit with a Warrior Priest of a different God."-legal=(!mode=g);ipts:total=50-each=50;type:notsigmar;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;lglx:race=em|(race=vm&mode=e);race:vm;must:option=emchoice@min=1;hide		Infantry (Ca if mounted);Priest and unit joined may re-roll failed Panic-tests		TRIAL RULES by Ian Hawkes, author of the Warrior-Priest of Ulric and the Cult of Ulric list; These rules are not official, so you need your Opponent's Approval to use them; Any feedback is much appreciated, just mail it to anarchistica1@yahoo.com;		4	4	3	4	4	2	4	2	8	7	7	0	0	0	0	1	0
+emwarulr	 Warriors of Ulric		N/A	Regiment	emreg	10	3	0	ipts:total=50-each=50;xcmp:Spec-mode=d;type:infantry;calc:Num=#;size:1-20-1-mode=zz;xcmp:Spec-mode=h;xcst:4-mode=h;attr:Type="In"	forc;lglx:mode=g|mode=h;hide		Infantry;		Unit Size: 10+		4	4	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emwolv2	 White Wolf Knights	Kngt	N/A	Regiment	whitewolf	5	25	0	ipts:total=50-each=50;type:knight;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	umax:1;lglx:mode=c;reqd:type=whitewolf@1u:0u-mode=c;hide		Cavalry;		Unit Size: 5+		4	4	3	3	3	1	3	1	8	2	7	0	0	2	0	0	0
+emwolves	 White Wolf Knights	Kngt	N/A	Regiment	whitewolf	5	25	0	ipts:total=50-each=50;xcmp:Rare-mode=a;xcmp:Spec-mode=d;type:whitewolf;calc:Num=#;type:knight;size:1-20-1-mode=zz;xcst:23-mode=g;comm:"Unit Size: 5+";attr:Type="Ca"	reqd:unit=emknight@1u:0u-mode=d;reqd:unit=emkoic@1u:0u-mode=d;lglx:!mode=b;reqd:unit=emknight@1u:0u-mode=c;reqd:unit=emknt43@1u:0u-mode=d;lglx:(mode=e|mode=g|mode=h);hide		Cavalry;		One unit per army except in SOC Cult of Ulric and Army of Middenland lists		4	4	3	3	3	1	3	1	8	2	7	0	0	2	0	0	0
+emicww	 White Wolves of the Inner Circle	Kngt	N/A	Regiment	whitewolf	5	28	0	ipts:total=50-each=50;type:knight;xcmp:Rare-mode=f;xcmp:Rare-mode=a;xcmp:Spec-mode=d;type:whitewolf;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	reqd:unit=emknight@1u:0u-mode=d;reqd:unit=emkoic@1u:0u-mode=d;lglx:!mode=b;umax:1;reqd:unit=emkoic2@1u:0u-mode=c;reqd:unit=emkoic@1u:0u-mode=c;hide;hide		Cavalry; Knights of the Inner Circle		Unit Size: 5+; 1 Unit per Army		4	4	3	4	3	1	3	1	8	2	7	0	0	0	0	0	0
+emwlfkin	 Wolf-kin		N/A	Regiment		5:15	8	0	calc:Num=#;attr:Type="In"	lglx:(mode=g|mode=h);hide		Infantry; Stubborn;Skirmish		Unit Size 5-15		4	4	3	4	3	1	3	1	8	7	7	0	0	1	0	0	0
+emwulfhu	 Wulfhart's Hunters		N/A	Regiment	emreg	10	11	0	type:skirmishers;calc:Num=#;type:huntsmen;attr:Type="In"	umax:1u;reqd:unit=emmarkus-min=1;hide		Infantry; Skirmish; Scout; Immune to Psychology; Monster Hunters (see Markus Wulfhart)		Unit Size: 10+		4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emhorsey	Althandin		N/A	Monster		1:1	50	0		hide						9	4	0	4	3	3	5	2	7	5	0	0	0	3	0	0	0
+emaralmt	Arcane Altar		N/A	Mount	chariot	1:1	100	0	attr:At="D6";attr:Type="Ch";spec:+ench	umax:3u@4000-free=3-msg=crmsg903;hide		Chariot; Large Target; Heavy Armour			9th age, Nov2015	0	0	0	5	5	5	0	0	0	5	7	0	0	5	0	0	0
+emwaltar	Battle Altar		N/A	Machine	mount	1:1	0	0	attr:At="D6";attr:Type="Ch";spec:+ench	hide;umax:1u		Chariot; Large Target; Stubborn; Holy Relic: All friendly units within 6” of a model with this rule have Hatred special rule. This does not affect mounts. Furthermore, the spell type of bound spells from the Blessings special rule change to: Augment, Aura, Range 6”. In addition, the model has the a Bound spell (power level 4), contains Banishment (see Path of Light).				0	0	0	5	5	5	0	0	0	7	4	0	0	5	0	0	0
+emtacarm	Carmine Dragon	CarDr	N/A	Mount		1:1	0	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Fly; Cause Terror; Large Target; Scaly Skin (2+); #Coruscating Blast: breath weapon, do no use template, shoots like cannon with range 12", Strength 10 minus target's Toughness, Multiple Wounds (D3), no Armour saves, re-roll Missfire result.				6	5	0	5	6	6	5	6	8	2	7	0	0	0	0	0	0
+emhurrmt	Celestial Hurricanum		N/A	Mount		1:1	130	0	attr:At="D6";attr:Type="Ch";spec:+ench;take:emhurr1-free-perm	hide		Chariot; Large Target; #Locus of Azyr- if you have 1 ore more Hurricanums add +1 to your power pool; #Portents of Battle- all friendly units within 6" add +1 To Hit in close combat				0	0	0	5	5	5	0	0	0	5	7	0	0	5	0	0	0
+emchbow	Champion	Bows	N/A	Champion	champ	1:1	10	0	coun	hide						4	4	4	3	3	1	3	2	7	7	7	0	0	1	0	0	0
+emchfree	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						4	4	4	3	3	1	3	2	7	7	7	0	0	1	0	0	0
+emchgrea	Champion	Foot	N/A	Champion	champ	1:1	10	0	coun;name:"First Knight"-mode=g	hide						4	5	4	4	3	1	3	2	8	4	7	0	0	1	0	0	0
+emchhun	Champion	Bows	N/A	Champion	champ	1:1	10	0	coun	hide						4	4	5	3	3	1	3	2	7	7	7	0	0	1	0	0	0
+emchkngt	Champion		N/A	Champion	champ	1:1	10	0	coun;type:firstknight	hide						4	5	4	3	3	1	3	2	8	2	7	0	0	2	0	0	0
+emchknt2	Champion		N/A	Champion	champ	1:1	10	0	coun;type:firstknight	hide						4	5	4	4	3	1	3	2	8	2	7	0	0	2	0	0	0
+emchpist	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						4	4	5	3	3	1	3	2	7	5	7	0	0	2	0	0	0
+emchride	Champion	Rider	N/A	Champion	champ	1:1	15	0	coun	hide						4	3	4	3	3	1	3	1	7	6	7	0	0	2	0	0	0
+emchswor	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						4	4	4	3	3	1	3	2	7	6	7	0	0	1	0	0	0
+emchwulr	Champion		N/A	Champion	champ	1:1	13	0	coun	hide						4	4	3	4	3	1	3	2	7	7	7	0	0	1	0	0	0
+emdemich	Champion		N/A	Champion	champ	1:1	10	0	coun;type:firstknight	hide						4	5	4	4	3	1	4	2	8	3	7	0	0	2	0	0	0
+emkoknt	Champion		N/A	Champion	champ	1:1	10	0	coun;type:firstknight	hide						4	4	4	3	3	1	3	2	8	2	7	0	0	2	0	0	0
+emworch	Cleric Apprientice		N/A	Champion	champ	1:1	25	3	coun;spec:+spel	hide;reqd:type=supremepontiff-msg=emmsg23		Blessings: A model with this rule has the Hatred special rule, which is also conferred to his unit. Mounts are never affected. Furthermore, the model can cast three bound spells at power level 3 with the type: Augment, Caster's Unit.				4	4	4	3	3	1	3	2	7	7	7	0	0	1	0	0	0
+emdthclw	Deathclaw (Imperial Griffon)	Griff	N/A	Monster		1:1	215	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Fly; Cause Terror; Large Target; #Bloodroar: Enemy units roll additional D6, discarding the lowest, when making Ld tests caused by Griffon's Fear and Terror; #Loyal Beast: autopasses Monster Reaction test if Karl Franz is killed; Hates character/unit that killed Karl Franz				6	6	0	6	5	5	4	5	8	7	7	0	0	0	0	0	0
+emdemigr	Demigryph		N/A	Mount	steed	1	0	0	type:mount	hide		Armour Piercing				8	4	0	5	4	3	4	3	7	7	7	0	0	0	0	0	0
+emdragon	Dragon	Drago	N/A	Mount	monster	1:1	0	0	attr:Type="Mo"	hide;umax:1u		Monster (Thunderstomp); Terror; Large Target; Breath Weapon (Strength 4 Flaming Attacks); Innate Defence (3+); Fly (7)				6	5	1	6	6	6	3	5	9	3	7	0	0	4	0	0	0
+emgriff	Great Griffon	Griff	N/A	Mount	mount	1:1	0	0	attr:Type="MC"	hide		Monstrous Beast (Stomp 1); Fly (8); Large Target; Fear				6	5	0	6	5	4	5	4	5	7	7	0	0	4	0	0	0
+emhntmst	Hunt Master		N/A	Champion	champ	1:1	15	0	coun	hide						4	4	3	3	3	1	3	1	7	5	7	0	0	2	0	0	0
+empefree	Imperial Pegasus	Peg	N/A	Monster		1:1	0	0	attr:Type="MB"	hide		Monstrous Beast (Stomp);	Fly	Can Fly		8	3	0	4	4	3	4	2	6	7	7	0	0	3	0	0	0
+emkoknt2	Knight Champion		N/A	Champion	champ	1:1	10	0	coun;type:firstknight	hide						4	5	4	4	3	1	3	2	8	2	7	0	0	2	0	0	0
+emreikch	Knight Champion		N/A	Champion	champ	1:1	10	0	coun;type:firstknight	hide						4	5	4	4	3	1	4	3	8	2	7	0	0	2	0	0	0
+empropht	Leader		N/A	Champion	champ	1:1	10	0	coun	hide						4	4	4	3	3	1	3	2	7	7	7	0	0	1	0	0	0
+emlumimt	Luminark of Hysh		N/A	Mount		1:1	120	0	attr:At="D6";attr:Type="Ch";spec:+ench;take:emlumi1-free-perm	hide		Chariot; Large Target; #Aura of Protection- Luminark and all friendly units within 6" have Ward Save 6+; #Locus of Hysh- if you have one or more Luminarks add 1 dice to your dispel pool				0	0	0	5	5	5	0	0	0	5	6	0	0	5	0	0	0
+emchhand	Marksman		N/A	Champion	champ	1:1	10	0	coun;dflt:emguntrp	hide						4	3	4	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emmecha	Mechanical Steed		N/A	Mount	steed	1	0	0	type:mount	hide		D3 impact hits				7	1	0	4	0	1	1	1	2	7	7	0	0	0	0	0	0
+emchoutr	Outrider Champion		N/A	Champion	champ	1:1	10	0	coun;dflt:emrept	hide						4	3	5	3	3	1	3	1	7	5	7	0	0	2	0	0	0
+empegas	Pegasus	Peg	N/A	Mount	mount	1:1	0	0	attr:Type="MB"	hide		Monstrous Beast (Stomp 1); Fly (8)	 			7	4	0	4	4	3	4	2	6	7	7	0	0	3	0	0	0
+emtgrdfk	Preceptor	Foot	N/A	Champion	champ	1:1	12	0	coun;type:firstknight	hide						4	4	3	3	3	1	3	2	8	4	7	0	0	1	0	0	0
+emchmprs	Priest of Ulric		N/A	Champion	Hero	1:1	75	100	ipts:total=50-each=50;spec:+spel;spec:+ward;type:PriestOfUlric	hide		Crush the Weak - Warrior Priest and his unit Hate models with a Ld characteristic of 6 or lower (even if immune to psych).				4	4	3	4	4	2	4	2	8	7	7	0	1	1	0	0	0
+emtareap	Reaper the Demigryph	Reap	N/A	Mount		1:1	0	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Terror; Large Target; Armour Piercing 				7	5	0	5	5	4	5	4	6	7	7	0	0	0	0	0	0
+emlores	Select Lore		N/A	Lord		0:0	0	0		hide						0	0	0	0	0	0	0	0	0	7	7	0	0	0	0	0	0
+emchfoot	Sergeant		N/A	Champion	champ	1:1	10	0	coun	hide						4	3	3	3	3	1	3	2	7	6	7	0	0	1	0	0	0
+emchspr	Sergeant		N/A	Champion	champ	1:1	10	0	coun	hide						4	3	3	3	3	1	3	2	7	6	7	0	0	1	0	0	0
+emtreng	Trainee Engineers		N/A	Regiment		1:6	0	0	calc:Num=#	hide		Each has different weapon:  Blunderbuss, Man Catcher, Hook Halberd, and Ball & Chain				4	3	4	3	3	1	3	1	7	4	7	0	0	0	0	0	0
+emvetch	Veteran Champion		N/A	Champion	champ	1:1	10	0	coun	hide						4	5	4	3	3	1	4	2	7	6	7	0	0	1	0	0	0
+emvetch2	Veteran Champion	Bows	N/A	Champion	champ	1:1	10	0	coun	hide						4	4	5	3	3	1	4	2	7	7	7	0	0	1	0	0	0
+emhhorse	Warhorse		N/A	Mount	steed	1:1	0	0	type:mount	hide						8	3	0	3	3	1	3	1	5	7	7	0	0	0	0	0	0
+emkrlhrs	Warhorse		N/A	Mount	steed	1:1	0	0	type:mount;attr:Mv="8/7"	hide		Barding				8	3	0	3	3	1	3	1	5	7	7	0	0	0	0	0	0
+emwhorse	Warhorse		N/A	Mount	steed	1	0	0	type:mount	hide						8	3	0	3	3	1	3	1	5	7	7	0	0	0	0	0	0
+emchwlfk	Wolf Brother		N/A	Champion	champ	1:1	10	0	coun	hide						4	4	3	4	3	1	3	2	8	7	7	0	0	1	0	0	0
+emyoungr	Young Griffon	YGrif	N/A	Mount	mount	1	0	0	attr:Type="MC"	hide		Monstrous Beast (Stomp 1); Armour Piercing (1); Fear				7	4	0	5	4	3	4	3	7	7	7	0	0	4	0	0	0
+emwizld	 Lord: Archwizard		Hero	Wizard	Lord	1:1	150	100	ipts:total=100-each=100;type:Wiz;type:skirmishers;xcst:190-mode=c;type:Ld8;attr:Type="In"	clmt:spel<=Wz-msg=emmsg1;lglx:!(mode=d|mode=g);must:option=emlwmnt@min=1-mode=c;umax:3u@4000-free=3-msg=crmsg901		Infantry		Lord	9th age, Nov 2015	4	3	3	3	4	3	3	1	8	7	7	3	2	1	3	0	0
+emelectr	 Lord: Field Marshal		Hero	Lord	Lord	1:1	90	100	ipts:total=100-each=100;type:count;type:skirmishers;type:Ld9;attr:Type="In"	lglx:!(mode=c|mode=d|mode=f|mode=g|mode=h);umax:3u@4000-free=3-msg=crmsg901		Infantry; Orders		Lord	9th age, Nov 2015	4	5	5	4	4	3	5	3	9	7	7	0	0	1	0	0	0
+emlector	 Lord: High Cleric		Hero	Lord	Lord	1:1	85	100	spec:+spel;ipts:total=0;spec:+ward;spec:+weap;spec:+ench;type:Ld9;type:warriorpriest;ipts:total=100;attr:Type="In";type:supremepontiff	lglx:!mode=f;umax:3u@4000-free=3-msg=crmsg901		Infantry; Channel; Holy Attacks; Blessings: A model with this rule has the Hatred special rule, which is also conferred to his unit. Mounts are never affected. Furthermore, the model can cast three bound spells at power level 3 with the type: Augment, Caster's Unit; # Supreme Pontiff: A model with this special rule may reroll the casting attempts of any Bound Spell which did not result in two or more results of 6. If the army include a modelwith this rule, units of Worshippers may upgrade their unit champion to a Cleric Apprentice.			9th age, October 2015	4	4	3	4	4	3	4	2	9	7	7	0	0	0	0	1	0
+emmaster	 Lord: Knight Commander		Hero	Lord	Lord	1:1	135	100	ipts:total=100-each=100;type:grandmaster;type:Ld9;attr:Type="Ca";type:mounted	lglx:!(mode=a|mode=b|mode=d|mode=g);umax:3u@4000-free=3-msg=crmsg901		Cavalry; Legendary Warrior: Knight Commanders are Immune to Psychology and confers this benefit to the unit they join.		Includes Horse, Barding, Plate Armour; Allows fielding of Noble Knights	9th age, Nov 2015	4	6	3	4	4	3	6	4	9	7	7	0	0	2	0	0	0
+emhero	Hero: Captain	HerEm	Hero	Hero	Hero	1:1	60	100	ipts:total=100;type:skirmishers;type:Ld8;attr:Type="In";type:infantry	lglx:(race=em&!mode=c&!mode=g)|(race=vm&mode=e);race:vm;clmt:stnd<=1-count;clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;umax:3u@4000-free=3-msg=crmsg901		Infantry; Orders		Hero	9th age, Nov 2015	4	5	5	4	4	2	5	3	8	7	7	0	0	1	0	0	0
+emwarprt	Hero: Cleric		Hero	Hero	Hero	1:1	65	100	ipts:total=50-each=50;spec:+spel;type:skirmishers;type:Ld8;type:warriorpriest;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg901		Infantry; Channel; Holy Attacks; Blessings: A model with this rule has the Hatred special rule, which is also conferred to his unit. Mounts are never affected. Furthermore, the model can cast three bound spells at power level 3 with the type: Augment, Caster's Unit			9th age, October 2015	4	4	4	4	4	2	4	2	8	7	7	0	0	0	0	1	0
+emengr	Hero: Engineer		Hero	Hero	Hero	1:1	50	100	ipts:total=50-each=50;type:skirmishers;type:Ld7;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg901		Infantry; Engineer			9th age, Nov 2015	4	3	4	3	3	2	3	1	7	7	7	0	0	0	0	1	0
+emwitchh	Hero: Inquisitor		Hero	Hero	Hero	1:1	60	100	ipts:total=50-each=50;type:skirmishers;attr:Type="In";type:Ld8	umax:3u@4000-free=3-msg=crmsg901		Infantry; Magic Resistance (2); Lethal Strike; Multiple Wounds (D3); Not a Leader; Immune to Psychology; Nobody Expects...			9th age, October 2015	4	5	4	4	4	2	4	2	8	7	7	0	0	0	0	1	0
+emwiz	Hero: Wizard Apprentice	Sorc	Hero	Wizard	Hero	1:1	60	100	ipts:total=50-each=50;type:Wiz;type:skirmishers;type:Ld7;attr:Type="In"	clmt:spel<=Wz-msg=emmsg1;umax:3u@4000-free=3-msg=crmsg901		Infantry (Ca if mounted);		Hero; Magic User	9th age, Nov 2015	4	3	3	3	3	2	3	1	7	7	7	1	1	1	1	0	0
+emsword	Heavy Infantry Battalion		Core	Regiment	emreg	10:60	5	1	type:infantry;calc:Num=#;attr:Type="In"	umax:4u@4000-free=4-msg=crmsg902		Infantry; Parent Unit		base cost: 50, size: 10-60	9th age, Nov 2015	4	3	3	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+emknight	Imperial Cavalry	Kngt	Core	Regiment	cavalry	5:15	18	0	type:knight;calc:Num=#;type:knorder;attr:Type="Ca"	umax:4u@4000-free=4-msg=crmsg902		Cavalry		base cost: 90, size: 5-15	9th age, Nov 2015	4	3	3	3	3	1	3	1	8	2	7	0	0	2	0	0	0
+emxbwmen	Light Infantry Battalion		Core	Regiment	emreg	10:20	7	0	type:infantry;calc:Num=#;attr:Type="In"	umax:4u@4000-free=4-msg=crmsg902		Infantry; Support Unit		base cost: 80, size: 10-20	9th age, Nov 2015	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emfree	Militia Corps		Core	Regiment	emreg	5:55	4	0	xcmp:Spec-mode=c;type:infantry;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:!(mode=g|mode=h)		Infantry; Treat all weapons as additional hand weapons.		base cost: 40, size: 5-55		4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emfreesk	Militia Corps Skirmishers		Core	Regiment	emreg	5:15	5	0	xcmp:Spec-mode=c;type:infantry;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:!(mode=g|mode=h)		Infantry; Support Unit; Skirmishers		base cost: 45, size: 5-15		4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emnoblek	Noble Knights	Kngt	Core	Regiment	cavalry	5:15	22	0	type:knight;calc:Num=#;type:knorder;attr:Type="Ca";ipts:total=25-each=25	umax:1u;reqd:unit=emmaster@1u:1u-msg=emmsg26		Cavalry		base cost: 110, size: 5-15; Max 1 unit in army; Requires Knight Commander to be fielded	9th age, Nov 2015	4	4	3	4	3	1	3	1	8	2	7	0	0	2	0	0	0
+emcelhur	Arcane Altar		Special	Machine		1:1	100	0	attr:At="D6";attr:Type="Ch";spec:+ench	umax:3u@4000-free=3-msg=crmsg903		Chariot; Large Target; Channel; Heavy Armour			9th age, Nov 2015	0	0	0	5	5	5	0	0	0	5	7	0	0	5	0	0	0
+emgreat	Imperial Guard	Great	Special	Regiment	emreg	10:40	9	0	ipts:total=50-each=50;type:infantry;calc:Num=#;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903		Infantry; Parent Unit; Bodyguard		base cost: 90, size:  10-40	9th age, Nov 2015 ;emspec must:option=emspec@min=1-msg=emmsg10-istype=Karl_Franz	4	4	3	4	3	1	3	1	8	4	7	0	0	1	0	0	0
+emjaeger	Imperial Rangers		Special	Regiment	emreg	5:10	10	0	type:skirmishers;calc:Num=#;type:huntsmen;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903		Infantry; Skirmishers; Scoutsl Multiple Shots (2)		Base cost: 50, size: 5-10	9th age, Nov 2015	4	3	4	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+empistol	Imperial Reiter Cavalry		Special	Regiment	emreg	5:15	15	0	xcmp:Rare-mode=d;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	lglx:!(mode=e|mode=c|mode=g|mode=h);umax:3u@4000-free=3-msg=crmsg903		Cavalry; Fast Cavalry; Fire on Impact!: In the first Round of Combat, a model with this rule and equipped with a pistol or brace of pistols makes 1 attack if pistol, 2 attack if brace of pistols. These attacks are resolved at, initiative (10), Strength 4, Armor Piercing (1). This does not affect mounts. Strength bonuses from equipment may still be applied to these attacks.		base cost: 75; size: 5-15	9th age, October 2015	4	3	4	3	3	1	3	1	7	5	7	0	0	2	0	0	0
+emreiksk	Templar Knights	ReiKn	Special	Regiment	cavalry	5:12	26	0	ipts:total=50-each=50;type:knight;type:koic;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	umax:3u@4000-free=3-msg=crmsg903		Cavalry; Stubborn; Bodyguard (Knight Commander)		base cost: 145, size: 5-12	9th age, Nov 2015	4	4	3	4	3	1	4	2	8	2	7	0	0	2	0	0	0
+emflacor	Worshippers	Flag	Special	Regiment	infantry	10:40	9	0	xcmp:Core-mode=d;calc:Num=#;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903		Infantry; Unbreakable; Fanatical: Models with this special rules are frenzy, and can never lose their frenzy.		base cost: 90, size: 10-40	9th age, Nov 2015	4	3	3	3	3	1	3	1	6	7	7	0	0	1	0	0	0
+embpwm	Black Powder War Machine		Rare	Machine	machine	1	100	0	attr:Type="WM";calc:Num=#	umax:2u@4000-free=2-msg=crmsg904				A Black Powder War Machine must be upgraded to either a Black Powder Mortar (20pts) or a Black Powder Cannon (free)		0	0	0	0	7	3	0	0	0	7	0	0	0	0	0	0	0
+emexwm	Experimental War Machine		Rare	Machine	machine	1	120	0	attr:Type="WM";calc:Num=#	umax:2u@4000-free=2-msg=crmsg904				An Experimental War Machine must be upgraded to either a Rocket Battery (20pts) or a Volley Gun (free)		0	0	0	0	7	3	0	0	0	7	0	0	0	0	0	0	0
+emdemikn	Imperial Beast Knights	Demig	Rare	Regiment	cavalry	3:8	52	0	ipts:total=50-each=50;type:knight;type:koic;calc:Num=#;size:1-20-1-mode=zz;attr:Type="MC"	umax:2u@4000-free=2-msg=crmsg904		Monstrous Cavalry (Stomp 1)		base cost: 150, size: 3-8	9th age, Nov 2015	4	4	3	4	3	1	4	1	8	3	7	0	0	2	0	0	0
+emsteam	Steel Tank		Rare	Machine	Tank	1:1	300	0	attr:Type="Ch";attr:At="3D3*";attr:Mv="3D6*"	umax:1u		Chariot; Large Target; Unbreakable; Random Movement (*); Innate Defence (1+); Steel Behemoth: always count as stationary for shooting purposes. A Steel Tank can never Pursue or Overrun; Breath weapon (strength 3, armour piercing (1))		One of a kind	9th age, October 2015	0	0	0	6	6	10	0	0	0	1	7	0	0	0	0	1	0
+emdetars	Archer Detachment		Other	Regiment		5	7	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Spec	hide		Infantry; Detachment; Skirmish		Up to 1/2 size of Parent Unit	Special	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emdtarch	Archer Detachment		Other	Regiment		5	7	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Core	hide		Infantry; Detachment; Skirmish		Up to 1/2 size of Parent Unit	Core	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emdetxbs	Crossbowmen Detachment		Other	Regiment		5	9	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Spec	hide;lglx:!mode=h		Infantry; Detachment		 Up to 1/2 size of Parent Unit	Special	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emdtxbow	Crossbowmen Detachment		Other	Regiment		5	9	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Core	hide;lglx:!mode=h		Infantry; Detachment		 Up to 1/2 size of Parent Unit	Core	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emdetfcs	Free Company Militia Detachment		Other	Regiment		5	6	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Spec	hide		Infantry; Detachment		 Up to 1/2 size of Parent Unit	Special Detachment	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emdtfree	Free Company Militia Detachment		Other	Regiment		5	6	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Core	hide		Infantry; Detachment		 Up to 1/2 size of Parent Unit	Core Detachment	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emdethas	Halberdiers Detachment		Other	Regiment		5	6	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Spec	hide		Infantry; Detachment		 Up to 1/2 size of Parent Unit	Special	4	3	3	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+emdthalb	Halberdiers Detachment		Other	Regiment		5	6	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Core	hide		Infantry; Detachment		 Up to 1/2 size of Parent Unit	Core	4	3	3	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+emdethgs	Handgunners Detachment		Other	Regiment		5	9	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Spec	hide;lglx:!mode=c;lglx:!mode=e;lglx:!mode=h		Infantry; Detachment		 Up to 1/2 size of Parent Unit	Special	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emdthand	Handgunners Detachment		Other	Regiment		5	9	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Core	hide;lglx:!mode=c;lglx:!mode=e;lglx:!mode=h		Infantry; Detachment		 Up to 1/2 size of Parent Unit	Core	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+emdetsps	Spearmen Detachment		Other	Regiment		5	5	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Spec	hide		Infantry; Detachment		Up to 1/2 size of Parent Unit	Special	4	3	3	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+emdtsprm	Spearmen Detachment		Other	Regiment		5	5	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Core	hide		Infantry; Detachment		Up to 1/2 size of Parent Unit	Core	4	3	3	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+emdetsws	Swordsmen Detachment		Other	Regiment		5	7	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Spec	hide		Infantry; Detachment		Up to 1/2 size of Parent Unit	Special	4	4	3	3	3	1	3	1	7	5	7	0	0	1	0	0	0
+emdtswrd	Swordsmen Detachment		Other	Regiment		5	7	0	ratp:max=1:2;calc:Num=#;attr:Type="In";xcmp:Core	hide		Infantry; Detachment		Up to 1/2 size of Parent Unit	Core	4	4	3	3	3	1	3	1	7	5	7	0	0	1	0	0	0
+xemacoly	Crew		N/A	Machine		1	0	0							Hurricanum and Luminark crew	0	3	3	3	0	0	3	1	7	7	7	0	0	1	0	0	0
+xemart	Crew		N/A	Machine		1	0	0	calc:Num=#						September 1, 2002	4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+xemstcre	Crew		N/A	Machine		1:1	0	0							Tank Crew	0	3	3	0	0	0	3	1	7	7	7	0	0	0	0	0	0
+xemtalan	Crew		N/A	Machine		1	0	0	attr:At="D6"						Marienburg Class Land Ship crew	0	3	3	4	0	0	3	0	7	7	7	0	0	1	0	0	0
+xemstmnt	Mount		N/A	Machine		1:1	0	0	attr:Mv="3D6*"						Tank Crew	0	0	0	0	0	0	3	0	0	7	7	0	0	0	0	0	0
+^
+emadvant	Advantage		Priority	N/A	0	tabl:Blessed=emblesse,Unquenchable_Zeal=emunquen,Templars_of_Sigmar=emtempla,Wealthy=emwealth,Resolute=emresolu,Fearless=emfearle,Signature_Weapon=emsignat-noname-nobrackets				
+emcount	Allow Magic Standard		Priority	N/A	0	over:st10=delete;show:stmg10;lglx:!(mode=c|mode=d|mode=g);type:Magic_Banner;over:st8=delete;show:stmg8;show:stmg12;over:st12=delete				
+emallow	Allow Magic Weapon		Priority	N/A	0	over:emhamww=delete				
+emwpbtsn	Battle Standard		Priority	N/A	0	more:btstand=cost;lglx:mode=g;hide				Battle Standard Option for Warrior Priest of Ulric in WD280 Cult of Ulric List
+emmorr2	Black Knight of Morr		Priority	N/A	0	unam:+" Black Knight of Morr";type:morr;lglx:!(mode=g|mode=h)				
+emmorr	Black Knights of Morr		Priority	N/A	0	unam:="Black Knights of Morr";type:morr;lglx:!(mode=h)				
+emmorr3	Black Knights of Morr		Priority	N/A	6	unam:="Black Knights of Morr";type:morr;note:"Fearless: Immune to Fear & Terror";xcst:11-unit=emkoic2				Cit Journal 43
+emwitch2	Daemon Hunter	DH	Priority	N/A	0	unam:+" - Daemon Hunter"	Holy Attacks.			
+emdisadv	Disadvantage		Priority	N/A	0	tabl:Fractious=emfracti,Jinxed=emjinxed,Recklessness=emreckle,Pariahs=empariah,Pride=empride,Humility=emhumili,Disorderly=emdisord-noname-nobrackets				
+emextra	Extra base cost		Priority	N/A	10	cost:single;hide;xcst:20-unit=emfree;xcst:20-unit=emfreesk;xcst:15-unit=emreiksk;xcst:-6-unit=emdemikn				
+emfirebd	Firebrand Staff		Priority	N/A	0	take:emfirebd-perm;hide				
+emgen	General	Gen	Priority	N/A	0	type:general	Units w/in 18" may use General's LD & may reroll any Psychology tests.		Units within 18" may use General's Leadership and may reroll any Psychology tests.	
+emfield2	Great Tactician	GrtTa	Priority	N/A	30	type:greattactician;unam:+" - Great Tactician"	The model may now give two orders per turn instead of one, targeting two different units. If the model with this rule is the General he may give orders to any unit within his Inspiring Presence radius.			
+emfield3	Imperial Prince	ImpPr	Priority	N/A	15	type:imperialprince;take:em9mw01-free-perm;show:emdragon;unam:+" - Imperial Prince";base:Ld+1	The model may now give two orders per turn instead of one, targeting two different units. If the model with this rule is the General he may give orders to any unit within his Inspiring Presence radius.			
+emicko	Inner Circle	Inner	Priority	N/A	3	base:St+1;unam:+" of the Inner Circle";chld:firstknight@St+1-base;type:koic				Inner Circle option for Knightly Orders
+emictg	Inner Circle	Inner	Priority	N/A	2	base:St+1;unam:+" of the Inner Circle";chld:firstknight@St+1-base				Inner Circle option for White Wolves
+emicww	Inner Circle	Inner	Priority	N/A	3	base:St+1;unam:+" of the Inner Circle";chld:firstknight@St+1-base;type:wwic;xcmp:Rare-mode=f				Inner Circle option for White Wolves
+emwitcht	Inquisitor Table		Priority	N/A	0	tabl:NoSpecialization=emwitch0,WitchHunter=emwitch1,DaemonHunter=emwitch2,UndeadHunter=emwitch3-noname-nobrackets				
+emspec	Karl Franz in army		Priority	N/A	0	xcmp:core;dtyp:emspec;type:emcore			You can only take this option if Karl Franz is in the army. It will make the Greatswords a Core choice.	
+emkord2	Knightly Order		Priority	N/A	0	tabl:OtherKnight=emother2,GoldenLion=emlion2,Reiksguard=emreik2,EverlastingLite=emeverl2,BlackRose=emrose2,BlazingSun=emblaze2,BrokenSword=embrok2,Griffon=emgriff2,Panther=empant2,Morr=emmorr2,WhiteWolf=emww2,SilverMtn=emsilvr2,Jaguar=emjagr2,TwinTail=emtwin2,Mannan=emmann2,Solland=emssons-noname-nobrackets				Order for Grandmaster
+emkord3	Knightly Order		Priority	N/A	0	tabl:OtherKnight=emother,Reiksguard=emreik3,BlazingSun=emblaze3,Griffon=emgriff3,Panther=empant3,Morr=emmorr3,Jaguar=emjagr3,TwinTail=emtwin3,Mannan=emmann3-noname-nobrackets				Order for Grandmaster
+emkorder	Knightly Order		Priority	N/A	0	tabl:OtherKnight=emother,GoldenLion=emlion,EverlastingLite=emeverlt,BlackRose=emrose,BlazingSun=emblaze,BrokenSword=embrok,Griffon=emgriff,Panther=empanth,Morr=emmorr,SilverMtn=emsilver,Jaguar=emjagr,TwinTail=emtwin,Mannan=emmann,Solland=emssons-noname-nobrackets				Knightly Order for Knights
+emgrifle	Knights Griffon		Priority	N/A	-1	unam:="Knights Griffon";over:emadvant=delete;over:emdisadv=delete	Stubborn in first round of combat. May not flee from a charge, cannot refuse a challenge and flee 2D6" instead of 3D6"		Resolute & Pride	
+emjagr	Knights Jaguar		Priority	N/A	0	unam:="Knights Jaguar";type:jaguar;lglx:!(mode=h)				
+emjagr2	Knights Jaguar		Priority	N/A	0	unam:+" of Knights Jaguar";type:jaguar;lglx:!(mode=g|mode=h)				
+emjagr3	Knights Jaguar		Priority	N/A	8	unam:="Knights Jaguar";type:jaguar;xcst:13-unit=emkoic2;note:"Arabian Warhorses - Add D6 inches on charage (can not be used with Steel Std)"				
+emevlile	Knights o/t Everlasting Light		Priority	N/A	0	unam:="Knights of the Everlasting Light";over:emadvant=delete;over:emdisadv=delete	Immune to Fear and Terror. Opponent may force you to re-roll 1 D6 per game		Fearless & Jinxed	
+emeverl2	Knights of Everlasting Light		Priority	N/A	0	unam:+" of the Everlasting Light";type:everlast;lglx:!(mode=g|mode=h)				
+emeverlt	Knights of Everlasting Light		Priority	N/A	0	unam:="Knights of the Everlasting Light";type:everlast;lglx:!(mode=h)				
+emrose	Knights of the Black Rose		Priority	N/A	0	unam:="Knights of the Black Rose";type:rose;lglx:!(mode=h)				
+emrose2	Knights of the Black Rose		Priority	N/A	0	unam:+" of the Black Rose";type:rose;lglx:!(mode=g|mode=h)				
+emrosele	Knights of the Black Rose		Priority	N/A	0	unam:="Knights of the Black Rose";over:emadvant=delete;over:emdisadv=delete	Knightly unit always count as Outnumbering. Roll a D6 at start of your turn, on a roll of 1 the unit cannot move this turn		Unquenchable Zeal & Fractious	
+emblaze	Knights of the Blazing Sun		Priority	N/A	0	unam:="Knights of the Blazing Sun";type:blaze;lglx:!(mode=h)				
+emblaze2	Knights of the Blazing Sun		Priority	N/A	0	unam:+" of the Blazing Sun";type:blaze;lglx:!(mode=g|mode=h)				
+emblaze3	Knights of the Blazing Sun		Priority	N/A	3	unam:="Knights of the Blazing Sun";type:blaze;note:"Blinding Light-on charge, enemy -1 to hit except when charger rolls 1 on d6";xcst:8-unit=emkoic2				
+emblazle	Knights of the Blazing Sun		Priority	N/A	0	unam:="Knights of the Blazing Sun";over:emadvant=delete;over:emdisadv=delete	Up to half of your Knightly units (rounding up) may be upgraded to Inner Circle. May never use Ld of a character		Wealthy & Pariahs	
+embrok	Knights of the Broken Sword		Priority	N/A	0	unam:="Knights of the Broken Sword";type:sword;lglx:!(mode=h)				
+embrok2	Knights of the Broken Sword		Priority	N/A	0	unam:+" of the Broken Sword";type:sword;lglx:!(mode=g|mode=h)				
+emlionle	Knights of the Gold Lion		Priority	N/A	0	unam:="Knights of the Gold Lion";over:emadvant=delete;over:emdisadv=delete	Knightly unit always count as Outnumbering. Roll a D6 at start of your turn, on a roll of 1 the unit cannot move this turn		Resolute & Humility	
+emgriff	Knights of the Griffon		Priority	N/A	0	unam:="Knights of the Griffon";type:griffon;lglx:!(mode=h)				
+emgriff2	Knights of the Griffon		Priority	N/A	0	unam:+" of the Griffon";type:griffon;lglx:!(mode=g|mode=h)				
+emgriff3	Knights of the Griffon		Priority	N/A	10	unam:="Knights of the Griffon";type:griffon;note:"Well Drilled: may reform at beginning of turn & may then move and charge at half rate";xcst:15-unit=emkoic2				
+emkoicww	Knights of the Inner Circle		Priority	N/A	3	base:St=4;chld:champ@St=5-base				
+emsilver	Knights of the Silver Mountain		Priority	N/A	0	unam:="Knights of the Silver Mountain";type:silver;lglx:!(mode=h)				
+emsilvr2	Knights of the Silver Mountain		Priority	N/A	0	unam:+" of the Silver Mountain";type:silver;lglx:!(mode=g|mode=h)				
+emtwin	Knights of the Twin-Tailed Orb		Priority	N/A	0	unam:="Knights of the Twin-Tailed Orb";type:2tail;lglx:!(mode=h)				
+emtwin2	Knights of the Twin-Tailed Orb		Priority	N/A	0	unam:+" of the Twin-Tailed Orb";type:2tail;lglx:!(mode=g|mode=h)				
+emtwin3	Knights of the Twin-Tailed Orb		Priority	N/A	10	unam:="Knights of the Twin-Tailed Orb";type:2tail;xcst:15-unit=emkoic2;note:"Zealous: +1 At on 1st rnd of CC"				
+emww2	Knights of the White Wolf		Priority	N/A	0	unam:+" of the White Wolves";over:emgmlanc=delete;show:emhamww;slct:emhamww=auto;over:emhamww=enable;type:wwgm;show:emallow;hide				
+empant2	Knights Panther		Priority	N/A	0	unam:+" of Knights Panther";type:panther;lglx:!(mode=g|mode=h)				
+empant3	Knights Panther		Priority	N/A	8	unam:="Knights Panther";type:panther;note:"Arabian Warhorse: Add D6 inches on charge (not usable with Steel Std)";xcst:13-unit=emkoic2				
+empanth	Knights Panther		Priority	N/A	0	unam:="Knights Panther";type:panther				
+empantle	Knights Panther		Priority	N/A	1	unam:="Knights Panther";over:emadvant=delete;over:emdisadv=delete	Up to half of your Knightly units (rounding up) may be upgraded to Inner Circle		Wealthy & no disadvantage	
+emleknor	Legendary Knightly Order		Priority	N/A	0	tabl:OtherKnight=emother,Panther=empantle,BlazingSun=emblazle,Everlasting_Light=emevlile,Reiksguard=emreikle,BlackRose=emrosele,Gold_Lion=emlionle,Griffon=emgrifle-noname-nobrackets				Knightly Order for Knights
+ennone	No Choice		Priority	N/A	0					
+emhunt	No Core Choice		Priority	N/A	0	acmp:Core-1u;hide				
+emnoshld	No shield		Priority	Shd	0	hide				
+emwitch0	No Specialization		Priority	N/A	0					
+emnowpn	No Weapon		Priority	N/A	0				You must pick a Signature Weapon for this unit	
+emfield0	NoUpgrade		Priority	N/A	0					
+emchoice	Opponent Approval?		Priority	N/A	0		Opponent Approval Gained?			
+emlion	Order of the Golden Lion		Priority	N/A	0	unam:="Order of the Golden Lion";type:goldlion;lglx:!(mode=h)				
+emlion2	Order of the Golden Lion		Priority	N/A	0	unam:+" Order of the Golden Lion";type:goldlion;lglx:!(mode=g|mode=h)				
+emother	Other Knightly Order		Priority	N/A	0	type:other;lglx:!(mode=h)				
+emother2	Other Knightly Order		Priority	N/A	0	skip unam:+" of an unnamed Knightly Order";type:other;lglx:!(mode=g|mode=h)				
+emreik	Reiksguard Knights		Priority	N/A	0	unam:="Reiksguard Knights";type:reiks;lglx:!(mode=h)				
+emreik2	Reiksguard Knights		Priority	N/A	0	unam:="Reiksmarshall";type:reiks;lglx:!(mode=g|mode=h)				
+emreik3	Reiksguard Knights		Priority	N/A	5	unam:="Reiksguard Knights";type:reiks;note:"Stubborn";xcst:10-unit=emkoic2				
+emreikle	Reiksguard Knights		Priority	N/A	3	unam:="Reiksguard Knights";over:emadvant=delete;over:emdisadv=delete	Friendly units within 6" may re-roll failed Fear, Terror and Panic tests. Stubborn in first round of combat		Exemplars of Sigmar & Resolute (2 advantages!)	
+emfield1	Seasoned General	SeasG	Priority	N/A	10	type:seasonedgeneral;base:WS+1;unam:+" - Seasoned General"			The model gains +1 Weapon Skill. If a model with this rule is included in the army, a single unit of Heavy Infantry may be upgraded to Veterans for 1 point per model. Alternatively, a single unit of unit of Light Infantry Company may be upgraded to Veterans for 2 points per model.	
+emmann	Sons of Mannan		Priority	N/A	0	unam:="Sons of Mannan";type:mannan;lglx:!(mode=h)				
+emmann2	Sons of Mannan		Priority	N/A	0	unam:="Elder Son of Mannan";type:mannan;lglx:!(mode=g|mode=h)				
+emmann3	Sons of Mannan		Priority	N/A	12	unam:="Sons of Mannan";type:mannan;xcst:17-unit=emkoic2;note:"Blessing of the Sea God: Re-roll misses in 1st rnd of CC"				
+emssons	Sons of Solland		Priority	N/A	0	unam:="Sons of Solland";type:solland;lglx:!(mode=g|mode=h);lglx:!(mode=h)				
+emssons2	Sons of Solland		Priority	N/A	0	unam:="The Royster";type:solland;lglx:!(mode=g|mode=h)				
+emstvar	Steam Tank Variants		Priority	N/A	0	tabl:Unique=emunique,Conqueror=emstcon,VonZeppel=emstvz,SigmarsHammer=emstsh,OldReliable=emstor,Implacable=emstim-noname-nobrackets				
+emwitch3	Undead Hunter	UH	Priority	N/A	0	unam:+" - Undead Hunter"	Flaming and Magical Attacks.			
+emunique	Unique Steam Tank		Priority	N/A	0	show:emsthu;show:emsttu				
+emfieldt	Upgrade Table		Priority	N/A	0	tabl:NoUpgrade=emfield0,SeasonedGeneral=emfield1,GreatTactician=emfield2,ImperialPrince=emfield3-noname-nobrackets				
+emwitch1	Witch Hunter	WH	Priority	N/A	0	unam:+" - Witch Hunter"	Non-Aura enemy spells targeting the Inquisitor or his unit receive a -1 penalty to their Casting rolls.			
+emaltwep	Alternative Weapons		First	N/A	0	over:emstgun=deselect;type:AltWep;over:emstmc=deselect				
+emblesse	Blessed		First	N/A	1	xcst:5-unit=emmaster	Magical Attacks		Costs 1 point/model for Knight Orders and 5 points/model for Grand Masters	
+emstcon	Conqueror		First	N/A	0	more:emstgun=auto;more:emstmc=auto;unam:<"Conqueror ";hide			Has Steam Gun and Main Cannon	
+emdisord	Disorderly		First	N/A	-1	xcst:0-unit=emmaster	Cannot gain nor negate rank bonuses		Reduces cost of unit by -1 points/model for Knight Orders	
+emtempla	Exemplars of Sigmar		First	N/A	2	xcst:10-unit=emmaster	Friendly units within 6" may re-roll failed Fear, Terror and Panic tests		Costs 2 points/model for Knight Orders and 10 points/model for Grand Masters	
+emfearle	Fearless		First	N/A	2	xcst:10-unit=emmaster	Immune to Fear and Terror		Costs 2 points/model for Knight Orders and 10 points/model for Grand Masters	
+emfracti	Fractious		First	N/A	-2	xcst:-5-unit=emmaster	Roll a D6 at start of your turn, on a roll of 1 the unit cannot move this turn		Reduces cost of unit by 1 points/model for Knight Orders and -5 points/model for Grand Masters	
+emsthu	Hull Upgrades		First	N/A	0	show:emstmc;show:emstvc;show:emstmr;utyp:AltWep			Select Hull Weapon	
+emhumili	Humility		First	N/A	-1	utyp:knight;type:humility			Reduces cost of unit by 1 point/model for Knight Orders; You cannot field Inner Circle Knights or Grand Masters	
+emhntsmn	Huntsmen		First	N/A	2	unam:="Huntsmen";type:huntsmen;over:bowtrp=delete;over:emchbow=delete;more:longtrp=incl;more:emchhun=cost;acmp:Core-1u-legal=!(mode=e|mode=g);prng:min=5-max=10;modl:-5		Scouts.	Longbow, Scouts, Do not count towards Core unit requirements.	
+emstim	Implacable		First	N/A	0	more:emstmr=auto;hide;unam:<"Implacable "			Mortar (no turret)	
+emjinxed	Jinxed		First	N/A	-2	xcst:-10-unit=emmaster	Opponent may force you to re-roll 1 D6 per game		Reduces cost of unit by 2 points/model for Knight Orders and -10 points/model for Grand Masters	
+emstor	Old Reliable		First	N/A	0	more:emstvc=auto;more:emstgun=auto;hide;unam:<"Old Reliable "			Volley Gun in hull and Steam Gun in turret	
+empariah	Pariahs		First	N/A	-1	xcst:-15-unit=emmaster	Knights may never use Ld of a character and Grand Master cannot pass Ld to non-Knightly units		Reduces cost of unit by 1 point/model for Knight Orders and -15 points/model for Grand Masters	
+empride	Pride		First	N/A	-2	xcst:-10-unit=emmaster	May not flee from a charge, cannot refuse a challenge and flee 2D6" instead of 3D6"		Reduces cost of unit by 2 points/model for Knight Orders and -10 points/model for Grand Masters	
+emreckle	Recklessness		First	N/A	-2	xcst:-10-unit=emmaster	Unit must pass Ld test at start of your turn or move towards nearest enemy at full rate, charging if possible		Reduces cost of unit by 2 points/model for Knight Orders and -10 points/model for Grand Masters	
+emresolu	Resolute		First	N/A	2	xcst:5-unit=emmaster	Stubborn in first round of combat		Costs 1 point/model for Knight Orders and 5 points/model for Grand Masters	
+emstsh	Sigmar's Hammer		First	N/A	0	hide;unam:<"Sigmar's Hammer "			No turret or hull guns	
+emsignat	Signature Weapon		First	N/A	0	show:emsigna2;over:lancetrp=delete;over:emgmlanc=delete				
+emsttu	Turret Upgrades		First	N/A	0	show:emstgun;show:emstfp;utyp:AltWep			Select Turret upgrade	
+emunquen	Unquenchable Zeal		First	N/A	2	xcst:0-unit=emmaster	Knightly unit always count as Outnumbering, no effect on Grand Masters!		Costs 2 points/model for Knight Orders and is free for Grand Masters	
+emstvz	Von Zeppel		First	N/A	0	more:emstfp=auto;hide			Fighting Platform and no hull gun	
+emwealth	Wealthy		First	N/A	2	xcst:0-unit=emmaster	Up to half of your Knightly units (rounding up) may be upgraded to Inner Circle		Costs 1 point/model for Knight Orders and is free for Grand Masters	
+emamber	Amber Order		SpellType	N/A	0	unam:+" of Wilderness";more:mgbeasts=incl			Path of Wilderness	
+emameth	Amethyst Order		SpellType	N/A	0	unam:+" of Death";more:mgdeath=incl			Lore of Death	
+emanyod	Any Order		SpellType	N/A	0			Any one lore.		
+embright	Bright Order		SpellType	N/A	0	unam:+" of Fire";more:mgfire=incl			Lore of Fire	
+emcelest	Celestial Order		SpellType	N/A	0	unam:+" of Heavens";more:mgheaven=incl			Lore of Heavens	
+emcollg2	Colleges		SpellType	N/A	0	tabl:NoOrder=emanyod,Beasts=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Life=mglife,Light=mglight,Metal=mgmetal,Shadow=mgshadow-noname-nobrackets;hide				
+emgolden	Golden Order		SpellType	N/A	0	unam:+" of Alchemy";more:mgmetal=incl				
+emgrey	Grey Order		SpellType	N/A	0	unam:+" of Shadow";more:mgshadow=incl			Lord of Shadows	
+emjade	Jade Order		SpellType	N/A	0	unam:+" of Life";more:mglife=incl			Lore of Life	
+emlight	Light		SpellType	N/A	0	unam:+" of Light";more:mglight=incl			Lore of Light	
+emloret	Path Table		SpellType	N/A	0	tabl:Beast=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Life=mglife,Light=mglight,Alchemy=mgmetal,Shadow=mgshadow-noname-nobrackets				
+emcolleg	Paths of Magic		SpellType	N/A	0	tabl:Wilderness=emamber,Death=emameth,Fire=embright,Heaven=emcelest,Alchemy=emgolden,Shadow=emgrey,Life=emjade,Light=emlight-noname-nobrackets				
+emsigna2	Signature Weapon		SpellType	N/A	0	tabl:none=emnowpn,Cavalry_Hammer=emcavalr,Pistol=empislan,Morning_Star=morntrp,Flail=flailtr1,Great_Weapon=2handtrp				
+em2ndfth	2ndWeapon	xhw	Weapon	2Hd	2	stat:At+1;stat:In+1;utyp:!mounted;xcst:3-unit=emhero		Requires Two Hands. +1 Attack and +1 Initiative. Foot models only.	Requires Two Hands. +1 Attack and +1 Initiative. Foot models only.	
+em2ndftl	2ndWeapon	xhw	Weapon	2Hd	6	stat:At+1;utyp:!mounted	Gives +1A when on foot.			
+emmilw01	Additional Hand Weapon	AHW	Weapon	N/A	0	stat:At+1;stat:In+1;chld:champ@At+1;chld:champ@In+1	Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Counts as Additional Hand Weapon in Close Combat.			
+emwp02	Additional Hand Weapons	AHW	Weapon	N/A	0	skip unam:+" - Two Hand Weapons";stat:At+1;stat:In+1;chld:champ@At+1;chld:champ@In+1	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.			
+embnc	Ball and Chain		Weapon	Wep	0	apnd		2 Hands; +3 Str 1st rnd combat	2 Hands; +3 Str 1st rnd combat	
+emblkhmr	Blacksmith's Hammers	xhw	Weapon	Wep	0	stat:At+1	Counts as two hand weapons. 			
+emmwp02	Bow	Bow	Weapon	N/A	2	unam:+" with Bows"	Range 24”. Strength 3. Volley fire		Arm the unit with Bows	
+emcavalr	Cavalry Hammer	HH	Weapon	N/A	3	xcst:6-unit=emmaster	Two-handed, +2St on charge, +1 St otherwise.			
+emmwp00	Crossbow	Xbow	Weapon	N/A	0	unam:+" - Crossbowmen"	Range 30”. Strength 4. Unwieldy.			
+em2ndwpn	Dagger	xhw	Weapon	N/A	0	stat:At+1	Marius may use dagger on foot or on horse			
+emstfp	Fighting Platform	Plat	Weapon	Mnt	120	unit:emtreng@abs=6;apnd		Shooting: Before deciding hard/soft - roll D6 on 6 hits trainees; owner choses casualties; always count as stationary; may not fire in combat; may not attack to rear	6 Trainees; Shooting: Before deciding hard/soft - roll D6 on 6 hits trainees; owner choses casualties; always count as stationary; may not fire in combat; may not attack to rear	
+emghalmz	Ghal Maraz		Weapon	MWp	0	take:emghalmz-free-perm				
+emval4gh	Ghal Maraz	GhaMa	Weapon	MWp	145	over:2ndhwtr2=delete;take:emghamva-free-perm;unit:emkrlhrs@abs=1;base:Sv-5;stxt:Type="Ca"	Full Plate Armour		Replace Valten's hand weapons with Ghal Maraz, Full Plate Armour and Barded Warhorse	Ghal Maraz for Valten, Undead Legion, End Times
+emgwfth	Great Weapon	GW	Weapon	2Hd	4	stat:St+2;type:GreatWeapon	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+emgwknit	Great Weapon	GW	Weapon	N/A	0	stat:St+2;chld:champ@St+2	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+emgwlrd	Great Weapon	GW	Weapon	2Hd	4	stat:St+2;type:GreatWeapon;xcst:10-unit=emmaster;xcst:5-unit=emlector;xcst:5-unit=emwarprt;xcst:5-unit=emwitchh	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+emgwmth	Great Weapon	GW	Weapon	2Hd	4	stat:St+2;utyp:mounted;type:GreatWeapon	Requires Two Hands. +2 Strength. Strikes at initiative 0.		Hero Great Weapon Mounted	
+emdemiha	Halberds	Ha	Weapon	N/A	0	stat:St+1;chld:champ@St+1;over:lancetrp=delete	Requires Two Hands. +1 Strength.		Replaces lances with halberds	
+emnobleh	Halberds	Ha	Weapon	N/A	1	stat:St+1;chld:champ@St+1;over:emgwknit=delete;over:emnoblel=delete	Requires Two Hands. +1 Strength.		Replaces lances with halberds	
+emwp03	Halberds	Hal	Weapon	N/A	1	unam:+" - Halberdiers";stat:St+1;chld:champ@St+1;over:shhro=delete	Requires Two Hands. +1 Strength.		Replace Shields with Halberds	
+emhwshre	Hand Weapon & Shield	HWSh	Weapon	N/A	1	over:2handtrp=delete;more:save1=incl	Parry		Replace Great Weapon with Hand Weapon & Shield	
+emwp00	Hand weapons	HW	Weapon	N/A	0	unam:+" - Swordsmen"			Hand weapons	
+emmwp01	Handgun	HGun	Weapon	N/A	0	unam:+" - Handgunners"	Range 24”. Strength 4. Unwieldy. Armour Piercing (1)			
+emhkhal	Hook Halberd		Weapon	Wep	0	apnd		2 Hands; +1 Str (+2 vs cavalry)	2 Hands; +1 Str (+2 vs cavalry)	
+emgmlanc	Lance	La	Weapon	N/A	1	over:emgwknit=delete	+2 Strength on charge		Replace Great Weapon with Lance	
+emnoblel	Lance & Shield	LaSh	Weapon	N/A	2	over:emgwknit=delete;over:emnobleh=delete;more:save1=incl;over:haltrp=delete;xcst:5-unit=emdemikn	+2 Strength on charge; +1 armour save		Replace weapon with Lance & Shield	
+emmgcwpn	Magic Weapon		Weapon	N/A	0	spec:+weap;over:lancelrd=delete;over:emhamww=delete;over:lancehro=delete;utyp:!whitewolf;hide			Allows Magic Weapons.	
+emmgcwpw	Magic Weapon		Weapon	N/A	-6	spec:+weap;over:lancelrd=delete;over:emhamww=delete;over:lancehro=delete;utyp:whitewolf;more:shlrd=incl;hide			Allows Magic Weapons.	
+emmnctc	Man Catcher		Weapon	Wep	0	apnd		2 Hands; Killing Blow	2 Hands; Killing Blow	
+emtroopm	Missile Weapon Table		Weapon	N/A	0	tabl:Crossbows=emmwp00,Handguns=emmwp01-noname-nobrackets				Imperial Troops weapon table
+emstmr	Mortar	Mor	Weapon	Rng	-50	base:Wo-10;more:canmist=incl;over:emsttu=delete		No turret; As per Mortar - Rng 6-24"; Roll 1D6 for both Mortar and Malfunction charts; On "Destroyed" only mortar destroyed; 2 Swivel Guns: S6 Handguns; Count as Stationary and may be fired if no mortar shot and costs no SP; Fire to front or flank	No turret; As per Mortar - Rng 6-24"; Roll 1D6 for both Mortar and Malfunction charts; On "Destroyed" only mortar destroyed; 2 Swivel Guns: S6 Handguns; Count as Stationary and may be fired if no mortar shot and costs no SP; Fire to front or flank	
+emmwp03	Pistol	Pst	Weapon	N/A	2	unam:+" with Pistols";stat:At+1;stat:In+1;chld:champ@At+1;chld:champ@In+1	Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Counts as Additional Hand Weapon in Close Combat.			
+emrunef2	Reikland Runefang		Weapon	MWp	0	take:emrunef2-free-perm				
+emrept	Repeater Handgun	Rep	Weapon	Rng	15	type:missiles;xcst:10-unit=emchhand		^	Range 24", S4, armour piercing, move or fire,  Multiple shots (3).	
+emrept2	Repeater Handgun	Rep	Weapon	Rng	0	apnd		^	Range 24", S4, armour piercing, move or fire,  Multiple shots (3).	
+emwp01	Spears	Sp	Weapon	N/A	0	unam:+" - Spearmen"	Fight in Extra Ranks. Killing Blow against Cavalry, Monstrous Cavalry and Chariots engaged in the front.			
+emstvc	Volley Gun	VGun	Weapon	Rng	50	base:Wo-2;more:emhellmf=incl;apnd		Normal Volley Gun except Move and Fire; Long Rng: S3, -1 ArSv; Short Rng: S4, -2 ArSv; Misfires Roll 1 dice for Hellblaster Misfire chart and 1 dice for Malfunction chart;  On "Destroyed" only, volley gun destroyed	Normal Volley Gun except Move and Fire; Long Rng: S3, -1 ArSv; Short Rng: S4, -2 ArSv; Misfires Roll 1 dice for Hellblaster Misfire chart and 1 dice for Malfunction chart;  On "Destroyed" only, volley gun destroyed	
+emtroopw	Weapon Table		Weapon	N/A	0	tabl:HandWeapon=emwp00,Spears=emwp01,Halberds=emwp03-noname-nobrackets				Imperial Troops weapon table
+emmilitw	Weapon Table Militia		Weapon	N/A	0	tabl:2ndHW=emmilw01,Bows=emmwp02,Pistols=emmwp03-noname-nobrackets				
+emreitet	Weapon Table Reiters		Weapon	N/A	0	tabl:Pistol=empsthro,BraceofPistols=embop,RepeaterGun=emrephro,LLancePistol=emllpist-noname-nobrackets				
+emhamww	White Wolf Hammer	HH	Weapon	2Hd	6	utyp:!skirmishers;type:wwhammer;over:shlrd=delete	Two-handed, +2St on charge, +1 St otherwise.			
+emhamww2	White Wolf Hammer	HH	Weapon	2Hd	6	utyp:skirmishers|infantry;type:wwhammer	Two-handed, +1St (as Halberd).			
+emhamww3	White Wolf Hammer	HH	Weapon	N/A	6	utyp:!skirmishers;type:wwhammer	Two-handed, +2St on charge, +1 St otherwise.			
+emwwhmst	WW Hammer (+1St)		Weapon	N/A	0	hide;stat:St+1;chld:champ@St+1;glob:incl;utyp:wwhammer				
+embluder	Blunderbuss		Missile	Rng	0	apnd		Move or Fire, Flame template, S3, Armor Piercing	Move or Fire, Flame template, S3, Armor Piercing	
+embop	Brace of Pistols	BoP	Missile	Rng	8	type:missiles;xcst:2-unit=empistol		Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Multiple shots (2). Counts as Additional Hand Weapon in Close Combat	Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Multiple shots (2). Counts as Additional Hand Weapon in Close Combat	
+emxbow	Crossbow	Xbow	Missile	N/A	5		Range 30”. Strength 4. Unwieldy.			
+emgunlrd	Empire Handgun	Gun	Missile	Rng	6	type:missiles		Range 24". Strength 4 hit. Armour Piercing (1). Unwieldy.	Range 24". Strength 4 hit. Armour Piercing (1). Unwieldy.	
+emguntrp	Empire Handgun	Gun	Missile	Rng	0	type:missiles		24", St 4 hit, -2 Ar Sv, Move or Fire.	Range 24". Strength 4 hit (-2 Armour Save). Move or Fire. 	
+emgrenla	Grenade Launching Blunderbuss	GLB	Missile	Rng	10	type:missiles		Range 18". Strength 6, Armour Piercing, Move or Fire, Slow to Fire	Range 18". Strength 6, Armour Piercing, Move or Fire, Slow to Fire	
+emgunhro	Handgun	Gun	Missile	Wep,Rng	6	type:missiles		24", St 4 hit, -2 Ar Sv, Move or Fire.	Range 24". Strength 4 hit (-2 Armour Save). Move or Fire. 	
+emhoc2	Hochland Long Rifle	HLR	Missile	Rng	0	apnd	Range 36". Strength 4, Armour Piercing, Move or Fire, Slow to Fire, Sniper			
+emhochlr	Hochland Long Rifle	HLR	Missile	Rng	20	type:missiles	Range 36". Strength 4, Armour Piercing, Move or Fire, Slow to Fire, Sniper			
+emhochor	Hochland Long Rifle	HLR	Missile	Rng	5	type:missiles	Range 36". Strength 4, Armour Piercing, Move or Fire, Slow to Fire, Sniper			
+emllpist	Light Lance & Pistol	LLP	Missile	Rng	1	type:missiles	Light Lance: +1 St on charge; Pistol: Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Counts as Additional Hand Weapon in Close Combat.			
+emhochro	Long-barreled Handgun	LBH	Missile	Rng	15	type:missiles;xcst:10-unit=emvetch2;xcst:10-unit=emchbow	Range 48”, Strength 4, Armour Piercing (1), Move or Fire, Multiple Wounds (D3), adds +1 to hit when shooting.			
+empigeon	Pigeon Bombs	PBM	Missile	Rng	20	type:missles	Nominat a model within 24" and roll D6: 1 - Center small template on engineer, all touched suffer S4 hit, 2-4 - no effect, 5-6 Center small template on target model, all touched suffer S4 Armour Piercing hit.			
+empsthro	Pistol	Pst	Missile	Rng	4	type:missiles;xcst:0-unit=empistol		Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Counts as Additional Hand Weapon in Close Combat.	Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Counts as Additional Hand Weapon in Close Combat.	
+empstlrd	Pistol	Pst	Missile	Rng	6	type:missiles		Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Counts as Additional Hand Weapon in Close Combat.	Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Counts as Additional Hand Weapon in Close Combat.	
+emboprp	Pistol & Repeater Pistol	BoP	Missile	Rng	10	type:missiles;over:embop=delete		12" Range. S4, Armour piercing, Quick to fire	12" Range. S4, Armour piercing, Multiple Shots (4) Quick to fire	
+emrephro	Repeater Gun	Rep	Missile	Rng	10	type:missiles;xcst:10-unit=emchbow;xcst:10-unit=emvetch2;xcst:3-unit=empistol	Range 24”, Strength 4, Armour Piercing (1), Multiple shots (3), Unwieldy.			
+emrephgn	Repeater Pistol	Rep	Missile	Rg1	10	type:missiles	12" Range. S4, Armour piercing, Multiple Shots (3), Quick to fire			
+emreppis	Repeater Pistol	Rep	Missile	N/A	0	type:missiles	12" Range. S4, Armour piercing, Multiple Shots (3), Quick to fire			Repeater Pistol of Tank Commander
+emhawk	War Hawk	Hwk	Missile	N/A	0	olgl:unit=emluden	Missile Weapon; S3 Hit; Rng 30"; Move or Fire. May pick any target he can see, even characters in units (-1 to hit tho).  May target different models than unit is firing at.			
+emmgcarm	Magic Armour		Armour	N/A	0	spec:+armr;over:shlrd=enable;over:emfpalrd=enable;over:shhro=enable;over:emfpahro=enable;hide			Allows Character to take magic armor.	
+emfpahro	Plate Armour	PA	Armour	N/A	15	more:save3=incl;utyp:!MagicArmour;over:lahro=delete;over:haupg5=delete			4+ Sv	The "conflict group" Mus has been used to limit mundane armours throughout AB
+emfpalrd	Plate Armour	PA	Armour	Mus	9	more:save3=incl;utyp:!MagicArmour			4+ Sv	The "conflict group" Mus has been used to limit mundane armours throughout AB
+emfparep	Plate Armour	PA	Armour	N/A	15	more:save3=incl;utyp:!MagicArmour;over:hahro=delete			4+ Sv	The "conflict group" Mus has been used to limit mundane armours throughout AB
+emfpatrp	Plate Armour	PA	Armour	Mus	6	utyp:!MagicArmour			4+ Sv	The "conflict group" Mus has been used to limit mundane armours throughout AB
+emstmg10	Magic Standard	Std	Standard	N/A	10	spec:+stnd;cost:single;item:+1;type:veteranmagicbanner;over:st10=delete		+1 CR	Allows magic banner; Adds +1 to combat result	
+emchbow	Champion		Champion	N/A	0	unit:emchbow@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchgrea	Champion		Champion	N/A	0	unit:emchgrea@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchhun	Champion		Champion	N/A	0	unit:emchhun@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchkngt	Champion		Champion	N/A	0	unit:emkoknt@abs=1;csiz:emwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchknt2	Champion		Champion	N/A	0	unit:emchknt2@abs=1;csiz:emwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchpist	Champion		Champion	N/A	0	unit:emchpist@abs=1;csiz:emwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchswor	Champion		Champion	N/A	0	unit:emchswor@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchwulr	Champion		Champion	N/A	13	unit:emchwulr@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emdemich	Champion		Champion	N/A	0	unit:emdemich@abs=1;csiz:emyoungr+1;modl:-1;cost:model			Upgrades a model to a Champion	
+emreikch	Champion		Champion	N/A	0	unit:emreikch@abs=1;csiz:emwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+emvetch	Champion		Champion	N/A	0	unit:emvetch@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emvetch2	Champion		Champion	N/A	0	unit:emvetch2@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emworch	Cleric Apprientice		Champion	N/A	0	unit:emworch@abs=1;modl:-1;cost:model;over:empropht=delete			Upgrades a model to a Champion. This requires a character with Supreme Pontiff special rule (High Cleric)	
+emchww	First Knight		Champion	N/A	0	unit:emchkngt@abs=1;csiz:emwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchww2	First Knight		Champion	N/A	0	unit:emchknt2@abs=1;csiz:emwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+emtgrdfk	First Knight		Champion	N/A	0	unit:emtgrdfk@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emhntmst	Hunt Master		Champion	N/A	0	unit:emhntmst@abs=1;unit:emwhorse@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+empropht	Leader		Champion	N/A	0	unit:empropht@abs=1;modl:-1;cost:model;over:emworch=delete			Upgrades a model to a Champion	
+emchhand	Marksman		Champion	N/A	0	unit:emchhand@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchoutr	Outrider Champion		Champion	N/A	0	unit:emchoutr@abs=1;csiz:emwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+emwpulr	Priest of Ulric		Champion	N/A	0	unit:emchmprs@abs=1;lglx:mode=g;cost:single				
+emchfoot	Sergeant		Champion	N/A	0	unit:emchfoot@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchfree	Sergeant		Champion	N/A	0	unit:emchfree@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchspr	Sergeant		Champion	N/A	0	unit:emchspr@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emchwlfk	Wolf Brother		Champion	N/A	0	unit:emchwlfk@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+emhorsey	Althandin	Mnt	Mount	Mon	0	unit:emhorsey@abs=1				
+emaralmt	Arcane Altar		Mount	Mnt	0	unit:emaralmt@abs=1;stat:Sv-1				old alter
+emkrlhrs	Barded Warhorse	Mnt	Mount	Mnt	21	unit:emkrlhrs@abs=1;slct:heromnt=incl;more:save2=incl;stxt:Type="Ca"				
+emnwmn2	Barded Warhorse	Mnt	Mount	Mnt	14	unit:emhhorse@abs=1;slct:bardhro=incl;more:save1=incl;stxt:Type="Ca"				
+emwaltar	Battle Altar		Mount	Mnt,Chr	150	unit:emwaltar@abs=1;slct:heromnt=incl;type:mounted				
+emtacarm	Carmine Dragon		Mount	Mnt	0	unit:emtacarm@abs=1;more:save1=incl				
+emhurrmt	Celestial Hurricanum		Mount	Mnt,Chr	0	unit:emhurrmt@abs=1;slct:heromnt=incl;type:mounted;stat:Sv-1;utyp:mgheaven				
+emdthclw	Deathclaw		Mount	Mnt	0	unit:emdthclw@abs=1;more:save1=incl				
+emdragon	Dragon		Mount	Mnt	250	unit:emdragon@abs=1;slct:heromnt=incl				
+emgrfmnt	Great Griffon	Mnt	Mount	Mon	140	unit:emgriff@abs=1;slct:heromnt=incl				
+emhorsei	Horse	Mnt	Mount	Mnt	15	unit:emhhorse@abs=1;show:bard15;show:emfreere;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca";stat:At-1;stat:In-1	Free Reform			Inquisitor only!!!
+emgriwiz	Imperial Griffon	Mnt	Mount	Mon	0	unit:emgriff@abs=1;slct:heromnt=incl;more:save1=incl;utyp:mgbeasts				griffon for Amber Wizard Lord
+empegmn2	Imperial Pegasus	Mnt	Mount	Mon	0	unit:empefree@abs=1;more:save1=incl				
+emlumimt	Luminark of Hysh		Mount	Mnt,Chr	0	unit:emlumimt@abs=1;slct:heromnt=incl;type:mounted;stat:Sv-1;stat:WSv=6;utyp:mglight				
+emmecha	Mechanical Steed	Mnt	Mount	Mnt	25	unit:emmecha@abs=1;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca"	Impact Hits (D3). Unreliable - at the start of each of your Movement phases roll D6. On '1' steed loses D3 Movement fot the rest of the game (to a minimum of 1).			
+empegmnt	Pegasus	Mnt	Mount	Mon	55	unit:empegas@abs=1;slct:heromnt=incl;stxt:Type="MC";more:save1=incl;xcst:40-unit=emwizld			Model becomes Monstrous Cavalry (Stomp 1)	
+emtareap	Reaper		Mount	Mnt	0	unit:emtareap@abs=1;more:save1=incl				
+emgorhor	Remove Warhorse		Mount	N/A	-21	over:bardinc=delete;over:emwhorse=delete;base:Sv+2;type:skirmishers;stxt:Type="In"			Removes Warhorse	
+emwaralt	War Altar		Mount	N/A	0	unit:emwaralt@abs=1;stat:Sv-1;hide				old alter
+emalthor	Warhorse		Mount	Mnt	0	unit:emwhorse@per=2			Mounted movement	
+emlwmnt	Warhorse	Mnt	Mount	Mnt	20	unit:emhhorse@abs=1;show:bard15;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca"				
+emnwmnt	Warhorse	Mnt	Mount	Mnt	15	unit:emhhorse@abs=1;show:bard15;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca";xcst:10-unit=emengr;xcst:10-unit=emwiz				
+emsnsww	Warhorse	Mnt	Mount	Mnt	20	unit:emhhorse@abs=1;more:bardlrd=incl;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca"				
+emwhorse	Warhorse	Mnt	Mount	Mnt	5	unit:emwhorse@per=1;show:lancetrp			Mounted movement	
+emdemigr	Young Griffon	Mnt	Mount	Mnt	0	unit:emyoungr@per=1;show:lancetrp				
+emyoungr	Young Griffon	YounG	Mount	N/A	35	unit:emyoungr@abs=1;more:save1=incl;slct:heromnt=incl;over:emlwmnt=delete;over:bardlrd=delete;stxt:Type="MC"			Replace Horse with Young Griffon	
+emguncrw	Crew		Crew	N/A	0	hide;unit:xemart@per=3			   	
+emtalacr	Crew		Crew	N/A	0	hide;unit:xemtalan@abs=1			   	
+xemstcre	Crew		Crew	N/A	0	hide;unit:xemstcre@abs=1			   	
+emhurrc2	Hurricanum&Luminark crew		Crew	Mnt	0	unit:xemacoly@per=1;unit:emwhorse@per=2;hide				Crew for Lord mounts
+emhurrcr	Hurricanum&Luminark crew		Crew	Mnt	0	unit:xemacoly@per=2;unit:emwhorse@per=2;hide			Mounted movement	
+emarcal1	Arcane Shield	ArcSh	Priority1	N/A	0	unam:+" of Arcane Shield";base:WSv-1	Grants the special rule Ward Save (6+) to every friendly units within 6”. The model cast the bound spell Shield of Protection from the Path of Light at power level 3 (Augment. Range 24". Lasts one turn. Attacks against the target suffer a -1 To Hit penalty and non BS shooting must roll a D6 before shooting, on 4+ the shot(s) is lost).		Arcane Altar type	
+emdet1s	Detachment 1		Priority1	N/A	0	list:emdetars,emdetxbs,emdethas,emdetfcs,emdethgs,emdetsps,emdetsws;type:detach;lglx:!mode=g;hide				Detachments for Special Units
+emdtch1	Detachment 1		Priority1	N/A	0	list:emdtarch,emdtxbow,emdthalb,emdtfree,emdthand,emdtsprm,emdtswrd-legal=!(mode=h);list:emdtarch,emdthalb,emdtsprm,emdtswrd-legal=(mode=h);type:detach;lglx:!mode=g;hide				Detachments for Core Units
+emdet2s	Detachment 2		Priority1	N/A	0	list:emdetars,emdetxbs,emdethas,emdetfcs,emdethgs,emdetsps,emdetsws;type:detach;lglx:!mode=g;hide				Detachments for Special Units
+emdtch2	Detachment 2		Priority1	N/A	0	list:emdtarch,emdtxbow,emdthalb,emdtfree,emdthand,emdtsprm,emdtswrd-legal=!(mode=h);list:emdtarch,emdthalb,emdtsprm,emdtswrd-legal=(mode=h);type:detach;lglx:!mode=g;hide				Detachments for Core Units
+emarcal2	Foreseeing	Fores	Priority1	N/A	40	unam:+" of Foreseeing";over:emarcal1=delete	Grants the special rule Supernatural Reflexes to every friendly model within 6”, excluding mounts. The model may cast the bound spell Thunderbolt from the Path of Heavens at power level 4 (Hex. Missile. Damage. Range 24". Target suffers 1D6 Strength 6 hits with Lightning Attacks).		Arcane Altar type	
+emtacala	Land Ship Calamity Chart		Priority1	N/A	0	apnd:foot	Land Ship Calamity Chart: 1- Ship is destroyed, any unit in contact suffers D6 S8 hits, leave wreckage as area of Dangerous Terrain, 2-3- Ship moves extra D6" and suffers D3 Wounds with no saves allowed, 4-5- move Land Ship in random direction, if hit is rolled it does not move at all, if hits friendly unit it deals Impact Hits but no combat is fought, 6- Land Ship is destroyed, every model within D6" suffer St6 hit			
+emdetmuc	Multiple detachments		Priority1	N/A	0	rept:emdtarch;rept:emdtxbow;rept:emdthalb;rept:emdtfree;rept:emdthand;rept:emdtsprm;rept:emdtswrd;type:detach				Detachments for Core Units
+emdetmus	Multiple Detachments		Priority1	N/A	0	rept:emdetars;rept:emdetxbs;rept:emdethas;rept:emdetfcs;rept:emdethgs;rept:emdetsps;rept:emdetsws;type:detach				Detachments for Special Units
+emstaff	Staff of Volans		Priority1	N/A	70	over:emfirebd=delete;take:emvolstf-perm				
+emstrls	Steam Tank Rules		Priority1	N/A	0	apnd:foot;hide		Select 0-5 SP/turn; Check for Malfunction (roll SPD6; roll>HP=malfunction); Hull Gun 45 deg LOS arc; Turret 360 deg LOS arc; can fire in CC; Tank Commander can fire repeater pistol when not in CC; Can fire repeater pistol as Stand and Shoot; Hold only other charge reaction; Does not need to drive in straight line for charge; Causes D3 Impact hits per 3" moved straight forward; can not charge Skirmishers or US 1 or 2 Characters; Autopasses all characteristic tests (except Initiative	Select 0-5 SP/turn; Check for Malfunction (roll SPD6; roll>HP=malfunction); Hull Gun 45 deg LOS arc; Turret 360 deg LOS arc; can fire in CC; Tank Commander can fire repeater pistol when not in CC; Can fire repeater pistol as Stand and Shoot; Hold only other charge reaction; Does not need to drive in straight line for charge; Causes D3 Impact hits per 3" moved straight forward; can not charge Skirmishers or US 1 or 2 Characters; Autopasses all characteristic tests (except Initiative	
+emstrls2	Steam Tank Rules 2		Priority1	N/A	0	apnd:foot;hide		Shooting: Allocate hits; Front: 1-5 Hard, 6 Soft; Flank: 1-4 Hard, 5-6 Soft; Rear: 1-2 Hard, 3-6 Soft; Close Combat:  All Soft Hits; Damage:  Soft: D6+At St+#Wo-8 HP; Hard: Soft-2 HP; Magic: Only direct damage attacks (as shooting); Spec At: Autowounds must still roll to wound; May not pursue; Impact hits randomized as per shooting - charger takes D6 S6 hits; Releasing NG Fanatics does not stop movement; Fanatics hitting Tank die but still attempt damage from Fanatic.	Shooting: Allocate hits; Front: 1-5 Hard, 6 Soft; Flank: 1-4 Hard, 5-6 Soft; Rear: 1-2 Hard, 3-6 Soft; Close Combat:  All Soft Hits; Damage:  Soft: D6+At St+#Wo-8 HP; Hard: Soft-2 HP; Magic: Only direct damage attacks (as shooting); Spec At: Autowounds must still roll to wound; May not pursue; Impact hits randomized as per shooting - charger takes D6 S6 hits; Releasing NG Fanatics does not stop movement; Fanatics hitting Tank die but still attempt damage from Fanatic.	
+emignor2	Add Comp Level		Priority2	N/A	0	hide;acmp:Hero+2u				
+emignore	Add Comp Level		Priority2	N/A	0	hide;acmp:Hero+1u				
+emhellmf	Hellblaster Missfire Table		Priority2	N/A	0	apnd		1.If one barrel misfires, halve the number of shots fired on the remaing two dice. 2.If two barrels misfire, roll on Black Powder Missfire Chart. 3. If all three dice roll missfire, Hellblaster fires 30 shots and then is removed as casualty.	Prints Misfire Table at end of roster	
+emhrbmf	Helstorm Rocket Misfire Table		Priority2	N/A	0	apnd		1.Destroyed. 2.Roll artillery and scatter from machine to see where it lands. 3-4.Dud: cannot shoot this turn or next turn. 5-6.Nothing happens.	Prints Misfire Table at end of roster	
+emstmal	Malfunction Chart		Priority2	N/A	0	apnd:foot		Dice Roll: 1) -4D6 HP & -4 SP; 2-3) -2D6 HP & -2 SP, 4-5) -1D6 HP & -1 SP, 6) 0 HP & +1 SP	Dice Roll: 1) -4D6 HP & -4 SP; 2-3) -2D6 HP & -2 SP, 4-5) -1D6 HP & -1 SP, 6) 0 HP & +1 SP	
+emstmish	Steam Boiler Mishap Table		Priority2	N/A	0	apnd		#1-4- roll D6, on 1-2 you cannot expend points in Steam Engine, 3-4 on Steam Gun, 5-6 on Steam Cannon; #5- lose D3 SP; #6- lose D6 SP, tank and any units in base contact suffer 2D6 S2 hits; #7-roll D3- tank gains that many SP and loses that many Wounds; #8-all units within 6" suffer 2D6 S4 hits, Steam Tank is destroyed.	Prints Mishap Table at end of roster	
+emstcht	Steam Point Costs		Priority2	N/A	0	apnd:foot;hide		Move Forward (up to 3") - 1 SP; Move Backwards (up to 2") - 1 SP; Pivot (90 deg) - 1 SP; Grinding (1/turn) - 1 SP; Hull Wpn (1/turn) - 2 SP; Turret (1/turn) - 1 SP	Move Forward (up to 3") - 1 SP; Move Backwards (up to 2") - 1 SP; Pivot (90 deg) - 1 SP; Grinding (1/turn) - 1 SP; Hull Wpn (1/turn) - 2 SP; Turret (1/turn) - 1 SP	
+emgri1	Bloodroar	Roar	Priority3	N/A	25		Enemy units roll additional D6, discarding the lowest, when making Ld tests caused by Griffon's Fear and Terror.			
+empeg1	Iron-hard Hooves	Iha	Priority3	N/A	5		Re-roll failed To Wound rolls when making Stomp.			
+emengupg	Master Engineer	MastE	Priority3	N/A	25	unam:="Hero: Master Engineer";type:masterengineer	(One of a Kind): The Engineer may give the Steady! Aim! Fire! order (+1 to hit in following Shooting phase) to a unit within 6” that has the Parent Unit or Support Unit special rule.			
+empeg2	Swift as the Wind	Swi	Priority3	N/A	10		Re-roll dice results of 1 when charging, unless it has joined a unit.			
+emaltar2	The Horn of Sigismund	Horn	Priority3	N/A	10	take:emaltar2			War Altar Causes Terror.	
+emgri2	Two Heads	2Head	Priority3	N/A	30	stat:At+1	+1 Chomp Attack (this attack has +1 to Hit against Large Targets.			
+emsteam	Building Steam Points (Tank)	Steam	Priority5	N/A	0	apnd:foot	# At start of your turn declare number of steam points you generate, from 0-5; If you generated any SP roll Artillery Dice - if number rolled is greater than current wounds or is a misfire, roll D3 and add number of SP you generated. Compare the result to Steam Boiler Mishap Table. You can expend SP through Steam Engine, Steam Gun and Steam Cannon. Unused SP are lost.			
+emstengi	Steam Engine	Engi	Priority5	Rng	0		# The Steel Tank’s current number of wounds dictates the value of its Movement, its number of Grinding Attacks and the range of its Steam Powered Cannon. A Steam tank may choose not to move; #Wounds 8-10: Move 3D6, Gringing Attacks 3D3, Range of Cannon 42"; #Wounds 4-7: Mv 2D6, GrAtt 2D3, Rng 30"; #Wounds 1-3: Mv 1D6, GrAtt 1D3, Rng 18"			
+emstgun	Steam Gun	SGun	Priority5	Mnt	0		# If STank is unengaged, at the start of Shooting Phase declare how many Steam Points you expend in the gun in the Shooting Phase, if engaged declare how many SP you will expend in CC phase. If 1 point is expended Steam Gun is Breath Weapon (but can be used multiple times in battle) with St2. Add +1 St for each extra SP expended. Steam Gun has 360 arc of fire.			
+emstmc	Steam-powered Cannon	MCan	Priority5	Rng	0		A Cannon Artillery Weapon with the following profile: Range *, Strength 7, Multiple Wounds (D3), Armour Piercing (2)			
+embpwmtb	Black Powder WM table		Special	N/A	0	tabl:Cannon=embpwm1,Mortar=embpwm2-noname-nobrackets				
+embpwm1	Cannon	Can	Special	N/A	0	unam:="Black Powder Cannon"	This weapon can be fired in two ways: # As a Cannon Artillery Weapon with the following profile: Range 72”, Strength 10, Armour Piercing (2), Multiple Wounds (Ordnance); #As a Volley Gun Artillery Weapon with the following profile: Range 12", Strength 4, Armour Piercing (3), Multiple Shots (2D6)			
+emexwmtb	Experimental WM table		Special	N/A	0	tabl:RocketBattery=emexwm1,VolleyGun=emexwm2-noname-nobrackets				
+emfreere	Free Reform	FreRe	Special	N/A	15					
+embpwm2	Mortar	Mor	Special	N/A	20	unam:="Black Powder Mortar"	Catapult Artillery Weapon with the following profile: Range 12-48", 5" Template, Strength 3, Armour Piercing (1)			
+emexwm1	Rocket Battery	RL	Special	N/A	20	unam:="Rocket Battery"	Catapult Artillery Weapon with the following profile: Range 36", 3" Template. This war machine never subtract the BS of the crew for the shooting outside line of sight. Instead of hitting models under the template as normal, any unit under the template suffers D6 hits with Strength 5 and Armour Piercing (1), Multiple Wounds (D3) and Flaming Attacks special rules.			
+emveter2	Veterans	Vets	Special	N/A	2	type:empireveterans;base:BS+1;base:In+1;unam:+" Veterans";show:emvetch2;over:emchbow=delete			If your General has Steady men! special rule, then you may upgrage the unit to Veterans, giving them +1WS and In.	
+emvetera	Veterans	Vets	Special	N/A	1	type:empireveterans;base:WS+1;base:In+1;unam:+" Veterans";show:emvetch;over:emchswor=delete			If your General has Steady men! special rule, then you may upgrage the unit to Veterans, giving them +1WS and In.	
+emexwm2	Volley Gun	SG	Special	N/A	0	unam:="Volley Gun"	Volley Gun Artillery Weapon with the following profile: Range 24", Strength 5, Armour Piercing (1), Multiple Shots (3D6*2)			
+emgen2	Count must be General		Last	N/A	0	type:Elector_General;utyp:general;hide				
+emordsho	Show Orders	Ord	Last	N/A	0	spec:+skil;take:em9ord0;take:em9ord1;take:em9ord2;take:em9ord3;take:em9ord4				
+emnolo	No Legendary Order		N/A	N/A	0	over:emdisadv=delete;over:emadvant=delete				
+^
+em9mw01	Fangsword	weap	MWp	85	1	itst:race=em		Hits made with this weapon wounds automatically and have Armour piercing (6).	^	^	
+em9mw03	Sacred Mace	weap	MWp	30	1	itst:race=em;stat:St+2		Great weapon. Wearer’s has the Crush attack special rule.	^	^	
+em9mw02	Sacred Sword	weap	MWp	45	1	itst:race=em;stat:St+1		Wearer’s has the Supernatural reflexes special rule, and +1 to its Strength characteristic.	^	^	
+em9ma01	Armour of the Ages	armr	Arm,MAr	35	1	base:Sv=1;type:unmod;itst:race=em&!type=mounted;type:MagicArmour		The bearer has a 1+ armour save.	^ Models on foot only	^	
+em9ma02	Ghost Helm	armr	MAr	15	1	base:Sv-1;itst:race=em		6+ armour save. The bearer has the Fear special rule.	^ 	^	
+em9ma03	Sacred Armour	armr	Arm,MAr	50	1	base:Sv-3;itst:race=em;type:MagicArmour		Plate armour. Wearer’s may reroll failed armour saves.	^ 	^	
+em9ta01	The Winter Cloak	ward	Tal	50	1	itst:race=em	wsv5=incl,aws5=incl	Talisman. The bearer's gains Distracting, Fireborn and Ward Save (5+) Special Rules.	^	^	
+em9ei01	Magic Mirror	ench	Enc	30	1	itst:race=em		Enchanted Item. When the bearer fights in a challenge he must use the following (unmodified) Characteristics of his enemy, and vice versa: Strength, Toughness, Initiative and Attacks.	^	^	
+em9mb01	Banner of Sacred Steel	stnd	Std	25	1	itst:race=em		Wearer’s unit ignores the movement penalty for using barding. Furthermore, the wearers and his unit can reroll results of 1 when charging, fleeing and performing an overrun move.	^	^	
+em9mb02	Sacred Banner	stnd	Std	50	1	itst:race=em&type=infantry		Wearer's, and the unit he joins can never perform an overrun or pursuit move, or choose to flee as a charge's reaction (except if they fail a Terror test). When calculating the combat resolution, a unit with this banner may claim Combat Score bonus for Full Ranks up to +5 instead of the normal +3.	^	^	
+em9ord4	First row, kneel down!	skil	N/A	0	99			The unit cannot declare charges this turn and gains the Fight in extra Rank special rule.	^	^	
+em9ord1	Go! Go! Go!	skil	N/A	0	99			The unit has +2 Movement, but cannot declare charges this turn.	^	^	
+em9ord0	Orders	skil	N/A	0	99			Models with this special rule can give up to one order per frendly player turn, at the beginning of the player turn. To do so, pick a unit with the Support Unit or Parent Unit special rule the character is inside, and choose one of the following effects. It applies immediately to the unit and its effects lasts until the beginning of the controller’s next player turn. A unit cannot receive the same order more than once in the same turn.	^	^	
+em9ord2	Steady Men!	skil	N/A	0	99			When a unit with one or more models with this special rule takes a Leadership Test, roll one additional D6 and remove the highest rolled D6. Furthermore, if a unit that receive this Order passes a Rally test, it can act normally for the rest of the turn, except that it cannot delcare charges or make march moves. Furthermore, it counts as moving for shooting purposes.	^	^	
+em9ord3	Steady! Aim! Fire!	skil	N/A	0	99			The unit has +1 to Hit with shooting attacks in the following Shooting phase.	^	^	
+emmeteor	Armour of Meteoric Iron	unk2	Arm,MAr	50	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);itst:!type=Wiz&!type=notsigmar&race=em;base:Sv=1;type:unmod;type:MagicArmour;stat:WSv=6		1+Sv - cannot be improved. Ward Save 6+	^	^	
+embane	Bane of the Craven	unk2	Enc	30	1	lglx:race=em&(mode=g|mode=h)		Neither the unit bearing the Bane of the Craven nor any unit it charges may voluntarily flee a charge.	^	^	
+embnmddn	Banner of Middenheim	unk2	Std	40	1	lglx:race=em&(mode=g|mode=h)	bsb=incl	Unit is immune to Fear and Terror.	^	^	
+emwrrtru	Banner of the Warrior-True	unk2	Std	35	1	lglx:race=em&(mode=g|mode=h)	bsb=incl	-D3 to the modifier when unit loses combat (to minimum 0).  No effect on other friendly units in the combat.	^	^	
+emclwttm	Claw Totem	unk2	Enc	15	1	lglx:race=em&(mode=g|mode=h)		Character and his unit roll 1 extra die and discard the lowest when pursuing fleeing enemies.	^	^	
+emdefian	Griffon Banner	unk2	Std	60	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);itst:race=em	bsb=incl	Double CR from extra ranks but cannot pursue.	^	^	
+emskavhm	Helm of the Ratslayer	unk2	MAr	15	1	lglx:race=em|(race=vm&mode=e);itst:!type=Wiz&race=em	ssave1=incl	6+Sv.  Cause Fear. Vs Skaven army causes Terror. All Skaven have Hatred when attacking the wearer.	^	^	
+emhorros	Pelt of Horros	unk2	Enc	20	1	lglx:race=em&(mode=g|mode=h)		Reroll one failed to-wound roll per combat phase.	^	^	
+emvolans	Ring of Volans	unk2	Bnd,Enc	30	1	itst:race=em;type:VolansRing		One use only. At the beginning of the battle randomly select one spell from any of the main magic lores before battle starts. Use as bound spell with power level equal to basing casting value of the spell. 	^	^	September 1, 2002
+emrunefg	Runefang	unk2	MWp	85	13	lglx:race=em		All hits autowound, no armour saves allowed.	^	^	
+emlumi1	Solheim's Bolt of Ilumination	unk2	Enc	0	1	itst:race=em&reg=emlumina|reg=emlumimt		Innate bound spell (power level 4), magic missile, range 36". Treat as Bolt Thrower with St8, Multiple Wounds (D3) and Flaming Attacks. If the target is Undead, Nehekharan Undead or Daemonic all failed To Wound rolls caused by this spell are re-rolled.	^	^	
+emwwstnd	Standard of the White Wolf	unk2	Std	40	1	lglx:race=em&(mode=g|mode=h)	bsb=incl	Missile file (including magic missiles) are -1St when fired at this unit.  Non-magic missile spells are unaffected.	^	^	
+emsteels	Steel Standard	unk2	Std	35	1	itst:race=em	bsb=incl	Bearer and his unit ignore negative penalties for barding and re-roll rolls of 1 when they charge, flee or pursue.	^	^	
+emsthmmr	Storm Hammer	unk2	MWp	30	1	itst:reg=emmaster|reg=emsnslww|reg=emgrand2;lglx:race=em&(mode=g|mode=h)|(race=vm&mode=e);type:wwhammer		As White Wolf hammer.  Models wounded cannot attack back that turn.	As White Wolf hammer.  Models wounded cannot attack back that turn.	As White Wolf hammer.  Models wounded cannot attack back that turn.	
+emhurr1	Storm of Shemtek	unk2	Enc	0	1	itst:race=em&reg=emcelhur|reg=emhurrmt		Innate bound spell (power level 4), direct damage, range 24". Place small template and scatter it D6". If template hits unit with fly special rule, it suffers D6 S4 hits in addition to effects of the spell. Roll D6: 1- no effect, 2- all models suffer S2 hit and suffer -1 To Hit in shooting and CC until start of caster's next Magicp phase, 3-if target is beneath central hole roll scatter dice and rotate the unit in this direction. If hit is rolled, caster rotates unit in any direction, 4-5- model under the hole suffer S6 hit, other model under the template suffer S3 hit, 6- model under the hole suffer S8 hit with Multiple Wounds (D6), other model under the template suffer S3 hit	^	^	
+emempstd	The Emperor's Standard	unk2	N/A	0	1	itst:reg=emludwig	bsb2=incl	Hold Your Ground! special rule has its range increased to 18".	^	^	
+emaltar2	The Horn of Sigismund	unk2	N/A	0	1	itst:race=em&reg=emwaltar		War Altar causes Terror.	^	^	
+emhelstr	The Mace of Helstrum	unk2	MWp	50	1	itst:race=em;stat:St+2		Always Strikes Last, Requires Two Hands. +2 Strength. May forfeit all attacks for 1 attack (with ASL) at S10, Multiple Wounds (D3), Flaming Attacks.	^	^	
+emtaseab	The Sea Bride Standard	unk2	Std	50	1	itst:reg=emtamabl	bsb=incl	Unit causes Fear and adds +1 to the distance rolled when pursuing an enemy.	^	^	
+emhorst	Van Horstmann's Speculum	unk2	Enc	40	1	itst:race=em		In a challenge the bearer MUST swap his St, To, In and At with his opponent (not his mount).	^	^	
+emwhclk	White Cloak of Ulric	unk2	Tal	50	1	itst:race=em&!reg=emchmprs	wsv5=incl,aws5=incl	Enemies in base contact have -1 all rolls To hit. 5+ Ward Save, increasing to 2+ against Flaming Attacks.	^	^	
+emhelmtt	Wolf Helm of the Teutogens	unk2	N/A	35	1	lglx:race=em&(mode=g|mode=h);base:Sv-1		Take a Ld test each combat phase, if passed bearer gets +1 Strength for that round.	^	^	
+emwlfshd	Wolfshead Emblem	unk2	N/A	10	50	lglx:race=em&(mode=g|mode=h);itst:type=PriestOfUlric		+1 Dispel Die.  One use only.	^	^	
+emvaltn1	Against the Odds	plaq	N/A	0	1			Enemy units do not gain CR bonuses for Flank, Rear, or Outnumbering.  Valten and his unit always count as Immune to Psychology except that they are also Stubborn.	^	^	
+emalkaht	Al-kahest	plaq	MWp	0	1	itst:reg=embalgel		Range 6", wounds on 4+, no armour saves. Flaming & Magical Attack. No penalties for move and range.	^	6", wounds on 4+, no armour saves, Flaming & Magical Attack, no range/move penalty.	
+emaldred	Aldred's Casket of Sorcery	plaq	Bnd,Enc	35	1	lglx:race=em|(race=vm&mode=e);itst:race=em		At end of movement on 4+ remove and capture random spell from enemy wizard within 12", can then cast that spell once before it is removed from game. Bound Spell.  Power Level variable.	^	At end of movement on 4+ remove and capture random spell from enemy wizard within 12", can then cast that spell once before it is removed from game.  Any # of spells may be captured by casket - bearer can cast each one once, either over several magic phases, or all at the same time if he prefers.  Power level of spell equal to  casting #.  Bound Spell.  Power Level variable.	September 1, 2002
+emaskoll	Armor of Skoll	plaq	Arm,MAr	40	1	lglx:race=em&(mode=g|mode=h);base:Sv-2;type:MagicArmour		5+Sv. Attacks against bearer in H2H combat is at -1 St.  Immune to Light Magic.	^	^	
+emtarnus	Armour of Tarnus	plaq	Arm,MAr	35	1	lglx:race=em|(race=vm&mode=e);base:Sv-1;itst:race=em;type:MagicArmour	wsv5=incl,aws5=incl	6+Sv.  Can be worn by wizards who can cast spells.  Ward save 5+.	^	^	
+emvaltn2	Awesome Presence	plaq	N/A	0	1			Wounds inflicted by Valten count towards CR of every combat within 12".  Cannot be the General unless he has the HIGHEST leadership.  If he is the General units within 12" CANNOT use his leadership.	^	^	
+embnduty	Banner of Duty	plaq	Std	10	1	lglx:race=em|(race=vm&mode=e);itst:race=em	bsb=incl	Re-roll failed rallying test.	^	^	
+embansig	Banner of Sigismund	plaq	Std	60	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);itst:race=em	bsb=incl	Banner bearer and unit he joins (including other characters) Stubborn.	^	^	
+emdaemsl	Banner of the Daemonslayer	plaq	Std	50	1	lglx:race=em&!(mode=g|mode=h);itst:type=knight&!type=whitewolf	bsb=incl	Unit causes Fear when charging.	^	^	
+emvalour	Banner of Valour	plaq	Std	30	1	lglx:race=em|(race=vm&mode=e);itst:race=em	bsb=incl	Immune to Panic.	^	^	
+embronze	Bronze Shield	plaq	Shd,MAr	20	1	lglx:race=em|(race=vm&mode=e);itst:!type=Wiz&race=em;type:MagicShield	ssave1=incl	6+Sv. May ignore first hit suffered in battle.	^	^	
+emcrysta	Crystal Ball	plaq	Arc	15	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Enemy must reveal all secrets within 24" of wizard at any time.  Secrets = magic items, presence of assassins, # of Fanatics, and everything else that player is normally allowed not to disclose to opponent.	^	^	
+emdawnar	Dawn Armour	plaq	Arm,MAr	35	1	lglx:race=em|(race=vm&mode=e);base:Sv-3;itst:!type=Wiz&race=em;type:MagicArmour		4+Sv. Can re-roll failed armour save.	^	^	
+emdmfire	Doomfire Ring	plaq	Bnd,Enc	30	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Bound Spell. Power 3. Rng:18". Casts the Burning Head spell from Lore of Fire.	^	^	September 1, 2002
+emwand	Grey Wand	plaq	Arc	40	1	itst:race=em		+1 to casting rolls.	^	^	
+emhammer	Hammer of Judgement	plaq	MWp	25	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Enemy hit must take T test for every hit.  If failed, hit wounds automatically and no armor save allowed; Empire only.	^	^	
+emhexstf	Hexstaff	plaq	Arc	55	1	itst:race=em		+D3 Power dice only usable by bearer; any Hex Dice rolls of 1 causes Miscasts (can result in more than 1 per turn)	^	^	
+emhrelic	Holy Relic	plaq	Tal	45	1	lglx:race=em|(race=vm&mode=e);itst:!reg=emchmprs&race=em	wsv4=incl,aws4=incl	4+ Ward save	^	^	
+emimags	Icon of Magnus	plaq	Enc	25	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);itst:race=em&!type=notsigmar		Character and unit immune to Fear. When facing Terror only suffer Fear.	^	^	
+emimperl	Imperial Banner	plaq	Std	100	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);itst:race=em	bsb=incl	Units w/in 12" re-roll any failed psychology tests as well as tests not to pursue.	^	^	
+emvaltn3	Iron Resolve	plaq	N/A	0	1			5+ Ward Save.  If Valten is killed take a Ld test for him; if he passes he will remain alive with 1 wound (does not apply if run down by chargers/pursuit or if killed by Killing Blow).	^	^	
+emjade	Jade Amulet	plaq	Tal	40	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);itst:race=em&!type=notsigmar		Ignore 1st Wo suffered; One use only.	^	^	
+emluckst	Luckstone	plaq	Arc	25	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Allows wearer to re-roll all dice used to cast or dispel.  Can effectively cancel a Miscast or cause either IF or a Miscast.  One use only.	^	^	
+emrodcom	Rod of Command	plaq	Enc	50	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Bearer and unit autopasses 1st break test even against fear-causing opponents. Cannot be used by character in turn he refused a challenge. One use only.	^	^	
+emrodpow	Rod of Power	plaq	Arc	30	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Allows user to save up to 3 dice from your  Power pool at the end of each Magic phase.  At beginning of next magic phase (either your's or the enemy's), roll a dice.  If number is less than # of dice stored, you lose the dice.	^	^	
+emsealds	Seal of Destruction	plaq	Arc	45	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Autodispels one non-IF spell + roll D6. On a 4+ spell (6+ bound items) destroyed.  One use only.	^	^	
+emgorgon	Shield of the Gorgon	plaq	Shd,MAr	25	1	lglx:race=em|(race=vm&mode=e);itst:!type=Wiz&race=em;type:MagicShield	ssave1=incl	6+Sv. 1 model in BtB -1 At.	^	^	
+emmagnus	Shroud of Magnus	plaq	Tal	50	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);itst:race=em	wsv5=incl,aws5=incl	5+ Ward Save, Magic resistance (2).	^	^	
+emsigil	Sigil of Sigmar	plaq	Tal	15	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);itst:race=em&!type=notsigmar		Magic Resistance (1).	^	^	
+emwardin	Standard of Arcane Warding	plaq	Std	30	1	lglx:race=em|(race=vm&mode=e);itst:race=em	bsb=incl	Magic Resistance (2)	^	^	
+emfate	Sword of Fate	plaq	MWp	40	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Magic weapon with no effects except against specific monster or character.  Wounds on 2+ and cause D3 Wo (no arm sav).	Magic weapon with no effects except against specific monster or character.  Wounds on 2+ and cause D3 wounds.  No armour saves apply; Empire only.	Magic weapon with no effects except against specific monster or character.  Wounds on 2+ and cause D3 Wo (no arm sav).	
+empower	Sword of Power	plaq	MWp	40	1	lglx:race=em|(race=vm&mode=e);stat:St+2;itst:race=em		St+2	^	^	
+emrights	Sword of Righteous Steel	plaq	MWp	30	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);itst:race=em&!type=notsigmar		Hits opponent on a 2+.	^	^	
+emsigimd	Sword of Sigismund	plaq	MWp	45	1	lglx:race=em|(race=vm&mode=e);stat:St+1;itst:race=em&!type=notsigmar		+1 St; Always strikes first.	^	^	
+emcrimam	The Crimson Amulet	plaq	Tal	20	1	lglx:race=em|(race=vm&mode=e);itst:!reg=emchmprs&race=em	wsv6=incl,aws6=incl	6+ Ward save.  Wearer automatically passes all characteristic tests (except Ld).	^	^	
+emgilded	The Gilded Armour	plaq	Arm,MAr	40	1	lglx:(race=em&!(mode=g|mode=h))|(race=vm&mode=e);base:Sv-2;itst:!type=Wiz&!type=notsigmar&race=em;type:MagicArmour		5+Sv. Attacker takes St test for each attack.  If test failed, attack lost.	^	^	
+emthundr	The Orb of Thunder	plaq	Bnd,Enc	30	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Bound spell. Power 4. Remain in play. No flying creatures may use Fly move and must use Mv. 	^	^	September 1, 2002
+emsilver	The Silver Horn	plaq	Bnd,Enc	35	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Bound spell. Power 5. Autorally all friendly fleeing units.	^	^	September 1, 2002
+emwtrbte	Winter's Bite	plaq	MWp	30	1	lglx:mode=g|mode=h;itst:race=em		On a 6 to hit the weapon auto-wounds with no armour save allowed.	On a 6 to hit the weapon auto-wounds with no armour save allowed.	On a 6 to hit the weapon auto-wounds with no armour save allowed.	
+emwizstf	Wizard's Staff	plaq	Arc	10	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Wizard may use 1 more casting dice than level allows.	^	^	
+emwyrmsl	Wyrmslayer Sword	plaq	MWp	15	1	lglx:race=em|(race=vm&mode=e);itst:race=em		Wounds opponent on 4+ or lower.  Armour saves apply as normal except for Large Targets with Scaly Skin.	^	^	
+emunbrig	0: Unbending Righteousness	spec	Enc	0	1	itst:reg=emluthor		Luthor and his unit gain Stubborn until start of next friendly Magic phase.	^	^	
+emamberb	Amber Bow	spec	MWp	0	1	itst:reg=emmarkus		Range 30", Strength 3, Volley Fire. If shot hits the monster it always wounds on 4+ and has Multiple Wounds (D3) special rule.	^	^	
+emamber	Amber Fang	spec	N/A	35	50	icnt:1;itst:type=PriestOfUlric;lglx:race=em&(mode=g|mode=h)		Priest may use 1 additional prayer each magic phase (though not the same spell twice)	^	^	
+emamcgld	Amulet of Sea Gold	spec	N/A	0	1	itst:reg=embalgel		Magic Resistance(1). If there are two enemy Wizards on the battlefield it is increased to MR(2). If there are 3 or more enemy Wizards, MR(3).	^	^	
+embalin1	Amulet of Sea Gold	spec	N/A	0	1	itst:reg=embalinc		Magic Resistance(3).	^	^	
+emhelden	Armour of Heldenhammer	spec	Arm,MAr	0	1	stat:Sv=2;itst:type=emvalten;type:MagicArmour		2+Sv, Magic Resistance (2), Models in base contact (friend or foe) can't cast spells or use bound spells.			
+emaverun	Averland Runefang	spec	MWp	0	1	itst:reg=emleitdf		All hits autowound, no armour saves allowed.	^	^	
+emtathe3	Baleflame Amulet	spec	N/A	0	1	itst:reg=emtatheo		5+ Ward Save. If Bruckner is slain by model in base contact, that model suffers D6 Wounds with no armour or regeneration saves allowed.	^	^	
+emruby	Blazing Ruby	spec	N/A	0	1	itst:reg=emgorman	wsv5=incl,aws5=incl	5+ Ward Save	5+ Ward Save.  Spec Char only.	5+ Ward Save	
+emblitzb	Blitzbeil	spec	MWp	60	1	itst:reg=emalulr;stat:St+1		+1 Strength, no armour save.  Enemies in B2B strike last.	Ar-Ulric (High Priest) only.  +1 Strength and no Armour Saves allowed.  All enemy models in base to base with the High Priest strike last (even when charging).	Ar-Ulric (High Priest) only.;+1 Strength and no Armour Saves allowed.;All enemy models in base to base with the High Priest strike last (even when charging).	
+emdrswd	Bright Sword	spec	MWp	0	1	itst:reg=emgorman		Casts Flaming Sword of Rhuin at start of every player's turn.  Can be dispelled in magic phase only.  Thyrus cannot cast Flaming Sword on himself - no cumulative effects.	Casts Flaming Sword of Rhuin at start of every player's turn.  Can be dispelled in magic phase only.  Thyrus cannot cast Flaming Sword on himself - no cumulative effects.  Spec Char only.	Casts Flaming Sword of Rhuin at start of every player's turn.  Can be dispelled in magic phase only.  Thyrus cannot cast Flaming Sword on himself - no cumulative effects.	
+emcloak	Cloak of Anraheir	spec	Tal	25	1	lglx:race=em&(mode=g|mode=h);itst:!reg=emchmprs		Magic Resistance (1).  Wearer causes Fear in Beastmen and Minotaur models. 	^	^	
+emtaels2	Death's Timekeeper	spec	N/A	0	1	itst:reg=emtaelsp		Once per player turn Elspeth's player can re-roll a single dice concerning her or Carmine Dragon (even dragon's artillery dice). If re-roll is not used, Elspeth may recover lost Wound at the end her player's turn.	^	^	
+emdrgbow	Dragon Bow	spec	MWp	0	1	itst:reg=emraukov		Range 36. Strength 6.	^	^	
+emwwfan2	Fang of the Winter Wolf	spec	N/A	25	50	itst:type=arulric		Priest may cast a spell with Irresistible Force.  One use only.	^	^	
+emwwfang	Fang of the Winter Wolf	spec	N/A	25	50	lglx:race=em&(mode=g|mode=h);itst:type=PriestOfUlric		Priest may cast a spell with Irresistible Force.  One use only.	^	^	
+emagni	Fire Stone of Agni	spec	N/A	0	1	itst:reg=emgorman		+2 dice for casting (i.e., Power Stone). Can be used 1/turn.	+2 dice for casting (i.e., Power Stone). Can be used 1/turn.  Spec Char only.	+2 dice for casting (i.e., Power Stone). Can be used 1/turn.	
+emfirebd	Firebrand Staff	spec	N/A	0	1	itst:reg=emgorman		Extends range of spells by 12".  Allows Flaming Sword of Rhuin cast on other characters.	Extends range of spells by 12".  Allows Flaming Sword of Rhuin cast on other characters.  Spec Char only.	Extends range of spells by 12".  Allows Flaming Sword of Rhuin cast on other characters.	
+emghalmv	Ghal Maraz, Hammer of Sigmar	spec	MWp	30	1	itst:type=emghamar		All hits autowound, no armour saves allowed. Each unsaved wound becomes D3 wounds.	Valten only ^	^	
+emghalmz	Ghal Maraz, Hammer of Sigmar	spec	MWp	30	1	itst:type=emghamar		All hits autowound, no armour saves allowed. Each unsaved wound becomes D3 wounds.	Karl Franz or Valten II only ^	^	
+emghamva	Ghal Maraz, Hammer of Sigmar	spec	MWp	0	1	itst:reg=emvalte4		All hits autowound, no armour saves allowed. Each unsaved wound becomes D3 wounds.	Karl Franz or Valten II only ^	^	
+emtaliet	Gore Prow	spec	MWp	0	1	itst:reg=emtaliet		Multiple Wounds (D3). Always Strikes First in first round of any combat.	^	^	
+emhamsko	Hammer-Axe of Skoll	spec	N/A	0	1	itst:type=arulric		Roll a D6 before the battle: 1-3 = +2S; 4-5 = Killing Blow; 6 = +2 Strength & D3 additional attacks on the charge			
+emheart	Heart of Middenheim	spec	Tal	40	1	lglx:race=em&(mode=g|mode=h);base:WSv=5;itst:!reg=emchmprs&race=em;stat:ws+1		5+ Ward Save & +1WS.	5+ Ward Save & +1WS.	5+ Ward Save.  Wearer gains +1 to his Weapon Skill	
+emicedg2	Ice Dagger	spec	N/A	30	50	itst:type=arulric		Priest may add his unit's current Rank Bonus to the Power Level of his prayers.	^	^	
+emicedgr	Ice Dagger	spec	N/A	30	50	icnt:1;itst:type=PriestOfUlric;lglx:race=em&(mode=g|mode=h)		Priest may add his unit's current Rank Bonus to the Power Level of his prayers.	^	^	
+emlaurel	Laurels of Victory	spec	Enc	0	1	itst:reg=emhelbog		1 unsaved Wound caused by Helborg counts 2 Wo for the purposes of combat resolution.	^	^	
+emtathe1	Liarsbane	spec	N/A	0	1	itst:reg=emtatheo		+1 To Hit and To Wound rolls.	^	^	
+emkasc0	Lord of Lightning	spec	Tal	0	1	itst:reg=emkarlas		Innate Bound Spell (Power Level 6). Direct damage. Range 18". Target suffers D6 S6 hits, then roll D6 - on 3+ target suffers further D6 S6 hits and then roll D6 - on 5+ target suffers further D6 S6 hits.	^	^	
+emtajufa	Mercurial Shot	spec	MWp	0	1	itst:reg=emtajufa		One Use Only. This attack is used in conjunction with Falk's Hochland Long Rifle. If hits, resolve the hit with St6, Armour piercing, Multiple Wounds (2). If misses, it is wasted.	^	^	
+emrunef2	Reikland Runefang	spec	MWp	0	1	lglx:race=em;itst:reg=emfranz		All hits autowound, no armour saves allowed.	^	^	
+emshdskl	Shard of Skoll	spec	N/A	15	50	lglx:race=em&(mode=g|mode=h);itst:type=PriestOfUlric		Adds +1 to each dice rolled to dispel a spell (making auto-failure, two 1s, impossible and auto-success, two 6s, more likely).  Only one Shard can be used per spell.  If successful in dispelling the spell the Shard is destroyed, otherwise it can be used again.	^	^	
+emsolrun	Solland Runefang	spec	MWp	0	1	itst:reg=emhelbog		All hits autowound, no armour saves allowed.	^	^	
+emstcom	Staff of Command	spec	N/A	0	1	itst:reg=emvolkmr;stat:St+2		St+2 as long as Volkmar is mounted on War Altar. If not, Staff counts as Magic Weapon without additional properties.	St+2; If War Altar is destroyed, staff no longer works. Volkmar Only.	St+2; If War Altar is destroyed, staff no longer works.	
+emvolstf	Staff of Volans	spec	N/A	0	1	itst:(reg=emgorman|reg=embalgel|reg=embalinc)		+2 to all attempts to cast spells.	^	^	
+emtathe2	Stormlance	spec	N/A	0	1	itst:reg=emtatheo		One Use Only. Lance. Killing Blow.	^	^	
+emjustic	Sword of Justice	spec	MWp	20	1	itst:reg=emludwig		Killing Blow. Re-roll failed To Wound rolls.	^	^	
+emglrobe	The Cloak of Molten Metal	spec	Enc	0	1	itst:(reg=embalgel|reg=embalinc)		3+ Ward save against shooting attacks.	^	^	
+embalin2	The Crucible	spec	N/A	0	1	itst:reg=embalinc		Innate Bound Spell (power level 10). Augment. Range 18". Spell targets Balthasar Gelt and/or up to D3 other units. Remove all target units and at the start of caster's next turn set up each target unit anywhere on the battlefield, 1" away from other units and impassable terrain, in the same formation, facing any direction. Each unit othe then Gelt that is set up in this way suffers D6-1 Wounds with no save of any kind.	^	^	
+emkasc1	The Essence of Ghal Maraz	spec	MWp	0	1	itst:reg=emkarlas		Magic Weapon. All hits autowound, no armour saves allowed. Multiple Wounds (D3+1).	^	^	
+emgolgri	The Golden Griffon	spec	N/A	0	1	itst:race=em&reg=emwaltar		Innate boud spell (power level 4). Contains Banishment from Lore of Light.	^	^	
+emjadgrf	The Jade Griffon	spec	N/A	0	1	itst:reg=emvolkmr		Regeneration (5+)	^	^	
+emtaels1	The Pale Scythe	spec	N/A	0	1	itst:reg=emtaelsp		Killing Blow. +1 to dispelling rolls.	^	^	
+emkasc2	The Silver Seal	spec	Tal	0	1	itst:reg=emkarlas		Talisman. Ward Save 4+. Magic Resistance (2).	^	^	
+emsseal	The Silver Seal	spec	Tal	0	1	ireg:+emfranz	wsv4=incl,aws4=incl	4+ Ward Save and Magic Resistance (2).	^ Karl Franz only.	^	
+emtalulr	The Talisman of Ulric	spec	N/A	0	1	itst:reg=emboris		Auto-heals all wounds at the start of each player's turn.  Bearer is Immune to Psychology and has Magic Resistance (1).	^	^	
+emwolfar	Wolf Armour	spec	Arm,MAr	0	1	itst:type=arulric;base:Sv=4;base:Wsv=5;type:MagicArmour		4+Sv. 5+ Ward. Magic Resistance (1). Valgeir and any unit he joins are Immune to Fire.	^	^	
+^
+^
+^
+emarqmen	emchhand	cost
+emarqmen	emdtch1	cost
+emarqmen	emdtch2	cost
+emarqmen	emguntrp	incl
+emarqmen	mus10	cost
+emarqmen	st10	cost
+embalgel	mgmetal	incl
+embalgel	empegmn2	incl
+embalgel	general	cost
+embalgel	mgfull	cost
+embalgel	mgmiscas	cost
+embalgel	mgshow	cost
+emboris	bardinc	appl
+emboris	emfpatrp	appl
+emboris	emwhorse	appl
+emboris	general	incl
+emboris	shwtrp	appl
+embowmen	bowtrp	incl
+embowmen	emchbow	cost
+emcannon	canmist	free
+emcannon	emguncrw	incl
+emcannon	graper	free
+emchhand	bracetrp	cost
+emchhand	emguntrp	free
+emchhand	emhochlr	cost
+emchhand	emrept	cost
+emdtarch	bowtrp	incl
+emdtfree	2ndhwtrp	incl
+emdthalb	haltrp	incl
+emdthalb	latrp	appl
+emdthand	emguntrp	incl
+emdtsprm	latrp	appl
+emdtsprm	sprtrp2	incl
+emdtswrd	latrp	appl
+emdtswrd	shtrp	appl
+emdtxbow	xbowtrp	incl
+emelectr	bard15	hide
+emelectr	emfpalrd	incl
+emelectr	emgrfmnt	cost
+emelectr	emlwmnt	cost
+emelectr	empegmnt	cost
+emelectr	empstlrd	cost
+emelectr	general	cost
+emelectr	heromnt	hide
+emelectr	lahro	cost
+emelectr	lancelrd	hide
+emelectr	shlrd	cost
+emelectr	2ndhwlr3	cost
+emelectr	emgwlrd	cost
+emelectr	halhro	cost
+emelectr	emdragon	hide
+emelectr	emfieldt	cost
+emengr	bard15	hide
+emengr	emhochro	cost
+emengr	emnwmnt	cost
+emengr	emrephro	cost
+emengr	general	cost
+emengr	heromnt	hide
+emengr	hahro	incl
+emengr	empsthro	cost
+emfranz	emdthclw	cost
+emfranz	emfpatrp	incl
+emfranz	emgen	incl
+emfranz	emrunef2	free
+emfranz	emghalmz	cost
+emfree	emmilitw	cost
+emfree	emchfree	cost
+emfree	laoptrp	hide
+emfree	mus10	cost
+emfree	st10	cost
+emgorman	bardinc	appl
+emgorman	embright	incl
+emgorman	emfirebd	incl
+emgorman	emgorhor	cost
+emgorman	emstaff	cost
+emgorman	emwhorse	appl
+emgorman	general	cost
+emgorman	mgfull	cost
+emgorman	mgmiscas	cost
+emgorman	mgshow	cost
+emgreat	2handtrp	incl
+emgreat	emchgrea	cost
+emgreat	emdet1s	cost
+emgreat	emdet2s	cost
+emgreat	emfpatrp	appl
+emgreat	mus10	cost
+emgreat	stmg10	cost
+emhalber	emchfoot	cost
+emhalber	emdtch1	cost
+emhalber	emdtch2	cost
+emhalber	haltrp	incl
+emhalber	latrp	appl
+emhalber	mus10	cost
+emhalber	shoptrp	cost
+emhalber	st10	cost
+emhalber	emwpulr	cost
+emhelbog	bardinc	incl
+emhelbog	emwhorse	incl
+emhelbog	general	cost
+emhero	bard15	hide
+emhero	emfpahro	cost
+emhero	emnwmnt	cost
+emhero	empegmnt	cost
+emhero	empstlrd	cost
+emhero	general	cost
+emhero	haupg5	cost
+emhero	heromnt	hide
+emhero	lahro	incl
+emhero	lancelrd	hide
+emhero	shhro	cost
+emhero	emgwfth	cost
+emhero	btstdok	cost
+emhero	btnostnd	incl
+emhero	2ndhwlr3	cost
+emhero	emordsho	cost
+emicww	bardinc	incl
+emicww	emchww2	cost
+emicww	emfpatrp	appl
+emicww	emhamww	incl
+emicww	emwhorse	appl
+emicww	mus8	cost
+emicww	stmg16	cost
+emjaeger	emchhun	cost
+emjaeger	bowtrp	incl
+emknigh2	bardinc	incl
+emknigh2	emchkngt	cost
+emknigh2	emfpatrp	appl
+emknigh2	emkorder	cost
+emknigh2	emwhorse	appl
+emknigh2	lancetrp	incl
+emknigh2	mus8	cost
+emknigh2	shwtrp	appl
+emknigh2	stmg16	cost
+emknight	bardinc	incl
+emknight	emchkngt	cost
+emknight	emfpatrp	appl
+emknight	emkorder	hide
+emknight	emwhorse	appl
+emknight	emgmlanc	cost
+emknight	mus10	cost
+emknight	st10	cost
+emknight	emicko	hide
+emknt43	bardinc	incl
+emknt43	emchkngt	cost
+emknt43	emfpatrp	appl
+emknt43	emkord3	cost
+emknt43	emwhorse	appl
+emknt43	lancetrp	incl
+emknt43	mus8	cost
+emknt43	shwtrp	appl
+emknt43	stmg16	cost
+emknt43b	bardinc	incl
+emknt43b	emchkngt	cost
+emknt43b	emfpatrp	appl
+emknt43b	emkord3	cost
+emknt43b	emwhorse	appl
+emknt43b	lancetrp	incl
+emknt43b	mus8	cost
+emknt43b	shwtrp	appl
+emknt43b	stmg16	cost
+emkoic	bardinc	incl
+emkoic	emchknt2	cost
+emkoic	emfpatrp	appl
+emkoic	emkorder	cost
+emkoic	emwhorse	appl
+emkoic	lancetrp	incl
+emkoic	mus10	cost
+emkoic	stmg10	cost
+emkoic	emgwknit	cost
+emkoic2	bardinc	incl
+emkoic2	emchknt2	cost
+emkoic2	emfpatrp	appl
+emkoic2	emkord3	cost
+emkoic2	emwhorse	appl
+emkoic2	lancetrp	incl
+emkoic2	mus8	cost
+emkoic2	shwtrp	appl
+emkoic2	stmg16	cost
+emleitdf	bardinc	appl
+emleitdf	em2ndwpn	incl
+emleitdf	emfpatrp	appl
+emleitdf	emgorhor	cost
+emleitdf	emwhorse	appl
+emleitdf	general	cost
+emleitdf	emgen2	incl
+emluden	bardinc	incl
+emluden	emfpatrp	incl
+emluden	emgorhor	cost
+emluden	emhawk	incl
+emluden	emwhorse	incl
+emluden	general	cost
+emludwig	bardhro	incl
+emludwig	btstand6	incl
+emludwig	emfpatrp	appl
+emludwig	emnwmn2	incl
+emluthor	emgwknit	incl
+emluthor	bardinc	appl
+emluthor	emwhorse	incl
+emluthor	general	cost
+emluthor	hatrp	appl
+emluthor	mgfull1	cost
+emluthor	mgpriest	incl
+emluthor	mgprshow	cost
+emmaster	bardlrd	incl
+emmaster	emfpalrd	incl
+emmaster	emlwmnt	incl
+emmaster	general	cost
+emmaster	emgwlrd	cost
+emmaster	shlrd	cost
+emmaster	lancelrd	cost
+emmortar	canmist	free
+emmortar	emguncrw	incl
+empistol	emchpist	cost
+empistol	emwhorse	appl
+empistol	latrp	appl
+empistol	mus10	cost
+emraukov	bardinc	appl
+emraukov	emchoice	cost
+emraukov	emfpatrp	appl
+emraukov	emgorhor	cost
+emraukov	emwhorse	appl
+emraukov	general	cost
+emspear	emchspr	cost
+emspear	emdtch1	cost
+emspear	emdtch2	cost
+emspear	latrp	appl
+emspear	mus10	cost
+emspear	shoptrp	cost
+emspear	sprtrp2	incl
+emspear	st10	cost
+emspear	emwpulr	cost
+emsteam	xemstcre	incl
+emsteam	emstengi	incl
+emsword	emchswor	cost
+emsword	emdtch1	cost
+emsword	emdtch2	cost
+emsword	latrp	appl
+emsword	shhro	incl
+emsword	st10	cost
+emsword	mus10	cost
+emtreng	embluder	auto
+emtreng	embnc	auto
+emtreng	emhkhal	auto
+emtreng	emhoc2	auto
+emtreng	emmnctc	auto
+emtreng	emrept2	auto
+emvolkmr	emwaltar	cost
+emvolkmr	general	cost
+emvolkmr	mgfull1	cost
+emvolkmr	mgpriest	incl
+emvolkmr	mgprshow	cost
+emvolley	emguncrw	incl
+emvolley	emhellmf	free
+emwaralt	emalthor	incl
+emwarprt	bard15	hide
+emwarprt	emnwmnt	cost
+emwarprt	general	cost
+emwarprt	heromnt	hide
+emwarprt	hahro	incl
+emwarprt	mgfull1	cost
+emwarprt	mgpriest	incl
+emwarprt	mgprshow	cost
+emwarprt	shhro	cost
+emwarprt	emgwlrd	cost
+emwarprt	em2ndfth	cost
+emwiz	bard15	hide
+emwiz	emcolleg	cost
+emwiz	emnwmnt	cost
+emwiz	general	cost
+emwiz	mg1lvl	incl
+emwiz	mg2lvl30	cost
+emwiz	mgfull	hide
+emwiz	mgmiscas	cost
+emwiz	mgshow	hide
+emwizld	bard15	hide
+emwizld	emcolleg	cost
+emwizld	emlwmnt	cost
+emwizld	empegmnt	cost
+emwizld	general	cost
+emwizld	mg3lvl	incl
+emwizld	mg4lvl60	cost
+emwizld	mgfull	hide
+emwizld	mgmiscas	cost
+emwizld	mgshow	hide
+emwolv2	bardinc	incl
+emwolv2	emchww	cost
+emwolv2	emfpatrp	appl
+emwolv2	emhamww	incl
+emwolv2	emwhorse	appl
+emwolv2	mus8	cost
+emwolv2	stmg16	cost
+emwolves	bardinc	incl
+emwolves	emchww	cost
+emwolves	emfpatrp	appl
+emwolves	emhamww	hide
+emwolves	emwhorse	appl
+emwolves	mus8	cost
+emwolves	stmg16	cost
+emxbwmen	emchbow	cost
+emxbwmen	mus10	cost
+emxbwmen	st10	cost
+emxbwmen	emdtch1	cost
+emkncpt	bardhro	incl
+emkncpt	emfpahro	incl
+emkncpt	emkord2	cost
+emkncpt	emnwmnt	incl
+emkncpt	emmgcarm	cost
+emkncpt	emmgcwpn	cost
+emkncpt	general	cost
+emkncpt	lancehro	appl
+emkncpt	shhro	incl
+emkncpt	btstand	cost
+emkncpt	btnostnd	incl
+emwpulr	2handhro	cost
+emwpulr	2ndhwhro	cost
+emwpulr	bardhro	hide
+emwpulr	emnwmnt	cost
+emwpulr	general	cost
+emwpulr	hahro	cost
+emwpulr	heromnt	hide
+emwpulr	lahro	cost
+emwpulr	mgfull2	cost
+emwpulr	mgulric	incl
+emwpulr	mgulshow	cost
+emwpulr	shwhro	cost
+emwpulr	emwpbtsn	incl
+emwolves	2handmt0	incl
+emwolv2	emicww	cost
+emknight	emgwknit	incl
+emknigh2	emicko	cost
+emknt43b	emicko	cost
+emknt43	emicko	cost
+emlores	emcollg2	cost
+emlores	mgfull	cost
+emlores	mgshow	cost
+emalulr	2handlrd	cost
+emalulr	2ndhwlrd	cost
+emalulr	bardlrd	hide
+emalulr	emlwmnt	cost
+emalulr	general	cost
+emalulr	halrd	cost
+emalulr	heromnt	hide
+emalulr	lalrd	cost
+emalulr	mgfull2	cost
+emalulr	mgulric	incl
+emalulr	mgulshow	cost
+emalulr	shlrd	cost
+emalulr	shwlrd	hide
+emwarulr	emchwulr	cost
+emwarulr	laoptrp	cost
+emwarulr	mus5	cost
+emwarulr	shoptrp	cost
+emwarulr	st10	cost
+emwarulr	stmg10	hide
+emwarulr	2ndhwtrp	cost
+emwarulr	2handtrp	cost
+emhnthnd	emhunt	auto
+emhnthnd	emhntmst	cost
+emhntmst	sprmtrp1	incl
+emhntmst	latrp	incl
+emtutgrd	emhamww2	incl
+emtutgrd	emtgrdfk	cost
+emtutgrd	emdtch1	cost
+emtutgrd	emdtch2	cost
+emtutgrd	emfpatrp	appl
+emtutgrd	mus6	cost
+emtutgrd	stmg12	cost
+emtutgrd	emictg	cost
+emwlfkin	laoptrp	cost
+emwlfkin	shoptrp	cost
+emwlfkin	2ndhwtrp	cost
+emwlfkin	2handtrp	cost
+emwlfkin	st10	cost
+emwlfkin	mus5	cost
+emwlfkin	emchwlfk	cost
+emsnslww	emhamww	incl
+emsnslww	bardhro	hide
+emsnslww	general	cost
+emsnslww	heromnt	hide
+emsnslww	emhamww2	free
+emsnslww	emfpahro	free
+emsnslww	emsnsww	cost
+emwarulr	emwpulr	cost
+emchmprs	2handhro	cost
+emchmprs	2ndhwhro	cost
+emchmprs	bardhro	hide
+emchmprs	emnwmnt	cost
+emchmprs	hahro	cost
+emchmprs	heromnt	hide
+emchmprs	lahro	cost
+emchmprs	mgfull2	cost
+emchmprs	mgulric	incl
+emchmprs	mgulshow	cost
+emchmprs	shhro	cost
+emvalten	emignore	incl
+emvalten	emblkhmr	incl
+emvalten	general	cost
+emvalte2	emignor2	incl
+emvalte2	general	cost
+emvalte2	bardlrd	incl
+emvalte2	emlwmnt	incl
+emvalte2	emfpatrp	incl
+emhnthn2	emhntmst	cost
+emvalte3	emignore	incl
+emvalte3	general	cost
+emvalte3	emhorsey	incl
+emvalnei	general	cost
+emvalnei	mgfull2	cost
+emvalnei	mgulric	incl
+emvalnei	mgulshow	cost
+emsnslww	emnoshld	incl
+emgrand2	bardlrd	incl
+emgrand2	emfpalrd	free
+emgrand2	emlwmnt	incl
+emgrand2	general	cost
+emgrand2	emgwknit	incl
+emgrand2	emnoshld	incl
+emwpver	2handhro	cost
+emwpver	2ndhwhro	cost
+emwpver	bardhro	hide
+emwpver	emnwmnt	cost
+emwpver	general	cost
+emwpver	hahro	cost
+emwpver	heromnt	hide
+emwpver	lahro	cost
+emwpver	mgfull3	cost
+emwpver	mgverena	incl
+emwpver	mgveshow	cost
+emwpver	shwhro	cost
+emwpver	emchoice	cost
+emboris	emgen2	incl
+emluden	emgen2	incl
+emraukov	emgen2	incl
+emchmprs	shwhro	hide
+emlegkni	bardinc	incl
+emlegkni	emchkngt	cost
+emlegkni	emfpatrp	appl
+emlegkni	emwhorse	appl
+emlegkni	lancetrp	incl
+emlegkni	mus8	cost
+emlegkni	shwtrp	appl
+emlegkni	stmg16	cost
+emlegkni	emicko	cost
+emlegkni	emchoice	cost
+emlegkni	emadvant	cost
+emlegkni	emsigna2	hide
+emlegkni	emdisadv	cost
+emlegkni	emleknor	cost
+emreiksf	shtrp	incl
+emreiksf	emchgrea	cost
+emreiksf	emdtch1	cost
+emreiksf	emdtch2	cost
+emreiksf	emfpatrp	appl
+emreiksf	mus6	cost
+emreiksf	stmg12	cost
+emreiksf	emspec	cost
+empistol	haupg2	cost
+emoutr	emwhorse	appl
+emoutr	latrp	appl
+emoutr	mus10	cost
+emoutr	bardtrp1	cost
+emoutr	emrephro	incl
+emchoutr	emrept	free
+emchoutr	emboprp	cost
+emoutr	emchoutr	cost
+emchoutr	emgrenla	cost
+emsteam	emstmc	incl
+emlector	general	cost
+emlector	mgfull1	cost
+emlector	mgpriest	incl
+emlector	mgprshow	cost
+emlector	bard15	hide
+emlector	emlwmnt	cost
+emlector	hahro	incl
+emlector	heromnt	cost
+emlector	shlrd	cost
+emlector	emwaltar	cost
+emlector	emgwlrd	cost
+emlector	2ndhdlr2	cost
+emrocket	emguncrw	incl
+emflacor	empropht	cost
+emflacor	flailtrp	incl
+emflacor	frenzy	incl
+emknight	shoptrp	cost
+emdthalb	shoptrp	cost
+emdtsprm	shoptrp	cost
+emxbwmen	emdtch2	cost
+emxbwmen	emveter2	cost
+emwaltar	emalthor	incl
+emfranz	empegmnt	cost
+emfranz	bardlrd	hide
+emfranz	emlwmnt	cost
+emfranz	emdragon	cost
+emhelbog	emfpalrd	incl
+emkoic	shoptrp	incl
+emvolkmr	frenzy	incl
+emtaelsp	general	cost
+emtaelsp	mg4lvl	incl
+emtaelsp	mgfull	hide
+emtaelsp	mgmiscas	cost
+emtaelsp	mgshow	hide
+emtaelsp	mgdeath	incl
+emtaelsp	emtacarm	incl
+emtajufa	hahro	incl
+emtajufa	emhochro	incl
+emtajufa	empsthro	incl
+emtajufa	general	cost
+emtairon	emchhand	cost
+emtairon	emcount	cost
+emtairon	emdtch1	cost
+emtairon	emdtch2	cost
+emtairon	emguntrp	incl
+emtairon	mus10	cost
+emtairon	st10	cost
+emtairon	hatrp	incl
+emtavdkr	hahro	incl
+emtavdkr	general	cost
+emtavdkr	bracetr0	incl
+emtamabl	emchswor	auto
+emtamabl	emdtch1	cost
+emtamabl	emdtch2	cost
+emtamabl	latrp	appl
+emtamabl	shtrp	appl
+emtamabl	stmg10	auto
+emtamabl	mus10	auto
+emtaliet	bardinc	incl
+emtaliet	emwhorse	incl
+emtaliet	general	incl
+emtaliet	emfpalrd	incl
+emtaliet	shhro	incl
+emtatheo	emtareap	incl
+emtatheo	emfpalrd	incl
+emtatheo	pistol5	incl
+emtaland	emtacala	cost
+emtaland	emtalacr	incl
+embowmen	st10	cost
+embowmen	mus10	cost
+emdetfcs	2ndhwtrp	incl
+emdethas	haltrp	incl
+emdethas	latrp	appl
+emdethas	shoptrp	cost
+emdethgs	emguntrp	incl
+emdetars	bowtrp	incl
+emdetxbs	xbowtrp	incl
+emdetsps	latrp	appl
+emdetsps	sprtrp2	incl
+emdetsps	shoptrp	cost
+emdetsws	latrp	appl
+emdetsws	shtrp	appl
+emreiksk	bardinc	incl
+emreiksk	emreikch	cost
+emreiksk	emfpatrp	appl
+emreiksk	emwhorse	appl
+emreiksk	lancetrp	incl
+emreiksk	mus10	cost
+emreiksk	stmg10	cost
+emreiksk	shoptrp	incl
+emdemikn	emdemich	cost
+emdemikn	emfpatrp	appl
+emdemikn	emdemigr	appl
+emdemikn	haltrp	incl
+emdemikn	mus10	cost
+emdemikn	stmg10	cost
+emdemikn	emnoblel	cost
+emwitchh	general	cost
+emwitchh	hahro	incl
+emwitchh	emgwlrd	cost
+emwitchh	embop	incl
+emvolley	canmist	free
+emcelhur	emarcal1	incl
+emlumina	emhurrcr	incl
+emlumimt	emhurrc2	incl
+emhurrmt	emhurrc2	incl
+emmarkus	general	cost
+emwulfhu	emchhun	cost
+emwulfhu	bowtrp	incl
+emwulfhu	st10	cost
+emwulfhu	mus10	cost
+emvolkmr	lalrd	incl
+embalgel	mg4lvl	incl
+embowmen	emdtch1	cost
+embowmen	emdtch2	cost
+empefree	empeg1	cost
+empefree	empeg2	cost
+emvalte4	2ndhwtr2	incl
+emvalte4	general	cost
+emvalte4	emval4gh	cost
+emkarlas	genera24	cost
+embalinc	mgmetal	incl
+embalinc	general	cost
+embalinc	mgfull	cost
+embalinc	mgmiscas	cost
+embalinc	mgshow	cost
+embalinc	mg5lvl	incl
+emelectr	emordsho	cost
+emmaster	emyoungr	cost
+emwitchh	emhorsei	cost
+emwitchh	bard15	hide
+emwitchh	heromnt	hide
+emwitchh	emxbow	cost
+emwitchh	emfparep	cost
+emwitchh	shhro	cost
+emhero	halhro	cost
+emsword	emvetera	cost
+emsword	emtroopw	cost
+emsword	emvetch	hide
+emxbwmen	emtroopm	cost
+emxbwmen	emvetch2	hide
+emchbow	emrephro	cost
+emvetch2	emrephro	cost
+emvetch2	emhochro	cost
+emchbow	emhochro	cost
+emreiksk	emextra	auto
+empistol	emreitet	cost
+emcelhur	emarcal2	cost
+embpwm	emguncrw	incl
+embpwm	embpwmtb	cost
+emexwm	emguncrw	incl
+emexwm	emexwmtb	cost
+emmaster	hallrd	cost
+emaralmt	emarcal1	incl
+emaralmt	emarcal2	cost
+emwizld	emaralmt	cost
+emlector	flailtrp	cost
+emflacor	emworch	cost
+emworch	mgprshow	cost
+emworch	mgpriest	incl
+emengr	embop	cost
+emengr	emgunlrd	cost
+emengr	emengupg	cost
+emwarprt	flailtrp	cost
+emwitchh	emwitcht	cost
+emwitchh	emfreere	hide
+emxbwmen	emextra	auto
+emfree	emextra	auto
+emfreesk	emmilitw	cost
+emfreesk	emchfree	cost
+emfreesk	laoptrp	hide
+emfreesk	mus10	cost
+emfreesk	st10	cost
+emfreesk	emextra	auto
+emnoblek	bardinc	incl
+emnoblek	emchknt2	cost
+emnoblek	emfpatrp	appl
+emnoblek	emkorder	hide
+emnoblek	emwhorse	appl
+emnoblek	mus10	cost
+emnoblek	stmg10	cost
+emnoblek	emicko	hide
+emnoblek	emgwknit	incl
+emnoblek	emnobleh	cost
+emnoblek	emnoblel	cost
+emgreat	emhwshre	cost
+emreiksk	emdemiha	cost
+emdemikn	emextra	auto
+xemstcre	emrephro	incl
+^
+^
+emmsg16	Core Flagellants	One Flagellant Warband can be Core if a Warrior Priest is in the army
+emmsg2	Counts troops	Only one Core State Troop unit may have a magic standard
+emmsg3	Counts troops	Your army must include a General of the Empire as General to give a Core State Troop unit a magic standard
+emmsg4	Counts troops	Only one Core State Troop unit may have a magic standard in an Emperors Guard Army
+emmsg5	DOW as Special Troops	Need Approval from Opponent to use.
+emmsg10	Foot Reiksguard	Greatswords can only (and must) be Foot Reiksguard if Karl Franz is in the army
+emmsg23	High Cleric required	Your army must include High Cleric in order to upgrade Worhipper champion to Cleric Apprientice.
+emmsg15	Humility	Taking the Humility Disadvantage prohibits you from taking a Grand Master or Inner Circle Knights
+emmsg26	Knight Commander required	You need to field Knight Commander in order to take Noble Knights.
+emmsg6	Knights of the Inner Circle	Only one unit of Knights of the Inner Circle is allowed per army.
+emmsg14	Legendary Knights	You cannot field Legendary Knights together with White Wolves
+emmsg7	Marienburger DoW Ratio	You must have one unit of Empire Infantry (Flagellants don't count) for each DoW or RoR unit.
+emmsg20	Need Karl Franz	You can only take the Foot Reiksguard option if Karl Franz is in the army.
+emmsg18	Only one Balthasar Gelt	Only one Balthasar Gelt version may be present.
+emmsg22	Only one banner	Only one unit of Veterans can take magic banner.
+emmsg17	Only one Karl Franz	Only one Karl Franz version may be present.
+emmsg25	Only one Master Engineer	Only one Engineer can be upgraded to Master Engineer.
+emmsg24	Only one Veterans	Only one unit can be upgraded to Veterans.
+emmsg21	Seasoned general required	In order to upgrade units to Veterans, you need to have a Field Marshal with Seasoned General upgrade.
+emmsg1	Too many spells	Too many spells have been selected for a Wizard Lord or Wizard
+emmsg8	Valten Exalted 01	You have too many Lord characters.
+emmsg9	Valten Exalted 02	You have too many Lord characters.
+emmsg11	White Wolves	Only 1 unit of White Wolves - either regular or IC - in the army
+emmsg13	White Wolves	Only 1 unit of White Wolves - either regular or IC - in the army unless you have a White Wolf Grand Master
+emmsg12	Wolves of the Inner Circle	Only one unit of White Wolves of the Inner Circle is allowed.
+^

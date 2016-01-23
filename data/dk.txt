@@ -1,0 +1,746 @@
+Description: Dark Elves Army Book
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, bugs - email - mach_5@rocketmail.com
+^
+Dread Elves	dk	0	sm,dw,he,we,br,lz,ok,ch,dm,em,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25	skil,kgft	info:display="Dec 2015, ver. 0.10.0";info:display="modified by AJT";info:display="";info:always="Killer Instinct: may reroll all 1 to wound rolls in CC";info:display="";info:always="Master of the Dark Arts: Army includes one or more models with this rule, add an additional +1 to channel attempts for PD.";info:display="";info:always="Aura of Despair: Enemy units in base contact with one or more units with this rule roll an extra D6 for Ld tests (excl break tests) and discard the lowest dice. ";info:display="";info:always="Chosen of #Nabh - gain Hatred. Characters gains Poisoned attacks also. #Yema - gain AP(1). Characters Aura of Despair also. ";info:always="In one unit can't be models with different alligments. Army can't have any models with different aligment than general (if general has any)";info:always="Divine Blessings: At start of each game turn until the end of that turn, a friendly unit with the Killer Habits special rule within 6in (12in if mounted by Cult High Priest). Unit cannot be affected with more than one blessing at time. Only models with same alligment can be affected (if multipart model, only that with Killer Instinct) #+1A #Wsv 5+ #AP(1) in CC and shooting (can stack if model has already AP(1)). Not work with special attacks.";none:"Standard Army List";skip trat:Hell_Gen@1u:dkcore@1u-flat-msg=dkmsg10;trat:fleet@1u:corsvan@1u-msg=dkmsgcor;tlmt:specstd-unit=1@max-msg=dkmsgstd;trat:fleet@2u:fleetvan@1u-msg=dkmsgfv	
+^
+dkrakart	BeastLord Rakarth		N/A	Special Characters	Lord	1:1	150	0	spec:+weap;spec:+armr;ipts:total=0-each=5;type:Hero;take:dkagony-free-perm;take:dkkarkar-free-perm;type:Ld9	umax:1;lglx:!mode=e;hide		BeastLord: Any friendly monster w/in 12" always passes the Monster Reaction test; If an enemy monster is beaten in HtH combat and the rider is dead, the monster "joins" the DE army.  Enemy gets no VP for controlled monsters, DE gets VP for living monsters if Rakarth survives battle.  If Rakarth killed, monsters revert to opponent's control.		WH Chronicles 2003; Lord & Hero choice; Rides the Black Dragon Bracchus; Incls Lance, Whip of Agony, and Beast Armor of Karond Kar; Total Cost: 470 pts (150 pts for Rakarth & 320 for Bracchus).		5	5	5	4	3	2	7	3	9	1	7	0	0	1	0	0	0
+dkchblak	Champion	Black	N/A	Champion		1:1	10	100	coun;ipts:total=25-each=25;spec:-skil;spec:-pois;spec:+weap	hide						5	6	5	3	3	1	6	3	9	7	7	0	0	1	0	0	0
+dkchcold	Champion	Cold	N/A	Champion	champ	1:1	10	100	coun;ipts:total=25-each=25;spec:-pois;spec:-skil;spec:+weap	hide		Lance;				5	6	5	4	3	1	6	2	9	5	7	0	0	2	0	0	0
+dkchcors	Champion	Cors	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	4	7	0	0	1	0	0	0
+dkchdark	Champion	Rider	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	5	7	0	0	2	0	0	0
+dkchexec	Champion	Exec	N/A	Champion	champ	1:1	10	0	coun	hide						5	6	5	4	3	1	5	2	9	7	7	0	0	1	0	0	0
+dkchme	Champion	WarCh	N/A	Champion	champ	1:1	15	0	coun	hide					dkwarspe hide	6	6	6	5	4	3	5	4	8	6	4	0	0	2	0	0	0
+dkchshad	Champion	Scout	N/A	Champion	champ	1:1	10	0	coun;type:skirmishers	hide						5	6	6	3	3	1	5	2	8	7	7	0	0	1	0	0	0
+dkchwarr	Champion	Warr	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	6	7	0	0	1	0	0	0
+dkchwich	Champion	Witch	N/A	Champion	champ	1:1	10	100	coun;type:hag	hide						5	5	5	3	3	1	6	2	8	7	7	0	0	1	0	0	0
+dkcrxbmn	Champion	Warr	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	6	7	0	0	1	0	0	0
+dkpleas	Champion	Exec	N/A	Champion	champ	1:1	10	0	coun	hide						5	6	5	3	3	1	5	2	9	7	7	0	0	1	0	0	0
+dkwarcha	Champion	WarCh	N/A	Champion	champ	1:1	70	0	coun	hide					dkwarspe hide	5	5	5	4	3	2	5	3	8	6	4	0	0	2	0	0	0
+dkcacha	Crew		N/A	Regiment		1	0	0		hide						0	4	4	3	0	0	6	2	8	7	7	0	0	1	0	0	0
+dklustc	Crew		N/A	Regiment		1	0	0		hide						0	4	4	3	0	0	5	1	8	7	7	0	0	1	0	0	0
+dkassn	Dark Elf Assassin	Assn	N/A	Champion		1:1	90	100	calc:Num=#;ipts:total=75;type:khainite;type:skirmishers;spec:+kgft;spec:-skil;spec:-weap;spec:-armr;spec:-pois;spec:-ench;spec:-ward	hide		Eternal Hatred; Khainite; Scout; ASF; Hidden; A Killer not a Leader				5	9	9	4	3	2	10	3	10	7	7	0	0	1	0	0	0
+dkcauld	Divine Altar of Nabh	Cauld	N/A	Mount		1:1	0	0	attr:At="D6+1";attr:Type="Ch"	hide		Cult of Nabh; Scythes; Light Armor; Mounts Protection (6+); Killer Instinct; Lightning Reflexes (Crew only); War Platform; Large Target; Fear; Ward Save (4+); Divine Blessing; AHW (Crew only); Devastating Charge (crew only); Poisoned Attacks (Crew only); Magic Resistance (2); Divine Blessing; Chosen of Nabh				0	0	0	5	5	5	0	0	0	6	4	0	0	0	0	0	0
+dklust	Divine Altar of Yema	Cauld	N/A	Mount		1:1	0	0	attr:At="D6+1";attr:Type="Ch"	hide		Chosen of Yema; Scythes; Light Armor; Mounts Protection (6+); Killer Instinct; Lightning Reflexes (Crew only); War Platform; Large Target; Fear; Ward Save (4+); Divine Blessing; ; Aura of Despair; Fear; Petryfying Stare (Medusa only); Divine Blessing; Aura of Despair				0	0	0	5	5	5	0	0	0	6	4	0	0	0	0	0	0
+dkdrag	Dragon	Draco	N/A	Monster	Hero	1:1	0	0	type:bdrag	hide;forc;umax:1		Monster; Breath Weapon (strength 4 Flaming Attacks); Fly (7) 		Innate Defence (3+) 		6	5	1	6	6	6	3	5	9	3	7	0	0	6	0	0	0
+dkhsteed	Elven Horse	Hrs	N/A	Mount	mount	1:1	0	0		hide		War Beast				9	3	0	3	3	1	4	1	3	7	7	0	0	0	0	0	0
+dksteed	Elven Horse	Hrs	N/A	Mount	mount	1	0	0		hide		War Beast				9	3	0	3	3	1	4	1	3	7	7	0	0	0	0	0	0
+dkchsist	Handmaiden of Shards	Sista	N/A	Champion	champ	1:1	10	100	coun;type:hag;attr:WSv="4+*"	hide						5	6	4	3	3	1	6	3	9	7	7	0	0	1	0	0	0
+dkhuntch	Hunting Chariot	Chrt	N/A	Machine	chariot	1:1	0	0	attr:At="D6+1"	forc;hide		Light Lance; Repeater Crossbow; Light Armor; Natural Armor; Killer Habits (Crew only); Lightning Reflexes (Crew only); Stupidity; Scythes	D6+1 impact hits			0	0	0	5	4	4	0	0	0	7	7	0	0	4	0	0	0
+dkmani10	Manticore		N/A	Monster	mount	1:1	100	0	attr:Type="MB"	hide		Fly (8); Large Target; Fear; Leathal Strike; Frenzy; Multiple Wounds (D3) 				6	5	0	5	5	4	5	3	5	7	7	0	0	4	0	0	0
+dkmani20	Manticore		N/A	Monster	mount	1:1	150	0	attr:Type="MB"	hide		Fly (8); Large Target; Fear; Leathal Strike; Frenzy; Multiple Wounds (D3) 				6	5	0	5	5	4	5	3	5	7	7	0	0	4	0	0	0
+dkmanti	Manticore		N/A	Monster	mount	1:1	120	0	attr:Type="MB"	hide		Fly (8); Large Target; Fear; Leathal Strike; Frenzy; Multiple Wounds (D3) 				6	5	0	5	5	4	5	3	5	7	7	0	0	4	0	0	0
+dkmantim	Manticore		N/A	Monster		1:1	0	0	attr:Type="MB"	hide		Fly (8); Large Target; Fear; Leathal Strike; Frenzy; Multiple Wounds (D3) 				6	5	0	5	5	4	5	4	5	7	7	0	0	4	0	0	0
+dkmedusc	Medusae		N/A	Regiment		1	0	0		hide						0	5	5	5	0	0	5	4	8	7	7	0	0	1	0	0	0
+dkpega40	Pegasus	Peg	N/A	Monster		1:1	40	0		hide		Monstrous Beast; Fly (8)				7	4	0	4	4	3	4	2	6	7	7	0	0	3	0	0	0
+dkpegas	Pegasus	Peg	N/A	Monster		1:1	60	0		hide		Monstrous Beast; Fly (8)				7	4	0	4	4	3	4	2	6	7	7	0	0	3	0	0	0
+dkcold	Raptor	Cold	N/A	Mount		1	0	0		hide		Stupidity		Natural Armor		7	3	0	4	4	1	2	2	5	7	7	0	0	0	0	0	0
+dkhcold	Raptor	Cold	N/A	Mount		1:1	0	0		hide		Stupidity		Natural Armor		7	3	0	4	4	1	2	2	5	7	7	0	0	0	0	0	0
+dkbcha18	Raptor Chariot	Chrt	N/A	Machine	chariot	1:1	180	0	attr:At="D6+1"	forc;hide		Lance; Repeater Crossbow; Heavy Armor; Natural Armor; Killer Habits (Crew only); Lightning Reflexes (Crew only); Stupidity; Scythes; Stupidity 	D6+1 impact hits		For Malekith	0	0	0	5	5	4	0	0	0	7	7	0	0	4	0	0	0
+dkbchar2	Raptor Chariot	Chrt	N/A	Machine	chariot	1:1	110	0	attr:At="D6+1"	forc;hide		Lance; Repeater Crossbow; Heavy Armor; Natural Armor; Killer Habits (Crew only); Lightning Reflexes (Crew only); Stupidity; Scythes; Stupidity 	D6+1 impact hits		For Malekith	0	0	0	5	5	4	0	0	0	7	7	0	0	4	0	0	0
+dkchar2	Raptor Chariot	Chrt	N/A	Machine	chariot	1:1	125	0	attr:At="D6+1"	forc;hide		Lance; Repeater Crossbow; Heavy Armor; Natural Armor; Killer Habits (Crew only); Lightning Reflexes (Crew only); Stupidity; Scythes; Stupidity 	D6+1 impact hits			0	0	0	5	5	4	0	0	0	7	7	0	0	4	0	0	0
+dkscourm	Scourgerunner Chariot		N/A	Mount		1:1	0	0	attr:At="D6";calc:Num=#;attr:Type="Ch"	hide		Ravager Harpoon: Blot Thrower, can be shot after moving, Range 24", St7, Multiple Wounds (D3), Barbed Bolts (monsters wounded with shot are dragged D6" in the direction of the chariot, if moved 4 or more inches, suffer 1 extra Wound with no armour saves)				0	0	0	4	4	4	0	0	0	5	7	0	0	4	0	0	0
+dkdragse	Seraphon (Black Dragon)	Draco	N/A	Monster	Hero	1:1	300	0	type:bdrag	hide;forc		Fly; Hatred (High Elves); Terror; Large Target; Scaly Skin (3+); Noxious Breath: S4 Breath Weapon, units taking casualties suffer -1 to WS and BS until end of following turn				6	7	0	6	6	6	3	6	8	3	7	0	0	6	0	0	0
+dkspite	Spite (Cold One)	Spit	N/A	Mount		1:1	0	0		hide		Eternal Hatred		Cause Fear, No Stupidity in Cold One unit Joined		7	3	0	4	4	1	2	3	4	7	7	0	0	0	0	0	0
+dksulpht	Sulephet	Peg	N/A	Monster		1:1	0	0		hide		Monstrous Beast (Stomp);	Fly, +1S when charging	Can Fly, +1S when charging		8	4	0	4	4	3	4	3	6	7	7	0	0	3	0	0	0
+dkpull	Will of Blood		N/A	Regiment		1	0	0		hide						5	0	0	0	0	0	0	0	0	7	7	0	0	1	0	0	0
+dkpull2	Will of Lust		N/A	Regiment		1	0	0		hide						5	0	0	0	0	0	0	0	0	7	7	0	0	1	0	0	0
+dkdrag33	xDragon	Draco	N/A	Monster	Hero	1:1	300	0	type:bdrag	hide;forc;umax:1		Monster; Breath Weapon (strength 4 Flaming Attacks); Fly (7) 		Innate Defence (3+) 		6	5	1	6	6	6	3	5	9	3	7	0	0	6	0	0	0
+dkfleetm	Black Ark Fleetmaster	FltMa	Lord	Lord		1:1	155	100	ipts:total=50-each=50;type:Hero;type:skirmishers;type:Ld9;attr:Type="In"	race:pk,ek,ha;hide		Infantry; Always Strikes First; Hatred (High Elves); Murderous Prowess; #Show No Weakness: if this model is in the challenge or kills enemy character, and is alive, he and all models in his unit gain Unbreakable until end of turn.		Lord		5	6	6	4	3	3	7	3	9	7	7	3	0	0	0	1	0
+dkbrac	Bracchus the Black Dragon	Draco	Lord	Monster	Hero	1:1	320	0	type:bdrag;attr:Type="Mo"	hide;forc		Monster (Thunderstomp); 	Fly, Terror, Large Target, Breath Weapon: S4 & Ld test to charge next turn (Daemons & Immune to Psych troops no test)	Counts as Extra Hero slot; Can Fly; Causes Terror; Large Target; Use breath template for Corrosive attack; Models suffer S4 hit & Ld test to charge next turn (Daemons & Immune to Psych troops no test)		6	6	0	6	6	6	3	5	8	3	7	0	0	6	0	0	0
+dkhlbron	Crone Hellebron, The Blood Queen of Har Ganeth		Lord	Lord		1:1	310	0	ipts:total=0-each=1;type:helbron;type:hag;type:Ld10;xmpt:limit;take:dkdthswd-free-perm;take:dkamfire-free-perm;spec:+weap;spec:+ward;spec:+kgft;attr:Type="In"	umax:1;race:ek;hide		Infantry; Always Strikes First; Hatred (High Elves); Murderous Prowess; Poisoned Attacks		Lord; Frenzy	     	5	7	7	4	3	3	9	4	10	7	7	0	0	0	0	1	0
+dkbstmas	High Beastmaster	BstMa	Lord	Lord		1:1	300	100	ipts:total=100-each=100;type:Hero;type:skirmishers;type:Ld9;attr:Type="In"	race:ek,ha;hide		Infantry; Always Strikes First; Hatred (High Elves); Murderous Prowess; Beastslaver (at the start of your turn choose friendly monster within 3", that monster gain +D3 attacks until start of your next turn)		Lord; Includes Manticore, which can be replaced by Scourgerunner Chariot		5	7	7	4	3	3	8	3	9	7	7	3	0	0	0	1	0
+dkmaleth	Malekith, Witch King of Naggaroth		Lord	Wizard		1:1	510	0	ipts:total=0-each=1;spec:+weap;spec:+armr;spec:+wzrd;spec:+spel;take:dkdestrr-free-perm;take:dkmidnit-free-perm;take:dkspshld-free-perm;take:dkiron-free-perm;type:malek;xmpt:limit;type:dksorc;type:Ld10;attr:Type="In"	umax:1;hide		Infantry (Ca if mounted on ColdOne); Always Strikes First; Eternal Hatred; Murderous Prowess; Immune to Psychology; Hekarti's Blessing; #Absolute Power: Must be General, his Inspiring Presence has range of 18" (24" when riding Seraphon)		Lvl 4 Wizard with Dark Magic	dkiron	5	8	6	5	4	3	8	4	10	7	7	4	0	0	0	1	0
+dkmalus	Malus Darkblade, Scion of Hag Graef		Lord	Lord	Hero	1:1	295	0	ipts:total=0;spec:+weap;take:dkwarper-free-perm;type:Ld10;attr:Type="Ca"	umax:1;hide		Cavalry; Always Strikes First; Eternal Hatred; Murderous Prowess; Fear; #Not Just a Dumb Brute: Spite, his Cold One is not subject to stupidity and unit of Cold Ones joined automatically pass Stupidity tests. Spite also has Eternal Hatred; #Tz'arkan: may be unleashed at the start of any friendly Movement phase and effect lasts for rest of battle - gains Frenzy, +1 WS, St, To and In; for each To Hit roll of 1 friendly model in base contact is hit instead of enemy and failed To Wound roll must be re-rolled. Such hit allows no armour saves.		 		5	7	7	4	3	3	8	4	10	3	7	0	0	0	0	1	0
+dkmorath	Morathi, Hag Sorceress of Ghrond		Lord	Wizard		1:1	375	0	ipts:total=0;spec:+weap;type:dkdark;type:dksorc;type:Ld10;spec:+ench;spec:+wzrd;spec:+spel;attr:Type="MC";take:dkrender-free-perm	umax:1;race:ha;hide		Monstrous Cavalry (Stomp); Always Strikes First; Hatred (High Elves); Murderous Prowess; Hekarti's Blessing; #The First Sorceress: +D3 to Cast, may be combined with Hekarti's Blessing; #Enchanting Beauty: Any model (FoF) in base contact must pass a Ld test at the start of each CC round or suffer -5 to WS until end of phase; #Thousand And One Dark Blessings: 4+ Ward Save and Magic Resistance (2) 		Counts as Lord choice; Knows Dark Magic, Lore of Death and Lore of Shadow. Declare how many spells she will generate from each lore before rolling.		5	5	4	3	3	3	6	3	10	7	4	4	0	0	0	1	0
+dkcultfp	 Lord: Cult of Nabh High Priest	Lord	Hero	Lord	Lord	1:1	160	100	ipts:total=100-each=100;type:Hero;type:skirmishers;type:hborn;spec:-pois;spec:-skil;type:Ld10;name:"Master of the Black Arc"-mode=f;attr:Type="In"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Killer Habits; Lightning Reflexes; Poisoned Attacks; Devastating Charge; Magic Resistance(1); Chooen of Nabh		Additional Hand Weapon; 		5	7	6	4	3	3	8	4	9	7	7	0	0	0	0	1	0
+dkclhp	 Lord: Cult of Yeam High Priest	Lord	Hero	Lord	Lord	1:1	160	100	ipts:total=100-each=100;type:Hero;type:skirmishers;type:hborn;spec:-pois;spec:-skil;type:Ld10;name:"Master of the Black Arc"-mode=f;attr:Type="In"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Killer Habits; Lightning Reflexes; Poisoned Attacks; Armour Piercing (1);  Aura of Despair; Chosen of Yema		Additional Hand Weapon; 		5	7	6	4	3	3	8	4	9	7	7	0	0	0	0	1	0
+dklord	 Lord: Dread Prince	Lord	Hero	Lord	Lord	1:1	140	100	ipts:total=100-each=100;type:Hero;type:skirmishers;type:hborn;spec:-pois;spec:-skil;type:Ld10;name:"Master of the Black Arc"-mode=f;attr:Type="In"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Killer Habits; Lightning Reflexes		Light Armor		5	7	7	4	3	3	8	4	10	7	7	0	0	0	0	1	0
+dksorcld	 Lord: Exalted Oracle	SorLd	Hero	Wizard	Lord	1:1	165	100	ipts:total=100-each=100;type:Hero;type:skirmishers;type:dksorc;type:Ld9;attr:Type="In"	clmt:spel<=Wz-msg=dkmsg1;race:ek,ha;umax:3u@4000-free=3-msg=crmsg901		Killer Instinct; Lightning Reflexes; Master of the Dark Arts 				5	4	4	3	3	3	5	1	9	7	7	3	0	0	0	1	0
+dkassn2	Hero: Assassin	Assn	Hero	Hero	Hero	1:1	100	100	calc:Num=#;ipts:total=50-each=50;type:khainite;type:skirmishers;spec:-skil;attr:Type="In";spec:-armr;spec:-ward;spec:-ench;attr:Wsv="*/4+"	skip reqd:type=4ass@1u:1u-msg=dkass;race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Killer Instinct; Lightning Reflexes; Scout; Poisoned Attacks; Ward Save (4+) CC only, Not a Leader; Hidden; Assassin Throwing Weapon: Range 12”. Strength as user, Armour Piercing (1). Quick to Fire. Multiple Shots (3). May be combined with Venoms.; Master Poisoner: Declare single Venom at start of every player turn. This Venom is ussed in this turn. Venom can be combined with mundane weapons. Both in range & CC attacks.		Additional Hand Weapon		6	7	7	4	3	2	9	3	9	7	4	0	0	1	0	0	0
+dkhero	Hero: Captain	HerDk	Hero	Hero	Hero	1:1	70	100	ipts:total=150;spec:-pois;spec:-skil;type:skirmishers;type:noble;type:Ld9-mode=default;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Killer Instinct; Lightning Reflexes		Light Armor		5	6	6	4	3	2	7	3	9	7	7	0	0	0	0	1	0
+dkcbprie	Hero: Cult of Nabh Priest	Hero	Hero	Hero	Hero	1:1	95	100	ipts:total=50-each=50;type:Hero;type:skirmishers;type:hborn;spec:-pois;spec:-skil;type:Ld10;name:"Master of the Black Arc"-mode=f;attr:Type="In"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Killer Habits; Lightning Reflexes; Poisoned Attacks; Devastating Charge; Magic Resistance(1); Chosen of Nabh		Additional Hand Weapon; 		5	6	6	4	3	2	7	3	8	7	7	0	0	0	0	1	0
+dkclprie	Hero: Cult of Yema Priest	Hero	Hero	Hero	Hero	1:1	95	100	ipts:total=50-each=50;type:Hero;type:skirmishers;type:hborn;spec:-pois;spec:-skil;type:Ld10;name:"Master of the Black Arc"-mode=f;attr:Type="In"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Killer Instinct; Lightning Reflexes; Poisoned Attacks; Armour Piercing (1);  Aura of Despair		Additional Hand Weapon; 		5	6	6	4	3	2	7	3	8	7	7	0	0	0	0	1	0
+dkdthhag	Hero: Death Witch	HerDk	Hero	Hero	Hero	1:1	70	100	ipts:total=100;type:skirmishers;type:khainite;type:Ld9-mode=default;spec:+weap;spec:-armr;spec:-ench;spec:-ward;type:hag;attr:Type="In";spec:-skil	clmt:stnd<=1-count;race:ek,ha;umax:3u@4000-free=3-msg=crmsg901;hide		Killer Habits, Supernatural Reflexes, Frenzy, Poisoned Attacks				5	6	6	4	3	2	7	3	9	7	7	0	0	0	0	1	0
+dksorc	Hero: Oracle	Sorc	Hero	Wizard	Hero	1:1	65	100	ipts:total=50-each=50;type:skirmishers;type:Ld8;type:dksorc;attr:Type="In"	skip clmt:spel<=Wz-msg=dkmsg1;race:ek,ha;umax:3u@4000-free=3-msg=crmsg901		Killer Instinct; Lightning Reflexes, Master of the Dark Arts 				5	4	4	3	3	2	5	1	8	7	7	1	0	0	0	1	0
+dkkouran	Kouran Darkhand. Captain of the Black Guard		Hero	Hero	champ	1:1	180	0	ipts:total=0;spec:+weap;spec:+armr;take:dkcrmson-free-perm;take:dkgrief-free-perm;coun	umax:1;hide		Infantry; Eternal Hatred; Stubborn; Immune to Psychology; Always Strikes First; Murderous Prowess; #The Right Hand of Darkness: if Kouran joins unit of Black Guard, he and his unit is Unbreakable.				5	9	6	4	3	2	7	3	9	5	7	0	0	1	0	0	0
+dklokhr	Lokhir Fellheart, Krakenlord of Karon Kar		Hero	Hero	Hero	1:1	235	0	ipts:total=0-each=2;type:Ld9;spec:+weap;spec:+armr;xmpt:limit;take:dkkraken-free-perm;take:dkredbld-free-perm;attr:Type="In"	umax:1;race:ha;hide		Infantry; Always Strikes First; Hatred (High Elves); Murderous Prowess; #Show No Weakness: if this model is in the challenge or kills enemy character, and is alive, he and all models in his unit gain Unbreakable until end of turn; #Daring Leap: unless he is fighting a challenge, he may direct his attacks against any enemy character in the same combat - he does not have to be in base contact; #Merciless Slaver: if enemy unit breaks from combat containing Lokhir, all units taking Panic test do so with -1 Ld penalty.			     	5	6	6	4	3	2	7	3	9	5	7	0	0	0	0	1	0
+dkshblad	Shadowblade		Hero	Hero	Hero	1:1	245	0	ipts:total=0-each=30;spec:+ward;spec:+kgft;spec:-pois;spec:+ench;take:dkrstar-free-perm;take:dkptstr-free-perm;take:dkdrkven-free-perm;take:dkdance-free-perm;take:dktouch-free-perm;take:dkhand-free-perm;xmpt:limit;spec:+ward;take:dkhow-free-perm;attr:Type="In"	umax:1;race:ek;hide		Infantry; Always Strikes First; Hatred (High Elves); Murderous Prowess; Poisoned Attacks; Immune to Psychology; #A Killer, not a Leader: may not be general, units cannot use his Ld; #Dance of Doom: Ward Save 5+; #Master of Disguise				6	10	10	4	3	2	10	3	9	7	7	0	0	0	0	1	0
+dktulli	Tullaris Deathbringer, The Hand of Khaine		Hero	Hero	champ	1:1	155	0	type:infantry;ipts:total=0;spec:+weap;take:dkaxehg-free-perm;type:khainite;coun	umax:1;hide		Infantry; Always Strikes First; Hatred (High Elves); Murderous Prowess; Killing blow; #Khaine's Sacred Slaughterer: Tullaris and all models in his unit have Frenzy special rule.				5	6	6	4	3	2	7	3	9	5	7	0	0	1	0	0	0
+dkswords	Bleakswords	Warri	Core	Regiment	infantry	10	9	0	calc:Num=#;size:1-20-1-mode=zz;ipts:total=25-each=25;type:4ass;attr:Type="In"	slmt:1;race:pk,ek,ha;hide		Infantry; Always Strikes First; Hatred (High Elves); Murderous Prowess		Includes Light Armour & Shield; Unit Size: 10+		5	4	4	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+dkcors	Corsairs	Cors	Core	Regiment	infantry	10:40	8	0	ipts:total=25-each=25;calc:Num=#;size:1-20-1-mode=zz;type:4ass;attr:Type="In"	slmt:1;race:pk,ek,ha;umax:4u@4000-free=4-msg=crmsg902		Killer Instinct; Lightning Reflexes		Light Armor; Innate Defence (5+) ; Throwing Weapon		5	4	4	3	3	1	5	1	8	5	7	0	0	1	0	0	0
+dkrider	Dark Riders	Rider	Core	Regiment		5:10	17	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	race:pk,ek,ha;umax:4u@4000-free=4-msg=crmsg902		Killer Instinct (Knight only); Lightning Reflexes (Riders only); Fast Cavalry  		Light Armour; Light Lance		5	4	4	3	3	1	5	1	8	5	7	0	0	2	0	0	0
+dkwarrio	Dread Legionnaires	Warri	Core	Regiment	infantry	10:50	8	0	calc:Num=#;size:1-20-1-mode=zz;ipts:total=25-each=25;type:4ass;attr:Type="In"	slmt:1;race:pk,ek,ha;umax:4u@4000-free=4-msg=crmsg902		Killer Instinct; Lightning Reflexes		Light Armour; Shield		5	4	4	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+dkrxbmn	Repeater Auxiliaries	Warri	Core	Regiment	infantry	10:30	11	0	calc:Num=#;size:1-20-1-mode=zz;type:4ass;attr:Type="In";ipts:total=25-each=25	slmt:1;race:pk,ek,ha;umax:4u@4000-free=4-msg=crmsg902		Killer Instinct; Lightning Reflexes,		Repeater Crossbow; Light Armour		5	4	4	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+dkwitch	Blades of Nabh	Witch	Special	Regiment	infantry	10:40	12	0	ipts:total=25-each=25;calc:Num=#;size:1-20-1-mode=zz;type:khainite;type:dkspec;type:4ass;attr:Type="In"	skip must:option=dkspec@min=1-msg=dkmsg10-istype=Hell_Gen;slmt:1;race:ek,ha;umax:4u@4000-free=4-msg=crmsg902		Killer Instinct; Lightning Reflexes; Devastating Charge; Poisoned Attacks		Coosen of Nabh; Additional Hand Weapon 		5	5	4	3	3	1	5	1	8	7	7	0	0	1	0	0	0
+dkpleasp	Dancers of Yema	Exec	Special	Regiment		10:30	13	0	ipts:total=25-each=25;calc:Num=#;size:1-20-1-mode=zz;type:khainite;type:4ass;attr:Type="In"	race:ek,ha;umax:3u@4000-free=3-msg=crmsg903		Cult of Yema; Killer Instinct; Lightning Reflexes, Ward Save (4+) (close combat only); Armour Piercing (1); Wall of Blades: Enemy units in base contact with a model with this Special Rule do not add their rank bonus to CR		Gladiator Weapons; Light Armour, Shield		5	5	4	3	3	1	5	1	9	7	7	0	0	1	0	0	0
+dkcoldk2	Dread Knights	Cold	Special	Regiment		5:15	26	0	ipts:total=50-each=50;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		Killer Instinct (Knight only); Ligtning Reflexes (Knight only); Stupidity		Lance; Heavy Armor; Shield; Natural Armor		5	5	4	4	3	1	6	1	9	2	7	0	0	2	0	0	0
+dkbolt	Dread Reaper	Bolt	Special	Machine		1:1	60	0	calc:Num=#;attr:Type="WM"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		Killer Instinct (Crew only)Ligtning Reflexes (Crew only);		Light Armor; 	September 1, 2002	0	0	0	0	7	2	0	0	0	7	7	0	0	0	0	1	0
+dkexecut	Executioners	Exec	Special	Regiment		10:30	13	0	ipts:total=50-each=50;calc:Num=#;size:1-20-1-mode=zz;type:khainite;type:4ass;attr:Type="In"	race:ek,ha;umax:3u@4000-free=3-msg=crmsg903		Cult of Nabh; Killer Instinct; Lightning Reflexes,		Executioner's Blade; Heavy Armor		5	5	4	4	3	1	5	1	9	7	7	0	0	1	0	0	0
+dkharpy	Harpies	Harpy	Special	Regiment		5:10	10	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	race:ek,ha;umax:3u@4000-free=3-msg=crmsg903		Skirmishers; Fly (10)				5	3	0	3	3	1	5	2	6	7	7	0	0	1	0	0	0
+dkhch	Hunting Chariot	Chrt	Special	Machine	chariot	1:1	100	0	attr:At="D6+1";attr:Type="Ch";calc:Num=#	umax:3u@4000-free=3-msg=crmsg903		 Killer Instinct (Crew only); Lightning Reflexes (Crew only); Scythes	D6+1 impact hits	Light Lance; Repeater Crossbow; Light Armor, Armor; Natural Armor;	2fr1UntB	0	0	0	5	4	4	0	0	0	5	7	0	0	4	0	0	0
+dkchario	Raptor Chariot		Special	Machine		1:1	100	0	attr:At="D6+1";calc:Num=#;attr:Type="Ch"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		Killer Instinct (Crew only); Lightning Reflexes (Crew only) ; Scythes; Stupidity 		Lance; Repeater Crossbow ; Heavy Armor; Natural Armor 		0	0	0	5	5	4	0	0	0	5	7	0	0	4	0	0	0
+dkshades	Raven Cloaks	Scout	Special	Regiment		5:10	16	0	type:skirmishers;calc:Num=#;size:1-20-1-mode=zz;type:4ass;attr:Type="In"	race:ek,ha;umax:3u@4000-free=3-msg=crmsg903		Killer Instinct; Ligtning Reflexes; Skirmishers; Scout		Repeater Crossbow		5	5	5	3	3	1	5	1	8	7	7	0	0	1	0	0	0
+dkblack	Tower Guard	Black	Special	Regiment	infantry	10:30	13	0	ipts:total=50-each=50;calc:Num=#;type:bgrare;size:1-20-1-mode=zz;type:4ass;attr:Type="In"	race:pk,ek;umax:3u@4000-free=3-msg=crmsg903		Killer Instinct;  Lightning  Reflexes; Immune to Psychology; Bodyguard; Armour Piercing (1),Halberd, 		Halberd ; Heavy Armor 		5	5	4	3	3	1	6	2	9	7	7	0	0	1	0	0	0
+dkwarloc	Dark Acolytes	Warlo	Rare	Wizard		5:10	24	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca";type:dkdark;type:mgdeath;spec:+spel	race:ek,ha;umax:2u@4000-free=2-msg=crmsg904		 Killer Habits (Apprentice only); Lightning Reflexes (Apprentice only); Poisoned Attacks (Apprentice only); Free Reform; Wizard Conclave (Level 2: Curse of Mortality, Bolt of Darkness); If the unit is upgraded to Cult of Lust, Wizard Conclave is instead (Level 2: Crippling Agony, Wicked Lash) 		Ward Save (4+)		5	4	4	4	3	1	5	2	8	6	4	4	0	2	0	0	0
+dkaltarb	Divine Altar of Nabh	Cauld	Rare	Mount		1:1	200	0	attr:At="D6+1";attr:Type="Ch"			Cult of Nabh; Scythes; Light Armor; Mounts Protection (6+); Killer Instinct; Lightning Reflexes (Crew only); War Platform; Large Target; Fear; Ward Save (4+); Divine Blessing; AHW (Crew only); Devastating Charge (crew only); Poisoned Attacks (Crew only); Magic Resistance (2); Divine Blessing; Chosen of Nabh				0	0	0	5	5	5	0	0	0	6	4	0	0	0	0	0	0
+dkaltarl	Divine Altar of Yema	Cauld	Rare	Mount		1:1	200	0	attr:At="D6+1";attr:Type="Ch"			Chosen of Yema; Scythes; Light Armor; Mounts Protection (6+); Killer Instinct; Lightning Reflexes (Crew only); War Platform; Large Target; Fear; Ward Save (4+); Divine Blessing; ; Aura of Despair; Fear; Petryfying Stare (Medusa only); Divine Blessing; Aura of Despair				0	0	0	5	5	5	0	0	0	6	4	0	0	0	0	0	0
+dkhydra	Hydra		Rare	Monster		1:1	175	0	attr:Type="Mo"	race:ek,ha;umax:2u@4000-free=2-msg=crmsg904		Regeneration (4+); Breath Weapon (strength 4 Flaming Attacks)		Innate Defence (4+)		6	4	1	5	5	5	2	7	6	4	7	0	0	5	0	0	0
+dkkharib	Kraken		Rare	Monster		1:1	175	0	attr:Type="Mo"	race:ek,ha;umax:2u@4000-free=2-msg=crmsg904		Poisoned Attacks; Multiple Wounds (D3); Strider (Water) 		Innate Defence (4+) 		6	4	1	7	5	5	3	4	6	4	7	0	0	5	0	0	0
+dkmedusa	Medusae		Rare	Monster		2:5	60	0	attr:Type="MI"	race:ek,ha;umax:2u@4000-free=2-msg=crmsg904		Cult of Yema ; Killer Habits; Distracting; Swiftstrider; Skirmishers; Aura of Despair; Fear 				6	5	5	5	4	3	5	4	8	7	7	0	0	5	0	0	0
+dkshrine	Shrine of Medusa		Rare	Machine		1:1	175	0	attr:At="D6+1";calc:Num=#;attr:Type="Ch"	race:ek,ha;umax:2u@4000-free=2-msg=crmsg904;hide		War Platform, Fear, Large Target, Magic Resistance (1), Death Bringer (Enemy units within 6” has -1 Ld.), Frenzy, Supernatural Reflexes, Killer Habits, Armour Piercing (1) (Medusa only)Glaring Stare (Medusa only),: Range 12”, Strength 4, Multiple Shots (4), Armour Piercing (6), Lance (Crew only), Light Armour, Scythes				0	0	0	5	6	5	0	0	0	6	7	0	0	4	0	0	0
+dksistas	Sisters of Slaughter	Sista	Rare	Regiment	infantry	10	15	0	ipts:total=50-each=50;calc:Num=#;size:1-20-1-mode=zz;type:khainite;type:dkspec;type:4ass;attr:Type="In";attr:WSv="4+*"	skip must:option=dkspec@min=1-msg=dkmsg10-istype=Hell_Gen;race:ek,ha;hide;umax:2u@4000-free=2-msg=crmsg904		Infantry; Always Strikes First; Hatred (High Elves); Murderous Prowess; #Dance of Death: Ward Save 4+ in close combat. One enemy unit in base contact receives no CR from rank bonus this turn, and cannot make Parry saves this turn; #The Trial of Blades: +1 To Hit and To Wound against models that have higher WS or St.		Unit Size: 10+		5	6	4	3	3	1	6	2	9	7	7	0	0	1	0	0	0
+xdkappr	Beastmaster		N/A	Regiment		1:2	0	0	calc:Num=#			Eternal Hatred				6	4	4	3	3	1	5	2	8	7	7	0	0	1	0	0	0
+xdkblt	Crew	Crew	N/A	Regiment		1	0	0	calc:Num=#						September 1, 2002	5	4	4	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+xdkchach	Crew		N/A	Regiment		1	0	0				Killer Habits (Crew only), Supernatural Reflexes (Crew only),				0	4	5	3	0	0	5	1	8	7	7	0	0	0	0	0	0
+xdkchacr	Crew		N/A	Regiment		1	0	0				Killer Habits (Crew only), Supernatural Reflexes (Crew only),				0	5	4	4	0	0	6	1	9	7	7	0	0	0	0	0	0
+xdkscocr	Crew		N/A	Regiment		1	0	0				Eternal Hatred				0	4	4	3	0	0	5	2	8	7	7	0	0	0	0	0	0
+xdkshric	Crew		N/A	Regiment		1	0	0								0	4	4	3	0	0	5	1	8	7	7	0	0	0	0	0	0
+xdkchah	Elven Horse		N/A	Regiment		1	0	0								9	3	0	3	0	0	4	1	3	7	7	0	0	0	0	0	0
+xdkmedcr	Medusa		N/A	Monster		1:1	0	0				Glaring Stare, Armour Piercing (1)				0	5	5	5	0	0	5	3	0	7	7	0	0	5	0	0	0
+xdkchaco	Mount		N/A	Regiment		1	0	0								7	3	0	4	0	0	2	2	5	7	7	0	0	0	0	0	0
+^
+dkignor2	Add Comp Slots		Priority	N/A	0	hide;acmp:Hero+2u				
+dkignorb	Add Comp Slots		Priority	N/A	0	hide;acmp:Hero+1u				
+dkignore	Add Comp Slots		Priority	N/A	0	hide;acmp:Hero+1u				
+dkallow6	Allow Magic Lance		Priority	N/A	0	hide;type:mounted				
+dkallow3	Allow Magic Shield		Priority	N/A	0	over:shhro=delete				
+dkallow4	Allow Magic Weapon		Priority	N/A	0	over:halhro=delete				
+dkalpha	Alpha Predator	ap	Priority	N/A	35	base:Ws+1;base:In+1;base:Ld+1;utyp:beastcommand				
+dkblstbl	Blessings of Khaine		Priority	N/A	0	take:dkbls1;take:dkbls2;take:dkbls3;take:dkbls4				
+dkchoose	ChooseLore		Priority	N/A	0					
+dkdread	Dread Guardians	dg	Priority	N/A	2		If this unit is joined by a Dread Prince or Dark Master which has not purchased the Fleet or Beast Master upgrade it gains the Hatred special rule.			
+dkexecw	Executioner's Blade	ew	Priority	Wep	25	stat:St+2;xcst:15-unit=dkcbprie;over:2ndhwtr8=delete	Great Weapon. Lethal Strike and Multiple Wounds (2, Infantry, Monstrous Beast, Cavalry). 			
+dkextra	Extra Base Cost		Priority	N/A	0	cost:single;xcst:20-unit=dkharpy;xcst:4-unit=dkwarloc				
+dkfrenzy	Frenzy Banner		Priority	N/A	0	more:frenzy=incl;utyp:serpentStandard;hide				
+dkgen	General		Priority	N/A	0	type:general;lglx:mode=e;more:Gen9=incl;more:Gen8=incl	Units within 12" may use General's Leadership		Select Character to be General (highest Ld or your choice if tie).	
+dkhelgen	General		Priority	N/A	0	type:general;more:Gen9=incl;more:Gen8=incl;more:Gen10=incl;type:Hell_Gen	Units within 12" may use General's Leadership		Select Character to be General (highest Ld or your choice if tie).	
+dkspec	Hellebron is General		Priority	N/A	0	xcmp:core;dtyp:dkspec;type:dkcore				
+dkid5	Innate Defence (5+)	sc	Priority	N/A	20	base:sv-2	Scaly Skin (6+)			
+dkkourn	Kouran		Priority	N/A	0	over:dkassn=delete				
+dkmp5	Mounts Protection (5+)		Priority	N/A	0	more:save2=incl				
+dknabh	Nabh General-gain Nabh Chosen	nab	Priority	Mrk	1		Only when general has Nabh Aliance. Unit gain Upgrae to Chosen of Nabh			
+dkignor1	No Core Choice		Priority	N/A	0	acmp:Core-1u;hide				
+dkchoice	Opponent's Approval		Priority	N/A	0					
+dkpoisn2	Poison Attacks	Poisn	Priority	N/A	0	utyp:!toxin;onam:="mundane hand weapons and handbow have Poison Attacks";hide				
+dkpoison	Poison Attacks	Poisn	Priority	N/A	0	utyp:!toxin;hide				
+skpsncc	Poison Attacks in CC	Poisn	Priority	N/A	1		 Poisoned Attacks (close combat only)			
+dkscaly6	Scaly Skin (6+)	sc	Priority	N/A	20	base:sv-1	Scaly Skin (6+)			
+dkstmg10	Standard		Priority	N/A	10	type:specstd;spec:+stnd;cost:single;item:1	Adds +1 to combat result			
+dkthunde	Thunderous Charge	th	Priority	N/A	10		Thunderous Charge			
+dkwsv5	Ward Save (5+) 		Priority	N/A	0	stat:Wsv=5				
+dkyema	Yema General-gain Yema Chosen	yem	Priority	Mrk	1		Only when general has Yema Aliance. Unit gain Upgrade to Chosen of Yema			
+dkcldrn	Cauldron of Blood	Cldrn	First	N/A	0	unit:dkcauld@per=1;base:Wsv=5;base:Sv-1				
+dkvang	Corsairs Vanguard	vg	First	N/A	1	type:corsvan	Vanguard (on one unit of Corsairs when Your's general is Fleetmaster).			
+dkcultb	Cult of Nabh	cl	First	N/A	20	over:dkalore=delete;show:dkllore;xcst:2-unit=dkwarloc;over:dkwarcha=delete;show:dkwarchl	Cult of Lust Special Rule			
+dkcultl	Cult of Yema	cl	First	N/A	25	over:dkalore=delete;show:dkllore;xcst:2-unit=dkwarloc;over:dkwarcha=delete;show:dkwarchl	Cult of Lust Special Rule			
+dkcldrn2	Divine Altar of Nabh	Cldrn	First	Mon	150	unit:dkcauld@per=1;more:save2=incl;xcst:200-unit=dkcbprie;slct:heromnt=incl				
+dklust	Divine Altar of Yema	Cldrn	First	Mon	150	unit:dklust@per=1;more:save2=incl;xcst:200-unit=dkclprie;slct:heromnt=incl				
+dkelbt	Elven Bolt Thrower	bt	First	N/A	0		Bolt Thrower Artillery Weapon: Range 48", Strength 6, Multiple Wounds (D3), Armour Piercing (6).  			
+dkrepet	Repeating Shot 	rs	First	N/A	15		Volley Gun Artillery Weapon: Range 48", Strength 4, Armour Piercing (1), Multiple Shots (6).			
+dkven3	Bloodroot	v3	SpellType	N/A	20		Attacks made with this venom gain +1 to Wound and Multiple Wounds (2, monstrous beasts, monstrous cavalry, chariots, monster)			
+dkdark	Lore of Dark Magic	Dth	SpellType	Mgc	0	type:dkdark;show:dkshow;show:dkfull				
+dkalore	Lore Table		SpellType	N/A	0	tabl:Black=mgdark,Beast=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Alchemy=mgmetal,Shadow=mgshadow,Light=mglight,Life=mglife-noname-nobrackets				
+dkalore2	Lore Table		SpellType	N/A	0	tabl:Dark=dkdark,Undeath=unundeat-noname-nobrackets				
+dkalore3	Lore Table		SpellType	N/A	0	tabl:Dark=dkdark,Death=mgdeath,Shadow=mgshadow,Undeath=unundeat-noname-nobrackets				
+dkllore	Lore Table		SpellType	N/A	0	tabl:ChooseLore=dkchoose,Black=mgdark,Lust=mgchange-noname-nobrackets				
+dkven1	Nightshade	v1	SpellType	N/A	20		Attacks made with this venom are resolved at target's Toughness +1 Strength, up to a maximum of Strength 6			
+dkven2	Wolfsbane	v2	SpellType	N/A	20		Attack made with this venom gain Lethal Strike and may re-roll failed to wound rolls			
+dkahw2	Additional Hand Weapon	AHW	Weapon	2Hd,Rng	2	stat:At+1			Gives +1A when on foot.	Assassin's AHW
+dkahw5	Additional Hand Weapon	AHW	Weapon	2Hd,Rng	5	stat:At+1			Gives +1A when on foot.	Assassin's AHW
+dkscourg	Beastmaster's Scourge	Scrg	Weapon	Wep	6	stat:At+1	Hand Weapon, All CC attacks are Armour Piercing			
+dkbelove	Beloved of Khaine		Weapon	N/A	0	lglx:!mode=e	Beloved of Khaine: WE may not use General Leadership but use Morathi's if w/in 12"			
+dkdrksw	Dark Sword	dkswo	Weapon	Wep	25	apnd	Hand Weapon, Each unsaved wound to a Character or Champ also reduces Str, T, and A by 1. If any stat reaches 0, the enemy is removed as a casualty			
+dkgladia	Gladiator  Weapons	dkgw	Weapon	N/A	25	xcst:15-unit=dkclprie;over:2ndhwtr8=delete;over:2ndhwtr5=delete	The wearer has the Weapon Master special rule. May either be used as Flail, Additional Hand Weapon, Spear,  Hand Weapon+Shield, Great Weapon or Halberd.			
+dkgwfth	Great Weapon	GW	Weapon	2Hd	4	stat:St+2;type:GreatWeapon;xcst:8-unit=dkhero;xcst:1-unit=dkshades	+2S, Always strikes last, Two-handed			
+dkgwftl	Great Weapon	GW	Weapon	2Hd	10	stat:St+2;type:GreatWeapon	+2S, Always strikes last, Two-handed			
+dkharpoo	Harpoon Thrower 	ht	Weapon	N/A	0		Range(24"), Strength(7), Slow to Fire, Multiple Wounds (D3) 			dkgbow dkharpoo
+dkhuntwe	Hunting Weapon		Weapon	N/A	0	tabl:GiantBow=dkgbow,HarpoonThrower=dkharpoo-noname-nobrackets				
+dklance	Lance	la	Weapon	N/A	15	utyp:mounted;xcst:10-unit=dkhero;more:heromnt=incl	+2S on charge			
+dkpstare	Petrifying Stare	ps	Weapon	N/A	0		Range (12”), Strength(4), Multiple Shots (2), Armour Piercing (6) - to wound rolls of attacks made with this weapon are made against the target’s Initiative instead of Toughness. 			
+dkpsndar	Poison Dart	pd	Weapon	N/A	1		Range 12”, Strength 3, Poisoned Attacks, Quick to Fire			
+dkxrhb4	Brace of Rptr Handbows	2RHBw	Missile	Rng	4			Range 12", St 3, Multiple Shots (4), Quick to Fire; Requires Two Hands	Range 12", St 3, Multiple Shots (4), Quick to Fire; Requires Two Hands	
+dkgbow	Giant Bow	gbow	Missile	Rng	0		 Bolt Thrower Artillery Weapon: Range 24", S 5, Multiple Wounds (D3), Armour Piercing (6)			
+dkrxb10	Repeater Crossbow	RXBw	Missile	Rng	10		Range 24", St3, Armour Piercing, Multiple Shots (2)			
+dkrxb5	Repeater Crossbow	RBw	Missile	Rng	5	xcst:3-unit=dkrider;xcst:4-unit=dklord;xcst:4-unit=dkhero	Range 24", St3, Armour Piercing, Multiple Shots (2)			
+dkrhb	Repeater Handbow	RBw	Missile	N/A	2	type:missiles;over:2ndhwtrp=delete	Range 12", St 3, Multiple Shots (2), Quick to Fire		Swap Additional Hand Weapon with Repeater Handbows	
+dkrhb10	Rptr Handbow	RHBw	Missile	Rng	10			Range 12", St 3, Multiple Shots (2), Quick to Fire	Range 12", St 3, Multiple Shots (2), Quick to Fire	
+dkrhb5	Rptr Handbow	RHBw	Missile	Rng	5			Range 12", St 3, Multiple Shots (2), Quick to Fire	Range 12", St 3, Multiple Shots (2), Quick to Fire	
+dkxrhb10	Rptr Handbow Pair	2RHBw	Missile	Rng	10			Range 12", St 3, Multiple Shots (4), Quick to Fire; Requires Two Hands	Range 12", St 3, Multiple Shots (4), Quick to Fire; Requires Two Hands	
+dkxrhb3b	Rptr Handbow Pair	2RHBw	Missile	Rng	3			Range 12", St 3, Multiple Shots (4), Quick to Fire; Requires Two Hands	Range 12", St 3, Multiple Shots (4), Quick to Fire; Requires Two Hands	
+dkthrow	Throwing Weapon	thr	Missile	Rng	4	xcst:2-unit=dkcors	 Range 12”. Strength as user. Quick to Fire. Multiple Shots (2)			
+dkfakeha	Heavy Armour		Armour	N/A	8	more:save2=incl;utyp:!MagicArmour;xcst:5-unit=dkhero;over:lahro=delete				
+dkla8	Light Armour	la	Armour	Mus	8	more:save1=incl;type:armour;utyp:!MagicArmour;xcst:4-unit=dkcbprie;xcst:4-unit=dkclprie				
+dkcloak	Sea Dragon Cloak	Clk	Armour	N/A	6	base:Sv-2;utyp:!cloaked		Scaly Skin (5+)	Scaly Skin (5+)	Hero Cloak
+dklcloak	Sea Dragon Cloak	Sdc	Armour	N/A	8	base:Sv-2;utyp:!cloaked		Scaly Skin (5+)	Scaly Skin (5+)	Lord Cloak
+dkbeast	Beast Master	bc	Champion	Mrk	25	xcst:15-unit=dkhero;type:beastcommand-child;type:beastcommand	Friendly units of Cavalry, Monstrous Cavalry, Monsters, and War Beasts within 12” of a model may roll 3D6 for Leadership tests and discard the highest die. Mounted models with this Special Rule roll 3D6 for Leadership tests and discard the highest dice for Frenzy and Stupidity tests. At the beginning of every Close Combat round, one  Mo, MC or Ca unit within 6" may gain the Hatred Special Rule for the remainder of the round. If a Cavalry or Monstrous Cavalry unit is chosen, only the mounts are affected. 			
+dkcacold	Champion		Champion	N/A	0	unit:dkchcold@abs=1;csiz:dkcold+1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkchblak	Champion		Champion	N/A	0	unit:dkchblak@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkchcors	Champion		Champion	N/A	0	unit:dkchcors@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	Not Swapped version type:removeDKextra
+dkchdark	Champion		Champion	N/A	0	unit:dkchdark@abs=1;csiz:dksteed+1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkchexec	Champion		Champion	N/A	0	unit:dkchexec@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkchme	Champion		Champion	N/A	0	unit:dkchme@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkchshad	Champion		Champion	N/A	0	unit:dkchshad@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkchsist	Champion		Champion	N/A	0	unit:dkchsist@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkchwarr	Champion		Champion	N/A	0	unit:dkchwarr@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkchwich	Champion		Champion	N/A	0	unit:dkchwich@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkcrxbmn	Champion		Champion	N/A	0	unit:dkcrxbmn@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkpleas	Champion		Champion	N/A	0	unit:dkpleas@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dkwarcha	Champion		Champion	N/A	0	unit:dkwarcha@abs=1;csiz:dksteed+1;modl:-1;cost:model;show:mgdeath1;show:mgdark5;slct:mgdeath1=incl;slct:mgdark5=incl			Upgrades a model to a Champion	
+dkwarchl	Champion		Champion	N/A	0	unit:dkwarcha@abs=1;csiz:dksteed+1;modl:-1;cost:model;show:mgdark3;show:mglust0;slct:mgdark3=incl;slct:mglust0=incl			Upgrades a model to a Champion	
+dkfleet	Fleet Commander	fl	Champion	Mrk	25	utyp:!mounted;more:save2=incl;type:fleet;xcst:15-unit=dkhero;olgl:!type=mounted;show:dkfleetv	Models with this Special Rule have a Innate Defence (5+) and may not take any mount. When a model with this Rule joins a unit of Corsairs, Dread Legionaires or Repeater Auiliares, the model and all rank and file models in the unit gain Swiftstride, and enemy units that break from a combat with this combined unit roll an additional D6 for the fleeing distance roll and discard the highest dice. For each character with this rule, one unit of Corsairs may have the Vanguard Special. Fleet commander joined that unit also has that rule			
+dkbrac	Bracchus		Mount	N/A	0	unit:dkbrac@abs=1;more:save1=incl				
+dkbldcrw	Crew		Mount	Mnt,Chr	0	hide;unit:xdkshric@per=2;unit:xdkmedcr@per=1;unit:dkpull@per=1				Bloodwrack Shrine crew
+dknsteed	Dark Steed		Mount	Mnt	10	unit:dkhsteed@abs=1;show:bardhro;slct:heromnt=incl;type:mounted;more:save1=incl;stxt:Type="Ca"				
+dkdramnt	Dragon		Mount	Mon	280	unit:dkdrag@abs=1;slct:heromnt=incl;type:mounted;lglx:!mode=d;more:save1=incl;xcst:250-unit=dklord;xcst:300-unit=dksorcld				
+dklsteed	Elven Horse		Mount	Mnt	20	unit:dkhsteed@abs=1;show:bardlrd;slct:heromnt=incl;type:mounted;more:save1=incl;stxt:Type="Ca";xcst:15-unit=dkhero;xcst:15-unit=dkclprie;xcst:15-unit=dksorc				
+dksteed	Elven Horse		Mount	Mnt	0	unit:dksteed@per=1;type:mounted;slct:heromnt=incl			Mounted movement; +1Sv for rider	
+dkhuntch	Hunting Chariot		Mount	Mnt,Chr	120	stat:Sv-2;slct:heromnt=incl;unit:dkhuntch@per=1;type:mounted;xcst:150-unit=dkhero			Purchase a Dark Elf Chariot	
+dkmani10	Manticore		Mount	Mon	0	unit:dkmani10@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl				
+dkmani20	Manticore		Mount	Mon	0	unit:dkmani20@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl				
+dkmanti	Manticore		Mount	Mon	0	unit:dkmanti@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl				
+dkmanti2	Manticore		Mount	Mon	0	unit:dkmanti@abs=1;slct:heromnt=incl;type:mounted;stat:At-1;more:save1=incl				
+dkmantim	Manticore		Mount	Mon	0	unit:dkmantim@abs=1;slct:heromnt=incl;type:mounted;more:dkignorb=incl;more:save1=incl				
+dkpega40	Pegasus		Mount	Mnt,Mon	0	unit:dkpega40@abs=1;slct:heromnt=incl;type:mounted;lglx:!mode=d;more:save1=incl;stxt:Type="MC"				
+dkpegmnt	Pegasus		Mount	Mnt,Mon	0	unit:dkpegas@abs=1;slct:heromnt=incl;type:mounted;lglx:!mode=d;more:save1=incl;stxt:Type="MC"				
+dkcold	Raptor		Mount	Mnt	0	unit:dkcold@per=1;type:mounted;slct:heromnt=incl			Mounted movement; +2Sv for rider; Cause fear	
+dkcold20	Raptor		Mount	Mnt	20	unit:dkhcold@abs=1;slct:heromnt=incl;type:mounted;more:save2=incl;stxt:Type="Ca";xcst:12-unit=dksorc;xcst:12-unit=dkhero				
+dkcold25	Raptor		Mount	Mnt	35	unit:dkhcold@abs=1;slct:heromnt=incl;type:mounted;more:save2=incl;stxt:Type="Ca";xcst:30-unit=dkclhp;xcst:25-unit=dksorcld;xcst:20-unit=dkclprie;xcst:20-unit=dksorc;xcst:25-unit=dkhero				
+dkbcha18	Raptor Chariot		Mount	Mnt,Chr	0	stat:Sv-2;slct:heromnt=incl;unit:dkbcha18@per=1;type:mounted			Purchase a Dark Elf Chariot	
+dkbchar	Raptor Chariot		Mount	Mnt,Chr	0	slct:heromnt=incl;unit:dkbchar2@per=1;type:mounted;stat:Sv-2			Purchase a Dark Elf Chariot	
+dkchar	Raptor Chariot		Mount	Mnt,Chr	0	stat:Sv-2;slct:heromnt=incl;unit:dkchar2@per=1;type:mounted			Purchase a Dark Elf Chariot	
+dkscchar	Scourgerunner Chariot		Mount	N/A	0	stat:Sv-1;slct:heromnt=incl;over:dkmantim=delete;unit:dkscourm@per=1;type:mounted			Replace Manticore with Scourgerunner Chariot	
+dkserap	Seraphon		Mount	Mon	0	unit:dkdragse@abs=1;type:mounted;more:save1=incl				
+dkspite	Spite		Mount	Mnt	0	unit:dkspite@per=1;type:mounted			Mounted movement; +2Sv for rider; Cause fear	
+dksulpht	Sulephet		Mount	Mnt,Mon	0	unit:dksulpht@abs=1;slct:heromnt=incl;type:mounted;lglx:!mode=d;more:save1=incl;stxt:Type="MC"				
+dkdrag33	xDragon		Mount	Mon	0	unit:dkdrag33@abs=1;slct:heromnt=incl;type:mounted;lglx:!mode=d;more:save1=incl				
+dkappren	Beastmaster		Crew	N/A	0	unit:xdkappr@per=2;hide				
+dkcauld	Cauldron Crew		Crew	N/A	0	unit:dkcacha@abs=3;unit:dkpull@abs=1			   	
+dklustc	Cauldron Crew		Crew	N/A	0	unit:dklustc@abs=2;unit:dkpull2@abs=1;unit:dkmedusc@abs=1			   	
+dkbltcrw	Crew		Crew	N/A	0	hide;unit:xdkblt@per=2			   	
+dkchari2	Crew		Crew	Chr	0	unit:xdkchacr@per=2;unit:xdkchaco@per=2;hide				
+dkchario	Crew		Crew	Chr	0	unit:xdkchacr@per=2;unit:xdkchaco@per=2;hide				
+dkhunch	Crew		Crew	Chr	0	unit:xdkchach@per=2;unit:xdkchah@per=2;hide				
+dkscourc	Crew		Crew	Chr	0	unit:xdkscocr@per=2;unit:dksteed@per=2;hide				
+dkscourm	Crew		Crew	Chr	0	unit:xdkscocr@per=1;unit:dksteed@per=2;hide				
+dkassn	Assassin		Priority1	N/A	0	unit:dkassn@abs=1			Adds an Assassin to the unit	
+dkkill	Killing Blow	kill	Priority1	N/A	10		Killing Blow 			
+dkmw2	Multiple Wounds (2)	mw2	Priority1	N/A	10		Multiple Wounds (2)			
+dkshow	All Lore Spells		Priority2	N/A	0	take:darka;take:dark0;take:dark1;take:dark2;take:dark3;take:dark4;take:dark5;take:dark6;base:Wz=9;item:+9			Shows all spells for this lore, and lists short descriptions on the roster.	more:mgshow=incl
+dkalpha2	Alpha Predator	ap	Priority2	N/A	20	base:Ws+1;base:In+1;base:Ld+1;utyp:beastcommand				
+dkalpha3	Alpha Predator	ap	Priority2	N/A	30	base:Ws+1;base:In+1;base:Ld+1				
+dkalpha4	Alpha Predator	ap	Priority2	N/A	25	base:Ws+1;base:In+1;base:Ld+1				
+dkfull	Full Spell Lists		Priority2	N/A	0	more:mgdarka=incl;more:mgdark0=incl;more:mgdark1=incl;more:mgdark2=incl;more:mgdark3=incl;more:mgdark4=incl;more:mgdark5=incl;more:mgdark6=incl			Appends full descriptions of all spells for this Lore to the roster.	more:mgfull=incl
+dkwarspe	Warlock spells	das	Priority2	N/A	0	more:mgdarka=incl;base:Wz=3;item:+3;more:mgdark0=incl;more:mgdeatha=incl;more:mgdeath1=incl			Show spells	more:mgshow=incl
+dkspella	Attr - Spiteful Conjuration		Priority3	N/A	0	apnd:foot;hide;utyp:dkdark		Lore Attribute. If hex, direct damage or magic missile casting roll includes any doubles, target suffers additional 2D6 S1 armour piercing hits. If roll includes any treble, target suffers 3D6 S1 armour piercing hits.	Lore Attribute. If hex, direct damage or magic missile casting roll includes any doubles, target suffers additional 2D6 S1 armour piercing hits. If roll includes any treble, target suffers 3D6 S1 armour piercing hits.	
+dkspel00	Dk0 - Power of Darkness		Priority3	N/A	0	apnd:foot;hide;utyp:dkdark		Signature spell. Augment. 8+ to Cast. All models in caster's unit gain +1 Strength until start of caster's next Magic phase. The add D3 Power dice to power pool. If 3 dice are generated caster suffer 1 Wound with no armour saves.	Signature spell. Augment. 8+ to Cast. All models in caster's unit gain +1 Strength until start of caster's next Magic phase. The add D3 Power dice to power pool. If 3 dice are generated caster suffer 1 Wound with no armour saves.	
+dkspell0	Dk00 - Doombolt		Priority3	N/A	0	apnd:foot;hide;utyp:dkdark		Signature spell. Magic missile. 12+ to Cast. Range 18". 2D6 S5 hits. OR Cast on 24+, 4D6 S5 hits.	Signature spell. Magic missile. 12+ to Cast. Range 18". 2D6 S5 hits. OR Cast on 24+, 4D6 S5 hits.	
+dkspell1	Dk1 - Chillwind		Priority3	N/A	0	apnd:foot;hide;utyp:dkdark		Magic missile. 5+ to Cast. Range 24". Causes 2D6 St2 hits. If target suffers any Wounds, all models suffer -1 to BS until start of caster's next Magic phase.	Magic missile. 5+ to Cast. Range 24". Causes 2D6 St2 hits. If target suffers any Wounds, all models suffer -1 to BS until start of caster's next Magic phase.	
+dkspell2	Dk2 - Word of Pain		Priority3	N/A	0	apnd:foot;hide;utyp:dkdark		Hex. 9+ to Cast. Range 24". All models in target unit suffer -D3 to WS and BS until start of caster's next Magic phase. OR 12+ to Cast to also lower St and In by D3.	Hex. 9+ to Cast. Range 24". All models in target unit suffer -D3 to WS and BS until start of caster's next Magic phase. OR 12+ to Cast to also lower St and In by D3.	
+dkspell3	Dk3 - Bladewind		Priority3	N/A	0	apnd:foot;hide;utyp:dkdark		Direct damage. 9+ to Cast. Range 24". All models in unit must test WS or suffer St4 hit with armour piercing special rule.	Direct damage. 9+ to Cast. Range 24". All models in unit must test WS or suffer St4 hit with armour piercing special rule.	
+dkspell4	Dk4 - Shroud of Despair		Priority3	N/A	0	apnd:foot;hide;utyp:dkdark		Hex. 10+ to Cast. All enemy units within 12" cannot benefit from Inspiring Presence and Hold Your Ground! special rules. Whenever target unit fails Ld test, all target unit suffer -1 to Ld. Effects last until start of caster's next Magic phase.	Hex. 10+ to Cast. All enemy units within 12" cannot benefit from Inspiring Presence and Hold Your Ground! special rules. Whenever target unit fails Ld test, all target unit suffer -1 to Ld. Effects last until start of caster's next Magic phase.	
+dkspell5	Dk5 - Soul Stealer		Priority3	N/A	0	apnd:foot;hide;utyp:dkdark		Direct damage. 11+ to cast. Range 18" OR 14+ to Cast. Range 36". Place small round template and scatter it D6". All models hit suffer St2 hit with no armour saver allowed. For each Wound inflicted roll D6: caster gains single Wound on each roll of 4+ (up to max of 10).	Direct damage. 11+ to cast. Range 18" OR 14+ to Cast. Range 36". Place small round template and scatter it D6". All models hit suffer St2 hit with no armour saver allowed. For each Wound inflicted roll D6: caster gains single Wound on each roll of 4+ (up to max of 10).	
+dkspell6	Dk6 - Arnizipal's Black Horror		Priority3	N/A	0	apnd:foot;hide;utyp:dkdark		Magical vortex. 15+ to cast, small round template. OR 25+ to cast, large round template. Template moves Artillery dice roll multiplied by caster's Wizard level. All models touched or moved over must test Strength or die, though Ward saves are allowed.	Magical vortex. 15+ to cast, small round template. OR 25+ to cast, large round template. Template moves Artillery dice roll multiplied by caster's Wizard level. All models touched or moved over must test Strength or die, though Ward saves are allowed.	
+dknostnd	Non-Battle Standard		Priority3	N/A	0	ichg:100;hide				
+dkass1	Black Lotus	BlLot	Priority4	Oth	15		For each unsaved Wounds a character suffers from this poison, that character suffers -1 to Ld for the rest of the game.			
+dkmanti3	Blind Rage	BliRa	Priority4	N/A	25	stxt:At+"+D3"	Extra D3 Attacks. Enemies attacking the Manticore gain +1 To Hit.			
+dkhag1	Cry of War	CryW	Priority4	Bs1	15		Cause Fear. All Fear test taken by enemy in BtB are made at -3 Ld.			
+dkass2	Dark Venom	DkVen	Priority4	Oth	20		Killing Blow special rule.			
+dkhydr1	Fiery Breath	FieBr	Priority4	Bs1	20		St4 Breath Weapon, Flaming Attacks.			
+dkmanti1	Iron Hard Skin	IrHSk	Priority4	N/A	20	base:Sv=4	Scaly Skin (4+)			
+dkass3	Manbane 	ManBa	Priority4	Oth	20		+1 to all To Wound rolls.			
+dkhag3	Rune of Khaine	RuKha	Priority4	Bs1	40	stxt:At+"+D3"	Model gains +D3 Attacks.			
+dkhydr2	Spit Fire	SpitF	Priority4	Bs1	20		Shooting attack. Range 8", St *, Flaming Attacks, Multiple Shots (*). *=remaining number of Wounds.			
+dkhag2	Witchbrew	WitBr	Priority4	Bs1	30	more:defrenzy=incl;over:frenzy=delete	This model and all in his unit have Frenzy. If already frenzied, Frenzy grants +2 Attacks instead of 1, but unit testing to restrain charge suffer -3 to Ld.			
+dkfleetv	Vanguard	van	Special	N/A	1	type:fleetvan;xcst:20-unit=dklord;xcst:20-unit=dkhero	Vanguard			
+^
+dkexecax	Headsman's Axe	weap	MWp	40	1	itst:race=dk&!type=mounted;stat:St+3		Type: Great Weapon. S+3. Multiple Wounds (D2)	^	^	2013
+dkagony	Lash of Yema	weap	MWp	40	1	itst:race=dk&!reg=dkmorath;stat:St=5;stat:At+1;type:removeDKextra		Type:  Hand Weapon. The wearer gains +1 Attack. CC attacks are always S5 (ignore any modifiers). If a model suffers an unsaved wound from this weapon it loses all of it's attacks for the remainder of this combat round.  	^	^	
+dkdarkne	Crimson Mail	armr	Arm,MAr	10	1	itst:race=dk&!type=mounted;type:MagicArmour;stat:Sv-2		Type: Heavy Armour. For each unsaved wound inflicted by the wearer during this round of combat, the wearer gains +1 Armour Save (up to a maximum of 1+) for the rest of the game. 	^	^	September 1, 2002
+dkspit	Amulet of Spite	ward	Tal	35	1	itst:race=dk		Gains MR(2). If an enemy wizard within 12” successfully casts and resolves a spell and two (or more) Power Dice rolled an unmodified  '1', the caster suffers a Miscast with PDU = 2. A single casting roll cannot result in more than 1 miscast. 	^	^	2013
+dkclotwi	Midnight Cloak	ward	Tal	50	1	itst:race=dk;stxt:WSv+"/3+*";xcst:60-unit=dksorcld;xcst:60-unit=dklord;xcst:60-unit=dkcultfp;xcst:60-unit=dkclhp		Ward Save 3+ against ranged attack. Leathal Strike and Multiple Wounds (D3) rules when charging	^	^	2013
+dkeye	Dragon's Blood Potion	ench	Enc	50	1	itst:race=dk		One use only. Active at the start of any phase. For the duration of the player turn, the wearer has S6, T6 and Breath Weapon (S4, Flamming Attack)	^	^	
+dkring	Ring of Shadows	ench	Enc	35	1	itst:race=dk		The wearer's unit caount as being in soft cover.  If it is in soft cover, gains hard cover instead. Close Combat attacks made against the wearer's unit are at -1 WS. 	^	^	
+dksacdgr	Dagger of Moraec	wzrd	Arc	25	1	itst:race=dk;xcst:50-unit=dksorcld;xcst:50-unit=dklord;xcst:50-unit=dkclhp;xcst:50-unit=dkcultfp		At the start of the magic phase, the wearer may inflict D3wound with no saves allowed at its own unit. If it does this, the wearer has +2 casting modifier ( it receives from its Wizard Level, up to a maximum of +5) for duration of the Magic Phase	^	^	2013
+dkfocfam	Wandering Familiar 	wzrd	Arc	25	1	itst:race=dk		At the start of every friendly magic phase, place a 20x20mm base within 6" of the bearer (and more than 1” away from other models and impassable terrain). When casting spells, the wearer may choose the use the position of this base when drawing Line of Sight, measuring Range and determining front arc (declare what is the front of the base when placing it). At the end of the phase, remove the marker. 	^	^	2013
+dkmurder	Bloody Banner of Nabh	stnd	Std	35	1	itst:race=dk	bsb=incl	Parts of models in this unit with the Killer Habits special rule reroll ‘to wound’ rolls of “1” or “2”. 	^	^	
+dkspella	Attr - Spiteful Conjuration	spel	N/A	0	100	itst:(type=dkdark);xtot		Lore Attribute. If hex, direct damage or magic missile casting roll includes any doubles, target suffers additional 2D6 S1 armour piercing hits. If roll includes any treble, target suffers 3D6 S1 armour piercing hits.	^	^	
+dkspell0	Drk0 - Power of Darkness	spel	N/A	0	100	itst:(type=dkdark);xtot		Signature spell. Augment. 8+ to Cast. All models in caster's unit gain +1 Strength until start of caster's next Magic phase. The add D3 Power dice to power pool. If 3 dice are generated caster suffer 1 Wound with no armour saves.	^	^	
+dkspel00	Drk00 - Doombolt	spel	N/A	0	100	itst:(type=dkdark);xtot		Signature spell. Magic missile. 12+ to Cast. Range 18". 2D6 S5 hits. OR Cast on 24+, 4D6 S5 hits.	^	^	
+dkspell1	Drk1 - Chill Wind	spel	N/A	0	100	itst:(type=dkdark);xtot		Magic missile. 5+ to Cast. Range 24". Causes 2D6 St2 hits. If target suffers any Wounds, all models suffer -1 to BS until start of caster's next Magic phase.	^	^	
+dkspell3	Drk2 - Word of Pain	spel	N/A	0	100	itst:(type=dkdark);xtot		Hex. 9+ to Cast. Range 24". All models in target unit suffer -D3 to WS and BS until start of caster's next Magic phase. OR 12+ to Cast to also lower St and In by D3.	^	^	
+dkspell4	Drk3 - Bladewind	spel	N/A	0	100	itst:(type=dkdark);xtot		Direct damage. 9+ to Cast. Range 24". All models in unit must test WS or suffer St4 hit with armour piercing special rule.	^	^	
+dkspell2	Drk4 - Shroud of Despair	spel	N/A	0	100	itst:(type=dkdark);xtot		Hex. 10+ to Cast. All enemy units within 12" cannot benefit from Inspiring Presence and Hold Your Ground! special rules. Whenever target unit fails Ld test, all target unit suffer -1 to Ld. Effects last until start of caster's next Magic phase.	^	^	
+dkspell5	Drk5 - Soul Stealer	spel	N/A	0	100	itst:(type=dkdark);xtot		Direct damage. 11+ to cast. Range 18" OR 14+ to Cast. Range 36". Place small round template and scatter it D6". All models hit suffer St2 hit with no armour saver allowed. For each Wound inflicted roll D6: caster gains single Wound on each roll of 4+ (up to max of 10).	^	^	
+dkspell6	Drk6 - Arnizipal's Black Horror	spel	N/A	0	100	itst:(type=dkdark);xtot		Magical vortex. 15+ to cast, small round template. OR 25+ to cast, large round template. Template moves Artillery dice roll multiplied by caster's Wizard level. All models touched or moved over must test Strength or die, though Ward saves are allowed.	^	^	
+dkkarkar	Beast Armour of Karond Kar	engr	N/A	0	1	itst:reg=dkrakart;type:unmod		Provides 1+ armor save, cannot be improved.	^; Dark Elf Spec Char Rakarth only.	Provides 1+ armor save, cannot be improved.	
+dkspite	Blade of Spite	engr	MWp	25	1	itst:race=dk		Any rolls to hit of 5 or 6 wound automatically.	^	^	
+dkcrown	Crown of Black Iron	engr	Tal	35	1	itst:race=dk	wsv5=incl,aws5=incl	5+ Ward save, and immune to the effect of Light and High Magic. This is not a dispel and only effects the wearer.	^	^	
+dkdarksw	Dark Sword	engr	MWp	15	1	itst:race=dk		Wounded models become subject to stupidity	^	Wounded models Stupid.	
+dkdivine	Divine Eye	engr	Enc	20	1	itst:race=dk		No Enemy scouts deployed w/in 12" of bearer; At start of turn, every enemy unit w/in 12";  Every unit w/in must reveal NUMBER of magic items in it	^	No scouts w/in 12". All units w/in 12" state # of magic items at start Dark Elf turn.	
+dkdraich	Draich of Dark Power	engr	M2H	50	1	stat:St+2;itst:race=dk		Two-handed; +2S; Killing Blow	^	^	
+dkpower	Gauntlet of Power	engr	MWp	60	1	stat:St=8;itst:race=dk		Hits are S8 and ignores armor saves, strikes last except on charge.	^	^	Feb 12, 2003
+dkhkhain	Hand of Khaine	engr	N/A	0	1	itst:type=malek		St 6 Attacks & No Armor Save	^ DE Malekith only	St 6 Attacks & No Armor Save	
+dkhearty	Heartrender	engr	N/A	0	1	itst:reg=dkmorath		+2 St and Killing Blow on charge	^; DE Morathi only	+2 St and Killing Blow on charge	
+dklight	Mystic Shield of Light	engr	Tal	40	1	itst:race=dk	wsv5=incl,aws5=incl	5+ Ward Save; If Ward saved vs. HtH attack, attacking model reduced to WS 1 until end of CC phase	^	^	
+dkrubric	Rubric of Dark Dimensions	engr	Bnd,Enc	50	1	itst:(!type=mounted&race=dk)		Bound spell; Power level 5; All enemy models in BtB  roll equal or under their S or be slain; One use only; Models on foot only 	^	Power lvl 5; Enemy in BtB  roll =< their S or killed; One use only 	September 1, 2002
+dkcloakd	The Cloak of Dark Souls	engr	Mnt,Chr,Mon,Enc	25	1	itst:race=dk		Models on foot only; Wearer may Scout	^	^	
+dkwandof	Wand of the Kharaidon	engr	Enc	40	1	itst:race=dk		Bound Spell; Power Level 4; Casts Doombolt; Everytime it's used, roll a D6; Exhausted on a roll of 1.	^	^	
+dkamfire	Amulet of Dark Fire	unk2	N/A	0	1	itst:reg=dkhlbron		Dispel rolls made against spells targeting bearer's unit receive +4 bonus to dispel.	^	^	2013
+dkservit	Armour of Eternal Servitude	unk2	Arm,MAr	35	1	itst:race=dk;base:Sv-2;type:MagicArmour		Heavy Armour, Regeneration.	^	^	
+dkdeath	Armour of Living Death	unk2	Arm,MAr	60	1	base:Sv-2;itst:race=dk;stat:To+1;stat:Wo+1;type:MagicArmour		Heavy Armour, Model gains +1 To and +1 Wo. Before deployment roll a D6, on a 1 bearer suffers from Stupidity	^	^	
+dkmidnit	Armour of Midnight	unk2	N/A	0	1	itst:type=malek;base:Sv-2;stxt:WSv="*";type:MagicArmour		Armour Save 5+. Ward Save 2+ vs non-magical attacks. Multiple Wounds and Killing Blows only do 1 Wound to the bearer.	^	^	2013
+dkcblood	Banner of Cold Blood	unk2	Std	15	1	itst:race=dk	bsb=incl	One use only, At start of any turn unit is Cold Blooded: 3D6 LD tests discarding highest D6.	^	^	
+dknagaro	Banner of Nagarythe	unk2	Std	100	1	itst:race=dk	bsb=incl	All models in the unit carrying the banner have Unbreakable special rule, as do Alith Anar, Shadow Warriors and Shadow Walkers (from High Elves army) within 12" of the banner.	^	^	2013
+dkegg	Black Dragon Egg	unk2	Enc	50	1	itst:race=dk		One use only. Bearer may consume it at the start of any player turn. Bearer gets S6, T6 and St2 Breath Weapon (with no armour saves) until end of turn.	^	^	2013
+dklotus	Black Lotus	unk2	Mrk	20	50	itst:race=dk;icnt:1;type:toxin		Toxin: Bearer may re-roll all 1's to wound with a weapon coated with Black Lotus; Removes Poison Attacks special rule from bearer	^	^	
+dkstaff	Black Staff	unk2	Arc,Bnd	55	1	itst:race=dk		Bound Spell Power Level 4, Contains the Power of Darkness spell	^	^	
+dkbls1	Blessings of Khaine	unk2	N/A	0	99	itst:reg=dkcauld		At the start of turn, one effect may be applied to a unit within 24" even if in CC, lasts until start of controller's next turn	^	^	
+dkblood	Blood Armour	unk2	Arm,MAr	15	1	itst:race=dk;base:Sv-2;comm:"Total combined armour save cannot improve past 1+"-legal=(mode=e);type:MagicArmour		Heavy Armour; For every unsaved wound in CC the armour save is improved 1 point up to a maximum of 1+ (total).	^	^	
+dkbls4	Bloodshield of Khaine	unk2	N/A	0	99	itst:reg=dkcauld		All models in unit gain a 5+ WS	^	^	
+dkbane	Caledor's Bane	unk2	MWp	35	1	itst:race=dk&!reg=dkmorath&type=mounted&!reg=dkhlbron;type:removeDKextra		Lance; +3 Str on charge instead of +2, Ignores Scaly Skin bonus	^	^	
+dkchill	Chillblade	unk2	MWp	50	1	itst:race=dk&!reg=dkmorath&!reg=dkhlbron;type:removeDKextra		All hit wound automatically. Any model that suffer one or more Wounds must make a To test, or suffer -3 to Attacks (to a min of 1) until end of following CC phase.	^	^	2013
+dkiron	Circlet of Iron	unk2	N/A	0	1	itst:type=malek		Once per magic phase bearer can add single dice to his failed casting or dispel roll.	^	^	2013
+dkclkhag	Cloak of Hag Graef	unk2	MAr	25	1	itst:race=dk;base:Sv-1;type:cloaked		Sea Dragon Cloak, Any ranged attacks have their Str halved rounded up	^	^	
+dktwilt	Cloak of Twilight	unk2	Bnd,Enc	20	1	itst:reg=dkassn|reg=dkassn2		Enchanted Item: Bound lvl 3, May cast Steed of Shadows	^	^	
+dkcrmson	Crimson Death	unk2	MWp,M2H	0	1	itst:reg=dkkouran;stat:St+2;type:removeDKextra		+2 Strength in cc.	^	^	2013
+dkcry	Cry of War	unk2	N/A	10	50	itst:race=dk;icnt:1		A unit charged by the model must pass a LD test or reduce Ws by 1(min 1), for that Close Combat phase.	^	^	
+dkcry2	Cry of War	unk2	N/A	0	1	itst:reg=dkhlbron		A unit charged by the model must pass a LD test or reduce Ws by 1(min 1), for that Close Combat phase.	^	^	
+dkmidnig	Crystal of Midnight	unk2	Enc	35	1	itst:race=dk		One use only. One wizard on table must make a 3D6 Ld test or lose a random spell.	^	^	September 1, 2002
+dkdagger	Dagger of Hotek	unk2	MWp	30	1	itst:race=dk&!reg=dkmorath;stat:At+1;type:removeDKextra		additional Hand Weapon, may be used with a mundane handweapon, Bearer Always Strikes First	^	^	
+dkdance	Dance of Doom	unk2	N/A	30	50	itst:race=dk;icnt:1	wsv5=incl,aws5=incl	5+ Ward Save	^	^	
+dkdrkswd	Dark Sword	unk2	MWp	25	1	itst:race=dk&reg=dkmorath;type:removeDKextra		Hand Weapon, Each unsaved wound to a Character or Champ also reduces Str, T, and A by 1. If any stat reaches 0, the enemy is removed as a casualty	^	^	
+dkdrkven	Dark Venom	unk2	Mrk	10	50	itst:race=dk;icnt:1;type:toxin		Toxin: If bearer slays model in Challenge all wounds inflicted in challenge count double, (up to overkill max); Removes Poison Attacks special rule from bearer	^	^	
+dkdarkst	Darkstar Cloak	unk2	Arc	25	1	itst:race=dk		+1 Power Dice that only bearer may use	^	^	
+demask	Deathmask	unk2	Enc	50	1	itst:race=dk		Wearer causes terror.	^	^	
+dkpiercr	Deathpiercer	unk2	MWp	25	1	itst:race=dk&type=mounted&!reg=dkmorath;type:removeDKextra		Lance, Killing Blow	^	^	
+dkdthswd	Deathsword and the Cursed Blade	unk2	N/A	0	1	itst:reg=dkhlbron;stat:St=10;stat:At+1		Paired weapons. Hits are resolved at Strength 10. For every To Hit roll of 1 when attacking Hellebron in close combat, striking model suffers automatic St4 hit.	^	^	2013
+dkdestrr	Destroyer	unk2	N/A	0	1	itst:type=malek		In every round of CC, if bearer inflict one or more hits on model carrying magic items, one of those items will be destroyed on D6 roll of 4+ (once, not per hit). In addition if Wizard suffers one or more Wounds from this sword, he loses one Wizard level on 4+.	^	^	2013
+dkscrll	Dispel Scroll	unk2	Arc	25	1	itst:reg=dkmorath		Dispels one spell, one use only	^	^	
+dkdread	Dread Banner	unk2	Std	40	1	itst:race=dk	bsb=incl	Unit causes fear.	^	^	
+dkexaxe	Executioner's Axe	unk2	MWp,M2H	80	1	itst:race=dk&!type=mounted&!reg=dkmorath;type:removeDKextra		Two Hands, Strikes Last, Str double that of targets T to max 10 and causes D3 wounds	^	^	
+dkfocus	Focus Familiar	unk2	Arc	25	1	itst:race=dk		Place a marker with in 6" of bearer and not within 1" of enemies at beginning of magic phase.  This marker may be used for determining line of site and range for bearers spells and whether the bearer counts as in CC or not.	^	^	
+dkbls2	Fury of Khaine	unk2	N/A	0	99	itst:reg=dkcauld		All models in unit gain +1 attack	^	^	
+dkgemntm	Gem of Nightmares	unk2	Enc	25	1	itst:race=dk		One use only, Used at start of any turn, Bearer and unit cause fear until end of turn. 	^	^	
+dkhand	Hand of Khaine	unk2	N/A	15	50	itst:race=dk;icnt:1		One model in B2B loses one attack (DE player chooses between mount and rider). Models immune to psychology or that have special types of attacks are not affected.	^	^	
+dkhow	Heart of Woe	unk2	N/A	0	1	itst:reg=dkshblad		When bearer dies, center small round template on Shadowblade before removing him. All models touched suffer S3 hit.	^	^	2013
+dkrender	Heartrender and the Darksword	unk2	MWp	0	1	itst:reg=dkmorath		Paired Weapons. +2 to Strength on charge. Killing Blow. Monsters wounded by this weapon suffer -1 to St, To and At for each Wound caused. Effects start at the end of the phase and last for the remainder of the game.	^	^	2013
+dkheart	Heartseeker	unk2	MWp	35	1	itst:race=dk&!reg=dkmorath;type:removeDKextra		Re-roll missed to hit and to wound rolls in CC.	^	^	
+dkkraken	Helm of the Kraken	unk2	Arm,MAr	0	1	itst:reg=dklokhr;base:Sv-1		+1 Armour save. Regeneration. Terror.	^	^	2013
+dkhydrab	Hydra Banner	unk2	Std	75	1	itst:race=dk	bsb=incl	All models in unit (including mounts) get +1 Attack in first round of Hth.	^	^	
+dkhydra	Hydra Blade	unk2	MWp	100	1	itst:race=dk&!reg=dkmorath;type:removeDKextra		Random Attacks (D6+A). At the start of every CC phase bearer must pass Ld test with -2 modifier. If failed bearer gains Heroic Killing Blow but suffers -5 WS until end of that phase.	^	^	2013
+dkteeth	Hydra's Teeth	unk2	Enc	40	1	itst:race=dk		Model has 5 Hydra's Teeth, Each used as a thrown weapon Rng 12", Declare number thrown before rolling to hit (no multiple shot modifier), Each hit = D6 Ws 2 Str 3 CC attacks VS unit, Up to 2 attacks each round may be allocated by the bearer toward Characters or Champs in unit.	^	^	September 1, 2002
+dklife	Lifetaker	unk2	MWp,MRg	30	1	itst:race=dk&!reg=dkmorath;type:removeDKextra		Repeater Crossbow, Rng 30, Str 4, Multiple Shot x3, always hit on 2+ reguardless of modifiers, magic items, ect. Magical attacks	^	^	
+dkmanban	Manbane	unk2	Mrk	25	50	itst:race=dk;icnt:1;type:toxin		Toxin: Bearer counts as having S at one higher than target's To (up to S6 - before weapon modifiers [FAQ 2009]), which also modifies armour save.; Removes Poison Attacks special rule from bearer	^	^	
+dknull	Null Talisman	unk2	Tal	15	100	itst:race=dk;type:nulled;irng:1-6		MR(1); May be taken multiple times like scrolls and are cumulative	^ ; ; When selecting multiple Null Stones: Select it once from the menu, adjust it's count using the '+' and '-' on the right side of the "magic item window"	^	
+dkparry	Parrying Blade	unk2	N/A	0	1	itst:reg=dkhlbron;stat:At+1		Enemy model in contact loses one At; No effect on units not using At characteristics or Immune to Psyche. Rules as Hand of Kaine	^; Hag Queen Crone Hellebron only	Enemy model in contact loses one At; No effect on units not using At characteristics or Immune to Psyche. Rules as Hand of Kaine	
+dkpearl	Pearl of Infinite Bleakness	unk2	Tal	25	1	itst:race=dk		Bearer and unit Immune to Psychology	^	^	
+dkpendnt	Pendant of Khaeleth	unk2	Tal	35	1	itst:race=dk;stxt:Wsv="*"		Ward Save based on Str of hit, Roll a D6 for each wound, on a roll less than or equal to the attack's strength it is ignored, 6 always fails	^	^	
+dkptstr	Potion of Diabolic Strength	unk2	Enc	0	1	itst:reg=dkshblad		One use only. Drink start of any CC phase. Shadowblade has +4 St until end of turn.	^	^	2013
+dkstone	Power Stone	unk2	Arc	20	1	itst:reg=dkmorath		+2 dice to cast a spell, one use only	^	^	
+dkrstar	Rending Star	unk2	N/A	30	50	itst:reg=dkassn|reg=dkassn2;icnt:1		Rng 12" Str of bearer +1, Thrown Weapon Multiple Shot (3); Attacks from these weapons are not Poison Attacks	^	^	
+dkhotek	Ring of Hotek	unk2	Tal	50	1	itst:race=dk		Magic Resistance (3). Enemy Wizards casting spells (or targeting spells on units) within 6" of the bearer will miscast on double 1 (but without IF), as well as double 6.	^	^	2013
+dkrune	Rune of Khaine	unk2	N/A	25	50	itst:race=dk;icnt:1		+D3 Attacks	^	^	
+dkrune2	Rune of Khaine	unk2	N/A	0	1	itst:reg=dkhlbron		+D3 Attacks	^	^	
+dksea	Sea Serpent Standard	unk2	Std	25	1	itst:race=dk&reg=dkcors;type:serpentStandard	bsb=incl	Unit gains Frenzy	^	^	
+dkseal	Seal of Ghrond	unk2	Tal	30	1	itst:race=dk		Adds one dice to the Dispel pool.	^	^	
+dkghrond	Shield of Ghrond	unk2	Shd,MAr	25	1	itst:race=dk;type:MagicShield	ssave1=auto	6+ save; Any hits against the character are resolved at -1St	^	^	
+dksoul	Soulrender	unk2	MWp,M2H	15	1	itst:race=dk&!reg=dkmorath;stat:St+2		Great Weapon, Armour Piercing	^	^	
+dkgraef	Standard of Hag Graef	unk2	Std	35	1	itst:race=dk	bsb=incl	Unit gains Always Strikes First	^	^	
+dkslaugh	Standard of Slaughter	unk2	Std	35	1	itst:race=dk	bsb=incl	Unit gains +D3 to combat resolution on any turn it charges	^	^	
+dkbls3	Strength of Khaine	unk2	N/A	0	99	itst:reg=dkcauld		All models in unit gain Killing Blow	^	^	
+dkspshld	Supreme Spellshield	unk2	N/A	0	1	itst:type=malek;base:Sv-1;type:MagicShield		Shield. Magic Resistance (2). If spell cast at Malekith is dispelled, caster suffers D6 St6 hits.	^	^	2013
+dkruin	Sword of Ruin	unk2	MWp	50	1	itst:race=dk&!reg=dkmorath;type:removeDKextra		No Armor Save	^	^	
+dkgrief	The Armour of Grief	unk2	N/A	0	1	itst:reg=dkkouran;type:MagicArmour		Armour Save 5+. For each successful To Hit roll against Kouran, attacking model suffers St5 hit.	^	^	2013
+dkblack	The Black Amulet	unk2	Tal	60	1	itst:race=dk;base:Wsv-3		4+ Ward save. If ward save is made in challenge, opponent suffer 1 Wound with no armour saves.	^	^	2013
+dkaxehg	The First Draich	unk2	M2H	80	1	itst:reg=dktulli;type:removeDKextra;stat:St+2		+2 Strength. Always Strikes Last. Killing Blow working on 5+ instead of 6.	^	^	2013
+dkgspite	The Gem of Spite	unk2	Arc	35	1	itst:race=dk		Whenever bearer suffers a miscast, all enemy Wizards within 12" suffer S6 hit. Each of wounds caused this way may be negated by the opponent by expanding single dispel dice from his pool for each wound.	^	^	2013
+dkredbld	The Red Blades	unk2	MWp	0	1	itst:reg=dklokhr;stxt:At+"/*"		Paired Weapons. Re-roll failed To Wound rolls.	^	^	2013
+dkfurion	Tome of Ambition	unk2	Arc	25	1	itst:race=dk		The wearer may reroll any number of spell generation dice once	^	^	2013
+dktouch	Touch of Death	unk2	N/A	30	50	itst:race=dk;icnt:1		Model gains Killing Blow.	^	^	
+dktzark	Tz'arkan	unk2	N/A	0	1	itst:reg=dkmalus		May use at the start of any friendly Movement phase and effect lasts for rest of battle; Gains Frenzy, +1 WS, St, To and In; for each To Hit roll of 1 friendly model in base contact is hit instead of enemy and failed To Wound roll must be re-rolled. Such hit allows no armour saves.	^	^	2013
+dkvenom	Venom Sword	unk2	MWp	75	1	itst:reg=dkassn|reg=dkassn2		Magic Weapon: If wounds target must make a To test on 2D6 or be slain automatically; Attacks from this weapon are not Poison Attacks	^	^	
+dkwarper	Warpsword of Khaine	unk2	N/A	0	1	itst:reg=dkmalus		Re-roll failed To Wound rolls. No armour saves.	^	^	2013
+dkweb	Web of Shadows	unk2	MWp	50	1	itst:race=dk&!reg=dkmorath		One use only, One model in base contact takes 2D6 S3 hits instead of bearers normal attacks, wounds do not carry over and the bearer may choose to use a mundane weapon instead of the Web	^	^	
+dkwitch	Witchbrew	unk2	N/A	25	50	itst:type=hag;icnt:1		Enemy unit cannot claim Combat Resolution bonuses for outnumbering, flank/rear charges or higher ground if fighting only the bearer's unit	^	^	
+dkwitch2	Witchbrew	unk2	N/A	0	1	itst:reg=dkhlbron		Enemy unit cannot claim Combat Resolution bonuses for outnumbering, flank/rear charges or higher ground if fighting only the bearer's unit	^	^	
+^
+^
+^
+dkblack	dkchblak	cost
+dkblack	halhro	incl
+dkblack	hahro	appl
+dkblack	mus10	cost
+dkblack	stmg10	cost
+dkbolt	dkbltcrw	incl
+dkcacha	2ndhdlr2	incl
+dkcauld	dkcauld	auto
+dkchario	dkchario	auto
+dkcors	2ndhdlr2	cost
+dkcors	dkchcors	cost
+dkcors	mus10	cost
+dkcors	st10	cost
+dkcors	laoptrp	incl
+dkexecut	dkexecw	incl
+dkexecut	mus10	cost
+dkexecut	stmg10	cost
+dkexecut	hahro	incl
+dkexecut	dkchexec	cost
+dkhero	dkahw5	cost
+dkhero	btstand8	cost
+dkhero	dkbcha18	cost
+dkhero	dkrxb5	cost
+dkhero	dkcold25	cost
+dkhero	dknostnd	incl
+dkhero	dklsteed	cost
+dkhero	dkpegmnt	cost
+dkhero	general	cost
+dkhero	dkfakeha	cost
+dkhero	halhro8	cost
+dkhero	heromnt	hide
+dkhero	lancelrd	hide
+dkhero	shlrd	cost
+dkhero	dkgwfth	cost
+dkhero	dkmani20	cost
+dkhlbron	dkmanti	cost
+dkhlbron	general	cost
+dkhlbron	dkcldrn	cost
+dklord	dkahw5	cost
+dklord	dkchar	cost
+dklord	dkdramnt	cost
+dklord	dkcold25	cost
+dklord	dkrxb5	cost
+dklord	dklsteed	cost
+dklord	dkmanti	cost
+dklord	dkpegmnt	cost
+dklord	general	cost
+dklord	halhro8	cost
+dklord	dkfakeha	cost
+dklord	heromnt	hide
+dklord	dklance	cost
+dklord	shhro5	cost
+dklord	dkgwftl	cost
+dklord	dkthrow	cost
+dkmaleth	dkalore2	cost
+dkmaleth	dkfull	hide
+dkmaleth	dkserap	cost
+dkmaleth	dkshow	hide
+dkmaleth	general	auto
+dkmaleth	mg4lvl	auto
+dkmaleth	mgmiscas	cost
+dkmalus	dkspite	auto
+dkmalus	general	cost
+dkmalus	hatrp	auto
+dkmorath	dkalore3	cost
+dkmorath	dkfull	hide
+dkmorath	dksulpht	auto
+dkmorath	dkshow	hide
+dkmorath	general	cost
+dkmorath	mg4lvl	auto
+dkmorath	mgmiscas	cost
+dkrakart	dkbrac	auto
+dkrakart	general	cost
+dkrakart	lancelrd	incl
+dkrider	dkchdark	cost
+dkrider	dkrxb5	cost
+dkrider	dksteed	appl
+dkrider	latrp	appl
+dkrider	mus10	cost
+dkrider	sprmtrp1	incl
+dkrider	stmg10	cost
+dkshades	dkchshad	cost
+dkshades	dkrxb5	incl
+dkshades	2ndhwtr1	cost
+dkshblad	2ndhwtrp	incl
+dksorc	dkalore	cost
+dksorc	dkfull	hide
+dksorc	dkcold25	cost
+dksorc	dklsteed	cost
+dksorc	dkshow	hide
+dksorc	general	cost
+dksorc	mg1lvl	incl
+dksorc	mg2lvl30	cost
+dksorc	mgfull	hide
+dksorc	mgmiscas	cost
+dksorc	mgshow	hide
+dksorcld	dkalore	cost
+dksorcld	dkfull	hide
+dksorcld	dkcold25	cost
+dksorcld	dklsteed	cost
+dksorcld	dkmani10	cost
+dksorcld	dkpega40	cost
+dksorcld	dkshow	hide
+dksorcld	general	cost
+dksorcld	mg3lvl	incl
+dksorcld	mg4lvl60	cost
+dksorcld	mgfull	hide
+dksorcld	mgmiscas	cost
+dksorcld	mgshow	hide
+dktulli	hatrp	incl
+dkwarrio	dkchwarr	cost
+dkwarrio	latrp	incl
+dkwarrio	mus10	cost
+dkwarrio	shoptrp	incl
+dkwarrio	sprtrp1	free
+dkwarrio	stmg10vt	cost
+dkwitch	2ndhwtrp	incl
+dkwitch	dkchwich	cost
+dkwitch	mus10	cost
+dkwitch	stmg10	cost
+xdkappr	dkscourg	incl
+xdkblt	latrp	appl
+dkchar2	dkchari2	auto
+dkbrac	dkignore	incl
+dkcoldk2	dkcacold	cost
+dkcoldk2	dkcold	appl
+dkcoldk2	hatrp	appl
+dkcoldk2	lancetrp	appl
+dkcoldk2	mus10	cost
+dkcoldk2	shwtrp	appl
+dkcoldk2	stmg10	cost
+dkchar2	dkrxb10	incl
+dksorcld	dkgen	hide
+dksorc	dkgen	hide
+dksorcld	dkdramnt	cost
+dksorc	dkpega40	cost
+dkchar2	lancetrp	incl
+dkchar2	hahro	incl
+dkdthhag	2ndhwhro	incl
+dkdthhag	btstand8	cost
+dkdthhag	btnostn3	incl
+dkdthhag	general	cost
+dkdthhag	dkcldrn	cost
+dkrxbmn	dkcrxbmn	cost
+dkrxbmn	latrp	incl
+dkrxbmn	mus10	cost
+dkrxbmn	shoptrp2	cost
+dkrxbmn	st10	cost
+dkrxbmn	dkrxb10	incl
+dkassn	2ndhwlrd	cost
+dkassn	dkrhb10	cost
+dkrider	shhro	cost
+dkshades	lahro1	cost
+dkdthhag	frenzy	incl
+dkmantim	frenzymt	incl
+dkchcors	dkxrhb4	cost
+dkassn	dkpoisn2	appl
+xdkchacr	lancetrp	incl
+xdkchacr	dkrxb10	incl
+dkmaleth	dkcold25	cost
+dkmaleth	dkbchar	cost
+dkbchar2	dkchari2	auto
+dkbchar2	dkrxb10	incl
+dkbchar2	lancetrp	incl
+dkbchar2	hahro	incl
+dkhlbron	dkhag1	incl
+dklokhr	general	cost
+dklokhr	hatrp	incl
+dklokhr	dklcloak	incl
+dkchcold	hahro	incl
+dkchcold	shhro	incl
+dkchcold	dkallow6	incl
+dkchblak	dkallow4	cost
+dkchblak	halhro	incl
+dkchblak	hahro	incl
+dkassn2	dkahw2	incl
+dkbstmas	dkmantim	incl
+dkbstmas	general	cost
+dkbstmas	dkgen	hide
+dkbstmas	lalrd	incl
+dkbstmas	dklcloak	incl
+xdkscocr	sprmtrp4	incl
+xdkscocr	dkrxb10	incl
+dkscourm	dkscourm	auto
+dkbstmas	dkscchar	cost
+dkswords	dkchwarr	cost
+dkswords	latrp	incl
+dkswords	mus10	cost
+dkswords	shoptrp	incl
+dkswords	stmg10	cost
+dkfleetm	2ndhwlr3	incl
+dkfleetm	general	cost
+dkfleetm	dkgen	hide
+dkfleetm	lalrd	incl
+dkfleetm	dklcloak	incl
+dkbstmas	sprmtrp4	incl
+dksistas	dkchsist	cost
+dksistas	mus10	cost
+dksistas	stmg10	cost
+dksistas	shoptrp	incl
+dkmedusa	dkpstare	incl
+xdkshric	sprmtrp4	incl
+dkshrine	dkbldcrw	auto
+dkdthhag	dkhag1	cost
+dkdthhag	dkhag2	cost
+dkdthhag	dkhag3	cost
+dkwarloc	dkwarcha	cost
+dkwarloc	dksteed	appl
+dkmorath	mgshow	hide
+dkhlbron	dkhag2	incl
+dkhlbron	dkhag3	incl
+dkmalus	dkcloak	incl
+dkshblad	dkass1	incl
+dkshblad	dkass2	incl
+dkshblad	dkass3	incl
+dkshblad	throww	incl
+dktulli	frenzy	incl
+dkmaleth	unshow	hide
+dkmorath	unshow	hide
+dkmanti	frenzymt	incl
+dklord	lahro	incl
+dkmani20	frenzymt	incl
+dkhero	dkthrow	cost
+dkmani10	frenzymt	incl
+dkwarrio	haupg2	cost
+dkchario	lancetrp	incl
+dkchario	dkrxb5	incl
+dkwarcha	mg2lvl	incl
+dkhero	lahro	incl
+dklord	dkbeast	cost
+dklord	dkfleet	cost
+dkdrag	dkalpha	cost
+dkdrag33	dkalpha	cost
+dkmantim	dkalpha2	cost
+dkmani10	dkalpha2	cost
+dkmani20	dkalpha2	cost
+dkmanti	dkalpha2	cost
+dkpegas	dkthunde	cost
+dkpega40	dkthunde	cost
+dkchario	hahro	incl
+dkhuntch	dkhunch	auto
+dkhuntch	dkrxb10	incl
+dkhuntch	sprmthr2	incl
+dkhuntch	lahro	incl
+dkhuntch	dkhuntwe	cost
+xdkchach	sprmtrp4	incl
+xdkchach	dkrxb10	incl
+dkhch	dkhunch	auto
+dkhch	dkrxb10	incl
+dkhch	sprmthr2	incl
+dkhch	lahro	incl
+dkhch	dkhuntwe	cost
+dkcultfp	2ndhwtr8	incl
+dkcultfp	dkmanti	cost
+dkcultfp	general	cost
+dkcultfp	dkla8	cost
+dkcultfp	heromnt	hide
+dkcultfp	dkexecw	cost
+dkcultfp	dkcldrn2	cost
+dkcauld	lahro	incl
+dkclhp	2ndhwtr8	incl
+dkclhp	general	cost
+dkclhp	dkla8	cost
+dkclhp	heromnt	hide
+dkclhp	dkgladia	cost
+dkclhp	dklust	cost
+dkclhp	shhro5	cost
+dklust	dklustc	auto
+dklust	lahro	incl
+dklustc	lancedhr	incl
+dkmedusc	dkpstare	cost
+dkclhp	dkpegmnt	cost
+dkclhp	dkcold25	cost
+dkclhp	dklsteed	cost
+dksorcld	dkcultl	cost
+dkbcha18	dkchari2	auto
+dkbcha18	dkrxb10	incl
+dkbcha18	lancetrp	incl
+dkbcha18	hahro	incl
+dklord	dkhuntch	cost
+dkhero	dkhuntch	cost
+dkhero	dkfleet	cost
+dkhero	dkbeast	cost
+dkcbprie	2ndhwtr5	incl
+dkcbprie	dkmani20	cost
+dkcbprie	general	cost
+dkcbprie	dkla8	cost
+dkcbprie	heromnt	hide
+dkcbprie	dkexecw	cost
+dkcbprie	dkcldrn2	cost
+dkcbprie	btstand8	cost
+dkcbprie	dknostnd	incl
+dkclprie	general	cost
+dkclprie	dkla8	cost
+dkclprie	heromnt	hide
+dkclprie	dkgladia	cost
+dkclprie	dklust	cost
+dkclprie	shopogr	cost
+dkclprie	dkpega40	cost
+dkclprie	dkcold25	cost
+dkclprie	dklsteed	cost
+dkclprie	btstand8	cost
+dkclprie	dknostnd	cost
+dkclprie	2ndhwtr5	incl
+dksorc	dkllore	hide
+dksorcld	dkllore	hide
+dksorc	dkcultl	cost
+dkassn2	dkven3	cost
+dkassn2	dkven2	cost
+dkassn2	dkven1	cost
+dkcors	dkthrow	cost
+dkcors	dkvang	cost
+dkpleasp	dkpleas	cost
+dkpleasp	mus10	cost
+dkpleasp	stmg10	cost
+dkpleasp	lahro	incl
+dkpleasp	dkgladia	incl
+dkpleasp	dkwsv5	incl
+dkblack	dkdread	cost
+dkshades	dkgwfth	cost
+dkshades	skpsncc	cost
+dkbolt	lahro	incl
+dkbolt	dkelbt	incl
+dkbolt	dkrepet	cost
+dkharpy	dkextra	auto
+dkkharib	dkalpha4	cost
+dkhydra	dkalpha4	cost
+dkwarloc	mgdeath1	hide
+dkwarloc	mgdark5	hide
+dkwarloc	mgdark3	hide
+dkwarloc	mglust0	hide
+dkwarloc	dkwarchl	hide
+dkwarloc	dkpsndar	cost
+dkmedusa	dkchme	cost
+dkaltarb	dkcauld	auto
+dkaltarb	lahro	incl
+dkaltarl	dklustc	auto
+dkaltarl	lahro	incl
+dksorcld	heromnt	hide
+dkdthhag	heromnt	hide
+dkassn2	heromnt	hide
+dksorc	heromnt	hide
+dkassn2	dkcultb	cost
+dkcors	stmg10vt	cost
+dkrxbmn	stmg10vt	cost
+dkcors	throww	incl
+dkpleasp	shoptrp	incl
+dkcors	dkfleetv	cost
+dksteed	dkmp5	cost
+dkhsteed	dkmp5	cost
+dklord	dkfleetv	hide
+dkhero	dkfleetv	hide
+dkexecut	dknabh	cost
+dkwarloc	dkyema	cost
+dkmedusa	dkyema	cost
+dkcors	dkyema	cost
+dkrider	dkyema	cost
+dkwarrio	dkyema	cost
+dkrxbmn	dkyema	cost
+dkrxbmn	dknabh	cost
+dkwarrio	dknabh	cost
+dkrider	dknabh	cost
+dkcors	dknabh	cost
+dkwarrio	st10	cost
+^
+option	mg2lvl40	type:dksorc	
+^
+dkmsg10	Core Witch Elves	Witch Elves May only be core if Hellebrion is the Army General
+dkmsgcor	Corsairs Vanguard	Your general should be Fleetmaster to use Vanguard rule on one unit of Corsairs.
+dkbsb1	Death Hag BSB	A Death Hag Battle Standard Bearer may only choose up to 50 points in Gifts of Khaine!
+dkmsgstd	Elven Warriors and Repeaters S	Only one unit of either Elven Warriors or Dark Repeaters may take a magical banner.
+dkmsgfv	Fleet Vanguard	You have to sama number of Corsairs vanguard special rules as Fleet Commanders.
+dkmsg6	Opponent's Choice	You need your opponent's approval to play 1 of your units.
+dkass	Too many assassins	You may take one assassins per one of the following units: Warriors, Crossbowmen, Corsairs, Black Guard, Shades, Witches, Executioners.
+dkmsg1	Too many spells	Too many spells have been selected for a Sorceror Lord or Dark Sorceror
+^

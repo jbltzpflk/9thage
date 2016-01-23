@@ -1,0 +1,151 @@
+Description: Unknown
+Version: Unknown
+Author: Unknown
+None
+^
+x Khaine - Army of Phoenix King	pk	0			Lord:%max=50,Hero:%max=50,Core:%min=25,Spec:%max=50,Rare:%max=25,Othe:%max=100		info:display="28-11-2014";info:display="by DeBelial";info:display=" ";info:display="All models in army that have Murderous Prowess special rule replace it with Martial Prowess special rule";info:display=" ";info:display="All models in army that have Forest Stalker special rule replace it with Martial Prowess and Forest Strider special rules";trat:alarielle@1u:alariellepresent@1u-flat-msg=hemsg22;trat:alarielle@1u:alariellepresent2@1u-flat-msg=hemsg24;hide	
+x Khaine - Host of Aestyrion	ha	0			Lord:%max=50,Hero:%max=50,Core:%min=25,Spec:%max=50,Rare:%max=25,Othe:%max=100		info:display="28-11-2014";info:display="by DeBelial";info:display=" ";info:display="All models in army that have Hatred (High Elves) special rule replace it with Hatred (Elves)";info:display=" ";info:display="All models in army that have Martial Prowess special rule replace it with Murderous Prowess";hide	
+x Khaine - Host of the Eternity King	ek	0			Lord:%max=50,Hero:%max=50,Core:%min=25,Spec:%max=50,Rare:%max=25,Othe:%max=100		info:display="29-11-2014";info:display="by DeBelial";info:display=" ";info:display="All models in army that have Martial Prowess special rule also gain Murderous Prowess special rule";info:display=" ";info:display="All models in army that have Murderous Prowess special rule also gain Martial Prowess special rule";info:display=" ";info:display="All models in army that have Forest Stalker special rule replace it with Murderous Prowess, Martial Prowess and Forest Strider special rules";trat:carad1@0u:carad2@1u-msg=ekmsg01;hide	
+^
+ekalarie	Alarielle, Incarnate of Life		Lord	Wizard	Lord	1:1	540	0	type:Ld10;attr:Type="In";type:alarielle;take:pkalari1-free-perm;take:pkalari2-free-perm	umax:1u		Infantry (Special Character); Always Strikes First; Martial Prowess; Murderous Prowess; Valour of Ages; Loremaster (Life); #Touch of Purity: magical attacks. Against models from Forces of Destruction her attacks always Wound on 2+ and have Multiple Wounds (D6) special rule; #Locus of Renewal: can re-roll results on Miscast table; #Incarnate of Life: Alarielle and all friendly units within 12" have Ward Save 6+ and Regeneration special rules. At the start of each friendly Magic phase, Allarielle and every friendly model within 12" regain single Wound.		Level 5 Wizard, uses spells from Lore of Life.		5	6	5	4	4	4	6	3	10	7	5	0	0	0	0	0	0
+ekcaradr	Caradryan, Incarnate of Fire		Lord	Wizard	Lord	1:1	590	0	type:Ld9;attr:Type="Mo";take:ekcarad1-free-perm;type:carad2	umax:1u		Monster (Special Character); Always Strikes First; Attuned to Magic; Fireborn; Flaming Attacks; Fly; Large Target; Terror; Martial Prowess; Valour of Ages; Wake of Fire; Magic Resistance (1); Loremaster (Fire); #Mark of Aqshy: if Caradryan is slain in close combat unit that killed him immediately suffers 3D6 St4 magical hits with Flaming Attacks special rule. Wounds caused count towards combat resolution.		Combined profile includes Caradryan riding his phoenix, Ashtari; Level 3 Wizard. Uses Lore of Fire.		5	6	6	5	5	7	7	7	9	4	7	8	0	0	0	0	0
+ekmaleki	Malekith, The Eternity King		Lord	Wizard	Lord	1:1	1000	0	type:Ld10;attr:Type="Mo";spec:+armr;take:ekmalek1-free-perm;take:pkmalek2-free-perm;take:pkmalek3-free-perm	umax:1u		Monster (Special Character); Always Strikes First; Eternal Hatred; Fly; Immune to Psychology; Large Target; Terror; Martial Prowess; Murderous Prowess; Loremaster (Shadow); #Absolute Power: if Malekith is your General, his Inspiring Presence range is 24"; #Noxious Breath: Seraphon has S4 Breath Weapon, units taking casualties suffer -1 to WS and BS until end of their following turn; #The Eternity King: all units with Martial Prowess within 12" may make supporting attacks with 1 more rank than normal. All friendly units with Murderous Prowess within 12" re-roll all failed To Wound rolls in close combat; #Shadow Sorcerer: Malekith can re-roll the results on Miscast table; #Incarnate of Shadow: at the start of your Remaining Moves sub-phase selecy friendly unit within 12" of Malekith (or Malekith himself). Unit gains Etheral special rule until end of the sub-phase ant, instead of moving normally, can immediately move up to 20".		Combined profile includes Malekith riding his dragon, Seraphon; Level 5 Wizard. Uses Lore of Shadow.		6	8	7	6	6	10	8	10	10	3	0	0	0	0	0	0	0
+ektyrion	Tyrion, Incarnate of Light		Lord	Lord	Lord	1:1	550	0	type:Ld10;attr:Type="Ca";spec:+spel;take:ektyrio1-free-perm;take:hatyrio2-free-perm	umax:1u		Cavalry (Special Character); Always Strikes First; Martial Prowess; Murderous Prowess; #Incarnate of Light: at the start of every Magic phase every enemy model with Undead or Daemonic special rule within 6" of Tyrion suffer St4 magical hit; #Shield of Light: All friendly units within 12" have 5+ ward save against shooting attacks and spells. This is increased to 4+ if the caster or shooter has Undead or Daemonic special rule.		Frenzy		5	10	7	4	4	5	10	5	10	1	4	1	0	0	0	0	0
+ekmagic	Magic of the End Times		Other	Other		1	0	20	spec:+spel	race:pk,lc,un		All Wizards of level 3 or more automatically know End Times spell of theis chosen Lore of Magic. Only Wizard of level 3+ can cast End Times spells.				0	0	0	0	0	0	0	0	0	0	0	20	0	0	0	0	0
+hamalhan	Malhandir		N/A	Mount	steed	1:1	0	0		hide						10	4	0	4	3	1	5	2	7	7	7	0	0	0	0	0	0
+hatyrion	Tyrion, Avatar of Khaine		Lord	Lord	Lord	1:1	700	0	type:Ld10;attr:Type="Ca";spec:+spel;take:hatyrio1-free-perm;take:hatyrio2-free-perm;take:hatyrio3-free-perm;take:hatyrio4-free-perm	umax:1u		Cavalry (Special Character); Always Strikes First; Immune To Psychology; Murderous Prowess; #The Shadow od Khaine: Tyrion and all friendly units with Murderous Prowess special rule within 12" re-roll all failed To Wound rolls in close combat; #Avatar of Khaine: Tyrion knows Summon Glorious Dead innate bound spell.		Frenzy		5	10	7	5	4	5	10	5	10	1	4	1	0	0	0	0	0
+haskelet	Skeleton Warriors - Glorious Dead		Core	Regiment	Lord	1:1	0	0	attr:Type="In"	hide		Infantry; Unbreakable; Unstable; Fear; Can only Hold as charge reaction; Can only make march moves if they are within 12" of the army General; Light Armour, Shield				4	2	2	3	3	1	2	1	3	5	7	0	0	0	0	0	0
+pkalarie	Alarielle, Avatar of Isha		Lord	Wizard	Lord	1:1	375	0	type:Ld10;attr:Type="In";type:alarielle;take:pkalari1-free-perm;take:pkalari2-free-perm	umax:1u		Infantry (Special Character); Always Strikes First; Martial Prowess; Valour of Ages; Lileath's Blessing; #Anathema to Chaos: at the start of friendly magic phase, all units with Daemonic special rule within 12" suffer D6 S4 hits; #Blessings of Isha: Alariell and all friendly units within 12" have Ward Save 5+ and are immune to Fear and Terror; #Touch of Purity: magical attacks. Against models from Forces of Destruction her attacks always Wound on 2+ and have Multiple Wounds (D6) special rule.		Level 4 Wizard, uses spells from Lore of Light, Life and High Magic.		5	6	3	3	3	3	6	1	10	7	5	0	0	0	0	0	0
+pkimrik	Imrik, Crown Prince of Caledor		Lord	Lord	Lord	1:1	810	0	type:Ld10;attr:Type="Mo";take:hestrlnc-free-perm;take:pkimrik2-free-perm;take:pkimrik3-free-perm	umax:1u;race:pk,ek		Monster (Special Character); Always Strikes First; Fly; Large Target; Terror; Martial Prowess; Fireborn; Valour of Ages; #Dragonfire: Minaithnir has S4 Breath Weapon with Flaming Attacks special rule; #Lord of Dragons: monsters suffer -1 To Hit penalty when directing their attacks against Imrik		Combined profile includes Imrik riding his dragon, Minaithnir		6	8	7	7	7	10	8	10	10	3	5	0	0	0	0	0	0
+pkmaleki	Malekith, The Phoenix King		Lord	Wizard	Lord	1:1	825	0	type:Ld10;attr:Type="Mo";spec:+armr;take:pkmalek1-free-perm;take:pkmalek2-free-perm;take:pkmalek3-free-perm	umax:1u		Monster (Special Character); Always Strikes First; Eternal Hatred; Fly; Immune to Psychology; Large Target; Terror; Martial Prowess; #Absolute Power: if Malekith is your General, his Inspiring Presence range is 24"; #Noxious Breath: Seraphon has S4 Breath Weapon, units taking casualties suffer -1 to WS and BS until end of their following turn; #Phoenix King: all units with Martial Prowess within 12" may make supporting attacks with 1 more rank than normal.		Combined profile includes Malekith riding his dragon, Seraphon; Level 4 Wizard, may use spells from Lore of Fire and/or Lore of Dark Magic		6	8	7	6	6	9	8	10	10	3	0	0	0	0	0	0	0
+^
+hamalhan	Malhandir		Mount	N/A	0	unit:hamalhan@abs=1				
+eketsp00	Conjure Arcane Fulcrum		Priority1	N/A	0	take:eketsp00-free-perm			End Times Spell	
+eketsp03	Lore of Beasts		Priority1	N/A	0	take:eketsp03-free-perm			End Times Spell	
+eketsp08	Lore of Death		Priority1	N/A	0	take:eketsp08-free-perm			End Times Spell	
+eketsp01	Lore of Fire		Priority1	N/A	0	take:eketsp01-free-perm			End Times Spell	
+eketsp06	Lore of Heavens		Priority1	N/A	0	take:eketsp06-free-perm			End Times Spell	
+eketsp05	Lore of Life		Priority1	N/A	0	take:eketsp05-free-perm			End Times Spell	
+eketsp02	Lore of Light		Priority1	N/A	0	take:eketsp02-free-perm			End Times Spell	
+eketsp04	Lore of Metal		Priority1	N/A	0	take:eketsp04-free-perm			End Times Spell	
+eketsp07	Lore of Shadow		Priority1	N/A	0	take:eketsp07-free-perm			End Times Spell	
+eketsp10	Lore of Dark Magic		Priority2	N/A	0	take:eketsp10-free-perm			End Times Spell	
+eketsp15	Lore of Great Maw		Priority2	N/A	0	take:eketsp15-free-perm			End Times Spell	
+eketsp09	Lore of High Magic		Priority2	N/A	0	take:eketsp09-free-perm			End Times Spell	
+eketsp12	Lore of Nehekhara		Priority2	N/A	0	take:eketsp12-free-perm			End Times Spell	
+eketsp13	Lore of the Wild		Priority2	N/A	0	take:eketsp13-free-perm			End Times Spell	
+eketsp14	Lore of Undeath		Priority2	N/A	0	take:eketsp14-free-perm			End Times Spell	
+eketsp11	Lore of Vampires		Priority2	N/A	0	take:eketsp11-free-perm			End Times Spell	
+eketsp21	Lore of Nurgle		Priority3	N/A	0	take:eketsp21-free-perm			End Times Spell	
+eketsp22	Lore of Slaanesh		Priority3	N/A	0	take:eketsp22-free-perm			End Times Spell	
+eketsp20	Lore of Tzeentch		Priority3	N/A	0	take:eketsp20-free-perm			End Times Spell	
+eketsp18	Skaven Spells of Plague		Priority3	N/A	0	take:eketsp18-free-perm			End Times Spell	
+eketsp19	Skaven Spells of Ruin		Priority3	N/A	0	take:eketsp19-free-perm			End Times Spell	
+eketsp16	Spells of Big Waaagh!		Priority3	N/A	0	take:eketsp16-free-perm			End Times Spell	
+eketsp17	Spells of Little Waaagh!		Priority3	N/A	0	take:eketsp17-free-perm			End Times Spell	
+haskelet	Skeleton Warriors		Special	N/A	0	unit:haskelet@abs=1			Add Skeleton Warrior profile - this profile is used by Summon the Glorious Dead spell.	
+^
+pkmalek1	Asuryath	weap	N/A	0	1	itst:reg=pkmaleki		Magic Weapon. Multiple Wounds (D3). Flaming Attacks.	^	^	
+ekmalek1	Asuryath Reforged	weap	N/A	0	1	itst:reg=ekmaleki		Magic Weapon. Multiple Wounds (D3+1).	^	^	
+ektyrio1	Sunfang	weap	N/A	0	1	itst:reg=ektyrion;stat:St+3		Magic Weapon. +3 Strength. Flaming Attacks. Once per battle can use Str4 Breath Weapon with magical hits and Flaming Attacks special rule.	^	^	
+ekcarad1	The Phoenix Blade	weap	N/A	0	1	itst:reg=ekcaradr;stat:St+1		Magic Weapon. +1 Strength. Multiple Wounds (D3).	^	^	
+hatyrio1	Widowmaker	weap	N/A	0	1	itst:reg=hatyrion		Magic Weapon. Hits from Widowmaker wound automatically. Multiple Wounds (D6). No armour saves.	^	^	
+pkmalek2	Armour of Midnight	armr	N/A	0	1	itst:reg=pkmaleki|reg=ekmaleki		Magic Armour. Ward Save 2+ against non-magical attacks. Immune to effects of Multiple Wounds and Heroic Killing Blow special rules.	^	^	
+pkimrik2	Armour of the Dragontamer	armr	N/A	0	1	itst:reg=pkimrik		Magic Armour. Ward Save 5+.	^	^	
+hatyrio2	Dragon Armour of Aenarion	armr	N/A	0	1	itst:(reg=hatyrion|reg=ektyrion)		Magic Armour. 1+ Armour Save; 4+ Ward Save; Fireborn (2+ Ward Save against Flaming Attacks).	^	^	
+hatyrio3	Heart of Avelorn	armr	N/A	0	1	itst:reg=hatyrion		Enchanted Item. Magic Resistance (2). If Tyrion suffers unsaved Wound that would kill him, on 2+ Wound is negated but the Heart is destroyed.	^	^	
+pkalari1	Star of Avelorn	ench	N/A	0	1	itst:reg=pkalarie|reg=ekalarie		Enchanted Item. At start of your Movement phase, you may heal 1 Wound of a single friendly character within 12". Only if there are no other targets she can heal herself.	^	^	
+hatyrio4	Summon the Glorious Dead	ench	N/A	0	1	itst:reg=hatyrion		Innate bound spell (power level 10). Summoning. Range 18". Summon single unit of 2D6+3 Skeleton Warriors. Can be cast on power level 15, to summon 3D6+2 Skeletons. Can also be cast on power level 20 to summon 4D6+1 Skeletons.	^	^	
+pkimrik3	The Dragonhorn	ench	N/A	0	1	itst:reg=pkimrik		Enchanted Item. One use only. At the start of any friendly turn. Imrik and all friendly Monsters within 12" have stubborn special rule until start of your next turn.	^	^	
+pkmalek3	Circlet of Iron	wzrd	N/A	0	1	itst:reg=pkmaleki|reg=ekmaleki		Arcane Item. Once per Magic phase Malekith can add single bonus dice to any of his failed casting or dispel attempts.	^	^	
+pkalari2	Stave of Avelorn	wzrd	N/A	0	1	itst:reg=pkalarie|reg=ekalarie		Arcane Item. One Use Only. It allows Alarielle to immediately attempt to cast a spell she already cast that phase, even if she failed.	^	^	
+eketsp20	.	spel	N/A	0	1	itst:race=pk		.	^	^	
+eketsp00	Conjure Arcane Fulcrum	spel	N/A	0	1	itst:race=pk		End Times Spell. Summoning. 12+ to Cast. Range 6". Caster summons a single Arcane Fulcrum and is immediately placed on top of it. 	^	^	
+eketsp03	Lore of Beasts - A Murder of Crows	spel	N/A	0	1	itst:race=pk		End Times Spell. Magical vortex. 15+ to Cast. Move large round template artillery dice x3, models suffer St3 hit. 	^	^	
+eketsp10	Lore of Dark Magic - Oblivion	spel	N/A	0	1	itst:race=pk		End Times Spell. 25+ to Cast. Target Arcane Fulcrum anywhere on the battlefierd. All models including the caster within 6" of nominated fulcrum suffer St10 hit. After that roll D6, on 4+ Fulcrum and any Wizard on it are removed from play.	^	^	
+eketsp08	Lore of Death - Ashes and Dust	spel	N/A	0	1	itst:race=pk		End Times Spell. Magical vortex. 15+ to Cast. Move large round template artillery dice x2. Units hit must pass Ld on -3, suffering a Wound for each point failed, no armour saves.	^	^	
+eketsp01	Lore of Fire - Withering Heat	spel	N/A	0	1	itst:race=pk		End Times Spell. Hex. 20+ to Cast. Until start of caster's next Magic phase, all enemy units on battlefield roll extra dice, discarding the highest, when charging, fleeing or pursuing. They gain Flammable and Flaming attacks re-roll failed To Wound rolls against them	^	^	
+eketsp15	Lore of Great Maw - The Great Maw Awakens	spel	N/A	0	1	itst:race=pk		End Times Spell. Magical Vortex. 20+ to Cast. Move large round template artillery dice x2 (in subsequent turns it also moves artillery dice x2, in random direction). Models affected must test In or are removed. On missfire center the template on the caster, resolve the damage and remove the spell from play.	^	^	
+eketsp06	Lore of Heavens - Let the Four Winds Blow!	spel	N/A	0	1	itst:race=pk		End Times Spell. Magic missile. 15+ to Cast. Range 48". Target up to four of enemy units and/or magical vortices in any order. Each target is pushed 2D6" away from the caster. If it comes into contact with impassable terrain it suffers 2D6 S3 hits, if into unit, both suffer hits. 	^	^	
+eketsp09	Lore of High Magic - Deadlock	spel	N/A	0	1	itst:race=pk		End Times Spell. Hex. 20+ to Cast. One enemy Wizard anywhere on the battlefield cannot channel, cast spells or dispel until start of caster's next Magic phase.	^	^	
+eketsp05	Lore of Life - Storm of Renewal	spel	N/A	0	1	itst:race=pk		End Times Spell. Magical Vortex. 15+ to Cast. Move large round template artillery dice x2. Any units touched regain 2D6+1 Wounds as by Regrowth spell.	^	^	
+eketsp02	Lore of Light - Enlightement	spel	N/A	0	1	itst:race=pk		End Times Spell. Hex against Destruction, augment for Order. 20+ to Cast. Target all units within 12" including caster. Order units gain Unbreakable until start of caster's next magic phase. Destruction units suffer 4D6-Ld Wounds. 	^	^	
+eketsp04	Lore of Metal - Meteoric Ironclad	spel	N/A	0	1	itst:race=pk		End Times Spell. Augment. 15+ to Cast. Range 24", target gains Ward Save 2+ until start of caster's next magic phase. 	^	^	
+eketsp12	Lore of Nehekhara - Return of the Golden Age	spel	N/A	0	1	itst:race=pk		End Times Spell. Augment. 20+ to Cast. Until start of caster's next Magic phase, all friendly units from Tomb Kings army book gain +1 to WS, St and In. 	^	^	
+eketsp21	Lore of Nurgle - Grandfather Nurgle Circle of Life	spel	N/A	0	1	itst:race=pk		End Times Spell. Direct damage. 25+ to Cast. Range 36". Causes 5D6 hits wounding on 4+ with no armour saves. If 10 or more Wounds are caused, Great Unclean One (for DOC) or Daemon Prince of Nurgle (for WOC) is summoned within 12"of the target. Summoned model can be worth up to 375 points.	^	^	
+eketsp07	Lore of Shadow - Bridge of Shadows	spel	N/A	0	1	itst:race=pk		End Times Spell. Augment. 15+ to Cast. Range 24". Target unit is removed and placed anywhere on battlefield within line of sight of the Wizard. Unit may change facing, but must keep the same formation.	^	^	
+eketsp22	Lore of Slaanesh - Song of Seduction	spel	N/A	0	1	itst:race=pk		End Times Spell. Hex. 20+ to Cast. Remains in Play. Range 24". Target unit reduce Ld by 2 and comes under caster's control for as long as spell lasts. At the end of each subsequent Magic phase unit takes a Ld test on modified Ld, if they pass spell is dispelled.	^	^	
+eketsp14	Lore of Undeath - Malediction of Nagash	spel	N/A	0	1	itst:race=pk		End Times Spell. Hex. 20+ to Cast. All enemy units within 24" halve the Strength characteristic on their profile (rnounding up) until start of caster's next Magic phase.	^	^	
+eketsp11	Lore of Vampires - The Army of Doom Keep	spel	N/A	0	1	itst:race=pk		End Times Spell. Summoning. 25+ to Cast. Place a unit of Grave Guard and Wight King within 36". Combined cost of GG and WK can be up to 300 points. WK must be deployed as the part of the unit.	^	^	
+eketsp13	Lore of Wild - The Ruiner of Wrought	spel	N/A	0	1	itst:race=pk		End Times Spell. 25+ to Cast. Target all buildings and war machines on battlefield. WM suffer D3 St10 hits. Buildings collapse and are removed on 4+, units inside suffer 4D6 S6 hits, and are placed in place of fallen structure. 	^	^	
+eketsp18	Skaven Spells of Plague - The Great Red Pox	spel	N/A	0	1	itst:race=pk		End Times Spell. Cast on 30+. All units (friend or foe) within 24" are affected on 4+, Clan Pestilens units are affected on 5+. Models in affected units must test To or be removed as casualties.	^	^	
+eketsp19	Skaven Spells of Ruin - Pit of the Underworld	spel	N/A	0	1	itst:race=pk		End Times Spell. 20+ to Cast. Place a marker anywhere on the battlefield. Roll D6 at the start of every subsequent Magic phase. On 5+ Pit opens - place large round template over the marker. Any model touched must take In test or is removed. Any building touched will collapse and is removed along with any unit inside.	^	^	
+eketsp16	Spells of Big Waaagh!	spel	N/A	0	1	itst:race=pk		End Times Spell. Summoning. 15+ to Cast. Place Idol of Gork within 18" of the caster. Use rules from WFB Rulebook. In addition all friendly Orc & Goblin units within 12" re-roll failed To Hit rolls. 	^	^	
+eketsp17	Spells of Little Waaagh!	spel	N/A	0	1	itst:race=pk		End Times Spell. Direct damage. 15+ to Cast. Range: 24". Enemy character suffers D6 - To Wounds with no armour saves. After that caster steal chosen magic item from target. If caster does not already have item of this type, he may use it. If he has, item is destroyed.	^	^	
+^
+^
+^
+ekmagic	eketsp01	cost
+ekmagic	eketsp02	cost
+ekmagic	eketsp03	cost
+ekmagic	eketsp04	cost
+ekmagic	eketsp05	cost
+ekmagic	eketsp06	cost
+ekmagic	eketsp07	cost
+ekmagic	eketsp08	cost
+ekmagic	eketsp09	cost
+ekmagic	eketsp10	cost
+ekmagic	eketsp11	cost
+ekmagic	eketsp12	cost
+ekmagic	eketsp13	cost
+ekmagic	eketsp14	cost
+ekmagic	eketsp15	cost
+ekmagic	eketsp16	cost
+ekmagic	eketsp17	cost
+ekmagic	eketsp18	cost
+ekmagic	eketsp19	cost
+ekmagic	eketsp20	cost
+ekmagic	eketsp21	cost
+ekmagic	eketsp22	cost
+ekmagic	eketsp00	cost
+pkmaleki	mg4lvl	incl
+pkmaleki	mgfire	incl
+pkmaleki	mgshow	cost
+pkmaleki	dkdark	incl
+pkmaleki	dkshow	cost
+pkmaleki	mgmiscas	cost
+pkmaleki	genera24	cost
+ekmaleki	genera24	cost
+ekmaleki	mgshadow	incl
+ekmaleki	mgshow	cost
+ekmaleki	mgmiscas	cost
+ekmaleki	mg5lvl	incl
+hatyrion	general	cost
+hatyrion	hamalhan	incl
+hatyrion	haskelet	cost
+hatyrion	frenzy	incl
+pkimrik	general	cost
+pkalarie	mg4lvl	incl
+pkalarie	mglife	incl
+pkalarie	mglight	incl
+pkalarie	hehigh	incl
+pkalarie	heshow	cost
+pkalarie	mgshow	cost
+pkalarie	mgmiscas	cost
+pkalarie	general	cost
+ekalarie	mg5lvl	incl
+ekalarie	mglife	incl
+ekalarie	mgshow	cost
+ekalarie	mgmiscas	cost
+ekalarie	general	cost
+ektyrion	general	cost
+ektyrion	hamalhan	incl
+ekcaradr	general	cost
+ekcaradr	mgfire	incl
+ekcaradr	mgshow	cost
+ekcaradr	mgmiscas	cost
+ekcaradr	mg3lvl	incl
+^
+^
+ekmsg01	Only One Caradryan	Only one version of Caradryan may be taken.
+^

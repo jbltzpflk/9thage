@@ -1,0 +1,554 @@
+Description: Core Files - General Information
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, bugs - email - mach_5@rocketmail.com
+^
+Cathay	ca	0			Hero:any,Rare:any		hide	Just in case I want to include them in future...
+Estalia	es	0			Hero:any,Rare:any		hide	Just in case I want to include them in future...
+Fimir	fi	0			Hero:any,Rare:any		hide	Just in case I want to include them in future...
+Generics	cr	0			Hero:any,Rare:any		hide	Modified by DeBelial, 31-10-2014
+Ignore (DO NOT DELETE)	sl	0			Hero:any,Rare:any		hide	An old Slann army list... it's easier to leave this here than hunt down and delete all the occurances of the 'sl' race in all the other files........ 
+Kingdoms of Ind	in	0			Hero:any,Rare:any		hide	Just in case I want to include them in future...
+Tilea	ti	0			Hero:any,Rare:any		hide	Just in case I want to include them in future...
+^
+crdarkem	Dark Emissary		Lord	Regiments of Renown	Character	1:1	265	7	type:Wiz;type:Albion;type:ward	umax:1;race:br,do,dk,og,vm,sk,ch,tk,em,dw,ok,dm,mc;lglx:!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=d)&!(race=vm&mode=g)&!(race=ok&mode=a)			+1 to cast; 5+ Ward Save	Dogs of War; Counts as a Hero and Rare choice; Lvl 4 Wizard w/ spec. spell list; Incls Staff of Darkness (+1 to cast), and The Spiral (5+ Ward Save); Player may take 1-3 Fenbeasts as a Rare slot		4	3	3	3	3	3	3	1	8	7	5	4	2	1	4	0	0
+crtruth	Truthsayer		Lord	Regiments of Renown	Character	1:1	265	7	type:Wiz;type:Albion;type:ward	umax:1;race:br,dw,do,em,og,he,we,lz,tk,ok;lglx:!(race=he&mode=a)&!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=e)&!(race=vm&mode=g)&!(race=ok&mode=a)			+1 to dispel; 4+ Ward Save	Dogs of War; Lvl 3 Wizard w/ spec. spell list; Counts as a Hero and Rare choice; Incls Staff of Light (+1 to dispel & Halberd), and Trikele (4+ Ward Save); Player may take 1-3 Fenbeasts as a Rare slot		4	4	3	4	4	3	4	2	9	7	4	3	2	1	3	0	0
+crforgat	Reinforced Gates		Hero	Siege		1	20	0		umax:1;race:br,dw,do,dk,em,og,vm,he,we,sk,ch,tk,lz		-1 mod to Damage chart.		Reinforced Gate for Castle		0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0
+crzompir	Zombie Pirates of the Vampire Coast		Core	Alternate Rules	infantry	20:20	6	0	calc:Num=#;dflt:ncotnw	umax:1;race:do,ok,og,sk,ch,tk,vm,dk;lglx:!(race=vm&mode=h);reqd:type=ebonyskulls-msg=crmsg6		Aquatic; Braindead; Undead		From the Conquest of the New World campaign; Must be summoned using the Ebony Skulls magic item; To use Zombie Pirates in the Conquest of the New World campaign, select the relevant option to make them a Special choice		4	3	0	3	3	1	0	1	2	7	7	0	0	1	0	0	0
+crfenbes	Fenbeasts		Rare	Regiments of Renown	Monsters	1:3	85	0	calc:Num=#;xcmp:Core-race=em-mode=b;attr:Type="MB"	reqd:type=Albion-msg=crmsg5;race:br,dw,do,dk,em,og,vm,he,we,sk,ch,tk,lz,ok,dm;umax:1u;lglx:!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=d)&!(race=vm&mode=g)&!(race=ok&mode=a)		Monstrous Beast (Stomp)	Single Model; Unbreakable; Fear; Fen-walker; No Will; Spec Regenerate	Dogs of War; Up to 3 for a Rare slot; Single Model; Unbreakable; Fear; Fen-walker: no movement penalty for fens, marshes, morasses and similarly swampy terrain; No Will: Removed from play if Truthslayer/Dark Emissary is removed from play; Special Regenerate: have Regeneration while in swampy terrain - may not regenerate magical attacks.		6	3	0	5	5	4	2	3	10	7	7	0	0	4	0	0	0
+^
+animosit	Animosity		Priority	N/A	0	apnd:foot		Animosity: At beginning of OnG turn, roll a D6 for every Orc and Goblin unit >= 5 models: 1 = Squabble, Unit can do nothing this round including cast spells, 2-5 = Plan's a good un, Unit Acts Normally, 6 = We'll Show 'em, unit moves d6 towards nearest visible enemy or straight ahead if none visible, counts as charging if touching an enemy, enemy may only hold or flee, the Orc player needs not make any psyche tests, Black Orc Characters negate rolls of one but do D6 str5 hits getting them back in order (counts as a 2-5 roll)		
+chamstat	Champion Stats		Priority	N/A	0	hide;chld:champ@At-1-base;chld:champ@Bs+1-base;olgl:!unit=herider			Overrides champion stats with ballistic champion stats.	
+crdaem	Dark Emissary Magic		Priority	N/A	0	type:Daem;spec:+spel;show:crshow;show:crfull				
+crraresl	Extra Rare Slot		Priority	N/A	0	acmp:Rare+1u;hide				
+nocont	Gate Removal		Priority	N/A	0	acmp:Core-1u;hide				
+Gen10	General		Priority	N/A	0	type:Gen10;utyp:Ld10;hide				
+Gen5	General		Priority	N/A	0	type:Gen5;utyp:Ld5;hide				
+Gen6	General		Priority	N/A	0	type:Gen6;utyp:Ld6;hide				
+Gen7	General		Priority	N/A	0	type:Gen7;utyp:Ld7;hide				
+Gen8	General		Priority	N/A	0	type:Gen8;utyp:Ld8;hide				
+Gen9	General		Priority	N/A	0	utyp:Ld9;type:Gen9;hide				
+genera18	General	Gen	Priority	N/A	0	type:general;lglx:!(race=vm&!mode=h);more:Gen10=incl;more:Gen9=incl;more:Gen8=incl;more:Gen7=incl;more:Gen6=incl;more:Gen5=incl;more:tkgen=incl	Inspiring Presence: Units within 18" may use General's Leadership.		Select Character to be General (highest Ld or your choice if tie).	Increased Inspiring Presence range
+genera24	General	Gen	Priority	N/A	0	type:general;lglx:!(race=vm&!mode=h);more:Gen10=incl;more:Gen9=incl;more:Gen8=incl;more:Gen7=incl;more:Gen6=incl;more:Gen5=incl;more:tkgen=incl	Inspiring Presence: Units within 24" may use General's Leadership.		Select Character to be General (highest Ld or your choice if tie).	Increased Inspiring Presence range
+generaem	General	Gen	Priority	N/A	0	type:general;type:steadymengeneral;lglx:!(race=vm&!mode=h);more:Gen10=incl;more:Gen9=incl;more:Gen8=incl;more:Gen7=incl;more:Gen6=incl;more:Gen5=incl;more:tkgen=incl	Inspiring Presence: Units within 12" (18" if LT) may use General's Leadership		Select Character to be General (highest Ld or your choice if tie).	General for Empire characters with Steady men! special rule.
+general	General	Gen	Priority	N/A	0	type:general;lglx:!(race=vm&!mode=h);more:Gen10=incl;more:Gen9=incl;more:Gen8=incl;more:Gen7=incl;more:Gen6=incl;more:Gen5=incl;more:tkgen=incl;slct:tkmasmas=auto;utyp:!higherstateofmind	Inspiring Presence: Units within 12" (18" if LT) may use General's Leadership		Select Character to be General (highest Ld or your choice if tie).	
+genjarl	General	Gen	Priority	N/A	0	type:general;lglx:!(race=vm&!mode=h);more:Gen10=incl;more:Gen9=incl;more:Gen8=incl;more:Gen7=incl;more:Gen6=incl;more:Gen5=incl;more:tkgen=incl;slct:tkmasmas=auto;utyp:!higherstateofmind;spec:+cgif	Inspiring Presence: Units within 12" (18" if LT) may use General's Leadership		Select Character to be General (highest Ld or your choice if tie).	
+heromnt	Hero Mount		Priority	N/A	0	show:lancelrd;show:lancehro;show:sprmtlrd;show:sprmthro;show:shwlrd;show:shwhro;over:sprlrd=delete;over:sprhro=delete;hide;type:mounted;dtyp:skirmishers;dtyp:foot;dtyp:infantry;show:lancedlr;show:lancedhr;show:sprmtrp2				
+approval	Opponent's Approval		Priority	N/A	0					
+crtruth	Truthsayer Magic		Priority	N/A	0	type:Truth;stat:St+1;spec:+spel				
+rare2	+2 Rare Choices		First	N/A	0	hide;acmp:Rare+2u				
+bard10	Barding	Bd	First	Brd	10	more:save1=incl;chld:mount@Mv-1				
+bard15	Barding	Bd	First	Brd	15	more:save1=incl;chld:mount@Mv-1				
+bardhro	Barding	Bd	First	Brd	4	more:save1=incl;chld:mount@Mv-1;xcst:3-unit=vmcaval;xcst:2-unit=emengr				
+bardhro2	Barding	Bd	First	Brd	3	more:save1=incl				Black Knights Bardong - does not decrease steed movement
+bardinc	Barding	Bd	First	Brd	0	chld:mount@Mv-1				
+bardlrd	Barding	Bd	First	Brd	5	more:save1=incl;chld:mount@Mv-1				
+bardtrp	Barding	Bd	First	Brd	2	more:save1=incl;chld:mount@Mv-1				
+bardtrp1	Barding	Bd	First	Brd	1	more:save1=incl;chld:mount@Mv-1				
+cotnw	CotNW		First	Oth	0				Zombie Pirates are not legal outside the Conquest of the New World, except as a Rare choice for VC	
+frenzy	Frenzy	Fzy	First	N/A	0	stat:At+1;chld:champ@At+1;chld:crew@At+1;type:frenzy	Immune to Psychology. Frenzy ends when unit loses combat.			
+frenzy2	Frenzy	Fzy	First	N/A	0	stat:At+1;chld:champ@At+1;chld:crew@At+1;glob:incl;utyp:givefrenzy&!frenzy;hide	Immune to Psychology. Frenzy ends when unit loses combat.			This is included for Chaos characters armed with the Black Maul, which gives them frenzy.  It also checks to make sure the character does not already have frenzy (ie, if it has been given the Mark of Khorne).
+frenzymt	Frenzy	Fzy	First	N/A	0	stat:At+1;chld:champ@At+1;chld:crew@At+1;chld:mount@At+1;type:frenzy	Immune to Psychology. Frenzy ends when unit loses combat.			
+ncotnw	Not CotNW		First	Oth	0	lglx:race=vm;xcmp:Rare			Zombie Pirates are a Special Choice in the Conquest of the New World campaign but a Rare choice outside it	
+defrenzy	Witchbrew Frenzy	DFzy	First	N/A	0	stat:At+2;chld:champ@At+2;chld:crew@At+2;type:frenzy;over:frenzy=disable	Immune to Psychology. Frenzy ends when unit loses combat.			
+daem1	Dk Em 1 - Bolt of Dark Light		SpellType	N/A	0	utyp:Daem;apnd:foot;hide	Cast 7+; Magic Missile; Rng 18"; D6 S5 hits			
+daem2	Dk Em 2 - Betrayal in Death		SpellType	N/A	0	utyp:Daem;apnd:foot;hide	Cast 7+; Rng 18"; Cast on enemy unit in CC; Lasts until caster's next turn; models killed by enemy in combat do 1 At at base S against other models; mounted models - only riders strike; comrades killed count towards CR			
+daem3	Dk Em 3 - Nightmare		SpellType	N/A	0	utyp:Daem;apnd:foot;hide	Cast 7+; LOS; Target: Enemy not in CC; Causes Panic test			
+daem4	Dk Em 4 - Curse of Dark Master		SpellType	N/A	0	utyp:Daem;apnd:foot;hide	Cast 8+; RiP; Target: any enemy unit; unit suffers -1 to hit			
+daem5	Dk Em 5 - Fog of Death		SpellType	N/A	0	utyp:Daem;apnd:foot;hide	Cast 10+; Every enemy unit take D6 S3 hits; Every Friendly unit takes D6 S3 hits on roll of 1-3			
+daem6	Dk Em 6 - Coils of the Serpent		SpellType	N/A	0	utyp:Daem;apnd:foot;hide	Cast 12+; Rng 12"; Target: single enemy model not in CC; victim takes To test; if Failed, victim immediately dies; no Ar Sv or Ward Saves			
+ebony	Ebony Skulls	Ebony	SpellType	N/A	0			Not deployed; Summon with item in any water feature or within 18" from bearer; Cause Terror until end of turn if summoned in water feature	Prints description of how they're summoned; Zombie Pirates aren't deployed and have to be summoned using The Ebony Skulls, a magic items that can be taken by any character; If the spell contained in the item is succesfully cast, place a Zombie Pirate anywhere on the table in a water feature or within 18" of the bearer, and form up a unit around it anyway you want, 1" from the enemy; Cause Terror on turn they are summoned if summoned in a water feature	
+fenbest	Elemental Power		SpellType	N/A	0	utyp:Albion;apnd:foot;hide	Cast 6+; Rng 18"; Heal 1 Fenbeast D3 Wos (up to max of 4)			
+truth1	Truth 1 - Wings of Fate		SpellType	N/A	0	utyp:Truth;apnd:foot;hide	Cast 5+; Magic Missile; Rng: 24"; 2d6 S2 hits			
+truth2	Truth 2 - Light of Battle		SpellType	N/A	0	utyp:Truth;apnd:foot;hide	Cast 6+; Target: 1 Friendly unit, even if CC; unit gains 5+ Ward Save until caster's next turn			
+truth3	Truth 3 - Gift of Life		SpellType	N/A	0	utyp:Truth;apnd:foot;hide	Cast 7+; adds 1 model back to any units that have taken casualties; no effect on units destroyed or fled off table; restores 1 Wo on characters; chariots; and models w/ 4+ Wos; No effect on war machines except regaining 1 crew member 			
+truth4	Truth 4 - Blessing of Valor		SpellType	N/A	0	utyp:Truth;apnd:foot;hide	Cast 8+; RiP; Target: Friendly unit, even in CC; unit +1 to all rolls to hit			
+truth5	Truth 5 - Boon of Courage		SpellType	N/A	0	utyp:Truth;apnd:foot;hide	Cast 8+; Target: Friendly unit, even in CC; Makes unit unbreakable til next caster's turn; Fleeing unit immediately rallies, regardless of # of models.			
+truth6	Truth 6 - Voice of Command		SpellType	N/A	0	utyp:Truth;apnd:foot;hide	Cast 9+; unit takes Ld test; if failed unit cannot move or shoot in its next move/shoot phases; No effect on units immune to psychology			
+2ndhdlr2	2ndWeapon	xhw	Weapon	2Hd	2	stat:At+1;chld:champ@At+1;over:choppa2=delete;slct:choppa2=incl;over:okclub=delete;utyp:!mounted;stat:In+1;chld:champ@In+1		Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	
+2ndhwhr8	2ndWeapon	xhw	Weapon	2Hd	8	stat:At+1;chld:champ@At+1		+1A if on foot	Gives +1A when on foot.	
+2ndhwhro	2ndWeapon	xhw	Weapon	Wep,2Hd	4	stat:At+1;stat:In+1;over:choppa=delete;slct:choppa2=incl;utyp:!mounted		Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	
+2ndhwlr3	2ndWeapon	xhw	Weapon	2Hd	3	utyp:!mounted;stat:At+1;stat:In+1;chld:champ@At+1;chld:champ@In+1;over:choppa2=delete;slct:choppa2=incl;over:okclub=delete		Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	
+2ndhwlrd	2ndWeapon	xhw	Weapon	2Hd	6	stat:At+1;chld:champ@At+1;over:choppa2=delete;slct:choppa2=incl;xcst:10-unit=oklord;over:okclub=delete		+1A if on foot	Gives +1A when on foot.	
+2ndhwogr	2ndWeapon	xhw	Weapon	2Hd	6	stat:At+1;chld:champ@At+1		+1A if on foot	Gives +1A when on foot.	
+2ndhwt10	2ndWeapon	xhw	Weapon	N/A	10	stat:At+1;chld:champ@At+1		+1A if on foot	Gives +1A when on foot.	
+2ndhwtr1	2ndWeapon	xhw	Weapon	2Hd	1	stat:At+1;chld:champ@At+1;stat:In+1;chld:champ@In+1		Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	
+2ndhwtr2	2ndWeapon	xhw	Weapon	2Hd	0	stat:At+1;chld:champ@At+1;over:choppa=delete;slct:choppa2=incl		+1A if on foot	Gives +1A when on foot.	
+2ndhwtr3	2ndWeapon	xhw	Weapon	2Hd	3	stat:At+1;chld:champ@At+1		+1A if on foot	Gives +1A when on foot.	
+2ndhwtr4	2ndWeapon	xhw	Weapon	2Hd	4	stat:At+1;chld:champ@At+1;over:okclub=delete;xcst:8-unit=okbulrid;stat:In+1;chld:champ@In+1		Requires Two Hands. +1 Attack and +1 Initiative. Foot models only.	Requires Two Hands. +1 Attack and +1 Initiative. Foot models only.	
+2ndhwtr5	2ndWeapon	xhw	Weapon	2Hd	0	stat:At+1;chld:gs@At+1		+1A if on foot	Gives +1A when on foot.	
+2ndhwtr8	2ndWeapon	xhw	Weapon	N/A	8	stat:At+1;chld:champ@At+1		+1A if on foot	Gives +1A when on foot.	
+2ndhwtrp	2ndWeapon	xhw	Weapon	2Hd	2	stat:At+1;stat:In+1;chld:champ@At+1;chld:champ@In+1;over:choppa=delete;slct:choppa2=incl;over:showtrp2=deselect		Requires Two Hands. +1 Attack and +1 Initiative. Foot models only.	Requires Two Hands. +1 Attack and +1 Initiative. Foot models only.	
+2ndwhalf	2ndWeapon	xhw	Weapon	2Hd	0.5	stat:At+1;chld:champ@At+1;over:choppa=delete;slct:choppa2=incl;over:showtrp2=deselect		+1A if on foot	Gives +1A when on foot.	
+choppa	Choppa	Cho	Weapon	N/A	0			On foot, +1 Strength in 1st round of combat.	On foot, +1 Strength in 1st round of combat. Works for 1 or 2 choppas. With a shield, also get +1 Armour Save in close combat (like other hand weapons).	
+choppa2	Choppa	Cho	Weapon	N/A	0		When used mounted counts as a normal handweapon.			
+flailhro	Flail	Fla	Weapon	2Hd	4	xcst:2-parrace=ch		+2S in 1st rnd of HtH	+2S in first round of combat	
+flaillrd	Flail	Fla	Weapon	2Hd	6	xcst:3-parrace=ch		+2S in 1st rnd of HtH	+2S in first round of combat	
+flailtr1	Flail	Fla	Weapon	2Hd	1	xcst:3-unit=emmaster		+2S in 1st rnd of HtH	+2S in first round of combat	
+flailtr3	Flail	Fla	Weapon	2Hd	3			+2S in 1st rnd of HtH	+2S in first round of combat	
+flailtrp	Flail	Fla	Weapon	2Hd	2	stat:St+2;chld:champ@St+2		Requires Two Hands. +2 Strength. Close Combat Attacks allocated at a model with Flail has a +1 bonus when rolling To Hit.	Requires Two Hands. +2 Strength. Close Combat Attacks allocated at a model with Flail has a +1 bonus when rolling To Hit.	
+2hand20	Great Weapon	GW	Weapon	2Hd	20	stat:St+2;chld:champ@St+2;over:okclub=delete;type:GreatWeapon		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2hand8pt	Great Weapon	GW	Weapon	2Hd	8	stat:St+2;chld:champ@St+2;over:okifist=delete;over:okahw3=delete		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handhe	Great Weapon	GW	Weapon	2Hd	2	stat:St+2;chld:champ@St+2		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handhr2	Great Weapon	GW	Weapon	N/A	4	stat:St+2;type:GreatWeapon		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	For Dwarf Master Engineer - can be combined with 1/2 pistol(s)
+2handhro	Great Weapon	GW	Weapon	2Hd	4	stat:St+2;type:GreatWeapon		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handl12	Great Weapon	GW	Weapon	2Hd	12	stat:St+2;chld:champ@St+2;over:okclub=delete;type:GreatWeapon		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handlrd	Great Weapon	GW	Weapon	2Hd	6	stat:St+2;chld:champ@St+2;over:okclub=delete;type:GreatWeapon		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handmt0	Great Weapon		Weapon	2Hd	0	stat:St+2		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handogr	Great Weapon	GW	Weapon	2Hd	6	stat:St+2;chld:champ@St+2		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handtr2	Great Weapon	GW	Weapon	N/A	0	stat:St+2;chld:champ@St+2;over:2ndhwtrp=delete		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handtr3	Great Weapon	GW	Weapon	2Hd	3	stat:St+2;chld:champ@St+2		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handtr4	Great Weapon	GW	Weapon	2Hd	0	stat:St+2;chld:gs@St+2		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+2handtrp	Great Weapon	GW	Weapon	2Hd	2	stat:St+2;chld:champ@St+2;xcst:6-unit=emmaster;type:GreatWeapon		Requires Two Hands. +2 Strength. Strikes at initiative 0.	Requires Two Hands. +2 Strength. Strikes at initiative 0.	
+halb3	Halberd	Hal	Weapon	2Hd	3	stat:St+1	Requires Two Hands. +1 Strength.			
+halhro	Halberd	Hal	Weapon	2Hd	4	stat:St+1	Requires Two Hands. +1 Strength.			
+halhro8	Halberd	Hal	Weapon	2Hd	8	stat:St+1	Requires Two Hands. +1 Strength.			
+hallrd	Halberd	Hal	Weapon	2Hd	6	stat:St+1;chld:champ@St+1;xcst:8-unit=helord;xcst:10-unit=emmaster	Requires Two Hands. +1 Strength.			
+halogr	Halberd	Hal	Weapon	2Hd	6	stat:St+1;chld:champ@St+1	Requires Two Hands. +1 Strength.			
+haltrp	Halberd	Hal	Weapon	2Hd	2	stat:St+1;chld:champ@St+1	Requires Two Hands. +1 Strength.			
+haltrp1	Halberd	Hal	Weapon	2Hd	1	stat:St+1;chld:champ@St+1	Requires Two Hands. +1 Strength.			
+lancedhr	Lance	La	Weapon	Lnc	4	spec:+armr		+2S on charge	+2S when charging	DOW lance
+lancedlr	Lance	La	Weapon	Lnc	6			+2S on charge	+2S when charging	DOW lance
+lancehr2	Lance	La	Weapon	Wep,Lnc	4	utyp:mounted;more:heromnt=incl		+2S on charge	+2S when charging	
+lancehro	Lance	La	Weapon	Wep,Lnc	4	spec:+armr;xcst:5-unit=tkprince		+2S on charge	+2S when charging	
+lancelr2	Lance	La	Weapon	Wep,Lnc	6	utyp:mounted;more:heromnt=incl		+2S on charge	+2S when charging	
+lancelrd	Lance	La	Weapon	Wep,Lnc	6	xcst:15-unit=emmaster;xcst:7-unit=helord;xcst:7-unit=dklord;xcst:10-unit=dkhero;xcst:15-unit=tkking;xcst:15-unit=weforest;xcst:10-unit=weglader;xcst:15-unit=lzoldbld;xcst:15-unit=lzscarvt		+2S on charge	+2S when charging	
+lancetrp	Lance	La	Weapon	Wep,Lnc	2			+2S on charge	+2S when charging	
+lanceupg	Lance	La	Weapon	N/A	1	over:sprmtrp1=deselect;over:sprmtrp2=deselect		+2S on charge	+2S when charging	
+sprmthr2	Light Lance	Spr	Weapon	Wep	4	more:heromnt=incl;utyp:mounted		+1S on charge	+1S when charging	
+sprmthro	Light Lance	Spr	Weapon	Wep	4	xcst:2-race=og;xcst:2-race=we;xcst:2-race=tk;xcst:3-race=lz;xcst:2-unit=brcastel		+1S on charge if mounted	+1S when charging if mounted	
+sprmtlr2	Light Lance	Spr	Weapon	Wep	6	more:heromnt=incl;utyp:mounted		+1S on charge	+1S when charging	
+sprmtlrd	Light Lance	Spr	Weapon	Wep	6	xcst:3-race=og;xcst:3-race=we;xcst:3-race=tk		+1S on charge	+1S when charging	
+sprmtr1a	Light Lance	Spr	Weapon	N/A	1			+1S on charge	+1S when charging	
+sprmtrp1	Light Lance	Spr	Weapon	Wep	1			+1S on charge	+1S when charging	
+sprmtrp2	Light Lance	Spr	Weapon	Wep	2			+1S on charge	+1S when charging	
+sprmtrp4	Light Lance	Spr	Weapon	Wep	2			Crew +1S on charge	Crew +1S when charging	
+sprmttrp	Light Lance	Spr	Weapon	Wep	0			+1S on charge	+1S when charging	
+mornhr4	Morningstar	Mst	Weapon	Wep	4			+1S in 1st turn of HtH	+1S in first round of combat	
+mornhro	Morningstar	Mst	Weapon	Wep	2			+1S in 1st turn of HtH	+1S in first round of combat	
+mornlr6	Morningstar	Mst	Weapon	Wep	6			+1S in 1st turn of HtH	+1S in first round of combat	
+mornlrd	Morningstar	Mst	Weapon	Wep	3			+1S in 1st turn of HtH	+1S in first round of combat	
+morntrp	Morningstar	Mst	Weapon	Wep	1	xcst:0-unit=emmaster;xcst:0-unit=emlegkni		+1S in 1st turn of HtH	+1S in first round of combat	
+morntrp0	Morningstar	Mst	Weapon	N/A	0			+1S in 1st turn of HtH	+1S in first round of combat	
+pistol5	Pistol	pst	Weapon	N/A	5			12" Range. S4, Armour piercing, Quick to fire	12" Range. S4, Armour piercing, Quick to fire	
+psthro	Pistol	pst	Weapon	Rg1	7	stat:At+1		12" Range. S4, Armour piercing, Quick to fire	12" Range. S4, Armour piercing, Quick to fire	
+pstlrd	Pistol	pst	Weapon	Rg1	10			12" Range. S4, Armour piercing, Quick to fire	12" Range. S4, Armour piercing, Quick to fire	
+psttrp	Pistol	pst	Weapon	Wep	4	stat:At+1;chld:champ@At+1		12" Range. S4, Armour piercing, Quick to fire	12" Range. S4, Armour piercing, Quick to fire	
+empislan	Pistol & lance	pslan	Weapon	Wep	4	xcst:2-unit=emmaster;xcst:2-unit=emlegkni		12" Range. S4, Armour piercing, Quick to fire	12" Range. S4, Armour piercing, Quick to fire	21-09-2005 For Legendary Knightly Orders
+scythe	Scythed Wheels	Scy	Weapon	N/A	15	stxt:At+"+1"		+1 impact hits	+1 impact hits on charge	
+sprhalf	Spear	Spr	Weapon	Wep	0.5	over:ogsbhalf=delete		Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	
+sprhro	Spear	Spr	Weapon	Wep	4	xcst:2-parrace=we;utyp:!mounted		Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	
+sprhro8	Spear	Spr	Weapon	Wep	8			Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	
+sprlrd	Spear	Spr	Weapon	Wep	6	xcst:5-unit=weforest;xcst:3-unit=chwarlor;utyp:!mounted;xcst:5-unit=weglader		Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	
+sprtrp	Spear	Spr	Weapon	Wep	0	over:ogsbow=delete		Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	
+sprtrp1	Spear	Spr	Weapon	Wep	1			Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	
+sprtrp2	Spear	Spr	Weapon	Wep	2	utyp:!mounted		Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	
+sprtrp3	Spear	Spr	Weapon	Wep	3			Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	
+sprtrp4	Spear	Spr	Weapon	Wep	0			Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	Fight in Extra Ranks. Armour Piercing (1). Lethal Strike against Cavalry, Monstrous Cavalry and Chariots engaged in the front.	For OK Gnoblar Pigback Riders
+bowswap	Bow (swap)	Bow	Missile	Rng	5	slct:chamstat=incl;type:missiles;over:sprmtrp1=delete		24", S3, Volley	Range 24". S3. Volley fire.	
+bowswp2	Bow (swap)	Bow	Missile	Rng	2	slct:chamstat=incl;type:missiles;over:sprmtrp1=delete;xcst:1-unit=herider		24", S3, Volley	Replace Spears with Bows. Range 24". S3. Volley fire.	
+bracehro	Brace of Pistols	Bop	Missile	Rg1	14	stat:At+1;xcst:6-unit=vmwigld		12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	
+bracelrd	Brace of Pistols	Bop	Missile	Rg1	20	stat:At+1		12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	
+bracep10	Brace of Pistols	Bop	Missile	Rg1	10			12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	
+bracetr0	Brace of Pistols	Bop	Missile	Rg1	0	stat:At+1		12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	
+bracetr1	Brace of Pistols	Bop	Missile	N/A	1	stat:At+1;over:guntrp=delete		12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	Zombie Pirate Gunnery Mob weapon option
+bracetr3	Brace of Pistols	Bop	Missile	Rg1	0			12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	
+bracetrp	Brace of Pistols	Bop	Missile	Rg1	4	stat:At+1;stat:In+1;xcst:5-unit=emchhand;over:pistol5=delete		Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Multiple shots (2). Counts as Additional Hand Weapon in Close Combat	Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Multiple shots (2). Counts as Additional Hand Weapon in Close Combat	
+bractrp2	Brace of Pistols	Bop	Missile	Rg1	2	stat:At+1		12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	12" Range. S4, Armour piercing, Quick to fire, Multiple shots (2)	
+xbowhro	Crossbow	xbw	Missile	N/A	4	type:xbow;type:missiles		Range 30”. Strength 4. Unwieldy.	Range 30”. Strength 4. Unwieldy.	
+xbowlrd	Crossbow	xbw	Missile	Rng	15	type:xbow;type:missiles		Range 30”. Strength 4. Unwieldy.	Range 30”. Strength 4. Unwieldy.	
+xbowtrp	Crossbow	xbw	Missile	Rg1	5	slct:chamstat=incl;type:xbow;type:missiles		Range 30”. Strength 4. Unwieldy.	Range 30”. Strength 4. Unwieldy.	
+gunhro	Handgun	Gun	Missile	Rng	14	type:missiles		Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	
+gunhro2	Handgun	Gun	Missile	Rng	10	type:missiles		Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	
+gunlrd	Handgun	Gun	Missile	Rng	20	type:missiles		Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	
+guntrp	Handgun	Gun	Missile	Rng	0	slct:chamstat=incl;type:missiles		Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	
+javelin1	Javelin	Jav	Missile	Rg1	1	type:missiles		Range 12". Strength as user.  Quick to fire.	Range 12". Strength as user.  Quick to fire.	
+javhro	Javelin	Jav	Missile	Rg1	6	type:missiles		Range 12". Strength as user.  Quick to fire.	Range 12". Strength as user.  Quick to fire.	
+javlrd	Javelin	Jav	Missile	Rg1	9	type:missiles		Range 12". Strength as user.  Quick to fire.	Range 12". Strength as user.  Quick to fire.	
+javtrp	Javelin	Jav	Missile	Rg1	3	type:missiles		Range 12". Strength as user.  Quick to fire.	Range 12". Strength as user.  Quick to fire.	
+longhro	Longbow	LB	Missile	Rng	10	type:missiles;xcst:2-unit=brcastel		30", S3, Volley	Range 30". S3. Volley fire.	
+longlrd	Longbow	LB	Missile	Rng	15	type:missiles;xcst:4-unit=helord;xcst:4-unit=hehero		30", S3, Volley	Range 30". S3. Volley.	
+longtrp	Longbow	LB	Missile	Wep,Rng	5	slct:chamstat=incl;type:missiles		30", S3, Volley	Range 30". S3. Volley fire.	
+bowhro	Normal Bow	Bow	Missile	Rng	8	type:missiles		24", S3, Volley	Range 24". S3. Volley fire.	
+bowhro2	Normal Bow	Bow	Missile	Rng	6	type:missiles		24", S3, Volley	Range 24". S3. Volley fire.	
+bowlrd	Normal Bow	Bow	Missile	Rng	12	type:missiles		24", S3, Volley	Range 24". S3. Volley fire.	
+bowtrp	Normal Bow	Bow	Missile	Rng	3	slct:chamstat=incl;type:missiles		24", S3, Volley	Range 24". S3. Volley fire.	
+bowtrp4	Normal Bow	Bow	Missile	Rng	4	slct:chamstat=incl;type:missiles		24", S3, Volley	Range 24". S3. Volley fire.	
+bowtrp5	Normal Bow	Bow	Missile	Rng	5	slct:chamstat=incl;type:missiles		24", S3, Volley	Range 24". S3. Volley fire.	
+bowtrp6	Normal Bow	Bow	Missile	Rng	6	slct:chamstat=incl;type:missiles		24", S3, Volley	Range 24". S3. Volley fire.	
+bowtrp7	Normal Bow	Bow	Missile	Rng	2	slct:chamstat=incl;type:missiles		24", S3, Volley	Range 24". S3. Volley fire.	
+bowtrpog	Normal Bow	Bow	Missile	Wep,Rng	3	slct:chamstat=incl;type:missiles		24", S3, Volley	Range 24". S3. Volley fire.	
+sbowhro	Short Bow	Sbw	Missile	Rng	10	type:missiles;lglx:mode=a		18", S3, Poisoned, Volley	Range 18". S3. Poisoned Attack. Volley fire	
+sbowhrol	Short Bow	Sbw	Missile	Rng	8	type:missiles		18", S3, Poisoned, Volley	Range 18". S3. Poisoned Attack. Volley fire	
+sbowmnt	Short Bow	Sbw	Missile	Rng	3	type:missiles		18", S3, Volley	Range 18". S3. Volley fire	
+sbowmnt1	Short Bow	Sbw	Missile	Rng	1	type:missiles		18", S3, Volley	Range 18". S3. Volley fire	
+sbowmnt2	Short Bow	Sbw	Missile	Rng	2	type:missiles		18", S3, Volley	Range 18". S3. Volley fire	
+sbowtrp	Short Bow	Sbw	Missile	Rng	1	over:shtrp=deselect;over:shwtrp=delete;slct:chamstat=incl;type:missiles		18", S3, Volley	Range 18". S3. Volley fire	
+slinghro	Sling	Sl	Missile	Rg1	4	slct:chamstat=incl;type:missiles		18", 2 shots @ 9", S3	Range 18". Multiple Shots (2) at 9". S3	
+slinglrd	Sling	Sl	Missile	Rg1	6	slct:chamstat=incl;type:missiles		18", 2 shots @ 9", S3	Range 18". Multiple Shots (2) at 9". S3	
+slingtrp	Sling	Sl	Missile	Rg1	1	slct:chamstat=incl;type:missiles;lglx:mode=a		18", 2 shots @ 9", S3	Range 18". Multiple Shots (2) at 9". S3	
+throaxe2	Throwing Axes	TAx	Missile	Rg1	2	type:missiles		Range 6". S: User +1. Quick to fire	Range 6". S: User +1. Quick to fire	
+throwax1	Throwing Axes	TAx	Missile	Rg1	1	type:missiles		Range 6". S: User +1. Quick to fire	Range 6". S: User +1. Quick to fire	
+throwax3	Throwing Axes	TAx	Missile	Rg1	3	type:missiles		Range 6". S: User +1. Quick to fire	Range 6". S: User +1. Quick to fire	
+throwax4	Throwing Axes	TAx	Missile	Rg1	4	type:missiles		Range 6". S: User +1. Quick to fire	Range 6". S: User +1. Quick to fire	
+throtrp2	Throwing Knives	TKn	Missile	Rg1	2	type:missiles		Range 6". S as user. Quick to fire	Range 6". S as user. Quick to fire	
+throwsp1	Throwing Spears	TSpr	Missile	N/A	1	type:missiles		8"; S: User; No movement/range penalties	Range 8". S: User. No penalties for moving & shooting or range.	
+throwspr	Throwing Spears	TSpr	Missile	Rg1	4	type:missiles		8"; S: User; No movement/range penalties	Range 8". S: User. No penalties for moving & shooting or range.	
+throwtrp	Throwing Stars	TSr	Missile	Rg1	4	type:missiles		Range 6". S as user. Quick to fire.	Range 6". S as user. Quick to fire.	
+throww	Throwing Weapons	ThrWp	Missile	N/A	0	type:missiles;xcst:3-unit=chcentig;xcst:2-unit=wcbarb;xcst:1-unit=wcbarh;xcst:1-unit=dwwarrio;xcst:2-unit=dwlong;xcst:3-unit=wcjarl;xcst:3-unit=chwarlor;xcst:2-unit=chwargor;xcst:3-unit=chcenthe		Range 12”. Strength as user. Quick to Fire. Multiple Shots (2).	Range 12”. Strength as user. Quick to Fire. Multiple Shots (2).	
+ha5	Heavy Armour	HvA	Armour	Mus	5	more:save2=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+ha6	Heavy Armour	HvA	Armour	Mus	6	more:save2=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+hahro	Heavy Armour	HvA	Armour	Mus	4	more:save2=incl;type:armour;spec:+rarm-race=dw;utyp:!MagicArmour;over:hela=delete;xcst:10-unit=vmvamp				The "conflict group" Mus has been used to limit mundane armours throughout AB
+halrd	Heavy Armour	HvA	Armour	Mus	6	more:save2=incl;type:armour;spec:+rarm-race=dw;utyp:!MagicArmour;over:hela=delete;xcst:10-unit=vmcount				The "conflict group" Mus has been used to limit mundane armours throughout AB
+haopogr	Heavy Armour	HvA	Armour	Mus	6	more:save2=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+haoptrp	Heavy Armour	HvA	Armour	Mus	2	more:save2=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+hatrp	Heavy Armour	HvA	Armour	Mus	0	utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+haupg1	Heavy Armour	HvA	Armour	N/A	1	more:save1=incl;over:latrp=delete;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+haupg2	Heavy Armour	HvA	Armour	N/A	2	more:save1=incl;over:latrp=delete;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+haupg3	Heavy Armour	HvA	Armour	Mus	3	more:save1=incl;over:latrp=delete;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+haupg4	Heavy Armour	HvA	Armour	N/A	4	base:Sv-2;over:lahro=delete;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+haupg5	Heavy Armour	HvA	Armour	N/A	5	base:Sv-2;over:lahro=delete;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+haupg6	Heavy Armour	HvA	Armour	Mus	6	base:Sv-1;over:latrp=delete;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+la20	Light Armour	LA	Armour	Mus	20	more:save1=incl;type:armour;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+lahro	Light Armour	LA	Armour	Mus	2	more:save1=incl;type:armour;spec:+rarm-race=dw;utyp:!MagicArmour;xcst:1-unit=ogghero;xcst:1-unit=skhero;xcst:1-unit=emhero;xcst:1-unit=weglader				The "conflict group" Mus has been used to limit mundane armours throughout AB
+lahro1	Light Armour	LA	Armour	Mus	1	more:save1=incl;type:armour;spec:+rarm-race=dw;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+lahro5	Light Armour	LA	Armour	Mus	5	more:save1=incl;type:armour;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+lahro6	Light Armour	LA	Armour	Mus	6	more:save1=incl;type:armour;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+lalrd	Light Armour	LA	Armour	Mus	3	more:save1=incl;type:armour;spec:+rarm-race=dw;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+lalrd10	Light Armour	LA	Armour	Mus	10	more:save1=incl;type:armour;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+lalrd9	Light Armour	LA	Armour	Mus	9	more:save1=incl;type:armour;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+laopogr	Light Armour	LA	Armour	Mus	3	more:save1=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+laoptrp	Light Armour	LA	Armour	Mus	1	more:save1=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+laoptrp0	Light Armour	LA	Armour	Mus	0	more:save1=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+laoptrp2	Light Armour	LA	Armour	Mus	2	more:save1=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+laoptrp4	Light Armour	LA	Armour	Mus	4	more:save1=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+latrp	Light Armour	LA	Armour	Mus	0	utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+shhro	Shield	Sh	Shield	N/A	2	more:save1=incl;spec:+rarm-race=dw;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shhro5	Shield	Sh	Shield	N/A	5	more:save1=incl;spec:+rarm-race=dw;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shhro6	Shield	Sh	Shield	N/A	6	more:save1=incl;spec:+rarm-race=dw;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shlrd	Shield	Sh	Shield	N/A	3	more:save1=incl;spec:+rarm-race=dw;utyp:!MagicShield;xcst:5-unit=weforest			+1 AS; Parry (foot models only)	
+shlrd2	Shield	Sh	Shield	N/A	6	more:save1=incl;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shlrd4	Shield	Sh	Shield	N/A	4	more:save1=incl;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shopogr	Shield	Sh	Shield	N/A	3	more:save1=incl;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shoptrp	Shield	Sh	Shield	N/A	1	more:save1=incl;type:shield-child;invs:nodisplay-unit=lzskinks;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shoptrp2	Shield	Sh	Shield	N/A	2	more:save1=incl;type:shield-child;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+showtrp1	Shield	Sh	Shield	N/A	1	more:save1=incl;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+showtrp2	Shield	Sh	Shield	N/A	2	more:save1=incl;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+showtrp3	Shield	Sh	Shield	N/A	3	more:save1=incl;type:shield-child;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shtrhalf	Shield	Sh	Shield	N/A	0.5	more:save1=incl;type:shield-child;invs:nodisplay-unit=lzskinks;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shtrp	Shield	Sh	Shield	N/A	0	invs:nodisplay-unit=lzskinks;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shwhro	Shield	Sh	Shield	N/A	2	more:save1=incl;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shwlrd	Shield	Sh	Shield	N/A	3	more:save1=incl;utyp:!MagicShield			+1 AS; Parry (foot models only)	
+shwtrp	Shield	Sh	Shield	N/A	0	utyp:!MagicShield			+1 AS; Parry (foot models only)	
+btstand	Battle Standard	Btl	Standard	M2H,Bst,Bs1,Bs2	25	catg:btl;over:btnostnd=delete;over:general=delete;over:dwnostnd=delete;over:dknostnd=delete;type:btl;over:chgenerl=delete;over:btnostn2=delete;type:mammoth;dtyp:Ld6;dtyp:Ld7;dtyp:Ld8;dtyp:Ld9;dtyp:Ld10;show:oklook;over:empsthro=delete;over:btnostn3=delete;over:btnost10=delete;over:shhro=delete;over:shwhro=delete	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	empsthro btnost10
+btstand2	Battle Standard	Btl	Standard	M2H,Rng,Rg1,Bst,Bs2	25	catg:btl;over:btnostnd=delete;over:general=delete;type:btl;dtyp:Ld7;dtyp:Ld8;dtyp:Ld9;dtyp:Ld6;type:MagicShield	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	
+btstand3	Battle Standard	Btl	Standard	M2H	15	catg:btl;over:btnostnd=delete;over:general=delete;over:dwnostnd=delete;over:dknostnd=delete;type:btl;over:chgenerl=delete;over:btnostn2=delete;dtyp:Ld7;dtyp:Ld8;dtyp:Ld9;type:MagicShield;spec:-dgft	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	
+btstand4	Battle Standard	Btl	Standard	M2H,Bst,Bs1,Bs2	50	catg:btl;type:btl;over:btnostn2=delete;over:btnostnd=delete;type:MagicShield;utyp:!higherstateofmind	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	This is for the Lizardmen Slann Mage-Priest only, as it does not remove the model's ability to be the General.
+btstand5	Battle Standard	Btl	Standard	M2H,Bst,Bs1,Bs2	0	catg:btl;over:general=delete;over:dwnostn2=delete;type:btl;lglx:race=dw&mode=h;type:MagicShield	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	SOC Dwarf Slayer List BSB
+btstand6	Battle Standard	Btl	Standard	N/A	0	catg:btl;type:btl	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	Ludwig Schwarzhelm
+btstand7	Battle Standard	Btl	Standard	Rng,Rg1,Shd	15	catg:btl;type:btl;dtyp:Ld9;over:general=delete;type:MagicShield	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	Ludwig Schwarzhelm
+btstand8	Battle Standard	Btl	Standard	N/A	25	catg:btl;type:btl;over:general=delete;over:btnostnd=delete;over:btnostn2=delete;over:btnostn3=delete;over:dwnostnd=delete;over:dknostnd=delete;over:chgenerl=delete;type:mammoth;dtyp:Ld6;dtyp:Ld7;dtyp:Ld8;dtyp:Ld9;dtyp:Ld10;show:oklook;show:healpre2;show:okhillgo	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	
+btstand9	Battle Standard	Btl	Standard	N/A	25	catg:btl;type:btl;over:btnostnd=delete;over:btnostn2=delete;over:btnostn3=delete;over:dwnostnd=delete;over:dknostnd=delete;over:chgenerl=delete;type:mammoth;dtyp:Ld6;dtyp:Ld7;dtyp:Ld8;dtyp:Ld9;dtyp:Ld10;show:oklook	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	May be general
+btstanda	Battle Standard	Btl	Standard	N/A	50	spec:+stnd;item:+1;catg:btl;type:btl;over:general=delete;over:btnostnd=delete;over:btnostn2=delete;over:btnostn3=delete;over:dwnostnd=delete;over:dknostnd=delete;over:chgenerl=delete;type:mammoth;dtyp:Ld6;dtyp:Ld7;dtyp:Ld8;dtyp:Ld9;dtyp:Ld10;show:oklook;show:healpre2;show:okhillgo;slct:ogward5=incl	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	Avatar of green gods
+btstange	Battle Standard	Btl	Standard	M2H,Bst,Bs1,Bs2	25	catg:btl;over:btnostnd=delete;over:dwnostnd=delete;over:dknostnd=delete;type:btl;over:chgenerl=delete;over:btnostn2=delete;type:mammoth;dtyp:Ld6;dtyp:Ld7;dtyp:Ld8;dtyp:Ld9;dtyp:Ld10;show:oklook;over:empsthro=delete;over:btnostn3=delete;over:btnost10=delete;type:MagicShield;over:shhro=delete;over:shwhro=delete	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	empsthro btnost10
+btstdbre	Battle Standard	Btl	Standard	N/A	0	catg:btl;type:btl;over:general=delete;over:btnostnd=delete;over:btnostn2=delete;over:btnostn3=delete;over:dwnostnd=delete;over:dknostnd=delete;over:chgenerl=delete;type:mammoth;dtyp:Ld6;dtyp:Ld7;dtyp:Ld8;dtyp:Ld9;dtyp:Ld10;show:oklook	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	
+btstdok	Battle Standard	Btl	Standard	N/A	25	catg:btl;type:btl;over:general=delete;over:btnostnd=delete;over:btnostn2=delete;over:btnostn3=delete;over:btnostn4=delete;over:dwnostnd=delete;over:dknostnd=delete;over:chgenerl=delete;type:mammoth;dtyp:Ld6;dtyp:Ld7;dtyp:Ld8;dtyp:Ld9;dtyp:Ld10;show:oklook;over:brethera=deselect	Hold Your Ground!: Units w/in 12" may re-roll failed Ld tests of any kind, such as Break tests, Rally test, Fear tests, Panic tests and so on.		Makes a character into a Battle Standard Bearer.	Ogre Kingdoms BSB
+st10	Standard	Std	Standard	N/A	10	cost:single;type:standard;show:oklook;show:okhillgo;over:stmg10vt=delete		+1CR	Adds +1 to combat result	
+st12	Standard	Std	Standard	N/A	12	cost:single		+1CR	Adds +1 to combat result	
+st14	Standard	Std	Standard	N/A	14	cost:single		+1CR	Adds +1 to combat result	
+st14b	Standard	Std	Standard	N/A	14	cost:single		+1CR	Adds +1 to combat result	
+st15	Standard	Std	Standard	N/A	15	cost:single;type:standard		+1CR	Adds +1 to combat result	
+st16	Standard	Std	Standard	N/A	16	cost:single		+1CR	Adds +1 to combat result	
+st18	Standard	Std	Standard	N/A	18	cost:single		+1CR	Adds +1 to combat result	
+st20	Standard	Std	Standard	N/A	20	cost:single;show:oklook		+1CR	Adds +1 to combat result	
+st5	Standard	Std	Standard	N/A	5	cost:single		+1CR	Adds +1 to combat result	
+st6	Standard	Std	Standard	N/A	6	cost:single		+1CR	Adds +1 to combat result	
+st8	Standard	Std	Standard	N/A	8	cost:single		+1CR	Adds +1 to combat result	
+stfree	Standard	Std	Standard	N/A	0	cost:single;lglx:(race=ch&mode=g);usiz:min=25-eff		+1CR	Adds +1 to combat result	
+stmg10	Standard	Std	Standard	N/A	10	spec:+stnd;cost:single;item:1;show:oklook;show:okhillgo		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg12	Standard	Std	Standard	N/A	12	spec:+stnd;cost:single;item:1		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg12fr	Standard	Std	Standard	N/A	0	spec:+stnd;cost:single;item:1;lglx:(race=ch&mode=g);usiz:min=16-eff		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg14	Standard	Std	Standard	N/A	14	spec:+stnd;cost:single;item:1		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg15	Standard	Std	Standard	N/A	15	spec:+stnd;cost:single;item:1		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg16	Standard	Std	Standard	N/A	16	spec:+stnd;cost:single;item:1		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg18	Standard	Std	Standard	N/A	18	spec:+stnd;cost:single;item:1		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg20	Standard	Std	Standard	N/A	20	spec:+stnd;cost:single;item:1;show:oklook		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg24	Standard	Std	Standard	N/A	24	spec:+stnd;cost:single;item:1		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg6	Standard	Std	Standard	N/A	6	spec:+stnd;cost:single;item:1		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg8	Standard	Std	Standard	N/A	8	spec:+stnd;cost:single;item:1		+1CR	Allows magic banner; Adds +1 to combat result	
+stmg10vt	Veteran Magic Standard	Std	Standard	N/A	10	spec:+stnd;cost:single;item:1;show:oklook;show:okhillgo;over:st10=delete;type:veteranstandard		+1CR	Single unit in army can take Veteran Magic Standard; Adds +1 to combat result	
+mus10	Musician	Mu	Musician	N/A	10	cost:single		+1CR if tied. +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus12	Musician	Mu	Musician	N/A	12	cost:single		+1CR if tied. +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus15	Musician	Mu	Musician	N/A	15	cost:single		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus20	Musician	Mu	Musician	N/A	20	cost:single		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus3	Musician	Mu	Musician	N/A	3	cost:single		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus4	Musician	Mu	Musician	N/A	4	cost:single		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus5	Musician	Mu	Musician	N/A	5	cost:single		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus6	Musician	Mu	Musician	N/A	6	cost:single;show:dwhorn		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus7	Musician	Mu	Musician	N/A	7	cost:single		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus7d	Musician	Mu	Musician	N/A	7	cost:single;lglx:(race=ch&mode=f)		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus8	Musician	Mu	Musician	N/A	8	cost:single		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+mus9	Musician	Mu	Musician	N/A	9	cost:single		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+musfree	Musician	Mu	Musician	N/A	0	cost:single;usiz:min=16-eff;lglx:(race=ch&mode=g)		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+musfree2	Musician	Mu	Musician	N/A	0	cost:single;usiz:min=25-eff;lglx:(race=ch&mode=g)		+1CR if tied; +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+champ10	Champion		Champion	N/A	10		One model is promoted to Champion (+1A)			
+2fr1UntA	! 2 for 1 Unit (A)		Priority1	N/A	0	hide;type:2For1A;type:2For1A-grand;more:2fr1Slot=incl				"Incl" this option for units that can be taken 2 for 1 Rare choice.  If an army has multiple 2 for 1 units then use a different 2fr1Unt option for each (either A, B, or C)
+2fr1UntB	! 2 for 1 Unit (B)		Priority1	N/A	0	hide;type:2For1B;type:2For1B-grand;more:2fr1Slot=incl				"Incl" this option for units that can be taken 2 for 1 Rare choice.  If an army has multiple 2 for 1 units then use a different 2fr1Unt option for each (either A, B, or C)
+2fr1UntC	! 2 for 1 Unit (C)		Priority1	N/A	0	hide;type:2For1C;type:2For1C-grand;more:2fr1Slot=incl				"Incl" this option for units that can be taken 2 for 1 Rare choice.  If an army has multiple 2 for 1 units then use a different 2fr1Unt option for each (either A, B, or C)
+2fr1Slot	2 for 1 Slot		Priority1	N/A	0	hide;type:1stC;type:1stC-grand;more:2fr1Core=free;more:2fr1Spec=free;more:2fr1Rare=free;more:2fr1Add=incl;more:2fr1Plus=incl				
+2fr1Core	2 for 1 Core		Priority2	N/A	0	name:"Free Choice";ucmp:Core;dtyp:1stC;dtyp:1stC-grand;type:2ndC;type:2ndC-grand;acmp:Core-1u;usiz:max=1;dtyp:guild				This option is show to the user to make the unit a "Free Choice".  
+2fr1Rare	2 for 1 Rare		Priority2	N/A	0	name:"Free Choice";ucmp:Rare;dtyp:1stC;dtyp:1stC-grand;type:2ndC;type:2ndC-grand;acmp:Rare-1u;usiz:max=1				This option is show to the user to make the unit a "Free Choice".  
+2fr1Spec	2 for 1 Special		Priority2	N/A	0	name:"Free Choice";ucmp:Spec;dtyp:1stC;dtyp:1stC-grand;type:2ndC;type:2ndC-grand;acmp:Spec-1u;usiz:max=1				This option is show to the user to make the unit a "Free Choice".  
+crshow	All Lore Spells		Priority2	N/A	0	spec:+spel;stat:Wz=7;take:truth1;take:truth2;take:truth3;take:truth4;take:truth5;take:truth6;take:daem1;take:daem2;take:daem3;take:daem4;take:daem5;take:daem6;take:fenbest;item:+6			Shows all spells for this lore, and lists short descriptions on the roster.	
+crfull	Full Spell Lists		Priority2	N/A	0	more:truth1=incl;more:truth2=incl;more:truth3=incl;more:truth4=incl;more:truth5=incl;more:truth6=incl;more:daem1=incl;more:daem2=incl;more:daem3=incl;more:daem4=incl;more:daem5=incl;more:daem6=incl;more:fenbest=incl			Appends full descriptions of all spells for this Lore to the roster.	
+2fr1Add	2 for 1 "+"		Priority3	N/A	0	hide;usiz:min=2;dtyp:1stC;dtyp:1stC-grand				If the user has added a second model/unit using the "+" button, this will delete the 1stC type so that it can't be used to give another unit the 'Free Choice' option.
+2fr1Plus	2 for 1 "+"		Priority3	N/A	0	hide;prng:min=1-max=2;preq:no				
+2fr1Chk2	2 for 1 Check 		Priority3	N/A	0	type:1stC_B;utyp:1stC&2For1B;glob:incl;hide				
+2fr1Chk3	2 for 1 Check 		Priority3	N/A	0	type:1stC_C;utyp:1stC&2For1C;glob:incl;hide				
+2fr1Chk5	2 for 1 Check 		Priority3	N/A	0	type:2ndC_B;utyp:2ndC&2For1B;glob:incl;hide				
+2fr1Chk6	2 for 1 Check 		Priority3	N/A	0	type:2ndC_C;utyp:2ndC&2For1C;glob:incl;hide				
+2fr1Chk1	2 for 1 Check (1A)		Priority3	N/A	0	type:1stC_A;utyp:1stC&2For1A;glob:incl;hide				
+2fr1Chk4	2 for 1 Check (2A)		Priority3	N/A	0	type:2ndC_A;utyp:2ndC&2For1A;glob:incl;hide				
+btnost10	Non battle standard		Special	N/A	0	hide;ichg:10				
+btnostn2	Non battle standard		Special	N/A	0	hide;ichg:75				
+btnostn3	Non battle standard		Special	N/A	0	hide;ichg:5				
+btnostn4	Non battle standard		Special	N/A	0	hide;ichg:100				Bretonnians
+btnostnd	Non battle standard		Special	N/A	0	hide;ichg:50;show:okhillgo				
+save1	Save -1		Special	N/A	0	hide;utyp:!unmod;base:Sv-1;chld:champ@Sv-1-base				
+save2	Save -2		Special	N/A	0	hide;utyp:!unmod;base:Sv-2;chld:champ@Sv-2-base				
+save3	Save -3		Special	N/A	0	hide;utyp:!unmod;base:Sv-3;chld:champ@Sv-3-base				
+save4	Save -4		Special	N/A	0	hide;utyp:!unmod;base:Sv-4;chld:champ@Sv-4-base				
+freecho2	"Free" choice	2ndR	Last	N/A	0	type:2ndC;acmp:Rare-1u;dtyp:1stC;type:2ndC-grand;dtyp:1stC-grand			Mark for every 2nd choice for any things that are 2 for 1 choices	
+freecho3	"Free" choice	2ndR	Last	N/A	0	type:2ndC;acmp:Hero-1u;dtyp:1stC;type:2ndC-grand;dtyp:1stC-grand			Mark for every 2nd choice for any things that are 2 for 1 choices	
+freechoc	"Free" choice	2ndC	Last	N/A	0	type:2ndC;acmp:Spec-1u;dtyp:1stC;type:2ndC-grand;dtyp:1stC-grand			Mark for every 2nd choice for any things that are 2 for 1 choices	
+seigeeq	- Siege Equipment		Last	N/A	0	utyp:(infantry|skirmishers);glob:free;more:attacker=cost;more:defender=cost;hide				
+attacker	-Attacker		Last	N/A	0	more:graphook=cost;more:ladder=cost;more:mantlets=cost;more:seigtowr=cost;over:defender=delete;more:logram=cost;more:batrram=cost;hide				
+defender	-Defender		Last	N/A	0	more:alchfire=cost;more:boilblod=cost;more:boiloil=cost;more:moltmtl=cost;more:rocks=cost;over:attacker=delete;hide				
+alchfire	Alchemical Fire	AlFre	Last	MRg	30	cost:single;stat:Mv/2-round;apnd;utyp:infantry&!skirmishers;lglx:race=he	Uses 3" Template. S5 hit (no armor save) D3 Wo.  Battering ram crew have 4+ Ward Save.  Can fire every other turn. 		Flaming Oil - High Elves only.	
+batrram	Battering Ram	BRam	Last	MRg	50	cost:single;apnd;stat:Mv-1;usiz:min=6-eff;utyp:infantry&!skirmishers	1 At at St=#of models for D6 Wo			
+canmist	Black Powder Missfire Table		Last	N/A	0	apnd		1-2. Destroyed, 2-4 Malfunction (Cannot fire this turn or next), 5-6 May not shoot this turn.		
+boilblod	Boiling Blood	Blood	Last	MRg	30	cost:single;stat:Mv/2-round;apnd;utyp:infantry&!skirmishers;lglx:race=dk	Uses 3" Template. S5 hit (no armor save).  Battering ram crew have 4+ Ward Save.  Can fire every other turn. Unit wounded by blood must take panic check.		Boiling Blood - Dark Elves only.	
+boiloil	Boiling Oil Cauldron	Boil	Last	MRg	25	cost:single;stat:Mv/2-round;apnd;utyp:infantry&!skirmishers	Uses 3" Template. S5 hit (no armor save).  Battering ram crew have 4+ Ward Save.  Can fire every other turn.		Boiling Oil	
+graper	Grapeshot		Last	N/A	0	apnd		12", S5, Armour Piercing, Artillery Dice = number of shots, roll to hit as normal		
+graphoo2	Grappling Hooks	Hook	Last	N/A	1	lglx:mode=e	For Assaulting walls.			For Bestigors who Skirmish in Morghur's Horde
+graphook	Grappling Hooks	Hook	Last	N/A	1	utyp:skirmishers&!infantry;dtyp:skirmishers	For Assaulting walls.			
+ladder	Ladder	Ladr	Last	N/A	5	apnd;rang:0-50;cost:single;utyp:infantry&!skirmishers	Used for Assaulting Walls; 1 Ladder per 2 models			
+logram	Log Ram	LRam	Last	MRg	10	cost:single;apnd;usiz:min=4-eff;utyp:infantry&!skirmishers				
+mantlets	Mantlets	Mant	Last	N/A	1	utyp:missile|missiles	Provides protection for missile troops. Deployed 2d6" closer to enemy.  Provide Hard Cover (-2 to be hit).			
+moltmtl	Molten Metal	Moltn	Last	MRg	30	cost:single;stat:Mv/2-round;apnd;utyp:infantry&!skirmishers;lglx:(race=dw|race=cd)	Uses 3" Template. S6 hit (no armor save).  Battering ram crew have 4+ Ward Save.  Can fire every other turn. 		Molten Metal - Dwarfs and Chaos Dwarfs only.	
+rocks	Rocks	Rock	Last	N/A	1	utyp:(infantry|skirmishers)	Missile Weapon with S4 hit against scaling troops only.			
+seigtowr	Siege Tower	SgTr	Last	MRg	100	cost:single;apnd;usiz:min=10-eff;utyp:infantry&!skirmishers	Provides direct access to walls; see page 257-8 for details.		1/1000 pts of Army; need 10 models	
+stthrmft	Stone Thrower Misfire Table		Last	N/A	0	apnd		1.  Destroyed, 2-3. Disabled (no firing this turn or next AND machine suffers 1 wound, with no a/s), 4-6. May not shoot this turn.		
+^
+9abbhalb	Beast-Bane Halberd	weap	MWp	30	1	base:St=5;itst:!race=dw&!race=dm		Halberd. Attacks made with this weapon have Strength 5 (regardless of modifiers) and Multiple Wounds (2) Special Rule against Monsters, Ridden Monsters, Monstrous Cavalry, Monstrous Infantry, Monstrous Beasts and Chariots.	^	^	9th Age
+8eswoblo	Blade of Battle	weap	MWp	35	1	stat:At+2;itst:!race=dw&!race=dm		Wearer has +2 Attacks.	^	^	9th Age
+8eswostr	Blade of Strife	weap	MWp	45	1	stat:At+3;itst:!race=dw&!race=dm		Wearer has +3 Attacks.	^	^	9th Age
+9ablessw	Blessed Sword	weap	MWp	20	1	itst:!race=dw&!race=dm		Attacks made with this weapon have Holy Attacks and may reroll failed To Wound rolls.	^	^	9th Age
+8efenbla	Fencer's Swords	weap	MWp	35	1	stat:At+1;stat:In+1;stat:WS=10;itst:!race=dw&!race=dm&!type=mounted		Two hand weapons. Wearer has Weapon Skill 10.	^	^	9th Age
+9aflamla	Flame Lance	weap	MWp	10	1	itst:!race=dw&!race=dm&type=mounted		Lance. Attacks made with this weapon have Flaming Attacks.	^	^	9th Age
+9afleshr	Fleshrender	weap	MWp	20	1	stat:St+2;itst:!race=dw&!race=dm		Great weapon. Attacks made with this weapon have Armour Piercing (1).	^	^	9th Age
+8egiabl2	Giant Blade	weap	MWp	50	1	stat:St+3;itst:!race=dw&!race=dm&type=Hero;type:giabla		Attacks made with this weapon are at +3 Strength.	^	^	9th Age
+8egiabla	Giant Blade	weap	MWp	60	1	stat:St+3;itst:!race=dw&!race=dm&type=Lord;type:giabla		Attacks made with this weapon are at +3 Strength.	^	^	9th Age
+8eswanhe	Kingslayer	weap	MWp	30	1	itst:!race=dw&!race=dm		Wearer has +1 Strength and +1 Attack for each enemy non-champion character in base contact with wearer's unit. Check at the Initiative step of a wearer.	^	^	9th Age
+8eobsbla	Obsidian Blade	weap	MWp	35	1	itst:!race=dw&!race=dm		Attacks made with this weapon have Armour Piercing (6).	^	^	9th Age
+8eogrbla	Ogre Blade	weap	MWp	40	1	stat:St+2;itst:!race=dw&!race=dm		Attacks made with this weapon are at +2 Strength.	^	^	9th Age
+swdbtg	Razor Blade	weap	MWp	5	1	itst:!race=dw&!race=dm		Attacks made with this weapon have Armour Piercing (1).	^	^	
+8eshrbla	Screaming Swords	weap	MWp	10	1	itst:!race=dw&!race=dm&!type=mounted;stat:At+1;stat:In+1		Additional Hand Weapon. Wearer causes Fear.	^	^	9th Age
+9askulsp	Skull Splitter	weap	MWp	50	1	itst:!race=dw&!race=dm		Shooting Weapon. Range 24”, Strength 4, Multiple Shots (4), Armour Piercing (1), always hits on 4+.	^	^	9th Age
+crswst15	Sword of Bashing	weap	MWp	15	1	itst:!race=dw&!race=dm		Attacks made with this weapon are at +1 to hit.	^	^	9th Age
+8egosisw	Sword of Haste	weap	MWp	25	1	stat:In=10;itst:!race=dw&!race=dm		Wearer has at Initiative 10. Attacks with this weapon always wound on a score of 4+ or better.	^	^	9th Age
+swdmgt	Sword of Might	weap	MWp	15	1	stat:St+1;itst:!race=dw&!race=dm		Attacks made with this weapon are at +1 Strength.	^	^	9th Age
+8earmdes	Armour of Destiny	armr	Arm,MAr	50	1	base:Sv-2;type:MagicArmour;itst:!race=dw&!race=dm	wsv4=incl,aws4=incl	Heavy Armour. Wearer has a Ward Save (4+).	^	^	9th Age
+8earmfor	Armour of Fortune	armr	Arm,MAr	30	1	base:Sv-2;type:MagicArmour;itst:!race=dw&!race=dm	wsv5=incl,aws5=incl	Heavy Armour. Wearer has a Ward Save (5+).	^	^	9th Age
+8etrihel	Bluffer's Helm	armr	MAr	35	1	base:Sv-1;itst:!race=dw&!race=dm		6+ Armour Save. Successful to wound rolls against the wearer must be rerolled.	^	^	9th Age
+9abronzb	Bronze Breastplate	armr	Arm,MAr	25	1	base:Sv-2;type:MagicArmour;itst:!race=dw&!race=dm		Heavy Armour. One use only. Whenever the wearer’s model receives a hit, the item can be activated. For the duration of the phase, the wearer’s model has 1+ Armour Save.	^	^	9th Age
+9adragma	Dragon Mantle	armr	MAr	25	1	base:Sv-2;itst:!type=mounted&!race=dw&!race=dm		Wearer has Innate Defence (5+).	^	^	9th Age
+8edrahel	Dragonscale Helm	armr	MAr	10	1	base:Sv-1;itst:!race=dw&!race=dm		6+ Armour Save. Wearer has the Fireborn Special Rule.	^	^	9th Age
+crensh5	Enchanted Shield	armr	Shd,MAr	5	1	type:MagicShield;itst:!race=dw&!race=dm	ssave2=incl	Shield. Adds a further +1 to wearer’s Armour Save (for a total of +2).	^	^	9th Age
+9aforcsh	Force Shield	armr	Shd,MAr	70	1	type:MagicShield;itst:!race=dw&!race=dm	ssave1=incl,aws5=incl	Shield. Wearer’s model has a Ward Save (5+) against Ranged Attacks.	^	^	9th Age
+8egamarm	Gambler's Armour	armr	Arm,MAr	20	1	base:Sv-2;type:MagicArmour;itst:!race=dw&!race=dm	wsv6=incl,aws6=incl	Heavy Armour. Wearer has a Ward Save (6+).	^	^	9th Age
+8eglisca	Glitering Cuirass	armr	Arm,MAr	30	1	base:Sv-2;type:MagicArmour;itst:!race=dw&!race=dm		Heavy Armour. Close Combat Attacks allocated at the wearer suffer a -1 penalty when rolling To Hit.	^	^	9th Age
+8echashi	Lucky Shield	armr	Shd,MAr	5	1	type:MagicShield;itst:!race=dw&!race=dm	ssave1=incl	Shield. Discount the first hit the wearer’s model suffers while wielding the shield.	^	^	9th Age
+earsist	Mithril Mail	armr	Arm,MAr	30	1	base:Sv=2;type:MagicArmour;type:MagicShield;itst:!race=dw&!race=dm&!type=mounted;type:mithrilmail		Heavy Armour (2+ Armour Save). This Armour Save cannot be combined with Scaly Skin or Shields.	^	^	9th Age
+8edawsto	Dusk Stone	ward	Tal	30	1	itst:!race=dw&!race=dm		The bearer may re-roll failed Armour Saves.	^	^	9th age
+8edragem	Gem of Dragonfire	ward	Tal	5	1	itst:!race=dw&!race=dm		Wearer has Fireborn Special Rule.	^	^	9th age
+8eopaamu	Gemstone Amulet	ward	Tal	15	1	itst:!race=dw&!race=dm		One use only. May be activated when wearer’s model fails an Armour Save (or doesn’t get an Armour Save). Wearer has a Ward Save (4+) against this wound.	^	^	9th age
+8elucsto	Lucky Charm	ward	Tal	5	1	itst:!race=dw&!race=dm		One use only. May be activated when wearer’s model fails an Armour Save. Wearer may reroll the failed Armour Save.	^	^	9th age
+8eobslod	Obsidian Nullstone	ward	Tal	45	1	itst:!race=dw&!race=dm		Wearer has Magic Resistance (3).	^	^	9th age
+8eobstri	Obsidian Pebble	ward	Tal	10	1	itst:!race=dw&!race=dm		Wearer has Magic Resistance (1).	^	^	9th age
+8eobsamu	Obsidian Rock	ward	Tal	30	1	itst:!race=dw&!race=dm		Wearer has Magic Resistance (2).	^	^	9th age
+8eseereb	Sprout of Rebirth	ward	Tal	50	1	itst:!race=dw&!race=dm		Wearer has regeneration (4+).	^	^	9th age
+8etalend	Talisman of Greater Shielding	ward	Tal	30	1	itst:!race=dw&!race=dm	wsv5=incl,aws5=incl	Wearer has Ward Save (5+).	^	^	9th age
+wardcom	Talisman of Lesser Shielding	ward	Tal	5	1	itst:!race=dw&!race=dm	wsv6=incl,aws6=incl	Wearer has Ward Save (6+).	^	^	9th age
+8etalpre	Talisman of Supreme Shielding	ward	Tal	50	1	itst:!race=dw&!race=dm	wsv4=incl,aws4=incl	Wearer has Ward Save (4+).	^	^	9th age
+8eiroico	Charm of Cursed Iron	ench	Enc	20	1	itst:!race=dw&!race=dm		The Wearer and his unit has Ward Save (5+) against wounds caused by Artillery Weapons.	^	^	9th age
+8ecrocom	Crown of Dominion	ench	Enc	30	1	itst:!race=dw&!race=dm		One use only. May be activated at the start of any round of combat. For the duration of the phase, the wearer has Stubborn.	^	^	9th age
+9acrysba	Crystal Ball	ench	Enc	35	1	itst:!race=dw&!race=dm		Wearer has the Lightning Reflexes Special Rule.	^	^	9th age
+9adivico	Divine Icon	ench	Enc	15	1	itst:!race=dw&!race=dm		Wearer’s model has Holy Attacks.	^	^	9th age
+8earacar	Flying Carpet	ench	Enc	50	1	itst:!race=dw&!race=dm&!type=mounted		Models on foot only. The wearer has the Fly(6) Special Rule.	^	^	9th age
+9agemfor	Gem of Fortune	ench	Enc	25	1	itst:!race=dw&!race=dm		Successful to wound rolls of ‘6’ from ranged attacks against the wearer’s unit must be rerolled.	^	^	9th age
+8epotspe	Potion of Speed	ench	Enc	5	1	itst:!race=dw&!race=dm		One use only. May be activated at the start of any phase. For the duration of the player turn, the wearer has +3 Initiative.	^	^	9th age
+8epotstr	Potion of Strength	ench	Enc	20	1	itst:!race=dw&!race=dm		One use only. May be activated at the start of any phase. For the duration of the player turn, the wearer has +2 Strength.	^	^	9th age
+8eruriru	Red Ring of Ruin	ench	Enc	25	1	itst:!race=dw&!race=dm		Bound Spell, Power Level 3. Contains the spell Fireball (Path of Fire).	^	^	9th age
+8ewizhat	Wizard's Hood	ench	Enc	45	1	itst:!race=dw&!race=dm		The wearer has Stupidity. If the wearer didn’t have any Wizard levels, it becomes a Level 1 Wizard. Instead of selecting a Path as usual, the wearer uses a randomly chosen Battle Magic Path at the start of each battle.	^	^	9th age
+8efeescr	Backlash Scroll	wzrd	Arc	55	1	itst:!race=dw&!race=dm		One use only. Instead of making a dispel roll, you can use the scroll. After the spell effect has been resolved (and Path attribute), unless the spell was cast with overwhelming Power, the caster must roll on the miscast table.	^	^	9th age
+9abinscr	Binding Scroll	wzrd	Arc	20	1	itst:!race=dw&!race=dm		One use only. Instead of making a dispel roll, you can use the scroll. The wizard casting the spell cannot cast the same spell during the next game turn.	^	^	9th age
+8ebooash	Book of Arcane Power	wzrd	Arc	70	1	itst:type=Lord&!race=dw&!race=dm		The wearer receives a +1 casting modifier to casting and dispelling roll.	^	^	9th age
+9aarcpow	Book of Arcane Power	wzrd	Arc	50	1	itst:type=Hero&!race=dw&!race=dm		The wearer receives a +1 casting modifier to casting and dispelling roll.	^	^	9th age
+9abookti	Book of Thousand Incantations	wzrd	Arc	50	1	itst:!race=dw&!race=dm		The bearer gains the Pathmaster Special Rule.	^	^	
+disscrol	Dispel Scroll	wzrd	Arc	35	1	itst:!race=dw&!race=dm		One use only. Instead of making a dispel roll, you can use the scroll. The spell is automatically Dispelled.	^	^	9th age
+8eearrod	Earthing Wand	wzrd	Arc	25	1	itst:type=Lord&!race=dw&!race=dm;type:earwan		One use only. The bearer can choose to use this item to reroll on the miscast table.	^	^	9th age
+9aearthw	Earthing Wand	wzrd	Arc	15	1	itst:!type=Lord&!race=dw&!race=dm;type:earwan		One use only. The bearer can choose to use this item to reroll on the miscast table.	^	^	9th age
+9aessen1	Essence of Free Mind	wzrd	Arc	100	1	itst:type=Lord&!race=dw&!race=dm;type:essfremin		The wearer does not have to declare which Path he uses on the army list. He may choose any of the available Paths before generating spells (normal restrictions for the wizard still applies).	^	^	9th age
+9aessen2	Essence of Free Mind	wzrd	Arc	50	1	itst:!type=Lord&!race=dw&!race=dm;type:essfremin		The wearer does not have to declare which Path he uses on the army list. He may choose any of the available Paths before generating spells (normal restrictions for the wizard still applies).	^	^	9th age
+9ascepo2	Sceptre of Power	wzrd	Arc	15	1	itst:!type=Lord&!race=dw&!race=dm;type:scepow		One use only. The wearer may reroll a single power dice rolled during a casting roll.	^	^	9th age
+9ascepow	Sceptre of Power	wzrd	Arc	20	1	itst:type=Lord&!race=dw&!race=dm;type:scepow		One use only. The wearer may reroll a single power dice rolled during a casting roll.	^	^	9th age
+8escrshi	Shielding Scroll	wzrd	Arc	15	1	itst:!race=dw&!race=dm		One use only. Instead of making a dispel roll, you can use the scroll. All models affected by the spell has a 4+ ward save against the spell.	^	^	9th age
+9atomelo	Tome of Arcane Lore	wzrd	Arc	25	1	itst:!race=dw&!race=dm		The bearer knows one additional spell.	^	^	
+8ewanjet	Wand of Jet	wzrd	Arc	35	1	itst:!race=dw&!race=dm		One use only. One casting attempt can be increased by extra D6 (may cause IF).	^	^	
+8escesta	Wand of Stability	wzrd	Arc	15	1	itst:!race=dw&!race=dm		One use only. The bearer may increase a single dispel roll with a +1D6 modifier (note that this is not a dispel dice) and ignore the not enough power rule.	^	^	
+9awantr2	Wand of Tranquility	wzrd	Arc	15	1	itst:!type=Lord&!race=dw&!race=dm;type:wantra		One use only. The wearer may reroll a single dispel dice rolled during a dispel roll.	^	^	9th age
+9awantra	Wand of Tranquility	wzrd	Arc	20	1	itst:type=Lord&!race=dw&!race=dm;type:wantra		One use only. The wearer may reroll a single dispel dice rolled during a dispel roll.	^	^	9th age
+8ebanfla	Banner of Cleansing Fire	stnd	Std	20	1	spec:-dgft	bsb=incl	At the start of each player’s Shooting and Combat Phase the banner may be activated. If it is, the bearer's Unit makes a non-special Close Combat and Shooting attacks have the Flaming Attacks Special Rule for the duration of the phase.	^	^	9th age
+9abancou	Banner of Courage	stnd	Std	5	1	spec:-dgft	bsb=incl	Bearer’s unit automatically passes Terror tests and is immune to the effects of Fear.	^	^	9th age
+8estadis	Banner of Discipline	stnd	Std	25	1	stat:Ld+1;spec:-dgft	bsb=incl	Unit adds +1 to its Leadership, but cannot use General's Inspiring Presence special rule.	^	^	9th age
+8erazsta	Banner of Razors	stnd	Std	45	1	spec:-dgft	bsb=incl	The unit has the Armour Piercing(1) Special Rule.	^	^	9th age
+8ebanswi	Banner of Speed	stnd	Std	25	1	stat:Mv+1;spec:-dgft	bsb=incl	Bearer’s unit has +1 Movement.	^	^	9th age
+8eglepen	Gleaming Icon	stnd	Std	5	1	spec:-dgft	bsb=incl	One use only. Must be activated the first time the bearer’s unit fails a Leadership test. The unit may reroll the failed test.	^	^	9th age
+9aholyic	Holy Icon	stnd	Std	30	1	spec:-dgft	bsb=incl	Bearer’s unit has the Holy Attacks, but must reroll successful Ward Saves themselves.	^	^	9th age
+9aicodis	Icon of Prosaic Days	stnd	Std	25	1	spec:-dgft	bsb=incl	A unit with this banner can make dispel attempts as if it were a level 2 wizard (including Aided Dispel).	^	^	9th age
+9aicorel	Icon of Relentless Company	stnd	Std	15	1	stat:Mv+1;itst:type=infantry&!type=mounted;spec:-dgft	bsb=incl	Infantry models only. One use only. Activate at the start of any of your Remaining Moves Sub-phases. Bearer’s unit can triple its M when marching this turn (up to a maximum of 15”).	^	^	9th age
+9astarea	Standard of Alternate Realities	stnd	Std	10	1	spec:-dgft	bsb=incl	All of the unit's close combat attacks with Magical Attacks loses this Special Rule, and all close combat attacks without Magical Attacks gains this Special Rule.	^	^	9th age
+warban35	War Banner	stnd	Std	15	1	spec:-dgft	bsb=incl	Bearer’s unit adds +1 to the Combat Score of any combat they are involved in.	^	^	9th age
+8eransta	Warden's Standard	stnd	Std	40	1	spec:-dgft	bsb=incl	The unit has the Strider and Swiftstride Special Rules. 	^	^	9th age
+daem1	Dk Em 1 - Bolt of Dark Light	spel	N/A	0	1	xtot;itst:type=Daem		Cast 7+; Magic Missile; Rng 18"; D6 S5 hits	^; Dark Emissary only.	Cast 7+; Magic Missile; Rng 18"; D6 S5 hits.	
+daem2	Dk Em 2 - Betrayal in Death	spel	N/A	0	1	xtot;itst:type=Daem		Cast 7+; Rng 18"; Cast on enemy unit in CC; Lasts until caster's next turn; models killed by enemy in combat do 1 At at base Str against other models; mounted models - only riders strike; comrades killed count towards CR	^; Dark Emissary only.	Cast 7+; Rng 18", HtH; Lasts until caster's next turn; models killed by enemy in combat do 1 A at base S against other models; mounted models - only riders strike; comrades killed count towards CR.	
+daem3	Dk Em 3 - Nightmare	spel	N/A	0	1	xtot;itst:type=Daem		Cast 7+; LOS; Target: Enemy not in CC; Causes Panic test	^; Dark Emissary only.	Cast 7+; LOS; Enemy unit takes Panic test.	
+daem4	Dk Em 4 - Curse of the Dark Master	spel	N/A	0	1	xtot;itst:type=Daem		Cast 8+; RiP; Target: any enemy unit; unit suffers -1 to hit	^; Dark Emissary only.	Cast 8+; RiP; Target: any enemy unit; unit suffers -1 to hit	
+daem5	Dk Em 5 - Fog of Death	spel	N/A	0	1	xtot;itst:type=Daem		Cast 10+; Every enemy unit take D6 S3 hits; Every Friendly unit takes D6 S3 hits on roll of 1-3	^; Dark Emissary only.	Cast 10+; Every enemy unit take D6 S3 hits; Every Friendly unit takes D6 S3 hits on roll of 1-3	
+daem6	Dk Em 6 - Coils of the Serpent	spel	N/A	0	1	xtot;itst:type=Daem		Cast 12+; Rng 12"; Target: single enemy model not in CC; victim takes To test; if Failed, victim immediately dies; no Ar Sv or Ward Saves	^; Dark Emissary only.	Cast 12+; Rng 12"; Target: single enemy model not in CC; victim takes To test; if Failed, victim immediately dies; no saves	
+fenbest	Elemental Power	spel	N/A	0	1	xtot;itst:type=Albion		Cast 6+; Rng 18"; Heal 1 Fenbeast D3 Wos (up to max of 4)	^; Truthsayer or Dark Emissary only.	Cast 6+; Rng 18"; Heal 1 Fenbeast D3 Wos (up to max of 4)	
+truth1	Truth 1 - Wings of Fate	spel	N/A	0	1	xtot;itst:type=Truth		Cast 5+; Magic Missile; Rng: 24"; 2d6 S2 hits	Cast 5+; Magic Missile; Rng: 24"; 2d6 S2 hits; Truthsayer only.	Cast 5+; Magic Missile; Rng: 24"; 2D6 S2 hits	
+truth2	Truth 2 - Light of Battle	spel	N/A	0	1	xtot;itst:type=Truth		Cast 6+; Target: 1 Friendly unit, even if CC; unit gains 5+ Ward Save until caster's next turn	^; Truthsayer only.	Cast 6+, HtH; Friendly unit gains 5+ Ward Save until caster's next turn	
+truth3	Truth 3 - Gift of Life	spel	N/A	0	1	xtot;itst:type=Truth		Cast 7+; adds 1 model back to any units that have taken casualties; no effect on units destroyed or fled off table; restores 1 Wo on characters; chariots; and models w/ 4+ Wos; No effect on war machines except regaining 1 crew member 	^; Truthsayer only.	Cast 7+; adds 1 model back to any units that have taken casualties; no effect on units destroyed or fled off table; restores 1 Wo on characters; chariots; and models w/ 4+ Wos; No effect on war machines except regaining 1 crew member 	
+truth4	Truth 4 - Blessing of Valor	spel	N/A	0	1	xtot;itst:type=Truth		Cast 8+; RiP; Target: Friendly unit, even in CC; unit +1 to all rolls to hit	^; Truthsayer only.	Cast 8+; RiP, HtH; Friendly unit gets +1 to all rolls to hit.	
+truth5	Truth 5 - Boon of Courage	spel	N/A	0	1	xtot;itst:type=Truth		Cast 8+; Target: Friendly unit, even in CC; Makes unit unbreakable til next caster's turn; Fleeing unit immediately rallies, regardless of # of models.	^; Truthsayer only.	Cast 8+, HtH; Friendly unit rallies if fleeing (even if below 25% starting strength) and is Unbreakable until end of caster's next turn.	
+truth6	Truth 6 - Voice of Command	spel	N/A	0	1	xtot;itst:type=Truth		Cast 9+; unit takes Ld test; if failed unit cannot move or shoot in its next move/shoot phases; No effect on units immune to psychology	^; Truthsayer only.	Cast 9+; unit takes Ld test; if failed unit cannot move or shoot in its next move/shoot phases; No effect on units immune to psychology	
+8eberswo	Berserker Sword	unk2	MWp	20	1	itst:!race=dw		Bearer gains Frenzy and can never lose it.	^	^	
+8echasta	Channeling Staff	unk2	Arc	15	1			Bearer adds +1 to his channeling attempts.	^	^	
+8efefoto	Featherfoe Torc	unk2	Enc	35	1	itst:!race=dw		Flying creatures and their riders must re-roll succesful rolls to hit in CC against bearer and his unit. 	^	^	
+8eforrod	Forbidden Rod	unk2	Arc	35	1			One use only. Add D6 dice to power pool at the start of own magic phase, but inflict D3 wounds on the bearer (no armour saves).	^	^	
+8efofofo	Fozzrik's Folding Fortress	unk2	Enc	100	1	itst:!race=dw		Place a Watchtower building in your deployment zone, but before placing any units. 	^	^	
+8eheapot	Healing Potion	unk2	Enc	35	1	itst:!race=dw		One use only. Use at the start of bearer's turn - bearer regains up to D6 lost Wounds.	^	^	
+8eheldis	Helm of Discord	unk2	MAr	30	1	base:Sv-1;itst:(!reg=vmnecro&!reg=vmnecmas&!reg=emwiz&!reg=emwizld&!race=dw)		6+ Armour Save. Enemy character in btb with bearer or his unit test Ld at the start of CC phase - if failed cannot attack and is hit automatically.	^	^	
+8elicpen	Lichebone Pennant	unk2	Std	15	1	itst:!reg=dobody&!race=dw;spec:-dgft	bsb=incl	Unit has Magic Resistance (1)	^	^	
+8epiplpe	Pidgeon Plucker Pendant	unk2	Tal	5	1	itst:!race=dw		Ward Save 5+ against wounds caused by models with Fly.	^	^	
+8epotfoo	Potion of Foolhardiness	unk2	Enc	5	1	itst:!race=dw		One use only. Use at the start of any player's  turn - bearer is Immune to Psychology and has Devastating Charge special rule until the end of player turn.	^	^	
+8epottou	Potion of Toughness	unk2	Enc	20	1	itst:!race=dw		One use only. Use at the start of any player's  turn - bearer has +3 Toughness until the end of turn.	^	^	
+8epowscr	Power Scroll	unk2	Arc	35	1			One use only. A Power Scroll can be used when the Wizard makes a casting attempt. During that casting attempt, the casting value of the spell is halved. You cannot choose to boost a spell when using the Power Scroll.	^	^	
+pwrstone	Power Stone	unk2	Arc	20	1	xcst:25-race=br;xcst:25-race=do		One use only. +2 dice to cast a spell.	^	^	
+8eramsta	Rampager's Standard	unk2	Std	55	1	itst:!reg=vmblkeep&!race=dw;spec:-dgft	bsb=incl	Unit can re-roll its charge distance dice.	^	^	
+8erelswo	Relic Sword	unk2	MWp	10	1	itst:!race=dw		Always wounds on 5+ or better.	^	^	
+8escaban	Scarecrow Banner	unk2	Std	5	1	itst:!reg=dobody&!race=dw;spec:-dgft	bsb=incl	Unit cause fear in models with Fly special rule.	^	^	
+8escrlee	Scroll of Leeching	unk2	Arc	50	1			One use only. Use instead of attempting to dispel enemy spell. Spell is cast as normal. For every dice used to cast a spell, add a dice to dispel pool.	^	^	
+8eshipto	Shield of Ptolos	unk2	Shd,MAr	25	1	type:MagicShield;itst:(!reg=vmnecro&!reg=vmnecmas&!reg=emwiz&!reg=emwizld&!race=dw)	ssave1=incl	6+ Save. Save 1+ against shooting attacks.	^	^	
+8esivhex	Sivejir's Hex Scroll	unk2	Arc	50	1			One use only. Use instead of attempting to dispel enemy spell. Spell is cast as normal. The enemy must roll equal or lower than his level. If failed, turned to frog. At the start of each friendly magic phase roll - on 4+ he returns to his normal form.	^	^	
+8espeshi	Spellshield	unk2	Shd,MAr	20	1	type:MagicShield;itst:(!reg=vmnecro&!reg=vmnecmas&!reg=emwiz&!reg=emwizld&!race=dw)	ssave1=incl	6+ Save. Magic Resistance (1)	^	^	
+8espeswo	Spellthieving Sword	unk2	MWp	25	1	itst:!race=dw		A Wizard loses 1 random spell for each unsaved wound caused by this sword.	^	^	
+crstso35	Staff of Sorcery	unk2	Arc	35	1	itst:!race=og|race=tk|race=ok|race=vm|race=em|race=he|race=dk|race=lz|race=mc;xcst:40-race=ch;xcst:50-race=br;xcst:50-race=we;xcst:50-race=do		+1 to total roll to attempt to dispel a spell.	^	^	
+crswobat	Sword of Battle	unk2	MWp	20	1	stat:At+1;xcst:15-race=ar;xcst:15-race=ch;xcst:25-race=br;xcst:25-race=cd;xcst:25-race=sk;xcst:25-race=do;itst:!race=dw		+1At	^	^	
+8eswswsl	Sword of Swift Slaying	unk2	MWp	25	1	itst:!race=dw		Always Strikes First.	^	^	
+8eottrsh	The Other Trickster's Shard	unk2	Enc	15	1	itst:!race=dw		Models in base contact with bearer (FoF) must re-roll successful ward saves.	^	^	
+8etemaee	The Terryfying Mask of Eee!	unk2	Enc	25	1	itst:!race=dw		The wearer causes Terror, but other models cannot use his Ld.	^	^	
+8etorswo	Tormentor Sword	unk2	MWp	5	1	itst:!race=dw		Monster or character that suffers unsaved wound has the Stupidity for the rest of the game.	^	^	
+8etrisha	Trickster's Shard	unk2	Arc	25	1			One use only. For one magic phase, each time bearer spell is dispelled roll D6. On 5+ dispelling Wizard suffers a wound (no armour saves).	^	^	
+8ewaiban	Wailing Banner	unk2	Std	50	1	itst:!reg=dobody&!race=dw;spec:-dgft	bsb=incl	Unit causes Terror.	^	^	
+8ewarban	Warrior Bane	unk2	MWp	5	1	itst:!race=dw		Monster or character that suffers unsaved wound permanently loses 1 Attack for each unsaved wound (to a minimum of Attacks 1).	^	^	
+ebonyskl	The Ebony Skulls	plaq	Arc	50	1	itst:(race=do|race=ok|race=og|race=sk|race=ch|race=tk|race=vm|race=dk|race=cd);type:ebonyskulls		Used in combination with the Zombie Pirates from UKWD305; One succesful use only. Bound Spell. Power Level 6. If succesfully cast, place the Zombie Pirates on the table according to their rules.	One succesful use only. Bound Spell. Power Level 6. If succesfully cast, place the Zombie Pirates on the table according to their rules.	One succesful use only. Bound Spell. Power Level 6. If succesfully cast, place the Zombie Pirates on the table according to their rules.	
+^
+^
+aws3	Add Ward Save 3		Priority	N/A	0	zstx:WSv+"/3";zutp:ward;zhid				
+aws4	Add Ward Save 4		Priority	N/A	0	zstx:WSv+"/4";zutp:ward;zhid				
+aws5	Add Ward Save 5		Priority	N/A	0	zstx:WSv+"/5";zutp:ward;zhid				
+aws6	Add Ward Save 6		Priority	N/A	0	zstx:WSv+"/6";zutp:ward;zhid				
+bsb	Battle Standard		Priority	N/A	0	zutp:!slann;zspc:-wzrd;zspc:-rtal;zspc:-rwpn;zspc:-rarm;ztyp:bsb;zspc:-pois;zspc:-skil				
+bsb2	Battle Standard		Priority	N/A	0	zutp:!slann;zspc:-armr;zspc:-ward;zspc:-ench;zspc:-wzrd;zspc:-rtal;zspc:-rwpn;zspc:-rarm;ztyp:bsb;zspc:-blln;zspc:-pois;zspc:-skil				Ludwig Schwarzhelm option
+bsbarch	Battle Standard		Priority	N/A	0	zutp:!slann;zspc:-armr;zspc:-weap;zspc:-ward;zspc:-ench;zspc:-wzrd;zspc:-rtal;zspc:-rwpn;zspc:-rarm;ztyp:bsb;zspc:-pois;zspc:-skil				
+ssave1	Shield Save		Priority	N/A	0	zhid;zbas:Sv-1;zutp:!unmod				
+ssave2	Shield Save		Priority	N/A	0	zhid;zbas:Sv-2;zutp:!unmod				
+wsv2	Ward Save 2		Priority	N/A	0	zbas:WSv=2;ztyp:ward;zutp:!ward;zhid				
+wsv3	Ward Save 3		Priority	N/A	0	zbas:WSv=3;ztyp:ward;zutp:!ward;zhid				
+wsv4	Ward Save 4		Priority	N/A	0	zbas:WSv=4;ztyp:ward;zutp:!ward;zhid				
+wsv5	Ward Save 5		Priority	N/A	0	zbas:WSv=5;ztyp:ward;zutp:!ward;zhid				
+wsv6	Ward Save 6		Priority	N/A	0	zbas:WSv=6;ztyp:ward;zutp:!ward;zhid				
+^
+crdarkem	crdaem	incl
+crdarkem	crfull	cost
+crdarkem	crraresl	incl
+crdarkem	crshow	cost
+crdarkem	mg4lvl	incl
+crdarkem	mgmiscas	cost
+crforgat	nocont	auto
+crtruth	crfull	cost
+crtruth	crraresl	incl
+crtruth	crshow	cost
+crtruth	crtruth	incl
+crtruth	mg3lvl	incl
+crtruth	mgmiscas	cost
+crzompir	ebony	cost
+crzompir	mus10	auto
+crzompir	st20	auto
+crzompir	cotnw	cost
+crzompir	ncotnw	cost
+^
+race	br	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	cd	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	ch	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	dk	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	dm	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	do	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	dw	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	em	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	he	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	ks	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	lz	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	og	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	ok	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	sk	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	tk	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	vm	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	we	xbrk:"7 Knights"="Hero:umax=7";xbrk:"<2000 pts"="Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25"	Specific Scenario Requirements
+race	xx	tlmt:giabla-model=1@max-msg=crmsg921;tlmt:earwan-model=1@max-msg=crmsg922;tlmt:essfremin-model=1@max-msg=crmsg923;tlmt:scepow-model=1@max-msg=crmsg924;tlmt:wantra-model=1@max-msg=crmsg926	
+race	xx	tlmt:Lord-pct=35@max-msg=crmsg11	
+race	xx	tlmt:Gen9-model=0@max-msg=crmsg9-istype=Ld10;tlmt:Gen8-model=0@max-msg=crmsg9-istype=Ld9;tlmt:Gen8-model=0@max-msg=crmsg9-istype=Ld10;tlmt:Gen7-model=0@max-msg=crmsg9-istype=Ld8;tlmt:Gen7-model=0@max-msg=crmsg9-istype=Ld9;tlmt:Gen7-model=0@max-msg=crmsg9-istype=Ld10;tlmt:Gen6-model=0@max-msg=crmsg9-istype=Ld7;tlmt:Gen6-model=0@max-msg=crmsg9-istype=Ld8;tlmt:Gen6-model=0@max-msg=crmsg9-istype=Ld9;tlmt:Gen6-model=0@max-msg=crmsg9-istype=Ld10;tlmt:Gen5-model=0@max-msg=crmsg9-istype=Ld6;tlmt:Gen5-model=0@max-msg=crmsg9-istype=Ld7;tlmt:Gen5-model=0@max-msg=crmsg9-istype=Ld8;tlmt:Gen5-model=0@max-msg=crmsg9-istype=Ld9;tlmt:Gen5-model=0@max-msg=crmsg9-istype=Ld10	Checks to make sure General has the highest Leadership
+race	xx	mode:zz="Warhammer Skirmish";xbrk:"WH Skirmish"="Hero@?,Core@?,Spec@?,Rare@?"-mode=zz;info:display=""-mode=zz;info:display="The Warhammer Skirmish AB lists do not require that a model be made 'General', and all units have their minimum unit size set to 1."-mode=zz;info:display=""-mode=zz;info:display="To remove the minimum core unit requirements (and special/rare limitations) select 'WH Skirmish' from the Composition Rule Set menu."-mode=zz;info:display=""-mode=zz	Warhammer Skirmish
+race	xx	trat:1stC_A@1u:2ndC_A@1u-msg=crmsg3;trat:1stC_B@1u:2ndC_B@1u-msg=crmsg3;trat:1stC_C@1u:2ndC_C@1u-msg=crmsg3	Control 2 for 1 units
+race	xx	tlmt:general-model=1@min-msg=crmsg2-mode<z-legal=(!(race=ch&mode=e)&!(race=lz&mode=l));tlmt:general-model=1-msg=crmsg1-mode<z-legal=(!race=he&!(race=ch&mode=e));ulmt:categ=btl-max@model=1;tlmt:veteranstandard-unit=1+1/4000-msg=crmsg905	General, Lord, and BSB limitations.  Exempt races have further limitations in their own race file.
+race	xx	accu:"Models in Army"=Num	
+race	xx	lnch:wide-"9th Age";lnch:wide-"";skip lnch:wide-"In battles up to point size of 3999 points you can take up to 3 same special choices and up to 2 same rare choices. This limits are doubled at 4000+ points.";skip lnch:wide-"At the start of Magic phase roll 2D6 - this is power poll. Higher of those dice determines dispel pool";skip lnch:wide-"Channel - roll D6 per Wizard. On '6' he adds one die to pool";lnch:wide-"Army Builder is a tool, not a rules reference.";lnch:wide-"Always check your lists using the latest rules.";lnch:wide-"";lnch:"IMPORTANT DISCLAIMER: The authors of these datafiles, in no way challenges the trademarks of Games Workshop Limited. The trademarks are used without permission."	Start up comments
+race	xx	olmt:type=infantry-seigtowr=1u@1000p-max-msg=crmsg15	Siege Equipment 1
+^
+crmsg4	Albion Campaign	May have Truthsayer or Dark Emissary in army - not both.
+crbsb1	battle standard	A Battle standard bearer may have either a magic standard of unlimited points or up to 50 points of other magic items
+crmsg901	Character limit exceeded	Only 3 characters of the same type can be taken (6 for armies of 4000 points or more).
+crmsg902	Core limit exceeded	Only 4 Core units of the same type can be taken (8 for armies of 4000 points or more).
+crmsg6	Ebony Skulls	To be able to take the Zombie Pirates of the Vampire Coast one character must have the Ebony Skulls Arcane item to summon them with
+crmsg5	Fenbeasts need loving	Fenbeasts require either Dark Emissary or Truthsayer in army
+crmsg1	General	Army must have only one General
+crmsg10	General	The General must have the highest Leadership for all Heroes (some exceptions)
+crmsg2	General	Army must have one General
+crmsg9	General	The General must have the highest Leadership for all Heroes (w/ some exceptions)
+crmsg921	Item Duplicated	Item 'Giant Blade' appears more times in roster than its maximum (1).
+crmsg922	Item Duplicated	Item 'Earthing Wand' appears more times in roster than its maximum (1).
+crmsg923	Item Duplicated	Item 'Essence of Free Mind' appears more times in roster than its maximum (1).
+crmsg924	Item Duplicated	Item 'Sceptre of Power' appears more times in roster than its maximum (1).
+crmsg925	Item Duplicated	
+crmsg926	Item Duplicated	Item 'Wand of Tranquility' appears more times in roster than its maximum (1).
+crmsg11	Lord limit	No more than 35% points can be assigned to Lord characters.
+crmsg905	Only one Veteran Standard	Only one unit in army can take Veteran Standard (2 units if you are playing 4000+ pts game)
+crmsg7	Opponent's Approval	You need your Opponent's Approval for a unit
+crmsg904	Rare limit exceeded	Only 2 Rare units of the same type can be taken (4 for armies of 4000 points or more).
+crmsg15	Siege Towers	Only 1 Seige Tower per 1000 pts of Army
+crmsg903	Special limit exceeded	Only 3 Special units of the same type can be taken (3 for armies of 4000 points or more).
+crmsg3	Things	You have too many "Free Choice" chariots/war-machines/etc. Remember, adding a unit with the "+" button is the same as selecting the "Free Choice" option.
+^

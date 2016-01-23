@@ -1,0 +1,585 @@
+Description: Hordes of Chaos and Beasts of Chaos Army Books
+Version: 
+Author: 
+For comments, suggestions, and bugs go to:
+http://www.wcp-vancouver.com/forum/index.php
+^
+Beast Herds	ch	0	sm,dw,he,we,br,lz,ok,em,dm,dk,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="November 2015, Version 0.9.1 Beta";info:display="by DeBelial";info:display="";info:always="Primal Instinct:At the start of each combat round, units containing models with the Primeval Savagery special rule must take a Leadership test. If the test if passed, parts of models in the unit with Primeval Savagery may reroll failed to hit rolls during this combat round.";info:display="";info:always="Slaughterer: Models with this rule have Frenzy and can never lose it. All models with Frenzy in the same unit as the bearer can never lose it as long as they are joined with the character. Units with at least one model with Slaughterer Special Rule take Frenzy tests at -1 Leadership.";info:display="";info:display="Drunkard: Before you deploy your army, chose either drunk or sober for each unit with the Drunkard Special Rule. Characters who have the Drunkard Special Rule may only join units with the Drunkard Special Rule if they have the same option. Sober: The unit is sober for once and gains the Vanguard and Free Reform Special Rules. Drunk: The unit is drunk and gains the Immune to Psychology and Thunderous Charge Special Rules.";info:display="";info:display="Battle Hunger: Units comprised entirely of models with this Special Rule gain Swiftstride when charging an enemy’s flank or rear.";info:display="";info:display="";tlmt:beastgen-unit=1@min-msg=chmsg10-mode=b;ulmt:type=Only1banner-max@unit=1-msg=chmsg5;trat:khazrak@1u:Khazrak@1u-flat-msg=chmsg27;trat:Ghorros@1u:CoreCentigors@1u-flat-msg=chmsg28;info:display="";skip tlmt:chmut01-model=1@max-msg=chmsg41;skip tlmt:chmut02-model=1@max-msg=chmsg42;skip tlmt:chmut03-model=1@max-msg=chmsg43;skip tlmt:chmut04-model=1@max-msg=chmsg44;skip tlmt:chmut05-model=1@max-msg=chmsg45;skip tlmt:chmut06-model=1@max-msg=chmsg46;skip tlmt:chmut07-model=1@max-msg=chmsg47;skip tlmt:chmut08-model=1@max-msg=chmsg48;trat:trophyhunter@1u:GorMagicStd@1u-msg=chmsg31;tlmt:coreminos-unit=1@max-msg=chmsg50;trat:beastlordgeneral@1u:wildherdcall@1u-flat-msg=chmsg51;trat:centaurgeneral@1u:corecentaurs@1u-flat-msg=chmsg30;trat:minotaurgeneral@1u:coreminos@1u-flat-msg=chmsg29	
+^
+chmoonda	 Hero: Moonclaw, Son of Morrslieb		N/A	Special Characters	Hero	1:1	200	0	ipts:total=0;type:Ld7;type:chsorc;attr:Type="In"	umax:1;hide		Infantry (or Cavalry if mounted on Umbralok); Primal Fury,  Wave of Insanity (every unit friend or foe within 12" must take a stupidity test at beginning of their turn, Moonclaw and Umbralok are unaffected); Unholy Zennith (at beginning of game secretly roll a D3.  In the turn that corresponds Moonclaw has a +2 casting bonus.  Also may make D3 shooting attacks as if he were a shone thrower even if marched, if misfires then 1 wound to Moonclaw with no save); Ward of Morrslieb (5+ward, MR2)		Hero		5	3	3	4	4	2	3	3	7	7	5	1	1	1	1	1	0
+chmorgur	 Hero: Morghur, Master of Skulls		N/A	Special Characters	Hero	1	280	0	type:morghur;type:Ld8;attr:Type="In"	umax:1;hide		Infantry; Primal Fury;  Unbreakable; Aura of Transmutation (cannot be harmed in any way by missile attacks or spells unless model is within 12",  at beginning of CC all models in base contact takes a S-3 hit - no armour save); Spirit-essense of Chaos (At beginning of Magic phase remove friendly model within 12" then roll a D6. On a 3+ place a spawn within 3" of vacated spot remaining 1" away from other models		Hero		5	6	3	4	5	2	4	3	8	7	7	0	2	3	0	1	0
+chslugto	 Hero: Slugtongue		N/A	Special Characters	Hero	1:1	190	0	type:Ld7;ipts:total=0;type:chsorc;attr:Type="In"	race:lc,gl;umax:1;hide		Infantry; Primal Fury; Regeneration; Poisoned Attacks; Curse of the Famine-fiend (after deployment each enemy unit within 36" must roll a D6 - 1-3=No effect, 4-5=unit suffers D3 wounds no armour saves, 6=unit suffers D6 wounds no armour saves); Lvl 2 Wizard; May use Wild or Death lore		Hero		5	4	3	3	4	2	3	1	7	7	7	2	1	1	2	1	0
+chgorthr	 Lord: Gorthor the Beastlord		N/A	Special Characters	Lord	1	350	0	take:chgrthr3-free-perm;take:chgrthr2-free-perm;take:chgrthr1-free-perm;type:Ld9;attr:Type="In"	hide		Infantry; Primal Fury; Man-bane (when fighting against Empire and Bretonnia Gorthor's unit and any friendly unit in same combat may re-roll Primal Fury tests); Scion of the Dark Gods (At start of magic phase randomly generate a spell from the Lore of Death. may use as bound spell equal to 1/2 of casting value rounding up.  May NOT exchange spell).		Lord		5	7	1	5	5	3	5	5	9	7	7	0	1	1	0	1	0
+chkhazrk	 Lord: Khazrak the One-Eye		N/A	Special Characters	Lord	1:1	270	0	type:khazrak;take:chscourg-free-perm;take:chdarkml-free-perm;type:Ld9;ipts:total=0;attr:Type="In"	umax:1;race:lc;hide		Infantry; Primal Fury; Bestial Cunning (Ambushers may reroll ambush dice roll to see how and where they come).		Lord		5	7	1	5	5	3	5	4	9	7	7	0	0	1	0	1	0
+chmalgor	 Lord: Malagor, The Dark Omen		N/A	Special Characters	Lord	1:1	350	0	type:chsorc;ipts:total=0;type:Ld8;type:Malagor;take:chiconvi-free-perm;attr:Type="In"	umax:1;race:lc;hide		Infantry; Lv4; Primal Fury; Fly; Something Wicked This Way Comes (enemy unit within 6" may NOT use the generals LDR unless he is in the unit); Unholy Power (for every spell cast and NOT dispelled he gets a cunulative +1 on subsequent casting attempts that magif phase)		Lord		5	5	3	4	5	3	4	2	8	7	7	4	2	1	4	1	0
+chtaurox	 Lord: Taurox, The Brass Bull		N/A	Special Characters	Lord	1:1	335	0	ipts:total=0;take:chruneax-free-perm;type:Ld8;attr:Type="MI"	umax:1;race:lc;hide		Monstrous Infantry (Stomp); Bloodgreed; Fear; Frenzy; Slaughterer's Call; Brass Body (1+armour save but any hit on a six that also wounds on a 6 Taurox dies unless he saves it); Impact Hits (D3+1); 		Lord		6	6	3	6	6	5	5	6	8	1	7	0	0	3	0	1	0
+chsonsg	 Sons of Ghorros		N/A	Special Characters		5	25	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca"	race:lc,gl;hide		Cavalry; Drunken; Primal Fury; Mounted save; Ghorros can always make a "Lookout Sir" roll with at least one unit member left.				8	5	3	4	4	1	2	2	7	5	7	0	0	2	0	0	0
+chbagrar	Bagrar		N/A	N/A	crew	1:1	0	0		hide		Bagrar the Tamer (Gorthor's chariot may re-roll all Fleeing and Pursuit rolls)			Gorthor Chariot Crew	0	4	3	4	0	0	4	2	7	7	7	0	0	0	0	0	0
+chgothch	Boarbeast Chariot		N/A	Mount	chariot	1:1	0	0	attr:At="D6";attr:Type="Ch"	hide				Gothors mount		0	0	0	5	4	4	0	0	0	4	7	0	0	4	0	0	0
+chgrtusk	Boarbeasts		N/A	Mount		1	0	0		hide						7	3	0	4	0	0	2	1	0	7	7	0	0	0	0	0	0
+chtusker	Boarbeasts		N/A	Mount	mount	1	0	0		hide						7	3	0	4	0	0	2	1	0	7	7	0	0	0	0	0	0
+chgorhof	Centaur Champion		N/A	Champion	champ	1:1	10	0	coun	hide		Ordering the Charge: the unit with Champion always counts as rolling at least ‘4’ on Charge Range.			Aug 20, 2003	8	5	4	4	4	1	2	3	7	6	7	0	0	2	0	0	0
+chwarhof	Ghorros Warhoof		N/A	Champion	ghorr	1:1	155	0	coun;ipts:total=0;take:chmanmas-free-perm;take:chskullu-free-perm;type:Ld7	umax:1;hide;race:lc,gl		Primal Fury; Drunken; The Sons of Ghorros (+1WS); Father of the Beasts (If Ghorros dies all Beastmen units recieve +1 to Ld tests for Primal Fury); Makes Centigors core choice				8	5	3	5	4	2	3	4	8	6	7	0	0	2	0	0	0
+chbscrw1	Longhorn	Bst	N/A	N/A	crew	1:1	0	0	attr:St="4/6"	hide		Great Weapon. Requires Two Hands. +2 Strength. Strikes at initiative 0.			Tuskgor Chariot Crew	0	4	3	4	0	0	3	1	8	7	7	0	0	0	0	0	0
+chchghrn	Longhorn Champion	gou	N/A	Champion	champ	1:1	10	100	coun;ipts:total=25-each=25;spec:+bgif;spec:-weap;spec:-armr;spec:-ward;spec:-ench	hide		Ordering the Charge: the unit with Champion always counts as rolling at least ‘4’ on Charge Range.			July 5, 2002	5	5	4	4	4	1	3	2	8	5	7	0	0	1	0	0	0
+chbldkne	Minotaur Champion		N/A	Champion	champ	1:1	10	100	coun;ipts:total=25-each=25;spec:-bgif;spec:+armr;spec:+ward;spec:+weap;spec:+ench;type:bloodkine	hide		Ordering the Charge: the unit with Champion always counts as rolling at least ‘4’ on Charge Range.				6	5	4	5	4	3	3	4	7	7	7	0	0	3	0	0	0
+chgrtrch	Mutant Warboar Chariot	Chrt	N/A	Mount	chariot	1:1	0	0	attr:At="D6";attr:Type="Ch"	hide						0	0	0	5	5	5	0	0	0	4	7	0	0	4	0	0	0
+chbstch	Ramhorn Chariot	Chrt	N/A	Machine	chariot	1:1	0	0	attr:At="D6"	hide		Primal Fury				0	0	0	5	4	4	0	0	0	4	7	0	0	4	0	0	0
+chrazch	Razortusk		N/A	Mount		1	0	0	attr:St="5/6"	hide		Fear; Thunderous Charge (+1 Str on charge)				7	3	0	5	0	0	2	4	0	7	7	0	0	0	0	0	0
+chrazmo1	Razortusk Chariot		N/A	Mount		1:1	0	0	attr:At="D6";attr:Type="Ch"	hide						7	0	0	5	5	5	0	0	0	4	7	0	0	4	0	0	0
+chhahorn	Shorthorn Champion		N/A	Champion	champ	1:1	10	0	coun	hide		Ordering the Charge: the unit with Champion always counts as rolling at least ‘4’ on Charge Range.				5	4	4	3	3	1	3	2	6	7	7	0	0	1	0	0	0
+chhahor2	Shorthorn Raider Champion		N/A	Champion	champ	1:1	10	0	coun	hide		Ordering the Charge: the unit with Champion always counts as rolling at least ‘4’ on Charge Range.				5	4	4	3	3	1	3	2	6	7	7	0	0	1	0	0	0
+chumbra	Umbralok		N/A	Mount		1:1	35	0		hide;race:ch						7	3	0	4	4	1	2	3	6	7	7	0	0	1	0	0	0
+chungrol	Ungrol Four Horn		N/A	Champion	champ	1:1	75	0	coun;ipts:total=0;calc:Num=#;type:ungrol;take:chstolcr-free-perm;type:Ld7;attr:Type="In"	hide;umax:1;race:lc,gl		Infantry; Primal Fury; Beastman Ambush; Brused and Bitter (Ungrol and his unit may reroll failed Primal Fury tests against Empire and Bretonnian and Beastmen armies. May not use the generals leadership and no other character can be in unit.				5	4	4	4	4	2	4	2	7	8	7	0	0	0	0	0	0
+chbscrw2	Wildhorn	Bst	N/A	N/A	crew	1:1	0	0		hide					Tuskgor Chariot Crew	0	4	3	3	0	0	3	1	7	7	7	0	0	0	0	0	0
+chchforn	Wildhorn Champion		N/A	Champion	champ	1:1	10	0	coun	hide		Ordering the Charge: the unit with Champion always counts as rolling at least ‘4’ on Charge Range.				5	5	4	3	4	1	3	2	7	7	7	0	0	1	0	0	0
+chsorcld	do not delete		Lord	Wizard		1	0	0	type:mortal;spec:+armr;ipts:total=100-each=100;type:Hero	hide						0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+chsorcrr	do not delete		Lord	Wizard	hero	1	0	0	spec:+armr;ipts:total=100-each=100;type:Hero	hide						0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+chwarlor	 Lord: Beast Warlord		Hero	Lord	Lord	1:1	140	100	ipts:total=100-each=100;type:Ld9;type:trophyhunter;type:hero;attr:Type="In";type:chwarlor	umax:3u@4000-free=3-msg=crmsg901		Infantry; Primal Instinct; Strider (Forest); Battle Hunger; Trophy Hunter		Lord	Nov 2015	5	6	3	5	5	3	5	4	9	7	7	0	0	1	0	1	0
+chbraygs	 Lord: Blood Rite Shaman		Hero	Wizard	Lord	1:1	160	100	ipts:total=100-each=100;type:chsorc;type:Ld8;type:nottehsuck;attr:Type="In";type:chbraygs	umax:3u@4000-free=3-msg=crmsg901		Infantry; Primal Instinct; Battle Hunger; Strider (Forest); Blood Rites: Units joined by models with this rule may reroll failed Panic tests. If this special rule is used for a reroll (i.e. a BSB or other source is not used for the reroll), the character with the Blood Rites Special Rule suffers one wound with no saves of any kind allowed.		Lord; Level 3 Wizard; May use Path of Beasts, Shadow, Death or Wild.	Nov 2015	5	5	3	4	5	3	4	2	8	7	7	3	2	1	3	1	0
+chdoomus	 Lord: Minotaur Warlord		Hero	Lord	Lord	1:1	220	100	ipts:total=100-each=100;type:Ld8;type:chdoomus;type:nottehsuck;attr:Type="MI"	umax:3u@4000-free=3-msg=crmsg901		Monstrous Infantry (Stomp 1); Primal Instinct; Slaughterer; Strider (Forest); Impact Hits (D3)		Lord; Frenzy	Nov 2015	6	6	3	6	5	5	5	5	8	7	7	0	0	3	0	1	0
+chbraysh	Hero: Blood Rite Mystic		Hero	Wizard	Hero	1:1	65	100	type:chsorc;ipts:total=50-each=50;name:"CH Bray Shaman"-race=vm;type:Ld7;type:nottehsuck;attr:Type="In";type:chbraysh	umax:3u@4000-free=3-msg=crmsg901		Infantry; Primal Instinct; Battle Hunger; Strider (Forest); Ambush; Blood Rites: Units joined by models with this rule may reroll failed Panic tests. If this special rule is used for a reroll (i.e. a BSB or other source is not used for the reroll), the character with the Blood Rites Special Rule suffers one wound with no saves of any kind allowed.		Hero; Level 1 Wizard; May use Path of Beast, Shadow, Death or Wild.	Nov 2015	5	4	3	3	4	2	3	1	7	7	7	1	1	1	1	1	0
+chcenthe	Hero: Centaur Chieftain		Hero	Hero	Hero	1:1	100	100	type:Ld8;attr:Type="WB";ipts:total=125-each=125;type:chcenthe	umax:3u@4000-free=3-msg=crmsg901;clmt:weap+armr+ward+ench+bgif<=50-points-msg=crbsb1;clmt:stnd<=1-count		War Beast; Primaeval Savagery; Strider (Forest); Brewer; Scaly Skin (6+); Free Reform		Hero	Sept 2015	8	5	3	5	5	2	4	4	8	7	7	1	1	1	1	1	0
+chgorbul	Hero: Minotaur Chieftain		Hero	Hero	Hero	1:1	130	100	ipts:total=125-each=125;type:Ld7;type:nottehsuck;attr:Type="MI";type:chgorbul	clmt:weap+armr+ward+ench<=50-points-msg=crbsb1;clmt:stnd<=1-count;umax:3u@4000-free=3-msg=crmsg901		Monstrous Infantry (Stomp 1); Primal Instinct; Slaughterer; Strider (Forest); Impact Hits (1)		Hero; May be BSB	Nov 2015	6	5	3	5	5	4	4	4	7	7	7	0	0	3	0	1	0
+chwargor	Hero: Wildhorn Chieftain		Hero	Hero	Hero	1:1	70	100	ipts:total=125-each=125;name:"CH Wargor"-race=vm;type:Ld8;type:infantry;type:hero;attr:Type="In";type:chwargor	clmt:weap+armr+ward+ench+bgif<=50-points-msg=crbsb1;clmt:stnd<=1-count;umax:3u@4000-free=3-msg=crmsg901		Infantry; Primal Instinct; Strider (Forest); Battle Hunger; Ambush		Hero; May be BSB	Nov 2015	5	5	3	4	5	2	4	3	8	7	7	0	0	1	0	1	0
+chchwdog	Feral Hounds	CDogs	Core	Regiment	cavalry	5:20	4	0	calc:Num=#;attr:Type="WB";type:chchwdog	umax:4u@4000-free=4-msg=crmsg902		War Beast; Strider (Forest); Insignificant		Unit Size: 5-20; Base cost: 40		7	4	0	3	3	1	3	1	5	7	7	0	0	2	0	0	0
+chungor	Mongrel Herd		Core	Regiment	infantry	10:60	5	0	calc:Num=#;attr:Type="In";type:chungor	umax:4u@4000-free=4-msg=crmsg902		Infantry; Battle Hunger; Primal Instinct; Ambush; Strider (Forest); Insignificant		Unit Size: 10-60; Base cost: 50	Nov 2015	5	3	3	3	3	1	3	1	6	7	7	0	0	1	0	0	0
+chunrad	Mongrel Raiders		Core	Regiment	infantry	5:15	4	0	calc:Num=#;attr:Type="In";type:chunrad	umax:4u@4000-free=4-msg=crmsg902		Infantry; Battle Hunger; Primal Instinct; Ambush; Strider (Forest); Insignificant; Skirmishers		Unit Size: 5-15; Base cost: 40	Nov 2015	5	3	3	3	3	1	3	1	6	7	7	0	0	1	0	0	0
+chtukrch	Ramhorn Chariot	Chrt	Core	Machine	chariot	1:3	65	0	attr:At="D6";attr:Type="Ch";type:chtukrch	umax:4u@4000-free=4-msg=crmsg902		Chariot, Primal Instinct (Wildhorn and Longhorn only); Strider (Forest); Free Reform; Light Armour; Natural Armour		Base cost: 70; unit size: 1-3; Includes 1 Longhorn w/ great weapon, 1 Wildhorn w/ light lance, 2 Boarbeasts		0	0	0	5	4	4	0	0	0	4	7	0	0	4	0	1	0
+chgors	Wildhorn Herd	Herd	Core	Regiment	infantry	10:50	6	0	calc:Num=#;attr:Type="In";ipts:total=25-each=25;type:chgors	umax:4u@4000-free=4-msg=crmsg902		Infantry; Battle Hunger; Primal Instinct; Ambush; Strider (Forest)		Unit Size: 10-60; Base cost: 60	Nov 2015	5	4	3	3	4	1	3	1	7	7	7	0	0	1	0	0	0
+chcentig	Centaurs		Special	Regiment	warbeasts	5:20	14	0	calc:Num=#;ipts:total=25-each=25;attr:Type="WB";type:chcentig	umax:3u@4000-free=3-msg=crmsg903		Warbeast; Strider (Forest); Drunkard; Primal Instinct; Immune to Stomp		Unit Size: 5-20; Base cost: 80	Nov 2015	8	4	3	4	4	1	3	2	7	6	7	0	0	2	0	0	0
+chspawn	Hedgefiend		Special	Monster	spawn	1:1	50	0	attr:Mv="3D6";attr:At="D6+1";calc:Num=#;attr:Type="MB";type:chspawn	umax:3u@4000-free=3-msg=crmsg903		Monstrous Beast (Stomp 1); Fear; Random Movement (3D6); Random Attacks (1D6+1), Unbreakable; Sleeper: You can choose not to deploy this unit as normal. Instead the controlling player can choose to wake up the sleeper at the start of any of his remaining moves sub-phases: Place the model completely within any forest on the table.				0	3	0	4	5	3	2	0	10	7	7	0	0	3	0	1	0
+chbesthd	Longhorn Herd		Special	Regiment	infantry	10:40	10	0	xcmp:Core-legal=(mode=b|mode=e);ipts:total=50-each=50;calc:Num=#;size:1-20-1-mode=zz;note:"Raiders, Unruly"-legal=(mode=e);type:skirmishers-mode=e;attr:Type="In";type:chbesthd	umax:3u@4000-free=3-msg=crmsg903		Infantry; Battle Hunger; Primal Instinct; Strider (Forest)		Unit Size: 10-40; Base cost: 100		5	4	3	4	4	1	3	1	8	5	7	0	0	1	0	0	0
+chminos	Minotaurs		Special	Regiment	infantry	3:10	36	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="MI";ipts:total=50-each=50;type:chminos	umax:3u@4000-free=3-msg=crmsg903		Monstrous Infantry (Stomp 1); Strider (Forest); Frenzy; Primal Instinct; Impact Hits (1)		Unit Size: 3-10; Base cost: 120		6	4	3	5	4	3	3	3	7	7	7	0	0	3	0	0	0
+chharpy	Ravagers	Harpy	Special	Regiment	infantry	5:10	12	0	calc:Num=#;attr:Type="In";type:chharpy	umax:3u@4000-free=3-msg=crmsg903		Infantry; Strider (Forest); Fly (10); Skirmishers; Thunderous Charge		Unit Size: 5-10; Base cost: 80		5	4	0	3	4	1	3	2	7	7	7	0	0	1	0	0	0
+chrazcha	Razortusk Chariot		Special	Machine		1:1	110	0	attr:At="D6";attr:Type="Ch";type:chrazcha	umax:3u@4000-free=3-msg=crmsg903		Chariot; Primal Instinct (Wildhorn and Longhorn only); Strider (Forest); Thunderous Charge (Razortusk only); Light Armour; Natual Armour		Includes 1 Longhorn w/ great weapon, 1 Shorthorn w/ spear, 1 Razortusk		0	0	0	5	5	5	0	0	0	4	7	0	0	4	0	1	0
+chrazgo	Razortusk Herd		Special	Regiment		1:10	35	0	attr:Type="MB";type:chrazgo	umax:3u@4000-free=3-msg=crmsg903		Monstrous Beast (Stomp 1); Strider (Forest); Thunderous Charge		Unit Size: 1-10; Base cost: 50		7	3	0	5	5	3	2	4	6	7	7	0	0	3	0	0	0
+chgiant	Beast Giant	Giant	Rare	Monster	monster	1:1	145	0	attr:At="S";attr:Type="Mo";type:chgiant	umax:2u@4000-free=2-msg=crmsg904		Monster (Stomp D6); Immune to Psychology; Stubborn; Large Target; Terror; Strider (Forest); Drunkard; Giant Attacks				6	3	3	6	5	6	3	0	10	7	7	0	0	6	0	1	0
+chcygor	Cyclop		Rare	Regiment	monster	1:1	200	0	attr:Type="Mo";type:chcygor	umax:2u@4000-free=2-msg=crmsg904		Monster (Stomp D6); Strider (Forest); Immune to Psychology; Ward Save (5+); Magic Resistance (3); Holy Attacks; Large Target; Terror; #Soul-eater: At the start of each enemy magic phase, nominate a wizard within Line of Sight and 24” of the Cyclop. This wizard has a -1 modifier to his casting rolls during this magic phase; #Hurl Attack: If it has not marched this turn the Cyclops may hurl stones, using the rules for a Catapult artillery weapon with the following profile: Range 36”, Strength 3[9], Magical Attacks, Holy Attacks, [Multiple Wounds (Ordnance)]				7	2	3	6	5	6	3	5	8	7	5	0	0	5	0	1	0
+chgorgon	Gorgon		Rare	Regiment	monster	1:1	200	0	attr:Type="Mo";type:chgorgon	umax:2u@4000-free=2-msg=crmsg904		Monster Stom D6); Strider (Forest); Primal Instinct; Slaughterer; Stubborn; Lethal Strike; Impact Hits (D3); Large Target; Terror; # Strength from Flesh: For every unsaved Lethal Strike, the Lethal Strike gains Multiple Wounds (D3) and causes Gorgon to recover 1 wound.		Frenzy		7	4	0	6	6	6	3	6	10	7	7	0	0	6	0	1	0
+chjabber	Jaculus		Rare	Regiment	monster	1:1	135	0	attr:Type="Mo";type:chjabber	umax:2u@4000-free=2-msg=crmsg904		Monster (Stomp D6); Strider (Forest); Fly (8); Immune to Psychology; Poisoned Attacks; Large Target; Terror; #Aura of Madness: Enemy units not Immune to Psychology and within 6” of one or more units with Aura of Madness suffer from -1 Leadership.				8	4	2	5	5	5	3	4	8	4	7	0	0	5	0	1	0
+chspawn2	Mutant Spawn		Other	Monster	spawn	0	0	0	attr:Mv="2D6";attr:At="D6+1";attr:Type="MB";type:chspawn2	hide		Monstrous Beast (Stomp); Unbreakable; Fear; Lurking Horror (Compulsary Movement - declare direction before rolling, move in straight line); Random # of attacks per turn.				0	3	0	4	5	3	2	0	10	7	7	0	0	3	0	0	0
+^
+chbulky	Bulky		Priority	N/A	0	utyp:bulky;chld:mount@mv-1			Rider is Bulky	
+chbulky2	Bulky Rider		Priority	N/A	0	stat:mv-1			Character mounted in this chariot has Massive Bulk Mutation	
+chcdogs	Chaos Warhounds		Priority	N/A	0	hide;acmp:Core-1u				
+chcentco	Count as Core		Priority	N/A	0	xcmp:Core;dtyp:SpecCentigors;type:CoreCentigors			Makes Centigors core	
+chcorece	Count as Core	CorCe	Priority	N/A	0	xcmp:core;type:corecentaurs			If Centaur Chieftain is your General, then Centaurs can be taken as Core units.	
+chcoremi	Count as Core	CorM	Priority	N/A	0	xcmp:core;type:coreminos;over:stmg10=delete;more:st10=cost			If Monotaur Warlord is your General, then one unit of Minotaurs can be taken as Core unit.	
+chmincor	Count as Core		Priority	N/A	0	xcmp:Core;type:CoreMinotaurs;dtyp:SpecMinotaurs				
+chextrac	Extra Base Cost		Priority	N/A	10	cost:single;hide;xcst:20-unit=chchwdog;xcst:15-unit=chrazgo;xcst:20-unit=chharpy;xcst:20-unit=chunrad;xcst:5-unit=chtukrch;xcst:12-unit=chminos				
+chunicon	Fix Champion Ward		Priority	N/A	0	chld:champ@wsv-1-base;utyp:icon;hide				Fixes ward save for daemon champion if Unholy Icon is given to unit
+chldfix	Fix Ld		Priority	N/A	0	dtyp:Ld9;lglx:(race=dk&mode=e)				Allows KoS and DE Sorceress General in same army
+chgenece	General	Gen	Priority	N/A	0	lglx:!race=vm|race=dk&!mode=e;type:general;type:centaurgeneral;more:Gen7=incl;more:Gen8=incl;more:Gen9=incl;more:Gen10=incl	Inspiring Presence: Units within 12" (18" if LT) may use General's Leadership		Select Character to be General (highest Ld or your choice if tie).	Minotaur Warlord only general
+chgenemi	General	Gen	Priority	N/A	0	lglx:!race=vm|race=dk&!mode=e;type:general;type:minotaurgeneral;more:Gen7=incl;more:Gen8=incl;more:Gen9=incl;more:Gen10=incl	Inspiring Presence: Units within 12" (18" if LT) may use General's Leadership		Select Character to be General (highest Ld or your choice if tie).	Minotaur Warlord only general
+chgenerl	General	Gen	Priority	N/A	0	lglx:!race=vm|race=dk&!mode=e;type:general;type:beastlordgeneral;more:Gen7=incl;more:Gen8=incl;more:Gen9=incl;more:Gen10=incl	Units within 12" may use General's Leadership		Select Character to be General (highest Ld or your choice if tie).	Beastlord General only.
+chtehsuk	General Fix		Priority	N/A	0	type:tehsuck;utyp:general				
+chignor3	Ignore		Priority	N/A	0	acmp:Hero+2u;hide				
+chignor4	Ignore		Priority	N/A	0	acmp:Spec+1u;hide				
+chignor5	Ignore		Priority	N/A	0	acmp:Rare+1u;hide				
+chignor7	Ignore		Priority	N/A	0	acmp:Rare+1u;hide;lglx:race=dk&mode=e				
+chignor8	Ignore		Priority	N/A	0	acmp:Rare+1u;hide				
+chignor9	Ignore		Priority	N/A	0	acmp:Core+1u;hide;lglx:!mode=g				
+chignore	Ignore		Priority	N/A	0	acmp:Hero+1u;hide				
+chpkmstr	Khazrak in army		Priority	N/A	0	base:Ld=6;type:Khazrak_in_army				
+chlooted	Looted Booze	LBooz	Priority	N/A	20	xcst:10-unit=chgiant	Once per game, at the beginning of the controlling player’s turn, the model and any joined unit with the Drunkard special rule can change from sober to drunk. This Special Rule may only be used if the bearer chooses Sober before deployment.			
+chmabali	Magic Banner Limit		Priority	N/A	0	utyp:MagicBanner;type:Only1banner;hide				
+chmutant	Mutant Monstrosity	Mutnt	Priority	N/A	20	base:Sv-2	5+ Scaly Skin save; After rolling the Giant's special attack each combat, roll another D6, if they are the same, Giant 'Falls Down' in any direction the chaos player chooses.			
+chmnnomk	No Mark		Priority	N/A	0				No Mark of Chaos	
+chnosh	No Shield		Priority	Shd	0	hide				
+chchoice	Opponent's Approval		Priority	N/A	0					
+chremove	Remove standard		Priority	N/A	0	over:st14=delete;hide;lglx:mode=f				
+chthroww	Throwing Weapons	ThrWp	Priority	Rng	1		Range 12”. Strength as user. Quick to Fire. Multiple Shots (2).			
+genbeast	Beast General		First	N/A	0	hide;utyp:beast;type:beastgen				
+chspell2	Lore Table		First	N/A	0	tabl:Wild=chmagic,Death=mgdeath,Fire=mgfire,Shadow=mgshadow-noname-nobrackets;utyp:secret;show:mgmiscas			Select your lore	
+chspell3	Lore Table		First	N/A	0	tabl:Wild=chmagic,Shadow=mgshadow,Undeath=unundeat-noname-nobrackets				
+chspell4	Lore Table		First	N/A	0	tabl:Wild=chmagic,Death=mgdeath,Undeath=unundeat-noname-nobrackets				
+chspells	Lore Table		First	N/A	0	tabl:Wild=chmagic,Death=mgdeath-noname-nobrackets			Select your lore	
+chmgclv2	Magic Level Table		First	N/A	0	tabl:none=mgnone,Lvl1=chlvl1,Lvl2=chlvl2-nobrackets				
+chmgclvl	Magic Level Table		First	N/A	0	tabl:none=mgnone,Lvl1=chlvl1,Lvl2=chlvl2,Lvl3=chlvl3,Lvl4=chlvl4-nobrackets				
+chspellb	Path Table		First	N/A	0	tabl:Beast=mgbeasts,Death=mgdeath,Shadow=mgshadow,Nature=mglife-noname-nobrackets			Select your lore	
+chmagic	Lore of the Wild		SpellType	N/A	0	type:chmagic;show:chfull;show:chshow;item:+8;hide				
+chlvl1	Magic Level 1	ML1	SpellType	N/A	40	show:chspells;show:mgmiscas;base:Wz=1	+1 die to casting & dispel pools; may use 2 dice to cast; 1 spell known			
+chlvl2	Magic Level 2	ML2	SpellType	N/A	80	show:chspells;show:mgmiscas;base:Wz=2	+2 die to casting pool & +1 to dispel pool; may use 3 dice to cast; 2 spells known			
+chlvl3	Magic Level 3	ML3	SpellType	N/A	120	show:chspells;show:mgmiscas;base:Wz=3	+3 die to casting pool & +2 to dispel pool; may use 4 dice to cast; 3 spells known			
+chlvl4	Magic Level 4	ML4	SpellType	N/A	160	show:chspells;show:mgmiscas;base:Wz=4	+4 die to casting pool & +2 to dispel pool; may use 5 dice to cast; 4 spells known			
+ch2ndhw	2ndWeapon	xhw	Weapon	Wep	10	utyp:!mounted;stat:At+1;stat:In+1;xcst:2-unit=chbraygs;xcst:5-unit=chwarlor;xcst:5-unit=chgorbul;xcst:3-unit=chwargor;xcst:4-unit=chcenthe;xcst:1-unit=chcentig	^	^	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	
+ch2ndhw1	2ndWeapon	xhw	Weapon	Wep	1	stat:At+1;stat:In+1;chld:champ@At+1;chld:champ@In+1;over:chshield=delete	^	^	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.	
+chbax	Beast Axe	BAx	Weapon	Wep	25	stat:St+1;base:Sv-1;type:GreatWeapon;xcst:15-unit=chwarlor;xcst:20-unit=chgorbul;xcst:10-unit=chwargor;xcst:15-unit=chcenthe;xcst:8-unit=chminos	+1 Strength. +1 Save. Strikes at initiative 0.			
+chbystff	Beast Staff	Bray	Weapon	2Hd	10		Two-handed weapon. Choose at the  beginning of each combat, either use as a Great Weapon or defensively to gain +2 Armour Save.			
+chflail	Flail	Fla	Weapon	2Hd	10	stat:St+2;xcst:8-unit=chwarlor;xcst:5-unit=chgorbul;xcst:4-unit=chwargor	Requires Two Hands. +2 Strength. Close Combat Attacks allocated at a model with Flail has a +1 bonus when rolling To Hit.			
+chcentg	Great Weapon	GW	Weapon	Wep	2	stat:St+2;chld:champ@St+2	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+chgreatw	Great Weapon	GW	Weapon	2Hd	20	stat:St+2;type:GreatWeapon;xcst:10-unit=chwarlor;xcst:15-unit=chgorbul;xcst:6-unit=chwargor;xcst:10-unit=chcenthe;xcst:7-unit=chminos	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+chhalbrp	Halberds	Hal	Weapon	N/A	0	stat:St+1;chld:champ@St+1;over:2handtrp=delete	Requires Two Hands. +1 Strength.		Replace Great Weapons with Halberds.	
+chcentas	Impaler	CSp	Weapon	Wep	2	xcst:5-unit=chcenthe	+2 Strength in the first round of combat when charging.			
+chlance	Lance		Weapon	Wep	10	utyp:mounted;xcst:6-unit=chwargor	+2 Strength when charging. Mounted models only.			
+chshield	Shield	HWSH	Weapon	Shd	1	more:save1=incl;xcst:10-unit=chdoomus;utyp:!MagicShield	+1 AS; Parry (foot models only)			
+chfltzee	Flames of Tzeentch	FoT	Missile	N/A	0			Thrown Weapon; Rng 8"; S3; Each fires D6 bolts per turn; Flaming Attack	Thrown Weapon; Rng 8"; S3; Each fires D6 bolts per turn; Flaming Attack	
+charmou2	Chaos Armour	CArmr	Armour	Mus	10	base:Sv-3;lglx:race=dk&mode=e				The "conflict group" Mus has been used to limit mundane armours throughout AB
+charmour	Chaos Armour	CArmr	Armour	Mus	10	base:Sv=4;lglx:race=ch				The "conflict group" Mus has been used to limit mundane armours throughout AB
+chcaarm	Chaos Armour	CArmr	Armour	Mus	0	base:Sv-3;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+chharm	Heavy Armour	HAr	Armour	Arm	15	more:save2=incl;utyp:!MagicArmour;over:chlarm=delete;xcst:12-unit=chgorbul;xcst:12-unit=chwarlor;xcst:5-unit=chwargor;xcst:4-unit=chcenthe				
+chharo	Heavy Armour	HArmr	Armour	Arm	3	base:Sv-1;over:latrp=deselect				This is the Ogre H Arm upgrade and should not be used for other uses as it's AS ans conflict group are "Non standard"
+chlarm	Light Armour	LA	Armour	N/A	5	more:save1=incl;type:armour;utyp:!MagicArmour;xcst:4-unit=chgorbul				
+chshiel2	Shield	Sh	Shield	2Hd	4	more:save1=incl;utyp:!MagicShield				
+chshiel3	Shield	Sh	Shield	N/A	3	more:save1=incl;utyp:!MagicShield				
+chshiel4	Shield	Sh	Shield	Shd	4	more:save1=incl;utyp:!MagicShield				
+chshiel5	Shield	Sh	Shield	Shd	5	more:save1=incl;utyp:!MagicShield				
+chstmg	Allow Magic standard	MgSt	Standard	N/A	0	type:GorMagicStd;show:stmg10;over:st10=delete			Allows unit to use Magic standard. Only one unit per each character with Trophy Hunter special rule can use Magic standard.	
+chdaestd	Standard	Std	Standard	Std	14	type:daemonunit;spec:+stnd;cost:single;item:1;lglx:mode=f		+1CR	Adds +1 to combat result	
+chbldkne	Champion		Champion	N/A	0	unit:chbldkne@abs=1;cost:model;modl:-1				
+chchforn	Champion		Champion	N/A	0	unit:chchforn@abs=1;cost:model;modl:-1				
+chchghrn	Champion		Champion	N/A	0	unit:chchghrn@abs=1;cost:model;modl:-1				
+chgorho	Champion		Champion	N/A	0	unit:chwarhof@abs=1;modl:-1;type:Ghorros				
+chgorhof	Champion		Champion	N/A	0	unit:chgorhof@abs=1;cost:model;modl:-1				
+chhahor2	Champion		Champion	N/A	0	unit:chhahor2@abs=1;cost:model;modl:-1			Ungor champion	
+chhahorn	Champion		Champion	N/A	0	unit:chhahorn@abs=1;cost:model;modl:-1			Ungor champion	
+chungro	Ungrol Four Horn		Champion	N/A	75	unit:chungrol@abs=1;over:chhahorn=delete;cost:model;modl:-1				
+chtuskch	Ramhorn Chariot		Mount	Mnt,Chr	70	stat:Sv-1;slct:heromnt=incl;unit:chbstch@abs=1;type:mounted	Model loses Ambush.			utyp:undvd
+chgorth1	Razorgor Chariot		Mount	N/A	65	unit:chgrtrch@abs=1;over:chgorth4=delete;slct:heromnt=incl;stat:Sv-1;type:mounted			Gothors option	Gorthor's chariot
+chrazmou	Razortusk Chariot		Mount	Mnt,Chr	150	stat:Sv-1;slct:heromnt=incl;unit:chrazmo1@abs=1;type:mounted			character mount	
+chgorth4	Tuskgor Chariot		Mount	N/A	0	stat:Sv-1;slct:heromnt=incl;unit:chgothch@abs=1;type:mounted				
+chumbr	Unbralok		Mount	N/A	0	type:mounted;unit:chumbra@abs=1;more:save1=incl;stxt:Type="Ca"				
+chbscre1	Chariot Crew		Crew	N/A	0	hide;unit:chbscrw2@abs=1				
+chbscrew	Chariot Crew 2		Crew	N/A	0	hide;unit:chbscrw2@abs=1;unit:chbscrw1@abs=1				
+chungor	Ungors		Crew	N/A	0	unit:chungor@var;hide				November 11, 2002
+chambsh	Ambush		Priority1	N/A	0	hide;apnd:foot	Ambush: Roll each turn for units with ambush. You may keep any unit with the Beastmen Ambush special rule off the table at the beginning of the game, provided you have a unit of the same type and of the same size (or larger) that you deploy as normal.			
+chgorth2	Bagrar		Priority1	N/A	0	hide;unit:chbagrar@abs=1				Gorthor's chariot
+cheye	Eye of the Gods	EoG	Priority1	N/A	0	lglx:race=lc				
+chmarkt1	Mark of Chaos Table		Priority1	N/A	0	tabl:NoMark=chnomark,Khorne=chmok2,Nurgle=chmon2,Tzeentch=chmot2,Slaanesh=chmos1-noname;lglx:race=lc				
+chmarkt2	Mark of Chaos Table		Priority1	N/A	0	tabl:NoMark=chnomark,Khorne=chmok10,Nurgle=chmon10,Tzeentch=chmot10,Slaanesh=chmos5-noname;lglx:race=lc				
+chmarkt3	Mark of Chaos Table		Priority1	N/A	0	tabl:NoMark=chnomark,Khorne=chmok10m,Nurgle=chmon10,Tzeentch=chmot10,Slaanesh=chmos5-noname;lglx:race=lc				Minotaur Lord and Hero table
+chmodgc	Mark of Dark Gods (Change)	MoC	Priority1	N/A	10	unam:+" of Change";type:change;xcst:20-unit=chdoomus;xcst:15-unit=chgorbul;xcst:1-unit=chgors;xcst:1-unit=chungor;xcst:1-unit=chunrad;xcst:4-unit=chminos;xcst:1-unit=chbesthd;xcst:2-unit=chcentig;xcst:0-unit=chspawn;xcst:15-unit=chgiant		When Shooting, or at the start of each combat, parts of models with the Mark of the Dark Gods (Change) can choose one of the following Special Rules to apply to their Shooting attacks that Phase or Close Combat Attacks done during that combat: Flaming Attacks, Magical Attacks, Holy Attacks or Hellfire. A Wizard with Mark of the Dark Gods (Change) has +1 Casting Modifier when casting spells.	When Shooting, or at the start of each combat, parts of models with the Mark of the Dark Gods (Change) can choose one of the following Special Rules to apply to their Shooting attacks that Phase or Close Combat Attacks done during that combat: Flaming Attacks, Magical Attacks, Holy Attacks or Hellfire. A Wizard with Mark of the Dark Gods (Change) has +1 Casting Modifier when casting spells.	
+chmodgl	Mark of Dark Gods (Lust)	MoL	Priority1	N/A	10	unam:+" of Lust";type:lust;xcst:20-unit=chdoomus;xcst:15-unit=chgorbul;xcst:1-unit=chgors;xcst:1-unit=chungor;xcst:1-unit=chunrad;xcst:4-unit=chminos;xcst:1-unit=chbesthd;xcst:2-unit=chcentig;xcst:0-unit=chspawn;xcst:15-unit=chgiant		Models with the Mark of the Dark Gods (Lust) can reroll charge, pursuit and random movement rolls and are Immune to panic caused by 25% casualties.	Models with the Mark of the Dark Gods (Lust) can reroll charge, pursuit and random movement rolls and are Immune to panic caused by 25% casualties (but not immune to any other kinds of panic: unit destroyed or broken within 6", terror-caused panic etc.).	
+chmodgp	Mark of Dark Gods (Pestilence)	MoP	Priority1	N/A	10	unam:+" of Pestilence";type:pestilence;xcst:20-unit=chdoomus;xcst:15-unit=chgorbul;xcst:1-unit=chgors;xcst:1-unit=chungor;xcst:1-unit=chunrad;xcst:4-unit=chminos;xcst:1-unit=chbesthd;xcst:2-unit=chcentig;xcst:0-unit=chspawn;xcst:15-unit=chgiant		Enemy models attacking or being attacked by models with Mark of the Dark Gods (Pestilence) have -1 Weapon Skill (to a minimum of 1) when rolling to hit. Toxic Attacks are at -1 to wound against parts of models with Mark of the Dark Gods (Pestilence)	Enemy models attacking or being attacked by models with Mark of the Dark Gods (Pestilence) have -1 Weapon Skill (to a minimum of 1) when rolling to hit. Toxic Attacks are at -1 to wound against parts of models with Mark of the Dark Gods (Pestilence)	
+chmodgu	Mark of Dark Gods (Unbound)	MoU	Priority1	N/A	0	unam:+" (Unbound)";type:unbound		Units with majority of models with the Mark of the Dark Gods (Unbound) may reroll failed Panic tests.	Units with majority of models with the Mark of the Dark Gods (Unbound) may reroll failed Panic tests.	
+chmodgw	Mark of Dark Gods (Wrath)	MoW	Priority1	N/A	10	unam:+" of Wrath";type:wrath;xcst:20-unit=chdoomus;xcst:15-unit=chgorbul;xcst:1-unit=chgors;xcst:1-unit=chungor;xcst:1-unit=chunrad;xcst:4-unit=chminos;xcst:1-unit=chbesthd;xcst:2-unit=chcentig;xcst:0-unit=chspawn;xcst:15-unit=chgiant		Parts of models with the Mark of the Dark Gods (Wrath) have Immune to Psychology Special Rule and +1 Strength on their attacks until they lose a combat. While you have this additional Strength you cannot benefit from Parry. Furthermore, a Unit with one or more models with this Mark must always Pursue (if able), but are not forced to overrun. Wizards cannot use, have, or gain this Mark in any way.	Parts of models with the Mark of the Dark Gods (Wrath) have Immune to Psychology Special Rule and +1 Strength on their attacks until they lose a combat. While you have this additional Strength you cannot benefit from Parry. Furthermore, a Unit with one or more models with this Mark must always Pursue (if able), but are not forced to overrun. Wizards cannot use, have, or gain this Mark in any way.	
+chmok10	Mark of Khorne	MoK	Priority1	N/A	10	more:frenzy=incl;unam:+" of Khorne";type:khorne			Frenzy.	
+chmok10m	Mark of Khorne	MoK	Priority1	N/A	10	unam:+" of Khorne";type:khorne			Frenzy.	
+chmok2	Mark of Khorne	MoK	Priority1	N/A	2	more:frenzy=incl;unam:+" of Khorne";type:khorne			Frenzy.	
+chmon10	Mark of Nurgle	MoN	Priority1	N/A	10	unam:+" of Nurgle";type:nurgle	-1 to hit in CC			
+chmon2	Mark of Nurgle	MoN	Priority1	N/A	2	unam:+" of Nurgle";type:nurgle	-1 to hit in CC			
+chmos1	Mark of Slaanesh	MoS	Priority1	N/A	1	unam:+" of Slaanesh";type:slaanesh	Immune to Fear, Terror and Panic.			
+chmos5	Mark of Slaanesh	MoS	Priority1	N/A	5	unam:+" of Slaanesh";type:slaanesh	Immune to Fear, Terror and Panic.			
+chmodgt1	Mark of the Dark Gods table		Priority1	N/A	0	tabl:Unbound=chmodgu,Pestilence=chmodgp,Lust=chmodgl,Change=chmodgc,Wrath=chmodgw				Table for non-shamans
+chmodgt2	Mark of the Dark Gods table		Priority1	N/A	0	tabl:Unbound=chmodgu,Pestilence=chmodgp,Lust=chmodgl,Change=chmodgc				Table for shamans
+chmodgt3	Mark of the Dark Gods table		Priority1	N/A	0	tabl:Pestilence=chmodgp,Lust=chmodgl,Change=chmodgc,Wrath=chmodgw				Table for spawn
+chmot10	Mark of Tzeentch	MoT	Priority1	N/A	10	unam:+" of Tzeentch";type:tzeentch;base:WSv-1	+1 to Ward Save (6+ if model has none).			
+chmot2	Mark of Tzeentch	MoT	Priority1	N/A	2	unam:+" of Tzeentch";type:tzeentch;base:WSv-1	+1 to Ward Save (6+ if model has none).			
+chmutta1	Mutations Table	MutTa	Priority1	N/A	0	utyp:!mounted;tabl:NoMutation=chmut0,MassiveTusks=chmut01,Metamorphosis=chmut02,LordOfBulls=chmut03,HornsOfTrueBeast=chmut05,ScalyHide=chmut06,HellishMead=chmut07,BestalPlanning=chmut08				For Beast Warlord on foot only
+chmutta2	Mutations Table	MutTa	Priority1	N/A	0	utyp:mounted;tabl:NoMutation=chmut0,MassiveTusks=chmut01,Metamorphosis=chmut02,LordOfBulls=chmut03,HornsOfTrueBeast=chmut05,ScalyHide=chmut06,HellishMead=chmut07				For Beast Warlord on chariot only
+chmutta3	Mutations Table	MutTa	Priority1	N/A	0	tabl:NoMutation=chmut0,MassiveTusks=chmut01,Metamorphosis=chmut02,LordOfBulls=chmut03,FatherOfCentaurs=chmut04,HornsOfTrueBeast=chmut05,ScalyHide=chmut06				For Centaur Chieftain only
+chmutta4	Mutations Table	MutTa	Priority1	N/A	0	utyp:!mounted;tabl:NoMutation=chmut0,MassiveTusks=chmut01,Metamorphosis=chmut02,LordOfBulls=chmut03,HornsOfTrueBeast=chmut05,ScalyHide=chmut06,BestalPlanning=chmut08				For Beast Chieftain on foot only
+chmutta5	Mutations Table	MutTa	Priority1	N/A	0	utyp:mounted;tabl:NoMutation=chmut0,MassiveTusks=chmut01,Metamorphosis=chmut02,LordOfBulls=chmut03,HornsOfTrueBeast=chmut05,ScalyHide=chmut06				For Beast Chieftain on chariot only
+chmutta6	Mutations Table	MutTa	Priority1	N/A	0	tabl:NoMutation=chmut0,MassiveTusks=chmut01,Metamorphosis=chmut02,LordOfBulls=chmut03,HornsOfTrueBeast=chmut05,ScalyHide=chmut06				For Minotaurs Warlords and Chieftains
+chmodgno	No mark of Gods		Priority1	N/A	0					
+chnomark	NoMark		Priority1	N/A	0	lglx:race=lc				
+chshow	All Lore Spells		Priority2	N/A	0	take:chwilda;take:chwild0;take:chwild1;take:chwild2;take:chwild3;take:chwild4;take:chwild5;take:chwild6;base:Wz=8;item:+8;spec:+spel			Shows all the Lore spells as magic items	
+chmut08	Bestial Planning	BPlan	Priority2	N/A	10	type:chmut08;utyp:!mounted	Wearer has Ambush. After deployment, if the wearer and at least one other unit is ambushing, you may declare that the wearer is joining an ambushing unit (and which unit). When rolling to see if ambushing units arrive, don’t roll for the character, instead roll single dice for the unit he has joined. This dice may be rerolled. If they arrive, deploy the character joined to the unit.		Beast Warlords and Beast Chiefains on foot only.	
+chbigthi	Big Things		Priority2	N/A	0	apnd	1. Yell and Bawl, 2-4. Thump with Club, 5-6. Chomp!		Random attack chart for big things printed at end of roster.	
+chtusker	Boarbeasts		Priority2	N/A	0	hide;unit:chtusker@abs=2				
+chmut04	Father of Centaurs	FaCen	Priority2	N/A	35	type:centaurchieftain;base:Ld+1;type:chmut04;skip dtyp:Ld8;show:btstand8	Centaur Chieftains only. The model has +1 Ld. If the wearer is the General, Centaurs count as Core choices instead of Special.		A single Centaur Chieftain in the army may be upgraded to the Battle Standard Bearer for 25 pts.	
+chfull	Full Spell List		Priority2	N/A	0	more:chwild0=incl;more:chwild1=incl;more:chwild2=incl;more:chwild3=incl;more:chwild4=incl;more:chwild5=incl;more:chwild6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+chmut07	Hellish Mead	HelMe	Priority2	N/A	40	type:chmut07	The wearer and any unit he joins during deployment have the Drinker special rule (roll once on the Drinker chart and apply the same result to both unit and character). The unit will only benefit from the Drinker's effects if the model with Hellish Mead is in the unit.		Beast Warlord only.	
+chmut05	Horns of a True Beast	HoTrB	Priority2	N/A	45	type:chmut05	Wearer is Stubborn.			
+chmut03	Lord of Bulls	LoBul	Priority2	N/A	35	utyp:general;type:lordofbulls;type:chmut03	If the wearer is the General, Minotaurs count as Core choices instead of Special. All Units with one or more Minotaurs, Minotaur Warlords or Minotaur Chieftains may reroll failed frenzy tests. 			
+chmut01	Massive Tusks	MasTu	Priority2	N/A	25	type:chmut01	Wearer has Impact Hits (1) and Armour Piercing (1).			
+chmut0	No mutation		Priority2	N/A	0					
+chmut06	Scaly Hide	ScHid	Priority2	N/A	25	type:chmut06;base:Sv-2	Scaly Skin (5+).			
+chslaugh	Slaughterer's Call		Priority2	N/A	0	hide;apnd:foot	Slaughterer's Call: Any unit joined by a Doombull or Gorbull gains Frenzy and loses Primal Fury if they have it.			
+chmut02	Unnatural Metamorphosis	UnMet	Priority2	N/A	75	base:To+1;type:chmut02	Wearer has Regeneration (4+) and +1 Toughness.			
+chblood	Bloodgreed		Priority3	N/A	0	hide;apnd:foot	Bloodgreed: Frenzy and additional attack for each won combat until you are beaten in CC, can Overrun or Pursue only 1D6.			
+chgiant1	Giant Attacks - Small Things	SmAtt	Priority4	N/A	0	spec:+ench;item:+5;take:chgiats0-perm;take:chgiats1-perm;take:chgiats2-perm;take:chgiats3-perm;take:chgiats4-perm			Attacks made against units of troop types: In, Sw, WB, WM and Ca.	
+chwild0	0: Savage Ferocity		Priority5	N/A	0	hide;apnd:foot;utyp:chsorc		Augment. Cast on a 9+, Range 12" OR Cast on 12+, Range 24". Lasts one turn. Target has Frenzy, Hatred and +1 Strength.		
+chwild1	1: Swarm of Insects		Priority5	N/A	0	hide;apnd:foot;utyp:chsorc		Hex. Missile. Damage. Cast on a 6+, Range 24" OR cast on 9+, Range 48". Target suffers 5D6 strength 1 hits.		
+chwild2	2: Devolve		Priority5	N/A	0	hide;apnd:foot;utyp:chsorc		Hex. Direct. Damage. Cast on 8+, Range 24" OR Cast 11+, Range 48". Target takes a panic test, and cannot receive Inspiring presence for the test.		
+chwild3	3: Revolt		Priority5	N/A	0	hide;apnd:foot;utyp:chsorc		Focused. Aura. Hex. Cast on 11+. Range 12".  Affects Cavalry, Monstrous Cavalry, Chariots and ridden Monster only. Affected models suffers a number of hits equal to the attacks characteristic of the mount (or mounts), with the strength of the mount (use the highest if more than one mount). Armour save bonus from mounted, barding or natural armour cannot be used against these hits.		
+chwild4	4: Dark Rain		Priority5	N/A	0	hide;apnd:foot;utyp:chsorc		Hex. Cast on 11+. Range 24". Lasts one turn. Target cannot use shooting attacks nor use flying movement. 		
+chwild5	5: Mantle of Darkness		Priority5	N/A	0	hide;apnd:foot;utyp:chsorc		Augment. Cast on 11+, Range 12" OR Cast on 14+, Range 24". Lasts one turn. All shooting and close combat attacks must reroll successful to hit rolls againt the target.		
+chwild6	6: Dominion		Priority5	N/A	0	hide;apnd:foot;utyp:chsorc		Ground. Cast on 16+. Permanent. Place a Summoned Giant (any mark of chaos) or Jabberwock within 6” from any table edge with the Stupidity and Unstable Special Rules. While the monster is alive this spell cannot be cast again.		
+chambus2	Ambush	Amb	Priority5	N/A	1		Can only be used if the unit is 20 or less models.			
+chambus3	Ambush	Amb	Priority5	N/A	3					
+chambush	Ambush	Amb	Priority5	N/A	15	cost:single;xcst:20-unit=chgiant				
+chwilda	Attr: Bestial Surge		Priority5	N/A	0	hide;apnd:foot;utyp:chsorc		Attribute. Augment. Range 12". Target may perform a D6” Magical Move.		
+chbreath	Breath Weapon	BrW	Priority5	N/A	25		(Strength 3, Armour Piercing (2))			
+chgiant2	Giant Attacks - Big Things	BiAtt	Priority5	N/A	0	spec:+ench;item:+5;take:chgiatb0-perm;take:chgiatb1-perm;take:chgiatb2-perm;take:chgiatb3-perm			Attacks made against units of troop types: MI,  MB, MC, Ch and Mo.	
+chinnde4	Innate Defence (4+)	ScaS	Priority5	N/A	15	base:Sv=4				
+chwarho2	Innate Defence (6+)	ScaS	Priority5	N/A	1	base:Sv=6				
+chwarho1	Poisoned Attacks	PoisA	Priority5	N/A	1					
+chscout	Scout	scout	Priority5	N/A	15	cost:single				
+chscout2	Scouts	scout	Priority5	N/A	2					
+chwarho3	Vanguard	Vang	Priority5	N/A	2					
+chgorth3	Boarbeasts		Special	N/A	0	hide;unit:chgrtusk@abs=2				Gorthor's chariot tuskgors
+chtote0	Choose Totem		Special	N/A	0					
+chtote4	Direwolf Totem		Special	N/A	0	take:chtotem4-perm				
+chgrthr2	Extra Rare Slot		Special	N/A	0	acmp:Rare-1u			Select this option to take an extra Rare Slot	
+chtote1	Foulhide Totem		Special	N/A	0	take:chtotem1-perm				
+chwcall4	Pack Howl	PackH	Special	N/A	0	type:wildherdcall	Ambushing units in army arrive in packs. Player may choose to combine up to 3 units to roll for Ambush together.			
+chtote3	Pale Sun Totem		Special	N/A	0	take:chtotem3-perm				
+chrazoch	Razorgor		Special	N/A	0	hide;unit:chrazch@abs=1				
+chshowto	Show Totems		Special	N/A	0	item:+4;spec:+spel;take:chtotem1-perm;take:chtotem2-perm;take:chtotem3-perm;take:chtotem4-perm				
+chwcall2	Stalker	Stalk	Special	N/A	0	type:wildherdcall	You may reroll Ambush rolls.			
+chwcall3	Stampede	Stamp	Special	N/A	0	type:wildherdcall	Army may Ambush beginning on turn 1 as long as controlling player does not have first turn.			
+chtotem	Totem Bearer	Tot	Special	N/A	25	show:chshowto;type:totembearer;xcst:20-unit=chgorbul;xcst:20-unit=chwargor;xcst:20-unit=chcenthe	Bound Spell Casting Value 3. Augment.  Range 18”. Lasts One Turn. Reroll failed casting rolls for Totems, Range 18”. +1 to cast and ignore Not Enough Power if the target unit is in base contact with an enemy unit. +1 to cast and ignore Not Enough Power if half or more of the target unit is in Woods.			
+chtotem2	Totem Bearer	Tot	Special	N/A	10	show:chtoteta;type:totembearer;item:+1;spec:+spel;more:chtoteta=cost	Bound Spell Casting Value 3. Augment. Caster's Unit. Lasts One Turn. +1 to cast and ignore Not Enough Power if the target unit is in base contact with an enemy unit. +1 to cast and ignore Not Enough Power if half or more of the target unit is in Woods.			
+chtoteta	Totem Table		Special	N/A	0	tabl:ChooseTotem=chtote0,Foulhide=chtote1,Wolverine=chtote2,PaleSun=chtote3,Direwolf=chtote4-noname-nobrackets				Totem table for champions
+chwcall1	Wildherd Call		Special	N/A	0		If a Beastlord is the General, you may choose one of the following options for any of the Beastlords.			
+chwcallt	Wildherd Call table	PackH	Special	N/A	0	tabl:WildherdCall=chwcall1,Stalker=chwcall2,Stampede=chwcall3,PackHowl=chwcall4-noname-nobrackets				
+chtote2	Wolverine Totem		Special	N/A	0	take:chtotem2-perm				
+chdbgen	Doombull Gen		Last	N/A	0	hide;utyp:general&doombull;glob:incl;type:DoombullGen				
+^
+chslaugh	Hunter's Spear	weap	MWp	40	1	itst:race=ch		Magic Weapon. Impaler. Can be shot as Bolt Thrower Artillery Weapon: Range 18", St6, Armour Piercing (6), Multiple Wounds (D3), Heart Seeking- shots fired do not suffer any To Hit modifiers.	^	^	Aug 20, 2003
+chprime2	Primeval Mace	weap	MWp	50	1	itst:race=ch&!type=Lord;stat:St+2		Magic weapon. Great Weapon. No saves of any kind cannot be taken against attacks made with this weapon.	^	^	
+chprimev	Primeval Mace	weap	MWp	75	1	itst:race=ch&type=Lord;stat:St+2		Magic weapon. Great Weapon. No saves of any kind cannot be taken against attacks made with this weapon.	^	^	
+chbramb2	Bramblehide	armr	Arm,MAr	50	1	itst:race=ch&!type=Lord;base:Sv-2;type:MagicArmour;base:To+1	ssave1=incl	Heavy Armour. Bearer has Regeneration (4+) and +1 Toughness.	^	^	
+chbrambl	Bramblehide	armr	Arm,MAr	70	1	itst:race=ch&type=Lord;base:Sv-2;type:MagicArmour;base:To+1	ssave1=incl	Heavy Armour. Bearer has Regeneration (4+) and +1 Toughness.	^	^	
+chdargan	Greathorn Helm	armr	MAr	25	1	itst:race=ch;base:Sv-1	ssave1=incl	Magic Armour. Helm (6+ armour save). For every successful Armour Save, the wearer makes one close combat attack, where it cannot use any effects from weapons it carries. These attacks are performed out of sequence immediately (before removing wounds from unsaved attacks).	^	^	
+chpillag	Pillager Icon	ward	Tal	25	1	itst:race=ch		Talisman. Friendly units comprised entirely of Razortusks, Chariots (excluding Character mounts), and Warhounds within 12” have Vanguard.	^	^	
+chruneb	Rune of The Beast	ward	Tal	15	1	itst:race=ch		War beasts, Monstrous Beasts, Monsters, Swarms, Cavalry mounts, Monstrous Cavalry mounts, Chariot beasts and Ridden Monster mounts can only hit the bearer on 6s. Crew and riders are unaffected.	^	^	
+chgiatb1	1: Bellow	ench	N/A	0	99	itst:reg=chgiant|reg=oggiant		Neither the giant nor the chosen unit can make any close combat attack this phase. Attacks already done (including those simultaneously with this attack) aren't affected. The Giant's side automatically wins the combat by 2. If two (or more) opposing Giants "Bellow", the combat is a draw.	^	^	
+chgiats1	1: Bellow	ench	N/A	0	99	itst:reg=chgiant|reg=oggiant		Neither the giant nor the chosen unit can make any close combat attack this phase. Attacks already done (including those simultaneously with this attack) aren't affected. The Giant's side automatically wins the combat by 2. If two (or more) opposing Giants “Bellow”, the combat is a draw.	^	^	
+chgiatb2	2-3: Thump	ench	N/A	0	99	itst:reg=chgiant|reg=oggiant		Choose a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the is failed, the model suffers 2D6 wounds with Armour Piercing (6).	^	^	
+chgiats2	2: Jump	ench	N/A	0	99	itst:reg=chgiant|reg=oggiant		The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant must take a Dangerous Terrain test.	^	^	
+chgiats3	3: Grab	ench	N/A	0	99	itst:reg=chgiant|reg=oggiant		Choose a model from the chosen unit in base contact with the Giant. This model takes a Strength and Weapon Skill test. For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).	^	^	
+chgiatb3	4-6: Smash	ench	N/A	0	99	itst:reg=chgiant|reg=oggiant		Choose a model from the unit in base contact with the Giant. This model suffers 1 wound with Armour Piercing (6). If the model has not yet attacked it cannot attack in this round. It the model has already attacked, it cannot attack in the next player turn.	^	^	
+chgiats4	4-6: Swing	ench	N/A	0	99	itst:reg=chgiant|reg=oggiant		The Giant makes 2D6 attacks on the chosen unit.	^	^	
+chgiatb0	Attacks Explanation - Big Things	ench	N/A	0	99	itst:reg=chgiant|reg=oggiant		Attacks made against units of troop types: MI,  MB, MC, Ch and Mo. Roll D6:	^	^	
+chgiats0	Attacks Explanation - Small Things	ench	N/A	0	99	itst:reg=chgiant|reg=oggiant		Attacks made against units of troop types: In, Sw, WB, WM and Ca. Roll D6:	^	^	
+chcrownb	Crown of the Trueborn Beast	ench	Enc	15	1	itst:race=ch		The character, any unit he is in, and any unit in his Inspiring Presence automatically pass Primal instinct tests	^	^	
+chplagch	Seed of the Dark Forest	ench	Enc	40	1	itst:race=ch		After all forces have deployed, but before the game starts, the bearer may place a Dark Forest (on a 5" round base) with its centre 12" or less away from the wearer. All friendly Models at least partially within this Dark Forest add D3 to their Casting Rolls for augment-spells, hex-spells and Totems.	^	^	
+chlocust	Locust Breath	wzrd	Arc	35	1	itst:race=ch		Bound Spell, Power Level 4. Contains the spell Swarm of Insects (Path of Beasts). Hex. Missile. Damage. Range 24". Target suffers 5D6 Strength 1 hits.	^	^	
+chbstban	Beast Banner	stnd	Std	60	1	itst:race=ch;stat:St+1	bsb=incl	The bearer and his unit have +1 Strength.	^	^	Aug 20, 2003
+chwild0	0: Savage Ferocity	spel	N/A	0	10	itst:(race=ch&type=chmagic);xtot		Augment. Cast on a 9+, Range 12" OR Cast on 12+, Range 24". Lasts one turn. Target has Frenzy, Hatred and +1 Strength.	^	^	
+chwild1	1: Swarm of Insects	spel	N/A	0	10	itst:(race=ch&type=chmagic);xtot		Hex. Missile. Damage. Cast on a 6+, Range 24" OR cast on 9+, Range 48". Target suffers 5D6 strength 1 hits.	^	^	
+chwild2	2: Devolve	spel	N/A	0	10	itst:(race=ch&type=chmagic);xtot		Hex. Direct. Damage. Cast on 8+, Range 24" OR Cast 11+, Range 48". Target takes a panic test, and cannot receive Inspiring presence for the test.	^	^	
+chwild3	3: Revolt	spel	N/A	0	10	itst:(race=ch&type=chmagic);xtot		Focused. Aura. Hex. Cast on 11+. Range 12".  Affects Cavalry, Monstrous Cavalry, Chariots and ridden Monster only. Affected models suffers a number of hits equal to the attacks characteristic of the mount (or mounts), with the strength of the mount (use the highest if more than one mount). Armour save bonus from mounted, barding or natural armour cannot be used against these hits.	^	^	
+chwild4	4; Dark Rain	spel	N/A	0	10	itst:(race=ch&type=chmagic);xtot		Hex. Cast on 11+. Range 24". Lasts one turn. Target cannot use shooting attacks nor use flying movement. 	^	^	
+chwild5	5: Mantle of Darkness	spel	N/A	0	10	itst:(race=ch&type=chmagic);xtot		Augment. Cast on 11+, Range 12" OR Cast on 14+, Range 24". Lasts one turn. All shooting and close combat attacks must reroll successful to hit rolls againt the target.	^	^	
+chwild6	6: Dominion	spel	N/A	0	10	itst:(race=ch&type=chmagic);xtot		Ground. Cast on 16+. Permanent. Place a Summoned Giant (any mark of chaos) or Jabberwock within 6” from any table edge with the Stupidity and Unstable Special Rules. While the monster is alive this spell cannot be cast again.	^	^	
+chwilda	Attr: Bestial Surge	spel	N/A	0	99	itst:(race=ch&type=chmagic);xtot		Attribute. Augment. Range 12". Target may perform a D6” Magical Move.	^	^	
+chtotem4	Direwolf Totem	spel	N/A	0	99	itst:type=totembearer		The unit gains +3 Initiative and adds +D6 to it`s charge distance.	^	^	
+chtotem1	Foulhide Totem	spel	N/A	0	99	itst:type=totembearer		The unit gains Innate Defence (6+) and the Distracting Special rule.	^	^	
+chtotem3	Pale Sun Totem	spel	N/A	0	99	itst:type=totembearer		The unit counts as having Hard Cover and the Magic Resistance (3) Special rule.	^	^	
+chtotem2	Wolverine Totem	spel	N/A	0	99	itst:type=totembearer		The unit gains +1 Attack and AP(2).	^	^	
+chblade	Axe of Men	unk2	MWp	75	1	itst:race=ch		Bearer has Killing Blow and if they kill an opponent in a challenge they and the unit they lead are Unbreakable and cause Terror  as long as he leads them.	^	^	
+chaxek	Axes of Khorgor	unk2	2Hd,MWp	40	1	itst:race=ch;stat:At+1		+1 Attack.  Welder may reroll failed "To Hit" rolls. Two Hand weapons	^	^	
+chtotem	Banner of Corrosion	unk2	Std	50	1	itst:race=ch	bsb=incl	All units within 6" of a unit with this banner (friend or foe, including unit itself) have -2 Armour Save.	^	^	
+chbanrag	Banner of Outrage	unk2	Std	20	1	itst:race=ch	bsb=cost	The bearer's unit automatically passes primal fury tests (there is no need to roll). Enemy units Hate the bearer's unit.	^	^	
+chblood	Blackened Plate	unk2	Arm,MAr	20	1	itst:race=ch&type=bloodkine;base:Sv-1;type:MagicArmour	wsv2=incl	Heavy Armour;  Confers +2 ward against ONLY Flaming Attacks upon bearer and unit gets a +4 ward against Flaming Attacks ONLY.	^	^	
+chsouls	Blackened Plate	unk2	Arm,MAr	20	1	itst:race=ch&!(reg=chbraysh|reg=chbraygs|reg=chbldkne);base:Sv-2;type:MagicArmour	wsv2=incl	Heavy Armour;  Confers +2 ward against ONLY Flaming Attacks upon bearer and unit gets a +4 ward against Flaming Attacks ONLY.	^	^	
+chshrfur	Blade-Blunter Armour	unk2	Arm,MAr	50	1	itst:race=ch&!(reg=chbraysh|reg=chbraygs);stat:Sv-2;type:MagicArmour		Heavy Armour; End of combat phase, D6 for each magic weapon that hit bearer, 2+ weapon now mundane	^	^	
+chbrass	Brass Cleaver	unk2	MWp	30	1	itst:race=ch		Welder may make a single bonus attack against each enemy model in base-to-base contact.  Only +1 in a challenge.	^	^	
+chcacop	Cacophonous Dirge	unk2	Enc	15	1	itst:race=ch		Enemy musicians fighting in the same combat have no effect.	^	^	
+chchalra	Chalice of Dark Rain	unk2	Tal	40	1	itst:race=ch		One use only;  At the beginning of enemy shooting phase activate and all shooting units will have a -1 to hit.  If the weapon attack does not use a BS then can only shoot on a 4+.	^	^	
+chstubb	Crown of Horns	unk2	N/A	75	1	itst:race=ch		Character and Unit Stubborn	^	^	
+cheverbl	Everbleed	unk2	MWp	25	1	itst:race=ch		Whenever the wielder inflicts a wound on an enemy model, roll a D6. On a 6, the model suffers another wound with no saves of any kind allowed, and you must roll again until you do not roll a 6.	^	^	
+cheyeni	Eye of Night	unk2	Tal	45	1	itst:race=ch		MR(2);  Additionally if an enemy wizard within 24" attempts to cast a spell from the Lores of Life, Heaven or Light and miscasts you may force him to reroll the miscast result on the table.	^	^	
+chcalski	Gnarled Hide	unk2	N/A	15	1	itst:race=ch;base:Sv-2		5+ Scaly Skin save.  Can be combined with armor as normal	^	^	
+chgoatst	Goat Staff	unk2	Arc	40	1	itst:race=ch		Arcane Item. Bound Spell, Power Level 4. Contains the spell Swarm of Insects (Path of Wild).	^	^	
+chgouge	Gouge-Tusks	unk2	N/A	15	1	itst:race=ch		CC attacks are armour piercing.	^	^	
+chhagt	Hag Doll	unk2	Arc	20	1	itst:race=ch		Arcane Item. At the beginning of each friendly magic phase, you may nominate an enemy unit within 24”. Hits with a Strength value may reroll failed To Wound rolls this phase.	^	^	
+chhornf	Horn of the First Beast	unk2	Enc	50	1	itst:race=ch&type=hero		All Beastmen within 36" of the bearer may re-roll failed Primal Fury rolls.	^	^	
+chhorng	Horn of the Great Hunt	unk2	Bnd,Enc	50	1	itst:race=ch&type=hero		Bound Spell, Level 3. Contains the spell "Bestial Surge" with a range of 36".	^	^	
+chjagdag	Jagged Dagger	unk2	Arc	10	1	itst:race=ch&type=chsorc		Bray-Shaman only. Put aside every model killed by this weapon - they may be used as one-use Power Dice by the wielder.	^	^	
+chbanman	Manbane Standard	unk2	Std	35	1	itst:race=ch	bsb=incl	All enemy units within 6" of the Manbane Standard suffer -1 to their leadership characteristic.	^	^	
+chskultr	Mangelder	unk2	MWp	50	1	itst:race=ch		The welder causes Terror.  In addition models wounded suffer a -1 leadership penalty for every wound.	^	^	Oct 8, 2002
+chextatt	Many-Limbed Foe	unk2	N/A	20	1	itst:race=ch		+1 attack at base str, no weapon bonus	^	^	
+chmaswar	Massive Warhorn	unk2	Enc	20	1	itst:race=ch		Enchanted Item. You may reroll all your rolls for Ambushing units to arrive. 	^	^	
+chdkpelt	Pelt of the Shadowgave	unk2	Arm,MAr	45	1	itst:race=ch&!(reg=chbraysh|reg=chbraygs);base:Sv-1;type:MagicArmour		Light Armour;  All shooting diected at bearer or his unit are at -1 to hit.  Spells that target the bearer or his unit deduct 2 from the casting roll.	^	^	
+chminus	Shadow-Hide	unk2	N/A	5	1	itst:race=ch		Additional -1 to hit if alone in cover from shooting.	^	^	
+chskull	Skull of Rarkos	unk2	Arc	60	1	itst:race=ch		Friendly wizards within 6" including the bearer get +1 to their casting results.	^	^	
+chslugs	Slug-Skin	unk2	N/A	30	1	itst:race=ch		Enemies in B2B suffer Str3 hit before blows are struck. Every round of combat.	^	^	
+chdarkot	Staff of Darkoth	unk2	Wep,Arc	50	1	itst:race=ch		Bound Spell, Power Level 3. Casts Viletide - 24" Range Magic Missile, 5d6 S1 Hits.	^	^	
+chstone	Stone of Spite	unk2	Enc	25	1	itst:race=ch		One Use Only; Bound Spell, Power Level 5.  All Friend and Foe Arcane Items within 18" of the user are destroyed. The bearer of each item that is destroyed takes D6 S4 hits per item.	^	^	
+chbncrsh	Stonecrusher Mace	unk2	MWp	65	1	itst:race=ch;stat:St+3		+3 Str; NOT a Great Weapon;   Against  War Shrines, Steam Tanks, Chariots, Corpse Carts etc wielder has Strength 10.	^	^	
+chblackh	The Black Heart	unk2	Enc	20	1	itst:race=ch		Enchanted Item. The bearer and his unit have Swiftstride.	^	^	
+chgtfang	The Steel-Claws	unk2	MWp,M2H	35	1	itst:race=ch		Requires two hands; +D3 attacks.  If a 6 is rolled for bonus attacks then the wielder's attacks ignore Armour Saves for this turn.  	^	^	01-20-2010
+chtrlhde	Trollhide Armour	unk2	Arm,MAr	50	1	itst:race=ch&!(reg=chbraysh|reg=chbraygs);base:Sv-1;type:MagicArmour		Counts as Light Armour;  Bearer can Regenerate lost wounds on a 4+.	^	^	
+chunnat	Uncanny Senses	unk2	N/A	10	1	stat:In+1;itst:race=ch		+1 Initiative	^	^	
+chmorgr1	Bray-Staff & Stones of the Skull Cave	spec	N/A	0	1	itst:race=ch		Counts as Bray Staff.  If any wizard (friend or foe) rolls a double on the miscast table he is instantly turned into a Chaos Spawn (not worth any VPs) under Morghur's control and the actual miscast result is ignored.  Morghur generates 2 Dispel Dice.	^	^	
+chgrthr3	Cloak of the Beastlord	spec	N/A	0	1	itst:race=ch		Leadership range of Gothor as general extended to 18".	^	^	
+chiconvi	Icon of Vilifacation	spec	N/A	0	1	itst:race=ch&type=Malagor		Enchanted Item - All Friendly units within 6" when rolling Primal Fury receive  frenzy on ANY double as log as they pass the test.	^	^	
+chgrthr1	Impaler	spec	N/A	0	1	itst:race=ch		Counts as Spear.  Magic weapon, Killing Blow	^	^	
+chmanmas	Mansmasher	spec	N/A	0	1	itst:race=ch		Magic weapon - Spiked Club does D3 wounds			
+chruneax	Rune-tortured Axes	spec	2Hd	0	1	itst:race=ch		Magic Weaqpon - Two hand weapons (extra attack in profile).  Attacks ignore armour saves and count as flaming attacks.			
+chscourg	Scourge	spec	N/A	0	1	itst:(race=ch&type=khazrak)		Magic Weapon - May CHOOSE to use - Whip - gives attacks equal to number of models in front rank of ONE enemy unit in contact instead of normal attacks. Cannot be used in challenge. Distributed as shooting.	^	^	
+chgrthr2	Skull of Mugrar	spec	N/A	0	1	itst:race=ch		Roll two dice for impact hits and take highest.	^	^	
+chskullu	Skull of the Unicorn Lord	spec	N/A	0	1	itst:race=ch		MR(2); Wood Elves HATE Ghorros and his unit.			
+chmorgr2	Skull-Weave	spec	N/A	0	1	itst:race=ch		Morghur causes Terror.  Enemies are -1 to hit Morghur in combat.	^	^	
+chdarkml	The Dark Mail	spec	N/A	0	1	base:Sv=2;itst:(race=ch&type=khazrak)		Magic Armour - Armour save 2+,  Negates power of any magic or runic weapons carried by model in contact.  Treat as normal weapon of same type.	^	^	
+chstolcr	The Stolen Crowns	spec	N/A	0	1	itst:race=ch		Take leadership test at beginning of each turn.  If passes has +2WS and +1 St until his next turn.  If fails he is Lv1 Wizard with random Wild spell each time.	^	^	
+^
+^
+^
+chchwdog	chwarho1	cost
+chwarlor	ch2ndhw	cost
+chwarlor	chlarm	incl
+chwarlor	chharm	cost
+chwarlor	chshiel5	cost
+chwarlor	chgenerl	cost
+chwarlor	chtuskch	cost
+chwarlor	chgreatw	cost
+chwarlor	heromnt	hide
+chwarlor	chlance	cost
+chwarlor	chwcallt	cost
+chbraygs	ch2ndhw	cost
+chbraygs	general	cost
+chbraygs	chtuskch	cost
+chbraygs	chfull	hide
+chbraygs	chshow	hide
+chbraygs	mgmiscas	cost
+chbraygs	mgfull	hide
+chbraygs	mgshow	hide
+chbraygs	mg3lvl	incl
+chbraygs	mg4lvl60	cost
+chbraygs	chspellb	cost
+chwargor	btnostn2	incl
+chwargor	btstand8	cost
+chwargor	general	cost
+chwargor	chgreatw	cost
+chwargor	ch2ndhw	cost
+chwargor	shhro	cost
+chwargor	chharm	cost
+chwargor	chlarm	incl
+chbraysh	mg1lvl	incl
+chbraysh	mgmiscas	cost
+chbraysh	chfull	hide
+chbraysh	chshow	hide
+chbraysh	chgenerl	cost
+chbraysh	chspellb	cost
+chbraysh	mg2lvl30	cost
+chbraysh	2ndhwtrp	cost
+chbraysh	chtuskch	cost
+chbraysh	mgfull	hide
+chbraysh	mgshow	hide
+chchwdog	chwarho2	cost
+chbstch	chbscre1	incl
+chbstch	chtusker	incl
+chtukrch	chbscrew	incl
+chtukrch	chtusker	incl
+chgors	mus10	cost
+chgors	st10	cost
+chgors	chshield	cost
+chgors	ch2ndhw1	cost
+chungor	sprtrp	free
+chbesthd	2handtrp	incl
+chbesthd	hatrp	appl
+chbesthd	mus10	cost
+chbesthd	stmg10	cost
+chbesthd	chchghrn	cost
+chminos	2ndhwtr4	cost
+chminos	chgreatw	cost
+chminos	laoptrp	incl
+chgiant	chgiant1	cost
+chgiant	chgiant2	cost
+chungor	shoptrp	incl
+chdoomus	chgreatw	cost
+chdoomus	ch2ndhw	cost
+chdoomus	chshield	cost
+chdoomus	chlarm	incl
+chdoomus	chharm	cost
+chdoomus	chgenemi	cost
+chbscrw2	sprmtrp1	incl
+chcentig	latrp	incl
+chcentig	chcentas	cost
+chcentig	chthroww	cost
+chcentig	shoptrp	incl
+chcentig	mus10	cost
+chcentig	stmg10	cost
+chcentig	chgorhof	cost
+chminos	stmg10	cost
+chminos	chbldkne	cost
+chkhazrk	chgenerl	cost
+chgorthr	chgenerl	cost
+chgorthr	chgorth1	cost
+chgrtrch	chgorth2	incl
+chgrtrch	chrazoch	incl
+chmorgur	chgenerl	cost
+chgorbul	btnostn2	incl
+chgorbul	btstand8	cost
+chgorbul	general	cost
+chgorbul	chgreatw	cost
+chgorbul	ch2ndhw	cost
+chgorbul	chlarm	incl
+chgorbul	chharm	cost
+chgorbul	chshiel4	cost
+chwargor	chtuskch	cost
+chdoomus	frenzy	incl
+chgorbul	frenzy	incl
+chunrad	sbowmnt1	incl
+chrazcha	chbscrew	incl
+chrazcha	chrazoch	incl
+chrazmo1	chbscre1	incl
+chrazmo1	chrazoch	incl
+chwarlor	chshowto	hide
+chwargor	heromnt	hide
+chgorgon	frenzy	incl
+chbraysh	chbystff	cost
+chminos	shwlrd	cost
+chharpy	chscout	cost
+chwargor	chlance	cost
+chwargor	chtotem	cost
+chgors	chchforn	cost
+chungor	chhahorn	cost
+chungor	mus10	cost
+chungor	st10	cost
+chunrad	chhahor2	cost
+chunrad	mus10	cost
+chminos	mus10	cost
+chcentig	chcentg	cost
+chmalgor	chgenerl	cost
+chmalgor	mgmiscas	cost
+chmalgor	chbystff	incl
+chmalgor	mgfull	hide
+chmalgor	mgshow	hide
+chmalgor	chspellb	cost
+chmalgor	chmagic	cost
+chmalgor	chfull	hide
+chmalgor	chshow	hide
+chmalgor	mg4lvl	auto
+chbagrar	sprmttrp	incl
+chwarhof	lahro	incl
+chsonsg	latrp	incl
+chsonsg	sprmtrp1	incl
+chsonsg	throaxe2	cost
+chsonsg	shoptrp2	incl
+chsonsg	mus7	cost
+chsonsg	st14	cost
+chsonsg	chgorho	auto
+chsonsg	chcentg	cost
+chungrol	ch2ndhw	incl
+chgorhof	chtotem2	incl
+chcentig	chcorece	cost
+chmoonda	chbystff	incl
+chmoonda	chumbr	cost
+chmoonda	mgmiscas	cost
+chmoonda	mg1lvl	incl
+chmoonda	chspell3	cost
+chmoonda	chfull	hide
+chmoonda	chshow	hide
+chmoonda	mgfull	hide
+chmoonda	mgshow	hide
+chmoonda	chgenerl	cost
+chtaurox	chgenerl	cost
+chslugto	chgenerl	cost
+chslugto	chbystff	incl
+chslugto	chspell4	cost
+chslugto	mgmiscas	cost
+chslugto	chfull	hide
+chslugto	chshow	hide
+chslugto	mgfull	hide
+chslugto	mgshow	hide
+chgothch	chgorth2	incl
+chgothch	chtusker	incl
+chgorthr	chgorth4	incl
+chunrad	chextrac	auto
+chgors	stmg10	hide
+chtaurox	chslaugh	incl
+chgorbul	chflail	cost
+chdoomus	chflail	cost
+chminos	chcoremi	cost
+chtaurox	chblood	incl
+chgorbul	chtotem	cost
+chmalgor	unshow	hide
+chmoonda	unshow	hide
+chslugto	unshow	hide
+chgors	chstmg	cost
+chkhazrk	cheye	incl
+chmalgor	cheye	incl
+chtaurox	cheye	incl
+chwarlor	throww	cost
+chmorgur	cheye	incl
+chslugto	cheye	incl
+chmoonda	cheye	incl
+chwarhof	cheye	incl
+chchghrn	chtotem2	cost
+chungrol	cheye	incl
+chcentig	chextrac	auto
+chminos	chextrac	auto
+chcenthe	chgenece	cost
+chcenthe	chlarm	incl
+chgorbul	chshowto	hide
+chwargor	chshowto	hide
+chwargor	chbax	cost
+chwargor	throww	cost
+chcenthe	shhro	cost
+chcenthe	chgreatw	cost
+chcenthe	chcentas	cost
+chcenthe	btnostn2	incl
+chcenthe	btstand8	cost
+chgothch	chmodgt1	cost
+chchwdog	chextrac	auto
+chchwdog	chwarho3	cost
+chharpy	chextrac	auto
+chgiant	chlooted	cost
+chdoomus	chbax	cost
+chbraygs	chbystff	cost
+chwarlor	chbax	cost
+chwarlor	chrazmou	cost
+chcenthe	chbax	cost
+chcenthe	ch2ndhw	cost
+chcenthe	chharm	cost
+chcenthe	chlooted	cost
+chcenthe	chambush	cost
+chcenthe	chtotem	cost
+chcenthe	chshowto	hide
+chcenthe	throww	cost
+chgors	chthroww	cost
+chchforn	chtotem2	cost
+chunrad	chscout2	cost
+chtukrch	chextrac	auto
+chbldkne	chtotem2	cost
+chbesthd	chhalbrp	cost
+chbesthd	chambus2	cost
+chcentig	ch2ndhw	cost
+chjabber	chbreath	cost
+chjabber	chinnde4	cost
+chgiant	chambush	cost
+chcentig	chambus3	cost
+chrazgo	chextrac	auto
+^
+race	ch	trat:minoslaa@0u:khrngen@1u-msg=chmsg21;trat:minonurg@0u:khrngen@1u-msg=chmsg21;trat:minotzee@0u:khrngen@1u-msg=chmsg21;trat:minoundvd@0u:khrngen@1u-msg=chmsg21	Minotaurs may only have the same mark as the general.
+race	ch	trat:minokhrn@0u:nurggen@1u-msg=chmsg21;trat:minoslaa@0u:nurggen@1u-msg=chmsg21;trat:minotzee@0u:nurggen@1u-msg=chmsg21;trat:minoundvd@0u:nurggen@1u-msg=chmsg21	Minotaurs may only have the same mark as the general.
+race	ch	trat:minokhrn@0u:slaagen@1u-msg=chmsg21;trat:minonurg@0u:slaagen@1u-msg=chmsg21;trat:minotzee@0u:slaagen@1u-msg=chmsg21;trat:minoundvd@0u:slaagen@1u-msg=chmsg21	Minotaurs may only have the same mark as the general.
+race	ch	trat:minokhrn@0u:tzeegen@1u-msg=chmsg21;trat:minonurg@0u:tzeegen@1u-msg=chmsg21;trat:minoslaa@0u:tzeegen@1u-msg=chmsg21;trat:minoundvd@0u:tzeegen@1u-msg=chmsg21	Minotaurs may only have the same mark as the general.
+race	ch	trat:minokhrn@0u:undvdgen@1u-msg=chmsg21;trat:minonurg@0u:undvdgen@1u-msg=chmsg21;trat:minoslaa@0u:undvdgen@1u-msg=chmsg21;trat:minotzee@0u:undvdgen@1u-msg=chmsg21	Minotaurs may only have the same mark as the general.
+^
+chmsg10	Beast Army	Beast Army must be led by a Beast General
+chmsg51	Beastlord required	You may only choose Wildherd Call abilities if the Beastlord is your general.
+chmsg13	Bestigors	You cannot have more Bestigor units in your army than you have Beast Herds
+chmsg3	Chaos Power	Only 1 God's units (and Chaos Undivided units) are allowed in this army
+chmsg4	Chaos Undivided	You must have a unit with the God's Mark to have a Character with the Same Mark (AB doesn't count character-mounted chariots for this while it should, this is a known bug)
+chmsg8	Chosen Knights Unit	Only 1 unit of Chosen Knight unit allowed in the army
+chmsg9	Chosen Warrior Unit	Only 1 Chosen Chaos Warrior Unit in the Army
+chmsg30	Core Centaurs	Centaurs may only be Core if your General is a Centaur Chieftain.
+chmsg28	core Centigors	You must have Ghorros in the army to have core Centigors
+chmsg15	Core Minotaurs	You must take a Doombull General for Minotaurs to Count as Core.
+chmsg16	Core Minotaurs	Minotaurs must select the 'Count as Core' option if the General is a Doombull.
+chmsg29	Core Minotaurs	Minotaurs may only be Core if Minotaur Warlord is your General.
+chmsg18	Crom as General	You must take Crom the Conqueror in this army.
+chmsg2	Daemon Army	Daemonic Army must be lead by a Daemon
+chmsg41	Duplicated Mutation	Massive Tusks mutation can only be taken once per army.
+chmsg42	Duplicated Mutation	Unnatural Metamorphosis mutation can only be taken once per army.
+chmsg43	Duplicated Mutation	Lord of Bulls mutation can only be taken once per army.
+chmsg44	Duplicated Mutation	Father of Centaurs mutation can only be taken once per army.
+chmsg45	Duplicated Mutation	Horns of a True Beast mutation can only be taken once per army.
+chmsg46	Duplicated Mutation	Scaly Hide mutation can only be taken once per army.
+chmsg47	Duplicated Mutation	Hellish Mead mutation can only be taken once per army.
+chmsg48	Duplicated Mutation	Bestial Planning mutation can only be taken once per army.
+chmsg25	Khazrak's Puppies	If Khazrak is in the army, you must take the "Khazrak in army" option
+chmsg27	Khazrak's Puppies	You need Khazrak to take the Khazrak in Army option
+chmsg21	Minotaur Marks	Minotaurs must be given the same Mark of Chaos as the army General (or have No Mark).
+chmsg19	Morghur	You must take Morghur in this army.
+chmsg1	Mortal Army	Mortal Army must be led by Mortal General
+chmsg20	No General w/ Morghur	An army containing Morghur cannot have a General.
+chmsg24	NTTC	You need 1 unit of Horrors per unit of Flamers or Screamers
+chmsg22	Only 1 God	You can only have one Mark other than the Mark of Undivided in your army 
+chmsg7	Ridden Chariot Marks	Chariot must have same Mark as Character Riding it.
+chmsg14	Shaggoths & Daemon Generals	You cannot include Shaggoths in an army led by a Daemonic General
+chmsg50	Too many Core minotaurs	Only one unit of Minotaurs can be taken as Core unit.
+chmsg31	Too many Magic banners	Only one unit of Warriorhorns per each character with Trophy Hunter special rule can use Magic standard.
+chmsg5	Too many magic standards	Only 1 unit of Bestigors may have a magic standard
+chmsg12	Tzeentchie Beasts	Beast character may not take any enchanted items.
+chmsg6	Undivided Chaos Knights	Archaon and the Sword of Chaos in Army must be fielded together
+chmsg17	Whip of Pleasure	Item 'Whip of Pleasure' appears more times in roster than its maximum (1).
+^

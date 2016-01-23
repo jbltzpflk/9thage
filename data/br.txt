@@ -1,0 +1,500 @@
+Description: Brettonians for Warhammer Annual 2002 and Ravening Hordes
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, and bugs go to:
+http://www.wcp-vancouver.com/forum/index.php
+^
+Kingdom of Equitaine	br	0	sm,dw,he,we,em,lz,ok,ch,dm,dk,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="October 2015, Beta 0.9.1";info:display="by DeBelial";info:always="The Blessing: Models with this special rule have a Ward Save (6+). After all units are deployed, the Kingdom of Chivalry player may declare that his troops are praying. If so,the opponent may decide who wins the roll for first turn,?and all models with this Special Rule have a Ward Save (5+) against attacks with Strength 5 or greater. This special rule is lost for any model that flees.";skip info:display="Beloved: A model with this Special Rule loses the First in Rank rule whenever it is in a unit with at least one Full Rank of models with Inspiring special rule.";info:display="Inspiring: Models with this Special Rule have the Inspiring Presence rule even if not the General, but only models with the Insignificant Special Rule may receive this Inspiring Presence and it’s range is only 6”. Characters and Champions with this rule make their unit lose The Blessing special rule if they decline challenges.";info:display="The Lance: This rule can only be used by cavalry models. Models with this rule gain Monstrous Rank and their mount gain Impact hits (1). Additionally when charging with a frontage 3 models wide, models with this rule can make Supporting Attacks from any rank within the unit.";info:display="";info:display="";skip need:type=btl@1m-msg=brmsg5;skip need:unit=brrealm-msg=brmsg6-mode=default;need:unit=brrealm-msg=brmsg6-mode=b;need:unit=brking@1u-msg=brmsg7-mode=b;need:unit=brerant-msg=brmmsg3-mode=c;tlmt:honor1-model=1@max-msg=brmsg09;tlmt:honor2-model=1@max-msg=brmsg09;tlmt:honor3-model=1@max-msg=brmsg09;tlmt:honor4-model=1@max-msg=brmsg09;tlmt:honor5-model=1@max-msg=brmsg09;tlmt:honor6-model=1@max-msg=brmsg09;tlmt:bretheral-model=1@max-msg=brmsg10;skip tlmt:brskirmish-unit=1@max-msg=brmsg11;tlmt:battlehardened-unit=1@max-msg=brmsg13-istype=!castellan	
+^
+brkngmnt	 Beaquis	HGrff	N/A	Monster		1:1	220	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Fly; Terror; Large Target;No Leadership test if King Louen is slain- Beaquis always counts as rolling a 6 on the Monster Reaction table.				8	5	0	5	5	4	6	4	9	7	7	0	0	4	0	0	0
+brburgxb	 Burgher Crossbowman	MenaA	N/A	Alternate Rules	infantry	10	9	0	calc:num=#;attr:Type="In"	hide		Infantry; 		UNOFFICIAL!!! - by DeBelial; Unit Size:10+; Includes Light Armor and Crossbow; May include Pavise	by DeBelial	4	2	3	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+brburgin	 Burgher Infantry	MenaA	N/A	Alternate Rules	infantry	10	6	0	calc:num=#;attr:Type="In"	hide		Infantry;		UNOFFICIAL!!! - by DeBelial; Unit Size:10+; Includes Light Armor and halberd	by DeBelial	4	3	3	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+brtempla	 Hero: Templar of the Holy Grail	Temp	N/A	Hero	Hero	1:1	80	100	ipts:total=150;type:Ld9;attr:Type="Ca"	lglx:(race=br)|(race=vm&mode=e);clmt:stnd<=1-count;clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;hide		Infantry; Lance Formation; Holy Attacks; Immune to Psychology; Magical Attacks; Ward Save (4+)		Hero	9th age	4	6	3	4	4	2	5	3	9	7	4	0	0	1	0	0	0
+brjules	 Jules Le Jongleur	Jules	N/A	N/A	Jules	1:1	65	0		hide		Peasant duty - can use LD of any knight within 6"; 2+ Ward Save vs. Non-magical attacks; Enemy within 6" suffer  -1 to hit penalty in HtH; Deploys within 6"of Tristran, but is free to move afterwards; Can only join units with Peasant Duty, not units with any Knightly Vow				4	2	2	3	3	1	3	1	7	7	0	0	0	0	0	0	0
+brking	 King Louen Leoncoeur		N/A	Lord		1:1	508	0	type:Ld9;take:brking1-free-perm;take:brking2-free-perm;take:brking3-free-perm;attr:Type="In"	lglx:mode=b|mode=c;hide		Infantry; Incl The Sword of Couronne, The Lion's Shield, Heavy Armour, and a Lance.;Grail Vow; The Puissant Virtue- counts as Virtue of Purity and reroll failed hit or wound rolls in challenges.;All Brettonian units test for panic if King Louen dies and become stubborn for remainder of battle.;Always receives the blessing and gains Regeneration but takes a wound with no save of any kind if he loses the blessing (regen. stays even if he loses the blessing) 		Lord + Hero;Includes Beaquis the Hippogryph		4	7	5	4	4	3	7	5	9	4	7	0	0	1	0	0	0
+brebsb	 Paladin - Battle Standard Bearer	HerBr	N/A	Hero	Hero	1:1	60	100	ipts:total=150-each=100;name:"BR Paladin"-race=vm;type:Ld8;type:token;attr:Type="Ca";type:btl	race:vm;lglx:(race=br)|(race=vm&mode=e);clmt:stnd<=1-count;clmt:weap+armr+ench+ward+virt<=50-points-msg=crbsb1;hide		Cavalry (MC on Pegasus, Infantry if dismounted);		Hero		4	5	3	4	4	2	5	3	8	7	7	0	0	1	0	0	0
+brchburg	 Sergeant		N/A	Champion	champ	1:1	10	0	coun;type:infantry	hide					Burgher Infantry Sergeant	4	3	3	3	3	1	3	2	7	6	7	0	0	1	0	0	0
+brchburx	 Sergeant		N/A	Champion	champ	1:1	10	0	coun;type:infantry	hide					Burgher Crossbowman Sergeant	4	2	4	3	3	1	3	1	7	6	7	0	0	1	0	0	0
+bramalri	 Sir Amalric of Gaudaron	HerBr	N/A	Special Characters	Hero	1:1	160	0	type:token;take:brvosto1-free-perm;take:bramalri-free-perm;attr:Type="Ca"	hide		Cavalry; At start of Combat Phase, Undead in base contact suffer D6 Wo (no armour saves), distributed as shooting hits and count towards Combat Resolution		From UK WD 310; Counts as a Hero choice		4	6	3	4	4	2	5	3	8	6	7	0	0	1	0	0	0
+brfay	 The Fay Enchantress		N/A	Lord		1:1	480	0	type:Hero;type:Ld9;take:brfay1-free-perm;take:brfay2-free-perm;take:brfay3-free-perm;attr:Type="MC"	hide		Monstrous Cavalry (Stomp); Level 4 Magic User with +2 to cast Lore of Life spells; Magic Resistance (3); Causes Fear; Against Skaven, Greenskins, and all Beasts of Chaos units she causes Terror;Favour of the Fay (one model receives +1 to hit in combat, but if it loses the blessing both that model and the Fay take one wound with no saves allowed);The army always gets the lady's blessing, even without praying;any unit joined by the Fay always receives a 5+ ward save from the blessing.;The Fay Enchantress can never leave her Grail Guardians;Models in B2B take an Initiative test at the start of each combat and suffer one wound with no save if it's failed.		Lord + Hero;Includes Silvaron the Unicorn and the Grail Guardians.		5	4	4	3	3	3	5	1	9	7	4	5	3	1	4	0	0
+brgreenk	 The Green Knight		N/A	Lord		1	275	0	type:greenknight;take:brdolbla-free-perm;take:brguasit-free-perm;take:braurfey-free-perm;attr:Type="Ca"	hide		Cavalry;	Immune to psychology; Causes Terror; Ethereal; Spirit Form; 5+ Blessing Save	Includes The Dolorous Blade, heavy armor,  shield, barded Shadow Steed; Immune to Psychology; Causes Terror; Ethereal; Spirit Form: Can't be broken, but will lose one wound for every point he lost a combat by; No need to pray for Blessing and Ward Save is always 5+		4	7	3	4	4	3	6	4	9	7	5	0	0	2	0	0	0
+brtristr	 Tristan Le Troubadour	HerBr	N/A	Special Characters	Hero	1:1	204	0	ipts:total=150-each=100;type:token;take:brtrist1-perm;take:brtrist2-perm;take:brtrist3-perm;spec:+unk2;attr:Type="Ca"	lglx:race=br;hide		Cavalry; 		From US&UK WD 302;; Tristan and Jules count together as a single Hero choice		4	5	3	4	4	2	5	3	8	6	7	0	0	0	0	1	0
+brcharch	Champion	Bows	N/A	Champion	champ	1:1	10	0	coun;type:infantry;type:missiles	hide						4	3	4	3	3	1	3	2	5	7	7	0	0	1	0	0	0
+brcherra	Champion	Kngt	N/A	Champion	champ	1:1	10	0	coun	hide						4	4	4	3	3	1	3	2	7	3	6	0	0	2	0	0	0
+brchfoot	Champion	Kngt	N/A	Champion	champ	1:1	10	0	coun	hide						4	5	4	4	3	1	3	2	8	4	6	0	0	2	0	0	0
+brchques	Champion	Kngt	N/A	Champion	champ	1:1	10	0	coun	hide						4	6	4	4	3	1	4	2	8	2	6	0	0	2	0	0	0
+brchreal	Champion	Kngt	N/A	Champion	champ	1:1	10	0	coun	hide						4	5	4	3	3	1	3	2	8	2	6	0	0	2	0	0	0
+brgrknch	Champion	Kngt	N/A	Champion	champ	1:1	10	0	coun;type:grail	hide						4	6	4	4	3	1	5	3	9	2	6	0	0	2	0	0	0
+brpegch	Champion	Kngt	N/A	Champion	champ	1:1	10	0	coun	hide						4	5	4	3	4	2	4	2	8	3	6	0	0	2	0	0	0
+brpreach	Champion		N/A	Champion	champ	1:1	10	0	coun;type:infantry	hide						4	4	3	3	3	1	3	2	8	7	7	0	0	1	0	0	0
+brgrgrdn	Grail Guardians	GrKn	N/A	Regiment		2:8	38	0	ipts:total=75-each=75;calc:num=#	hide			Living Saints; receive blessing even without praying (but can still lose it as normal)	Includes lance, heavy armour, shield, and barded warhorse; Living Saints: All Grail Knights can issue, accept and refuse challenges; Always have the Blessing, even if they don't pray (but can lose it as normal); 1 Unit per army; Unit Size: 3-12		4	5	3	4	3	1	5	2	8	2	7	0	0	2	0	0	0
+brhippo	Hippogriff	HGrff	N/A	Mount	mount	1:1	0	0	attr:Type="MB"	hide		Monstrous Beast (Stomp 1); Fly (8); Armour Piercing (1); Fear; Large Target; Natural Armour; Devastating Charge				8	4	0	5	5	4	4	4	6	7	7	0	0	4	0	0	0
+brhorse	Horse	Hrs	N/A	Mount	mount	1	0	0		hide						8	3	0	3	3	1	3	1	5	7	7	0	0	0	0	0	0
+brchmen2	Militia Champion		N/A	Champion	champ	1:1	10	0	coun;type:infantry	hide						4	4	3	3	3	1	3	2	6	6	7	0	0	1	0	0	0
+brchmena	Militia Champion		N/A	Champion	champ	1:1	10	0	coun;type:infantry	hide						4	3	3	3	3	1	3	2	5	6	7	0	0	1	0	0	0
+brchmtye	Mounted Militia Champion		N/A	Champion	champ	1:1	10	0	coun	hide						4	4	4	3	3	1	3	2	6	6	7	0	0	2	0	0	0
+brpegas	Royal Pegasus	Peg	N/A	Mount	mount	1:1	0	0	type:pegmtd	hide		Monstrous Beast (Stomp 1); Fly (8)				8	3	0	4	4	3	4	2	7	7	7	0	0	3	0	0	0
+brroypeg	Royal Pegasus	Peg	N/A	Mount	mount	1:1	50	0	type:royalpegasus	hide		Monstrous Beast (Stomp 1); Fly (8)				8	3	0	4	4	3	4	2	7	7	7	0	0	3	0	0	0
+brrelicq	Sacred Reliquary		N/A	Other	infantry	1	0	3	attr:Type="In";spec:+spel;take:brrelisp-perm	skip reqd:type=grail;hide		Infantry; War Platform; Insignificant; Hatred; Stubborn; Inspiring; Holy Fervor: Grail Fanatics with the Sacred Reliquary lose Frenzy, gain the Blessing Special Rule and the Sacred Reliquary loses the First in Rank rule				4	3	2	3	5	4	3	4	8	5	6	0	0	6	0	0	0
+brshastd	Shadow Steed	Hrs	N/A	Mount		1:1	0	0		hide						8	4	0	4	3	1	4	1	5	7	7	0	0	0	0	0	0
+brfaymnt	Silvaron		N/A	Mount		1:1	65	0		hide		Causes Fear;Str+2 when charging;  Magic Resistance (2);All attacks count as magical.				10	5	0	4	4	3	5	2	8	7	5	0	0	3	0	0	0
+brlunic	Unicorn	Uni	N/A	Mount		1:1	0	0	calc:num=#	hide;umax:1		Warbeast; Forest Walker; Magical Attacks; Magic Resistance (2)				10	5	0	5	4	3	5	2	8	7	7	0	0	0	0	0	0
+brchskir	Villein		N/A	Champion	champ	1:1	5	0	coun;type:skirmishers	hide						4	2	4	3	3	1	3	1	5	7	7	0	0	1	0	0	0
+brwhorse	Warhorse	Hrs	N/A	Mount	mount	1	0	0		hide		Natural Armour				8	3	0	4	3	1	3	1	5	7	7	0	0	0	0	0	0
+brpegas2	Young Pegasus	Peg	N/A	Mount	mount	1	0	0	type:youngpeg	hide						8	3	0	4	4	2	4	2	7	7	7	0	0	0	0	0	0
+brpropet	 Lord: High Priestess	Prof	Hero	Wizard	Lord	1:1	150	100	ipts:total=100-each=100;type:skirmishers;type:Ld8;type:foot;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg901		Infantry; The Blessing; Insignificant		Lord		4	3	3	3	3	3	3	1	8	7	6	3	2	1	3	0	0
+brlord	 Lord: Lord of Equitaine		Hero	Lord	Lord	1:1	100	100	ipts:total=175-each=100;type:Ld9;attr:Type="In";spec:+virt	clmt:weap+armr+ench+ward<=100-points-msg=brmsg12;umax:3u@4000-free=3-msg=crmsg901		Infantry; The Lance; The Blessing; Inspiring		Lord	9th age	4	6	3	4	4	3	6	4	9	7	6	0	0	1	0	0	0
+brcastel	Hero: Castellan	HerBr	Hero	Hero	Hero	1:1	40	100	ipts:total=25-each=25;type:Ld7;type:castellan;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg901		Infantry; Insignificant; Ignoble: May only join units with Insignificant rule and gains any of the specials rules of the unit they join; Master at arms: Any army that contains a Castellan may take any number of Battle hardened Levy Militia.		Hero		4	4	4	3	3	2	3	2	7	7	7	0	0	1	0	0	0
+brdamsel	Hero: Damsel	Lady	Hero	Wizard	Hero	1:1	60	100	ipts:total=50-each=50;type:skirmishers;type:Ld7;type:foot;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg901		Infantry; Insignificant; The Blessing		Hero		4	3	3	3	3	2	3	1	7	7	6	1	1	1	1	0	0
+brhero	Hero: Paladin	HerBr	Hero	Hero	Hero	1:1	60	100	ipts:total=175-each=100;type:Ld8;attr:Type="In";spec:+virt	clmt:stnd<=1-count;clmt:weap+armr+ench+ward<=50-points-msg=crbsb1		Infantry; The Lance; The Blessing; Inspiring		Hero		4	6	3	4	4	2	5	3	8	7	6	0	0	1	0	0	0
+brbowme2	Bowmen	Bows	Core	Regiment	infantry	10:40	6	0	calc:num=#;attr:Type="In"	umax:4u@4000-free=4-msg=crmsg902		Infantry; Insignificant		base cost: 60, size: 10-40, Incl Long Bow	9th age	4	2	3	3	3	1	3	1	5	7	7	0	0	1	0	0	0
+brerant	Knights Aspirant	KnEr	Core	Regiment	cavalry	5:18	17	0	skip ipts:total=25-each=25;calc:num=#;attr:Type="Ca"	umax:4u@4000-free=4-msg=crmsg902		Cavalry; The Lance; The Blessing; Impetuous: On the first charge of the game, the unit rolls an extra dice when determining charge distance and picks the three highest results. Must pursue and overrun, may not be restrained.		base cost: 85, size: 5-18; Includes lance, light armour, shield, and warhorse	9th age	4	3	3	3	3	1	3	1	7	5	6	0	0	2	0	0	0
+brrealm	Knights of Kingdom	Kngt	Core	Regiment	cavalry	5:15	23	0	ipts:total=25-each=25;calc:num=#;size:1-20-1-mode=zz;type:knightsoftherealm;attr:Type="Ca"	umax:4u@4000-free=4-msg=crmsg902		Cavalry; The Lance; The Blessing; Inspiring		base cost: 115, size: 5-15; Includes lance, heavy armour, shield, and barded warhorse	9th age	4	4	3	3	3	1	3	1	8	4	5	0	0	2	0	0	0
+brmena2	Levy Militia	MenaA	Core	Regiment	infantry	10:80	4	0	calc:num=#;size:1-20-1-mode=zz;xcmp:Spec-mode=b;attr:Type="In"	umax:4u@4000-free=4-msg=crmsg902		Infantry; Insignificant		base cost: 40, size: 10-60; Includes Light Armor and shield	9th age	4	2	2	3	3	1	3	1	5	6	7	0	0	1	0	0	0
+brfootkn	Durendal Knights	Kngt	Special	Regiment	infantry	10:40	11	0	ipts:total=25-each=25;calc:num=#;size:1-20-1-mode=zz;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903		Infantry; The Blessing; Inspiring; Tenacity: ?Enemy units that are in base contact with Durendal Knights lose their Stubborn or Bodyguard (x) Special Rules when disrupted.		base cost: 110, size: 10-40	by DeBelial	4	4	3	4	3	1	3	1	8	4	7	0	0	2	0	0	0
+brrelic	Grail Fanatics		Special	Regiment	infantry	10:40	7	0	attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903		Infantry; Insignificant; Hatred; Stubborn		base cost: 70; size: 10-40; Frenzy		4	3	2	3	3	1	3	1	8	7	7	0	0	6	0	0	0
+brques2	Knights of the Quest	QuKn	Special	Regiment	cavalry	5:15	26	0	ipts:total=50-each=50;calc:num=#;attr:Type="Ca"	umax:3u@4000-free=3-msg=crmsg903		Cavalry; The Lance; The Blessing; Inspiring		base cost: 135, size: 5-15; Includes halberd, heavy armour, shield, and barded warhorse	9th age	4	5	3	4	3	1	4	1	8	4	6	0	0	2	0	0	0
+brpegkni	Pegasus Knights		Special	Regiment		3:6	50	0	calc:num=#;attr:Type="MC";ipts:total=50-each=50	skip umax:1-msg=brmsg2-istype=!royalpegasus;umax:3u@4000-free=3-msg=crmsg903		Monstous Cavalry (Stomp 1); The Blessing; Inspiring; Fly (9); Skirmishers		base cost: 160; size: 3-6; Includes lance, heavy armour, shield, and pegasus	9th age	4	4	3	4	3	1	3	1	8	3	6	0	0	2	0	0	0
+brmtdyeo	Yeoman Cavalry	Rider	Special	Regiment	cavalry	5:15	10	0	calc:num=#;size:1-20-1-mode=zz;attr:Type="Ca"	umax:3u@4000-free=3-msg=crmsg903		Cavalry; Insignificant; Fast Cavalry; Natural Armour		base cost: 55, size: 5-15		4	3	3	3	3	1	3	1	6	5	7	0	0	2	0	0	0
+brgrail2	Knights of the Grail	GrKn	Rare	Regiment	cavalry	3:12	40	0	ipts:total=50-each=50;calc:num=#;attr:Type="Ca"	skip umax:1-legal=(!mode=b);umax:2u@4000-free=2-msg=crmsg904		Cavalry; The Lance; Inspiring; Monstrous Support		base cost: 100, size: 3-12		4	5	3	4	3	1	5	2	9	4	6	0	0	2	0	0	0
+brbalist	Siege Ballista		Rare	Machine		1:1	40	0	attr:Type="WM"	umax:2u@4000-free=2-msg=crmsg904		War Machine; Insignificant; Siege Ballista: Bolt Thrower Artillery Weapon: Range 48”, Strength 6, Armour Piercing(6) Multiple Wounds (Ordnance)				0	0	0	0	7	3	0	0	0	7	0	0	0	0	0	0	0
+brtrebuc	Trebuchet		Rare	Machine		1:1	130	0	attr:Type="WM"	umax:2u@4000-free=2-msg=crmsg904		War Machine; Insignificant				0	0	0	0	7	4	0	0	0	7	0	0	0	0	0	0	0
+xbrcrewl	Adept		N/A	Regiment		1:1	0	0	calc:Num=#							4	2	3	3	3	1	3	1	6	7	0	0	0	1	0	0	0
+xbrcrew	Apprentice		N/A	Regiment		1	0	0	calc:Num=#			Peasant duty - can use LD of any knight within 6"				4	2	2	3	3	1	3	1	5	7	0	0	0	1	0	0	0
+xbrbatpi	Battle Pilgrims		N/A	Regiment		6:30	9	0	calc:num=#;size:1-20-1-mode=zz;attr:Type="In"			Infantry;		Includes light armour and shield.		4	2	2	3	3	1	3	1	8	7	0	0	0	1	0	0	0
+^
+brallow	Allow Magic Armour		Priority	N/A	0	over:hahro=delete;over:halrd=delete				
+brmilupg	Battlehardened	BH	Priority	N/A	1	base:WS+1;base:Ld+1;type:battlehardened;over:brchmena=delete;show:brchmen2				
+brextra	Extra base cost		Priority	N/A	5	hide;cost:single;xcst:10-unit=brpegkni;xcst:-20-unit=brgrail2				
+brfay	Fay Enchantress		Priority	N/A	0	hide;unit:brfaymnt@abs=1;more:save1=incl				
+brgloryd	Glory or Death		Priority	N/A	0	lglx:mode=c;apnd:foot	-1 modifier (cumulative) to Impetous-tests for the following ): Fear causing enemy and/or Terror causing enemy a/o Dragon a/o unit with higher US in charge range a/o Damsel within 6"			
+brgragua	Grail Guardians		Priority	N/A	0	unit:brgrgrdn@var				
+brignore	Ignore		Priority	N/A	0	acmp:Core-1u;hide;lglx:mode=c				
+brking	King Louen		Priority	N/A	0	hide;unit:brkngmnt@abs=1;more:save1=incl				
+brrelic1	Lady's Icon	LaIc	Priority	Mrk	0	take:brrelic1-perm;unam:+" - Lady's Icon"				
+brlancef	Lance Formation		Priority	N/A	0	hide;apnd:foot;lglx:(race=br&mode=default)|(race=vm&mode=d)	Knights may use Lance Formation. Unit fights in ranks of 3 models wide, that count as a full rank. On the charge, all models on the flank can fight too if the model in front of them fights. Units with a Vow can deploy in Lance formation, reform into it or add ranks to get into it.			
+brmorns2	Morning Star	MorSt	Priority	N/A	2	stat:St+1;over:brgw=delete;chld:champ@St+1	+1 Strength. Close Combat Attacks allocated at a model with Flail has a +1 bonus when rolling To Hit.		Replace Great Weapons with Morning Stars.	
+brmornst	Morning Star	MorSt	Priority	Wep	8	stat:St+1;xcst:4-unit=brhero;xcst:4-unit=brtempla;xcst:1-unit=brrelic;chld:champ@St+1	+1 Strength. Close Combat Attacks allocated at a model with Flail has a +1 bonus when rolling To Hit.			
+brrelicq	Sacred Reliquary	Relic	Priority	N/A	120	over:frenzy=delete;base:WSv-1;cost:single;unit:brrelicq@abs=1				
+brrelic2	Saintly Vigil	SaVi	Priority	Mrk	0	take:brrelic2-perm;unam:+" - Saintly Vigil"				
+brbless	The Lady's Blessing		Priority	N/A	0	apnd:foot;hide	Lady's Blessing - 6+ ward save, improved to 5+ ward save against hits of S5 or higher. Only for units and characters with a Vow and their mounts (they must pray, meaning your opponent gets the first turn automatically). Units and characters lose the blessing seperately. You lose the Blessing if you flee for any reason or refuse a challenge (all units in combat lose the Blessing if you do so).			
+brbalads	Valorous Ballads		Priority	N/A	0		Choose one effect at the start of each turn. It applies to Tristan, Jules and unit he joins. The effect ends at the end of the turn or if Tristran flees or is slain			
+bralore	Lore Table		SpellType	N/A	0	tabl:None=mgnone,Beast=mgbeasts,Life=mglife,Undeath=unundeat-noname-nobrackets			Select a Lore	
+bralore2	Path Table		SpellType	N/A	0	tabl:Wilderness=mgbeasts,Heavens=mgheaven,Nature=mglife,Light=mglight-noname-nobrackets			Select a Lore	
+brahwrep	Additional Hand Weapons	AHW	Weapon	Wep,2Hd	0	stat:At+1;chld:champ@At+1;stat:In+1;chld:champ@In+1;over:shoptrp=delete	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.		Replace Shields with Additional hand weapons	
+brflail	Flail	Fla	Weapon	Wep,2Hd	0	stat:St+2;chld:champ@St+2	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+brgw	Great Weapon	GW	Weapon	N/A	8	stat:St+2;type:GreatWeapon;xcst:4-unit=brhero;xcst:4-unit=brtempla;chld:champ@St+2	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+brhhw	Heavy Hand Weapon	HHW	Weapon	N/A	8	xcst:4-unit=brhero;xcst:4-unit=brtempla;xcst:0-unit=brfootkn	+1 to wound when attacking models with small height. If a model with a Heavy Hand Weapon used a lance when charging, it may switch to use Heavy Hand Weapon instead in the second round of combat.			
+brlance	Lance	Lnc	Weapon	N/A	10	xcst:4-unit=brtempla	+2 Strength when charging. Mounted models only.			
+brllance	Light Lance	LLnc	Weapon	Wep	1		+1 Strength when charging. Mounted models only.			
+brpolear	Polearms	Pol	Weapon	2Hd	0	stat:St+1;over:shwtrp=delete;over:morntrp0=delete;base:Sv=5;xcst:1-unit=brfootkn	+1S, two-handed		Exchange Morning Stars and Shields for Polearms - mix of halberds, bastard swords, polehammers and poleaxes  (counts as halberds)	DeBelial - Polearms option for Foot Knights
+sprrepla	Spear		Weapon	N/A	0	over:haltrp=delete	^		2 ranks fight if not moved	
+brsprsh	Spear & Shield	SpSh	Weapon	Wep	1		Fight in Extra Ranks. Killing Blow against Cavalry, Monstrous Cavalry and Chariots engaged in the front.			
+brtreb01	Battle Trebuchet	BTre	Missile	N/A	0		This is a Catapult Artillery Weapon with the following profile: Range 12-60”, 3” template, Strength 4 [10], [Multiple Wounds (Ordnance)].			
+brbow	Bow	Bow	Missile	N/A	4	slct:chamstat=incl		24", St3 hit	Range 24". Strength 3 hit.	
+brtreb02	Brandy Barrels	BB	Missile	Oth	15	over:brtreb01=delete	Catapult artillery weapon: Range 12-60”, 5” Template, S3; Units touched by the template gain Flammable until end of the next shooting phase.		Replace Battle Trebuchet with Brandy Barrels	
+brxbow	Crossbow	Xbow	Missile	N/A	1	over:longtrp=delete;over:brskirmi=delete;unam:="Crossbowmen"	Range 30''. Strength 4. Unwieldy.		Replace longbows with crossbows.	
+brtreb03	Mason Rocks 	MRoc	Missile	Oth	15	over:brtreb01=delete	Catapult artillery weapon: Range 12-60”, 3” Template, Strength 5.		Replace Battle Trebuchet with Mason Rocks.	
+brthrowr	Throwing weapon	Thr	Missile	N/A	0	over:brbow=delete	Range 12”. Strength as user. Quick to Fire. Multiple Shots (2).		Replace Bows with Throwing weapons	
+brburha	Heavy Armour	HA	Armour	N/A	1	more:save1=incl;over:latrp=delete				DeBelial - Heavy Armour for Burgher Infantry
+brla	Light Armour	LA	Armour	Mus	2	more:save1=incl;type:larmour;utyp:!MagicArmour		Don't count as Fast Cavalry	Mounted Yeomen with light armour no longer count as Fast Cavalry.	The "conflict group" Mus has been used to limit mundane armours throughout AB
+brburgpa	Pavise	HA	Armour	N/A	1	stat:Sv-2;chld:champ@Sv-2	^		+2 Armour Save against shooting attacks	DeBelial - Pavise for Burgher Crossbowman
+brlevysh	Shield	Shld	Shield	Wep	1	more:save1=incl;utyp:!MagicShield	+1 Armour; Parry			Levy militia shield (conflicts with weapons on purpose)
+brshield	Shield	Shld	Shield	N/A	2	more:save1=incl;utyp:!MagicShield		Don't count as Fast Cavalry	Mounted Yeomen with light armour no longer count as Fast Cavalry.	
+brbsb	Battle Standard Bearer	BSB	Standard	M2H,Bst,Bs1,Bs2	0	acmp:Hero-1u;dtyp:Ld8;over:btnostn4=delete;over:general=delete;catg:btl;type:btl;unam:+" Battle Standard Bearer";over:brshield=delete				
+brerarst	Standard		Standard	N/A	14	lglx:mode=c;over:stmg14=delete;spec:+stnd;cost:single;item:1		+1CR	Adds +1 to combat result	
+brcharch	Champion		Champion	N/A	0	unit:brcharch@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+brcherra	Champion		Champion	N/A	0	unit:brcherra@abs=1;csiz:brwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+brchfoot	Champion		Champion	N/A	0	unit:brchfoot@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+brchmen2	Champion		Champion	N/A	0	unit:brchmen2@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+brchmena	Champion		Champion	N/A	0	unit:brchmena@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+brchmtye	Champion		Champion	N/A	0	unit:brchmtye@abs=1;csiz:brhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+brchques	Champion		Champion	N/A	0	unit:brchques@abs=1;csiz:brwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+brchreal	Champion		Champion	N/A	0	unit:brchreal@abs=1;csiz:brwhorse+1;modl:-1;cost:model			Upgrades a model to a Champion	
+brgrknch	Champion		Champion	N/A	0	unit:brgrknch@abs=1;modl:-1;csiz:brwhorse+1;cost:model				
+brpegcha	Champion		Champion	N/A	0	unit:brpegch@abs=1;csiz:brpegas2+1;modl:-1;cost:model			Upgrades a model to a Champion	
+brpreach	Champion		Champion	N/A	0	unit:brpreach@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+brchburg	Sergeant		Champion	N/A	0	unit:brchburg@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+brchburx	Sergeant		Champion	N/A	0	unit:brchburx@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+brchskir	Villein		Champion	N/A	0	unit:brchskir@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+brwhorse	Barded Warhorse		Mount	Mnt	35	unit:brwhorse@per=1;more:save2=incl;type:mounted;dtyp:skirmishers;dtyp:foot;stxt:Type="Ca";show:brlance;xcst:20-unit=brpropet;xcst:15-unit=brcastel;xcst:15-unit=brdamsel;xcst:15-unit=brhero;show:sprmthro;over:sprtrp2=delete			Natural Armour	
+brhippo	Hippogriff		Mount	Mon	130	unit:brhippo@abs=1;type:mounted;more:save2=incl;stxt:Type="MC";show:brlance;type:hipmnt				
+brhorse	Horse		Mount	Mnt	0	unit:brhorse@per=1;type:mounted			Mounted movement; +1Sv for rider	
+brpegmnt	Royal Pegasus		Mount	Mon	55	unit:brpegas@abs=1;type:mounted;more:save1=incl;stxt:Type="MC";show:brlance;xcst:40-unit=brpropet;type:pegmnt;show:brbardld				
+brroypeg	Royal Pegasus		Mount	Mon	0	unit:brroypeg@abs=1;type:mounted;more:save1=incl;stxt:Type="MC"				
+brshaste	Shadow Steed		Mount	Mnt	21	unit:brshastd@abs=1;more:save2=incl;type:horsemtd			Mounted movement; +1Sv for rider, Ethereal	
+brlunic	Unicorn		Mount	Mon	60	unit:brlunic@abs=1;more:save1=incl;stxt:Type="Ca"				
+brpegasi	Young Pegasus		Mount	Mon	0	unit:brpegas2@per=1				
+brbardhr	Barding	Brd	Barding	Brd	4	more:save1=incl			+1 Save for rider	
+brbardin	Barding	Brd	Barding	Brd	2				+1 Save for rider	
+brbardld	Barding	Brd	Barding	Brd	15	more:save1=incl;chld:mount@Mv-1			+1 Save	
+brcrewld	Adept		Crew	N/A	10	unit:xbrcrew@per=3;unit:xbrcrewl@abs=1;over:brcrew=delete;xcst:25-unit=brbalist			Replaces a crewmember with an Adept.	
+brbatpio	Battle Pilgrims		Crew	N/A	0	unit:xbrbatpi@var				
+brcrew	Crew		Crew	N/A	0	hide;unit:xbrcrew@per=4				
+brcodegr	Grail Code	GCo	Priority1	Oth	30	base:WSv-1;xcst:20-unit=brhero	Immune to psychology, Magical attacks, Holy attacks and Ward save (5+).			
+brcodequ	Questing Code	QCo	Priority1	Oth	20	over:brlance=delete;xcst:10-unit=brhero	Cannot wield Lances and have the Weapon Masters, Immune to Psychology and Multiple Wounds (2, Monstrous Cavalry, Ridden Monsters, Monsters).			
+brtrench	Archer's Defilade	ArDe	Priority5	N/A	10	cost:single	After deployment but before deploying Scouts, place a wall in base contact on the front of any unit with this Special Rule.The wall is as wide as the unit, and no more than 20mm deep. Follow the rules for walls, except it is Soft Terrain instead of Hard Terrain.			
+brdevcha	Devastating Charge	DevCh	Priority5	N/A	5		(Knight Only)			
+brbraize	Flaming shooting attacks	FlaSh	Priority5	N/A	10	cost:single				
+brskirmi	Skirmish	Ski	Priority5	N/A	1	type:brskirmish;over:brxbow=delete;over:brtrench=delete			Skirmishers cannot take Archer's Defilade	
+brvangua	Vanguard	Vang	Priority5	N/A	5					
+brbelove	Beloved	Blvd	Special	N/A	30	xcst:15-unit=brdamsel	A model with this Special Rule loses the First in Rank rule whenever it is in a unit with at least one Full Rank of models with Inspiring special rule.			
+brethera	Etheral	Eth	Special	N/A	70	type:bretheral;over:btstdok=deselect			One Templar in army can take Etheral special rule. This model cannot be Battle Standard Bearer.	
+brhonor2	Honour of a Tourney Winner	HoTW	Special	N/A	20	type:honor2	The bearer rerolls all missed to hit rolls with Lances when charging.			
+brhonor1	Honour of Challenge	HoCha	Special	N/A	25	type:honor1	The bearer will always issue a challenge if possible, and must always accept a challenges issued by an opponent. The character rerolls all missed to hit and to wound rolls in a challenge.			
+brhonor4	Honour of Courage	HoCo	Special	N/A	30	type:honor4	The character rerolls all failed to hit and to wound rolls, when attacking opponents that has higher unmodified Strength than himself.			
+brhonor7	Honour of People's Champion	HPCh	Special	N/A	5	type:honor7	The character has the Inspiring Presence rule even if not the General, but only models with Insignificant Special Rule may receive this Inspiring Presence. The character can also join Insignificant units. This Honour may be duplicated.			
+brhonor3	Honour of Service	HoSer	Special	N/A	60	type:honor3	The bearer is Stubborn.			
+brhonor6	Honour of the Dragon Slayer	HDrSl	Special	N/A	70	type:honor6	The character has Multiple Wounds (3) and Killing Blow.			
+brhonor5	Honour of the Glorious Charge	HGCh	Special	N/A	35	type:honor5	One use only. The character may add +D6 to his (or his unit's) charge range. Declare before rolling the charge distance if you use the Honour of the Glorious Charge. A failed charge do not add the extra +D6 for the failed charge distance.			
+brhonort	Honour table		Special	N/A	0	tabl:NoHonour=brhonor0,Challenge=brhonor1,TourneyWinner=brhonor2,Service=brhonor3,Courage=brhonor4,GloriousCharge=brhonor5,DragonSlayer=brhonor6,PeopleChampion=brhonor7				
+brmr1	Magic Resistance (1)	MR1	Special	N/A	15					
+brmr2	Magic Resistance (2)	MR2	Special	N/A	35					
+brhonor0	No Honour		Special	N/A	0	type:honor0				
+brfstcav	Fast Cavalry	FstCv	Last	N/A	0	hide;utyp:!larmour				
+brjules	Jules Le Jongleur		Last	N/A	0	unit:brjules@abs=1;hide				
+^
+br9mw02	Dragonlance	weap	MWp	30	1	itst:race=br&type=mounted		Lance. Attacks with this weapon have the Flaming attacks special rule. The wearer has a Breath Weapon (Strength 3, Flaming Attacks).	^	^	9th age
+br9mw01	Mace of the Champion	weap	MWp	65	1	itst:race=br		Heavy Hand Weapon. Wearer counts his strength as being 1 higher than the models toughness they are attacking, unless already higher. Whenever an enemy model suffers one or more hits from this weapon, roll a dice. On a 4+, one of the Magic Items carried by the enemy model is randomly destroyed.	^	^	9th age
+br9ma01	Armour of Faith	armr	Arm,MAr	20	1	itst:race=br;base:Sv-2;type:MagicArmour;base:WSv-1		Heavy Armour. This armor confers +1 to any Ward Saves the model has to a maximum of 4+ and additionally any Holy Attacks against the wearer loses the Holy Attacks special rule.	^	^	9th age
+br9ma02	Helm of Holy Enlightenment	armr	MAr	45	1	itst:race=br;base:Sv-2		Helm (6+ armour save). Adds an additional +1 to wearer's Armour Save. The wearer of the Helm of Holy Enlightenment re-rolls all failed Armour saves. Additionally attacks against the wearer can never gain any benefits from having Lethal Strike.	^	^	9th age
+br9ta01	Talisman of Derision	ward	Tal	15	1	itst:race=br		No unit may use the stand and shoot reaction when charged by a character or his unit with this item. Furthermore, the bearer and his unit gains +1 Ward Save against any non-magical missile attacks at this unit.	^	^	9th age
+br9en02	Prayer Scripture of the Grail Guardians	ench	Enc	25	1	itst:race=br		Enchanted Item. One use only. Can be used at the start of any phase. The bearer and the unit they're with immediately granted the Blessing which counts as if they prayed. This can allow a unit that has lost the Blessing to regain it.	^	^	9th age
+br9en01	Sky-horn of the Lost Pegasus Knight	ench	Enc	40	1	itst:race=br		Enchanted Item. One use only. Activate this item at the start of any player turn. Enemy units cannot make Flying Movements during this player turn.	^	^	9th age
+br9ar01	Wafers of Penitence	wzrd	Arc	30	1	itst:race=br		Generate d3+2 Wafers at the end of deployment. A Wafer of Penitence can be used once per dispelling attempt and adds D3 to the dispelling result (this cannot be used in Aided Dispelling). I If this die rolls a natural 1, the dispel fails and the wizard takes a Strength 3 hit with Armour Piercing (6).	^	^	9th age
+br9mb01	Banner of the Sacred Land	stnd	Std	70	1	itst:race=br	bsb=incl	Enemy units in base contact with this banner may not benefit from the Hold Your Ground or Inspiring Presence Special Rule. Bearer gains Fear special rule.	^	^	
+br9mb02	Standard of the Last Charge	stnd	Std	20	1	itst:race=br	bsb=incl	As long as the unit has a 3 or less models wide front rank, mounts of models of the unit get Impact hits(1) or get Impact hits(2) if they already had it.	^	^	
+brrelisp	Consecrated Light	spel	N/A	0	99	itst:reg=brrelicq		(Bound Level 3) Augment: Range 12” Duration: Permanent) Target immediately gains the Blessing Special rule.			
+brrelic1	Lady's Icon	spel	N/A	40	99	itst:reg=brrelicq		At the start of your movement phase apply one of the following effects to all units within 9”: gain Immune to Psychology and ignores AP(1) effects or they can reroll failed Ward Save rolls of “1” until the start of your next movement phase.			
+brrelic2	Saintly Vigil	spel	N/A	50	99	itst:reg=brrelicq		At the start of the movement phase apply one of the following effects to all units within 9”: they gain Fight in Extra Ranks Special Rule or they can reroll failed rolls of “1” to wound until the next friendly movement phase.			
+bradlers	Antlers of the Great Hunt	unk2	Enc	25	1	itst:(race=br&type=token)		Roll an extra die for pursue roll and discard the lowest roll	^	^	
+brarofag	Armour of Agilulf	unk2	Arm,Shd,MAr	25	1	itst:race=br;base:Ws=10;base:Sv-3;type:MagicArmour		4+Sv, Includes shield, bearer has WS10	^	^	
+brarbril	Armour of Midsummer Sun	unk2	Arm,MAr	45	1	itst:race=br;base:Sv-2;type:MagicArmour		5+Sv, HtH and shooting attacks against wearer and mount are at -1 to hit.	^	^	
+brchalon	Banner of Chalons	unk2	Std	10	1	itst:race=br	bsb=incl	Enemy may not choose Stand & Shoot as charge reaction.	^	Enemy may not choose Stand & Shoot as charge reaction.	
+brbandef	Banner of Defense	unk2	Std	30	1	itst:race=br	bsb=incl	If unit has the Blessing, it's Ward Save is improved to 4+ against S5+ missiles and magic missiles	^	^	
+brblady	Banner of the Lady	unk2	Std	100	1	itst:race=br&!type=pegmtd	bsb=incl	All enemy units in BtB w/ bearer get no rank bonus.	^	All enemy units in BtB w/ bearer get no rank bonus.	
+brbsocar	Birth-Sword of Carcassone	unk2	MWp	35	1	stat:St+1;itst:race=br		+1S; Enemies must reroll successful armour saves.	^	^	
+brbobord	Braid of Bordeleaux	unk2	Tal	25	1	itst:race=br		Use at start of turn, one use only.  Bearer gains +1 LD and ignores difficult terrain if it's a water feature until end of turn.	^	^	
+brmalfl	Chalice of Malfleur	unk2	Arc	20	1	itst:race=br		Roll 1D6 at the start of enemy players magic phase, on a 1 bearer takes 1 wound (no saves), on 2-6 add 1 extra dice to the dispel pool. 	^	^	
+brcontap	Conquerors Tapestry	unk2	Std	25	1	itst:race=br	bsb=incl	Unit receives 200 VPs for capturing enemy standards, but gives up 200 VPs if an enemy captures this standard.	^	^	
+brfortu	Cuirass of Fortune	unk2	Arm,MAr	20	1	itst:race=br;base:Sv-2;type:MagicArmour		5+SV, Reroll 1's on rolls to wound	^	^	
+brdraclw	Dragons Claw	unk2	Tal	25	1	itst:race=br		Blessing save is always 5+ regardless of  S. Immune to fire-based attacks.	^	^	
+brerant	Errantry Banner	unk2	Std	20	1	itst:race=br&reg=brerant		Knights Errant receive +1S on charge, but suffer -2 Ld for “Impetuous” tests.	^	^	
+brerant2	Errantry Banner	unk2	Std	0	100	lglx:race=br&mode=c;itst:race=br&reg=brerant		Knights Errant receive +1S on charge, but suffer -2 Ld for “Impetuous” tests.	^	^	
+brdragcw	Falcon Horn of Fredemund 	unk2	Enc	45	1	itst:race=br		Use at start of any turn. Enemy units can't fly this turn. One use only	^	^	
+brgauntl	Gauntlet of the Duel	unk2	Enc	10	1	itst:race=br		Enemy can't refuse a challenge issued by the bearer.	^	^	
+brfortun	Gilded Cuirass	unk2	Arm,MAr	55	1	itst:(race=br&type=grail);base:Sv-2;type:MagicArmour		5+Sv, Regeneration (requires Grail Vow)	^	^	
+brmigrhm	Gromril Great Helm	unk2	MAr	30	1	itst:race=br;base:Sv-1		6+ Armor Save; Re-roll failed armor saves.	^	6+ Armor Save; Re-roll failed armor saves.	
+brtress	Heartwood Lance	unk2	MWp	35	1	itst:race=br&!type=quest&!type=foot		Lance, reroll failed to wound rolls	^	^	
+brholyic	Holy Icon	unk2	Enc	40	1	itst:race=br		Magic Resistance (3)	^	^	
+briconqu	Icon of Quenelles 	unk2	Arc	25	1	itst:race=br		One use only. Bearer and unit are granted or regain the Blessing	^	^	
+bramalri	Icon of the Lady	unk2	N/A	0	1	base:Wsv=5;itst:reg=bramalri		5+ Ward Save & Magic Resistance (1)	^	Magic Resistance (1)	
+briotque	Insignia of the Quest	unk2	Tal	30	1	itst:(race=br&type=quest)		When bearer has only 1 wound remaining, he gains a 3+ ward save (roll once against multi-wound weapons that would kill you, if saved other wounds are discarded; requires Questing Vow).	^	^	
+brlaofar	Lance of Artois	unk2	MWp	25	1	itst:race=br&!type=quest&!type=foot		Lance, Killing Blow on the charge	^	^	
+brmalf	Mane of the Purebreed	unk2	Enc	25	1	itst:race=br&!type=foot		Steeds of bearer and unit joined get +1S on first charge. (Mounted character only)	^	^	
+brmaofda	Mantle of Damsel Elena	unk2	Tal	20	1	itst:race=br		Immune to Poison and Killing Blow	^	^	
+brmsfrac	Morningstar of Fracasse	unk2	MWp	25	1	itst:race=br		S+2 in first turn of combat.  Destroys target's magic weapon on 4+.	^	^	
+brorcban	Orcbane Shield	unk2	Shd,MAr	15	1	itst:race=br;base:sv-1;type:MagicShield		Greenskins within 12” fail their animosity tests on D6 of 1 or 2.	^	^	
+brsacre2	Potion Sacre	unk2	Arc	10	1	itst:race=br		One use only. Use before rolling dice to cast or dispel a spell; After rolling, player may add +1 to 1 die. May prevent Miscast or cause IF.	^	One use only. Use before rolling dice to cast or dispel a spell; After rolling, player may add +1 to 1 die. May prevent Miscast or cause IF.	
+brsacram	Sacrament of the Lady	unk2	Arc	40	1	itst:race=br		Use in your magic phase. Bearer can't cast spells this phase but generates double Power dice. Roll a D6, can't be used for rest of battle on a 1.	^	Use in your magic phase. Bearer can't cast spells this phase but generates double Power dice. Roll a D6, can't be used for rest of battle on a 1.	
+brqlance	Silver Lance of the Blessed	unk2	MWp	65	1	itst:race=br&!type=quest&!type=foot		Lance, auto hits in any combat round while bearer has the Blessing	^	^	
+brsirloc	Sirenne’s Locket	unk2	Tal	55	1	itst:(race=br&type=Ld9)		Can only suffer one wound per turn from nonmagical attacks, all others are discarded. (Still affected by Killing Blow)	^	^	
+brswhero	Sword of Heroes	unk2	MWp	35	1	itst:race=br		Vs T5+ Opponents, bearer gets +1S and each unsaved Wo becomes D3 Wo	^	^	
+brladysw	Sword of the Lady's Champion	unk2	MWp	40	1	itst:(race=br&type=grail)		Strength 1 higher than enemy’s Toughness, armour modified by new strength (requires Grail Vow)	^	^	
+brswotqu	Sword of the Quest	unk2	MWp	50	1	itst:(race=br&type=quest)		Can be used as hand weapon or great weapon, no armour saves allowed (requires Questing Vow)	^	^	
+brgrail	The Grail Shield	unk2	Shd,MAr	35	1	itst:(race=br&type=grail);base:sv-1;base:WSv=4;type:MagicShield		6+ Armour Save; 4+ Ward Save while bearer has the Blessing (requires Grail Vow)	^	^	
+brmantle	The Ruby Goblet 	unk2	Enc	30	1	itst:race=br		Once the bearer and/or his unit has lost one wound they can't be wounded on a 2+ anymore (must roll at least a 3+ to wound him). Only works against non-magical attacks.	^	^	
+brsivmir	The Silver Mirror	unk2	Arc	40	1	itst:race=br		Dispel scroll , caster takes one S6 hit	^	^	
+brverant	The Verdant Heart	unk2	Arc	40	1	itst:race=br		+1  to cast when using the lore of Life. If wholly in a wood, it counts as dangerous terrain for all enemy units.	^	^	
+brtokdam	Token of the Damsel	unk2	Tal	35	1	itst:(race=br&type=token)		2+ Ward Save against first wound suffered	^	^	
+brtreis	Tress of Isoulde	unk2	Enc	20	1	itst:race=br		One use only.  At start of any CC phase, nominate 1 enemy model. Bearer hits model on unmodified 2+ for that phase. 	^	At start of any CC phase, nominate 1 enemy model. Bearer hits model on unmodified 2+ for that phase.  One use only.	
+brtwiban	Twilight Banner	unk2	Std	25	1	itst:race=br	bsb=incl	One use only, if the unit doesn't charge this turn, they can move as if they were Ethereal.	^	^	
+brvalor	Valorous Standard	unk2	Std	50	1	itst:race=br&!type=token		Use 3D6 for all Ld tests (incl Break Tests) and discards highest. Not for BSB.	^	Use 3D6 for all Ld tests (incl Break Tests) and discards highest.	
+brvoaud1	Virtue of Audacity (1st)	unk2	Mrk	30	1	itst:race=br		Re-roll failed to hit and to wound rolls against enemies with higher Strength (before modifications for weapons etc).	^	^	
+brvoaud2	Virtue of Audacity (2nd)	unk2	Mrk	60	1	itst:race=br		Re-roll failed to hit and to wound rolls against enemies with higher Strength (before modifications for weapons etc). 	^	^	
+brvoaud3	Virtue of Audacity (3rd)	unk2	Mrk	90	1	itst:race=br		Re-roll failed to hit and to wound rolls against enemies with higher Strength (before modifications for weapons etc).	^	^	
+brvocon1	Virtue of Confidence (1st)	unk2	Mrk	25	1	itst:race=br		Must always issue and accept challenges. Rerolls failed to hit and to wound rolls in challenges. 	^	^	
+brvocon2	Virtue of Confidence (2nd)	unk2	Mrk	50	1	itst:race=br		Must always issue and accept challenges. Rerolls failed to hit and to wound rolls in challenges. 	^	^	
+brvocon3	Virtue of Confidence (3rd)	unk2	Mrk	75	1	itst:race=br		Must always issue and accept challenges. Rerolls failed to hit and to wound rolls in challenges. 	^	^	
+brvodis1	Virtue of Discipline (1st)	unk2	Mrk	15	1	itst:race=br		No +1 outnumber Combat Resolution bonus for enemy, but will flee when defeated and outnumbered by Fear-causing troops.	^	^	
+brvodis2	Virtue of Discipline (2nd)	unk2	Mrk	30	1	itst:race=br		No +1 outnumber Combat Resolution bonus for enemy, but will flee when defeated and outnumbered by Fear-causing troops.	^	^	
+brvodis3	Virtue of Discipline (3rd)	unk2	Mrk	45	1	itst:race=br		No +1 outnumber Combat Resolution bonus for enemy, but will flee when defeated and outnumbered by Fear-causing troops.	^	^	
+brvodut1	Virtue of Duty	unk2	Mrk	30	1	itst:race=br&!type=general		One per army.  Adds +1 Combat Resolution of any fight he is in as long as the General is alive. Can't be the General. 	^	^	
+brvoemp1	Virtue of Empathy (1st)	unk2	Mrk	10	1	itst:race=br;type:empathy		May fight on foot , Peasant Duty range increased to 12” if he's not the General.	^	^	
+brvoemp2	Virtue of Empathy (2nd)	unk2	Mrk	20	1	itst:race=br;type:empathy		May fight on foot , Peasant Duty range increased to 12” if he's not the General.	^	^	
+brvoemp3	Virtue of Empathy (3rd)	unk2	Mrk	30	1	itst:race=br;type:empathy		May fight on foot , Peasant Duty range increased to 12” if he's not the General.	^	^	
+brvoher1	Virtue of Heroism (1st)	unk2	Mrk	40	1	itst:race=br		Heroic Killing Blow.	^	^	
+brvoher2	Virtue of Heroism (2nd)	unk2	Mrk	80	1	itst:race=br		Heroic Killing Blow.	^	^	
+brvokt1	Virtue of Knightly Temper (1st)	unk2	Mrk	40	1	itst:race=br;spec:-weap		Gains and extra Attack for every succesful to-wound roll (before saving throws), but only for his initial Attacks. Can't use magic weapons.	^	^	
+brvokt2	Virtue of Knightly Temper (2nd)	unk2	Mrk	80	1	itst:race=br;spec:-weap		Gains and extra Attack for every succesful to-wound roll (before saving throws), but only for his initial Attacks. Can't use magic weapons.	^	^	
+brvond1	Virtue of Noble Disdain (1st)	unk2	Mrk	20	1	itst:race=br		Hates enemies with shooting weapons and warmachine crews. Any unit he joined doesn't take panic tests because of taking 25% casualties from shooting/magic. 	^	^	
+brvond2	Virtue of Noble Disdain (2nd)	unk2	Mrk	40	1	itst:race=br		Hates enemies with shooting weapons and warmachine crews. Any unit he joined doesn't take panic tests because of taking 25% casualties from shooting/magic. 	^	^	
+brvond3	Virtue of Noble Disdain (3rd)	unk2	Mrk	60	1	itst:race=br		Hates enemies with shooting weapons and warmachine crews. Any unit he joined doesn't take panic tests because of taking 25% casualties from shooting/magic. 	^	^	
+brvopur1	Virtue of Purity (1st)	unk2	Mrk	20	1	itst:race=br		5+ ward save from blessing against every strength, not just S5, no need to pray (but can lose as normal). 	^	^	
+brvopur2	Virtue of Purity (2nd)	unk2	Mrk	40	1	itst:race=br		5+ ward save from blessing against every strength, not just S5, no need to pray (but can lose as normal). 	^	^	
+brvopur3	Virtue of Purity (3rd)	unk2	Mrk	60	1	itst:race=br		5+ ward save from blessing against every strength, not just S5, no need to pray (but can lose as normal). 	^	^	
+brvosto1	Virtue of Stoicism (1st)	unk2	Mrk	35	1	itst:race=br		The Knight and any unit he joined may re-roll failed break tests. 	^	^	
+brvosto2	Virtue of Stoicism (2nd)	unk2	Mrk	70	1	itst:race=br		The Knight and any unit he joined may re-roll failed break tests. 	^	^	
+brvotid1	Virtue of the Ideal (1st)	unk2	Mrk	35	1	itst:race=br&!type=general;base:ws+2;base:in+1;base:at+1;dtyp:Ld9;dtyp:Ld8		Character gains +2WS, +1I, +1A. Any friendly  unit within 6" get -1LD (also goes for those using Peasant Duty). Knight units joined by him can't use his LD and he cannot be a general.	^	^	
+brvotid2	Virtue of the Ideal (2nd)	unk2	Mrk	70	1	itst:race=br&!type=general;base:ws+2;base:in+1;base:at+1;dtyp:Ld9;dtyp:Ld8		Character gains +2WS, +1I, +1A. Any friendly  unit within 6" get -1LD (also goes for those using Peasant Duty). Knight units joined by him can't use his LD and he cannot be a general.	^	^	
+brvotik1	Virtue of the Impetuous Knight (1st)	unk2	Mrk	35	1	itst:race=br		Character and any mounted unit he is with adds +D6" on their first charge (roll after declaring the charge). 	^	^	
+brvotik2	Virtue of the Impetuous Knight (2nd)	unk2	Mrk	70	1	itst:race=br		Character and any mounted unit he is with adds +D6" on their first charge (roll after declaring the charge). 	^	^	
+brvotj1	Virtue of the Joust (1st)	unk2	Mrk	25	1	itst:race=br		Reroll failed to hit rolls when charging and using a lance, even a magical one. 	^	^	
+brvotj2	Virtue of the Joust (2nd)	unk2	Mrk	50	1	itst:race=br		Reroll failed to hit rolls when charging and using a lance, even a magical one. 	^	^	
+brvotj3	Virtue of the Joust (3rd)	unk2	Mrk	75	1	itst:race=br		Reroll failed to hit rolls when charging and using a lance, even a magical one. 	^	^	
+brvotp1	Virtue of the Penitent (1st)	unk2	MWp,Mrk	40	1	itst:race=br		Bearer is Stubborn but may never join any friendly units. May not take magic items, nor ride a Hippogryph or Royal Pegasus. 	^	^	
+brvotp2	Virtue of the Penitent (2nd)	unk2	MWp,Mrk	80	1	itst:race=br		Bearer is Stubborn but may never join any friendly units. May not take magic items, nor ride a Hippogryph or Royal Pegasus. 	^	^	
+brwyrmla	Wyrmlance	unk2	MWp	20	1	itst:race=br&!type=quest&!type=foot		Lance, one S3 breath attack from the top of the lance per battle, attacks count as flaming after it is used.	^	^	
+brtrist1	Anthem Of The Uniter	spec	N/A	0	1	itst:reg=brtristr		(Ballad) Stubborn	^	^	
+braurfey	Aura of the Fey	spec	N/A	0	1	itst:type=greenknight		If slain, will re-appear as before, but with a -1 penalty on the dice roll for every time he was slain (if slain once you need a 4+, if slain twice a 5+, etc).	^	^	
+brtrist2	Battle Hymn Of Quenelles	spec	N/A	0	1	itst:reg=brtristr		(Ballad) +1 Combat Resolution	^	^	
+brfay2	Girdle of Gold	spec	N/A	0	1			4+ Ward Save	^	^	
+brtrist3	Grail Chorale	spec	N/A	0	1	itst:reg=brtristr		(Ballad) Magic Resistance (2)	^	^	
+brguasit	Guardian of the Sacred Sites	spec	N/A	0	1	itst:type=greenknight		Not placed on table during deployment. Roll a D6 at start of every Bretonnian remaining moves phase, he will appear on a 3+. Keep rolling until he appears. Must be placed in (very) difficult terrain.	^	^	
+brfay3	Power Familiar (Toad)	spec	N/A	0	1			Adds one dice to both the Power and Dispel pools.	^	^	
+brfay1	The Chalice of Potions	spec	N/A	0	1			Roll a D6 each magic phase to select a Heavens lore spell.  This spell is cast automatically at the casting level of the spell.  If a 6 is rolled, the Chalice runs out of power after the spell is cast and cannot be used for the remainder of the game.	^	^	
+brking1	The Crown of Brettonia	spec	N/A	0	1			General's leadership range is 18" instead of 12". Any unit with LOS to the King is Immune to Panic.	^	^	
+brdolbla	The Dolorous Blade	spec	N/A	0	1	itst:type=greenknight		Gives either +D6 Attacks or +2St.	^	^	
+brking3	The Lion's Shield	spec	N/A	0	1			Counts as a shield (incl in profile).  Magic Resistance equal to # of dice used to cast a spell that targets him, or MR(1) vs Bound Spells.	^	^	
+brking2	The Sword of Couronne	spec	N/A	0	1	stat:St+1		+1S.  Foes in B2B take a Ld check at the start of any combat phase, and cannot attack and are hit automatically if it is failed.	^	^	
+br9vit05	Virtue of Audacity	virt	Mrk	50	1	itst:race=br		The character rerolls all failed to hit and to wound rolls and gains Stubborn, when in base contact with an enemy that has higher unmodified Strength or Toughness than himself.	^	^	
+br9vir01	Virtue of Compassion	virt	Mrk	20	1	itst:race=br		Models with this rule are Insignificant, have their Inspiring presence increased to 12” and have the Hold your Ground rule even if not the Battle Standard Bearer, but only models with Insignificant Special Rule may receive this Hold your Ground.	^	^	
+br9vir04	Virtue of Knightly Temperance	virt	Mrk	45	1	itst:race=br		When charging with lance the bearer has Devastating Charge, Thunderous Charge and every unsaved wound in close combat by this character generates another attack, rolled immediately. These do not generate further attacks.	^	^	
+br9vir06	Virtue of Purity	virt	Mrk	60	1	itst:race=br		The Character’s gains Armour Piercing (1) and Lightning attacks. In close combat, when this character rolls a 6 to wound against Medium height and Large height, its attacks instead gain Armour Piercing (6) and Multiple wounds (Ordnance).	^	^	
+br9vir02	Virtue of Sacrifice	virt	Mrk	25	1	itst:race=br		Can only be used in a unit with the Impetuous Special Rule or by the model itself. The character or unit he’s in retains the Impetuous rule for all charges declared.	^	^	
+br9vir03	Virtue of Tenacity	virt	Mrk	40	1	itst:race=br		The bearer will always issue a challenge if possible. This challenge must be accepted (if possible). The character rerolls all missed to hit and to wound rolls in a challenge.	^	^	
+br9vir07	Virtue of the Saint	virt	Mrk	75	1	itst:race=br;base:WSv-1		The Character and all non-character models in the same unit has its Ward Save increased by +1, to a maximum of 4+. Can only join Cavalry units.	^	^	
+br9vir08	Virtue of Unyelding	virt	Mrk	65	1	itst:race=br&!type=btl&!type=pegmnt&!type=hipmnt		The character must ride a Barded Warhorse or be on foot. It has the Not a Leader Special Rule, and cannot be the Battle Standard Bearer or take Magical Armour. The character gains the Otherworldly, Ethereal, Unstable, Terror and Ambush special rules.	^	^	
+^
+^
+^
+brbowme2	brcharch	cost
+brbowme2	laoptrp	incl
+brbowme2	longtrp	incl
+brbowme2	mus10	cost
+brbowme2	st10	cost
+brchmtye	chamstat	hide
+brdamsel	bralore2	cost
+brdamsel	brwhorse	cost
+brdamsel	general	cost
+brdamsel	mg1lvl	incl
+brdamsel	mg2lvl30	cost
+brdamsel	mgfull	hide
+brdamsel	mgmiscas	cost
+brdamsel	mgshow	hide
+brlord	brwhorse	cost
+brlord	general	cost
+brlord	halrd	incl
+brlord	shwlrd	incl
+brlord	brhhw	cost
+brlord	brgw	cost
+brlord	brhippo	cost
+brerant	brcherra	cost
+brerant	brwhorse	incl
+brerant	latrp	appl
+brerant	brlance	incl
+brerant	mus10	cost
+brerant	shwtrp	appl
+brerant	st10	cost
+brerant	brgloryd	cost
+brgrail2	brwhorse	incl
+brgrail2	hatrp	appl
+brgrail2	brlance	incl
+brgrail2	mus10	cost
+brgrail2	shwtrp	appl
+brgrail2	stmg10	cost
+brhero	brlance	hide
+brhero	general	cost
+brhero	hahro	incl
+brhero	shhro	incl
+brhero	brhhw	cost
+brhero	brgw	cost
+brhero	btnostnd	incl
+brmena2	brchmena	cost
+brmena2	haltrp1	cost
+brmena2	latrp	appl
+brmena2	mus10	cost
+brmena2	shoptrp	incl
+brmena2	st10	cost
+brmena2	sprtrp	free
+brmtdyeo	brbow	incl
+brmtdyeo	brchmtye	cost
+brmtdyeo	brhorse	incl
+brmtdyeo	mus10	cost
+brmtdyeo	showtrp1	cost
+brmtdyeo	laoptrp	cost
+brmtdyeo	st10	cost
+brpropet	bralore2	cost
+brpropet	brwhorse	cost
+brpropet	brpegmnt	cost
+brpropet	general	cost
+brpropet	mg3lvl	incl
+brpropet	mg4lvl60	cost
+brpropet	mgfull	hide
+brpropet	mgmiscas	cost
+brpropet	mgshow	hide
+brques2	brchques	cost
+brques2	brwhorse	appl
+brques2	hatrp	appl
+brques2	haltrp1	incl
+brques2	mus10	cost
+brques2	stmg10	cost
+brques2	shtrp	incl
+brrealm	brchreal	cost
+brrealm	brwhorse	appl
+brrealm	hatrp	incl
+brrealm	brlance	incl
+brrealm	mus10	cost
+brrealm	shwtrp	incl
+brrealm	stmg10	cost
+brhero	btstdok	cost
+brbowme2	brbraize	cost
+brpegkni	hatrp	incl
+brpegkni	lancetrp	incl
+brpegkni	brpegasi	incl
+brpegkni	shtrp	incl
+brpegkni	stmg10	cost
+brpegkni	mus10	cost
+brpegkni	brpegcha	cost
+brtrebuc	brcrew	incl
+brrelic	laoptrp	incl
+xbrbatpi	shoptrp	incl
+xbrbatpi	laoptrp	incl
+brtrebuc	brtreb01	incl
+brgreenk	halrd	incl
+brgreenk	brbardhr	incl
+brgreenk	brshaste	incl
+brking	brking	incl
+brking	general	incl
+brfay	mgalore	cost
+brfay	general	cost
+brfay	mgfull	hide
+brfay	mgmiscas	cost
+brfay	mgshow	hide
+brfay	brfay	incl
+brgrgrdn	brbardin	appl
+brgrgrdn	brhorse	appl
+brgrgrdn	hatrp	appl
+brgrgrdn	lancetrp	incl
+brgrgrdn	mus10	cost
+brgrgrdn	shwtrp	appl
+brgrgrdn	stmg20	cost
+brfay	brgragua	cost
+brbowme2	brtrench	incl
+brtristr	brlance	incl
+brtristr	brwhorse	incl
+brtristr	hahro	incl
+brtristr	shwhro	incl
+brtristr	btnostn4	incl
+brtristr	brbalads	incl
+brtristr	brjules	incl
+bramalri	brwhorse	incl
+bramalri	hahro	incl
+bramalri	shwhro	incl
+brfootkn	brchfoot	cost
+brfootkn	hatrp	incl
+brfootkn	mus10	cost
+brfootkn	shwtrp	incl
+brfootkn	stmg10	cost
+brburgin	brchburg	cost
+brburgin	haltrp	incl
+brburgin	latrp	appl
+brburgin	mus10	cost
+brburgin	st10	cost
+brburgin	brburha	cost
+brburgxb	brchburx	cost
+brburgxb	xbowtrp	incl
+brburgxb	latrp	appl
+brburgxb	mus10	cost
+brburgxb	st10	cost
+brburgxb	brburgpa	cost
+brebsb	hahro	incl
+brebsb	btstdbre	auto
+brebsb	heromnt	incl
+brfay	unshow	hide
+brlord	brpegmnt	cost
+brlord	brlance	hide
+brhero	brwhorse	cost
+brhero	brpegmnt	cost
+brtempla	brlance	hide
+brtempla	general	cost
+brtempla	hahro	incl
+brtempla	shhro	cost
+brtempla	brmornst	cost
+brtempla	brgw	cost
+brtempla	btnostnd	incl
+brtempla	brwhorse	cost
+brtempla	btstdok	cost
+brtempla	brethera	cost
+brbowme2	brskirmi	cost
+brques2	brcodequ	incl
+brrelic	shoptrp	incl
+brrelic	st10	cost
+brrelic	mus10	cost
+brrelic	brpreach	cost
+brrelic	brahwrep	cost
+brgrail2	brgrknch	cost
+brhero	brcodegr	cost
+brlord	brcodegr	cost
+brlord	brcodequ	cost
+brlord	brbardld	hide
+brpropet	brbelove	cost
+brpropet	brmr2	cost
+brpropet	brbardld	hide
+brpropet	brlunic	cost
+brhero	brcodequ	cost
+brhero	brbardld	hide
+brdamsel	brbelove	cost
+brdamsel	brmr1	cost
+brcastel	general	cost
+brcastel	longhro	cost
+brcastel	shhro	cost
+brcastel	brwhorse	cost
+brcastel	lahro	incl
+brcastel	sprtrp2	cost
+brcastel	haltrp	cost
+brcastel	sprmthro	hide
+brmena2	brmilupg	cost
+brmena2	brchmen2	hide
+brbowme2	brxbow	cost
+brques2	brextra	auto
+brpegkni	brextra	auto
+brpegkni	brvangua	cost
+brpegkni	brdevcha	cost
+brpegkni	bard10	cost
+brmtdyeo	brextra	auto
+brmtdyeo	brthrowr	cost
+brmtdyeo	brllance	cost
+brfootkn	brhhw	cost
+brfootkn	brflail	cost
+brrelic	frenzy	incl
+brrelicq	hatrp	incl
+brrelicq	shoptrp	incl
+brrelicq	brcodegr	incl
+brrelic	brrelicq	cost
+brrelicq	brrelic2	cost
+brrelicq	brrelic1	cost
+brgrail2	brcodegr	incl
+brgrail2	brextra	auto
+brtrebuc	brcrewld	cost
+brtrebuc	brtreb02	cost
+brtrebuc	brtreb03	cost
+brbalist	brcrew	incl
+brbalist	brcrewld	cost
+brrealm	brhhw	incl
+brgrail2	brhhw	incl
+^
+^
+brmsg09	Honour duplicated	Honours cannot be duplicated in the army (Except People's Champion Honour)
+brmsg7	King Louen	King Louen Leoncoeur must lead the Army of the King.
+brmmsg3	Knights Errant 	You require at least one unit of Knights Errant.
+brmsg6	KotR	You require at least one unit of Knights of the Realm.
+brmsg12	Magic Item limit	Lord can only have 100 points of magic items.
+brmsg2	Needs a Royal Pegasus	You need a Bretonnian Lord mounted on a Royal Pegasus to take more then 1 unit of Pegasus Knights
+brmsg13	Only one BattlehardenedMilitia	Only one unit of Levy Militia may be Battlehardened, unless you have a Castellan in your army.
+brmsg10	Only one Ehteral Templar	Only one Templar of the Holy Grail in the army can take Etheral special rule.
+brmsg11	Only one Skirmishing Bowman	Only one unit of Cotter Bowman may be given Skirmishers special rule.
+brmsg5	Paladin BSB	Army Battle Standard Bearer required to be in army.
+brmsg4	Too many magic standards	Only 1 unit of Knights Errant may have a magic standard
+brmsg1	Too many spells	Too many spells have been selected for a Wizard Lord or Wizard
+^

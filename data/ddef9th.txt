@@ -1,0 +1,157 @@
+General
+    Game=9th Age
+    MinSize=100
+    Items=Magic Item
+    LdrName=General
+    LdrAbbrev=Ldr
+    Basis=points
+    Scale=75
+    Cost=4
+    Decimal=1
+    Round=none
+    Orient=any
+    TweakAbbrevs=hide
+    Army=Army
+    Scenario=Army List
+    PtsSingle=Point
+    PtsPlural=Points
+    PtsAbbrev=Pts
+Publish
+    VersionMajor=1
+    VersionMinor=0
+    PatchRequired=none
+    AuthorName=DeBelial
+    AuthorEmail=debelial@tlen.pl
+    LockCode=none
+Stats
+    Mv     |   5     | 0 | 0.0=. | 24.0  | 0  | 0 | 0 | 0 | . | . | .
+    WS     |   3     | 0 | 0.0=. | 10.0  | 0  | 0 | 0 | 0 | . | . | .
+    BS     |   3     | 0 | 0.0=. | 10.0  | 0  | 0 | 0 | 0 | . | . | .
+    St     |   4     | 0 | 0.0=. | 10.0  | 0  | 0 | 0 | 0 | . | . | .
+    To     |   3     | 0 | 0.0=. | 10.0  | 0  | 0 | 0 | 0 | . | . | .
+    Wo     |   3     | 0 | 0.0=. | 30.0  | 0  | 0 | 0 | 0 | . | . | .
+    In     |   3     | 0 | 0.0=. | 10.0  | 0  | 0 | 0 | 0 | . | . | .
+    At     |   5     | 0 | 0.0=. | 20.0  | 0  | 0 | 0 | 0 | . | . | .
+    Ld     |   3     | 0 | 0.0=. | 10.0  | 0  | 0 | 0 | 0 | . | . | .
+    Sv     |   3     | 0 | -2.0  | 7.0=. | 0  | 0 | 0 | 0 | . | >+ | .
+    WSv    |   4     | 0 | 0.0=. | 7.0=. | 0  | 0 | 0 | 0 | . | >+ | .
+    Wz     |   3     | 0 | 0.0   | 36.0  | 2  | 0 | 0 | 0 | . | . | .
+    P      |   2     | 0 | 0.0=. | 20.0  | 2  | 0 | 0 | 0 | . | . | .
+    X1     |   1     | 0 | 0.0=. | 200.0 | 2  | 0 | 0 | 0 | . | . | .
+    X2     |   1     | 0 | 0.0=. | 200.0 | 2  | 0 | 0 | 0 | . | . | .
+    Num    |   1     | 0 | 0.0=. | 150.0 | 2  | 0 | 0 | 0 | . | . | .
+    Type   |   5     | 0 | 0.0=. | 9.0=. | 0  | 0 | 0 | 0 | . | . | .
+Compositions
+    Lord        | Lord 
+    Hero        | Hero 
+    Core        | Core 
+    Special     | Spec 
+    Rare        | Rare 
+    Other       | Othe 
+    Allies      | Ally 
+    Siege       | Sieg 
+Units
+    Lord                  | lrd  | 0
+    Hero                  | her  | 0
+    Wizard                | wiz  | 0
+    Champion              | chp  | 0
+    Battle Standard       | btl  | 0
+    Regiment              | reg  | 0
+    Monster               | mon  | 0
+    Machine               | mac  | 0
+    Mount                 | mnt  | 0
+    Daemons               | dae  | 0
+    Daemon Hero           | dho  | 0
+    Special Characters    | spc  | 1
+    Regiments of Renown   | dsc  | 1
+    Siege                 | seg  | 1
+    Alternate Rules       | alt  | 1
+    Dogs of War           | dog  | 1
+    Other                 | oth  | 0
+    N/A                   | n/a  | 0
+options
+    First      
+    SpellType  
+    Scroll     
+    Weapon     
+    Missile    
+    Armour     
+    Shield     
+    Standard   
+    Musician   
+    Champion   
+    Mount      
+    Barding    
+    Crew       
+    Priority1  
+    Priority2  
+    Priority3  
+    Priority4  
+    Priority5  
+    Special    
+    Last       
+    N/A        
+conflicts
+    Std  | 1   |               |                           
+    Mus  | 1   |               |                           
+    Wep  | 1   | 2Hd,Bst       | MWp                       
+    2Hd  | 1   | Wep,Bst       | MWp,Shd                   
+    Lnc  | 1   | Bst           | MWp                       
+    MWp  | 1   |               | Wep,2Hd,Lnc               
+    M2H  | 1   |               | Shd                       
+    Rng  | 1   | Rg1,Bs1       |                           
+    Rg1  | 1   | Rng,Bs1       |                           
+    Brd  | 1   |               |                           
+    Mnt  | 1   | Mon,Chr       |                           
+    Chr  | 1   | Mnt,Mon       |                           
+    Mon  | 1   | Mnt,Chr,Bst   |                           
+    Arm  | 1   |               |                           
+    Shd  | 1   | Bs1           | 2Hd,M2H                   
+    Bst  | 1   | Wep,2Hd,Lnc   |                           
+    Bs1  | 1   | Rng,Rg1,Shd   |                           
+    Bs2  | 1   | Mon           |                           
+    Mgc  | 1   |               |                           
+    Arc  | 1   |               |                           
+    Tal  | 1   |               |                           
+    Vit  | 1   |               |                           
+    Vt2  | 1   |               |                           
+    Mrk  | 1   |               |                           
+    MAr  | 1   |               |                           
+    Bnd  | 1   |               |                           
+    Enc  | 1   |               |                           
+    MRg  | 1   | MWp,Bs1,Rng   |                           
+    Oth  | 1   |               |                           
+tweaks
+sets
+items
+    Magic Weapons         | weap  | weap  | 1 | 1 | lrd,her,wiz                     |  0 | 0 | 0
+    Magic Armour          | armr  | armr  | 0 | 1 | lrd,her                         |  0 | 0 | 0
+    Talismans             | ward  | ward  | 0 | 1 | lrd,her,wiz                     |  0 | 0 | 0
+    Enchanted Items       | ench  | ench  | 0 | 1 | lrd,her,wiz                     |  0 | 0 | 0
+    Arcane Items          | wzrd  | wzrd  | 0 | 1 | wiz                             |  0 | 0 | 0
+    Magic Banners         | stnd  | stnd  | 1 | 1 | btl,reg                         |  0 | 0 | 1
+    Spells                | spel  | spel  | 0 | 1 | wiz,dae                         |  0 | 0 | 1
+    RH Dwarf Runes        | engr  | engr  | 1 | 0 | mac                             |  0 | 0 | 1
+    Marks                 | mark  | mark  | 0 | 0 | lrd,her,wiz,dho                 |  0 | 0 | 0
+    Vampiric Powers       | blln  | blln  | 0 | 0 |                                 |  0 | 0 | 0
+    Runic Weapon          | rwpn  | weap  | 1 | 0 | lrd,her                         |  3 | 1 | 0
+    Runic Armour          | rarm  | armr  | 1 | 0 | lrd,her                         |  3 | 1 | 0
+    Runic Talisman        | rtal  | ward  | 1 | 0 | lrd,her                         |  3 | 1 | 0
+    Runic Arcane Items    | rban  | rban  | 1 | 0 | lrd,her                         |  3 | 1 | 0
+    Engineering Runes     | reng  | reng  | 1 | 0 | mac                             |  3 | 1 | 0
+    Poisons               | pois  | pois  | 0 | 0 | her,chp                         |  0 | 0 | 0
+    Artifacts & Skills    | skil  | skil  | 0 | 0 | her,chp                         |  0 | 0 | 0
+    Warp Gifts            | cgif  | cgif  | 0 | 0 | dho                             |  0 | 0 | 0
+    Unused                | unk2  | unk2  | 0 | 0 |                                 |  0 | 0 | 0
+    Sacred Plaques        | plaq  | plaq  | 0 | 0 | lrd                             |  0 | 0 | 0
+    Special Characters    | spec  | spec  | 0 | 1 | *hide*                          |  0 | 0 | 0
+    Virtues               | virt  | virt  | 0 | 0 | lrd,her                         |  0 | 0 | 0
+    Beast Chaos Gifts     | bgif  | bgif  | 0 | 0 | lrd,her,wiz                     |  0 | 0 | 0
+    Big Names             | name  | name  | 0 | 0 | lrd,her                         |  0 | 0 | 0
+    Wood Aspects          | spit  | spit  | 0 | 0 | lrd,her,wiz                     |  0 | 0 | 0
+    Daemonic Gifts        | dgft  | dgft  | 0 | 0 |                                 |  0 | 0 | 0
+    Generic Prince Gifts  | pgft  | pgft  | 0 | 0 |                                 |  0 | 0 | 0
+    Gifts of Khaine       | kgft  | kgft  | 0 | 0 |                                 |  0 | 0 | 0
+    Scavenge Pile         | scpi  | scpi  | 0 | 0 | lrd,her,wiz                     |  0 | 0 | 0
+    Disciplines           | dscp  | dscp  | 0 | 0 |                                 |  0 | 0 | 0
+end

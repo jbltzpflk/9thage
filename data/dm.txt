@@ -1,0 +1,824 @@
+Description: Unknown
+Version: Unknown
+Author: Unknown
+None
+^
+Daemonic Legions	dm	0	sm,dw,he,we,br,lz,ok,ch,em,dk,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25	dgft,pgft	info:display="November 2015, version Beta 0.9.1 beta";none:"Standard Army";info:always="Daemonic Instability - Can only receive Hold Your Ground and Inspiring Presence from a model with the same Mark of the Dark Gods as themselves or Mark of the Dark Gods (Unbound). Never flee from combat. Instead, roll 2D6 as break test add to this score the Combat Score difference and remove the unit’s leadership (i.e. 2D6+CS-Ld). If result is positive remove this many wounds distributed as for unstable (na saves of any kind possible). On 2D6 rolled unit suffers additional wounds equal Combat Score difference. It is Ld test.  ";skip info:always="Daemonic - Magical Attacks, ItP, WsV(5+). Only characters with the Daemonic Special Rule can join a Daemonic Unit.Daemonic characters can only join Daemonic Units. ";info:display=" ";info:always="";info:display=" ";skip info:always="#Mark of the Dark Gods (Wrath): +1 S in first round of CC. Unit with one or more models with this Mark must always Pursue (if able), but are not forced to overrun ";skip info:always="#Mark of the Dark Gods (Pestilence):Enemy Units in base contact with one or more models with the Mark of the Dark Gods (Pestilence) have -1 WS (to a min of 1). Toxic Attacks are at -1 to wound against parts of models with Mark of the Dark Gods (Pestilence)";skip info:always="#Mark of the Dark Gods (Change)When Shooting, or at the start of each combat, can choose one of the following Special Rules to apply to their Shooting attacks that Phase or Close Combat Attacks done during that combat: Flaming Attacks, Magical Attacks or Hellfire.:";skip info:always="#Mark of the Dark Gods (Lust):Armour Piercing (1)";info:display=" ";skip info:always="If all models in the army list share the same Mark of the Dark Gods, as long as the general is alive, all models in ";info:display="Be careful with changing composition rules, regarding who is army general. Also only a single core unit on one kind can take magic standard normally. Multiple are allowed only in mono armies.";info:display="";info:display="by JaceK"	
+^
+dmazaz	 Azazel, Daemon Prince of Slaanesh		N/A	Special Characters		1:1	575	0	xmpt:limit;take:dmaura-free-perm;take:dmmusk1-free-perm;take:dmdblade-free-perm;type:daemon;type:Ld9;spec:+cgif;attr:Type="Mo";type:sdaemon	umax:1;must:option=dmchoice@min=1-msg=dmmsg2;hide		Monster (Thunderstomp); Fly; Terror; Daemonic; Control enemy model in btb for CC phase if failed Ld (attacks own side or doesn't attack and is hit automatically)	+2 dice to casting and +1 to dispel pool.  Has 2 spells.	From Citadel Journal; Slaanesh Demon Prince - counts as Lord and Hero; Incls Aura of Slaanesh, Soporific Musk, Mark of Slaanesh, Daemonblade and is 2nd Level Wizard		6	8	0	5	5	4	9	5	9	7	5	0	0	3	0	1	0
+dmepid	 Epidemius, Tallyman of Nurgle		N/A	Hero	Hero	1:1	200	99	type:tallyman;ipts:total=0;spec:+dgft;spec:-weap;spec:-armr;spec:-ward;spec:-ench;spec:-wzrd;type:Ld8;attr:Type="MC";type:ndaemon	umax:1;race:lc,gl;hide		Monstrous Cavalry (Stomp); Daemon of Nurgle (Hatred (Daemons of Tzeentch), -1 to hit in CC); Daemonic; #Plaguesword - Magic Weapon, Poisoned Attacks; #The Tally of Pestilence - Daemons of Nurgle (of both sides) gain special effects for Wounds caused by such daemons (from both sides) and by spells from Lore of Nurgle.				4	5	5	5	5	2	4	3	8	7	5	0	0	1	0	1	0
+dmbsexfl	 Exalted Flamer of Tzeentch		N/A	Hero	Hero	1:1	90	0	ipts:total=0;spec:-weap;spec:-armr;spec:-ward;spec:-ench;spec:-wzrd;type:Ld7;attr:Type="In";type:tdaemon	race:lc,gl;hide		Infantry (Character); Daemon of Tzeentch (Hatred (Daemons of Nurgle), Re-roll 1s when channeling and rolling for Ward saves); Daemonic; Warpflame; #Exalted Fire of Tzeentch - can move and fire, can choose one of two fire modes; 1. Pink Fire - Fire Thrower, St D6, Slow to Fire, Warpflame; 2. Blue Fire, Grapeshot, Range 12", St D6+3, Slow to Fire, Warpflame; On missfire Flamer suffers D6 St D6 hits with Warpflame rule, no armour saves		From Battlescrolls - Digital Editions		6	4	4	4	4	3	4	3	7	7	5	0	0	3	0	0	0
+dmkairos	 Kairos Fateweaver, Oracle of Tzeentch		N/A	Wizard		1:1	565	99	take:dm2head-free-perm;take:dmrobes-free-perm;take:dmwill-free-perm;type:kairos;ipts:total=0;spec:+dgft;spec:-weap;spec:-armr;spec:-wzrd;spec:-ward;spec:-ench;type:mgmetal;type:mglight;type:mgheaven;type:mglife;spec:+spel;type:mgshadow;type:mgdeath;type:mgbeasts;type:mgfire;type:Ld9;attr:Type="Mo";take:dmkairo1-free-perm;type:tdaemon	umax:1;race:lc;hide		Monster (Thunderstomp); Daemon of Tzeentch (Hatred (Daemons of Nurgle), Re-roll 1s when channeling and rolling for Ward saves);Daemonic; Large Target; Terror; Fly;Head one knows all spells of Tzeentch and may choose 4 spells from the lores Life, Metal, Light, and Heavens;Head two knows all spells of Tzeentch and may choose 4 spells from the lores Death, Beasts, Shadow, and Fire; #Oracle of Eternity - Ward Save 4+		Spells for Kairos are not printed as the amount of data surpasses restrictions in the application for a single character;;	dmwill	8	1	0	5	5	5	1	1	9	7	4	8	1	5	1	1	0
+dmkarnk	 Karanak, Hound of Vengance	Fhnd	N/A	Hero	champ	1:1	195	0	coun;calc:Num=#;attr:Type="WB";spec:+dgft;take:dmkara1-free-perm;type:kdaemon	umax:1;race:lc,gl;hide		War Beast; Daemon of Khorne (Hatred (Daemons of Slaanesh), +1 Strength on charge); Daemonic; Scaly Skin (6+); #Prey of the Blood God - before deployment nominate one enemy character, Karanak may re-roll failed To Hit and To Wound rolls vs chosen character				8	7	0	5	5	3	6	4	8	6	5	0	0	2	0	0	0
+dmkgrath	 Ku'Gath, Plague Father		N/A	Wizard		1:1	625	99	take:dminfest-free-perm;take:dmslime-free-perm;take:dmmissl-free-perm;type:kugrath;ipts:total=0;spec:+dgft;spec:-weap;spec:-armr;spec:-ward;spec:-ench;spec:-wzrd;spec:+spel;type:Ld9;attr:Type="Mo";type:ndaemon	umax:1;race:lc;hide		Monster (Thunderstomp);Daemon of Nurgle (Hatred (Daemons of Tzeentch), -1 to hit in CC); Daemonic; Large Target; Terror, Poisoned Attacks; Hatred (Dwarfs)				6	6	3	6	7	7	4	6	9	7	5	1	1	10	1	1	0
+dmtaplto	 Plague Toads	PlaTo	N/A	Alternate Rules		3	24	0	calc:Num=#;attr:Type="MB"	hide		Monstrous Beast (Stomp, Swiftstride); Poison Attacks, Immune to Psychology; Unbreakable; Unstable; Daemonic Attacks; Ward Save (5+); Fear; Strider (Marsh/Swamp)		UNOFFICIAL! From Tamurkhan, the Throne of Chaos book by Forge World		6	3	0	4	4	2	1	2	5	7	5	0	0	1	0	0	0
+dmskltkr	 Skulltaker		N/A	Hero	Hero	1:1	200	99	take:dmskull2-free-perm;take:dmcloak-free-perm;type:skulltaker;ipts:total=0;spec:+dgft;spec:-weap;spec:-armr;spec:-ward;spec:-ench;spec:-wzrd;type:Ld8;attr:Type="In";type:kdaemon	umax:1;race:lc,gl;hide		Infantry (Monstous Cavalry if mounted on Juggernaut); Daemon of Khorne (Hatred (Daemons of Slaanesh), +1 Strength on charge); Daemonic; Hatred; Scaly Skin (6+); #Skulls for the Skull Throne - Skulltaker must always Issue or accept a challenge				5	9	9	5	4	2	9	4	8	6	5	0	0	1	0	1	0
+dmscribe	 The Blue Scribes of Tzeentch		N/A	Hero	Hero	1:1	81	99	take:dmscroll-free-perm;type:scribes;ipts:total=0;spec:+dgft;spec:-weap;spec:-armr;spec:-ward;spec:-ench;spec:-wzrd;type:Ld7;attr:Type="Ca";type:tdaemon	umax:1;race:lc,gl;hide		Cavalry; Daemon of Tzeentch (Hatred (Daemons of Nurgle), Re-roll 1s when channeling and rolling for Ward saves);Daemonic; Fly; #Spell Syphon - for every spell successfully cast by the enemy, Scribes can make a channeling attempt in their Magic Phase.				1	3	3	3	3	2	3	2	7	7	5	0	0	3	0	0	0
+dmchglng	 The Changeling	Chlng	N/A	Hero	champ	1:1	170	0	coun;calc:Num=#;attr:Type="In";type:tdaemon	umax:1;race:lc;hide		Infantry; Daemon of Tzeentch (Hatred (Daemons of Nurgle), Re-roll 1s when channeling and rolling for Ward saves);Daemonic; #Formless Horror - at the start of CC phase he may use any or all WS, St, To, In, and At of one model in B2B. Cannot use stats of models in a challenge, unless he is also fighting in that challenge.				4	3	4	3	3	2	3	1	8	7	5	0	0	1	0	0	0
+dmmasq	 The Masque of Slaanesh		N/A	Hero	Hero	1:1	140	99	type:masque;ipts:total=0;spec:+dgft;spec:-weap;spec:-armr;spec:-ward;spec:-ench;spec:-wzrd;type:Ld8;attr:Type="In";type:sdaemon	umax:1;race:lc,gl;hide		Infantry; Daemon of Slaanesh (Hatred (Daemons of Khorne), Armour Piercing); Daemonic; #Dance Alone - cannot join units; #Unnatrual reflexes - Ward Save 3+; #Eternal Dance - at the start of controlling players CC phase, choose 1 dance, target one enemy unit (even in CC) within 12", effect last to the end of that phase; The Dance of Dreaming -1 to Ld; The Fleshspasm Polka -1 to St; The Waltz of Lethargy -1 to In.				10	7	6	4	3	2	7	5	8	7	3	0	0	1	0	1	0
+dmchrtz	Blazing Chariot of Tzeentch		N/A	Mount	mount	1:1	85	0	attr:Type="Ch"	hide		Mark of the Daemonic Legion (Change), Otherworldly, Daemonic Instability, Fly (10); Exalted Flames of Change; Exalted Flames of Change: This weapon can be fired in two ways;#As a Flame Thrower Artillery: Range 8”, Strength D6, Hellfire #As a Volley Gun Artillery: Range 12", Strength D6+3, Multiple Shots (3), Hellfire				0	0	0	4	4	4	0	0	0	7	5	0	0	4	0	0	0
+dmblfly	Blight Fly		N/A	Mount	mount	1	0	0	ratp:fix=1:1	hide		Mark of the Daemon Legion (Pestilence), Otherworldly, Fear, Poisoned Attacks, Fly (6)				1	4	3	5	5	3	2	3	7	7	5	0	0	0	0	0	0
+dmrotfly	Blight Fly		N/A	Mount	mount	1	0	0		hide		Mark of the Dark Gods (Pestilence), Daemonic, Daemonic Instability, Fear, Fly (6)				1	4	3	5	5	3	2	3	7	7	5	0	0	0	0	0	0
+dmbcchmp	Champion		N/A	Champion	champ	1:1	10	0	coun;calc:Num=#	hide					bloodcrusher champ	5	6	3	4	3	1	4	3	7	6	5	0	0	2	0	0	0
+dmblchmp	Champion	Blood	N/A	Champion	champ	1:1	10	0	coun;calc:Num=#	hide						5	6	3	4	3	1	4	2	7	7	5	0	0	1	0	0	0
+dmdchmp	Champion	Dtts	N/A	Champion	champ	1:1	10	0	coun;calc:Num=#	hide					res	6	6	5	3	3	1	5	2	7	7	5	0	0	1	0	0	0
+dmdronch	Champion	Pbrr	N/A	Champion	champ	1:1	10	0	coun;calc:Num=#	hide						4	4	4	4	4	1	2	2	7	6	5	0	0	1	0	0	0
+dmfchmp	Champion	Flmr	N/A	Champion	champ	1:1	10	0	coun;calc:Num=#	hide						6	4	5	4	4	2	4	3	7	7	5	0	0	1	0	0	0
+dmhrchmp	Champion	Horr	N/A	Champion	champ	1:1	70	0	coun;calc:Num=#;spec:+spel;type:mgchange	hide		Wizard Conclave (Level 1: Blue Fire, Pink Fire); Mark of the Dark Gods (Change)				4	4	4	3	3	1	3	2	7	7	5	4	0	1	0	0	0
+dmseekch	Champion	SeCh	N/A	Champion	champ	1:1	10	0	coun;calc:Num=#	hide					res	6	6	5	3	3	1	5	3	7	7	5	0	0	1	0	0	0
+dmchrtk	Chariot of Khorne		N/A	Mount	mount	1:1	75	0	attr:Type="Ch"	hide		Grants mounted Characters an Armour Save bonus against shooting of +2, noted in stat line, or the character may use the Chariot's Armour Save instead of his own if it is better.				0	0	0	5	5	4	0	0	0	3	5	0	0	4	0	0	0
+dmskchrt	Chariot of Khorne		N/A	Mount	mount	1:1	150	0	attr:Type="Ch"	hide		Grants mounted Characters an Armour Save bonus against shooting of +2, noted in stat line, or the character may use the Chariot's Armour Save instead of his own if it is better.				0	0	0	5	5	4	0	0	0	3	5	0	0	4	0	0	0
+dmblothr	Daemon Throne		N/A	Mount	mount	1:1	0	0	attr:Type="Ch"	hide		Impact Hits (D6+1), Swiftstride,  Mark of the Dark Gods (Wrath), Daemonic				0	0	0	5	5	4	0	0	0	0	5	0	0	4	0	0	0
+dmdisc	Disc of Tzeentch		N/A	Mount	mount	1	0	0	ratp:fix=1:1	hide		 Mark of the Dark Gods (Change), Daemonic, Fly (8)				1	3	0	4	4	1	4	3	7	7	5	0	0	0	0	0	0
+dmexscmt	Exalted Seeker Chariot		N/A	Mount	mount	1:1	150	0	attr:Type="Ch";attr:At="2D6+1"	hide		Swiftstride, Mark of the Dark Gods (Lust), Daemonic, Daemonic Instability, Impact Hits (2D6+2),				0	0	0	4	4	8	0	0	0	6	5	0	0	0	0	0	0
+dmchrts	Hunter Chariot of Lust		N/A	Mount	mount	1:1	70	0	attr:Type="Ch";attr:At="D6+1"	hide		Impact Hits (D6+1), Swiftstride, Mark of the Daemonic Legion (Lust), Otherworldly, Scythes, Free Reform, Poisoned Attacks (Steed of Lust only), Elusive				0	0	0	5	4	4	0	0	0	6	5	0	0	4	0	0	0
+dmblothj	Juggernaut 		N/A	Mount	mount	1:1	0	0	attr:Type="Ch"	hide		Mark of the Dark Gods (Wrath), Daemonic				7	5	0	5	0	0	2	3	0	0	5	0	0	4	0	0	0
+dmjugg	Juggernaut of Wrath		N/A	Mount	mount	1	0	0		hide		Mark of the Daemon Legion (Wrath), Otherworldly, Fear				7	5	0	5	4	3	2	3	7	7	5	0	0	0	0	0	0
+dmjuggm	Juggernaut of Wrath		N/A	Mount	mount	1	0	0	ratp:fix=1:1	hide		Mark of the Daemon Legion (Wrath), Otherworldly, Fear				7	5	0	5	4	3	2	3	7	7	5	0	0	0	0	0	0
+dmpalqn	Palanquin of Pestilence		N/A	Mount	mount	1	0	0	ratp:fix=1:1	hide		Mark of the Dark Gods (Pestilence), Daemonic, Poison				4	3	3	3	3	3	3	6	7	7	5	0	0	0	0	0	0
+dmtaplat	Plague Toad	PlTom	N/A	Mount		1	0	0	calc:Num=#	hide		Poison Attacks				6	3	0	4	4	2	1	2	5	7	5	0	0	1	0	0	0
+dmtapoch	Plagueleaper	PoxCh	N/A	Champion	champ	1:1	10	0	coun;calc:Num=#	hide						4	3	0	4	4	2	1	2	7	6	5	0	0	0	0	0	0
+dmpchmp	Plagueridden	Pbrr	N/A	Champion	champ	1:1	10	0	coun;calc:Num=#	hide						4	4	4	4	4	1	2	2	7	7	5	0	0	1	0	0	0
+dmchscrm	Scorcher		N/A	Mount	mount	1	0	0		hide		Mark of the Dark Gods (Change)				1	4	4	4	0	0	4	3	7	7	7	0	0	0	0	0	0
+dmchscrs	Sky Serpent		N/A	Mount	mount	1	0	0		hide		Otherworldly, Daemonic Instability, Fly (10)Mark of the Daemonic Legion (Change)				1	3	0	4	0	0	4	3	7	7	7	0	0	0	0	0	0
+dmsteed	Steed of Lust		N/A	Mount	mount	1	0	0		hide		Swiftstride,Mark of the Dark Gods (Lust), Daemonic, Fast Cavalry, Poisoned Attacks				10	3	0	3	3	1	5	1	7	7	5	0	0	0	0	0	0
+dmblorag	Bloodthirster of Insensate Rage	BlRag	Lord	Lord		1:1	500	100	ipts:total=100-each=100;type:kdaemon;type:Ld9;spec:-weap;spec:-armr;spec:-ward;spec:-wzrd;spec:-ench;spec:+dgft;calc:Num=#;attr:Type="Mo"	race:lc,gl;hide		Monster (Character, Thunderstomp); Daemon of Khorne (Hatred (Daemons of Slaanesh); +1 Strength on charge); Daemonic; Fly; Terror; Large Target; Magic Resistance (2); Heroic Killing Blow		Includes Frenzy		8	10	10	6	6	5	9	6	9	7	5	0	0	5	0	1	0
+dmblofur	Bloodthirster of Unfettered Fury	BlFur	Lord	Lord		1:1	400	100	ipts:total=100-each=100;type:kdaemon;type:Ld9;spec:-weap;spec:-armr;spec:-ward;spec:-wzrd;spec:-ench;spec:+dgft;calc:Num=#;attr:Type="Mo"	race:lc,gl;hide		Monster (Character, Thunderstomp); Daemon of Khorne (Hatred (Daemons of Slaanesh); +1 Strength on charge); Daemonic; Fly; Terror; Large Target; Magic Resistance (2)		"Normal" Bloodthirster	?same as regular Bloodthirster	8	10	10	6	6	5	9	6	9	7	5	0	0	5	0	1	0
+dmskarb	Skarband, The Exiled One		Lord	Lord		1:1	610	0	take:dmsnc-free-perm;type:skarbband;ipts:total=0;spec:+dgft;spec:-weap;spec:-armr;spec:-ward;spec:-ench;spec:-wzrd;take:dmrage-free-perm;take:dmbellow-free-perm;type:Ld9;attr:Type="Mo";type:kdaemon	umax:1;race:lc,gl;hide		Monster (Thunderstomp); Daemon of Khorne (Hatred (Daemons of Slaanesh), +1 Strength on charge); Daemonic; Large Target; Magic Resistance (2); Terror; Hatred; Frenzy				8	10	10	6	6	5	10	6	9	7	5	0	0	5	0	1	0
+dmwrablo	Wrath of Khorne Bloodthirster	WraBl	Lord	Lord		1:1	550	100	ipts:total=100-each=100;type:kdaemon;type:Ld9;spec:-weap;spec:-armr;spec:-ward;spec:-wzrd;spec:-ench;spec:+dgft;calc:Num=#;attr:Type="Mo"	race:lc,gl;hide		Monster (Character, Thunderstomp); Daemon of Khorne (Hatred (Daemons of Slaanesh); +1 Strength on charge); Daemonic; Fly; Terror; Large Target; Magic Resistance (3); Devastating Charge; Stubborn; #Hellfire: St5 Breath Weapon, Flaming Attacks; #Relentless Hunter: Hatred (characters), add 3" to charge range when charging character or unit he is with		Includes Frenzy		8	10	10	6	6	5	9	6	9	7	5	0	0	5	0	1	0
+dmkeeper	 Lord: Courtesan of Pleasure	CoP	Hero	Lord	Lord	1:1	385	100	ipts:total=100-each=100;type:sldaemon;type:Ld9;spec:-armr;spec:+spel;calc:Num=#;attr:Type="Mo";type:wiz;spec:+wzrd	race:lc,gl;umax:3u@4000-free=3-msg=crmsg901;clmt:weap+ench+ward+wzrd<=100-points		Monster's Ranks, Stomp (D6), Large Target, Terror, Mark of the Daemon Legion (Lust), Otherworldly, Daemonic Instability, Swiftstride				10	9	6	6	6	6	10	6	9	7	5	10	0	0	0	1	0
+dmprince	 Lord: Daemonic Prince	Prnce	Hero	Lord	Lord	1:1	250	100	ipts:total=100-each=100;type:prince;type:Ld9;spec:-armr;spec:+spel;calc:Num=#;attr:Type="Mo"	race:lc,gl;umax:3u@4000-free=3-msg=crmsg901		Monster; Monster's Ranks, Stomp (D6), Large Target, Mark of the Daemon Legion (Unbound), Otherworldly, Daemonic Instability, Stubborn				8	9	5	6	5	4	8	5	9	7	5	0	0	4	0	1	0
+dmthrstr	 Lord: Incarnation of Death	IncDt	Hero	Lord	Lord	1:1	400	100	ipts:total=100-each=100;type:kldaemon;type:Ld9;spec:-armr;calc:Num=#;attr:Type="Mo"	race:lc,gl;umax:3u@4000-free=3-msg=crmsg901		Monster's Ranks, Stomp (D6), Large Target, Terror, Mark of the Dark Gods (Wrath), Otherworldly, Daemonic Instability, Fly (8), Magic Resistance (2)				8	10	10	6	6	6	9	7	9	7	5	0	0	5	0	1	0
+dmguo	 Lord: Lord of Decay	GUO	Hero	Lord	Lord	1:1	430	100	ipts:total=100-each=100;type:nldaemon;type:Ld9;spec:-armr;calc:Num=#;attr:Type="Mo";spec:+wzrd	race:lc,gl;umax:3u@4000-free=3-msg=crmsg901		Monster's Ranks, Stomp (D6), Large Target, Terror,  Mark of the Daemonic Legion, (Pestilence), Otherworldly, Daemonic Instability, Poisoned Attacks				6	6	3	6	7	7	4	5	9	7	5	1	1	10	1	1	0
+dmchange	 Lord: The Great Deceiver	LoChg	Hero	Lord	Lord	1:1	445	100	ipts:total=100-each=100;type:tldaemon;type:Ld9;spec:+spel;calc:Num=#;attr:Type="Mo";spec:-armr;spec:+wzrd	race:lc,gl;umax:3u@4000-free=3-msg=crmsg901		Monster's Ranks, Stomp (D6), Large Target, Terror, Otherworldly, Daemonic Instability, Fly (8), Mark of the Daemonic Legion (Change) 				8	6	6	6	6	6	6	5	9	7	5	1	1	5	1	1	0
+dmhrldn	Hero: Harbinger of Pestilence		Hero	Hero	Hero	1:1	100	100	ipts:total=55;type:ndaemon;spec:-armr;spec:+spel;type:Ld8;calc:Num=#;attr:Type="In";type:harbringer;type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;clmt:dgft<=50-points-msg=dmmsg5;race:lc,gl		Mark of the Dark Gods (Pestilence), Daemonic, Daemonic Instability, Poisoned Attacks				4	5	5	5	5	2	4	3	8	7	5	0	0	1	0	1	0
+dmhrldt	Hero: Harbringer of Change		Hero	Hero	Hero	1:1	100	100	ipts:total=55;type:tdaemon;spec:-armr;spec:+spel;type:Ld8;calc:Num=#;attr:Type="In";type:harbringer;spec:+wzrd;type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;clmt:dgft<=50-points-msg=dmmsg5;race:lc,gl		Mark of the Daemonic Legion (Change), Otherworldly, Daemonic Instability,				4	3	4	3	3	2	3	2	8	7	5	1	1	1	1	1	0
+dmhrlds	Hero: Harbringer of Lust		Hero	Hero	Hero	1:1	100	100	ipts:total=55;type:sdaemon;spec:-armr;spec:+spel;type:Ld8;calc:Num=#;attr:Type="In";type:harbringer;type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;clmt:dgft<=50-points-msg=dmmsg5;race:lc,gl;umax:3u@4000-free=3-msg=crmsg901		Mark of the Daemon Legion (Lust), Otherworldly, Distracting				6	7	5	4	3	2	7	4	8	7	5	0	0	1	0	1	0
+dmhrldk	Hero: Harbringer of Wrath		Hero	Hero	Hero	1:1	100	100	ipts:total=55;type:heraldkhorne;spec:-armr;type:Ld8;calc:Num=#;attr:Type="In";type:kdaemon;type:hero;type:harbringer;type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;clmt:dgft<=50-points-msg=dmmsg5;race:lc,gl		Mark of the Daemon Legion (Wrath), Otherworldly, Daemonic Instability, Magic Resistance (1)				5	7	2	5	4	2	6	3	8	7	5	0	0	1	0	1	0
+dmletter	Bloodsheders of Wrath	Blood	Core	Regiment	infantry	10:30	12	0	calc:Num=#;type:bldletters;ipts:total=25-each=25;attr:Type="In";type:kdaemon	clmt:stnd<=25-points;race:lc,gl;umax:2u@4000-free=2-msg=dmcormsg;umax:4u@4000-free=4-msg=crmsg902		Mark of the Daemon Legion (Wrath), Otherworldly, Daemonic Instability, Magic Resistance (1)				5	5	2	4	3	1	4	1	7	7	5	0	0	1	0	0	0
+dmpbears	Bringers of Pestilence	Pbrr	Core	Regiment	infantry	10:30	12	0	calc:Num=#;type:plaguebearer;ipts:total=25-each=25;spec:+spel;attr:Type="In";type:ndaemon	clmt:stnd<=25-points;race:lc,gl;umax:2u@4000-free=2-msg=dmcormsg;umax:4u@4000-free=4-msg=crmsg902		Mark of the Daemon Legion (Pestilence), Otherworldly, Daemonic Instability, Poisoned Attacks				4	3	3	4	4	1	2	1	7	7	5	0	0	1	0	0	0
+dmhorror	Horrors of Change	Horr	Core	Regiment	infantry	10:40	6	0	calc:Num=#;type:tdaemon;ipts:total=25-each=25;spec:+spel;attr:Type="In"	clmt:stnd<=25-points;race:lc,gl;umax:2u@4000-free=2-msg=dmcormsg;umax:4u@4000-free=4-msg=crmsg902		Mark of the Daemon Legion (Change), Otherworldly, Daemonic Instability, Wizard Conclave (Level 1: Blue Fire, Pink Fire)		Wizard Conclave (Level 1: Blue Fire, Pink Fire)		4	3	3	3	3	1	3	1	7	7	5	8	0	1	0	0	0
+dmettes	Sirens of Lust	Dtts	Core	Regiment	infantry	10:40	7	0	calc:Num=#;type:daemonette;ipts:total=25-each=25;spec:+spel;attr:Type="In";type:sdaemon	clmt:stnd<=25-points;race:lc,gl;umax:2u@4000-free=2-msg=dmcormsg;umax:4u@4000-free=4-msg=crmsg902		Mark of the Daemon Legion (Lust), Otherworldly, Daemonic Instability.				6	5	4	3	3	1	5	1	7	7	5	0	0	1	0	10	0
+dmbeast	Beasts of Pestilence	Beast	Special	Regiment	infantry	2:6	70	0	calc:Num=#;attr:Type="MB";type:ndaemon	race:lc,gl;umax:2u-msg=dmspcmsg		Mark of the Daemon Legion (Pestilence), Otherworldly, Daemonic Instability, Trail of Mucus, Poisoned Attacks, Regeneration (4+), Fear				6	3	0	4	5	4	2	4	7	7	5	0	0	3	0	0	0
+dmfiends	Charmers of Lust	Fnds	Special	Regiment	infantry	2:6	47	0	calc:Num=#;attr:Type="MB";type:charmers	race:lc,gl;umax:2u-msg=dmspcmsg		Mark of the Daemon Legion (Lust), Otherworldly, Daemonic Instability, Fear				10	5	0	4	4	3	5	3	7	7	5	0	0	3	0	0	0
+dmbcrsh	Doombringers	Blood	Special	Regiment		3:7	50	0	type:bloodcrusher;ipts:total=25-each=25;attr:Type="MC";type:kdaemon	clmt:stnd<=25-points;umax:2u-msg=dmspcmsg		Mark of the Daemon Legion (Wrath), Otherworldly, Daemonic Instability, Magic Resistance (1), Fear				5	5	2	4	3	1	4	2	7	6	5	0	0	2	0	0	0
+dmfuries	Gargoyles	Fury	Special	Regiment	infantry	5:15	10	0	calc:Num=#;type:furries;coun;attr:Type="In"	race:lc,gl		Otherworldly, Daemonic Instability, Fly (10), Skirmishers				4	3	0	4	3	1	4	1	7	7	5	0	0	1	0	0	0
+dmhound	Hellhounds	Fhnd	Special	Regiment		5:15	23	0	calc:Num=#;attr:Type="WB"	race:lc,gl;umax:2u-msg=dmspcmsg		Mark of the Daemonic Legion (Wrath), Otherworldly, Daemonic Instability, Innate Defence (6+), Magic Resistance (3).				8	5	0	4	4	2	4	2	7	7	5	0	0	2	0	0	0
+dmhuntc	Hunter Chariot		Special	Regiment		1:1	90	0	attr:Type="Ch";attr:At="D6+1"	race:lc,gl;umax:2u-msg=dmspcmsg		Mark of the Daemon Legion (Lust), Otherworldly, Daemonic Instability, Barbed Claws (Huntress only), Otherworldly, Scythes, Poisoned Attacks (Steed of Lust only), Elusive				0	0	0	5	4	4	0	0	7	6	5	0	0	0	0	0	0
+dmseekr	Hunters of Lust	Seekr	Special	Regiment	infantry	5:15	15	0	calc:Num=#;type:daemonette;ipts:total=25-each=25;spec:+spel;attr:Type="Ca"	clmt:stnd<=25-points;race:lc,gl;umax:2u-msg=dmspcmsg		Mark of the Daemonic Legion (Lust), Otherworldly, Daemonic Instability, Fast Cavalry, Poisoned Attacks (Steed of Lust only); 				6	5	4	3	3	1	5	2	7	7	5	0	0	2	0	0	0
+dmflamer	Igniters of Change	Flmr	Special	Regiment	infantry	4:6	40	0	calc:Num=#;attr:Type="In"	race:lc,gl;umax:2u-msg=dmspcmsg		Mark of the Daemon Legion (Change), Otherworldly, Daemonic Instability, Skirmishers				6	2	4	4	4	2	4	2	7	7	5	0	0	1	0	0	0
+dmnrglng	Pestilent Swarm	Nrgln	Special	Regiment	infantry	2:10	30	0	calc:Num=#;attr:Type="Sw"	race:lc,gl;umax:2u-msg=dmspcmsg		Mark of the Daemon Legion (Pestilence), Otherworldly, Daemonic Instability, Scouts, Poisoned Attacks				5	3	3	2	2	5	3	4	7	7	5	0	0	3	0	0	0
+dmtapoxr	Pox Riders of Nurgle	PoxR	Special	Alternate Rules		3	35	0	calc:Num=#;type:plaguebearer;ipts:total=25-each=25;spec:+spel;attr:Type="MC"	clmt:stnd<=25-points		Monstrous Cavalry (Stomp, Swiftstride);  Poison Attacks, Immune to Psychology; Unbreakable; Unstable; Daemonic Attacks; Ward Save (5+); Fear				4	3	0	4	4	2	1	1	7	6	5	0	0	0	0	1	0
+dmseecha	Seeker Chariot		Special	Regiment		1:3	90	0	attr:Type="Ch";attr:At="D6+1"	race:lc,gl;umax:2u-msg=dmspcmsg;hide		Swiftstride, cannot march, Impact Hits (D6+1); Mark of the Dark Gods (Lust), Daemonic, Daemonic Instability, Poisoned Attacks (Steeds of Lust Only), Free Reform				0	0	0	5	4	4	0	0	7	6	5	0	0	0	0	0	0
+dmscremr	Sky Serpents of Change	SkyS	Special	Regiment		3:6	40	0	calc:Num=#;attr:Type="WB"	race:lc,gl;umax:2u-msg=dmspcmsg		Mark of the Daemon Legion (Change), Otherworldly, Daemonic Instability, Fly (10), Slashing (Nominate one enemy unit which the Screamers moved over this turn. This unit suffers D3 Strength 4 hits for each Screamer in the unit. These are shooting attacks), Skirmishers				1	3	0	4	4	2	4	3	7	7	5	0	0	1	0	0	0
+dmaltar	Altar of Blood		Rare	Regiment	Chariot	1	195	0	attr:Type="Ch";attr:At="D6+1"	umax:1u-msg=dmrarmsg		Otherworldly, Daemonic Instability, Mark of the Daemon Legion (Wrath), Special Rules: Magic Resistance (2), Scythes, Blood Feast				0	0	0	5	6	4	0	0	7	4	0	0	0	0	0	0	0
+dmburnch	Blazing Chariot		Rare	Machine	chariot	1:1	135	0	attr:Type="Ch"	race:lc,gl;umax:1u-msg=dmrarmsg;umax:2u@4000-free=2-msg=crmsg904		Otherworldly, Daemonic Instability, Fly (10)Mark of the Daemonic Legion (Change)				0	0	0	4	4	4	0	0	7	7	5	0	0	4	0	0	0
+dmdrones	Blight Flies	Dron	Rare	Regiment		3:6	65	0	calc:Num=#;type:plaguebearer;ipts:total=25-each=25;spec:+spel;attr:Type="MC"	clmt:stnd<=25-points;race:lc,gl;umax:1u-msg=dmrarmsg		Mark of the Daemon Legion (Pestilence), Otherworldly, Daemonic Instability, Fear, Poisoned Attacks, Fly (6)				4	3	3	4	4	1	2	1	7	6	5	0	0	0	0	1	0
+dmskullk	Blood Chariot		Rare	Machine	chariot	1:1	155	0	attr:Type="Ch";attr:At="D6+1"	race:lc,gl;umax:1u-msg=dmrarmsg		Mark of the Daemon Legion (Wrath), Otherworldly, Daemonic Instability, Magic Resistance (1), Lethal Strike (Crew Only) Equipment: Scythes, Inferno				0	0	0	5	5	4	0	0	7	3	5	0	0	4	0	0	0
+dmsoulgr	Daemon Engine		Rare	Monster		1:1	220	0	attr:Type="Mo"	race:lc,gl;umax:1u-msg=dmrarmsg		Mark of the Daemon Legion (Unbound); Otherworldly, Daemonic Instability; Crush Attack				8	3	4	6	7	6	3	4	7	4	5	0	0	0	0	0	0
+dmexscha	Shrine of Tempation		Rare	Regiment		1:1	205	0	attr:Type="Ch";attr:At="2D6+1"	race:lc,gl;umax:1u-msg=dmrarmsg		Mark of the Daemon Legion (Lust), Otherworldly, Daemonic Instability, Impact Hits (2D6+1), Poisoned Attacks (Steeds of Lust only); Exalted Aura				0	0	0	5	4	8	0	0	7	6	5	0	0	0	0	0	0
+dmhelfla	Soulreaper Chariot		Rare	Regiment		1:1	110	0	attr:Type="Ch";attr:At="D6+1"	race:lc,gl;umax:1u-msg=dmrarmsg		Mark of the Daemon Legion (Lust), Otherwolrdly, Daemonic Instability, Poisoned Attacks (Steeds of Lust Only), Scythes; Soulreaper (A Soulreaper Chariot has Impact hits S4 with AP(6) an Oracle has A equal to 4 +unsaved wound from impact hits) Equipment: Scythes, Large Claws (Seeker and Oracle only)				0	0	0	4	4	4	0	0	7	6	5	0	0	0	0	0	0
+dmgiftta	x Daemonic Gifts and Weapons Tables		Other	Regiment		1:1	0	0		umax:1u;race:lc,gl;hide				You may add Gift and other tables to your roster.		0	0	0	0	0	0	0	0	0	7	7	0	0	0	0	0	0
+xdmbring	Doombringer		N/A	N/A		1	0	0								0	5	3	4	0	0	4	2	7	7	0	0	0	0	0	0	0
+xdmxscc1	Huntress		N/A	N/A		1	0	0		hide		Mark of the Dark Gods (Lust), Daemonic,				0	5	4	3	0	0	5	2	7	7	5	0	0	0	0	0	0
+xdmxscc3	Oracle		N/A	N/A		1	0	0		hide		Mark of the Dark Gods (Lust), Daemonic, Daemonic Instability,				0	5	4	3	0	0	5	4	7	7	5	0	0	0	0	0	0
+xdmxscc2	Temptress		N/A	N/A		1	0	0		hide		Mark of the Dark Gods (Lust), Daemonic, Daemonic Instability,				0	5	5	3	0	0	5	4	7	7	5	0	0	0	0	0	0
+xdmxtemp	Temtress		N/A	N/A		1	0	0		hide		Mark of the Dark Gods (Lust), Daemonic,				0	5	4	3	0	0	5	4	7	7	5	0	0	0	0	0	0
+xdmblsh	Bloodsheders	Blood	Core	Regiment	infantry	2	0	0	type:kdaemon	umax:2u@4000-free=2-msg=dmcormsg;umax:4u@4000-free=4-msg=crmsg902		Mark of the Dark Gods (Wrath), Daemonic, Daemonic Instability, Magic Resistance (1), Killing Blow, Scaly Skin (6+)				5	5	2	4	3	1	4	1	7	7	5	0	0	1	0	0	0
+xxdmexfl	Exalted Flamer		N/A	N/A		1	0	0		hide		Daemon of Tzeentch (Hatred (Daemons of Nurgle), Re-roll 1s when channeling and rolling for Ward saves); Daemonic; #Warpflame: at the end of the shooting phase test Toughness of each unit that has suffered one or more unsaved Wounds - if passed it gains Regeneration (6+) or +1 to its Regeneration if already have it. If failed unit suffers D3 Wounds with no armour saves; #Exalted Fire of Tzeentch - can move and fire, can choose one of two fire modes; 1. Pink Fire - Fire Thrower, St D6, Slow to Fire, Warpflame; 2. Blue Fire, Grapeshot, Range 12", St D6+3, Slow to Fire, Warpflame; On missfire Chariot suffers D6 St D6 hits with Warpflame rule, no armour saves				0	4	4	4	0	0	4	3	7	7	7	0	0	0	0	0	0
+xxhor7th	Pink Horrors of Tzeentch	Horr	N/A	N/A	infantry	10	12	0	calc:Num=#;type:horrors;ipts:total=25-each=25;spec:+spel;attr:Type="In"	clmt:stnd<=25-points;hide		Infantry; Daemonic, Flaming Attacks, When joined by a Herald of Tzeentch, the Daemonic Ward save is increased to 4+;  The more Horrors in the unit the stronger the wizard ability it has and they add Casting and Dispel pool dice accordingly. Note: these ARE reflected in the total dice pools displayed for the starting size of the unit but totals can/will change through out the coarse of a game! 			7th edition horrors - archive	4	3	0	3	3	1	3	1	7	7	5	0	0	1	0	0	0
+xxdmblcr	Bloodsheder 	BloCr	Other	N/A		1	0	0		hide		 Mark of the Dark Gods (Wrath), Daemonic,, Killing Blow				0	5	3	4	0	0	4	1	7	7	0	0	0	1	0	0	0
+^
+dmadd0	Additional cost		Priority	N/A	-10	cost:single;hide				
+dmadd02	Additional cost -20		Priority	N/A	-20	cost:single;hide				
+dmadd1	Additional cost 1		Priority	N/A	1	cost:single;hide				
+dmadd10	Additional cost 10		Priority	N/A	10	cost:single;hide				
+dmadd15	Additional cost 15		Priority	N/A	15	cost:single;hide				
+dmadd20	Additional cost 20		Priority	N/A	20	cost:single;hide				
+dmadd6	Additional cost 6		Priority	N/A	6	cost:single;hide				
+dmadd60	Additional cost 60		Priority	N/A	60	cost:single;hide				
+dmblast	Blast of Change		Priority	N/A	2		18", S2+*			
+dmcannta	Blood Cannon Weapon		Priority	N/A	0	tabl:Inferno=dminfern,Burning_Skull=dmbskull-noname				
+dmbskull	Burning Skull		Priority	Rng	20	cost:single;over:dminfern=deselect	{may be bought only if general has Mark of Wrath} Cannon Artillery Weapon with the following profile: Range 48”, Strength 10, Armour Piercing (2), Multiple Wounds(Ordnance), Flaming Attacks			
+dmdpmktb	Daemon Prince Mark Table		Priority	N/A	0	tabl:Unbound=dmuprnc,Wrath=dmkprnc,Pestilence=dmnprnc,Lust=dmsprnc,Change=dmtprnc-noname				
+dmsoulg2	Daemonbane Claw	DaeCl	Priority	N/A	10		Can exchange all of its Attacks into single special Attack resolved at St10 with Multiple Wounds (D6) special rule.			
+dearcaen	Enable Arcane Items		Priority	N/A	0	spec:+wzrd;hide				
+dmhorrsp	Horror Spells		Priority	N/A	0	item:+3;take:change0;take:change2				
+dmignore	Ignore		Priority	N/A	0	acmp:Hero+1u;hide				
+dminfern	Inferno		Priority	Rng	0		Flame Thrower Artillery Weapon with the following profile: Range 8”, Strength D5, Multiple Wounds(D3), Flaming Attacks, Fireborn			
+dmlclaw5	Large Claws		Priority	N/A	5		+1 to wound, riders only			
+dmlash	Lash of Lust	Lash	Priority	N/A	20		Shooting Weapon. Range 15”, Strength as user, Quick to fire, Multiple Shoots (2D6)			
+dmkl2	Lesser Beacon 2		Priority	N/A	0		All models in the unit has devastating charge special rule.			
+dmmkch	Mark of Change		Priority	N/A	0	type:change	A model with this mark can each phase choose either Flaming Attacks, Holy Attacks or Hellfire special rule for any (non-special) attacks. All models in the unit must choose the same rule. In addition any character with Mark of Change has +1 to cast.			
+dmmklu	Mark of Lust		Priority	N/A	0	type:lust	A model with Mark of the Daemon Legion (Lust) get Armour Piercing (1), which is cumulative with other Armour Piercing values.			
+dmmkpe	Mark of Pestilence		Priority	N/A	0	type:pestilence;show:dmpois	When an enemy unit is in base contact with a model that has the Mark of the Daemon Legion (Pestilence), they receive a -1 modifier to their Weapon Skill when they attack. This is increased to a -2 modifier to their Weapon Skill if the model attacking is in a unit in base contact with 2 units or more units with the Mark of the Daemon Legion (Pestilence).			
+dmmkwr	Mark of Wrath		Priority	N/A	0	type:wrath	A model with Mark of the Daemon Legion (Wrath) has +1 Strength during first round of combat. This does not affect Special Attacks.			
+dmmonch1	Mono army - Change		Priority	Oth	0	type:dmmonoch;stat:ld+1;slct:dmtlo1=incl;chld:champ@Ld+1			May be taken if all units in the army list have the same Mark of the Daemon Legion - Change (AB do not check this).	
+dmmonch2	Mono army - Change		Priority	Oth	0	type:dmmonoch;stat:ld+1;slct:dmtlo1=incl;more:dmtlo1=auto;chld:champ@Ld+1			May be taken if all units in the army list have the same Mark of the Daemon Legion - Change (AB do not check this).	
+dmmonlu1	Mono army - Lust		Priority	Oth	0	type:dmmonolu;stat:ld+1;slct:dmslo1=incl;chld:champ@Ld+1			May be taken if all units in the army list have the same Mark of the Daemon Legion - Lust (AB do not check this).	
+dmmonlu2	Mono army - Lust		Priority	Oth	0	type:dmmonolu;stat:ld+1;slct:dmslo1=incl;more:dmslo1=auto;chld:champ@Ld+1			May be taken if all units in the army list have the same Mark of the Daemon Legion - Lust (AB do not check this).	
+dmmonpe1	Mono army - Pestilence		Priority	Oth	0	type:dmmonope;stat:ld+1;slct:dmnlo1=incl;chld:champ@Ld+1			May be taken if all units in the army list have the same Mark of the Daemon Legion - Pestilence (AB do not check this).	
+dmmonpe2	Mono army - Pestilence		Priority	Oth	0	type:dmmonope;stat:ld+1;slct:dmnlo1=incl;more:dmnlo1=auto;chld:champ@Ld+1			May be taken if all units in the army list have the same Mark of the Daemon Legion - Pestilence (AB do not check this).	
+dmmonwr1	Mono army - Wrath		Priority	Oth	0	type:dmmonowr;stat:ld+1;slct:dmklo1=incl;chld:champ@Ld+1;slct:dmklou1=incl			May be taken if all units in the army list have the same Mark of the Daemon Legion - Wrath (AB do not check this).	
+dmmonwr2	Mono army - Wrath	MonoW	Priority	Oth	0	type:dmmonowr;stat:ld+1;slct:dmklo1=incl;more:dmklo1=auto;chld:champ@Ld+1			May be taken if all units in the army list have the same Mark of the Daemon Legion - Wrath (AB do not check this).	
+dmnone	No Magic Levels		Priority	N/A	0				No Magic Levels	
+dmchoice	Opponent's Approval		Priority	N/A	0					
+dmpois	Poison attacks	Pois	Priority	N/A	5	xcst:10-unit=dmprince;hide	Poison			
+dmscal20	Scaly skin		Priority	Arm	20	more:save2=incl				
+dmsoulr	Soulreaper		Priority	N/A	0		A Soulreaper Chariot’s Impact hits has Armour Piercing (6). Oracle gets +1 Attack for each unsaved wounds the chariot’s impact hits caused. These attacks are lost at the end of the phase.			
+dmfly8	Fly (8)		First	N/A	40		Fly (8)			
+dmgodtbl	God Table		First	N/A	0	tabl:Undivided=mgnone,Khorne=dmkprnc,Tzeentch=dmtprnc,Nurgle=dmnprnc,Slaanesh=dmsprnc-noname-nobrackets				
+dmdplvl1	Magic Level 1	Mg1	First	N/A	25	show:mgmiscas;show:dmlorett;show:dmlorsdp;show:dmloretn;show:dmloretb;slct:dearcaen=auto				Daemon Prince level costs
+dmhml1	Magic Level 1		First	N/A	0	usiz:min=6-eff;usiz:max=15-eff	a Unit of 6-15 Horrors counts as having Magic Level 1			
+dmlvl1	Magic Level 1	Mg1	First	N/A	0	stat:Wz+1;show:mgmiscas;xcst:25-unit=dmhrlds;xcst:25-unit=dmhrldn;slct:dearcaen=auto;show:dmlorets;show:dmloretn				
+dmlvl1gn	Magic Level 1	Mg1	First	N/A	0	show:mgmiscas				
+dmlvl1lo	Magic Level 1	Mg1	First	N/A	0	stat:Wz+1;show:mgmiscas				
+dmnhlvl1	Magic Level 1	Mg1	First	N/A	35	stat:Wz+1;show:dmloretn;show:mgmiscas;slct:dearcaen=auto;show:mgshow;xcst:25-unit=dmhrldn				
+dmplvl1	Magic Level 1	Mg1	First	N/A	25	stat:Wz+1;type:undecided;show:dmloretb;show:mgmiscas				
+dmshlvl1	Magic Level 1	Mg1	First	N/A	35	stat:Wz+1;show:dmlorets;show:mgmiscas				
+dmtzlvl1	Magic Level 1	Mg1	First	N/A	0	show:mgmiscas				Lord of Change level costs
+dmdplvl2	Magic Level 2	Mg2	First	N/A	55	show:mgmiscas;show:dmlorett;show:dmlorsdp;show:dmloretn;show:dmloretb;slct:dearcaen=auto				Daemon Prince level costs
+dmlvl2	Magic Level 2	Mg2	First	N/A	35	stat:Wz+1;over:dmlvl1gn=delete;type:2ndlvl;show:mgmiscas;over:dmlvl1=delete;xcst:30-unit=dmhrldt;xcst:55-unit=dmhrlds;slct:dearcaen=auto;xcst:55-unit=dmhrldn;show:dmlorets;show:dmloretn				
+dmlvl2lo	Magic Level 2	Mg2	First	N/A	30	stat:Wz+1;over:dmlvl1gn=delete;type:2ndlvl;show:mgmiscas;over:dmlvl1lo=delete				
+dmnlvl2	Magic Level 2	Mg2	First	N/A	70	stat:Wz+1;over:dmnhlvl1=delete;type:2ndlvl;show:mgmiscas;show:dmloretn;slct:dearcaen=auto;show:mgshow;xcst:55-unit=dmhrldn				Lord of Change level costs
+dmplvl2	Magic Level 2	Mg2	First	N/A	85	stat:Wz+1;over:dmplvl1=delete;type:2ndlvl;type:undecided;show:dmloretb;show:mgmiscas				
+dmshlvl2	Magic Level 2	Mg2	First	N/A	0	show:dmslnsh;show:mgmiscas				
+dmslvl2	Magic Level 2	Mg2	First	N/A	70	stat:Wz+1;over:dmshlvl1=delete;type:2ndlvl;show:mgmiscas;show:dmlorsdp				Lord of Change level costs
+dmtzlvl2	Magic Level 2	Mg2	First	N/A	0	stat:Wz+1;over:dmtzlvl1=delete;type:2ndlvl;show:mgmiscas				Lord of Change level costs
+dmhml2	Magic Level 2 		First	N/A	0	usiz:min=16-eff;usiz:max=25-eff	a Unit of 16-25 Horrors counts as having Magic Level 2			
+dmdplvl3	Magic Level 3	Mg3	First	N/A	90	show:mgmiscas;show:dmlorett;show:dmlorsdp;show:dmloretn;show:dmloretb;slct:dearcaen=auto				Daemon Prince level costs
+dmhml3	Magic Level 3		First	N/A	0	usiz:min=26-eff;usiz:max=35-eff	a Unit of 26-35 Horrors counts as having Magic Level 3			
+dmlvl3	Magic Level 3	Mg3	First	N/A	70	stat:Wz+2;over:dmlvl1=delete;over:dmlvl2=delete;type:3rdlvl;over:dmlvl1gn=delete;show:mgmiscas				
+dmlvl3lo	Magic Level 3	Mg3	First	N/A	75	stat:Wz+2;over:dmlvl1lo=delete;over:dmlvl2lo=delete;type:3rdlvl;over:dmlvl1gn=delete;show:mgmiscas				
+dmtzlvl3	Magic Level 3	Mg3	First	N/A	35	stat:Wz+2;over:dmtzlvl1=delete;over:dmtzlvl2=delete;type:3rdlvl;show:mgmiscas				Lord of Change level costs
+dmdplvl4	Magic Level 4	Mg4	First	N/A	150	show:mgmiscas;show:dmlorett;show:dmlorsdp;show:dmloretn;show:dmloretb;slct:dearcaen=auto				Daemon Prince level costs
+dmhml4	Magic Level 4		First	N/A	0	usiz:min=36-eff	a Unit larger than 35 Horrors counts as having Magic Level 4			
+dmlvl4	Magic Level 4	Mg4	First	N/A	115	stat:Wz+3;over:dmlvl1=delete;over:dmlvl2=delete;over:dmlvl3=delete;type:4thlvl;over:dmlvl1gn=delete;show:mgmiscas				
+dmlvl4lo	Magic Level 4	Mg4	First	N/A	125	stat:Wz+3;over:dmlvl1lo=delete;over:dmlvl2lo=delete;over:dmlvl3lo=delete;type:4thlvl;over:dmlvl1gn=delete;show:mgmiscas				
+dmtzlvl4	Magic Level 4	Mg4	First	N/A	60	stat:Wz+3;over:dmtzlvl3=delete;type:4thlvl;show:mgmiscas				Lord of Change level costs
+dmnocore	No Core		First	N/A	0	hide;acmp:Core-1u				
+dmnurgle	Lore of Nurgle	Nrgl	SpellType	N/A	0	show:dmshown;show:dmfulln				
+dmslnsh	Lore of Slaanesh	Slnsh	SpellType	N/A	0	show:dmshows;show:dmfulls				
+dmtztch	Lore of Tzeentch	Tzch	SpellType	N/A	0	show:dmshowt;show:dmfullt				
+dmalore	Lore Table		SpellType	N/A	0	tabl:MagicLore=mgnone,Beast=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Light=mglight,Alchemy=mgmetal,Life=mglife,Shadow=mgshadow-noname-nobrackets;utyp:master;over:dmtztch=deselect				Master of Soc Table
+dmloretb	Lore Table		SpellType	N/A	0	tabl:MagicLore=mgnone,Death=mgdeath,Fire=mgfire,Alchemy=mgmetal,Shadow=mgshadow-noname-nobrackets;utyp:undecided				
+dmloreth	Lore Table		SpellType	N/A	0	tabl:Tzeentch=dmtztch-noname-nobrackets;utyp:tdaemon				Horrors Lore Table
+dmloretn	Lore Table		SpellType	N/A	0	tabl:Disease=mgdiseas,Death=mgdeath-noname-nobrackets;utyp:nldaemon|ndaemon				
+dmlorets	Lore Table		SpellType	N/A	0	tabl:Lust=mglust,Shadow=mgshadow-noname-nobrackets;utyp:sldaemon|sdaemon				
+dmlorett	Lore Table		SpellType	N/A	0	tabl:Change=mgchange,Alchemy=mgmetal-noname-nobrackets;utyp:tldaemon|tdaemon				
+dmloreu	Lore Table		SpellType	N/A	0	tabl:Alchemy=mgmetal,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Shadow=mgshadow-noname-nobrackets;utyp:uldaemon				
+dmlorsdp	Lore Table		SpellType	N/A	0	tabl:Lust=mglust,Shadow=mgshadow,Darkness=mgdark-noname-nobrackets;utyp:sldaemon				
+dmblfeas	Blood Feast	BlFe	Scroll	N/A	0		At the end of the Initiative step in which the model with this rule causes its first unsaved wound during the battle, all units with Mark of Wrath within 12” get Frenzy).			
+dmelus	Elusive		Scroll	N/A	10	cost:single	May flee as a charge reaction			
+dmexau	Exalted Aura	ExAu	Scroll	N/A	0		All friendly models with the mark of Lust in the same close combat as the model with this rule (including itself) has Lightning Reflexes)			
+dmslime	Slime Explosion	Slim	Scroll	N/A	0		In close combat, after all attacks has been made, choose a unit that has inflicted a wound on a model of the Pestilence Swarm rule this phase. That unit suffers a D3 hits for each Pestilence Swarm model removed from play during this close combat phase. The hits have the Toxic Attack special rule.			
+dm1att	+1 Attack		Weapon	N/A	5	stat:At+1;xcst:10-unit=dmsoulgr	+1 Attack			
+dmaddhw	Additional hand weapons		Weapon	N/A	5	xcst:10-unit=dmsoulgr;stat:At+1;stat:In+1	+1 Attack			
+dmlclaw	Barbed Claws		Weapon	N/A	2	xcst:5-unit=dmhrlds;xcst:8-unit=dmfiends	+1 to wound, riders only			
+dmblsw	Blood Sword	Blood	Weapon	Wep	0		Hand weapon: Lethal Strike			
+dmflail	Flail	Flail	Weapon	Wep	10	xcst:6-unit=dmhrldn;stat:st+2	^		Requires Two Hands. +2 Strength. Close Combat Attacks allocated at a model with a Flail has a +1 bonus when rolling To Hit.	
+dmhal	Halberd	Hal	Weapon	Wep	10	stat:st+1	^		Requires Two Hands. +1 Strength	
+dmhellb	Hell Blades		Weapon	MWp	1	over:dmblsw=deselect;stat:St+1;chld:champ@St+1	Always strikes with Strength 5 in Close Combat. This cannot be modified in any way.			
+dmhellb5	Hell Blades	HBl	Weapon	MWp	5	over:dmblsw=deselect;stat:St+1;chld:champ@St+1	Always strikes with Strength 5 in Close Combat. This cannot be modified in any way.			
+dmhellbl	Hell Blades	Hell	Weapon	N/A	0	stat:St+1;chld:champ@St+1	Always strikes with Strength 5 in Close Combat. This cannot be modified in any way			
+dmmowr	Mono - Wrath	MonoW	Weapon	N/A	0	stat:Ld+1;chld:champ@Ld+1;more:dmklou1=auto;hide				
+dmwrablo	Wrathaxe and Bloodflail	WrBlo	Weapon	N/A	0	stat:At+1	+2 Strength in the first round of combat. Extra Attack.			
+dmexfl	Exalted Flames of Tzeentch	ExFl	Missile	Rng	0		Can be fired in two ways: - As a Bolt Thrower Artillery Weapon: 36”, Strength 4+D3*, Multiple Wounds (D3), AP(6) - As a Volley Gun Artillery Weapon: 30", Multiple Shots(6), Strength 2+D3* (*Roll once per shooting phase (after hits have been scored) and apply this strength for all shots)			
+dmflame	Flames of Change		Missile	MWp	0		Range: 18” Strength: 4, Multiple Shots (D6), Quick to Fire			
+dmflar	Flares of Change		Missile	N/A	2		Range 24", Strength 3, Multiple Shoot (2). Quick to Fire For each Full Rank in the shooting unit after the 2nd rank, the shooter may add add +1 Strength and reduce the range with -6”. To a max of Strength 5 and Range 12".			
+dmsoulg4	Warp Bolt Thrower	WarpG	Missile	Rng	35	over:dmsoulg0=delete	Bolt Thrower Artillery Weapon; Range: 48 Strength: 6, Multiple Wounds (D3), Armour Piercing (6)			
+dmsoulg3	Warp Catapult	Phleg	Missile	Rng	40	over:dmsoulg0=delete	Catapult Artillery Weapon; Range 12-60”, Strength 3[9], Multiple Wounds (Ordnance)			
+dmsoulg1	Warp Flamer	BalTo	Missile	Rng	40	over:dmsoulg0=delete	Flame Thrower Artillery Weapon; Range 8”, Strength 5, Flaming Attacks. Ignore the -1 modifier on misfire table			
+dmsoulg0	Warp Volley	WarpV	Missile	N/A	0		Volley Gun Artillery Weapon; Range 12", Strength 4, Armour Piercing (3), Multiple Shots (2D6)			
+dmha	Heavy Armour	HvA	Armour	Mus	0	more:save2=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+dmin4	Innate Defense (4+)	id4	Armour	N/A	15	type:dmhar4;base:sv-3;over:dmin6=deselect;chld:champ@sv-3-base				
+dmin4hh	Innate Defense (4+)	id4	Armour	N/A	6	over:dmin6hh=delete;more:save3=incl;type:armour				
+dmin4jug	Innate Defense (4+)	id4	Armour	N/A	15	more:save3=incl;over:dmin6jug=deselect				
+dmin5	Innate Defense (5+)	id5	Armour	N/A	2	more:save2=incl				
+dmin6	Innate Defense (6+)	id6	Armour	N/A	0	base:sv-1;chld:champ@sv-1-base;type:dmhar6				
+dmin6hh	Innate Defense (6+)	id6	Armour	N/A	0	more:save1=incl;type:armour				
+dmin6jug	Innate Defense (6+)	id6	Armour	N/A	0	more:save1=incl				
+dmla	Light Armour	LA	Armour	Mus	0	more:save1=incl;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+dmbcchmp	Champion		Champion	N/A	0	unit:dmbcchmp@abs=1;cost:model;csiz:dmjugg+1;modl:-1				
+dmblchmp	Champion		Champion	N/A	0	unit:dmblchmp@abs=1;cost:model;modl:-1				
+dmdchmp	Champion		Champion	N/A	0	unit:dmdchmp@abs=1;cost:model;modl:-1				
+dmdmchmp	Champion		Champion	N/A	0	unit:dmseekch@abs=1;cost:model;csiz:dmsteed+1;modl:-1				
+dmdronch	Champion		Champion	N/A	0	unit:dmdronch@abs=1;cost:model;csiz:dmrotfly+1;modl:-1				
+dmfchmp	Champion		Champion	N/A	0	unit:dmfchmp@abs=1;cost:model;modl:-1				
+dmhrchmp	Champion		Champion	N/A	0	unit:dmhrchmp@abs=1;cost:model;modl:-1				
+dmpchmp	Champion		Champion	N/A	0	unit:dmpchmp@abs=1;cost:model;modl:-1				
+dmchrtz	Blazing Chariot	Chrt	Mount	Mnt	0	unit:dmchrtz@per=1;stat:Sv-1				
+dmblfly	Blight Fly		Mount	Mnt	50	unit:dmblfly@var;slct:heromnt=incl;more:save1=incl;base:Wo=3;stxt:Type="MC"				
+dmlettcr	Bloodletter crew	BlCr	Mount	N/A	0	unit:xxdmblcr@abs=2;hide;unit:dmjuggm@abs=1				
+dmbuchcr	Burning Chariot crew	BChcr	Mount	N/A	0	unit:dmchscrm@per=1;unit:dmchscrs@abs=2;hide				
+dmchrtk	Chariot of Khorne	Chrt	Mount	Mnt	0	unit:dmchrtk@per=1;stat:Sv-1				
+dmskchrt	Chariot of Khorne	Chrt	Mount	Mnt	0	unit:dmskchrt@per=1;stat:Sv-1				
+dmblothr	Daemon Throne of Wrath	Chrt	Mount	Mnt	100	unit:dmblothj@abs=1;unit:xxdmblcr@abs=2;stat:Sv-2;unit:dmblothr@abs=1				
+dmdisc	Disc of Tzeentch		Mount	Mnt	20	unit:dmdisc@per=1;more:save1=incl;stxt:Type="Ca"				
+dmexscmt	Exalted Seeker Chariot		Mount	Mnt	0	unit:dmexscmt@per=1;stat:Sv-1				
+dmhuc	Hunter Chariot		Mount	Mnt	70	unit:xdmxscc1@abs=2;unit:dmsteed@abs=2				
+dmchrts	Hunter Chariot of Lust		Mount	Mnt	0	unit:dmchrts@per=1;unit:xdmxscc1@abs=2;unit:dmsteed@abs=2;stat:Sv-1				
+dmjuggm	Juggernaut of Wrath		Mount	Mnt	40	unit:dmjuggm@var;slct:heromnt=incl;more:save1=incl;base:Wo=3;stxt:Type="MC"				
+dmpalaqn	Palanquin of Pestilence		Mount	Mnt	40	unit:dmpalqn@per=1;more:save1=incl				
+dmsteed	Steed of Lust		Mount	Mnt	25	unit:dmsteed@per=1;more:save1=incl;stxt:Type="Ca"				
+dmaltx	Altar of Blood		Crew	Mnt	0	unit:xdmbring@abs=1;unit:xdmblsh@abs=2;unit:dmjuggm@abs=1;hide				
+dmrotfly	Blight Fly		Crew	N/A	0	unit:dmrotfly@per=1				
+dmexscc1	Exalted Seeker Chariot crew		Crew	Mnt	0	unit:xdmxscc1@abs=3;unit:dmsteed@abs=4;hide;unit:xdmxtemp@abs=1				
+dmhelfla	Hellflayer		Crew	Mnt	0	unit:xdmxscc3@abs=1;unit:xdmxscc1@abs=2;unit:dmsteed@abs=4;hide				
+dmjugg	Juggernaut		Crew	N/A	0	unit:dmjugg@per=1				
+dmchtscm	Screamer of Tzeentch		Crew	Mnt	0	unit:dmchscrm@per=1;hide;unit:dmchscrs@per=2				
+dmseecha	Seeker Chariot		Crew	Mnt	0	unit:xdmxscc1@abs=2;unit:dmsteed@abs=2;hide				
+dmexscc2	Shrine of Temption crew		Crew	Mnt	0	unit:xdmxscc2@abs=1;unit:xdmxscc1@abs=3;unit:dmsteed@abs=4;hide				
+dmchtstd	Steed of Slaanesh		Crew	Mnt	0	unit:dmsteed@per=2;hide				
+dmlevelt	Daemon Prince Level Table		Priority1	N/A	0	tabl:NoMagic=mcnone,1stLevel=dmdplvl1,2ndLevel=dmdplvl2,3rdLevel=dmdplvl3,4thLevel=dmdplvl4-noname-nobrackets	Prince of Khorne			
+dmshown	All Lore Spells		Priority2	N/A	0	base:Wz=8;item:+8;take:diseasea;take:disease0;take:disease1;take:disease2;take:disease3;take:disease4;take:disease5;take:disease6				
+dmshows	All Lore Spells		Priority2	N/A	0	base:Wz=8;item:+8;take:lusta;take:lust0;take:lust1;take:lust2;take:lust3;take:lust4;take:lust5;take:lust6				
+dmshowt	All Lore Spells		Priority2	N/A	0	base:Wz=8;item:+8;take:changea;take:change0;take:change1;take:change2;take:change3;take:change4;take:change5;take:change6				
+dmtprnc	Change Prince	TzPr	Priority2	N/A	0	type:tldaemon;unam:+" of Change";type:change;over:dmmonpe2=delete;over:dmmonlu2=delete;over:dmmonwr2=delete	A model with this mark can each phase choose either Flaming Attacks, Holy Attacks or Hellfire special rule for any (non-special) attacks. All models in the unit must choose the same rule. In addition any character with Mark of Change has +1 to cast.			
+dmfullh	Full Spell Lists		Priority2	N/A	0	more:mgchanga=incl;more:mgchang0=incl;more:mgchang2=incl			Appends full descriptions of all spells for this Lore to the roster.	
+dmfulln	Full Spell Lists		Priority2	N/A	0	more:gmdiseaa=incl;more:mgdisea0=incl;more:mgdisea1=incl;more:mgdisea2=incl;more:mgdisea3=incl;more:mgdisea4=incl;more:mgdisea5=incl;more:mgdisea6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+dmfulls	Full Spell Lists		Priority2	N/A	0	more:mglusta=incl;more:mglust0=incl;more:mglust1=incl;more:mglust2=incl;more:mglust3=incl;more:mglust4=incl;more:mglust5=incl;more:mglust6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+dmfullt	Full Spell Lists		Priority2	N/A	0	more:mgchanga=incl;more:mgchang0=incl;more:mgchang1=incl;more:mgchang2=incl;more:mgchang3=incl;more:mgchang4=incl;more:mgchang5=incl;more:mgchang6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+dmhchart	Horror Mage Chart		Priority2	N/A	0	item:+5;take:dmchart1;take:dmchart2;take:dmchart3;take:dmchart4;take:dmchart5			Appends Horror Magic Chart	
+dmsprnc	Lust Prince	SlPr	Priority2	N/A	0	type:sldaemon;unam:+" of Lust";type:lust;over:dmmonch2=delete;over:dmmonwr2=delete;over:dmmonpe2=delete	A model with Mark of the Daemon Legion (Lust) get Armour Piercing (1), which is cumulative with other Armour Piercing values.			
+dmnprnc	Pestilence Prince	NuPr	Priority2	N/A	0	type:nldaemon;unam:+" of Pestilence";type:pestilence;show:dmpois;over:dmmonwr2=delete;over:dmmonlu2=delete;over:dmmonch2=delete	When enemies strike at a model with Mark of the Daemon Legion (Pestilence), they receive a -1 modifier to their Weapon Skill during this attack. This is increased to a -2 modifier to their Weapon Skill if the model attacking is in a unit in base contact with 2 units or more units with the Mark of the Daemon Legion (Pestilence).			
+dmhead1	Spells For Head One		Priority2	N/A	0	more:dmtztch1=incl;more:dmtztch2=incl;more:dmtztch3=incl;more:dmtztch4=incl;more:dmtztch5=incl;more:dmtztch6=incl;more:mglife1=incl;more:mglife2=incl;more:mglife3=incl;more:mglife4=incl;more:mglife5=incl;more:mglife6=incl;more:mgmetal1=incl;more:mgmetal2=incl;more:mgmetal3=incl;more:mgmetal4=incl;more:mgmetal5=incl;more:mgmetal6=incl;more:mglight1=incl;more:mglight2=incl;more:mglight3=incl;more:mglight4=incl;more:mglight5=incl;more:mglight6=incl;more:mgheave1=incl;more:mgheave2=incl;more:mgheave3=incl;more:mgheave4=incl;more:mgheave5=incl;more:mgheave6=incl				
+dmhead2	Spells For Head Two		Priority2	N/A	0	more:dmtztch1=incl;more:dmtztch2=incl;more:dmtztch3=incl;more:dmtztch4=incl;more:dmtztch5=incl;more:dmtztch6=incl;more:mgdeath1=incl;more:mgdeath2=incl;more:mgdeath3=incl;more:mgdeath4=incl;more:mgdeath5=incl;more:mgdeath6=incl;more:mgbeast1=incl;more:mgbeast2=incl;more:mgbeast3=incl;more:mgbeast4=incl;more:mgbeast5=incl;more:mgbeast6=incl;more:mgshado1=incl;more:mgshado2=incl;more:mgshado3=incl;more:mgshado4=incl;more:mgshado5=incl;more:mgshado6=incl;more:mgfire1=incl;more:mgfire2=incl;more:mgfire3=incl;more:mgfire4=incl;more:mgfire5=incl;more:mgfire6=incl				
+dmtalcht	Tallyman Chart		Priority2	N/A	0	item:+6;take:dmtlcht1;take:dmtlcht2;take:dmtlcht3;take:dmtlcht4;take:dmtlcht5;take:dmtlcht6				
+dmuprnc	Unbound Prince	KhPr	Priority2	N/A	0	type:undecided;unam:+" Unbound";over:dmmonwr2=delete;over:dmmonch2=delete;over:dmmonpe2=delete;over:dmmonlu2=delete				
+dmkprnc	Wrath Prince	KhPr	Priority2	N/A	0	type:kldaemon;unam:+" of Wrath";over:dmlevelt=delete;type:wrath;over:dmmonpe2=delete;over:dmmonch2=delete;over:dmmonlu2=delete	A model with Mark of the Daemon Legion (Wrath) has +1 Strength during first round of combat. This does not affect Special Attacks.			
+dmambush	Ambushers	Amb	Priority3	N/A	20	cost:single			Ambush special rule.	
+dmslnsha	Attr: Born of Damnation		Priority3	N/A	0	apnd:foot;hide;utyp:sdaemon|slaaneshprince|heraldslaanesh		Slaanesh Lore Attribute. When spell from the lore of Slaanesh causes one or more unsaved Wounds, choose unit of Daemonettes or Fiends of Slaanesh within 12" and roll D6 per Wound caused. Daemonettes add 1 model to the unit for each roll of 5+. Fiends add 1 model for each roll of 6.		
+dmnurgla	Attr: Children of Nurgle		Priority3	N/A	0	apnd:foot;hide;utyp:ndaemon|nurgleprince|heraldnurgle|kugrath		Nurgle Lore Attribute. When spell from the lore of Nurgle causes one or more unsaved Wounds, choose unit of Plaguebearers or Nurglings within 12" and roll D6 per Wound caused. Plaguebearers add 1 model to the unit for each roll of 5+. Nurgling add single base for each roll of 6.		
+dmtztcha	Attr: Fires of Change		Priority3	N/A	0	apnd:foot;hide		Tzeentch Lore Attribute. When spell from the lore of Tzeentch causes one or more unsaved Wounds (exluding those dealt by Warpfire special rule), choose unit of Pink Horrors or Screamers within 12" and roll D6 per Wound caused. Horrors add 1 model to the unit for each roll of 4+. Screamers add 1 model for each roll of 6.		
+dmblhocr	Blue Horror Crew	BHCr	Priority3	N/A	20		Enemy units within 6" suffer -1 to Ld.			
+dmflight	Daemonic Flight	DFli	Priority3	N/A	40		Fly (8).			
+dmgeathh	Death's Heads	DeaHe	Priority3	N/A	10		Range 12", St4, Multiple Wounds (D3), Poisoned Attacks			
+dmdistr	Distracting	Distr	Priority3	N/A	2	xcst:3-unit=dmpbears	-1 to hit			
+dmgifts3	Exalted Gifts Table		Priority3	N/A	0	apnd:foot		0: Hellforged Artefact - each can be chosen only once per army; 1: Aura of Disruption - as long as bearer is alive all dispel attempts receive one free dispel dice; 2: Sorcerous Lodestone - when any Wizard successfully casts a spell roll D6 - bearer regains single lost Wound on 5+, if any Wizard miscasts, bearer suffers 1 Wound on 4+; 3: Bringer of the Swarm - at the end of CC phase, if bearer dealt any wounds, new unit of Furies is created and placed wholly within 6", with number of Furies equal to number of Wounds caused; 4: Impenetrable Hide - +2 Toughness; 5: Massive Might - +3 Strength; 6: Doubly Blessed - roll again on this table, re-rolling results of 6, and once on Lesser Gifts table for no extra cost.	Adds Greater Gifts table at the end of the roster. 0: Hellforged Artefact - each can be chosen only once per army; 1: Aura of Disruption - as long as bearer is alive all dispel attempts receive one free dispel dice; 2: Sorcerous Lodestone - when any Wizard successfully casts a spell roll D6 - bearer regains single lost Wound on 5+, if any Wizard miscasts, bearer suffers 1 Wound on 4+; 3: Bringer of the Swarm - at the end of CC phase, if bearer dealt any wounds, new unit of Furies is created and placed wholly within 6", with number of Furies equal to number of Wounds caused; 4: Impenetrable Hide - +2 Toughness; 5: Massive Might - +3 Strength; 6: Doubly Blessed - roll again on this table, re-rolling results of 6, and once on Lesser Gifts table for no extra cost.	
+dmgifts2	Greater Gifts Table		Priority3	N/A	0	apnd:foot		0: Magic Weapon - choose weapon from RB of a value up to 50 pts or Axe of Khorne for Khorne, Staff of Change for Tzeentch, Balesword for Nurgle, Lash of Despair for Slaanesh; 1: Unholy Sacrifice - lose D3 Wounds at the start of friendly Magic Phase to add D3+1 Power dice to your pool; 2: Corpulence - +1 Wound; 3: Incorporeal Strike - no armour saves in CC; 4: Souleater - at the end of any phase the daemon caused any Wounds, he recovers 1 Wound; Unbreakable Skin - Armour Save 2+; 6: Unholy Flurry - +2 Attacks.	Adds Greater Gifts table at the end of the roster. 0: Magic Weapon - choose weapon from RB of a value up to 50 pts or Axe of Khorne for Khorne, Staff of Change for Tzeentch, Balesword for Nurgle, Lash of Despair for Slaanesh; 1: Unholy Sacrifice - lose D3 Wounds at the start of friendly Magic Phase to add D3+1 Power dice to your pool; 2: Corpulence - +1 Wound; 3: Incorporeal Strike - no armour saves in CC; 4: Souleater - at the end of any phase the daemon caused any Wounds, he recovers 1 Wound; 5: Unbreakable Skin - Armour Save 2+; 6: Unholy Flurry - +2 Attacks.	
+dmharm	Heavy Armour	HArm	Priority3	N/A	0	base:Sv=5	Armour Save 5+			
+dmgifts1	Lesser Gifts Table		Priority3	N/A	0	apnd:foot		0: Magic Weapon - choose weapon from RB of a value up to 25 pts or Blade of Blood for Khorne, Wand of Whimsy for Tzeentch, Plague Flail for Nurgle, Witstealer Sword for Slaanesh; 1: Skill Swallower - when daemon slays enemy character, he increases one stat by 1; 2: Cleaving Blow - Multiple Wounds (2); 3: Crushing Mass - Impact Hits (D3); 4: Dark Blessing - 2+ Ward Save against first Wound suffered; 5: Noxious Breath - Breath Weapon, St2, no armour saves; 6: Unnatural Swiftness - Always Strikes First	Adds Lesser Gifts table at the end of the roster. 0: Magic Weapon - choose weapon from RB of a value up to 25 pts or Blade of Blood for Khorne, Wand of Whimsy for Tzeentch, Plague Flail for Nurgle, Witstealer Sword for Slaanesh; 1: Skill Swallower - when daemon slays enemy character, he increases one stat by 1; 2: Cleaving Blow - Multiple Wounds (2); 3: Crushing Mass - Impact Hits (D3); 4: Dark Blessing - 2+ Ward Save against first WOund suffered; 5: Noxious Breath - Breath Weapon, St2, no armour saves; 6: Unnatural Swiftness - Always Strikes First	
+dmnurgl0	Nurgle0:Stream of Corruption		Priority3	N/A	0	apnd:foot;hide;utyp:ndaemon|nurgleprince|heraldnurgle|kugrath		Signature spell. Direct damage. 7+ to cast. Place flame template touching caster's base. Any models hit must test Toughnes or suffer 1 Wound with no armour saves.		
+dmnurgl1	Nurgle1:Miasma of Pestilence		Priority3	N/A	0	apnd:foot;hide;utyp:ndaemon|nurgleprince|heraldnurgle|kugrath		Augment. 5+ to cast, 18" Range, all enemy units in base contact with target reduce WS and In by 1. OR 10+ to cast, to reduce WS and In by D3 instead.		
+dmnurgl2	Nurgle2:Blades of Putrefaction		Priority3	N/A	0	apnd:foot;hide;utyp:ndaemon|nurgleprince|heraldnurgle|kugrath		Augment. 8+ to cast, Range 12", target gains Poisoned Attacks until start of caster's next Magic phase. If target already had poisoned attacks, they now work on 5+.		
+dmnurgl3	Nurgle3:Curse of the Leper		Priority3	N/A	0	apnd:foot;hide;utyp:ndaemon|nurgleprince|heraldnurgle|kugrath		Hex/Augment. 10+ to cast, Range 18" OR 13+ to cast, Range 36". Increase friendly unit's T by D3 (to a maximum of 10) or decrease enemy unit's T by D3 (to a minimum of 1). Lasts until start of caster's next Magic phase.		
+dmnurgl4	Nurgle4:Rancid Visitations		Priority3	N/A	0	apnd:foot;hide;utyp:ndaemon|nurgleprince|heraldnurgle|kugrath		Magic Missile. 10+ to cast, Range 18", D6 S5 hits. Target must then test its T. If passed spell ends, if failed he suffers another D6 S5 hits. Repeat until target pass its T or dies.		
+dmnurgl5	Nurgle5:Fleshy Abundance		Priority3	N/A	0	apnd:foot;hide;utyp:ndaemon|nurgleprince|heraldnurgle|kugrath		Augment. 11+ to cast, Range 18", unit gains Regenerate (5+) until start of caster's next Magic phase. If target already had Regeneration, it is increased by 1 (to a maximum of 2+). OR can be cast on 22+ to target all friendly units within 18".		
+dmnurgl6	Nurgle6:Plague Wind		Priority3	N/A	0	apnd:foot;hide;utyp:ndaemon|nurgleprince|heraldnurgle|kugrath		Magical Vortex. Remains in Play. 15+ to cast, small template OR 25+ to cast, large template. Place the template, roll artillery dice and multiply result by caster's magic level - this is how far template travels. If missfire is rolled center template on the caster and scatter it his magic level's number of inches, Any model touched must pass Toughness test os suffers 1 Wound with no armour saves. In subsequent magic phases template moves in random direction by number of inches equal to the roll on artillery dice.		
+dmchaarm	Plate Armour	ChArm	Priority3	Arm	25	more:save3=incl	Armour Save 4+			
+dmfly01	Poisoned Attacks	PlaPr	Priority3	Bs1	5		Rot Flies have Poisoned Attacks			
+dmslnsh0	Slaanesh0: Lash of Slaanesh		Priority3	N/A	0	apnd:foot;hide;utyp:sdaemon|slaaneshprince|heraldslaanesh		Signature spell. Direct damage. 6+ to Cast, Range 24". Extend straight line from the caster. Any models under the line suffer S3 Armour Piercing hit.		
+dmslnsh1	Slaanesh1: Acquiescence		Priority3	N/A	0	apnd:foot;hide;utyp:sdaemon|slaaneshprince|heraldslaanesh		Hex. 6+ to Cast, Range 24" OR 9+ to cast, Range 48". Target unit gains Always Strike Last and Random Movement (D6) until start of caster's next Magic phase.		
+dmslnsh2	Slaanesh2: Pavane of Slaanesh		Priority3	N/A	0	apnd:foot;hide;utyp:sdaemon|slaaneshprince|heraldslaanesh		Direct damage. 7+, Range 24" OR 10+ to cast, Range 48". Choose single enemy model, which must then pass its Ld on 3D6 or will suffer 1 Wound with no armour saves.		
+dmslnsh3	Slaanesh3: Hysterical Frenzy		Priority3	N/A	0	apnd:foot;hide;utyp:sdaemon|slaaneshprince|heraldslaanesh		Hex/Augment. Remains in Play. 8+ to cast, Range 24". Target single unit (FoF). Unit gains Frenzy that cannot be lost for as long as spell lasts. If already frenzied, unit gains +2 Attacks instead of 1. Unit takes D6 S3 hits at the end of each of the caster's Magic phases.		
+dmslnsh4	Slaanesh4: Slicing Shards		Priority3	N/A	0	apnd:foot;hide;utyp:sdaemon|slaaneshprince|heraldslaanesh		Magic missile. 10+ to cast, Range 24". Cause D6 S4 Armour piercing hits. Target must then test its Ld. If passed spell ends, if failed he suffers another D6 S4 Armour piercing hits. Repeat until target pass its Ld or dies.		
+dmslnsh5	Slaanesh5: Phantasmagoria		Priority3	N/A	0	apnd:foot;hide;utyp:sdaemon|slaaneshprince|heraldslaanesh		Hex. 10+ to cast, Range 24". Until the start of caster's next Magic phase target unit must pass its Ld tests on 3D6 discarding lowest result rolled, OR 20+ to cast to target all enemy units within 24".		
+dmslnsh6	Slaanesh6: Cacophonic Choir		Priority3	N/A	0	apnd:foot;hide;utyp:sdaemon|slaaneshprince|heraldslaanesh		Hex. 12+ to cast, Range 12". Target suffers 2D6 hits that wound on 4+ with no armour saves allowed. If target suffers at least 1 Wound, it gains Always Strikes Last and Random Movement (D6) until start of caster's next Magic phase.  OR 24+ to cast to target all enemy units within 12".		
+dmtrail	Trail of Mucus	Trail	Priority3	N/A	2	xcst:1-unit=dmpbears	Enemy units do not get Flank and Rear combat resolution bonuses against a unit containing a models with this rule.			
+dmtztch0	Tzeentch0:BlueFire of Tzeentch		Priority3	N/A	0	apnd:foot;hide;utyp:tdaemon|tzeentchprince|heraldtzeentch		Signature spell. Magic missile. 5+ to cast, Range 24" OR 8+ to cast, Range 48". Cause D6 SD6 hits with Warpflame.		
+dmtztch1	Tzeentch1:Treason of Tzeentch		Priority3	N/A	0	apnd:foot;hide;utyp:tdaemon|tzeentchprince|heraldtzeentch		Hex. 7+ to cast, Range 24" OR 10+ to cast, Range 48". Target unit must use lowest Ld in the unit and may not use Inspiring Presence nor Stand Your Ground rules, until start of caster's next Magic phase.		
+dmtztch2	Tzeentch2:PinkFire of Tzeentch		Priority3	N/A	0	apnd:foot;hide;utyp:tdaemon|tzeentchprince|heraldtzeentch		Direct damage. 8+ to cast. Place flame template touching caster's base and aimed at the target then move it by the result on artillery dice. If missfire is rolled template does not move. Model touched suffer SD6 hit with Warpflame.		
+dmtztch3	Tzeentch3:Bolt of Change		Priority3	N/A	0	apnd:foot;hide;utyp:tdaemon|tzeentchprince|heraldtzeentch		Magic missile. 8+ to cast, Range 24". Single model is hit with SD6+4, Multiple Wounds (D3) and Warpflame, then Bolt penetrates ranks like bolt thrower. No armour saves.		
+dmtztch4	Tzeentch4:Glean Magic		Priority3	N/A	0	apnd:foot;hide;utyp:tdaemon|tzeentchprince|heraldtzeentch		Direct damage. 8+ to cast. Target enemy Wizard within 18". Both caster and target roll D6 and add their magic levels. If target's total is higher, nothing happens. If caster's total is higher enemy Wizard suffers S3 hit, loses magic level and random spell. That spell is then added to caster's spells. Stolen spells use Tzeentch Lore Attribute when cast.		
+dmtztch5	Tzeentch5:Tzeentch's Firestorm		Priority3	N/A	0	apnd:foot;hide;utyp:tdaemon|tzeentchprince|heraldtzeentch		Direct damage. 13+ to cast. Place small template within 30" and scatter it D6". All models touched suffer SD6 hit with Warpflame. OR 16+ to cast to use large template which scatters 2D6".		
+dmtztch6	Tzeentch6:Infernal Gateway		Priority3	N/A	0	apnd:foot;hide;utyp:tdaemon|tzeentchprince|heraldtzeentch		Direct damage. 16+ to cast, Range 24". Target suffers 2D6 St 2D6 hits. If an 11 or 12 is rolled for Str value, target suffers 3D6 hits instead, resolved at St10. Warpfire.		
+dmfly02	Venom Sting	VeSti	Priority3	Bs1	10		One of the Rot Fly's Attacks must be rolled separately - if it hits, it wounds automatically.			
+dmnlog	Bloated with Disease	Bloa	Priority4	Mrk	35	xcst:40-unit=dmhrldn	Model has Regeneration (4+) special rule.			
+dmnlo1	Contamination	Cont	Priority4	Mrk	25	xcst:1-unit=dmpbears;xcst:0-unit=dmhrldn	Every unsaved poison wound (i.e. a ‘6’ to wound from a poisoned attack) from affected models with this rule counts as 2 wounds for the combat score.			
+dmfur04	Daemon of Change	DTz	Priority4	Mrk	2	unam:+" of Change";xcst:10-unit=dmsoulgr;type:tdaemon;more:dmmkch=incl;more:dmmonch2=cost	Mark of the Dark Gods (Change)			
+dmfur03	Daemon of Lust	DSl	Priority4	Mrk	2	unam:+" of Lust";xcst:10-unit=dmsoulgr;type:sdaemon;more:dmmklu=incl;more:dmmonlu2=cost	Mark of the Dark Gods (Lust)			
+dmfur02	Daemon of Pestilence	DNu	Priority4	Mrk	2	unam:+" of Pestilence";xcst:10-unit=dmsoulgr;type:ndaemon;more:dmmkpe=incl;more:dmmonpe2=cost	Mark of the Dark Gods (Pestilence)			
+dmfur01	Daemon of Wrath	DKo	Priority4	Mrk	2	unam:+" of Wrath";xcst:10-unit=dmsoulgr;type:kdaemon;more:dmmkwr=incl;more:dmmonwr2=cost	Mark of the Dark Gods (Wrath)			
+dmmaweta	Daemonic Magic Weapons Table		Priority4	N/A	0	apnd:foot		# Khorne -Lesser: Blade of Blood, +1St, Killing Blow; # Khorne -Greater: Axe of Khorne, +3At if model is in btb with 3 or more enemies; #Tzeentch -Lesser: Wand of Whimsy, each time the bearer cast or dispels a spell, weapon adds a charge on 5+, each charge grants +1St and At; #Tzeentch -Greater: Staff of Change, each time character or monster suffers a Wound he must test To or suffers extra D6 Wounds with no armour saves, if killed all models within D6" suffer S5 hit; #Nurgle Lesser: Plague Flail, Flail, characters or monsters wounded must pass To or suffer extra Wound with no armour saves; #Nurgle -Greater: Balesword, Poisoned Attacks, Multiple Wounds (D3); #Slaanesh -Lesser: Witstealer Sword, character or monster wounded must pass In or suffer extra Wound with no armour saves; #Slaanesh -Greater: Lash of Despair, Ranged weapon, Range 12", S - as user, Multiple Shots (2D6)	Adds Daemonic Magic Weapons table at the end of the roster; # Khorne -Lesser: Blade of Blood, +1St, Killing Blow; # Khorne -Greater: Axe of Khorne, +3At if model is in btb with 3 or more enemies; #Tzeentch -Lesser: Wand of Whimsy, each time the bearer cast or dispels a spell, weapon adds a charge on 5+, each charge grants +1St and At; #Tzeentch -Greater: Staff of Change, each time character or monster suffers a Wound he must test To or suffers extra D6 Wounds with no armour saves, if killed all models within D6" suffer S5 hit; #Nurgle Lesser: Plague Flail, Flail, characters or monsters wounded must pass To or suffer extra Wound with no armour saves; #Nurgle -Greater: Balesword, Poisoned Attacks, Multiple Wounds (D3); #Slaanesh -Lesser: Witstealer Sword, character or monster wounded must pass In or suffer extra Wound with no armour saves; #Slaanesh -Greater: Lash of Despair, Ranged weapon, Range 12", S - as user, Multiple Shots (2D6)	
+dmklo1	Dignified Onslaught	DiOn	Priority4	Mrk	25	xcst:0-unit=dmhrldk	Affected models has Devastating Charge special rule.			
+dmklou1	Dignified Onslaught	DiOn	Priority4	Mrk	1		Affected models has Devastating Charge special rule.			
+dmklo0	Dignified Onslaught (free)	kl1	Priority4	Mrk	0		Affected models has Devastating Charge special rule.			
+dmtlo1	Enchanted Flares	EnFl	Priority4	Mrk	25	xcst:0-unit=dmhrldt;xcst:1-unit=dmhorror	Affected models has an additional 6" range on all shooting attacks			
+dmsloc3	Exalted Locus of Beguilement	sl3	Priority4	Mrk	60		Challenges issued by this model cannot be refused and you get to choose who will accept them. Furthermore enemies in base contact with the bearer or his unit suffer -3 In.			
+dmtloc3	Exalted Locus of Conjuration	tl3	Priority4	Mrk	50		Spells cast by this model and his unit have +1 Strength.			
+dmnloc3	Exalted Locus of Contagion	nl3	Priority4	Mrk	50		If this model or model from his unit scores z 6 To Hit with Poisoned Attacks, target immdiately suffers additional hit with St4.			
+dmkloc3	Exalted Locus of Wrath	kl3	Priority4	Mrk	75		Model and his unit gain Hatred.			
+dmslo1	Felon Grace	FeG	Priority4	Mrk	25	xcst:0-unit=dmhrlds;xcst:1-unit=dmettes	Affected models has the Armor Piercing (+1) special rule.			
+dmhellfo	Hellforged Atrefacts Table		Priority4	N/A	0	apnd:foot		#Portalglyph. Enchanted Item. You may keep single unit in reserve. Portal may be placed in any of your Remaining moves sub-phases. If bearer is slain place it immediately. Place it within 12" and scatter 3D6, 6D6 if bearer was slain. Unit kept in reserve may enter through the portal in any subsequent Remaining moves sub-phase; #The Rock of Inevitability. Enchanted Item. One Use Only. At the end of any friendly Movement phase, place 8" long cursed bulwark within 6". At the end of each of your turns roll D6. On 4-5 add another bulwark, on 6 place cursed tower; #Eternal Blade. Magic Weapon. Roll D3 at the start of each CC phase - add this number to bearer's WS, St, In and At; #Chromatic Tome. Enchanted Item. You may re-roll Winds of Magic dice, but if you do, your opponent may do the same in his next turn.	Adds Hellforged Atrefacts table at the end of the roster.; #Portalglyph. Enchanted Item. You may keep single unit in reserve. Portal may be placed in any of your Remaining moves sub-phases. If bearer is slain place it immediately. Place it within 12" and scatter 3D6, 6D6 if bearer was slain. Unit kept in reserve may enter through the portal in any subsequent Remaining moves sub-phase; #The Rock of Inevitability. Enchanted Item. One Use Only. At the end of any friendly Movement phase, place 8" long cursed bulwark within 6". At the end of each of your turns roll D6. On 4-5 add another bulwark, on 6 place cursed tower; #Eternal Blade. Magic Weapon. Roll D3 at the start of each CC phase - add this number to bearer's WS, St, In and At; #Chromatic Tome. Enchanted Item. You may re-roll Winds of Magic dice, but if you do, your opponent may do the same in his next turn.	
+dmklo2	Lesser Beacon 2	kl1	Priority4	Mrk	0		All models in the unit has devastating charge special rule.			
+dmnlo2	Lesser Beacon 2	nl1	Priority4	Mrk	0		All models in the unit have the Fear special Rule.			
+dmslo2	Lesser Beacon 2	sl1	Priority4	Mrk	0		All models in the unit has Swiftstride special rule.			
+dmtlo2	Lesser Beacon 2	tl1	Priority4	Mrk	0		All models in the unit may re-roll 1´s to hit and to wound for shooting.			
+dmslog	Mesmerizing Massacre	MeMa	Priority4	Mrk	35	xcst:40-unit=dmhrlds	Model has Lightning Reflexes special rule.			
+dmkklo40	Neverending Fury	kl2	Priority4	Mrk	40	over:dmklo0=delete	Affected models has the Hatred special rule.			
+dmklog	Neverending Fury	NFu	Priority4	Mrk	25	xcst:40-unit=dmhrldk	Affected models has the Hatred special rule.			
+dmtlog	Power Vortex	PVx	Priority4	Mrk	25		All hits from spells from the Path of Change, cast by the model are at +1 Strength.			
+dmtapoch	Champion		Priority5	N/A	0	unit:dmtapoch@abs=1;cost:model;modl:-1;csiz:dmtaplat+1				
+dmtaplat	Plague Toad		Priority5	N/A	0	unit:dmtaplat@per=1;hide				
+dmreign	Reign of Chaos Table		Priority5	N/A	0	apnd:foot		2: All unit with D.I. make Instability test; 3: Random character with D.I. must take Ld test, losing 1 Wound for each point by which he failed; 4: Models with D.I. have -1 to Ward Saves until next roll on this table; 5: Nurgle bashing. Place small template over unit and scatter it D6". Models suffer St4 hit with Flaming Attacks; 6: Tzeentch bashing. Unit suffers D6+3 St3 hits with no armour saves allowed; 7: Nothing happens; 8: Khorne bashing. Unit must take Ld test on 3D6 and suffer a Wound for each point by which it failed the test; 9: Slaanesh bashing. Unit is hit by Stone Thrower 3(9), MW(D6), scatter 3D6"; 10:+1 to Ward Save until next roll; 11: Random enemy Wizard without D.I. must test Ld or dies. Herald of any god appears within 6"; 12: New unit of 2D6+3 core daemons is placed anywhere on the board.	Adds Reign of Chaos Table at the end of the roster. 2: All unit with D.I. make Instability test; 3: Random character with D.I. must take Ld test, losing 1 Wound for each point by which he failed; 4: Models with D.I. have -1 to Ward Saves until next roll on this table; 5: Nurgle bashing. Place small template over unit and scatter it D6". Models suffer St4 hit with Flaming Attacks; 6: Tzeentch bashing. Unit suffers D6+3 St3 hits with no armour saves allowed; 7: Nothing happens; 8: Khorne bashing. Unit must take Ld test on 3D6 and suffer a Wound for each point by which it failed the test; 9: Slaanesh bashing. Unit is hit by Stone Thrower 3(9), MW(D6), scatter 3D6"; 10:+1 to Ward Save until next roll; 11: Random enemy Wizard without D.I. must test Ld or dies. Herald of any god appears within 6"; 12: New unit of 2D6+3 core daemons is placed anywhere on the board.	
+^
+dmbgrief	Blade of Grief	weap	MWp	20	1	itst:race=dm;icnt:1		Type: Hand Weapon. Attacks made with this weapon have Holy attacks and the wearer causes fear.	^	^	
+dmcleav	Cleaving	weap	MWp	40	99	icnt:1;itst:race=dm&(type=kdaemon|type=kldaemon|type=ndaemon|type=nldaemon);xcst:30-unit=dmhrldk		Type: Hand Weapon. Attacks made with this weapon has Multiple Wounds (2)	^	^	
+dmdbre	Dark Breath	weap	MWp	35	99	itst:race=dm&(type=tdaemon|type=tldaemon);icnt:1		Breath Weapon (Strength D3+2)	^	^	
+dmreach1	Extended Reach	weap	MWp	35	1	icnt:1;itst:race=dm;stat:ws+1;stat:in+1;stat:st+1;stat:at+1;xcst:50-unit=dmkeeper;xcst:50-unit=dmthrstr;xcst:50-unit=dmprince;xcst:50-unit=dmguo;xcst:50-unit=dmchange		Type: Hand Weapon. Attacks made with this weapon are at +1 WS, I, S, A	^	^	
+dmfstrik	Flaring Strike	weap	MWp	20	1	itst:race=dm;icnt:1;stat:st+1		Type: Hand Weapon. Attacks made with this weapon are at +1 Strength and Flaming Attacks	^	^	
+dmlashl	Lash of Lust	weap	MWp	0	99	itst:race=dm&(type=sdaemon|type=sldaemon);icnt:1;xcst:25-unit=dmhrlds		Type: Shooting Weapon. Range 15”, Strength as user, Quick to fire, Multiple Shoots (2D6)	^	^	
+dmsoulh	Soul-Harvest	weap	MWp	40	1	itst:race=dm;icnt:1;xcst:30-unit=dmhrldk;xcst:30-unit=dmhrldn;xcst:30-unit=dmhrlds;xcst:30-unit=dmhrldt		Type: Hand Weapon. At the end of any close combat phase in which the wielder has inflicted one or more unsaved wounds, on a roll of 3+, it regains one wound previously lost in battle.	^	^	
+dmtrini	Unholy Trinity	weap	MWp	15	1	itst:race=dm;icnt:1;stat:ws+1;stat:in+1		Type: Hand Weapon. Attacks made with this weapon are at +1 Weapon Skill, +1 Initiative, AP(1)	^	^	
+dmcoll	Brass Collar	ward	Tal	35	99	itst:race=dm&(type=kdaemon|type=kldaemon);icnt:1		Wearer has Magic Resistance (3)	^	^	
+dmclogg	Clogging Aura	ward	Tal	50	99	itst:race=dm&(type=ndaemon|type=nldaemon);icnt:1		Enemy units in base contact with the wearer have Initiative 1.	^	^	
+dmmpsy	Metempsychosis	ward	Tal	35	1	itst:race=dm;icnt:1		Wearer has Regeneration (4+).	^	^	
+dmpgem	Portal Gem	ward	Tal	20	99	itst:race=dm;icnt:1		All friendly units within 6” of wearer suffers one wound less from Daemonic Instability.	^	^	
+dmsedu	Seduction	ward	Tal	35	1	itst:race=dm&(type=sdaemon|type=sldaemon);icnt:1		Enemy models in base contact with wearer halves its WS and I (round fractions up).	^	^	
+dmwdust	Warp Dust	ward	Tal	10	1	itst:race=dm;icnt:1		One use only. Wearer may reroll one Ward Save.	^	^	
+dmwsh1	Warp Shield	ward	Tal	50	99	itst:race=dm&(type=kdaemon&type=dmhar4);icnt:1		Wearer has Innate Defence (5+) - not counted due to 4+ Innate Defence bought as non-magic armour. In addition, all Magic Weapons worn by enemy models in base contact count as their mundane equivalent.	^	^	
+dmwsh2	Warp Shield	ward	MAr	50	99	itst:race=dm&(type=kdaemon&type=dmhar6);icnt:1;base:sv-1		Wearer has Innate Defence (5+). In addition, all Magic Weapons worn by enemy models in base contact count as their mundane equivalent.	^	^	
+dmwsh3	Warp Shield	ward	MAr	50	99	itst:race=dm&type=kldaemon;icnt:1;base:sv-2		Wearer has Innate Defence (5+). In addition, all Magic Weapons worn by enemy models in base contact count as their mundane equivalent.	^	^	
+dmborb	Black Orb	ench	Enc	25	1	itst:race=dm;icnt:1		Lore of Light spells cast by enemy wizards has a -2 modifier to their casting rolls.	^	^	
+dmwing	Blazing Wings	ench	Enc	35	99	itst:race=dm&type=tdaemon;icnt:1		Fly (10)	^	^	
+dmburst	Burst of Speed	ench	Enc	15	1	itst:race=dm;icnt:1		One use only may be activated at the start of the player turn. Wearer has +2 M	^	^	
+dmflick	Flicker of Change	ench	Enc	35	99	itst:race=dm&(type=tdaemon|type=tldaemon);icnt:1		The Daemon may reroll a single D6, two times throughout the game. This can be any dice from either a Magic Dice, Spell Effects, To Wound, To Hit, Saves, Charge Distance, Pursue Distance, or one of the dice for an LD tests.	^	^	
+dminsp	Inspirit	ench	Enc	25	1	itst:race=dm;icnt:1		Wearer has +1 ld.	^	^	
+dmtrinkc	Trinket of the Dark Gods - Change	ench	Enc	25	1	itst:race=dm&(type=tdaemon|type=tldaemon);icnt:1		Bound Spell , Power Level 3: Change : Bolt of Change (#3 in Path of Change)	^	^	
+dmtrinkl	Trinket of the Dark Gods - Lust	ench	Enc	25	1	itst:race=dm&(type=sdaemon|type=sldaemon);icnt:1		Bound Spell , Power Level 3: Lust : Hysterical Frenzy (#3 in Path of Lust)	^	^	
+dmtrinkp	Trinket of the Dark Gods - Pestilence	ench	Enc	25	1	itst:race=dm&(reg=dmhrldn|reg=dmguo);icnt:1		Bound Spell , Power Level 3: Pestilence : Breath of Corruption (#1 in Path of Disease)	^	^	
+dmtrinkw	Trinket of the Dark Gods - Wrath	ench	Enc	25	1	itst:race=dm&(type=kdaemon|type=kldaemon);icnt:1		One use only. Instead of making a Dispel roll, you can use the trinket. The Wizard casting the spell cannot cast the same spell during the next Game Turn. 	^	^	
+dmunset	Unsettling Presence	ench	Enc	25	1	itst:race=dm;icnt:1		Enemy units in base contact have to re-roll successful leadership test.	^	^	
+dmmind	Eternal Mind	wzrd	Arc	50	99	itst:race=dm&(type=tdaemon|type=tldaemon);icnt:1		Wearer has the Pathmaster special rule.	^	^	
+dmanti	Mark of Anti-magic	wzrd	Arc	35	1	itst:race=dm;icnt:1		One use only. Instead of making a Dispel roll, you can use the item. The spell is automatically Dispelled.	^	^	
+dmmirr	Mirror Mind	wzrd	Arc	40	99	itst:race=dm&(type=tdaemon|type=tldaemon);icnt:1		At the start of its own magic phase wearer can choose any enemy wizard within LoS and 30”. This phase, the wearer can cast the same spells as target, instead of his own spells. Randomize spells, if the target wizards knows more than wearer. Ignore spells that create new unit or raise models.	^	^	
+dmhole	Portal Hole	wzrd	Arc	30	1	itst:race=dm;icnt:1		The first time wearer miscast, it may chose to ignore the effects of the miscast. If so, the spell fails.	^	^	
+dmlode	Sorcerers Lodestone	wzrd	Arc	25	1	itst:race=dm;icnt:1		One use only. After rolling a casting or dispelling attempt, the wearer can increase the dispel or casting roll by a +D6 modifier. Note that this is not a magic dice.	^	^	
+dmtome	Tome of Arcane Lore	wzrd	Arc	25	1	itst:race=dm;icnt:1		The wearer knows one additional spell.	^	^	
+dmtenerg	Trickling Energy	wzrd	Arc	25	99	itst:race=dm&(type=tdaemon|type=tldaemon);icnt:1		May use any of the battle magic paths except Path of Light.	^	^	
+dmnurgl0	0: Stream of Corruption	spel	N/A	0	99	itst:(type=ndaemon|type=nurgleprince|type=heraldnurgle|type=kugrath);xtot		Signature spell. Direct damage. 7+ to cast. Place flame template touching caster's base. Any models hit must test Toughnes or suffer 1 Wound with no armour saves.	 ^	^	
+dmnurgl1	1: Miasma of Pestilence	spel	N/A	0	99	itst:(type=ndaemon|type=nurgleprince|type=heraldnurgle|type=kugrath);xtot		Augment. 5+ to cast, 18" Range, all enemy units in base contact with target reduce WS and In by 1. OR 10+ to cast, to reduce WS and In by D3 instead.	 ^	^	
+dmnurgl2	2: Blades of Putrefaction	spel	N/A	0	99	itst:(type=ndaemon|type=nurgleprince|type=heraldnurgle|type=kugrath);xtot		Augment. 8+ to cast, Range 12", target gains Poisoned Attacks until start of caster's next Magic phase. If target already had poisoned attacks, they now work on 5+.	 ^	^	
+dmnurgl3	3: Curse of the Leper	spel	N/A	0	99	itst:(type=ndaemon|type=nurgleprince|type=heraldnurgle|type=kugrath);xtot		Hex/Augment. 10+ to cast, Range 18" OR 13+ to cast, Range 36". Increase friendly unit's T by D3 (to a maximum of 10) or decrease enemy unit's T by D3 (to a minimum of 1). Lasts until start of caster's next Magic phase.	 ^	^	
+dmnurgl4	4: Rancid Visitations	spel	N/A	0	99	itst:(type=ndaemon|type=nurgleprince|type=heraldnurgle|type=kugrath);xtot		Magic Missile. 10+ to cast, Range 18", D6 S5 hits. Target must then test its T. If passed spell ends, if failed he suffers another D6 S5 hits. Repeat until target pass its T or dies.	 ^	^	
+dmnurgl5	5: Fleshy Abundance	spel	N/A	0	99	itst:(type=ndaemon|type=nurgleprince|type=heraldnurgle|type=kugrath);xtot		Augment. 11+ to cast, Range 18", unit gains Regenerate (5+) until start of caster's next Magic phase. If target already had Regeneration, it is increased by 1 (to a maximum of 2+). OR can be cast on 22+ to target all friendly units within 18".	 ^	^	
+dmnurgl6	6: Plague Wind	spel	N/A	0	99	itst:(type=ndaemon|type=nurgleprince|type=heraldnurgle|type=kugrath);xtot		Magical Vortex. Remains in Play. 15+ to cast, small template OR 25+ to cast, large template. Place the template, roll artillery dice and multiply result by caster's magic level - this is how far template travels. If missfire is rolled center template on the caster and scatter it his magic level's number of inches, Any model touched must pass Toughness test os suffers 1 Wound with no armour saves. In subsequent magic phases template moves in random direction by number of inches equal to the roll on artillery dice.	 ^	^	
+dmchart1	A: 5 or less	spel	N/A	0	50	xtot;itst:reg=dmhorror		none	^	^	
+dmslnsha	Attr: Born of Damnation	spel	N/A	0	99	itst:(type=sdaemon|type=slaaneshprince|type=heraldslaanesh);xtot		Slaanesh Lore Attribute. When spell from the lore of Slaanesh causes one or more unsaved Wounds, choose unit of Daemonettes or Fiends of Slaanesh within 12" and roll D6 per Wound caused. Daemonettes add 1 model to the unit for each roll of 5+. Fiends add 1 model for each roll of 6.	 ^	^	
+dmnurgla	Attr: Children of Nurgle	spel	N/A	0	99	itst:(type=ndaemon|type=nurgleprince|type=heraldnurgle|type=kugrath);xtot		Nurgle Lore Attribute. When spell from the lore of Nurgle causes one or more unsaved Wounds, choose unit of Plaguebearers of Nurglings within 12" and roll D6 per Wound caused. Plaguebearers add 1 model to the unit for each roll of 5+. Nurgling add single base for each roll of 6.	 ^	^	
+dmtztcha	Attr: Fires of Change	spel	N/A	0	99	itst:(type=tdaemon|type=tzeentchprince|type=heraldtzeentch|type=kairos);xtot		Tzeentch Lore Attribute. When spell from the lore of Tzeentch causes one or more unsaved Wounds (exluding those dealt by Warpfire special rule), choose unit of Pink Horrors or Screamers within 12" and roll D6 per Wound caused. Horrors add 1 model to the unit for each roll of 4+. Screamers add 1 model for each roll of 6.	 ^	^	
+dmchart2	B:  6 - 15 : Level 1	spel	N/A	0	50	itst:reg=dmhorror;xtot		Flickering Flames: 4+ MM Rng 18" d6+1 hits, str d6+1, +1 Casting and +1 Dispell Dice (not shown in total)	^	^	
+dmchart3	C: 16 - 25 : Level 2	spel	N/A	0	50	xtot;itst:reg=dmhorror		Gifts of Chaos: 9+ Enemy units within 12" suffer d6 str d6 hits as shooting, +2 Casting and +1 Dispell Dice (not shown in total)	^	^	
+dmchart4	D: 26 - 35 : Level 3	spel	N/A	0	50	xtot;itst:reg=dmhorror		Bolt of Change: 12+ MM, Rng 18" 2d6 str d6+4, +3 Casting and +2 Dispell Dice (not shown in total)	^	^	
+dmchart5	E:       36+ : Level 4	spel	N/A	0	50	xtot;itst:reg=dmhorror		13+ MM Rng 24" 2d6 str 5, After panic tests, for every 3 unsaved wounds a Pink Horror is created within 3' of target unit, +4 Casting and +2 Dispell Dice (not shown in total) 	^	^	
+dmslnsh0	Sl0: Lash of Slaanesh	spel	N/A	0	99	itst:(type=sdaemon|type=slaaneshprince|type=heraldslaanesh);xtot		Signature spell. Direct damage. 6+ to Cast, Range 24". Extend straight line from the caster. Any models under the line suffer S3 Armour Piercing hit.	 ^	^	
+dmslnsh1	Sl1: Acquiescence	spel	N/A	0	99	itst:(type=sdaemon|type=slaaneshprince|type=heraldslaanesh);xtot		Hex. 6+ to Cast, Range 24" OR 9+ to cast, Range 48". Target unit gains Always Strike Last and Random Movement (D6) until start of caster's next Magic phase.	 ^	^	
+dmslnsh2	Sl2: Pavane of Slaanesh	spel	N/A	0	99	itst:(type=sdaemon|type=slaaneshprince|type=heraldslaanesh);xtot		Direct damage. 7+, Range 24" OR 10+ to cast, Range 48". Choose single enemy model, which must then pass its Ld on 3D6 or will suffer 1 Wound with no armour saves.	 ^	^	
+dmslnsh3	Sl3: Hysterical Frenzy	spel	N/A	0	99	itst:(type=sdaemon|type=slaaneshprince|type=heraldslaanesh);xtot		Hex/Augment. Remains in Play. 8+ to cast, Range 24". Target single unit (FoF). Unit gains Frenzy that cannot be lost for as long as spell lasts. If already frenzied, unit gains +2 Attacks instead of 1. Unit takes D6 S3 hits at the end of each of the caster's Magic phases.	 ^	^	
+dmslnsh4	Sl4: Slicing Shards	spel	N/A	0	99	itst:(type=sdaemon|type=slaaneshprince|type=heraldslaanesh);xtot		Magic missile. 10+ to cast, Range 24". Cause D6 S4 Armour piercing hits. Target must then test its Ld. If passed spell ends, if failed he suffers another D6 S4 Armour piercing hits. Repeat until target pass its Ld or dies.	 ^	^	
+dmslnsh5	Sl5: Phantasmagoria	spel	N/A	0	99	itst:(type=sdaemon|type=slaaneshprince|type=heraldslaanesh);xtot		Hex. 10+ to cast, Range 24". Until the start of caster's next Magic phase target unit must pass its Ld tests on 3D6 discarding lowest result rolled, OR 20+ to cast to target all enemy units within 24".	 ^	^	
+dmslnsh6	Sl6: Cacophonic Choir	spel	N/A	0	99	itst:(type=sdaemon|type=slaaneshprince|type=heraldslaanesh);xtot		Hex. 12+ to cast, Range 12". Target suffers 2D6 hits that wound on 4+ with no armour saves allowed. If target suffers at least 1 Wound, it gains Always Strikes Last and Random Movement (D6) until start of caster's next Magic phase.  OR 24+ to cast to target all enemy units within 12".	 ^	^	
+dmtztch0	Tz0:BlueFire of Tzeentch	spel	N/A	0	99	itst:(type=tdaemon|type=tzeentchprince|type=heraldtzeentch|type=kairos);xtot		Signature spell. Magic missile. 5+ to cast, Range 24" OR 8+ to cast, Range 48". Cause D6 SD6 hits with Warpflame.	 ^	^	
+dmtztch1	Tz1:Treason of Tzeentch	spel	N/A	0	99	itst:(type=tdaemon|type=tzeentchprince|type=heraldtzeentch|type=kairos);xtot		Hex. 7+ to cast, Range 24" OR 10+ to cast, Range 48". Target unit must use lowest Ld in the unit and may not use Inspiring Presence nor Stand Your Ground rules, until start of caster's next Magic phase.	 ^	^	
+dmtztch2	Tz2:PinkFire of Tzeentch	spel	N/A	0	99	itst:(type=tdaemon|type=tzeentchprince|type=heraldtzeentch|type=kairos);xtot		Direct damage. 8+ to cast. Place flame template touching caster's base and aimed at the target then move it by the result on artillery dice. If missfire is rolled template does not move. Model touched suffer SD6 hit with Warpflame.	 ^	^	
+dmtztch3	Tz3:Bolt of Change	spel	N/A	0	99	itst:(type=tdaemon|type=tzeentchprince|type=heraldtzeentch|type=kairos);xtot		Magic missile. 8+ to cast, Range 24". Single model is hit with SD6+4, Multiple Wounds (D3) and Warpflame, then Bolt penetrates ranks like bolt thrower. No armour saves.	 ^	^	
+dmtztch4	Tz4:Glean Magic	spel	N/A	0	99	itst:(type=tdaemon|type=tzeentchprince|type=heraldtzeentch|type=kairos);xtot		Direct damage. 8+ to cast. Target enemy Wizard within 18". Both caster and target roll D6 and add their magic levels. If target's total is higher, nothing happens. If caster's total is higher enemy Wizard suffers S3 hit, loses magic level and random spell. That spell is then added to caster's spells. Stolen spells use Tzeentch Lore Attribute when cast.	 ^	^	
+dmtztch5	Tz5:Tzeentch's Firestorm	spel	N/A	0	99	itst:(type=tdaemon|type=tzeentchprince|type=heraldtzeentch|type=kairos);xtot		Direct damage. 13+ to cast. Place small template within 30" and scatter it D6". All models touched suffer SD6 hit with Warpflame. OR 16+ to cast to use large template which scatters 2D6".	 ^	^	
+dmtztch6	Tz6:Infernal Gateway	spel	N/A	0	99	itst:(type=tdaemon|type=tzeentchprince|type=heraldtzeentch|type=kairos);xtot		Direct damage. 16+ to cast, Range 24". Target suffers 2D6 St 2D6 hits. If an 11 or 12 is rolled for Str value, target suffers 3D6 hits instead, resolved at St10. Warpfire.	 ^	^	
+dmaura	Aura of Slaanesh	cgif	N/A	0	1	itst:reg=dmazaz		Unit in BtB -1 Ld (min 2 - not cumulative)	^	^	
+dmdblade	Daemonblade	cgif	N/A	0	1	itst:reg=dmazaz		No AS	^	^	
+dmmusk1	Soporific Musk	cgif	N/A	0	1	itst:reg=dmazaz		Models in BtB halve WS and I (rounding up)	^	^	
+dmallure	Allure of Slaanesh	unk2	N/A	25	99	itst:type=sdaemon|type=slaaneshprince|type=heraldslaanesh;icnt:1		Enemies wishing to strike bearer must pass Ld test no attacks this round	^	^	
+dmaok	Armour of Khorne	unk2	MAr	15	99	itst:type=kdaemon|type=khorneprince|type=heraldkhorne;base:Sv-4;icnt:1;type:MagicArmour		AS 3+	^	^	
+dmastr	Awesome Strength	unk2	N/A	75	99	itst:type=kdaemon;base:St=10;icnt:1		Daemon has Strength 10	^	^	
+dmaxekn	Axe of Khorne	unk2	N/A	25	99	itst:type=kdaemon|type=khorneprince;icnt:1		Killing Blow	^	^	
+dmbalesw	Balesword	unk2	MWp	75	99	itst:type=ndaemon;icnt:1		All hits auto wound, d6 multiwound weapon	^	^	
+dmbanchg	Banner of Change	unk2	N/A	25	100	itst:type=horrors&race=dm;type:MagicBanner	bsb=incl	Bound lvl 3, One unit in B2B takes 3d6 str3 hits	^	^	
+dmectasy	Banner of Ectasy	unk2	N/A	25	100	itst:type=daemonette&race=dm;type:MagicBanner	bsb=incl	Unit is Stubborn for first Break Test	^	^	
+dmhellfr	Banner of Hellfire	unk2	N/A	100	100	type:MagicBanner;itst:race=dm	bsb=incl	Bound lvl 5, During friendly magic phase, d6 str 6 hits on all enemy units within 12", even if in CC	^	^	
+dmunholy	Banner of Unholy Victory 	unk2	N/A	50	100	type:MagicBanner;itst:race=dm	bsb=incl	+d3 to combat res	^	^	
+dmbob	Blade of Blood	unk2	N/A	0	1	itst:type=heraldkhorne|type=kdaemon;stat:St+1		Magic Weapon. Strength +1, Killing Blow.	For informative purposes only - you must buy a roll on Lesser Gifts table to acquire this weapon.	Magic Weapon. Strength +1, Killing Blow.	
+dmclrok	Collar of Khorne	unk2	Wep	15	99	itst:type=kdaemon|type=khorneprince;icnt:1		MR(3)	^	^	
+dmprobes	Daemonic Robes	unk2	N/A	25	99	itst:type=prince;icnt:1		Model never wounded on better than a 3+	^	^	
+dmrobes	Daemonic Robes	unk2	N/A	25	99	itst:type=tdaemon|type=sdaemon|type=heraldkhorne|type=heraldtzeentch|type=heraldslaanesh|type=kairos;icnt:1		Model never wounded on better than a 3+	^	^	
+dminsnty	Dark Insanity	unk2	N/A	55	99	itst:type=kdaemon;stxt:At="2d6+2";icnt:1		Daemon replaces normal number of attacks with 2d6+2	^	^	
+dmmagst	Dark Magister	unk2	N/A	25	99	itst:type=tdaemon|type=tzeentchprince;icnt:1		Ignore results of first Miscast	^	^	
+dmgaze	Enrapturing Gaze	unk2	N/A	25	99	itst:type=sdaemon|type=heraldslaanesh;icnt:1		Models in B2B may not use another's Ld	^	^	
+dmpgaze	Enrapturing Gaze	unk2	N/A	25	99	itst:type=prince;icnt:1		Models in B2B may not use another's Ld	^	^	
+dmeblade	Etherblade	unk2	N/A	50	99	itst:type=sdaemon|type=heraldkhorne|type=heraldslaanesh;icnt:1		No AS	^	^	
+dmpblad	Etherblade	unk2	N/A	50	99	itst:type=prince;icnt:1		No AS	^	^	
+dmgift3	Exalted Gift	unk2	N/A	75	100	icnt:1;itst:!type=kairos		Gift/Artefact chosen:	Roll on the Exalted Gifts Table. If you are unhappy with the result you may instead choose one of Hellforged Artefacts - each of them can only be chosen once per army. Look for the tables in the Others section.	Gift/Artefact chosen:	
+dmfblade	Firestorm Blade	unk2	N/A	25	99	itst:type=kdaemon|type=khorneprince|type=heraldkhorne;stat:St+1;icnt:1		+1 Str, Flaming Attacks in CC	^	^	
+dmflames	Flames of Tzeentch	unk2	N/A	25	99	itst:type=tdaemon|type=tzeentchprince|type=heraldtzeentch;icnt:1		may fire d6 str4 Range 18" bolts treated as shooting, may Stand and Shoot, not a Multiple Shot attack.	^	^	
+dmdspair	Great Icon of Despair	unk2	N/A	75	100	type:MagicBanner;itst:race=dm	bsb=incl	All enemy units within 12" suffer -2 to their LD	^	^	
+dmsunder	Great Standard of Sundering	unk2	N/A	50	100	type:MagicBanner;itst:race=dm	bsb=incl	After deployment but before first turn roll, choose a lore of magic. All wizards suffer -2 to cast from this lore. Additionally, any spells cast from the Lore of Light miscast on double 1's, 2's, or 3's	^	^	
+dmgift2	Greater Gift	unk2	N/A	50	100	icnt:2;itst:!type=kairos		Gift/weapon chosen:	Roll on the Greater Gifts Table. If you are unhappy with the result you may instead choose Magic Weapon from RB of value up to 50 pts, or choose a special weapon of deamon's patron god. Look for the tables in the Others section.	Gift/weapon chosen:	
+dmioew	Icon of Endless War	unk2	N/A	25	100	itst:(type=bldletters|type=bloodcrusher)&race=dm;type:MagicBanner	bsb=incl	Unit adds d6 to first charge move	^	^	
+dmvirul	Icon of Eternal Virulence	unk2	N/A	25	100	itst:type=plaguebearer&race=dm;type:MagicBanner	bsb=incl	Each wound caused in CC by the units poisoned attacks count as 2 for combat res	^	^	
+dmiosorc	Icon of Sorcery	unk2	N/A	15	100	itst:type=horrors&race=dm;type:MagicBanner	bsb=incl	Unit gains +1 bonus to casting, does not include any heroes who may have joined	^	^	
+dmfury	Immortal Fury	unk2	N/A	25	99	itst:type=kdaemon;icnt:1		Re-roll missed hits in CC	^	^	
+dmpfury	Immortal Fury	unk2	N/A	25	99	itst:type=prince;icnt:1		Re-roll missed hits in CC	^	^	
+dmcorona	Iredescent Corona	unk2	N/A	25	99	itst:type=tdaemon|type=heraldtzeentch;icnt:1		Models in B2B suffer a str3 Flaming hit at beginning of combat phase (before any blows are struck)	^	^	
+dmpcoron	Iredescent Corona	unk2	N/A	25	99	itst:type=prince;icnt:1		Models in B2B suffer a str3 Flaming hit at beginning of combat phase (before any blows are struck)	^	^	
+dmgift1	Lesser Gift	unk2	N/A	25	100	icnt:2;itst:!type=kairos		Gift/weapon chosen:	Roll on the Lesser Gifts Table. If you are unhappy with the result you may instead choose Magic Weapon from RB of value up to 25 pts, or choose a special weapon of deamon's patron god. Look for the tables in the Others section.	Gift/weapon chosen:	
+dmmam	Many Armed Monstrosity	unk2	N/A	50	99	itst:type=heraldslaanesh;base:At+2;icnt:1		+2 Attacks	^	^	
+dmpmany	Many Armed Monstrosity	unk2	N/A	50	99	itst:type=prince;base:At+2;icnt:1		+2 Attacks	^	^	
+dmmosorc	Master of Sorcery	unk2	N/A	25	99	itst:type=tdaemon|type=tzeentchprince|type=heraldtzeentch;type:master;icnt:1		May use any of the BRB Lores of magic and knows all spells from that lore	^	^	
+dmeurmas	Master of Sorcery (euro)	unk2	N/A	25	99	itst:type=heraldtzeentch;icnt:1		Loremaster (Daemon Lore of Tzeentch).	^	^	
+dmvapour	Noxious Vapours	unk2	N/A	25	99	itst:type=ndaemon|type=nurgleprince|type=heraldnurgle;icnt:1		Models in B2B always strike last, even losing Always Strike First	^	^	
+dmrot	Nurgle's Rot	unk2	N/A	25	99	itst:type=ndaemon|type=nurgleprince|type=heraldnurgle;icnt:1		All enemy models in B2B at start of magic phase take a wound on a roll of a 6, no AS	^	^	
+dmobamr	Obsidian Armour	unk2	MAr	50	99	itst:type=kdaemon|type=khorneprince|type=heraldkhorne;base:Sv-4;icnt:1;type:MagicArmour		AS 3+, Enemy Magic Weapons lose abilities while in BTB	^	^	
+dmmucus	Pestilent Mucus	unk2	N/A	25	99	itst:type=ndaemon|type=nurgleprince|type=heraldnurgle;icnt:1		All enemy models in B2B take a T test for every unsaved wound the bearer suffers or suffer a wound themselves with no AS 	^	^	
+dmvortex	Power Vortex	unk2	N/A	30	99	itst:type=tdaemon|type=tzeentchprince|type=heraldtzeentch;icnt:1		Additional Power dice to the power pool each of the controller's magic phases	^	^	
+dmsiren	Siren Song	unk2	N/A	25	99	itst:type=sdaemon|type=slaaneshprince|type=heraldslaanesh;icnt:1		One use Only; Rng 20" Before charges are declared the bearer may force a unit that normally could declare a charge on the beaer or his unit to declare a  charge against it or flee	^	^	
+dmsirnst	Siren Standard	unk2	N/A	25	100	itst:type=daemonette&race=dm;type:MagicBanner	bsb=incl	Unit charged by bearer may only Hold for a reaction, may not Stand and Shoot. No effect if charge out of range	^	^	
+dmtotem	Skull Totem	unk2	N/A	25	100	itst:(type=bldletters|type=bloodcrusher)&race=dm;type:MagicBanner	bsb=incl	Unit may March even when within 8" of an enemy	^	^	
+dmmusk	Soporific Musk	unk2	N/A	25	99	itst:type=sdaemon|type=slaaneshprince|type=heraldslaanesh;icnt:1		Units in B2B roll extra die for flee distance and discard highest 	^	^	
+dmhunger	Soul Hunger	unk2	N/A	25	99	itst:type=ndaemon|type=sdaemon|type=heraldkhorne|type=heraldnurgle;icnt:1		Model may re-roll failed to wound rolls in first round of combat	^	^	
+dmphungr	Soul Hunger	unk2	N/A	25	99	itst:type=prince;icnt:1		Model may re-roll failed to wound rolls in first round of combat	^	^	
+dmsplbrk	Spell Breaker	unk2	N/A	25	99	itst:type=kdaemon|type=khorneprince|type=heraldtzeentch;icnt:1		Exactly as a Dispell Scroll	^	^	
+dmspldtr	Spell Destroyer	unk2	N/A	50	99	itst:type=tdaemon|type=tzeentchprince;icnt:1		Exactly as Dispell Scroll, In addition spell is lost on a 4+	^	^	
+dmswallo	Spirit Swallower	unk2	N/A	100	99	itst:type=sdaemon;icnt:1		Gain one wound for every wound caused in CC, not above starting number	^	^	
+dmstfchg	Staff of Change	unk2	N/A	50	99	itst:type=tdaemon|type=tzeentchprince|type=heraldtzeentch;icnt:1		Any model suffering an unsaved wound must pass a T check or be slain	^	^	
+dmstfngl	Staff of Nurgle	unk2	N/A	50	99	itst:type=ndaemon|type=nurgleprince|type=heraldnurgle;icnt:1		Bound lvl3: casts Rancid Visitation once each magic phase	^	^	
+dmglory	Standard of Chaos Glory	unk2	N/A	125	100	type:MagicBanner;itst:race=dm	bsb=incl	All Daemons within 12" are stubborn	^	^	
+dmseep	Standard of Seeping Decay	unk2	N/A	25	100	itst:type=plaguebearer&race=dm;type:MagicBanner	bsb=incl	Models in unit may re-roll failed to wound rolls	^	^	
+dmbile	Stream of Bile	unk2	N/A	25	99	itst:type=ndaemon|type=nurgleprince|type=heraldnurgle;icnt:1		str4 Breath Weapon	^	^	
+dmtlcht1	Tally of Pestilence	unk2	N/A	0	50	xtot;itst:type=tallyman		Tally all unsaved wounds caused by nurgle daemons (on both sides). Effects are cumulative and effect both sides.	^	^	
+dmtemptr	Temptator	unk2	N/A	50	99	itst:type=sdaemon|type=slaaneshprince;icnt:1		One enemy Character in B2B with bearer must pass Ld test or attack friendly models, if none, no attacks	^	^	
+dmtblade	Torment Blade	unk2	N/A	5	99	itst:type=sdaemon|type=slaaneshprince|type=heraldslaanesh;icnt:1		A model suffering a wound from this blade may not attack this combat phase unless it passes a Ld test 	^	^	
+dmtrapng	Trappings of Nurgle	unk2	Arm	50	99	itst:type=ndaemon|type=nurgleprince;base:Sv-3;icnt:1		AS 4+ and Regeneration	^	^	
+dm2head	Twin Heads	unk2	N/A	75	99	itst:type=tdaemon|type=kairos;icnt:1		+2 to casting rolls	^	^	
+dmwill	Tzeentch's Will	unk2	N/A	70	99	itst:type=tdaemon|type=kairos;icnt:1		The Daemon may re-roll a single d6 once per player's turn. May cause IF or avoid a miscast	^	^	
+dmswift	Unnatural Swiftness 	unk2	N/A	25	99	itst:type=prince;icnt:1		Always Strikes First	^	^	
+dmpwings	Winged Horror	unk2	N/A	20	99	itst:type=prince;icnt:1		Fly	^	^	
+dmwings	Winged Horror	unk2	N/A	20	99	itst:type=heraldtzeentch;icnt:1		Fly	^	^	
+dmbellow	Bellow of Endless Fury	dgft	N/A	0	99	itst:type=skarbband;icnt:1		Strength 5 Breathweapon	^	^	
+dmkara1	Brass Collar of Bloody Vengeance	dgft	N/A	0	99	itst:reg=dmkarnk;icnt:1		Talisman. Magic Resistance (3). Enemy Wizard that miscasts within 12" suffer St10 hit before miscast is resolved.	^	^	
+dmcloak	Cloak of Skulls	dgft	N/A	0	99	itst:type=skulltaker;icnt:1;base:Sv-3		Magic Armour. Armour Save 4+.	^	^	
+dmdiarc2	Deamonic Arcane Items	dgft	N/A	25	99	itst:race=dm&type=harbringer		Roll D3, if not satisfied choose Mark Specific.  #1. Spell breaker. One use only.Spell is automatically Dispelled instead of making a dispel roll.#2. Sorcerers Lodestone. One use only. After rolling a magic dice, the bearer can increase the dispel or casting roll by D6. This is not a magic dice.#3. Unholy Sacrifice.Once per friendly Magic Phase, the wearer can choose to lose a Wo (with no saves allowed) and add a Power Dice to the Power Pool. #Mark specific #Pestilence:Staff of Pestilence. Staff of Pestilence.Bound Spell PL 3. Contains the spell Breath of Corruption (Path of Corruption).#Lust: Temptator:Enemy wizards within 18" of of or more models with this item has a -2 to casting roll. #Change: Master of Sorcery: TWearer knows one more spell	^	^	
+dmdiarca	Deamonic Arcane Items	dgft	N/A	25	99	itst:race=dm&!type=harbringer		Roll D3, if not satisfied choose Mark Specific.  #1. Spell breaker. One use only.Spell is automatically Dispelled instead of making a dispel roll.#2. Sorcerers Lodestone. One use only. After rolling a magic dice, the bearer can increase the dispel or casting roll by D6. This is not a magic dice.#3. Unholy Sacrifice.Once per friendly Magic Phase, the wearer can choose to lose a Wo (with no saves allowed) and add a Power Dice to the Power Pool. #Mark specific #Pestilence:Staff of Pestilence. Staff of Pestilence.Bound Spell PL 3. Contains the spell Breath of Corruption (Path of Corruption).#Lust: Temptator:Enemy wizards within 18" of of or more models with this item has a -2 to casting roll. #Change: Master of Sorcery: TWearer knows one more spell	^	^	
+dmdienc2	Deamonic Enchanted Items	dgft	N/A	25	99	itst:race=dm&type=harbringer		Roll D3, if not satisfied choose Mark Specific.  #1.False Saint.Enemy units within 6" has -1 Ld.#2. Dark Glory. Friendly Daemonic units within 12” lose one less Wo from failed break tests..#3. Skill Swallower.Whenever the wearer kills an enemy non-champion character, the wearer increases one characteristic. #Mark specific #Wrath: Armour of Wrath : Asv +2. #Pestilence:Spray of Corruption. Wearer has a Breath Weapon (S2 AP(4)) #Lust: Siren's Melody:One use only. At the beginning of your opponent's charges sub-phase. You may choose an enemy unit within 18" of the wearer. This unit must pass a Ld-test or charge the wearer, if able to. #Change: Fire of Change: Wearer has +1 BS and the Flames of Change weapon (Range: 18” S4, Multiple Shots (D6), Quick to Fire, Hellfire)	^	^	
+dmdiench	Deamonic Enchanted Items	dgft	N/A	35	99	itst:race=dm&!type=harbringer		Roll D3, if not satisfied choose Mark Specific.  #1.False Saint.Enemy units within 6" has -1 Ld.#2. Dark Glory. Friendly Daemonic units within 12” lose one less Wo from failed break tests..#3. Skill Swallower.Whenever the wearer kills an enemy non-champion character, the wearer increases one characteristic. #Mark specific #Wrath: Armour of Wrath : Asv +2. #Pestilence:Spray of Corruption. Wearer has a Breath Weapon (S2 AP(4)) #Lust: Siren's Melody:One use only. At the beginning of your opponent's charges sub-phase. You may choose an enemy unit within 18" of the wearer. This unit must pass a Ld-test or charge the wearer, if able to. #Change: Fire of Change: Wearer has +1 BS and the Flames of Change weapon (Range: 18” S4, Multiple Shots (D6), Quick to Fire, Hellfire)	^	^	
+dedital2	Deamonic Talisman	dgft	N/A	25	99	itst:race=dm&type=harbringer		Roll D3, if not satisfied choose Mark Specific.  #1. Daemonic Splendor. Wearer has 4+ ward save#2. Impenetrable Skin. Wearer has +1 Toughness.#3. Immaterial Form. Ignore the first Wound suffered by the wearer. #Mark specific #Wrath: Warcollar : MR is increased by +2. #Pestilence:Toxic Vapors. Units in base contact with the wearer (without the Mark of the Dark Gods (Pestilence)) have I=1 #Lust: Allure of Lust:Units in base contact with the wearer have -1 WS. Models with Mark of the Dark Gods (Lust) are unaffected. #Change: Ether Wands: Two Hand Weapons. Successful Ward Saves against Wounds caused by this weapon must be rerolled.	^	^	
+dmditali	Deamonic Talisman	dgft	N/A	25	99	itst:race=dm&!type=harbringer		Roll D3, if not satisfied choose Mark Specific.  #1. Daemonic Splendor. Wearer has 4+ ward save#2. Impenetrable Skin. Wearer has +1 Toughness.#3. Immaterial Form. Ignore the first Wound suffered by the wearer. #Mark specific #Wrath: Warcollar : MR is increased by +2. #Pestilence:Toxic Vapors. Units in base contact with the wearer (without the Mark of the Dark Gods (Pestilence)) have I=1 #Lust: Allure of Lust:Units in base contact with the wearer have -1 WS. Models with Mark of the Dark Gods (Lust) are unaffected. #Change: Ether Wands: Two Hand Weapons. Successful Ward Saves against Wounds caused by this weapon must be rerolled.	^	^	
+dediwea2	Deamonic Weapon	dgft	N/A	25	99	itst:race=dm&type=harbringer		Roll D3, if not satisfied choose Mark Specific.  #1. Ethersword : Hand Weapon. NoAsv #2. The Immortal Blade: Hand Weapon. A, S, Ws +1 #3. Double-edged Daemonsword: Hand Weapon. Multiple Wounds (2) #Mark specific #Wrath: Axe of Wrath: Hand Weapon. Multiple Wounds (3) on first round of CC #Pestilence: Blightsword: Hand Weapon. Multiple Wounds (D3) Poison. #Lust: Lash of Lust: Shooting weapon. Range 12". Strength as user. Quick to Fire, Multiple Shots (2D6). #Change: Ether Wands: Two Hand Weapons. Successful Ward Saves against Wounds caused by this weapon must be rerolled.	^	^	
+dmdiweap	Deamonic Weapon	dgft	N/A	50	99	itst:race=dm&!type=harbringer		Roll D3, if not satisfied choose Mark Specific.  #1. Ethersword : Hand Weapon. NoAsv #2. The Immortal Blade: Hand Weapon. A, S, Ws +1 #3. Double-edged Daemonsword: Hand Weapon. Multiple Wounds (2) #Mark specific #Wrath: Axe of Wrath: Hand Weapon. Multiple Wounds (3) on first round of CC #Pestilence: Blightsword: Hand Weapon. Multiple Wounds (D3) Poison. #Lust: Lash of Lust: Shooting weapon. Range 12". Strength as user. Quick to Fire, Multiple Shots (2D6). #Change: Ether Wands: Two Hand Weapons. Successful Ward Saves against Wounds caused by this weapon must be rerolled.	^	^	
+dmmissl	Necrotic Missiles	dgft	N/A	0	99	itst:type=kugrath;icnt:1		Magic Weapon. Launches Nurglings as Stone Thrower; Range 12-36", St5, Slow to Fire, No Armour Saves, Misfire = Squashed Nurgling (no Shot), may move and fire.	^	^	
+dminfest	Nurgling Infestation	dgft	N/A	0	99	itst:type=kugrath;icnt:1		At the start of each of your turns one Nurgling base within 6" regains single lost Wound.	^	^	
+dmrage	Rage Embodied	dgft	N/A	0	99	itst:type=skarbband;icnt:1		Can not lose Frenzy and ALL units on the table are subject to hatred.	^	^	
+dmscroll	Scrolls of Sorcery	dgft	N/A	0	99	itst:type=scribes;icnt:1		Each Friendly Magic phase the Blue Scribes may cast a single randomly generated spell from any of the 8 lores of magic in the Warhammer Rule Book chosen by the Bearer as a bound spell with power level equal to it's casting value.	^	^	
+dmsnc	Slaughter and Carnage	dgft	N/A	0	99	itst:type=skarbband;icnt:1;stat:At+1		Magic Weapon. +1 Attack and No Armour Saves allowed	^	^	
+dmslime	Slime Trail	dgft	N/A	10	99	itst:type=kugrath;icnt:1		Enemies do not gain combat resolution bonuses for attacking bearer flanks or rear	^	^	
+dmkairo1	Staff of Tomorrow	dgft	N/A	0	99	itst:type=kairos;icnt:1		Arcane Item. Controlling player may re-roll single D6 per turn.	^	^	
+dmskull2	The Slayer Sword	dgft	N/A	0	99	itst:type=skulltaker;icnt:1		Magic Weapon. Flaming Attacks & Killing Blow. In a challenge he gains Heroic Killing Blow.	^	^	
+dmtlcht2	Wounds =  0 - 6	dgft	N/A	0	50	xtot;itst:type=tallyman		No Effect	^	^	
+dmtlcht3	Wounds =  7+	dgft	N/A	0	50	xtot;itst:type=tallyman		All Daemons of Nurgle gain +1 Strength.	^	^	
+dmtlcht4	Wounds = 14+	dgft	N/A	0	50	xtot;itst:type=tallyman		All Daemons of Nurgle gain +1 Toughness.	^	^	
+dmtlcht5	Wounds = 21+	dgft	N/A	0	50	xtot;itst:type=tallyman		All Daemons of Nurgle gain Killing Blow.	^	^	
+dmtlcht6	Wounds = 28+	dgft	N/A	0	50	xtot;itst:type=tallyman		All Daemons of Nurgle re-roll failed Ward saves.	^	^	
+^
+^
+^
+dmthrstr	general	cost
+dmthrstr	dmha	incl
+dmchange	general	cost
+dmchange	dmtzlvl4	cost
+dmchange	dmtzlvl3	incl
+dmchange	dmlorett	cost
+dmchange	dmfullt	hide
+dmchange	dmshowt	hide
+dmchange	mgfull	hide
+dmchange	mgshow	hide
+dmchange	mgmiscas	cost
+dmchange	dmmkch	incl
+dmguo	general	cost
+dmguo	dmlvl3lo	cost
+dmguo	dmlvl2lo	cost
+dmguo	dmloretn	cost
+dmguo	dmfulln	hide
+dmguo	dmshown	hide
+dmguo	dmlvl1lo	incl
+dmkeeper	general	cost
+dmkeeper	dmlvl4lo	cost
+dmkeeper	dmlvl3lo	cost
+dmkeeper	dmlvl2lo	cost
+dmkeeper	dmlorets	cost
+dmkeeper	dmfulls	hide
+dmkeeper	dmshows	hide
+dmletter	mus10	cost
+dmletter	dmblchmp	cost
+dmletter	stmg10	cost
+dmhorror	mus10	cost
+dmhorror	dmhrchmp	cost
+dmhorror	stmg10	cost
+dmpbears	mus10	cost
+dmpbears	dmpchmp	cost
+dmpbears	stmg10	cost
+dmettes	mus10	cost
+dmettes	dmdchmp	cost
+dmettes	stmg10	cost
+dmseekr	dmdmchmp	cost
+dmseekr	mus10	cost
+dmseekr	stmg10	cost
+dmseekr	dmsteed	appl
+dmbcrsh	mus10	cost
+dmbcrsh	dmbcchmp	cost
+dmbcrsh	stmg10	cost
+dmflamer	dmfchmp	cost
+dmprince	general	cost
+dmprince	mgfull	hide
+dmprince	mgshow	hide
+dmprince	dmloretb	hide
+dmprince	dmdpmktb	cost
+dmprince	dmalore	incl
+dmprince	dmloretn	hide
+dmprince	dmlorett	hide
+dmprince	mgmiscas	hide
+dmprince	dmlevelt	cost
+dmprince	dmchaarm	cost
+dmprince	dmfly8	cost
+dmbcrsh	dmjugg	appl
+dmhrldk	dmjuggm	cost
+dmhrldt	dmlvl1	incl
+dmhrldt	mgfull	hide
+dmhrldt	mgshow	hide
+dmhrldt	dmlorett	cost
+dmhrldt	dmshowt	hide
+dmhrldt	dmfullt	hide
+dmhrldt	dmdisc	cost
+dmhrldt	dmchrtz	cost
+dmhrldn	dmlvl1	cost
+dmhrldn	dmloretn	hide
+dmhrldn	dmshown	hide
+dmhrldn	dmfulln	hide
+dmguo	mgmiscas	cost
+dmkeeper	dmlvl1lo	incl
+dmhrldn	dmpalaqn	cost
+dmhrlds	dmlvl1	cost
+dmhrlds	dmlorets	hide
+dmhrlds	dmshows	hide
+dmhrlds	dmfulls	hide
+dmhrlds	dmsteed	cost
+dmhrldk	btnostn3	incl
+dmchrtk	dmjugg	incl
+dmhrlds	dmchrts	cost
+dmchrtz	dmchtscm	incl
+dmhrldt	general	cost
+dmhrldk	btstand	cost
+dmhrldk	general	cost
+dmhrldk	dmklo1	cost
+dmhrldn	general	cost
+dmhrlds	general	cost
+dmhrldt	btnostn3	incl
+dmhrldn	btnostn3	incl
+dmhrlds	btnostn3	incl
+dmhrldt	btstand	cost
+dmhrldn	btstand8	cost
+dmhrlds	btstand	cost
+dmhrldt	mgmiscas	hide
+dmguo	mgshow	hide
+dmhrldn	mgmiscas	hide
+dmhrlds	mgmiscas	hide
+dmhrldt	dmlvl2	cost
+dmkeeper	mgmiscas	cost
+dmguo	mgfull	hide
+dmskarb	general	cost
+dmkairos	dmtzlvl4	incl
+dmkairos	general	cost
+dmkgrath	dmnhlvl1	incl
+dmkgrath	dmshown	cost
+dmkgrath	dmfulln	cost
+dmskltkr	dmjuggm	cost
+dmskltkr	general	cost
+dmkgrath	general	cost
+dmskltkr	dmblothr	cost
+dmscribe	general	cost
+dmkairos	mgmiscas	cost
+dmepid	dmpalaqn	incl
+dmepid	general	cost
+dmepid	dmtalcht	cost
+dmmasq	general	cost
+dmskchrt	dmjugg	incl
+dmazaz	general	cost
+dmazaz	mgmiscas	hide
+dmazaz	dmfulls	hide
+dmazaz	dmshows	hide
+dmazaz	dmignore	incl
+dmazaz	dmdplvl2	incl
+dmazaz	dmslnsh	incl
+dmazaz	dmchoice	cost
+dmtapoxr	mus5	cost
+dmtapoxr	dmtapoch	cost
+dmtapoxr	st10	cost
+dmtapoxr	dmtaplat	incl
+dmexscmt	dmexscc1	incl
+dmhrlds	mgshow	hide
+dmexscha	dmexscc2	incl
+dmhelfla	dmhelfla	incl
+dmsoulgr	dmsoulg1	cost
+dmsoulgr	dmsoulg3	cost
+dmsoulgr	dmsoulg4	cost
+dmsoulgr	dmfur01	cost
+dmseecha	dmseecha	incl
+dmskarb	dmha	incl
+dmthrstr	dmmkwr	incl
+dmskarb	frenzy	incl
+dmkairos	dmfullt	hide
+dmkairos	dmshowt	cost
+dmkairos	dmtztch	incl
+dmgiftta	dmgifts1	cost
+dmgiftta	dmgifts2	cost
+dmgiftta	dmgifts3	cost
+dmkeeper	mgshow	hide
+dmkeeper	mgfull	hide
+dmhrlds	mgfull	hide
+dmhrlds	dmslo1	cost
+dmhrldn	mgshow	hide
+dmhrldn	mgfull	hide
+xxhor7th	mus6	cost
+xxhor7th	dmhrchmp	cost
+xxhor7th	stmg12	cost
+xxhor7th	dmhchart	cost
+xxhor7th	dmhml1	incl
+xxhor7th	dmhml2	incl
+xxhor7th	dmhml3	incl
+xxhor7th	dmhml4	incl
+dmskltkr	dmklo1	incl
+dmkarnk	dmklog	incl
+dmscribe	dmdisc	incl
+dmchglng	dmtlo1	incl
+dmchglng	dmlvl1	incl
+dmepid	dmnlo1	incl
+dmhrldk	heromnt	hide
+dmhrldk	dmmkwr	incl
+dmhrldk	dmklog	cost
+dmhrldt	dmtlo1	cost
+dmhrldt	dmtlog	cost
+dmhrldn	dmnlo1	cost
+dmhrldn	dmlvl2	cost
+dmhrldn	dmnlog	cost
+dmhrlds	dmlvl2	cost
+dmhrlds	dmslog	cost
+dmhound	dmambush	cost
+dmfuries	dmfur01	cost
+dmfuries	dmfur02	cost
+dmfuries	dmfur03	cost
+dmfuries	dmfur04	cost
+dmskullk	dmlettcr	incl
+dmburnch	dmbuchcr	incl
+dmsoulgr	dmfur02	cost
+dmsoulgr	dmfur03	cost
+dmsoulgr	dmfur04	cost
+dmdrones	mus10	cost
+dmdrones	dmdronch	cost
+dmdrones	stmg10	cost
+dmdrones	dmrotfly	incl
+dmgiftta	dmreign	cost
+dmgiftta	dmmaweta	cost
+dmgiftta	dmhellfo	cost
+dmbsexfl	general	cost
+dmwrablo	general	cost
+dmwrablo	dmha	incl
+dmwrablo	dmwrablo	incl
+dmwrablo	frenzy	incl
+dmblofur	general	cost
+dmblofur	dmha	incl
+dmblofur	2ndhwlrd	incl
+dmblorag	general	cost
+dmblorag	dmha	incl
+dmblorag	2handlrd	incl
+dmblorag	frenzy	incl
+dmhrlds	dmmklu	incl
+dmhrchmp	dmlvl1	incl
+dmhrchmp	dmhorrsp	incl
+dmettes	dmadd10	auto
+dmettes	2ndhdlr2	cost
+dmpbears	dmtrail	cost
+dmpbears	dmdistr	cost
+dmpbears	dmmkpe	incl
+dmhorror	dmadd10	auto
+dmhorror	dmflar	cost
+dmhorror	dmmkch	incl
+dmletter	dmhellb	cost
+dmletter	dmmkwr	incl
+dmseekr	dmadd10	auto
+dmseekr	dmlclaw	cost
+dmseekr	dmelus	cost
+dmseecha	dmelus	appl
+dmseecha	dmlclaw	appl
+dmfiends	dmaddhw	cost
+dmfiends	dmlclaw	cost
+dmfiends	dmadd6	auto
+dmbeast	dmtrail	appl
+dmnrglng	dmadd10	auto
+dmbcrsh	dmhellb5	cost
+dmbcrsh	dmmkwr	incl
+dmfuries	dmadd20	auto
+dmdrones	dmadd0	auto
+dmskullk	dmmkwr	incl
+dmskullk	dmcannta	cost
+dmexscha	dmexau	incl
+dmsoulgr	dmaddhw	cost
+dmhrldk	dmin4	cost
+dmhrldt	dmmkch	incl
+dmhrlds	dm1att	cost
+dmhrldn	dmmkpe	incl
+dmprince	dmlorsdp	hide
+dmaltar	dmaltx	incl
+dmaltar	dmmkwr	incl
+dmletter	dmblsw	incl
+dmhound	dmmkwr	incl
+dmbcrsh	dmblsw	incl
+dmettes	dmmklu	incl
+dmseecha	dmmklu	incl
+dmseekr	dmmklu	incl
+dmfiends	dmmklu	incl
+dmflamer	dmmkch	incl
+dmscremr	dmmkch	incl
+dmburnch	dmmkch	incl
+dmkeeper	dmmklu	incl
+dmguo	dmmkpe	incl
+dmhrldn	dearcaen	hide
+dmpbears	dmnlo1	cost
+dmbeast	dmmkpe	incl
+dmnrglng	dmmkpe	incl
+dmdrones	dmmkpe	incl
+dmflamer	dmflame	incl
+dmsoulgr	dmsoulg0	incl
+dmburnch	dmexfl	incl
+dmhrldk	dmla	incl
+dmthrstr	dmklo1	cost
+dmthrstr	dmklog	cost
+dmletter	dmin5	cost
+dmletter	dmklou1	cost
+dmhound	dmadd15	auto
+dmhound	dmin4hh	cost
+dmhelfla	dmsoulr	incl
+dmskullk	dmblsw	incl
+dmkeeper	dmslo1	cost
+dmkeeper	dmslog	cost
+dmguo	dmlvl4lo	cost
+dmguo	dmnlog	cost
+dmguo	dmnlo1	cost
+dmguo	dmflail	cost
+dmchange	dmtlo1	cost
+dmchange	dmtlog	cost
+dmhrldt	dmflar	incl
+dmhrlds	dmlclaw	cost
+dmhrlds	dearcaen	hide
+dmprince	dmpois	cost
+dmhorror	dmtlo1	cost
+dmettes	dmslo1	cost
+dmflamer	dmadd02	auto
+dmhuntc	dmhuc	incl
+dmhuntc	dmmklu	incl
+dmnrglng	dmslime	incl
+dmbcrsh	dmin4jug	cost
+dmexscha	dmmonlu2	cost
+dmaltar	dmblfeas	incl
+dmsoulgr	dmpois	cost
+dmprince	dmloreu	hide
+dmprince	dearcaen	hide
+dmhrldn	dmflail	cost
+dmhrldn	dmhal	cost
+dmletter	dmmowr	free
+dmbcrsh	dmin6jug	incl
+dmhrldn	dmblfly	cost
+dmhrldk	dmin6	incl
+dmhorror	dmmonch1	cost
+dmflamer	dmmonch2	cost
+dmscremr	dmmonch2	cost
+dmburnch	dmmonch2	cost
+dmchange	dmmonch1	cost
+dmhrldt	dmmonch1	cost
+dmettes	dmmonlu1	cost
+dmfiends	dmmonlu2	cost
+dmhuntc	dmmonlu2	cost
+dmseekr	dmmonlu2	cost
+dmseecha	dmmonlu2	cost
+dmhelfla	dmmonlu2	cost
+dmkeeper	dmmonlu1	cost
+dmhrlds	dmmonlu1	cost
+dmthrstr	dmmonwr1	cost
+dmhrldk	dmmonwr1	cost
+dmletter	dmmonwr1	cost
+dmbcrsh	dmmonwr2	cost
+dmhound	dmmonwr2	cost
+dmaltar	dmmonwr2	cost
+dmskullk	dmmonwr2	cost
+dmguo	dmmonpe1	cost
+dmhrldn	dmmonpe1	cost
+dmpbears	dmmonpe1	cost
+dmbeast	dmmonpe2	cost
+dmnrglng	dmmonpe2	cost
+dmdrones	dmmonpe2	cost
+dmprince	dmmonwr2	cost
+dmprince	dmmonpe2	cost
+dmprince	dmmonlu2	cost
+dmprince	dmmonch2	cost
+xdmxscc1	dmlclaw	incl
+xdmxscc2	dmlclaw	incl
+xdmxscc2	dmlash	cost
+xdmxscc3	dmlclaw	incl
+dmhound	dmin6hh	incl
+^
+^
+dmmsg1	Daemonic Gifts	Devoted Daemon Princes may only take 50 points of gifts listed for the Greater Daemon of their god
+dmmsg5	Daemonic Gifts	Heralds may only take up to 50 points of Demonic Gifts!
+dmmsg2	Opponent's Approval	Need Opponent's Approval
+dmcormsg	Too much core	Only 2 Core units of the same type can be taken. If unit has same mark as general, or general is unbound ignore this limit. 
+dmrarmsg	Too much Rare	Only 1 Rare unit of the same type can be taken. If unit has same mark as general, or general is unbound ignore this limit. 
+dmspcmsg	Too much special	Only 2 Special unit of the same type can be taken. If unit has same mark as general, or general is unbound ignore this limit. 
+^

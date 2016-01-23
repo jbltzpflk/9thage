@@ -1,0 +1,164 @@
+Description: Kislev Allied Contingent (WD/Chronicles 2004)
+Version: 
+Author: 
+For comments, suggestions, and bugs go to:
+http://www.wcp-vancouver.com/forum/index.php
+^
+Kislev	ks	0			Lord:%max=25,Hero:%max=25,Core:%min=25,Spec:%max=50,Rare:%max=25		trat:boris@0u:icequeen@1u-msg=ksmsg17;hide	modified by DeBelial, 22-07-2010
+^
+emgryphn	Gryphon Legion		Special	Regiment		5	26	0	calc:Num=#;type:raregryphn;ipts:total=50-each=50;size:1-20-1-mode=zz;attr:Type="Ca"	umax:1u-msg=ksmsg5-istype=!icequeen;hide		Cavalry; Glorious Charge, Mercenaries		One Unit per army;Unit Size: 5+;;Lance, Heavy Armour, Shield		4	4	3	4	3	1	4	1	8	4	7	0	0	2	0	0	0
+kschamp5	Ataman		N/A	Champion	champ	1:1	15	0	coun	hide						4	4	4	3	3	1	3	2	7	7	7	0	0	1	0	0	0
+kschamp	Champion		N/A	Champion	champ	1:1	14	0	coun	hide						4	3	4	3	3	1	3	2	7	7	7	0	0	2	0	0	0
+kschamp2	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						4	3	3	3	3	1	3	2	7	7	7	0	0	1	0	0	0
+kschamp3	Champion		N/A	Champion	champ	1:1	16	0	coun	hide						4	4	3	4	3	1	4	2	8	3	7	0	0	2	0	0	0
+kschamp4	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						4	4	3	3	3	1	3	2	8	5	7	0	0	2	0	0	0
+ksrota	Rotamaster		N/A	Champion	champ	1:1	16	0	coun	hide						4	4	3	3	3	1	3	2	8	3	7	0	0	2	0	0	0
+ksurskin	Urskin		N/A	Mount	mount	1:1	90	0		hide		Monstrous Beast; Causes Fear, must always pursue (even if rider might prefer not to).				6	4	0	6	5	3	4	4	7	5	7	0	0	3	0	0	0
+kswrhrse	Warhorse		N/A	Mount	mount	1	0	0		hide						8	3	0	3	3	1	3	1	5	7	7	0	0	0	0	0	0
+ksboris	Boris Ursus, The Red Tzar		Lord	Lord		1:1	285	0	spec:+spec;take:ksboris1-free-perm;take:ksboris2-free-perm;type:contingent;type:boris;attr:Type="MC";type:Ld10			Monstrous Cavalry (Stomp)		Lord choice;Cannot be fielded with Tzarina Katarin		4	5	4	5	4	3	3	4	10	2	7	0	0	1	0	0	0
+kstzrina	Tzarina Katarin, the Ice Queen		Lord	Wizard		1:1	495	6	spec:+spec;spec:+spel;take:ksiceqn1-free-perm;take:ksiceqn2-free-perm;type:contingent;type:icequeen;type:Wiz;spec:-weap;spec:-armr;spec:-ward;spec:-ench;attr:Type="Ca";type:Ld10			Cavalry; Kislevite units she joins are Stubborn and Kislevite units within 12" may reroll failed Psychology tests;Gryphon Legion are no longer 0-1 if Katarin leads the Allied Contingent.		Lord choice;Cannot be fielded with Tzar Boris		4	4	3	3	3	3	3	1	10	7	7	4	2	2	0	0	0
+ksboyar	Kislev Boyar		Hero	Hero	Hero	1:1	90	100	ipts:total=50-each=50;type:contingent;attr:Type="In"	clmt:stnd<=1-count;clmt:weap+ench+armr+ward<=50-points		Infantry (Ca if mounted); Boyar is Stubborn as is any unit he joins.				4	5	5	4	4	2	5	3	8	7	7	0	0	1	0	0	0
+ksdruzhi	Druzhina		Core	Alternate Rules		10	8	0	calc:Num=#;type:contingent;size:1-20-1-mode=zz;attr:Type="In"			Infantry; Armour Piercing; #Shieldwall: declare at the start of friendly turn - unit cannot march or charge, but gains +2 armour save against all attacks from the front arc (last until start of unit's next turn). However unit's close combat attacks suffer -1 to hit, as soldiers are concentrating on defense. If the unit pursues, bonus is lost.		UNOFFICIAL! by DeBelial		4	4	3	3	3	1	3	1	8	5	7	0	0	1	0	0	0
+kskossar	Kislev Kossars		Core	Regiment		10	9	0	calc:Num=#;type:contingent;size:1-20-1-mode=zz;attr:Type="In"			Infantry; Steady in the Ranks		Unit Size: 10+;Bow, Great Axe		4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+kskossac	Kossacks		Core	Alternate Rules		10	9	0	calc:Num=#;type:contingent;size:1-20-1-mode=zz;attr:Type="In"			Infantry; Irregular formation - skirmish		UNOFFICIAL! by DeBelial		4	3	3	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+ksungol	Ungol Horse Archers		Core	Regiment		5	17	0	calc:Num=#;type:contingent;size:1-20-1-mode=zz;attr:Type="Ca"			Cavalry; Fast Cavalry		Unit Size: 5+;Bow		4	3	4	3	3	1	3	1	7	7	7	0	0	2	0	0	0
+kslancer	Winged Lancers		Core	Regiment		5	24	0	calc:Num=#;type:contingent;size:1-20-1-mode=zz;attr:Type="Ca"			Cavalry; Glorious Charge		Unit Size: 5+;Lance, Heavy Armour, Shield		4	4	3	3	3	1	3	1	8	4	7	0	0	2	0	0	0
+ksgryphn	Gryphon Legion		Special	Regiment		5	26	0	calc:Num=#;type:contingent;type:gryphonlgn;ipts:total=50-each=50;size:1-20-1-mode=zz;attr:Type="Ca"	umax:1u-msg=ksmsg5-istype=!icequeen		Cavalry; Glorious Charge, Mercenaries		One Unit per army;Unit Size: 5+;;Lance, Heavy Armour, Shield		4	4	3	4	3	1	4	1	8	4	7	0	0	2	0	0	0
+^
+kscngen	Contingent Commander		Priority	N/A	0	type:commander	Contingent units within 12" may use the Commander's leadership for Leadership tests.			
+kslord	Lord Limit		Priority	N/A	0	rsiz:min=3000;show:kscngen;hide;slct:kscngen=incl				
+ksicelre	Lore of Ice		Priority	N/A	0	type:mgice;more:ksshow=free;more:ksfull=free				
+kscnstnd	Contingent Standard		First	Std,Shd,Bst	25	utyp:!commander;type:cstandard;spec:+stnd	Contingent units within 12" may reroll failed break tests.			
+ksgwfth	Great Weapon	GW	Weapon	2Hd	4	stat:St+2;utyp:!mounted;type:GreatWeapon	+2S, Always strikes last, Two-handed		Hero Great Weapon on Foot	
+ksgwmth	Great Weapon	GW	Weapon	2Hd	4	stat:St+2;utyp:mounted;type:GreatWeapon	+2S, Always strikes last, Two-handed		Hero Great Weapon Mounted	
+kspistol	Pistol	pst	Weapon	N/A	0		Replaces Lance.  12" Range. Strength 4 Armour piercing, Quick to fire			
+kschamp	Champion		Champion	N/A	0	unit:kschamp@abs=1;modl:-1;cost:model;csiz:kswrhrse+1				
+kschamp2	Champion		Champion	N/A	0	unit:kschamp2@abs=1;modl:-1;cost:model				
+kschamp3	Champion		Champion	N/A	0	unit:kschamp3@abs=1;modl:-1;cost:model;csiz:kswrhrse+1				
+kschamp4	Champion		Champion	N/A	0	unit:kschamp4@abs=1;modl:-1;cost:model				
+kschamp5	Champion		Champion	N/A	0	unit:kschamp5@abs=1;modl:-1;cost:model				
+ksrota	Rotamaster		Champion	N/A	0	unit:ksrota@abs=1;modl:-1;cost:model;csiz:kswrhrse+1				
+ksurskin	Urskin		Mount	N/A	0	unit:ksurskin@per=1;hide				
+kswrhrse	Warhorse		Mount	N/A	10	unit:kswrhrse@per=1;base:Sv-1;show:bardhro;slct:heromnt=incl;stxt:Type="Ca"				
+ksshow	All Lore Spells		Priority2	N/A	0	take:ksice1;take:ksice2;take:ksice3;take:ksice4;take:ksice5;take:ksice6				
+ksfull	Full Spell List		Priority2	N/A	0	more:ksice1=incl;more:ksice2=incl;more:ksice3=incl;more:ksice4=incl;more:ksice5=incl;more:ksice6=incl				
+ksice1	Ice1: Shardstorm		Priority3	N/A	0	apnd:foot;hide;utyp:mgice		6+ to cast.  Magic Missile: 24", 2D6 S3 hits.		
+ksice2	Ice2: Freezing Blast		Priority3	N/A	0	apnd:foot;hide;utyp:mgice		8+ to cast.  (a) Water based terrain feature is permanently frozen and treated as open ground.  Models in terrain feature when spell is cast take a S2 hit w/ no armour save.  OR (b) A single unengaged enemy unit in LOS moves as if in Difficult Terrain in it's next Movement phase.		
+ksice3	Ice3: Form of the Frostfiend		Priority3	N/A	0	apnd:foot;hide;utyp:mgice		8+ to cast, RIP.  Caster may fly, has S5 and A4.  All special rules for equipment, magic items, steeds, etc are ignored while in play.		
+ksice4	Ice4: Invocation o' Ice Storm		Priority3	N/A	0	apnd:foot;hide;utyp:mgice		9+ to cast.  Nominate a point on the battlefield.  Roll an artillery die to determine area affected around the point (misfire means entire battlefield is affected).  Units within range must pass Ld at -2 to shoot.  Freezing effects last one round and cannot be dispelled once cast.  		
+ksice5	Ice5: Midwinter's Kiss		Priority3	N/A	0	apnd:foot;hide;utyp:mgice		10+ to cast.  Flame template, models fully under template suffer S5 hit with no save, partials are hit on a 4+.  Cannot be cast on units in combat.		
+ksice6	Ice6: Glacial Barrier		Priority3	N/A	0	apnd:foot;hide;utyp:mgice		12+ to cast, RIP.  Creates a 1"x5" wall of ice within LOS.   The wall is impassable and blocks LOS.  The wall can be charged as if it's an unbreakable model and is auto-destroyed if attacked with S5 or greater (<S5 has no effect) or by any flaming attack.  Units that destroy the barrier may not overrun. 		
+ksbrkin	Kin of the Bear God		Special	N/A	30	type:bearkin;cost:single	Only available if Boris Ursus is leading the contingent.  All models in unit gain +1A on the charge.  			
+ksCore	!Contingent CORE		Last	N/A	0	hide;glob:incl;type:CntgntCore;olgl:type=contingent;ucmp:Core;acmp:Core-1u				
+ksHero	!Contingent HERO		Last	N/A	0	hide;glob:incl;type:CntgntHero;olgl:type=contingent;ucmp:Hero;acmp:Hero-1u				
+ksRare	!Contingent RARE		Last	N/A	0	hide;glob:incl;type:CntgntRare;olgl:type=contingent;ucmp:Rare;acmp:Rare-1u				
+ksSpec	!Contingent SPECIAL		Last	N/A	0	hide;glob:incl;type:CntgntSpec;olgl:type=contingent;ucmp:Spec;acmp:Spec-1u				
+ksarmysz	Army <= 1000pts		Last	N/A	0	rsiz:max=1000;olgl:type=contingent;type:Ctgnt1kLmt;glob:incl;hide				
+^
+ksice1	1: Shardstorm	spel	N/A	0	1	itst:(type=mgice)		6+ to cast.  Magic Missile: 24", 2D6 S3 hits.	^	^	
+ksice2	2: Freezing Blast	spel	N/A	0	1	itst:(type=mgice)		8+ to cast.  (a) Water based terrain feature is permanently frozen and treated as open ground.  Models in terrain feature when spell is cast take a S2 hit w/ no armour save.  OR (b) A single unengaged enemy unit in LOS moves as if in Difficult Terrain in it's next Movement phase.	^	^	
+ksice3	3: Form of the Frostfiend	spel	N/A	0	1	itst:(type=mgice)		8+ to cast, RIP.  Caster may fly, has S5 and A4.  All special rules for equipment, magic items, steeds, etc are ignored while in play.	^	^	
+ksice4	4: Invocation of the Ice Storm	spel	N/A	0	1	itst:(type=mgice)		9+ to cast.  Nominate a point on the battlefield.  Roll an artillery die to determine area affected around the point (misfire means entire battlefield is affected).  Units within range must pass Ld at -2 to shoot.  Freezing effects last one round and cannot be dispelled once cast.  	^	^	
+ksice5	5: Midwinter's Kiss	spel	N/A	0	1	itst:(type=mgice)		10+ to cast.  Flame template, models fully under template suffer S5 hit with no save, partials are hit on a 4+.  Cannot be cast on units in combat.	^	^	
+ksice6	6: Glacial Barrier	spel	N/A	0	1	itst:(type=mgice)		12+ to cast, RIP.  Creates a 1"x5" wall of ice within LOS.   The wall is impassable and blocks LOS.  The wall can be charged as if it's an unbreakable model and is auto-destroyed if attacked with S5 or greater (<S5 has no effect) or by any flaming attack.  Units that destroy the barrier may not overrun. 	^	^	
+ksboris2	Armor of Ursun	spec	N/A	0	1	type:MagicArmour		Full Plate (4+ save).  For each hit done to Boris by enemies in close combat he can make an additional attack back (assuming he survives).	^	^	
+ksiceqn1	Fearfrost	spec	N/A	0	1			No armour saves allowed, Killing Blow.			
+ksboris1	Shard Blade	spec	N/A	0	1	stat:St+2		+2 Strength (shown in profile).  Models wounded (after saves etc) must pass a Toughness test or suffer an additional wound with no armour or ward saves allowed.	^	^	
+ksiceqn2	The Crystal Cloak	spec	N/A	0	1	base:WSv=4		All attacks against the Tzarina suffer -1 to hit and to wound.			
+^
+^
+^
+ksboyar	kscngen	cost
+ksboyar	kscnstnd	cost
+ksboyar	lancehr2	cost
+ksboyar	2ndhwhro	cost
+ksboyar	bowhro2	cost
+ksboyar	psthro	cost
+ksboyar	gunhro2	cost
+ksboyar	lahro	cost
+ksboyar	hahro	cost
+ksboyar	shhro	cost
+ksboyar	kswrhrse	cost
+ksboyar	shwhro	hide
+ksboyar	heromnt	hide
+kslancer	lancetrp	incl
+kslancer	hatrp	appl
+kslancer	shwtrp	appl
+kslancer	ksrota	cost
+kslancer	kswrhrse	incl
+ksungol	kswrhrse	incl
+ksungol	bowtrp	incl
+ksungol	mus7	cost
+ksungol	st14	cost
+kslancer	st16	cost
+kslancer	mus8	cost
+kskossar	st10	cost
+kskossar	mus5	cost
+kskossar	bowtrp	incl
+kskossar	2handtrp	incl
+kskossar	kschamp2	cost
+ksgryphn	lancetrp	incl
+ksgryphn	hatrp	appl
+ksgryphn	shwtrp	appl
+ksgryphn	kschamp3	cost
+ksgryphn	kswrhrse	incl
+ksgryphn	stmg16	cost
+ksgryphn	mus8	cost
+kschamp3	kspistol	cost
+ksungol	kschamp	cost
+ksboris	ksurskin	auto
+kstzrina	kscngen	hide
+ksboris	kscngen	hide
+kskossar	ksbrkin	cost
+kstzrina	kswrhrse	incl
+kstzrina	mg4lvl	incl
+kstzrina	ksicelre	incl
+kstzrina	mgmiscas	cost
+emgryphn	lancetrp	incl
+emgryphn	hatrp	appl
+emgryphn	shwtrp	appl
+emgryphn	kschamp3	cost
+emgryphn	kswrhrse	incl
+emgryphn	stmg16	cost
+emgryphn	mus8	cost
+ksboyar	bardhro	hide
+ksboyar	ksgwmth	cost
+ksboris	shwtrp	incl
+ksboris	kslord	incl
+kstzrina	kslord	incl
+ksboyar	ksgwfth	cost
+ksboris	general	cost
+kstzrina	general	cost
+ksdruzhi	st10	cost
+ksdruzhi	mus10	cost
+ksdruzhi	kschamp4	cost
+ksdruzhi	latrp	incl
+ksdruzhi	shoptrp	incl
+kskossac	kschamp5	cost
+kskossac	guntrp	incl
+kskossac	psttrp	incl
+^
+race	br	ally:ks;info:display="";info:display="To take a Kislev Allied Contingent, select it from the 'Allies for Army:' drop down list at the top right of the AB window"	
+race	do	ally:ks;info:display="";info:display="To take a Kislev Allied Contingent, select it from the 'Allies for Army:' drop down list at the top right of the AB window"	
+race	dw	ally:ks;info:display="";skip info:display="To take a Kislev Allied Contingent, select it from the 'Allies for Army:' drop down list at the top right of the AB window"	
+race	em	ally:ks;info:display="";info:display="To take a Kislev Allied Contingent, select it from the 'Allies for Army:' drop down list at the top right of the AB window"	
+race	he	ally:ks;info:display="";info:display="To take a Kislev Allied Contingent, select it from the 'Allies for Army:' drop down list at the top right of the AB window"	
+race	we	ally:ks;info:display="";info:display="To take a Kislev Allied Contingent, select it from the 'Allies for Army:' drop down list at the top right of the AB window"	
+race	xx	tlmt:contingent-unit=0@max-msg=ksmsg1-istype=!commander;tlmt:CntgntCore-unit=0+1/1000@1000@min-msg=ksmsg10-istype=contingent;tlmt:CntgntCore-unit=3+1/1000@2000@max-msg=ksmsg11-istype=contingent;tlmt:CntgntHero-unit=1+1/1000@3000@min-msg=ksmsg13-istype=contingent;tlmt:CntgntHero-unit=2+1/1000@2000@max-msg=ksmsg12-istype=contingent;tlmt:CntgntSpec-unit=2+1/1000@2000@max-msg=ksmsg14-istype=contingent;tlmt:CntgntRare-unit=0+1/1000@2000@max-msg=ksmsg15-istype=contingent;tlmt:contingent-pct=50@max-msg=ksmsg6;tlmt:Ctgnt1kLmt-unit=0@max-msg=ksmsg2;olmt:type=?-kscngen=1u-max-msg=ksmsg3;trat:boris@1u:bearkin@1u-flat-msg=ksmsg4;olmt:type=?-kscnstnd=1u-max-msg=ksmsg7;tlmt:raregryphn-unit=0@max-msg=ksmsg16-istype=contingent	
+^
+ksmsg1	Contingent Commander	An Allied Contingent requires a Contingent Commander.
+ksmsg3	Contingent Commander	Only one model can be the Contingent Commander
+ksmsg2	Contingent Comp Limits	Allied Contingent units are not allowed in this army size (must be >1000pts).
+ksmsg6	Contingent size percentage	Contingent units cannot take up more than 50% of the total army size.
+ksmsg7	Contingent Standard	Only one model can be the Contingent Standard Bearer
+ksmsg5	Gryphon Legion limit	Only one Gryphon Legion unit is allowed per army unless Tzarina Katarin is leading the contingent.
+ksmsg16	Gryphon Legion Mercenaries	A Gryphon Legion unit may only be selected as a Rare choice if you are NOT using an allied contingent.
+ksmsg4	Kin of the Bear God	You must take Tzar Boris to upgrade Kossars to Kin of the Bear God
+ksmsg17	No both Tzar and Tzarina 	You cannot take both Tzar Boris and Tzarina Katarin in the same army.
+ksmsg11	z Core Max Limit	You have too many contingent Core units.
+ksmsg10	z Core Min Limit	You do not have enough contingent Core units.
+ksmsg12	z Hero Max Limit	You have too many contingent Heroes.
+ksmsg13	z Hero Min Limit	You do not have enough contingent Heroes.
+ksmsg15	z Rare Max Limit	You have too many contingent Rare units.
+ksmsg14	z Spec Max Limit	You have too many contingent Special units.
+^

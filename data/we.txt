@@ -1,0 +1,588 @@
+Description: Warhammer Armies: Wood Elves
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions and bugs email renufus@hotmail.com
+^
+Sylvan Elves	we	0	sm,dw,he,em,br,lz,ok,ch,dm,dk,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="November 2015, Version 0.10.1 Beta";info:display="by DeBelial";info:display="";none:"Standard Army";info:always="The Forest Follows: After choosing deployment zones, before any models are deployed, place a Forest piece of terrain (no larger than 27cm in length and 19cm in width) on the board in your half of the table. All forests on the table are Dangerous Terrain.";info:always="Forest Walker: Parts of models with this special rule have Strider (Forest). Close Combat Attacks from parts of models with this rule have Armour Piercing (1) except for models with Otherwordly special rule. A unit comprised entirely of models with this special rule that starts Close Combat phase with the majority of its models in a Forest has Fight in Extra Rank and can reroll To Wound rolls of 1 in Close Combat. Furthermore, add an additional +1 to Channel attempts if your army has one or more models with this rule channeling from within a forest.";info:always="Master Archers: Models with this special rule can choose to use Truemark Arrows, Starlight Shafts, Perforating Tips or Jewelweed Shots  in every Shooting Phase.";info:always="Fey Arrows: There are 6 different Fey Arrows, each one with a different effect. Whenever a model with Fey Arrows is shooting its Longbow, it can choose to either use the Longbow’s normal rules, or to lose Volley Fire, ignore penalties for moving and shooting, and instead apply the rules of specific arrows. All models within a unit (except characters) have to choose the same effect during the Shooting Phase.";skip olmt:type=?-wearrow1=1u-max-msg=wemsg6;skip olmt:type=?-wearrow2=1u-max-msg=wemsg6;skip olmt:type=?-wearrow3=1u-max-msg=wemsg6;skip olmt:type=?-wearrow4=1u-max-msg=wemsg6;skip olmt:type=?-wearrow5=1u-max-msg=wemsg6;skip olmt:type=?-wearrow6=1u-max-msg=wemsg6;tlmt:sentinelscouts-unit=1@max-msg=wemsg12;trat:redwoodaspect@1u:redwoodbanners@1u-flat-msg=wemsg8;tlmt:dryads-unit=4+4/4000-msg=crmsg902	
+^
+wearalot	 Araloth, Lord of Talsyn	Ara	N/A	Lord		1:1	260	0	type:Ld10;type:Hero;attr:Type="In";take:wearalo1-free-perm	umax:1u;race:pk,ek;hide		Infantry; Always Strikes First, Stubborn; #Boldest of the Bold: Unbreakable when alone; #Favour of the Goddess: Ward Save 4+		Lord		5	8	7	4	3	3	8	5	10	7	4	0	0	6	0	0	0
+weariel	 Ariel, Queen of the Forest	Ariel	N/A	Special Characters		1:1	600	0	type:ariel;take:weariel1-free-perm;attr:Type="MI"	umax:1;hide		Monstrous Infantry (Stomp);	Forest Spirit; Causes Terror; Fly, Ariel is a Level 4 Wizard and knows all of the spells from the Lore of Athel Loren. In addition, she gets +1 to cast any spells from the Lore of Athel Loren.	Counts as a Lord and a Hero choice; Must be General (if Orion is present, she displaces him as the General); Fly, Terror, Forest Spirit, Elemental Form, Aura of the Fey Queen, Earthbind; Ariel is a Level 4 Wizard and knows all of the spells from the Lore of Athel Loren. In addition, she gets +1 to cast any spells from the Lore of Athel Loren.	http://us.games-workshop.com/games/warhammer/woodelves/gaming/ariel/default.htm	5	5	5	4	3	4	7	2	10	7	7	4	2	1	0	0	0
+wescout	 Deepwood Scouts	Scout	N/A	Regiment		5	13	0	calc:Num=#;size:1-20-1-mode=zz;xcmp:Spec-mode=a;attr:Type="In"	lglx:!mode=b;race:pk,ek;hide		Infantry; Always Strikes First; Skirmish, Scout		Includes Asrai longbow; Unit Size: 5+		5	4	4	3	3	1	5	1	8	7	7	0	0	1	0	0	0
+wedrycha	 Drycha, Handmaiden of Coeddil	Drych	N/A	Hero		1	255	0	attr:Type="In";type:Ld9	skip lglx:mode=b;umax:1u;race:pk,ek;hide		Infantry; Level 2 Wizard; Forest Spirit; Fear; Hatred; Blessings of the Ancients (+1 to cast spells in forest); #Fanatical Resolve: each time Drycha suffers a Wound her Attacks are increased by 2 for the rest of the battle, if wounds are healed, Attacks are decreased; #Roused to Wrath: this cannot be used if there are no forest on the table when it is time to deploy your army. When you deploy choose D3 unit wholly composed of models with Forest Spirit special rule - these are not deployed with the rest of an army. At the start of Remaining Moves sub-phase of your first turn roll D6 for each of those units. On 1-2 nothing happens. On 3-6 unit is placed in any forest so that all models are within the forest and at least 1" away from enemy units.		Hero; Level 2 Wizard, Lore of Shadow		5	7	5	4	4	3	7	4	9	7	6	2	3	1	0	0	0
+wedurthu	 Durthu, Treeman Elder	Anc	N/A	Lord		1:1	385	0	type:Ld10;type:Hero;attr:Type="Mo";take:wedurth1-free-perm	umax:1u;race:pk,ek;hide		Monster (Thunderstomp); Large Target; Terror; Stubborn; Flammable; Hatred; Scaly Skin (3+); Blessings of the Ancients; Forest Spirit (Forest Strider, Immune to Psychology, Ward Save 6+); #Tree Whack: use instead of normal attacks, nominate model in base contact, target must pass In test or suffers D6 Wounds with no armour saves.		Level 1 Beast Wizard; Includes Frenzy		5	7	7	6	6	6	2	6	10	3	6	0	0	6	0	0	0
+weshadan	 Hero: Mistdancer	ShDa	N/A	Hero	Hero	1:1	80	100	ipts:total=50-each=50;type:Ld8;type:Hero;type:skirmishers;attr:Type="In"	race:pk,ek;umax:3u@4000-free=3-msg=crmsg901;hide		Infantry; Forest Walker; Supernatural Reflexes; Immune to Psychology; Ward Save (6+); Combat Dances		Hero	9th age	5	8	6	4	3	2	8	3	8	7	6	0	0	1	0	0	0
+wesister	 Naestra & Arahan, Sisters of Twilight	Sis	N/A	Hero		1:1	275	0	type:Ld9	race:pk,ek;hide		#Conjoined Destiny: Unless both Sisters are slain in the same phase, the slain Sister is not removed but both are restored to their full Wounds at end of phase; Both Sisters will fight if in a challenge; If their mount is slain, they form a unit, they can join other units, but both must join and leave them		Must be mounted on Gwindalor the Great Eagle or Ceithin-Har the Forest Dragon		0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0
+weorion	 Orion, King of the Woods	Orion	N/A	Lord		1:1	600	0	take:weorion4-free-perm;take:weorion2-free-perm;take:weorion3-free-perm;take:weorion1-free-perm;type:orion;attr:Type="Mo";type:Ld10	umax:1;reqd:unit=wewild;skip lglx:mode=a;hide		Monster (Thunderstomp); Always Strikes First; Terror; Unbreakable		Lord; incl Frenzy		9	8	8	6	5	5	9	5	10	7	5	0	0	6	0	0	0
+weskaw	 Skaw The Falconer	Skaw	N/A	Special Characters	Hero	1:1	175	0	type:skaw;take:weskaw1-free-perm;take:weskaw2-free-perm;attr:Type="In"	umax:1;hide		Infantry		Hero; Cannot be General; The Falconer; Hawks	http://us.games-workshop.com/games/warhammer/woodelves/gaming/skaw/default.htm	9	6	6	4	3	2	9	4	9	4	7	0	0	1	0	0	0
+wewaysta	 Waystalker	WaSta	N/A	Hero	Hero	1:1	90	100	ipts:total=25-each=25;type:Ld8;type:Hero;type:skirmishers;attr:Type="In"	race:pk,ek;hide		Infantry; Always Strikes First; Scout; Hawk-eyed Archer: before shooting chose one of the following: Multiple Shots (2) or No armour saves; Sniper		Hero		5	6	7	4	3	2	7	1	8	7	7	0	0	1	0	0	0
+wearahan	Arahan		N/A	N/A		1	0	0	attr:Type="In";spec:+weap;take:wearaha1-free-perm	hide		Infantry (MC on Gwindalor); Always Strikes First; Close combat attacks have +1 To Wound bonus against Forces of Order				5	6	6	4	3	2	7	3	9	6	0	0	0	1	0	0	0
+weceithi	Ceithin-Har	Draco	N/A	Monster	Hero	1:1	0	0	attr:Type="Mo"	hide;forc		Monster (Thunderstomp); Fly; Terror; Large Target; Soporific Breath: breath weapon S2, -3 armour save, units hit suffer from Stupidity for the rest of the game; Impetous: must Charge if able, unless he passes Ld test.				6	6	0	6	6	6	3	5	8	3	7	0	0	6	0	0	0
+wechbow	Champion	Arch	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	7	7	0	0	1	0	0	0
+wechdanc	Champion	Danc	N/A	Champion	champ	1:1	10	0	coun	hide						5	7	5	3	3	1	6	2	8	7	6	0	0	1	0	0	0
+wechdryd	Champion	Tree	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	4	4	1	5	3	8	7	5	0	0	1	0	0	0
+wechgrd	Champion	Guard	N/A	Champion	champ	1:1	10	0	coun	hide						5	6	5	3	3	1	5	2	8	6	7	0	0	1	0	0	0
+wechhawk	Champion	Hawk	N/A	Champion	champ	1:1	10	0	coun	hide						5	6	5	3	3	1	5	2	9	5	7	0	0	2	0	0	0
+wechrang	Champion	Rang	N/A	Champion	champ	1:1	10	0	coun	hide						5	6	5	3	3	1	5	3	9	6	7	0	0	1	0	0	0
+wechride	Champion	Scout	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	6	7	0	0	2	0	0	0
+wechthor	Champion	Scout	N/A	Champion	champ	1:1	70	2	coun;take:high0-free-perm;take:beasts5-free-perm;type:mgbeasts;type:mghigh;spec:+spel	hide						5	5	6	3	3	2	5	2	9	6	7	0	0	2	0	0	0
+wechtrk	Champion	Kin	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	4	5	3	3	4	8	4	5	0	0	3	0	0	0
+wechway	Champion	Way	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	6	3	3	1	5	2	8	7	7	0	0	1	0	0	0
+wechwild	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						5	6	5	4	3	1	5	2	9	5	6	0	0	2	0	0	0
+wedurth1	Durthu - Treeman Ancient	Anc	N/A	Special Characters		1:1	450	0	type:Ld8;type:Hero;attr:Type="Mo"	hide		Monster (Thunderstomp); Forest Spirit; Causes Terror; Stubborn; Treewack (may make 1A @ S10 causing D6 Wo instead of normal Attacks); Tough Hide (+1 save vs S4+); Re-roll failed to-hit rolls in CC		From UK WD 310; Counts as a Lord and 2 Hero choices; Durthu's rules do not mention him being Flammable or a Large Target, nor if he may or may not join units, i don't know if this is a mistake or was done on purpose (he's only Ld8 too);	old version - obsolete	5	6	0	6	6	6	1	5	8	3	5	0	0	6	0	0	0
+westeish	Elven Deer	Kur	N/A	Mount	mount	1	0	0		hide						9	3	0	4	3	1	4	1	3	7	7	0	0	0	0	0	0
+westekur	Elven Deer	Kur	N/A	Mount	mount	1	0	0		hide						9	3	0	4	3	1	4	1	3	7	7	0	0	0	0	0	0
+wehsteed	Elven Horse	Hrs	N/A	Mount	mount	1:1	0	0		hide		Strider (Forest); Mount's Protection (6+)				9	3	0	3	3	1	4	1	5	7	7	0	0	0	0	0	0
+westeed	Elven Horse	Hrs	N/A	Mount	mount	1	0	0		hide		Strider (Forest)				9	3	0	3	3	1	4	1	3	7	7	0	0	0	0	0	0
+wegdrag	Forest Dragon	Draco	N/A	Monster	Hero	1:1	0	0	attr:Type="Mo"	hide;umax:1u		Monster (Stomp D6); Terror; Large Target; Breath Weapon (Strength 4, Flaming Attacks); Innate Defence (3+); Fly (7)		One of a kind	9th age	6	5	1	6	6	6	3	5	9	3	7	0	0	6	0	0	0
+wegreate	Forest Eagle	Eagle	N/A	Monster		1:1	0	0		hide		Monstrous Beast (Stomp 1); Strider (Forest); Fly (9); Mount's Protection (6+)			9th age	2	5	0	4	4	3	4	2	8	7	7	0	0	3	0	0	0
+westag	Great Elk	Stag	N/A	Mount	mount	1:1	0	0		hide		Strider (Forest); Mount's Protection (6+)				9	4	0	4	5	1	4	2	5	7	7	0	0	3	0	0	0
+wegwinda	Gwindalor	Eagle	N/A	Monster		1:1	0	0	attr:Type="MB"	hide		Monstrous Beast (Stomp); Fly; Hunter's Mount: when mounted on Gwindalor, Naestra and Arahan re-roll failed To Hit rolls when making shooting attacks.				2	5	0	4	4	3	4	2	8	7	7	0	0	3	0	0	0
+wehounds	Hound of Orion	Hound	N/A	N/A		2:2	0	0	attr:Type="WB"	hide		War Beasts; Forests Spirits; Unbreakable				9	4	0	4	4	1	4	1	6	7	6	0	0	1	0	0	0
+wehawks	Kestrel	Hawk	N/A	Mount	mount	1	0	0		hide		Killing Blow				2	5	0	4	4	3	4	2	5	7	7	0	0	0	0	0	0
+wechscou	Master Scout	Arch	N/A	Champion	champ	1:1	10	0	coun	hide						5	4	5	3	3	1	5	1	8	7	7	0	0	1	0	0	0
+wenaestr	Naestra		N/A	N/A		1	0	0	attr:Type="In";spec:+weap;take:wenaest1-free-perm;type:Ld9	hide		Infantry (MC on Gwindalor); Always Strikes First; Close combat attacks have +1 To Wound bonus against Forces of Destruction				5	6	6	4	3	2	7	3	9	6	0	0	0	1	0	0	0
+weskhawk	Skaw's Hawks	Hawks	N/A	Champion		1	0	0	calc:Num=#	hide						0	4	0	4	0	0	6	3	0	7	0	0	0	0	0	0	0
+weunicor	Unicorn	Unico	N/A	Monster		1:1	0	0		hide		War Beast; Strider (Forest); Magical Attacks, Magic Resistance (2); Mount's Protection (6+)			9th age	10	5	0	5	4	3	5	2	8	7	5	0	0	3	0	0	0
+weforest	 Lord: Forest Prince	Lord	Hero	Lord	Lord	1:1	130	100	ipts:total=100-each=100;type:skirmishers;type:Ld10;dflt:welbowld;attr:Type="In"	clmt:spit<=1-count;race:pk,ek;umax:3u@4000-free=3-msg=crmsg901		Infantry; Forest Walker; Lightning Reflexes		Lord	Nov 2015	5	7	7	4	3	3	8	4	10	7	7	0	0	1	0	0	0
+wearchmg	 Lord: High Druid	MagLd	Hero	Wizard	Lord	1:1	165	100	ipts:total=100-each=100;type:skirmishers;type:Ld9;attr:Type="In"	clmt:spel<=Wz-msg=hemsg1;race:pk,ek;umax:3u@4000-free=3-msg=crmsg901		Infantry; Forest Walker; Lightning Reflexes		Lord; Level 3 Wizard	9th age, Nov 2015	5	4	4	3	3	3	5	1	9	7	7	3	2	1	3	0	0
+wetmanc	 Lord: Treefather Ancient	Anc	Hero	Lord	Lord	1:1	225	1	type:Ld9;attr:Type="Mo";spec:+spit;ipts:total=120-each=100	race:pk,ek;umax:3u@4000-free=3-msg=crmsg901;clmt:wzrd<=50-points-msg=wemsg9		Monster (Stomp D6); Large Target; Terror; Forest Walker; Otherworldly; Flammable; Innate Defence (3+); Stubborn; Crush Attack				5	4	4	5	6	6	2	3	9	3	5	0	0	0	0	0	0
+weglader	Hero: Chiefain	Hero	Hero	Hero	Hero	1:1	70	100	ipts:total=150-each=50;dflt:welbowhe;type:Ld9;type:skirmishers;type:Hero;dflt:welbowhe;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;race:pk,ek;umax:3u@4000-free=3-msg=crmsg901;clmt:stnd<=1-count		Infantry; Forest Walker; Lightning Reflexes			9th age	5	6	6	4	3	2	7	3	9	7	7	0	0	1	0	0	0
+wemage	Hero: Druid	Mage	Hero	Wizard	Hero	1:1	65	100	ipts:total=50-each=50;name:"WE Mage"-race=vm;type:skirmishers;type:Ld8;type:wemage;attr:Type="In"	race:pk,ek;clmt:spit<=1-count;umax:3u@4000-free=3-msg=crmsg901		Infantry; Forest Walker; Lightning Reflexes		Level 1 Wizard	9th age	5	4	4	3	3	2	5	1	8	7	7	1	1	1	1	0	0
+wewraith	Hero: Dryad Matriarch	Drd	Hero	Hero	Hero	1:1	75	100	ipts:total=50-each=50;type:Ld9;type:Hero;type:skirmishers;spec:-weap;spec:-armr;spec:-ench;spec:-ward;spec:-wzrd;attr:Type="In";spec:+spit	race:pk,ek;umax:3u@4000-free=3-msg=crmsg901		Infantry; Otherwordly; Forest Walker; Hatred		Hero	9th age	5	6	6	4	4	2	7	3	9	7	5	0	0	1	0	0	0
+wetreeld	Hero: Thicket Shepherd	Drd	Hero	Hero	Hero	1:1	130	100	ipts:total=50-each=50;type:Ld9;type:Hero;type:skirmishers;spec:-weap;spec:-armr;spec:-ench;spec:-ward;spec:-wzrd;attr:Type="MI";spec:+spit	race:pk,ek;umax:3u@4000-free=3-msg=crmsg901;clmt:spit<=50-points-msg=wemsg11;clmt:stnd<=1-count		Monstrous Infantry (Stomp 1); Otherwordly; Forest Walker; Flammable; Armour PIercing (1); Innate Defence (4+); Subborn within Forests		Hero	9th age	5	5	3	5	5	4	4	4	9	4	5	0	0	1	0	0	0
+wedryski	Dryad Skirmishers	Tree	Core	Regiment	infantry	8:15	11	0	type:skirmishers;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In";type:dryads	race:pk,ek;umax:4u@4000-free=4-msg=crmsg902		Infantry; Otherworldly; Hatred if joined by Matriarch; Forest Walker		base cost: 100, size: 8-15	9th age	5	4	4	4	4	1	5	2	8	7	5	0	0	1	0	0	0
+wedryad	Dryads	Tree	Core	Regiment	infantry	8:38	11	0	type:skirmishers;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In";type:dryads	race:pk,ek;umax:4u@4000-free=4-msg=crmsg902		Infantry; Otherworldly; Hatred if joined by Matriarch; Forest Walker		base cost: 90, size: 8-38	9th age	5	4	4	4	4	1	5	2	8	7	5	0	0	1	0	0	0
+wegrd	Forest Guard	EtGrd	Core	Regiment	infantry	10:40	8	0	calc:Num=#;size:1-20-1-mode=zz;ipts:total=25-each=25;type:SpecGuard;attr:Type="In"	lglx:!mode=b;race:pk,ek;umax:4u@4000-free=4-msg=crmsg902		Infantry; Forest Walker; Lightning Reflexes; Bodyguard (Forest Prince, Chieftain)		Base cost: 80, size: 10-40	9th age	5	5	4	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+weriders	Heath Riders	Rider	Core	Regiment	cavalry	5:15	18	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca";type:mounted	race:pk,ek;umax:4u@4000-free=4-msg=crmsg902		Cavalry; Fast Cavalry; Forest Walker (Rider only); Lightning Reflexes (Rider only); Ambush; Mount's Protection (6+)		base cost: 90, size: 5-10	9th age	5	4	4	3	3	1	5	1	8	6	7	0	0	2	0	0	0
+wearch	Sylvan Archers	Arch	Core	Regiment	infantry	10:30	9	0	calc:Num=#;ipts:total=25-each=25;attr:Type="In"	lglx:!mode=b;race:pk,ek;umax:4u@4000-free=4-msg=crmsg902		Infantry; Forest Walker; Lightning Reflexes		Base cost: 90, size: 10-30	9th age	5	4	4	3	3	1	5	1	8	7	7	0	0	1	0	0	0
+wedancer	Blade Dancers	Dance	Special	Regiment	infantry	5:15	14	0	type:skirmishers;calc:Num=#;ipts:total=0-each=0;size:1-20-1-mode=zz;ipts:total=50-each=50;attr:Type="In"	lglx:!mode=b;race:pk,ek;umax:3u@4000-free=3-msg=crmsg903		Infantry; Forest Walker; Lightning Reflexes; Immune to Psychology; Ward Save (6+); Dances of Cenyrn; Skirmishers; Magic Resistance (1)		base cost: 70, size: 5:15	9th age	5	6	4	4	3	1	6	2	8	7	6	0	0	1	0	0	0
+wegrteag	Forest Eagle	Eagle	Special	Monster	Flyer	1:5	35	0	attr:Type="MB"	lglx:!mode=b;umax:3u@4000-free=3-msg=crmsg903		Monstrous Beast (Stomp 1); Fly (9); Strider (Forest)		base cost: 50, size: 1-5	9th age	2	5	0	4	4	3	4	2	8	7	7	0	0	3	0	0	0
+wewildra	Forest Rangers	WiRan	Special	Regiment	infantry	10:30	13	0	calc:Num=#;size:1-20-1-mode=zz;ipts:total=25-each=25;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903;race:pk,ek		Infantry; Forest Walker; Lightning Reflexes; Bodyguard (Forest Prince, Chieftain)		base cost: 130, Size: 10-30		5	5	4	3	3	1	5	2	9	6	7	0	0	1	0	0	0
+wesent	Sylvan Sentinels	Arch	Special	Regiment	infantry	5:15	11	0	calc:Num=#;ipts:total=25-each=25;attr:Type="In"	lglx:!mode=b;race:pk,ek;umax:3u@4000-free=3-msg=crmsg903		Infantry; Forest Walker; Lightning Reflexes; Skirmishers		Base cost: 55, size: 5-15	9th age	5	4	4	3	3	1	5	1	8	7	7	0	0	1	0	0	0
+wekin	Thicket Beasts	TrKn	Special	Regiment	infantry	3:10	45	0	calc:Num=#;attr:Type="MI"	race:pk,ek;umax:3u@4000-free=3-msg=crmsg903		Monstrous Infantry (Stomp 1); Otherwordly; Forest Walker; Flammable; Scaly Skin (4+); Armour Piercing (1); Stubborn within Forests		base cost: 130, size: 3-10	9th age	5	4	4	4	5	3	3	3	8	4	5	0	0	3	0	0	0
+wewild	Wild Huntsmen		Special	Regiment	cavalry	5:12	30	0	calc:Num=#;ipts:total=50-each=50;attr:Type="Ca";type:mounted	race:pk,ek;umax:3u@4000-free=3-msg=crmsg903		Cavalry; Forest Walker; Lightning Reflexes (rider only); Devastating Charge (rider only); Ward Save (6+); Free Reform; Mount's Protection (6+)		base cost: 150, size: 5-12; Frenzy		5	5	4	4	3	1	6	1	9	5	6	0	0	2	0	0	0
+wesistho	Briar Maidens	Siste	Rare	Regiment	cavalry	5:10	20	0	calc:Num=#;attr:Type="Ca";ipts:total=50-each=50;type:mounted;type:mgbeasts;type:mglife	race:pk,ek;umax:2u@4000-free=2-msg=crmsg904		Cavalry; Forest Walker (Sister only); Lightning Reflexes (Sister only); Poisoned Attacks (Sisters only); Free Reform; Wizard Conclave (Level 2: Curse of Woods, Soul quench); Ward Save (4+); Mount's Protection (6+)		base cost: 100, size: 5-10	9th age	5	4	5	3	3	1	5	1	9	6	4	0	0	2	0	0	0
+wehawk	Kestrel Knights	Rider	Rare	Regiment	Flyer	2:5	55	0	calc:Num=#;attr:Type="MC";type:mounted;ipts:total=25-each=25	race:pk,ek;umax:2u@4000-free=2-msg=crmsg904		Monstrous Cavalry (Stomp 1); Forest Walker (Rider only); Lightning Reflexes (Rider only); Fly (9); Fast Cavalry; Skirmishers; Killing Blow (Falcon only); MOunt's Protection (6+)		base cost: 110, size: 3-6	9th age	5	5	4	4	3	1	5	1	9	5	7	0	0	2	0	0	0
+weway	Pathfinders	Way	Rare	Regiment	infantry	5:10	20	0	type:skirmishers;calc:Num=#;size:1-20-1-mode=zz;type:waywatchers;attr:Type="In"	lglx:!(mode=a|mode=b);race:pk,ek;umax:2u@4000-free=2-msg=crmsg904		Infantry; Forest Walker; Lightning Reflexes; Skirmishers; Scouts; # Master Archers: When a part of model with this rule shots, it can choose to use any type of Fey Arrows		base cost: 100, size: 5-10	9th age	5	4	5	3	3	1	5	1	8	7	7	0	0	1	0	0	0
+wetrees	Treefather	Tree	Rare	Regiment	monster	1:1	220	0	attr:Type="Mo"	race:pk,ek;umax:2u@4000-free=2-msg=crmsg904		Monster (Stomp D6); Flammable; Terror; Large target; Stubborn; Innate Defence (3+); Otherwordly; Forest Walker; Crush Attack			9th age	5	5	5	6	6	6	2	5	8	3	5	0	0	6	0	0	0
+^
+weallow	Allow Magic Standard		Priority	N/A	12	slct:st12=incl;spec:+stnd;cost:single;item:+1			Allows one unit of Glade Guard or Scouts to take a magical standard	
+wealtkin	Alter	Alt	Priority	N/A	25	xcst:35-unit=weforest;over:wehsteed=delete;over:weeagmnt=delete;over:wegdrmnt=delete;base:Mv=9;base:In=9;stat:At+1;over:btstand3=delete;unam:<"Alter ";over:welbowhe=disable;slct:welbowhe=incl;slct:welbowld=incl;over:wegen=delete;dtyp:Ld10;dtyp:Ld9;over:general=delete		Character becomes M9, I9 and has +1A. Character cannot be mounted or join any unit.	Character becomes M9, I9 and has +1A. Character cannot be the general, cannot be mounted nor join any unit.	
+weaurafq	Aura of the Fey Queen	AuraQ	Priority	N/A	0		All friendly units within 6" of Ariel are Immune to Panic.			
+weegcore	Count as Core		Priority	N/A	0	xcmp:Core;type:CoreGuard;dtyp:SpecGuard			Eternal Guard count as Core when the General is a Highborn	
+weearthb	Earthbind	Earth	Priority	N/A	0		Any units declaring a charge on Ariel count as moving through Difficult Terrain for the duration of the turn. In addition, if Ariel flees from combat, any enemies attempting to pursue her roll an extra D6 when determining their pursuit distance and discard the highest result.			
+weelemfm	Elemental Form	ElemF	Priority	N/A	0		If Ariel chooses to move using her ground movement, she may move through all forms of Difficult Terrain without penalty.			
+wehostru	Elven Hosts	EHost	Priority	N/A	0	hide;lglx:race=ek|race=pk	Forest Strider, Martial Prowess, Murderous Prowess			
+wegrdkin	Eternal Guard	EtGd	Priority	N/A	5	xcst:10-unit=weforest;show:wegrdwep;slct:wegrdwep=incl;over:btstand3=delete;unam:<"Eternal Guard ";show:wegrdarm;slct:welbowhe=incl;slct:welbowld=incl		Character gains Eternal Guard Weapons & Armour (cannot take mundane or magical weapons or armour).	Character gains Eternal Guard Weapons & Armour (cannot take mundane or magical weapons or armour).	
+wegrdkix	Eternal Guard	EtGd	Priority	N/A	5	xcst:10-unit=weforest;show:wegrdwep;slct:wegrdwep=incl;over:2handhro=delete;over:wehsteed=delete;over:wegdrmnt=delete;over:weeagmnt=delete;over:2ndhwhro=delete;over:2handlrd=delete;over:2ndhwlrd=delete;over:lahro=delete;over:lalrd=delete;over:sprhro=delete;over:sprlrd=delete;over:shhro=delete;over:shlrd=delete;over:btstand3=delete;unam:<"Eternal Guard ";show:wegrdarm;slct:welbowhe=incl;slct:welbowld=incl		Character gains Eternal Guard Weapons & Armour (cannot take mundane or magical weapons or armour).	Character gains Eternal Guard Weapons & Armour (cannot take mundane or magical weapons or armour).	archiwalna zdolnosc
+weextra	Extra Base Cost		Priority	N/A	0	cost:single;hide;xcst:2-unit=wedryad;xcst:5-unit=wesent;xcst:-5-unit=wekin;xcst:15-unit=wegrteag;xcst:12-unit=wedryski				
+weforsta	Forest Stalker	FoSt	Priority	N/A	0	skip lglx:race=we				
+wegen	General	Gen	Priority	N/A	0	type:HighbornGen;type:Gen10;utyp:Ld10;type:general				
+weglakin	Glamourweave	Glam	Priority	N/A	20	base:WSv=5;unam:<"Glamourweave ";show:wemttbmg;type:weglamkin;over:wehsteed=delete;type:mounted;over:weeagmnt=delete;lglx:!mode=b		Forest Spirit	Forest Spirit	
+weglamou	Glamourweave	Glam	Priority	N/A	20	base:WSv=5;unam:<"Glamourweave ";show:wemttbmg;type:weglamkin;over:wehsteed=delete;type:mounted;over:weeagmnt=delete;lglx:mode=b		Forest Spirit	Forest Spirit	
+wehawks	Hawks	Hawks	Priority	N/A	0	unit:weskhawk@abs=1	Skaw has three birds of prey that he uses as missile weapons and as weapons in hand-to-hand combat.; The range of each bird is 24", and they will always hit on a 2+ at a Strength of 4.; In hand-to-hand combat, the birds give Skaw an additional 3 Attacks at a Strength and Weapon Skill of 4.			
+wehounds	Hounds of Orion	Hound	Priority	N/A	20	unit:wehounds@var	Orion' Equerries: Orion and his hounds must be deployed as a unit and Orion cannot leave this unit.		Add 2 Hounds of Orion	
+weignor2	Ignore		Priority	N/A	0	hide;acmp:Rare+1u				
+weignor3	Ignore		Priority	N/A	0	hide;acmp:Hero+2u				
+weignore	Ignore		Priority	N/A	0	hide;acmp:Hero+1u				
+wehrkin	Kindred		Priority	N/A	0	skip tabl:None=wenokin,Scout=wesctkin,Waywatcher=wewatkin,EternalGuard=wegrdkin,WildRider=wewrkin,Wardancer=wewdkin,Alter=wealtkin;lglx:!mode=b				
+wemagkin	Kindred		Priority	N/A	0	tabl:None=wenokin,Glamourweave=weglakin				
+wellance	Light Lance	LLanc	Priority	Wep	0	utyp:mounted	+1S when charging			
+welore2	Lore Table		Priority	N/A	0	tabl:Beast=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Life=mglife,Light=mglight,Metal=mgmetal,Shadow=mgshadow,Undeath=unundeat-noname-nobrackets				
+welore4	Lore Table		Priority	N/A	0	tabl:Life=mglife,Undeath=unundeat-noname-nobrackets				
+welore5	Lore Table		Priority	N/A	0	tabl:Shadow=mgshadow,Undeath=unundeat-noname-nobrackets				
+welore6	Lore Table		Priority	N/A	0	tabl:Beasts=mgbeasts,Undeath=unundeat-noname-nobrackets				
+wemagit0	Magic Items exlusions		Priority	N/A	0	hide;spec:-weap;spec:-armr;spec:-ward;spec:-ench				
+wemagit1	Magic Items exlusions		Priority	N/A	0	hide;spec:+wzrd				
+wemagit2	Magic Items exlusions		Priority	N/A	0	hide;spec:-armr;spec:-ward;spec:-ench				
+we1lvl	Magic Level 1	Mg1	Priority	Oth	60	base:Wz=1;show:mgmiscas;more:mgshadow=incl;spec:+wzrd;hide	+1 to casting and dispel rolls. Has 1 spell.			shadowdancer level
+wemag1	Magic Level 1	Mg1	Priority	N/A	50	base:Wz=1;show:weshow;show:wefull;show:mgmiscas;show:weloren	+1 dice to casting and dispel pool.  Has 1 spell.			
+wemg1lvt	Magic Level 1	Mg1	Priority	Oth	60	base:Wz=1;show:mgmiscas;show:mgshow;more:mglife=incl;spec:+wzrd	+1 to casting and dispel rolls. Has 1 spell.			treant level
+wemg1tre	Magic Level 1	Mg1	Priority	Oth	25	base:Wz=1;show:mgmiscas;more:mgshow=cost;hide;over:weavatar=delete;show:welore;slct:wemagit1=incl	+1 to casting and dispel rolls. Has 1 spell.			treant level
+wemg2lvt	Magic Level 2	Mg2	Priority	Oth	75	base:Wz=1;show:mgmiscas;show:mgshow;more:mglife=incl;spec:+wzrd	+2 to casting and dispel rolls. Has 2 spells.			treant level
+wemg2tre	Magic Level 2	Mg2	Priority	Oth	55	base:Wz=2;show:mgmiscas;more:mgshow=cost;spec:+wzrd;hide;over:weavatar=delete;show:welore;slct:wemagit1=incl	+2 to casting and dispel rolls. Has 2 spells.			treant level
+wemg3tre	Magic Level 3	Mg3	Priority	Oth	90	base:Wz=3;show:mgmiscas;more:mgshow=cost;spec:+wzrd;hide;over:weavatar=delete;show:welore;slct:wemagit1=incl	+3 to casting and dispel rolls. Has 3 spells.			treant level
+wemglvl3	Magic Level 3	Mg3	Priority	Oth	35	base:Wz=3;show:weshow;show:wefull;show:mgmiscas;over:mg2lvl=delete	+3 to casting and dispel rolls. Has 3 spells.			anvient treeman
+wemg4tre	Magic Level 4	Mg4	Priority	Oth	150	base:Wz=4;show:mgmiscas;more:mgshow=cost;spec:+wzrd;hide;over:weavatar=delete;show:welore;slct:wemagit1=incl	+4 to casting and dispel rolls. Has 4 spells.			treant level
+wemglvl4	Magic Level 4	Mg4	Priority	Oth	70	base:Wz=4;show:weshow;show:wefull;show:mgmiscas;over:mg2lvl=delete	+4 to casting and dispel rolls. Has 4 spells.			anvient treeman
+wemglvlt	Magic Level Table		Priority	Oth	0	tabl:NoMagic=wemg0tre,Level1=wemg1tre,Level2=wemg2tre,Level3=wemg3tre,Level4=wemg4tre-noname-nobrackets				treant level
+wemttbhr	Mount Table		Priority	N/A	0	tabl:ElvenSteed=wehsteed,GreatStag=westgmnt-noname-nobrackets;utyp:wewildkin;lglx:!mode=b				
+wemttbmg	Mount Table		Priority	N/A	0	tabl:ElvenSteed=wehsteed,Unicorn=weunimnt-noname-nobrackets;utyp:weglamkin				
+wewrmnt2	Mount Table		Priority	N/A	0	tabl:ElvenSteed=wehsteed,GreatStag=westgmnt-noname-nobrackets;lglx:mode=b				
+wenokin	No Kindred		Priority	N/A	0					
+wemg0tre	No Magic Levels		Priority	Oth	0	hide				treant level
+westshow	Oaken Crown Aspect	AsR	Priority	N/A	0	type:redwoodbanners;more:st10=cost;more:mus10=cost				
+weotsoaf	One Tree Short of a Forest		Priority	N/A	0		Opponent nominates one of his own units at start of game. At start of WE compulsory movement phase, Durthu must pass Ld test or move to this unit (charging if he can). May charge other unit if he can't charge the nominated unit, but only if this brings him closer to the latter.			
+wechoice	Opponent's Approval		Priority	N/A	0					
+welore	Path Table		Priority	N/A	0	tabl:Wilderness=mgbeasts,Nature=mglife-noname-nobrackets				
+welore3	Path Table		Priority	N/A	0	tabl:White=mghigh,Black=mgdark,Wilderness=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Nature=mglife,Light=mglight,Metal=mgmetal,Shadow=mgshadow-noname-nobrackets				
+wereserv	Reserves	Reser	Priority	N/A	0		Before deployment pick any units, these will not be deployed. Starting in turn 2, roll a D6 for each unit at the start of your Remaining moves phase. On a 4+ the unit must be placed wholly within a wood and may move as normal (can't charge)		Prints this description	
+wesctkin	Scout	Scout	Priority	N/A	15	xcst:25-unit=weforest;over:wehsteed=delete;over:weeagmnt=delete;over:wegdrmnt=delete;over:2handlrd=delete;over:2handhro=delete;unam:<"Scout ";over:btstand3=delete;over:welbowhe=disable;slct:welbowhe=incl;slct:welbowld=incl;over:wegwfth=delete				
+wedancer	Show Dances of Cenyrn		Priority	N/A	0	take:wedance1;take:wedance2;take:wedance3;take:wedance4;item:+4;spec:+mark	At the start of each Round of Combat, models with this special rule may choose one of the following effects. No model can use the same effect in two player turns in a row. All models in the same unit must choose the same effect. Effect lasts until the end of the round of combat.		Lists Dances of Cenryn as if Magic Items	
+wemounts	Show Mounts		Priority	N/A	0	hide;more:weunimnt=cost;more:wehsteed=cost				
+wesprepl	Take spears		Priority	N/A	1	more:wespearf=incl;over:2ndhwtrp=delete			Replace Additional hand weapons with Asrai spears.	
+wefalcon	The Falconer	Falcn	Priority	N/A	0		Skaw is a member of an Alter Kindred (his profile increases are included) and so may not join units. In addition, such is Skaw's distance from Asrai society that he will never use the Leadership of the army General.			
+weunburd	Unburden of Thieflings		Priority	N/A	0		12" range, always hits on 4+, D6 S2 hits & +D6 S2 Attacks in close combat; Units that suffer 1+ Wo suffer -1 to hit & -1 armour save in close combat for rest of game (not cumulative)			
+wewatkin	Waywatcher	WayW	Priority	N/A	45	over:wehsteed=delete;over:wegdrmnt=delete;over:weeagmnt=delete;over:2handlrd=delete;over:2handhro=delete;type:wewwkin;unam:<"Waywatcher ";over:btstand3=delete;over:lahro=delete;over:shhro=delete;over:lalrd=delete;over:shlrd=delete;over:wegwfth=delete;over:welbowhe=disable;slct:welbowhe=incl;slct:welbowld=incl;xcst:35-unit=weglader		Scout; Forest Stalker; Lethal Shots (does not apply to any magical bows or arrows)	Scout; Forest Stalker; Lethal Shots (does not apply to any magical bows or arrows)	wegwfth
+wewildri	Wild Rider	WldRd	Priority	Shd	35	slct:lahro=incl;slct:sprmthro=incl;type:wewildkin;over:btstand3=delete;over:shhro=delete;over:shwhro=delete;over:weeagmnt=delete;over:2ndhwhro=delete;base:WSv=5;unam:<"Wild Rider ";show:wemgarmr;xcst:50-unit=weforest;over:2handlrd=delete;over:2handhro=delete;over:shlrd=delete;over:shwlrd=delete;over:sprlrd=delete;over:2ndhwlrd=delete;slct:lalrd=incl;slct:sprmtlrd=incl;over:wegdrmnt=delete;show:wemttbhr;over:wehsteed=delete;lglx:mode=b;slct:welbowhe=incl;slct:welbowld=incl;show:wealwspr		Forest Spirit; Talismanic Warpaint; Fury of Kurnous	Forest Spirit; Talismanic Warpaint; Fury of Kurnous	
+wewrkin	Wild Rider	WldRd	Priority	Shd	35	slct:lahro=incl;slct:sprmthro=incl;type:wewildkin;over:btstand3=delete;over:shhro=delete;over:shwhro=delete;over:weeagmnt=delete;over:2ndhwhro=delete;base:WSv=5;unam:<"Wild Rider ";show:wemgarmr;xcst:50-unit=weforest;over:2handlrd=delete;over:2handhro=delete;over:shlrd=delete;over:shwlrd=delete;over:sprlrd=delete;over:2ndhwlrd=delete;slct:lalrd=incl;slct:sprmtlrd=incl;over:wegdrmnt=delete;show:wemttbhr;over:wehsteed=delete;slct:welbowhe=incl;slct:welbowld=incl;show:wealwspr		Forest Spirit; Talismanic Warpaint; Fury of Kurnous	Forest Spirit; Talismanic Warpaint; Fury of Kurnous	
+wearahan	Arahan		First	N/A	0	unit:wearahan@abs=1;hide				
+wenaestr	Naestra		First	N/A	0	unit:wenaestr@abs=1;hide				
+wealwspr	Allow Magic Spear		SpellType	N/A	0	over:sprmthro=delete;over:sprmtlrd=delete				
+wegrdarm	Allow Magic Weapons & Armour		SpellType	N/A	0	over:wegrdwep=delete;spec:+weap;spec:+armr				
+wemgarmr	Allow Magical Armour		SpellType	N/A	0	over:lahro=delete;over:lalrd=delete;over:wegrdwep=delete				
+weloren	Lore of Athel Loren	Loren	SpellType	Mgc	0	show:weshow;show:wefull;type:weloren;stat:Wz+1				
+wedark	Lore of Dark Magic	Loren	SpellType	Mgc	0	type:wedark;show:weshow2				
+wehigh	Lore of High Magic	Loren	SpellType	Mgc	0	type:wehigh;show:weshow2				
+wetree3	Tree Singing	TS	SpellType	N/A	25	take:we9tsing-perm;spec:+spel;item:1			Take Treesinging boundspell.	
+wetree1	Tree-singing		SpellType	N/A	0	apnd		Bound Spell; Power 3; Rng 18"; Target: Woods; Woods move D3+1 inches in direction chose by caster if no enemy inside; Stops when contacts any enemy model or terrain feature; D6 S5 hits on any enemy in woods otherwise; May be cast twice per turn.	Bound Spell; Power 3; Rng 18"; Target: Woods; Woods move D3+1 inches in direction chose by caster if no enemy inside; Stops when contacts any enemy model or terrain feature; D6 S5 hits on any enemy in woods otherwise; May be cast twice per turn.	
+wetree2	Tree-Singing		SpellType	N/A	0	apnd		Bound Spell; Power 3; Rng 18"; Target: Woods; Woods move D3+1 inches in direction chose by caster if no enemy inside; Stops when contacts any enemy model or terrain feature; D6 S5 hits on any enemy in woods otherwise.	Bound Spell; Power 3; Rng 18"; Target: Woods; Woods move D3+1 inches in direction chose by caster if no enemy inside; Stops when contacts any enemy model or terrain feature; D6 S5 hits on any enemy in woods otherwise.	
+weahw	Additional Hand Weapon	AHW	Weapon	2Hd	5	utyp:!mounted;stat:At+1;stat:In+1	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.			
+webow	Asrai Longbow	ALbow	Weapon	N/A	0	xcst:5-unit=wearchmg;xcst:5-unit=wemage	Range 30". St3. Armour Piercing. Volley Fire.			
+wespearf	Asrai Spear	ASpe	Weapon	Wep	0	utyp:!mounted;xcst:3-unit=weforest;xcst:2-unit=weglader	Armour Piercing. Fight in Extra Ranks.			foot spear
+wespearm	Asrai Spear	ASpe	Weapon	Wep	0	utyp:mounted;xcst:3-unit=weforest;xcst:2-unit=weglader	Armour Piercing. +1 St on charge.			mounted spear
+wespearw	Asrai Spear	ASpe	Weapon	N/A	0	over:2ndhwtrp=delete	Fight in Extra Ranks. Killing Blow against Cavalry, Monstrous Cavalry and Chariots engaged in the front.		Replace units' additional hand weapons with spears.	Wardancer spears
+wegrdwep	Eternal Guard Weapons		Weapon	Wep,Arm	0	stat:At+1;type:wegrdkin;base:Sv-2;spec:-armr;spec:-weap	Count as 5+ AS, 2nd weapon and spears (back rank uses spears, front rank uses 2nd weapon)			
+wegwfth	Great Weapon	GW	Weapon	2Hd	8	stat:St+2;type:GreatWeapon	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+wegwmtl	Great Weapon	GW	Weapon	2Hd	10	stat:St+2;type:GreatWeapon	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+wegwupg	King's Guard	GW	Weapon	N/A	6	stat:St+2;type:GreatWeapon;chld:champ@St+2;over:sprtrp=delete;unam:="King's Guard";base:Ld+1;chld:champ@Ld+1-base;base:At+1;chld:champ@At+1-base	Great Weapons: Requires Two Hands. +2 Strength. Strikes at initiative 0.		Exchange Spear for Great Weapon, +1 Leadership, +1 Attack	
+wejaveli	Poisoned Thorn		Weapon	N/A	0		Range 12”, Strength 3, Quick to Fire, Armour Piercing (1)			
+wewarwep	Wardancer Weapon		Weapon	N/A	0	stat:At+1;utyp:!BladesOfLoec				
+wegrd	Weapons & Armour		Weapon	N/A	0	stat:At+1	Count as 5+ AS, 2nd weapon and spears (back rank uses spears, front rank uses 2nd weapon)			
+westrang	Impaling Roots 	IRoot	Missile	N/A	20		Shooting attack: Range 12", Multiple Shots (D6+2), Strength 4 (Strength 5 if its target touches a forest), Quick to Fire, can march and fire, ignores To Hit penalties for cover and Long Range			
+welbow	Longbow	LBw	Missile	Rng	3	type:missiles;type:weigotbow;xcst:2-unit=weglader		Range 30", Strength 3 hit, Armour Piercing (1), Volley Fire	Range 30", Strength 3 hit, Volley Fire	
+welbowgg	Longbow	LBw	Missile	Rng	0	type:missiles		30", S3 hit (S4 at short range), Volley	Range 30", Strength 3 hit (S4 at short range), Volley fire	
+welbowhe	Longbow	LBw	Missile	Rng	10	type:missiles;utyp:!hspear		30", St3 hit, Volley	Range 30", Strength 3 hit, Volley fire	
+welbowld	Longbow	LBw	Missile	Rng	15	type:missiles;utyp:!hspear		30", St3 hit, Volley	Range 30", Strength 3 hit, Volley fire	
+weinnat6	Innate Defence (6+)	InDf6	Armour	N/A	8	more:save1=incl;xcst:5-unit=weglader;xcst:1-unit=wegrd				
+wenatarm	Mount's Protection (5+)	NatAr	Armour	N/A	10	more:save1=incl;xcst:5-unit=wewild;utyp:!mithrilmail				
+weshupg	Shield	Sh	Armour	N/A	0	more:save1=incl;over:welbow=delete	+1 armour save		Replace Longbows with Shields	
+websb	Battle Standard	Btl	Standard	M2H,Bst,Bs1	15	catg:btl;type:btl;dtyp:Ld9;over:general=delete;over:btnostnd=delete;over:btnostn2=delete;over:btnostn4=delete;over:shhro=delete;over:shwhro=delete	Units w/in 12" may re-roll break tests		Makes a character into a Battle Standard Bearer.	
+wewilmus	Musician	Mus	Musician	Mus	0	cost:single		+1CR if tied; +1 Ld in rally attempts; Unit causes Fear on charge	If combat ends in tie, musician may break tie. +1Ld in rally attempts. As long as musician lives, unit causes Fear on charge.	
+wechbow	Champion		Champion	N/A	0	unit:wechbow@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+wechdanc	Champion		Champion	N/A	0	unit:wechdanc@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+wechdryd	Champion		Champion	N/A	0	unit:wechdryd@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+wechgrd	Champion		Champion	N/A	0	unit:wechgrd@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+wechhawk	Champion		Champion	N/A	0	unit:wechhawk@abs=1;csiz:wehawks+1;modl:-1;cost:model			Upgrades a model to a Champion	
+wechrang	Champion		Champion	N/A	0	unit:wechrang@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+wechride	Champion		Champion	N/A	0	unit:wechride@abs=1;csiz:westeed+1;modl:-1;cost:model			Upgrades a model to a Champion	
+wechscou	Champion		Champion	N/A	0	unit:wechscou@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+wechthor	Champion		Champion	N/A	0	unit:wechthor@abs=1;modl:-1;cost:model;csiz:westeish+1			Upgrades a model to a Champion.	
+wechtrk	Champion		Champion	N/A	0	modl:-1;cost:model;unit:wechtrk@abs=1				
+wechway	Champion		Champion	N/A	0	unit:wechway@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+wechwild	Champion		Champion	N/A	0	unit:wechwild@abs=1;modl:-1;cost:model;csiz:westekur+1			Upgrades a model to a Champion.	
+weceithi	Ceithin-Har		Mount	N/A	220	unit:weceithi@abs=1;over:wegwinda=delete;more:save1=incl			Replace Great Eagle Gwindalor with Forest Dragon Ceithin-Har	
+wegdrmnt	Dragon		Mount	Mon	250	unit:wegdrag@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl;xcst:300-unit=wearchmg				
+westeed	Elf Steed		Mount	Mnt	0	unit:westeed@per=1			Mounted movement; +1Sv for rider	
+wehsteed	Elven Horse		Mount	Mnt	20	more:save1=incl;unit:wehsteed@abs=1;show:wenatarm;slct:heromnt=incl;type:mounted;stxt:Type="Ca";xcst:15-unit=wemage;xcst:15-unit=weglader;type:wildriderkin				
+wehawk	Falcon		Mount	Mnt	0	unit:wehawks@per=1			Flying movement; +1Sv for rider	
+weeagmnt	Forest Eagle		Mount	Mon	60	unit:wegreate@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl;stxt:Type="MC";xcst:50-unit=wearchmg;xcst:50-unit=wemage				
+westgmnt	Great Elk		Mount	Mon	50	slct:heromnt=incl;unit:westag@abs=1;more:save1=incl;stxt:Type="Ca";type:wildriderkin				
+wegwinda	Gwindalor		Mount	N/A	0	unit:wegwinda@abs=1;more:save1=incl;stxt:Type="MC"				
+westeish	Steed of Isha		Mount	Mnt	0	unit:westeish@per=1			Mounted movement; +1Sv for rider	
+westekur	Steed of Kurnous		Mount	Mnt	0	unit:westekur@per=1			Mounted movement; +1Sv for rider	
+weunimnt	Unicorn		Mount	Mon	60	unit:weunicor@abs=1;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca"				
+weshow	All Lore Spells		Priority2	N/A	0	more:mgshow=incl;take:wespell1;take:wespell2;take:wespell3;take:wespell4;take:wespell5;take:wespell6;base:Wz=7			Shows all spells for this lore, and lists short descriptions on the roster.	
+weshow2	All Lore Spells		Priority2	N/A	0	more:mgshow=incl;take:wehigha;take:wehigh0;take:wehigh00;take:wehigh1;take:wehigh2;take:wehigh3;take:wehigh4;take:wehigh5;take:wehigh6;take:wedarka;take:wedark0;take:wedark00;take:wedark1;take:wedark2;take:wedark3;take:wedark4;take:wedark5;take:wedark6;base:Wz=9			Shows all spells for this lore, and lists short descriptions on the roster.	
+weavatar	Avatar of Nature	Avat	Priority2	N/A	70	over:wemglvlt=delete;over:welore=delete;over:mgshow=delete;unam:+" - Avatar of Nature";base:WS+2;base:BS+1;base:St+2;base:In+1;base:At+3				
+wefull	Full Spell Lists		Priority2	N/A	0	more:mgfull=incl;more:wespell1=incl;more:wespell2=incl;more:wespell3=incl;more:wespell4=incl;more:wespell5=incl;more:wespell6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+wespell1	We1 - Tree-Singing		Priority3	N/A	0	apnd:foot;hide;utyp:weloren		Cast 4+. Rng 18". Move one forest D3+1" or causes D6 S5 hits on unit in forest.		
+wespell2	We2 - Fury of the Forest		Priority3	N/A	0	apnd:foot;hide;utyp:weloren		Cast 6+. Rng 18". D6 S4 hits, if target within 6" of wood S5.		
+wespell3	We3 - The Hidden Path		Priority3	N/A	0	apnd:foot;hide;utyp:weloren		Cast 7+. Rng 18". Unit cannot be harmed by non-magic missiles and treat all difficult terrain as open. Lasts until caster's next magic phase		
+wespell4	We4 - The Twilight Host		Priority3	N/A	0	apnd:foot;hide;utyp:weloren		Cast 8+. Rng 18". Unit Causes Fear. If unit already Causes Fear, unit Causes Terror instead. Lasts until caster's next magic phase		
+wespell5	We5 - Ariel's Blessing		Priority3	N/A	0	apnd:foot;hide;utyp:weloren		Cast 9+. Rng 18". Unit gains Regeneration. Lasts until caster's next magic phase		
+wespell6	We6 - Call of the Hunt		Priority3	N/A	0	apnd:foot;hide;utyp:weloren		Cast 11+. Rng 18". Unit moves 2D6" towards nearest enemy unit in LoS (may only hold as reaction). If no enemy in LoS unit moves straight forward. If cast into combat unit gains +1At (not mounts). Lasts until caster's next magic phase		
+weap1	Armour Piercing (1)	AP1	Special	N/A	5					
+wearrow3	Fey Arrows: Black Arrows	BlaA	Special	Oth	3	type:arrow3;utyp:weigotbow	Strength 4 in Short Range, Armour Piercing (1) in Long Range.			
+wearrow2	Fey Arrows: Hawthorn Points	HagbT	Special	Oth	3	type:arrow2;utyp:weigotbow	Poisoned Attacks.			
+wearrow5	Fey Arrows: Jeweled Shot	SwifS	Special	Oth	3	type:arrow5;utyp:weigotbow	Multiple Shots (2)			
+wearrow1	Fey Arrows: Perforating Tips	ArBod	Special	Oth	3	type:arrow1;utyp:weigotbow	Armour Piercing (3).			
+wearrow4	Fey Arrows: Starlight Shafts	StarS	Special	Oth	3	type:arrow4;utyp:weigotbow	Magical Attacks, Flaming Attacks. Holy Attacks.			
+wearrow6	Fey Arrows: Truemark Arrows	TrueA	Special	Oth	3	type:arrow6;utyp:weigotbow	Ignore To Hit modifiers from Cover, Skirmishers and Long Range.			
+wess6	Innate Defence (6+)	SS6	Special	N/A	10					
+wescout	Scouts	Scout	Special	N/A	2	type:sentinelscouts			One Sentinel unit in the army may upgrade all its models to Scouts.	
+weskirm2	Skirmishers	Skirm	Special	N/A	10	cost:single;unam:="Dryad Skirmishers"				
+weskirmi	Skirmishers	Skirm	Special	N/A	2	type:archerskirmishers;unam:="Elvish Archer Skirmishers"			One Elvish Archer unit in the army may upgrade all its models to Skirmishers.	
+wekin01	Kindred - Blade Dancer	Kin1	Last	Mrk	50	utyp:!mounted;base:WS+2;base:In+1;base:WSv=4;base:At+1;unam:+" - Bladedancer";xcst:35-unit=weglader;more:wedancer=cost;over:lahro=delete;over:weinnat6=delete;over:welbow=delete;over:shlrd=delete;over:wehsteed=delete;over:westgmnt=delete;over:weeagmnt=delete;over:wegdrmnt=delete;type:bladedancerkin;spec:-weap;spec:-armr;over:weahw=delete;over:wegwmtl=delete;over:sprlrd=delete;over:wegwfth=delete	Can only join units of Bladedancers. Immune to Psychology. 		Models on foot only. Can only join units of Blade Dancers. The model gains +2 Weapon Skill, +1 Strength, +1 Initiative, +1 Attack, Ward Save (4+), Immune to Psychology and Dances of Cenryn special rule. Can't take any other Close Combat or Shooting Weapon or armour (magical or mundane).	
+wekin02	Kindred - Forest Guardian	Kin2	Last	Mrk	40	utyp:!mounted;more:save2=incl;base:At+1;unam:+" - Forest Guardian";xcst:30-unit=weglader;over:wehsteed=delete;over:westgmnt=delete;over:weeagmnt=delete;over:wegdrmnt=delete;over:weahw=delete;over:weinnat6=delete	Innate Defence (5+)		Models on foot only. The model gains Innate Defence (5+) and +1 Attack. Can only be armed with a spear or a great weapon (can still use bows).	
+wekin03	Kindred - Pathfinder	Kin3	Last	Mrk	40	utyp:!mounted;type:weigotbow;base:BS+1;unam:+" - Pathfinder";xcst:35-unit=weglader;over:wehsteed=delete;over:westgmnt=delete;over:weeagmnt=delete;over:wegdrmnt=delete;slct:welbow=auto	Scout. Master Archer. Multiple Shots (A)		Models on foot only. Model gains +1 Ballistic Skill and Scout. The model must be equipped with a shooting weapon and gains Master Archers and Multiple Shots (attacks on profile).	
+wekin05	Kindred - Shapeshifter	Kin5	Last	Mrk	45	utyp:!mounted;base:Mv+4;base:In+2;base:At+1;base:WSv=4;unam:+" - Shapeshifter";xcst:35-unit=weglader;over:wehsteed=delete;over:westgmnt=delete;over:weeagmnt=delete;over:wegdrmnt=delete;over:wegen=delete;dtyp:Ld10;dtyp:Ld9	The model can never join any units; Not a Leader		Models on foot only. The model gains +4 Movement, +2 Initiative, +1 Attack, Ward Save (4+). The model can never join any units and has the Not a Leader Special Rule.	
+wekin04	Kindred - Wild Hunter	Kin4	Last	Mrk	20	utyp:wildriderkin;more:frenzy=incl;unam:+" - Wild Huntsman";xcst:15-unit=weglader;over:weeagmnt=delete;over:wegdrmnt=delete	Devastating Charge. The model gains Fear in the player turn in which it charges.		Models mounted on Elven Horse or Great Elk only. Model gains Frenzy and Devastating Charge. Furthermore, the model gains Fear in the player turn in which it charges.	
+^
+we9mw02	Bow of Wyscan	weap	MWp	45	1	itst:race=we&type=Lord		Magic Weapon. Longbow. Multiple shots (A+1) and Armour Piercing (1)	^	^	
+we9mw03	Bow of Wyscan	weap	MWp	30	1	itst:race=we&!type=Lord		Magic Weapon. Longbow. Multiple shots (A+1) and Armour Piercing (1).	^	^	
+we9mw04	Sacred Spear of Cadaron	weap	MWp	30	1	itst:race=we&!type=mounted		Spear. Multiple Wounds (2). If the wearer causes at least one unsaved wound, all models in the wearer's unit gain the Distracting Special Rule until the end of the Close Combat Phase.	^	^	
+we9mw05	Sword of the Dance	weap	MWp	40	1	itst:race=we&!type=mounted;stat:St+2;stat:WS+1;base:Sv-1		Great Weapon. Models on foot only. Multiple Wounds (2). +1 to armor save and +1 weapon skill.	^	^	
+we9ma01	Helm of the Wild Hunt	armr	MAr	20	1	itst:race=we;base:Sv-1		The bearer has +1 Armour Save. In the turn it charges, it has +1 Weapon Skill and +1 Attack.	^	^	
+we9ta01	Ancient Brooch	ward	Tal	35	1	itst:race=we		Talisman. Wearer has Ward Save (3+), which cannot be used against Magical Attacks.	^	^	
+we9ei03	Drums of Cenyrn	ench	Enc	30	1	itst:race=we&type=bladedancerkin		Blade Dancer Kindred only. Whenever the character or its unit charge, they gain Swiftstride for the purposes of rolling the Charge Range.	^	^	
+we9ei04	Hail Shot	ench	Enc	30	1	itst:race=we		Enchanted Item. One use only. This item is used as a Shooting Weapon with the following Profile: Range 30”. Strength 4, Armour Piercing (1), Multiple Shots (3D6). Fey Arrows cannot be used in addition to Hail Shot.	^	^	
+we9ei05	Mist Walker's Mirror	ench	Enc	35	1	itst:race=we&!type=mounted		Models on foot only. If the bearer (and the infantry unit it has joined) is unengaged and its footprint is completely inside a Forest Piece of Terrain, the bearer (and its unit) can teleport to another Forest on the table at the end of the Sunstone’s owner’s Movement Phase. Remove the unit and place it with its footprint completely inside another forest, in any formation and abiding by the 1” unit spacing rule. The unit counts as having performed a March Move.	^	^	
+we9ei02	Nestling Spirits	ench	Enc	30	1	itst:race=we		Enchanted Item. When in a Challenge, wearer is at -2 to be hit.	^	^	
+we9ei01	Sacred Seeds	ench	Enc	50	1	itst:race=we		Enchanted Item. One use only. At the start of any friendly Player Turn, the item can be activated. Place a Forest piece of terrain (no larger than 6" diameter) completely within 12" of the bearer (and more than 1” away from enemy units).	^	^	
+we9mb01	Amryl's Banner	stnd	Std	25	1	itst:race=we	bsb=incl	The bearer’s unit has Fight in Extra Rank.	^	^	
+wehigha	Attr - Ancients Protection	spel	N/A	0	100	itst:(race=we&type=wehigh)		Lore Attribute. When Wood Elf Wizard successfuly cast a spell from High Magic place a protection counter next to his unit. Next time the Wizard or his unit suffer an unsaved Wound, remove the counter and the wound counts as saved.	^	Lore Attribute. When Wood Elf Wizard successfuly cast a spell from High Magic place a protection counter next to his unit. Next time the Wizard or his unit suffer an unsaved Wound, remove the counter and the wound counts as saved.	
+wedarka	Attr - Wrath of the Wood	spel	N/A	0	100	itst:(race=we&type=wedark)		Lore Attribute. When Wood Elf Wizard successfuly cast a spell from Dark Magic place a vengeance counter next to his target. Next time the target suffer a number of hits from Dark Magic spell, remove the counter and increase the number of hits by D3.	^	Lore Attribute. When Wood Elf Wizard successfuly cast a spell from Dark Magic place a vengeance counter next to his target. Next time the target suffer a number of hits from Dark Magic spell, remove the counter and increase the number of hits by D3.	
+wedark0	Drk0 - Power of Darkness	spel	N/A	0	100	itst:(race=we&type=wedark)		Signature spell. Augment. 8+ to Cast. All models in caster's unit gain +1 Strength until start of caster's next Magic phase. The add D3 Power dice to power pool. If 3 dice are generated caster suffer 1 Wound with no armour saves.	^	Signature spell. Augment. 8+ to Cast. All models in caster's unit gain +1 Strength until start of caster's next Magic phase. The add D3 Power dice to power pool. If 3 dice are generated caster suffer 1 Wound with no armour saves.	
+wedark00	Drk00 - Doombolt	spel	N/A	0	100	itst:(race=we&type=wedark)		Signature spell. Magic missile. 12+ to Cast. Range 18". 2D6 S5 hits. OR Cast on 24+, 4D6 S5 hits.	^	Signature spell. Magic missile. 12+ to Cast. Range 18". 2D6 S5 hits. OR Cast on 24+, 4D6 S5 hits.	
+wedark1	Drk1 - Chill Wind	spel	N/A	0	100	itst:(race=we&type=wedark)		Magic missile. 5+ to Cast. Range 24". Causes 2D6 St2 hits. If target suffers any Wounds, all models suffer -1 to BS until start of caster's next Magic phase.	^	Magic missile. 5+ to Cast. Range 24". Causes 2D6 St2 hits. If target suffers any Wounds, all models suffer -1 to BS until start of caster's next Magic phase.	
+wedark2	Drk2 - Word of Pain	spel	N/A	0	100	itst:(race=we&type=wedark)		Hex. 9+ to Cast. Range 24". All models in target unit suffer -D3 to WS and BS until start of caster's next Magic phase. OR 12+ to Cast to also lower St and In by D3.	^	Hex. 9+ to Cast. Range 24". All models in target unit suffer -D3 to WS and BS until start of caster's next Magic phase. OR 12+ to Cast to also lower St and In by D3.	
+wedark3	Drk3 - Bladewind	spel	N/A	0	100	itst:(race=we&type=wedark)		Direct damage. 9+ to Cast. Range 24". All models in unit must test WS or suffer St4 hit with armour piercing special rule.	^	Direct damage. 9+ to Cast. Range 24". All models in unit must test WS or suffer St4 hit with armour piercing special rule.	
+wedark4	Drk4 - Shroud of Despair	spel	N/A	0	100	itst:(race=we&type=wedark)		Hex. 10+ to Cast. All enemy units within 12" cannot benefit from Inspiring Presence and Hold Your Ground! special rules. Whenever target unit fails Ld test, all target unit suffer -1 to Ld. Effects last until start of caster's next Magic phase.	^	Hex. 10+ to Cast. All enemy units within 12" cannot benefit from Inspiring Presence and Hold Your Ground! special rules. Whenever target unit fails Ld test, all target unit suffer -1 to Ld. Effects last until start of caster's next Magic phase.	
+wedark5	Drk5 - Soul Stealer	spel	N/A	0	100	itst:(race=we&type=wedark)		Direct damage. 11+ to cast. Range 18" OR 14+ to Cast. Range 36". Place small round template and scatter it D6". All models hit suffer St2 hit with no armour saver allowed. For each Wound inflicted roll D6: caster gains single Wound on each roll of 4+ (up to max of 10).	^	Direct damage. 11+ to cast. Range 18" OR 14+ to Cast. Range 36". Place small round template and scatter it D6". All models hit suffer St2 hit with no armour saver allowed. For each Wound inflicted roll D6: caster gains single Wound on each roll of 4+ (up to max of 10).	
+wedark6	Drk6 - Arnizipal's Black Horror	spel	N/A	0	100	itst:(race=we&type=wedark)		Magical vortex. 15+ to cast, small round template. OR 25+ to cast, large round template. Template moves Artillery dice roll multiplied by caster's Wizard level. All models touched or moved over must test Strength or die, though Ward saves are allowed.	^	Magical vortex. 15+ to cast, small round template. OR 25+ to cast, large round template. Template moves Artillery dice roll multiplied by caster's Wizard level. All models touched or moved over must test Strength or die, though Ward saves are allowed.	
+wehigh0	High0 - Drain Magic	spel	N/A	0	100	itst:(race=we&type=wehigh)		Signature spell. Hex/Augment. 7+ to Cast. All RIP spells affecting the unit are immediately dispelled and effects of all other spells on the target unit immediately come to an end. OR 14+ to Cast to affect all friendly and enemy units within 18".	^	Signature spell. Hex/Augment. 7+ to Cast. All RIP spells affecting the unit are immediately dispelled and effects of all other spells on the target unit immediately come to an end. OR 14+ to Cast to affect all friendly and enemy units within 18".	
+wehigh00	High00 - Soul Quench	spel	N/A	0	100	itst:(race=we&type=wehigh)		Signature spell. Magic missile. 8+ to Cast, 2D6 S4 hits OR 16+ to Cast, 4D6 S4 hits. Range 18".	^	Signature spell. Magic missile. 8+ to Cast, 2D6 S4 hits OR 16+ to Cast, 4D6 S4 hits. Range 18".	
+wehigh1	High1 - Apotheosis	spel	N/A	0	100	itst:(race=we&type=wehigh)		Augment. 5+ to Cast. Range 18". Single model regains 1 Wound. OR 10+ to Cast, single model regains D3 Wounds. In addition target couse Fear until start of caster's next magic phase.	^	Augment. 5+ to Cast. Range 18". Single model regains 1 Wound. OR 10+ to Cast, single model regains D3 Wounds. In addition target couse Fear until start of caster's next magic phase.	
+wehigh2	High2 - Hand of Glory	spel	N/A	0	100	itst:(race=we&type=wehigh)		Augment. 5+ to Cast. Range 18". Target's WS, BS, In or Mv is increased  by D3. OR 10+ to Cast to increase all of those stats by D3.	^	Augment. 5+ to Cast. Range 18". Target's WS, BS, In or Mv is increased  by D3. OR 10+ to Cast to increase all of those stats by D3.	
+wehigh3	High3 - Walk Between Worlds	spel	N/A	0	100	itst:(race=we&type=wehigh)		Augment. 8+ to Cast.  Range 24". Target gain Ethereal special rule until the end of the magic phase and can immediately move to 10" as if it were Remaining Moves sub-phase. OR 16+ to Cast to move 20".	^	Augment. 8+ to Cast.  Range 24". Target gain Ethereal special rule until the end of the magic phase and can immediately move to 10" as if it were Remaining Moves sub-phase. OR 16+ to Cast to move 20".	
+wehigh4	High4 - Tempest	spel	N/A	0	100	itst:(race=we&type=wehigh)		Direct Damage. 12+ to Cast 8+. Place Large round template within 30" of wizard ands catter it D6". All models hit suffer s3 hits (models with Fly suffer an s4 hit instead). Any unit that suffers any unsaved Wounds from this spell, suffers -1 To Hit in shooting and cc. Those that do not use BS need a 4+ to fire.	^	Direct Damage. 12+ to Cast 8+. Place Large round template within 30" of wizard ands catter it D6". All models hit suffer s3 hits (models with Fly suffer an s4 hit instead). Any unit that suffers any unsaved Wounds from this spell, suffers -1 To Hit in shooting and cc. Those that do not use BS need a 4+ to fire.	
+wehigh5	High5 -  Arcane Unforging	spel	N/A	0	100	itst:(race=we&type=wehigh)		Direct Damage. 13+ to Cast. Range 24". Single enemy model suffers a Wound on a dice roll greater than or equal to unmodified armor save. No armour saves allowed. Target then reveals all magic items and randomly selected one is destroyed on 2+.	^	Direct Damage. 13+ to Cast. Range 24". Single enemy model suffers a Wound on a dice roll greater than or equal to unmodified armor save. No armour saves allowed. Target then reveals all magic items and randomly selected one is destroyed on 2+.	
+wehigh6	High6 - Fiery Convocation	spel	N/A	0	100	itst:(race=we&type=wehigh)		Direct Damage. Remains in play. 19+ to Cast. Range 24". Every model in the unit takes a S4 flaming hit. At the end of every subsequent Magic phase, every model suffers another S4 flaming hit.	^	Direct Damage. Remains in play. 19+ to Cast. Range 24". Every model in the unit takes a S4 flaming hit. At the end of every subsequent Magic phase, every model suffers another S4 flaming hit.	
+we9tsing	Tree Singing	spel	N/A	0	100	itst:race=we;xtot		Bound spell, Power Level 3, Range 24”, Special, Instant. The spell targets a single Forest piece of terrain, any friendly unit completely inside it and any enemy unit at least touching it. Each enemy units targeted suffer D6 Strength 4 hits with Armour Piercing (1). The target Forest and friendly units (not enemy units) are moved D3+1” in a direction chosen by the caster, as if they were doing a Magical Movement. The forest immediately stops just before moving into contact with enemy units or any other terrain feature. In addition, Lifebloom (Path of Nature) is cast automatically as Path Attribute.	^	^	
+wespell1	We1 - Tree-Singing	spel	N/A	0	100	itst:(race=we&type=weloren);xtot		Cast 4+. Rng 18". Moves one forest D3+1" or causes D6 S5 hits on unit in forest.	^; Lore of Athel Loren	Cast 4+. Rng 18". Moves one forest D3+1" or causes D6 S5 hits on unit in forest.	
+wespell2	We2 - Fury of the Forest	spel	N/A	0	100	itst:(race=we&type=weloren);xtot		Cast 6+. Rng 18". D6 S4 hits, if target within 6" of wood S5.	^; Lore of Athel Loren	Cast 6+. Rng 18". D6 S4 hits, if target within 6" of wood S5.	
+wespell3	We3 - The Hidden Path	spel	N/A	0	100	itst:(race=we&type=weloren);xtot		Cast 7+. Rng 18". Unit cannot be harmed by non-magic missiles and treat all difficult terrain as open. Lasts until caster's next magic phase	^; Lore of Athel Loren	Cast 7+. Rng 18". Unit cannot be harmed by non-magic missiles and treat all difficult terrain as open. Lasts until caster's next magic phase	
+wespell4	We4 - The Twilight Host	spel	N/A	0	100	itst:(race=we&type=weloren);xtot		Cast 8+. Rng 18". Unit causes fear. If unit already causes fear, unit causes terror instead. Lasts until caster's next magic phase	^; Lore of Athel Loren	Cast 8+. Rng 18". Unit causes fear. If unit already causes fear, unit causes terror instead. Lasts until caster's next magic phase	
+wespell5	We5 - Ariel's Blessing	spel	N/A	0	100	itst:(race=we&type=weloren);xtot		Cast 9+. Rng 18". Unit gains regeneration. Lasts until caster's next magic phase	^; Lore of Athel Loren	Cast 9+. Rng 18". Unit gains regeneration. Lasts until caster's next magic phase	
+wespell6	We6 - Call of the Hunt	spel	N/A	0	100	itst:(race=we&type=weloren);xtot		Cast 11+. Rng 18". Unit moves 2D6" towards nearest enemy unit in LoS (may only hold as reaction). If no enemy in LoS unit moves straight forward. If cast into combat unit gains +1At (not mounts). Lasts until caster's next magic phase	^; Lore of Athel Loren	Cast 11+. Rng 18". Unit moves 2D6" towards nearest enemy unit in LoS (may only hold as reaction). If no enemy in LoS unit moves straight forward. If cast into combat unit gains +1At (not mounts). Lasts until caster's next magic phase	
+wedance4	Dance of a Thousand Cuts	mark	N/A	0	100	itst:race=we		Each Blade Dancer in the unit that could attack or make a supporting attack, attacks a single enemy character that is in contact with at least one of them. For this purpose, all these models count as in base contact with the enemy character. Enemy characters in a challenge cannot be chosen as a target for this dance. Blade Dancer characters in a challenge do not benefit from the effects of this dance.	^	^	
+wedance3	Dance of Bedevilments	mark	N/A	0	100	itst:race=we		The unit causes Fear and enemy units in base contact do not receive Rank Bonus to their Combat Score.	^	^	
+wedance2	Dance of the Parting Mists	mark	N/A	0	100	itst:race=we		Ward Save (3+), -1 Strength.	^	^	
+wedance1	Dance of Whirling Blades	mark	N/A	0	100	itst:race=we		+1 Attack.	^	^	
+weacorn	Acorn of the Ages	unk2	Enc	100	1	itst:race=we		One use only. Before deployment place D3 Citadel Woods anywhere on the battlefield, at least 1" away from ather terrain and board edge and then scatter each of this woods 2D6" (stopping within 1" of other terrain and board edge).	^	^	
+webrooch	Amaranthine Brooch	unk2	Tal	35	1	itst:race=we;base:WSv=3		3+ ward save against non-magical attacks.	^	^	
+weamber	Amber Pendant	unk2	Tal	35	1	itst:(race=we&!type=mounted)		Models on foot only. Enemy in base contact always strike last (regardless of abilities).	^	^	
+wenetel	Annoyance of Netlings	unk2	N/A	25	1	itst:race=we		Opponents in challenges only hit on 6s.	^	^	
+webodkin	Arcane Bodkins	unk2	Enc	25	1	itst:(race=we&!type=wewarkin)		Magical Arrows. No armour saves allowed.	^	^	
+wefey	Armour of the Fey	unk2	Arm,MAr	35	1	itst:(race=we&!type=wewarkin&!type=wewwkin&!type=wegrdkin);type:MagicArmour	wsv4=incl,ssave1=incl	Light armour. 4+ ward save against Magical close combat attacks only.	^	^	
+weasyend	Asyendi's Bane	unk2	MWp,MRg	10	1	itst:(race=we&!type=wewarkin&!type=wewildkin&!type=wegrdkin)		Longbow. Re-roll misses, hits self on second miss.	^	^	
+wedwind	Banner of Dwindling	unk2	Std	50	1	itst:race=we	bsb=incl	Enemies broken roll -1D6 for fleeing distance.	^	^	
+wexenith	Banner of Zenith	unk2	Std	25	1	itst:race=we	bsb=incl	Enemies may not march within 12" instead of the normal 8".	^	Enemies may not march within 12"	
+wemisel	Befuddlement of Mischiefs	unk2	Bnd	25	1	itst:race=we&!reg=wetmanc		Bound Spell, Power Level 3. One enemy unit within 18" that is not Immune to Psychology is subject to Stupidity in its next turn.	^	^	
+webliel	Blight of Terrors	unk2	N/A	50	1	itst:race=we		Causes Terror.	^	^	
+weloren	Bow of Loren	unk2	MWp,MRg	20	1	itst:race=we		Asrai longbow. Multiple shots (At +1). It cannot fire enchanted arrows.	^	^	
+wehearth	Briarhearth	unk2	Arm,MAr	15	1	itst:(race=we&!type=mounted&!type=wewarkin&!type=wewwkin&!type=wegrdkin);type:MagicArmour	ssave1=incl	Light Armour. Models on foot only. Bearer at -1 to be hit by missiles, increased to -2 if model is wholly within a wood.	^	^	
+westave	Calaingor's Stave	unk2	Arc	20	1	itst:race=we		Bearer generates 1 spell less than normal, but knows Tree Singing spell: Cast 8+. Augment. Range 18". Target forest. Move one forest up to D6+1" or cause 2D6 S4 hits on unit in forest OR Cast on 16+ to target all forests within 12".	^	^	
+weclaw	Callach's Claw	unk2	MWp	25	1	itst:(race=we&!type=wewarkin&!type=wewildkin&!type=wegrdkin)		Wounded models suffer -1 Ld for rest of phase	^	^	
+wecluste	Cluster of Radiants	unk2	N/A	25	1	itst:(reg=wewraith|reg=wetmanc)		+1 Dispel Dice	^	^	
+wereaper	Daith's Reaper	unk2	MWp	50	1	itst:race=we		Re-roll failed To Hit and To Wound rolls. Enemy must re-roll successful armour saves.	^	^	
+wedawnsp	Dawnspear	unk2	MWp	35	1	itst:(race=we&!type=wewarkin&!type=wegrdkin)		Spear. Models wounded at -1 to hit for rest of phase.	^	^	
+wesphere	Deepwood Sphere	unk2	Arc	25	1	itst:race=we		Bearer can reroll distance or hits for Tree-singing and enemy models in the same wood take a S5 hit at the start of every Wood Elf magic phase.	^	^	
+weorb	Divination Orb	unk2	Arc	25	1	itst:race=we		Any spell cast by the enemy using more than 3 power dice may be dispelled with one extra dice (this does not come out of the Wood Elf dispel pool).	^	^	
+wedrag	Dragontooth Arrows	unk2	Enc	20	1	itst:(race=we&!type=wewarkin)		Magical Arrows. Any model that suffers a wound is subject to stupidity for the rest of the battle even if normally immune to psychology.	^	^	
+wenetbr	Elynett's Brooch	unk2	Enc	20	1	itst:race=we		Bearer and unit may reroll failed psychology tests.	^	^	
+weshard	Fimbulwinter Shard	unk2	Tal	25	1	itst:race=we		Bearer and mount are at -1 to be hit in close combat. Any Forest Spirits within 6" suffer from Stupidity.	^	^	
+weweave	Glamourweave	unk2	Tal	30	1	itst:race=we		4+ Ward save versus all shooting and magic missiles. Enemies in combat must pass a Ld test or will need 6s to hit bearer in that phase.	^	^	
+wegwyth	Gwytherc's Horn	unk2	Enc	15	1	itst:race=we		One use only. Use at start of bearer's turn. He and unit are Immune to Psychology until the start of his next turn.	^	^	
+wehgbn	Hagbane Arrows	unk2	Enc	35	1	itst:(race=we&!type=wewarkin)		Magical Arrows. Enemies suffering Wounds from these must pass T test or is slain (no saves)	^	^	
+wehdoom	Hail of Doom Arrow	unk2	Enc	30	1	itst:race=we		One use only. Range 30". St4. Multiple shots (3D6). Armour piercing.	^	^	
+wehelm	Helm of the Hunt	unk2	MAr	20	1	itst:race=we	ssave1=incl	6+ Armour save. Devastating Charge. +1WS on charge.	^	^	
+wehorn	Horn of the Asrai	unk2	Enc	25	1	itst:race=we		One use only. Use at start of enemy turn. Enemy units able to charge bearer must do so unless they pass an Ld test.	^	^	
+wetalon	Hunter's Talon	unk2	MWp,MRg	25	1	itst:(race=we&!type=wewarkin&!type=wewildkin&!type=wegrdkin)		Longbow. Any of the model's non-magic arrows may be fired without normal target restrictions (-1 to hit penalty).	^	^	
+wedesel	Lamentation of Despairs	unk2	Bnd	25	1	itst:race=we&!reg=wetmanc		One use only. Bound Spell, Power Level 3. Pick any model on the table. It has to pass a Ld test or lose D3 Wounds (no saves or regeneration)	^	^	
+welocus	Merciw's Locus	unk2	Tal	20	1	itst:race=we		Bearer and anyone attacking him don't recieve any S bonus from weapons	^	^	
+wemoonst	Moonstone of the Hidden Ways	unk2	Enc	40	1	itst:race=we		 At end of the controlling players movement phase, if bearer and unit is wholly in a wood and not in close combat, may be removed from table and placed wholly in other wood facing any direction. Unit counts as marching.	^	^	
+wespitel	Murder of Spites	unk2	N/A	25	1	itst:race=we		+D6 Magical and Poisoned Attacks at bearer's WS,  In4, S2.	^	^	
+wemalel	Muster of Malevolents	unk2	N/A	25	1	itst:race=we		Range 6". Bearer counts as a single model for LOS for these D6 S2 Magical and Poisoned shots that always hit on a 4+ and can be fired in addition to another missile weapon and at a different unit. Can always stand and shoot, regardless of distance and LOS.	^	^	
+weoak	Oaken Armour	unk2	Arm,MAr	50	1	itst:(race=we&!type=wewarkin&!type=wewwkin&!type=wegrdkin);type:MagicArmour	ssave1=incl	Light armour, Regeneration.	^	^	
+wepagel	Pageant of Skrikes	unk2	N/A	25	1	itst:race=we		Range 18", S4, always hits on 3+. can be fired in addition to another missile weapon and at a different unit. Bearer may pick any target he can see, even characters in units. May not Stand and Shoot.	^	^	
+wewldfir	Rageth's Wildfire Blades	unk2	MWp,M2H	10	1	itst:(race=we&!type=mounted&!type=wewarkin&!type=wegrdkin&!type=wewildkin&!type=btl);stat:At+1		Two hand weapons. Flaming attacks.	^	^	
+wemant	Railarian's Mantle	unk2	Arm,MAr	50	1	itst:(race=we&!type=wewarkin&!type=wewwkin&!type=wegrdkin);type:MagicArmour	ssave1=incl	Light armour. 4+ ward save if within 6" of a wood.	^	^	
+weheart	Ranu's Heartstone	unk2	Arc	20	1	itst:race=we		One use only. Reroll one die used to cast or dispel. Can prevent miscast and cause IF	^	^	
+welumel	Resplendence of Luminescents	unk2	N/A	25	1	itst:race=we		All attacks made by the bearer and his unit are magical.	^	^	
+weharp	Rhymer's Harp	unk2	Tal	75	1	itst:race=we	wsv5=incl	Character, mount, and unit may move through all difficult terrain without penalty and receive a 5+ ward save.	^	^	
+weroyal	Royal Standard of Ariel	unk2	Std	100	1	itst:race=we	bsb=incl	Unit Causes Fear and friendly units within 12" have MR (1).	^	^	
+wetwilsp	Spear of Twilight	unk2	MWp	30	1	itst:(race=we&!type=wewarkin&!type=wegrdkin)		Spear. Killing Blow.	^	^	
+westfir	Starfire Arrows	unk2	Enc	25	1	itst:(race=we&!type=wewarkin)		Magical Arrows. Any unit suffering a casualty must take a Panic test.	^	^	
+werebir	Stone of Rebirth	unk2	Tal	30	1	itst:race=we		One use only. 2+ ward save once bearer is reduced to one Wound.	^	^	
+wemere	Stone of the Crystal Mere	unk2	Tal	30	1	itst:race=we;base:WSv=3		3+ Ward save for bearer & mount until their first failed ward save.	^	^	
+weswdwin	Sword of a Thousand Winters	unk2	MWp	20	1	itst:(race=we&!type=wewarkin&!type=wewildkin&!type=wegrdkin)		Any characters and/or monsters suffer -1A, S, and I for every unsaved wound for the rest of the battle if they fail a T test.	^	^	
+weeterq	The Banner of the Eternal Queen	unk2	Std	100	1	itst:race=we	bsb=incl	Magic Resistance (3). Once per game unit is Unbreakable until end of turn or until the bearer is slain. Declare using this ability at the start of any turn.	^	^	
+wehunter	The Banner of the Hunter King	unk2	Std	75	1	itst:race=we	bsb=incl	Vanguard deployment. Unit re-roll fist failed charge of the game.	^	^	
+wespirit	The Spirit Sword	unk2	MWp	85	1	itst:race=we		No arnour saves. If enemy suffers Wo, bearer and he roll 2D6 and add Ld. If enemy total is lower he suffers Wound per point he lost by, with no armour saves.	^	^	
+wewand	Wand of Wych Elm	unk2	Arc	55	1	itst:race=we		Re-roll failed dispel rolls	^	^	
+wewrast	Wraithstone	unk2	Enc	50	1	itst:race=we		All enemy units within 6" of the bearer are at -1Ld.	^	^	
+wedurth1	A Lamentation of Despairs	spec	Enc	0	1	itst:reg=wedurthu		Shooting attack, Range 12", St2, Killing Blow, Multiple Shots (2D6).	^	^	
+weorion3	Cloak of Isha	spec	N/A	0	1	itst:reg=weorion		Ward Save 5+. Magic Resistance (2). At the start of each of his own turns roll D6: on the roll of 6 he regains single Wound.	^	^	
+weorion4	Hawk's Talon	spec	N/A	0	1	itst:reg=weorion		Missile weapon. Range 30", St5, Multiple Shots (6)	^	^	
+weorion1	Horn of the Wild Hunt	spec	N/A	0	1	itst:reg=weorion		At the start of each turn the Horn grants Devastating Charge special rule to Orion and all friendly Wood Elf units within 6". Effect lasts until end of that turn.	^	^	
+wearalo1	Skaryn the Eye Thief	spec	Enc	0	1	itst:reg=wearalot		Nominate single enemy model within 18". That model takes St4 hit. If wound is unsaved and To Wound roll was a 6, model suffers -5 WS and In (to a min of 1) for the rest of the game.	^	^	
+weorion2	Spear of Kurnous	spec	N/A	0	1	itst:reg=weorion		Shoots like bolt thrower, but can be used after moving (but not marching), Range 18", St7, Multiple Wounds (D3), no armour saves.	^	^	
+wenaest1	Talon of Dawn	spec	N/A	0	1	itst:reg=wenaestr		Missile weapon. Range 30", St5, Armour Piercing, Flaming Attacks, Multiple Wounds (D6). If an attack from Talon of Dawn causes one or more unsaved Wounds, Naestra's mount regains a single Wound lost earlier in the battle.	^	^	
+wearaha1	Talon of Dusk	spec	N/A	0	1	itst:reg=wearahan		Missile weapon. Range 30", St1, Armour Piercing, Poisoned Attacks, Multiple Shots (2D6)	^	^	
+weskaw1	The Cape of Feathers	spec	N/A	0	1	itst:reg=weskaw		This item grants Skaw a 4+ Armour Save against all shooting attacks.	^	^	
+weariel1	The Heartstone of Athel Loren	spec	N/A	0	1	itst:reg=weariel		This item grants Ariel a Magic Resistance of 2. In addition, if she successfully resists a spell targeted at her, the casting Wizard must immediately take a Leadership test. If he fails, he immediately loses a magic level and may not cast that spell for the remainder of the game.	This item grants Ariel a Magic Resistance of 2. In addition, if she successfully resists a spell targeted at her, the casting Wizard must immediately take a Leadership test. If he fails, he immediately loses a magic level and may not cast that spell for the remainder of the game.	This item grants Ariel a Magic Resistance of 2. In addition, if she successfully resists a spell targeted at her, the casting Wizard must immediately take a Leadership test. If he fails, he immediately loses a magic level and may not cast that spell for the remainder of the game.	
+weskaw2	The Lash of Claws	spec	N/A	0	1	itst:reg=weskaw		This whip allows Skaw to always strike first - if another Character has this ability, resolve the Attacks in Initiative order. In addition, any model hit by the whip loses one Attack (down to a minimum of 1) for the remainder of that turn.	^	^	
+weloec	Blades of Loec	virt	N/A	35	1	itst:(race=we&type=wewarkin);stat:At+1;type:BladesOfLoec		Wardancer weapons. Reroll failed rolls to wound.	^	^	
+we9spi01	Entangling Vines	spit	Vit	25	1	itst:race=we		In Challenge, successful to hit rolls must be rerolled.	^	^	
+we9spi02	Entwined Roots	spit	Vit	70	1	itst:race=we		After deployment, choose a unit of Dryads or Treefolk. This unit has +1 Strength as long as the wearer is alive.	^	^	
+we9spi05	Fertile Seeds	spit	Vit	15	1	itst:race=we		All friendly Path of Nature attributes cast within 12” of the wearer may raise wounds instead of recover wounds. This effect can only be used on units with the Otherworldly special rule, against other units, the attribute still recover wounds.	^	^	
+we9spi04	Oaken Crown	spit	Vit	25	1	itst:race=we&type=general;type:redwoodaspect		All Treefolk and Dryads units may take a Standard Bearer and/or Musician for 10 points each.	^	^	
+we9spi03	Toxic Spores	spit	Vit	30	1	itst:race=we		Wearer’s unit has a Shooting attack with the following profile: Range 18”, Strength 3, Lethal Blow.	^	^	
+^
+^
+^
+wechride	chamstat	hide
+weforest	heromnt	hide
+weforest	lahro	free
+weforest	shlrd	cost
+weforest	sprlrd	cost
+weforest	lancelrd	hide
+weforest	wegdrmnt	cost
+weforest	weeagmnt	cost
+weforest	welbow	cost
+weforest	weahw	cost
+weforest	wehsteed	cost
+weforest	westgmnt	cost
+wearchmg	general	cost
+wearchmg	mg3lvl	incl
+wearchmg	mgfull	hide
+wearchmg	mgmiscas	cost
+wearchmg	mgshow	hide
+wearchmg	mg4lvl60	cost
+wearchmg	welore3	cost
+wearchmg	weunimnt	cost
+weglader	btnostn4	incl
+weglader	btstdok	cost
+weglader	general	cost
+weglader	heromnt	hide
+weglader	lahro	free
+weglader	shlrd	cost
+weglader	sprlrd	cost
+weglader	lancelrd	hide
+weglader	weeagmnt	cost
+weglader	welbow	cost
+weglader	weahw	cost
+weglader	wehsteed	cost
+wemage	general	cost
+wemage	mg1lvl	incl
+wemage	mg2lvl30	cost
+wemage	mgfull	hide
+wemage	mgmiscas	cost
+wemage	mgshow	hide
+wemage	webow	cost
+wemage	weunimnt	cost
+wearch	mus10	cost
+wearch	st10	cost
+wearch	wechbow	cost
+wearch	welbow	incl
+wegrd	mus10	cost
+wegrd	st10	cost
+wegrd	wechgrd	cost
+wedancer	wedancer	cost
+wedancer	wechdanc	cost
+wedancer	mus10	cost
+wehawk	wehawk	appl
+wehawk	welbow	incl
+wehawk	wechhawk	cost
+wedryad	wechdryd	cost
+weway	welbow	incl
+weway	wechway	cost
+weriders	mus10	cost
+weriders	wellance	incl
+weriders	st10	cost
+weriders	wechride	cost
+weriders	westeed	appl
+weriders	welbow	incl
+wehawk	wellance	incl
+wedancer	stmg10	cost
+wewraith	mg1lvl	incl
+wescout	mus10	cost
+wescout	st10	cost
+wescout	wechscou	cost
+wescout	webow	incl
+wegrd	sprtrp	incl
+wewild	latrp	incl
+wewild	wellance	incl
+wewild	mus10	cost
+wewild	stmg10	cost
+wewild	westekur	incl
+wewild	wechwild	cost
+wearchmg	wehsteed	cost
+wemage	wehsteed	cost
+wemage	heromnt	hide
+wearchmg	heromnt	hide
+weforest	wegen	cost
+weglader	wewrmnt2	cost
+weglader	wegwfth	cost
+weglader	westgmnt	cost
+weforest	wegwmtl	cost
+wemage	welore3	cost
+wemage	weeagmnt	cost
+wearchmg	weeagmnt	cost
+wearchmg	wenatarm	hide
+wemage	wenatarm	hide
+wearchmg	wegdrmnt	cost
+wewraith	general	cost
+weway	2ndhwtr1	incl
+wewraith	mgshow	cost
+wewraith	mgmiscas	cost
+wewraith	welore	cost
+wekin	wechtrk	cost
+wetmanc	general	cost
+wetmanc	mgmiscas	hide
+wetmanc	wemagit0	auto
+weorion	general	cost
+weorion	wehounds	cost
+weorion	frenzy	incl
+wedrycha	mgshow	hide
+wedrycha	mgmiscas	cost
+wedrycha	welore5	cost
+wedrycha	general	cost
+wetmanc	westrang	incl
+wesister	wenaestr	incl
+wesister	wearahan	incl
+wearahan	wespearm	incl
+wenaestr	wespearm	incl
+weceithi	weignore	incl
+wesister	wegwinda	incl
+wesister	weceithi	cost
+wescout	wearrow1	cost
+wescout	wearrow2	cost
+wedurth1	wetree1	incl
+wedurth1	westrang	incl
+wedurth1	weignor3	incl
+wedurth1	weunburd	incl
+wedurth1	weotsoaf	incl
+weariel	weignore	incl
+weariel	general	incl
+weariel	weelemfm	incl
+weariel	weaurafq	incl
+weariel	weearthb	incl
+weariel	weloren	incl
+weariel	wefull	hide
+weariel	weshow	hide
+weskaw	wefalcon	incl
+weskaw	wehawks	incl
+wearch	wearrow3	cost
+wearch	stmg10vt	cost
+wegrd	latrp	incl
+wegrd	showtrp1	cost
+wewildra	mus10	cost
+wewildra	stmg10	cost
+wewildra	wechrang	cost
+wewildra	2handtrp	incl
+wewildra	latrp	incl
+wescout	wearrow3	cost
+wescout	wearrow4	cost
+wescout	wearrow5	cost
+wescout	wearrow6	cost
+wewild	frenzy	incl
+wewild	showtrp3	cost
+wesistho	mus10	cost
+wesistho	wejaveli	incl
+wesistho	stmg10	cost
+wesistho	wechthor	cost
+wesistho	westeish	appl
+wechthor	mg2lvl	incl
+weforest	wearrow1	cost
+weforest	wearrow2	cost
+weforest	wearrow4	cost
+weforest	wearrow6	cost
+weforest	wenatarm	hide
+weforest	weinnat6	cost
+wetmanc	welore	hide
+weglader	wearrow1	cost
+weglader	wearrow2	cost
+weglader	wearrow3	cost
+weglader	wearrow4	cost
+weglader	wearrow5	cost
+weglader	wearrow6	cost
+weglader	wenatarm	hide
+weshadan	we1lvl	cost
+weshadan	general	cost
+weshadan	mgshow	hide
+weshadan	mgmiscas	hide
+weshadan	wedancer	cost
+weshadan	2ndhwtrp	incl
+wewaysta	general	cost
+wewaysta	2ndhwtrp	incl
+wewaysta	webow	incl
+wedurthu	mg1lvl	incl
+wedurthu	welore6	cost
+wedurthu	mgshow	hide
+wedurthu	frenzy	incl
+wedurthu	general	cost
+wearalot	general	cost
+wearalot	shhro	incl
+wehounds	frenzy	incl
+wenaestr	lahro	incl
+wearahan	lahro	incl
+wesister	general	cost
+wedrycha	unshow	hide
+wedurthu	unshow	hide
+wearahan	weforsta	incl
+wenaestr	weforsta	incl
+wearalot	weforsta	incl
+weorion	weforsta	incl
+wewaysta	weforsta	incl
+wegrd	weinnat6	cost
+wescout	weforsta	incl
+wewildra	weinnat6	cost
+weorion	wehostru	incl
+wegreate	weap1	cost
+wegrteag	weap1	cost
+weglader	weinnat6	cost
+wehawk	lahro5	cost
+wegrteag	weextra	auto
+weforest	wekin01	cost
+weglader	wekin01	cost
+weforest	wekin02	cost
+weforest	wekin03	cost
+weforest	wekin04	cost
+weforest	wekin05	cost
+wedryad	westshow	cost
+wekin	weextra	auto
+wetmanc	wemglvlt	cost
+wearchmg	wetree3	cost
+wetmanc	weavatar	cost
+wetmanc	wetree3	cost
+wetmanc	wemagit1	hide
+wetmanc	wemagit2	hide
+wetmanc	mgshow	hide
+weglader	wekin02	cost
+weglader	wekin03	cost
+weglader	wekin04	cost
+weglader	wekin05	cost
+wemage	wetree3	cost
+wewraith	mg2lvl30	cost
+wewraith	wetree3	cost
+wetreeld	general	cost
+wetreeld	btnostn4	incl
+wetreeld	btstdok	cost
+weriders	laoptrp2	incl
+weriders	weshupg	cost
+wedryad	weextra	auto
+wesent	mus10	cost
+wesent	stmg10	cost
+wesent	wechbow	cost
+wesent	welbow	incl
+wesent	wearrow2	cost
+wesent	wescout	cost
+wesent	2ndhwtr1	cost
+wehawk	mus10	cost
+wehawk	stmg10	cost
+wehawk	shhro5	cost
+wetrees	wetree3	cost
+wetrees	westrang	incl
+wegrd	stmg10vt	cost
+weforest	wearrow3	cost
+weforest	wearrow5	cost
+wedryski	wechdryd	cost
+wedryski	westshow	cost
+wedryski	weextra	auto
+^
+^
+wemsg3	Core Eternal Guard	You must take a Highborn General for Eternal Guard to count as Core.
+wemsg2	DOW as Special	Need Opponent's Approval
+wemsg4	Magic Standard Limit	Only one unit of Glade Guard or Scouts can have a magical standard
+wemsg8	Oaken Crown general	In order to take banners on Treefolk and Dryads, you must have a General with Oaken Crown Aspect.
+wemsg6	Only 1 arrows of this type	Each type of enchanted arrows can only be used once per army.
+wemsg12	Only one Scouting Sentinels	Only one unit of Sentinels can be upgraded to Scouts.
+wemsg7	Only one skirmishing Archers	Only one unit of Elvish Archers can be upgraded to Skirmishers.
+wemsg1	Too many spells	Too many spells have been selected for an Mage Lord or Mage
+wemsg9	Treant Arcane item limit	Ancient Treant can only take Arcane Item worth up to 50 points.
+wemsg10	Treant Weapon item limit	Avatar of Nature can only take Magic Weapons worth up to 25 points.
+wemsg11	Treefolk Elder Aspect limit	Treefolk Elder can only take an Aspect worth up to 50 points.
+^

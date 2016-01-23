@@ -1,0 +1,614 @@
+Description: Lizardmen for Ravening Hordes
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, bugs - email - mach_5@rocketmail.com
+
+Alternate Army out of US WD 255
+^
+Saurian Ancients	lz	0	sm,dw,he,we,br,em,ok,ch,dm,dk,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="October 2015, v0.9.2 beta";info:display="by DeBelial";info:display="";info:always="Cold-Blooded: When a model with this special rule takes a leadership test, roll one additional D6 and remove the highest rolled D6. This also affects opponents special abilities that roll against your leadership.";info:always=" ";info:always="Born Predator: Part of Models with this special rule may reroll to hit rolls of '1' in close combat.";info:always=" ";none:"Standard List";trat:tiktaqtoe@1u:lztikina@1u-msg=lzmsg13;ulmt:type=lzambush-max@unit=1-msg=lzmsg14;trat:Tehenhauin@1u:lztehina@1u-flat-msg=lzmsg15;tlmt:funnelthewinds-model=0@max-msg=lzmsg16-istype=masterofthewinds;tlmt:cognitivereassurance-model=0@max-msg=lzmsg17-istype=masterofthewinds	info:always="Aquatic Scouts count as out of sight for depoyment if more than 2" from its edge"
+^
+lzglcarn	 Carnosaur		N/A	Monster	Hero	1:1	210	0	calc:Num=#;attr:Type="Mo"	lglx:mode=l;hide		Monster (Thunderstomp); Cold Blooded, Terror, Blood-Frenzy, Ultimate Predator, Scaly Skin (4+), Immune to Psichology				7	3	0	6	5	5	2	4	5	4	7	0	0	0	0	0	0
+lzchakax	 Chakax, The Eternity Warden		N/A	Hero	Hero	1:1	270	0	take:lzstar-free-perm;take:lzhelm-free-perm;take:lzkey-free-perm;attr:Type="In"	umax:1u;hide		Infantry; Cold Blooded; Guardians; Scaly Skin (5+); Predatory Fighter; #Ultimate Body Guard: Temple Guard unit that contains both Chakax and a Slann are Unbreakable; #Eternity Warden: must always issue or accept a challenge. In a challenge re-rolls failed rolls To Hit.				4	5	0	5	5	2	3	4	8	4	0	0	0	1	0	0	0
+lzcoatl	 Coatl	Coatl	N/A	Alternate Rules		1:1	440	1	spec:+spel;take:lzmaster-free-perm;type:coatl;spec:-weap;spec:-armr;spec:-ward;spec:-ench;spec:-wzrd;attr:Type="Mo"	must:option=lzchoice@min=1-msg=lzmsg7;lglx:!mode=l;hide		Monster (Thunderstomp); Cold-Blooded; Fly; Terror; Large Target; Missile fire -1 to hit him; May move D6 terrain pieces D6" (roll for each piece) after deployment		From (US) Chronicles 2004; Lord Choice		2	5	0	3	4	3	5	1	8	7	3	4	2	3	0	0	0
+lzcoatl2	 Coatl	Coatl	N/A	Lord	Lord	1:1	440	1	spec:+spel;take:lzmaster-free-perm;type:coatl;spec:-weap;spec:-armr;spec:-ward;spec:-ench;spec:-wzrd;attr:Type="Mo"	lglx:mode=l;hide		Monster (Thunderstomp); Cold-Blooded; Fly; Terror; Large Target; Missile fire -1 to hit him; May move D6 terrain pieces D6" (roll for each piece) after deployment		From (US) Chronicles 2004; Lord Choice		2	5	0	3	4	3	5	1	8	7	3	4	2	3	0	0	0
+lzglcold	 Cold Ones Brood		N/A	Regiment		10	14	0	calc:Num=#;attr:Type="WB"	lglx:mode=l;hide		War Beasts; Cause Fear, Stupidity, Scaly Skin, Skirmish; If Stupidity Test is failed they must charge/march towards the nearest enemy unit that suffered losses. If no enemy unit suffered losses Stupidity affects the unit as normal				7	3	0	4	4	1	2	1	3	5	7	0	0	0	0	0	0
+lzgorrok	 Gor-Rok		N/A	Hero	Hero	1:1	185	0	take:lzulumak-free-perm;take:lzaeons-free-perm;attr:Type="In"	umax:1u;hide		Infantry; Cold Blooded; Stubborn; Predatory Fighter; Scaly Skin (4+); Immune to Psychology; #Resilient: if he suffers an Wound from Killing Blow or Multiple Wounds, on 2+ he only receives 1 Wound				4	5	0	5	6	2	3	4	8	2	0	0	0	1	0	0	0
+lzgrymlq	 Grymloq, Carnosaur		N/A	Mount		1:1	0	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Terror; Multiple Wounds (D3); Scaly Skin (4+); Swiftstride; #Attuned to the Beast: If Kroq-Gar is slain, Grymloq automatically passes Monster Reaction and gains Frenzy that cannot be lost				7	3	0	7	5	5	2	5	5	4	5	0	0	5	0	0	0
+lzkroq	 Kroq-Gar		N/A	Lord		1:1	520	0	type:KroqGar;take:lzkroq2-free-perm;take:lzkroq1-free-perm;attr:Type="In"	umax:1u;hide		Infantry; Cold Blooded; Predatory Fighter; Scaly Skin (4+); #Sacred Spawning of Xhotl: if he is alive, he and Grymloq gain Ward Save 5+				4	6	3	5	5	3	3	5	8	4	5	0	0	1	0	0	0
+lzkrqcav	 Kroq-Gar's Core Cold One Cavalry	C1Cav	N/A	Regiment		5	35	0	calc:Num=#;type:SrsCav;size:1-20-1-mode=zz;ipts:total=50-each=50	reqd:unit=lzkroq;umax:1;hide		Cold Blooded, Scaly Skin (5+), Cause Fear, Stupidity, Thick Skinned		Unit Size: 5+		4	4	0	4	4	1	2	2	8	3	7	0	0	2	0	0	0
+lzkroak	 Lord Kroak	Slann	N/A	Wizard		1:1	400	0	type:Ld9;spec:+spel;type:slann;take:lzkroak2-free-perm;take:lzkrkspl-free-perm;attr:Type="In"	umax:1;hide		Infantry; Cold Blooded; Unbreakable; Fear; Flammable; Mage-Priest Palanquin; #Eternity Guardians: Temple Guard joined by Kroak are Unbreakable; #Fist Generation Spawning: can cast The Deliverance of Itza multiple times during his Magic phase. If he miscast, on 2+ he suffers St6 hit and lose D6 power dice from pool, instead of rolling on miscast table; #The Spirit of Lord Croak: his Wizard level can naver be reduced below 1; #Supreme Shield of the Old Ones: Ward Save 3+		Lord; knows only single spell: The Deliverance of Itza		4	1	3	3	5	6	1	1	9	7	3	4	2	3	4	0	0
+lzmazda	 Lord Mazdamundi	Slann	N/A	Wizard		1:1	780	0	type:Ld9;spec:+spel;spec:+dscp;type:slann;take:lzcobra-free-perm;take:lzmazda6-free-perm;attr:Type="In";spec:+stnd;take:lzcog-free-perm;take:lzconver-free-perm;take:lzstone-free-perm;take:lzheal-free-perm	umax:1;hide		Infantry; Cold Blooded; Stubborn; Shield of the Old Ones; Telepathic Confabulation; #Mage Lord of Hexoatl: Loremaster of any Lore chosen;		Lord		4	2	3	3	4	5	2	1	9	7	4	4	2	10	4	0	0
+lzxltep	 Lord Xltep of Itza	Slann	N/A	N/A		1:1	565	5	type:Ld9;ipts:total=0-each=0;spec:-weap;spec:-armr;spec:+wzrd;spec:+spel;spec:+plaq;type:slann;spec:+stnd;take:lzhuantt-free-perm;take:lzpltpok-free-perm;type:xltep;take:lzcoilss-free-perm;spec:+ward;attr:Type="In"	clmt:stnd<=1-count;umax:1;must:option=lzchoice@min=1-msg=lzmsg7;lglx:!mode=l;hide		Infantry; Cold Blooded. Large Target. Palanquin. Contemplation. Telepathy.		From the GW-Website, Lizardmen section, the "Vampires in Lustria" campaign; Character is only meant to be used in that campaign, that's why you need your opponent's approval;; Counts as a Lord and a Hero choice		4	4	3	3	5	6	2	1	9	7	4	4	2	5	4	0	0
+lznakai	 Nakai, Sacred Kroxigor of the First Spawning		N/A	Special Characters	Hero	1:1	168	0	attr:Type="MI"	must:option=lzchoice@min=1-msg=lzmsg7;umax:1;lglx:!mode=l;hide		Monstrous Infantry (Stomp); Cold Blooded, Scaly Skin (4+), Cause Fear, Aquatic, Skink Skirmish Screen, Regenerates, Can't join/be joined by units.		From the GW-Website, Lizardmen section, the "Vampires in Lustria" campaign; Character is only meant to be used in that campaign, that's why you need your opponent's approval;; Counts as a Hero choice		6	5	0	5	5	3	2	4	8	4	7	0	0	3	0	0	0
+lzoxyotl	 Oxyotl		N/A	Hero	Hero	1:1	120	0	attr:Type="In";type:Ld7;take:lzoxy1-free-perm	umax:1u;hide		Infantry; Cold Blooded; Aquatic; Scout; Chameleon; Scaly Skin (6+); Sniper; #Master Predator- if remained stationary in preceding Movement phase, he wounds automatically with his blowpipe on To Hit rolls of 5+ instead of 6.				6	4	6	4	3	2	6	3	7	6	7	0	0	1	0	0	0
+lzslmndr	 Salamander Hunting Pack		N/A	Monster		1	68	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="MB"	umax:2u@4000-free=2-msg=crmsg902;hide		Monstrous Beasts (Stomp); Cold Blooded, Aquatic; Scaly Skin (5+); Skirmishers; Hunting Pack; Fear; Spout Flames (as Fire Thrower, Str 4, Flaming Attacks; Slow to Fire; cannot shoot after march); Misfires kill D3 Skinks and does not shoot		Unit Size: 1+ Sallies; Each Salamander comes with 3 Skinks, so basic cost is 80 points, can add extra skink per pack; When subtracting Sallies from a pack the max # of Skinks will be left on the entry so validate you have the # of Skink Handlers you want.		6	3	3	5	4	3	4	2	4	5	0	0	0	3	0	0	0
+lzsteg	 Stegadon		N/A	Monster		1:1	215	0	attr:Type="Mo"	umax:3u@4000-free=3-msg=crmsg903;hide		Monster (Thunderstomp); Cold Blooded; Scaly Skin (4+); Terror; Large Target; Impact Hits (D6+1); Howdah Crew; Stubborn; Immune to Psychology				6	3	0	5	6	5	2	4	6	4	7	0	0	10	0	0	0
+lztehenh	 Tehenhauin, Prophet of Sotek		N/A	Wizard		1:1	230	0	take:lztehen1-free-perm;type:Ld8;take:lztehen2-free-perm;type:Tehenhauin;attr:Type="In";type:skinkpriest	umax:1;hide		Infantry; Aquatic; Cold-Blooded; Scaly Skin (5+); Arcane Vessel; Hatred (Skaven); Immune to Poison; #Master of Snakes: can join Jungle Swarms, if he does he gains Unbreakable, and Swarms' Squash! rule is ignored; #Prohet of Sotek: all skink Cohorts, Skirmishers, Terradon and Ripperdactyl riders can be upgraded to have Hatred (Skaven); #Tide of Serpents: unless mounted, he makes additional D6 Poisoned Attacks at In1 and WS2		Lord, 		6	6	5	4	3	3	6	3	8	5	5	2	1	3	0	0	0
+lzterrdr	 Terradon Riders		N/A	Regiment		3	35	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="MC"	umax:3u@4000-free=3-msg=crmsg903;hide		Monstrous Cavalry (Stomp); Cold Blooded; Fly; Drop Rocks:D3 S4 hit per model; Flying Cavalry; Forest Strider; Scaly Skin (6+); Fear		Unit Size: 3+		6	2	3	3	2	1	4	1	5	6	7	0	0	2	0	0	0
+lztetto	 Tetto'Eko		N/A	Wizard	Hero	1:1	185	0	take:lzeye-free-perm;type:Ld6;take:lzstelr-free-perm;type:lvl2skink;attr:Type="In"	umax:1;hide		Infantry; Cold Blooded; Aquatic; Arcane Vessel; Scaly Skin (6+); Loremaster (Lore of Heavens); #Herald of Cosmic Events: roll D6 at the start of each friendly Magic phase. On 1 all friendly Wizards must re-roll any '6' when casting a spell, on 2-6 all friendly Wizards must re-roll all '1' when casting a spell; #Minor Shield of the Old Ones: Ward Save 5+; The Palanquin of Constellations: re-roll failed dangerous tests, never considered infantry for spells, items and special rules, if joins Skink Cohort of 5 or more models, he is placed in second rank		Hero		6	2	3	2	2	2	4	1	6	6	5	2	1	3	0	0	0
+lztide	 Tide of Serpents		N/A	Monster		1:1	0	0	attr:At="D6"	hide		Poison Attacks, May not be attacked seperately, Unbreakable				0	2	0	2	0	0	2	0	0	0	0	0	0	0	0	0	0
+lztiktaq	 Tiktaq'To		N/A	Hero	Hero	1:1	170	0	take:lzskies-free-perm;take:lzmaskh-free-perm;attr:Type="MC";type:tiktaqtoe	umax:1u;hide		Monstrous Cavalry (Stomp); Cold Blooded; Fly; Drop Rocks:D3 S4 hits per model; Flying Cavalry; Forest Strider; Scaly Skin (6+); Ambushers; #Master of the Skies- one unit of Terradons can be upgraded with Ambushers special rule;				6	4	5	4	3	2	6	3	7	6	6	0	0	1	0	0	0
+lzzlaaq	 Zlaaq, Ancient Stegadon		N/A	Monster		1:1	0	0	calc:Num=#;attr:Type="Mo"	lglx:race=lz;hide		Monster (Thunderstomp); Cold Blooded; Scaly Skin (3+); Terror; Large Target; Impact Hits (D6+1); Stubborn; Immune to Psychology				6	3	0	6	6	5	1	3	6	3	7	0	0	0	0	0	0
+lzzwup	 Zwup, Terradon		N/A	Mount	steed	1	0	0	type:mount	hide		Terradon, after dropping rocks, Zwup's attacks are KB				2	3	0	4	3	2	2	1	3	7	6	0	0	0	0	0	0
+lzpteram	Alpha Pteranodon		N/A	Mount	steed	1	0	0	type:mount	hide		Monstrous Beast (Stomp); Fly (9); Fast Cavalry; Strider (Forest); Release Rocks: During the Remaining Moves sub-phase you can once per game Release Rocks on an unengaged enemy unit. Nominate one enemy unit which the unit moved over this turn. This unit suffers D3 Strength 4 hits per Pteranodon in the unit. These are shooting attacks. 				2	3	0	4	4	3	2	1	3	7	7	0	0	0	0	0	0
+lzdactym	Alpha Pterodactyl		N/A	Mount	steed	1	0	0	type:mount	hide		Monstrous Beast (Stomp 1); Fly (8); Armour Piercing (1); Fast Cavalry; Strider (Forest); Frenzy; Lethal Strike; Natural Armour; Frog Rage				2	3	0	4	4	3	4	2	3	7	7	0	0	0	0	0	0
+lzstegac	Ancient Stegadon		N/A	Monster		1:1	230	0	calc:Num=#;attr:Type="Mo"	lglx:race=lz;hide		Monster (Thunderstomp); Cold Blooded; Scaly Skin (3+); Terror; Large Target; Impact Hits (D6+1); Howdah Crew; Stubborn; Immune to Psychology				6	3	0	6	6	5	1	3	6	3	7	0	0	0	0	0	0
+lzarcano	Arcanodon		N/A	Mount		1	0	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Scaly Skin, Causes Terror, Cold Blooded, D6 Impact Hits, Stubborn, Immune to Panic, Large Target; 				6	2	0	5	6	5	1	3	5	4	0	0	0	8	0	0	0
+lzkrxanc	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	4	0	5	4	3	2	4	7	4	7	0	0	3	0	0	0
+lzripcha	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	3	4	3	2	1	4	2	5	4	7	0	0	2	0	0	0
+lzskcrch	Champion		N/A	Champion	champ	1	0	2	spec:+spel;type:mgbeasts;take:beasts0-perm;take:beasts3-perm	hide		Wizard Conclave (Lvl 2, Redwood Shaft, The Beast Within)				0	3	4	3	0	0	4	2	5	7	7	2	0	0	0	0	0
+lzsrschm	Champion		N/A	Champion	champ	1:1	10	0	coun;type:champion	hide						4	4	0	4	4	1	2	3	8	5	7	0	0	1	0	0	0
+lzstalkr	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	3	5	3	2	1	4	2	6	6	7	0	0	1	0	0	0
+lzterch	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	3	4	3	2	1	4	2	5	5	7	0	0	2	0	0	0
+lztgchmp	Champion		N/A	Champion	champ	1:1	10	1	coun	hide						4	5	0	4	4	1	2	3	8	3	7	0	0	1	0	0	0
+lzkrox	Croxisaurus		N/A	Regiment		1	45	0	calc:Num=#;ratp:max=1:9;attr:Type="MI"	lglx:race=lz;hide		Monstrous Infantry (Stomp); Cold Blooded, Scaly Skin (4+); Strider (Water); Born Predator				6	3	0	5	4	3	2	3	7	4	7	0	0	3	0	0	0
+lzredsch	First Spawned		N/A	Champion		1:1	8	0	coun	hide						6	3	3	3	2	1	4	3	5	6	0	0	0	1	0	0	0
+lzhorn	Horned One	COne	N/A	Mount	mount	1:1	0	0		hide		Cause Fear; 				8	3	0	4	4	1	3	1	3	7	7	0	0	0	0	0	0
+lzhorned	Horned One		N/A	Mount		1	0	0		hide		Cause Fear				8	3	0	4	4	1	3	1	3	7	7	0	0	0	0	0	0
+lzsrcvch	Pack Leader		N/A	Champion	champ	1:1	10	0	coun	hide						4	4	0	4	4	1	2	3	8	3	7	0	0	2	0	0	0
+lzterrad	Pteranodon		N/A	Mount	steed	1	0	0	type:mount	hide		Monstrous Beast (Stomp); Fly (9); Release Rocks: During the Remaining Moves sub-phase you can once per game Release Rocks on an unengaged enemy unit. Nominate one enemy unit which the unit moved over this turn. This unit suffers D3 Strength 4 hits per Pteranodon in the unit. These are shooting attacks. 				2	3	0	4	3	2	2	1	3	7	7	0	0	0	0	0	0
+lzripper	Pterodactyl		N/A	Mount	steed	1	0	0	type:mount	hide		Monstrous Beast (Stomp 1); Fly (8); Armour Piercing (1); Frenzy; Lethal Strike; Natural Armour; Frog Rage: After Deployment, if you have a unit of Pterodactyl Riders or a Skink Captain on a Alpha Pterodactyl, you may mark 2 of the enemies’ units with a Frog. Against a marked unit the Pterodactyls (not their riders) may re-roll to hit and gain an additional D3 attacks/model.				2	3	0	4	3	2	4	2	3	7	7	0	0	0	0	0	0
+lzcold	Raptor		N/A	Mount		1	0	0		hide		Stupidity; Natural Armour				7	3	0	4	4	1	2	2	2	7	7	0	0	0	0	0	0
+lzskbrv2	Skink Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	3	4	3	2	1	4	2	5	6	7	0	0	1	0	0	0
+lzskbrv3	Skink Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	3	4	3	2	1	4	2	5	6	7	0	0	2	0	0	0
+lzsknbrv	Skink Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	3	4	3	2	1	4	2	5	6	7	0	0	1	0	0	0
+lzskcrwa	Skink Crew		N/A	Champion		1	0	0		hide						0	2	3	3	0	0	4	1	5	7	7	0	0	0	0	0	0
+lzskncrw	Skink Crew		N/A	Champion		1	0	0		hide						0	2	3	3	0	0	4	1	5	7	7	0	0	0	0	0	0
+lzslmskn	Skink Handlers		N/A	N/A		1	4	0	calc:Num=#;ratp:min=3:1;ratp:max=4:1	hide						6	2	3	3	2	1	4	1	5	7	7	0	0	1	0	0	0
+lzskorac	Skink Oracle Rider		N/A	Champion		1	0	0		hide		Arcane Vessel				0	2	3	3	0	0	4	1	6	7	7	0	0	0	0	0	0
+lzskpala	Skink Palanquin		N/A	Mount	steed	1	0	0	type:mount	hide		Infantry; Skink Palanquin: A model with this special rule loses the First in Rank rule when it is in a unit of Saurian Totem Warriors or Skink Braves that don’t have any Croxisaurus in them				6	0	0	3	3	3	2	0	2	7	7	0	0	0	0	0	0
+lzstegm	Stegadon		N/A	Monster		1:1	215	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Cold Blooded; Scaly Skin (4+); Terror; Large Target; Impact Hits (D6+1); Howdah Crew; Stubborn; Immune to Psychology				6	3	0	5	6	5	2	4	6	4	7	0	0	0	0	0	0
+lzstegeg	Triceratops		N/A	Monster		1:1	0	0	calc:Num=#;attr:Type="RMo"	umax:2u@4000-free=2-msg=crmsg902;hide		Ridden Monster (Stomp D6); Cold Blooded; Innate Defence (3+); Terror; Large Target; Impact Hits (D6+1); Stubborn; Immune to Psychology				6	3	0	5	6	5	2	4	7	3	7	0	0	10	0	0	0
+lztyrano	Tyrannosaurus		N/A	Mount	mount	1	0	0	attr:Type="MB"	hide		Monstrous Beast (Stomp 1); Fear; Large Target; Cold-Blooded; Born Predator; Multiple Wounds (D3)				7	3	0	6	5	4	2	4	5	7	7	0	0	5	0	0	0
+lzcarnos	Tyrannosaurus Rex		N/A	Mount	mount	1	0	0	attr:Type="RMo"	hide		Ridden Monster (Stomp D6); Terror; Large Target; Cold-Blooded; Born Predator; Multiple Wounds (D3); Innate Defence (3+); Swiftstride; Apex Predator: When charging a Large Target or a single model with the Fly special rule, the Apex Predator adds +2 to his charging distance roll.				7	4	0	7	6	6	3	6	5	3	7	0	0	5	0	0	0
+lzslann	 Lord: Anurid High Priest	Slann	Hero	Lord	Lord	1:1	270	100	type:Ld9;ipts:total=350;spec:+weap;spec:-armr;spec:+wzrd;spec:+spel;type:slann;attr:Type="In";spec:+dscp;type:infantry	clmt:ench+ward+wzrd+weap<=100-points-msg=lzbsb1;clmt:stnd<=1-count;clmt:dscp<=150-points-msg=lzmsg11;umax:3u@4000-free=3-msg=crmsg901		Infantry; Cold Blooded; Ward Save (4+); Palanquin		Lord; Generate spells from the Path of White Magic or any of the Battle Magic Paths	9th age	4	2	3	3	4	4	2	1	9	7	4	8	0	0	0	1	0
+lzoldbld	 Lord: Saurian Ancient		Hero	Lord	Lord	1:1	160	100	type:Ld9;type:skirmishers;ipts:total=100-each=100;type:saurus;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg901		Infantry; Cold Blooded; Innate Defemce (4+); Born Predator		Lord. 	9th age	4	6	0	5	5	3	4	5	9	4	7	0	0	0	0	0	0
+lzskhp	 Lord: Skink High Priest		Hero	Hero	Lord	1:1	150	100	type:skink;type:skirmishers;type:Ld7;spec:+spel;spec:+wzrd;ipts:total=100-each=100;spec:-armr;attr:Type="In";type:skinkpriest	umax:3u@4000-free=3-msg=crmsg901		Infantry; Cold Blooded; Strider (Water); Innate Defence (6+); Magic Beacon				6	2	3	3	3	3	4	1	7	6	7	1	0	1	0	0	0
+lzcroxan	Hero: Croxisaurus Ancient		Hero	Hero	Hero	1:1	130	100	type:Ld8;ipts:total=50-each=50;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg901		Infantry; Cold Blooded; Strider (Water);Innate Defence (3+); Born Predator; Leader of the Spawn: Any Croxisaurus in the same unit as a Croxisaurus Ancient may use his Weapon Skill (before any modifications from e.g. magic items or the Sun Engine) instead of their own.				6	4	0	5	5	4	3	2	8	3	7	1	0	1	0	0	0
+lzscarvt	Hero: Saurian Veteran		Hero	Hero	Hero	1:1	90	100	type:Ld8;type:skirmishers;ipts:total=65;type:saurus;attr:Type="In";type:infantry	clmt:stnd<=1-count;clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;umax:3u@4000-free=3-msg=crmsg901		Infantry; Cold Blooded; Innate Defence (5+); Born Predator				4	5	0	5	5	2	3	4	8	5	7	0	0	1	0	0	0
+lzsknkch	Hero: Skink Captain		Hero	Hero	Hero	1:1	40	100	type:skink;type:skirmishers;type:Ld6;ipts:total=65-each=65;type:chief;attr:Type="In";type:infantry	clmt:stnd<=1-count;clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;umax:3u@4000-free=3-msg=crmsg901		Infantry (MC on terradon); Cold Blooded; Strider (Water); Innate Defence (6+)			btnostnd	6	4	5	4	3	2	6	3	6	6	7	0	0	1	0	0	0
+lzskprst	Hero: Skink Ritual Priest		Hero	Hero	Hero	1:1	60	100	type:skink;type:skirmishers;type:Ld6;spec:+spel;spec:+wzrd;ipts:total=50-each=50;spec:-armr;attr:Type="In";type:skinkpriest	umax:3u@4000-free=3-msg=crmsg901		Infantry; Cold Blooded; Strider (Water);Innate Defence (6+); Magic Beacon				6	2	3	3	2	2	4	1	6	6	7	1	0	1	0	0	0
+lzsaurus	Saurian Totem Warriors		Core	Regiment	infantry	10:40	11	0	calc:Num=#;attr:Type="In";ipts:total=25-each=25	umax:4u@4000-free=4-msg=crmsg902;slmt:1		Infantry; Cold Blooded; Born Predator		base cost: 100, size: 10-40; One unit in army can take Magic banner; Innate Defence (5+)		4	3	0	4	4	1	2	2	8	5	7	0	0	1	0	0	0
+lzskink	Skink Braves		Core	Regiment	infantry	10:45	5	0	calc:Num=#;attr:Type="In";ipts:total=25-each=25	umax:4u@4000-free=4-msg=crmsg902;slmt:1		Infantry; Cold Blooded; Strider (Water); Innate Defence (6+); Spawn-kin		base cost: 50, size: 10-45; One unit in army can take Magic banner		6	2	3	3	2	1	4	1	5	6	7	0	0	1	0	0	0
+lzskinks	Skink Hunters		Core	Regiment	infantry	10:20	6	0	calc:Num=#;attr:Type="In"	umax:4u@4000-free=4-msg=crmsg902		Infantry; Cold Blooded; Strider (Water); Skirmishers; Scaly Skin (6+)		base cost: 80, size: 10-20		6	2	3	3	2	1	4	1	5	6	7	0	0	1	0	0	0
+lzjswarm	Snake Swarms		Core	Monster	swarm	2:6	25	0	calc:Num=#;attr:Type="Sw"	umax:4u@4000-free=4-msg=crmsg902		Swarm; Cold Booded; Swarming: If an enemy unit is in base contact with a model with this rule, all attacks made against that unit have the Poisoned Attacks special rule.		base cost: 60, size: 2-6		5	3	0	2	2	5	1	5	10	7	7	0	0	3	0	0	0
+lzchmskn	Chameleons		Special	Regiment	infantry	5:15	10	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903		Infantry; Cold Blooded; Strider (Water); Skirmishers; Scouts; Innate Defence (6+); Blurry		base cost: 60, size: 5-15		6	2	4	3	2	1	4	1	6	6	7	0	0	1	0	0	0
+lzkroxig	Croxisaurus		Special	Regiment		3:10	40	0	calc:Num=#;attr:Type="MI"	umax:3u@4000-free=3-msg=crmsg903		Monstrous Infantry (Stomp 1); Cold Blooded, Scaly Skin (4+); Strider (Water); Born Predator		base cost: 120, size: 3-10		6	3	0	5	4	3	2	3	7	4	7	0	0	3	0	0	0
+lzbastil	Maceosaurus		Special	Monster		1:1	120	1	attr:Type="RMo"	lglx:(!mode=k&!mode=l);umax:3u@4000-free=3-msg=crmsg903		Ridden Monster (Stomp D6); Cold Blooded; Innate Defence (2+); Terror; Large Target; Crush Attack (Monster only)				4	3	0	4	5	4	1	3	6	2	7	0	0	10	0	0	0
+lzsrscav	Saurian Raptor Riders		Special	Regiment	cavalry	5:12	35	0	calc:Num=#;type:SrsCav;ipts:total=50-each=50;attr:Type="Ca"	umax:3u@4000-free=3-msg=crmsg903;slmt:1		Cavalry; Cold Blooded; Innate Defence (5+); Natural Armour; Stupidity; Born Predator (Rider only)		base cost: 160, size: 5-12; One unit can take Magic banner		4	4	0	4	4	1	2	2	8	3	7	0	0	2	0	0	0
+lztmpgrd	Saurian Shrine Guard		Special	Regiment	infantry	10:30	13	0	calc:Num=#;ipts:total=50-each=50;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903;slmt:1		Infantry; Cold Blooded; Innate Defence (5+); Born Predator; Immune to Psychology; Bodyguard (Model with Palanquin special rule)		base cost: 130, size: 10-30; One unit can take Magic banner		4	4	0	4	4	1	2	2	8	3	7	0	0	1	0	0	0
+lzriprid	Skink Sky-Riders		Special	Regiment		3:8	35	0	calc:Num=#;attr:Type="MC"	umax:3u@4000-free=3-msg=crmsg903		Monstrous Cavalry (Stomp 1); Cold Blooded; Strider (Forest); Scaly Skin (6+); Fast Cavalry; Skirmishers		base cost: 100, size: 3-8		6	2	3	3	2	1	4	1	5	6	7	0	0	2	0	0	0
+lzrazor	Spike Lizard		Special	Monster		1:3	58	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="MB"	umax:3u@4000-free=3-msg=crmsg903		Monstrous Beasts (Stomp 1); Cold Blooded, Strider (Water); Innate Defence (5+); Skirmishers; Shoot Spikes: Volley Gun Artillery Weapon with the following profile: Range 18”, Strength 4, Quick to Fire, Armour Piercing (1), Multiple shots (2D6). The Spike Lizard can move and fire, but not march and fire. If a misfire is rolled, consult the misfire chart but add +4 to the result rolled.				6	3	3	5	4	4	4	2	6	5	0	0	0	3	0	0	0
+lzglslmd	Salamander		Rare	Monster		1:2	70	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="WB"	umax:2u@4000-free=2-msg=crmsg904		Monstrous Beasts (Stomp 1); Cold Blooded; Strider (Water); Innate Defence (5+); Skirmishers; 				6	3	3	5	4	4	4	2	6	5	0	0	0	3	0	0	0
+lztroglo	Spinosaurus		Rare	Monster		1:1	120	0	attr:Type="MC"	umax:2u@4000-free=2-msg=crmsg904		Monstrous Cavalry (Stomp 1); Cold Blooded; Innate Defence (4+); Terror; Large Target; Poisoned Attacks (Spinosaurus only); Born Predator (Spinosaurus only); Magic Beacon				7	4	4	5	5	5	2	4	5	4	7	0	0	10	0	0	0
+lzansteg	Triceratops		Rare	Monster		1:1	175	0	calc:Num=#;attr:Type="RMo"	umax:2u@4000-free=2-msg=crmsg904		Ridden Monster (Stomp D6); Cold Blooded; Innate Defence (3+); Terror; Large Target; Impact Hits (D6+1); Stubborn; Immune to Psychology				6	3	0	5	6	5	2	4	7	3	7	0	0	10	0	0	0
+^
+lz5lores	5 Lores		Priority	N/A	0	show:mgalore5;utyp:5lores;hide				
+lzkrox	Croxisaurus		Priority	N/A	0	unit:lzkrox@var;cost:single				
+lzextra	Extra base cost		Priority	N/A	-10	hide;cost:single;xcst:10-unit=lzjswarm;xcst:20-unit=lzskinks;xcst:-15-unit=lzsrscav;xcst:10-unit=lzchmskn;xcst:-5-unit=lzriprid				
+lzslgen5	Fifth	5thGn	Priority	N/A	0	hide	Slann may roll for spells from more than one Lore. +1 to cast and dispel.			
+lzslgen4	Fourth	4thGn	Priority	N/A	40	hide;more:lzslgen5=incl	When Miscast is rolled, spell fails but no other effects occur.			
+lzslntbl	Generation		Priority	N/A	0	tabl:Fifth=lzslgen5,Fourth=lzslgen4,Third=lzslgen3,Second=lzslgen2-nobrackets				
+lznostan	No BSB		Priority	N/A	0	lglx:mode=k;hide;over:btstand=delete				
+lznocore	No Core choice		Priority	N/A	0	acmp:Core-1u;hide				
+lzspawn0	No Spawning	0	Priority	Mrk	0					
+lzchoic2	No Tehenhauin		Priority	N/A	0	type:Tehenhauin;lglx:mode=k			Check this option so you don't have to field Tehenhauin, either because you have your opponent's approval not to or because the list is below 2000 points	
+lzchoice	Opponent's Approval		Priority	N/A	0					
+lzslgen2	Second	2ndGn	Priority	N/A	135	hide;more:lzslgen3=incl;acmp:Rare+1u;base:Wo+1;lglx:!mode=a	+1D6 to power of each cast spell (this is free, does not come from Lz dice pool, and can cause IF or Miscast like normal magic dice).  +100 bonus VPs to opponent if Slann dies (so +200VP bonus total for 2nd Gen Slann).			
+lzspawn1	Spawning of Croxisaurus God	SpCrx	Priority	Mrk	1	base:In+1;chld:champ@In+1-base	All models with this spawning gain the Strider (Water, Forest) Special Rule and +1 Initiative.			
+lzspawn4	Spawning of Pteranodon God	SpPte	Priority	Mrk	1		All models with this Spawning gain the Vanguard special rule.			
+lzspawn2	Spawning of Triceratops God	SpTri	Priority	Mrk	2	over:lzinnat5=delete;more:save1=incl	All models with this Spawning gain a Innate Defence (4+) and cannot pursue or overrun.			
+lzspawn3	Spawning of Tyrannosaurus God	SpTyr	Priority	Mrk	1		All models with this Spawning have the fight in extra rank special rule.			
+lzspawnt	Spawnings table		Priority	Mrk	0	tabl:NoSpawning=lzspawn0,Croxisaurus=lzspawn1,Triceratops=lzspawn2,Tyrannosaurus=lzspawn3,Pteranodon=lzspawn4-noname-nobrackets				
+lzslgen3	Third	3rdGn	Priority	N/A	85	hide;more:lzslgen4=incl;acmp:Hero+1u;base:Wo+1;lglx:!mode=a;type:3rdGen;take:lzdrain	Slann gains the Drain Magic spell in addition to rolled spells.  +100 bonus VPs to opponent if Slann dies.			
+lzcog	 Becalming Cogitation		First	N/A	0	take:lzcog;type:lzcog	At the beginning of the enemy magic phase, choose one enemy wizard within 24" of the bearer. Discard all power dice rolls of 6 made by that wizard			
+lzmystry	 Focus of Mystery		First	N/A	0	take:lzmystry;type:lzmystry	Slann knows all spells from one lore in BRB			
+lzrum	 Focused Rumination		First	N/A	0	take:lzrum;type:lzrum	A free power dice is added to all casts by bearer, May cause Miscasts and Irresistable Force, and can cause mage to cast with more dice than normally allowed.			
+lzscrut	 Harrowing Scrutiny		First	N/A	0	take:lzscrut;type:lzscrut	Causes Terror			
+lzcon	 Higher State of Consciousness		First	N/A	0	take:lzcon;type:lzcon	Only Magical Attacks affect Slann			
+lzstone	 Soul of Stone		First	N/A	0	take:lzstone;type:lzstone	The bearer may re-roll results on the Miscast table but must accept second result			
+lzheal	 Trancendant Healing		First	N/A	0	take:lzheal;type:lzheal	Regeneration			
+lzpre	 Unfathomable Presence		First	N/A	0	take:lzpre;type:lzpre	MR(3)			
+lz1dis	1 Discipline	1dis	First	N/A	0	show:lz1dist;type:1dis				
+lz2dis	2 Discipline	2dis	First	N/A	50	show:lz1dist;show:lz2dist;type:2dis				
+lz3dis	3 Discipline	3dis	First	N/A	100	show:lz1dist;show:lz2dist;show:lz3dist;type:3dis				
+lz4dis	4 Discipline	4dis	First	N/A	150	show:lz1dist;show:lz2dist;show:lz3dist;show:lz4dist;type:4dis				
+lznbrdis	Discipline		First	N/A	0	tabl:1=lz1dis,2=lz2dis,3=lz3dis,4=lz4dis-nobrackets				Saurus Warrior Spawning Table 2
+lz1dist	Discipline Table 1		First	N/A	0	tabl:Mystery=lzmystry,Rumination=lzrum,Healing=lzheal,Scrutiny=lzscrut,Consciousness=lzcon,Cogitation=lzcog,Presence=lzpre,Stone=lzstone-noname-nobrackets				
+lz2dist	Discipline Table 2		First	N/A	0	tabl:Mystery=lzmystry,Rumination=lzrum,Healing=lzheal,Scrutiny=lzscrut,Consciousness=lzcon,Cogitation=lzcog,Presence=lzpre,Stone=lzstone-noname-nobrackets;utyp:2dis;utyp:3dis;utyp:4dis				
+lz3dist	Discipline Table 3		First	N/A	0	tabl:Mystery=lzmystry,Rumination=lzrum,Healing=lzheal,Scrutiny=lzscrut,Consciousness=lzcon,Cogitation=lzcog,Presence=lzpre,Stone=lzstone-noname-nobrackets;utyp:4dis;utyp:3dis				
+lz4dist	Discipline Table 4		First	N/A	0	tabl:Mystery=lzmystry,Rumination=lzrum,Healing=lzheal,Scrutiny=lzscrut,Consciousness=lzcon,Cogitation=lzcog,Presence=lzpre,Stone=lzstone-noname-nobrackets;utyp:4dis				
+lzlvl1	Magic Level 1	Mg1	First	N/A	0	type:lvl1skink	+1 to cast and dispel rolls.  Has 1 spell.			
+lzlvl2	Magic Level 2	Mg2	First	N/A	35	type:lvl2skink;stat:Wz+1;over:lzlvl1=deselect	+2 to cast and dispel rolls. Has 2 spells.		Magic Level Increased by 1	
+lzscout	Scout	Scout	First	N/A	10	xcst:1-unit=lzskinks	The model has the Scout special rule.			
+lzspella	Attr - Contemplations		SpellType	N/A	0	apnd:foot;hide;utyp:lzhigh				
+lzhigh	Lore of High Magic	High	SpellType	N/A	0	show:lzshow;type:lzhigh;stat:Wz+1				Slann
+lzlores2	Lore Table		SpellType	N/A	0	tabl:Beasts=mgbeasts,Undeath=unundeat-noname-nobrackets				
+lzbsmkoo	Mark of the Old Ones	OldOn	SpellType	N/A	35	cost:single;type:MarkofOldOnes;base:P=4	Character can Reroll a single D6, D3 times per game (roll at start of the game).  Can cause IF or Miscast.			
+lzlores	Path Table		SpellType	N/A	0	tabl:None=mgnone,Heavens=mgheaven,Life=mglife,Light=mglight-noname-nobrackets				
+lzlores3	Path Table		SpellType	N/A	0	utyp:!deliber;tabl:White=mghigh,Wilderness=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Life=mglife,Light=mglight,Alchemy=mgmetal,Shadow=mgshadow-noname-nobrackets				Slann
+lzlores4	Path Table		SpellType	N/A	0	tabl:Heavens=mgheaven,Wilderness=mgbeasts-noname-nobrackets				
+lzlores5	Path Table		SpellType	N/A	0	tabl:Heavens=mgheaven,Wilderness=mgbeasts,Light=mglight,Nature=mglife-noname-nobrackets				
+lzloresx	Path Table		SpellType	N/A	0	utyp:!deliber&alternatethinking;tabl:White=mghigh,Wilderness=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Life=mglife,Light=mglight,Alchemy=mgmetal,Shadow=mgshadow-noname-nobrackets			Choose Lore for extra spell lore	Slann
+lzahw	Additional Hand Weapon	AHW	Weapon	Wep,2Hd	10	utyp:!mounted;stat:At+1;stat:In+1;xcst:2-unit=lzsknkch	Requires Two Hands. +1 Attack and +1 Initiative. Foot models only.			
+lzahwrep	Additional Hand Weapon	AHW	Weapon	Wep,2Hd	0	utyp:!mounted;stat:At+1;stat:In+1;chld:champ@At+1;chld:champ@In+1;over:lzsh=delete	Requires Two Hands. +1 Attack and +1 Initiative. Foot models only.		Replace Shields with Additional Hand Weapons	
+lzgwfth	Great Weapon	GW	Weapon	2Hd	20	stat:St+2;type:GreatWeapon;xcst:15-unit=lzscarvt	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+lzhal	Halberd	Hal	Weapon	Wep,2Hd	15	stat:St+1;chld:champ@St+1;xcst:10-unit=lzscarvt	Requires Two Hands. +1 Strength.			
+lzhalber	Halberd	Hal	Weapon	N/A	0	stat:St+1;type:GreatWeapon;chld:champ@St+1;over:2handtrp=delete	Requires Two Hands. +1 Strength.		Replace Great Weapons with Halberds	
+lzspear4	Spears	Spr	Weapon	N/A	4	preq:no		+1S when charging	+1S when charging	
+lzgpipes	2x Giant Blowpipe	GPip	Missile	N/A	10	over:lzgntbow=delete;over:lzengine=delete	Volley Gun Artillery Weapon: Range 18”, Strength 3, Quick to Fire, Poisoned Attacks, Multiple shots (2D6).			
+lzblwhro	Blowpipe	bpipe	Missile	Rng	0	xcst:4-unit=lzsknkch	12" Range, S3, Multiple Shots (2), Poisoned Attacks			
+lzbolas	Fire Bola	Bola	Missile	N/A	1	over:lzjavhro=delete	Range 8". Strength 4. Quick to fire. Flaming Attacks		Replace Javelins with Fire Bola. 	
+lzgntbow	Giant Bow	GBow	Missile	N/A	0		Bolt Thrower Artillery Weapon with the following profile: Range 36, Strength 6, Multiple Wounds (D3), Armour Piercing (6), Quick to Fire			
+lzjav	Javelin	Javln	Missile	N/A	0	over:lzblwhro=delete;over:lzshrtbw=delete	Range 12”, Strength 3, Poisoned Attacks, Quick to Fire.		Replace Blowpipes with Javelins	
+lzjavhro	Javelin	Javln	Missile	Rng	4	xcst:0-unit=lzskinks;over:lzblwhro=delete	Range 12”, Strength 3, Poisoned Attacks, Quick to Fire.			
+lzskjvsh	Javelin & Shield	JavSh	Missile	N/A	0	more:lzjavhro=incl;more:shoptrp=incl;over:lzblwhro=delete;invs:noprint;over:lzshrtbw=delete	Replace Blowpipe with Lustrian Javelin & Shield.			
+lzshrtbw	Razorspike Bow	Sbw	Missile	N/A	0	over:lzblwhro=delete;over:lzjav=delete	Range 18”, Strength 3, Armour Piercing (1).		Replace Blowpipes with Razorspike Bows	
+lzharsca	Hardened Scales	HSca	Armour	N/A	10	base:To+1;chld:champ@To+1-base			A model with Hardened Scales gains +1 Toughness.	
+lzinnat4	Innate Defence (4+)	InD4	Armour	N/A	0	over:lzinnat5=delete;more:save1=incl				
+lzinnat5	Innate Defence (5+)	InD5	Armour	N/A	0					
+lzfakela	Light Armour	LArm	Armour	N/A	0					
+lzla	Light Armour	LArm	Armour	N/A	20	utyp:!MagicArmour;more:save1=incl;type:armour;xcst:15-unit=lzscarvt				
+lzfakesh	Shield	Shld	Armour	N/A	0					
+lzsh	Shield	Sh	Armour	N/A	10	utyp:!MagicShield;more:save1=incl;xcst:5-unit=lzscarvt	Parry			
+lzkrxanc	Champion		Champion	N/A	0	unit:lzkrxanc@abs=1;modl:-1;cost:model			Kroxigor Champion	
+lzredsch	Champion		Champion	N/A	0	unit:lzredsch@abs=1;modl:-1;cost:model				
+lzripcha	Champion		Champion	N/A	0	unit:lzripcha@abs=1;modl:-1;cost:model;csiz:lzripper+1				
+lzskbrv2	Champion		Champion	N/A	0	unit:lzskbrv2@abs=1;modl:-1;cost:model				
+lzskbrv3	Champion		Champion	N/A	0	unit:lzskbrv3@abs=1;modl:-1;cost:model;csiz:lzhorned+1				
+lzskcrch	Champion		Champion	N/A	60	unit:lzskcrch@abs=1;over:lzskncr1=delete			Wizard Conclave (Lvl 2, Redwood Shaft, The Beast Within)	
+lzsknbrv	Champion		Champion	N/A	0	unit:lzsknbrv@abs=1;modl:-1;cost:model				
+lzsrcvch	Champion		Champion	N/A	0	unit:lzsrcvch@abs=1;modl:-1;cost:model;csiz:lzcold+1				
+lzsrschm	Champion		Champion	N/A	0	unit:lzsrschm@abs=1;modl:-1;cost:model				
+lzstalkr	Champion		Champion	N/A	0	unit:lzstalkr@abs=1;modl:-1;cost:model			Chameleon Skink Champion	
+lzterch	Champion		Champion	N/A	0	unit:lzterch@abs=1;modl:-1;cost:model;csiz:lzterrad+1				
+lztgchmp	Champion		Champion	N/A	0	unit:lztgchmp@abs=1;modl:-1;cost:model				
+lzpteram	Alpha Pteranodon		Mount	Mnt	30	unit:lzpteram@per=1;more:save1=incl;stxt:Type="MC";show:lzterch;xcst:40-unit=lzsknkch;more:heromnt=incl;over:lzahw=delete				
+lzdactym	Alpha Pterodactyl		Mount	Mnt,Oth	45	unit:lzdactym@per=1;more:save2=incl;stxt:Type="MC";more:heromnt=incl;over:lzahw=delete				
+lzstegac	Ancient Stegadon		Mount	Oth	0	unit:lzstegac@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl;slct:lzskcrwa=incl;type:steg				
+lzzlaaq	Ancient Stegadon		Mount	Oth	0	unit:lzzlaaq@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl;type:steg				
+lzstege1	Ancient Stegadon with Engine		Mount	Oth	0	unit:lzstegeg@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl;slct:lzskcrwa=incl				
+lzarcano	Arcanodon		Mount	N/A	0	unit:lzarcano@abs=1;hide				
+lzgrymlq	Grymloq		Mount	Mnt	0	unit:lzgrymlq@abs=1;more:heromnt=incl;type:mounted;olgl:unit=lzkroq;more:save1=incl				
+lzhornd2	Horned One		Mount	Mnt	0	unit:lzhorned@per=1;type:mounted;stxt:Type="Ca"				
+lzhorned	Horned One		Mount	Mnt	16	unit:lzhorned@abs=1;more:heromnt=incl;type:mounted;more:save2=incl;olgl:type=skink;stxt:Type="Ca"	Cause Fear, Fast Cavalry			
+lzterrad	Pteranodon		Mount	Mnt,Oth	0	unit:lzterrad@per=1;type:mounted;more:save1=incl;stxt:Type="MC";show:lzterch;more:heromnt=incl				
+lzripper	Pterodactyl		Mount	Mnt,Oth	5	unit:lzripper@per=1;type:mounted;more:save2=incl;stxt:Type="MC";show:lzripcha;more:heromnt=incl			Natural Armour	
+lzcldtrp	Raptor		Mount	Mnt	0	unit:lzcold@per=1;type:mounted;stxt:Type="Ca"				
+lzcold1	Raptor		Mount	Mnt	40	unit:lzcold@abs=1;slct:heromnt=incl;type:mounted;more:save2=incl;olgl:!type=skink;stxt:Type="Ca";over:lzahw=delete;xcst:35-unit=lzscarvt				
+lzmounts	Show Mounts		Mount	N/A	0	hide;more:lzcarnos=cost;more:lzcold1=cost;more:lzhorned=cost				
+lzskpala	Skink Palanquin	Pal	Mount	Mnt	35	unit:lzskpala@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl				
+lzskymnt	Sky-riders mounts		Mount	N/A	0	tabl:Pteranodon=lzterrad,Pterodactyl=lzripper-noname-nobrackets				
+lzsteg	Stegadon		Mount	Oth	0	unit:lzsteg@abs=1;slct:heromnt=incl;type:mounted;base:Sv=3				
+lzstegm	Stegadon		Mount	Oth	0	unit:lzstegm@abs=1;slct:heromnt=incl;type:mounted;more:save1=incl;slct:lzskcrwh=incl;type:steg				
+lztide	Tide of Serpents	Tide	Mount	Mnt	0	unit:lztide@per=1;type:mounted				
+lzstegeg	Triceratops		Mount	Mnt	160	unit:lzstegeg@abs=1;slct:heromnt=incl;over:lzahw=delete				
+lztyrano	Tyrannosaurus		Mount	Mnt	140	unit:lztyrano@abs=1;slct:heromnt=incl;type:mounted;stxt:Type="MC";over:lzahw=delete				
+lzcarnos	Tyrannosaurus Rex		Mount	Mnt	230	unit:lzcarnos@abs=1;slct:heromnt=incl;type:mounted;over:lzahw=delete			Ridden Monster	
+lzzwup	Zwup		Mount	Mnt,Oth	0	unit:lzzwup@per=1;type:mounted;base:Sv-1				
+lzskcrwa	Skink Crew		Crew	N/A	0	unit:lzskcrwa@abs=4				
+lzskcrwh	Skink Crew		Crew	N/A	0	preq:no;unit:lzskncrw@abs=4				
+lzskncr1	Skink Crew		Crew	N/A	0	unit:lzskcrwa@abs=1				
+lzskncr3	Skink Crew		Crew	N/A	0	preq:no;unit:lzskcrwa@abs=3				
+lzskncra	Skink Crew		Crew	N/A	0	unit:lzskcrwa@abs=5				
+lzskncrw	Skink Crew		Crew	N/A	0	preq:no;unit:lzskncrw@abs=5				
+lzslmskn	Skink Handlers		Crew	N/A	0	unit:lzslmskn@var;cost:model				
+lzskorac	Skink Oracle Rider		Crew	N/A	0	preq:no;unit:lzskorac@abs=1				
+lzshow	All Lore Spells		Priority1	N/A	0	more:mgshow=incl;take:lzspella;take:lzspel00;take:lzspell0;take:lzspell1;take:lzspell2;take:lzspell3;take:lzspell4;take:lzspell5;take:lzspell6;base:Wz=9;item:+9				
+lzsignas	All Signature Spells		Priority1	N/A	0	take:beasts0;take:death0;take:fire0;take:metal0;take:shadows0;take:heavens0;take:light0;take:life0			Adds all 8 signature spell to the roster.	
+lzsignat	All Signature Spells		Priority1	N/A	0	utyp:deliber;type:mgbeasts;type:mgdeath;type:mgfire;type:mgmetal;type:mgshadow;type:mgheaven;type:mglight;type:mglife;base:Wz=8;item:+8;more:lzsignas=incl			Adds all 8 signature spell to the roster.	
+lzkrqcav	Unit of Core Cold One Cav		Priority1	N/A	0	unit:lzkrqcav@var				
+lzaltars	Altar of the Snake-God	AltSG	Priority2	N/A	0	unam:+" with Altar of the Snake-God";spec:+spel;item:+1;type:mgdisease;take:disease2-free	Friendly units within 6” have Poisoned Attacks in Close Combat. The Altar of the Snake God contains the bound spell Putrefying Touch from the Path of Disease (Power level 3).			
+lzambush	Ambushers	Amb	Priority2	N/A	5	type:lzambush				
+lzark	Ark of Sotek	Ark	Priority2	N/A	0	unam:+" with Ark of Sotek"	#At the start of friendly turn nominate one Jungle Swarm within 6" and roll D6. On 4+ add one base to the unit; #Shooting attack that can be made even if Bastiladon marched, charged or is in close combat. All enemy unit within D6" suffer 2D6 S2 hits.			
+lzcarni2	Bloodroar	BloRo	Priority2	N/A	25		When rolling Fear and Terror test caused by this Carnosaur, roll extra dice and discard one with the lowest result.			
+lztrog1	Divining Rod	DiRod	Priority2	N/A	15		Allows the bearer to channel power and dispel dice, as if he were a Wizard.			
+lzengine	Godly Engine	Engin	Priority2	N/A	40	unam:+" with Godly Engine";over:lzgpipes=delete;over:lzgntbow=delete;base:WSv=6;type:godlyengine;spec:+spel;item:+3;take:lzgodly1-perm;take:lzgodly2-perm;take:lzgodly3-perm	One of a kind. Magic Beacon.All friendly unitswithin 6” of a Godly Engine have a Ward Save (6+).Atthe beginning of any Game Turn the owner chooses one of the 3 following effects to apply for the remainder of the game turn. The player may choose the same configuration repeatedly, but only one configuration may be active at the same time.			
+lzhatred	Hatred (Skaven)	Amb	Priority2	N/A	1					
+lzpoison	Poisoned CC Attacks	PoisA	Priority2	N/A	2					
+lzsteg2	Sharp Horns	Shorn	Priority2	N/A	25		The model's Impact Hits have Multiple Wounds (D3).			
+lzsolare	Solar Engine	Solar	Priority2	N/A	0	unam:+" with Solar Engine";over:lzark=delete;over:lzskcrwa=delete;more:lzskncr3=incl	#All friendly units with the Cold-blooded special rule within 6" gain +1 In. #Beam of Chotec- innate bound spell (power level 3). Magic missile. Range 24". Flaming Attacks. Roll D6: 1- D3 S3 hits, 2-3- D6 S4 hits, 4-5- 2D6 S5 hits, 6- 2D6 S6 hits and target suffers -1 to WS and BS until start of Bastilodon's next Magic phase.		Replace Ark of Sotek with Solar Engine.	
+lzsunarc	Sun Engine	SunAr	Priority2	N/A	10	unam:+" with Sun Engine";over:lzaltars=delete;spec:+spel;item:+1;type:mglight;take:light0-perm	All friendly units within 6” of one or more models with this Special Rule have +1 Weapon Skill. Also contains the bound spell Burning Gaze (Path of Light) at Power level 3.		Replace Altar of the Snake-God with Sun Engine.	
+lzcarni1	Swiftstride	LopSt	Priority2	N/A	15					
+lztehina	Tehenhauin in army		Priority2	N/A	0	type:lztehina;show:lzhatred			Select only when Tehenhauin is present.	
+lztikina	Tiktaq'Toe in army		Priority2	N/A	0	type:lztikina;show:lzambush			Select only when Tiktaq'Toe is present.	
+lzsteg1	Unstoppable Stampede	Stamp	Priority2	N/A	10		Devastating Charge.			
+lz4040	40x40mm base	baslt	Special	N/A	0	over:lz5050=delete			Switch base to 40x40mm	
+lz5050	50x50mm base	baslt	Special	N/A	0					
+lztranup	Ancient Triceratops	AnTr	Special	N/A	40	type:ancienttriceratops;base:Wo+1;base:St+1;show:lzengine;unam:<"Ancient "				
+lzplsnak	Plaque of the Snake God	PlSnk	Special	N/A	30		Bearer’s unit has Hatred.			
+lzspin1	Poisonous Breath	PoisB	Special	Rng	30		Breath Weapon with the Toxic Attacks special rule.			
+lzraz2	Pteranodon Hunter Spikes	RSS	Special	Oth	5		+1 to hit and +1 to wound against flying units.			
+lzraz1	Razor Sharp Spikes	RSS	Special	Oth	7		When shooting at short range replace Armour Piercing (1) with Armour Piercing (2)			
+lzscout5	Scout	Sct	Special	N/A	5					
+lzspin2	Spit Poison	SpitP	Special	Rng	30		Shooting attack, Range 8”, Quick to fire, Poisoned Attacks, Strength 6, Multiple Wounds (Ordnance), Armour Piercing (3).			
+lzsal1	Spout Flames	SFla	Special	N/A	0		Flame Thrower Artillery Weapon: Range 8”, Strength 4, Flaming Attacks. The Salamander can move and fire, but not march and fire. If a misfire is rolled, consult the misfire chart but add +4 to the result rolled. Salamanders may stand & shoot with Spout Flames.			
+lzsal2	Spout Venom	SFla	Special	N/A	0	over:lzsal1=delete	Catapult Artillery weapon: Range 18”, Strength 1, +1 to wound, Armour Piercing (6), Template 3" that scatters like a Catapult. The Salamander can move and fire, but not march and fire. If a misfire is rolled, consult the misfire chart but add +4 to the result rolled. Salamanders may stand & shoot with Spout Venom.		Replace Spout Flames with Spout Venom	
+lzwpnmas	Weapon Masters	WMast	Special	N/A	1				Unit gains Weapon Masters special rule.	
+lzsthskn	Add Skink Character		Last	N/A	0	list:lzsknkch,lzskprst;hide:-legal=(!mode=a);type:Lord;preq:no			Two Hero level Skinks may be chosen as a single Lord choice.	
+lzRare	Count as Rare		Last	N/A	0	xcmp:Rare;olgl:unit=lzsaurus;hide				
+lzSpec	Count as Special 		Last	N/A	0	xcmp:Spec;olgl:unit=lzsaurus;hide				
+lzSpec2	Count as Special 		Last	N/A	0	utyp:!NoSpawn;xcmp:Spec;hide				Count as Special for Southlands Skink Cohorts w/ Blessed Spawning.
+lzspin3	Predatory Roar	Roar	Last	N/A	25		Once per game all friendly units with the Born Predator special rule within 12” of a model with Predatory Roar may reroll to hit rolls of ‘1’ and ‘2’ in close combat. This ability can be activated at the start of any close combat phase and will last for that one close combat phase only.			
+lzrare	Rare Choice		Last	N/A	0	xcmp:Rare;utyp:Rare;hide				
+lzsrcvc2	Saurus Cavalry Champion		Last	N/A	0	unit:lzsrcvch@abs=1;hide				
+^
+lz9mw01	Etheral Blade	weap	MWp	45	1	itst:race=lz&type=Lord		Attacks made with this weapon have Armour Piercing (1) and Multiple Wounds (2).	^	^	9th age
+lz9mw02	Etheral Blade	weap	MWp	35	1	itst:race=lz&!type=Lord		Attacks made with this weapon have Armour Piercing (1) and Multiple Wounds (2).	^	^	9th age
+lz9mw03	Triceratops War-Spear	weap	MWp	40	1	itst:race=lz&type=mounted		Lance. The mount of the wearer has Impact Hits (D6) or (+D6) if it already has Impact Hits, resolved at the mounts strength.	^	^	9th age
+lz9mw04	Tyrannosaurus Hunting Bow	weap	MWp	40	1	itst:race=lz		Short Bow. Range 18". The Tyrannosaurus Hunting Bow can be shot using the rules for Bolt Thrower Artillery Weapons: Strength 6, Armour Piercing (6), Multiple Wounds (D3).	^	^	9th age
+lz9ma01	Triceratops Helm	armr	MAr	35	1	base:Sv-1;base:To+1;itst:race=lz		6+ Armour Save, +1 Toughness, Impact Hits (1)	^	^	DeBelial 2015
+lz9ta01	Flaming Aura of the Ancients	ward	Tal	45	1	itst:race=lz&type=Lord		Attacks against the bearer's model suffer -1 to hit. Furthermore, the bearer’s model has the Flameborn special rule.	^	^	DeBelial 2013
+lz9ta02	Flaming Aura of the Ancients	ward	Tal	30	1	itst:race=lz&!type=Lord		Attacks against the bearer's model suffer -1 to hit. Furthermore, the bearer’s model has the Flameborn special rule.	^	^	DeBelial 2015
+lz9ei02	Esoteric Egg	ench	Enc	35	1	itst:race=lz		Enchanted Item. One use only. The bearer has a Breath Weapon (Strength D3+2, Magical Attacks) that can only be used in close combat.	^	^	DeBelial 2015
+lz0ei03	Staff of Mending	ench	Enc	20	1	itst:race=lz		Enchanted Item. Bound Spell (Power level 3). The Staff of Mending contains the path of White Magic spell The Phoenix Rises.	^	^	DeBelial 2015
+lz9ai02	Ancient Plaque	wzrd	Arc	60	1	itst:race=lz&type=Lord		Arcane Item. Once per magic phase, the bearer may reroll a single of his own power dice rolled after a casting roll. You cannot use this when casting with 1 dice or to reroll natural rolls of ‘6’.	^	^	DeBelial 2015
+lz9ai03	Ancient Plaque	wzrd	Arc	40	1	itst:race=lz&!type=Lord		Arcane Item. Once per magic phase, the bearer may reroll a single of his own power dice rolled after a casting roll. You cannot use this when casting with 1 dice or to reroll natural rolls of ‘6’.	^	^	DeBelial 2015
+lz9ai01	Black Cube	wzrd	Arc	50	1	lglx:race=lz		Arcane Item. In each of your opponent’s magic phases, remove 1 power dice from your opponent’s power dice pool.	^	^	DeBelial 2015
+lz9mb01	Standard of Reversed Realities	stnd	Std	55	1	lglx:race=lz	bsb=incl	Depending on your opponent, the bearer's unit benefits from the enemy's army specific special rule as well as itsown. # Dwarfs (DH, ID): Bearer's unit gains Relentless and Thunderous Charge. #Men (KoE, EoS): Bearer's unit gains Ward Save (6+) in close combat and Ward Save (5+) against artillery weapons. #Elves (HE, SE, DE): Bearer's unit gains Lightning Reflexes. Dark Gods (DL, WDG): Bearer's unit gains the Mark of the enemy general. If the enemy general has no mark you may choose one any mark. #Undead (UD, VC): Bearer's unit gains Lethal Strike. # Beasts(VS, RK, BH, OK, O&G): Bearer's unit gains Fear and Impact hits (1).	^	^	DeBelial 2015
+lzgodly1	Arcane Configuration	spel	N/A	0	1	itst:type=godlyengine		Choose a Path. All friendly wizards casting spells from this Path have their casting value decreased by 2.	^	^	
+lzspella	Attr - Contemplations	spel	MWp	0	100	itst:(race=lz&type=lzhigh)		Lore Attribute. Can forget spell he successfuly cast. At the end of Magic phase generate new spell for each spell forgotten, from any Lore normally available.	^	Lore Attribute. Can forget spell he successfuly cast. At the end of Magic phase generate new spell for each spell forgotten, from any Lore normally available.	
+lzgodly2	Flaming Configuration	spel	N/A	0	1	itst:type=godlyengine		In owner’s Shooting phase pick an enemy unit within 9" that is not in close combat. That unit suffers D3 Metalshifting Hits.	^	^	
+lzspell0	Lz0 - Drain Magic	spel	MWp	0	100	itst:(race=lz&type=lzhigh)		Signature spell. Hex/Augment. 7+ to Cast. All RIP spells affecting the unit are immediately dispelled and effects of all other spells on the target unit immediately come to an end. OR 14+ to Cast to affect all friendly and enemy units within 18".	^	Signature spell. Hex/Augment. 7+ to Cast. All RIP spells affecting the unit are immediately dispelled and effects of all other spells on the target unit immediately come to an end. OR 14+ to Cast to affect all friendly and enemy units within 18".	
+lzspel00	Lz00 - Soul Quench	spel	MWp	0	100	itst:(race=lz&type=lzhigh)		Signature spell. Magic missile. 8+ to Cast, 2D6 S4 hits OR 16+ to Cast, 4D6 S4 hits. Range 18".	^	Signature spell. Magic missile. 8+ to Cast, 2D6 S4 hits OR 16+ to Cast, 4D6 S4 hits. Range 18".	
+lzspell1	Lz1 - Apotheosis	spel	MWp	0	100	itst:(race=lz&type=lzhigh)		Augment. 5+ to Cast. Range 18". Single model regains 1 Wound. OR 10+ to Cast, single model regains D3 Wounds. In addition target couse Fear until start of caster's next magic phase.	^	Augment. 5+ to Cast. Range 18". Single model regains 1 Wound. OR 10+ to Cast, single model regains D3 Wounds. In addition target couse Fear until start of caster's next magic phase.	
+lzspell2	Lz2 - Hand of Glory	spel	MWp	0	100	itst:(race=lz&type=lzhigh)		Augment. 5+ to Cast. Range 18". Target's WS, BS, In or Mv is increased  by D3. OR 10+ to Cast to increase all of those stats by D3.	^	Augment. 5+ to Cast. Range 18". Target's WS, BS, In or Mv is increased  by D3. OR 10+ to Cast to increase all of those stats by D3.	
+lzspell3	Lz3 - Walk Between Worlds	spel	MWp	0	100	itst:(race=lz&type=lzhigh)		Augment. 8+ to Cast.  Range 24". Target gain Ethereal special rule until the end of the magic phase and can immediately move to 10" as if it were Remaining Moves sub-phase. OR 16+ to Cast to move 20".	^	Augment. 8+ to Cast.  Range 24". Target gain Ethereal special rule until the end of the magic phase and can immediately move to 10" as if it were Remaining Moves sub-phase. OR 16+ to Cast to move 20".	
+lzspell4	Lz4 - Tempest	spel	MWp	0	100	itst:(race=lz&type=lzhigh)		Direct Damage. 12+ to Cast. Place Large round template within 30" of wizard ands catter it D6". All models hit suffer s3 hits (models with Fly suffer an s4 hit instead). Any unit that suffers any unsaved Wounds from this spell, suffers -1 To Hit in shooting and cc. Those that do not use BS need a 4+ to fire.	^	Direct Damage. 12+ to Cast. Place Large round template within 30" of wizard ands catter it D6". All models hit suffer s3 hits (models with Fly suffer an s4 hit instead). Any unit that suffers any unsaved Wounds from this spell, suffers -1 To Hit in shooting and cc. Those that do not use BS need a 4+ to fire.	
+lzspell5	Lz5 -  Arcane Unforging	spel	MWp	0	100	itst:(race=lz&type=lzhigh)		Direct Damage. 13+ to Cast. Range 24". Single enemy model suffers a Wound on a dice roll greater than or equal to unmodified armor save. No armour saves allowed. Target then reveals all magic items and randomly selected one is destroyed on 2+.	^	Direct Damage. 13+ to Cast. Range 24". Single enemy model suffers a Wound on a dice roll greater than or equal to unmodified armor save. No armour saves allowed. Target then reveals all magic items and randomly selected one is destroyed on 2+.	
+lzspell6	Lz6 - Fiery Convocation	spel	MWp	0	100	itst:(race=lz&type=lzhigh)		Direct Damage. Remains in play. 19+ to Cast. Range 24". Every model in the unit takes a S4 flaming hit. At the end of every subsequent Magic phase, every model suffers another S4 flaming hit.	^	Direct Damage. Remains in play. 19+ to Cast. Range 24". Every model in the unit takes a S4 flaming hit. At the end of every subsequent Magic phase, every model suffers another S4 flaming hit.	
+lzmaster	Master of the Sacred Places	spel	N/A	0	1	itst:type=coatl		6+ to cast; Rng Table; May move D6 terrain pieces D6" (roll for each piece)	^	^	
+lzgodly3	Protective Configuration	spel	N/A	0	1	itst:type=godlyengine		Replace the 6” Aura with: All friendly units within 12" gain Ward Save (6+) against close combat attacks and Ward Save (5+) against ranged attacks. Units that already have a ward save gain +1 to their ward save instead (up to a maximum of 5+).	^	^	
+lzglyph	Glyph Necklace	cgif	Tal	30	1	lglx:race=lz;base:Wsv=5		Bearer gains a 5+ Ward Save	^	^	
+lzrum	 Focused Rumination	unk2	N/A	0	99	itst:reg=lzslann&type=lzrum		A free power dice is added to all casts by bearer, May cause Miscasts and Irresistable Force, and can cause mage to cast with more dice than normally allowed.; Multiples are not allowed on a single Priest and have no effect	^	^	
+lzstonem	 Soul of Stone	unk2	N/A	0	99			The bearer may re-roll results on the Miscast table but must accept second result; Multiples are not allowed on a single Priest and have no effect	^	^	
+lzkroak4	Amulet of Itza	unk2	N/A	0	1			Magic Resistance (2).  Adds one dice to the power and dispel pool of Lord Kroak's side. 			
+lzamitzl	Amulet of Itzl	unk2	Tal	30	1	lglx:race=lz		Bearer gains a 2+ Ward Save against the first wound suffered after AS.	^	^	
+lzaurqtz	Aura of Quetzl	unk2	Tal	40	1	lglx:race=lz		-1 to hit bearer in CC	^	^	
+lzbanehd	Bane Head	unk2	Enc	15	1	lglx:race=lz		Nominate one enemy character at start of battle.  Vs nominated character, all unsaved Wounds inflicted by bearer are doubled	^	^	
+lzbltzun	Blade of Revered Tzunki	unk2	MWp	65	1	stat:St+1;lglx:race=lz		+1St, no Armour Save	^	^	
+lzbldstt	Blood Statuette of Spite	unk2	Bnd,Enc	25	1	lglx:race=lz		One use only.  Bound Spell, Power Level 5.  Enemy character takes toughness tests until it passes one, losing one wound each time it fails.  No AS	^	^	
+lzblchtc	Burning Blade of Chotec	unk2	MWp	20	1	lglx:race=lz		Additional -2AS, Flaming Attack	^	^	
+lzpndt	Carnosaur Pendant	unk2	Enc	20	1	itst:race=lz&!type=slann		once bearer has caused a wound, he becomes frenzied and can never lose frenzy	^	^	
+lzkroak3	Ceremonial Mace of Malachite	unk2	N/A	0	1			Magic weapons attacking Lord Kroak count only as hand weapons.	^	^	
+lzjagwar	Charm of the Jaguar Warrior	unk2	Mnt,Chr,Mon,Bnd,Enc	25	1	itst:race=lz&!type=mounted		Bound Spell, Power Level 5, Allows bearer to cast Steed of Shadows from BRB on himself	^	^	
+lzcbdrkn	Cube of Darkness	unk2	Arc	30	1	lglx:race=lz		One use only. When enemy casts the spell, you can dispel it on 2+ instead of rolling dispel dice. In addition, roll D6 for each Remains in Play spell currently in effect, on 2+ spell is automatically ended.	^	^	DeBelial 2013
+lzcuphnd	Cupped Hands of the Old Ones	unk2	Arc	45	1	lglx:race=lz		One use Only, if bearer miscasts roll D6, on a 1 miscast as normal, on a 2+ miscast is ignored and if there is an enemy Wizard is within line of sight he suffers the effects, ignoring rolls of 5 or 6	^	^	
+lzcrschr	Curse-Charm of Tepok	unk2	Enc	20	1	lglx:race=lz		One use only.  May force opponent to reroll result on Miscast table, second result stands.	^	^	
+lzheal	D: Trancendent Healing	unk2	N/A	30	99	itst:type=slann		At the end of friendly Magic phase roll D6 for each Wound bearer has lost. On 6 Wound is recovered.	^	^	2013
+lzpre	D: Unfathomable Presence	unk2	N/A	30	99	itst:type=slann		Magic Resistance (D3) - roll at the start of each enemy Magic phase.	^	^	2013
+lzdgstk	Dagger of Sotek	unk2	MWp	25	1	lglx:race=lz;itst:type=skink		Killing Blow, model causes Fear in Skaven	^	^	
+lzmazda2	Demise of Cities	unk2	N/A	0	1			13+ to cast. One enemy unit suffers 2D6 Str 5, Unit suffering wounds has Mv halved in their next phase. Units inside buildings take 3D6. Flying models and models that ignore terrain are uneffected.	^	^	
+lzdiadem	Diadem of Power	unk2	Arc	25	1	lglx:race=lz		Bearer may store 2 of his own Power dice and add them to his sides dispel pool in the next enemy magic phase.	^	^	
+lzdvplpr	Divine Plaque of Protection	unk2	Enc	30	1	stat:WSv=2;itst:race=lz&type=slann		Slann's Ward Save increases to 2+ vs all ranged attacks	^	^	
+lzdrgqui	Dragonfly of Quicksilver	unk2	Enc	10	1	lglx:race=lz		If both players have scouts, Lizardmen player gains +1 to the roll to deploy scouts first.	^	^	
+lzdrain	Drain Magic	unk2	N/A	0	100	itst:race=lz&type=3rdGen		Cast 5/7/9+; Rng 24"; Can be cast into HtH; Enemy mage discards dice rolls of 6, 5-6, or 4-6, when casting spells	^	^	
+lzglpdch	Gleaming Pendant of Chotec	unk2	Enc	35	1	lglx:race=lz		One use only. Lizardmen turn only.  Enemy units in B2B strike last (even after Great Weapons & Zombies). Enemy striking first do so on 4+, but strike last on 1-3.	^	^	
+lzhide	Hide of the Cold Ones	unk2	Arm,MAr	50	1	base:Sv-2;itst:race=lz&!type=mounted&type=saurus;type:MagicArmour;base:To+1		Heavy Armour, Bearer causes Fear but suffers from Stupidity, +1 To	^	^	type:sauras
+lzhorn	Horned One	unk2	Mnt,Chr,Mon,Enc	35	1	itst:!type=slann&race=lz;type:HornedOne;uadd:lzhorn@1;type:mounted;base:Sv-2		Cold One, Mv 8 In 3, not subject to Stupidity	^	^	
+lzhuantt	Huanchi's Blessed Totem	unk2	Std	25	1	itst:race=lz	bsb=incl	One use only.  Add D6" to charge. if failed move foward at normal rate	^	^	
+lzgrubs	Itxi Grubs	unk2	Arc	25	1	lglx:race=lz		one use only; Wizard may add 3 to the casting roll of a single spell, Use may be declared after the casting roll	^	^	
+lzpldomn	Plaque of Dominion	unk2	Arc	25	1	lglx:race=lz		Bound spell (power level 3). Hex spell that targets all enemy Wizards within 18". They gain Stupidity until start of caster's next Magic phase.	^	^	DeBelial 2013
+lzpltpok	Plaque of Tepok	unk2	Arc	15	1	lglx:race=lz;type:5lores		Bearer knows 1 more spell than normal.	^	^	
+lzrdstrm	Rod of the Storm	unk2	Arc,Bnd	25	1	lglx:race=lz		One use only.  Bound Spell Power Level 6.  Cast Uranon's Thunderbolt	^	^	
+lzstghlm	Sacred Stegadon Helm of Itza	unk2	MAr	40	1	base:Sv-1;base:To+1;itst:race=lz		+1 Armour Save, +1 Toughness, Impact Hits (D3)	^	^	DeBelial 2013
+lzscmsun	Scimitar of the Sun Resplendent	unk2	MWp	50	1	stat:At+2;lglx:race=lz		+2At	^	^	
+lzshmrpl	Shield of the Mirrored Pool	unk2	Shd,MAr	30	1	base:Sv-1;itst:race=lz;type:MagicShield		+1 Armour Save, rebound MM spells cast at bearer or his unit on a 2+.  Rebound spell to caster or casters unit, also it cannot be dispelled.	^	^	
+lzpelt	Skavenpelt Banner	unk2	Std	65	1	itst:race=lz	bsb=cost	Unit  gains Frenzy and Hatred (Skaven) special rules. Skaven gain Hatred when attacking the bearer.	^	^	DeBelial 2013
+lzstflsn	Staff of the Lost Sun	unk2	MWp	35	1	lglx:race=lz		S5 Shortbow w/ 3x Multiple Shot.	^	^	
+lzkroak1	Standard of the Sacred Serpent & Glyph of Potec	unk2	N/A	0	1			Enemy models touching Lord Kroak at the start of each player's shooting phase takes a S3 hit (may cause panic).  Hit is S5 against Daemonic and Ethereal creatures. 	^	^	
+lzwarspr	Stegadon War-spear	unk2	MWp	50	1	itst:race=lz&type=steg&type=chief		Lance Mount inflicts 2D6+1 impact hits rather than D6+1	^	^	
+lzsnstdc	Sun Standard of Chotec	unk2	Std	40	1	itst:race=lz	bsb=incl	Missiles fired at unit are -1 to hit. -2 if within 12"	^	^	
+lzswhrnt	Sword of the Hornet	unk2	MWp	25	1	lglx:race=lz		Always Strike First	^	^	
+lzbldrlt	The Blade of Realities	unk2	MWp	100	1	lglx:race=lz		No armour and no ward saves allowed.	^	^	DeBelial 2013
+lzclkfth	The Cloak of Feathers	unk2	Enc,Oth	35	1	itst:type=skirmishers&type=skink&!type=mounted;lglx:race=lz		Skinks on foot only. Bearer gains Fly and Magic Resistance (1) special rules.	^	^	DeBelial 2013
+lzquango	The Egg of Quango	unk2	Enc	30	1	lglx:race=lz		One use only. Use at the start of CC phase. Nominate one enemy unit in base contact and roll D6: 1- cause D6 S3 hits, 2-3- D6 S4 hits, 4-6- 2D6 S5 hits.	^	^	DeBelial 2013
+lzkygor	The Horn of Kygor	unk2	Enc	35	1	lglx:race=lz		One Use Only. Use at the start of friendly Movement phase. All friendly monsters, monster mounts, monstrous beasts, monstrous cavalry mounts, cavalry mounts, chariot beasts and war beasts within 12" gain Frenzy until start of their next Movement phase. Horn has no effect on riders.	^	^	DeBelial 2013
+lzjgstnd	The Jaguar Standard	unk2	Std	50	1	lglx:race=lz	bsb=incl	All models in the unit gain Swiftstride.	^	^	DeBelial 2013
+lzmaimsh	The Maiming Shield	unk2	Shd,MAr	30	1	base:Sv-1;lglx:race=lz;type:MagicShield;base:At+1		Shield, +1 Attack at base Strength (counts as magical)	^	^	
+lzpirbld	The Piranha Blade	unk2	MWp	50	1	lglx:race=lz		Multiple Wounds (D3). Armour piercing.	^	^	DeBelial 2013
+lzprphcy	Totem of Prophecy	unk2	Std	50	1	lglx:race=lz	bsb=incl	Unit causes Fear.	^	^	
+lzvnmffr	Venom of Firefly Frog	unk2	Enc	10	1	lglx:race=lz		All mundane weapons (combat & ranged) count as poisoned and magical. Mundane weapons the are already Poison may re-roll to hit	^	^	
+lzdrum	War Drum of Xahutec	unk2	Enc	30	1	lglx:race=lz		Bearer and unit may march with enemies with in 8" and if Bearer is not fleeing all friendly units with in 12" recieve +1 to rallies (max 10)	^	^	
+lz9ei01	Winged Mantle	unk2	Enc,Oth	30	1	itst:type=skirmishers&type=skink&!type=mounted;lglx:race=lz		Enchanted Item. Skink characters on foot only. Bearer gains Fly (10) and Magic Resistance (1) special rules.	^	^	DeBelial 2013
+lzskies	Blade of the Ancient Skies	spec	N/A	0	1	itst:reg=lztiktaq		No Armour Saves. +1 To Hit against models with Fly special rule.	^	^	Tiktaq'Toe, 2013
+lztehen1	Blade of the Serpent's Tongue	spec	MWp	0	1	itst:reg=lztehenh		+1S on charge. Poisoned Attacks.	^	^	Tehenhauin, 2013
+lzcoilss	Coils of Sotek	spec	Tal	0	1	itst:type=xltep		Doubles rank bonus of unit joined by Lord Xltep for combat resolution	^	^	
+lzkroak2	Golden Death Mask	spec	N/A	0	1	itst:reg=lzkroak		All shooting and combat attacks at Kroak or his unit suffer -1 To Hit.	^	^	Kroak, 2013
+lzkroq1	Hand of Gods	spec	N/A	0	1	itst:reg=lzkroq		Bound spell (power lvl 3). Contains Shem's Burning Gaze (Lore of Light).	^	^	Kroq-Gar, 2013
+lzkey	Key to the Eternity Chamber	spec	N/A	0	1	itst:reg=lzchakax		In a challenge, Chakax gains a 5+ Ward Save and and his opponent gains Always Strikes Last special rule.	^	^	Chakax, 2013
+lzulumak	Mace of Ulumak	spec	N/A	0	1	itst:reg=lzgorrok		Re-roll failed To Hit rolls. Bearer's Predatory Fighter works on 5+.	^	^	Gorrok, 2013
+lzmaskh	Mask of Heavens	spec	N/A	0	1	itst:reg=lztiktaq		All Terradons in his unit use Tiktaq'Toe WS. Additional -1 To Hit at bearer's unit.	^	^	Tiktaq'Toe, 2013
+lztehen2	Plaque of Sotek	spec	N/A	0	1	itst:reg=lztehenh		Ward Save 5+	^	^	Tehenhauin, 2013
+lzkroq2	Revered Spear of Tlanxla	spec	N/A	0	1	itst:reg=lzkroq		+1S on the charge if bearer is mounted. Each wound caused counts 2 for combat resolution purposes.	^	^	Kroq-Gar, 2013
+lzsotek	Sign of Sotek	spec	Std	25	1	itst:type=redcrest	bsb=cost	Unit may re-roll failed to Wound rolls on the turn it charges	^	^	
+lzmazda6	Sunburst Standard Of Hexoatl	spec	Std	0	1	itst:reg=lzmazda	bsb=incl	Battle Standard. Once per game, use Standard at the beginning of enemy Shooting phase: all enemy units that target Mazdamundi, or friendly units within 12", with shooting attack, suffer -1 To Hit until end of the turn.	^	^	Mazdamundi, 2013
+lzcobra	The Cobra Mace	spec	N/A	0	1	itst:reg=lzmazda		Always Strikes First. Poisoned Attacks. At the start of every CC phase  enemies in base contact must reveal all magic items. If Mazdamundi score a hit against a model with magic items roll D6. On 6 all of those items are destroyed.	^	^	Mazdamundi, 2013
+lzkrkspl	The Deliverance of Itza	spec	N/A	0	1	itst:reg=lzkroak		Direct damage. 10+ to Cast. All enemy units within 12" suffer 2D6 S4 hits. Daemonic and any Undead units suffer extra D6 hits. OR 18+ to Cast to increase range to 18" OR 24+ to Cast to increase range to 24".	^	^	Kroak, 2013
+lzeye	The Eye of the Old Ones	spec	N/A	0	1	itst:reg=lztetto		After deployment nut before Vanguard moves bearer can give D3 friendly units Vanguard special rule.	^	^	Tetto'Eko, 2013
+lzoxy1	The Golden Blowpipe of P'Toohee	spec	N/A	0	1	itst:reg=lzoxyotl		Magic Weapon. Range 12". St3. Multiple Shots (3). Poisoned Attacks.	^	^	Oxyotl, 2013
+lzhelm	The Helm of the Prime Guardian	spec	N/A	0	1	itst:reg=lzchakax		6+ Armour Save. No enemy Scouts may deploy within 20". Hidden models in units must be revealed when within 20" of bearer.	^	^	Chakax, 2013
+lzaeons	The Shield of Aeons	spec	N/A	0	1	itst:reg=lzgorrok		Shield, +2 Armour Save. Enemies that make a successful charge against him must make Dangerous Terrain test with -1 penalty.	^	^	Gorrok, 2013
+lzstar	The Star-stone Mace	spec	MWp	0	1	stat:St+2;itst:reg=lzchakax		+2 Strength. Always Strikes Last. At the start of every cc phase enemies must reveal magic items. If Chakax scores one or more hits on model with magic items, roll D6. On 5+ random of this items is destroyed.	^	^	Chakax, 2013
+lzstelr	The Stellar Staff	spec	N/A	0	1	itst:reg=lztetto		If bearer casts Comet of Caasandora he may re-roll the dice to determine if the comet arrives.	^	^	Tetto'Eko, 2013
+lzaltern	D: Alternate Way of Thinking	dscp	N/A	50	1	itst:type=slann&!type=deliber;type:alternatethinking;type:priestdisciplines;stat:P+1		The Anurid High Priest knows one additional spell. You may choose to generate this spell from a different Path of Magic (one that the Anurid High Priest can usually choose), but you must note on your army roster which Path you choose for this ability.	^	^	2015
+lzcog	D: Cognitive Reassurance	dscp	N/A	60	1	itst:type=slann&!type=masterofthewinds;type:priestdisciplines;type:cognitivereassurance;stat:P+1		The Anurid High Priest can reroll the first failed dispel attempt in each magic phase. At the end of the opponent’s magic phase, the bearer may store a single unused dispel dice. At the start of your next magic phase you can add that dice to your power dice pool.	^	^	2015
+lzconver	D: Funnel the Winds	dscp	N/A	55	1	itst:type=slann&!type=masterofthewinds;type:priestdisciplines;type:funnelthewinds;stat:P+1		Choose one combination at the start of the game: The Anurid High Priests gives you an additional +4 bonus when rolling to channel in your magic phase and +1 to cast, OR a +4 bonus when rolling to channel in your opponent’s magic phase and +1 to dispel.	^	^	2015
+lzcon	D: Higher State of Mind	dscp	N/A	30	1	itst:type=slann&!type=btl&!type=general;type:priestdisciplines;type:higherstateofmind;stat:P+1		The Anurid High Priest has the Ethereal special rule but cannot be the army’s Battle Standard Bearer or General.	^	^	2015
+lzdelibe	D: Master of the Paths	dscp	N/A	65	1	itst:type=slann&!type=alternatethinking;type:deliber;type:priestdisciplines;stat:P+1		The Anurid High Priest knows the signature spell from each of the eight Paths of Battle Magic, instead of generating spells normally. Cannot be combined with Alternate Way of Thinking.	^	^	2015
+lzmystry	D: Master of the Winds	dscp	N/A	85	1	itst:type=slann&!type=funnelthewinds&!type=cognitivereassurance;type:priestdisciplines;type:masterofthewinds;stat:P+1		When rolling for Winds of Magic in your own magic phase, roll an additional D6 and discard the lowest D6 rolled. Cannot be combined with Funnel the Winds or Cognitive Reassurance in the same army.	^	^	2015
+lzstone	D: Protected Soul	dscp	N/A	30	1	itst:type=slann;type:priestdisciplines;stat:P+1		When the Anurid High Priest rolls on the miscast table, you may add or subtract one from the result.	^	^	2015
+lzscrut	D: Telepathic Control	dscp	N/A	40	1	itst:type=slann;type:priestdisciplines;stat:P+1		As long as the Anurid High Priest is alive and is also the General, all Magic Beacons in the army spread his Leadership with the Inspiring Presence rule. However, the range of the Magic Beacons’ Inspiring Presence is limited to 6". In addition the Anurid High Priest may cast any kind of spell through a Magic Beacon (and is not limited to just "Damage" spells).	^	^	2015
+lzreserv	D: Veteran of the Dark Wars	dscp	N/A	50	1	itst:type=slann;type:priestdisciplines;stat:P+1		In addition to generating spells as normal, the Anurid High Priest knows the spells Luminous Bolts (Path of White Magic) and Moraec’s Fury (Path of Black Magic).	^	^	2015
+^
+^
+^
+lzslann	general	cost
+lzoldbld	lancelrd	hide
+lzoldbld	lzla	cost
+lzoldbld	lzsh	cost
+lzoldbld	general	cost
+lzoldbld	heromnt	cost
+lzoldbld	lzahw	cost
+lzoldbld	lzcold1	cost
+lzscarvt	lzhal	cost
+lzscarvt	lzla	cost
+lzscarvt	lzsh	cost
+lzscarvt	general	cost
+lzscarvt	btstand8	cost
+lzscarvt	lzahw	cost
+lzsknkch	lzblwhro	cost
+lzsknkch	lzjavhro	cost
+lzsknkch	general	cost
+lzsknkch	lancehro	hide
+lzsknkch	lahro	cost
+lzsknkch	shhro	cost
+lzskprst	general	cost
+lzskprst	mgfull	hide
+lzsaurus	sprtrp	free
+lzsaurus	mus10	cost
+lzsaurus	stmg10	cost
+lzsaurus	shoptrp	incl
+lzscarvt	heromnt	cost
+lzsknkch	lzstegeg	cost
+lzskprst	mgshow	hide
+lzscarvt	lzcold1	cost
+lzscarvt	lancelrd	cost
+lzskinks	lzsknbrv	cost
+lzskinks	lzblwhro	incl
+lzskinks	lzjav	free
+lzskinks	showtrp1	cost
+lztmpgrd	mus10	cost
+lztmpgrd	stmg10	cost
+lztmpgrd	lztgchmp	cost
+lztmpgrd	haltrp	incl
+lztmpgrd	lzfakesh	incl
+lzsrscav	lancetrp	incl
+lzsrscav	mus10	cost
+lzsrscav	stmg10	cost
+lzsrscav	lzsrcvch	cost
+lzsrscav	shoptrp	incl
+lzsrscav	lzcldtrp	incl
+lzkroxig	2handtrp	incl
+lzkroxig	lzkrxanc	cost
+lzchmskn	lzstalkr	cost
+lzchmskn	lzblwhro	incl
+lzskncrw	lzjavhro	incl
+lzsteg	lzskncrw	incl
+lzsteg	lzgntbow	incl
+lzslmndr	lzslmskn	incl
+lzslann	mgfull	hide
+lzslann	mgshow	hide
+lzslann	mgmiscas	cost
+lzslann	mg4lvl	incl
+lzscarvt	lzgwfth	cost
+lzsknkch	lzpteram	cost
+lzskprst	mgmiscas	cost
+lzslann	lzlores3	incl
+lzslann	btstand4	cost
+lzslann	btnostnd	incl
+lzskprst	mg1lvl	incl
+lzskprst	mg2lvl30	cost
+lzskprst	lzlores4	cost
+lzskprst	lzpteram	cost
+lzscarvt	lztyrano	cost
+lzsknkch	btstand8	cost
+lzsknkch	lzdactym	cost
+lzsknkch	heromnt	hide
+lzsknkch	lzahw	cost
+lzkroak	general	cost
+lzkroak	mg4lvl	incl
+lzkroq	lalrd	incl
+lzkroq	general	cost
+lzkroq	lzgrymlq	incl
+lzmazda	general	incl
+lzmazda	mgmiscas	cost
+lzmazda	mg4lvl	incl
+lzmazda	btstand4	incl
+lzmazda	lzzlaaq	incl
+lznakai	2handlrd	incl
+lznakai	lzchoice	cost
+lzxltep	lzslgen3	incl
+lzxltep	general	cost
+lzxltep	mgfull	hide
+lzxltep	mgshow	hide
+lzxltep	mgmiscas	cost
+lzxltep	mg4lvl	incl
+lzxltep	mgalore	incl
+lzxltep	btstand4	incl
+lzxltep	mgalore2	incl
+lzxltep	mgalore3	incl
+lzxltep	mgalore4	incl
+lzxltep	lzchoice	cost
+lzcoatl	mgfull	hide
+lzcoatl	mgshow	hide
+lzcoatl	mgmiscas	cost
+lzcoatl	mg4lvl	incl
+lzcoatl	lzlores	incl
+lzcoatl	lzchoice	cost
+lzredsch	shtrp	incl
+lztehenh	general	cost
+lztehenh	mg3lvl	incl
+lztehenh	mgfull	hide
+lztehenh	mgshow	hide
+lztehenh	mgmiscas	cost
+lztehenh	lzlores2	cost
+lzcoatl2	mgfull	hide
+lzcoatl2	mgshow	hide
+lzcoatl2	mgmiscas	cost
+lzcoatl2	mg4lvl	incl
+lzcoatl2	lzlores	incl
+lzoldbld	lzcarnos	cost
+lzoldbld	lzgwfth	cost
+lzsaurus	lzsrschm	cost
+lzskink	lzskbrv2	cost
+lzskink	lzsh	incl
+lzskink	lzjavhro	incl
+lzskink	mus10	cost
+lzskink	stmg10	cost
+lzskink	lzkrox	cost
+lzkrox	2handtrp	incl
+lzjswarm	lzextra	auto
+lztmpgrd	lzfakela	incl
+lzsrscav	lzsrcvc2	cost
+lzterrdr	lzjavhro	incl
+lzterrdr	lzterch	cost
+lzterrdr	lzpteram	appl
+lzansteg	lzskncra	incl
+lzansteg	lzsteg2	cost
+lzskcrwa	lzjavhro	incl
+lzstegac	lzgpipes	incl
+lzstegm	lzgntbow	incl
+lzmazda	mgfull	hide
+lzmazda	mgshow	hide
+lzmazda	lzlores3	incl
+lzkrqcav	sprmtrp1	incl
+lzkrqcav	mus10	cost
+lzkrqcav	stmg20	cost
+lzkrqcav	lzsrcvch	cost
+lzkrqcav	shoptrp	incl
+lzkrqcav	lzcldtrp	incl
+lzkrqcav	lzsrcvc2	cost
+lzkroq	lzkrqcav	cost
+lztehenh	lzstege1	cost
+lzchakax	general	cost
+lzgorrok	general	cost
+lztetto	general	cost
+lztetto	mg2lvl	incl
+lztetto	mgfull	hide
+lztetto	mgshow	hide
+lztetto	mgmiscas	cost
+lztetto	mgheaven	incl
+lzoxyotl	general	cost
+lztiktaq	general	cost
+lztiktaq	lzzwup	incl
+lzterrdr	lzbolas	cost
+lzsteg	lzsteg1	cost
+lzsteg	lzsteg2	cost
+lzansteg	lzengine	hide
+lzansteg	lzgntbow	auto
+lzansteg	lzgpipes	cost
+lzstegm	lzsteg1	cost
+lzstegm	lzsteg2	cost
+lzripper	frenzy	incl
+lzstegac	lzsteg1	cost
+lzstegac	lzsteg2	cost
+lzriprid	lzripcha	hide
+lzbastil	lzskcrwh	incl
+lzbastil	lzsunarc	cost
+lzbastil	lzaltars	incl
+lztroglo	lzskncr1	incl
+lzskorac	lzjavhro	incl
+lzskorac	lztrog1	cost
+lzmazda	lzshow	cost
+lzterrdr	lztikina	cost
+lzterrdr	lzambush	hide
+lzskink	lzpoison	cost
+lzterrdr	lztehina	cost
+lzterrdr	lzhatred	hide
+lzchakax	lahro	incl
+lzmazda	unshow	hide
+lztehenh	unshow	hide
+lzkroxig	lzhalber	cost
+lzkroxig	mus10	cost
+lzkroxig	st10	cost
+lzriprid	lzjavhro	incl
+lzriprid	lzskymnt	cost
+lzriprid	lzterch	hide
+lzriprid	sprmtrp1	incl
+lzriprid	shhro5	cost
+lzriprid	lzextra	auto
+lztroglo	lzskcrch	cost
+lztyrano	frenzy	incl
+lzslann	lzsignat	cost
+lzslann	lzloresx	cost
+lzoldbld	lzhal	cost
+lzskhp	lzstegeg	cost
+lzskhp	general	cost
+lzskhp	mgfull	hide
+lzskhp	mgshow	hide
+lzskhp	mgmiscas	cost
+lzskhp	mg2lvl	incl
+lzskhp	mg4lvl60	cost
+lzskhp	lzlores5	cost
+lzansteg	lztranup	cost
+lzskhp	lzpteram	cost
+lzskhp	heromnt	hide
+lzstegeg	lzskcrwa	incl
+lzstegeg	lzsteg2	cost
+lzstegeg	lzengine	hide
+lzstegeg	lzgntbow	auto
+lzstegeg	lzgpipes	cost
+lzstegeg	lztranup	cost
+lzskhp	lzskpala	cost
+lzskpala	lzplsnak	cost
+lzskpala	lz5050	auto
+lzskpala	lz4040	cost
+lzskprst	lzstegeg	cost
+lzdactym	frenzy	incl
+lzcroxan	general	cost
+lzcroxan	lzgwfth	incl
+lzsaurus	lzextra	auto
+lzsaurus	lzinnat5	incl
+lzsaurus	lzspawnt	cost
+lzjswarm	lzscout5	cost
+lzskink	lzahwrep	free
+lzskinks	lzextra	auto
+lzskinks	lzshrtbw	free
+lztmpgrd	lzwpnmas	cost
+lzsrscav	lzextra	auto
+lzchmskn	lzextra	auto
+lzkroxig	lzharsca	cost
+lzriprid	lzbolas	cost
+lzrazor	lzraz1	cost
+lzrazor	lzraz2	cost
+lzglslmd	lzsal1	incl
+lzglslmd	lzsal2	cost
+lzskcrch	lzjavhro	incl
+lzskcrch	mg2lvl	incl
+lztroglo	lzspin1	cost
+lztroglo	lzspin2	cost
+lztroglo	lzspin3	cost
+^
+race	lz	ilmt:count=3-categ=dscp-msg=lzmsg12;tlmt:godlyengine-unit=1@max-msg=lzmsg18	
+^
+lzmsg16	Discipline conflict	You cannot have both Funnel the Winds and Master of the Winds Disciplines in your army.
+lzmsg17	Discipline conflict	You cannot have both Cognitive Reassurance and Master of the Winds Disciplines in your army.
+lzmsg11	Disciplines points limit	Anurid High Priest can only have 150 points of Disciplines.
+lzmsg3	Dupe Spawning	You can't take a spawning more than once on the same unit/character.
+lzmsg1	Mark of the Old Ones	Only one "Blessed Mark of the Old Ones" is allowed per army.
+lzmsg12	Max 3 Disciplines	Maximum of 3 Disciplines in army can be taken.
+lzmsg7	Need Opponent's Approval	Need Opponent's Approval
+lzmsg14	Only 1 Ambushers	Only one unit of Terradons in army can have Ambushers special rule.
+lzmsg18	Only 1 Godly Engine	Only one Godly Engine can be taken in army.
+lzmsg2	Sacred Plaques	Only one of each Sacred Plaque is allowed per army.
+lzmsg5	Saurus Cav as Core	Kroq-Gar must be leading the army for Saurus Cav to 'Count as Core'.
+lzmsg6	Saurus Cav as Core	If Kroq-Gar is leading the army Saurus Cav must select the 'Count as Core' option.
+lzmsg4	Scar-Veteran BSB	The Saurus Scar-Veteran cannot be the Battle Standard Bearer if there is a Slann in the army.
+lzmsg10	Skink Chiefs	You can only have 2 Skink Chiefs per Hero choice
+lzbsb1	Slann Item Limits	The Slann may only take 100 pts of magic items plus a single magic banner of any points cost if he is a BSB.
+lzmsg9	Tehenhauin	You must field Tehenhauin unless your list is below 2000 points or you have your opponent's approval to ignore this rule
+lzmsg15	Tehenhauin Required	Tehenhauin must be present to select this option.
+lzmsg13	Tiktaq'Toe Required	Tiktaq'Toe must be present to select this option.
+lzmsg8	Twice Blessed	You can't take  the same Blessed Spawning twice on a unit
+^

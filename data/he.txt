@@ -1,0 +1,818 @@
+Description: High Elves Army Book
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, bugs - email - mach_5@rocketmail.com
+^
+Highborn Elves	he	0	sm,dw,em,we,br,lz,ok,ch,dm,dk,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="Dec 2015, ver. 0.10.0";info:display="by AJT";info:display="";none:"Standard Army List";olmt:type=?-hefae=1u-max-msg=hemsg3-mode=default;info:always="Martial Discipline: Make Ld-tests on three dice, and may discard the highest. This rule cannot be used for Panic Tests nor Break Tests.";info:display="";tlmt:general-model=1@max-msg=hemsg11;olmt:type=?-hetyrgen=0u-msg=hemsg10-istype=!Tyrion;ulmt:type=Dragon_Princes-max@model=1;need:unit=heeverqn@1u-item=hehrnish-msg=hemsg21;trat:alarielle@1u:alariellepresent@1u-flat-msg=hemsg22;trat:alarielle@1u:alariellepresent2@1u-flat-msg=hemsg24;tlmt:onedragon-model=1+1/4000@max-msg=hemsg13	
+^
+hedrake	 aDrake		N/A	Monster	Monster	1	0	0		hide;forc		Fly; Cause Terror; Large Target; Breathe Fire (S3); Scaly Skin (4+)				6	5	0	5	5	5	3	4	7	4	7	0	0	5	0	0	0
+heeverqn	 Alarielle the Radiant, Everqueen of Ulthuan		N/A	Wizard		1:1	350	20	ipts:total=0;catg:wiz;type:Wiz;spec:+wzrd;spec:+ench;spec:+ward;take:hesravel-perm;take:hessston-perm;take:hestavel-perm;take:hepure-perm;attr:Type="In";type:alarielle;type:Ld10	umax:1u;hide		Infantry; Always Strikes First; Martial Prowess; Valour of Ages; Lileath's Blessing (+1 to cast spells from High Magic); #Boon of Isha: all attacks in her unit are magical attacks, and her unit is immune to Fear and Terror; #Chaos Bane: at the start of friendly magic phase, all units with Daemonic special rule within 12" suffer D6 S4 hits. However Allarielle suffers -D3 to cast her spells; #Touch of Everqueen: Heroic Killing Blow against models from Forces of Destruction;		Level 4 Wizard. Use Spells from Lores of High Magic, Life and Light. You may generate spells from all af these Lores, but must declare how many spells from each lore before rolling.  Her presence allows usage of Horn of Isha and Banner of  Avelorn.		5	6	5	3	3	3	6	1	10	7	7	4	2	1	13	0	0
+heanar	 Alith Anar, The Shadow King	Lord	N/A	Lord		1:1	250	0	type:Hero;type:skirmishers;take:heanar1-free-perm;take:heanar2-free-perm;take:heanar3-free-perm;spec:+weap;spec:+ench;spec:+ward;attr:Type="In"	umax:1;lglx:!(mode=a|mode=b|mode=d|mode=e);race:ek;hide		Infantry; Always Strikes First; Martial Prowess; Valour of Ages; Scout; Hatred (Dark Elves)		Lord choice	Translated from Italian by anarchistica, May 2005	5	7	7	4	3	3	9	4	10	7	7	0	0	1	0	0	0
+heashtar	 Ashtari, Frostheart Phoenix	FrosP	N/A	Mount		1:1	250	0	calc:Num=#;attr:Type="Mo"	hide		Monster (Thundertomp); Fly; Terror; Large Target; #Attuned to Magic: Ward Save 5+, when rolling for Winds of Magic, consult higher dice roll with following table: 1: Ward Save 6+, 2: -1St, 3: +1 In, 4: +1 At; 5: +1 St, 6: Ward Save 4+; #Natural Armour (5+); #Blizzard Aura: enemy units in base contact gain Always Strikes Last and suffer -1 St.			DeBelial 05-2013	2	6	0	6	6	5	3	5	9	5	5	0	0	0	0	0	0
+hecardrn	 Caradryan, Captain of Phoenix Guard		N/A	Hero		1:1	170	0	ipts:total=0;spec:+weap;spec:+armr;take:hemark-free-perm;take:hephxbld-free-perm;attr:Type="In";type:carad1	umax:1;lglx:!(mode=a|mode=b|mode=d|mode=e);race:pk,ek;hide		Infantry; Always Strikes First; Martial Prowess; Valour of Ages; Fear; Witness to Destiny (Ward Save 4+); Magic Resistance (1)			DeBelial 05-2013	5	6	6	4	3	2	7	3	9	5	4	0	0	1	0	0	0
+hedpcale	 Dragon Princes of Caledor		N/A	Regiment	cavalry	1:3	270	9	ipts:total=75-each=25;calc:Num=#;calc:x2=25*#;spec:+ward;spec:+weap;spec:+armr;spec:+ench;xmpt:limit;type:Dragon_Princes;type:mounted;type:mounted	lglx:mode=a;clmt:weap+ench+ward+armr<=x2-points;hide				One Regiment in Army; War of the Beard only; Counts as 2 Rares; Incl. Dragon armour, lance, shield, & drake; each Dragon Prince can have up to 25 magic points of items		5	5	5	4	3	3	6	2	9	7	7	0	0	1	0	0	0
+heeltha2	 Eltharion		N/A	Special Characters		1:1	255	0	type:eltharion2;spec:+weap;spec:+unk2;spec:+armr;spec:+ench;take:hewhtswd-free-perm;take:heelth1-free-perm;take:heelth2-free-perm;take:heelth3-free-perm;take:heelth4-free-perm;take:heintrct-free-perm;take:hedrkwtn-free-perm;take:heelthps-free-perm;take:helrdhth-free-perm;take:heimpdef-free-perm;take:hegrtlp-free-perm;type:ElthGen;type:Eltharion;attr:Type="In"	umax:1;hide		Infantry		From USWD 278 & UKWD 279;; Lord;Includes Light Armour and White Sword of Hoeth.;Always the General unless Tyrion present.;Swordmasters are no longer 0-1.;5+ Ward Save.;Immune to Killing Blow.;Hates O&Gs and Dark Elves but otherwise Immune to Psychology.;Swordmasters he joins become Stubborn.;Eltharion and unit must charge when possible and always pursue.;Great Leap.		5	8	6	4	3	3	8	4	10	6	5	0	0	1	0	0	0
+heelthar	 Eltharion the Grim, Warden of Tor Yvresse		N/A	Lord		1:1	295	0	ipts:total=0;spec:+weap;spec:+armr;spec:+ench;take:hetoh-free-perm;take:hehelmyv-free-perm;take:hefang-free-perm;attr:Type="In"	umax:1;lglx:!(mode=a|mode=b|mode=d|mode=e);hide		Infantry; Always Strikes First; Martial Prowess; Valour of Ages; Hatred (Orcs&Goblins); Blood Oath (+1 to Hit against Grom the Paunch)			DeBelial 05-2013	5	8	7	4	3	3	8	4	10	4	5	0	0	1	0	0	0
+hehandma	 Handmaiden of Everqueen	Hero	N/A	Hero		1:1	95	100	ipts:total=50-each=50-mode=default;type:Hero;type:skirmishers;attr:Type="In"	race:pk,ek;hide		Infantry; Always Strikes First; Martial Prowess; Valour of Ages; Quicksilver Shots: her shooting attacks and those of Sisters of Avelorn she joined, have Quick to Fire special rule.			DeBelial 05-2013	5	5	7	4	3	2	7	2	9	7	7	0	0	1	0	0	0
+heimrik	 Imrik, Dragon Prince of Caledor		N/A	N/A		1:1	335	0	ipts:total=0;spec:+weap;spec:+armr;spec:+ench;take:hestrlnc-free-perm;take:hearmcal-free-perm;take:hedhorn-free-perm;take:hepure-free-perm	umax:1;hide			Dragonkin: No Dragons will fight Imrik (can fight Minaithnir)	Counts as Lord + 2 Heros; Incl Armour of Caledor, Star Lance, Dragonhorn, Pure of Heart, and Minaithnir; Dragonkin: No Dragons will fight Imrik (can fight Minaithnir); Total Cost: 675 pts		5	8	6	4	3	3	9	4	10	2	0	0	0	1	0	0	0
+hekorhil	 Korhil, Captain of White Lions		N/A	Hero		1:1	150	0	ipts:total=0;spec:+weap;spec:+armr;take:hechayal-free-perm;take:hepeltch-free-perm;attr:Type="In"	umax:1;lglx:!(mode=a|mode=b|mode=d|mode=e);race:ha;hide		Infantry; Always Strikes First; Martial Prowess; Valour of Ages; Stubborn; Forest Strider		Counts as a Hero		5	6	6	4	3	2	7	3	9	4	0	0	0	1	0	0	0
+heathin	 Liandra Athinol		N/A	Special Characters	Hero	1:1	255	0	ipts:total=0;take:heithinr-free-perm;take:heathin-free-perm;spec:+armr;spec:+ench;take:hepure-perm;attr:Type="In"	umax:1u;must:option=hechoic2@min=1-msg=hemsg2-mode=default;hide		Infantry; 		Incls lance, Dragon Armor, Shield of Ithinar, Signet of Athinol and Borgash; Total Cost: 575 pts; War of the Beard character, but may be used in any High Elf army with Opponent's Approval		5	6	6	4	3	2	7	3	9	3	0	0	0	1	0	0	0
+hesalen	 Lord Salendor of Tor Achare		N/A	Special Characters		1:1	345	0	ipts:total=0;dflt:2ndhwtrp;type:hehigh;catg:wiz;spec:+spel;take:hepure-perm;attr:Type="In"	umax:1u;must:option=hechoic2@min=1-msg=hemsg2-mode=default;hide		Infantry	Must be general (no Intrigue at Court); +1 to dispel roll against enemy magic	From WD 266; Lvl 2 Wizard; Counts as Lord; 2 hand weapons; Master Tactician; Unmatched Reflexes; Critical Strike; +1 to dispel roll against enemy magic; War of the Beard character, but may be used in any High Elf army with Opponent's Approval		5	8	6	4	3	4	9	5	10	7	4	2	1	1	2	0	0
+heseahel	 Lothern Sea Helm	Hero	N/A	Hero	Hero	1:1	100	100	ipts:total=100-each=55-mode=default;ipts:total=100-each=55-mode=b;name:"HE Commander"-race=vm;type:skirmishers;ipts:total=100-each=55-mode=a;name:"Commodore"-mode=b;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;lglx:race=he|(race=vm&mode=e);race:pk,ek,ha;hide		Infantry; Always Strikes First; Martial Prowess; Valour of Ages; #Naval Discipline: if his unit is charged in movement phase it may take Ld test - if passed unit may make combat reform. This may not be used if unit declared Stand and Shoot or Flee; #Windrider - if Sea Helm is mounted on Skycutter, both he and his chariot gain 4+ Ward Save against shooting attacks and re-roll Dangerous Terrain tests.		High Elf Hero	DeBelial 05-2013	5	6	6	4	3	2	7	2	9	7	7	0	0	1	0	0	0
+hesea	 Lothern Seaguard	Sea	N/A	Regiment	infantry	10	11	0	calc:Num=#;ipts:total=50-each=50;size:1-20-1-mode=zz;attr:Type="In"	umax:1-mode=a;race:pk,ek,ha;hide		Infantry; Always Strikes First; Martial Prowess; Valour of Ages		Includes spear, bow, and light armour; Unit Size: 10+	DeBelial 05-2013	5	4	4	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+hepytrio	 Pythrion, Exalted of Tor Yvresse	Lord	N/A	Special Characters		1:1	285	0	ipts:total=0;type:Hero;type:skirmishers;take:hephy1-free-perm;take:hephy2-free-perm;spec:+armr;spec:+weap;type:phyt;attr:Type="In"	umax:1;must:option=hechoice@min=1;hide		Infantry; Hates Lokjar; Gets D3 re-rolls at start of battle; He and unit joined Stubborn within 8" of Thelarion's grave		From German 2002 WFB Campaign, "Thelarion´s Curse"; Lord		5	7	6	4	3	2	8	4	10	4	7	0	0	1	0	0	0
+heshipco	 Ship's Company		N/A	Regiment		10	9	0	calc:Num=#;attr:Type="In"	lglx:(mode=b);hide		Infantry; 		Do not count towards minimum core choices.		5	4	4	3	3	1	5	1	8	6	0	0	0	1	0	0	0
+heteclis	 Teclis, High Loremaster		N/A	Wizard		1:1	450	0	ipts:total=0;spec:+weap;spec:+ench;spec:+wzrd;spec:+ward;take:hemoonst-free-perm;take:heteclis-free-perm;take:hehoeth-free-perm;take:hewcsaph-free-perm;xmpt:limit;type:hemage;attr:Type="In";spec:+spel;skip type:mgdeath;skip type:mglife;skip type:mgshadow;skip type:mglight;skip type:mgfire;skip type:mglife;skip type:mgmetal;skip type:mgheaven	umax:1;lglx:!(mode=a|mode=b|mode=d|mode=e);race:pk;hide		Infantry; Always Strikes First; Martial Prowess; Valour of Ages; Lileath's Blessing (+1 to cast spells from High Magic); Know all spells from High Magic or choose one spell from each of the 8 Lores of Battle Magic from BRB; 			DeBelial 05-2013	5	3	3	2	2	3	5	1	10	7	7	4	2	1	4	0	0
+hetyrion	 Tyrion, Defender of Ulthuan		N/A	Lord		1:1	410	0	ipts:total=0;catg:her;spec:+weap;spec:+armr;spec:+ench;take:hedaaen-free-perm;take:hesunfag-free-perm;take:hehrtave-free-perm;xmpt:limit;attr:Type="Ca"	umax:1;lglx:!(mode=a|mode=b|mode=d|mode=e);hide		Cavalry; Always Strikes First; Martial Prowess; Valour of Ages; #The Defender of Ulhuan: if he is the general, his Inspiring Presence has range 18".			DeBelial 05-2013	5	9	7	4	3	4	10	4	10	0	4	0	0	1	0	0	0
+heborgsh	Borgash	Draco	N/A	Monster	mount	1:1	320	0	type:Wiz;ipts:total=0;catg:wiz;attr:Type="Mo"	hide		Monster (Thunderstomp)	Fly, Terror, Large Target, Breath attack, St4 (any Wos cause a panic check)	Can Fly; Causes Terror; Large Target; Use breath template for attack, even in HtH; Models suffer S4 hit - any wounds cause a panic check		6	6	0	6	6	6	4	5	8	3	7	1	1	6	1	0	0
+hechship	Captain	ship	N/A	Champion	champ	1:1	12	0	coun	hide						5	4	4	3	3	1	5	2	8	6	7	0	0	1	0	0	0
+hebigsis	Champion	BigS	N/A	Champion	champ	1:1	10	100	coun;spec:+weap	hide						5	6	6	3	3	1	5	2	8	6	7	0	0	1	0	0	0
+hechbow	Champion	Arch	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	7	7	0	0	1	0	0	0
+hechphoe	Champion	Phoex	N/A	Champion	champ	1:1	10	100	coun;ipts:total=25-each=25;spec:+weap;type:heavy	hide						5	6	5	3	3	1	6	2	9	7	4	0	0	1	0	0	0
+hechprin	Champion	Prin	N/A	Champion	champ	1:1	10	100	coun;ipts:total=25-each=25;spec:+weap;spec:+armr;type:shield;type:heavy;type:mounted	hide						5	6	5	4	3	1	6	3	9	5	6	0	0	2	0	0	0
+hechride	Champion	Rider	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	5	7	0	0	2	0	0	0
+hechshad	Champion	Scout	N/A	Champion	champ	1:1	10	100	coun;ipts:total=25-each=25;spec:+weap	hide						5	6	6	3	3	1	5	2	8	6	7	0	0	1	0	0	0
+hechsilv	Champion	Silv	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	3	7	0	0	2	0	0	0
+hechspr	Champion	Warr	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	5	3	3	1	5	2	8	5	7	0	0	1	0	0	0
+hechswor	Champion	Sword	N/A	Champion	champ	1:1	10	100	coun;ipts:total=25-each=25;spec:+weap;type:heavy	hide					Swordmaster Champion	5	7	5	3	3	1	5	3	8	7	7	0	0	1	0	0	0
+hechwhit	Champion	White	N/A	Champion	champ	1:1	10	100	coun;ipts:total=25-each=25;spec:+weap	hide						5	6	5	4	3	1	5	2	8	7	7	0	0	1	0	0	0
+hedrag	Dragon	Draco	N/A	Monster	monster	1:1	0	0	attr:Type="Mo";type:onedragon	hide;skip umax:1u@4000-free=1-msg=hemsg13		Monster (Stomp D6); Fly (7); Terror; Large Target; Innate Defence (3+);  Breath Weapon (strength 4 Flaming Attacks)				6	5	1	6	6	6	3	5	9	3	7	0	0	6	0	0	0
+hedragon	Dragon	Draco	N/A	Monster	monster	1:1	0	0	attr:Type="Mo";type:onedragon	hide;skip umax:1u@4000-free=1-msg=hemsg13		Monster (Stomp D6); Fly (7); Terror; Large Target; Innate Defence (3+);  Breath Weapon (strength 4 Flaming Attacks)			9th age; Dragon for High Prince only	6	5	1	6	6	6	3	5	9	3	7	0	0	6	0	0	0
+hebrstd	Elf Steed: Barded	Hrs	N/A	Mount	mount	1:1	0	0		hide						8	3	0	3	3	1	4	1	5	7	7	0	0	0	0	0	0
+hechstd	Elvish Horse	Hrs	N/A	Mount	mount	1	0	0		hide						9	3	0	3	0	0	4	1	0	7	7	0	0	0	0	0	0
+hehsteed	Elvish Horse	Hrs	N/A	Mount	mount	1:1	0	0		hide						9	3	0	3	3	1	4	1	3	7	7	0	0	0	0	0	0
+hesteed	Elvish Horse	Hrs	N/A	Mount	mount	1	0	0		hide						9	3	0	3	3	1	4	1	3	7	7	0	0	0	0	0	0
+heflamnt	Fire Phoenix	FPhoe	N/A	Mount	mount	1:1	0	0	calc:Num=#;attr:Type="Mo"	hide		Fly (9); Magical Attacks; Fireborn; Flaming Attacks; # Flame Swoop: During the Remaining Moves sub-phase models with this rule can Burn a unengaged enemy unit. Nominate one unit which the model moved over this turn. This unit suffers D6 hits, plus additional D3 hits for each rank the unit has (after first). These hits are Strength 4 with Flaming Attacks and shooting attacks.Works also with magical move; # Rebirth: When a model with this rulelost last wound, place a marker centered on the final position of the model. At the start of each of your remaining moves sub-phases, roll a D6 for each marker. . If the Fire Phoenix is ridden by High Warden of Flame, add 1 to the result, except for rolls of a natural 1 :1: Remove the marker, 2-3: Marker remains but substract 1 from next rebirth roll, 4-5: Marker remains but add 1 to next rebirth roll,  6: Place a summoned Flame Phoenix within 3" from the marker and remove the marker. If you cannot place the model, this results counts as 1.			DeBelial 05-2013	2	5	0	5	5	5	4	3	8	7	5	0	0	0	0	0	0
+hefromnt	Frost Phoenix	FrosP	N/A	Mount		1:1	240	0	calc:Num=#;attr:Type="Mo"	hide		Monster (Stomp D6); Terror; Large Target; Fly (8); Ward Save (5+); Innate Defence  (5+); Magical Attacks; # Chill Aura: Enemy units in base contact with a model with this rule has -3 Initiative and -1 Strength (to a minimum of 1).			DeBelial 05-2013	2	5	0	5	5	5	3	5	8	5	5	0	0	0	0	0	0
+hegreate	Giant Eagle	Eagle	N/A	Monster		1:1	0	0		hide		Monstrous Beast (Stomp 1); Fly (9)			9th age	2	5	0	4	4	3	4	2	8	7	7	0	0	3	0	0	0
+hegriff	Griffon	Griff	N/A	Monster		1:1	0	0	attr:Type="MB"	hide		Monstrous Beast (Stomp 1); Fly (8); Fear; Large target				6	5	0	5	5	4	5	4	5	7	7	0	0	4	0	0	0
+hechmaid	Handmaiden Champion		N/A	Champion		1	0	0		hide					From GW Website	5	5	5	3	3	1	6	2	8	5	0	0	0	1	0	0	0
+hemaiden	Handmaidens		N/A	Regiment	infantry	9	20	0	ipts:total=0-each=0;spec:+ench;spec:+stnd;take:hebavel-perm;take:hehrnsha-perm;calc:Num=#	umax:1;lglx:(!mode=b);hide		Immune to psychology		From GW Website; Only unit per army; Incls Heavy Armour, Spears, and Longbows; Initial unit consists of 7 Maidens, Champion, Standard Bearer (w/ Banner of Avelorn), and Musician (w/ Horn of Isha); Initial Cost: 300 pts	From GW Website	5	5	5	3	3	1	6	1	8	5	0	0	0	1	0	0	0
+hecutroc	Hawk	Roc	N/A	Monster		1	0	0		hide		Fly (9)				2	4	0	4	0	0	4	2	0	7	7	0	0	3	0	0	0
+helion	Lion	Hrs	N/A	Mount	mount	1	0	0		hide						8	5	5	5	0	0	4	2	0	7	7	0	0	0	0	0	0
+hehlnchr	Lion Chariot	Char	N/A	Machine		1	0	0	attr:At="D6+1";attr:Type="Ch"	hide		Chariot; Heavy Armour; Natural Armour; Martial Discipline; Lightning Reflexes (Crew only); Multiple Wounds (2, Monstrous Cavalry, Monstrous Beasts) (Crew only), Scythes 		Includes 2 White Lion elves armed with GW, and 2 Lion steeds;		0	0	0	5	4	4	0	0	0	3	7	0	0	4	0	0	0
+hemalhan	Malhandir		N/A	Monster		1	0	0		hide		Monstrous Beast				10	4	0	4	3	1	5	2	7	7	0	0	0	0	0	0	0
+hemerwyr	Merwyrm		N/A	Monster		1:1	200	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Terror; Large Target; Scaly Skin; Regenerate; Aquatic; Summoned From The Deep				6	6	0	5	5	5	3	5	7	3	0	0	0	5	0	0	0
+heminie	Minaithnir		N/A	Monster	Dragon	1:1	340	0	attr:Type="Mo"	hide		Monster (Thunderstomp)	Fly; Terror; Large Target; S4 Breath Weapon (causes panic if any casualties); No monster reaction if Imrik killed but Dragon becomes Frenzied			6	7	0	6	6	7	3	5	8	3	0	0	0	7	0	0	0
+hecchar	Reaver Chariot	Char	N/A	Machine	mount	1	0	0	attr:At="D6"	hide		Chariot; Light Lance; Longbow ; Heavy Armour; Martial Discipline;Lightning Reflexes (Crew only); Free Reform 		Includes an 2 elfs armed with light lances and long bows, and 2 elvish horses	DeBelial 05-2013	0	0	0	5	4	4	0	0	0	4	7	0	0	4	0	0	0
+hechsea	Sea Master	Sea	N/A	Champion	champ	1:1	10	5	coun	hide						5	4	4	3	3	1	5	2	8	6	7	0	0	1	0	0	0
+hecutmnt	Sky Sloop	Char	N/A	Machine		1:1	0	0	attr:At="D6";calc:Num=#;attr:Type="Ch"	hide		Chariot; Quick to Fire; Fly(9); Sky Reaper: Volley Gun Artillery Weapon Range 24", Strength 3, Multiple Shots (5), Armour Piercing (1) 		Includes 2 elf armed with spear and bow, and 1 roc.		0	0	0	4	4	4	0	0	0	5	7	0	0	4	0	0	0
+hedrstar	Star Dragon	Draco	N/A	Monster	rideg	1:1	390	0	type:Hero;ipts:total=0;attr:Type="Mo"	hide;forc		Monster (Thunderstomp); Fly; Terror; Large Target; Scaly Skin (3+);  Dragon Fire - St4 Breath Weapon, Flaming Attacks			DeBelial 05-2013	6	7	0	7	7	7	2	6	9	3	7	0	0	7	0	0	0
+hestmwng	Stormwing	Griff	N/A	Mount		1:1	0	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Always Strikes First; Fly; Terror; Large target			2013	6	6	0	5	5	5	7	4	8	7	5	0	0	4	0	0	0
+heldrsun	Young Dragon	Draco	N/A	Monster	rideg	1:1	0	0	type:Hero;ipts:total=0;attr:Type="Mo"	hide;forc		Monster (Thunderstomp); Fly (8); Terror; Large Target; Innate Defence (3+) ;  Breath Weapon (Strength 4 Flaming Attacks)			9th age	6	5	1	5	5	5	3	4	9	3	7	0	0	6	0	0	0
+hemdrsun	Young Dragon	Draco	N/A	Monster	rideg	1:1	0	0	type:Hero;ipts:total=0;attr:Type="Mo"	hide;forc		Monster (Thunderstomp); Fly (8); Terror; Large Target; Scaly Skin (3+);  Breath Weapon (Strength 4 Flaming Attacks)			9th age	6	5	1	5	5	5	3	4	9	3	7	0	0	6	0	0	0
+hemagelo	 Lord: Archmage	MagLo	Hero	Wizard	Lord	1:1	165	100	ipts:total=100-each=100-mode=default;type:skirmishers;type:hemage;ipts:total=150-each=150-mode=a;type:mist-mode=b;name:"Storm Weaver"-mode=b;ipts:total=100-each=100-mode=b;attr:Type="In"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Martial Discipline; Lightning Reflexes; Master of the Winds (If your army includes one or more models with this rule, add an additional +1 to channel attempts in the opponent’s Magic Phase.		Uses spells from the Path of White Magic or any of the Battle Magic Paths.	9th age	5	4	4	3	3	3	5	1	9	7	7	8	2	1	3	0	0
+helord	 Lord: High Prince	Lord	Hero	Lord	Lord	1:1	130	100	ipts:total=100-each=100;type:skirmishers;attr:Type="In";type:noble	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Infantry; Martial Discipline; Lightning Reflexes ; Light Armour		Lord	9th age	5	7	7	4	3	3	8	4	10	7	7	0	0	1	0	0	0
+hedrgmg	Dragon Wizard	Sorc	Hero	Wizard	Hero	1:1	350	100	ipts:total=50-each=50-mode=default;ipts:total=50-each=50-mode=b;name:"HE Mage"-race=vm;type:hemage;ipts:total=75-each=75-mode=a;name:"Mist Mage"-mode=b;type:mist-mode=b;attr:Type="In";spec:+armr	lglx:race=he|(race=vm&mode=e);race:pk,ek;umax:3u@4000-free=3-msg=crmsg901;hide		Infantry; Fight in Extra Rank; Supernatural Reflexes		Wizard Level 1. Uses spells from Path of Fire.	9th age	5	5	4	3	3	2	6	3	8	7	7	1	1	1	1	0	0
+hehero	Hero: Commander	Hero	Hero	Hero	Hero	1:1	70	100	ipts:total=100-each=55-mode=default;type:skirmishers;attr:Type="In";type:noble;type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Infantry; Light Armour; Martial Discipline; Lightning Reflexes  			9th age	5	6	6	4	3	2	7	3	9	7	7	0	0	1	0	0	0
+hemage	Hero: Mage	Sorc	Hero	Wizard	Hero	1:1	65	100	ipts:total=50-each=50-mode=default;ipts:total=50-each=50-mode=b;name:"HE Mage"-race=vm;type:skirmishers;type:hemage;ipts:total=75-each=75-mode=a;name:"Mist Mage"-mode=b;type:mist-mode=b;attr:Type="In"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg901		Infantry; Martial Discipline; Lightning Reflexes; Master of the Winds (If your army includes one or more models with this rule, add an additional +1 to channel attempts in the opponent’s Magic Phase.		Uses spells from the Path of White Magic or any of the Battle Magic Paths.	9th age	5	4	4	3	3	2	5	1	8	7	7	1	1	1	1	0	0
+heanoasu	High Warden of the Flame	Lord	Hero	Lord	Lord	1:1	200	100	ipts:total=100-each=100-mode=default;type:Hero;type:skirmishers;ipts:total=150-each=150-mode=a;name:"Sea Lord"-mode=b;take:hemstmis-perm-mode=b;ipts:total=100-each=100-mode=b;attr:Type="In"	umax:1u-mode=b;race:pk,ek;umax:3u@4000-free=3-msg=crmsg901;hide		Infantry; Fight in Extra Rank; Supernatural Reflexes; Ward Save (4+); Magic Resistance (2); Immune to Psychology; Holy Attacks		Lord	9th age	5	7	6	4	3	3	8	3	9	7	4	0	0	1	0	0	0
+heloreho	Master of Paths	Lord	Hero	Lord	Lord	1:1	210	100	ipts:total=100-each=100-mode=default;type:Hero;type:skirmishers;ipts:total=150-each=150-mode=a;name:"Sea Lord"-mode=b;take:hemstmis-perm-mode=b;ipts:total=100-each=100-mode=b;attr:Type="In";spec:+wzrd;spec:+spel	umax:1u-mode=b;race:pk,ek,ha;hide		Infantry; Fight in Extra Rank; Supernatural Reflexes; #Master of all Paths: knows the signature spell from each of the eight Paths of Battle Magic, instead of generating spells normally.		Lord; Level 2 Wizard, 	9th age	5	6	4	4	3	3	7	3	9	7	7	8	0	1	0	0	0
+hearch	Citizen Archers	Arch	Core	Regiment	infantry	10:30	9	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="In";ipts:total=25-each=25	lglx:(!mode=b);race:pk,ek,ha;umax:4u@4000-free=4-msg=crmsg902		Infantry; Martial Discipline; Lightning Reflexes;		Includes longbow; Unit size 10+; Light Armour	DeBelial 10-2015	5	4	4	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+hespears	Citizen Spears	Warri	Core	Regiment	infantry	10:50	8	0	ipts:total=25-each=25;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:(!mode=b);race:pk,ek,ha;umax:4u@4000-free=4-msg=crmsg902		Infantry; Fight in Extra Rank; Martial Discipline;  Lightning Reflexes 		Includes light armour, spear, and shield; Unit Size: 10+	DeBelial 05-2013	5	4	4	3	3	1	5	1	8	5	7	0	0	1	0	0	0
+herider	Elein Reavers	Rider	Core	Regiment	cavalry	5:10	16	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca";type:mounted	lglx:(!mode=b);race:pk,ek,ha;umax:4u@4000-free=4-msg=crmsg902		Cavalry; Martial Discipline; Lightning Reflexes (Rider only); Fast Cavalry		Includes light armout & light lance	DeBelial 10-2015	5	4	4	3	3	1	5	1	8	5	7	0	0	2	0	0	0
+hesilver	Highborn Lancers	Silv	Core	Regiment	cavalry	5:15	18	0	calc:Num=#;ipts:total=25-each=25;size:1-20-1-mode=zz;attr:Type="Ca";type:mounted	lglx:(!mode=b);race:pk,ek,ha;umax:4u@4000-free=4-msg=crmsg902		Cavalry; Martial Discipline; Lightning Reflexes (Rider only) 		Includes heavy armour, lance and steed	DeBelial 05-2013	5	4	4	3	3	1	5	1	8	4	7	0	0	2	0	0	0
+hecoasta	Sea Guard	Coast	Core	Regiment	infantry	10:40	11	0	ipts:total=25-each=25;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:(!mode=b);race:pk,ek,ha;umax:4u@4000-free=4-msg=crmsg902		Infantry; Fight in Extra Rank; Martial Discipline;  Lightning Reflexes;  Quick to Fire and Weapon Master		Includes light armour, spear, bow, and shield; Unit Size: 10+	DeBelial 05-2013	5	4	4	3	3	1	5	1	8	7	7	0	0	1	0	0	0
+hephoex	Flame Wardens	Phoex	Special	Regiment	infantry	10:25	15	0	ipts:total=50-each=50-mode=default;calc:Num=#;ipts:total=100-each=100-mode=a;size:1-20-1-mode=zz;attr:Type="In"	lglx:(!mode=b);race:pk,ek;umax:3u@4000-free=3-msg=crmsg903		Infantry; Fight in Extra Rank; Lightning Reflexes; Ward Save (4+); Immune to Psychology		Includes halberd and heavy armour	DeBelial 10-2015	5	5	4	3	3	1	6	1	9	5	4	0	0	1	0	0	0
+hegreat	Giant Eagle	Eagle	Special	Regiment		1:5	35	0	calc:Num=#;attr:Type="MB"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		Monstrous Beast (Stomp 1); Fly (9)			9th age	2	5	0	4	4	3	4	2	8	7	7	0	0	0	0	0	0
+heshadow	Grey Watchers	Scout	Special	Regiment	infantry	5:12	16	0	type:skirmishers;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	race:ek,ha;umax:3u@4000-free=3-msg=crmsg903		Infantry; Lightning Reflexes; Skirmishers; Scout; Poisoned Attacks (Bow)			DeBelial 10-2015	5	5	5	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+helnchr	Lion Chariot	Char	Special	Machine		1:1	90	0	attr:At="D6+1";calc:Num=#;attr:Type="Ch"	race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		Chariot; Impact Hits (D6); Martial Discipline; Lightning Reflexes (Crew only); Multiple Wounds (2, Monstrous Cavalry, Monstrous Beasts, Chariot, Monster, Ridden Monster) (Crew only); Scythes; Valiant: Stubborn when model with Fear is btb to unit.		Great Weapon, Heavy Armour, Munt's Protection (5+)	DeBelial 10-2015	0	0	0	5	4	4	0	0	0	4	7	0	0	4	0	0	0
+hewhite	Lion Guard	White	Special	Regiment	infantry	10:30	13	0	ipts:total=50-each=50-mode=default;calc:Num=#;ipts:total=100-each=100-mode=a;size:1-20-1-mode=zz;attr:Type="In"	lglx:(!mode=b);race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		Infantry; Lightning Reflexes; Multiple Wounds (2, Monstrous Cavalry, Monstrous Beasts, Chariot, Monter, Ridden Monster); Strider (Forest); Bodyguard (High Captain & High Prince); Valiant: Stubborn when model with Fear is btb to unit.		Heavy armour; Great Weapon; Lion Pelt	DeBelial 05-2013	5	5	4	4	3	1	5	1	8	5	7	0	0	1	0	0	0
+hechar	Reaver Chariot	Char	Special	Machine	chariot	1:4	60	0	attr:At="D6";calc:Num=#;attr:Type="Ch"	lglx:(!mode=b);race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		Chariot; Impact Hits (D6); Light Armour; Lightning Reflexes (Crew only); Free Reform; Martial Discipline		Includes 2 elves armed with light lance; light armour and long bow, and 2 elvish horses	DeBelial 10-2015	0	0	0	5	4	4	0	0	0	5	7	0	0	4	0	0	0
+hebolt	Sea Guard Reaper	Bolt	Special	Machine	machine	1:1	60	0	calc:Num=#;attr:Type="WM"	umax:4u@3000-free=4-msg=hemsg23;umax:8u;race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		War Machine; Martial Discipline; Lightning Reflexes ; Elven Bolt Thrower: Bolt Thrower Artillery Weapon:  Range 48", Strength 6, Multiple Wounds (D3), Armour Piercing (6).		Light Armour 	DeBelial 05-2013	0	0	0	0	7	2	0	0	0	6	7	0	0	0	0	0	0
+heskycut	Sky Sloop	Char	Special	Machine		1:3	65	0	attr:At="D6";calc:Num=#;attr:Type="Ch"	lglx:(!mode=b);race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		Chariot; Quick to Fire; Fly(9); Sky Reaper: Volley Gun Artillery Weapon Range 24", Strength 3, Multiple Shots (5), Armour Piercing (1) ; Free Reform		Includes 2 elf armed with spear and bow, and 1 roc.	DeBelial 10-2015	0	0	0	4	4	4	0	0	0	5	7	0	0	4	0	0	0
+hesword	Sword Masters	Sword	Special	Regiment	infantry	5:30	13	0	ipts:total=50-each=50-mode=default;calc:Num=#;ipts:total=100-each=100-mode=a;size:1-20-1-mode=zz;attr:Type="In"	lglx:(!mode=b);race:pk,ek,ha;umax:3u@4000-free=3-msg=crmsg903		Infantry; Martial Discipline; Lightning Reflexes; Sword Sworn  (At the start of each CC Phase must choose to gain either +1 to Hit or the Distracting from models in the front. This decision lasts until the end of that Combat Phase. All models in the same unit must choose the same effect); Wsv=6+ (Shooting and CC)		Includes heavy armor and Great Weapon 	DeBelial 10-2015	5	6	4	3	3	1	6	2	8	5	6	0	0	1	0	0	0
+heflafen	Fire Phoenix	FPhoe	Rare	Monster		1:1	200	0	calc:Num=#;attr:Type="Mo"	race:pk,ek;umax:2u@4000-free=2-msg=crmsg904;hide		Monster (Stomp D6); Fly (9); Ward Save (5+); Magical Attacks; Fireborn; Flaming Attacks; # Flame Swoop: During the Remaining Moves sub-phase models with this rule can Burn a unengaged enemy unit. Nominate one unit which the model moved over this turn. This unit suffers D6 hits, plus additional D3 hits for each rank the unit has. These hits are Strength 4 with Flaming Attacks and shooting attacks.Magical moves can also activate this ability; # Rebirth: When a model with this rule lost last wound, place a marker centered on the final position of the model. At the start of each of your remaining moves sub-phases, roll a D6 for each marker: 1: Remove the marker, 2-5: Nothing happens, 6: Place a summoned Flame Phoenix within 3" from the marker and remove the marker. If you cannot place the model, this results counts as 2-5.			DeBelial 10-2015	2	5	0	5	5	5	4	3	8	7	5	0	0	0	0	0	0
+hefrofen	Ice Phoenix	FrosP	Rare	Monster		1:1	250	0	calc:Num=#;attr:Type="Mo"	race:pk,ek;umax:2u@4000-free=2-msg=crmsg904;hide		Monster (Stomp D6); Terror; Large Target; Fly (8); Ward Save (5+); Scaly Skin (5+); Magical Attacks; # Chill Aura: Enemy units in base contact with a model with this rule has -3 Initiative and -1 Strength (to a minimum of 0).			DeBelial 10-2015	2	6	0	6	6	5	3	4	9	5	5	0	0	0	0	0	0
+heprince	Knights of Ryma	Prin	Rare	Regiment	cavalry	5:12	36	0	ipts:total=50-each=50;calc:Num=#;size:1-20-1-mode=zz;attr:Type="Ca";type:mounted	lglx:(!mode=a&!mode=b);race:pk,ek;umax:3u@4000-free=3-msg=crmsg903		Cavalry; Martial Discipline and Lightning Reflexes (Knight only) 		Includes Dragonforged Armor, Steeds, Shields, and Lances; Unit Size: 5+	Debelial 10-2015	5	5	4	4	3	1	6	2	9	3	6	0	0	2	0	0	0
+hephoeni	Phoenix	FrosP	Rare	Monster		1:1	160	0	calc:Num=#;attr:Type="Mo"	race:pk,ek;umax:2u@4000-free=2-msg=crmsg904		Monster (Stomp D6); Terror; Large Target; Fly (8), Ward Save (5+) and Magical Attacks.			DeBelial 10-2015	2	5	0	5	5	5	4	3	8	7	5	0	0	0	0	0	0
+hesistaz	Queen's Guard	Sis	Rare	Regiment	infantry	5:20	13	0	type:skirmishers;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	race:pk,ek		Infantry; Martial Discipline and Lightning Reflexes  		Bow and Moonlight Arrows, Light Armour 		5	5	5	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+xheblt	Crew	Crew	N/A	Regiment		1	0	0	calc:Num=#			lightning Reflexes				5	4	4	3	3	1	5	1	8	6	7	0	0	1	0	0	0
+xhechar	Crew	Char	N/A	Regiment		1	0	0	type:mounted			Supernatural Reflexes (Crew only); Free Reform				0	4	4	3	0	0	5	1	8	7	7	0	0	0	0	0	0
+xhecutcr	Crew	Char	N/A	Regiment		1	0	0	zero;type:mounted			Martial Discipline; Lightning Reflexes (Crew only)				0	4	4	3	0	0	5	1	8	7	7	0	0	0	0	0	0
+xhelncrw	Crew	Char	N/A	Regiment		1	0	0								0	5	4	4	0	0	5	1	8	7	7	0	0	0	0	0	0
+^
+hedpmarm	Allow Magic Armour		Priority	N/A	0	over:hedgarm2=delete				
+hedpmsh	Allow Magic Shield		Priority	N/A	0	over:showtrp1=delete				
+hedpmwpn	Allow Magic Weapons		Priority	N/A	0	bttl:WS+"*"		* Each Dragon Prince may have different weapon; Lance is default (+2 St on charge)		
+hebdgrd	Bodyguard		Priority	N/A	0	apnd:foot		If another character w/ White Lions at start of battle & is placed next to Korhil; Korhil will act as his bodyguard; Can only be bodyguard to 1 model; If several models in White Lions, declare the guarded at start of battle; So long as the guarded remains w/ White Lions & stays next to Korhil then no enemy can attack the character – all attacks will be directed against Korhil instead; Note that challenges can be issued and met as normal, and if the character protected by Korhil is in a challenge, bodyguard rule does not apply; Korhil can always accept challenges, even if not in btb w/ any enemy	Protects another character throughout battle as long as character stays in White Lion unit	
+heborgsh	Borgash		Priority	N/A	0	unit:heborgsh@abs=1;more:save1=incl;hide				
+hehono	Can Choose Honour		Priority	N/A	0					
+hehoc	Captain Honours		Priority	N/A	0	tabl:CanChooseHonour=hehono,OfficerOfTheFleet=hecoast,QueensCompanion=hequenn,HighWarden=hehwarde,MasterOfCanreigTower=hemgprin,CommanderOfTheWatch=mgshasta				
+hechoos	Choose Lore		Priority	N/A	0					
+helgspec	Count as Special		Priority	N/A	0	xcmp:spec			White Lions are Special choices if any characters have the Lion Guard Honour.	
+hecstrik	Critical Strike		Priority	N/A	0	hide;apnd		All hits at additional -1 ArSv		
+hemore	Extra Base Cost		Priority	N/A	0	hide;cost:single;xcst:15-unit=hegreat;xcst:-10-unit=heshadow;xcst:5-unit=heskycut;xcst:5-unit=hesilver;xcst:5-unit=hechar				
+hefake1	Fake Armour		Priority	Arm	0	hide				
+hefake2	Fake Shield		Priority	Shd	0	hide				
+hefire	Fire Phoenix	fir	Priority	Chr	0	unam:+" Fire"	Fly (9); Magical Attacks; Fireborn; Flaming Attacks; # Flame Swoop: During the Remaining Moves sub-phase models with this rule can Burn a unengaged enemy unit. Nominate one unit which the model moved over this turn. This unit suffers D6 hits, plus additional D3 hits for each rank the unit has (after first). These hits are Strength 4 with Flaming Attacks and shooting attacks.Works also with magical move; # Rebirth: When a model with this rulelost last wound, place a marker centered on the final position of the model. At the start of each of your remaining moves sub-phases, roll a D6 for each marker. . If the Fire Phoenix is ridden by High Warden of Flame, add 1 to the result, except for rolls of a natural 1 :1: Remove the marker, 2-3: Marker remains but substract 1 from next rebirth roll, 4-5: Marker remains but add 1 to next rebirth roll,  6: Place a summoned Flame Phoenix within 3" from the marker and remove the marker. If you cannot place the model, this results counts as 1.			
+hedrag	Fire Spells	ML1	Priority	N/A	50	show:mgfire;show:mgmiscas;lglx:mode=a;base:Wz=1;spec:+spel;type:Wiz;catg:wiz;item:1;slct:mgfire=incl	Lvl 1 Wiz (+1 Casting & Dispel Dice; knows 1 spell; can use 2 dice to cast)	^	Makes Dragon a Lvl 1 Caster	
+heflamo	Flamehearth Mounts		Priority	N/A	0	tabl:MUSTCHOOSEMOUNT=hechoose,DragonYoungblood=helsunfl,FirePhoenix=heflamnt,Dragon=hedragfl				
+heice	Frost Phoenix	ice	Priority	Chr	40	base:In-1;base:At+2;unam:+" Ice";base:Sv=5	Monster (Stomp D6); Terror; Large Target; Fly (8); Ward Save (5+); Innate Defence  (5+); Magical Attacks; # Chill Aura: Enemy units in base contact with a model with this rule has -3 Initiative and -1 Strength (to a minimum of 1).			
+hehwarde	High Warden of the Flame	hw	Priority	N/A	75	xcst:50-unit=hehero;base:wsv=4;base:At-1;base:Ld=9;slct:heheavy=incl;show:heflamnt;show:hefromnt;slct:hahro=incl;slct:halhro8=incl;over:lahro=delete;over:hedraghp=delete;over:helsunmt=delete;over:helsteed=delete;over:heeagmnt=delete;over:hegrfmnt=delete;over:hecutmnt=delete;over:hechchar=delete;slct:hehalber=incl;over:helnchar=delete;show:heremh	Character has -1 Attack, has Ld9, and he and his mount have Ward Save (4+), ItP, Magic Resistance (2/for hero 1). Heavy Armour and Halberd. Model and all Protectors of the Flame in the same unit have the Holy Attack Special Rule. Model loses Mount options and cannot be the Battle Standard Bearer, but can ride a Fire Phoenix (160/ 210 pts) or Frost Phoenix (200/ 250 pts). 			
+hehostae	Host of Aestyrion	HostA	Priority	N/A	0	hide;lglx:race=ha	Murderous Prowess			
+heathin2	Ignore		Priority	N/A	0	acmp:Hero+2u;hide				
+heteclis	Ignore		Priority	N/A	0	acmp:Hero+1u;hide				
+heimpdef	Impenetrable Defense		Priority	N/A	0	utyp:eltharion2;apnd:foot	5+ Ward Save and Immune to Killing Blow.			
+helafree	Light Armour (free)		Priority	N/A	0		Light Armour			
+hemgprin	Mage Prince	mp	Priority	N/A	50	xcst:40-unit=hehero;show:mg1lvl;slct:mg1lvl=incl;show:healore;over:hedraghp=delete;over:helsunmt=delete;over:hecutmnt=delete;over:hechchar=delete;spec:+wzrd;slct:hewizard=incl;show:hewizard	Character is a Level 1 Wizard, who generate spell from any Battle Path or Path of White Magic. Character may only be mounted on an Elven Steed, Griffon or Great Eagle.			
+hemalhan	Malhandir		Priority	N/A	0	hide;unit:hemalhan@abs=1				
+hemaster	Master of the Paths	masta	Priority	N/A	95	slct:hegw=incl;base:At=3;base:Ld=9;show:mg2lvl;slct:mg2lvl=incl;show:heshowsi;over:hedraghp=delete;over:helsunmt=delete;over:helsteed=delete;over:heeagmnt=delete;over:hegrfmnt=delete;over:hecutmnt=delete;over:hechchar=delete;slct:heheavy=incl;spec:+wzrd;show:hewizard;slct:hewizard=incl;show:heremgw	Character must be on foot, comes equipped with a Great Weapon and Heavy Armour, and has the Sword Sworn (only for on foot models. At the start of each CC Phase must choose to gain either +1 to Hit or the Distracting from models in the front. This decision lasts until the end of that Combat Phase. All models in the same unit must choose the same effect) and Master of the Winds (If your army includes one or more models with this rule, add an additional +1 to channel attempts in the opponent’s Magic Phase.). Model has At=3 and Ld=9. Model is a Level 2 Wizard but does not generate spells, instead knows every signature spell of the eight Battle Paths. 			slct:hewizard=incl
+hemtact	Master Tactician		Priority	N/A	0	hide;apnd		After deployment; High Elf may redeploy 1 unit w/in deployment zone		
+hemerwyr	Merwyrm		Priority	N/A	0	cost:single;unit:hemerwyr@abs=1;skip:acmp:Rare+1u;utyp:mist;comp:Rare				
+hemistma	Mist Mage		Priority	N/A	0	unam:="Mist Mage";type:mist;lglx:(race=vm&mode=e)				
+hechoose	No Mount	nom	Priority	N/A	0		You must choose mount for Flameheart			
+hecoast	Officer of the Fleet	co	Priority	N/A	25	xcst:15-unit=hehero;base:Ld=9;base:At=3;show:heambush;over:hedraghp=delete;over:helsunmt=delete;over:helsteed=delete;over:hechchar=delete;stat:WSv=5	Character must be on foot or mounted on a Giant Eagle or Hawk Chariot (if mounted Wsv=5+). Model has the Quick to Fire, Weapon Master, and Nautical Discipline (While mounted or in Hawk Chariot uints, ignores DT Tests. If on foot, can immediately make a combat reform if it is successfully charged, immediately after enemy models have been brought into contact, following all rules and restrictions for Combat Reforms). Special Rules, and At=3 and  Ld=9. If the character is on foot, he may purchase Ambush			
+hechoic2	Opponent's Approval		Priority	N/A	0	lglx:!mode=a				
+hechoice	Opponent's Approval		Priority	N/A	0					
+heflame	Order of the Fiery Heart	fl	Priority	N/A	50	xcst:35-unit=hemage;over:healore=delete;base:At+1;base:Ws+1;base:In+1;show:helance;slct:helance=incl;over:helsunfl=delete;over:heflamnt=delete;over:hedragfl=delete;show:heflamo;show:mgfire;slct:mgfire=incl	Character must select Path of Fire. Must ride either a Dragon Youngblood or a Fire Phoenix. An Archmage may ride a Dragon. Lance; Blood of Ryma (Always generates spell Flaming Swords in addition to his normal spells.May not participate in an Aided Dispel. If the model is mounted on a Young Dragon or Dragon); Fiery Touch: Grinding Attacks (D3) (D6+1 against Large Target) S4 Flaming Attack.			
+hehop	Prince Honours		Priority	N/A	0	tabl:CanChooseHonour=hehono,OfficerOfTheFleet=hecoast,QueensCompanion=hequenn,HighWarden=hehwarde,MasterOfCanreigTower=hemaster,AsfadScholarPrince=hemgprin,CommanderOfTheWatch=mgshasta				
+hequenn	Queen's Handmaiden	qu	Priority	N/A	30	xcst:20-unit=hehero;base:bs+1;base:At-1;base:Ld=9;slct:hemoon=incl;show:hemoon;show:bowhro;slct:bowhro=incl;over:hedraghp=delete;over:helsunmt=delete;over:helsteed=delete;over:heeagmnt=delete;over:hegrfmnt=delete;over:hecutmnt=delete;over:hechchar=delete	Character must be on foot and has the Multiple Shot (3), is equipped with Moonlight Arrows and Bow; and has +1 BS, -1A and Ld=9. The Queen's Handmaiden and any Queen's Guard and Archer in the same unit have the Quick to Fire and if the character is the BSB the unit can act normally in the turn in which they rally. 			
+heradgem	Rad Gem		Priority	N/A	0	utyp:hewiz;show:healore;show:mgmiscas;hide				
+herepeat	Repeating Shot	rep	Priority	N/A	15		May fire as Volley Gun Artillery Weapon: Range 48", Strength 4, Armour Piercing (1), Multiple Shots (6).			
+hescapoi	Scout and Poisoned Attack(Bow)	scpo	Priority	N/A	0		Has the Scout and Poisoned Attacks (Bow) Special Rules,			
+mgshasta	Shadow Stalker	sh	Priority	N/A	30	xcst:15-unit=hehero;show:bowhro;slct:bowhro=incl;slct:hescapoi=incl;show:hescapoi;over:hedraghp=delete;over:helsunmt=delete;over:helsteed=delete;over:heeagmnt=delete;over:hegrfmnt=delete;over:hecutmnt=delete;over:hechchar=delete	Character must be on foot. Has the     Scout and Poisoned Attacks (Bow) Special Rules, and is equipped with a Bow. 			
+heshipco	Ship's Company		Priority	N/A	0	acmp:Core-1u;hide				
+heskirm	Skirmish	sk	Priority	N/A	3		Skirmish			
+hetyrgen	Tyrion in Army		Priority	N/A	0	over:general=delete;dtyp:eltharion2				
+hereflex	Unmatched Reflexes		Priority	N/A	0	hide;apnd		Always go 1st (use In for ties); 4+ Ward Save		
+hevangua	Vanguard	vam	Priority	N/A	10		 Vanguard special rule			
+hechwob	War of Beard - Champs		Priority	N/A	0	hide;lglx:mode=a;item:+2;show:hechmarm;show:hechwarm;show:hechmsh				
+hewobst	War of Beard - Standards		Priority	N/A	0	over:st14=delete;over:st12=delete;show:stmg14;show:stmg12;hide;lglx:mode=a				
+hewizard	Wizard		Priority	N/A	0	spec:+wzrd				
+heallows	Allow Magic Standard		First	N/A	0	lglx:mode=b;over:st14b=delete;show:stmg14;cost:single;type:heallows			Allows one unit of Lothern Seaguard to take a magic standard.	
+hecutupg	Sky Reaper	GiaBw	First	N/A	25	xcst:25-unit=hecutmnt	This is a Bolt Thrower Artillery Weapon with the following profile: Range 24", Strength 5, Multiple Wounds (D3), Armour Piercing (6).		Add Giant Bow.	
+hefilore	Fire lore		SpellType	N/A	0	tabl:Fire=mgfire-noname-nobrackets				9th age
+hedmlore	Lore Table		SpellType	N/A	0	tabl:Fire=mgfire,Undeath=unundeat-noname-nobrackets				Dragon Mage Lore Table
+hegrmtbl	Lore Table		SpellType	N/A	0	tabl:None=mgnone,Beast=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Life=mglife,Light=mglight,Metal=mgmetal,Shadow=mgshadow-noname-nobrackets				
+hehigh	Path of White Magic	High	SpellType	Mgc	0	show:heshow;show:hefull;type:hehigh;stat:Wz+1				
+healore	Path Table		SpellType	N/A	0	tabl:ChooseLore=hechoos,White=mghigh,Wilderness=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Life=mglife,Light=mglight,Alchemy=mgmetal,Shadow=mgshadow-noname-nobrackets				9th age
+hesho2	All Lore Spells		Scroll	N/A	0	take:hespella;take:hespell0;take:hespell1;take:hespell2;take:hespell3;take:hespell4;take:hespell5;take:hespell6;take:life1;take:life2;take:life3;take:life4;take:life5;take:life6			Shows all spells for this lore, and lists short descriptions on the roster.	
+heshow	All Lore Spells		Scroll	N/A	0	more:mgshow=incl;take:hespella;take:hespell0;take:hespell1;take:hespell2;take:hespell3;take:hespell4;take:hespell5;take:hespell6;base:Wz=8;item:+8			Shows all spells for this lore, and lists short descriptions on the roster.	
+heshowsi	All Signature Spells		Scroll	N/A	0	take:beasts0;take:death0;take:fire0;take:metal0;take:shadows0;take:heavens0;take:light0;take:life0;base:Wz=8;item:+8				Loremaster of Hoeth spells
+hefull	Full Spell Lists		Scroll	N/A	0	more:mgfull=incl;more:hespella=incl;more:hespell0=incl;more:hespell1=incl;more:hespell2=incl;more:hespell3=incl;more:hespell4=incl;more:hespell5=incl;more:hespell6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+hemagict	Magic types		Scroll	N/A	0	hide;type:mgbeasts;type:mgdeath;type:mgfire;type:mgmetal;type:mgshadow;type:mgheaven;type:mglight;type:mglife				Loremaster of Hoeth magic types to enable spell showing
+he2ndwe5	Additional Hand Weapon	2nd	Weapon	2Hd	5	stat:At+1	+1A if on foot			
+helongsw	Elvish Longsword	LoSw	Weapon	2Hd	0	stat:St+2;chld:champ@St+2	Requires Two Hands. +2 Strength.			
+he2han10	Great Weapon	2h	Weapon	2Hd	10	stat:St+2	Requires two hands. +2S. Strikes at In=0			
+hegw	Great Weapon	GW	Weapon	2Hd	0	stat:St+2;chld:champ@St+2;xcst:10-unit=helord;xcst:8-unit=hehero	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+hegwfth	Great Weapon	GW	Weapon	2Hd	4	stat:St+2;type:GreatWeapon	+2S, Always strikes last, Two-handed			
+hegwftl	Great Weapon	GW	Weapon	2Hd	6	stat:St+2;type:GreatWeapon	+2S, Always strikes last, Two-handed		Lord Great Weapon	
+hegwmth	Great Weapon	GW	Weapon	2Hd	8	stat:St+2;utyp:mounted;type:GreatWeapon	+2S, Always strikes last, Two-handed		Hero Great Weapon Mounted	
+hehalber	Halberd	hal	Weapon	2Hd	10	stat:St+1	Requires Two Hands. +1 Strength.			
+helance	Lance	Lan	Weapon	Wep	15	utyp:mounted;xcst:10-unit=hehero	+2 Strength when charging. Mounted models only.			
+hellance	Light Lance	Lan	Weapon	Wep	0	utyp:mounted;xcst:8-unit=hehero;xcst:10-unit=helord	+1 Strength when charging. Mounted models only.			
+helong	Longbow	lo	Weapon	Oth	2	xcst:1-unit=hesistaz;over:bowtrp=delete	30". S3. Volley.			
+hefspear	Spear	Spr	Weapon	Wep	2	xcst:5-unit=helord;xcst:5-unit=hehero;xcst:1-unit=hesistaz		3 ranks in HtH if static, 2 otherwise	Attack in 3 ranks if no movement, 2 ranks if moved	
+hebowave	Bow of Avelorn	BowAv	Missile	N/A	0	type:missiles	Range 24", Strength 4, Volley fire, Flaming Attacks, Arrows of Isha: magical attacks, enemies from Forces of Destruction suffer extra -1 to armour saves against these hits.			
+hemoon	Moonlight Arrows	moon	Missile	N/A	0		When fired from a mundane Bow or Longbow, grants +1 to Wound, Armor Piercing (1), Magical Attacks and  Flaming Attacks special rules			
+bowtrp2	Normal Bow	Bow	Missile	N/A	2	type:missiles;slct:chamstat=incl;xcst:1-unit=herider		24";S3; Volley	Range 24". Strength 3 hit. Volley fire	
+hechmarm	Allow Magic Armor		Armour	N/A	0	base:Sv+2;utyp:heavy;over:hefake1=delete			Removes Heavy Armor	
+hechwarm	Allow Magic Armor		Armour	N/A	0	base:Sv+1;utyp:!heavy;over:hefake1=delete			Removes Light Armor	
+hedgarm	Dragonforged Armour	DA	Armour	Mus	0	utyp:!MagicArmour		Heavy armour. The wearer has Fireborn and Ward Save (6+). 	Heavy armour. The wearer has Fireborn and Ward Save (6+). This item cannot be taken by a model that has Lion Pelt.	The "conflict group" Mus has been used to limit mundane armours throughout AB
+hedgarm2	Dragonforged Armour	DA	Armour	Mus	0	more:save2=incl;utyp:!MagicArmour		Heavy armour. The wearer has Fireborn and Ward Save (6+).	Heavy armour. The wearer has Fireborn and Ward Save (6+). This item cannot be taken by a model that has Lion Pelt.	The "conflict group" Mus has been used to limit mundane armours throughout AB
+heldgarm	Dragonforged Armour	DA	Armour	Mus	16	more:save2=incl;stat:WSv=6;utyp:!MagicArmour;over:hela=delete;over:hepelt=delete;xcst:12-unit=hehero;xcst:10-unit=hedrgmg	Heavy armour. The wearer has Fireborn and Ward Save (6+). 		This item cannot be taken by a model that has Lion Pelt.	
+heheavy	Heavy Armour	ha	Armour	Mus	8	more:save2=incl;utyp:!MagicArmour;over:hela=delete;xcst:2-unit=hecoasta;xcst:5-unit=hehero				
+hela	Light Armour	LA	Armour	N/A	0	more:save1=incl;utyp:!MagicArmour;type:armour		Immune to Fire	Light  Armour	The "conflict group" Mus has been used to limit mundane armours throughout AB
+hepelt	Lion Fur	pelt	Armour	N/A	0	stat:Sv-1;xcst:15-unit=helord;xcst:4-unit=hehero;over:heldgarm=delete;utyp:!mounted;chld:champ@Sv-1;base:Sv-1	 Models on foot only. Wearer has innate defence (6+), innate defence (5+) against Shooting attacks. May not be taken by a model with Dragonforged Armour.  			
+hepelt2	Lion Pelt	pelt	Armour	N/A	0	utyp:LionGuard;stat:Sv-2	The wearer has scaly skin (5+) against shooting attacks. Against shooting with Magical Attacks the lion cloak has no effect.			
+henatura	Mounts Protection (5+)	nat	Armour	N/A	10	more:save1=incl	Natural Armour			
+hechmsh	Allow Magic Shield		Shield	N/A	0	base:Sv+1;utyp:shield;over:hefake2=delete			Removes Shield	
+hefae	First Among Equals	FAE	Standard	N/A	10	cost:single;over:st14b=delete;unam:<"First ";onam:="Standard Bearer";item:1;over:st10=delete;xcst:14-unit=hesilver;lglx:mode=default			Allows unit to take a Magic Standard of 25 pts or less; Includes Standard Bearer	
+hefae14	First Among Equals	FAE	Standard	N/A	14	cost:single;over:st14=delete;unam:<"First ";onam:="Standard Bearer";item:1;xcst:14-unit=hesea;lglx:mode=b;over:st14b=delete			Allows unit to take a Magic Standard of 25 pts or less; Includes Standard Bearer	
+hebigsis	Champion		Champion	N/A	0	unit:hebigsis@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+hechbow	Champion		Champion	N/A	0	unit:hechbow@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+hechmaid	Champion		Champion	N/A	0	unit:hechmaid@abs=1;modl:-1			Upgrades a model to a Champion	
+hechphoe	Champion		Champion	N/A	0	unit:hechphoe@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+hechprin	Champion		Champion	N/A	0	unit:hechprin@abs=1;csiz:hesteed+1;modl:-1;cost:model;type:mounted			Upgrades a model to a Champion	
+hechride	Champion		Champion	N/A	0	unit:hechride@abs=1;csiz:hesteed+1;modl:-1;cost:model			Upgrades a model to a Champion	
+hechsea	Champion		Champion	N/A	0	unit:hechsea@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+hechshad	Champion		Champion	N/A	0	unit:hechshad@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+hechship	Champion		Champion	N/A	0	cost:model;unit:hechship@abs=1;modl:-1				
+hechsilv	Champion		Champion	N/A	0	unit:hechsilv@abs=1;csiz:hesteed+1;modl:-1;cost:model			Upgrades a model to a Champion	
+hechspr	Champion		Champion	N/A	0	unit:hechspr@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+hechswor	Champion		Champion	N/A	0	unit:hechswor@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+hechwhit	Champion		Champion	N/A	0	unit:hechwhit@abs=1;modl:-1;cost:model			Adds a Champion to unit	
+heexsted	Extra Steeds	ExStd	Champion	N/A	7	rang:0-2;stat:X1+1			Adds extra horses (2 extra max per chariot)	
+hestarmt	Ancient Dragon		Mount	Mon	0	unit:hedrstar@abs=1;slct:heromnt=incl;more:save1=incl				
+heashtar	Ashtari, Frostheart Phoenix		Mount	Mon	0	unit:heashtar@abs=1;slct:heromnt=incl;more:save1=incl				
+hedragfl	Dragon		Mount	N/A	280	unit:hedragon@abs=1;slct:heromnt=incl;type:onedragon;xcst:300-unit=hemagelo				9th age
+hedraghp	Dragon		Mount	Mon,Vit,Vt2,Mrk	250	unit:hedragon@abs=1;slct:heromnt=incl;type:onedragon;xcst:300-unit=hemagelo				9th age
+hedramnt	Dragon		Mount	Mon,Vit,Vt2,Mrk	330	unit:hedrag@abs=1;slct:heromnt=incl;type:onedragon;xcst:300-unit=hemagelo				9th age
+hedrake	Drake		Mount	N/A	0	unit:hedrake@per=1;hide				
+hensteed	Elf Steed		Mount	Mnt	10	unit:hehsteed@abs=1;show:heith;slct:heromnt=incl;more:save1=incl;lglx:(!mode=b);stxt:Type="Ca"				
+hebrstd	Elf Steed: Barded		Mount	Mnt	0	unit:hebrstd@abs=1				
+hehbrst	Elf Steed: Barded		Mount	Mnt	16	unit:hebrstd@abs=1;slct:heromnt=incl;more:save2=incl;lglx:(!mode=b);stxt:Type="Ca"				
+helbrst	Elf Steed: Barded		Mount	Mnt	24	unit:hebrstd@per=1;more:save2=incl;lglx:(!mode=b);slct:heromnt=incl;stxt:Type="Ca"				
+helsteed	Elvish Horse		Mount	Mnt,Vt2,Mrk	20	unit:hehsteed@abs=1;slct:heromnt=incl;more:save1=incl;lglx:(!mode=b);stxt:Type="Ca";show:henatarm;xcst:15-unit=hehero;xcst:15-unit=hemage				
+hesteed	Elvish Horse		Mount	Mnt,Vt2,Mrk	0	unit:hesteed@per=1;show:henatarm			Mounted movement; +1Sv for rider	
+heflamnt	Fire Phoenix		Mount	Mon	200	unit:heflamnt@abs=1;slct:heromnt=incl;xcst:160-unit=helord;xcst:190-unit=hemagelo;xcst:190-unit=hemage;xcst:210-unit=hehero				
+hefromnt	Frost Phoenix		Mount	Mon	250	unit:hefromnt@abs=1;slct:heromnt=incl;xcst:200-unit=helord				
+heeagmnt	Giant Eagle		Mount	Mon,Vt2	50	unit:hegreate@abs=1;slct:heromnt=incl;stxt:Type="MC";more:save1=incl;xcst:40-unit=hemagelo;xcst:60-unit=hehero;xcst:40-unit=hemage				
+hegrfmnt	Griffon		Mount	Mon,Vt2,Mrk	120	unit:hegriff@abs=1;slct:heromnt=incl;more:save1=incl;stxt:Type="MC";xcst:100-unit=hemagelo;xcst:150-unit=hehero				
+helnchar	Lion Chariot		Mount	Mnt,Vit,Vt2,Mrk	125	unit:hehlnchr@abs=1;slct:heromnt=incl;base:Sv-1;type:mounted;lglx:(!mode=b);xcst:100-unit=hehero				
+heminie	Minaithnir the Dragon		Mount	N/A	0	unit:heminie@abs=1;hide;acmp:Hero+2u;more:save1=incl				
+hechchar	Reaver Chariot		Mount	Mnt,Vit,Vt2,Mrk	60	unit:hecchar@abs=1;slct:heromnt=incl;base:Sv-1;type:mounted;stxt:Type="Ch";lglx:(!mode=b);xcst:70-unit=hehero				
+hecutmnt	Sky Sloop		Mount	Mnt,Vit,Vt2	65	unit:hecutmnt@abs=1;slct:heromnt=incl;stat:Sv-1;type:mounted;lglx:(!mode=b);stat:WSv=4;xcst:75-unit=hehero				
+hestrwig	Stormwing		Mount	Mnt	195	unit:hestmwng@abs=1;type:storm-child;more:save1=incl;more:lancelrd=incl			Choose to ride Stormwing the Griffon (comes with free lance!!! Yay!)	
+helsunfl	Young Dragon		Mount	N/A	170	unit:heldrsun@abs=1;slct:heromnt=incl;xcst:170-unit=hemagelo				
+helsunmt	Young Dragon		Mount	Mon,Vit,Vt2,Mrk	170	unit:heldrsun@abs=1;slct:heromnt=incl;xcst:170-unit=hemagelo				
+hemsunmt	Young Dragon		Mount	Vit,Vt2,Mrk	0	unit:hemdrsun@abs=1;slct:heromnt=incl				
+hehith	Barding	Lith	Barding	Brd	5	more:save1=incl;chld:mount@Mv-1		No movement penalty	No movement penalty	
+helith	Barding	Brdng	Barding	Brd	6	more:save1=incl;chld:mount@Mv-1				
+heith	Ithilmar Barding	Lith	Barding	Brd	0	more:save1=incl;xcst:7-unit=helord;xcst:5-unit=hehero		No movement penalty	Barding with no movement penalty.	
+henatarm	Mounts Protection (5+)	Nat	Barding	N/A	10	base:Sv-1;xcst:4-unit=hesilver;xcst:3-unit=herider			Add a Natural Armour to your steed.	
+hecrew	Additional Crew		Crew	N/A	10	unit:xhecutcr@per=1;hide			   	Skycutter for Seahelm hero
+hecchar	Chariot Crew		Crew	N/A	0	unit:xhechar@per=1;unit:hechstd@abs=2;hide			   	
+hechar	Chariot Crew		Crew	N/A	0	unit:xhechar@per=2;unit:hechstd@per=2;more:hechstd2=incl;more:hechstd3=incl;more:hechstd4=incl;hide		hide	   	
+hechstd2	Chariot Steeds (2)		Crew	N/A	0	unit:hechstd@per=2;hide;usta:X1=0			   	
+hechstd3	Chariot Steeds (3)		Crew	N/A	0	unit:hechstd@per=3;hide;usta:X1=1			   	
+hechstd4	Chariot Steeds (4)		Crew	N/A	0	unit:hechstd@per=4;hide;usta:X1=2			   	
+hebltcrw	Crew		Crew	N/A	0	hide;unit:xheblt@per=2			   	
+hecutcrw	Hawk Chaiot Crew		Crew	N/A	0	unit:xhecutcr@per=2;unit:hecutroc@abs=1;hide			   	Skycutter for Seahelm hero
+helccrew	Lion Crew		Crew	N/A	0	unit:xhelncrw@per=2;unit:helion@per=2;more:hechstd3=incl;more:hechstd4=incl;hide			   	
+helnchr1	Lion Crew		Crew	N/A	0	unit:xhelncrw@per=2;unit:helion@per=2;hide			   	
+helionch	Lions		Crew	N/A	0	unit:helion@per=2;hide;usta:X1=0			   	
+hecutcr2	Skycutter crew		Crew	N/A	0	unit:xhecutcr@per=2;unit:hecutroc@abs=1;hide			   	Skycutter for Seahelm hero
+hexcmaid	Extra cost of handmaidens		Priority1	N/A	120	cost:single;hide				
+heexprnc	Extra Dragon Prince		Priority1	N/A	0	rept:hedpcale@2;hide				
+healapre	Allarielle in army		Priority2	N/A	0	type:alariellepresent			Choose this option when Alarielle is part of the army. It is also needed if you want to take Horn of Isha.	
+healpre2	Allarielle in army		Priority2	N/A	0	type:alariellepresent2			Choose this option when Alarielle is part of the army. It is also needed if you want to take Benner of Avelorn on your Battle Standard bearer.	
+heupg2	Armour Piercing (1)	Shred	Priority2	N/A	5					
+heupg1	Lightning Reflexes	Swfts	Priority2	N/A	10	xcst:10-unit=hegriff	Lightning Reflexes			
+hescaski	Scaly Skin (6+)	ScSki	Priority2	N/A	10	base:Sv-1				
+heswing	Stormwing Naming		Priority2	N/A	10	unam:="Stormwing";utyp:storm;hide;base:ld=8				
+heupg3	Thunderous and Devastating	SwooS	Priority2	N/A	25		Thunderous Charge and Devastating Charge			
+hespella	Attr - Drain Magic		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh		Attribute. Univeral. Range 12". Caster may choose to immediately end all spell effects with Lasts one Turn or Remains in Play duration affecting the target.		9th age
+hespell0	He0 - Soul Quench		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh&!mist		Hex. Missile. Damage. Range 18". 9+ to Cast, Target suffers 2D6 Strength 4 hits OR 17+ to Cast, 4D6 S4 hits.		
+hespell1	He1 - Apotheosis		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh		Augment. 5+ to Cast. Range 18". The target recovers 1 Wound. OR 10+ to Cast, the target recovers D3 Wounds.		
+hespell2	He2 - Hand of Glory		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh		Augment. 5+ to Cast. Range 18". The Target has WS, BS, In or Mv increased  by D3 (declare which when choosing the target). OR 10+ to Cast to increase all of those characteristics by D3.		
+hespell3	He3 - Walk Between Worlds		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh		Augment. 8+ to Cast. Range 24". The target has the Ethereal special rule until the end of the phase. The target may perform a 10" magical move. OR 16+ to Cast to move 20".		
+hespell4	He4 - Shield of White Tower		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh		Augment. 11+ to cast, Range 12" OR 14+ to cast, Range 24". Lasts one Turn. Target gains a Ward Save (6+) and has +1 to all its Ward Saves to a maximum of Ward Save (3+).		
+hespell5	He5 - Arcane Unforging		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh		Hex. Direct. Focused. Damage. 13+ to Cast. Range 18". Target suffers 1 hit with Metalshifting. Then a randomized magic item carried by the target is destroyed (ignore used “one use only” items).		
+hespell6	He6 - Fiery Convocation		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh		Hex. Direct. Damage. 15+ to Cast. Range 24". Remains in Play. At the end of each magic phase, each model in the target unit suffers a strength 3 hit with Flaming Attacks. OR Cast on 19+ to increase Strength of hits to 4.		
+hespell7	He7 - Writhing Mists		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh&mist		Cast 7+; Range 24"; Remains In Play; Attacks targeting Friendly Unit (even if engaged in HtH) by shooting or in HtH are at -1 to hit. Ends if unit moves (except to change formation), caster attempts another spell, chooses to end it or is slain.		
+hespell8	He8 - Mistress of the Deep		Priority3	N/A	0	apnd:foot;hide;utyp:hehigh&mist		Cast 9+; Range 6"; Remains In Play; Place an appropriate man-sized model to represent Oceanid. Any enemy declaring a charge or shooting at friendly unit must take Ld test if Oceanid is closer than target. If passed, Oceanids no longer affect the unit. If failed, charge/attack is not performed. Lasts until dispelled, caster attempts another spell, chooses to end it or is slain.		
+heambush	Ambush	am	Special	N/A	25	xcst:10-unit=hehero;xcst:2-unit=hecoasta;utyp:!mounted	Have Ambush rule.			
+heancieu	Ancient Dragon upgrade		Special	Mon	100	unam:<"Ancient ";base:WS+1;base:St+1;base:To+1;base:At+1;base:Wo+1				
+lelgskir	Skirmish  (up to 15 models)	sk	Special	N/A	2	usiz:max=15	Skirmish			
+heqgskir	Skirmish (up to 10 models)	sk	Special	Oth	3	usiz:max=10	Skirmish			
+heremgw	Magic Weapon taken		Last	N/A	0	stat:St-2			Only to remove additional St bonus from GW	
+heremh	Magic Weapon taken		Last	N/A	0	stat:St-1			Only to remove additional St bonus from Halberd	
+^
+he9mw02	Great Bow of Elu	weap	MWp,MRg	25	1	itst:race=he		Longbow . Range 30”, Strength As user+1 , Multiple shots (3).	^	^	8ed
+hedemonh	Daemon Hunters' Helm	armr	MAr	25	1	base:Sv-1;itst:race=he		Type: None (6+ Armour Save). Wearer has Ward Save (3+) against Magical Attacks.	^	^	
+hegleam	Gleaming Robes	ward	Tal	45	1	spec:-weap;itst:race=he&type=hemage		Mage or Archmage only. Wearer has Ethereal special rule. Bearer and his mount may not make attacks, or take Magic Weapons.	^	^	
+heclkstr	Cloak of Stars	ench	Enc	25	1	itst:race=he		Spells cast against the bearer or his unit suffer -2 to their casting roll.	^	^	
+he9ei01	Shard of Nullification	ench	Enc	100	1	itst:race=he&!type=mounted		Enchanted item. One foot only. Models within 6" of the bearer cannot Cast, Dispel (including Aided Dispels), and Channel. Magic Items (other than Shard of Nullification) within 6" have no effects (revert to mundane version of the items).  	^	^	
+hetrkpen	Talisman of Cenyrn	ench	Enc	10	1	itst:race=he		One use only. Use at the start of any CC phase. The wearer may re roll all to hit and to wound rolls until the end of the phase. Wounds caused by the bearer must re-roll all successful saves of any kind. At the end of the phase the wearer suffers 1 wound with no saves of any kind allowed.	^	^	
+hechrsta	Amethyst Crystal	wzrd	Arc	70	1	itst:race=he		During the enemy's magic phase, player can remove 1 dice from the opponent's PD pool and add it to his own DD pool	^	^	
+he9ai01	Book of Maledys	wzrd	Arc	50	1	itst:race=he;xcst:30-unit=hemage		Once per magic phase, the bearer can reroll a single power or dispel dice when making casting or dispelling attempt (not 6)	^	^	8ed
+mgpathba	Banner of Becalming	stnd	Std	50	1	itst:race=he	bsb=incl	All Wizards within the unit receive +1 to Cast. Has following pell: Drain Magic. Bound Power Level 4. Type: Range: Caster’s unit. Duration: Instant. All spells with Duration Lasts one Turn or RiP on Target immediately ends. 	^	^	8ed
+he9mb01	War Banner of Ryma	stnd	Std	50	1	itst:race=he	bsb=incl	All Dragons within 12” are Stubborn. Bearer and his unit have Ward Save (5+) against ranged attacks and Ward Save (6+) against close combat attacks.	^	^	8ed
+hespell0	0: Soul Quench	spel	N/A	0	100	itst:(race=he&type=hehigh&!type=mist);xtot		Hex. Missile. Damage. Range 18". 9+ to Cast, Target suffers 2D6 Strength 4 hits OR 17+ to Cast, 4D6 S4 hits.	^ High Magic	^	
+hespell1	1: Apotheosis	spel	N/A	0	100	itst:(race=he&type=hehigh);xtot		Augment. 5+ to Cast. Range 18". The target recovers 1 Wound. OR 10+ to Cast, the target recovers D3 Wounds.	^; High Magic	^	
+hespell2	2: Hand of Glory	spel	N/A	0	100	itst:(race=he&type=hehigh);xtot		Augment. 5+ to Cast. Range 18". The Target has WS, BS, In or Mv increased  by D3 (declare which when choosing the target). OR 10+ to Cast to increase all of those characteristics by D3.	^; High Magic	^	
+hespell3	3: Walk Between Worlds	spel	N/A	0	100	itst:(race=he&type=hehigh);xtot		Augment. 8+ to Cast. Range 24". The target has the Ethereal special rule until the end of the phase. The target may perform a 10" magical move. OR 16+ to Cast to move 20".	^; High Magic	^	
+hespell4	4: Shield of White Tower	spel	N/A	0	100	itst:(race=he&type=hehigh);xtot		Augment. 11+ to cast, Range 12" OR 14+ to cast, Range 24". Lasts one Turn. Target gains a Ward Save (6+) and has +1 to all its Ward Saves to a maximum of Ward Save (3+).	^; High Magic	^	
+hespell5	5: Arcane Unforging	spel	N/A	0	100	itst:(race=he&type=hehigh);xtot		Hex. Direct. Focused. Damage. 13+ to Cast. Range 18". Target suffers 1 hit with Metalshifting. Then a randomized magic item carried by the target is destroyed (ignore used “one use only” items).	^; High Magic	^	
+hespell6	6: Fiery Convocation	spel	N/A	0	100	itst:(race=he&type=hehigh);xtot		Hex. Direct. Damage. 15+ to Cast. Range 24". Remains in Play. At the end of each magic phase, each model in the target unit suffers a strength 3 hit with Flaming Attacks. OR Cast on 19+ to increase Strength of hits to 4.	^ High Magic	^	
+hespella	Attr: Drain Magic	spel	N/A	0	100	itst:(race=he&type=hehigh&!type=mist);xtot		Attribute. Univeral. Range 12". Caster may choose to immediately end all spell effects with Lasts one Turn or Remains in Play duration affecting the target.	^ High Magic	^	9th age
+hespel00	He00 - Soul Quench	spel	N/A	0	100	itst:(race=he&type=hehigh&!type=mist);xtot		Signature spell. Magic missile. 8+ to Cast, 2D6 S4 hits OR 16+ to Cast, 4D6 S4 hits. Range 18".	^ High Magic	Signature spell. Magic missile. 8+ to Cast, 2D6 S4 hits OR 16+ to Cast, 4D6 S4 hits. Range 18".	
+hespell7	He7 - Writhing Mists	spel	Mrk	0	100	xtot;itst:(race=he&type=mist&type=hehigh)		Cast 7+; Range 24"; Remains In Play; Attacks targeting Friendly Unit (even if engaged in HtH) by shooting or in HtH are at -1 to hit. Ends if unit moves (except to change formation), caster attempts another spell, chooses to end it or is slain.	^ Mist Magic	Cast 7+; Range 24"; Remains In Play; Attacks targeting Friendly Unit (even if engaged in HtH) by shooting or in HtH are at -1 to hit. Ends if unit moves (except to change formation), caster attempts another spell, chooses to end it or is slain.	
+hespell8	He8 - Mistress of the Deep	spel	Mrk	0	100	xtot;itst:(race=he&type=mist&type=hehigh)		Cast 9+; Range 6"; Remains In Play; Place an appropriate man-sized model to represent Oceanid. Any enemy declaring a charge or shooting at friendly unit must take Ld test if Oceanid is closer than target. If passed, Oceanids no longer affect the unit. If failed, charge/attack is not performed. Lasts until dispelled, caster attempts another spell, chooses to end it or is slain.	^ Mist Magic	Cast 9+; Range 6"; Remains In Play; Place an appropriate man-sized model to represent Oceanid. Any enemy declaring a charge or shooting at friendly unit must take Ld test if Oceanid is closer than target. If passed, Oceanids no longer affect the unit. If failed, charge/attack is not performed. Lasts until dispelled, caster attempts another spell, chooses to end it or is slain.	
+hearmcal	Armour of Caledor	unk2	Arm,MAr	50	1	itst:race=he;base:Sv=2;base:WSv=6;type:unmod;type:MagicArmour		Dragon Armour; 2+ Armour Save which can not be improved. It also grants Ward Save 6+ and Fireborn (Ward Save 2+ against Flaming Attacks).	^	^	8ed
+heavelor	Banner of Avelorn	unk2	Std	40	1	itst:race=he&type=alariellepresent2	bsb=incl	Spells from Lore of Light and Life cast by friendly Wizard that target unit with this banner receive +4 to cast. If Alarielle is slain, this ability is lost.	This item can only be taken if Alarielle the Radiant is also part of the army. Spells from Lore of Light and Life cast by friendly Wizard that target unit with this banner receive +4 to cast. If Alarielle is slain, this ability is lost.	Spells from Lore of Light and Life cast by friendly Wizard that target unit with this banner receive +4 to cast. If Alarielle is slain, this ability is lost.	
+hewddrag	Banner of the World Dragon	unk2	Std	50	1	itst:race=he	bsb=incl	All models in unit gain 2+ Ward Save against spells, magic attacks and magic weapons. All Dragond (friend or foe) within 12" gain Stubborn.	^	^	8ed
+hebdgold	Blade of Leaping Gold	unk2	MWp	70	1	itst:race=he;stat:At+3		+3 Attacks. Any To Wound roll of 6 ignores armour saves.	^	^	8ed
+hebkhoet	Book of Hoeth	unk2	Arc	55	1	itst:race=he		Bearer can re-roll silngle dice from each of his casting or dispel attempts. Cannot re-roll results of 6.	^	^	8ed
+hebeards	Cloak of Beards	unk2	Enc	10	1	itst:race=he		Model cause Fear. Against dwarfs cause Terror. Dwarfs Hate the bearer. At the start of each CC phase, roll D6 for each dwarfish item in base contact - on 4+ item is destroyed.	^	^	
+hecphnxk	Crown of the Phoenix King	unk2	Enc	150	1	lglx:(race=he&mode=a)		Bearer & unit are unbreakable; all friendly units w/in 6" of model become stubborn	^; High Elves War of the Beard only	Bearer & unit are unbreakable; all friendly units w/in 6" of model become stubborn	
+hedrgpen	Dragonheart Pendant	unk2	Enc	20	1	lglx:(race=he&mode=a)		If monstrous mount is killed, rider suffers Hatred vs unit/model; If rider killed; monstrous mount autopasses Monster Reaction Test & gains Hatred vs unit/model	^; High Elves War of the Beard only	If monstrous mount is killed, rider suffers Hatred vs unit/model; If rider killed; monstrous mount autopasses Monster Reaction Test & gains Hatred vs unit/model	
+hesunfir	Gem of Sunfire	unk2	Enc	20	1	itst:race=he		One use only. During the turn in which the Gem is used all of the bearers's spells, shooting and cc attacks have +1 To Wound provided that they also have Flaming Attacks special rule.	^	^	
+heatraz	Golden Crown of Atrazar	unk2	Tal	10	1	itst:race=he		One use only. Grants 2+ Ward Save against first wounding hit.	^	^	
+hehrnish	Horn of Isha	unk2	Enc	50	1	itst:race=he&type=alariellepresent;type:hornofisha		One Use Only. Use at the start of bearer's Movement phase. For the remainder of the turn bearer and his unit have +1 To Hit on all shooting and close combat attacks.	This item can only be taken if Alarielle the Radiant is also part of the army. One Use Only. Use at the start of bearer's Movement phase. For the remainder of the turn bearer and his unit have +1 To Hit on all shooting and close combat attacks.	One Use Only. Use at the start of bearer's Movement phase. For the remainder of the turn bearer and his unit have +1 To Hit on all shooting and close combat attacks.	
+hehrnsha	Horn of Isha	unk2	Enc	0	1	itst:reg=hemaiden		Bearer and unit may make +1 At or may shoot twice in shooting phase; One use only	^; High Elves' Handmaidens only	Bearer and unit may make +1 At or may shoot twice in shooting phase; One use only	
+heringfu	Khaine's Ring of Fury	unk2	Enc	25	1	itst:race=he		Bound spell (power level 3); contains Soul Quench spell (MM, range 18", 2D6 S4 hits)	^	^	8ed
+hemorway	Moranion's Wayshard	unk2	Enc	50	1	itst:race=he		Models on foot only. Gains Ambushers special rule. He can give this rule to a unit of Archers or Spearmen up to 30 models strong, immediately before deployment. He has to join that unit if he does.	^	^	
+hebwreav	Reaver Bow	unk2	MWp,MRg	25	1	itst:race=he		Range 30", St=User+1, Volley Fire, Multiple Shots (3).	^	^	8ed
+he9ei02	Ring of Fury	unk2	Enc	30	1	itst:race=he		Enchanted Item. Bound spell, power level 3, contains Soul Quench. 	^	^	8ed
+heshadow	Shadow Armour	unk2	Arm,MAr	25	1	base:Sv-2;itst:(race=he&!type=mounted);type:MagicArmour		Heavy Armour; Gain Scout and Strider special rules; Characters on foot only.	^	^	8ed
+heshmerw	Shield of the Merwyrm	unk2	Shd,MAr	15	1	itst:race=he;type:MagicShield	ssave1=incl	6+Sv; bearer has a parry save of 4+, even when fighting with magic weapon. May not be used with weapon that Requires Two Hands.	^	^	
+hestrlnc	Star Lance	unk2	MWp	30	1	itst:race=he&type=mounted|reg=pkimrik		Mounted models only. Can only be used on charge. +3 St and no armour saves. If bearer lose his mount or is not charging this turn, he must use another weapon.	^	^	8e
+he9mw01	Stellar Lance	unk2	MWp	30	1	itst:race=he&type=mounted		Lance. Attacks made with this weapon when charging has Armour Piercing (6) and have +1 Strength (for a total of +3 Strength).	^	^	8e
+heswages	Sword of Ages	unk2	MWp	80	1	lglx:(race=he&mode=a);stat:At+1;stat:St+2		+1 to hit, +1 Attack, +2 Strength	^; High Elves War of the Beard only.	+1 to hit, +1 Attack, +2 Strength	
+heelth4	    Way of the Breaking Storm	plaq	N/A	0	1	itst:reg=heeltha2&race=he;xtot		Eltharion gains +2 Attacks	^; High Elves' Eltharion	Eltharion gains +2 Attacks	
+heelth3	    Way of the Swooping Eagle	plaq	N/A	0	1	itst:reg=heeltha2&race=he;xtot		Eltharion is +2 Strength	^; High Elves' Eltharion	Eltharion is +2 Strength	
+heelth1	    Way of the Willow Branch	plaq	N/A	0	1	itst:reg=heeltha2&race=he;xtot		Attacks against Eltharion require 6 to hit (not including other modifiers)	^; High Elves' Eltharion	Attacks against Eltharion require 6 to hit (not including other modifiers)	
+heelth2	    Way of the Winter Breeze	plaq	N/A	0	1	itst:reg=heeltha2&race=he;xtot		Eltharion's attacks are +1 to hit in Close Combat	^; High Elves' Eltharion	Eltharion's attacks are +1 to hit in Close Combat	
+heamfire	Amulet of Fire	plaq	Tal	20	1	itst:race=he		Magic Resistance (1); Immune to Flaming attacks	^	^	
+heamulit	Amulet of Light	plaq	Enc	15	1	itst:race=he		All CC attacks by bearer and unit count as magic	^	^	
+heampure	Amulet of Purifying Flame	plaq	Enc	15	1	itst:race=he		Spells targeting bearer or unit suffer -3 on casting roll; No effect on spells cast with IF	^	^	
+heheroes	Armour of Heroes	plaq	Arm,MAr	30	1	base:Sv-2;itst:race=he;type:MagicArmour		Heavy Armour. Enemy must pass Ld test to attack wearer. If failed no attacks allowed	^	^	
+heprot	Armour of Protection	plaq	Arm,MAr	45	1	base:Sv-1;itst:race=he;type:MagicArmour	wsv4=incl,aws4=incl	Light Armour; 4+ Ward save	^	^	
+hestars	Armour of Stars	plaq	Arm,MAr	30	1	base:Sv-1;itst:(race=he&!type=mounted);type:MagicArmour		Light Armour. Model on foot only. Teleported immediately (no more wounds) 3D6 randomly if he takes an unsaved wound.	^	^	
+hegodarm	Armour of the Gods	plaq	Arm,MAr	35	1	itst:(race=he&!type=mounted);base:Sv=3;type:unmod;stat:St+1;lglx:!mode=a		+1 Strength; 3+ Armour Save, cannot be improved; on foot models only	^	+1 St; 3+ ArSv; cannot be improved, on foot models only	
+hearcane	Banner of Arcane Protection	plaq	Std	25	1	itst:race=he	bsb=incl	Magic Resistance(2); 	^	^	
+hebavel	Banner of Avelorn	plaq	Std	0	1	itst:reg=hemaiden		Enemy must pass Ld test to charge; No effect on Immune to Psychology troops	^	^	
+heellyri	Banner of Ellyrion	plaq	Std	15	1	itst:race=he	bsb=incl	Treat difficult terrain as open for movement.	^	^	
+hesorcer	Banner of Sorcery	plaq	Std	50	1	itst:race=he	bsb=incl	+1D3 power dice	^	^	
+hebattle	Battle Banner	plaq	Std	80	1	itst:race=he	bsb=incl	Unit has +D6 on combat resolution.	^	^	
+hesteel	Blade of Darting Steel	plaq	MWp	45	1	itst:race=he		Always strikes first; +1 to hit	^	^	
+heseagld	Blade of Sea Gold	plaq	MWp	40	1	itst:race=he		No Armour saves	^	^	
+hebltome	Blessed Tome	plaq	Enc	25	1	itst:race=he		HE units w/in 6" have +1 Ld	^	^	
+hebwseaf	Bow of the Seafarer	plaq	MWp,MRg	60	1	itst:race=he		Same effect as a single shot bolt-thrower (1S6 shot, Rank Penetrator (-1St/rank), Rng 30"); May stand and shoot.	^	^	
+hechanel	Channeler	plaq	N/A	10	100	itst:(race=he&(type=hemage|type=himage)&!type=bsb);icnt:1		May cast spells with one more die than usual	^; High Elves only	Allowed to cast spells with 1 more die than usual	
+hedevast	Claw of Devastation	plaq	MWp	80	1	itst:race=he;lglx:!mode=a		Reroll failed to wound rolls and ignores armor saves	^	^	
+hedhorn	Dragonhorn	plaq	Enc	25	1	itst:race=he		All Friendly HE units may re-roll rally and psyche tests until start of player's next turn; One-use only	^	^	
+heshdrag	Dragonscale Shield	plaq	Shd,MAr	20	1	itst:race=he;type:MagicShield	wsv6=incl,aws6=incl,ssave2=incl	5+Sv; 6+ ward save.	^	^	
+hefoeban	Foe Bane	plaq	MWp	25	1	itst:race=he		Vs 2+ Wo opponent, 2+ to Wound	^	^	
+herobe	Folaraith's Robe	plaq	Mnt,Enc	45	1	itst:(race=he&!type=mounted)		Models on foot only. Bearer only hit by magical attacks; may not attack in CC or shoot	^	^	
+hefusil	Fusil of Conflagration	plaq	MWp	30	1	itst:race=he;lglx:!mode=a		Bearer has a Str 3 flaming breath attack	^	^	
+hegemcrg	Gem of Courage	plaq	Enc	10	1	itst:race=he		Bearer and unit take leadership test with 3D6 choosing 2 lowest, One use only.	^	^	
+heshgold	Golden Shield	plaq	Shd,MAr	35	1	itst:race=he;type:MagicShield	ssave1=incl	6+Sv; re-roll cc hits against bearer	^	^	
+hegrtlp	Great Leap	plaq	N/A	0	1	itst:reg=heeltha2		In combat, before any attacks or challenges declared Eltharion may move anywhere in the same combat (even to different units or out on his own).  He can't use it to leave combat or an ongoing challenge.	^	^	
+hephoeni	Guardian Phoenix	plaq	Tal	25	1	itst:race=he	wsv5=incl,aws5=incl	5+ Ward save	^	^	
+hehealin	Healing Potion	plaq	Enc	50	1	itst:race=he		Restores all wounds to starting level of bearer or character in base contact; One Use only	^	^	
+hehmfort	Helm of Fortune	plaq	MAr	25	1	base:Sv-1;itst:race=he		6+Sv; Re-roll failed Armour Saves	^	^	
+heimpdef	Impenetrable Defense	plaq	N/A	0	1	itst:reg=heeltha2		5+ Ward Save and Immune to Killing Blow.	^	^	
+heintrct	Intrigue at Court	plaq	N/A	0	1	itst:reg=heeltha2		No roll for Intrigue at Court, Eltharion is always the General unless Tyrion is also present.	^	^	
+hejwdusk	Jewel of the Dusk	plaq	Arc	15	1	itst:race=he		+1 power dice in each magic phase, may only be used by the bearer.	^	^	
+heliongd	Lion Guard	plaq	N/A	45	100	itst:(race=he&!type=bsb);icnt:1;type:LionGuard		Makes character and unit stubborn; White Lions count as special choice	^; High Elves only	Makes character and unit stubborn; White Lions count as special choice (select "Count as Special" option for White Lions)	
+helion	Lion Standard	plaq	Std	25	1	itst:race=he	bsb=incl	Immune to fear and terror	^	^	
+helrdhth	Lord of Hoeth	plaq	N/A	0	1	itst:reg=heeltha2		Swordmasters are no longer 0-1.	^	^	
+hemaster	LoreMaster	plaq	N/A	40	100	itst:(race=he&!type=hemage&!type=bsb);catg:wiz;base:Wz=1;type:himage;spec:+wzrd;icnt:1		Becomes lvl 1 wizard; Can't cast spell while wearing armour	^; High Elves only	Lvl 1 wizard; Can't cast spell while wearing armour	
+helcloak	Loremasters Cloak	plaq	Tal	40	1	itst:race=he		2+ Ward save vs spells for wearer and unit	^	^	
+hemask	Mask of the Merlord	plaq	MAr	10	1	itst:(race=he&!type=mounted)	ssave1=incl	6+Sv; wearer moves through water features w/o penalty. Foot only.	^	^	
+hemstmis	Master of the Mists	plaq	N/A	0	1	lglx:(mode=b);itst:(reg=helord)		Sea Guard, Sea Rangers, Bolt Throwers and any characters in those units may shoot after deployment is complete. You must target all enemy units and can only target a unit for a second time if you've shot at all other units. Sea Lord is always general.	^	Sea Guard, Sea Rangers, Bolt Throwers, chars in those units may shoot after deployment. Can't target a unit twice unless all units have been targetted. 	
+henullst	Null Stone	plaq	Enc	100	1	itst:race=he		No wizards w/in 6" (incl bearer) may cast spells; No magic/runic items w/in 6" work; Applies to friends and foe alike.	^	^	
+hepenven	Pendant of Vengance	plaq	Enc	35	1	itst:race=he		all successful strikes on the anvil must be re-rolled and subtract 1 from any result on the failed rune table	^	all successful strikes on the anvil must be re-rolled and subtract 1 from any result on the failed rune table	
+heelthps	Psychology	plaq	N/A	0	1	itst:reg=heeltha2		Eltharion Hates O&Gs and Dark Elves but is otherwise Immune to Psychology.  Any unit of Swordmasters joined by Eltharion becomes Stubborn.	^	^	
+hepure	Pure of Heart	plaq	N/A	0	10	itst:race=he;type:hepure;imax:1		Bearer and unit are immune to Panic. If the bearer is killed, the HE player loses 100 VP.	^; High Elves only	^	
+hegemhoe	Radiant Gem of Hoeth	plaq	Enc	45	1	itst:race=he;stat:Wz=1;catg:wiz;type:hewiz;type:hemage		Lvl 1 Wiz; 	^	^	
+heringco	Ring of Corin	plaq	Arc	20	1	itst:race=he		Bound Item; Power Level 3; Vaul's Unmaking (e.g., reveal magic items & destroy one); One use only.	^	^	September 1, 2002
+hesacinc	Sacred Incense	plaq	Tal	30	1	itst:race=he		All shooting at the bearer and unit is at -1 to hit.	^	^	
+heseer	Seer	plaq	N/A	30	100	itst:(race=he&(type=hemage|type=himage)&!type=bsb);icnt:1		Wiz chooses spells	^; High Elves only	^	
+heseerst	Seerstaff of Saphery	plaq	Arc	30	1	itst:race=he		Wizard may choose spells	^	^	
+heasigil	Sigil of Asuryan	plaq	Arc	40	1	itst:race=he		Autodispel one spell; on 4+ spell destroyed; One use only	^	^	
+heslwand	Silver Wand	plaq	Arc	10	1	itst:race=he;stat:Wz+1		Adds one to the number of spells that the bearer may know.	^	^	
+hesknslv	Skeinsliver	plaq	Enc	25	1	itst:race=he		+1 to roll determining which player takes the first turn	^	^	
+hestsoli	Staff of Solidity	plaq	Arc	20	1	itst:race=he		Immune to effects of 1st miscast; One use only	^	^	
+hebalanc	Standard of Balance	plaq	Std	45	1	itst:race=he	bsb=incl	Unit and any unit in BtB (FoF) are immune to psychology; They also lose Hatred and Frenzy	^	^	
+heststaf	Starwood Staff	plaq	Arc	40	1	itst:race=he		Bearer +1 to Cast	^	^	
+hestmdnt	Stone of Midnight	plaq	Tal	45	1	lglx:(race=he&mode=a)		All hits & Wos vs character in HtH must be rerolled	^; High Elves War of the Beard only	^	
+heswhoet	Sword of Hoeth	plaq	MWp	60	1	itst:race=he		Hits autowound; AS modified at bearers Strength.	^	^	
+heswmst	Swordmaster	plaq	N/A	40	100	itst:(race=he&!categ=wiz&!type=btl&!type=mounted);type:swrdmstr;icnt:1		Free Great Weapon; Gains abilities of Swordmasters(e.g., Strikes in initiative order (instead of always last) & Gains Killing Blow)	^; High Elves only	Swordmaster abilities; Killing Blow	
+hetlloec	Talisman of Loec	plaq	Enc	10	1	itst:race=he		used at start of CC phase, bearer may re-roll rolls to hit and to wound, Successful Enemy AS must be re-rolled; at end of phase bearer takes an unsaveable wound; One use only.	^	^	
+hetalsap	Talisman of Saphery	plaq	Tal	35	1	itst:race=he		All enemy Magic weapons in BtB contact count as mundane of thier type	^	^	
+hetmgntl	Temakador's Gauntlets	plaq	MAr	30	1	base:Sv-1;itst:race=he	wsv5=incl,aws5=incl	6+Sv; +5 ward save vs str 4 or greater	^	^	
+hedrkwtn	The Dark Within	plaq	N/A	0	1	itst:reg=heeltha2		Eltharion and any unit he joins must declare a charge if in range and can never test to restrain pursuit.	^	^	
+hewhtswd	The White Sword	plaq	MWp,M2H	40	1	itst:race=he&!type=mounted;stat:St+2		+2 str, killing blow, 2 handed	^	^	
+hevambra	Vambraces of Defence	plaq	Tal	55	1	itst:race=he	wsv4=incl,aws4=incl	4+ Ward save; reroll failed Armour saves	^	^	
+hevortex	Vortex Shard	plaq	Arc	75	1	itst:race=he		Use at start of the enemy magic phase to end the phase, cancelling ALL RIP and draining all stored powerdice in magic items;  One use only	^	^	
+hephy2	Blade of Retribution	spec	Wep,MWp	0	1	itst:type=phyt		Chaos, Undead, Skaven and Dark Elves need at least a 4+ to hit Pythrion; Gives +1 save in HtH with shield	^	^	
+heblphnx	Blade of the Phoenix	spec	MWp	60	1	itst:type=hepure;lglx:(race=he&mode=a)		No armour saves; may add D6 attacks once per game	^; High Elves War of the Beard only	No armour saves; may add D6 attacks once per game	
+hecharoi	Charoi Potion	spec	N/A	0	1	itst:reg=heteclis;stat:WS+3;stat:BS+1;stat:In+1;stat:At+2;stat:St+2		Makes Teclis a Lvl 1 Wizard but his stats use those on the right; One use only	^; High Elves' Teclis only	Makes Teclis a Lvl 1 Wizard but his stats use those on the right; One use only	
+hechayal	Chayal	spec	N/A	0	1	itst:reg=hekorhil;stat:St+2		Strength +2. Killing Blow. Chayal and Korhil's hand weapon count as Paired weapons.	^; High Elves' Korhil	Strength +2. Killing Blow. Chayal and Korhil's hand weapon count as Paired weapons.	2013
+hecrsaen	Curse of Aenarion	spec	N/A	0	2	itst:(reg=hetyrion|reg=heteclis)		When Tyrion/Teclis reaches 1 Wo; gains 2+ Ward Save	^; High Elves' Tyrion/Teclis only	When Tyrion/Teclis reaches 1 Wo; gains 2+ Ward Save	
+hedaaen	Dragon Armour of Aenarion	spec	N/A	0	1	itst:reg=hetyrion;type:MagicArmour		1+ Armour Save; 4+ Ward Save; Fireborn (2+ Ward Save against Flaming Attacks).	^; High Elves' Tyrion only	1+ Armour Save; 4+ Ward Save; Fireborn (2+ Ward Save against Flaming Attacks).	2013
+hefang	Fangsword of Eltharion	spec	N/A	0	1	itst:reg=heelthar;stat:St+2		+2 Strength. No Armour Saves	^; High Elves' Eltharion	+2 Strength. No Armour Saves	2013
+hehrtave	Heart of Avelorn	spec	N/A	0	1	itst:reg=hetyrion		Magic Resistance (2). If he suffers unsaved Wound that would kill him, on 2+ Wound is negated but the Heart is destroyed.	^; High Elves' Tyrion only	Magic Resistance (2). If he suffers unsaved Wound that would kill him, on 2+ Wound is negated but the Heart is destroyed.	
+helrmstr	High Loremaster	spec	N/A	0	1	itst:reg=heteclis		Knows all 6 spells of any chosen lore (7 for High Magic); Any spell cast with any doubles is IF except miscasts	^; High Elves' Teclis only	Knows all 6 spells of any chosen lore (7 for High Magic); Any spell cast with any doubles is IF except miscasts	
+hemark	Mark of Asuryan	spec	N/A	0	1	itst:reg=hecardrn		Unit killing Caradryan in CC takes D3 Wounds, no armour save. If killed in a challenge, then only his opponent takes these Wounds. These Wounds count towards combat resolution.	^	^	2013
+hemoonst	Moon Staff of Lileath	spec	N/A	0	1	itst:reg=heteclis		One Use Only. Can be used in one of two ways: 1. At the start of own Magic phase, to add free power dice to every spell cast by Teclis this phase. 2. When suffering a miscast, before rolling on the table - miscast is ignored. In either case Teclis St and To are reduced to 1 for the rest of the game.	^; High Elves' Teclis	One Use Only. Can be used in one of two ways: 1. At the start of own Magic phase, to add free power dice to every spell cast by Teclis this phase. 2. When suffering a miscast, before rolling on the table - miscast is ignored. In either case Teclis St and To are reduced to 1 for the rest of the game.	2013
+hephy1	Moonshadow Armour	spec	Arm,MAr	0	1	itst:type=phyt;type:MagicArmour		4+ save	^	^	
+hepeltch	Pelt of Charandis	spec	N/A	0	1	itst:reg=hekorhil;stat:Sv-1		+1 Armour save in CC, +2 armour save against non-magical shooting attacks. Immune to Poisoned attacks - they must roll To Wound as normal.	^; High Elves' Korhil	Shooting Armour Save: 3+; HtH Armour Save: 4+; Immune to all poisons	
+hesarior	Sariour Potion	spec	N/A	0	1	itst:reg=heteclis		Makes Teclis a Lvl 4 Wizard; One use only	^; High Elves' Teclis only	Makes Teclis a Lvl 4 Wizard; One use only	
+hehoeth	Scroll of Hoeth	spec	N/A	0	1	itst:reg=heteclis		One use only. Dispels spell. Both Teclis & caster roll D6; if Teclis rolls higher, enemy forgets the spell.	^; High Elves' Teclis only	One use only. Dispels spell. Both Teclis & caster roll D6; if Teclis rolls higher, enemy forgets the spell.	2013
+heithinr	Shield of Ithinar	spec	N/A	0	1	itst:reg=heathin;type:MagicShield		-1 to hit (no effect on attacks on Borgash); 5+ ArSv	^; Liandra Athinol only	-1 to hit (no effect on attacks on Borgash); 5+ ArSv	
+hessston	Shieldstone of Isha	spec	N/A	0	1	itst:reg=heeverqn;xtot;base:wsv=5		Alarielle and her unit gain Ward Save 5+ against non-magical attacks.	^; Everqueen only	Alarielle and her unit gain Ward Save 5+ against non-magical attacks.	
+heathin	Signet of Athinol	spec	N/A	0	1	itst:reg=heathin		Any hits that use Strength are St -2	^; Liandra Athinol only	Any hits that use Strength are St -2	
+hesravel	Star of Avelorn	spec	N/A	0	1	itst:reg=heeverqn;xtot		At start of your Movement phase, you may heal 1 Wound of a single friendly character within 12". Only if there are no other targets she can heal herself.	^; High Elf's Everqueen only	At start of your Movement phase, may heal 1 Wound of a single friendly character within 12". Only if there are no other targets she can heal herself.	2013
+hestavel	Stave of Avelorn	spec	N/A	0	1	itst:reg=heeverqn;xtot		One Use Only. It allows Alarielle to immediately attempt to cast a spell she already cast that phase, even if she failed.	^; High Elf's Everqueen only	One Use Only. It allows Alarielle to immediately attempt to cast a spell she already cast that phase, even if she failed.	
+heanar3	Stone of Midnight	spec	Tal	0	1	itst:reg=heanar	wsv4=incl,aws4=cost	4+ Ward Save. All shooting at the bearer and unit is at -1 To Hit.	^	^	2013
+hesunfag	Sunfang	spec	N/A	0	1	itst:reg=hetyrion;stat:St+3		+3 Strength. Flaming Attacks. Once per battle can use Str4 Breath Weapon with Flaming Attacks special rule.	^; High Elves' Tyrion only	+3 Strength. Flaming Attacks. Once per battle can use Str4 Breath Weapon with Flaming Attacks special rule.	2013
+heteclis	Sword of Teclis	spec	N/A	0	1	itst:reg=heteclis		All hits wound on 2+;  No armour saves	^; High Elves' Teclis	All hits wound on 2+;  No armour saves	
+hetoh	Talisman of Hoeth	spec	Enc	0	1	itst:reg=heelthar;stat:Wz=2;catg:wiz;type:hewiz;type:hemage		Magic Resistance (1). Level 2 Wizard. Can use any of 8 BRB Lores of Magic.	^	^	
+hehelmyv	The Helm of Yvresse	spec	N/A	0	1	itst:reg=heelthar		6+ Armour Save; 5+ Ward Save For Rider and Mount	^; High Elves' Eltharion	6+ Armour Save; 5+ Ward Save	
+heanar1	The Moonbow	spec	MRg	0	1	itst:reg=heanar		Strength 7, Multiple Wounds (D3), Quick to fire, Range 36", penetrates ranks like a bolt thrower, can move and shoot (but not march); Dark Elf units suffering any casualties suffer -1 to Ld until end of the phase	^	^	2013
+hephxbld	The Phoenix Blade	spec	N/A	0	1	itst:reg=hecardrn;stat:St+1		Halberd. Flaming Attacks. Multiple Wounds (D3).	^	^	
+heanar2	The Shadow Crown	spec	Enc	0	1	itst:reg=heanar		Alith Anar and his unit have Swiftstride special rule.	^	Alith Anar and his unit have Swiftstride special rule.	2013
+hewcsaph	War Crown of Saphery	spec	N/A	0	1	itst:reg=heteclis		Teclis' Wizard level is increased by 1.	^; High Elves' Teclis only	Teclis' Wizard level is increased by 1.	
+^
+^
+hehelm	Helm		Priority	N/A	0	zutp:(shield&heavy);zmor:ssave2=auto;zhid				
+hehelm2	Helm		Priority	N/A	0	zutp:(shield&!heavy)|(!shield);zmor:ssave1=auto;zhid				
+^
+hearch	hechbow	cost
+hearch	lahro1	cost
+hearch	longtrp	incl
+hearch	mus10	cost
+hearch	st10	cost
+hebolt	hebltcrw	incl
+hecchar	hechar	incl
+hechar	hechar	incl
+hechphoe	hahro	incl
+hechprin	hahro	incl
+hechprin	shhro	incl
+hechsea	hechmsh	hide
+hechsea	hechwarm	hide
+hechsea	hechwob	incl
+hechsilv	hechmarm	hide
+hechsilv	hechmsh	hide
+hechsilv	hechwarm	hide
+hechsilv	hechwob	incl
+hechspr	hechmsh	hide
+hechspr	hechwarm	hide
+hechspr	hechwob	incl
+hechswor	hahro	incl
+hechwhit	hahro	incl
+hedpcale	hedgarm2	appl
+hedpcale	hedpmarm	cost
+hedpcale	hedpmsh	cost
+hedpcale	hedpmwpn	cost
+hedpcale	hedrake	auto
+hedpcale	lancetrp	incl
+hedpcale	showtrp1	incl
+hehero	he2ndwe5	cost
+hehero	btnostnd	incl
+hehero	heheavy	cost
+hehero	halhro8	cost
+hehero	heldgarm	cost
+hehero	helsteed	cost
+hehero	heromnt	hide
+hehero	helance	cost
+hehero	helong	cost
+hehero	shhro	cost
+hehero	hechchar	cost
+hehero	hepelt	cost
+hehero	general	cost
+hehero	heeagmnt	cost
+hehero	btstand8	cost
+hehero	henatarm	hide
+hehero	hegrfmnt	cost
+hehero	heambush	hide
+helord	he2ndwe5	cost
+helord	hehalber	cost
+helord	heheavy	cost
+helord	hedraghp	cost
+helord	heeagmnt	cost
+helord	hegw	cost
+helord	heldgarm	cost
+helord	helsteed	cost
+helord	heromnt	hide
+helord	helance	cost
+helord	helong	cost
+helord	shhro5	cost
+helord	hechchar	cost
+helord	helsunmt	cost
+helord	general	cost
+helord	hepelt	cost
+hephoex	haltrp	incl
+hephoex	hatrp	appl
+hephoex	hechphoe	cost
+hephoex	mus10	cost
+hephoex	stmg10	cost
+heprince	hechprin	cost
+heprince	hedgarm	incl
+heprince	hesteed	appl
+heprince	helance	incl
+heprince	mus10	cost
+heprince	shwtrp	appl
+heprince	stmg10	cost
+herider	bowtrp2	cost
+herider	chamstat	hide
+herider	hechride	cost
+herider	hesteed	appl
+herider	latrp	appl
+herider	mus10	cost
+herider	hellance	incl
+herider	st10	cost
+hesea	bowtrp	incl
+hesea	hechsea	cost
+hesea	sprtrp	incl
+hesea	hewobst	auto
+hesea	latrp	appl
+hesea	mus10	cost
+hesea	shoptrp	cost
+hesea	st10	cost
+heshadow	hechshad	cost
+heshadow	latrp	appl
+heshadow	bowhro	incl
+hesilver	henatarm	cost
+hesilver	hechsilv	cost
+hesilver	hesteed	appl
+hesilver	hewobst	auto
+hesilver	helance	incl
+hesilver	hatrp	appl
+hesilver	mus10	cost
+hesilver	showtrp2	incl
+hesilver	st10	cost
+hemage	healore	cost
+hemage	hefull	hide
+hemage	helsteed	cost
+hemage	heshow	hide
+hemage	mg1lvl	incl
+hemage	mg2lvl30	cost
+hemage	mgfull	hide
+hemage	mgmiscas	cost
+hemage	mgshow	hide
+hemage	general	cost
+hemagelo	healore	cost
+hemagelo	heeagmnt	cost
+hemagelo	hefull	hide
+hemagelo	helsteed	cost
+hemagelo	heshow	hide
+hemagelo	mg3lvl	incl
+hemagelo	mg4lvl60	cost
+hemagelo	mgfull	hide
+hemagelo	mgmiscas	cost
+hemagelo	mgshow	hide
+hemagelo	hegrfmnt	cost
+hespears	hechspr	cost
+hespears	hewobst	auto
+hespears	latrp	appl
+hespears	mus10	cost
+hespears	shtrp	appl
+hespears	st10	cost
+hespears	sprtrp	incl
+hesword	hegw	incl
+hesword	hatrp	appl
+hesword	hechswor	cost
+hesword	mus10	cost
+hesword	stmg10	cost
+hewhite	hegw	incl
+hewhite	hechwhit	cost
+hewhite	hatrp	appl
+hewhite	mus10	cost
+hewhite	stmg10	cost
+xhechar	longtrp	incl
+xhechar	hellance	incl
+hechsea	hefake1	incl
+hechsea	hefake2	free
+hechsilv	hefake1	incl
+hechsilv	hefake2	free
+hechspr	hefake1	incl
+hechspr	hefake2	incl
+heimrik	heminie	incl
+hetyrion	hemalhan	auto
+hetyrion	general	incl
+heteclis	mg5lvl	incl
+heteclis	heshow	hide
+heteclis	hefull	hide
+heteclis	mgmiscas	cost
+heteclis	mgfull	hide
+heteclis	mgshow	hide
+heteclis	healore	cost
+hekorhil	hatrp	auto
+hekorhil	helnchar	cost
+heelthar	hestrwig	cost
+heelthar	hatrp	incl
+heelthar	longtrp	incl
+heelthar	heradgem	incl
+heelthar	hegrmtbl	cost
+heelthar	mgshow	hide
+heelthar	mgfull	hide
+heelthar	mgmiscas	hide
+heelthar	general	cost
+hemaiden	longtrp	appl
+hemaiden	hatrp	appl
+hemaiden	hefspear	appl
+hegriff	heupg1	cost
+hemagelo	hedramnt	cost
+hemage	henatarm	hide
+hemaiden	mus5	appl
+hemaiden	stmg10	appl
+hemaiden	hechmaid	auto
+hemaiden	hexcmaid	auto
+hesalen	hecstrik	incl
+hesalen	hereflex	incl
+hesalen	hemtact	incl
+hesalen	2ndhwtrp	free
+hesalen	mg2lvl35	incl
+hesalen	hehigh	auto
+hesalen	mgmiscas	cost
+hesalen	hefull	cost
+hesalen	heshow	cost
+hesalen	general	incl
+heathin	hedgarm	incl
+heathin	lancehro	incl
+heathin	heborgsh	auto
+heborgsh	hedrag	auto
+heborgsh	mgfire	incl
+heborgsh	mgfull	cost
+heborgsh	mgmiscas	cost
+heborgsh	mgshow	cost
+heathin	heathin2	auto
+heeverqn	mg4lvl	incl
+heeverqn	mgmiscas	cost
+heeverqn	hehigh	incl
+heeverqn	mglife	incl
+heeverqn	hefull	cost
+heeverqn	hesho2	cost
+heeverqn	heteclis	incl
+hewhite	hepelt	incl
+heeltha2	latrp	incl
+heeltha2	general	incl
+heeltha2	hetyrgen	cost
+heathin	hechoic2	cost
+hesalen	hechoic2	cost
+xheblt	latrp	appl
+heshipco	heshipco	auto
+heshipco	laoptrp	cost
+heshipco	mus6	cost
+heshipco	shtrp	appl
+heshipco	bowtrp2	cost
+heshipco	sprtrp1	cost
+heshipco	hechship	cost
+hemagelo	helsunfl	cost
+hedpcale	heexprnc	incl
+hepytrio	shlrd	incl
+hepytrio	general	incl
+hepytrio	hechoice	cost
+hemagelo	general	cost
+heanar	lalrd	incl
+hemagelo	henatarm	hide
+hedrgmg	healore	hide
+hedrgmg	mg1lvl	incl
+hedrgmg	mg2lvl35	cost
+hedrgmg	mgfull	cost
+hedrgmg	mgmiscas	cost
+hedrgmg	mgshow	cost
+hedrgmg	hemsunmt	incl
+hedrgmg	mgfire	incl
+helnchr	helccrew	incl
+helnchr	helionch	incl
+heldrsun	hedrag	cost
+heldrsun	mgfire	hide
+heldrsun	mgfull	hide
+heldrsun	mgmiscas	hide
+heldrsun	mgshow	hide
+heldrsun	heteclis	incl
+hemdrsun	hedrag	cost
+hemdrsun	mgfire	hide
+hemdrsun	mgfull	hide
+hemdrsun	mgmiscas	hide
+hemdrsun	mgshow	hide
+hemdrsun	heteclis	incl
+hedrstar	hedrag	cost
+hedrstar	mgfire	hide
+hedrstar	mgfull	hide
+hedrstar	mgmiscas	hide
+hedrstar	mgshow	hide
+hedrstar	heteclis	incl
+hedrgmg	general	cost
+xhelncrw	hegw	incl
+heprince	henatarm	incl
+hehlnchr	helnchr1	incl
+hecardrn	hatrp	auto
+heanar	general	cost
+hecardrn	general	cost
+hekorhil	general	cost
+heteclis	general	cost
+hegreate	heupg2	cost
+hegriff	heupg3	cost
+hegriff	heupg2	cost
+heanoasu	hallrd	incl
+heanoasu	halrd	incl
+heanoasu	heromnt	hide
+heanoasu	general	cost
+heanoasu	hefromnt	cost
+heanoasu	heflamnt	cost
+heloreho	helongsw	incl
+heloreho	halrd	incl
+heloreho	general	cost
+heloreho	mg2lvl	incl
+heloreho	heshowsi	cost
+heloreho	hemagict	incl
+hehandma	hela	incl
+hehandma	general	cost
+hehandma	sprtrp2	incl
+hehandma	hebowave	incl
+hehandma	healapre	cost
+xhecutcr	longtrp	incl
+xhecutcr	hellance	incl
+heskycut	hecutcrw	incl
+heskycut	hecutupg	cost
+hecutmnt	hecutcr2	incl
+heseahel	btnostnd	incl
+heseahel	heromnt	hide
+heseahel	hela	incl
+heseahel	bowtrp4	cost
+heseahel	shhro	incl
+heseahel	sprtrp2	incl
+heseahel	hecutmnt	cost
+heseahel	general	cost
+heseahel	btstand8	cost
+hegreat	heupg1	cost
+hesistaz	bowtrp	incl
+hesistaz	latrp	appl
+hesistaz	mus10	cost
+hekorhil	2ndhdlr2	incl
+hecardrn	heashtar	cost
+heeverqn	general	cost
+heteclis	unshow	hide
+heeverqn	unshow	hide
+heeverqn	mglight	incl
+hedragon	heancieu	cost
+helord	henatarm	hide
+hemage	heeagmnt	cost
+heshadow	2ndhwtr1	cost
+helnchr	henatarm	incl
+hegreat	heupg2	cost
+hesistaz	st10	cost
+hesistaz	hebigsis	cost
+hespears	haupg2	cost
+helord	heambush	hide
+hehero	hehoc	cost
+hehero	hemoon	hide
+helord	hehop	cost
+helord	hemoon	hide
+hehero	bowhro	hide
+hehero	hefromnt	hide
+helord	bowhro	hide
+helord	hefromnt	hide
+hehero	heflamnt	hide
+hehero	mg1lvl	hide
+helord	heflamnt	hide
+helord	mg2lvl	hide
+hehero	healore	hide
+helord	heshowsi	hide
+hehero	hescapoi	hide
+hemage	helance	hide
+hemagelo	helance	hide
+hemagelo	heflamnt	hide
+hemage	heflame	cost
+hemage	heflamo	hide
+hemagelo	hedragfl	hide
+hemagelo	heflame	cost
+hemagelo	hechchar	cost
+hemagelo	heflamo	hide
+helord	mg1lvl	hide
+helord	hescapoi	hide
+helord	hela	incl
+hehero	hefspear	cost
+helord	hefspear	cost
+hehero	hela	incl
+hehero	hecutmnt	cost
+helord	hecutmnt	cost
+helord	hegrfmnt	cost
+helord	hewizard	hide
+hehero	helnchar	cost
+hehero	hegw	cost
+hegreate	heupg1	cost
+hecutmnt	hecutupg	cost
+hecchar	hevangua	cost
+hecoasta	hechbow	cost
+hecoasta	hela	incl
+hecoasta	mus10	cost
+hecoasta	st10	cost
+hecoasta	bowhro	incl
+hecoasta	heheavy	cost
+hecoasta	heambush	cost
+hechar	hevangua	cost
+heskycut	hecrew	cost
+hebolt	herepeat	cost
+hegreat	hemore	auto
+hephoeni	hefire	free
+hephoeni	heice	cost
+hesistaz	hemoon	incl
+hesistaz	hefspear	cost
+hesistaz	heqgskir	cost
+hehero	hewizard	hide
+herider	henatarm	hide
+helord	hellance	cost
+hehero	hellance	cost
+hemage	mgfire	hide
+hemage	hechchar	cost
+hemagelo	mgfire	hide
+helord	healore	hide
+hecoasta	shlrd2	incl
+hehero	heremh	hide
+helord	heremh	hide
+helord	heremgw	hide
+heskycut	hemore	auto
+hesilver	hemore	auto
+hewhite	lelgskir	cost
+hesistaz	helong	cost
+hesilver	stmg10vt	cost
+hecoasta	stmg10vt	cost
+hearch	stmg10vt	cost
+hespears	stmg10vt	cost
+^
+^
+hemsg22	Alarielle is present	You must include Alarielle to choose this option in order to take Horn of Isha.
+hemsg24	Alarielle is present	You must include Alarielle to choose this option in order to take Banner of Avelorn on your Battle Standard bearer.
+hemsg2	DOW as Special	Need Opponent's Approval
+hemsg10	Eltharion/Tyrion	Tyrion must be present to take the "Tyrion in Army" option.
+hemsg4	ignore	ignore
+hemsg6	ignore	ignore
+hemsg12	Only 1	Only 1 unit of Lothern Seaguard may be have a magic standard
+hemsg3	Only 1	Only 1 unit may be the "First among Equals"
+hemsg9	Swordmasters	Too many units of Swordmasters (max 1)
+hemsg23	Too many Bolt Throwers	No more than 4 Bolt Throwers may be taken in army up to 2999 points in size. Armies of 3000+ points may take a total of 8 Bolt Throwers.
+hemsg13	Too many Dragons	Only one Dragon can be chosen in games below 4000 points.
+hemsg11	Too Many Generals	You may only have one General
+hemsg1	Too many spells	Too many spells have been selected for an Archmage or Mage
+hemsg21	You must take Alarielle	Your army must include Alarielle the Radiant in order to take Horn of Isha.
+^

@@ -1,0 +1,961 @@
+Description: Hordes of Chaos and Beasts of Chaos Army Books
+Version: 
+Author: 
+For comments, suggestions, and bugs go to:
+http://www.wcp-vancouver.com/forum/index.php
+^
+x Warriors of Chaos	mc	0	cc,sm,dw,he,we,br,lz,ok,ch,dm,dk,og,sk,dz,tk,vm,em		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:always="October 2015";info:always="by DeBelial";none:"Mortal Army";olmt:unit=mcchknt-mcckcosn=1u-max-msg=mcmsg8;olmt:unit=mcchwars-mccwcosn=1u-max-msg=chmsg9;info:always="Eye of the Warp: A model with this rule cannot refuse a challenge, and must issue one if no other model does so. Immediately after killing a non-champion character in a challenge, the controlling player may chooses one of the model's characteristics to be improved by +1 (no characteristics can be increased more than once).";info:always="Eye of the Gods Chart duplicates are cumultative)";info:always=" 2 = Test Ld - if passed -Stupidity, if failed turned into Spawn 3 = +1 BS 4 = +1 To 5 = +1 Armour Save 6 = +1 WS; 7 = Re-roll 1 failed to hit, to wound or save until end of next turn 8 = +1 In; 9 = +1 At; 10 = +1 St; 11 = +1 Ward Save (max 3+); 12 = Test Ld - failed - Stubborn, passed - turned into Daemon Prince";trat:throgg@1u:mccore@1u-flat-msg=mcmsg15;ulmt:type=tamurkhan-max@unit=1-msg=mctmsg01;hide	info:always=" "
+^
+mccwchmp	Aspiring Champion		N/A	Champion	champ	1:1	10	0	coun	hide		Eye of the Gods			Chaos Warrior Champion, 2013	4	5	3	4	4	1	5	3	8	7	7	0	0	1	0	0	0
+mcsteed	Barded Chaos Steed	CSted	N/A	Mount	mount	1	0	0		hide					2013	8	3	0	4	3	1	3	1	5	7	7	0	0	0	0	0	0
+mctamaho	Battle Howdah		N/A	N/A		1:1	50	0		hide		Can transport unit of 20 models. Models enter or leave Howdah in the same way as the building. Mammoth must remain stationary for entire turn if a unit is to enter or leave Battle Howdah. Model in Howdah count as having Throwing Axes. They cannot fight in cc, but up to 5 models may use the Throwing Axes agains unit in cc with Mammoth.			Mammoth upgrade	0	0	0	0	6	6	0	0	0	4	7	0	0	0	0	0	0
+mctabube	Bubebolos		N/A	Monster	mount	1:1	0	0	attr:Type="Mo"	hide		Monster (Thunderstomp); Large Target, Terror, Scaly Skin (3+); Immune to Psychology; #Unspeakable Foulness: breath weapon, models hit must take a Tounghness test at -1 or suffer D3 wounds with no armour saves; #Tongue Lash: in addition to normal attacks has special additional attack that is made against single model in btb with S4, Poisoned Attacks and Always Strike First rule, victim has -1 to hit for that combat round; #Colossal Beast: may only be wounded by Strength 4 or more, no attack may wound him on better than 4+, attack or spells that auto-kill inflict D6 wounds instead; His Thuderstomp inflicts 2D6 hits		Mark of Nurgle		8	5	0	8	7	10	2	4	7	3	7	0	0	0	0	1	0
+mctaroch	Champion		N/A	Champion	champ	1:1	10	0	coun	hide		Eye of the Gods		Rot Knight Champion	2013	4	5	3	4	4	1	5	3	8	2	7	0	0	2	0	0	0
+mcchch	Chaos Chariot	Chrt	N/A	Mount	mount	1:1	110	0	attr:At="D6+1";attr:Type="Ch"	hide;tloc:whennot=slaap-nurgunit-msg=chmsg7;tloc:whennot=slaap-tzeeunit-msg=chmsg7;tloc:whennot=slaap-khrnunit-msg=chmsg7;tloc:whennot=nurgp-slaaunit-msg=chmsg7;tloc:whennot=nurgp-tzeeunit-msg=chmsg7;tloc:whennot=nurgp-khrnunit-msg=chmsg7;tloc:whennot=tzeep-slaaunit-msg=chmsg7;tloc:whennot=tzeep-nurgunit-msg=chmsg7;tloc:whennot=tzeep-khrnunit-msg=chmsg7;tloc:whennot=khrnp-slaaunit-msg=chmsg7;tloc:whennot=khrnp-tzeeunit-msg=chmsg7;tloc:whennot=khrnp-nurgunit-msg=chmsg7;lglx:!mode=b				Incl 1 Chaos Warrior armed w/ Halberds, 2 barded Chaos Steeds, and Scythed Wheels		0	0	0	5	5	4	0	0	0	3	7	0	0	4	0	0	0
+mcdragon	Chaos Dragon		N/A	Monster	mount	1:1	330	0	attr:Type="Mo"	hide;forc		Monster (Thunderstomp); Fly, Large Target, Terror, Scaly Skin (3+); 2 Breath Weapons: one is S4 Flaming Attack and the other is S2 with no Armour Save			2013	6	6	0	6	6	6	3	6	8	3	7	0	0	6	0	0	0
+mcshrin2	Chaos Shrine Bearers	ShrB	N/A	N/A	crew	1:1	0	0	attr:At="D6+2"	hide					2013	6	3	3	4	0	0	2	0	0	7	7	0	0	0	0	0	0
+mcshrin1	Chaos Shrinemaster	ShrM	N/A	N/A	crew	1:1	0	0		hide					2013	0	5	3	4	0	0	5	2	8	7	7	0	0	0	0	0	0
+mcspawn2	Chaos Spawn		N/A	Monster	spawn	0	0	0	attr:Mv="2D6";attr:At="D6+1"	hide		Compulsary Movement (declare direction before rolling, move in straight line); Random # of attacks per turn; Unbreakable; Fear				0	3	0	4	5	3	2	0	10	7	7	0	0	3	0	0	0
+mcchsted	Chaos Steed	CSted	N/A	Mount	mount	2:2	0	0		hide					2013	8	3	0	4	0	0	3	1	0	7	0	0	0	0	0	0	0
+mcchcrew	Chaos Warrior Crew	CWs	N/A	N/A	crew	1:2	0	0		hide					2013	0	5	0	4	0	0	5	2	8	7	7	0	0	0	0	0	0
+mctamaws	Chaos Warshrine		N/A	N/A		1:1	0	0	type:mawarshr	hide		Giver of Glory: ALL Champs have  Eye of the Gods Special Rule, During shooting one unit with in 12" may roll on EotG Chart, in next shooting phase shrine MAY choose to roll again for same or different unit, this negates previous roll. Multiple shrine may effect the same unit. 			Mammoth upgrade	0	0	0	0	5	5	0	0	0	4	5	0	0	0	0	0	0
+mcwarsmt	Chaos Warshrine		N/A	Mount		1:1	125	0	calc:Num=#;attr:Type="Ch"	hide;tloc:whennot=slaap-nurgunit-msg=chmsg7;tloc:whennot=slaap-tzeeunit-msg=chmsg7;tloc:whennot=slaap-khrnunit-msg=chmsg7;tloc:whennot=nurgp-slaaunit-msg=chmsg7;tloc:whennot=nurgp-tzeeunit-msg=chmsg7;tloc:whennot=nurgp-khrnunit-msg=chmsg7;tloc:whennot=tzeep-slaaunit-msg=chmsg7;tloc:whennot=tzeep-nurgunit-msg=chmsg7;tloc:whennot=tzeep-khrnunit-msg=chmsg7;tloc:whennot=khrnp-slaaunit-msg=chmsg7;tloc:whennot=khrnp-tzeeunit-msg=chmsg7;tloc:whennot=khrnp-nurgunit-msg=chmsg7		War Platform - Chariot with no Impact Hits, no Swiftstride, treat as Infantry for purposes of difficult terrain, if Shrine have Frenzy, both Shrinemaster and Bearers gain Extra Attack; Fear; Protection of the Dark Gods (ward Save 4+); #Favour of the Ruinous Powers - friendly models within 12" roll 3D6 on EotG table, and discard single dice of their choosing; # Giver of Glory - innate bound spell (power level 4), Augment, D3 friendly models within 12" roll on EotG table.			Warshrine mount, 2013	0	0	0	0	5	5	0	0	0	4	4	0	0	4	0	1	0
+mcmrchmp	Chieftain		N/A	Champion	champ	1:1	10	0	coun	hide		Eye of the Gods		Marauder Foot Champion	2013	4	4	4	3	3	1	4	2	7	7	7	0	0	1	0	0	0
+mcmrhrch	Chieftain		N/A	Champion	champ	1:1	10	0	coun	hide		Eye of the Gods		Marauder Horse Champion	2013	4	4	3	3	3	1	4	2	7	6	7	0	0	2	0	0	0
+mcchchmp	Chosen Champion		N/A	Champion	champ	1:1	10	1	coun	hide		Eye of the Gods			Chaos Chosen Champion, 2013	4	6	3	4	4	1	5	3	8	7	7	0	0	1	0	0	0
+mcdaemon	Daemonic Mount	DMnt	N/A	Mount	mount	1	0	0		hide		Fear; Daemonic Attacks		Monstrous Beast (Stomp);	2013	8	4	0	5	5	3	3	2	8	7	7	0	0	0	0	0	0
+mcdisc	Disc of Tzeentch	DMnt	N/A	Mount	mount	1	0	0		hide		Daemonic Attacks, Fear, Fly		War Beast	2013	1	3	0	4	4	1	4	3	7	7	7	0	0	0	0	0	0
+mcckchmp	Doom Knight		N/A	Champion	champ	1:1	10	0	coun	hide		Eye of the Gods			Chaos Knight Champion, 2013	4	5	3	4	4	1	5	3	8	1	7	0	0	2	0	0	0
+mcdorghr	Dorghar		N/A	Monster	mount	1:1	70	0		hide;forc		Daemonic Attacks; Fear; Strider			2013	8	4	0	5	5	3	3	3	9	7	7	0	0	0	0	0	0
+mcdochmp	Dragon Ogre Shartak		N/A	Champion	champ	1:1	10	0	coun	hide					Dragon Ogre Champion, 2013	7	4	2	5	4	4	2	4	8	5	7	0	0	1	0	0	0
+mcgorebe	Gorebeast	GSte	N/A	Mount	mount	1:1	0	0		hide					2013	6	4	0	5	0	0	2	3	0	7	7	0	0	0	0	0	0
+mcgoremt	Gorebeast Chariot	GoMnt	N/A	Mount	mount	1:1	130	0	attr:At="D6+1";attr:Type="Ch"	hide;tloc:whennot=slaap-nurgunit-msg=chmsg7;tloc:whennot=slaap-tzeeunit-msg=chmsg7;tloc:whennot=slaap-khrnunit-msg=chmsg7;tloc:whennot=nurgp-slaaunit-msg=chmsg7;tloc:whennot=nurgp-tzeeunit-msg=chmsg7;tloc:whennot=nurgp-khrnunit-msg=chmsg7;tloc:whennot=tzeep-slaaunit-msg=chmsg7;tloc:whennot=tzeep-nurgunit-msg=chmsg7;tloc:whennot=tzeep-khrnunit-msg=chmsg7;tloc:whennot=khrnp-slaaunit-msg=chmsg7;tloc:whennot=khrnp-tzeeunit-msg=chmsg7;tloc:whennot=khrnp-nurgunit-msg=chmsg7;lglx:!mode=b		Chariot; Gorebeast Charge - impact hits have Killing blow special rule		Incl 2 Chaos Warriors armed w/ Halberds, 1 Gorebeast, and Scythed Wheels		0	0	0	5	6	5	0	0	0	3	7	0	0	4	0	0	0
+mchccrew	Hellcannon Crew		N/A	N/A	crew	3:3	0	0		hide					2013	3	4	3	3	4	1	2	1	9	5	0	0	0	1	0	0	0
+mcsoulch	Hellreaver		N/A	Champion	champ	1:1	10	0	coun	hide		Eye of the Gods			Hellstriders Champion, 2013	4	4	3	3	3	1	5	2	7	7	7	0	0	1	0	0	0
+mchndkrn	Hound of Khorne		N/A	Daemons	mount	1:1	0	0		hide		Daemonic Mount; MR(2)				7	5	0	5	5	3	4	2	8	7	5	0	3	3	0	0	0
+mcjug	Juggernaut of Khorne	DMnt	N/A	Mount	mount	1	0	0		hide		Fear, Brass Behemoth, Murderous Charge (+1 S on charge), Daemonic Attacks		Monstrous Beast (Stomp)	2013	7	5	0	5	4	3	2	3	7	7	7	0	0	0	0	0	0
+mcjugger	Juggernaut of Khorne	DMnt	N/A	Mount	mount	1	0	0		hide		Fear, Brass Behemoth, Murderous Charge (+1 S on charge), Daemonic Attacks		Monstrous Beast (Stomp)	2013	7	5	0	5	4	3	2	3	7	7	7	0	0	0	0	0	0
+mcmant	Manticore		N/A	Monster	mount	1:1	150	0	attr:Type="Mo"	hide;forc		Monster (Thunderstomp); Fly, Large Target, Terror, Killing Blow, Uncontrollable			2013	6	5	0	5	5	4	5	4	5	7	7	0	0	4	0	0	0
+mcmontsl	Mount		N/A	Mount	mount	1	0	0		hide						10	3	0	3	0	0	5	1	0	7	7	0	0	0	0	0	0
+mcslaamt	Mount		N/A	Mount	mount	1	0	0		hide						10	3	0	3	3	1	5	1	8	7	7	0	0	0	0	0	0
+mcogrech	Ogre Mutant		N/A	Champion	champ	1:1	10	0	coun;attr:Type="In"	hide		Ogre Charge; Eye of the Gods		Ogre Champion	2013	6	3	2	4	4	3	2	4	7	7	7	0	0	1	0	1	0
+mcpal	Palanquin of Nurgle	DMnt	N/A	Mount	mount	1	0	0	attr:Type="MB"	hide		Monstrous Beast (Stomp, Swiftstride); Fear, Daemonic Attacks				4	3	0	3	3	4	3	6	7	7	7	0	0	0	0	0	0
+mcputcha	Putrid Blightking Champion		N/A	Champion	champ	1:1	10	1	coun	hide		Eye of the Gods			Putrid Blightking Champion, 2014	4	6	3	4	5	3	5	4	8	7	7	0	0	1	0	0	0
+mctarotb	Rotbeast	RotB	N/A	Mount	mount	1	0	0		hide		Poisoned Attacks			Kayzk and Rot Knights mount	7	2	0	4	4	2	2	2	6	7	7	0	0	0	0	0	0
+mcskcham	Skullhunter		N/A	Champion	champ	1:1	10	0	coun	hide		Eye of the Gods			Skullcrushers Champion; 2013	4	5	3	4	4	1	5	3	8	1	7	0	0	2	0	0	0
+mcskulch	Skullreaper Champion	SkRCh	N/A	Champion	champ	1:1	10	0	attr:Type="In";coun	race:lc,gl;hide		Infantry; Mark of Khorne; Eye of the Gods			10-2014	4	6	3	4	4	3	5	4	8	7	7	0	0	1	0	0	0
+mcsos	Steed of Slaanesh	DMnt	N/A	Mount	mount	1	0	0	attr:Type="Ca"	hide		Cavalry; Fear, Poisoned Attacks, Fast Cavalry, Armour Piercing, Daemonic Attacks				10	3	0	3	3	1	5	1	7	7	7	0	0	0	0	0	0
+mcchflay	Wallcreeper		N/A	Champion	champ	1:1	14	1	coun	hide				Flayerkin Champion	UNOFFICIAL! Flayerkin Champion by DeBelial	4	4	3	4	3	1	4	2	8	7	7	0	0	1	0	0	0
+mchorse	Warhorse		N/A	Mount	mount	1	0	0		hide						8	3	0	3	3	1	3	1	5	7	7	0	0	0	0	0	0
+mcwratch	Wrathmonger Champion	WrMCh	N/A	Champion	champ	1:1	10	0	attr:Type="In";coun	race:lc,gl;hide		Infantry; Mark of Khorne; Eye of the Gods			10-2014	4	6	3	5	4	3	5	4	8	7	7	0	0	1	0	0	0
+mcarbaal	Arbaal the Undefeated, Destroyer		Lord	Alternate Rules		1:1	425	0	spec:+weap;spec:+ward;type:Ld9;take:mcgazego-free-perm;take:mcdeskrn-free-perm;attr:Type="MB"	umax:1u;must:option=mcchoice@min=1-msg=mcmsg10		Monstrous Beast (Stomp), 		From Citadel Journal		4	8	3	5	5	3	8	5	9	7	4	0	0	1	0	1	0
+mcarch	Archaon, The Everchosen	Arch	Lord	Lord		1:1	580	0	type:mortal;xmpt:limit;type:skirmishers;type:Ld10;spec:+cgif;type:sorc;type:tzeemage;take:mcmorkar-free-perm;take:mcslayer-free-perm;take:mccrwndm-free-perm;take:mcsheern-free-perm;ipts:total=0;type:specialchar;attr:Type="In"	umax:1;race:lc		Infantry; Eye of the Gods; Chosen of the Gods: One unit of unmarked Chaos Knights in the army can be designated as the Swords of Chaos.		Lord;	2013	4	9	5	5	5	4	7	5	10	7	7	2	0	0	0	1	0
+mcbelako	Be'lakor, The First Daemon Prince		Lord	Wizard		1:1	500	0	type:Ld10;attr:Type="Mo";take:mcbelak1-free-perm	umax:1u;race:dm,lc,gl		Monster (Thunderstomp); Terror; Unbreakable; Fly; Loremaster (Lore of Shadow); Daemonic Attacks; #The Dark Master: All enemy units within 12" of Be’lakor suffer a -1 penalty to the Leadership characteristic on their profile; #Shadow Form: 4+ ward save, attacks that target Be’lakor in the Shooting phase have a -2 To Hit modifier; #Lord of Torment: If one or more enemy units failed a Panic or Break test during the previous turn, Be’lakor receives D3 additional power dice in the Magic phase. These bonus power dice do not count towards the maximum number of dice in the power pool, and only Be’lakor can make use of them. Any unused power dice are discarded at the end of the Magic phase as normal.		Battlescrolls - Be'lakor by GW digital products; Lord; Level 4 Wizard with Lore of Shadow		8	9	5	6	5	4	8	5	10	7	4	0	0	0	0	0	0
+mcmaggo2	Bloab Rotspawned	Magg2	Lord	Wizard	monster	1:1	415	0	calc:Num=#;attr:Type="Mo";type:nurg;type:Ld8;take:mcmaggo2-free-perm	race:lc,gl		Monster (Special Character, Thunderstomp); Fear; Eye of the Gods; Mark of Nurgle; #Bilespurter: shooting attack, as stone thrower, range 24", St3(4), no armour saves; #Daemon Flies: at the start of each friendly Magic phase, every enemy unit within 6" suffer D6 S3 magical hits.			10-2014	6	5	3	6	5	8	5	6	8	3	7	0	0	6	0	1	0
+mclord	Chaos Lord		Lord	Hero		1:1	210	100	ipts:total=150-each=100;type:mortal;type:skirmishers;type:Ld9;spec:+cgif;attr:Type="In"	clmt:weap+armr+ench+ward<=100-points-msg=mcmsg31;clmt:cgif<=50-points-msg=mcmsg30;race:lc,gl		Infantry; Will of Chaos; Eye of the Gods		Lord; Includes Chaos Armour	2013	4	8	3	5	5	3	7	5	9	7	7	0	0	1	0	1	0
+mcsorcld	Chaos Sorcerer Lord		Lord	Wizard		1:1	235	100	ipts:total=150-each=100;type:mortal;type:skirmishers;type:Hero;type:sorc;spec:+armr;catg:her;type:Ld8;type:nottehsuck;spec:+cgif;attr:Type="In"	clmt:weap+armr+ench+ward+wzrd<=100-points-msg=mcmsg31;clmt:cgif<=50-points-msg=mcmsg30;race:lc,gl		Infantry; Eye of the Gods		Lord; Incls Chaos Armour; Lvl 3 Wizard; May choose Death, Fire, Shadow or Metal or lore of his patron god if marked.	2013	4	5	3	4	4	3	5	3	8	7	7	0	0	1	3	1	0
+mccrom	Crom the Conqueror, Harbringer of the End Times	Crom	Lord	Lord	Lord	1:1	230	0	type:mortal;xmpt:limit;type:skirmishers;type:Ld9;ipts:total=0;type:specialchar;attr:Type="In"	umax:1		Infantry; Eye of the Gods; #Immense Pride:  he must always issue or accept issued challenges, even if there are other characters that must do so; #Way of the Warrior: choose the way he is fighting at the start of each CC phase. Two hand weapons: add +3 attacks instead of 1 OR hand weapon and shield: shield adds +2 to his armour save instead of 1 and his parry save gives him 5+ ward save; Chaos Armour, Shield, Additional Hand Weapon		Lord (Special character); incl. Chaos Armour, Shield and Additional Hand Weapon	Varder Crom, End Times (Nagash), 2014	4	9	3	5	5	3	8	5	9	3	7	0	0	1	0	1	0
+mcegrimm	Egrimm Van Horstman, Sorceror		Lord	Alternate Rules		1:1	530	0	spec:+weap;type:Ld9;take:mckatam-free-perm;xmpt:limit;spec:+spel;type:sorc;spec:+wzrd;take:mcsplfam-free-perm;take:mcrunesd-free-perm;attr:Type="In"	umax:1;must:option=mcchoice@min=1-msg=mcmsg10		Infantry; Army led by Egrimm gets +1 on dice to choose table sides and who goes first		From Citadel Journal		4	8	3	5	5	3	8	5	9	7	7	4	2	1	4	1	0
+mcgal	Galrauch, The Great Drake	Gal	Lord	Lord		1:1	510	0	type:Ld9;type:sorc;type:tzeemage;ipts:total=0;type:specialchar;attr:Type="Mo"	umax:1;race:lc,gl		Monster (Thunderstomp); Fly; Terror; Scaly Skin (+3); Large Target; #Dark Fire of Chaos- Breath Weapon, St4,Flaming Attacks; #Breath of Change- Breath Weapon, any models hit test Toughness or are removed from play with no saves of any kind allowed; #Spirit of Galrauch: Pass a Ld test at the beginning of owning player's turn. If failed Galrauch may not move, cast spells or use his Breath Weapons . In or out of CC, Half of his attacks are worked out against himself. In CC wounds suffered by Galrauch in this way count toward the enemies combat resolution.		Lord; 		6	6	6	6	6	6	6	6	9	3	7	0	0	6	0	1	0
+mcgutrot	Gutrot Spume		Lord	Lord		1:1	250	0	attr:Type="In";attr:At="5+D3";type:Ld10;type:nurg;spec:+cgif;take:mcnurrot-free-perm	umax:1u;race:ch,dm,lc,gl		Infantry (Special Character); Eye of the Gods; Chaos Armour; #At Home at Land or Sea: Gutrot and his unit can move in any water area on the battlefield, even considered impassable, as if it was open ground. They can march, claim rank bonus and be steadfast whilst within areas of water; #Flailing Tentacles: +D3 attacks				4	8	3	5	5	4	7	5	10	4	0	0	0	0	0	1	0
+mcharry	Harry The Hammer		Lord	Special Characters		1:1	365	0	ipts:total=0;type:mortal;type:Ld9;spec:+armr;spec:+weap;spec:+ward;xmpt:limit;take:mchammer-free-perm;take:mcdamn-free-perm;take:mcbaneh-free-perm;attr:Type="In"	must:option=mcchoice@min=1-msg=mcmsg2		Infantry; Eye of the Gods; Harry and his unit are Unbreakable and have Hatred (Undead); Bane of the Dead: He and any unit he joins causes Terror in undead, See his rules for further explanation		Lord; Needs opponents approval		4	8	3	5	5	3	8	5	9	7	7	0	0	1	0	1	0
+mckholek	Kholek Suneater	Khlk	Lord	Lord		1:1	545	0	type:mortal;xmpt:limit;type:skirmishers;type:Ld9;spec:+cgif;take:mctempst-free-perm;take:mccrush-free-perm;ipts:total=0;type:specialchar;attr:Type="Mo"	umax:1;race:lc,gl		Monster (Thunderstomp); Large Target; Immune to Psychology; Scaly Skin (4+); Terror; Storm Rage		Lord;		8	8	3	8	6	8	1	7	9	4	7	0	0	8	0	1	0
+mclokjar	Lokjar Bjoergir		Lord	Special Characters		1:1	260	0	type:skirmishers;type:Ld9;spec:+weap;spec:+armr;spec:+ench;take:mcsklslg-free-perm;take:mcclansh-free-perm;take:mcsntrcl-free-perm;xmpt:limit;attr:Type="In"	must:option=mcchoice@min=1-msg=mcmsg10;umax:1		Infantry; Eye of the Gods; Must be the General; Frenzied after failing an AS; May reroll failed Psychology Tests		From German 2002 WFB Campaign, "Thelarion´s Curse"; Lord		4	6	3	5	4	2	6	4	9	7	7	0	0	1	0	1	0
+mcmaggo3	Morbidex Twiceborn	Magg3	Lord	Lord	monster	1:1	385	0	calc:Num=#;attr:Type="Mo";type:Ld8;type:nurg;spec:+cgif;take:mcnurrot-free-perm	race:lc,gl		Monster (Special Character, Thunderstomp); Fear; Eye of the Gods; Mark of Nurgle; Regeneration; Daemon Flesh (Ward Save 6+); #Tripletongue: shooting attack, range 6", St6, Poisoned Attacks, Quick to Fire; #Lord of Nurglings: All Nurglings within 12" have Regeneration special rule.			10-2014	6	7	3	6	5	8	6	7	8	3	6	0	0	6	0	1	0
+mcmaggo1	Orghotts Daemonspew	Magg1	Lord	Lord	monster	1:1	430	0	calc:Num=#;attr:Type="Mo";type:Ld9;spec:+cgif;take:mcmaggo1-free-perm;take:mcicor-free-perm	race:lc,gl		Monster (Special Character, Thunderstomp); Fear; Eye of the Gods; Mark of Nurgle; Daemon Flesh (Ward Save 6+); #Whippermaw: shooting attack, range 6", St4, Killing Blow, Poisoned Attacks, Quick to Fire			10-2014	6	8	3	6	5	9	7	8	9	3	6	0	0	6	0	1	0
+mctasayl	Sayl the Faithless		Lord	Special Characters	Lord	1:1	325	100	type:mortal;type:skirmishers;type:Hero;type:sorc;catg:her;type:Ld9;type:nottehsuck;attr:Type="In";spec:+armr;spec:+weap;spec:+wzrd;spec:+spel;take:mctasasp-free-perm;take:mctasay1-free-perm;take:mctasay2-free-perm	umax:1u		Infantry; Will of Chaos; Eye of the Gods; #Mutant Sight: re-roll all failed characteristic tests, channels Power dice on 5-6		UNOFFICIAL! Warhammer Forge character; Allows Nightmaw the Spawn to be fielded (check Other composition group)		4	6	3	4	4	3	6	3	9	7	7	0	0	0	0	1	0
+mcsigvld	Sigvald the Magnificent	Sig	Lord	Lord		1:1	375	0	type:mortal;xmpt:limit;type:skirmishers;type:Ld10;spec:+cgif;take:mcauric-free-perm;take:mcsliver-free-perm;ipts:total=0;type:specialchar;attr:Type="In"	umax:1;race:lc,gl		Infantry; Eye of the Gods; Stubborn; Strider;  #Favoured Son- when entitled to roll on EotG table, he always gets +1At; #Supreme Vanity- Stupidity, test cannot be re-rolled		Lord;		4	8	3	5	5	3	8	5	10	7	7	0	0	1	0	1	0
+mcskarrb	Skarr Bloodwrath	Skarr	Lord	Lord		1:1	300	0	type:mortal;type:skirmishers;type:Ld8;spec:+cgif;ipts:total=0;type:specialchar;attr:Type="In";take:mcskarr1-free-perm	umax:1;race:lc,gl		Infantry (Special Character); Eye of the Gods; Immune to Psychology; Magic Resistance (1); #Bloodborn: keep count of models Skarr kills in a challenge and monsters he kills - this is Blood Tally. If he dies place a counter in spot of his death. At the end ot the turn roll D6 and add the total of Blood Tally. On 1-3 he is dead permanently. On 4+ he is reborn with D3 wounds within 6" of the spot he died, at least 1" away from any models and impassable terrain. If it is impossible to place him, he is dead permanently.		Lord; Mark of Khorne	2013	4	8	3	5	5	3	7	5	8	4	7	0	0	1	0	1	0
+mctamurs	Tamurkhan, the Maggot Lord - Sargath		Lord	Special Characters		1:1	645	0	attr:Type="In";type:Ld9;spec:+weap;take:mctamur1-free-perm;type:tamurkhan	umax:1u		Infantry; Will of Chaos; Eye of the Gods; Unbreakable; Fear; Chaos Armour; #Feast of the Maggot Lord: Possession Attack (tries to take over another body when he is killed); 		UNOFFICIAL! Warhammer Forge character; Must be army's General		3	7	3	5	5	3	5	4	9	4	0	0	0	0	0	0	0
+mctamurt	Tamurkhan, the Maggot Lord - Tyrant		Lord	Special Characters		1:1	835	0	attr:Type="MI";type:Ld9;spec:+weap;take:mctamur2-free-perm;type:tamurkhan	umax:1u		Monstrous Infantry (Stomp); Will of Chaos; Eye of the Gods; Unbreakable; Fear; Chaos Armour; #Feast of the Maggot Lord: Possession Attack (tries to take over another body when he is killed); 		UNOFFICIAL! Warhammer Forge character; Must be army's General		5	7	3	5	6	6	3	5	9	4	0	0	0	0	0	0	0
+mcvalkia	Valkia The Bloody	Vlk	Lord	Lord		1:1	405	0	type:mortal;xmpt:limit;type:skirmishers;type:Ld9;spec:+cgif;take:mcdmnshd-free-perm;take:mcslaup-free-perm;ipts:total=0;type:specialchar;take:mcscarlt-free-perm;attr:Type="In"	umax:1;race:lc,gl		Infantry; Eye of the Gods; Fly; Fear; #Consort of the Blood God: when rolling on EotG table Valkia always counts as having rolled +1St; #Gaze of Khorne: Any friendly unit within 12" re-roll failed Break Tests; Any friendly unit that flees within 12" of Valkia will suffer D6 S6 hits		Lord;	2013	4	9	3	5	5	3	8	6	9	7	7	0	0	1	0	1	0
+mcviltch	Vilitch the Curseling	Vili	Lord	Wizard		1:1	380	0	type:Ld8;type:sorc;type:tzeemage;ipts:total=0;take:mcvessel-free-perm;spec:+cgif;attr:Type="In"	umax:1;race:lc,gl		Infantry; Eye of the Gods; Loremaster (Lore of Tzeentch)		Lord; Level 4 wizard		4	5	3	5	4	3	5	3	8	7	7	0	0	1	0	1	0
+mcaekold	Aekold Helbrass, Champion		Hero	Alternate Rules	Hero	1:1	290	0	spec:+weap;type:Ld8;take:mcwndbld-free-perm;type:nottensuck;xmpt:limit;spec:+spel;type:sorc;attr:Type="In"	umax:1;must:option=mcchoice@min=1-msg=mcmsg10		Infantry; Breath of Life - Regeneration; all models in btb (friend or foe) also have Regeneration; If Aekold is killed, at end of the game a roll of 4+ means Aekold does NOT count as killed		From Citadel Journal		4	8	3	5	4	2	7	4	8	7	7	2	1	1	2	1	0
+mcsorcrr	Chaos Sorcerer		Hero	Wizard	Hero	1:1	110	100	type:mortal;type:sorc;ipts:total=75-each=50;spec:+armr;catg:her;type:Ld8;spec:+cgif;attr:Type="In"	clmt:weap+armr+ench+ward+wzrd<=50-points-msg=mcmsg41;clmt:cgif<=25-points-msg=mcmsg42;race:lc,gl		Infantry; Eye of the Gods		Incls Chaos Armour; Lvl 1 Wizard; May choose Death, Fire, Shadow or Metal or lore of his patron god if marked.	2013	4	5	3	4	4	2	5	2	8	7	7	1	1	1	1	1	0
+mcdaeomn	Daemon Prince		Hero	Lord		1:1	235	100	ipts:total=125-each=100;type:mortal;type:skirmishers;type:Ld9;spec:+cgif;spec:+armr;attr:Type="Mo"	clmt:weap+armr+ench+ward+wzrd<=25-points-msg=mcmsg33;clmt:cgif<=100-points-msg=mcmsg34;tloc:not=undvd-msg=mcmsg35;race:lc,gl		Monster (Thunderstomp); Ward Save 5+; Terror; Daemonic Attacks; Unbreakable		Lord	2013	8	9	5	6	5	4	8	5	9	7	5	0	0	3	0	1	0
+mcdech	Dechala, The Denied One		Hero	Alternate Rules	Hero	1:1	245	0	type:nottehsuck;type:Ld8;attr:Type="In"	umax:1u;must:option=mcchoice@min=1-msg=mcmsg10		Infantry; Poisoned Attacks; May choose one Dance of Slaanesh for each round		From Citadel Journal	5th edition hero remake - by DeBelial, 8th edition version	7	8	3	4	4	2	9	6	8	7	7	0	0	1	0	1	0
+mcaspire	Exalted Hero		Hero	Hero	Hero	1:1	110	100	ipts:total=150-each=125;type:skirmishers;type:mortal;type:Ld8;spec:+cgif;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=mcmsg1;clmt:stnd<=1-count;clmt:cgif<=25-points-msg=mcmsg6;race:lc,gl		Infantry; Eye of the Gods		Hero; May be BSB; Incls Chaos Armour;	2013	4	7	3	5	4	2	6	4	8	7	7	0	0	1	0	1	0
+mcfestus	Festus the Leechlord	Fsts	Hero	Hero	Hero	1:1	190	0	type:mortal;xmpt:limit;type:skirmishers;type:Ld8;spec:+cgif;ipts:total=0;type:specialchar;take:mcpotion-free-perm;type:sorc;type:nurgmage;attr:Type="In";type:festus	umax:1;race:lc		Infantry; Eye of the Gods; Regeneration; Poisoned Attacks; #Harbringer of Pestilence- unit joined by Festus gains Poisoned Attacks; #Healing Elixirs- unit joined by Festus gains Regeneration (5+)		Hero;		4	4	2	4	4	2	2	2	8	7	7	0	0	1	0	1	0
+mctakayz	Kayzk the Befouled		Hero	Special Characters		1:1	190	0	attr:Type="MC";type:Ld8;type:kayzk	umax:1u		Monstrous Cavalry (Stomp, Swiftstride); Will of Chaos; Eye of the Gods; Fear; Regeneration (5+); Poisoned Attacks; Chaos Armour; #Corrupted Flesh: non-Flaming attacks are at -1 To Wound rolls against Kayzk		UNOFFICIAL! Warhammer Forge character; Allows Rot Knights to be fielded;		4	7	3	5	5	2	2	4	8	4	0	0	0	0	0	1	0
+mcscyla	Scyla Anfingrimm	Scyla	Hero	Hero	infantry	1:1	105	0	type:mortal;xmpt:limit;type:skirmishers;spec:+cgif;take:mcbcok-free-perm;ipts:total=0;type:specialchar;attr:At="D6+2/3";attr:Type="MB";type:Ld10	umax:1;race:lc,gl		Monstrous Beast (Stomp), Fear; Hatred; Random Attacks (D6+2); Scaly Skin (5+); Unbreakable		Hero		6	4	0	5	5	4	3	0	10	5	7	0	0	3	0	1	0
+mcthrogg	Throgg, King of Trolls	Thrgg	Hero	Hero	Hero	1:1	195	0	type:mortal;xmpt:limit;type:skirmishers;type:Ld8;ipts:total=0;type:specialchar;type:sorc;type:throgg;attr:Type="MI";take:mcthrog1-free-perm	umax:1;race:lc,gl		Monstrous Infantry (Stomp); Eye of the Gods; Fear; #Corpious Vomit: Str5 Breath Weapon, no armour saves; #Lord of the Monstrous Horde- Trolls count as Core choice; #Mutant Regeneration- each time he regenerate two or more Wounds in single phase, he gets to roll on EotG table at the end of that phase.		Hero;		6	5	2	6	5	4	2	5	8	7	7	0	0	3	0	1	0
+mcwulf	Wulfrik the Wanderer	Wulf	Hero	Hero	Hero	1:1	180	0	type:mortal;xmpt:limit;type:skirmishers;type:Ld8;spec:+cgif;ipts:total=0;type:specialchar;attr:Type="In"	umax:1;race:lc,gl		Infantry; Eye of the Gods; #Gift of Tongues- enemy cannot refuse a challenge, and you get to choose who will accept it; # Hunter of Champions- At beginning of Game, Wulfrik nominates a single enemy model. Wulfrik gains +2 Str and may re-roll all rolls to hit VS nominee; # Seafang: Wulfrik and a single unit of Mauraders my choose to not deploy but enter from any table edge as Ambushers. Wulfrik must enter the table joined to that unit.		Hero;	2013	4	8	3	5	4	2	7	4	8	7	7	0	0	1	0	1	0
+mcchchrt	Chaos Chariot	Chrt	Core	Machine	chariot	1:1	110	0	attr:At="D6+1";attr:Type="Ch";calc:Num=#	race:lc,gl		Chariot		Incl 2 Chaos Warriors armed w/ Halberds, 2 Chaos Steeds, and Scythed Wheels	2013	0	0	0	5	5	4	0	0	0	3	7	0	0	4	0	1	0
+mcmarad	Chaos Marauders	Mars	Core	Regiment	infantry	10	6	0	calc:Num=#;attr:Type="In"	race:lc,gl		Infantry		Unit Size: 10+	2013	4	4	3	3	3	1	4	1	7	7	7	0	0	1	0	0	0
+mcchwdog	Chaos Warhounds	CDogs	Core	Regiment	cavalry	5	6	0	calc:Num=#;attr:Type="WB"	race:lc,gl		War Beasts		Unit Size: 5+	2013	7	4	0	3	3	1	3	1	5	7	7	0	0	2	0	0	0
+mcchwars	Chaos Warriors	CWs	Core	Regiment	infantry	10	14	0	ipts:total=25-each=25;calc:Num=#;attr:Type="In"	skip must:mcopt@min=1-msg=mcmsg19;race:lc,gl		Infantry		May carry Magic Standard up to 25 pts	2013	4	5	3	4	4	1	5	2	8	7	7	0	0	1	0	0	0
+mcforskn	Forsaken	Frskn	Core	Regiment	infantry	5	19	0	calc:Num=#;attr:At="D3+1";attr:Type="In"	race:lc,gl		Infantry; Immune to Psychology; Frenzy; Random Attacks (D3); # Freakish mutations - roll D6 at the start of each CC phase they fight, effect last until end of that phase: 1- ASL, 2-Armour Piercing, 3-ASF, 4-Poisoned Attacks, 5- Regeneration (5+), 6- Killing Blow		Unit Size: 5+	2013	6	4	0	4	4	1	4	1	8	7	7	0	0	1	0	0	0
+mcmarhrs	Marauder Horsemen	MarHo	Core	Regiment	cavalry	5	14	0	calc:Num=#;attr:Type="Ca"	race:lc,gl		Cavalry; Fast Cavalry unless they are equipped with Light Armour		Unit Size: 5+	2013	4	4	3	3	3	1	4	1	7	6	7	0	0	2	0	0	0
+mcchknt	Chaos Knights	CKs	Special	Regiment	cavalry	5	40	0	calc:Num=#;ipts:total=50-each=50;attr:Type="Ca";type:mounted	clmt:stnd<=50-points;race:lc,gl		Cavalry; Fear		Chaos Armour, Shield, Barded Chaos Steed; May carry up to 50 pt magic standard	2013	4	5	3	4	4	1	5	2	8	4	7	0	0	2	0	0	0
+mcogres	Chaos Ogres	Ogrs	Special	Regiment	infantry	3	33	0	calc:Num=#;attr:Type="MI"	race:lc,gl		Monstrous Infantry (Stomp); Fear; Ogre Charge		Heavy Armour, 	2013	6	3	2	4	4	3	2	3	7	7	7	0	0	3	0	0	0
+mctroll	Chaos Trolls	Troll	Special	Regiment	infantry	3	35	0	calc:Num=#;type:mcspec;attr:Type="MI"	must:option=mcspec@min=1-msg=mcmsg16-istype=throgg;race:lc,gl		Monstrous Infantry (Stomp); Fear; Stupidity; Immune to Psychology; Regeneration; Troll Vomit: whole unit may trade in regular attacks for 1 st5 auto hit no armour save attack per Troll in b2b		 		6	3	1	5	4	3	1	3	4	7	7	0	0	3	0	0	0
+mcshrine	Chaos Warshrine		Special	Regiment		1:1	125	0	calc:Num=#;attr:Type="Ch"	race:lc,gl		War Platform - Chariot with no Impact Hits, no Swiftstride, treat as Infantry for purposes of difficult terrain, if Shrine have Frenzy, both Shrinemaster and Bearers gain Extra Attack; Fear; Protection of the Dark Gods (ward Save 4+); #Favour of the Ruinous Powers - friendly models within 12" roll 3D6 on EotG table, and discard single dice of their choosing; # Giver of Glory - innate bound spell (power level 4), Augment, D3 friendly models within 12" roll on EotG table.			2013	0	0	0	0	5	5	0	0	0	4	4	0	0	4	0	1	0
+mcchimer	Chimera	Chim	Special	Monster		1:1	230	0	attr:At="6+D3";attr:Type="Mo";calc:Num=#	race:lc,gl		Monster (Thunderstomp); Large Target, Terror; Fly; Fiend Tail (extra D3 attacks with +1 to hit against enemies in rear zone); Scaly Skin (4+)				6	4	0	6	5	4	2	0	5	4	7	0	0	0	0	0	0
+mcchosen	Chosen	CWs	Special	Regiment	infantry	5	18	0	ipts:total=50-each=50;calc:Num=#;attr:Type="In"	skip must:mcopt@min=1-msg=mcmsg18;race:lc,gl		Infantry; The Rewards of Chaos: before rolling for the first turn Chosen unit must roll 3D6 and discard single dice of your choice, and consult the result on Eye of the Gods Table.		May carry magic standard up to 50 points;	2013	4	6	3	4	4	1	5	2	8	7	7	0	0	1	0	0	0
+mcdrogre	Dragon Ogres	DOgrs	Special	Regiment	infantry	3	60	0	calc:Num=#;attr:Type="MB"	race:lc,gl		Monstrous Beasts (Stomp); Fear; Scaly Skin (5+); Storm Rage: 2+ ward save against Lightning based attacks and then frenzy		 	2013	7	4	2	5	4	4	2	3	8	5	7	0	0	3	0	0	0
+mcflayer	Flayerkin		Special	Alternate Rules	infantry	5:20	14	0	calc:Num=#;attr:Type="In"			Infantry; Skirmish; Scout; Killing Blow; Wall-crawlers; Human Chains; Will of Chaos		UNOFFICIAL! from Storm of Chaos, by DeBelial; Unit Size: 5-20	UNOFFICIAL! by DeBelial	4	4	3	4	3	1	4	1	7	7	7	0	0	1	0	0	0
+mcgorech	Gorebeast Chariot	Gorec	Special	Machine	chariot	1:1	130	0	attr:At="D6+1";attr:Type="Ch";calc:Num=#	race:lc,gl		Chariot; Gorebeast Charge - impact hits have Killing blow special rule		Incl 2 Chaos Warriors armed w/ Halberds, 1 Gorebeast, and Scythed Wheels	2013	0	0	0	5	6	5	0	0	0	3	7	0	0	4	0	1	0
+mcsoulhu	Hellstriders	SoulH	Special	Regiment	cavalry	5	19	0	calc:Num=#;attr:Type="Ca"	race:lc,gl		Cavalry; Fear; Fast Cavalry; Soulhunters - if one enemy unit is destroyed by them, they gain Devastating Charge, if 2 - Stubborn, 3 - Ward Save 4+.		Unit Size: 5+; Includes Mark of Slaanesh	2013	4	4	3	3	3	1	5	1	7	6	7	0	0	2	0	0	0
+mcnorhun	Norse Hunters	Mars	Special	Alternate Rules	infantry	10	10	0	calc:Num=#;attr:Type="In"	umax:1u		Infantry; Skirmish; Scout; Will of Chaos;		UNOFFICIAL! by DeBelial; Unit Size: 10+	UNOFFICIAL! by DeBelial	4	4	3	3	3	1	4	1	7	7	7	0	0	1	0	0	0
+mctaplto	Plague Toads	PlaTo	Special	Alternate Rules		3	24	0	calc:Num=#;attr:Type="MB"	reqd:type=nurgcharacter-msg=mctmsg02		Monstrous Beast (Stomp, Swiftstride); Poison Attacks, Immune to Psychology; Unbreakabke; Unstable; Daemonic Attacks; Ward Save (5+); Fear; Strider (Marsh/Swamp)		UNOFFICIAL! From Tamurkhan, the Throne of Chaos book by Forge World; Require character with Mark of Nurgle		6	3	0	4	4	2	1	2	5	7	5	0	0	3	0	0	0
+mcputkin	Putrid Blightkings	PuKin	Special	Regiment	infantry	5	40	0	ipts:total=50-each=50;calc:Num=#;attr:Type="In"	skip race:ch,dm,lc,gl		Infantry; #Bountiful Blades: at the start of each combat, they can choose to fight with great weapon, two hand weapons or hand weapon and shield.		May carry magic standard up to 50 points;	10-2014	4	6	3	4	5	3	5	3	8	7	7	0	0	1	0	0	0
+mctarotk	Rot Knights	RKn	Special	Special Characters	cavalry	5	52	0	calc:Num=#;ipts:total=50-each=50;attr:Type="MC";type:mounted	clmt:stnd<=50-points;reqd:type=kayzk-msg=mctmsg04		Monstrous Cavalry (Stomp, Swiftstride); Fear; Will of Chaos; Regeneration (5+)		UNOFFICIAL! Warhammer Forge regiment; Requires Kayzk the Befouled to be fielded;;Chaos Armour, Shield, Enscorcelled Weapons and Barded Chaos Steed; May carry up to 50 pt magic standard		4	5	3	4	4	1	5	2	8	2	7	0	0	2	0	0	0
+mcskullr	Skullreapers	SkRip	Special	Regiment	infantry	5	40	0	ipts:total=50-each=50;calc:Num=#;attr:Type="In"	race:lc,gl		Infantry		Includes Mark of Khorne; May carry magic standard up to 50 points;	03-2015	4	6	3	4	4	3	5	3	8	7	7	0	0	1	0	0	0
+mcswdchs	The Swords of Chaos	CKs	Special	Regiment	cavalry	5	45	0	calc:Num=#;ipts:total=50-each=50;attr:Type="Ca";type:mounted	clmt:stnd<=50-points;reqd:unit=mcarch;umax:1u		Cavalry; Fear; Will of Chaos; Immune to Psychology; Hatred		Requires Archaon to be fielded; Chaos Armour, Shield, Barded Chaos Steed; May carry up to 50 pt magic standard		4	5	3	4	4	1	5	2	8	4	7	0	0	2	0	0	0
+mctabile	Bile Trolls	Troll	Rare	Alternate Rules	infantry	3	60	0	calc:Num=#;attr:Type="MI"			Monstrous Infantry (Stomp); Fear; Stupidity; Immune to Psychology; Regeneration (5+); Poisoned Attacks; #Infected Vomit: whole unit may trade in regular attacks for 1 st5 auto hit no armour save and Multiple Wounds (D3) attack per Troll in b2b		UNOFFICIAL! Warhammer Forge regiment; Include Mark of Nurgle		6	2	1	5	5	4	1	3	5	7	7	0	0	0	0	1	0
+mcgiant	Chaos Giant	Giant	Rare	Monster		1:1	200	0	attr:At="S";attr:Type="Mo";calc:Num=#	lglx:!(mode=f|mode=g);race:lc,gl		Monster (Thunderstomp); Large Target; Terror; Fall Over; Stubborn, Giant Attacks				6	3	3	6	5	6	3	0	10	7	7	0	0	6	0	0	0
+mcsiegeg	Chaos Siege Giant	SGia	Rare	Monster		1:1	275	0	attr:At="S";attr:Type="Mo";calc:Num=#;attr:Sv="5/3+"	lglx:!(mode=f|mode=g)		Monster (Thunderstomp); Large Target; Stubborn; Terror; Immune to Psychology; Fall Over; Chaos Siege Giant Attacks; Wall-Ripper; Siege Armour (Armour Save 5+, 3+ against shooting attacks)		UNOFFICIAL! Warhammer Forge monster		5	4	3	6	5	6	3	0	10	7	7	0	0	0	0	1	0
+mcspawn	Chaos Spawn		Rare	Monster	spawn	1:1	50	0	attr:Mv="2D6";attr:At="D6+1";attr:Type="MB";calc:Num=#	race:lc,gl		Monstrous Beast (Stomp), Random Movement (2D6); Random Attacks (D6+1); Unbreakable; Fear		Up to 2 per Rare Slot		0	3	0	4	5	3	2	0	10	7	7	0	0	3	0	0	0
+mctamamm	Chaos War Mammoth	Mamm	Rare	Alternate Rules		1:1	550	0	attr:At="S";attr:Type="Mo";calc:Num=#	lglx:!(mode=f|mode=g)		Monster(Thunderstomp); Large Target; Terror; Immune to Psychology; Mammoth Attacks;		UNOFFICIAL! Warhammer Forge monster; May carry Battle Howdah or Chaos Warshrine; 		8	3	1	10	7	10	1	0	5	7	7	0	0	0	0	1	0
+mcchoskn	Chosen Chaos Knights	ChKn	Rare	Alternate Rules	cavalry	5	46	0	calc:Num=#;ipts:total=50-each=50;attr:Type="Ca";type:mounted	clmt:stnd<=50-points;umax:1u		Cavalry; Fear; The Rewards of Chaos: before rolling for the first turn Chosen unit must roll 3D6 and discard single dice of your choice, and consult the result on Eye of the Gods Table.		UNOFFICIAL!!!, by DeBelial; Chaos Armour, Shield, Barded Chaos Steed; May carry up to 50 pt magic standard	UNOFFICIAL!!!, by DeBelial	4	6	3	4	4	1	5	2	8	4	7	0	0	2	0	0	0
+mcshag	Dragon Ogre Shaggoth	Shag	Rare	Regiment	infantry	1:1	215	0	calc:Num=#;attr:Type="Mo"	race:lc,gl		Monster (Thunderstomp); Large Target; Terror; Immune to Psychology; Scaly Skin (5+); Storm Rage: 2+ ward save against Lightning based attacks and then frenzy		 	2013	7	6	3	6	5	6	4	5	9	5	7	0	0	6	0	1	0
+mchellca	Hellcannon		Rare	Machine		1:1	210	0	attr:Type="Mo";calc:Num=#	race:lc,gl		Monster (Thunderstomp), Unbreakable (as long as Cannon still alive); Daemonic attacks; Daemonic construction (Armour save 4+, Ward Save 5+); Large Target; Cause Terror; #Caged Fury - at the start of each turn that it is not in combat take a LD test, if failed gains Random Movement (3D6) and moves toward closest enemy unit; Fires as Stone Thrower str 5(10), Multiple Wounds (D6); Slow to Fire, Move or Fire, units taking any casualties take a Panic test at -1 LD; Special Misfire Chart 			2013	3	4	3	5	6	5	1	5	4	4	5	0	0	5	0	1	0
+mcmutali	Mutalith Vortex Beast	Mutal	Rare	Regiment	monster	1:1	240	0	calc:Num=#;attr:Type="Mo";attr:At="D6+2"	race:lc,gl		Monster (Thunderstomp); Large Target; Terror; Scaly Skin (4+); Regeneration (5+); #Aura of Mutation- innate bound spell (power level 5), direct damage, Range 18". Roll D6: 1- target must take D6 To tests (each failed test cause Wound with no armour saves) and gains Fear, 2- D6 To tests and gains Stupidity, 3- D6 To test and decrease 1 random stat (WS,BS,S,T,I,A) by 1, then increase 1 random stat by 1, 4- D6 To tests, then on 3+ another enemy unit within 6" must take D6 tests and so on, 5- place small template over the target and scatter it D6", any models touched must test To, 6- every model in target unit must test To, if target suffers 1 or more unsaved wounds, Chaos Spawn is created within 6".		 	2013	6	3	0	5	5	5	3	0	8	4	7	0	0	6	0	1	0
+mcskullc	Skullcrushers	Skc	Rare	Regiment	cavalry	3	75	0	calc:Num=#;ipts:total=50-each=50;attr:Type="MC";type:khrnunit;type:mounted	clmt:stnd<=50-points;race:lc,gl		Monstrous Cavalry (Stomp); Fear; Mark of Khorne		May carry up to 50 pt magic standard		4	5	3	4	4	1	5	2	8	4	7	0	0	2	0	0	0
+mcslaugh	Slaughterbrute	Slaug	Rare	Regiment	monster	1:1	205	0	calc:Num=#;attr:Type="Mo"	race:lc,gl		Monster (Thunderstomp); Large Target; Terror; Scaly Skin (4+); #Runes of Binding - at the beginning of the game nominate Lord or Hero to be his master. Each character can be master to only single Slaugterbrute. Slaughterbrute uses master's WS and Ld for as long as master is alive; # Unbound - if, at the beginning of friendly movement phase, master is dead (or brute has started game with no master) Slaughterbrute gains Frenzy, Random Movement (2D6) and travels in random direction. If he hit friendly unit he deals D6+2 S7 hit and moves backwards 1".		 	2013	6	3	0	7	5	5	3	4	5	4	7	0	0	6	0	1	0
+mcwrathm	Wrathmongers	WrMon	Rare	Regiment	infantry	5	55	0	ipts:total=50-each=50;calc:Num=#;attr:Type="In"	race:lc,gl		Infantry		Includes Mark of Khorne and wrath-flails; May carry magic standard up to 50 points;	03-2015	4	6	3	5	4	3	5	3	8	7	7	0	0	1	0	0	0
+mcbscocw	Battlescroll - Creatures of the Chaos Wastes		Other	Monster		1:1	0	0				#Leader of the Pack: All units in this formation are unaffected by the Army General’s Inspiring Presence or the Battle Standard Bearer’s Hold Your Ground! special rule. However, any units from this formation that are within 12" of the Dragon Ogre Shartak use its Leadership instead of their own;; #Marauding Monsters: All units in this formation must begin the game as reinforcements (see page 27 of the Warhammer rulebook). At the start of your Turn 2, roll a D6: on the roll of a 1-2, all units in this formation move onto the board from any point along the table edge to the left of the controlling player's own table edge, on the roll of a 3-4, all units in this formation move onto the board from any point along the table edge to the right of the controlling player’s own table edge; on the roll of a 5-6, the controlling player can choose left or right.		Adds Battlescroll - Creatures of the Chaos Wastes; It consists of 6 dragon ogres with champion, 2 chaos spawns, chaos giant and either Slaughterbrute or Mutalith Vortex Beast; Basic cost is 875 points;		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+mctanigh	Nightmaw the Spawn		Other	Special Characters	spawn	1:1	105	0	attr:Mv="2D6";attr:At="D6+1";attr:Type="MB";calc:Num=#	reqd:unit=mctasayl-msg=mctmsg03		Monstrous Beast (Stomp); #Lurching Horror: Compulsory Movement (declare direction before rolling, move in straight line); #Flailing Appendages: Random Attacks (D6+1); #Shadow-kin: -1 To Hit with shooting attacks; Unbreakable; Fear; Always Strikes First; 		Requires Sayl the Faithless		0	3	0	4	5	3	5	0	10	7	7	0	0	3	0	0	0
+mctables	Tables		Other	Monster		1:1	0	0		race:lc,gl;hide				Eye of the Gods table		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+xbsgiant	Chaos Giant	Giant	Other	Monster		1:1	200	0	attr:At="S";attr:Type="Mo";calc:Num=#	lglx:!(mode=f|mode=g)		Monster (Thunderstomp); Large Target; Terror; Fall Over; Stubborn, Giant Attacks				6	3	3	6	5	6	3	0	10	7	7	0	0	6	0	0	0
+xbsspawn	Chaos Spawn		Other	Monster	spawn	1:1	50	0	attr:Mv="2D6";attr:At="D6+1";attr:Type="MB";calc:Num=#	race:lc		Monstrous Beast (Stomp), Random Movement (2D6); Random Attacks (D6+1); Unbreakable; Fear				0	3	0	4	5	3	2	0	10	7	7	0	0	3	0	0	0
+xbsdogre	Dragon Ogres	DOgrs	Other	Regiment	infantry	5	60	0	calc:Num=#;attr:Type="MB"			Monstrous Beasts (Stomp); Fear; Scaly Skin (5+); Storm Rage: 2+ ward save against Lightning based attacks and then frenzy		 	2013; battle scroll	7	4	2	5	4	4	2	3	8	5	7	0	0	3	0	0	0
+xbsmutal	Mutalith Vortex Beast	Mutal	Other	Regiment	monster	1:1	240	0	calc:Num=#;attr:Type="Mo";attr:At="D6+2"			Monster (Thunderstomp); Large Target; Terror; Scaly Skin (4+); Regeneration (5+); #Aura of Mutation- innate bound spell (power level 5), direct damage, Range 18". Roll D6: 1- target must take D6 To tests (each failed test cause Wound with no armour saves) and gains Fear, 2- D6 To tests and gains Stupidity, 3- D6 To test and decrease 1 random stat (WS,BS,S,T,I,A) by 1, then increase 1 random stat by 1, 4- D6 To tests, then on 3+ another enemy unit within 6" must take D6 tests and so on, 5- place small template over the target and scatter it D6", any models touched must test To, 6- every model in target unit must test To, if target suffers 1 or more unsaved wounds, Chaos Spawn is created within 6".		 	2013	6	3	0	5	5	5	3	0	8	4	7	0	0	6	0	1	0
+xbsslaug	Slaughterbrute	Slaug	Other	Regiment	monster	1:1	205	0	calc:Num=#;attr:Type="Mo"			Monster (Thunderstomp); Large Target; Terror; Scaly Skin (4+); #Runes of Binding - at the beginning of the game nominate Lord or Hero to be his master. Each character can be master to only single Slaugterbrute. Slaughterbrute uses master's WS and Ld for as long as master is alive; # Unbound - if, at the beginning of friendly movement phase, master is dead (or brute has started game with no master) Slaughterbrute gains Frenzy, Random Movement (2D6) and travels in random direction. If he hit friendly unit he deals D6+2 S7 hit and moves backwards 1".		 	2013	6	3	0	7	5	5	3	4	5	4	7	0	0	6	0	1	0
+^
+mcmark	Allow Mark		Priority	N/A	0	type:markd			Only 1 Unit may have Mark	
+mcbaudro	Baudro		Priority	N/A	0	unit:mcdragon@abs=1;more:save1=incl;hide;type:baudros-child				
+mcfomktb	Chaos Forsaken Mark Table		Priority	N/A	0	tabl:NoMark=mcundvd,Khorne=mcfomkkh,Nurgle=mcfomknr,Slaanesh=mcfomksl,Tzeentch=mcfomktz-noname				
+mcgmktb	Chaos Giant Mark Table		Priority	N/A	0	tabl:NoMark=mcundvd,Khorne=mcgmkkh,Nurgle=mcgmknr,Slaanesh=mcgmksl,Tzeentch=mcgmktz-noname-nobrackets				
+mchrmktb	Chaos Hero Mark Table		Priority	N/A	0	tabl:NoMark=mcundvd,Khorne=mchrmkkh,Nurgle=mchrmknr,Slaanesh=mchrmksl,Tzeentch=mcldmktz-noname				
+mchound	Chaos Hound		Priority	N/A	0	hide;unit:mchndkrn@abs=1				
+mcldmktb	Chaos Lord Mark Table		Priority	N/A	0	tabl:NoMark=mcundvd,Khorne=mcldmkkh,Nurgle=mcldmknr,Slaanesh=mcldmksl,Tzeentch=mcldmktz-noname				
+mcrgmktb	Chaos Regiment Mark Table		Priority	N/A	0	tabl:NoMark=mcundvd,Khorne=mcrgmkkh,Nurgle=mcrgmknr,Slaanesh=mcrgmksl,Tzeentch=mcrgmktz-noname				
+mclsmktb	Chaos Sorcerer Lord Mark Table		Priority	N/A	0	tabl:NoMark=mcundvd,Nurgle=mcldmknr,Slaanesh=mcldmksl,Tzeentch=mcslmktz-noname				
+mchsmktb	Chaos Sorcerer Mark Table		Priority	N/A	0	tabl:NoMark=mcundvd,Nurgle=mchrmknr,Slaanesh=mchrmksl,Tzeentch=mcsmktz-noname				
+mcspmktb	Chaos Spawn Mark Table		Priority	N/A	0	tabl:NoMark=mcundvd,Khorne=mcspmkkh,Nurgle=mcspmknr,Slaanesh=mcspmksl,Tzeentch=mcspmktz-noname-nobrackets				
+mcdpnoma	Choose Mark of Chaos!	NoMrk	Priority	N/A	0	type:undvd;type:undvdp-child;type:undivided_character				
+mcdpmktb	Daemon Prince Mark Table		Priority	N/A	0	tabl:Khorne=mcdpmkkh,Nurgle=mcdpmknr,Slaanesh=mcdpmksl,Tzeentch=mcdpmktz-noname				
+mcdance	Dances of Slaanesh		Priority	N/A	0	spec:+cgif;take:mcdance-perm;take:mcpraise-perm;take:mctohit-perm	Select 1 every Close Combat phase; may not use same dance in two consecutive turns if still in the same combat		Displays Dances as Items	
+mcdparca	Enable Arcane Items		Priority	N/A	0	spec:+wzrd;spec:+spel				
+mcextra	extra points		Priority	N/A	0	ichg:-25				
+mcnosh	False Shield		Priority	Shd	0	hide				
+mcdpmkkh	Mark of Khorne	Khrn	Priority	N/A	10	type:khrn;type:nslaa;type:nnurg;type:ntzee;unam:+" of Khorne";over:mcdlvltb=delete	Hatred (Daemons of Slaanesh), +1 Strength on charge			DP
+mcfomkkh	Mark of Khorne	Khrn	Priority	N/A	2	type:khrnunit;type:nslaa;type:nnurg;type:ntzee;more:frenzy=incl;unam:+" of Khorne";type:khrn-mode=g	Hatred			regiment
+mcgmkkh	Mark of Khorne	Khrn	Priority	N/A	10	type:khrnunit;type:nslaa;type:nnurg;type:ntzee;base:St=7;unam:+" of Khorne";type:khrn-mode=g	+1 Strength			giant
+mchrmkkh	Mark of Khorne	Khrn	Priority	N/A	10	type:khrn;type:nslaa;type:nnurg;type:ntzee;more:frenzy=incl;type:khrnp-child;unam:+" of Khorne";show:mcloretn	Frenzy			hero
+mcldmkkh	Mark of Khorne	Khrn	Priority	N/A	10	type:khrn;type:nslaa;type:nnurg;type:ntzee;more:frenzy=incl;type:khrnp-child;unam:+" of Khorne"	Frenzy			lord
+mcrgmkkh	Mark of Khorne	Khrn	Priority	N/A	2	type:khrnunit;type:nslaa;type:nnurg;type:ntzee;more:frenzy=incl;unam:+" of Khorne";type:khrn-mode=g;xcst:10-unit=mcchchrt;xcst:4-unit=mcogres;xcst:10-unit=mcgorech;xcst:10-unit=mcchch;xcst:10-unit=mcwarsmt;xcst:10-unit=mcgoremt	Frenzy			regiment
+mcspmkkh	Mark of Khorne	Khrn	Priority	N/A	10	type:khrnunit;type:nslaa;type:nnurg;type:ntzee;unam:+" of Khorne";type:khrn-mode=g	Devastating Charge			spawn
+mcvamakh	Mark of Khorne	Khrn	Priority	N/A	0	type:khrn;type:nslaa;type:nnurg;type:ntzee;more:frenzy=incl;type:khrnp-child;show:mcloretn	Frenzy			hero
+mcdbmknr	Mark of Nurgle	Nurg	Priority	N/A	50	type:nurg;type:nkhrn;type:nslaa;type:ntzee;type:nurgp-child;unam:+" of Nurgle"	-1 to hit in CC			
+mcdpmknr	Mark of Nurgle	Nurg	Priority	N/A	10	type:nurg;type:ntzee;type:nslaa;type:nkhrn;unam:+" of Nurgle";type:nurgmage;show:mcloretn	Hatred (Daemons of Tzeentch), -1 to hit in CC			
+mcfomknr	Mark of Nurgle	Nurg	Priority	N/A	2	type:nurgunit;type:nkhrn;type:nslaa;type:ntzee;unam:+" of Nurgle";type:nurg-mode=g	Fear			
+mcgmknr	Mark of Nurgle	Nurg	Priority	N/A	15	type:nurgunit;type:nkhrn;type:nslaa;type:ntzee;base:To=6;unam:+" of Nurgle";type:nurg-mode=g	+1 Toughness			
+mchrmknr	Mark of Nurgle	Nurg	Priority	N/A	10	type:nurg;type:nslaa;type:ntzee;type:nkhrn;type:nurgp-child;unam:+" of Nurgle";type:nurgmage;type:nurgcharacter	-1 to hit in CC			
+mcldmknr	Mark of Nurgle	Nurg	Priority	N/A	10	type:nurg;type:nkhrn;type:nslaa;type:ntzee;type:nurgp-child;unam:+" of Nurgle";type:nurgmage;type:nurgcharacter;show:mcloretn	-1 to Hit in CC			
+mcrgmknr	Mark of Nurgle	Nurg	Priority	N/A	2	type:nurgunit;type:nkhrn;type:nslaa;type:ntzee;unam:+" of Nurgle";type:nurg-mode=g;xcst:15-unit=mcchchrt;xcst:4-unit=mcogres;xcst:10-unit=mcgorech;xcst:10-unit=mcchch;xcst:10-unit=mcwarsmt;xcst:10-unit=mcgoremt	-1 to Hit in CC			
+mcscmknr	Mark of Nurgle	Nurg	Priority	N/A	30	type:nurgunit;type:nkhrn;type:nslaa;type:ntzee;cost:single;type:nurg-mode=g	-1 to Hit in CC			
+mcspmknr	Mark of Nurgle	Nurg	Priority	N/A	10	type:nurgunit;type:nkhrn;type:nslaa;type:ntzee;unam:+" of Nurgle";type:nurg-mode=g	Poisoned Attacks			
+mcdbmksl	Mark of Slaanesh	Slaa	Priority	N/A	25	type:slaa;type:nnurg;type:nkhrn;type:ntzee;type:slaap-child;unam:+" of Slaanesh"	Immune to Fear, Terror, and Panic			
+mcdpmksl	Mark of Slaanesh	Slaa	Priority	N/A	5	type:slaa;type:nnurg;type:nkhrn;type:ntzee;unam:+" of Slaanesh";type:slaamage;show:mclorets	Hatred (Daemons of Khorne, Armour Piercing			
+mcfomksl	Mark of Slaanesh	Slaa	Priority	N/A	2	type:slaaunit;type:nnurg;type:nkhrn;type:ntzee;unam:+" of Slaanesh";type:slaa-mode=g	Swiftstride			
+mcgmksl	Mark of Slaanesh	Slaa	Priority	N/A	5	type:slaaunit;type:nnurg;type:nkhrn;type:ntzee;base:In=4;unam:+" of Slaanesh";type:slaa-mode=g	+1 Initiative			giant
+mchmksl	Mark of Slaanesh	Slaa	Priority	N/A	0	type:slaa;type:nnurg;type:nkhrn;type:ntzee;type:slaap-child;type:slaamage	Immune to Fear, Terror, and Panic			
+mchrmksl	Mark of Slaanesh	Slaa	Priority	N/A	5	type:slaa;type:nnurg;type:nkhrn;type:ntzee;type:slaap-child;unam:+" of Slaanesh";type:slaamage;show:mclorets	Immune to Fear, Terror, and Panic			
+mcldmksl	Mark of Slaanesh	Slaa	Priority	N/A	5	type:slaa;type:nnurg;type:nkhrn;type:ntzee;type:slaap-child;unam:+" of Slaanesh";type:slaamage;show:mclorets	Automaticaly pass Fear, Terror and Panic tests.			
+mcrgmksl	Mark of Slaanesh	Slaa	Priority	N/A	1	type:slaaunit;type:nnurg;type:nkhrn;type:ntzee;unam:+" of Slaanesh";type:slaa-mode=g;xcst:5-unit=mcchchrt;xcst:2-unit=mcogres;xcst:5-unit=mcgorech;xcst:5-unit=mcchch;xcst:5-unit=mcwarsmt;xcst:5-unit=mcgoremt	Immune to Fear, Terror, and Panic			
+mcscmksl	Mark of Slaanesh	Slaa	Priority	N/A	0	type:slaa;type:nnurg;type:nkhrn;type:ntzee;type:slaap-child;type:slaamage	Immune to Fear, Terror, and Panic			
+mcspmksl	Mark of Slaanesh	Slaa	Priority	N/A	5	type:slaaunit;type:nnurg;type:nkhrn;type:ntzee;unam:+" of Slaanesh";type:slaa-mode=g	Always Strikes First			spawn
+mcdbmktz	Mark of Tzeentch	Tzee	Priority	N/A	80	type:tzee;type:nkhrn;type:nslaa;type:nnurg;base:WSv-1;unam:+" of Tzeentch"	6+ Ward Save (Can be Combined with other WSv			
+mcdpmktz	Mark of Tzeentch	Tzee	Priority	N/A	15	type:tzee;type:nkhrn;type:nslaa;type:nnurg;unam:+" of Tzeentch";type:tzeemage;show:mclorett	Hatred (Daemons of Nurgle), Re-roll 1s when channeling and rolling for Ward saves.			
+mcfomktz	Mark of Tzeentch	Tzee	Priority	N/A	1	type:tzeeunit;type:nkhrn;type:nslaa;type:nnurg;unam:+" of Tzeentch";type:tzee-mode=g;chld:champ@WSv-1-base	Magic Resistance (2)			
+mcgmktz	Mark of Tzeentch	Tzee	Priority	N/A	15	type:tzeeunit;type:nkhrn;type:nslaa;type:nnurg;base:WSv-1;unam:+" of Tzeentch";type:tzee-mode=g	6+ Ward Save			
+mchrmktz	Mark of Tzeentch	Tzee	Priority	N/A	15	type:tzee;type:nkhrn;type:nslaa;type:nnurg;base:WSv-1;type:tzeep-child;unam:+" of Tzeentch";show:mclorett	6+ Ward Save (Can be Combined with other WSv. Re-roll 1s when channeling.			
+mcldmktz	Mark of Tzeentch	Tzee	Priority	N/A	10	type:tzee;type:nkhrn;type:nslaa;type:nnurg;type:tzeep-child;base:WSv-1;unam:+" of Tzeentch";show:mclorett	6+ Ward Save (Can be Combined with other WSv. Re-roll 1s when channeling.			
+mcrgmktz	Mark of Tzeentch	Tzee	Priority	N/A	2	type:tzeeunit;type:nkhrn;type:nslaa;type:nnurg;base:WSv-1;unam:+" of Tzeentch";type:tzee-mode=g;chld:champ@WSv-1-base;xcst:10-unit=mcchchrt;xcst:4-unit=mcogres;xcst:10-unit=mcgorech;xcst:10-unit=mcchch;xcst:10-unit=mcwarsmt;xcst:10-unit=mcgoremt	6+ Ward Save (Can be Combined with other WSv			
+mcscmktz	Mark of Tzeentch	Tzee	Priority	N/A	20	type:tzee;type:nkhrn;type:nslaa;type:nnurg;type:tzeep-child;base:WSv-1;type:tzeemage	6+ Ward Save (Can be Combined with other WSv), Re-roll 1s when channeling.			special character mark
+mcslmktz	Mark of Tzeentch	Tzee	Priority	N/A	15	type:tzee;type:nkhrn;type:nslaa;type:nnurg;type:tzeep-child;base:WSv-1;unam:+" of Tzeentch";type:tzeemage;show:mclorett	6+ Ward Save (Can be Combined with other WSv).  Re-roll 1s when channeling.			wizard
+mcsmktz	Mark of Tzeentch	Tzee	Priority	N/A	15	type:tzee;type:nkhrn;type:nslaa;type:nnurg;type:tzeep-child;base:WSv-1;unam:+" of Tzeentch";type:tzeemage	6+ Ward Save (Can be Combined with other WSv), +1 to Cast attempts			wizard
+mcspmktz	Mark of Tzeentch	Tzee	Priority	N/A	20	type:tzeeunit;type:nkhrn;type:nslaa;type:nnurg;unam:+" of Tzeentch";type:tzee-mode=g	St3 Breath Weapon			
+mcnone	No magic levels		Priority	N/A	0	spec:-wzrd;spec:-spel				
+mcundvd	No Mark	NoMrk	Priority	N/A	0	type:undvd;type:undvdp-child;type:undivided_character				
+mcnottze	Not Tzeentch		Priority	N/A	0	dtyp:tzee;dtyp:tzeeunit;hide;lglx:mode=g				
+mcchoice	Opponent's Approval		Priority	N/A	0					
+mcopt	Option Qualifier	opt	Priority	N/A	0	hide				
+mcignore	Plus 1 Hero		Priority	N/A	0	hide				
+mcdlvltb	Prince Level Table		Priority	N/A	0	tabl:NoMagic=mcnone,1stLevel=mcdlvl1,2ndLevel=mcdlvl2,3rdLevel=mcdlvl3,4thLevel=mcdlvl4-noname-nobrackets;show:mgmiscas				
+mcspec	Throgg is in Army		Priority	N/A	0	xcmp:core;dtyp:mcspec;type:mccore				
+mcchkorn	 Chosen of Khorne	Khrn	First	N/A	0	take:mcchkorn	MR(2)			
+mcchnurg	 Chosen of Nurgle	Nurg	First	N/A	0	take:mcchnurg	Immune to Poison Attacks - these must roll to wound as normal.; Enemies are at a -1 to hit Archaon or any unit he joins with Shooting and also at -1 to hit with attacks in CC			
+mcchslaa	 Chosen of Slaanesh	Slaa	First	N/A	0	take:mcchslaa	Immune to Fear, Terror and Panic, If Archaon is the General, units may use his LD within 18" instead of normal 12"			
+mcchtzee	 Chosen of Tzeentch	Tzee	First	N/A	0	type:tzeemage;type:sorc;take:mcchtzee	Lvl 2 Sorcerer of Tzeentch; +1 to Cast			
+mcbaud2	Baudros Option		First	N/A	0	hide;unam:<"Baudros, ";utyp:baudros				
+mcchogod	Chosen of the Gods	ChoGo	First	N/A	0	more:frenzymt=incl	May join units with any Mark. May re-roll EotG table results, but must accept second roll. Mark of Khorne (Frenzy). Mark of Nurgle (-1 to hit in CC). Mark of Slaanesh (immune to Fear, Terror, Panic). Mark of Tzeentch (+1 to Ward Save, re-roll 1s when channeling).		Have Marks of all four Chaos Gods. 	
+mcckcosn	Chosen Unit	Chose	First	N/A	10	base:At+1;over:hatrp=delete;unam:<"Chosen ";more:save1=incl;chld:champ@At+1-base;type:ckchosen	Chaos Armour (4+ Save); +1 Attack (in profile)		Only 1 Chaos Knight Unit can be upgraded	
+mccwcosn	Chosen Unit	Chose	First	N/A	5	base:At+1;over:hatrp=delete;unam:<"Chosen ";more:save1=incl;chld:champ@At+1-base;type:cwchosen;lglx:!mode=g	Chaos Armour (4+ Save); +1 Attack (in profile)		Only 1 Chaos Warrior Unit can be upgraded	
+mcspeldp	Lore Table		First	N/A	0	tabl:Lore=mgnone-noname-nobrackets;skip tabl:Lore=mgnone,Death=mgdeath,Fire=mgfire,Metal=mgmetal,Shadow=mgshadow-noname-nobrackets;utyp:!(tzee)&!(slaa)&!(nurg)			No mark - no spells - sorry :(	
+mcspellh	Lore Table		First	N/A	0	tabl:Lore=mgnone,Death=mgdeath,Fire=mgfire,Undeath=unundeat-noname-nobrackets;utyp:!(tzee)&!(slaa)&!(nurg)			Select your lore	
+mcspells	Lore Table		First	N/A	0	tabl:Lore=mgnone,Death=mgdeath,Fire=mgfire,Metal=mgmetal,Shadow=mgshadow,Undeath=unundeat-noname-nobrackets;utyp:!(tzee)&!(slaa)&!(nurg)			No mark - no spells - sorry :(	
+mctaspel	Lore Table		First	N/A	0	tabl:Heavens=mgheaven,Shadow=mgshadow,Undeath=unundeat-noname-nobrackets			Select your lore	
+mcspella	Lore Table - Archaon		First	N/A	0	tabl:Tzeentch=mcltzeen,Death=mgdeath,Fire=mgfire,Metal=mgmetal,Shadow=mgshadow,Undeath=unundeat-noname-nobrackets;utyp:!(tzee)&!(slaa)&!(nurg)			Select your lore	Archaons Lore Table, 2013
+mcloretn	Lore Table Nurgle		First	N/A	0	tabl:Nurgle=mclnurg,Death=mgdeath,Undeath=unundeat-noname-nobrackets;utyp:nurg			Select your lore	
+mclorets	Lore Table Slaanesh		First	N/A	0	tabl:Slaanesh=mclslan,Shadow=mgshadow,Undeath=unundeat-noname-nobrackets;utyp:slaa			Select your lore	
+mclorett	Lore Table Tzeentch		First	N/A	0	tabl:Tzeentch=mcltzeen,Metal=mgmetal,Undeath=unundeat-noname-nobrackets;utyp:tzee			Select your lore	
+mcdlvl1	Magic Level 1		First	N/A	35	stat:Wz+1;show:mgmiscas;show:mcspells;type:dmnwiz;type:sorc;slct:mcdparca=auto				
+mcarcl2	Magic Level 2	Mg2	First	N/A	0	stat:Wz+2;show:mgmiscas;type:sorc				Archaon's lvl 2
+mcdlvl2	Magic Level 2	Mg2	First	N/A	70	stat:Wz+2;show:mgmiscas;show:mcspells;type:dmnwiz;type:sorc;slct:mcdparca=auto				
+mcdlvl3	Magic Level 3	Mg3	First	N/A	105	stat:Wz+3;show:mgmiscas;show:mcspells;type:dmnwiz;type:sorc;slct:mcdparca=auto				
+mcdlvl4	Magic Level 4	Mg4	First	N/A	140	stat:Wz+4;show:mgmiscas;show:mcspells;type:dmnwiz;type:sorc;slct:mcdparca=auto				
+mclnurg	Lore of Nurgle	NurgL	SpellType	N/A	0	utyp:nurgmage;show:mcnshow;show:mcnfull				
+mclslan	Lore of Slaanesh	SlaaL	SpellType	N/A	0	utyp:slanmage;show:mcsshow;show:mcsfull				
+mcltzeen	Lore of Tzeentch	TzeeL	SpellType	N/A	0	utyp:tzeemage;show:mctshow;show:mctfull				
+mc2ndhw	2nd Hand Weapon	2nd	Weapon	N/A	2	stat:At+1;slct:mcopt=incl;chld:champ@At+1	+1 attack when not mounted		CW 2nd hand Weapon	
+mc2ndhwa	2nd Hand Weapon	2nd	Weapon	2Hd	3	stat:At+1	+1 attack when not mounted		Exalted 2nd hand Weapon	
+mc2ndhwl	2nd Hand Weapon	2nd	Weapon	2Hd	6	stat:At+1;xcst:5-unit=mcshag	+1 attack when not mounted		Lord 2nd hand Weapon	
+mc2ndhwo	2nd Hand Weapon	2nd	Weapon	N/A	3	stat:At+1;chld:champ@At+1	+1 attack when not mounted		CW 2nd hand Weapon	
+mcenscld	Ensorcelled Weapons	EnsW	Weapon	Wep	3	stat:St+1;chld:champ@St+1	+1 Str, Magical Attacks			
+mcflaila	Flail	FL	Weapon	2Hd	5		+2S in first round of combat		Lord Flail; +2S in first round of combat	
+mcflaill	Flail	FL	Weapon	2Hd	6		+2S in first round of combat		Lord Flail; +2S in first round of combat	
+mcflailm	Flail	FL	Weapon	N/A	2		+2S in first round of combat		Maurader Flail; +2S in first round of combat	
+mcgw	Great Weapon	GW	Weapon	N/A	3	stat:St+2;utyp:!mounted;type:GreatWeapon;slct:mcopt=incl;chld:champ@St+2	+2S, Always strikes last in combat, Two-handed		CW	
+mcgwd	Great Weapon	GW	Weapon	N/A	12	stat:St+2;utyp:!mounted;type:GreatWeapon;slct:mcopt=incl;chld:champ@St+2	+2S, Always strikes last in combat, Two-handed		Ogre	
+mcgwfta	Great Weapon	GW	Weapon	2Hd	6	stat:St+2;type:GreatWeapon	+2S, Always strikes last in combat, Two-handed		Exalted Hero Great Weapon	
+mcgwftl	Great Weapon	GW	Weapon	2Hd	8	stat:St+2;type:GreatWeapon	+2S, Always strikes last in combat, Two-handed		Lord Great Weapon	
+mcgwm	Great Weapon	GW	Weapon	N/A	3	stat:St+2;utyp:!mounted;type:GreatWeapon;slct:mcopt=incl;chld:champ@St+2	+2S, Always strikes last in combat, Two-handed		Maurader	
+mcgwmta	Great Weapon	GW	Weapon	2Hd	8	stat:St+2;utyp:mounted;type:GreatWeapon	+2S, Always strikes last in combat, Two-handed		Aspiring Hero Great Weapon Mounted	
+mcgwo	Great Weapon	GW	Weapon	N/A	8	stat:St+2;utyp:!mounted;type:GreatWeapon;slct:mcopt=incl;chld:champ@St+2	+2S, Always strikes last in combat, Two-handed		Ogre	
+mchalbd	Halberd	Hbrd	Weapon	N/A	3	stat:St+1;slct:mcopt=incl;chld:champ@St+1;xcst:8-unit=mcdrogre	+1 Str		CW Halberd, +1 Str	
+mchalbda	Halberd	Hbrd	Weapon	2Hd	6	stat:St+1	+1 Str		Aspiring Halberd, +1 Str	
+mchalbdl	Halberd	Hbrd	Weapon	2Hd	8	stat:St+1	+1 Str		Lord Halberd, +1 Str	
+mcshield	Hand Weapon & Shield	HWSH	Weapon	Wep	0	more:save1=incl;chld:champ@Sv-1		In HTH combat, additional +1 Save when using hand weapon.	In HTH combat, additional +1 Save when using hand weapon.	
+mcsoulhe	Hellscourges	HS	Weapon	N/A	1	over:sprmtrp1=delete	Always Stike First in the first round of close combat.		Replace Spears with Hellscourges.	
+mclance	Lance	Lance	Weapon	Wep,Lnc	2	utyp:mounted;xcst:8-unit=mclord	+2 Strength on charge			
+mcpairew	Paired Ensorcelled Weapons	2EnW	Weapon	Wep	5	stat:St+1;stat:At+1;chld:champ@St+1;chld:champ@At+1;over:2ndhwtr8=delete	+1 Strength. Extra Attack. Magical Attacks.		Replace Two hand weapons with paired ensorcelled weapons.	
+mcwratfl	Paired wrath-flails	WFl	Weapon	2Hd	0	stat:At+1;chld:champ@At+1	+1 Strength in first round of close combat. Extra attack. Impact Hits (D3).			
+mcarmou2	Chaos Armour	CArmr	Armour	Mus	10	base:Sv-3;lglx:race=dk&mode=e;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+mcarmour	Chaos Armour	CArmr	Armour	Mus	10	base:Sv=4;lglx:race=mc;utyp:!MagicArmour				The "conflict group" Mus has been used to limit mundane armours throughout AB
+mccaarm	Chaos Armour	CArmr	Armour	Mus	0	base:Sv-3;utyp:!MagicArmour;xcst:20-unit=mcdaeomn				The "conflict group" Mus has been used to limit mundane armours throughout AB
+mccaarmo	Chaos Armour	ChArm	Armour	Arm	5	base:Sv-3;utyp:!MagicArmour;over:haoptrp=delete;chld:champ@Sv-3-base				The "conflict group" Mus has been used to limit mundane armours throughout AB In the case of Ogres this is not set to Mus as to allow a switch between
+mcshld	Shield	Sh	Shield	Shd	1	more:save1=incl;slct:mcopt=incl;xcst:2-unit=mcchosen			+1 AS; Parry Save	aspiring
+mcshlda	Shield	Sh	Shield	Shd	3	more:save1=incl			+1 AS; Parry Save	aspiring
+mcshldl	Shield	Sh	Shield	Shd	5	more:save1=incl			+1 AS; Parry Save	
+mcchchmp	Champion		Champion	N/A	0	unit:mcchchmp@abs=1;modl:-1;cost:model				
+mcchflay	Champion		Champion	N/A	0	unit:mcchflay@abs=1;modl:-1;cost:model				Flayerkin Champion
+mcckchmp	Champion		Champion	N/A	0	unit:mcckchmp@abs=1;cost:model;modl:-1;csiz:mcsteed+1				
+mccwchmp	Champion		Champion	N/A	0	unit:mccwchmp@abs=1;cost:model;modl:-1				
+mcdochmp	Champion		Champion	N/A	0	unit:mcdochmp@abs=1;cost:model;modl:-1				
+mcmrchmp	Champion		Champion	N/A	0	unit:mcmrchmp@abs=1;cost:model;modl:-1				
+mcmrhrch	Champion		Champion	N/A	0	unit:mcmrhrch@abs=1;cost:model;modl:-1;csiz:mchorse+1				
+mcogrech	Champion		Champion	N/A	0	unit:mcogrech@abs=1;cost:model;modl:-1				
+mcputcha	Champion		Champion	N/A	0	unit:mcputcha@abs=1;modl:-1;cost:model				Putrid Blightking Champion
+mcskcham	Champion		Champion	N/A	0	unit:mcskcham@abs=1;cost:model;modl:-1;csiz:mcjugger+1				
+mcskulch	Champion		Champion	N/A	0	unit:mcskulch@abs=1;modl:-1;cost:model				Skullreapers Champion
+mcsoulch	Champion		Champion	N/A	0	unit:mcsoulch@abs=1;cost:model;modl:-1;csiz:mcsos+1				
+mctaroch	Champion		Champion	N/A	0	unit:mctaroch@abs=1;cost:model;modl:-1;csiz:mctarotb+1				Rot Knights Champion
+mcwratch	Champion		Champion	N/A	0	unit:mcwratch@abs=1;modl:-1;cost:model				Wrathmongers Champion
+smtabube	Bubebolos		Mount	Mnt,Chr,Mon	0	unit:mctabube@abs=1;slct:heromnt=incl;more:save1=incl				
+mcchch	Chaos Chariot		Mount	Mnt,Chr	0	slct:heromnt=incl;unit:mcchch@abs=1;lglx:!race=dk;stat:Sv-1			Mount character in Chariot	
+mcdragon	Chaos Dragon		Mount	Mnt,Chr,Mon	0	unit:mcdragon@abs=1;slct:heromnt=incl;more:save1=incl				
+mcasteed	Chaos Steed		Mount	Mnt	16	more:bardinc=auto;unit:mcsteed@abs=1;slct:heromnt=incl;more:save2=incl;stxt:Type="Ca"			Mount on Barded Chaos Steed	
+mclsteed	Chaos Steed		Mount	Mnt	24	more:bardinc=auto;unit:mcsteed@abs=1;slct:heromnt=incl;more:save2=incl;stxt:Type="Ca"			Mount on Barded Chaos Steed	
+mcsteed	Chaos Steeds		Mount	N/A	0	hide;unit:mcsteed@per=1				
+msshrmnt	Chaos Warshrine		Mount	Mnt,Chr	0	slct:heromnt=incl;unit:mcwarsmt@abs=1;lglx:!race=dk;stat:Sv-1			Mount character in Chariot	
+mcdmnmtl	Daemonic Mount		Mount	Mon	35	more:bard15=cost;unit:mcdaemon@abs=1;slct:heromnt=incl;more:save1=incl;stxt:Type="MC";base:Wo=3	Monstrous Cavalry (Stomp),		Mount character on Daemonic Mount	
+mcdscmtl	Disc of Tzeentch		Mount	Mon	30	unit:mcdisc@abs=1;slct:heromnt=incl;more:save1=incl;utyp:tzee;stxt:Type="Ca"			Fly, Fear, Daemonic Attacks	
+mcdorghr	Dorghar		Mount	Mnt,Chr,Mon	0	unit:mcdorghr@abs=1;slct:heromnt=incl;more:save1=incl;stxt:Type="MC"			Steed of the Apocalypse; Treat difficult terrain as open ground	
+mcgoremt	Gorebeast Chariot		Mount	Mnt,Chr	0	slct:heromnt=incl;unit:mcgoremt@abs=1;lglx:!race=dk;stat:Sv-1			Mount character in Chariot	
+mchccrew	Hellcannon Crew		Mount	N/A	0	unit:mchccrew@per=3;hide				
+mcjugger	Juggernaughts		Mount	N/A	0	hide;unit:mcjugger@per=1				
+mcjugmtl	Juggernaut of Khorne		Mount	Mon	55	unit:mcjug@abs=1;slct:heromnt=incl;more:save2=incl;utyp:khrn;stxt:Type="MC";base:Wo=3	Monstrous Cavalry (Stomp),		Brass Behemoth, Daemonic Attacks, Fear, Murderous Charge (+1St on Charge)	
+mcmant	Manticore		Mount	Mnt,Chr,Mon	0	unit:mcmant@abs=1;slct:heromnt=incl;more:save1=incl				
+mcpalmtl	Palanquin of Nurgle		Mount	Mon	40	unit:mcpal@abs=1;slct:heromnt=incl;utyp:nurg;more:save1=incl;stxt:Type="MC"				
+mctarotb	Rotbeast		Mount	Mnt,Chr,Mon	0	unit:mctarotb@abs=1;slct:heromnt=incl;more:save1=incl				Kayzk the Befouled mount
+mctarotk	Rotbeast		Mount	Mnt,Chr,Mon	0	unit:mctarotb@per=1				Rot Knights mount
+mcsosmtl	Steed of Staanesh		Mount	Mon	25	unit:mcsos@abs=1;slct:heromnt=incl;more:save1=incl;utyp:slaa;stxt:Type="Ca"			Fear, Poisoned Attacks, Fast Cavalry, Armour Piercing, Daemonic Attacks	
+mcsos2	Steeds of Slaanesh		Mount	N/A	0	hide;unit:mcsos@per=1				
+mchorse	Warhorses		Mount	N/A	0	hide;unit:mchorse@per=1				
+mcchsted	Chaos Steeds (2)		Crew	N/A	0	hide;unit:mcchsted@abs=2				
+mcshrine	Chaos Warshrine		Crew	N/A	0	hide;unit:mcshrin1@per=1;unit:mcshrin2@per=1				
+mcshrim2	Chaos Warshrine Mount		Crew	N/A	0	hide;unit:mcshrin1@per=1				
+mcshrimt	Chaos Warshrine Mount		Crew	N/A	0	hide;unit:mcshrin2@per=1				
+mcchcre1	Chariot Crew (1)		Crew	N/A	0	hide;unit:mcchcrew@abs=1				
+mcchcrew	Chariot Crew (2)		Crew	N/A	0	hide;unit:mcchcrew@abs=2				
+mcgorebe	Gorebeast		Crew	N/A	0	hide;unit:mcgorebe@per=1				
+mcnshow	All Nurgle Spells		Priority2	N/A	0	take:mcnurga;take:mcnurg0;take:mcnurg1;take:mcnurg2;take:mcnurg3;take:mcnurg4;take:mcnurg5;take:mcnurg6;stat:Wz=36;spec:+spel;item:+8;utyp:nurgmage&sorc;utyp:!mgdeath				
+mcsshow	All Slaanesh Spells		Priority2	N/A	0	take:mcslaaa;take:mcslaa0;take:mcslaa1;take:mcslaa2;take:mcslaa3;take:mcslaa4;take:mcslaa5;take:mcslaa6;stat:Wz=36;spec:+spel;item:+8;utyp:slaamage&sorc				
+mctshow	All Tzeentch Spells		Priority2	N/A	0	take:mctzeea;take:mctzee0;take:mctzee1;take:mctzee2;take:mctzee3;take:mctzee4;take:mctzee5;take:mctzee6;stat:Wz=36;spec:+spel;item:+8;utyp:tzeemage&sorc				
+mcnfull	Full Spell Lists		Priority2	N/A	0	more:mcnurga=incl;more:mcnurg0=incl;more:mcnurg1=incl;more:mcnurg2=incl;more:mcnurg3=incl;more:mcnurg4=incl;more:mcnurg5=incl;more:mcnurg6=incl;utyp:nurgmage&sorc;utyp:!mgdeath				
+mcsfull	Full Spell Lists		Priority2	N/A	0	more:mcslaaa=incl;more:mcslaa0=incl;more:mcslaa1=incl;more:mcslaa2=incl;more:mcslaa3=incl;more:mcslaa4=incl;more:mcslaa5=incl;more:mcslaa6=incl;utyp:slaamage&sorc				
+mctfull	Full Spell Lists		Priority2	N/A	0	more:mctzeea=incl;more:mctzee0=incl;more:mctzee1=incl;more:mctzee2=incl;more:mctzee3=incl;more:mctzee4=incl;more:mctzee5=incl;more:mctzee6=incl;utyp:tzeemage&sorc				
+mcpoison	Mutant Poisons	Poisn	Priority2	N/A	1		Poisoned Attacks			
+mcscldog	Scaly Hide	SclSk	Priority2	N/A	1	base:Sv-1;type:ScalySkin	Scaly Skin (6+)			
+mcdogvan	Vanguard	Vang	Priority2	N/A	2		Vanguard			
+mcslaaa	Attr: Bliss in Torment		Priority3	N/A	0	apnd:foot;hide;utyp:tzeemage		Slaanesh Lore Attribute. Roll D6 for each unsaved Wound caused by a spell. For each 6 rolled caster gains +1 WS, In and At until start of his next Magic phase.		
+mcnurga	Attr: Bloated with Disease		Priority3	N/A	0	apnd:foot;hide;utyp:nurgmage		Nurgle Lore Attribute. When a spell from Lore of Nurgle is successfuly cast, roll D6. On 6 caster gains 1Wo and 1T for the rest of the game.		
+mctzeea	Attr: Boon of Magic		Priority3	N/A	0	apnd:foot;hide;utyp:tzeemage		Tzeentch Lore Attribute. For every 6 rolled when casting a spell, caster gains power dice that only he can use.		
+mcnurg0	Nurgle0:Stream of Corruption		Priority3	N/A	0	apnd:foot;hide;utyp:nurgmage		Signature spell. Direct damage. 7+ to cast. Place flame template touching caster's base. Any models hit must test Toughnes or suffer 1 Wound with no armour saves.		
+mcnurg1	Nurgle1:Miasma of Pestilence		Priority3	N/A	0	apnd:foot;hide;utyp:nurgmage		Augment. 5+ to cast, 18" Range, all enemy units in base contact with target reduce WS and In by 1. OR 10+ to cast, to reduce WS and In by D3 instead.		
+mcnurg2	Nurgle2:Blades of Putrefaction		Priority3	N/A	0	apnd:foot;hide;utyp:nurgmage		Augment. 8+ to cast, Range 12", target gains Poisoned Attacks until start of caster's next Magic phase. If target already had poisoned attacks, they now work on 5+.		
+mcnurg3	Nurgle3:Curse of the Leper		Priority3	N/A	0	apnd:foot;hide;utyp:nurgmage		Hex/Augment. 10+ to cast, Range 18" OR 13+ to cast, Range 36". Increase friendly unit's T by D3 (to a maximum of 10) or decrease enemy unit's T by D3 (to a minimum of 1). Lasts until start of caster's next Magic phase.		
+mcnurg4	Nurgle4:Rancid Visitations		Priority3	N/A	0	apnd:foot;hide;utyp:nurgmage		Magic Missile. 10+ to cast, Range 18", D6 S5 hits. Target must then test its T. If passed spell ends, if failed he suffers another D6 S5 hits. Repeat until target pass its T or dies.		
+mcnurg5	Nurgle5:Fleshy Abundance		Priority3	N/A	0	apnd:foot;hide;utyp:nurgmage		Augment. 11+ to cast, Range 18", unit gains Regeneration (5+) or its Regeneration is increased by 1 (to a maximum of 2+) if the target already had it. Lasts until start of caster's next Magic phase. OR can be cast on 22+ to target all friendly units within 18".		
+mcnurg6	Nurgle6:Plague Wind		Priority3	N/A	0	apnd:foot;hide;utyp:nurgmage		Magical Vortex. Remains in Play. 15+ to cast, small template OR 25+ to cast, large template. Place the template, roll artillery dice and multiply result by caster's magic level - this is how far template travels. If missfire is rolled center template on the caster and scatter it his magic level's number of inches, Any model touched must pass Toughness test os suffers 1 Wound with no armour saves. In subsequent magic phases template moves in random direction by number of inches equal to the roll on artillery dice.		
+mcslaa0	Slaanesh0: Lash of Slaanesh		Priority3	N/A	0	apnd:foot;hide;utyp:slaamage		Signature spell. Direct damage. 6+ to Cast, Range 24". Extend straight line from the caster. Any models under the line suffer S3 Armour Piercing hit.		
+mcslaa1	Slaanesh1: Acquiescence		Priority3	N/A	0	apnd:foot;hide;utyp:slaamage		Hex. 6+ to Cast, Range 24" OR 9+ to cast, Range 48". Target unit gains Always Strike Last and Random Movement (D6) until start of caster's next Magic phase.		
+mcslaa2	Slaanesh2: Pavane of Slaanesh		Priority3	N/A	0	apnd:foot;hide;utyp:slaamage		Direct damage. 7+, Range 24" OR 10+ to cast, Range 48". Choose single enemy model, which must then pass its Ld on 3D6 or will suffer 1 Wound with no armour saves.		
+mcslaa3	Slaanesh3: Hysterical Frenzy		Priority3	N/A	0	apnd:foot;hide;utyp:slaamage		Hex/Augment. Remains in Play. 8+ to cast, Range 24". Target single unit (FoF). Unit gains Frenzy that cannot be lost for as long as spell lasts. If already frenzied, unit gains +2 Attacks instead of 1. Unit takes D6 S3 hits at the end of each of the caster's Magic phases.		
+mcslaa4	Slaanesh4: Slicing Shards		Priority3	N/A	0	apnd:foot;hide;utyp:slaamage		Magic missile. 10+ to cast, Range 24". Cause D6 S4 Armour piercing hits. Target must then test its Ld. If passed spell ends, if failed he suffers another D6 S4 Armour piercing hits. Repeat until target pass its Ld or dies.		
+mcslaa5	Slaanesh5: Phantasmagoria		Priority3	N/A	0	apnd:foot;hide;utyp:slaamage		Hex. 10+ to cast, Range 24". Until the start of caster's next Magic phase target unit must pass its Ld tests on 3D6 discarding lowest result rolled, OR 20+ to cast to target all enemy units within 24".		
+mcslaa6	Slaanesh6: Cacophonic Choir		Priority3	N/A	0	apnd:foot;hide;utyp:slaamage		Hex. 12+ to cast, Range 12". Target suffers 2D6 hits that wound on 4+ with no armour saves allowed. If target suffers at least 1 Wound, it gains Always Strikes Last and Random Movement (D6) until start of caster's next Magic phase.  OR 24+ to cast to target all enemy units within 12".		
+mctzee0	Tzeentch0:BlueFire of Tzeentch		Priority3	N/A	0	apnd:foot;hide;utyp:tzeemage		Signature spell. Magic missile. 5+ to cast, Range 24" OR 8+ to cast, Range 48". Cause D6 SD6 hits with Warpflame.		
+mctzee1	Tzeentch1:Treason of Tzeentch		Priority3	N/A	0	apnd:foot;hide;utyp:tzeemage		Hex. 7+ to cast, Range 24" OR 10+ to cast, Range 48". Target unit must use lowest Ld in the unit and may not use Inspiring Presence nor Stand Your Ground rules, until start of caster's next Magic phase.		
+mctzee2	Tzeentch2:PinkFire of Tzeentch		Priority3	N/A	0	apnd:foot;hide;utyp:tzeemage		Direct damage. 8+ to cast. Place flame template touching caster's base and aimed at the target then move it by the result on artillery dice. If missfire is rolled template does not move. Model touched suffer SD6 hit with Warpflame.		
+mctzee3	Tzeentch3:Bolt of Change		Priority3	N/A	0	apnd:foot;hide;utyp:tzeemage		Magic missile. 8+ to cast, Range 24". Single model is hit with SD6+4, Multiple Wounds (D3) and Warpflame, then Bolt penetrates ranks like bolt thrower. No armour saves.		
+mctzee4	Tzeentch4:Glean Magic		Priority3	N/A	0	apnd:foot;hide;utyp:tzeemage		Direct damage. 8+ to cast. Target enemy Wizard within 18". Both caster and target roll D6 and add their magic levels. If target's total is higher, nothing happens. If caster's total is higher enemy Wizard suffers S3 hit, loses magic level and random spell. That spell is then added to caster's spells. Stolen spells use Tzeentch Lore Attribute when cast.		
+mctzee5	Tzeentch5:Tzeentch's Firestorm		Priority3	N/A	0	apnd:foot;hide;utyp:tzeemage		Direct damage. 13+ to cast. Place small template within 30" and scatter it D6". All models touched suffer SD6 hit with Warpflame. OR 16+ to cast to use large template which scatters 2D6".		
+mctzee6	Tzeentch6:Infernal Gateway		Priority3	N/A	0	apnd:foot;hide;utyp:tzeemage		Direct damage. 16+ to cast, Range 24". Target suffers 2D6 St 2D6 hits. If an 11 or 12 is rolled for Str value, target suffers 3D6 hits instead, resolved at St10. Warpfire.		
+mctachoo	Choose Mark >>		Priority4	N/A	0					War Mammoth Shrine
+mctamaho	Mammoth Battle Howdah	Howd	Priority4	N/A	0	unit:mctamaho@abs=1;over:mctamaws=delete				
+mctamaws	Mammoth Warshrine	WarSh	Priority4	N/A	0	over:mctamaho=delete;show:mctamama;base:WSv-2				
+mctamkkh	Mark of Khorne	Khrn	Priority4	N/A	150	unit:mctamaws@abs=1;unam:+" of Khorne"	^		As lond as Warshrine survives Mammoth is subject to Berserk Rage and can re-roll number of attacks.	War Mammoth Shrine
+mctamknr	Mark of Nurgle	Nurg	Priority4	N/A	150	unit:mctamaws@abs=1;unam:+" of Nurgle"	^		As long as Warshrine Survives, enemies targeting a model are -1 to hit from shooting, -1 WS in CC	War Mammoth Shrine
+mctamksl	Mark of Slaanesh	Slaa	Priority4	N/A	130	unit:mctamaws@abs=1;unam:+" of Slaanesh"	^		Mammoth is Stubborn for as long as Warshrine survives.	War Mammoth Shrine
+mctamktz	Mark of Tzeentch	Tzee	Priority4	N/A	140	unit:mctamaws@abs=1;unam:+" of Tzeentch";base:WSv-1;chld:mawarshr@WSv-1-base	^		Mammoth and Warshrine have Ward Save 4+  for as long as Warshrine survives.	War Mammoth Shrine
+mctanoma	No Mark	Und	Priority4	N/A	100	unit:mctamaws@abs=1				War Mammoth Shrine
+mctamama	War Mammoth Warshine Mark Tabl		Priority4	N/A	0	tabl:ChooseMark=mctachoo,NoMark=mctanoma,Khorne=mctamkkh,Nurgle=mctamknr,Slaanesh=mctamksl,Tzeentch=mctamktz-noname				
+mcdp01	Daemonic Flight	DFly	Priority5	N/A	40		Fly.			
+mcslaug1	Extra Claws	Claws	Priority5	N/A	20	stxt:At="4/6*"	Extra 2 Attacks with base Strength 5 (can me modified as normal - by spells for example)			
+mcchim01	Flaming Breath	FlaBr	Priority5	N/A	30		Breath Weapon, S4, Flaming Attacks			
+mcman01	Iron Hard Skin	IronS	Priority5	N/A	25	base:Sv-3			Scaly Skin (4+)	
+mcchim02	Regenerating Flesh	RegFl	Priority5	N/A	15		Regeneration			
+mcman02	Venom Tail	VenTa	Priority5	N/A	10	stat:At+1	Additional Attack with Poisoned Attacks and Multiple Wounds (2). +1 to Hit against unit in rear.			
+mcchim03	Venomous Ooze	Venom	Priority5	N/A	15		Poisoned Attacks			
+mcbscocw	Battlescroll - CotCW		Special	N/A	0	unit:xbsdogre@abs=5;unit:xbsspawn@abs=1;unit:xbsspawn@abs=1;unit:xbsgiant@abs=1				Battlescroll - Creatures of the Chaos Wastes
+mcbsrepl	Mutalith Vortex Beast		Special	N/A	0	unit:xbsmutal@abs=1;over:mcbsslau=delete			Replace Slaughterbrute with Mutalith Vortex Beast.	Battlescroll - Creatures of the Chaos Wastes
+mcbsslau	Slaughterbrute		Special	N/A	0	unit:xbsslaug@abs=1				Battlescroll - Creatures of the Chaos Wastes
+mceotgt	Eye of the Gods table		Last	N/A	0	apnd:foot		2: Test own Ld with no re-rolls, if passed gain Stupidity, if already Stupid suffers -1 Ld. If Ld test is failed is killed and turned into chaos spawn. 3: +1BS. 4: +1To. 5: +1 save. 6: +1WS. 7. Re-roll of single dice until end of his next turn. 8: +1In. 9: +1At. 10: +1St/ 11. +1 ward save. 12: Test own Ld with no re-rolls, if passed he is killed and turned into Daemon Prince. If failed gain Stubborn, if already Stubborn gains +1 Ld.		
+mchelmis	Hellcannon Misfire Chart		Last	N/A	0	apnd:foot		1. Every unit within 3D6 takes D6 Str5 hits, remove Hellcannon and Crew, 2. Kills Crew, 3. All Wizards within 24" suffer a miscast, 4. Remove D3 crew, 5. Move 3D6 directly forward 6. Treat roll as direct hit, S10 under entire template, cannot fire for the rest of game.		
+^
+mcskarr1	Bloodstorm Blades	weap	MWp	0	1	itst:reg=mcskarrb;stat:At+1		Magic Weapon. Paired weapons. +2 Strength in first round of combat. Impact Hits (D3).	^	^	
+mcdeskrn	Destroyer of Khorne	weap	MWp	0	1	itst:reg=mcarbaal;stxt:At="2d3+2"		Provides 2d3+1 attacks instead of normal 5 attacks (+1 already in profile for frenzy); will never lose frenzy	^	^	
+mcfilth	Filth Mace	weap	MWp	30	1	itst:race=mc&type=nurg		Poisoned Attacks; if wielder kills enemy model in CC, he gains Terror for rest of game and all successful Poisoned Attacks have Multiple Wounds (D3).	^	^	
+mchammer	Hammer of Harry	weap	MWp	60	1	itst:reg=mcharry		Multiple Wounds (D6). No Armour saver. May re-roll To Wound rolls vs Undead and Forest Spirits	^	^	
+mchellfr	Hellfire Sword	weap	MWp	65	1	itst:race=mc		Flaming Attacks, Multiple Wounds (D3), no armour saves. At the end of combat, before resolution, roll D6 for every model slain with this sword. On 6 enemy explodes causing D6 S4 hits on enemy unit - wounds caused in this way count towards combat resolution. At the end of each of the wielder's turns roll D6 - on 1 he suffers 1 wound with no armour saves.	^	^	2013
+mcsklslg	Skullslinger	weap	MWp	0	1	itst:reg=mclokjar		Killing Blow	^	^	
+mcslayer	Slayer of Kings	weap	N/A	0	1	itst:reg=mcarch;icnt:1;xtot		No Armour Saves; Power of U'zuhl: In any CC phase Archaon may unleash U'zuhl doubleing his normal number of attacks (to a maximum of 10). Any 1's Archaon rolls to hit strike himself or a friendly model in B2B (bearer's choice). These 1's to hit may not be re-rolled for any reason. Once unleashed, Archaon uses this ability in every CC phase until end of game. 	^	^	
+mcsliver	Sliverslash	weap	N/A	0	1	itst:reg=mcsigvld;icnt:1;xtot;stat:At+2		+2 Attacks and Always Strikes First	^	^	
+mccrush	Starcrusher	weap	N/A	0	1	itst:reg=mckholek;icnt:1;xtot		Multiple Wounds (D3)	^	^	
+mcswdchg	Sword of Change	weap	MWp	30	1	itst:race=mc		Characters or monster is slain by this sword, roll D6. On 4+ Chaos Spawn is created, just like per Spawndom result on EotG table.	^	^	
+mctamur1	Tamurkhan's Rune Blade	weap	MWp	0	1	itst:reg=mctamurs		Armour Piercing. Multiple Wounds (2)	^	^	
+mctamur2	The Black Cleaver	weap	MWp	0	1	itst:reg=mctamurt;stat:St+2		Great Weapon. Models wounded must test To or will suffer permanent -1 reduction to Toughness.	^	^	
+mcbelak1	The Blade of Shadows	weap	MWp	0	1	itst:reg=mcbelako		No armour saves.	^	^	
+mcmaggo1	The Rotaxes	weap	MWp	0	1	itst:reg=mcmaggo1;stat:St+2;stat:At+1		Magic Weapon. Paired Weapons, +2 Strength, Poisoned Attacks.	^	^	
+mcslaup	The Spear Slaupnir	weap	N/A	0	1	itst:reg=mcvalkia;icnt:1;xtot		Armour Piercing, +2 Str and Killing Blow on Charge	^	^	
+mctasay1	The Viperous Staff	weap	MWp	0	1	itst:reg=mctasayl;base:Wsv-2		Killing Blow. Ward Save 5+.	^	^	
+mcwndbld	Windblade	weap	MWp	0	1	itst:reg=mcaekold;stat:St+2		Great Weapon (+2 Strength; strikes last unless charging) at start of the game, roll d6: 1-2 = Gains Fly, 3-4 = Ignore Strikes Last and gain ASF, 5-6 = May be thrown: 12" rng D3 S5 hits	^	^	
+mcdamn	Armour of Damnation	armr	Arm,MAr	45	1	itst:reg=mcharry;base:Sv-3;type:MagicArmour		Chaos Armour; opponent in CC must re-roll all successful hits	^	^	
+mcmorkar	Armour of Morkar	armr	N/A	0	1	itst:reg=mcarch;icnt:1;xtot;base:Sv-4		3+ Armour Save and no attack will ever wound on less than a 3+ (including attacks that auto wound or always wound always on a 2+).	^	^	
+mcauric	Auric Armour	armr	N/A	0	1	itst:reg=mcsigvld;icnt:1;xtot;base:Sv=2		2+ Armour Save and Regeneration	^	^	
+mcbaneh	Bane Shield	armr	Shd	30	1	itst:reg=mcharry	ssave1=auto	Sv+1; For every successful armour save in CC, attacker takes 1St 4 hit	^	^	
+mcclansh	Clanshield	armr	Shd,MAr	0	1	itst:reg=mclokjar;type:MagicShield	ssave1=auto	HE, WE, Bret, Dwarf, Empire & Lizardmen characters must charge Lokjar if able to (as if frenzied) and can't deny challenge issued by him	^	^	
+mcdmnshd	Daemonshield	armr	N/A	0	1	itst:reg=mcvalkia;icnt:1;xtot;base:Sv-1		All models in B2B lose 1 Attack (to a minumum of 1)	^	^	
+mchelmi	Helm of Many Eyes	armr	MAr	25	1	itst:race=mc;base:Sv-1		Save 6+. Always strike first. Stupidity	^	^	
+mcscarlt	The Scarlet Armour	armr	N/A	0	1	itst:reg=mcvalkia;icnt:1;xtot;base:Sv-4		3+ Armour Save. Reduces the Str of enemy models in base contact by 1 (to a minumum of 1)	^	^	
+mcbcok	Brass Collar of Khorne	ward	N/A	0	1	itst:reg=mcscyla;icnt:1;xtot;base:WSv-1		Magic Resistance (3); Ward Save 6+	^	^	
+mcsheern	Eye of Sheerian	ward	N/A	0	1	itst:reg=mcarch;icnt:1;xtot;base:WSv=3		4+ Ward Save (3+ combined with Mark of Tzeentch)	^	^	
+mcgazego	Gaze of the Gods	ward	Tal	0	1	itst:reg=mcarbaal;uadd:mcspawn2@0	aws4=auto,wsv4=auto	4+ Ward Save; if model is fleeing at start of Chaos Magic phase, character turned into Chaos Spawn with same number of W	^	^	
+mcchalic	Chalice of Chaos 	ench	Enc	10	1	itst:race=mc		One use only. Bearer may use it at the start of any phase. Roll D6: 1- model suffers 1 Wound with no armour saves, 2- ASF until end of turn, 3- Regeneration until end of turn, 4- 5+ Ward Save until end of turn, 5- Killing blow until end of turn, 6- if bearer is Daemon Prince, treat result as 1. If he is not, test Ld - if passed he receives Daemonhood, if failed he receives a Spawndom (as per EotG table).	^	^	
+mccrwndm	Crown of Domination	ench	N/A	0	1	itst:reg=mcarch;icnt:1;xtot		Causes Terror. Friendly Units within 12" may re-roll failed Break Tests.	^	^	
+mcpensla	Pendant of Slaanesh	ench	Enc	50	1	itst:race=mc&type=slaa		Bearer may only join units with Mark of Slaanesh. No other character may be in the same unit. When a bearer and his unit take a Break test, they may do it on 1 dice less. In addition for every unsaved wound the bearer suffers, he gains +1 Attack until end of the game.	^	^	
+mcpotion	Pestilent Potions	ench	N/A	0	1	itst:reg=mcfestus;icnt:1;xtot		At the beginning of CC phase Festus may use the potion to heal single lost Wound. Alternatively he may try to use them on enemy model - both players roll D6 and add their unmodified Strength. If Festus' total is equal or higher, enemy suffers D3 Wounds with no armour saves allowed.	^	^	
+mcsntrcl	Snow Troll Cloak	ench	N/A	0	1	itst:reg=mclokjar		Regeneration.	^	^	
+mcthrog1	Wintertooth Crown	ench	N/A	0	1	itst:reg=mcthrogg;icnt:1;xtot		All friendly war beasts, monstrous beasts, monstrous infantry and monsters within 18" may use his Ld instead of their own.	^	^	
+mcmaggo2	Doombells	wzrd	Arc	0	1	itst:reg=mcmaggo2		Arcane Item. Bearer adds +1 to casting rolls. Enemy Wizards within 12" suffer -1 to casting rolls.	^	^	
+mctasay2	Schalkain's Teetch	wzrd	Arc	0	1	itst:reg=mctasayl		One Use Only. When suffers a Miscast he may choose to inflict its effects on single friendly model within 12". This must be decided before effect of the miscast have been rolled.	^	^	
+mckatam	Skull of Katam	wzrd	Arc	15	1	itst:race=mc		May channel on 6 dice insted of 1. Each result of 1 bearers Ld is permanently reduced by 1. If reduced to Ld 0, he is removed as casualty. This dice cannot be re-rolled with ability granted by Mark of Tzeentch.	^	^	
+mcvessel	Vessel of Chaos	wzrd	N/A	0	1	itst:reg=mcviltch;icnt:1;xtot		When enemy wizard fails to meet the casting value of a spell, Vilitch recieves dispel dice = to the power dice used, These new dispel dice are to be utilised later that phase. Conversely, should an enemy make a failed dispell roll VS one of Vilitch's casts, Vilitch gets power dice = to the # of dispel dice used. Vilitch may utilized these new power dice later that same phase. If he is unable to do so, extra dice are lost.	^	^	
+mcbrage	Banner of Rage	stnd	Std	25	1	itst:race=mc&(type=khrn|type=khrnunit);type:MagicBanner	bsb=incl	The bearer may only join unit with Mark of Khorne and only characters with MoK may be in the same unit. Bearer and his unit can never lose frenzy, even if beaten in combat. If bearer joins unit that lost Frenzy, unit regains it. 	^	^	
+mcblastd	Blasted Standard	stnd	Std	25	1	itst:race=mc&(type=tzee|type=tzeeunit);type:MagicBanner	bsb=incl	Roll D6 for each hit suffered from shooting attack. On 2+ its St is halved. On 1 St is doubled. Attacks that do not roll To Wound are not affected.	^	^	
+mctasasp	# Traitor's Mist	spel	N/A	0	1	itst:reg=mctasayl		Augment. Cast on 6+, may be cast on caster himself, he may make a Fly move as if it were Remaining Moves phase. Models in base contact at the start of this move suffe S3 hit with no armour saves.	^	^	
+mctzee0	0: Blue Fire of Tzeentch	spel	N/A	0	99	itst:(type=tzeemage);xtot		Signature spell. Magic missile. 5+ to cast, Range 24" OR 8+ to cast, Range 48". Cause D6 SD6 hits with Warpflame.	^	^	
+mcslaa0	0: Lash of Slaanesh	spel	N/A	0	99	itst:(type=slaamage&race=mc);xtot		Signature spell. Direct damage. 6+ to Cast, Range 24". Extend straight line from the caster. Any models under the line suffer S3 Armour Piercing hit.	^	^	
+mcnurg0	0: Stream of Corruption	spel	N/A	0	99	itst:(type=nurgmage);xtot		Signature spell. Direct damage. 7+ to cast. Place flame template touching caster's base. Any models hit must test Toughnes or suffer 1 Wound with no armour saves.	^	^	
+mcslaa1	1: Acquiescence	spel	N/A	0	99	itst:(type=slaamage&race=mc);xtot		Hex. 6+ to Cast, Range 24" OR 9+ to cast, Range 48". Target unit gains Always Strike Last and Random Movement (D6) until start of caster's next Magic phase.	^	^	
+mcnurg1	1: Miasma of Pestilence	spel	N/A	0	99	itst:(type=nurgmage);xtot		Augment. 5+ to cast, 18" Range, all enemy units in base contact with target reduce WS and In by 1. OR 10+ to cast, to reduce WS and In by D3 instead.	^	^	
+mctzee1	1: Treason of Tzeentch	spel	N/A	0	99	itst:(type=tzeemage);xtot		Hex. 7+ to cast, Range 24" OR 10+ to cast, Range 48". Target unit must use lowest Ld in the unit and may not use Inspiring Presence nor Stand Your Ground rules, until start of caster's next Magic phase.	^	^	
+mcnurg2	2: Blades of Putrefaction	spel	N/A	0	99	itst:(type=nurgmage);xtot		Augment. 8+ to cast, Range 12", target gains Poisoned Attacks until start of caster's next Magic phase. If target already had poisoned attacks, they now work on 5+.	^	^	
+mcslaa2	2: Pavane of Slaanesh	spel	N/A	0	99	itst:(type=slaamage&race=mc);xtot		Direct damage. 7+, Range 24" OR 10+ to cast, Range 48". Choose single enemy model, which must then pass its Ld on 3D6 or will suffer 1 Wound with no armour saves.	^	^	
+mctzee2	2: Pink Fire of Tzeentch	spel	N/A	0	99	itst:(type=tzeemage);xtot		Direct damage. 8+ to cast. Place flame template touching caster's base and aimed at the target then move it by the result on artillery dice. If missfire is rolled template does not move. Model touched suffer SD6 hit with Warpflame.	^	^	
+mctzee3	3: Bolt of Change	spel	N/A	0	99	itst:(type=tzeemage);xtot		Magic missile. 8+ to cast, Range 24". Single model is hit with SD6+4, Multiple Wounds (D3) and Warpflame, then Bolt penetrates ranks like bolt thrower. No armour saves.	^	^	
+mcnurg3	3: Curse of the Leper	spel	N/A	0	99	itst:(type=nurgmage);xtot		Hex/Augment. 10+ to cast, Range 18" OR 13+ to cast, Range 36". Increase friendly unit's T by D3 (to a maximum of 10) or decrease enemy unit's T by D3 (to a minimum of 1). Lasts until start of caster's next Magic phase.	^	^	
+mcslaa3	3: Hysterical Frenzy	spel	N/A	0	99	itst:(type=slaamage&race=mc);xtot		Hex/Augment. Remains in Play. 8+ to cast, Range 24". Target single unit (FoF). Unit gains Frenzy that cannot be lost for as long as spell lasts. If already frenzied, unit gains +2 Attacks instead of 1. Unit takes D6 S3 hits at the end of each of the caster's Magic phases.	^	^	
+mctzee4	4: Glean Magic	spel	N/A	0	99	itst:(type=tzeemage);xtot		Direct damage. 8+ to cast. Target enemy Wizard within 18". Both caster and target roll D6 and add their magic levels. If target's total is higher, nothing happens. If caster's total is higher enemy Wizard suffers S3 hit, loses magic level and random spell. That spell is then added to caster's spells. Stolen spells use Tzeentch Lore Attribute when cast.	^	^	
+mcnurg4	4: Rancid Visitations	spel	N/A	0	99	itst:(type=nurgmage);xtot		Magic Missile. 10+ to cast, Range 18", D6 S5 hits. Target must then test its T. If passed spell ends, if failed he suffers another D6 S5 hits. Repeat until target pass its T or dies.	^	^	
+mcslaa4	4: Slicing Shards	spel	N/A	0	99	itst:(type=slaamage&race=mc);xtot		Magic missile. 10+ to cast, Range 24". Cause D6 S4 Armour piercing hits. Target must then test its Ld. If passed spell ends, if failed he suffers another D6 S4 Armour piercing hits. Repeat until target pass its Ld or dies.	^	^	
+mcnurg5	5: Fleshy Abundance	spel	N/A	0	99	itst:(type=nurgmage);xtot		Augment. 11+ to cast, Range 18", unit gains Regeneration (5+) or its Regeneration is increased by 1 (to a maximum of 2+) if the target already had it. Lasts until start of caster's next Magic phase. OR can be cast on 22+ to target all friendly units within 18".	^	^	
+mcslaa5	5: Phantasmagoria	spel	N/A	0	99	itst:(type=slaamage&race=mc);xtot		Hex. 10+ to cast, Range 24". Until the start of caster's next Magic phase target unit must pass its Ld tests on 3D6 discarding lowest result rolled, OR 20+ to cast to target all enemy units within 24".	^	^	
+mctzee5	5: Tzeentch's Firestorm	spel	N/A	0	99	itst:(type=tzeemage);xtot		Direct damage. 13+ to cast. Place small template within 30" and scatter it D6". All models touched suffer SD6 hit with Warpflame. OR 16+ to cast to use large template which scatters 2D6".	^	^	
+mcslaa6	6: Cacophonic Choir	spel	N/A	0	99	itst:(type=slaamage&race=mc);xtot		Hex. 12+ to cast, Range 12". Target suffers 2D6 hits that wound on 4+ with no armour saves allowed. If target suffers at least 1 Wound, it gains Always Strikes Last and Random Movement (D6) until start of caster's next Magic phase.  OR 24+ to cast to target all enemy units within 12".	^	^	
+mctzee6	6: Infernal Gateway	spel	N/A	0	99	itst:(type=tzeemage);xtot		Direct damage. 16+ to cast, Range 24". Target suffers 2D6 St 2D6 hits. If an 11 or 12 is rolled for Str value, target suffers 3D6 hits instead, resolved at St10. Warpfire.	^	^	
+mcnurg6	6: Plague Wind	spel	N/A	0	99	itst:(type=nurgmage);xtot		Magical Vortex. Remains in Play. 15+ to cast, small template OR 25+ to cast, large template. Place the template, roll artillery dice and multiply result by caster's magic level - this is how far template travels. If missfire is rolled center template on the caster and scatter it his magic level's number of inches, Any model touched must pass Toughness test os suffers 1 Wound with no armour saves. In subsequent magic phases template moves in random direction by number of inches equal to the roll on artillery dice.	^	^	
+mcslaaa	Bliss in Torment	spel	N/A	0	99	itst:(type=slaamage);xtot		Slaanesh Lore Attribute. Roll D6 for each unsaved Wound caused by a spell. For each 6 rolled caster gains +1 WS, In and At until start of his next Magic phase.	^	^	
+mcnurga	Bloated with Disease	spel	N/A	0	99	itst:(type=nurgmage);xtot		Nurgle Lore Attribute. When a spell from Lore of Nurgle is successfuly cast, roll D6. On 6 caster gains 1Wo and 1T for the rest of the game.	^	^	
+mctzeea	Boon of Magic	spel	N/A	0	99	itst:(type=tzeemage);xtot		Tzeentch Lore Attribute. For every 6 rolled when casting a spell, caster gains power dice that only he can use.	^	^	
+mcicor	Acid Icor	cgif	N/A	10	1	itst:race=mc&(!type=specialchar);icnt:1		Model wounding bearer in CC must make an In test or suffers Str4 hit (test for each wound caused)	^	^	2013
+mcallure	Allure of Slaanesh	cgif	N/A	15	1	itst:race=mc&type=slaa		Opponent wishing to strike the bearer must take Ld test. If failed the model cannot attack at all this phase.	^	^	2013
+mcburnbo	Burning Body	cgif	N/A	10	1	itst:race=mc;icnt:1		Flaming Attacks. Ward Save 5+ against Flaming Attacks.	^	^	2013
+mcsplfam	Chaos Familiar	cgif	Arc	25	1	itst:race=mc&type=sorc		Arcane Item. Bearer knows 1 extra spell and adds +1 to channeling attempts.	^	^	2013
+mcchkorn	Chosen of Khorne	cgif	N/A	0	1	itst:reg=mcarch;icnt:1;xtot		MR(2)	^	^	
+mcchnurg	Chosen of Nurgle	cgif	N/A	0	1	itst:reg=mcarch;icnt:1;xtot		Immune to Poison Attacks - these must roll to wound as normal.; Enemies are at a -1 to hit Archaon or any unit he joins with Shooting and also at -1 to hit with attacks in CC	^	^	
+mcchslaa	Chosen of Slaanesh	cgif	N/A	0	1	itst:reg=mcarch;icnt:1;xtot		Immune to Fear, Terror and Panic, If Archaon is the General, units may use his LD within 18" instead of normal 12"	^	^	
+mcchtzee	Chosen of Tzeentch	cgif	N/A	0	1	itst:reg=mcarch;icnt:1;xtot		Lvl 2 Sorcerer of Tzeentch; +1 to Cast	^	^	
+mccollkh	Collar of Khorne	cgif	Tal	45	1	itst:race=mc&type=khrn		Magic Resistance(3)	^	^	2013
+mcdamswd	Daemonblade	cgif	MWp	50	1	itst:race=mc;stxt:At="D6+3"		Magic Weapon. Random Attacks (D6+3); On rolls of 1 to hit, resolve vs. wielder, may never re-roll a roll of 1 to hit.	^	^	2013
+mcdance	Dagger Dance	cgif	N/A	0	1	itst:reg=mcdech		5+ Ward Save	^	^	
+mctohit	Dance of Destruction	cgif	N/A	0	1	itst:reg=mcdech		+1 to hit	^	^	
+mcpraise	Dance of Praise	cgif	N/A	0	1	itst:reg=mcdech		Opponent must re-roll successful hits in CC	^	^	
+mcflamin	Flaming Breath	cgif	N/A	30	1	itst:race=mc;icnt:1		Strength 4 Breath Weapon, Flaming Attack.	^	^	2013
+mchidvis	Hideous Visage	cgif	N/A	5	1	itst:race=mc;icnt:1		Bearer cause Fear, but other models cannot use his Ld.	^	^	2013
+mctempst	Lord of the Storm	cgif	N/A	0	1	itst:reg=mckholek;icnt:1;xtot		During own Shooting phase, choose one unengaged enemy unit within 24", front arc and line of sight. Roll D6, on 2+ chosen unit takes D6 Str6 hits, on a 1 lightning strikes Kholek (see Storm Rage). This may be used even if Kholek is in close cobat.	^	^	
+mcnurrot	Nurgle's Rot	cgif	N/A	10	1	itst:((race=mc|race=lc)&type=nurg);icnt:1		At the start of every Magic Phase, all enemy models in base contact suffer single St1 hit with no armour saves allowed.	^	^	2013
+mcslime	Poisonous Slime	cgif	N/A	15	1	itst:race=mc;icnt:1		Poisoned Attacks. Ward Save 5+ against Poisoned Attacks.	^	^	2013
+mcscales	Scaled Skin	cgif	N/A	20	1	itst:race=mc;base:Sv-2		Scaly Skin (5+)	^	^	2013
+mcsoulfe	Soul Feeder	cgif	N/A	10	1	itst:race=mc;icnt:1		Roll D6 for aech Wound caused in CC. On result of 6 bearer regains 1 Wound.	^	^	2013
+mcthirde	Third Eye of Tzeentch	cgif	N/A	10	1	itst:race=mc&type=tzee;icnt:1		Re-roll ward save results of 1.	^	^	2013
+mcunholy	Unholy Strike	cgif	N/A	35	1	itst:race=mc;icnt:1		May trade all attacks into one Attack at double Strength and Multiple Wounds (D3).	^	^	2013
+mceather	Aethersword	plaq	MWp	50	1	itst:race=mc		No Armour Saves	^	^	
+mcmorrs	Armour of Morrslieb	plaq	Arm,MAr	35	1	itst:race=mc;base:Sv-3;type:MagicArmour;bttl:Wsv+"*"		Chaos Armour; 4+ Ward vs non-magical attacks	^	^	
+mcaos	Armour of the Storm	plaq	N/A	0	1	itst:reg=mckholek;icnt:1;xtot;base:Sv-2		Heavy Armour; Lightning based spells tageting units within 12" strike Kholek instead.	^	^	
+mckhaxe	Axe of Khorne	plaq	MWp	45	1	itst:(race=mc);base:St+1		+1 St, Killing Blow	^	^	
+mcgods	Banner of the Gods	plaq	Std	125	1	itst:race=mc	bsb=incl	Bearer causes Terror; All friendly units w/in 6" become stubborn 	^	^ 	
+mcwrath	Banner of Wrath	plaq	Std	45	1	itst:race=mc;type:MagicBanner	bsb=incl	Bound Spell; Power Level 4; Magic Missile; Rng 24"; D6 S4 hits	^	^	
+mcbeguil	Beguiling Gem	plaq	Tal	50	1	itst:race=mc		All enemy models attacking bearer must pass leadership test or may not attack, furthermore all attacks verse that specific model auto hit	^	^	
+mcbrsrk	Berserker Sword	plaq	MWp	50	1	itst:race=mc&!type=mounted		Additional attacks = # of enemy models in B2B	Models on foot only; ^	^	
+mcblack	Black Tongue	plaq	Tal	50	1	itst:race=mc		One Use Only; Convert an unsuccessfull spell roll into a miscast, Bearer then takes a wound which can not be saved	^	^	
+mcblast	Blasphemous Amulet	plaq	Tal	25	1	itst:race=mc		All enemy models (including monsterous mounts) in B2B at start of friendly Magic Phase must take a T test or take 1 Wo no armour save	^	^	
+mcblood	Blood of Tzeentch	plaq	Arc	30	1	itst:race=mc		may re-roll 1 casting dice per turn as long as it wasn't a 1	^	^	
+mcroar	Bloodcurdling Roar	plaq	N/A	20	1	itst:race=mc&(!type=specialchar);icnt:1		Ranged attack made during shooting phase, LOS, Rng 12", 2D6 Str 1 Hits no armour save 	^	^	
+mcbldskl	Bloodskull Pendant	plaq	Enc	45	1	itst:race=mc&!type=mounted		Bearer may inflict a St 8 Killing Blow hit on every model in B2B instead of making his regular attacks	Models on Foot only; ^	^	
+mcbook	Book of Secrets	plaq	Enc	25	1	itst:race=mc&!type=khrn;stat:Wz+1;type:sorc;spec:+wzrd		Bearer knows a single spell from the lore of Death Shadow or Fire (bearer chooses lore) and generates a single power dice. Miscasts roll D6+1 instead of 2D6, 	Bearer may not be Marked Khorne; ^	^	
+mczhrakk	Bronze Armour of Zhrakk	plaq	Arm,MAr	15	1	itst:race=mc;base:Sv-3;type:MagicArmour		Chaos Armour; Immune to Psyche, Immune to Killing Blow and Poison (roll to wound as normal); May never confer his LD to others	^	^	
+mcrunshd	Chaos Runeshield	plaq	MAr	50	1	itst:race=mc;type:MagicShield	ssave1=auto	Shield; Negates power of magic/runic weapons in B2B (treat as normal non-magical weapons of their type)	^	^	
+mcrunesd	Chaos Runesword	plaq	MWp	50	1	itst:race=mc;base:Ws+1;base:St+1;base:At+1		+1 Ws, +1 St, +1 At	^	^	
+mchomunc	Conjoined Homunculus	plaq	N/A	20	1	itst:race=mc&type=sorc&(!type=specialchar);icnt:1		Once per turn, bearer may add D3 to a single casting roll of his AFTER the attempt is initially rolled. Can not cause a miscast or Irresistible Force. Bearer suffers from Stupidity the turn after use of this gift  	Sorcerers Only; ^	^	
+mcdargan	Crimson Armour of Dargan	plaq	Arm,MAr	40	1	itst:race=mc;base:Sv-3;type:MagicArmour		Chaos Armour; Bearer immune to Killing Blow, Wounds never converted into multiple wounds	^	^	
+mcregen	Crown of Everlasting Conquest	plaq	Tal	50	1	itst:race=mc		Regenerate	^	^	
+mchead	Death's Head	plaq	Enc	20	1	itst:race=mc		One Use Only; Thrown weapon 12"rng always hitting on a 2+, unit takes D6 Toughness tests distributed as shooting, models failing take a Wo no armour save	^	^	
+mcsplend	Diabolic Splendour	plaq	N/A	35	1	itst:race=mc&(!type=specialchar);icnt:1		Any Fear, Terror, or Panic checks caused by bearer or his unit are at -1	^	^	
+mcmaw	Distendable Maw	plaq	N/A	40	1	itst:race=mc&(!type=specialchar);icnt:1		instead of regular attacks may makes a special attack vs a single man sized infantry model; If hits, victim must pass Inititive test or  be swalloed whole, no saves allowed	^	^	
+mcdoom	Doom Totem	plaq	Std	75	1	itst:race=mc	bsb=incl	All enemies with LoS are -1 to LD	^	^ 	
+mcfather	Father of Blades	plaq	MWp	40	1	itst:race=mc		Attacks vs bearer on a roll of a 1 hit the attacker	^	^	
+mcfavour	Favour of the Gods	plaq	Enc	5	1	itst:race=mc		May adjust bearers roll on EotG's Chart by +/- 1. Can not modify a natural 2	^	^	
+mcshroud	Festering Shroud	plaq	Std	25	1	itst:race=mc;type:MagicBanner	bsb=incl	Any model without the mark of Nurgle in B2B with standard bearer must pass a Toughness test at the start of friendly magic phase or suffer a wound with no Armour Save	^	^	
+mcfotbg	Fury of the Blood God	plaq	Std,MWp,Arc,Tal,MAr,Enc	20	1	itst:race=mc&(!type=specialchar);icnt:1;type:FuryOfTheBloodGod		May not carry any Magic Items, MR(2), 4+ Ward vs Wounds from Spells	^	^	
+mcglaive	Glaive of Putrefaction	plaq	MWp	25	1	itst:race=mc		Models receiving an unsaved wound have their Toughness and Strength reduced to 2 at the end of phase, effects last until end of game	^	^	
+mcgolden	Golden Eye of Tzeentch	plaq	Tal	25	1	itst:(race=mc);bttl:Wsv+"*"		4+ Ward vs all normal and magical missiles for bearer (does not apply to mount)	^	^	
+mcpupet	Infernal Puppet	plaq	Arc	35	1	itst:race=mc		may modify a miscast from any wizard up to +/- D3	^	^	
+mcmantle	Mantle of Chaos	plaq	N/A	75	1	itst:race=mc&(!type=specialchar);icnt:1		subtract D3 from the strength of any ranged attack targeting bearer	^	^	
+mcnecrot	Necrotic Phylactery	plaq	Tal	10	1	itst:(race=mc)		Model immune to Poison Attacks; immune to spells from lore of Death or Nurgle; Passes all characteristic tests except LD	^	^	
+mcpower	Power Familiar	plaq	Arc	25	1	itst:race=mc		+1 Power Dice per turn	^	^	
+mcrapier	Rapier of Ecstasy	plaq	MWp	45	1	itst:race=mc		Models taking an unsaved wound must pass a Str test for each or be removed	^	^	
+mcrapt	Rapturous Standard	plaq	Std	20	1	itst:race=mc;type:MagicBanner	bsb=incl	When bearing unit takes break test count doubles or any roll that includes a 1 to be "Insane Courage"	^	^	
+swrend	Rending Sword	plaq	MWp	30	1	itst:(race=mc)		Bearer re-rolls failed to wound rolls	^	^	
+mctormnt	Rod of Torment	plaq	Enc	45	1	itst:race=mc		Bound lvl 3; MM 18" Rng, 2D6 str 3	^	^	
+mcskinhd	Skinhidden Plate	plaq	Arm,MAr	60	1	itst:race=mc;base:Sv-3;base:To+1;type:MagicArmour		Chaos Armour; +1 Toughness	^	^	
+mcmusk	Soporific Musk	plaq	N/A	20	1	itst:race=mc&(!type=specialchar);icnt:1		unit fleeing from bearer or his unit rolls extra D6 discarding highest	^	^	
+mcstream	Stream of Corruption	plaq	N/A	20	1	itst:race=mc&(!type=specialchar);icnt:1		One Use Only; Str 3 Breath weapon -1 to armour save	^	^	
+mctendrl	Tendrils of Tzeentch	plaq	N/A	60	1	itst:race=mc&(!type=specialchar);icnt:1		Bearer may re-roll a single Power or Dispel Dice roll each player's Turn, may cause/negate Iresitible force or Miscasts	^	^	
+mcwarfam	Warrior Familiar	plaq	Arc	20	1	itst:race=mc		in each combat phase, before blows are struck, bearer inflicts 1 St 5 hit on an enemy in B2B chosen by bearer	^	^	
+mcwhip	Whip of Subversion	plaq	MWp	25	1	itst:race=mc;type:whip		a Character or Monster receiving an unsaved wound from whip may be forced to make any remaining attacks vs own side, Count toward owning models combat res.	^	^	
+mcagony	Word of Agony	plaq	N/A	40	1	itst:race=mc&(!type=specialchar);icnt:1		One Use Only; begining of Close Combat, bearer may choose a single model in B2B, that model takes D6 Str4 hits no Armour Save	^	^	
+^
+^
+^
+mcchwars	mccaarm	incl
+mcchwars	mcrgmktb	cost
+mcchwars	mcshld	cost
+mcchwars	mcgw	cost
+mcchwars	mc2ndhw	cost
+mcchwars	mchalbd	cost
+mcchwars	stmg10	cost
+mcchwars	mccwchmp	cost
+mcchwars	mus10	cost
+mcchwars	mcopt	hide
+mcmarad	mus10	cost
+mcmarad	st10	cost
+mcmarad	mcmrchmp	cost
+mcmarad	laoptrp	cost
+mcmarad	shoptrp	cost
+mcmarad	mcgwm	cost
+mcmarad	mcflailm	cost
+mcmarhrs	sprmtrp1	cost
+mcmarhrs	flailtrp	cost
+mcmarhrs	throaxe2	cost
+mcmarhrs	javelin1	cost
+mcmarhrs	mus10	cost
+mcmarhrs	st10	cost
+mcmarhrs	mcmrhrch	cost
+mcmarhrs	mchorse	incl
+mcchknt	mccaarm	incl
+mcchknt	shwtrp	incl
+mcchknt	bardinc	auto
+mcchknt	mus10	cost
+mcchknt	stmg10	cost
+mcchknt	mcckchmp	cost
+mcchknt	mcrgmktb	cost
+mcchknt	mcsteed	incl
+mcchchrt	mcchcrew	incl
+mcchchrt	mcchsted	incl
+mcchchrt	mcrgmktb	cost
+mcchwdog	mcpoison	cost
+mcchcrew	hatrp	incl
+mcchcrew	haltrp	incl
+mcchknt	mcenscld	cost
+mcspawn	mcspmktb	cost
+mcchch	mcchcre1	incl
+mcchch	mcchsted	incl
+mcchch	mcrgmktb	cost
+mclord	mccaarm	incl
+mclord	mcldmktb	cost
+mclord	general	cost
+mclord	mc2ndhwl	cost
+mclord	mcflaill	cost
+mclord	mchalbdl	cost
+mclord	mcshldl	cost
+mclord	heromnt	hide
+mclord	mcdragon	cost
+mclord	mcdmnmtl	cost
+mclord	mclsteed	cost
+mclord	mcchch	cost
+mclord	mcgwftl	cost
+mclord	mcdscmtl	cost
+mcsorcld	mccaarm	incl
+mcsorcld	mclsmktb	cost
+mcsorcld	general	cost
+mcsorcld	mgshow	hide
+mcsorcld	heromnt	hide
+mcsorcld	mcdmnmtl	cost
+mcsorcld	mclsteed	cost
+mcsorcld	mgmiscas	cost
+mcsorcld	mg3lvl	incl
+mcsorcld	mg4lvl35	cost
+mcsorcld	mcchch	cost
+mcsorcld	mcspells	cost
+mcsorcld	mcdragon	cost
+mcsorcld	mcmant	cost
+mcaspire	btnostn2	incl
+mcaspire	btstand8	cost
+mcaspire	general	cost
+mcaspire	mchrmktb	cost
+mcaspire	mccaarm	incl
+mcaspire	mc2ndhwa	cost
+mcaspire	mcflaila	cost
+mcaspire	mchalbda	cost
+mcaspire	mcshlda	cost
+mcaspire	heromnt	hide
+mcaspire	mcasteed	cost
+mcaspire	mcchch	cost
+mcaspire	mcgwfta	cost
+mcaspire	mcdmnmtl	cost
+mcsorcrr	mg1lvl	incl
+mcsorcrr	mgmiscas	cost
+mcsorcrr	mgfull	hide
+mcsorcrr	mgshow	hide
+mcsorcrr	general	cost
+mcsorcrr	mclsmktb	cost
+mcsorcrr	mcspells	cost
+mcsorcrr	mg2lvl35	cost
+mcsorcrr	mcdmnmtl	cost
+mcsorcrr	mcchch	cost
+mcsorcrr	mcasteed	cost
+mcsorcrr	mccaarm	incl
+mcsorcrr	mcsosmtl	cost
+mcdragon	mcignore	incl
+mcgiant	oggiant	free
+mcgiant	oggntbig	incl
+mcgiant	oggntltl	incl
+mchellca	mchccrew	incl
+mchccrew	hatrp	incl
+mchellca	mchelmis	cost
+mcmarad	mcrgmktb	cost
+mcchknt	mclance	cost
+mcdaeomn	mcdpmktb	cost
+mcdaeomn	general	cost
+mcdaeomn	mgfull	hide
+mcdaeomn	mgshow	hide
+mcdaeomn	mcspeldp	hide
+mcdaeomn	mgmiscas	hide
+mcdaeomn	mcdlvltb	appl
+mcharry	general	cost
+mcharry	mcchoice	cost
+mclord	mcjugmtl	cost
+mclord	mcpalmtl	cost
+mclord	mcsosmtl	cost
+mclord	mcmant	cost
+mcsorcld	mcsosmtl	cost
+mcsorcld	mcpalmtl	cost
+mcsorcld	mcdscmtl	cost
+mcsorcld	mcnfull	hide
+mcsorcld	mctfull	hide
+mcaspire	mcsosmtl	cost
+mcaspire	mcdscmtl	cost
+mcaspire	mcjugmtl	cost
+mcaspire	mcpalmtl	cost
+mcsorcrr	mcdscmtl	cost
+mcsorcrr	mcpalmtl	cost
+mcsorcrr	heromnt	hide
+mcchwdog	mcscldog	cost
+mcmarhrs	showtrp1	cost
+mcmarhrs	laoptrp	cost
+mcmarhrs	mcrgmktb	cost
+mcchosen	mccaarm	incl
+mcchosen	mcrgmktb	cost
+mcchosen	mcshld	cost
+mcchosen	mcgw	cost
+mcchosen	mc2ndhw	cost
+mcchosen	mchalbd	cost
+mcchosen	stmg10	cost
+mcchosen	mcchchmp	cost
+mcchosen	mus10	cost
+mcchosen	mcrgmksl	hide
+mcchosen	mcopt	hide
+mcchchmp	mccaarm	incl
+mccwchmp	mccaarm	incl
+mcforskn	mccaarm	incl
+mcogres	mus10	cost
+mcogres	st10	cost
+mcogres	mcrgmktb	cost
+mcogres	haoptrp	incl
+mcogres	mcgwo	cost
+mcogres	mc2ndhwo	cost
+mcogres	mcogrech	cost
+mcdrogre	mc2ndhwo	cost
+mcdrogre	mcgwo	cost
+mcdrogre	mcdochmp	cost
+mcdrogre	laoptrp	incl
+mcgiant	mcgmktb	cost
+mcshag	mc2ndhwl	cost
+mcshag	2handl12	cost
+mcshag	laoptrp	incl
+mcshrine	mcldmktb	cost
+mcsorcrr	mcsshow	hide
+mcsorcrr	mcnshow	hide
+mcsorcrr	mctshow	hide
+mcsorcrr	mcnfull	hide
+mcsorcrr	mcsfull	hide
+mcsorcrr	mctfull	hide
+mcsorcld	mcsfull	hide
+mcsorcld	mcnshow	hide
+mcsorcld	mctshow	hide
+mcsorcld	mcsshow	hide
+mcdaeomn	mcnshow	hide
+mcdaeomn	mcsshow	hide
+mcdaeomn	mctshow	hide
+mcdaeomn	mcnfull	hide
+mcdaeomn	mcsfull	hide
+mcdaeomn	mctfull	hide
+mcarch	genera18	cost
+mcarch	heromnt	hide
+mcswdchs	mccaarm	incl
+mcswdchs	shwtrp	incl
+mcswdchs	bardinc	auto
+mcswdchs	mus10	cost
+mcswdchs	stmg10	cost
+mcswdchs	mcckchmp	cost
+mcswdchs	mcsteed	incl
+mcswdchs	mcenscld	cost
+mcswdchs	mclance	cost
+mcarch	mcdorghr	cost
+mcarch	mcchogod	incl
+mcarch	mcarcl2	incl
+mcarch	mctshow	hide
+mcarch	mgshow	hide
+mcarch	mgmiscas	cost
+mcarch	mcspella	cost
+mcgal	general	cost
+mcgal	mctfull	cost
+mcgal	mctshow	cost
+mcgal	mgshow	hide
+mcgal	mgfull	hide
+mcgal	mcdlvl4	incl
+mcgal	mcscmktz	incl
+mcsigvld	general	cost
+mcsigvld	mcscmksl	incl
+mcvalkia	general	cost
+mcwulf	general	cost
+mcwulf	mcshld	incl
+mcwulf	mccaarm	incl
+mckholek	general	cost
+mcviltch	general	cost
+mcviltch	mctfull	cost
+mcviltch	mctshow	cost
+mcviltch	mgshow	hide
+mcviltch	mgfull	hide
+mcviltch	mcdlvl4	incl
+mcviltch	mcscmktz	incl
+mcviltch	mc2ndhwl	incl
+mcviltch	mccaarm	incl
+mcfestus	general	cost
+mcfestus	mchrmknr	incl
+mcfestus	mcnfull	cost
+mcfestus	mcnshow	cost
+mcfestus	mgfull	hide
+mcfestus	mgshow	hide
+mcfestus	mgmiscas	cost
+mcfestus	mcarcl2	incl
+mcgal	mgmiscas	cost
+mcviltch	mgmiscas	cost
+mcthrogg	general	cost
+mctroll	mcspec	cost
+mcaekold	general	cost
+mcaekold	mcchoice	cost
+mcaekold	mgmiscas	cost
+mcaekold	mctfull	cost
+mcaekold	mctshow	cost
+mcaekold	mcsmktz	incl
+mcaekold	mcignore	incl
+mcaekold	mcltzeen	incl
+mcaekold	mccaarm	incl
+mcarbaal	general	cost
+mcarbaal	mcchoice	cost
+mcarbaal	mcignore	incl
+mcarbaal	mccaarm	incl
+mcarbaal	mcldmkkh	incl
+mcarbaal	mchound	incl
+mchndkrn	frenzy	auto
+mcdech	mcignore	incl
+mcdech	mcchoice	cost
+mcdech	general	cost
+mcdech	mchmksl	incl
+mcdech	mccaarm	incl
+mcdech	mcdance	cost
+mclokjar	lalrd	incl
+mclokjar	general	incl
+mclokjar	mcchoice	cost
+mcdragon	mcbaud2	auto
+mcegrimm	general	cost
+mcegrimm	mcchoice	cost
+mcegrimm	mgmiscas	cost
+mcegrimm	mctfull	cost
+mcegrimm	mctshow	cost
+mcegrimm	mcsmktz	incl
+mcegrimm	mcltzeen	incl
+mcegrimm	mccaarm	incl
+mcegrimm	mcbaudro	auto
+mcnorhun	mus10	cost
+mcnorhun	mcmrchmp	cost
+mcnorhun	bowtrp	incl
+mcflayer	mcchflay	cost
+mcflayer	2ndhwtrp	incl
+mcsiegeg	dzrunesh	cost
+mcsiegeg	dzscaspi	cost
+mctamurs	general	incl
+mctamurs	mcscmknr	incl
+mctabube	mcignore	incl
+mctabube	mcbaud2	auto
+mctamurs	smtabube	incl
+mctabube	mcscmknr	cost
+mctamurt	general	incl
+mctamurt	mcscmknr	incl
+mctamurt	smtabube	incl
+mctasayl	mccaarm	incl
+mctasayl	general	cost
+mctasayl	mgshow	hide
+mctasayl	mgmiscas	cost
+mctasayl	mg3lvl	incl
+mctasayl	mctaspel	cost
+mctasayl	mcdscmtl	cost
+mctasayl	mcnfull	cost
+mctasayl	mctfull	cost
+mctasayl	mcsfull	cost
+mctasayl	mcnshow	cost
+mctasayl	mctshow	cost
+mctasayl	mcsshow	cost
+mcsiegeg	smsiegat	incl
+mcsiegeg	smsiexpl	free
+mctakayz	general	cost
+mctakayz	mcscmknr	incl
+mctakayz	mctarotb	incl
+mctakayz	shoptrp	incl
+mctakayz	lancetrp	incl
+mctarotk	shwtrp	incl
+mctarotk	mus10	cost
+mctarotk	stmg20	cost
+mctarotk	mctaroch	cost
+mctarotk	mcrgmknr	auto
+mctarotk	mctarotk	incl
+mctarotk	mcenscld	cost
+mctarotk	mclance	cost
+mctabile	mcrgmknr	incl
+mctamamm	mctamaho	cost
+mctamamm	mctamaws	cost
+mctamamm	mctamama	hide
+mcskullc	mccaarm	incl
+mcskullc	shwtrp	incl
+mcskullc	mus10	cost
+mcskullc	stmg10	cost
+mcskullc	mcskcham	cost
+mcskullc	mcjugger	incl
+mcskullc	mcenscld	cost
+mcskullc	mclance	cost
+mcskullc	frenzy	incl
+mcsoulhu	sprmtrp1	incl
+mcsoulhu	mus10	cost
+mcsoulhu	st10	cost
+mcsoulhu	mcsoulch	cost
+mcsoulhu	mcsos2	incl
+mcsoulhu	showtrp1	incl
+mcsoulhu	mcrgmksl	incl
+mcsoulhu	mcsoulhe	cost
+mcmant	mcman01	cost
+mcmant	mcman02	cost
+mcsorcld	mcloretn	hide
+mcsorcld	mclorett	hide
+mcsorcld	mclorets	hide
+mcsorcrr	mcloretn	hide
+mcsorcrr	mclorett	hide
+mcsorcrr	mclorets	hide
+mcdaeomn	mcloretn	hide
+mcdaeomn	mclorets	hide
+mcdaeomn	mclorett	hide
+mcdaeomn	mcdp01	cost
+mcdaeomn	mccaarm	cost
+mcforskn	mcfomktb	cost
+mcchwdog	mcdogvan	cost
+mcdrogre	mchalbd	cost
+mctroll	mc2ndhwo	cost
+mcchimer	mcchim01	cost
+mcchimer	mcchim02	cost
+mcchimer	mcchim03	cost
+mcgorech	mcchcrew	incl
+mcgorech	mcgorebe	incl
+mcgorech	mcrgmktb	cost
+mcshrine	mcshrine	incl
+mcwarsmt	mcrgmktb	cost
+mcwarsmt	mcshrimt	incl
+mclord	msshrmnt	cost
+mcgoremt	mcchcre1	incl
+mcgoremt	mcgorebe	incl
+mcgoremt	mcrgmktb	cost
+mclord	mcgoremt	cost
+mcsorcld	msshrmnt	cost
+mcsorcrr	msshrmnt	cost
+mcaspire	msshrmnt	cost
+mcsorcld	mcgoremt	cost
+mcsorcrr	mcgoremt	cost
+mcaspire	mcgoremt	cost
+mcslaugh	mcslaug1	cost
+mcarch	mcshldl	incl
+mcvalkia	mcvamakh	incl
+mcsigvld	mcshldl	incl
+mcscyla	mcldmkkh	incl
+mcdaeomn	mcdparca	hide
+mcscyla	general	cost
+mclord	mclance	cost
+mcchoskn	mccaarm	incl
+mcchoskn	shwtrp	incl
+mcchoskn	bardinc	auto
+mcchoskn	mus10	cost
+mcchoskn	stmg10	cost
+mcchoskn	mcckchmp	cost
+mcchoskn	mcrgmktb	cost
+mcchoskn	mcsteed	incl
+mcchoskn	mcenscld	cost
+mcchoskn	mclance	cost
+mckholek	halrd	incl
+mcbscocw	mcbscocw	auto
+xbsdogre	mc2ndhwo	cost
+xbsdogre	mcgwo	cost
+xbsdogre	mcdochmp	auto
+xbsdogre	laoptrp	incl
+xbsdogre	mchalbd	cost
+xbsslaug	mcslaug1	cost
+mcbscocw	mcbsslau	auto
+mcbscocw	mcbsrepl	cost
+xbsspawn	mcspmktb	cost
+xbsgiant	oggiant	free
+xbsgiant	oggntbig	incl
+xbsgiant	oggntltl	incl
+xbsgiant	mcgmktb	cost
+mcbelako	general	cost
+mcbelako	mg4lvl	incl
+mcbelako	mgshadow	incl
+mcbelako	mgfull	cost
+mcbelako	mgshow	cost
+mcbelako	mgmiscas	cost
+mctamaws	mcshrim2	cost
+mcthrogg	mcgwftl	incl
+mctables	mceotgt	cost
+mccrom	general	cost
+mcputkin	mccaarm	incl
+mcputkin	mcscmknr	incl
+mcputkin	mcshld	incl
+mcputkin	stmg10	cost
+mcputkin	mcputcha	cost
+mcputkin	mus10	cost
+mcputcha	mccaarm	incl
+mcgutrot	general	cost
+mcgutrot	mcscmknr	incl
+mcgutrot	mcgwftl	incl
+mcgutrot	msshrmnt	cost
+mcsorcld	unshow	hide
+mcdaeomn	unshow	hide
+mctasayl	unshow	hide
+mcsorcrr	unshow	hide
+mcmaggo1	general	cost
+mcmaggo2	general	cost
+mcmaggo2	mg3lvl	incl
+mcmaggo2	mcloretn	cost
+mcmaggo2	mgshow	hide
+mcmaggo2	unshow	hide
+mcmaggo2	mcnshow	hide
+mcmaggo2	mcgwftl	incl
+mcmaggo3	general	cost
+mcmaggo3	mcgwftl	incl
+mcwrathm	mccaarm	incl
+mcwrathm	mcvamakh	incl
+mcwrathm	stmg10	cost
+mcwrathm	mcwratch	cost
+mcwrathm	mcwratfl	incl
+mcwratch	mccaarm	incl
+mcskullr	mccaarm	incl
+mcskullr	mcvamakh	incl
+mcskullr	stmg10	cost
+mcskullr	mcwratch	cost
+mcskullr	2ndhwtr8	incl
+mcskullr	mcpairew	cost
+mcskulch	mccaarm	incl
+mcskarrb	general	cost
+mcskarrb	mcvamakh	incl
+mcskarrb	mccaarm	incl
+^
+^
+mcmsg3	Chaos Power	Only 1 God's units (and Chaos Undivided units) are allowed in this army
+mcmsg4	Chaos Undivided	You must have a unit with the God's Mark to have a Character with the Same Mark (AB doesn't count character-mounted chariots for this while it should, this is a known bug)
+mcmsg19	Chaos Warrior Option Min	A Chaos Warrior unit must select atleast one weapon/shield option
+mcmsg32	Chosen Champion Item Limit	Chosen's Champion may only take single magic item worth up to 25pts.
+mcmsg8	Chosen Knights Unit	Only 1 unit of Chosen Knight unit allowed in the army
+mcmsg18	Chosen Option Min	A Chosen unit must select atleast one weapon/shield option
+mcmsg9	Chosen Warrior Unit	Only 1 Chosen Chaos Warrior Unit in the Army
+mcmsg34	Daemon prince gifts limit	Daemon Prince may have up to 100 points of chaos gifts and powers.
+mcmsg33	Daemon prince item limit	Daemon Prince may have up to 25 points of magic items.
+mcmsg35	Daemon prince must choose Mark	Daemon Prince must choose any Mark of Chaos.
+mcmsg6	Exalted Gift limit	Exalted Heroes may only take up to 25 points of Chaos Gifts!
+mcmsg1	Exalted Item Limt	An Exalted Hero may have either a magic standard of unlimited points when chosen as a BSB or up to 50 points of other magic items
+mcmsg28	General Fix	An Aspiring Champion or Chaos Sorceror may not be General if any other type of character present
+mctmsg04	Kayzk the Befouled	You must take Kayzk the Befouled to field regiments of Rot Knights.
+mcmsg30	Lord Gift Limit	Chaos Lord or Sorcerer Lords may only take up to 50 points of Chaos Gifts
+mcmsg31	Lord item limit	Chaos Lord or Sorcerer Lords may have up to 100 points of magic items
+mctmsg02	Nurgle Charater Required	You must take at least one hero or lord with Mark of Nurgle to field Plague Toads.
+mctmsg01	Only 1 Tamurkhan	Only One Tamurkhan the Maggot Lord is allowed, either in Sargath or Tyrant's form.
+mcmsg10	Opponent's Approval	Need Opponent's Approval.
+mcmsg2	Opponent's Approval	Need Opponent's Approval. Harry the Hammer is not a legal character and, according to the GW authors, is not balanced vs Undead
+mcmsg7	Ridden Chariot Marks	Chariot must have same Mark as Character Riding it or no Mark at all.
+mctmsg03	Sayl the Faithless	You must take Sayl the Faithless to field Nightmaw the Spawn.
+mcmsg42	Sorcerer Gift Limit	a Sorcerer may only take up to 25 points of Chaos Gifts!
+mcmsg41	Sorcerer Item Limit	A Sorcerer may have up to 50 points of magic items
+mcmsg15	Throgg Core Trolls	Trolls May only be core if Throgg is in the army.
+mcmsg16	Throgg Core Trolls	The Troll option "Throgg is in the Army" should be selected as they are now core
+mcmsg5	Too many magic standards	Only 1 unit of Chaos Warriors may have a magic standard
+^

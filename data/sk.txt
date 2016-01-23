@@ -1,0 +1,816 @@
+Description: Skaven for Ravening Hordes
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, bugs - email - mach_5@rocketmail.com
+^
+The Vermin Swarm	sk	0	sm,dw,he,we,br,lz,ok,ch,dm,dk,og,em,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="Dec 2015, ver 0.10.1";info:display="by AJT";info:display="";info:always="Vermin Swarm: Non-fleeing units consist of only models with this Rule adds their number of Full Ranks after the first, to its Ld (up to max +3). Cannot be used to modify the Ld given by Inspiring Presence (but the received Inspiring Presence can be modified). If all models in a unit have this Rule, they add +1 to any flee distances they roll.";info:display="";info:always="Reckless: Models with this rule can use non-template shooting weapons against enemy unit in CC with friendly units of Infantry, warbeasts or swarms (non containing any characters). Randomize hits 1-3 friendly 4-6 enemy. Randomize further if necesarry.";info:display="";info:always="Honorless: Character will not get usual penalties for refusing a challenge.";info:display="";info:always="Blight Cult: Toxic attacks have -1 to wound against models wih this rule.";skip none:"Standard Army";skip mode:e="Clan Eshin - trial list";skip mode:m="Clan Moulder - trial list";skip mode:p="Clan Pestilens - trial list";skip mode:s="Clan Skryre - trial list";skip mode:c="Clan Eshin - Storm of Chaos list";skip mode:d="Bubonic Court of Nurglitch";skip info:always="Additional +100VPs for each character killed"-mode=c;skip info:always="If all skirmishers selected, roll the artillery dice at start of each turn, units have a LOS equal to 3x that distance, if misfire is rolled, then all units have normal LOS"-mode=c;need:type=Nurglitch@1m-msg=skmsg2-mode=d;need:unit=skmonks@1u-mode=d;trat:throt@1u:giantratcore@1u-flat-msg=skmsg6;trat:SkrolkGen@1u:Coremonk@1u-flat-msg=skmsg9;trat:ThanquolSK@0u:ThanquolET@1u-msg=skmsg14;trat:notleader@0u:clanlord@1u-msg=skmsggre;trat:general@1m:grclan@1m-msg=skmsggrg;tlmt:grclan-model=1@max-msg=skmsggrt;trat:warpparrent@1u:warpteam@1u-msg=skmsgwtt	
+^
+sksnikch	 Deathmaster Snikch		N/A	Special Characters	hero	1:1	275	0	ipts:total=0;type:eshin;type:skirmishers;xmpt:limit;attr:Type="In"	lglx:(mode=c|mode=e|mode=default);umax:1;race:gl;hide		Infantry; Scout;  Always Srikes First; Sneaky Infiltrator; A killer not a Leader; 4+ Dodge save; Hidden;  Whirl of Weeping Blades are already factored into his attacks including tail and second weapon.  Armour piercing, D3 wounds.				7	8	6	4	4	2	10	6	8	7	4	0	0	1	0	0	0
+skeshsoc	 Eshin Sorcerer		N/A	Wizard	Hero	1:1	75	100	ipts:total=50-each=50;type:skirmishers;type:eshin;take:sktoken1-perm;take:skspell1-free-perm-mode=e;type:skmagic;type:herowiz;name:"SK Eshin Sorcerer"-race=vm;type:Ld7;take:skspell0-free-perm-mode=c;attr:Type="In"	lglx:(race=sk&(mode=e|mode=c))|(race=vm&mode=e);clmt:weap+armr+ench+ward+wzrd<=50-points-msg=skwiz1;race:vm;hide		Infantry; Poisoned Attacks, Scout		Lvl 1 Wizard		6	4	4	3	3	2	5	1	7	7	7	1	1	1	1	0	0
+sktriad	 Eshin Triad	triad	N/A	Regiment		3:3	70	0	size:3-3-1-mode=zz;type:eshin;attr:Type="In"	lglx:race=sk&mode=c;race:vm;hide		Infantry	Poisoned Attacks; Scout; Skirmish	Poisoned Attacks; Scout; Skirmish		6	6	5	4	4	2	8	3	8	7	7	0	0	1	0	0	0
+skfester	 Festering Chantor		N/A	Wizard	Hero	1:1	60	100	ipts:total=50-each=50;type:pestilens;take:skspell4-free-perm;type:skirmishers;type:skmagic;type:herowiz;name:"SK Festering Chantor"-race=vm;type:Ld5;xcst:65-mode=d;attr:Type="In"	lglx:(mode=p|mode=d);clmt:weap+armr+ench+ward+wzrd<=50-points-msg=skwiz1;hide		Infantry; Lvl 1 Wiz; Has Pestilent Breath; Frenzy		Lvl 1 Wiz; Has Pestilent Breath; Frenzy		5	3	3	3	4	2	3	1	5	7	7	1	1	1	1	0	0
+skfroth	 Frothing Giant Rats	Rats	N/A	Regiment		10	5	0	calc:Num=#;attr:Type="WB"	lglx:mode=d;hide		War Beasts; Frenzy		Number of units limited by number of Mainstay units; Mainstay unit for Clan Moulder; Unit Size: 10+		6	3	0	3	3	1	4	1	3	7	7	0	0	1	0	0	0
+skthanq	 Grey Seer Thanquol		N/A	Lord		1:1	450	0	ipts:total=0;spec:+ench;spec:+ward;take:skwapamu-free-perm;take:skstaff1-free-perm;catg:wiz;type:Wiz;type:Ld7;spec:-wzrd;spec:-weap;attr:Type="In";type:ThanquolSK	umax:1;hide		Infantry; Lvl4 Wizard; Verminous Valor; 4+ Ward - Any wound saved transfered to a friendly models all saves normal.  If no friendly model available then wound is discarded; Warpstone addiction - If using Warpstone Token and rolls a 1 he can reroll it. The second result causes a wound on a 1 or 2 and cannot be rerolled;  Starts with D6+2 Warpstone Tokens;  Uses both lores of Ruin and Plague and can substitute any one spell for the Dreaded 13th Spell				5	3	3	3	4	3	6	1	7	7	4	4	2	1	5	0	0
+skharbin	 Harbinger of Mutation		N/A	Wizard	Hero	1:1	65	100	type:skirmishers;type:moulder;ipts:total=50-each=50;take:sktoken1-free-perm;take:skspell3-free-perm;type:skmagic;type:herowiz;name:"SK Harbringer of Mutation"-race=vm-mode=e;type:Ld6;attr:Type="In"	lglx:(race=sk&mode=m)|(race=vm&mode=e);clmt:weap+armr+ench+ward+wzrd<=50-points-msg=skwiz1;race:vm;hide		Infantry	All Clan Moulder units w/in 6" may reroll failed psychology tests	Lvl 1 Wizard; Knows Vermintide spell; Beastmaster: All Clan Moulder units w/in 6" may reroll failed psychology tests		6	3	3	3	3	2	4	1	6	7	7	1	1	1	1	0	0
+skikitcl	 Ikit Claw		N/A	Special Characters		1:1	395	0	ipts:total=0;type:skryre;type:skirmishers;take:skironfr-free-perm;take:skstormd-free-perm;catg:wiz;type:Ld7;type:ikitclaw;spec:-wzrd;spec:+armr;spec:+weap;spec:-ench;spec:-ward;attr:Type="In"	lglx:(mode=default|mode=s);umax:1;race:gl;hide		Infantry; Lvl3 wizard; 				5	5	3	5	4	3	3	2	7	7	7	3	2	1	4	0	0
+skklawm	 Klawmunkast		N/A	Special Characters		1:1	255	0	ipts:total=0-each=0;spec:-spel;type:skryre;type:skirmishers;take:sktoke3-free-perm;catg:wiz;type:Ld8;attr:Type="In"	lglx:mode=s;clmt:weap+armr+ench+ward+wzrd<=100-points-msg=skwiz1;hide		Infantry; May cast Warp Lightning at 11+; 3d6 S5 hits		Lord; From GW Website; Lvl 3 Wizard but no spells; Incl Warplock Pistol, Warp-Blades, Upgraded Warp-Energy Condenser, Supercharged Warp-Power Accumulator, and Eye of Skraw; Rodent Genius; 		5	4	3	3	4	3	5	2	8	7	7	3	2	1	3	0	0
+skskreev	 Lord Skreech Verminking		N/A	Wizard		1:1	650	0	ipts:total=0;take:skdoomgl-free-perm;take:skplarip-free-perm;attr:Type="Mo"	umax:1;race:gl;hide		Monster (Special Character, Thunderstomp); Large Target; Terror; Immune to Psychology; Scurry Away!; Daemonic Attacks; Rat Daemon; #Master of Ruin: re-roll failed casting attempts of The Dreaded Thirteenth Spell; #Protection of the Horned Rat: Ward Save 5+; #Ruinous Arsenal: he is armed with two magic weapons. At the start of each Close Combat phase declare which weapon he will use this turn.		Lvl4 Wizard; He can use spells form Lore of Ruin and Plague and he MUST substitute any one spell with the Dreaded 13th Spell	From End Times: Thanquol, Jan 2015	8	8	4	6	6	6	10	5	8	7	5	4	0	0	0	0	0
+skskrolk	 Lord Skrolk, Plaguelord		N/A	Special Characters		1:1	470	0	ipts:total=0;type:pestilens;type:skirmishers;type:skrolk;take:skbubo-free-perm;take:skcorupt-free-perm;catg:wiz;type:Ld7;spec:+wzrd;spec:+weap;spec:-ench;spec:-ward;spec:-armr;attr:Type="In"	lglx:(mode=default|mode=p);umax:1;hide		Infantry; Causes Terror; Lvl3 Wizard; Aura of Pestilence - models in BtB are -1 to hit.  Pestilence models are immune				5	6	4	4	5	3	6	4	7	7	7	3	2	1	3	0	0
+skmadrog	 Mad Rat Ogres	Ogres	N/A	Regiment	infantry	1	50	0	calc:Num=#;attr:Type="MI"	lglx:mode=d;hide		Monstrous Infantry (Stomp); Cause Fear, Frenzy, Get rank bonuses as normal (Strength in Numbers works too)		Unit Size: 1+		6	3	0	5	4	3	3	3	5	7	7	0	0	3	0	0	0
+skmorbus	 Morbus Sanguis		N/A	Special Characters		1:1	150	0	ipts:total=0-each=0;type:pestilens;type:skirmishers;type:Ld7;attr:Type="In"	umax:1;lglx:mode=p;hide		Infantry	Frenzy, Cause Fear, -1 to be hit in HtH	Lord; From GW Website; Frenzy; Leprous Form (cause Fear); Warp Fleas (-1 to be hit in HtH); Incls Censer Mace; can buy Yellow Death Rat Swarms		5	6	3	4	5	3	6	5	7	7	7	0	0	1	0	0	0
+skpusbag	 Pusbags	Clan	N/A	Regiment	infantry	20	3	0	calc:Num=#;attr:Type="In"	lglx:mode=d;hide		Infantry; Expendable, Cloud of Flies (enemy in BtB suffer -1 to hit), Dying (D6 models removed at the end of each Skaven movement phase, nothing can prevent this)		Unit Size: 20+		5	2	2	3	3	1	4	1	2	7	7	0	0	1	0	0	0
+skqueek	 Queek Head-Taker	Lord	N/A	Lord		1:1	215	0	ipts:total=0;type:Hero;type:queek;type:skirmishers;xmpt:limit;take:skgouge2-free-perm;take:skwarsam-free-perm;spec:+weap;spec:+armr;type:Ld7;attr:Type="In"	lglx:mode=default;umax:1u;hide		Infantry; Hates Dwarfs and O&Gs; Trophy Heads - must issue or accept a challenge if one is possible.  In a challenge adds +1 to both his To Hit and To Wound rolls; Extreme Distrust - will not join a unit that has a Grey Seer or pushes a Screaming Bell.				5	7	4	4	4	3	7	6	8	7	7	0	0	1	0	0	0
+skspawn	 Rat Spawn	Spawn	N/A	Regiment		1:1	75	0	attr:At="D6";attr:Type="MB"	lglx:mode=d;hide		Monstrous Beast (Stomp); Stubborn, Cause Fear, Poisoned Attacks		Must be based on a 40*40 mm base		6	3	0	4	5	3	2	0	10	7	0	0	0	3	0	0	0
+skrotten	 Rotten Rodents		N/A	Regiment	infantry	20	6	0	calc:Num=#;attr:Type="In"	lglx:mode=d;hide		Infantry		Includes light armour; Unit Size: 20+		5	3	3	3	4	1	4	1	5	6	0	0	0	0	0	0	0
+skstink	 Stinking Thing	HerSk	N/A	Hero	Hero	1:1	65	100	ipts:total=50;type:skirmishers;type:Ld6;type:pestilens;attr:Type="In"	lglx:mode=d;hide		Infantry		Skaven Hero		5	5	4	4	5	2	6	3	6	7	7	0	0	1	0	0	0
+skstromb	 Stormvermin bodyguard	Storm	N/A	Regiment	infantry	10	11	0	ipts:total=50-each=50;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	reqd:type=queek;slmt:1;umax:1;hide		Infantry				5	5	3	4	3	1	5	1	5	5	7	0	0	1	0	0	0
+skthanet	 Thanquol and Boneripper		N/A	Wizard		1:1	650	0	ipts:total=0;take:skwapamu-free-perm;take:skthanq1-free-perm;catg:wiz;type:Wiz;type:Ld7;attr:Type="Mo";type:ThanquolET	umax:1;race:gl;hide		Monster (Special Character, Thunderstomp); Large Target; Terror; Unbreakable; #Blessings of the Horned Rat: Ward Save 4+; #Warpstone Addiction - do not suffer a Wound if the result of warpstone generated dice is a 1		Lvl4 Wizard; He can use spells form Lore of Ruin and Plague and can substitute any one spell for the Dreaded 13th Spell; Includes Warpfire Projectors that can be replaced with Warpfire Braziers for free; Starts the game with D6+2 warpstone tokens	From End Times: Thanquol, Jan 2015	6	4	3	6	5	8	5	6	7	7	4	4	2	1	5	0	0
+skthrot	 Throt the Unclean		N/A	Lord		1:1	225	0	ipts:total=0;spec:+weap;spec:+ench;take:skcrkill-free-perm;take:skwipdom-free-perm;type:moulder;type:throt;type:Ld7;attr:Type="In"	umax:1;lglx:(mode=default|mode=m);race:gl;hide		Infantry; Fear; Regeneration; Master Controller - counts as packmaster for purposes of leading Giant Rats or Rat Ogres.  Any unit of Giant Rats or Rat Ogres within 12" may use his leadership; Ravening Hunger - After marching or a round of combat (after break test) must pass ldr test or eat one of his units models.  No models available then he takes a wound with no regen.				6	6	3	4	4	3	6	4	7	7	7	0	0	1	0	0	0
+sktrcrta	 Tretch Craventail	hersk	N/A	Special Characters	Hero	1:1	145	1	ipts:total=0;spec:+ench;take:skluchel-free-perm;attr:Type="In"	umax:1;race:gl;hide		Infantry; Tretch's Raiders - When Tretch is in combat he and any Clanrat or Stormvermin unit he joins reroll all failed To Hit rolls when attacking in the flank or rear; Stay Here, I'll Get Help - He can leave a unit and reposition himself in the fronk rank of another friendly unit of Clanrats or Stormvermin within 3D6 inches.  If roll not great enough for him to reach then he is a casualty.				5	5	4	4	4	2	6	3	6	7	4	0	0	0	0	0	0
+skvercor	 Verminlord Corruptor		N/A	Wizard		1:1	500	0	attr:Type="Mo";take:skverco1-free-perm	race:gl;hide		Monster (Special Character, Thunderstomp); Large Target; Terror; Immune to Psychology; Scurry Away!; Daemonic Attacks; Rat Daemon; #Protection of the Horned Rat: Ward Save 5+; #Plaguemaster: can re-roll failed casting attempts when casting Plague		Lvl4 Wizard; Lvl4 Wizard; First spell will be Plague, the remainder of the spells can be generated from Lores of Ruin and Plague in any combination;Frenzy	From End Times: Thanquol, Jan 2015	8	8	4	6	6	6	10	5	8	7	5	0	0	0	0	0	0
+skverdec	 Verminlord Deceiver		N/A	Wizard		1:1	500	0	attr:Type="Mo";take:skverde1-free-perm;take:skverde2-free-perm	race:gl;hide		Monster (Special Character, Thunderstomp); Large Target; Terror; Immune to Psychology; Scurry Away!; Daemonic Attacks; Rat Daemon; #Protection of the Horned Rat: Ward Save 5+; #Shrouded in Darkness: -1 To Hit with shooting attacks; #Shadowstrider: can re-roll failed attempts to cast Skitterleap and can choose himself as a target of this spell		Lvl4 Wizard; Lvl4 Wizard; First spell will be Skitterleap, the remainder of the spells can be generated from Lores of Ruin and Plague in any combination	From End Times: Thanquol, Jan 2015	8	8	4	6	6	6	10	5	8	7	5	0	0	0	0	0	0
+skverwar	 Verminlord Warbringer		N/A	Wizard		1:1	550	0	attr:Type="Mo";take:skverwa1-free-perm	race:gl;hide		Monster (Special Character, Thunderstomp); Large Target; Terror; Immune to Psychology; Scurry Away!; Daemonic Attacks; Rat Daemon; #Protection of the Horned Rat: Ward Save 5+; #Verminous Fury: can re-roll failed casting attempts when casting Death Frenzy		Lvl4 Wizard; First spell will be Death Frenzy, the remainder of the spells can be generated from Lores of Ruin and Plague in any combination	From End Times: Thanquol, Jan 2015	8	8	4	6	6	6	10	6	8	7	5	0	0	0	0	0	0
+skversee	 Verminlord Warpseer		N/A	Wizard		1:1	550	0	attr:Type="Mo";take:skdoomgl-free-perm;take:skverse1-free-perm	race:gl;hide		Monster (Special Character, Thunderstomp); Large Target; Terror; Immune to Psychology; Scurry Away!; Daemonic Attacks; Rat Daemon; #Protection of the Horned Rat: Ward Save 5+; #Master of Lightning: can re-roll failed casting attempts when casting Warp Lightning and always counts as rolling 6 when determining the number of hits the spell causes.		Lvl4 Wizard; First spell will be Warp Lightning, the remainder of the spells can be generated from Lores of Ruin and Plague in any combination	From End Times: Thanquol, Jan 2015	8	8	4	6	6	6	10	5	8	7	5	0	0	0	0	0	0
+skwarlok	 Warlock Master		N/A	Wizard		1:1	180	100	ipts:total=100-each=100;type:skryre;type:skirmishers;take:sktoke3-free-perm;type:Ld7;attr:Type="In"	lglx:(mode=s);clmt:weap+armr+ench+ward+wzrd<=100-points-msg=skwiz1;hide		Infantry; May cast Warp Lightning at 11+; 3d6 S5 hits		Lord; Lvl 3 Wizard (w/ no spells); Incl Warplock Pistol, Warp-Blades, Upgraded Warp-Energy Condenser, Supercharged Warp-Power Accumulator, and 3 Warpstone Tokens.		5	4	4	3	4	3	4	2	7	7	7	3	2	1	3	0	0
+skmutant	 Warpstone Mutants	Slave	N/A	Alternate Rules	infantry	20	4	0	calc:Num=#;size:1-20-1-mode=zz;type:pushers;attr:Type="In"	reqd:type=mainstay@1u:1u;forc;umax:1;reqd:unit=skklawm;hide		Infantry	Do not cause panic in units (other than Clanrat slaves) if they flee	Do not cause panic in units (other than Clanrat slaves) if they flee; Number of units limited by number of Mainstay units; Unit Size:20+		5	2	2	4	4	1	3	1	4	7	7	0	0	1	0	0	0
+sktank	 Warpstone Rat Tank		N/A	Alternate Rules	tank	1:1	325	0		umax:1;reqd:unit=skklawm@1u:1u;lglx:mode=s;hide			Warplock Pistol in place of repeater pistol	From GW Website; Follows Steam Tank rules from Warhammer Annual; Armed with Warpfire Thrower in the turret; Warp-Lightning Cannon in hull and commander has a warplock pistol (instead of repeater pistol); Requires Klawmunkast to be present (and General)		0	1	3	6	0	25	0	0	10	7	7	0	0	10	0	0	0
+skydeath	 Yellow Death Rat Swarms	Swarm	N/A	Regiment		1:5	80	0	calc:Num=#;attr:Type="Sw"	umax:1;reqd:unit=skswarm@1u:0u;lglx:mode=p;reqd:unit=skmorbus@1u:1u;hide		Swarm; Unbreakable; Unstable; Skirmishers; Small (Don't Block LOS); May not be joined by characters; Skaven units do not Panic if Swarm destroyed; Poisoned Attacks; Unit Size: 1-5; From GW Website - Requires Morbus Sanguis to be in army				6	4	0	3	2	5	2	5	10	7	7	0	0	3	0	0	0
+skboncru	Augment Vermin Ogre	bone	N/A	Mount	mount	1	0	0		hide;lglx:race=sk		Monstrous beast. 				6	4	3	5	4	4	4	4	6	7	7	0	0	3	0	0	0
+skplfurn	Blight Furnace	PFU	N/A	Mount	mount	1:1	0	0	attr:Type="Ch"	hide;skip must:option=skcpush@min=1-msg=skmsg3-istype=!pushers		Chariot; Impact Hits (D6); War Platform; Terror; Large Target; Magic Resistance (2); Stubborn; Hatred; Ward Save (4+); Immune to Psychology [conferred to unit]; Grinding Attack (D6); 				0	0	0	6	6	5	0	0	0	7	4	0	0	6	0	0	0
+skboner	Boneripper		N/A	Mount		1:1	0	0	attr:Type="MI"	hide		Monstrous Infantry (Stomp); Cause Fear; Unbreakable; Warpfire Thower;  Must remain within 12" of Thanquol or he shuts down at the beginning on his turn.  He cannot move and will be hit automatically in CC and will not strike back. If shut down at the end of game he is counted as a casualty;  If Thanquol dies or flees off table remove Boneripper as well.				5	3	1	5	5	3	1	4	10	7	7	0	0	3	0	0	0
+skcauldr	Cauldron of 1000 Poxes	Cauld	N/A	Machine		1:1	200	0	attr:At="D6"	hide;umax:1;must:option=skcpush@min=1-msg=skmsg3-istype=!pushers		Chariot; Pusher unit: 10+ models - full movement; -1" for every model less than 10; D6 Impact Hits; Magic Resistance (2); Large Target; Chariot autohit in CC; Casts Plague as Bound Spell with up to 3 dice, roll of 13 = IF				0	0	0	5	6	6	0	0	0	7	3	2	0	4	0	0	0
+skchclan	Champion	Chmp	N/A	Champion	champ	1:1	10	0	coun	hide					9th age	5	4	4	3	3	1	4	2	5	6	7	0	0	1	0	0	0
+skchgutt	Champion	Chmp	N/A	Champion	champ	1:1	10	100	coun	hide						6	5	5	3	3	1	5	2	7	7	5	0	0	1	0	0	0
+skchnigh	Champion	Chmp	N/A	Champion	champ	1:1	10	0	coun	hide						6	4	4	3	3	1	5	2	6	7	6	0	0	1	0	0	0
+skchplag	Champion	Chmp	N/A	Champion	champ	1:1	10	0	coun	hide						5	4	4	3	4	1	3	2	5	7	7	0	0	1	0	0	0
+skchslav	Champion	Chmp	N/A	Champion	champ	1:1	10	0	coun	hide						5	2	2	3	2	1	4	2	2	7	7	0	0	1	0	0	0
+skchstor	Champion	Chmp	N/A	Champion	champ	1:1	10	1	coun	hide						5	5	4	3	3	1	5	2	5	5	7	0	0	1	0	0	0
+skjezzch	Champion	Chmp	N/A	Champion	champ	1:1	10	0	coun	hide						5	4	4	3	3	2	4	3	5	5	7	0	0	2	0	0	0
+skmasbre	Champion	chmp	N/A	Champion	champ	1:1	10	0	coun	hide						6	4	2	5	4	3	4	4	5	7	7	0	0	3	0	0	0
+skplacha	Champion	Chmp	N/A	Champion	champ	1:1	10	0	coun	hide						5	4	4	3	4	1	3	3	5	7	7	0	0	1	0	0	0
+skpwgch	Champion	chmp	N/A	Champion	champ	1	10	0	coun	hide						5	4	4	3	3	1	4	2	5	7	7	0	0	1	0	0	0
+skwarlit	Clan Lord War Throne		N/A	Mount	mount	1	0	0	attr:Type="In"	hide;lglx:race=sk		Infantry, IP increased by 6"				5	4	0	4	4	2	5	4	5	7	7	0	0	0	0	0	0
+skclawld	Clawleader	Chmp	N/A	Champion	champ	1:1	8	0	coun	hide						5	3	3	3	4	1	4	2	5	6	7	0	0	1	0	0	0
+skbelri	Crew		N/A	Regiment	crew	1	0	0		hide						0	3	0	5	0	0	4	3	5	7	7	0	0	0	0	0	0
+skcatcr	Crew		N/A	Regiment		1	0	0		hide		Plague Cult				5	3	3	3	4	0	3	1	7	7	7	0	0	0	0	0	0
+skfurncr	Crew		N/A	Regiment		1	0	0		hide						0	3	3	3	0	0	3	1	5	7	7	0	0	0	0	0	0
+skrater	Crew	Crew	N/A	Regiment		1:1	0	0		hide					CJ 49 (for Doomwheel)	0	3	3	3	0	0	4	1	7	7	7	0	0	0	0	0	0
+skwarpc	Crew		N/A	Regiment		1	0	0		hide						5	3	3	3	3	0	4	1	7	7	7	0	0	0	0	0	0
+skchstbo	Fangleader	chmp	N/A	Champion	champ	1:1	10	1	coun;ipts:total=15-each=15;spec:+scpi	hide		Can only have ONE Scavenge-Pile item.				5	5	3	4	3	1	5	2	5	5	7	0	0	0	1	0	0
+skgbrat	Giant Blight Rat	gbr	N/A	Mount	mount	1	0	0		hide;lglx:race=sk		Monstrous beast. Fear, Large Target, Regeneration 4+, Reckless, Breath Weapon (Toxic), ITP				7	4	0	5	5	4	4	4	5	7	7	0	0	3	0	0	0
+skgrpora	Great Pox Rat		N/A	Mount		1	30	0		hide;lglx:race=sk		War Beast; Poisoned attacks; 40x40 base				6	3	3	4	4	1	5	2	2	7	7	0	0	0	0	0	0
+skmastmo	Master Moulder	Mould	N/A	Champion	hero	1:1	25	100	coun;type:masterm;type:moulder;calc:Num=#;ipts:total=30-each=30;spec:+scpi;spec:+weap;spec:-ench;spec:-ward;spec:-armr;attr:Type="In"	lglx:(race=sk&(mode=default|mode=m|mode=zz))|(race=vm&mode=e);hide		Infantry; Can have 30pts Scavenge pile or the Things-Catcher total.				6	5	3	4	4	2	5	2	6	7	7	0	0	1	0	0	0
+skpack	Packmasters		N/A	Regiment		1	8	0	skip coun;calc:Num=#;type:moulder;size:1-20-1-mode=zz;ratp:max=1:5	hide		No more than 1 packmaster per 5 rats.				6	3	3	3	3	1	4	1	5	6	7	0	0	1	0	0	0
+skplamo	Poisoned Wind Mortar Team		N/A	Regiment		1:1	0	0		hide		Each team treated as single 1Wo creature; must deploy w/in 3" of parent unit; separate unit for VPs; Can use rank bonus of parent unit as long as 3" away; 4+ ward save from ranged attacks IF within 3" of parent unit.				5	3	3	3	3	1	3	2	5	5	7	0	0	2	0	0	0
+skwarpf2	Poisoned Wind Mortar Team		N/A	Regiment		1:1	0	0	type:skryre	hide;reqd:type=Globadiers@1u:3u-free=1		Each team treated as single 1Wo creature; must deploy w/in 3" of parent unit; Separate unit for VPs; Can use rank bonus of parent unit as long as 3" away; 4+ ward save from ranged attacks IF within 3" of parent unit.				5	3	3	3	3	1	3	2	5	5	7	0	0	2	0	0	0
+skratog	Rat Ogre	ratog	N/A	Regiment		1	40	0	calc:Num=#	lglx:race=sk;hide						6	3	0	4	4	3	3	3	5	7	7	0	0	3	0	0	0
+skbeast	Rat Ogre Packmasters		N/A	Regiment		1	8	0	skip coun;calc:Num=#;type:moulder;size:1-20-1-mode=zz;ratp:max=1:1;zero	hide		Immune to Fear;  No more than 1 packmaster per 2 Rat Ogres; Do not count for rank bonus.				6	3	3	3	3	1	4	1	5	6	7	0	0	1	0	0	0
+skdriver	Skaven Driver		N/A	Regiment		1	0	0		hide					CJ 49 (for Doomwheel)	0	3	3	3	0	0	4	1	8	7	7	0	0	0	0	0	0
+skskgnaw	Skweel Gnawtooth	mould	N/A	Champion	hero	1:1	100	0	coun;calc:Num=#;ipts:total=0;spec:+weap;take:skwarlas-free-perm;attr:Type="In"	hide;umax:1;race:gl		Infantry; Verminous Bodyguard - Any enemy unit in base contact with Skweel at the beginning of the CC phase takes D6+2 St2 hits; Exceptional Pack - He is a packmaster and cannot join units except Giant Rats or Rat Ogres and cannot leave the unit. After Deploying roll for mutation; On a D6 1-2 - Regeneration; 3-4 Poisoned Attacks; 5-6 Additional Attacks ( +1 per model)				6	5	3	4	4	2	6	2	6	7	7	0	0	0	0	0	0
+skbell	The Doom Bell	Bell	N/A	Mount	mount	1:1	0	0	calc:Num=#;attr:Type="Ch"	hide;skip must:option=sksbpush@min=1-msg=skmsg4-istype=!pushers;umax:1u		Chariot; Impact Hits (D6); War Platform; Terror; Large Target; Magic Resistance (2); Stubborn; Ward Save (4+); Immune to Psychology [conferred to unit]; # Sounding the Bell: At the start of each of your magic phase, roll 2D6 andchoose one of the two effects from the table. If double comes, no effect takes place, and model takes S6 hit with ni saves: #3-5: a) One friandly unit in 12" makes D6 Magical Move b) All friendly units in 36" can immediately make a rally attempt; #6-8: a) One friendly unit in 12" cause Fear until start of our next magic phase. b) Grey prophet on Doom gets +1 casting modifier for the phase; # 9-11: a) One unit in 12" gets Lightning reflexx until start of your next magic phase. b) Pick one model type war machine, chariot, war platform, or undead construction on the battlefield with T7 or more. It instantly suffers D3 automatic wounds with AP(6)				0	0	0	5	6	5	0	0	0	7	4	0	0	6	0	0	0
+skwarpf3	Tunnel Team		N/A	Regiment		1:1	0	0	attr:At="S";attr:Type="In"	hide		Infantry; Each team treated as single 1Wo creature; must deploy w/in 3" of parent unit; Separate unit for VPs; Can use rank bonus of parent unit as long as 3" away; 4+ ward save from ranged attacks IF within 3" of parent unit; Team MUST always STAY within 3" of unit or are DESTROYED; In CC it does D3 St4 auto hits.				5	3	3	3	3	1	3	0	5	5	7	0	0	2	0	0	0
+skemstas	Master Assassin		Lord	Lord		1:1	215	100	ipts:total=100-each=100;type:eshin;type:skirmishers;type:Ld8;spec:-armr;attr:Type="In"	lglx:mode=c		Infantry; Poisoned Attacks; Scout; Hidden; Sensei		Lord; If army general, can only pass his LD to other units if he's not hidden		7	8	6	4	4	3	10	4	8	7	7	0	0	1	0	0	0
+skmstass	Master Assassin		Lord	Hero		1:1	215	100	ipts:total=100-each=100;type:eshin;type:skirmishers;type:Ld8;spec:-armr;attr:Type="In"	lglx:mode=e		Infantry; Poisoned Attacks; Scout; Hidden		Lord; Pass Ld to all units of Night Runners & Gutter Runners w/in 12" even when hidden, others can only after revealed		7	8	6	4	4	3	10	4	8	7	0	0	0	1	0	0	0
+skmutato	Master Mutator		Lord	Lord		1:1	130	100	ipts:total=100-each=100;type:moulder;type:skirmishers;type:Ld7;attr:Type="In"	lglx:mode=m		Infantry				6	6	3	4	5	3	7	4	7	7	7	0	0	1	0	0	0
+sknurgli	Nurglitch and Retinue		Lord	Lord		1	575	3	take:sknurg1-free-perm;take:sknurgle-free-perm;take:sktoke3-free-perm;take:sknurgl2-free-perm;take:skspell4-free-perm;take:skspell5-free-perm;take:skspell6-free-perm;spec:+weap;spec:+spec;spec:+spel;type:skmagic;type:Nurglitch	lglx:mode=d		Causes Terror; Frenzy & Hatred; No unit in army loses Frenzy as long as Nurglitch is alive; He and any unit joined never suffer Wounds due to Nurgle or Skaven Magic (except Warp Lightning); Automatically pass test for effects of Plague		Counts as a Lord and a Hero; Level 3 Wizard		5	6	3	4	5	5	4	6	7	7	5	3	2	3	0	0	0
+skpllord	Plague Lord		Lord	Lord		1:1	130	100	ipts:total=100-each=100;type:pestilens;type:skirmishers;type:Ld7;attr:Type="In"	lglx:(mode=p|mode=d)		Infantry; Frenzy		Lord		5	6	3	4	5	3	6	5	7	7	7	0	0	1	0	0	0
+skpontif	Plague Pontifex		Lord	Wizard		1:1	145	100	ipts:total=100-each=100;type:pestilens;type:skirmishers;type:Ld6;take:skspell4-free-perm;take:skspell6-free-perm;type:skmagic;attr:Type="In"	lglx:mode=d		Infantry; Frenzy		Lord		5	4	3	4	5	3	4	2	6	7	7	2	1	1	2	0	0
+sklord	 Lord: Clan Lord	Lord	Hero	Lord	Lord	1:1	80	100	ipts:total=100-each=100;type:Ld7;attr:Type="In";type:clanlord	lglx:mode=default|mode=zz;race:gl;umax:3u@4000-free=3-msg=crmsg901		Infantry; Vermin Swarm; Honorless		Light Armour	DeBelial, October 2015, 9th Age	5	6	4	4	4	3	7	4	7	6	7	0	0	1	0	0	0
+skseer	 Lord: Grey Prophet	Seer	Hero	Wizard	Lord	1:1	150	100	ipts:total=100;type:Hero;type:skirmishers;type:Ld7;attr:Type="In"	clmt:spel<=Wz-msg=dkmsg1;clmt:weap+armr+ench+ward+wzrd+scpi<=100-points-msg=skwiz1;race:gl;umax:3u@4000-free=3-msg=crmsg901		Infantry; Vermin Swarm, Honorless		Level 3 Wizard. Use spells from Path of Ruin or Path of Disease	DeBelial, October 2015, 9th Age	5	3	3	3	4	3	5	1	6	7	7	4	2	1	4	0	0
+skvermin	 Lord: Vermin Daemon		Hero	Wizard	Lord	1:1	310	0	catg:wiz;spec:-weap;spec:-armr;spec:-ward;spec:-wzrd;spec:-ench;attr:Type="Mo";type:Ld9	umax:1m		Base 50x50; Otherwordly; Multiple Wounds (D3); Swiftsride; Daemonic Instability (never flee from combat. Roll 2d6 for break test. Add to CR difference, deduct Ld. If result is possitive this unit loses this many wounds with no save allowed.;Level 1 Wizard. Use spells from Path of Ruin, Diseae or Shadows			DeBelial, October 2015, 9th Age	8	8	4	6	6	5	9	5	9	7	5	4	0	0	0	1	0
+skpriest	Hero: Blight Priest	Prst	Hero	Hero	Hero	1:1	70	100	ipts:total=50-each=50;type:pestilens;type:necro;type:Ld6;attr:Type="In"	clmt:spel<=Wz-msg=skmsg1;race:gl;clmt:weap+armr+ench+ward+wzrd+scpi<=50-points-msg=skwiz1;umax:3u@4000-free=3-msg=crmsg901		Infantry; Vermin Swarm; Blight Cult; Hatred; Honorless				5	5	3	4	5	2	5	3	6	7	7	0	1	1	1	0	0
+skhero	Hero: Clan Chief	HerSk	Hero	Hero	Hero	1:1	45	100	ipts:total=100-each=100;type:skirmishers;type:Ld6;type:hero;attr:Type="In";type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;race:gl;umax:3u@4000-free=3-msg=crmsg901		Infantry; Vermin Swarm; Honorless		Light Armour		5	5	4	4	4	2	6	3	6	6	7	0	0	1	0	0	0
+skassass	Hero: Deathrunner	Ass	Hero	Hero	Hero	1:1	100	100	ipts:total=50-each=50;attr:Type="In"	race:gl;umax:3u@4000-free=3-msg=crmsg901		Infantry; Vermin Swarm; Supernatural Reflexes; Ward Save (4+); Poisoned Attacks; Not a Leader; Reckless; Honorless; Hiden; Sensei (Can give his Ld only to Deathrunners, Frontrunners, Duskrunners even if he is general. His Inspiring Presence is 18")			DeBelial, October 2015, 9th Age	6	6	5	4	4	2	8	3	6	7	4	0	0	1	0	0	0
+skengin	Hero: Grey Apprentice	Eng	Hero	Wizard	Hero	1:1	60	100	ipts:total=50-each=50;type:skryre;type:Ld5;attr:Type="In"	race:gl;umax:3u@4000-free=3-msg=crmsg901		Infantry; Vermin Swarm; Honorless			DeBelial, October 2015, 9th Age	5	3	3	3	3	2	4	1	5	7	7	1	0	1	0	0	0
+skstrain	Hero: Strain Master	HerSk	Hero	Hero	Hero	1:1	55	100	ipts:total=50-each=50;type:skirmishers;type:Ld6;type:hero;attr:Type="In";type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;race:gl;umax:3u@4000-free=3-msg=crmsg901		Infantry; Vermin Swarm; Honorless; Swiftstrider; 				6	5	3	4	4	2	6	3	6	7	7	0	0	1	0	0	0
+skwarpte	Hero: Warp Tech Mechanist	HerSk	Hero	Hero	Hero	1:1	35	100	ipts:total=100-each=100;type:skirmishers;type:Ld6;type:hero;attr:Type="In";type:infantry	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;race:gl;umax:3u@4000-free=3-msg=crmsg901		Infantry; Vermin Swarm; Honorless, Reckless				5	4	4	4	4	2	5	1	6	7	7	0	0	1	0	0	0
+skmonks	Blight Monks	Monks	Core	Regiment	infantry	15:60	7	0	calc:Num=#;ipts:total=25-each=25;attr:Type="In"	slmt:1;race:gl;umax:4u@4000-free=4-msg=crmsg902		Infantry; Vermin Swarm; Hatred		Additional Hand Weapon	9th Age	5	3	3	3	4	1	3	1	5	7	7	0	0	1	0	0	0
+skclan	Clan Vermin	Clan	Core	Regiment	infantry	20:70	5	0	calc:Num=#;size:1-20-1-mode=zz;type:pushers;attr:Type="In";type:warpparrent	forc;lglx:!mode=d;race:gl;umax:4u@4000-free=4-msg=crmsg902		Infantry; Vermin Swarm				5	3	3	3	3	1	4	1	5	6	7	0	0	1	0	0	0
+sknight	Frontrunners	Night	Core	Regiment	infantry	10:20	7	0	calc:Num=#;type:skirmishers;attr:Type="In"	lglx:!mode=d;race:gl;umax:4u@4000-free=4-msg=crmsg902		Infantry; Vermin Swarm; Skirmishers; Vanguard; Reckless			9th Age, DeBelial October 2015	6	3	3	3	3	1	4	1	6	7	7	0	0	1	0	0	0
+skrats	Giant Rodents	Rats	Core	Regiment		10:50	3	0	calc:Num=#;type:moulder;xcmp:Spec-mode>p;xcmp:Spec-mode=e;size:1-20-1-mode=zz;xcmp:Spec-mode=c;type:mainstay-mode=m;type:giantratnocore;attr:Type="In"	lglx:!mode=d;race:gl;umax:4u@4000-free=4-msg=crmsg902		Infantry; Vermin Swarm; Fight in Extra Rank; Swiftstride; Handlers: Can alway perform swift reform (no Ld test required)				6	3	0	3	3	1	4	1	5	7	7	0	0	1	0	0	0
+skslave	Underlings	Slave	Core	Regiment	infantry	20:50	2	0	calc:Num=#;size:1-20-1-mode=zz;type:pushers;attr:Type="In"	forc;lglx:!mode=d;race:gl;umax:4u@4000-free=4-msg=crmsg902		Infantry; Vermin Swarm; Insignificant; Slaves: Unit is immediately destryed instead of fleeing (after failed break test).			DeBelial, October 2015. 9th age	5	2	2	3	3	1	4	1	2	7	7	0	0	1	0	0	0
+skstorm	Verminguard	Storm	Core	Regiment	infantry	10:60	7	0	ipts:total=50-each=50;calc:Num=#;size:1-20-1-mode=zz;type:pushers;attr:Type="In";type:warpparrent	race:gl;umax:4u@4000-free=4-msg=crmsg902		Infantry; Vermin Swarm				5	4	3	3	3	1	5	1	5	5	7	0	0	1	0	0	0
+skwarpf	Warp Tech Team		Core	Regiment		1:1	50	0	type:skryre;attr:Type="In";type:warpteam			Infantry; Vermin Swarm; Reckless; Insignificant; Tags Along:  Amounts o WTT in your army can never exceed your total amount of Clan Vermin and Vermin Guard units. In 3" of  Clan Vermin or Vermin Guard can use units Ld, and counts being in Hard Cover			September 1, 2002	5	3	3	3	3	2	4	2	5	5	7	0	0	2	0	0	0
+skswarm	Cluster of Rats	Swarm	Special	Regiment	swarm	2:10	15	0	calc:Num=#;attr:Type="Sw"	umax:2u-mode=m;umax:1u-mode=e;umax:1u-mode=c;umax:1u-mode=p;umax:1u-mode=s;umax:1u-mode=d;race:gl		Vermin Swarm; Insignificant; Tiny: Able to move and Charge through friendly units (never cant end move inside); Swiftrider 			9th age	6	3	0	2	2	5	4	5	10	7	7	0	0	3	0	0	0
+skcenser	Disciplies of Blight	Cense	Special	Regiment	infantry	5:15	9	0	calc:Num=#;type:skirmishers;xcmp:Spec-mode=p;size:1-20-1-mode=zz;xcmp:Spec-mode=d;attr:Type="In"	race:gl;umax:3u@4000-free=3-msg=crmsg903		Infantry; Vermin Swarm; Hatred; Blight Cult; Skirmishers; Frenzy; Disciplies: can use ranks of Blight Monks within 6" as their Vermin Swarm Ld modifier			9th age	5	3	3	3	4	1	4	1	5	7	7	0	0	1	0	0	0
+skgutter	Dusk Runners	Gutte	Special	Regiment	infantry	5:10	9	0	type:skirmishers;calc:Num=#;type:eshin;xcmp:Rare-mode>m;size:1-20-1-mode=zz;attr:Type="In"	lglx:!mode=d;race:gl;umax:3u@4000-free=3-msg=crmsg903		Infantry; Vermin Swarm; Skirmishers; Vanguard; Reckless			9th age	6	4	4	3	3	1	5	1	7	7	7	0	0	1	0	0	0
+skpoison	Grenadiers	Globe	Special	Regiment	infantry	5:10	15	0	type:skirmishers;calc:Num=#;type:missiles;type:skryre;type:Globadiers;attr:Type="In"	lglx:!mode=d;race:gl;umax:3u@4000-free=3-msg=crmsg903		Infantry; Vermin Swarm; Skirmishers; Reckless			DeBelial, 9th age	5	3	4	3	3	1	4	1	5	7	7	0	0	1	0	0	0
+skjezz	Musket Teams	Jezz	Special	Regiment	infantry	5:10	16	0	calc:Num=#;type:missiles;type:skryre;attr:Type="In";attr:Sv="*/4+"	race:gl;umax:3u@4000-free=3-msg=crmsg903		Infantry; Vermin Swarm; Reckless; Pavise (Asv4+ against shooting)		Includes Heavy Armour and Shield		5	3	3	3	3	2	4	2	5	7	7	0	0	2	0	0	0
+skogres	Vermin Ogres	Ogres	Special	Regiment	infantry	3:12	35	0	calc:Num=#;type:moulder;xcmp:Spec-mode=default;xcmp:Spec-mode=m;ratp:max=1:1;type:ratogrenocore;attr:Type="MI"	lglx:(race=sk&(mode=default|mode=s|mode=p|mode=e|mode=m|mode=zz))|(race=vm&mode=c);race:gl;umax:3u@4000-free=3-msg=crmsg903		Monstrous Infantry (Stomp 1); Vermin Swarm; ItP		Frenzy	9th age	6	3	1	5	4	3	4	3	6	7	7	0	0	3	0	0	0
+sk9weaps	Warp Tech Vermin Ogres		Special	Regiment		3:6	50	0	type:skryre;attr:Type="In"	umax:3u@4000-free=3-msg=crmsg903		Infantry; Vermin Swarm; ItP; Reckless; Warp Tech Beasts: In each turn one model in unit may use one of its weapons. If missfire in shooting no shots fired and unit suffers D3 wound with no saves; Plate Armour				6	3	3	5	4	4	4	3	5	4	7	0	0	2	0	0	0
+skplcat	Blight Catapult	skpl	Rare	Machine		1:1	120	0	calc:Num=#;attr:Type="WM"	race:gl;umax:2u@4000-free=2-msg=crmsg904		War Machine; Vermin Swarm; Catapult Artillery Weapon with the following profile: Range 12-48”, 3” template, Toxic Attacks, Magical Attacks.		3 Crew	9th age, October 2015	0	0	0	0	7	3	0	0	0	7	7	0	0	0	0	0	0
+skdoomwh	Vermin Dreadmill		Rare	Regiment	machine	1:1	150	0	attr:At="D6+1";attr:Type="Ch"	race:gl;umax:2u@4000-free=2-msg=crmsg904		Chariot; Vermin Swarm; Large Target; Immune to Psychology;  Grinding Attacks (D3); Random Movement (3D6); Random Attacks (2D6) (Pulling beast only), Scythes; Innate Defence (4+); Warp Weapon Missfire; # Electric Discharge: Range 10”, Strength 10, Multiple Shot (D3) if 6 is rolled = Missfire, Multiple Wounds (D3), Magical Attacks, Lightning Attacks, Slow to Fire. *Roll once for all shots, if a more than 10 is rolled, the shot is lost, roll on the Misfire Table. Shots with Warp Discharge can shoot 360 and automatically hits.			9th age, DeBelial	0	0	0	6	6	5	4	0	0	4	7	0	0	5	0	0	0
+skabom	Vermin Horror Breed	abom	Rare	Regiment	monster	1	210	0	attr:Mv="3D6";attr:At="3D6";calc:Num=#;attr:Type="Mo"	race:gl;umax:2u@4000-free=2-msg=crmsg904		Monster (Stomp D6); Vermin Swarm; Terror; Large Target; Impact Hits (D6); Regeneration (4+); Random Movement (3D6); Random Attacks (3D6); Stubborn; Immune to Psychology			9th age, DeBelial	0	3	1	6	5	6	4	0	8	7	7	0	0	6	0	0	0
+skcannon	Warp Cannon	Cannonmachine	Rare	Machine	machine	1:1	100	0	calc:Num=#;attr:Type="WM"	race:gl;umax:2u@4000-free=2-msg=crmsg904		Cannon(D6); Vermin Swarm; Warp Weapon Missfire; Cannon* Artillery Weapon with the following profile: Range 60”, Strength 2D6**, Armour Piercing (6), Magical Attacks, Lightning Attacks, Multiple Wounds (Ordnance). *Cannon ball does not reduse S after impact. **If a more than 10 is rolled, treat it as Strength 10 and cannonball is not stopped if it fails to kill model.		3 Crew	9th age, DeBelial	0	0	0	0	7	3	0	0	0	7	0	0	0	0	0	0	0
+skstormf	Weaponized Monstrous Rats	SFien	Rare	Regiment	infantry	3:3	40	0	calc:Num=#;type:moulder;attr:Type="MI"	race:gl;umax:2u@4000-free=2-msg=crmsg904;hide		Monstrous Infantry (Stomp 1); Vermin Swarm; 		Each model must take one of the special weapons. THIS IS NOT VALIDATED BY ARMY BUILDER - keep count of weapons by yourself.	9th age, DeBelial, Oct2015	6	3	3	5	4	3	4	3	6	5	7	0	0	3	0	0	0
+xskpull	Pulling beast	Crew	N/A	Regiment		1	0	0		hide						5	0	0	0	0	0	0	0	0	7	7	0	0	0	0	0	0
+xskrats	Pulling beasts	Crew	N/A	Regiment		1	0	0	attr:Mv="3D6";attr:At="2D6"							0	3	0	3	0	0	4	0	0	7	7	0	0	0	0	0	0
+^
+sk1tok	1 Warpstone Token		Priority	N/A	0	take:sktoken1-free-perm;apnd;hide	1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only.  			
+skaddwea	Additional Hand Weapon	2nd	Priority	2Hd	5	stat:At+1;xcst:3-unit=skstrain	Gives +1A when on foot			
+skap1	Armour Piercing (1)	sw	Priority	N/A	5		Have Armour Piercing (1)			
+skclshad	Cloak of Shadows	cloak	Priority	N/A	0	apnd	Snitch cannot be seen, shot at or targeted specifically by spells unless attacking unit rolls a D6 result of 4+.  If unit fails can still target elsewhere. If in the way move him out. If in combat cloak has no effect.			
+skcorech	Count as Core		Priority	N/A	0	over:sknocore=delete;xcmp:Core;type:giantratcore;dtyp:giantratnocore;type:ratogrecore;dtyp:ratogrenocore	Throt is reqd;  Maxmum of TWO Rat Ogre units may be core when Throt is present!.			
+skplcore	Count as Core		Priority	N/A	0	xcmp:Core;type:Coremonk;dtyp:Specmonk				
+sk2tok	D3 Warpstone Tokens		Priority	N/A	0	take:sktoken1-free-perm;apnd;hide	1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only.  Grey Seer gets D-3.			
+sk3tok	D6+2 Warpstone Tokens		Priority	N/A	0	take:sktoken1-free-perm;apnd;hide	1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only.			
+skdistra	Distracting	di	Priority	N/A	40		CC attacks against this model has -1 To Hit. Cant be combined with other negative modifiers			
+skexalt	Exalted	ex	Priority	N/A	30	base:Wo+1;base:At+1;base:Mv+1	Use 100x60 base			
+skmore	Extra Base Cost		Priority	N/A	0	xcst:10-unit=skgutter;xcst:10-unit=skrats;cost:single;hide;xcst:10-unit=skslave;xcst:50-unit=sk9weaps;xcst:15-unit=skcenser;xcst:10-unit=skswarm;xcst:-15-unit=skmonks;xcst:-5-unit=skogres				
+lsgen	General	Gen	Priority	N/A	0	type:SkrolkGen;type:Gen7;utyp:Ld7;type:general				
+skgenesh	General	Gen	Priority	N/A	0	type:general;more:Gen8=incl;more:Gen9=incl	Pass Ld to all units of Night Runners & Gutter Runners w/in 12" even when hidden, others can only after revealed			
+skgclan	Greater Clan (General)	gclan	Priority	N/A	10	base:Ld+1;type:general;over:general=delete;type:notleader;type:grclan;type:Gen10;type:Ld10;utyp:Ld9;utyp:Ld8;utyp:Ld7;utyp:Ld6;utyp:Ld5	General; Inspiring Presence: Units within 12" (18" if LT) may use General's Leadership					
+skgrind	Grinding Attacks (2D6) S3	gst3	Priority	N/A	30		Grinding Attacks (2D6) S3			
+skhal5	Halberd	h	Priority	Oth	5	stat:St+1	Requires Two Hands. +1 Strength.			
+skha10	Heavy Armour	ha	Priority	Arm	10	more:save2=incl;utyp:!MagicArmour				
+skha5	Heavy Armour	ha	Priority	Arm	5	more:save2=incl;utyp:!MagicArmour				
+skhazala	Heavy Armour	ha	Priority	Arm	8	more:save1=incl;utyp:!MagicArmour;over:latrp=delete;xcst:5-unit=skhero				
+skikitsp	Ikit's Spell Lists		Priority	N/A	0	tabl:Beasts=mgbeasts,Dark=dkdark,DarkEmissary=crdaem,Death=mgdeath,Fire=mgfire,Heaven=mgheaven,Metal=mgmetal,Shadow=mgshadow-noname-nobrackets			Ikit's Spell Lists	
+sklight	Lightning Reflex	li	Priority	N/A	35		+1 To Hit with CC Attacks. Does not apply if In=0 (in this case strike at its own In).			
+skmamr3	Magic Attacks and MR(3)	mr3	Priority	N/A	30					
+skplvl1	Magic level 1	Mg1	Priority	N/A	0	stat:Wz+1;show:mgmiscas;hide				
+mg2lvl15	Magic Level 2	mg2lv	Priority	N/A	15	over:mg1lvl=delete;stat:Wz+1;lglx:mode=c				
+sklvl2	Magic Level 2	Mg2	Priority	Chr	85	over:mg1lvl=delete;stat:Wz+1;spec:+wzrd;catg:wiz;show:mgmiscas;type:herowiz	Magic Level 2			
+sklvl3	Magic Level 3		Priority	N/A	60	take:skspell5-free-perm;stat:Wz+1;over:sk2tok=delete;take:sktoken3-free-perm;type:sk3				
+skplvl2	Magic Lvl2	Mg2	Priority	N/A	35	over:skplvl1=delete;stat:Wz+1				
+skwtmupg	Mechanist Upgrade		Priority	N/A	0	tabl:WarpGenerator=skwarpge,Exoskeleton=skbfury2,WarpFlameProjector=skwarppr				
+sknocore	No core choice		Priority	N/A	0	acmp:Core-1u;hide				
+sknonurg	No Nurglitch		Priority	N/A	0	type:Nurglitch;lglx:mode=d			Check this option so you don't have to field Nurglitch, either because you have your opponent's approval not to or because the list is below 2000 points	
+sknolead	Not a Leader	nolea	Priority	N/A	0	over:general=delete;dtyp:Ld9	Not a Leader rule			
+skchoice	Opponent's Approval		Priority	N/A	0					
+skpath	Pathmaster	pm	Priority	N/A	50		Freely choose spells (instead of rolling). Still no duplicate spells allowed.			
+skmonkc	Plague Monks core		Priority	N/A	0	hide				
+skppbsb	Plague Priest BSB		Priority	N/A	0	hide;show:btstand;lglx:mode=d				
+skplagu1	Plague Rats		Priority	N/A	20	type:pestilens;unam:<"Plague ";lglx:!(mode=default|mode=p|mode=d);xcmp:Spec		Poisoned Attacks	Makes them Plague Rats; Poisoned Attacks	
+skplagu2	Plague Rats		Priority	N/A	20	type:pestilens;unam:<"Plague ";lglx:(mode=p|mode=d)		Poisoned Attacks	Makes them Plague Rats; Poisoned Attacks	
+skplague	Plague Rats		Priority	N/A	20	type:pestilens;unam:<"Plague ";lglx:mode=default		Poisoned Attacks	Makes them Plague Rats; Poisoned Attacks	
+skratog	Rat Ogre		Priority	N/A	40					
+skreg4	Regeneration (4+)	reg4	Priority	N/A	40		Regeneration (4+)			
+skrobot	Rodent Genius		Priority	N/A	0			Any Misfires (on Art dice) rerolled; if still Misfire, +1 to die roll	Any Misfire rolls on Artillery dice for the war machines of Clan Skryre are re-rolled.  If a Misfire is still rolled, add 1 to dice roll on the Misfire chart (7s count as 6s).  Note - this ability does not apply to Rat Tank	
+skswift	Swiftstride	sw	Priority	N/A	5		Have Swiftsride rule.			
+sktoxret	Toxic Relatation	tr	Priority	N/A	20		For every unsaved wound suffered in CC, inflicts D3 Toxic hits to unit caused the wound			
+sktunnel	Tunnelling Team	TT	Priority	N/A	3	unam:+" Tunnelling Team";prng:min=3-max=10;more:sktunrul=incl	Unit Size 3-10; Adds Tunnelling ability.			
+skwarppr	Warp Flame Projector	wfp	Priority	N/A	35		Breath Weapon (S4, Flaming Attacks)			
+skwarpge	Warp Generator	wg	Priority	N/A	35	show:skspell0;show:skwarpt;spec:+wzrd	Bearer becomes a level 1 wizard knows Black Lightning Spell. May not take Tome of Arane Lore			
+skwttcho	Warp Tech Team choice	wtc	Priority	N/A	0	tabl:GatlingGun=skratgun,WarpFlameThrower=skwpfire,NoxiousMortar=skplamor,MeatGrinder=skmeatgr				
+skwarpt	Warp Token	wt	Priority	N/A	10	rang:0-4-unit=skseer;rang:0-2-unit=skengin;rang:0-2-unit=skwarpte;rang:0-2-unit=skpriest	One Use Only. Whenever casting a spell (before rolling power dice) caster may use single Warp Token. Add +D3 casting bonus to the spell. If 1 is rolled caster suffers hit with Strength PDU no saces of any kond allowed.			
+skwmiss	Warp Weapon Misfire	wmis	Priority	N/A	0		1: No shots are fired. Scatter model D6. If hits any unit makes D6 S5 hits then remove model. 2-3: Model suffers Wo with no saves. No shots fired. 4-5: Pivot toward randomized directions. Resolve shooting as normal  against the first unit straight in front of the shootin model with LoS and Range. (for Warp Cannon and Dreadmill Line template 6D6 MOdels hit  takes S10 hit, Magical, Lightning Attacks, AP6). 6+: Resolve shoot as if wasn't missfire. Weapon cant be used for rest of game. Warp Tech Teams are removes as casualties.			
+skcense3	Censer		First	N/A	0		Any in contact at start of any CC phase (if in CC) take To test or suffer 1 Wo bearers fail on 6, counts for CC resolution)	^		
+sklvl1	Magic Level 1	Mg1	First	Mnt	50	stat:Wz+1;show:mgmiscas;type:herowiz;spec:+wzrd;catg:wiz	Magic level 1			
+skmg1lvl	Magic Level 1	mg1	First	N/A	35	type:Hiero1;stat:Wz+1;spec:+wzrd;spec:-armr;show:skwarpt;catg:wiz;show:mgdiseas;slct:mgdiseas=incl	+1 to cast and dispel rolls.  Has 1 spell.			
+skmg2lvl	Magic Level 2	mg2	First	N/A	70	type:Hiero2;stat:Wz+2;over:skmg1lvl=delete;type:2ndlvl;spec:+wzrd;spec:-armr;show:skwarpt;catg:wiz;show:mgdiseas;slct:mgdiseas=incl	+2 to cast and dispel rolls.  Has 2 spells.			
+skmg3lvl	Magic Level 3	mg3	First	N/A	75	type:Hiero3;stat:Wz+3;over:mg2lvl30=delete;type:3rdlvl;spec:+wzrd;spec:-armr;catg:wiz;show:mgdiseas;over:mg1lvl=delete	+3 to cast and dispel rolls.  Has 3 spells.			
+skmg4lvl	Magic Level 4	mg4	First	N/A	125	type:Hiero4;stat:Wz+4;over:mg2lvl30=delete;type:4thlvl;spec:+wzrd;spec:-armr;catg:wiz;show:mgdiseas;over:mg1lvl=delete;over:skmg3lvl=delete	+4 to cast and dispel rolls.  Has 4 spells.			
+sklore1	Lore Table		SpellType	Mgc	0	tabl:Ruin=skmagic,Disease=mgdiseas,Shadow=mgshadow-noname-nobrackets				
+sklore2	Lore Table		SpellType	Mgc	0	tabl:Ruin=skmagic,Plague=skpmagic,Undeath=unundeat-noname-nobrackets				
+skolore3	Lore Table		SpellType	Mgc	0	tabl:Ruin=skmagic,Shadow=mgshadow-noname-nobrackets				
+skmagic	Path of Ruin		SpellType	N/A	0	type:skmagic;skip show:skfull;show:skshow;hide				
+skpmagic	Plague Magic		SpellType	Mgc	0	type:skpmagic;show:skpfull;show:skpshow;item:+6;hide				
+skcenser	Blight Flail	Cen	Weapon	Wep,2Hd	10		Requires Two Hands. +2 Strength. Close Combat Attacks allocated at a model with Flail has a +1 bonus when rolling To Hit. Models with Plague Flail can make a single additional special attack against a model in base contact. This is resolved at Initiative 10, hits automatically hits and has the Toxic Attack Special Rule.			
+skboner1	Boneripper's Warpfire Proje	WarpF	Weapon	N/A	0		Counts as Fire Thrower. Strength 5. Flaming Attacks. Multiple Wounds (D3). Move or Fire. Quick to Fire. Warpstone Weapon. If missfire is rolled do not roll on Black Powder Missfire chart, instead inflict D6 hit on closest friendly unit in front arc and within 12". Boneripper can make two warpfire projector attacks in each Shooting phase, and these may be directed against different targets. Re-roll failed To Wound rolls when shooting with these weapons.			
+skcense2	Censer	Cen	Weapon	Wep,2Hd	24		Uses same combat rules as a flail; Strength +2 in first round of combat; Any in contact at start of any CC phase (if in CC) take To test or suffer 1 Wo (bearers fail on 6, counts for CC resolution), Counts as a magic weapon (Warpstone)			
+skcmace	Censer Mace	CMace	Weapon	Wep,2Hd	0			S+2 in 1st rnd of HtH, Any in BtB take To(6+ for skaven) test or 1Wo (no ArSv), Morbus does not test; Magic Weapon	Censer uses same combat rules as a flail; Strength +2 in first round of combat; Any in contact at start of any CC phase (if in CC) take To test or suffer 1 Wo (skaven fail on 6) counts for CC resolution, Counts as a magic weapon(Warpstone)	
+skdeath	Death Globe	Gglo	Weapon	MWp	20		One Use Only. Clan Skryre Skaven only. In any shooting phase, place small template w/ center anywhere w/in 8"; scatter & resolve hits as per stone thrower; each model wounded (with no armour save) 4+; if misfire, center template on character			
+skdoomg	Doom Glaive	Doom	Weapon	N/A	0	apnd	Does D3 wounds			
+skwarplg	Doom Wheel Lightning		Weapon	N/A	0	apnd	ZZZZap!  3 bolts per Shooting Phase; Roll Art Dice for Strength; Range 18" regardless of terrain or LOS and will strike nearest unit within range (FoF); If first target destroyed then can move subsequent bolts to another target; D6 Wo to 1 model (randomize for war machines, ridden monsters, etc.);			
+skdoomfl	Doom-flayer	DOF	Weapon	Lnc	55	apnd;more:skdomifi=incl;base:Sv-2;stat:Sv+2	Close combat weapon team and causes D3 impact hits - in close combat it makes an Artillery Dice number of autohits (misfire can cause it to go out of control) - Strength 4, armour piercing - 3+ armour save to front 5+ to flanks and rear. 4+ Ward against Ranged attacks.		Make a Doomflayer unit	
+skstorm1	Doom-flayer Gauntlets	DoomG	Weapon	N/A	0	rang:0-99-unit=skstormf;more:skstorm2=incl	Close combat weapon. +2 Strength. Impact Hits (D3).		Adds Doom-flayer gauntlets and Warpstone-laced Armour.	
+skbfury2	Exoskeleton	Waw	Weapon	MWp	30	apnd;more:save2=incl;utyp:!MagicArmour;stat:St+1;stat:At+1	AP(6). Mundane weapons in CC only.			
+skflail	Flail	Flail	Weapon	2Hd	8	stat:St+2;xcst:4-unit=skpriest;xcst:4-unit=skhero	Requires Two Hands. +2 Strength. Close Combat Attacks allocated at a model with Flail has a +1 bonus when rolling To Hit.			
+skgwlrd	Great Weapon	GW	Weapon	2Hd	8	stat:St+2;type:GreatWeapon;xcst:4-unit=skhero	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+skgwlrd2	Great Weapon	gw	Weapon	2Hd	6	utyp:!mounted;stat:St+2	Requires Two Hands. +2 Strength. Strikes at initiative 0.		Hero on foot	
+skgwmold	Great Weapon	gw	Weapon	MWp	4	stat:St+2;over:skwhip=delete	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+skherg2	Great Weapon	GW	Weapon	2Hd	4	stat:St+2	Requires Two Hands. +2 Strength. Strikes at initiative 0.		Hero Great Weapon Mounted	
+skstorm3	Grinderfists	GrinF	Weapon	N/A	0	rang:0-99-unit=skstormf;more:skstorm2=incl	Close combat weapon. Attacks are made with Strength 5. Warpstone Weapon. In close combat user do not roll to Hit, instead he inflicts D3 automatic hits. #Tunneller: place a marker before scouts are deployed. At the beginning of your second turn roll D6, on 2+ unit arrives, on 1 it arrives next turn. When it arrives roll a scatter and artillery dice. On missfire unit will arrive next turn. If unit arrives on impassable terrain or friendly unit, reduce the distance. Place the unit so the model with grinderfists touches the marker., facing any direction. Unit can then act normally and does not count as moving for the purposes of shooting. If the unit arrives under enemy unit place it as it would have charge the front of the enemy unit, but it does not count as charging.		Adds Grinderfists and Warpstone-laced Armour.	
+skhalber	Halberd	Hal	Weapon	2Hd	8	stat:St+1;xcst:4-unit=skhero;chld:champ@St+1;xcst:4-unit=skstrain;xcst:4-unit=skwarpte	Requires Two Hands. +1 Strength.			
+skjezz	Jezzail	Jez	Weapon	Rng	3.5		Move or Fire; Range 36"; Strength 6; Armour piercing; Unstable: hit themselves on 1 followed by 1; Counts as a Magic Weapon. 			
+warpmu	Musket	Wpm	Weapon	Wep,Rng	15	apnd	Range 36”. Strength 6. Armour Piercing (1), Never suffers to hit penalties from range, Magical Attacks, Unwieldy			
+skstorm6	Ratling Cannons	RatCa	Weapon	N/A	0	rang:0-99-unit=skstormf	Range 18". Strength 5. Armour Piercing. Multiple Shots (3D6), Quick to Fire, Warpstone Weapon. No penalties for firing at long range and Multiple Shots. Each To Hit roll of 1 hits closest friendly unit within front arc and weapon range. 		Adds Ratling Cannons.	
+skstorm4	Shock Gauntlets	ShoGa	Weapon	N/A	0	rang:0-99-unit=skstormf;more:skstorm2=incl	Close combat weapon. Strength +1. No armour saves. Stomp inflict D3 hits instead of 1.		Adds Shock Gauntlets and Warpstone-laced Armour.	
+sksling	Sling	Slg	Weapon	N/A	1	type:missiles	Range18". Strength 3. Multiple Shots (2)			
+sksling2	Sling	Slg	Weapon	Rng	0.5	type:missiles	Range18", Strength 3 hit.  Multiple Shots (2)			
+sksling4	Sling	Slg	Weapon	N/A	4	type:missiles	Range18", Strength 3 hit.  Multiple Shots (2)			
+sktsmoke	Smoke Bombs	smok	Weapon	N/A	10		If Assassin flees from combat that he is fighting on his own, enemy units must roll 4+ to pursue			
+skclaspi	Spear	Spr	Weapon	N/A	0.5					
+skslspe	Spear	Spr	Weapon	N/A	0.5					
+skaccumu	Supercharged WP Accumulator	SWPA	Weapon	N/A	15		+1 Power dice to Casting Pool			
+sktailbl	Tail Weapon	tailb	Weapon	N/A	15	stat:At+1;xcst:2-unit=skgutter;xcst:10-unit=skassass	+1A with mundane weapon			
+skthngca	Things-Catcher	Tca	Weapon	MWp	20	over:skwhip=delete;apnd	Two Hands, Killing Blow			
+skwpftur	Turreted Warpfire Thrower		Weapon	N/A	0		Takes 1 Steam Point to fire; Range: Art Dice; Flame Template as Breath Wpn; S5 Hits D3 Wo Save -2; Move or Fire; If any casualties, panic test; misfire - instead of using regular misfire chart, roll on Steam Tank Misfire Chart - on a 1, Warpfire Thrower is destroyed also.			
+skconden	Upgraded Warp-Energy Condenser	UWEP	Weapon	N/A	10		Allows the bearer to cast spells with one more dice than normal			
+skwpblad	Warp Blades	WpBl	Weapon	N/A	15	stat:St+1	+1 Strength and Warlock Engineer knows Warp Lightning Spell (Cast 5+/9+; Magic Missile; Rng 24"; D6 or 2D6 S5 hits; On a 1 caster takes hit instead)			
+skpoison	Warp Grenade	Glo	Weapon	Oth	8		Range 12”. Quick to Fire, Magical Attacks. Volley Fire, Always wound on 4+, Armour Piercing (6)			
+skpistmt	Warp Pistol	pst	Weapon	Rng	8		Range 12”. Strength 5. Quick to Fire. Armour Piercing (1), Magical Attacks. In Close Combat Warp Pistols counts as Additional Hand Weapon with Magical Attacks.			
+skpsthro	Warp Pistol	pst	Weapon	Rng	1	stat:At+1;stat:In+1;chld:champ@At+1;chld:champ@In+1;over:skpoison=delete	Range 12”. Strength 5. Quick to Fire. Armour Piercing (1), Magical Attacks. In Close Combat Warp Pistols counts as Additional Hand Weapon with Magical Attacks.			
+skpstlrd	Warp Pistol	pst	Weapon	Rng,Oth	8	xcst:5-unit=skengin;xcst:5-unit=skhero;stat:At+1;stat:In+1;xcst:10-unit=skwarpte	Range 12”. Strength 5. Quick to Fire. Armour Piercing (1), Magical Attacks. In Close Combat Warp Pistols counts as Additional Hand Weapon with Magical Attacks.			
+skwargri	Warp-Grinder	WGR	Weapon	Lnc	60	more:skwargmi=incl;apnd	Allows its unit to tunnel.  Place marker at start of game for arrival point; Unit arrives, and may charge, on 4+ (turn 2), 3+ (turn 3), etc.; Use Scatter and Artillery dice for position of arrival. If misfire comes up see chart.			
+skwlctnk	Warp-Lightning Hull Cannon	WLC	Weapon	N/A	0		Costs 2 Steam Points to fire; 8D6" range, no LOS required; hits everything in path, until stopped by hills, high stone walls, or rock formations; Art Dice Str, D6 Wo; Instead of normal misfire, roll TWICE on Steam Tank Misfire Chart - any roll of 1 also destroys WLC			
+skboner2	Warpfire Braziers	WarpB	Weapon	N/A	0	over:skboner1=delete;stat:St+1	Close combat weapon. Strength +1. Flaming Attacks. Multiple Wounds (D3). Warpstone Weapon: magical attacks. Storm of Attacks: re-roll failed To Wound rolls in Close Combat phase. Warp-fumes: if user is engaged in close combat, at the start of each Close Combat phase all models in base contact (friend of foe) must pass To test or suffer single Wo with no armour saves.		This weapon will replace Warpfire Projectors.	
+skstorm7	Warpfire Projectors	WarpF	Weapon	N/A	0	rang:0-99-unit=skstormf	Counts as Fire Thrower. Strength 5. Flaming Attacks. Multiple Wounds (D3). Move or Fire. Quick to Fire. Warpstone Weapon. If missfire is rolled do not roll on Black Powder Missfire chart, instead inflict D6 hit on closest friendly unit in front arc and within 12". 		Adds Warpfire projectors.	
+sksmwpf	Warpfire Thrower	WpFr	Weapon	N/A	0	apnd:foot;more:skwpmisf=incl	Range: Art Dice; Flaming attack: Flame Template as Breath Wpn; S5, D3 Wo, If causing any casualties, targetted unit takes panic test; misfire - see chart; can stand and shoot, move or fire			
+skchweep	Weeping Blade	skwe	Weapon	N/A	30	apnd	D3 wounds; armour piercing.			
+sksnweep	Weeping Blades	weep	Weapon	N/A	0	apnd	D3 wounds; armour piercing.			
+skwhip	Whip	Whp	Weapon	Wep	6	stat:At+1		BtB: +1 At; Behind rats & rat ogres, make 1 attack	If in BtB, counts as additional hand weapon; Also allows 1 attack through 1 rank of Rat Ogres or over any # of ranks of Giant Rats; can't be attacked back if not in BtB.	
+skwhip2	Whip	Whp	Weapon	Wep	9	stat:At+1		BtB: +1 At; Behind rats & rat ogres, make 1 attack	If in BtB, counts as additional hand weapon; Also allows 1 attack through 1 rank of Rat Ogres or over any # of ranks of Giant Rats; can't be attacked back if not in BtB.	
+skstorm5	Windlaunchers	WindL	Weapon	N/A	0	rang:0-99-unit=skstormf	Count as Stone Thrower with following rules: Range 6-24". All models under the template are wounded on 4+ with no armour saves. If missfire is rolled do not roll on ST missfire table. Instead the template scatters 2D6", if hit is rolled use small arrow on the hit symbol. Warpstone weapon. 		Adds Windlaunchers.	
+skdeat	Death Globe	glob	Missile	Rng	25	apnd	May throw 1 per turn; place small template w/ center anywhere w/in 8"; scatter & resolve hits as per stone thrower; each model wounded (with no armour save) 4+; if misfire, center template on character			
+skpstars	Poisoned Throwing Stars	PoTSr	Missile	Rg1	4	type:missiles		6", S as user, No Move or Range penalty, Poison and Magic Weapon	Range 6". Strength as user.  No movement or range penalties. Poison and Magic Weapon	
+skslingh	Sling	sl	Missile	N/A	5	slct:chamstat=incl;type:missiles	Range18", Strength 3 hit.  Multiple Shots (2)			
+sksmoke	Smoke Bombs	Bomb	Missile	N/A	10	apnd		Enemy units must roll 4+ to pursue	Enemy units must roll 4+ to pursue	
+skstars	Throwing Stars	TSr	Missile	Chr	2	type:missiles		6", Str as user, No Move or Range penalty	Range 6". Strength as user.  No movement or range penalties.	
+skstars3	Throwing Stars	TSr	Missile	Rg1	3	type:missiles		6", Str as user, No Move or Range penalty	Range 6". Strength as user.  No movement or range penalties.	
+skstorm2	xxxx	WlAr	Armour	Arm	25	more:save2=incl;utyp:!MagicArmour;stat:St+1;stat:At+1	AP(6). Mundane weapons in CC only.			
+skpavise	Pavise	Pav	Shield	Shd	1			4+ ArSv (total) vs Shooting	4+ Save (total) versus Shooting	
+skclashi	Shields	shd	Shield	N/A	0.5	more:save1=incl;utyp:!MagicShield				
+skslashi	Shields	shd	Shield	N/A	0.5	more:save1=incl;utyp:!MagicShield			+1 AS; +2 when using a mundane handweapon on foot and fighting to the front (not shown in stats); Conflicts with 2 handed weapons and 2nd hand weapons	
+skstoshi	Shields	shd	Shield	N/A	1	more:save1=incl				
+sknet	Snare-Net	Snr	Shield	Shd	0	more:save1=incl;over:2ndhwtr2=delete;apnd	Considered a shied. Any enemy in contact with net bearer -1Ws & -1 In.			
+mus2	Slave Musician	Mus	Musician	N/A	2	cost:single		+1CR if tied. +1 Ld in rally attempts.	If combat ends in tie, musician may break tie.  +1 Ld in rally attempts.	
+skchclan	Champion		Champion	N/A	0	unit:skchclan@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+skchgutt	Champion		Champion	N/A	0	unit:skchgutt@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+skchnigh	Champion		Champion	N/A	0	unit:skchnigh@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+skchplag	Champion		Champion	N/A	0	unit:skchplag@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+skchslav	Champion		Champion	N/A	0	unit:skchslav@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+skchstor	Champion		Champion	N/A	0	unit:skchstor@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+skjezzch	Champion		Champion	N/A	0	modl:-1;cost:model;unit:skjezzch@abs=1			Upgrades a model to unit champion	
+skmasbre	Champion		Champion	N/A	0	unit:skmasbre@abs=1;cost:model;modl:-1				
+skplacha	Champion		Champion	N/A	0	unit:skplacha@abs=1;modl:-1;cost:model			upgrades a model to a champion	
+skpwgch	Champion		Champion	N/A	0	unit:skpwgch@abs=1;modl:-1;cost:model				
+skclawld	Clawleader		Champion	N/A	0	unit:skclawld@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+skchstbd	Fangleader		Champion	N/A	0	unit:skchstbo@abs=1;modl:-1;cost:model				
+skmastmo	Master Moulder	msm	Champion	N/A	0	unit:skmastmo@abs=1;modl:-1;cost:model				
+skdriver	Skaven Driver		Champion	N/A	0	unit:skdriver@abs=1;hide				
+skskgnaw	Skweel Gnawtooth	skw	Champion	N/A	0	unit:skskgnaw@abs=1;modl:-1;cost:model				
+skboncr	Augment Vermin Ogre	bone	Mount	Mnt	55	unit:skboncru@abs=1;stxt:Type="MC";more:save1=incl;more:heromnt=incl;over:2ndhwlr3=delete;over:skpstlrd=delete;show:skpistmt;xcst:60-unit=skstrain				
+skplfurn	Blight Furnace	PFU	Mount	Mnt	165	unit:skplfurn@per=1;type:noskalm;show:skcauld				
+skboner	Boneripper		Mount	N/A	0	unit:skboner@abs=1;hide				
+skcauldr	Cauldron of 1000 Poxes		Mount	N/A	0	unit:skcauldr@abs=1;more:save2=incl	Adds 2 Power dice to Plague Pontifex's pool; LOS for spells 360 degrees & from Large Target; may hide behind Cauldron (refuse challenge)		Adds Cauldron of Thousand Poxes to Plague Pontifex	
+skwarli	Clan Lord War Throne	WRL	Mount	Mnt	45	unit:skwarlit@abs=1;more:save2=incl;more:heromnt=incl;over:2ndhwlr3=delete;over:skpstlrd=delete;show:skpistmt	Natural Armour			
+skgbrat	Giant Blight Rat	bone	Mount	Mnt	125	unit:skgbrat@abs=1;stxt:Type="MC";more:save1=incl;more:heromnt=incl;over:2ndhwlr3=delete;over:skpstlrd=delete;show:skpistmt;xcst:140-unit=skstrain				
+skrater	Giant Rats		Mount	N/A	0	unit:skrater@per=1;unit:xskrats@abs=1;hide				
+skgrpor	Great Pox Rat	GPR	Mount	Mnt	0	unit:skgrpora@abs=1;type:mounted;more:save1=incl;over:skgwlrd2=delete;show:skgwlrd;stxt:Type="Ca"				
+skwarpf2	Poisoned Wind Mortar	plmr	Mount	N/A	0	unit:skwarpf2@abs=1			add plague thrower	
+skplagm	Poisoned Wind Mortar Team	plmr	Mount	N/A	0	unit:skplamo@abs=1			adds plague mortar to Censers	
+skbell	The Doom Bell		Mount	Mnt	200	unit:skbell@per=1;type:mounted;more:save1=incl;base:Wsv=4;type:noskalm				
+skwarpf3	Tunnel Team	tunt	Mount	N/A	0	unit:skwarpf3@abs=1			Adds Warp Grinder	
+skwarpf	Warp Tech Team		Mount	N/A	50	unit:skwarpf@abs=1;cost:single			Adds Warp Tech Team to unit	
+skfurcre	Crew		Crew	Chr	0	unit:skfurncr@per=4;unit:xskpull@per=1;hide				
+skcatcre	Monk Crew		Crew	N/A	0	unit:skcatcr@per=3;hide				
+skpack	Packmasters		Crew	N/A	0	unit:skpack@var;hide			Adds Packmasters	
+skbelrin	Rat Ogre Bell Ringer		Crew	Chr	0	unit:skbelri@per=1;unit:xskpull@per=1;hide				
+skbeast	Rat Ogre Packmasters		Crew	N/A	0	unit:skbeast@var;hide			Adds Rat Ogre Packmasters	
+skwarpcr	Warp Crew		Crew	Chr	0	unit:skwarpc@per=3;hide				
+skshow	All Path of Ruin Spells		Priority1	N/A	0	spec:+spel;item:+8;stat:Wz=8;take:skspella;take:skspell0;take:skspell1;take:skspell2;take:skspell3;take:skspell4;take:skspell5;take:skspell6			Shows all spells for this lore, and lists short descriptions on the roster.	
+skpshow	All Plague Lore Spells		Priority1	N/A	0	take:skpspel1;take:skpspel2;take:skpspel3;take:skpspel4;take:skpspel5;take:skpspel6;base:Wz=13				
+skcpush	Select Pushers		Priority1	N/A	0	list:skmonks		Pushers never lose Frenzy and have Magic Resistance (2)	Pushers never lose Frenzy and have Magic Resistance (2)	
+sksbpush	Select Pushers		Priority1	N/A	0	list:skclan,skstorm		Pushers immune to Psychology and have Magic Resistance (2)	Pushers immune to Psychology and have Magic Resistance (2)	
+skstrob	Stormvermin bodyguard	sto	Priority1	N/A	0	list:skstromb				
+skabombe	Abomination berserk chart		Priority2	N/A	0	apnd:foot;hide	If you roll triples for his move roll a D6 - 1, Grind to a halt - does not move; 2-5. Blind Fury - Moves full distance in random direction.  If you hit any unit do D6 impact hits. 6. Move direction nominated, St will be +1 for rest of game - any further 6 will do D6 wounds.			
+skabomis	Abomination chart		Priority2	N/A	0	apnd:foot;hide	 In CC roll D6.  1-2 - Feed - All models in contact suffer St6 hit no armour save.  Unsaved wounds multiplied to D3 wounds. 3-4 - Flailing Fists - 3D6 attacks.  If any do a wound the unit is at -1 to hit for that CC phase. 5-6 - Avalanche of Flesh - Every model in base contact suffer auto hit St6.  Additional inflicts 2D6 autohits against a single unit in CC with it. Too Horrible to Die - Roll D-6.  1-3 dead.  4-5 D3 rat swarms emerge.  6 Returns with D6 wounds.  Any wounds caused by flame then it cannot return.			
+skvermi2	Add comp level		Priority2	N/A	0	hide;acmp:Hero+1u;acmp:Rare+1u				
+skvermin	Add comp level		Priority2	N/A	0	hide;acmp:Hero+1u				
+skdomifi	Doom-flayer misfire chart		Priority2	N/A	0	apnd:foot;hide	1-2 large template over unit.  All models touched get St4 - 2 armour save hit; 3-5 - team and all models touched St4 -2 armour save; 6 may not attack.			
+skpfull	Plague Spell List		Priority2	N/A	0	more:skpspel1=incl;more:skpspel2=incl;more:skpspel3=incl;more:skpspel4=incl;more:skpspel5=incl;more:skpspel6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+skplamis	Poisoned Wind Mortar misfire 		Priority2	N/A	0	apnd:foot;hide	1-2 - Large template over crew.  Resolve all touching on a 4+ no armour save. Crew removed; 3-5 - Wildly off target. opponent  places small template anywhere within 3D6" of target.  Resolve hits; 6 - No firing			
+skrgmisf	Ratling Gun Misfire Chart		Priority2	N/A	0	apnd:foot;hide	1 or 2 - Blam! remove from play;  3 - 5 - fire in random direction (scatter dice) all shots fired; 6 - fires all shots but at St2			
+skfull	Ruin Spell Lists		Priority2	N/A	0	more:skspell1=incl;more:skspell2=incl;more:skspell3=incl;more:skspell4=incl;more:skspell5=incl;more:skspell6=incl;more:skspel13=incl			Appends full descriptions of all spells for this Lore to the roster.	
+skamok	Run Amok!		Priority2	N/A	0	apnd	Boneripper does nothing (auto hit in CC);  In addition, roll D6 1-3 is used by opponent for his/her next turn 			
+skwargmi	Warp Grinder misfire		Priority2	N/A	0	apnd:foot;hide	On a D6. 1-2 - Cave-in.  Team and unit killed. 3-5 - Partial collapse. Make Str test in unit and remove casualties.  Remainder arrive but cannot move or shoot and have WS1 and always strikes last. 6 - Opponent may put team anywhare on the board.  			
+skmisfir	Warp Lightning Cannon Misfires		Priority2	N/A	0	apnd:foot;hide		1-2 Destroyed; 3-5 Roll scatter dice and 4D6.  Place large temple there.  Everyone hit takes St10 hit. 6 Cannot fire that turn	1-2 Destroyed; 3-4 Large Template centered on cannon's warpstone generator, D6 hit to those unit template (incl cannon); 5-6 Roll Scatter die - fires in that direction 48" S10	
+skwpmisf	Warpfire Thrower Misfire Chart		Priority2	N/A	0	apnd:foot	1-2 - place large template on barrel - resolve hits as normal, team killed; 3-5 - move 2d6" random direction, stops if contacts anything, place large template on barrel, work out hit, team killed; 6 - Fails to fire			
+skabomup	Warpstone Spikes	spike	Priority2	N/A	15	apnd	MR1 & Magical attacks			
+skring	Screaming Bell Effects		Priority3	N/A	0	apnd;more:skbellmf=incl	1st turn 1 dice only. 1: Nothing happens. 2 - 4: Unit with the bell attached moves D6 inches forward. 5 - 8: All friendly units may reroll morale checks within 24 inches. 9 - 10: Bell casts the Spell "Scorch" from lore of doom as a Bound Spell power level 5. 11 - 12: All enemys with T7 or higher suffer D3 wounds. 13: All Enemy units within 24 inches suffer D3 S4 hits. If the Bell is engaged in close combat ALL Skaven within the unit it is attached to may attack in close combat this round.	 14 - 16: All units within 12 " gain +1 attack for this turn. 17: All gain +1 attack and get to reroll to hit and to wound 18: Bell is destroyed. All units within 4D6 inches suffer D6 S4 hits without armour saves. 		
+skbellmf	Screaming Bell Misfires		Priority3	N/A	0	apnd:foot;hide	If you roll two equals, the result is applied, but the unit pushing the bell suffers D6 S4 hits; If you roll three equals, both bell and prophet suffer a S5 hit and unit suffers 2D6 St5 hits.			
+sktunrul	Tunnel Rules		Priority3	N/A	0	apnd:foot	Place marker at start of game for arrival point; Unit arrives on a 4+each turn until it arrives, and may charge. If they fail to arrive opponent gets Victory points; Use misfire and Art dice for point of arrival and then both unit and team must touch that point. If misfire comes up see chart.			
+skdommis	Doomwheel misfire		Priority4	N/A	0	apnd:foot;hide	If misfire is rolled for lightning str the consult this chart;  1-2 Doomwhell takes D6 St6 hits.  Roll one D-6 for movement from then on.  If 0 movement  reached then remove model. 3-5 If not engaged immediately scatter and move its full random movement in a straight line with no manuevering allowed. Units take impact hits and counts as a charge against enemies.  ignore if in CC.  6. For remainder of game movement increased by one D6.			
+skcatmis	Plague Catapult misfire		Priority4	N/A	0	apnd:foot;hide	On a D6 ; 1. Destroyed; 2-5. Opposing player mat move the template 3D6" from intended target; 6. Does not fire.			
+skspella	Attr: Endless masses		Priority5	N/A	0	apnd:foot;hide;utyp:skmagic	Attribute. Range 24". Augment. Last One Turn. Target unit can claim CR up to 4 ranks, and always gain +3Ld from Vermin Swarm, even if usually cannot claim ranks			
+skspell0	R0: Defile the Ground	sk0	Priority5	N/A	0	apnd:foot;hide;utyp:skmagic;lglx:mode=c	Special. Template 5". Cast on 5+, Range 18" OR Cast on 9+, Range 24". Lasts until the beginning of the caster's next turn. Place template with center in range at least 1" away from any unit. If unit touches template while moving, every model in unit must pass DT test (1,2 fail)			
+skspell1	R1: Black Lightning		Priority5	N/A	0	apnd:foot;hide;utyp:skmagic;lglx:!mode=c	Hex, Missile, Damage, Instant, Cast 6+ Range 24" OR Cast 9+ Range 48 OR for Enineers Cast 10+ Range 18": Target suffers D6 (For Engineers 2D6) S5 Lightning hits. For each "1" is rolled caster suffers S5 hit instead			
+skspell3	R2: The Hunger		Priority5	N/A	0	apnd:foot;hide;utyp:skmagic	Augment. Cast on 9+, Range 12" OR Cast on 12+, Range 24". Permanent. Target unit gains Frenzy and an additional +1 attack. At the end of each of your combat phases, the unit suffers D6 wounds with Armour Piercing (6). Effects last until the unit loses frenzy.			
+skspell2	R3: Storm's Call		Priority5	N/A	0	apnd:foot;hide;utyp:skmagic	Cast on 10+. Special. Lasts one Turn. No flying movement can be used. All enemies suffer -1BS.			
+skspell5	R4: Crack the Earth		Priority5	N/A	0	apnd:foot;hide;utyp:skmagic	Directed. Ground. Line Template. Instant. Cast on 10+. Range 18". Models under the template suffer a Strength 6 hit with Armour Piercing (6) OR Cast on 13+ in addition Multiple Wounds (D3).			
+skspell4	R5: Feed the Swarm		Priority5	N/A	0	apnd:foot;hide;utyp:skmagic	Augment. Last one Turn. Cast on 10+. Range 12". Target unit makes supporting attacks with all ranks. OR Cast on 16+ and reroll hits			
+skspell6	R6: The Bell Tolls		Priority5	N/A	0	apnd:foot;hide;utyp:skmagic	Direct Damage. Cast on 13+. Range 18". Instant. All models in the affected unit take a Toxic hit )and flaming also if Cast on 15+). Can be cast into CC, then all models take a toxic hit.			
+skspel13	Sk13 -Curse of the Horned Rat		Priority5	N/A	0	apnd:foot;hide;utyp:skmagic;lglx:!mode=c;utyp:skpmagic	Cast 25+; 24" range w/LOS; 4D6 wounds no save.  If unit wiped out replaced models with clan rats.  			
+skpspel1	Skp1 - Pestilent Breath		Priority5	N/A	0	apnd:foot;hide;utyp:skpmagic;lglx:!mode=c	Cast 5+; Teardrop template, touching caster; All models under, and those touched on 4+ take S2 hit, no Ar Sv; In HtH all units take D6 hits			
+skpspel2	Skp2 - Bless With Filth		Priority5	N/A	0	apnd:foot;hide;utyp:skpmagic;lglx:!mode=c	Cast 7+; friendly unit within 12" gains Poisoned attacks until; the end of the next player turn. If it already had poisoned attacks, they now poison on a 5+			
+skpspel3	Skp3 - Wither		Priority5	N/A	0	apnd:foot;hide;utyp:skpmagic;lglx:!mode=c	Cast 8+; An enemy unit within 12" suffers -1 Toughness for the rest of the game 			
+skpspel4	Skp4 - Vermintide		Priority5	N/A	0	apnd:foot;hide;utyp:skpmagic;lglx:!mode=c	Cast 8+; Large Template moves 4D6" from caster, any unit touched (except caster) takes 3D6 S2 hits. Can be cast in combat against a single unit.			
+skpspel5	Skp5 - Cloud of Corruption		Priority5	N/A	0	apnd:foot;hide;utyp:skpmagic;lglx:!mode=c	Cast 11+; may affect all units within 12" (enemy units are affected on 2+, Clan Pestilence on a 5+ and other Skaven on a 4+) affected units take D6 S5 hits with no armour save			
+skpspel6	Skp6 - Plague		Priority5	N/A	0	apnd:foot;hide;utyp:skpmagic;lglx:!mode=c		Cast 13+; Rng 18"; Whole unit takes To test; fail 1 Wo, no Ar Sv; Then D6: 1 Opponent moves to unit in 12", or end; 2-4 Plague ends; 5-6 Move to unit of casters choice or end; 	Cast 13+; Rng 18"; Whole unit takes To test; fail 1 Wo, no Ar Sv; Then D6: 1 Opponent moves to unit in 12", or end; 2-4 Plague ends; 5-6 Move to unit of casters choice or end; 	
+skcauld	Cauldron of Blight	cb	Special	N/A	20		Blight Priest do not roll for spells and always knows: Putrefying Touch (Disease), Mess of Flesh (Disease), The Hunger (Ruin). If Blight Priest is not a wizard he can reroll grinding attacks.			
+skcraw	Close Range Assault Weapon	Ass	Special	N/A	0	cost:single	Replace normal attacks with Impact Hits* (D6), Grinding Attacks* (D6). Supporting attacks do Grinding D6 *Impact hits and Grinding Attacks are resolved at Strength 4 and has Armour Piercing (1).			
+skratgun	Gatling Gun	RGun	Special	Oth	0	cost:single	Shooting Weapon:Multiple shots (2D6) or (3D6) player choice, Range 24”, Strength 4, , Armour Piercing (1), Magical Attacks, Never suffers To-Hit penalties from Multiple Shots or moving, On double Warp Weapon Missfire			
+skassa01	Lethal Strike	KB	Special	N/A	10					
+skmeat	Meat Grinder	MeGri	Special	Oth	0	cost:single	Impact Hits* (2D6), Grinding Attacks* (2D6). *Impact hits and Grinding Attacks are resolved at Strength 4 and has Armour Piercing (1).			
+skmeatgr	Meat Grinder	MeGri	Special	Oth	0	cost:single;rang:0-3-unit=skstormf;more:save2=incl	Impact Hits* (2D6), Grinding Attacks* (2D6). *Impact hits and Grinding Attacks are resolved at Strength 4 and has Armour Piercing (1).			
+skassa02	Multiple Wounds (D3) in CC	MW2	Special	N/A	25		Multiple Wounds (D3) in CC valid only for mundane weapon			
+skplamor	Noxious Mortar	PWM	Special	Oth	0	cost:single	Shooting Weapon: Range 18”, Multiple Shots (2D6*2 ), Toxic Attacks, Slow to Fire, Magical Attacks, Volley Fire On double Warp Weapon Missfire.			
+skphand	Poisoned Attacks	PoiA	Special	N/A	3					
+sksia	Scout & Ambush	sa	Special	N/A	15	xcst:2-unit=skgutter				
+sktunmac	Tunnel Machine	TuMch	Special	N/A	15	rang:0-5;cost:single;xcst:35-unit=skstormf;rang:0-3-unit=skstormf	Grinding Attacks (D6). A unit with one or more Tunnel Machines has the Scout special rule. *Grinding Attacks are resolved at Strength 3 and have Armour Piercing (3).			
+skwpfire	Warp Flame Thrower	WFT	Special	Oth	0	cost:single	Range 12”, Strength 5, Multiple Shoots (2D6), Multiple Wounds (D3), Magical Attacks, Flaming Attacks, Slow to Fire, Warp weapon missfire. Never suffers To Hit penalties for multiple shoots or moving/ If double comes weapon missfire.			
+^
+sk9mw01	Dripping Knives	weap	MWp	40	1	itst:race=sk&!type=mounted;stat:At+1;stat:In+1		Two hand weapons. Attacks made with this weapon has Poisoned Attacks, Armour Piercing (1), Multiple Wounds (D3).	^	^	
+sk9mw02	The Murderblade	weap	MWp	100	1	itst:race=sk&!type=mounted;stat:St=10;itst:type=In		Attacks made with this weapon have Strength 10 and Multiple Wounds (D6). Successful ward saves taken against wounds caused by this weapon must be rerolled. At the end of your player turns, roll a D6, on 1-2 bearer loses 1 wound, no saves allowed.	^	^	
+skwrpstr	Warp Stars	weap	MWp	45	1	itst:(race=sk&type=eshin)		Throwing Weapon. Range 12"; Multiple shots (3); St 5, D3 Wo; Quick to fire	^	^	
+skcautsh	Shield of Rat's Courage	armr	Shd,MAr	25	1	itst:race=sk&!type=necro;type:MagicShield	ssave1=incl	Shield. One enemy model in BtB chosen by wearer loses one attack to a minimum of 1. Wielder gains Distracting rule	^	^	
+skwarpam	Warpforged Armour	armr	Arm,MAr	25	1	itst:race=sk&!type=mounted;base:Sv-3;type:MagicArmour		Plate Armour. 4+ Armour Save; Each save results in Toxic Attack hit vs enemy which cause a wound..	^	^	
+skwarpmm	Warpforged Armour	armr	Arm,MAr	35	1	itst:race=sk&type=mounted;base:Sv-3;type:MagicArmour		Plate Armour. 4+ Armour Save; Each save results in Toxic Attack hit vs enemy which cause a wound..	^	^	
+skarmpow	Armlet of Power	ward	Tal	25	1	itst:race=sk		Talisman. PL(4) Bound Spell. Type Caster. Duration: Last one turn. Character doubles his St (don'r modify St of mount).			
+skscepte	Scepter of Vermin Valor	ench	Enc	35	1	itst:race=sk&!type=mounted		Models on foot only. Character can ignore First In Rank rule and can be placed in any rank.			
+skskalm	Skalm	ench	Enc	25	1	itst:race=sk&!type=mounted&!type=noskalm		One Use Only. At start of any friend phase bearer recovers D3 wounds. Can't be bought by Great Prophet mounted on Doom Bell or Blight Priest on a Blight Furnace.	^	^	
+skskalmm	Skalm	ench	Enc	35	1	itst:race=sk&type=mounted&!type=noskalm		One Use Only. At start of any friend phase bearer recovers D3 wounds. Can't be bought by Great Prophet mounted on Doom Bell or Blight Priest on a Blight Furnace.	^	^	
+skbrorb	Warp Hole	ench	Enc	40	1	itst:race=sk		One Use Only. Catapult Artillery Weapon with Range 8", 3" template, Magical Attacks. Every model touched must pass In test or suffer wound with AP(6) and Multiple Wounds (Ordnance) with no saves allowed. If missfire  center template on user instead of rolling missfire table and workout damage as normal.	^	^	
+sk9mb01	Warpstone Banner	stnd	Std	50	1	itst:race=sk	bsb=incl	One use only. Activate at the start opponents turn. During this player turn, all shooting attacks receive a -2 penalty to hit, shooting attacks that don’t roll to hit must roll a 4+ or the attack is lost, and no Flying movement may take place.	^	^	
+skspella	Attr: Endless masses	spel	N/A	0	100	itst:type=skmagic		Attribute. Range 24". Augment. Last One Turn. Target unit can claim CR up to 4 ranks, and always gain +3Ld from Vermin Swarm, even if usually cannot claim ranks	^	^	
+skspell0	Ruin0: Defile the Ground	spel	N/A	0	100	itst:type=skmagic		Special. Template 5". Cast on 5+, Range 18" OR Cast on 9+, Range 24". Lasts until the beginning of the caster's next turn. Place template with center in range at least 1" away from any unit. If unit touches template while moving, every model in unit must pass DT test (1,2 fail)	^	^	
+skspell1	Ruin1: Black Lightning	spel	N/A	0	100	itst:type=skmagic		Hex, Missile, Damage, Instant, Cast 6+ Range 24" OR Cast 9+ Range 48 OR for Enineers Cast 10+ Range 18": Target suffers D6 (For Engineers 2D6) S5 Lightning hits. For each "1" is rolled caster suffers S5 hit instead	^	^	
+skspell2	Ruin2: The Hunger	spel	N/A	0	100	itst:type=skmagic		Augment. Cast on 9+, Range 12" OR Cast on 12+, Range 24". Permanent. Target unit gains Frenzy and an additional +1 attack. At the end of each of your combat phases, the unit suffers D6 wounds with Armour Piercing (6). Effects last until the unit loses frenzy.	^	^	
+skspell3	Ruin3: Storm's Call	spel	N/A	0	100	itst:type=skmagic		Cast on 10+. Special. Lasts one Turn. No flying movement can be used. All enemies suffer -1BS.	^	^	
+skspell4	Ruin4: Crack the Earth	spel	N/A	0	100	itst:type=skmagic		Directed. Ground. Line Template. Instant. Cast on 10+. Range 18". Models under the template suffer a Strength 6 hit with Armour Piercing (6) OR Cast on 13+ in addition Multiple Wounds (D3).	^	^	
+skspell5	Ruin5: Feed the Swarm	spel	N/A	0	100	itst:type=skmagic		Augment. Last one Turn. Cast on 10+. Range 12". Target unit makes supporting attacks with all ranks. OR Cast on 16+ and reroll hits	^	^	
+skspell6	Ruin6: The Bell Tolls	spel	N/A	0	100	itst:type=skmagic		Direct Damage. Cast on 13+. Range 18". Instant. All models in the affected unit take a Toxic hit )and flaming also if Cast on 15+). Can be cast into CC, then all models take a toxic hit.	^	^	
+skspel13	Sk13 - Curse of the Horned Rat	spel	N/A	0	100	itst:(race=sk&type=skmagic);xtot;lglx:!mode=c		Cast 25+; 24" range w/LOS; 4D6 wounds no save.  If unit wiped out replaced models with clan rats.  	^	^	
+skpspel1	Skp1 - Pestilent Breath	spel	N/A	0	100	itst:(race=sk&type=skpmagic);xtot;lglx:!mode=c		Cast 5+; Teardrop template, touching caster; All models under, and those touched on 4+ take S2 hit, no Ar Sv; In HtH all units take D6 hits	^	^	
+skpspel2	Skp2 - Bless With Filth	spel	N/A	0	100	itst:(race=sk&type=skpmagic);xtot;lglx:!mode=c		Cast 7+; friendly unit within 12" gains Poisoned attacks until; the end of the next player turn. If it already had poisoned attacks, they now poison on a 5+	^	^	
+skpspel3	Skp3 - Wither	spel	N/A	0	100	itst:(race=sk&type=skpmagic);xtot;lglx:!mode=c		Cast 8+; An enemy unit within 12" suffers -1 Toughness for the rest of the game.	^	^	
+skpspel4	Skp4 - Vermintide	spel	N/A	0	100	itst:(race=sk&type=skpmagic);xtot;lglx:!mode=c		Cast 8+; Large Template moves 4D6" from caster, any unit touched (except caster) takes 3D6 S2 hits.  Can be cast in combat against a single unit.	^	^	
+skpspel5	Skp5 - Cloud of Corruption	spel	N/A	0	100	itst:(race=sk&type=skpmagic);xtot;lglx:!mode=c		Cast 11+; may affect all units within 12" (enemy units are affected on 2+, Clan Pestilence on a 5+ and other Skaven on a 4+) affected units take D6 S5 hits with no armour save	^	^	
+skpspel6	Skp6 - Plague	spel	N/A	0	100	itst:(race=sk&type=skpmagic);xtot;lglx:!mode=c		Cast 13+; Rng 18"; Whole unit takes To test; fail 1 Wo, no Ar Sv; Then D6: 1 Opponent moves to unit in 12", or end; 2-4 Plague ends; 5-6 Move to unit of casters choice or end; 	^	^	
+sktoken1	1 Warpstone Token	mark	Lnc	0	100	itst:type=herowiz;icnt:1;itst:race=sk		^	1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only.  Grey Seer gets D3, Engineers 1.	^	
+sktoke13	13 Warpstone Tokens	mark	Lnc	0	100	itst:reg=skthanq;itst:race=sk		1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only	^	^	
+sk2token	2 Warpstone Tokens	mark	Lnc	0	100	itst:reg=skfester;lglx:mode=d;itst:race=sk		1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only	^	^	
+sktoken2	2 Warpstone Tokens	mark	Lnc	0	100	itst:reg=skpontif;itst:race=sk		1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only	^	^	
+sktoke3	3 Warpstone Tokens	mark	Lnc	0	100	itst:(reg=skpllord|reg=skskrolk|type=sk3);icnt:1;itst:race=sk		1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only	^	^	
+sktoken3	3 Warpstone Tokens	mark	Lnc	0	100	itst:type=sk3;icnt:1;itst:race=sk		1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only	^	^	
+sktoken4	4 Warpstone Tokens	mark	Lnc	0	100	itst:reg=skseer;icnt:1;itst:race=sk		1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only	^	^	
+sktoken5	5 Warpstone Tokens	mark	Lnc	0	1	itst:reg=skikitcl;icnt:1;itst:race=sk		1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only	^	^	
+skhatred	Banner of the Under-Empire	unk2	Std	25	1	itst:race=sk	bsb=incl	All units in BTB with the unit bearing this banner suffer 2D6 S2 auto hits at the start of each and every combat phase.  Randomize them like shooting.	^	^	
+skbavesc	Banner of Verminous Scurrying	unk2	Std	10	1	itst:race=sk	bsb=incl	One Use Only; Once per Battle at the start of any friendly turn except the first, banner may be activated.  If the unit can march they can do so at triple speed, but suffer 2D6 S3 hits with no armour save.  Randomized like shooting.	^	^	
+skcorrup	Blade of Corruption	unk2	MWp	35	1	itst:race=sk;stat:St+1		+1 ST, 2 wounds hit, if two or more one's are rolled to hit then the user takes a wound which is also multiplied to two. 	^	^	
+sknurgle	Blade of Nurglitch	unk2	MWp	10	1	itst:(race=sk&!type=masterm)		-1 To per Wo for rest of the game. Models reduced to T0 are removed as casualty.	^	^	
+skdoomgl	Doom Glaive	unk2	N/A	0	99	itst:(reg=skskreev|reg=skversee)		Magic Weapon. Multiple Wounds (D3).	^	^	
+skverwa1	Doom Glaive and Punch-dagger	unk2	N/A	0	99	itst:reg=skverwar;stat:At+1		Magic Weapon. Paired Weapons. Multiple Wounds (D3). Killing Blow.	^	^	
+skdevroc	Doom Rocket	unk2	MWp	30	1	itst:(race=sk&type=skryre)		One use only.  You may roll between 4-10 D6 for range and choose a direction.  That point in inches is where the rocket lands. Large template. All models touched suffer St5 hit.  If 3 or more 1's are rolled consult the misfire chart. on 1D6, 1 - place template over self; 2-5 - roll scatter dice to determine direction and continue as normal; 6 - Dud, no template on impact, only hits model directly under landing spot.  The roll d6 at start of every Skaven shooting phase, on 4+ it goes off.	^	^	
+skverde2	Doomstar	unk2	N/A	0	99	itst:reg=skverdec		Magic Weapon. Range 12". St as user. Poisoned Attacks. Quick to Fire. Arcing Death: make as many shots as the number of models in the front rank of the target unit.	^	^	
+skdwhiba	Dwarf-Hide Banner	unk2	Std	15	1	itst:race=sk	bsb=incl	The unit hates Dwarves and Dwarves hate them.	^	^	
+skdwarf	Dwarfbane	unk2	MWp	25	1	itst:(race=sk&!type=masterm);stat:St+1		+1 ST, armour piercing, reroll failed rolls to wound against dwarves.	^	^	
+skelcwhi	Elecro-Whip	unk2	MWp	15	1	itst:(race=sk&type=moulder)		Follows rules for whip but confers D3 attacks instead of 1.	^	^	
+skblade	Fell Blade	unk2	MWp	100	1	itst:race=sk;stat:St=10		St10, D6 Wounds; enemy rerolls successfull ward saves, Roll D6 at end of each wielder's turn; On a 1-2 bearer suffers 1 Wound (no armour saves)	^	^	
+skswarm	Grand Banner of Clan Superiority	unk2	Std	30	1	itst:race=sk	bsb=incl	+D3 combat resolution instead of the normal 1 when you have more ranks than the enemy.  Rolled at END of each combat.  	^	^	
+skinfbom	Infernal Bomb	unk2	Enc	30	1	itst:(race=sk&type=eshin)		Bearer may plant it after moving as long as he is not in CC (even after marching). Bearer may blow it at any time except the turn he planted it and as long as he is not within blast radius. When triggered it blows on a 2+ and fails on a 1.  Large template, all models not under center receive ST3 hit, model under center St10 hit D3 wounds.	^	^	
+skpiopi	Pipes of Piebald	unk2	Enc	25	1	itst:race=sk		Whoever wants to charge beaer or his unit must pass a LDR test.  Failed test is treated as a failed charge.	^	^	
+skbaunfr	Plague Banner	unk2	Std	30	1	itst:(race=sk&type=pestilens)	bsb=incl	One use only, unit may reroll To Hit and To Wound rolls this combat phase.	^	^	
+skplarip	Plaguereaper	unk2	N/A	0	99	itst:reg=skskreev		Magic Weapon. Always Strikes First.	^	^	
+skverco1	Plaguereapers	unk2	N/A	0	99	itst:reg=skvercor;stat:At+1		Magic Weapon. Paired Weapons. Always Strikes First.	^	^	
+skpovedo	Portent of Verminous Doom	unk2	Enc	20	1	itst:race=sk		All enemy units in BTB with the bearer suffer -1 LDR for as long as they remain in contact.	^	^	
+sktenebr	Rival Hide Talisman	unk2	Tal	15	1	itst:race=sk		One use only; may force one enemy model in base contact to reroll all successfull hits against bearer.	^	^	
+skfear	Sacred Standard of the Horned Rat	unk2	Std	70	1	itst:race=sk	bsb=incl	Enemies within 12" gain -1 Ldr an enemies in BTB must reroll successfull LD tests.	^	^	
+skverse1	Scry-orb	unk2	N/A	0	99	itst:reg=skversee;stat:WSv-1		Enchanted Item. +1 to Ward Save for as long as he carries this item. Once per game in the Shooting phase orb may be thrown. If you do so, the bonus to its ward save is lost for the rest of the game. To throw the orb place small round template so that its center is anywhere within 12" and line of sight and scatter it D6". Models hit must pass In or are removed with no saves of any kind allowed.	^	^	
+skscryst	Scrying Stone	unk2	Arc	15	1	itst:race=sk		3+ Ward against first wound, but if successful becomes subject to stupidity in the following friendly turn.	^	^	
+skdarky	Shadow Magnet Trinket	unk2	Tal	30	1	itst:race=sk		Additional -1 to hit with ranged attacks against bearer and unit he joins	^	^	
+skshopro	Shock-Prod	unk2	MWp	25	1	itst:(race=sk&type=moulder)		2 handed, ignore armour saves; Clan Moulder only.	^	^	
+sk4black	Shroud of Dripping Death	unk2	Std	30	1	itst:race=sk	bsb=incl	Deal a St3 hit with no armour save to every model in BTB at the beginning of every combat phase. Additionally if unit is broken then pursuing unit recieves D6+2 St3 hits with no armour saves.	^	^	
+skbrew	Skavenbrew	unk2	Enc	50	1	itst:race=sk		Roll D6 after deployment; Character and unit he is with, 1:goes wrong, D6 st3 hits, no armor save, 2-3: hatred, 4-5: frenzy, 6: frenzy with +2 attacks instead of one and suffers D6 Wounds during each friendly compulsory phase.	^	^	
+sksmobom	Smoke Bombs	unk2	Enc	10	1	itst:(race=sk&type=eshin)		One use only, All pursuing enemy units in the combat roll 1D6 less.	^	^	
+skstorm	Storm Banner	unk2	Std	50	1	itst:race=sk	bsb=incl	One use only; Start at beginning of any turn; No flying movement allowed on battlefield; Missile fire -2 to hit; non-magical missile attacks not using BS, need 4+ before firing; roll D6 at start of each following turn, 1-3 effects end.  	^	^	
+skfoul	The Foul Pendant	unk2	Tal	30	1	itst:race=sk	wsv5=incl,aws5=incl	5+ Ward save	^	^	
+sk9ei01	Verminstew	unk2	Enc	30	1	itst:race=sk		Enchanted Item. One use only. Can be activated at beginning of any player turn. Bearer and his unit (excluding other characters) gets Hatred until end of this player turn.	^	^	
+skbfury	Warlock-Augmented Weapon	unk2	MWp	45	1	itst:race=sk;stat:At+1;stat:St+1		+1 Attack, +1 St	^	^	
+skwaropt	Warlock-Optics	unk2	Enc	20	1	itst:(race=sk&type=skryre);stat:BS+1		Clan Skryre only; Warlock gains +1 BS and ignores cover penalties for shooting	^	^	
+skwarscr	Warp Scroll	unk2	Arc	35	1	itst:(race=sk&type=pestilens)		One use only; Bound 5; 24", LOS required, S2 hits to every model in unit, ignores armor save.	^	^	
+skuuuu	Warp Stars 2	unk2	MRg	45	1	itst:reg=sksnikch		Throw as many as At (same target); Range 10"; St 5, D3 Wo; No move or range modifiers	^	^	
+skwaenco	Warp-Energy Condenser	unk2	Arc	20	1	itst:race=sk		Generates a power dice on D6 roll of 5+ and additionally adds +2 to the number of Warp-Lightning hits, except on a roll of a 1.	^	^	
+skgouger	Warpforged Blade	unk2	MWp	50	1	itst:race=sk		No armour saves	^	^	
+skverde1	Warpstiletto	unk2	N/A	0	99	itst:reg=skverdec		Magic Weapon. Armour Piercing. Poisoned Attacks. 	^	^	
+sktoken	Warpstone Token	unk2	N/A	15	100	itst:(race=sk&!type=skrolk&!type=pestilens)		One Use Only; 1 Power dice to cast spell (may exceed limit of dice used); if 1 rolled, caster takes 1 Wo; One use only; Add more by selecting item in roster mode and use the + key in option area	^	^	
+skwpscrl	Warpstorm Scroll	unk2	Arc	50	1	itst:race=sk		Bound spell; Power 5; One Use Only; All flyers within 24" suffer D6 S6 hits distributed as shooting.	^	^	September 1, 2002
+skweep	Weeping Blade	unk2	MWp	30	1	itst:(race=sk&!type=masterm)		Armour piercing, D3 wounds	^	^	
+skrustam	World's Edge Armour	unk2	Arm,MAr	25	1	itst:race=sk&!type=necro;base:Sv-3;type:MagicArmour		4+ Armour Save; if not allowed save by high St or weapon, discount hit and armour destroyed	^	^	
+skdthglb	Death Globes	plaq	MWp	25	20	itst:(race=sk&type=skryre)		One Use Only. Place small template w/ center anywhere w/in 8"; scatter & resolve hits as per stone thrower; each model wounded (with no armour save) 4+; if misfire, center template on character	^	^	
+skamul1	Amulet of the Horned One	spec	Tal	0	1	itst:reg=skthanq		At start of turn, roll D6: 1 no effect, 2-6 Thanquol recovers 1 lost Wo	^	^	
+sktpox	Bell of Thousand Poxes	spec	Tal	0	1	itst:reg=skskrolk		If Skrolk not at full wounds at start of each player's turn, any model it BtB must pass To test or suffer a Wo (no armour saves); Each unsaved Wo is given to Skrolk	^; Lord Skrolk only	^	From CJ 49
+sknurg1	Bubonic Scepter	spec	Bnd	0	1	itst:reg=sknurgli		Bound Spell, Power Level 5. Pick one enemy unit within 18" & LOS. Roll a D6 for every model in the unit, the unit suffers a Wound with no armour saves allowed on a roll of 6	^	^	
+skcrkill	Creature-Killer	spec	MWp	0	1	itst:reg=skthrot		Also fights with blade which is factered in already; Killing Blow, works on models larger than man size such as Ogres or Hydras, etc, each unsaved wound does D3 wounds.	^	^	
+skgouge2	Dwarf Gouger	spec	MWp	0	1	itst:reg=skqueek		No armour saves from any of his attacks, Always wounds Dwarfs on a 2+	^	^	
+skironfr	Iron Frame	spec	MAr	0	1	itst:race=sk&type=ikitclaw	wsv5=incl,aws3=incl	Makes Ikit St5, gives 3+armour save and 5+ ward save.  Contains Warp Fire Thrower.  Ikit may reroll the artillery dice.	^	^	
+skbubo	Liber Bubonicus	spec	Arc,Bnd	0	1	itst:reg=skskrolk		Bound 6; Pick any enemy unit within 24".  If cast roll D6; 1. No effect; 2-4. each model suffers St1 hit with no armour save. 5-6. Each model suffers St2 hit no armour save.	^	^	
+skluchel	Lucky Helm	spec	Enc	0	1	itst:reg=sktrcrta		Gives Tretch a 4+ ward save and the ability once per game to reroll a dice roll.  It can be one To Hit, To Wound, armour or ward save or Stay Here, I'll Get Help roll.	^	^	
+skcorupt	Rod of Corruption	spec	MWp	0	1	itst:reg=skskrolk		Flail; Strength +2 in first round of combat; Models hit by the rod must pass a single To test or die.No saves are allowed.  If victim lives roll to wound as normal.	^	^	
+skstaff1	Staff of the Horned One	spec	Enc	0	1	itst:reg=skthanq		Thanquol knows 5 spells instead of 4	^	^	
+skthanq1	Staff of the Horned Rat	spec	Enc	0	1	itst:reg=skthanet		+1 to casting rolls for spells from Skaven Spells of Ruin or Plague.	^	^	
+skstormd	Storm Daemon	spec	MWp	0	1	itst:race=sk&type=ikitclaw;stat:St+1;itst:reg=skthrot		Halbred which ignores armour saves; Bound 5 dark lightning projector.  Magic missle 24" range St5 causes artillery dice number of hits.  In case of a misfire no shots are fired instead roll D6.  1-2. Ikit Claw and every model in base contact suffer St5 hit. 3-5. Ikit may not cast spells for the rest of the magic phase. 6. Ikit may immediately add D3 power dice to the pool for the currect magic phase.	^	^	
+sknurgl2	The Grim Ague	spec	N/A	0	1	itst:reg=sknurgli		Non-Pestilens/Bubonic Court models within 6" suffer -1WS; In BtB with Nurglitch they suffer D6 S4 hits with no armour save allowed at end of any turn (no effect on Red-Crested Skinks)	^	^	
+skwapamu	Warp-amulet	spec	Tal	0	1	itst:reg=skthanq|reg=skthanet		As long as he has a single wound remaining at the beginning of each of his turns he can use the Amulet to heal himself. On a roll of 5+ Thanquol regains a single wound.	^	^	
+skwarlas	Warp-lash	spec	MWp	0	1	stat:At+1;itst:reg=skskgnaw		Counts as whip giving +1 attack in CC;  No armour saves and each wound multipied into 2 wounds	^	^	
+skwarsam	Warp-shard Armour	spec	Arm	0	1	itst:reg=skqueek;base:Sv-4		3+ armour save; Each successful save made in CC inflicts St5 hit against enemy that struck the blow.	^	^	
+skweeper	Weeping Blades	spec	MWp	0	1	itst:race=sk&type=sksnikch;stat:St+1;stat:At+2		+1Strength; 1 Wo is D3 Wo; Has 3! of them	^; Spec Char Skaven only	^	
+skwipdom	Whip of Domination	spec	N/A	0	1	itst:reg=skthrot;stat:At+1		In his third hand he makes 1 addition attack with the whip.  Counts as normal whip but any enemy unit taking an unsaved wound from it suffers -2 to its ldr for the remainder of the player turn.	^	^	
+skpoiatt	Poison attacks	scpi	Vt2	15	50	lglx:race=sk;itst:race=sk		Gives poisoned CC attacks even for tail weapon.  Not magical.	^	^	
+skrahoun	Rat Hound Bodyguard	scpi	Vit	5	50	lglx:race=sk;itst:race=sk		+1 Ws3 S3 attack.  On a 1 to hit attack goes to owner.	^	^	
+sktaiwea	Tail Weapon	scpi	Bs2	8	50	lglx:race=sk;itst:race=sk		Gains +1 S3 atack, may still be used with magical weapon.	^	^	
+skcatchr	Things-Catcher	scpi	M2H	20	1	itst:(race=sk&type=moulder)		Two-handed; Killing Blow	Clan Moulder only, Two-handed; Killing Blow	^	
+skwarppi	Warplock Pistol	scpi	MRg	8	50	lglx:race=sk;itst:race=sk;stat:At+1		10", S4, armour piercing, counts as pistol. Unstable	^	^	
+skwarpmu	Warpmusket	scpi	MRg	15	50	lglx:race=sk;itst:race=sk		24", St5, armour piercing, move or shoot, Unstable	^	^	
+^
+^
+sktok	Token Number	Tok	Priority	N/A	10	zrng:1-10				
+^
+skassass	2ndhwhro	incl
+skassass	throww	incl
+skbeast	latrp	appl
+skbeast	skwhip	incl
+skcenser	frenzy	incl
+skcenser	skcenser	incl
+skclan	latrp	incl
+skclan	skchclan	cost
+skclan	mus10	cost
+skclan	st10	cost
+skengin	general	cost
+skengin	skolore3	incl
+skengin	skshow	hide
+skgutter	2ndhwtrp	incl
+skgutter	skchgutt	cost
+skgutter	throww	incl
+skgutter	skphand	cost
+skgutter	slingtrp	cost
+skhero	2ndhwlr3	cost
+skhero	btnostnd	incl
+skhero	btstand8	cost
+skhero	general	cost
+skhero	latrp	incl
+skhero	skhalber	cost
+skhero	shhro	cost
+skjezz	warpmu	incl
+sklord	skaddwea	cost
+sklord	general	cost
+sklord	skhalber	cost
+sklord	latrp	incl
+sklord	shlrd	cost
+sklord	skwarli	cost
+sklord	skboncr	cost
+skmastmo	lahro	incl
+skmastmo	skwhip	incl
+skmastmo	skthngca	cost
+skmonks	2ndhwtrp	incl
+skmonks	mus10	cost
+skmonks	skchplag	cost
+skmonks	st10	cost
+sknight	2ndhwtrp	incl
+sknight	skchnigh	cost
+sknight	throww	incl
+skogres	skmasbre	cost
+skpack	latrp	appl
+skpack	skwhip	incl
+skpriest	2ndhwlr3	cost
+skpriest	general	cost
+skpriest	skcenser	cost
+skpriest	mgdiseas	hide
+skpriest	mgmiscas	cost
+skseer	general	cost
+skseer	mgmiscas	cost
+skseer	skbell	cost
+skseer	skfull	hide
+skseer	skshow	hide
+skseer	mg4lvl60	cost
+skslave	mus10	cost
+skstorm	skhalber	incl
+skstorm	hatrp	incl
+skstorm	mus10	cost
+skstorm	showtrp1	incl
+skstorm	skchstor	cost
+skstorm	st10	cost
+skseer	skolore3	cost
+skengin	skfull	hide
+skengin	mg1lvl	incl
+skpoison	haoptrp	incl
+skcannon	skmisfir	incl
+skwarpf	skwttcho	free
+skbell	sksbpush	cost
+skbell	skbelrin	auto
+skthanq	skboner	incl
+skthanq	skmagic	incl
+skthanq	mgmiscas	cost
+skthanq	skfull	cost
+skthanq	skshow	cost
+skthanq	general	cost
+skboner	sksmwpf	incl
+skthrot	general	cost
+skmstass	skgenesh	cost
+skmstass	sksmoke	cost
+skmstass	2ndhwtrp	incl
+skmstass	skstars	incl
+skthanq	mg4lvl	incl
+skeshsoc	2ndhwhro	incl
+skeshsoc	mgmiscas	cost
+skeshsoc	general	cost
+skeshsoc	mg1lvl	incl
+skeshsoc	skstars	incl
+skikitcl	skpstlrd	incl
+skikitcl	general	cost
+skikitcl	mgmiscas	cost
+skikitcl	skmagic	auto
+skikitcl	skshow	hide
+skikitcl	skfull	hide
+skeshsoc	sksmoke	cost
+skpllord	general	cost
+skpllord	skcense2	cost
+skpllord	flaillrd	cost
+skpllord	2ndhwlrd	cost
+skfester	skcenser	cost
+skfester	2ndhwhro	cost
+skfester	mg1lvl	incl
+skfester	frenzy	incl
+skfester	mgmiscas	cost
+skfester	general	cost
+skthanq	warpmu	incl
+skmutato	skwhip2	cost
+skmutato	2handlrd	cost
+skmutato	lalrd	cost
+skharbin	mg1lvl	incl
+skharbin	mgmiscas	cost
+skharbin	general	cost
+skharbin	skwhip	cost
+skmorbus	general	cost
+skmorbus	skcmace	incl
+skklawm	mg3lvl	incl
+skklawm	skpstlrd	incl
+skklawm	skwpblad	incl
+skklawm	skaccumu	incl
+skklawm	skconden	incl
+skklawm	general	cost
+skklawm	skrobot	incl
+sktank	emstrls	incl
+sktank	emstrls2	incl
+sktank	emstmal	incl
+sktank	skwpftur	incl
+sktank	skwlctnk	incl
+skvermin	mg1lvl	incl
+skvermin	sklore1	cost
+skvermin	skfull	hide
+skvermin	skshow	hide
+skvermin	mgmiscas	cost
+skdoomwh	skrater	appl
+skdriver	skpsthro	incl
+skqueek	general	cost
+skskrolk	lsgen	cost
+skskrolk	frenzy	incl
+skskrolk	skpshow	hide
+skpllord	frenzy	incl
+skwarlok	mg3lvl	incl
+skwarlok	skpstlrd	incl
+skwarlok	skwpblad	incl
+skwarlok	skaccumu	incl
+skwarlok	skconden	incl
+skwarlok	general	cost
+skthanq	sk3tok	incl
+sktriad	2ndhwhro	incl
+sktriad	skstars	incl
+sktriad	sktsmoke	cost
+skemstas	general	cost
+skemstas	sksmoke	cost
+skemstas	2ndhwtrp	incl
+skemstas	skstars	incl
+skeshsoc	mg2lvl15	cost
+skmutant	mus4	cost
+skmutant	shoptrp	cost
+skmutant	skchslav	cost
+skmutant	sksling2	cost
+skmutant	sprtrp1	cost
+sknurgli	general	incl
+sknurgli	skvermin	incl
+sknurgli	mgmiscas	cost
+sknurgli	mg3lvl	incl
+sknurgli	skcense3	incl
+skcauldr	skcpush	cost
+skpontif	general	cost
+skpontif	skcense2	cost
+skpontif	flaillrd	cost
+skpontif	2ndhwlrd	cost
+skpontif	frenzy	incl
+skpontif	skcauldr	cost
+skpontif	mg2lvl	incl
+skpontif	mgmiscas	cost
+skpontif	sklvl3	cost
+skpontif	sk2tok	incl
+skpontif	sknonurg	cost
+skpllord	sknonurg	cost
+skfester	sknonurg	cost
+skfester	sklvl2	cost
+skfester	sk1tok	incl
+skstink	2handhro	cost
+skstink	2ndhwhro	cost
+skstink	general	cost
+skstink	hahro	cost
+skstink	halhro	cost
+skstink	lahro	cost
+skstink	flailhro	cost
+skpriest	skplfurn	cost
+skpriest	mgshow	cost
+skrotten	mus5	cost
+skrotten	st10	cost
+skrotten	skclawld	cost
+skrotten	latrp	incl
+skrotten	2ndhwtrp	cost
+skpusbag	mus5	cost
+skpusbag	st10	cost
+skpusbag	flailtrp	cost
+skpriest	mgfull	cost
+skstink	sknonurg	cost
+skpriest	skflail	cost
+skcenser	skplacha	cost
+skogres	skswift	cost
+skswarm	sknocore	incl
+skjezz	skjezzch	cost
+skpoison	skpoison	incl
+skpack	skmastmo	cost
+skbeast	skmastmo	cost
+skengin	mg2lvl30	cost
+skengin	mgmiscas	cost
+skpriest	skhal5	cost
+skpriest	skmg1lvl	cost
+skseer	mgfull	hide
+skseer	mgshow	hide
+skengin	skwarpt	cost
+skvermin	mgshow	hide
+skvermin	mgfull	hide
+skvermin	general	cost
+skbell	skbellmf	incl
+skwarpf2	skplamor	auto
+skwarpf3	skwargri	auto
+skplfurn	skfurcre	auto
+skplcat	skcatcre	auto
+sklord	skgwlrd	cost
+skplamo	skplamor	auto
+skcannon	skwarpcr	incl
+skhero	skgwlrd	cost
+sklord	heromnt	hide
+skskrolk	skpmagic	auto
+skthanq	skpfull	hide
+skthanq	skpshow	hide
+skthanq	skpmagic	auto
+skskrolk	skpfull	hide
+skikitcl	sksmwpf	incl
+skskrolk	mgmiscas	cost
+sksnikch	sksnweep	incl
+sksnikch	skclshad	incl
+sksnikch	skstars	incl
+skstromb	haltrp	incl
+skstromb	hatrp	appl
+skstromb	mus5	cost
+skstromb	skstoshi	cost
+skstromb	skchstbd	cost
+skstromb	stmg10	cost
+skstromb	skwarpf	cost
+skqueek	skstrob	cost
+skmastmo	skgwmold	cost
+sktrcrta	hahro	incl
+sktrcrta	2ndhwtr1	incl
+sktrcrta	sktailbl	incl
+skskgnaw	lahro	incl
+skbeast	skskgnaw	cost
+skpack	skskgnaw	cost
+skratog	frenzy	incl
+skstormf	hatrp	incl
+skstormf	skratgun	cost
+skstormf	skwpfire	cost
+skstormf	skplamor	cost
+skstormf	skmeatgr	cost
+skstormf	sktunmac	cost
+skthanet	skmagic	incl
+skthanet	mgmiscas	cost
+skthanet	skfull	cost
+skthanet	skshow	cost
+skthanet	general	cost
+skthanet	mg4lvl	incl
+skthanet	sk3tok	incl
+skthanet	skpfull	hide
+skthanet	skpshow	hide
+skthanet	skpmagic	auto
+skthanet	skboner1	incl
+skthanet	skboner2	cost
+skskreev	skmagic	incl
+skskreev	mgmiscas	cost
+skskreev	skfull	cost
+skskreev	skshow	cost
+skskreev	mg4lvl	incl
+skskreev	skpfull	hide
+skskreev	skpshow	hide
+skskreev	skpmagic	auto
+skverdec	skmagic	incl
+skverdec	mgmiscas	cost
+skverdec	skfull	cost
+skverdec	skshow	cost
+skverdec	mg4lvl	incl
+skverdec	skpfull	hide
+skverdec	skpshow	hide
+skverdec	skpmagic	auto
+skvercor	skmagic	incl
+skvercor	mgmiscas	cost
+skvercor	skfull	cost
+skvercor	skshow	cost
+skvercor	mg4lvl	incl
+skvercor	skpfull	hide
+skvercor	skpshow	hide
+skvercor	skpmagic	auto
+skvercor	frenzy	incl
+skverwar	skmagic	incl
+skverwar	mgmiscas	cost
+skverwar	skfull	cost
+skverwar	skshow	cost
+skverwar	mg4lvl	incl
+skverwar	skpfull	hide
+skverwar	skpshow	hide
+skverwar	skpmagic	auto
+skversee	skmagic	incl
+skversee	mgmiscas	cost
+skversee	skfull	cost
+skversee	skshow	cost
+skversee	mg4lvl	incl
+skversee	skpfull	hide
+skversee	skpshow	hide
+skversee	skpmagic	auto
+sklord	skpstlrd	cost
+skassass	skassa02	cost
+skassass	skgclan	cost
+skpriest	skmg2lvl	cost
+skclan	shoptrp	incl
+skclan	sprtrp	cost
+sk9weaps	skwpfire	incl
+sk9weaps	skratgun	incl
+sk9weaps	skplamor	incl
+sk9weaps	skmore	auto
+sk9weaps	skmeat	incl
+skvermin	skexalt	cost
+skvermin	sknolead	free
+skvermin	skpath	cost
+skvermin	skgrind	cost
+skvermin	skreg4	cost
+skvermin	mg2lvl30	cost
+sklord	skgbrat	cost
+skwarpte	general	cost
+skwarpte	skspell0	hide
+skwarpte	skwarpt	hide
+skwarpte	skgclan	cost
+skwarpte	skhalber	cost
+skwarpte	skhal5	cost
+skwarpte	skpstlrd	cost
+skwarpte	skpoison	cost
+skwarpte	skwtmupg	cost
+skassass	skassa01	cost
+skassass	sksia	cost
+skassass	sktailbl	cost
+skpriest	skwarpt	hide
+skpriest	skgclan	cost
+skstrain	general	cost
+skstrain	skhalber	cost
+skstrain	skgclan	cost
+skstrain	lalrd	free
+skstrain	shlrd	cost
+skstrain	skaddwea	cost
+skstrain	skboncr	cost
+skogres	skmore	auto
+skgutter	sktailbl	cost
+skgutter	skmore	auto
+skslave	skmore	auto
+skrats	skmore	auto
+skcenser	skmore	auto
+skswarm	skmore	auto
+skabom	sktoxret	cost
+skcatcr	skaddwea	incl
+skseer	skwarpt	cost
+skgutter	sksling	cost
+skpriest	skcauld	hide
+skgutter	sksia	cost
+skmonks	skmore	auto
+skseer	mg3lvl	incl
+skstrain	skgbrat	cost
+sklord	skhazala	cost
+skhero	skhazala	cost
+skvermin	skmg3lvl	cost
+skvermin	skmg4lvl	cost
+skassass	skslingh	cost
+skclan	stmg10vt	cost
+skstorm	stmg10vt	cost
+skmonks	stmg10vt	cost
+^
+^
+skmsg6	Core Giant Rats	Giant Rats & 2 Maximum Rat Ogres may select the 'Count as Core' option only if Throt is present. 
+skmsg5	Core Giant Rats & Ogres?	You must take Throt for Giant Rats to Count as Core.
+skmsg9	Core Monks	Lord Skrolk must be General for Plague Monks to count as Core.
+skmsg8	Core Rat Ogres	nothing
+skmsggre	Greater Clan	Cant have Greater Clan when Clan Lord is in army
+skmsggrg	Greater Clan General	Unit with Greater Clan is general. Deselect other general.
+skmsggrt	Greater Clan To Many	Unit with Greater Clan is general. Deselect other general.
+skmsg2	Nurglitch	You must field Nurglitch unless your list is below 2000 points or you have your opponent's approval to ignore this rule
+skmsg7	Ogre Core	Throt must be present for Rat Ogres to be Core.  Maximum of TWO core units are legal
+skmsg14	Only One Thanquol	You can only field one version of Thanquol.
+skmsg3	Pushers	Need to select 1 unit to push Bell
+skmsg4	Pushers	Need to select 1 unit to push Bell
+skmsg13	Stormvermin	Warlord Queek requires Stormvermin in army
+skmsgwtt	To much Warp Tech Teams	For each Warp Tech Team you must have unit of Verminguards or Clan Vermins
+skwiz1	Too Many Points	You may only have 50 pts (or 100 pts) of magic items if you are a hero (or Lord)
+skmsg1	Too many spells	Too many spells have been selected for a Grey Seer or Warlock Engineer
+^

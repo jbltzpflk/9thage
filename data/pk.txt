@@ -1,0 +1,47 @@
+Description: Unknown
+Version: Unknown
+Author: Unknown
+None
+^
+Host of the Phoenix King	pk	0			Lord:%max=50,Hero:%max=50,Core:%min=25,Spec:%max=50,Rare:%max=25		info:display="1 Dec 2014";info:display="";info:display="All models that have Murderous Prowess replace it with Martial Prowess.";info:display="";info:display="All models that have Forest Stalker replace it with Forest Strider and Martial Prowess";info:display="";info:display="Martial Prowess - can make supporting attacks and shoot in one extra rank. Cumulative. ";info:display="";info:display="Arrows of Isha - Magical Attacks. Models of Forces of Destruction suffer additional -1 to Armour Save.";info:display="";info:display="Blessings of the Ancients - If casting within a forest has +1 to cast spells.";info:display="";info:display="Eternal Hatred - Has Hatred every round of CC.";info:display="";info:display="Forest Spirit - Forest Strider and all attacks are magical.  If not a mount then has 6+ Ward and Immune to Psychology.";info:display="";info:display="Fireborn, Hatred (Elves), Hekarti's Blessing, Lileath's Blessing, Valor of Ages";ulmt:comp=core,spec,rare,ncor-min@unit=3;info:always="It is your responsibility to know the rules ";none:"Host of the Phoenix King"	
+^
+pkalarie	Alarielle, Avatar of Isha		Lord	Lord		1:1	375	0	ipts:total=0;type:Wiz;spec:+wzrd;spec:+ench;spec:+spel;attr:US="In";take:hestavel-free-perm;take:hesravel-free-perm;type:Ld10	umax:1		Always Strikes First; Valour of Ages, Martial Prowess; Can choose spells  from 3 different lores; Lileath's Blessing - +1 to cast High Magic; Anathema to Chaos - At start of each Magic Phase every unit with the Daemonic or Daemonic Instability rule within 12" suffers D6 Str4 hits; Blessings of Isha - All friendly units within 12" have a 5+ Ward Save and are immune to Fear and Terror; Touch of Purity - CC attacks are Magical and always Wounds on 2+ and have Multiple Wounds (D6) against models of the Forces of Destruction.				5	6	5	3	3	3	6	1	10	7	5	0	0	0	0	0	0	0	1
+pkimrik	Imrik, Crown Prince of Caledor		Lord	Lord		1:1	810	0	type:Ld10;attr:US="Mo";spec:+armr;spec:+ench;spec:+weap;take:hestrlnc-free-perm;take:pktamer-free-perm;take:pkhorn-free-perm;ipts:total=0	umax:1;race:et		Always Strikes First; Fireborne; Fly; Martial Prowess; Large Target; Terror; Valor of Ages; Dragonfire - Mount has Str4 Breath Weapon with Flaming Attacks; Lord of Dragons - Monsters suffer -1 To-Hit against him.				6	8	7	7	7	10	8	10	10	3	5	0	0	0	0	0	0	0	1
+pkking	Malekith, The Phoenix King		Lord	Lord		1:1	825	0	take:pkasury-free-perm;take:pkmidnig-free-perm;take:pkcircle-free-perm;attr:US="Mo";type:Ld10;ipts:total=0;spec:+weap;spec:+armr;spec:+wzrd;spec:+spel;attr:Wsv="2*"	umax:1		Always Strikes First, Eternal Hatred, Fly, Immune to Psychology, Large Target, Martial Prowess, Terror; Absolute Power - Inspiring Presence is 24"; Noxious Breath - Str4 Breath Weapon. All models in unit that takes one or models casualties suffer -1 to WS and BS until end of following turn; Pheonix King - All friendly units with Martial Prowess within 12" can make supporting attacks with one extra rank. This is cumulative. 				6	8	7	6	6	10	8	10	10	3	7	0	0	0	0	0	0	0	1
+^
+pklore1	Lore Table		SpellType	N/A	0	tabl:None=mgnone,Fire=mgfire,Dark=dkdark-noname-nobrackets				
+^
+pkasury	Asuryath	weap	N/A	0	1	itst:reg=pkking		Magic Weapon; Hits have Multiple Wounds (D3) and Flaming Hits.	^	^	
+pkmidnig	Armour of Midnight	armr	N/A	0	1	itst:(reg=pkking|reg=etking)		Magic Armour; 2+ Ward against Non-Magical attacks. If  Wounded by Heroic Killing Blow or Multiple Wounds he only suffers one Wound.	^	^	
+pktamer	Armour of the Dragontamer	armr	N/A	0	1	itst:reg=pkimrik		Magic Armour; 5+ Ward save	^	^	
+pkhorn	The Dragonhorn	ench	N/A	0	1	itst:reg=pkimrik		Enchanted Item; One Use Only; At start of any of your turns sound the Horn and all friendly Monsters within 12" have Stubborn until the start of your next turn.	^	^	
+pkcircle	Circlet of Iron	wzrd	N/A	0	1	itst:(reg=pkking|reg=etking)		Arcane Item; Once per Magic Phase he can add a single bonus dice to ant failed casting or dispel attempt. Can cause Irresistable and Miscast.	^	^	
+^
+^
+^
+pkking	general	cost
+pkking	mg4lvl	incl
+pkking	pklore1	cost
+pkking	dkfull	hide
+pkking	dkshow	hide
+pkking	mgshow	hide
+pkking	mgfull	hide
+pkalarie	mg4lvl	incl
+pkalarie	mgmiscas	cost
+pkalarie	hehigh	incl
+pkalarie	mglife	incl
+pkalarie	hefull	cost
+pkalarie	hesho2	hide
+pkalarie	mglight	incl
+pkalarie	general	cost
+pkalarie	ulshow	hide
+pkalarie	ulfull	hide
+pkalarie	ulundlor	cost
+pkking	ulundlor	cost
+pkking	ulfull	hide
+pkking	ulshow	hide
+pkimrik	general	cost
+pkking	mgmiscas	cost
+^
+^
+^

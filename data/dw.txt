@@ -1,0 +1,876 @@
+Description: Dwarf Army Book
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, bugs - email - mach_5@rocketmail.com
+^
+Dwarven Holds	dw	0	sm,em,he,we,br,lz,ok,ch,dm,dk,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25	rwpn,rban,rtal,reng,rarm	info:display="October 2015, v0.9.1 Beta";info:display="by DeBelial";info:display="";skip info:display="IMPORTANT NOTE: The 0-1 each limit on Master Runes is not checked correctly by AB, try adding the Special Character after the other characters or check it for yourself!";info:always="Grim Resolve: A model with this rule gets Thunderous Charge special rule. Furthermore it does not suffer -1 to hit when taking a Stand and Shoot charge reaction.";info:always=" ";info:always="Ancient Grudge: Against Armies of Armybooks: Orcs and Goblins or The Vermin Swarm, the army counts as having one additional model with Reckoner Special rule.";info:always="Shield Wall: A model with this rule adds a further +1 to its armour save in close combat when using a shield against non-special close combat attacks from enemies in the model's front.";info:always="Relentless:Units containing only models with this rule may march even when there are enemies within 8”. Infantry units containing only models with this Special Rule may march triple their movement if no enemy iswithin 8” atthe start of its movement.";info:always="Hewn out of Mountains: Dwarven Hold armies always receive a +1 bonus on all dispel rolls.";skip info:always="Any weapon with runes inscribed on it is considered a hand weapon.";trat:xbow@1m:blackpowder@1m-msg=dwmsg2-istype=dwalrik;info:always="All units move 2D6 towards enemy after deployment, before turn 1. Ignores (very) difficult terrain penalties, but you may only wheel once to avoid another unit or terrain. Slayer player also rolls extra D6 to determine who goes first and discards the lowest roll."-mode=h;skip trat:dwwarrio@1u:longbeards@1u-msg=dwmsg11;trat:gyro@1u:vangyro@1u-free=0:1-msg=dwmsg14;trat:ungrim@1u:ungriminarmy@1u-msg=dwmsg15;tlmt:ungriminarmy-unit=1@max-msg=dwmsg18;trat:ungrim@0u:ungrimincarnate@1u-msg=dwmsg18;tlmt:dwambush-unit=1@max-msg=dwmsg19;tlmt:dwscout-unit=1@max-msg=dwmsg20;tlmt:Trollslayers-unit=3+3/4000-msg=dwmsg21	
+^
+chdoomsk	 Doomseekers		Hero	Regiment		1:3	0	0	calc:Num=#	lglx:mode=h;hide		Models in btb contact automatically hit;  models in btb contactt with those automatically hit are hit on a 4+; -1 to be hit				3	4	3	5	4	1	2	1	9	0	0	0	0	1	0	0	0
+dwbolgan	 Bazrak Bolgan		N/A	Special Characters	Hero	1:1	120	1	take:dwbolg01-free-perm;take:dwbolg02-free-perm;spec:+weap;type:Hero;type:skirmishers;attr:Type="In"	must:option=dwchoice@min=1;hide		Infantry; Immune to Psychology; Suffers an additional -1 on pursuit and fleeing rolls (total -2)		From UKWD 298, the Bugman's Lament campaign; Hero		3	4	3	4	5	2	2	2	9	7	5	0	0	0	0	1	0
+dwbrok	 Brok Stonefist		N/A	Special Characters		1:1	371	0	ipts:total=0;spec:+weap;spec:+armr;spec:+ward;take:dwbrokgm-free-perm;take:dwbrokra-free-perm;take:dwbrokts-free-perm;type:dwbrok;type:Ld10;attr:Type="In"	umax:1;must:option=dwchoic2@min=1-msg=dwmsg1-mode<f;hide		Infantry;	Miners may reroll Underground Advance dice	Lord; Incls Garaz Makaz, Talisman of Stone, and Rune Armour of Karak-Azgal; Lord of Tunnels: 0-2 units of miners in army & may reroll underground advance dice;War of the Beard character, but can be used in any Dwarf army with Opponent's Approval		3	7	4	4	5	3	4	4	10	1	0	0	0	1	0	0	0
+dwbrohod	 Brotherhood of Grimnir		N/A	Regiment		10:30	14	0	zero;ipts:total=80-each=50;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:mode=h;hide		Infantry; Slayers				3	4	3	4	4	1	3	1	10	7	7	0	0	0	0	0	0
+dwbrang	 Bugman's Longbeard Rangers		N/A	N/A	infantry	10	14	0	calc:Num=#;ipts:total=50-each=50;attr:Type="In"	umax:1-mode<=0;reqd:type=bugman@1u:1u-msg=dwmsg12;hide		Infantry;	Scout, Immune to Panic, Old Grumblers.	Scout, Immune to Panic, Old Grumblers.		3	5	3	4	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwbugran	 Bugman's Rangers		N/A	Regiment	infantry	5	17	0	xcmp:Rare-mode=a;xcmp:Spec-mode=c;xcmp:Spec-mode=f;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	umax:1u;reqd:unit=dwbugman-min=1;umax:1-mode=c;umax:1-mode=f;hide		Infantry; Ancestral Grudge; Relentless; Resolute; Scouts		Unit count towards number of fielded Ranger units.	Feb 2014, by DeBelial	3	5	4	4	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwcannon	 Cannon	Canno	N/A	Machine		1:1	120	1	ipts:total=100-each=100;xcmp:Core-mode=a;type:guild;xcmp:Rare-mode=c;attr:Type="WM"	lglx:mode=default|mode=a|mode=c|mode=zz;hide		War Machine (Cannon); Ancestral Grudge; Stubborn		Includes 3 crew	Feb 2014, by DeBelial	0	0	0	10	7	3	0	0	0	7	7	0	0	0	0	0	0
+dwcrazed	 Crazed Khargrim		N/A	Special Characters		1:1	266	0	spec:+weap;ipts:total=0-each=0;take:dwchain-free-perm;attr:Type="In"	umax:1;must:option=dwchoic2@min=1-msg=dwmsg1-mode<f;hide		Infantry; Unbreakable; Slayer; Unhinged (may not join any unit); Counter-Charge (1st rnd of combat, strikes first); Frenzy (cannot lose it!); Hatred of Elves;War of the Beard character, but can be used in any Dwarf army with Opponent's Approval		Lord; Daemon Slayer; Incls Chains of Binding; From WD 266		3	7	3	4	5	3	5	4	10	7	7	0	0	1	0	0	0
+dwdoomsk	 Doomseekers		N/A	Regiment		1:3	65	0	attr:At="S";calc:Num=#;attr:Type="In"	reqd:type=Trollslayers@1u:1u;lglx:mode=h;hide		Infantry; Unbreakable; Single Model				3	5	1	5	4	2	2	0	10	7	7	0	0	0	0	0	0
+dwdrslay	 Dragon Slayer	Slayr	N/A	Hero	Hero	1:1	65	100	ipts:total=75-each=75-mode<=f;spec:-armr;spec:-ward;spec:-ench;spec:-rarm;spec:-rtal;type:skirmishers;ipts:total=75-each=75-mode=g;name:"DW Dragon Slayer"-race=vm;type:slayer_skills-mode=h;ipts:total=360-mode=h;type:LD9;type:Slayer_Character;attr:Type="In"	lglx:mode=h;race:vm;hide		Infantry; Slayer; Unbreakable; Loner		Hero		3	6	3	4	4	2	4	3	10	7	7	0	0	0	0	1	0
+dwchdra2	 Dragon Slayer(extra)	Slayr	N/A	Hero	Hero	1:1	65	100	ipts:total=75-each=75-mode<=f;spec:-armr;spec:-ward;spec:-ench;spec:-rarm;spec:-rtal;type:skirmishers;type:slayer_skills-mode=h;ipts:total=50;attr:Type="In"	lglx:mode=h;umax:1;hide		Infantry; Slayer; Unbreakable; Loner		Hero		3	6	3	4	4	2	4	3	10	7	7	0	0	0	0	1	0
+dwdurzak	 Durzak Dragonback	Hero	N/A	Special Characters	Hero	1:1	203	0	spec:-weap;spec:-armr;spec:-ench;spec:-ward;spec:-stnd;xcst:90-mode=a;name:"DW Thane"-race=vm;type:skirmishers;take:dwdurz01-free-perm;take:dwdurz02-free-perm;ipts:total=0;type:durzak;spec:-rwpn;spec:-rtal;attr:Type="In"	clmt:rwpn+rarm+rtal<=50-points-mode<f;lglx:(race=dw&!mode=b&!mode=h);clmt:rwpn+rarm+rtal<=75-points-mode<g;hide		Infantry;		From UKWD 302, the Bugman's Lament campaign; Hero		3	6	4	4	4	2	3	3	9	7	7	0	0	0	0	1	0
+dwburlok	 Engineer Guildmaster Burlok Damminson		N/A	Special Characters		1:1	255	0	spec:+weap;spec:+armr;xmpt:limit;ipts:total=0;take:dwburham-free-perm;take:dwburarm-free-perm;take:dwbionic-free-perm;attr:Type="In"	umax:1;lglx:!mode=b;hide		Infantry;		From UKWD 315;; Lord choice;; Note that he does NOT have the Artillery Master nor Artillery Specialist rules. Don't blame me, blame WD!		3	7	4	4	5	3	4	4	10	4	7	0	0	1	0	0	0
+dwflame	 Flame Cannon	Flame	N/A	Machine		1:1	140	1	xcmp:Spec-mode=a;attr:Type="WM";ipts:total=50-each=50	disc:type=dwalrik*-1-all;umax:2-mode=a;lglx:!mode>a;hide		War Machine; Ancestral Grudge; Stubborn; Sheet of Fire: Fire Thrower, Range 12", Multiple Wounds (D3), use Black Powder Missfire chart. Supercharged flame shot: can declare shot within 12", but if missfire is rolled apply -1 to the roll on missfire chart.		Includes 3 crew	Feb 2014, by DeBelial	0	0	0	5	7	3	0	0	0	7	7	0	0	0	0	0	0
+dwironfi	 Garagrim Ironfist	Slayr	N/A	Special Characters		1:1	305	0	spec:+weap;spec:-armr;spec:-ward;spec:-ench;spec:-rarm;spec:-rtal;type:skirmishers;ipts:total=0-each=0;type:slayer_skills;type:Ld10;take:dwkadrin-free-perm;type:Garagrim;attr:Type="In"	lglx:(!mode=a&!mode=c);hide		Infantry; Must be General, unless Ungrim is present; Slayer; Unbreakable; Can Whirlwind on charge with bonuses of skills and items		Slayer; Unbreakable; Must be General, unless Ungrim is present; Can use Whirlwind of Death on charge, but gets bonuses from Slayer Skills and Axes of Kadrin		3	6	3	4	5	3	3	4	10	7	7	0	0	1	0	0	0
+dwchgnt	 Giant Slayer	Slayr	N/A	Champion	champ	1	24	1	spec:+rwpn;coun;type:infantry;xcmp:Core-mode=b;xcmp:Core-mode=f;calc:Num=#;xcmp:Core-mode=h;ipts:total=25-each=25;type:gs	hide;lglx:(!mode=a&!mode=c)					Feb 2014, by DeBelial	3	5	3	4	4	1	3	2	10	7	7	0	0	1	0	0	0
+dwchgnt2	 Giant Slayer	Slayr	N/A	Champion	champ	1:30	27	0	coun;type:infantry;calc:Num=#;ipts:total=25-each=25;type:gs	hide;lglx:mode=h						3	5	3	4	4	1	3	2	10	7	7	0	0	1	0	0	0
+dwchsly3	 Giant Slayer	Slayr	N/A	Champion	champ	1:29	26	1	coun;type:infantry;xcmp:Core-mode=b;xcmp:Core-mode=f;calc:Num=#;xcmp:Core-mode=h;ipts:total=25-each=25;spec:+rwpn	hide;lglx:(!mode=a&!mode=c);must:option=dwonly1r@min=1;reqd:unit=dwironfi						3	5	3	4	4	1	3	2	10	7	7	0	0	0	0	0	0
+dwgot	 Gotrek Gurnisson	Hero	N/A	Special Characters	Champ	1:1	0	0		umax:1;hide		All hit from Gotreks auto wound, allow no armour save, and cause d3 wounds.				3	0	0	4	0	0	5	4	0	7	7	0	0	1	0	0	0
+dwgrimm	 Grimm Burloksson		N/A	Hero		1:1	165	0	spec:+weap;spec:+armr;xmpt:limit;ipts:total=0;attr:Type="In";type:Ld9	umax:1;lglx:!mode=b;hide		Infantry; Ancestral Grudge; Relentless; Resolute; Entrenchment; #Stand Back Sir: can make Look-out-Sir if he is within 3" of War Machine, if passed WM is hit instead of him; #Master of Accuracy: at the start of shooting phase roll D6. On 2+ he gives one of special rules to the unit within 3". He can never benefit from this rules; #1: Artillery Adjustement: war machine can use his BS and re-roll one artillery dice; #2: Increased Range: crossbows and handguns increase maximum range by 2D6"; #3: Superior Volley: models in the unit can re-roll failed To Hit rolls.		Hero	Feb 2014, by DeBelial	3	4	5	6	4	2	2	2	9	4	7	0	0	1	0	0	0
+dwgrombr	 Grombrindal, The White Dwarf	Grom	N/A	Special Characters		1:1	500	4	take:dwgrom1-free-perm;take:dwgrom2-free-perm;take:dwgrom3-free-perm;take:dwgrom4-free-perm;type:Grombrindal;type:Ld10;spec:+armr;spec:+weap;spec:+ward;spec:+ench;attr:Type="In"	hide		Infantry; Hidden Deployment (in any dwarf infantry unit, no one can use his Ld when hidden); Unbreakable but Hates Greenskins; Won't Break if unit he is in does, unlike normal Unbreakable characters		From a French WD (don't know the number, just translated it) - Also in UKWD 300;; Takes up a Lord and a Hero choice		3	7	4	4	5	4	4	4	10	7	7	0	0	1	0	0	0
+dwstone	 Grudge Thrower	Stone	N/A	Machine		1:1	80	1	ipts:total=100-each=100;xcmp:Core-mode=a;type:guild;xcmp:Rare-mode=c;attr:Type="WM"	lglx:(!mode=b&!mode=d&!mode=e&!mode=h);hide		War Machine (Stone Thrower); Ancestral Grudge; Stubborn 		Includes 3 crew	Feb 2014, by DeBelial	0	0	0	3	7	3	0	0	0	7	7	0	0	0	0	0	0
+dwgrudgy	 High King Thorgrim Grudgebearer		N/A	Lord		1:1	650	0	spec:+weap;spec:+armr;spec:+ench;spec:+spel;ipts:total=0;take:dwgrimni-free-perm;take:dwskaldr-free-perm;take:dwdkaraz-free-perm;take:dwgreatb-free-perm;take:dwthronb-free-perm;xmpt:limit;type:Ld10;attr:Type="Un"	umax:1;lglx:!mode=b;hide		Unique; Ancestral Grudge; Relentless; Resolute; High King: must always be General, and if he is slain all models from Dwarf army gain Frenzy; Sits on Throne of Power (count as Large Target); accompanied by 4 Thronebearers (as displayed), takes same space as ordinary rnf for ranking purposes.		Lord; Must be General;  Armour of Skaldour; Dragon Crown of Karaz; Axe of Grimnir; The Great Book of Grudges; 	Feb 2014, by DeBelial	3	7	6	4	5	7	4	4	10	2	4	0	0	5	0	0	0
+dwcbreak	 Iron Breakers (Core)	Break	N/A	Regiment	infantry	5	13	0	calc:Num=#;ipts:total=75-each=75-mode=g;attr:Type="In"	umax:1;lglx:mode=g;hide		Infantry; 		Includes gromil armour, and shield; Unit Size: 10+; Champion may have runic wpn or armour; Only 1 Core unit in Army		3	5	3	4	4	1	2	1	9	3	7	0	0	1	0	0	0
+dwbreaks	 Ironbreakers	Break	N/A	Regiment	infantry	10	14	1	ipts:total=50-each=50-mode<f;xcmp:Core-mode=c;xcmp:Core-mode=e;calc:Num=#;ipts:total=75-each=75-mode=g;size:1-20-1-mode=zz;attr:Type="In"	lglx:(!mode=a&!mode=b&!mode=d&!mode=h);umax:1-mode=c;umax:3-mode=e;hide		Infantry; Ancestral Grudge; Relentless; Resolute; Shieldwall of Gromril: add +1 to Parry saves		Includes gromril armour, and shield; Unit Size: 10+	Feb 2014, by DeBelial	3	5	3	4	4	1	2	1	10	3	7	0	0	1	0	0	0
+dwbug	 Josef Bugman	Hero	N/A	Special Characters	Champ	1:1	0	0	type:bugman	umax:1;hide						3	0	0	5	0	0	4	4	0	7	7	0	0	1	0	0	0
+dwbugman	 Josef Bugman	Hero	N/A	Hero	Hero	1:1	165	0	spec:+ench;type:skirmishers;type:bugman;type:Ld10;take:dwbugma1-free-perm;take:dwbugma2-free-perm;attr:Type="In"	umax:1;hide		Infantry; Ancestral Grudge; Relentless; Resolute; Scouts; Bugman's Rangers; #Liquid Fortification: roll 2D6 at the start of each friendly turn, aplly effects to Bugman and any unit he is with. 2- Bad Brew- Flammable, 3-9 Belligerent- Stubborn, 10-12- +1 Toughness; #Stout Courage: he and his unit is Immune to Fear and Terror.		Hero; Allows Bugman's Rangers to be fielded (rare unit). If you do, Bugman must join and cannot leave this unit.	Feb 2014, by DeBelial	3	6	5	4	5	2	4	3	10	7	7	0	0	0	0	1	0
+dwredman	 Kadrin Redmane		N/A	Special Characters		1:1	215	0	take:dwhammer-perm;take:dwshston-perm;spec:+armr;spec:+weap;type:Ld10;attr:Type="In"	umax:1;must:option=dwchoice@min=1-msg=dwmsg1;must:option=general@max=0-msg=dwmsg5-mode=a;lglx:!mode=b;hide		Infantry;	RuneLord, Stubborn	RuneLord; From WD253; Stubborn; Incl Gromil Armor, Dwarf Handgun, Hammer of Ages, Shield of Stone		3	6	4	4	5	3	3	2	10	3	7	0	0	0	0	1	0
+dwalrik	 King Alrik Ranulfsson		N/A	Special Characters		1:1	290	0	spec:+armr;spec:+weap;spec:+ench;type:dwlord;take:dwaxret-free-perm;take:dwhrappi-free-perm;take:dwkurgaz-perm;take:dweagles-perm;take:dwkarak-perm;type:Ld10;type:dwalrik;attr:Type="In"	umax:1;lglx:!mode=b;hide		Infantry; General's range is 18" rather than 12".  Traditional Army.		From UKWD 315;; Lord choice		3	7	4	4	5	5	4	6	10	7	7	0	0	0	0	1	0
+dwbelega	 King Belegar Ironhammer		N/A	Lord		1:1	305	0	spec:+armr;spec:+weap;type:dwlord;take:dwbeleg1-free-perm;take:dwbeleg2-free-perm;type:Ld10;attr:Type="In"	umax:1;lglx:!mode=b;hide		Infantry; Ancestral Grudge; Relentless; Resolute; Stubborn; #Revenge Incarnate: use once per battle at the start of CC phase, double his Attacks for the remainder of the turn.		From WD 01-feb-2014; Lord choice	Feb 2014, by DeBelial	3	8	4	4	5	3	4	4	10	6	4	0	0	0	0	1	0
+dwbyrrno	 King Byrrnoth Grundadrakk of Barak Varr	Lord	N/A	Special Characters		1:1	223	0	type:Hero;spec:-armr;spec:-ward;spec:-ench;type:dwlord;type:skirmishers;type:Ld10;type:Royal_Blood;spec:+rwpn;spec:+rarm;take:dwbyrr1-free-perm;take:dwbyrr2-free-perm;attr:Type="In"	lglx:(!mode=b&!mode=h);hide		Infantry; Royal Blood		From UKWD 307;; Lord		3	7	4	4	5	3	4	4	10	7	7	0	0	0	0	1	0
+dwkazdor	 King Kazdor of Karak Azul		N/A	Special Characters		1:1	270	0	type:Hero;take:dwkaham-free-perm;take:dwkaar-free-perm;take:dwthunhn-free-perm;spec:+weap;spec:+armr;spec:+ench;type:Ld10;attr:Type="In"	umax:1;hide		Infantry;		From UKWD 315;; Lord choice	GW Website	3	7	4	4	5	3	4	4	10	4	7	0	0	0	0	1	0
+dwkragg	 Kragg the Grim		N/A	Special Characters		1:1	290	0	ipts:total=0;spec:+weap;spec:+armr;spec:+ench;take:dwkrwpn-free-perm;take:dwkrarmr-free-perm;take:dwkrstaf-free-perm;type:runers;type:Ld10;attr:Type="In"	umax:1;hide		Infantry; Ancestral Grudge; Relentless; Resolute; Shieldwall; Magic Resistance (2); Armour Piercing; Forgefire: unit joined by Runesmith gain Armour Piercing; Rune Lore: may channel dispel dice	Runelord	From UKWD 315;; Lord choice		3	6	4	4	5	3	3	2	9	1	7	0	0	0	0	1	0
+dwkraggi	 Kraggi		N/A	Special Characters		1:1	0	0		hide;forc		Re-roll failed rune cast attemp once per game; Failed 2nd attempt results in a miscast roll with -1 penalty				3	4	3	3	4	1	2	1	9	6	7	0	0	0	0	1	0
+dwclong	 Longbeards	Long	N/A	Regiment	infantry	10	11	0	ipts:total=75-each=75;calc:Num=#;attr:Type="In"	lglx:mode=g;hide		Infantry; Immune to Panic; Dwarfs within 6" reroll failed Panic tests; Stubborn w/ General		Champion may have runic wpn or armour; Unit Size: 10+		3	5	3	4	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwengr	 Master Engineer		N/A	Hero	Hero	1:1	70	100	ipts:total=50-each=50-mode<f;type:skirmishers;ipts:total=75-each=75-mode=g;type:Ld9;spec:+rarm;attr:Type="In"	lglx:(!mode=b&!mode=h);hide		Infantry; Ancestral Grudge; Relentless; Resolute; #Stand Back Sir: can make Look-out-Sir if he is within 3" of War Machine, if passed WM is hit instead of him; #Artillery Master: one WM within 3"  can use his BS and re-roll single artillery dice, except for Cannon bounce roll and Flame Cannon shots; #Entrenchment: one warmachine, picked at the start of the game, counts as being in hard cover & defended obstacle. If this WM makes a move other than pivoting, bonus is lost.		Hero		3	4	4	4	4	2	2	2	9	7	7	0	0	0	0	1	0
+dwminers	 Miners	Miner	N/A	Regiment	infantry	10	10	0	xcmp:Spec-mode=c;calc:Num=#;ipts:total=50-each=50-mode=g;size:1-20-1-mode=zz;attr:Type="In"	lglx:(!mode=a&!mode=b&!mode=h);hide		Infantry; Ancestral Grudge; Relentless; Resolute; Underground Advance: Ambushers. In the turn they arrive they count as being in soft cover.		Unit Size: 10+	Feb 2014, by DeBelial	3	4	3	3	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwmouran	 Mountain Rangers		N/A	Alternate Rules	infantry	5:10	15	0	calc:Num=#;size:1-20-1-mode=zz;type:skirmishers;attr:Type="In"	umax:1;lglx:mode=default;must:option=dwchoice@min=1;hide		Infantry; Scouts, Skirmishers		From UKWD 298, the Bugman's Lament campaign; Unit Size: 5-10		3	4	3	3	4	1	2	1	9	6	7	0	0	1	0	0	0
+dworgan	 Organ Gun		N/A	Machine		1:1	120	1	xcmp:Spec-mode=a;attr:Type="WM";ipts:total=50-each=50	disc:type=dwalrik*-1-all;umax:2-mode=a;lglx:(!mode=b&!mode=c&!mode=d&!mode=f&!mode=h);hide		War Machine; Ancestral Grudge; Stubborn; Organ Fire: Range 30", St5, Armour Piercing; Roll 2 artillery dice to determine number of shots. If one dice roll a missfire all shots fired this turn suffer -1 To Hit. If both dice roll a missfire consult Black Powder Missfire chart.		Includes 3 crew; Unit Size: 1	Feb 2014, by DeBelial	0	0	0	5	7	3	0	0	0	7	7	0	0	0	0	0	0
+dwranger	 Rangers		N/A	Regiment	infantry	5	14	0	xcmp:Rare-mode=a;xcmp:Spec-mode=c;xcmp:Spec-mode=f;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:!(mode=b|mode=e|mode=g|mode=h);umax:1-mode=c;umax:1-mode=f;hide		Infantry; Ancestral Grudge; Relentless; Resolute; Scouts			Feb 2014, by DeBelial	3	4	3	3	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwskeggi	 Skeggi Threkkson		N/A	Special Characters	Hero	1:1	129	1	spec:+weap;take:dwskeg01-free-perm;type:Hero;type:skirmishers;attr:Type="In"	must:option=dwchoice@min=1;hide		Infantry; Eagle Eyed (+D6" range and reroll misses with crossbow)		From UKWD 299, the Bugman's Lament campaign; Hero		3	6	4	4	4	2	3	3	9	7	7	0	0	0	0	1	0
+dwslking	 Slayer King	Lord	N/A	Lord		1:1	220	100	ipts:total=125-each=125;type:Hero;spec:-weap;spec:-armr;spec:-ward;spec:-ench;xcst:180-mode=a;type:slking;type:skirmishers;type:Ld10;attr:Type="In"	lglx:mode=b;hide		Infantry;		Lord; Slayer; Loner; Unbreakable		3	7	3	4	5	3	5	4	10	7	7	0	0	0	0	1	0
+dwtwdse	 The White Dwarf, Special Edition	Grom	N/A	Special Characters		1:1	1000	5	take:dwgrom1-free-perm;take:dwgrom2-free-perm;take:dwgrom3-free-perm;take:dwgrom4-free-perm;type:Grombrindal;type:Ld10;spec:+armr;spec:+weap;spec:+ward;spec:+ench;take:dwgrom5-free-perm;attr:Type="In"	must:option=dwchoice@min=1;hide		Infantry; Ancestral Grudge; No Fear, unbreakable and ItP, May join non-unbreakable units making them unbreakable; Strong Drinking and Strong Oaths, if not engaged in combat controlling players rolls a d6 at the start of each movement phase, 1-2 Beer - may not move this turn, 3-4 Wisdom - Model acts normally, 5-6 Grimnir's Beard - must move 12" toward nearest enemy, contact = charge.		Lord; NOTE: This character is Unbalanced and is not ment for competitive play. The original GW Authors clearly state this in the composed rules for this model. 		3	7	4	4	5	4	4	4	10	7	7	0	0	0	0	1	0
+dwthorek	 Thorek Ironbrow		N/A	Lord		1:1	435	0	take:dwklad-free-perm;take:dwthrarm-free-perm;type:runelord;spec:+weap;spec:+armr;spec:+ward;spec:+spel;type:Hero;type:Ld10;attr:Type="Un"	umax:1;must:option=general@max=0-msg=dwmsg5-mode=a;lglx:!mode=b;hide		War Machine; Ancestral Grudge; Relentless; Resolute; Shieldwall; Magic Resistance (3); Armour Piercing; Forgefire: unit joined by Runesmith gain Armour Piercing; Rune Lore: may channel dispel dice; #Master of Ancient Lore: +1 bonus to cast Anvil's spells; #Kraggi, Assistant at the Forge: re-roll single dice on a failed attempt to cast one of spells per turn. If re-roll is 1 Thorek suffers St10 hit, Kraggi is removed and this rule cannot be used for the rest of the battle.		Master Runelord of Karak Azul. Comes w/ magic hammer, armor, Anvil of Doom and apprentice Kraggi	Feb 2014, by DeBelial	3	6	4	4	5	5	3	2	10	1	7	0	0	0	0	1	0
+dwthorna	 Thorna Stonehammer, High Priestess of Valaya	Thorn	N/A	Special Characters		1	288	0	type:Ld10;type:skirmishers;take:dwthorn1-free-perm;take:dwthorn2-free-perm;spec:+weap;spec:+ward;spec:+armr;take:dwthorn3-free-perm;attr:Type="In"	must:dwchoice@min=1;hide		Infantry; 	+2 dispel dice	TRIAL RULES From UKWD 300; Written by Henry Compson (the mystery winner) ; This character won the contest to design a Dwarf Special Character;; Lord; Includes Gromril Armour with Rune of Stone, Hammer of Smiting and Book of Valaya; Valaya’s Touch: Adds 2 dice to the dispel pool		3	6	3	4	4	3	3	2	10	7	7	0	0	0	0	1	0
+dwthund	 Thunderers		N/A	Regiment	infantry	10	12	0	xcmp:Rare-mode=b;xcmp:Spec-mode=c;xcmp:Spec-mode=d;xcmp:Spec-mode=e;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:!(mode=f|mode=g|mode=h);hide		Infantry; 		Includes heavy armour, and Dwarf handgun; Unit Size: 10+	Feb 2014, by DeBelial	3	4	3	3	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwtrslay	 Troll Slayers		N/A	Regiment	infantry	10:30	11	0	zero;xcmp:Core-mode=b;xcmp:Core-mode=f;calc:Num=#;size:1-20-1-mode=zz;type:Trollslayers;xcmp:Core-mode=h;size:10-30-1-mode=h;attr:Type="In"	lglx:mode=h;hide		Infantry; 	Unbreakable; S = enemy T > min 3, max 6 (incl weapon bonus)	No limit on number of Giant Slayer champions; Unbreakable; Strength (including any bonus from weapons) is always equal to target's Toughness (minimum of 3), or higher (up to S6); Unit Size: 5-30		3	4	3	3	4	1	2	1	10	7	7	0	0	1	0	0	0
+dwungrim	 Ungrim Ironfist, The Slayer King		N/A	Lord		1:1	350	0	type:Hero;take:dwdargo-free-perm;take:dwdragon-free-perm;take:dwslaycn-free-perm;spec:+weap;spec:+armr;spec:+ench;type:Ld10;type:ungrim;attr:Type="In"	umax:1;must:option=general@min=1-mode=h-istype=Garagrim;hide		Infantry; Ancestral Grudge; Relentless; Resolute; Unbreakable; #Slayer: ignore St penalties and always wound at least on 4+; #Deathblow: if model is killed he may make a single Deathblow attack before being removed. If he died in a challenge, Deathblow attack may only be resolved against model that killed him; Daemon Slayer: enemies must re-roll successful ward saves; Dragon Slayer: when attacking Monsters he has Multiple Wounds (D3) special rule; #Slayer King: can only join units of Slayers. If he is the General one unit of Slayers can take runic standard worth up to 100 points.		Counts as Hero and Lord choice; Incl Gromil Armor, Axe of Dargo, Dragon Cloak, and Slayer Crown	Feb 2014, by DeBelial	3	9	4	4	5	3	5	4	10	3	4	0	0	0	0	1	0
+dwungrin	 Ungrim, Incarnate of Fire		N/A	Lord		1:1	425	0	type:Hero;take:dwungri1-free-perm;take:dwdargo2-free-perm;take:dwdragon-free-perm;take:dwslaycn-free-perm;type:Ld10;type:ungrimincarnate;attr:Type="In"	umax:1;must:option=general@min=1-mode=h-istype=Garagrim;hide		Infantry (Special Character); Ancestral Grudge; Relentless; Resolute; Unbreakable; #Slayer: ignore St penalties and always wound at least on 4+; #Deathblow: if model is killed he may make a single Deathblow attack before being removed. If he died in a challenge, Deathblow attack may only be resolved against model that killed him; Daemon Slayer: enemies must re-roll successful ward saves; Dragon Slayer: when attacking Monsters he has Multiple Wounds (D3) special rule; #Slayer King: can only join units of Slayers. If he is the General one unit of Slayers can take runic standard worth up to 100 points; #Breath of Aqshy: St4 Breath Weapon, Flaming Attacks		Counts as Hero and Lord choice; Incl Gromil Armor, Axe of Dargo, Dragon Cloak, and Slayer Crown	Feb 2015, by DeBelial	3	9	4	5	5	4	5	5	10	3	4	0	0	0	0	1	0
+dwthrone	4 Thronebearers		N/A	Champion		1	0	0	calc:Num=#	hide		The attack value already incorporates the 4 Thronebearers.				0	5	3	4	0	0	3	4	0	7	0	0	0	0	0	0	0
+dwguard	Anvil Guards		N/A	Champion		1	0	0	calc:Num=#	hide		Unbreakable				3	5	3	4	4	1	2	1	9	4	7	0	0	1	0	0	0
+dwchbrak	Champion	Break	N/A	Champion	champ	1:1	10	0	coun	hide						3	6	4	4	4	1	2	2	9	7	7	0	0	1	0	0	0
+dwchdeat	Champion	Warri	N/A	Champion	champ	1:1	10	0	coun	hide					Crossbows and Warrior Champion	3	5	4	4	4	1	2	2	10	7	6	0	0	1	0	0	0
+dwchdrak	Champion	Drake	N/A	Champion	champ	1:1	10	0	coun	hide						3	6	4	4	4	1	2	2	9	7	6	0	0	1	0	0	0
+dwchgole	Champion	Gole	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	4	6	5	3	2	3	10	6	7	0	0	1	0	0	0
+dwchham	Champion		N/A	Champion	champ	1:1	10	1	coun;spec:+rwpn;ipts:total=25-each=25	hide						3	6	4	4	4	1	2	3	9	7	7	0	0	1	0	0	0
+dwchqua	Champion	Quar	N/A	Champion	champ	1:1	10	0	coun	hide					Crossbows and Warrior Champion	3	5	4	3	4	1	2	2	9	5	7	0	0	1	0	0	0
+dwchwar	Champion	Warri	N/A	Champion	champ	1:1	10	0	coun	hide					Crossbows and Warrior Champion	3	5	4	3	4	1	2	2	9	5	7	0	0	1	0	0	0
+dwbeerca	Dwarf Beer Carts		N/A	N/A		3:3	0	0		hide		Counts as a chariot but does not inflict impact hits; Can only be mounted by Bazrak Bolgan				0	0	0	0	5	3	0	0	0	7	0	0	0	0	0	0	0
+dwshield	Dwarf Palanquin		N/A	Mount		1	0	0	calc:Num=#	hide		Grim Resolve				3	5	3	4	4	4	2	2	10	7	0	0	0	0	0	0	0
+dwengine	Engineer		N/A	Champion		1:2	15	0	calc:Num=#;ratp:max=1:1	hide		Champion; Artillery Specialist: Bolt Thrower can use his BS, Cannon & Grudgethrower can reroll result on Misfire chart; Extra crewman				3	4	4	3	4	1	2	1	9	7	7	0	0	0	0	0	0
+dwchrngr	Ol' Deadeye		N/A	Champion	champ	1:1	10	0	coun	hide					Ranger Champion	3	5	4	4	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwchlong	Old Guard	Long	N/A	Champion	champ	1:1	10	2	coun;ipts:total=25-each=25-mode=g;ipts:total=0-each=0-mode=g;spec:+rwpn-mode=g;spec:+rarm-mode=g	hide						3	5	3	4	4	1	2	2	9	5	7	0	0	1	0	0	0
+dwchrng1	Pathfinder		N/A	Champion	champ	1:1	12	0	coun	hide					Ranger Champion	3	4	3	3	4	1	2	2	9	6	7	0	0	1	0	0	0
+dwchmin	Prospector	Miner	N/A	Champion	champ	1:1	10	0	coun	hide						3	4	3	3	4	1	2	2	9	5	7	0	0	1	0	0	0
+dwthron9	Throne of War		N/A	Mount		1	0	0	calc:Num=#	hide		Grim Resolve; Hatred; War Platform; Majesty of High Kings: A character mounted on a Throne of War increases the range of his Inspiring Presence to 18”(if chosen as General) and may choose D3+1 units/models instead of 1 for the purpose of applying the Reckoner Special Rule. All friendly units within 6” of a Throne of War gain the Swiftstride SpecialRule.If a character mounted on a Throne of War joins a unit and is subsequently slain, the unit gains the Frenzy Special Rule.				3	5	3	4	4	6	2	4	10	7	0	0	0	0	0	0	0
+dwchtun	Veteran	Tun	N/A	Champion	champ	1:1	10	0	coun	hide					Thunderer Champion	3	4	3	3	4	1	2	2	9	5	7	0	0	1	0	0	0
+dwaodoo1	Anvil of Doom		Lord	Machine		1	0	0		hide						0	0	0	0	10	5	0	0	0	7	0	0	0	0	0	0	0
+dwchdae	Daemon Slayer	Slayr	Lord	Lord		1:1	140	100	ipts:total=100-each=100-mode<=f;spec:-armr;spec:-ward;spec:-ench;spec:-rarm;spec:-rtal;type:skirmishers;ipts:total=125-each=125-mode=g;type:slayer_skills-mode=h;ipts:total=100-each=100-mode=h;type:LD10;type:Slayer_Character;attr:Type="In";spec:-weap	lglx:(!mode=a&!mode=c&!mode=h)		Infantry; Ancestral Grudge; Relentless; Resolute; Unbreakable; #Slayer: ignore St penalties and always wound at least on 4+; #Slayer Cult: only model with Slayer rule may join units of Slayers, and such model cannot join non-slayer units nor be the army General; #Deathblow: if model is killed he may make a single Deathblow attack before being removed. If he died in a challenge, Deathblow attack may only be resolved against model that killed him; Daemon Slayer: enemies must re-roll successful ward saves; Dragon Slayer: when attacking Monsters he has Multiple Wounds (D3) special rule.		Lord	Feb 2014, by DeBelial	3	7	3	4	5	3	5	4	10	7	7	0	0	1	0	0	0
+dwdeslay	 Lord: Daemonseeker	Slayr	Hero	Lord	Lord	1:1	140	100	ipts:total=125-each=125;type:skirmishers;type:LD10;type:Slayer_Character;attr:Type="In";spec:-rban;boun:To-max=6	umax:3u@4000-free=3-msg=crmsg901		Infantry; Relentless; Grim Resolve; Unbreakable; Ward Save (6+); Lethal Strike; Multiple Wounds (2); Vanguard; Not a Leader; Swiftstride; “Yer comin’ with me…!”; Weaponmaster;  Hatred (Army Book: Daemon Legion); Great Weapon, Additional Hand Weapon		Lord	9th age	3	7	3	5	5	3	5	5	10	7	6	0	0	1	0	0	0
+dwlord	 Lord: Dwarf King	Lord	Hero	Lord	Lord	1:1	125	100	ipts:total=125-each=125;type:dwlord;type:skirmishers;type:Ld10;attr:Type="In";boun:To-max=6;spec:-rban	umax:3u@4000-free=3-msg=crmsg901		Infantry; Relentless; Grim Resolve; Shieldwall; Reckoner		Lord	9th age	3	7	4	4	5	3	4	4	10	7	7	0	0	1	0	0	0
+dwmasten	 Lord: Master Engineer	Lord	Hero	Lord	Lord	1:1	120	100	ipts:total=100-each=100;type:dwlord;type:skirmishers;type:Ld10;attr:Type="In";boun:To-max=6;spec:-rban;boun:To-max=6	umax:3u@4000-free=3-msg=crmsg901		Infantry; Relentless; Grim Resolve; Shieldwall; Engineeer; Entrench; Ballistic Mastery: Instead of using the Engineer special rule, this model may at the start of the shooting phase grant a friendly Infantry unit within 6" one of the following effects that lasts until the end of the shooting phase (multiple instances of the same bonus do not stack);# Unit adds +1 To Hit shooting rolls;# Unit may reroll 1's for To Wound with shooting;# Unit may have the range of its shooting extended by 1d6+1.		Lord	9th age	3	6	4	4	5	3	3	2	10	7	7	0	0	1	0	0	0
+dwrnlord	 Lord: Runic Master Smith	RunLd	Hero	Lord	Lord	1:1	125	100	type:runers;type:runelord;ipts:total=140-each=125;type:skirmishers;type:Ld10;spec:+rban;attr:Type="In";spec:+spel;boun:To-max=6	clmt:rwpn+rarm+rtal+rban<=125-points;clmt:spel<=3-count-msg=dwmsg22;umax:3u@4000-free=3-msg=crmsg901		Infantry; Relentless; Grim Resolve; Shieldwall; Channel; Magic Resistance (2); Master Rune Smith: A model with this rule has Armour Piercing (1) which is conferred to its unit. The model may dispel as if it were a level 3 Wizard, including Aided Dispel, and may cast Runic Bound Spell from the Runic Mastery list as either: Power Level 4, Range: 6” or Power Level 5, Range 12”		Lord	9th age	3	6	4	4	4	3	3	2	10	7	7	0	0	0	0	1	0
+dwchdra	Hero: Dragonseeker	Slayr	Hero	Hero	Hero	1:1	55	100	ipts:total=75-each=75;spec:-rarm;spec:-rtal;spec:-rban;type:skirmishers;type:Slayer_Character;attr:Type="In";boun:To-max=6	lglx:(race=dw&!mode=a&!mode=c&!mode=h)|(race=vm&mode=e);race:vm;umax:3u@4000-free=3-msg=crmsg901		Infantry; Relentless; Grim Resolve; Unbreakable; Ward Save (6+); Lethal Strike; Multiple Wounds (2); Vanguard; Not a Leader; Swiftstride; “Yer comin’ with me…!”; Weaponmaster; Great Weapon, Additional Hand Weapon		Hero	9th age	3	6	3	4	5	2	4	3	10	7	6	0	0	0	0	1	0
+dwengin9	Hero: Engineer	Lord	Hero	Hero	Hero	1:1	65	100	ipts:total=50-each=50;type:skirmishers;type:Ld9;attr:Type="In";boun:To-max=6;spec:-rban;boun:To-max=6	umax:3u@4000-free=3-msg=crmsg901		Infantry; Relentless; Grim Resolve; Shieldwall; Engineeer; Entrench			9th age	3	5	4	4	4	2	3	2	9	7	7	0	0	1	0	0	0
+dwhero	Hero: Guild Master	Hero	Hero	Hero	Hero	1:1	65	100	ipts:total=150;name:"DW Thane"-race=vm;type:skirmishers;type:Ld10;attr:Type="In";spec:-rban;boun:To-max=6	clmt:rwpn+rarm+rtal+weap+armr+ward+ench<=75-points;clmt:stnd<=1-count;lglx:(race=dw&!mode=b&!mode=h)|(race=vm&mode=e);umax:3u@4000-free=3-msg=crmsg901		Infantry; Relentless; Grim Resolve; Shieldwall		Hero	9th age	3	6	4	4	5	2	3	3	10	7	7	0	0	0	0	1	0
+dwsmith	Hero: Runic Smith	Hero	Hero	Hero	Hero	1:1	65	100	ipts:total=90-each=75;type:runers;type:skirmishers;type:Ld9;attr:Type="In";boun:To-max=6;spec:+rban;spec:+spel	umax:3u@4000-free=3-msg=crmsg901;clmt:spel<=3-count-msg=dwmsg22;clmt:rwpn+rarm+rtal+rban<=75-points		Infantry; Relentless; Grim Resolve; Shieldwall; Channel; Magic Resistance (1); Master Rune Smith: A model with this rule has Armour Piercing (1) which is conferred to its unit. The model may dispel as if it were a level 1 Wizard, including Aided Dispel, and may cast Runic Bound Spell from the Runic Mastery list as either: Power Level 4, Caster's Unit or Power Level 5, Range 6”		Hero	9th age	3	5	4	4	4	2	3	2	9	7	7	0	0	0	0	1	0
+dwlong	Dwarf Greybeards	Long	Core	Regiment	infantry	10:30	11	0	ipts:total=25-each=25;calc:Num=#;type:longbeards;attr:Type="In"	lglx:!mode=b&!mode=h;umax:1-mode=c;umax:2-mode=e;umax:2-mode=f;umax:4u@4000-free=4-msg=crmsg902		Infantry; Relentless; Grim Resolve; Shieldwall; Immune to Psychology; “Seen it all!”: Units within 6” of the Greybeards may reroll failed Panic tests		base cost: 120, size: 10-30	9th age	3	5	4	4	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwcross	Dwarf Shooters		Core	Regiment	infantry	10:40	12	0	calc:Num=#;attr:Type="In"	lglx:(!mode=a&!mode=e&!mode=h);umax:4u@4000-free=4-msg=crmsg902		Infantry; Relentless; Grim Resolve; Shieldwall			9th age	3	4	3	3	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwwarrio	Dwarf Warriors		Core	Regiment	warrior	10:40	7	0	type:infantry;calc:Num=#;type:dwwarrio;attr:Type="In"	lglx:!mode=h;umax:4u@4000-free=4-msg=crmsg902		Infantry; Relentless; Grim Resolve; Shieldwall		Unit Size: 10-40	9th age	3	4	3	3	4	1	2	1	9	5	7	0	0	1	0	0	0
+dwaodoo2	Anvil of Power		Special	Machine	machine	1:1	150	3	attr:Type="WM";calc:Num=#;spec:+spel	umax:3u@4000-free=3-msg=crmsg903		War Machine; Unbreakable; Ward Save (5+); Magic Resistance (2); Channel; Rune Anvil: can make dispel attempts as if it were a level 1 wizard, including Aided Dispel. An anvil comes with 3 Runic Bound Spells and casts them with Power Level (5), Range: 60”; An Anvil of Power may also swap one or more of these Runic Bound spells for one from the Runic Mastery section. These Runic Bound Spells are cast with Power Level 4 and Range 60”.				0	0	0	0	7	4	0	0	0	3	5	0	0	0	0	0	0
+dwdeaths	Deathseeker Skirmishers		Special	Regiment	infantry	5:15	11	0	ipts:total=25-each=25;calc:Num=#;type:Trollslayers;attr:Type="In"	lglx:(!mode=a&!mode=c&!mode=h);skip reqd:type=Slayer_Character@1u:1u-free=1-mode=default;skip slmt:1-msg=dwmsg16		Infantry; Relentless; Grim Resolve; Unbreakable; Ward Save (6+); Swiftstride; “Yer comin’ with me…!”; Weaponmaster; Skirmishers; Great Weapon, Additional Hand Weapon			9th age	3	4	3	3	4	1	2	1	10	7	6	0	0	1	0	0	0
+dwslayer	Deathseekers		Special	Regiment	infantry	5:30	10	0	ipts:total=25-each=25;calc:Num=#;type:Trollslayers;attr:Type="In"	lglx:(!mode=a&!mode=c&!mode=h);skip reqd:type=Slayer_Character@1u:1u-free=1-mode=default;skip slmt:1-msg=dwmsg16		Infantry; Relentless; Grim Resolve; Unbreakable; Ward Save (6+); Swiftstride; “Yer comin’ with me…!”; Weaponmaster; Great Weapon, Additional Hand Weapon			9th age	3	4	3	4	4	1	2	1	10	7	6	0	0	1	0	0	0
+dwbolt	Dwarf Ballista		Special	Machine	dwbt	1:1	55	1	ipts:total=100-each=100;type:guild;attr:Type="WM";calc:Num=#	lglx:(!mode=b&!mode=d&!mode=e&!mode=h);umax:3u@4000-free=3-msg=crmsg903		War Machine; Stubborn; Heavy Armour; Dwarf Ballista: Bolt Thrower Artillery Weapon with the following profile: Range 48", Strength 6, Multiple Wounds (D3), Armour Piercing (6)		Includes 3 crew	9th age	0	0	0	0	7	3	0	0	0	7	7	0	0	0	0	0	0
+dwdrakes	Forgeguard		Special	Regiment	infantry	10:25	15	0	calc:Num=#;attr:Type="In";ipts:total=25-each=25	lglx:!(mode=f|mode=g|mode=h);umax:3u@4000-free=3-msg=crmsg903		Infantry; Relentless; Grim Resolve; Ward Save (6+); Fireborn		size: 10-25	9th age	3	5	3	4	4	1	2	1	9	7	6	0	0	1	0	0	0
+dwirongu	Iron Guard		Special	Regiment	infantry	10:30	16	1	ipts:total=50-each=50;type:hammer;calc:Num=#;attr:Type="In"	lglx:!(mode=a|mode=d|mode=e|mode=g|mode=h);umax:3u@4000-free=3-msg=crmsg903		Infantry; Relentless; Grim Resolve; Shieldwall; Bodyguard			9th age	3	5	3	4	4	1	2	1	9	7	7	0	0	1	0	0	0
+dwhammer	Kingsguard		Special	Regiment	infantry	10:30	15	1	ipts:total=50-each=50;type:hammer;calc:Num=#;attr:Type="In"	lglx:!(mode=a|mode=d|mode=e|mode=g|mode=h);umax:3u@4000-free=3-msg=crmsg903		Infantry; Relentless; Grim Resolve; Bodyguard (General, Dwarf King)			9th age	3	5	3	4	4	1	2	2	9	7	7	0	0	1	0	0	0
+dwgyro	Steamcopter	Gyro	Special	Machine		1:3	70	0	attr:Type="Ca";type:gyro;calc:Num=#	umax:3u@4000-free=3-msg=crmsg903		Cavalry; Relentless; Fly (8); Skirmishers; Heavy Armour		base cost: 80	9th age	1	0	0	0	5	3	0	0	0	4	7	0	0	0	0	0	0
+dwberser	Berserker	Bers	Rare	Regiment	infantry	1:1	60	0	attr:Type="In";calc:Num=#;attr:At="3D3"	umax:2u@4000-free=2-msg=crmsg904		Infantry; Relentless; Unbreakable; Ward Save (6+); Swiftstride; Blurry; Distracting; Random Attacks (3D3); ”Yer comin’ with me…!”			9th age	3	5	3	5	4	3	10	0	10	7	6	0	0	3	0	0	0
+dwclosem	Close Quarter Machine		Rare	Machine	machine	1:1	110	0	type:guild;attr:Type="WM";calc:Num=#	lglx:(!mode=b&!mode=d&!mode=e&!mode=h);umax:2u@4000-free=2-msg=crmsg904		War Machine; Heavy Armour; Stubborn		A Close Quarter Machine must be upgraded to either Dwarf Fire Cannon (free) or Dwarf Volley Cannon (10 pt)	9th age	0	0	0	0	7	3	0	0	0	7	7	0	0	0	0	0	0
+dwgolems	Hold Guardiands		Rare	Regiment	infantry	3:6	70	0	calc:Num=#;attr:Type="MI"	lglx:!(mode=a|mode=d|mode=e|mode=g|mode=h);umax:2u@4000-free=2-msg=crmsg904		Monstrous Infantry (Stomp 1); Innate Defence (6+); Immune to Psychology; Magical Attacks; Multiple Wounds (D3)			9th age	5	4	3	6	5	3	2	2	10	6	7	0	0	1	0	0	0
+dwopenwm	Open Field Machine		Rare	Machine	machine	1:1	90	0	calc:Num=#;type:guild;attr:Type="WM"	lglx:(!mode=b&!mode=d&!mode=e&!mode=h);umax:2u@4000-free=2-msg=crmsg904		War Machine; Heavy Armour; Stubborn		An Open Field Machine must be upgraded to either Dwarf Cannon (10 pts) or Dwarf Catapult (free)	9th age	0	0	0	0	7	3	0	0	0	7	7	0	0	0	0	0	0
+dwbomber	Steambomber	Bomb	Rare	Machine		1:1	100	0	attr:Type="Ca";calc:Num=#	umax:2u@4000-free=2-msg=crmsg904		Cavalry; Relentless; Fly (8); # Bombing Run: During the Remaining Moves sub-phase you can bomb an unengaged enemy unit. Nominate one enemy unit which the unit moved over this turn. This unit suffers 2D6 Strength 4 hits. These are shooting attacks; # Swivel Gun: Range 18”, Strength 5, Multiple Shots (4), Armour Piercing (1), Quick to Fire.			9th age	1	0	0	0	5	3	0	0	0	4	7	0	0	3	0	0	0
+xdwanvcr	Crew	Crew	N/A	Regiment		1	0	0	calc:Num=#			Plate Armour; Shields			9th age	3	5	3	4	4	0	2	1	9	3	7	0	0	1	0	0	0
+xdwart	Crew	Crew	N/A	Regiment		1	0	0	calc:Num=#						9th age	3	4	3	3	4	1	2	1	9	5	7	0	0	1	0	0	0
+xdwart3	Crew	Crew	N/A	Regiment		1	0	0	calc:Num=#			360 degrees LOS		Light armor	beercart crewman /w handgun - 14 nov 2004	3	4	3	3	4	1	2	1	9	6	7	0	0	1	0	0	0
+xdwcopte	Driver	Crew	N/A	Mount	mount	1	0	0				Heavy Armour				0	4	3	4	4	0	2	2	9	7	7	0	0	1	0	0	0
+^
+dwaguar1	Anvil Guards		Priority	N/A	0	utyp:anvil;unit:dwguard@abs=2;hide				
+dwaguar2	Anvil Guards		Priority	N/A	0	utyp:anvil;unit:dwguard@abs=2;unit:dwaodoo2@abs=1;hide				
+dwdoom	Anvil of Doom	Anvil	Priority	N/A	170	base:WSv=5;base:Wo=5;stxt:Type="WM";take:dwanvil;take:dwhearth;take:dwoath;take:dwwrath;spec:+spel;item:+5;xcst:235-mode=g;show:dwrnrefl;unit:dwguard@abs=2	Ancestral Shield: 5+ Ward Save. Ubreakable.			
+dwjosef2	Bugman's Comp		Priority	N/A	0	acmp:Spec-1u;acmp:Hero+2u;utyp:Bugman				
+dwclosta	Close Quarter Art table		Priority	N/A	0	tabl:FireCannon=dwclos01,VolleyCannon=dwclos02-noname-nobrackets				
+dwmitdis	Disable Magic Items		Priority	N/A	0	spec:-weap;spec:-armr;spec:-ward;spec:-ench;hide				
+dwopen01	Dwarf Cannon	Cann	Priority	N/A	10	unam:="Dwarf Cannon"	This weapon can be fired in two ways: # As a Cannon Artillery Weapon with the following profile: Range 60”, Strength 10, Armour Piercing (2), Multiple Wounds (Ordnance); # As a Volley Gun Artillery Weapon with the following profile: Range 12", Strength 4, Armour Piercing (3), Multiple Shots (2D6)			
+dwopen02	Dwarf Catapult	Cata	Priority	N/A	0	unam:="Dwarf Catapult"	Catapult Artillery Weapon with the following profile: Range 60", 3" Template, Strength 3[9], [Multiple Wounds (Ordnance)			
+dwclos01	Dwarf Fire Cannon	FCan	Priority	N/A	0	unam:="Dwarf Fire Cannon"	Flame Thrower Artillery Weapon with the following profile: Range 12", Strength 5, Multiple Wounds (D3), Flaming Attack			
+dwshoott	Dwarf Shooters table		Priority	N/A	0	tabl:Crossbows=dwshoot1,Handguns=dwshoot2-noname-nobrackets				
+dwclos02	Dwarf Volley Cannon	VCan	Priority	N/A	10	unam:="Dwarf Volley Cannon";type:volleycannon	Volley Gun Artillery Weapon with the following profile: Range 30", Strength 5, Armour Piercing (1), Multiple Shots (2D6*2)			
+dwmodea	Engineering Skills		Priority	N/A	0	hide;lglx:mode=a		Artillery Master: 2 range guesses or reroll to hits.  Extra Crewman: can replace crew.	Artillery Master and Extra Crewman Rules	
+dwextra	Extra base cost	Ext	Priority	N/A	10	cost:single;hide				
+dwbeard2	Extra Comments		Priority	N/A	0	lglx:mode=g;comm:"Stubborn w/ General"				
+dwgen	General		Priority	N/A	0	lglx:mode=h;hide;show:general				
+dwoathst	Holdstone	Holds	Priority	Bnd	30		At the start of any round of combat, a model carrying theHoldstone may declare that he is using it.Once he does, he and his unit treats flanks and rear as front for the purposes of Parry, Shieldwall and Supporting attacks (to their flanks/rear). Note that they can still be disrupted. While the Holdstone is active, the bearer must always issue and accept challenges. The unit cannot pursue any enemies in the same combat the Holdstone was used. Once the combat is over or the bearer slain, the beneficial effects of the Holdstone immediately end.			
+dwignor2	Ignore		Priority	N/A	0	acmp:Hero-1u;hide				
+dwignore	Ignore		Priority	N/A	0	acmp:Hero+1u;hide				
+dwthorek	Kraggi		Priority	N/A	0	hide;unit:dwkraggi@abs=1				
+dwno2hw	No 2nd hw		Priority	2Hd	0	over:dwslayax=delete;lglx:mode=h;hide				
+dwnocore	No Core Count		Priority	N/A	0	acmp:Core-1u;hide				
+dwnorune	No Runes		Priority	N/A	0	spec:-reng;usiz:min=2			You cannot put runes on bolt throwers when you have added a second using the '+' button because no two bolt throwers may have the same combination of runes.  To add runes, take two separate bolt throwers, give them different rune combinations, and check the "Free Choice" option for one of them. 	
+dwnostn2	Not BSB		Priority	N/A	0	hide;ichg:310;lglx:mode=h				
+dwnostnd	Not BSB		Priority	N/A	0	hide;ichg:310				
+dwnognrl	Not General		Priority	N/A	0	over:general=delete;lglx:!mode=h;hide				
+dwonly1r	Only one Rune		Priority	N/A	0				You must make sure yourself that every Giantslayer has only one weapon rune, Army Builder doesn't do this for you	
+dwopenta	Open Field Art table		Priority	N/A	0	tabl:Cannon=dwopen01,Catapult=dwopen02-noname-nobrackets				
+dwchoic2	Opponent's Approval		Priority	N/A	0	lglx:mode<g				
+dwchoice	Opponent's Approval		Priority	N/A	0					
+dwshldup	Shield	Sh	Priority	N/A	1	more:save1=incl;over:2handtrp=delete	Parry		Shields replace Great Weapons	
+dwshield	Shield Bearer		Priority	N/A	0	utyp:shield;unit:dwshield@abs=1;hide				
+dwthrone	Throne of Power		Priority	N/A	0	unit:dwthrone@abs=1;hide				
+dwthronp	Thronebearers		Priority	Bnd	0	base:Sv=1;spec:+spel				
+dwtransp	Transport		Priority	N/A	0				Follow rules for chariots but do not inflict impact hits; Crewman with handgun has LOS like single model; Only Bazrak may mount beercarts (may start mounted in one) but doesn't get +2 armour save for riding a chariot	
+dw2skill	Two Slayer Skills		Priority	N/A	0	lglx:mode=h;show:dwbssla2;show:dwsksla2;show:dwvmsla2;show:dwkilbl2;show:dwdefbl2;hide			Allows the Daemon Slayer to take an additional Slayer Skill	
+dwnotgen	Ungrim in army		Priority	N/A	0	over:general=delete;lglx:mode=h				
+dwungina	Ungrim in army		Priority	N/A	0	type:ungriminarmy;ichg:-50;show:dwsstm10			Allows one unit of Slayers to have 100 points banner.	
+dwwards	Wards of Grimnir	Wards	Priority	N/A	30	ichg:30;lglx:mode=h	Magic Resistance (1), works for spells cast/targetted within 6".			
+dwtower	Watchtower		Priority	N/A	0		Tower as per Siege rules; Houses 10 Dwarfs on parapet and 5 on the lower levels; All skirmish and can shoot		Prints rules for the watchtower	
+dwwhirlw	Whirlwind of Death	Whirl	Priority	N/A	0		One attack instead of normal attacks, strikes before everything (even impact hits), all enemy models in base contact with 1+ doomseeker is auto-hit (single model units suffer D3 auto-hits), all in base contact with those enemy models hit on 4+, all hits at S5. Doomseekers may be attacked as normal but are -1 to be hit.		Prints description for Whirlwind of Death	
+dwbeerca	Beer Carts		First	N/A	0	unit:dwbeerca@abs=3				
+dwrndoom	Rune of Doom		SpellType	Std	0	take:dwrndom;lglx:mode=g				
+dwrnrefl	Rune of Reflection		SpellType	Std	0	take:dwrnrefl;lglx:mode=g				
+dwahw	Additional hand weapon	AHW	Weapon	N/A	0	stat:At+1;stat:In+1	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.			
+dwdfpbra	Brace of Drakefire Pistols	DraP	Weapon	Rng	0	type:missiles;lglx:!mode=g;stat:At+1		Range 12", St5, Armour Piercing, Dwarf Crafted, Flaming Attacks, Multiple Shots (2), Quick to Fire	Replace Drakegun or Shield with Brace of Drakefire Pistols. Range 12", St5, Armour Piercing, Dwarf Crafted, Flaming Attacks, Multiple Shots (2), Quick to Fire	
+dwdrakib	Brace of Drakefire Pistols	DraP	Weapon	Rng	0	type:missiles;lglx:!mode=g;stat:At+1;base:Sv=4		Range 12", St5, Armour Piercing, Dwarf Crafted, Flaming Attacks, Multiple Shots (2), Quick to Fire	Replace Shield with Brace of Drakefire Pistols. Range 12", St5, Armour Piercing, Dwarf Crafted, Flaming Attacks, Multiple Shots (2), Quick to Fire	Ironbreaker Champion only
+dwbrchro	Brace of Dwarf Pistols	Bop	Weapon	Rng	10	stat:At+1;type:missiles		Range 12", St4, Armour Piercing, Quick to fire, Dwarf-crafted, Multiple Shots (2), counts as extra hand weapon in CC	Range 12", St4, Armour Piercing, Quick to fire, Dwarf-crafted, Multiple Shots (2), counts as extra hand weapon in CC	
+dwcinder	Cinderblast bombs	CinBo	Weapon	N/A	15	type:missiles;lglx:!mode=g		Stone Thrower. Range 2-8". St3(6), Armour Piercing, Multiple Wounds (D3). On missfire roll D6. On 1 center the template on the user. On 2+ nothing happens.	Stone Thrower. Range 2-8". St3(6), Armour Piercing, Multiple Wounds (D3). On missfire roll D6. On 1 center the template on the user. On 2+ nothing happens.	Grimm Burloksson weapon
+dwgrimm2	Cog Axe	CogAx	Weapon	Wep	0	lglx:!mode=g		St as user. Armour Piercing. Weaponsnapper: if scores one or more hits against a model with Magic weapon roll D6 - on 5+ weapon is destroyed.	St as user. Armour Piercing. Weaponsnapper: if scores one or more hits against a model with Magic weapon roll D6 - on 5+ weapon is destroyed.	Grimm Burloksson weapon
+dwshoot1	Crossbowmen	Xbow	Weapon	N/A	0	unam:="Dwarf Crossbowmen";more:dwxbow=incl				
+dwpsthro	Dwarf Pistol	Pst	Weapon	Rng	6	stat:At+1;type:missiles;lglx:!mode=g		Range 12", St4, Armour Piercing, Quick to fire, Dwarf-crafted, counts as extra hand weapon in CC	Range 12", St4, Armour Piercing, Quick to fire, Dwarf-crafted, counts as extra hand weapon in CC	
+dwbaraz	Garagrim in army		Weapon	N/A	0	show:dwchsly3;slct:dwchsly3=incl;hide			Allows each Giantslayer to take 1 weapon rune	
+dwgw	Great Weapon	GW	Weapon	N/A	10	type:GreatWeapon;stat:St+2;xcst:8-unit=dwrnlord;xcst:8-unit=dwmasten;xcst:6-unit=dwhero;xcst:5-unit=dwsmith	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+dwgrimm1	Grudge-raker	GruR	Weapon	Rng	0	type:missiles;lglx:!mode=g		Range 18", St4, Armour Piercing, Dwarf-crafted, Multiple Shots (2D3)	Range 18", St4, Armour Piercing, Dwarf-crafted, Multiple Shots (2D3)	Grimm Burloksson weapon
+dwshoot2	Handgunners	Hndg	Weapon	N/A	0	unam:="Dwarf Handgunners";more:dwhndlrd=incl				
+dwpstlrd	Pistol	Pst	Weapon	Rng	4	stat:At+1;stat:In+1;type:missiles;utyp:!mounted		Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Counts as Additional Hand Weapon in Close Combat.	Range 12”. Strength 4. Quick to Fire. Armour Piercing (1). Counts as Additional Hand Weapon in Close Combat.	
+dwranger	Rangers	Scout	Weapon	N/A	1	utyp:GreatWeapon;type:rangers;unam:="Rangers";dtyp:dwwarrio;dtyp:longbeards	May Scout			
+dwslayax	Slayer Axes	SlyAx	Weapon	N/A	0		At the start of each combat choose Great Weapon or additional hand weapon			
+dwsteamd	Steamdrill	Drill	Weapon	Wep,2Hd	25	stat:St+1	+3S. Requires Two Hands. Always Strikes Last. Re-roll Ambushers dice roll.			
+dwweptbl	Weapon table		Weapon	N/A	0	tabl:Extra_Weapon=2ndhwtr5,Great_Weapon=2handtr4;lglx:mode=h				
+dwblastc	Blasting Charges	Blast	Missile	N/A	2		One use only. MIssile weapon, Range 4", St4, Armour Piercing, Flaming Attacks, Quick to Fire.			
+dwblunde	Blunderbuss		Missile	N/A	0	over:dwhndtrp=delete;type:missiles		12", S3, -1 Ar Sv, half Art Dice hits, misfire = destroyed / S3 hit on bearer; 1 turn reload	Range 12". S3 hit; -1 armour save; roll an artillery dice and halve the result to get # of hits; weapon destroyed on misfire and model suffers a S3 hit; if fired, cannot shoot in your next turn	
+dwbrimgu	Brimstone Gun	Brims	Missile	N/A	0	over:dwsteamg=delete	Missile weapon, Range 18", St5, Armour PIercing, Dwarf-crafted, Flaming Attacks, Multiple Shots (D3), Quick to Fire		Replace Steam Gun with Brimstone Gun	
+dwxbow	Crossbow	Xbow	Missile	Rng	0	type:missiles;xcst:8-unit=dwlord;xcst:8-unit=dwhero;xcst:8-unit=dwmasten		Range 30". S4. Unwieldy.	Range 30". S4. Unwieldy.	
+dwdragun	Drake-raker	Drara	Missile	Rng	0	type:missiles;lglx:!mode=g		Range 18”, Strength 5, Armour Piercing (1), Flaming Attacks, Quick to Fire	Range 18”, Strength 5, Armour Piercing (1), Flaming Attacks, Quick to Fire	
+dwdraksh	Drakeshot	DrSht	Missile	Rng	20	type:missiles	Range 18”, Strength 5, Armour Piercing(1), Flaming Attacks, Quick to Fire, Multiple Shots(2D3)			
+dwhndhro	Dwarf Handgun	Gun	Missile	N/A	12	type:blackpowder;type:missiles;lglx:!mode=g;xcst:5-unit=dwengine		Range 24". S4. Armour PIercing. Move or Fire. Dwarf-crafted.	Range 24". S4. Armour PIercing. Move or Fire. Dwarf-crafted.	
+dwhndtrp	Dwarf Handgun	Gun	Missile	Rng	0	type:blackpowder;type:missiles		Range 24". S4. Armour PIercing. Move or Fire. Dwarf-crafted.	Range 24". S4. Armour PIercing. Move or Fire. Dwarf-crafted.	
+dwflblas	Flame Blaster	FlBl	Missile	N/A	0	type:missiles	Only one per unit. Flame Thrower* Artillery Weapon: Range 3", Strength 3, Flaming Attacks *Ignore the -1 modifier to rolls on the misfire table.		One model may may swap Drakeshot for Flame Blaster	
+dwhndlrd	Handgun	Gun	Missile	Rng	8	type:blackpowder;type:missiles;lglx:!mode=g		Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	Range 24”. Strength 4. Unwieldy. Armour Piercing (1)	
+dwsteamg	Steam Gun	SteGu	Missile	N/A	0		Missile weapon using teardrop template. Place template with narrow end touching the muzzle of the steam gun. May shoot after moving, but not marching. St3, Armour Piercing.			
+dwbgrta	Throwing Axe	TAx	Missile	Rng	1	type:missiles		Range 6"; Thrown Weapon; +1 to Strength	Range 6"; Thrown Weapon; +1 to Strength	
+dwaxe	Throwing Axes	TAx	Missile	Rg1	1	type:missiles;utyp:rangers		6"; S: User+1; No movement/range penalties	Range 6". S: User +1. No penalties for moving & shooting or range.	
+dwtorped	Wyrmslayer Rocket	WRock	Missile	Rng	20	type:missiles	Range 24”, Strength 8, Multiple Wounds (D3), Flaming Attacks, Slow to fire			
+dwfpgr	Forge-proven Gromril Armour	FGA	Armour	Mus,Arm	0			Armour Save 4+. Ward Save 6+. Ward Save 2+ against Flaming Attacks.	Armour Save 4+. Ward Save 6+. Ward Save 2+ against Flaming Attacks.	The "conflict group" Mus has been used to limit mundane armours throughout AB
+gahro	Plate Armour	GA	Armour	Mus,Arm	8	more:save3=incl			4+ Save	The "conflict group" Mus has been used to limit mundane armours throughout AB
+galrd	Plate Armour	GA	Armour	Mus,Arm	12	more:save3=incl			4+ Save	The "conflict group" Mus has been used to limit mundane armours throughout AB
+gatrp	Plate Armour	GA	Armour	Mus,Arm	4				4+ Save	The "conflict group" Mus has been used to limit mundane armours throughout AB
+dwbeard	Magic Banner	Std	Standard	N/A	12	spec:+rban;item:1;cost:single;spec:-stnd;over:st10=delete;over:st12=delete;xcst:10-unit=dwwarrio;lglx:mode=g		+1CR	Allows magic banner; Adds +1 to combat result	
+dwsstm10	Standard	Std	Standard	N/A	10	spec:+rban;item:1;cost:single;ichg:-50		+1CR	Allows magic banner; Adds +1 to combat result	
+dwstmg10	Standard	Std	Standard	N/A	10	spec:+rban;item:1;cost:single;spec:-stnd		+1CR	Allows magic banner; Adds +1 to combat result	
+dwstmg12	Standard	Std	Standard	N/A	12	spec:+rban;item:1;cost:single;spec:-stnd		+1CR	Allows magic banner; Adds +1 to combat result	
+dwhorn	Mountain Horn		Musician	N/A	10	hide;cost:single			One use only; All cavalry units wthin 24" must take a Panic test	
+dwbug	Bugman		Champion	N/A	0	unit:dwbug@abs=1			Shield Bearer for the White Dwarf	
+dwchbrak	Champion		Champion	N/A	0	unit:dwchbrak@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dwchdeat	Champion		Champion	N/A	0	unit:dwchdeat@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dwchdrak	Champion		Champion	N/A	0	unit:dwchdrak@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dwchgole	Champion		Champion	N/A	0	unit:dwchgole@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dwchham	Champion		Champion	N/A	0	modl:-1;cost:model;unit:dwchham@abs=1				
+dwchlong	Champion		Champion	N/A	0	unit:dwchlong@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dwchmin	Champion		Champion	N/A	0	unit:dwchmin@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dwchqua	Champion		Champion	N/A	0	unit:dwchqua@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dwchrng1	Champion		Champion	N/A	0	unit:dwchrng1@abs=1;modl:-1;cost:model				
+dwchrngr	Champion		Champion	N/A	0	unit:dwchrngr@abs=1;modl:-1;cost:model				
+dwchtun	Champion		Champion	N/A	0	unit:dwchtun@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dwchwar	Champion		Champion	N/A	0	unit:dwchwar@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+dwengine	Engineer	Eng	Champion	N/A	0	unit:dwengine@per=1;base:Wo=4				
+dwchsly4	Giantslayer		Champion	N/A	0	rept:dwchgnt			This option is only to add single Giant Slayer with runic weapon.	
+dwchsly	Giantslayers		Champion	N/A	0	modl:-1;unit:dwchgnt@var			Upgrades a model to a Champion	
+dwchsly2	Giantslayers		Champion	N/A	0	modl:-1;unit:dwchgnt2@var			Upgrades a model to a Champion	
+dwchsly3	Giantslayers		Champion	N/A	0	modl:-1;unit:dwchsly3@var;rept:dwchsly3@29			Upgrades a model to a Champion	
+dwgot	Gotrek		Champion	N/A	0	unit:dwgot@abs=1			Shield Bearer for the White Dwarf	
+dwshdbrs	Dwarf Palanquin	Palan	Mount	Oth	50	base:Sv-2;unit:dwshield@abs=1	Natural Armour			
+dwthron9	Dwarf Throne of War	Thron	Mount	Bnd	150	base:Sv-2;unit:dwthron9@abs=1;utyp:!kinship	Natural Armour			
+dwpower	Throne of Power	TP	Mount	Oth	65	lglx:mode=g		Carried by 4 Veterans (1 WS5, S4 attack each); May not join unit; Magic Resistance (2)	Carried by 4 Veterans (1 WS5, S4 attack each); May not join unit; Magic Resistance (2)	
+dwbeerc1	Crew		Crew	N/A	0	unit:xdwart@abs=1;hide				
+dwbeerc2	Crew		Crew	N/A	0	unit:xdwart3@abs=1;hide				
+dwguncrw	Crew		Crew	N/A	0	hide;unit:xdwart@per=3			   	
+xdwanvcr	Crew		Crew	N/A	0	hide;unit:xdwanvcr@per=4			   	
+dwsteamc	Steamcopter		Crew	N/A	0	unit:xdwcopte@per=1;hide				
+dwlongbr	Longbeard Rangers		Priority1	N/A	0	utyp:rangers;type:Longbeard_Rangers				
+dwshowbs	Show Bound Spells	BS	Priority1	N/A	0	spec:+spel;item:+3;take:dwbs01-perm;take:dwbs02-perm;take:dwbs03-perm				
+dwgyrova	Vanguard deployment	GyrVa	Priority1	N/A	20	type:vangyro;dtyp:gyro	Vanguard deployment.		Up to half of Gyrocopters (rounding up) may upgrade to have Vanguard.	
+dwBTs	"Free" Choice	2ndBT	Priority2	N/A	0	type:2ndBT;dtyp:1stBT;more:dwbtsp=incl;more:dwbtra=incl;more:dwbtcr=incl				
+dwmisbom	Bomb Misfire Chart	MfT	Priority2	N/A	0	apnd		1. Gyrobomber suffers S6 hit with Multiple Wounds (D3); 2-3. Centre 3" template over the bomber and roll scatter and atrillery dice, does not bounce; 4-6. Only model under template's central hole suffer St4 hit.		
+dwjosef	Bugman's Comp		Priority2	N/A	0	utyp:Bugman;acmp:Rare-1u;acmp:Hero+2u				
+dwflamby	Dwarf Misfire Chart	MfT	Priority2	N/A	0	apnd		1. Destroyed; 2-3 Malfunction (No fire this or next turn); 4-6 Cannot fire that turn.		
+dwflamb2	Misfire Chart	MfT	Priority2	N/A	0	apnd		1-2. Destroyed; 3-4 Malfunction (No fire this or next turn); 5-6 Cannot fire that turn.		Organ Gun
+dwbtcr	Remove Core		Priority2	N/A	0	acmp:Core-1u;hide;lglx:mode=a				
+dwbtra	Remove Rare		Priority2	N/A	0	acmp:Rare-1u;hide;lglx:mode=c				
+dwbtsp	Remove Special		Priority2	N/A	0	acmp:Spec-1u;hide;lglx:!(mode=a|mode=c)				
+dwambush	Ambush	Ambu	Priority3	N/A	2	type:dwambush			Single unit of Dwarf Warriors in the army can be upgraded with Ambush	
+dwengupg	Engineer	Engnr	Priority3	N/A	20	over:btstdok=delete;unam:+" - Engineer"			Upgrades Guild Master to Engineer. Cannot be taken by BSB.	
+dwscout	Scouts	Scout	Priority3	N/A	2	type:dwambush			Single unit of Dwarf Shooters in the army can be upgraded with Scout.	
+dwvangua	Vanguard	Vang	Priority3	N/A	1					
+dwanvt1	Anvil Table 1		Priority5	N/A	0	tabl:Storms=dwanv1,Metal=dwbs01,Resolve=dwbs02,Reckoning=dwbs03,Oaths=dwbs04,Gold=dwbs05,TrueGrit=dwbs06-noname-nobrackets				
+dwanvt2	Anvil Table 2		Priority5	N/A	0	tabl:Earth=dwanv2,Metal=dwbs01,Resolve=dwbs02,Reckoning=dwbs03,Oaths=dwbs04,Gold=dwbs05,TrueGrit=dwbs06-noname-nobrackets				
+dwanvt3	Anvil Table 3		Priority5	N/A	0	tabl:Cleansing=dwanv3,Metal=dwbs01,Resolve=dwbs02,Reckoning=dwbs03,Oaths=dwbs04,Gold=dwbs05,TrueGrit=dwbs06-noname-nobrackets				
+dwroyblo	Royal Blood		Priority5	N/A	0	type:dwwarrio;utyp:general				
+dwanv3	Rune of Cleansing		Priority5	N/A	0	take:dwanv3-free-perm				
+dwbs05	Rune of Glittering Gold		Priority5	N/A	0	take:dwbs05-free-perm				
+dwbs01	Rune of Metal		Priority5	N/A	0	take:dwbs01-free-perm				
+dwbs04	Rune of Oaths Kept		Priority5	N/A	0	take:dwbs04-free-perm				
+dwbs03	Rune of Reckoning		Priority5	N/A	0	take:dwbs03-free-perm				
+dwbs02	Rune of Resolve		Priority5	N/A	0	take:dwbs02-free-perm				
+dwanv2	Rune of Shattered Earth		Priority5	N/A	0	take:dwanv2-free-perm				
+dwanv1	Rune of Storms		Priority5	N/A	0	take:dwanv1-free-perm				
+dwbs06	Rune of True Grit		Priority5	N/A	0	take:dwbs06-free-perm				
+dwbssla2	Beastslayer	Bssly	Special	Brd	25	utyp:slayer_skills;over:dwbsslay=delete		1W = +2CR	Each wound caused by Slayer counts double for Combat Resolution, except Overkill-wounds	
+dwbsslay	Beastslayer	Bssly	Special	Mrk	25	utyp:slayer_skills;over:dwbssla2=delete;slct:dw2skill=incl		1W = +2CR	Each wound caused by Slayer counts double for Combat Resolution, except Overkill-wounds	
+dwdefbl2	Deathblow	Deblw	Special	Brd	20	utyp:slayer_skills;over:dwdefblw=delete	If slain in close combat, model immediately attacks as normal (before being removed), even if he already attacked this turn			
+dwdefbl3	Deathblow	Deblw	Special	N/A	20	utyp:slayer_skills	If slain in close combat, model immediately attacks as normal (before being removed), even if he already attacked this turn			
+dwdefblw	Deathblow	Deblw	Special	Mrk	20	utyp:slayer_skills;over:dwdefbl2=delete;slct:dw2skill=incl	If slain in close combat, model immediately attacks as normal (before being removed), even if he already attacked this turn			
+dwopn1	Engineering Rune	EngRu	Special	N/A	15		adds +4 to any rolls on the misfire table.			
+dwfear	Fear	Fear	Special	N/A	20				May take up to two Special Rules (NOT validated by Army Builder)	
+dwgolem1	Flaming Attacks, Fireborn	Flafi	Special	N/A	5					
+dwbal1	Flaming Shot	FlaSh	Special	Oth	5		Flaming and Magical attacks.			
+dwimpact	Impact Hits (D3)	ImpD3	Special	N/A	25				May take up to two Special Rules (NOT validated by Army Builder)	
+dwkilbl2	Killing Blow	Kiblw	Special	Brd	25	utyp:slayer_skills;over:dwkilblw=delete	Killing Blow			
+dwkilblw	Killing Blow	Kiblw	Special	Mrk	25	utyp:slayer_skills;over:dwkilbl2=delete;slct:dw2skill=incl	Killing Blow			
+dwmr1	Magic Resistance (1)	Mr1	Special	N/A	15				May take up to two Special Rules (NOT validated by Army Builder)	
+dwraging	Raging	Ragi	Special	N/A	40	xcst:25-unit=dwchdra	The model adds the number of enemy models in Base Contact to his Attacks value.		May take up to two Special Rules (NOT validated by Army Builder)	
+dwbal2	Runic Blessed	RunBl	Special	Oth	10		+1 to hit against Flying units and Magical Attacks.			
+dwclqt1	Runic Blessed	RunBl	Special	N/A	20		+3” range and Magical Attacks.			
+dwopn2	Runic Blessed	RunBl	Special	N/A	15		All hits caused by the Warmachine have +1 Strength (up to a maximum of 10). Dwarf Catapult gains Armor Piercing (1).			
+dwclqt2	Runic Enhanced	RunEn	Special	N/A	30	utyp:volleycannon	+1 to wound and Magical Attacks.			
+dwsksla2	Skavenslayer	Sksly	Special	Brd	80	utyp:slayer_skills;over:dwskslay=delete		At = basic At*enemy models in base contact, max 10, not in challenges	Number of Attacks is multiplied by number of enemy models in base contact (can't go above 10 with runes/2nd hand weapon). No effect in challenges	
+dwskslay	Skavenslayer	Sksly	Special	Mrk	60	utyp:slayer_skills;xcst:80-unit=dwchdae;over:dwsksla2=delete;slct:dw2skill=incl		At = basic At*enemy models in base contact, max 10, not in challenges	Number of Attacks is multiplied by number of enemy models in base contact (can't go above 10 with runes/2nd hand weapon). No effect in challenges	
+dwvmsla2	Vampireslayer	Vmsly	Special	Brd	45	utyp:slayer_skills;over:dwvmslay=delete	Against T5+ models, 1W= D6W			
+dwvmslay	Vampireslayer	Vmsly	Special	Mrk	45	utyp:slayer_skills;over:dwvmsla2=delete;slct:dw2skill=incl	Against T5+ models, 1W= D6W			
+^
+dw9mb02	Runic Banner of Shielding	stnd	Std	45	1	itst:race=dw		All units within 6” has Ward Save (5+) against shooting attacks.	^	^	
+dw9mb01	Runnic Banner of Boldness	stnd	Std	25	1	itst:race=dw		The unit gains Vanguard.	^	^	
+de9mb03	Runnic Banner of Dismay	stnd	Std	30	1	itst:race=dw		Units charging this unit reduce their charge distance by D6”. This can cause a failed charge.	^	^	
+dwanv3	Bound Spell: Rune of Cleansing	spel	N/A	0	99	itst:race=dw&reg=dwaodoo2		Damage. Hex. Lasts one Turn. Casting player choses to remove one spell with Duration: Lasts One Turn, or Duration: Remains in Play from target unit (enemy or friendly).	^	^	
+dwbs05	Bound Spell: Rune of Glittering Gold	spel	N/A	5	99	itst:race=dw;xcst:0-unit=dwaodoo2		Augment. Lasts one Turn. Target friendly unit gains Blurry and Distracting for one round.	^	^	
+dwbs01	Bound Spell: Rune of Metal	spel	N/A	5	99	itst:race=dw;xcst:0-unit=dwaodoo2		Augment. Lasts one Turn. Target can reroll failed armour saves.	^	^	
+dwbs04	Bound Spell: Rune of Oaths Kept	spel	N/A	5	99	itst:race=dw;xcst:0-unit=dwaodoo2		Augment. Lasts one Turn. Target friendly unit gains Stubborn and Immune to Psychology.	^	^	
+dwbs03	Bound Spell: Rune of Reckoning	spel	N/A	5	99	itst:race=dw;xcst:0-unit=dwaodoo2		Augment. Lasts one Turn. Target friendly unit may reroll failed to hit rolls in close combat for one round.	^	^	
+dwbs02	Bound Spell: Rune of Resolve	spel	N/A	5	99	itst:race=dw;xcst:0-unit=dwaodoo2		Augment. Instant. Target can make a 6” Magical Move.	^	^	
+dwanv2	Bound Spell: Rune of Shattered Earth	spel	N/A	0	99	itst:race=dw&reg=dwaodoo2		Damage. Hex. Lasts one Turn. Target suffers 2D6 Strength 4 hits with Magical Attacks. Units who suffer at least one wound from this Runic Bound Spell suffer -1 To Hit in Close Combat and treats all terrain as Dangerous Terrain.	^	^	
+dwanv1	Bound Spell: Rune of Storms	spel	N/A	0	99	itst:race=dw&reg=dwaodoo2		Damage. Hex. Lasts one Turn. Target suffers D6 Strength 6 hits with Magical Attacks and Lightning Attacks special rules. Target can not use flying movement for the duration of the spell.	^	^	
+dwbs06	Bound Spell: Rune of True Grit	spel	N/A	5	99	itst:race=dw;xcst:0-unit=dwaodoo2		Augment. Lasts one Turn. All To Wound rolls against target friendly unit receive a -1 penalty (multiple instances cast on the same unit are not stackable).	^	^	
+dwrndom	Rune of Doom	spel	N/A	0	1	lglx:race=dw&mode=g;xtot		Cast 12+;  All dwarfs cause fear;  RiP;  If Miscast, Magic phase ends immediately (pool emptied)	^; War of the Beard army only	Cast 12+;  All dwarfs cause fear;  RiP;  If Miscast, Magic phase ends immediately (pool emptied)	
+dwrnrefl	Rune of Reflection	spel	N/A	0	100	lglx:race=dw&mode=g;xtot		Target: Wizard; LOS; One random spell of Wizard's cast on himself/unit; If Drain Magic, Lvl 2 version; If Vaul's Unmaking, Dwarf player chooses nullified item	^; War of the Beard army only	Target: Wizard; LOS; One random spell of Wizard's cast on himself/unit; If Drain Magic, Lvl 2 version; If Vaul's Unmaking, Dwarf player chooses nullified item	
+dwshld	Shield Bearer	spel	N/A	0	1	itst:type=dwlord;xtot;imax:1;type:shield		Count as 2 models in size; not considered as Large Target and Dwarf Lord still benefit from 'Look Out Sir!' rule	^	^	
+dwbyrr1	Rhymakangaz	rwpn	N/A	0	1	elem:dwmight;elem:dwgrudge;itst:reg=dwbyrrno					
+dwbyrr2	Grundadrakk's Armour	rarm	N/A	0	1	itst:reg=dwbyrrno;elem:dwrniron*2;elem:dwstoner					
+dwanvil	Anvil of Doom	unk2	N/A	0	1	itst:type=runelord;xtot;type:anvil		+1 Power and Dispel dice. Guards cannot be attacked separately. #Strike the Runes: model on Anvil can use each of three following bound spells. Anvil can pivot before casting.	^	^	
+dwheir06	Banner of Lost Holds	unk2	Std	100	1	itst:race=dw		All models in unit can re-roll failed To Wound rolls.	All models in unit can re-roll failed To Wound rolls.	All models in unit can re-roll failed To Wound rolls.	
+dwblade	Blade of Shining Death	unk2	N/A	65	1	base:St=5;itst:race=dw&!type=bsb		Ignores armour saves and bearer is S5	^	Ignores armour saves	
+dwheir05	Fiery Ring of Thori	unk2	Enc	35	1	itst:race=dw		St4 Breath Weapon with Flaming Attacks special rule.	St4 Breath Weapon with Flaming Attacks special rule.	St4 Breath Weapon with Flaming Attacks special rule.	
+dwheir03	Magnificet Armour of Borek Beetlebrow	unk2	MAr	60	1	itst:race=dw;base:Sv-2;stat:WSv=3		2+ Armour Save. 3+ Ward Save against attacks with St6 or higher.	2+ Armour Save. 3+ Ward Save against attacks with St6 or higher.	2+ Armour Save. 3+ Ward Save against attacks with St6 or higher.	
+dwheir02	Red Axe of Karak Eight Peaks	unk2	MWp	50	1	itst:race=dw		Re-roll To Hit and To Wound rolls against models from Skaven and Orcs&Goblins armies. Cause Terror against models from those armies.	Re-roll To Hit and To Wound rolls against models from Skaven and Orcs&Goblins armies. Cause Terror against models from those armies.	Re-roll To Hit and To Wound rolls against models from Skaven and Orcs&Goblins armies. Cause Terror against models from those armies.	
+dwhearth	Rune of Hearth & Home	unk2	N/A	0	1	itst:type=runelord;xtot		Innate bound spell (power level 3). Augment. All friendly Dwarf units within 24" gain Immune to Psychology until start of caster's next Magic phase.	^	^	
+dwoath	Rune of Oath & Steel	unk2	N/A	0	1	itst:type=runelord;xtot		Innate bound spell (power level 4). Augment. Single friendly Dwarf unit anywhere on the battlefield increase its armour save by 1 until start of caster's next Magic phase.	^	^	
+dwwrath	Rune of Wrath & Ruin	unk2	N/A	0	1	itst:type=runelord;xtot		Innate bound spell (power level 5). Direct damage, Range 24". 2D6 St4 hits.	^	^	
+dwheir04	Silver Horn of Vengeance	unk2	Enc	45	1	itst:race=dw		One Use Only. Use at the start of friendly turn. All friendly unit within 6" of the bearer gain Devastating Charge until start of their following turn. After use the bearer and unit he joins cause Fear in models from Dark, Wood and High Elves army books.	One Use Only. Use at the start of friendly turn. All friendly unit within 6" of the bearer gain Devastating Charge until start of their following turn. After use the bearer and unit he joins cause Fear in models from Dark, Wood and High Elves army books.	One Use Only. Use at the start of friendly turn. All friendly unit within 6" of the bearer gain Devastating Charge until start of their following turn. After use the bearer and unit he joins cause Fear in models from Dark, Wood and High Elves army books.	
+dwheir01	The Hammer of Karak Drazh	unk2	MWp	65	1	itst:race=dw;stat:In+3		+3 to Initiative. Enemy models wounded by this weapon reduce their In to 1 until end of that combat phase.	+3 to Initiative. Enemy models wounded reduce their In to 1 until end of that combat phase.	+3 to Initiative. Enemy models wounded reduce their In to 1 until end of that combat phase.	
+dwgrom5	Ancestral Shield	spec	N/A	0	1	itst:type=Grombrindal&reg=dwtwdse		All ranged attacks are 1/2 Str. Magic items that are carried by the White Dwarf ALWAYS WORK	^	^	
+dwskaldr	Armor of Skaldour	spec	N/A	0	1	itst:reg=dwgrudgy		4+ armour save. 2+ ward save against attacks with Killing Blow or Multiple Wounds special rules.	^	^	
+dwgrom3	Armour of Glimril Scales	spec	N/A	0	1	base:Sv=1;base:Wsv=4;itst:type=Grombrindal		1+ armour save, 4+ ward save	^	^	
+dwkaar	Armour of Karak Azul	spec	N/A	0	1	itst:reg=dwkazdor;elem:dwstoner;elem:dwresist		Gromil Armor with Rune of Stone and Rune of Resistance.	^; Dwarf Spec Char only.		
+dwdargo	Axe of Dargo	spec	N/A	0	1	itst:reg=dwungrim;stat:St+2		+2 Strength. Killing Blow.	^	^	
+dwdargo2	Axe of Dargo	spec	N/A	0	1	itst:reg=dwungrin;stat:St+2		+2 Strength. Killing Blow. Flaming Attacks.	^	^	Ungrim Incarnate of Fire version
+dwgrimni	Axe of Grimnir	spec	N/A	0	1	itst:reg=dwgrudgy		Always Strikes First. Models in non-magical armour are wounded on 2+ and models in magical armour are wounded on 3+, regardless of the target's Toughness. Against Giants of any kind bearer has Multiple Wounds (D6) special rule.	^	^	
+dwaxret	Axe of Retribution	spec	N/A	0	1	itst:reg=dwalrik;elem:dwgrudge;elem:dwbrkrun		Grudge Rune and Master Rune of Breaking	^, King Alrik Ranulfsson only.		
+dwkadrin	Axes of Kadrin	spec	MWp,M2H	0	1	itst:reg=dwironfi;elem:dwgrudge;elem:dwskalf;stat:At+1					
+dwbolg02	Bolgan's Axe	spec	N/A	0	1	elem:dwgrudge;elem:dwstrike;itst:reg=dwbolgan					
+dwthorn2	Book of Valaya	spec	Tal	0	1	itst:reg=dwthorna;base:Wsv=4		4+ Ward Save & Magic Resistance (2)	^	4+ WSv & MR (2)	
+dwbugma2	Bugman's Tankard	spec	N/A	0	1	itst:reg=dwbugman		Enchanted Item. Bugman or single model in the same unit can drink from Tankard at the start of any friendly turn, and thus recover D3 Wounds lost earlier in the battle.	^	^	
+dwburham	Burlock's Hammer	spec	N/A	0	1	itst:reg=dwburlok;elem:dwswift		Rune of Swiftness	^; Burlok Damminson only		
+dwburarm	Burlok's Armour	spec	N/A	0	1	itst:reg=dwburlok;elem:dwadamnt	wsv6=incl,aws6=incl	Gromril armour with Master Rune of Adamant	^; Burlok Damminson only		
+dwbionic	Burlok's Mechanical Arm	spec	N/A	0	1	itst:reg=dwburlok;elem:dwcleav2		Two Runes of Cleaving	^; Burlok Damminson only		
+dwchain	Chains of Binding	spec	N/A	0	1	itst:reg=dwcrazed;stat:St+2		Magic Resistance (2); Strikes last except on Charge; +2 St	^; Dwarf's Crazed Khargrim only	Magic Resistance (2); Strikes last except on Charge; +2 St	
+dwdragon	Dragon Cloak of Fyrskar	spec	N/A	0	1	itst:reg=dwungrim|reg=dwungrin		Talisman. 4+ ward save, 2+ ward save against Flaming Attacks.	^	^	
+dwdkaraz	Dragon Crown of Karaz	spec	N/A	0	1	itst:reg=dwgrudgy		Bearer and his unit have Stubborn and Immune to Psychology special rules.	^	^	
+dwskeg01	Forest Hewer	spec	N/A	0	1	elem:dwmight;elem:dwrnfury;elem:dwspeed;itst:reg=dwskeggi					
+dwbrokgm	Garaz Makaz	spec	N/A	0	1	itst:reg=dwbrok;elem:dwbrkrn2;elem:dwalari2;stat:St+2		Great Weapon; Master Rune of Breaking; Master Rune of Alaric the Mad	^; Dwarf's Brok Stonefist only	+2 St; Strikes last except when charging	
+dwhammer	Hammer of Ages	spec	N/A	0	1	itst:reg=dwredman		Models hit must take Ld test/hit. If failed, it automatically wounds with no armour save. If passed, roll wounds and take armor saves as normal.	^  Kadrin Redmane Only.	^	
+dwkaham	Hammer of Karak Azul	spec	N/A	0	1	itst:reg=dwkazdor;elem:dwstrike;elem:dwsmtrun		Master Rune of Smiting; Rune of Striking	^; Dwarf Spec Char Only		
+dwthorn1	Hammer of Smiting	spec	N/A	0	1	itst:reg=dwthorna;stat:St+2		Great Weapon, Causes D3 Wounds.	^	^	
+dweagles	Helm of Eagles	spec	N/A	0	1	itst:reg=dwalrik;elem:dwmrchal		Master Rune of Challenge	^; King Alrik Ranulfsson only.		
+dwhrappi	Hrappi-klad	spec	N/A	0	1	itst:reg=dwalrik;elem:dwshield;stat:Sv-3		Gromril armour with Rune of Shielding	^; King Alrik Ranulfsson only		
+dwkarak	Karak-Hirn's Book of Grudges	spec	N/A	0	1	itst:reg=dwalrik		Units w/in 12" may re-roll break tests.	Units w/in 12" may re-roll break tests. King Alrik Ranulfsson only.	Units w/in 12" may re-roll break tests.	
+dwklad	Klad Brakak	spec	N/A	0	1	itst:reg=dwthorek		No armour saves. If cause one or more Wounds on enemy, target's magic armour (including shield or helmets) is destroyed.	^	^	
+dwkrarmr	Kragg's Armour	spec	N/A	0	1	itst:reg=dwkragg;elem:dwgromil;elem:dwshield		Master Rune of Gromil, Rune of Shielding	^; Dwarf Special Character only.		
+dwkrwpn	Kragg's Hammer	spec	N/A	0	1	itst:reg=dwkragg;elem:dwmight;elem:dwrnfury		Rune of Might and Rune of Fury	^; Dwarf Special Character only		
+dwkrstaf	Kragg's Runestaff	spec	N/A	0	1	itst:reg=dwkragg;elem:dwfurnac;elem:dwspelbr;elem:dwbrorun		Rune of Furnace, Rune of Spellbreaking, Rune of Brotherhood	^; Kragg the Grim only		
+dwkurgaz	Kurgaz's Shield	spec	N/A	0	1	itst:reg=dwalrik;elem:dwluckri	wsv5=incl,aws5=incl	Rune of Luck	^, King Alrik Ranulfsson only.		
+dwungri1	Lord of Fire	spec	N/A	0	1	itst:reg=dwungrin		Innate Bound Spell (power level 5). Magic missile. Range 24". Causes 2D6 S4 hits with Flaming Attacks special rule.	^	^	
+dwbugma1	Ol' Trustworthy	spec	N/A	0	1	itst:reg=dwbugman;stat:At+1;stat:St+1		Armour Piercing. +1 Attack. +1 Strength.			
+dwbrokra	Rune Armour of Karak-Azgal	spec	N/A	0	1	itst:reg=dwbrok;elem:dwgromi2;elem:dwsteel2		Rune of Gromril and Rune of Steel	^; Dwarf's Brok Stonefist only		
+dwgrom1	Rune Axe of Grimnir	spec	N/A	0	1	itst:type=Grombrindal;stat:St+2		+2S, re-roll failed to hit AND to wound, opponent must re-roll succesful armour saves	^	^	
+dwgrom2	Rune Cloak of Valaya	spec	N/A	0	1	itst:type=Grombrindal		Magic Resistance (3)	^	^	
+dwgrom4	Rune Crown of Zhufbar	spec	N/A	0	1	itst:type=Grombrindal		All units within 12" automatically pass tests to Rally	^	^	
+dwbeleg2	Shield of Defiance	spec	N/A	0	1	itst:reg=dwbelega		Shield. Ward Save 4+. Immune to Killing Blow.			
+dwshston	Shield of Stone	spec	N/A	0	1	itst:reg=dwredman		2+ Ward Save vs missiles (including magic missiles).	2+ Ward Save vs missiles (including magic missiles). Kadrin Redmane only.	2+ Ward Save vs missiles (including magic missiles).	
+dwbrokts	Talisman of Stone	spec	N/A	0	1	itst:reg=dwbrok		Regeneration	^; Dwarf's Brok Stonefist only	Regeneration	
+dwdammaz	The Great Book of Grudges	spec	N/A	0	1	itst:reg=dwgrudgy		Add +3 to the roll on Ancestral Grudge table. If total roll is 7 or more, Thorgrim and his unit re-roll failed To Hit rolls in every round of close combat.	^		
+dwgreatb	The Great Book of Grudges	spec	N/A	0	1	itst:reg=dwgrudgy		Thorgrim, Thronebearers and unit affected by Hatred against all enemies.	^; High King Thorgrim Grudgebearer only	Thorgrim, Thronebearers and unit Hate everyone	
+dwbeleg1	The Hammer of Angrung	spec	N/A	0	1	itst:reg=dwbelega		Always Strikes First. Attacks have +1 bonus To Wound.	Always Strikes First. Attacks have +1 bonus To Wound.	Always Strikes First. Attacks have +1 bonus To Wound.	
+dwslaycn	The Slayer Crown	spec	N/A	0	1	itst:reg=dwungrim|reg=dwungrin;stat:To+1		+1 armour save, +1 Toughess.	^	^	
+dwthunhn	The Thunderhorn	spec	N/A	0	1	itst:reg=dwkazdor		Master Rune of Dismay	Master Rune of Dismay; Dwarf Spec Char only.		
+dwthrarm	Thorek's Rune Armour	spec	N/A	0	1	itst:reg=dwthorek;type:unmod		1+ Armour Save, cannot be improved.	^	^	
+dwthorn3	Thorna's Armour	spec	N/A	0	1	elem:dwstoner;itst:reg=dwthorna					
+dwthronb	Throne of Power	spec	N/A	0	1	itst:reg=dwgrudgy		Throne of Power gives Thorgrim +4 Wounds, +2 armour save and 4+ ward save. His Inspiring Presence range is increased to 18". He cannot benefit from Look Out Sir.	^	^	
+dwbolg01	Bolgan's Finest	virt	N/A	0	1	itst:reg=dwbolgan		Use at start of Dwarf turn, +1S, roll a d6 after use, exhausted on a 1			
+dwdurz01	Durzak's Helm	virt	N/A	0	1	itst:type=durzak;elem:dwgromil;elem:dwrniron*2		Master Rune of Gromril; 2 Runes of Iron			
+dwdurz02	The Dragonback Banner	virt	Std	0	1	itst:type=durzak		All units within 12" +1S in first round of combat	^	^	
+^
+dwdestru	Rune of Destruction	Dest	rwpn	MWp	40	1	1	0	ityp:-bsb	Multiple Wounds (D3)	Multiple Wounds (D3)	0	
+dwexcell	Rune of Excellence	Exc	rwpn	MWp	25	1	1	0	ityp:-bsb;stat:St+2	Weapon's type changes to Great Weapon	Great Weapon. Requires Two Hands. +2 Strength. Strikes at initiative 0.	0	
+dwflint	Rune of Flint	Flin	rwpn	MWp	15	3	1	0	ityp:-bsb	Flaming attacks	Flaming attacks	0	
+dwrnfury	Rune of Fury	At1	rwpn	MWp	15	3	1	0	stat:At+1;ityp:-bsb	+1 Attack.	+1 Attack.	0	
+dwhaste	Rune of Haste	Has2	rwpn	MWp	20	3	1	0	stat:In+2;ityp:-bsb	+2 Initiative	+2 Initiative	0	
+dwmight	Rune of Might	Mig1	rwpn	MWp	20	3	1	0	ityp:-bsb;stat:St+1	+1 Strength	+1 Strength	0	
+depenetr	Rune of Penetrating	Pene	rwpn	MWp	40	1	1	0	ityp:-bsb	Attacks by this weapon are made with AP(6)	Attacks by this weapon are made with AP(6)	0	
+dwprecis	Rune of Precision	Prec	rwpn	MWp	15	3	1	0	ityp:-bsb	+1 to hit	+1 to hit	0	
+dwsmash	Rune of Smashing	Smsh	rwpn	MWp	40	1	1	0	ityp:-bsb	Attacks made by the Weapon are made with Strength 10 against models with Toughness 5 or more.	Strength 10 against models with Toughness 5 or more.	0	
+dwaegis	Rune of Aegis	Aegi	rarm	N/A	15	3	1	0	ityp:-bsb	Improves the Magic Resistance of the model by 1, to a maximum Magic Resistance (4)	Magic Resistance (+1)	0	
+dwbashi	Rune of Bashing	Bash	rarm	N/A	10	3	1	0	ityp:-bsb	Wearer has Impact Hits (1). For each additional rune add +1 to the number of Impact Hits.	Impact Hits (1)	0	
+dwflesh	Rune of Flesh	Fles	rarm	N/A	30	3	1	0	base:Wo+1;ityp:-bsb	Wearer gains 1 additional wound.	+1 Wound	0	
+dwillusi	Rune of Illusion	Illus	rarm	N/A	40	1	1	0	ityp:-bsb	Enemy rerolls successful rolls “to wound” against the wearer.	Enemy rerolls successful rolls “to wound” against the wearer.	0	
+dwiron9	Rune of Iron	Iron	rarm	N/A	10	2	1	0	ityp:-bsb;base:Sv-1	Wearer has Innate Defence (6+). Each additional instances of the same rune improves Innate Defence by 1 (up to Innate Defence (5+)).	Innate Defence (6+)	0	
+dwmount	Rune of Mountains	Moun	rarm	N/A	30	3	1	0	base:To+1;ityp:-bsb	The wearer has +1 Toughness (to maximum of 6)	+1 Toughness	0	
+dwshie	Rune of Shielding	Shie	rarm	N/A	15	3	1	0	base:WSv-1;ityp:-bsb	Ward Save (6+). If it already had a Ward Save, this is increased by +1 for each Rune of Shielding.	+1 to Ward Save	0	
+dwsteel9	Rune of Steel	Stl	rarm	N/A	30	1	1	0	ityp:-bsb	The wearer may reroll failed armour saves.	The wearer may reroll failed armour saves.	0	
+dwcoura	Rune of Courage	Cour	rtal	N/A	30	1	1	0	ityp:-bsb	One use only. May be activated at the start of any round of combat. For the duration of the phase, the wearer has Stubborn.	One use only. May be activated at the start of any round of combat. For the duration of the phase, the wearer has Stubborn.	0	
+dwenfeeb	Rune of Enfeeblement	Enfe	rtal	N/A	25	1	1	1	ityp:-bsb	One Use Only. Max 1 per Army. Used at Start of opponent’s turn. Enemy units within 24" must pass a Ld-test to be able to declare a charge.	One Use Only. Used at Start of opponent’s turn. Enemy units within 24" must pass a Ld-test to be able to declare a charge.	0	
+dwfire9	Rune of Fire	Fir	rtal	N/A	35	1	1	0	ityp:-bsb	Wearer has a Breath Weapon (Strength 4, Flaming Attacks, Magical Attacks).	Wearer has a Breath Weapon (Strength 4, Flaming Attacks, Magical Attacks).	0	
+dwinfamy	Rune of Infamy	Infa	rtal	N/A	20	1	1	0	ityp:-bsb	Wearer gains the Fear special rule.	Fear.	0	
+dwkinsh	Rune of Kinship	Kins	rtal	N/A	10	1	1	0	ityp:-bsb;type:kinship	Wearer has the Scout and Ambush special rule but cannot ride the Throne of War.	Wearer has the Scout and Ambush special rule but cannot ride the Throne of War.	0	
+dwretrib	Rune of Retribution	Retr	rtal	N/A	35	1	1	1	ityp:-bsb	One Use Only. Max 1 per Army. This is used at the beginning of Movement Phase. Friendly units in 6” gain Devastating Charge Special Rule.	One Use Only. This is used at the beginning of Movement Phase. Friendly units in 6” gain Devastating Charge Special Rule.	0	
+dwforge	Rune of the Forge	Forg	rtal	N/A	5	1	1	0	ityp:-bsb	Wearer has the Fireborn special rule.	Fireborn.	0	
+dwbrilli	Rune of Brilliance	Brill	rban	N/A	35	3	1	0	ityp:-bsb	The bearer adds a +1 bonus to all casting rolls when casting bound spells.	+1 bonus to all casting rolls when casting bound spells.	0	
+dwharnes	Rune of Harnessing	Harn	rban	N/A	40	3	1	0	ityp:-bsb	Whenever the bearer successfully dispels an enemy spell, he may add +1 to the result of his next bound spell cast. This effect can stack.	Whenever the bearer successfully dispels an enemy spell, he may add +1 to the result of his next bound spell cast. This effect can stack.	0	
+dwmaste	Rune of Mastery	Mstry	rban	N/A	40	3	1	0	ityp:-bsb	Once per magic phase, The bearer may reroll one power dice when casting a bound spell.	Once per magic phase, The bearer may reroll one power dice when casting a bound spell.	0	
+dwdevour	Rune of Spell-Devouring	Devo	rban	N/A	35	1	1	1	ityp:-bsb	One use only. Instead of making a dispel roll, you can use the rune. The spell is cast, but is afterward lost and cannot be cast again. This rune cannot be combined with Rune of Spell-Disrupting on the same item (max 1 per army).	One use only. Instead of making a dispel roll, you can use the rune. The spell is cast, but is afterward lost and cannot be cast again.	0	
+dwspdisr	Rune of Spell-Disrupting	Disp	rban	N/A	35	1	1	1	ityp:-bsb	One use only. Instead of making a dispel roll, you can use the rune. The spell is automatically Dispelled ( max 1 per army).	One use only. Instead of making a dispel roll, you can use the rune. The spell is automatically Dispelled.	0	
+dwancest	Ancestor Rune	Ances	unk2	Std	20	1	1	0	type:bsb	One use only. Take Break test on 1D6.	One use only. Take Break test on 1D6.	0	
+dwseekin	Flakkson's Rune of Seeking	flyht	unk2	N/A	15	1	1	0	ityp:+dwbt	+1 To Hit model with Fly special rule	+1 To Hit model with Fly special rule	0	
+dwgiantb	Giantbane Master Rune		unk2	MWp	0	1	1	1	itst:reg=dwgrudgy		cause D3 Wo; will inflict D6 Wo vs Trolls & Giants instead	0	
+dwgrudge	Grudge Rune	Gru	unk2	MWp	25	1	1	0	ityp:-bsb	For every Grudge Rune in army select enemy character or monster. Bearer of a Grudge Rune gains +1 To Hit and re-rolls failed To Wound rolls against nominated models.	For every Grudge Rune in army select enemy character or monster. Bearer of a Grudge Rune gains +1 To Hit and re-rolls failed To Wound rolls against nominated models.	0	
+dwadamnt	Master Rune of Adamant	To1	unk2	MAr	100	1	1	1	base:To=10;solo;ityp:-bsb	Bearer gains Toughness 10.	Bearer gains Toughness 10.	0	
+dwalaric	Master Rune of Alaric the Mad	NoSv	unk2	MWp	50	1	1	1	solo;ityp:-bsb;lglx:!mode=g	No Armour Saves allowed.	No Armour Saves allowed	0	
+dwbalnce	Master Rune of Balance	stlp	unk2	Tal	50	1	1	1	ityp:+runers;solo;ityp:-bsb;lglx:!mode=g	At the start of enemy Magic phase roll D6: on 4+ take one power die from opponent and add to your dispel pool.	At the start of enemy Magic phase roll D6: on 4+ take one power die from opponent and add to your dispel pool.	0	
+dwbrkrun	Master Rune of Breaking	Dest	unk2	MWp	50	1	1	1	solo;ityp:-bsb;lglx:!mode=g	If bearer scores on ore more hits against a model with magic weapon, roll D6. On 2+ opponent's magic weapon is destroyed.	If bearer scores on ore more hits against a model with magic weapon, roll D6. On 2+ opponent's magic weapon is destroyed.	0	
+dwmrchal	Master Rune of Challenge	Chlng	unk2	Tal	25	1	1	1	solo;ityp:-bsb	One use only. At start of enemy turn, pick unit within 20" that could normally charge bearer and isn't Immune to Psychology. Unit must charge or flee	One use only. At start of enemy turn, pick unit within 20" that could normally charge bearer and isn't Immune to Psychology. Unit must charge or flee	0	
+dwdefens	Master Rune of Defense	Rndm	unk2	Mgc	40	1	1	1	solo	Unit counts as being in hard cover	Unit counts as being in hard cover	0	
+dwdisgui	Master Rune of Disguise	Invis	unk2	N/A	25	1	1	1	solo	Always counts as being in hard cover.	Always counts as being in hard cover.	0	
+dwdragsl	Master Rune of Dragon Slaying	DrSl	unk2	MWp	50	1	1	1	solo;ityp:-bsb;lglx:!mode=g	Against Dragons always wounds on 2+ and has Multiple Wounds (2).	Against Dragons always wounds on 2+ and has Multiple Wounds (2).	0	
+dwrnfear	Master Rune of Fear	Fear	unk2	Vit	75	1	1	1	solo;type:bsb	Causes Fear	Causes Fear	0	
+dwflight	Master Rune of Flight	Fly	unk2	MWp	30	1	1	1	solo;ityp:-bsb;skip itst:!(reg=dwchdra|reg=dwchdra2|reg=dwchdae)	Can be used as a throwing weapon with Range 12", always hitting on 2+.	Can be used as a throwing weapon with Range 12", always hitting on 2+.	0	
+dwgrimni	Master Rune of Grimnir	Grmnr	unk2	Vit	50	1	1	1	solo;type:bsb;lglx:mode=h		All Dwarf units within 12" have a 5+ Ward Save against ranged attacks.	0	
+dwgromil	Master Rune of Gromril	ArSv	unk2	MAr	30	1	1	1	base:Sv=1;solo;type:unmod;ityp:-bsb;lglx:!mode=g	1+ Armour Save, cannot be improved.	1+ Armour Save, cannot be improved.	0	
+dwgroth	Master Rune of Groth One-Eye	Groth	unk2	Std	75	1	1	1	type:bsb;solo	All friendly Dwarf units within 12" gain Stubborn special rule.	All friendly Dwarf units within 12" gain Stubborn special rule.	0	
+dwmrgrug	Master Rune of Grugni	MiWrd	unk2	Std	60	1	1	1	solo;itst:reg=dwhero;type:bsb;base:WSv=4	Bearer gains Ward Save 4+. Friendly units within 6" get 5+ Ward Save against shooting attack and magic missiles	Bearer gains Ward Save 4+. Friendly units within 6" get 5+ Ward Save against shooting attack and magic missiles	0	
+dwimmols	Master Rune of Immolation	Boom	unk2	N/A	30	1	1	1	solo	Before calculating Combat Result, may explode. Machine and crew removed, enemy units in combat suffer 2D6 S4 shooting hits. Automatically explodes when loses last wound in CC.	Before calculating Combat Result, may explode. Machine and crew removed, enemy units in combat suffer 2D6 S4 shooting hits. Automatically explodes when loses last wound in CC.	0	
+dwkingsp	Master Rune of Kingship	King	unk2	Tal	100	1	1	1	solo;ityp:+Lord;ityp:-bsb	Unit is Stubborn and immune to fear and terror.	Unit is Stubborn and immune to fear and terror.	0	
+dwkragmr	Master Rune of Kragg the Grim	RunGW	unk2	MWp	20	1	1	1	solo;ityp:-bsb;lglx:!mode=g;itst:type=GreatWeapon	Great Weapon retains abilities	Great Weapon retains abilities	0	
+dwpassa	Master Rune of Passage	Passa	unk2	Tal	10	1	1	1	solo;ityp:-bsb;type:ward;lglx:!mode=g	Bearer and any unit he joins automatically pass all Dangerous Terrain test.	Bearer and any unit he joins automatically pass all Dangerous Terrain test.	0	
+dwskald	Master Rune of Skaldour	WdS4	unk2	MAr	0	1	1	0	itst:reg=dwgrudgy;ityp:-bsb;type:ward;base:Wsv=4	Ward Save 4+	Ward Save 4+	0	
+dwskalf	Master Rune of Skalf Blackhammer	Ouch	unk2	MWp	75	1	1	1	solo;ityp:-bsb;lglx:!mode=g	Models in non-magical armour are wounded on 2+ and models in magical armour are wounded on 3+, regardless of the target's Toughness.	Models in non-magical armour are wounded on 2+ and models in magical armour are wounded on 3+, regardless of the target's Toughness.	0	
+dwskwere	Master Rune of Skewering	1Hit	unk2	Mgc	30	1	1	1	ityp:+dwbt;solo	One use only. Use before rolling to hit. Hits on unmodified 2+.	One use only. Use before rolling to hit. Hits on unmodified 2+.	0	
+dwsmtrun	Master Rune of Smiting	d6Wo	unk2	MWp	60	1	1	1	solo;ityp:-bsb;lglx:!mode=g	Multiple Wounds (D6).	Multiple Wounds (D6).	0	
+dwsparun	Master Rune of Snorri Spangelhelm	Hit1	unk2	MWp	25	1	1	1	solo;ityp:-bsb	Always hit on 2+.	Always hit on 2+.	0	
+dwspelbn	Master Rune of Spellbinding	Dsp1	unk2	Tal	50	1	1	1	ityp:+runers;solo;ityp:-bsb	+1 to all Dispel attempts.	+1 to all Dispel attempts.	0	
+dwspite	Master Rune of Spite	WdS4	unk2	Tal	25	1	1	1	solo;ityp:-bsb;type:ward;lglx:!mode=g	For each unsaved Wound suffered by the bearer, enemy that inflicted it suffers single St5 hit.	For each unsaved Wound suffered by the bearer, enemy that inflicted it suffers single St5 hit.	0	
+dwsteel	Master Rune of Steel	NoWo	unk2	Arc	50	1	1	1	solo;ityp:-bsb;lglx:!mode=g	Attacks against bearer have max Strength of 5	Attacks against bearer have max S of 5	0	
+dwstromi	Master Rune of Stromni Redbeard	CR1	unk2	Std	75	1	1	1	solo;type:bsb	+1 CR to all units within 12" of the bearer.	+1 CR to all units within 12" of the bearer.	0	
+dwswift	Master Rune of Swiftness	1stH	unk2	MWp	25	1	1	1	solo;ityp:-bsb	Always Strikes First.	Always Strikes First.	0	
+dwvalaya	Master Rune of Valaya	Dspl	unk2	Std	65	1	1	1	solo;type:bsb	+2 to dispel attempts. At the start of each friendly Magic phase roll D6 for every Remains in Play spell in game, on 3+ it is immediately dispelled.	+2 to dispel attempts. At the start of each friendly Magic phase roll D6 for every Remains in Play spell in game, on 3+ it is immediately dispelled.	0	
+dwskalf2	Master Rune Skalf Blackhammer	Ouch	unk2	MWp	0	1	0	0	solo;ireg:+emfranz;ityp:-bsb	Weapon autowounds when it hits.	Weapon autowounds when it hits.	0	
+dwaccure	Rune of Accuracy	rrsct	unk2	N/A	25	1	1	0	stat:BS+1	If using BS gains +1 To Hit. If not, may re-roll scatter dice.	If using BS gains +1 To Hit. If not, may re-roll scatter dice.	0	
+dwalari2	Rune of Alaric the Mad	NoSv	unk2	MWp	50	1	1	0	ityp:-bsb;lglx:mode=g	No Armour Saves allowed.	No Armour Saves allowed	0	
+dwbalnc2	Rune of Balance	stlp	unk2	N/A	50	3	1	0	ityp:+runers;ityp:-bsb;lglx:mode=g	Takes one power die from opponent and adds to dispel pool per rune of balance.	Takes one power die from opponent and adds to dispel pool per rune of balance.	0	
+dwrbattl	Rune of Battle	Cr1	unk2	Std	35	1	1	0	type:bsb;type:batt1;ityp:-batt2	+1 Combat Resolution	+1 Combat Resolution	0	
+dwbattl2	Rune of Battle x2	Cr2	unk2	Std	70	1	2	0	type:bsb;type:batt2;ityp:-batt1	+2 Combat Resolution	+2 Combat Resolution	0	
+dwbattl3	Rune of Battle x3	Cr3	unk2	Std	125	1	3	1	type:bsb	+2 Combat Resolution. Unit gain Fight in Extra Ranks rule.	+2 Combat Resolution. Unit gain Fight in Extra Ranks rule.	0	
+dwbrkrn2	Rune of Breaking	Dest	unk2	MWp	50	1	1	0	ityp:-bsb;lglx:mode=g	Hit destroys opponent's magic weapon.	Hit destroys opponent's magic weapon.	0	
+dwbrorun	Rune of Brotherhood	Dploy	unk2	Bnd	20	1	1	0	ityp:-bsb	May deploy in unit of Rangers or Miners as if having either the Scout or the Underground Advance rule	May deploy in unit of Rangers or Miners	0	
+dwburner	Rune of Burning	Flam	unk2	N/A	5	1	1	0		Flaming Attacks	Flaming Attacks	0	
+dwcleav1	Rune of Cleaving	St1	unk2	MWp	10	1	1	0	ityp:-bsb;type:cle1;ityp:-cle2	Armour Piercing.	Armour Piercing.	0	
+dwcleav2	Rune of Cleaving x2	St2	unk2	MWp	35	1	2	0	stat:St+1;ityp:-bsb;type:cle2;ityp:-cle1	+1 Strength. Armour Piercing.	+1 Strength. Armour Piercing.	0	
+dwcleav3	Rune of Cleaving x3	St3	unk2	MWp	65	1	3	1	stat:St+1;ityp:-bsb	+1 Strength. Armour Piercing. Killing Blow.	+1 Strength. Armour Piercing. Killing Blow.	0	
+dwcourag	Rune of Courage	ImPs	unk2	Std	20	1	1	0	type:bsb	Unit is Immune to Psychology.	Unit is Immune to Psychology.	0	
+dwdaem1	Rune of Daemon Slaying	DSl1	unk2	MWp	25	1	1	0	ityp:-bsb;type:dem1;ityp:-dem2	Against models from Daemons of Chaos army bearer gains +1 To Hit and To Wound rolls.	Against models from Daemons of Chaos army bearer gains +1 To Hit and To Wound rolls	0	
+dwdaem2	Rune of Daemon Slaying x2	DSl2	unk2	MWp	50	1	2	0	ityp:-bsb;type:dem2;ityp:-dem1	Against models from Daemons of Chaos army bearer gains +1 To Hit and To Wound rolls and Multiple Wounds (D3) special rule.	Against models from Daemons of Chaos army bearer gains +1 To Hit and To Wound rolls and Multiple Wounds (D3) special rule.	0	
+dwdaem3	Rune of Daemon Slaying x3	DSl3	unk2	MWp	125	1	3	1	ityp:-bsb	Against models from Daemons of Chaos army bearer gains +1 To Hit and To Wound rolls and Multiple Wounds (D3) special rule and no ward saves can be taken against it.	Against models from Daemons of Chaos army bearer gains +1 To Hit and To Wound rolls and Multiple Wounds (D3) special rule and no ward saves can be taken against it.	0	
+dwdeterm	Rune of Determination	Deter	unk2	N/A	20	3	1	0	type:bsb	One use only. Take on break test on 1D6.	One use only. Take on break test on 1D6.	0	
+dwdisma1	Rune of Dismay	Fear1	unk2	MWp	20	1	1	0	ityp:-bsb;type:dis1;ityp:-dis2	Bearer cause Fear.	Bearer cause Fear.	0	
+dwdisma2	Rune of Dismay x2	Fear2	unk2	MWp	45	1	2	0	ityp:-bsb;type:dis2;ityp:-dis1	Bearer cause Terror.	Bearer cause Terror.	0	
+dwdisma3	Rune of Dismay x3	Fear3	unk2	MWp	80	1	3	1	ityp:-bsb	Bearer cause Terror. Enemy units in base contact suffer -1 to Ld.	Bearer cause Terror. Enemy units in base contact suffer -1 to Ld.	0	
+dwfater	Rune of Fate	Wo2	unk2	N/A	35	1	1	0	ityp:-bsb	2+ Ward Save against first wound. One use only.	2+ Ward Save against first wound. One use only.	0	
+dwrnfire	Rune of Fire	Flam	unk2	MWp	10	1	1	0	ityp:-bsb;type:fir1;ityp:-fir2	Flaming Attacks.	Flaming Attacks.	0	
+dwfire2	Rune of Fire x2	Fla2	unk2	MWp	50	1	2	0	ityp:-bsb;type:fir2;ityp:-fir1	Flaming Attacks. St4 Breath Weapon with Flaming Attacks.	Flaming Attacks. St4 Breath Weapon with Flaming Attacks.	0	
+dwfire3	Rune of Fire x3	Fla3	unk2	MWp	125	1	3	1	ityp:-bsb	Flaming Attacks. St4 Breath Weapon with Flaming Attacks and Multiple Wounds (D3).	Flaming Attacks. St4 Breath Weapon with Flaming Attacks and Multiple Wounds (D3).	0	
+dwforges	Rune of Forging	rrmsf	unk2	Mgc	25	1	1	0		Re-roll misfire result on artilley dice.	Re-roll misfire result on artilley dice.	0	
+dwfortit	Rune of Fortitude	Wo1	unk2	MAr	35	1	1	0	stat:To+1;ityp:-bsb;type:for1;ityp:-for2	+1 Toughness.	+1 Toughness.	0	
+dwforti2	Rune of Fortitude x2	Wo2	unk2	MAr	50	1	2	0	stat:To+1;base:WSv=5;ityp:-bsb;type:for2;ityp:-for1	+1 Toughness. Ward Save 5+	+1 Toughness. Ward Save 5+	0	
+dwforti3	Rune of Fortitude x3	Wo3	unk2	MAr	75	1	3	1	stat:To+1;base:WSv=5;ityp:-bsb	+1 Toughness. Ward Save 5+. For each wound suffered with Multiple Wounds special rule roll D6, on 2+ only silngle wound is lost.	+1 Toughness. Ward Save 5+. For each wound suffered with Multiple Wounds special rule roll D6, on 2+ only silngle wound is lost.	0	
+dwfortan	Rune of Fortune	rrmsf	unk2	N/A	25	3	1	0		One use only. May change result rolled on Misfire chart to 6.	One use only. May change result rolled on Misfire chart to 6.	0	
+dwfury2	Rune of Fury x2	At2	unk2	MWp	60	1	2	0	stat:At+2;ityp:-bsb;type:fur2;ityp:-fur1	+1 Attack and Frenzy special rule.	+1 Attack and Frenzy special rule.	0	
+dwfury3	Rune of Fury x3	At3	unk2	MWp	100	1	3	1	stat:At+2;ityp:-bsb	+1 Attack and Frenzy special rule. For each successful hit, gain another attack, but hit from extra attacks do not generate further attacks.	+1 Attack and Frenzy special rule. For each successful hit, gain another attack, but hit from extra attacks do not generate further attacks.	0	
+dwgromi2	Rune of Gromril	ArSv	unk2	N/A	25	1	1	0	base:Sv=1;type:unmod;ityp:-bsb;lglx:mode=g	1+ Armour Save	1+ Armour Save	0	
+dwgardrn	Rune of Guarding	Ward	unk2	N/A	30	1	1	0	itst:reg=dwhero|reg=dwchdra;base:Wsv=5	Bearer gets 5+ Ward Save	Bearer gets 5+ Ward Save	0	
+dwimpact	Rune of Impact	Impa	unk2	MAr	10	1	1	0	ityp:-bsb	Bearer gains Impact Hits (1) special rule.	Bearer gains Impact Hits (1) special rule.	0	
+dwrniron	Rune of Iron	WdS6	unk2	MAr	20	1	1	0	ityp:-bsb;stat:Wo+1;type:ward;type:iro1;ityp:-iro2	+1 Wound.	+1 Wound.	0	
+dwiron2	Rune of Iron x2	Iro2	unk2	MAr	45	1	2	0	ityp:-bsb;stat:Wo+1;stat:To+1;type:ward;type:iro2;ityp:-iro1	+1 Wound. +1 Toughness.	+1 Wound. +1 Toughness.	0	
+dwiron3	Rune of Iron x3	Iro3	unk2	MAr	70	1	3	1	ityp:-bsb;stat:Wo+1;stat:To+1;type:ward	+1 Wound. +1 Toughness. Regeneration (5+).	+1 Wound. +1 Toughness. Regeneration (5+).	0	
+dwluckri	Rune of Luck	rroll	unk2	N/A	15	1	1	0	ityp:-bsb	One Use Only. Re-roll one failed To Hit, To Wound, armour save, ward save or characteristic test.	One Use Only. Re-roll one failed To Hit, To Wound, armour save, ward save or characteristic test.	0	
+dwmight2	Rune of Might x2	Mig2	unk2	MWp	60	1	2	0	ityp:-bsb;type:mig2;ityp:-mig1	Double Strength and Multiple Wounds (D3) against models with To 5+.	Double Strength and Multiple Wounds (D3) against models with To 5+.	0	
+dwparry	Rune of Parrying	Parry	unk2	MWp	25	1	1	0	ityp:-bsb	Enemies attacking the bearer in CC suffer -1 To Hit.	Enemies attacking the bearer in CC suffer -1 To Hit.	0	
+dwpenetr	Rune of Penetrating	Str1	unk2	N/A	40	1	1	0	stat:St+1;type:pen1;ityp:-pen2	+1 Strength to Warmachine's Strength	+1 Str	0	
+dwpenet2	Rune of Penetrating x2	Str2	unk2	N/A	50	1	2	0	stat:St+1;type:pen2;ityp:-pen1	+1 Strength to Warmachine's Strength. Re-roll single failed To Wound roll during the battle.	+1 Strength to Warmachine's Strength. Re-roll single failed To Wound roll during the battle.	0	
+dwpreser	Rune of Preservation	KBPoi	unk2	MAr	25	1	1	0	ityp:-bsb	Ward Save 2+ against attacks with Killing Blow special rule.	Ward Save 2+ against attacks with Killing Blow special rule.	0	
+dwreload	Rune of Reloading	Reld	unk2	N/A	10	1	1	0		Fires every turn even if only 1 crew or misfired previous turn.	Fires every turn regardless.	0	
+dwresist	Rune of Resistance	rras	unk2	N/A	25	1	1	0	ityp:-bsb	Allows re-rolled armour saves.	Allows re-rolled armour saves.	0	
+dwsancty	Rune of Sanctuary	Dsp1	unk2	Std	15	1	1	0	type:bsb;type:sanc1;ityp:-sanc2	Magic Resistance (1)	Magic Resistance (1)	0	
+dwsanc2	Rune of Sanctuary x2	Dsp2	unk2	Std	30	1	2	0	type:bsb;type:sanc2;ityp:-sanc1	Magic Resistance (2)	Magic Resistance (2)	0	
+dwsanc3	Rune of Sanctuary x3	Dsp3	unk2	Std	45	1	3	1	type:bsb	Magic Resistance (3)	Magic Resistance (3)	0	
+dwshield	Rune of Shielding	Msl2	unk2	MAr	25	1	1	0	ityp:-bsb	2+ Ward Save against shooting attacks and magic missiles.	2+ Ward Save against shooting attacks and magic missiles.	0	
+dwskalf3	Rune of Skalf Blackhammer	Ouch	unk2	MWp	75	1	1	0	ityp:-bsb;lglx:mode=g	Weapon autowounds when it hits.	Weapon autowounds when it hits.	0	
+dwslown	Rune of Slowness	Woah	unk2	Std	35	1	1	0	type:bsb;type:slow1;ityp:-slow2	Any foe charging unit subtracts D6" from charge distance.	Any foe charging unit subtracts D6" from charge distance.	0	
+dwslown2	Rune of Slowness x2	Slo2	unk2	Std	50	1	2	0	type:bsb;type:slow2;ityp:-slow1	When enemy charges bearer's unit roll 2D6 and substract highest dice from their charge distance.	When enemy charges bearer's unit roll 2D6 and substract highest dice from their charge distance.	0	
+dwslow3	Rune of Slowness x3	Slo3	unk2	Std	80	1	3	1	type:bsb	When enemy charges bearer's unit roll 2D6 and substract highest dice from their charge distance. If enemy makes a successful charge he suffers from Always Strikes Lart special rule.	When enemy charges bearer's unit roll 2D6 and substract highest dice from their charge distance. If enemy makes a successful charge he suffers from Always Strikes Lart special rule.	0	
+dwspeed	Rune of Speed	In1	unk2	MWp	5	3	1	0	stat:In+1;ityp:-bsb	+1 Initiative	+1 Initiative	0	
+dwsphate	Rune of Spell-Hating	Hate	unk2	N/A	50	3	1	0	lglx:mode=g;itst:type=runelord	Autodispel 1 Spell - even IF spells; One use only	Autodispel 1 Spell - even IF spells; One use only	0	
+dwspelbr	Rune of Spellbreaking	ADspl	unk2	N/A	25	1	1	0	ityp:+runers;type:spe1;ityp:-spe2	Dwarven Dispel Scroll - one use only.	Dwarven Dispel Scroll - one use only.	0	
+dwspelb2	Rune of Spellbreaking x2	ADsp2	unk2	N/A	45	1	2	0	ityp:+runers;type:spe2;ityp:-spe1	Dwarven Dispel Scroll - one use only. After dispel roll D6: on 4+ spell is permanently lost.	Dwarven Dispel Scroll - one use only. After dispel roll D6: on 4+ spell is permanently lost.	0	
+dwspite3	Rune of Spite	WdS4	unk2	N/A	45	1	1	0	ityp:-bsb;type:ward;base:Wsv=4;lglx:mode=g	Ward Save 4+	Ward Save 4+	0	
+dwsteel2	Rune of Steel	NoWo	unk2	N/A	75	1	1	0	ityp:-bsb;lglx:mode=g	Attacks against bearer have max Strength of 5	Attacks against bearer have max S of 5	0	
+dwstoici	Rune of Stoicism	USx2	unk2	Std	35	1	1	0		Unit is Stubborn.	Unit is Stubborn.	0	
+dwstoner	Rune of Stone	ASv1	unk2	MAr	5	1	1	0	dupl;ityp:-unmod;base:Sv-1;ityp:-bsb	+1 Armour Save. Exception to Rule of Pride.	+1 Armour Save. Exception to Rule of Pride.	0	
+dwstrike	Rune of Striking	WS1	unk2	MWp	10	1	1	0	stat:WS+1;ityp:-bsb;type:str1;ityp:-str2	+1 Weapon Skill	+1 Weapon Skill	0	
+dwstrik2	Rune of Striking x2	WS2	unk2	MWp	35	1	2	0	stat:WS+1;ityp:-bsb;type:str2;ityp:-str1	+1 Weapon Skill. Re-roll failed To Hit rolls.	+1 Weapon Skill. Re-roll failed To Hit rolls.	0	
+dwstrik3	Rune of Striking x3	WS3	unk2	MWp	60	1	3	1	base:WS=10;ityp:-bsb	Gives Weapon Skill 10. Re-roll failed To Hit rolls.	Gives Weapon Skill 10. Re-roll failed To Hit rolls.	0	
+dwfurnac	Rune of the Furnace	Fire	unk2	N/A	5	1	1	0	ityp:-bsb	2+ Ward Save against Flaming Attacks.	2+ Ward Save against Flaming Attacks.	0	
+dwwarder	Rune of Warding	War1	unk2	N/A	15	1	1	0	ityp:-bsb;base:WSv=6;type:war1;ityp:-war2	Ward Save 6+	Ward Save 6+	0	
+dwwardi2	Rune of Warding x2	War2	unk2	N/A	35	1	2	0	ityp:-bsb;base:WSv=5;type:war2;ityp:-war1	Ward Save 5+	Ward Save 5+	0	
+dwwardi3	Rune of Warding x3	War3	unk2	N/A	45	1	3	1	ityp:-bsb;base:WSv=4	Ward Save 4+	Ward Save 4+	0	
+dwspleat	Spelleater Rune	Dstry	unk2	N/A	50	3	1	0	ityp:+runers	Autodispel and 4+ to destroy spell. One use only.	Autodispel and 4+ to destroy spell. One use only.	0	
+dwstalwr	Stalwart Rune	Cr1	unk2	N/A	15	1	1	0	type:sta1;ityp:-sta2	+1 Combat Resolution	+1 Combat Resolution	0	
+dwstalw2	Stalwart Rune x2	Cr2	unk2	N/A	30	1	2	0	type:sta2;ityp:-sta1	+1 Combat Resolution. Unbreakable.	+1 Combat Resolution. Unbreakable.	0	
+dwstroll	Strollaz' Rune	XMov	unk2	Std	35	1	1	0	type:bsb	Unit has Vanguard.	Unit has Vanguard.	0	
+dwvalian	Valiant Rune	Unbrk	unk2	N/A	20	1	1	0		Crew is unbreakable until war machine destroyed.	Crew is unbreakable until war machine destroyed.	0	
+^
+^
+dwalrik	dwroyblo	incl
+dwalrik	general	incl
+dwbolt	dwguncrw	incl
+dwbrang	2handtrp	appl
+dwbrang	dwaxe	cost
+dwbrang	dwchlong	cost
+dwbrang	hatrp	appl
+dwbrang	mus5	cost
+dwbrang	shoptrp	cost
+dwbrang	dwstmg10	cost
+dwbreaks	dwchbrak	cost
+dwbreaks	dwstmg10	cost
+dwbreaks	gatrp	appl
+dwbreaks	mus10	cost
+dwbreaks	shtrp	appl
+dwcannon	canmist	free
+dwcannon	dwguncrw	incl
+dwcannon	graper	free
+dwchdae	dwslayax	incl
+dwchdae	dwwards	cost
+dwchdra	dwmitdis	auto
+dwchtun	dwbrchro	free
+dwcross	dwchqua	cost
+dwcross	hatrp	appl
+dwcross	mus10	cost
+dwcross	shoptrp2	cost
+dwcross	st10	cost
+dwcross	2handtrp	cost
+dwengr	2handlrd	cost
+dwengr	dwbrchro	cost
+dwengr	dwhndhro	cost
+dwengr	dwpsthro	cost
+dwengr	gahro	incl
+dwengr	general	cost
+dwflame	dwflamby	incl
+dwflame	dwguncrw	incl
+dwgrudgy	general	incl
+dwgrudgy	dwthrone	auto
+dwhammer	2handtrp	incl
+dwhammer	dwchham	cost
+dwhammer	stmg10	cost
+dwhammer	galrd	incl
+dwhammer	mus10	cost
+dwhammer	showtrp1	cost
+dwhero	dwgw	cost
+dwhero	btstdok	cost
+dwhero	dwhndlrd	cost
+dwhero	btnostnd	incl
+dwhero	dwpstlrd	cost
+dwhero	galrd	incl
+dwhero	general	cost
+dwhero	shhro	cost
+dwhero	dwxbow	cost
+dwkazdor	general	cost
+dwkazdor	dwroyblo	incl
+dwkragg	general	cost
+dwkraggi	lahro	appl
+dwlong	2handtrp	cost
+dwlong	dwchlong	cost
+dwlong	stmg10	cost
+dwlong	hatrp	appl
+dwlong	mus10	cost
+dwlong	showtrp3	cost
+dwlord	dwgw	cost
+dwlord	dwhndlrd	cost
+dwlord	dwpstlrd	cost
+dwlord	galrd	incl
+dwlord	general	cost
+dwlord	shlrd	cost
+dwlord	dwxbow	cost
+dwlord	dwshdbrs	cost
+dwlord	dwroyblo	incl
+dwminers	2handtrp	incl
+dwminers	dwchmin	cost
+dwminers	hatrp	incl
+dwminers	mus10	cost
+dwminers	st10	cost
+dworgan	dwflamb2	incl
+dworgan	dwguncrw	incl
+dwranger	2handtrp	incl
+dwranger	throwax3	incl
+dwranger	dwchrngr	cost
+dwranger	hatrp	appl
+dwranger	mus10	cost
+dwranger	shoptrp	cost
+dwranger	st10	cost
+dwranger	dwxbow	incl
+dwredman	dwchoice	cost
+dwredman	dwhndtrp	incl
+dwredman	gatrp	appl
+dwredman	general	cost
+dwrnlord	2handhro	cost
+dwrnlord	galrd	incl
+dwrnlord	general	cost
+dwrnlord	shlrd	cost
+dwslayer	dwchdeat	cost
+dwslayer	mus10	cost
+dwslayer	stmg10	cost
+dwslking	2handlrd	cost
+dwslking	dwhndlrd	cost
+dwslking	dwpstlrd	cost
+dwslking	galrd	cost
+dwslking	general	cost
+dwslking	halrd	cost
+dwslking	lalrd	cost
+dwslking	shlrd	cost
+dwslking	xbowlrd	cost
+dwsmith	dwgw	cost
+dwsmith	galrd	incl
+dwsmith	general	cost
+dwsmith	shhro	cost
+dwstone	dwguncrw	incl
+dwstone	stthrmft	free
+dwthorek	dwdoom	incl
+dwthorek	general	cost
+dwthund	dwchtun	cost
+dwthund	dwhndtrp	incl
+dwthund	hatrp	appl
+dwthund	mus10	cost
+dwthund	shoptrp	cost
+dwthund	st10	cost
+dwungrim	dwignore	incl
+dwungrim	gatrp	appl
+dwungrim	general	cost
+dwwarrio	2handtrp	cost
+dwwarrio	dwchwar	cost
+dwwarrio	hatrp	incl
+dwwarrio	mus10	cost
+dwwarrio	shoptrp2	cost
+dwwarrio	st10	cost
+xdwart	hatrp	appl
+dwminers	dwbeard	cost
+dwclong	2handtrp	cost
+dwclong	dwchlong	cost
+dwclong	dwstmg10	cost
+dwclong	hatrp	appl
+dwclong	mus5	cost
+dwclong	shoptrp	cost
+dwcbreak	dwchbrak	cost
+dwcbreak	dwstmg12	cost
+dwcbreak	gatrp	appl
+dwcbreak	mus6	cost
+dwcbreak	shtrp	appl
+dwcrazed	frenzy	incl
+dwbrok	general	incl
+dwbrok	dwchoic2	cost
+dwcrazed	dwchoic2	cost
+dwbolt	dwbal1	cost
+dwdoomsk	dwwhirlw	cost
+dwchdae	dwbsslay	cost
+dwchdae	dwdefblw	cost
+dwchdae	dwvmslay	cost
+dwchdae	dwskslay	cost
+dwchdae	dwkilblw	cost
+dwchdae	dw2skill	hide
+dwbrohod	mus6	cost
+dwbrohod	dwstmg12	cost
+dwbrohod	dwwards	incl
+dwdoomsk	dwwards	incl
+dwbrohod	dwchsly2	cost
+dwchdra2	2handhro	cost
+dwchdra2	dwwards	cost
+dwchdra2	dwbsslay	cost
+dwchdra2	dwvmslay	cost
+dwchdra2	dwskslay	cost
+dwchdra2	dwdefblw	cost
+dwchdra2	dwkilblw	cost
+dwchdra2	dwignor2	incl
+dwchdae	dwbssla2	hide
+dwchdae	dwgen	incl
+dwchdae	general	hide
+dwchdae	dwvmsla2	hide
+dwchdae	dwsksla2	hide
+dwchdae	dwkilbl2	hide
+dwchdae	dwdefbl2	hide
+dwbrohod	dwweptbl	free
+dwironfi	dwbsslay	incl
+dwironfi	dw2skill	incl
+dwironfi	dwgen	incl
+dwironfi	general	cost
+dwironfi	dwvmsla2	incl
+dwironfi	dwdefbl3	incl
+dwironfi	dwwhirlw	cost
+dwironfi	dwnotgen	cost
+dwchsly3	dwonly1r	cost
+dwbrohod	dwbaraz	cost
+dwbrohod	dwchsly3	hide
+dwgrombr	dwignore	incl
+dwgrombr	general	cost
+dwmouran	dwchrng1	cost
+dwmouran	latrp	appl
+dwmouran	mus6	cost
+dwmouran	shoptrp	cost
+dwmouran	dwhndtrp	incl
+dwbolgan	dwbeerca	cost
+dwbeerca	dwbeerc1	incl
+dwbeerca	dwbeerc2	incl
+xdwart3	latrp	appl
+xdwart3	dwhndtrp	incl
+dwmouran	dwblunde	cost
+dwmouran	dwhorn	cost
+dwbolgan	dwchoice	cost
+dwmouran	dwchoice	cost
+dwskeggi	dwchoice	cost
+dwskeggi	xbowhro	incl
+dwskeggi	shhro	incl
+dwskeggi	lahro	incl
+dwskeggi	dwtower	cost
+dwdurzak	btstand	incl
+dwdurzak	gahro	incl
+dwthorna	dwchoice	cost
+dwthorna	galrd	incl
+dwthorna	general	cost
+dwchmin	dwsteamd	cost
+dwminers	dwblastc	cost
+dwclong	dwranger	cost
+dwclong	dwaxe	cost
+dwengine	dwhndhro	cost
+dwengine	dwbrchro	cost
+dwengine	lahro	incl
+dwguard	shoptrp	incl
+dwbyrrno	galrd	incl
+dwbyrrno	general	cost
+dwbyrrno	shlrd	incl
+dwbugman	gahro	incl
+dwbugman	general	cost
+dwbugman	shhro	incl
+dwbugman	dwxbow	incl
+dwalrik	dwshdbrs	incl
+dwburlok	dwroyblo	incl
+dwburlok	general	cost
+dwbrang	dwbgrta	cost
+dwdeslay	dwmitdis	auto
+dwdrslay	2handhro	cost
+dwdrslay	dwwards	cost
+dwdrslay	dwbsslay	cost
+dwdrslay	dwvmslay	cost
+dwdrslay	dwskslay	cost
+dwdrslay	dwdefblw	cost
+dwdrslay	dwkilblw	cost
+dwdrslay	dwnostn2	incl
+dwdrslay	btstand5	cost
+dwdrslay	dwgen	incl
+dwdrslay	general	hide
+dwdrslay	2ndhwhro	cost
+dwchdra2	2ndhwhro	cost
+dwtrslay	dwchsly	cost
+dwtrslay	mus6	cost
+dwtrslay	st12	cost
+dwtrslay	dwno2hw	hide
+dwtrslay	dwweptbl	incl
+dwtrslay	dwbaraz	cost
+dwtrslay	dwchsly3	hide
+dwtwdse	general	cost
+dwtwdse	dwbug	incl
+dwtwdse	dwgot	incl
+dwtwdse	dwchoice	cost
+dwbelega	general	cost
+dwbelega	gahro	incl
+dwgrimm	general	cost
+dwgrimm	dwgrimm2	incl
+dwgrimm	dwgrimm1	incl
+dwdrakes	dwchdrak	cost
+dwdrakes	dwdragun	incl
+dwdrakes	galrd	incl
+dwdrakes	mus10	cost
+dwdrakes	stmg10	cost
+dwbelega	dwoathst	incl
+dwbugran	2handtrp	incl
+dwbugran	throwax3	incl
+dwbugran	dwchrngr	cost
+dwbugran	hatrp	appl
+dwbugran	mus10	cost
+dwbugran	shoptrp	cost
+dwbugran	st10	cost
+dwbugran	dwxbow	incl
+dwchgnt	dwchsly4	incl
+dwungrin	dwignore	incl
+dwungrin	gatrp	appl
+dwungrin	general	cost
+dwrnlord	dwmitdis	auto
+dwhero	dwmitdis	auto
+dwsmith	dwmitdis	auto
+dwwarrio	sprtrp1	cost
+dwwarrio	2ndhwtr1	cost
+dwwarrio	throww	cost
+dwwarrio	dwambush	cost
+dwcross	dwshoott	cost
+dwcross	dwscout	cost
+dwlong	dwambush	cost
+dwlong	dwscout	cost
+dwlong	throww	cost
+dwdeaths	dwchdeat	cost
+dwdeaths	mus10	cost
+dwdeaths	stmg10	cost
+dwdeaths	dwvangua	cost
+dwgyro	dwsteamc	incl
+dwaodoo2	xdwanvcr	incl
+dwaodoo2	dwanvt1	cost
+dwbomber	dwsteamc	incl
+dwopenwm	dwguncrw	incl
+dwopenwm	dwopenta	cost
+dwopenwm	dwbal1	cost
+dwclosem	dwguncrw	incl
+dwclosem	dwclosta	cost
+dwlord	dwmitdis	auto
+dwlord	dwoathst	cost
+dwlord	dwthron9	cost
+dwdeslay	dwimpact	cost
+dwdeslay	dwmr1	cost
+dwdeslay	dwfear	cost
+dwdeslay	dwraging	cost
+dwmasten	dwgw	cost
+dwmasten	dwhndlrd	cost
+dwmasten	dwpstlrd	cost
+dwmasten	galrd	incl
+dwmasten	general	cost
+dwmasten	shlrd	cost
+dwmasten	dwxbow	cost
+dwmasten	dwshdbrs	cost
+dwmasten	dwroyblo	incl
+dwmasten	dwmitdis	auto
+dwmasten	dwoathst	cost
+dwmasten	dwthron9	cost
+dwmasten	dwtorped	cost
+dwmasten	dwdraksh	cost
+dwhero	dwoathst	cost
+dwengin9	dwgw	cost
+dwengin9	dwhndlrd	cost
+dwengin9	dwpstlrd	cost
+dwengin9	galrd	incl
+dwengin9	general	cost
+dwengin9	shlrd	cost
+dwengin9	dwxbow	cost
+dwengin9	dwroyblo	incl
+dwengin9	dwmitdis	auto
+dwengin9	dwtorped	cost
+dwengin9	dwdraksh	cost
+dwchdra	dwimpact	cost
+dwchdra	dwmr1	cost
+dwchdra	dwfear	cost
+dwchdra	dwraging	cost
+dwlong	dwextra	auto
+dwirongu	dwchbrak	cost
+dwirongu	stmg10	cost
+dwirongu	galrd	incl
+dwirongu	mus10	cost
+dwirongu	shhro	incl
+dwchdrak	dwtorped	cost
+dwslayer	dwvangua	cost
+dwgyro	dwdraksh	free
+dwgyro	dwflblas	free
+dwaodoo2	dwanvt2	cost
+dwaodoo2	dwanvt3	cost
+dwbolt	dwbal2	cost
+dwopenwm	dwopn1	cost
+dwopenwm	dwopn2	cost
+dwclosem	dwbal1	cost
+dwclosem	dwopn1	cost
+dwclosem	dwclqt1	cost
+dwclosem	dwclqt2	cost
+dwgolems	dwchgole	cost
+dwgolems	st10	cost
+dwgolems	galrd	incl
+dwgolems	mus10	cost
+dwgolems	dwgolem1	cost
+dwgyro	dwextra	auto
+^
+^
+dwmsg8	BSB magic items	BSB is not allowed both runic items (weapons, armor, or items) when they have a runic standard.
+dwmsg12	Bugman requirement	Josef Bugman must be present in the army.
+dwmsg13	Bugman-Ranger	Josef Bugman requires the presence of one unit of Longbeards Rangers (Bugman's Rangers) to be present; which does not count towards the minimum number of core troop choices and is in addition to the normal allowance of Longbeards and/or Rangers.
+dwmsg1	DOW as Special	Need Opponent's Approval
+dwmsg3	Dwarf Lord	Dwarf Lord required for a Royal Clan army
+dwmsg7	High King Thorgrim	High King Thorgrim takes 2 Lord slots so you have too many Lords in this army.
+dwmsg11	Longbeard-Warrior ratio	You need at least 1 unit of non-Ranger Warrior per unit of non-Ranger Longbeards
+dwmsg9	Must be General	Unless Ungrim Ironfist is present, Garagrim must be the General
+dwmsg5	No General	This character cannot be the general of this army due to army list restrictions.
+dwmsg19	Only one Ambushers	Only one unit of Dwarf Warriors or Greybeards can have Ambush special rule.
+dwmsg20	Only one Scouts	Only one unit of Dwarf Shooters or Greybeards can have Scouts special rule.
+dwmsg18	Only one Ungrim!	Only one version of Ungrim Ironfist may be present.
+dwmsg22	Only Three Runic Bound Spells	Dwarf Master Smith can only take 3 Runic Bound Spells.
+dwmsg6	Slayer King	Hammerers can only be in the Throng of Karak Kadrin if the Slayer King is present
+dwmsg21	Too many Deathseekers	You can only have 3 units of Deathseekers (6 for armies of 4000 points or more).
+dwmsg14	Too many Gyros with Vanguard	You need 1 regular Gyrocopter for every Gyrocopter with Vanguard (exluding the first)
+dwmsg10	Too many Lords	You have too many Lord characters
+dwmsg16	Too many magic banners	Only one unit of Slayers can take magic banner.
+dwmsg17	Too many option selections	Only one unit of Slayers can select 'Ungrim is present' option.
+dwmsg2	Traditional Army	Alrik requires a Traditional Army; you must have the same number or more crossbows in your army than handguns.
+dwmsg15	Ungrim must be present	Ungrim must be present in army to select this option.
+dwmsg4	Warriors/Warmachines	You need 1 unit of warriors for every 2 units of bolt throwers, cannons, and stone throwers.
+^

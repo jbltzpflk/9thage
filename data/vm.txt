@@ -1,0 +1,715 @@
+Description: Vampire Counts for Ravening Hordes
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, bugs - email - mach_5@rocketmail.com
+^
+Vampire Covenant	vm	0	sm,dw,he,we,br,lz,ok,ch,dm,dk,og,sk,dz,tk,em,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="October 2015, Version 0.9.2 Beta";info:display="by DeBelial";info:display="All Vampires in the army must choose the same bloodline or have no bloodline at all.";info:always="  ";info:always="Leaders of the Undead The model chosen as the General ofthe army is automatically designated as theNecroticNexus and must exchange one known spell for Invocation of the Undead, regardless of which Path it uses. At the start of any Player turn inwhich the army does not have a living Necrotic Nexus, you may nominate a single character that uses the Path ofNecromancy. If the character passes a Leadership test, the model becomes the new NecroticNexus. Ifthe testis failed, apply Ashes to Ashes.";info:always="  ";info:always="Ashes to Ashes: At the start of any player turn in which the army does not have a living Necrotic Nexus and failed to designate a new one, every unit who possess the Ashes to Ashes special rule must pass a Leadership test or suffer a number of wounds equal to the value by which they test was failed. These wounds are distributed following the rules for Unstable. Units suffer 1 less Wound than they normally would due to the Unstable and Ashes to Ashes Special Rules if within the range of the Battle Standard Bearer's Hold your Ground. At the end of any phase in which the General is removed as casualty, units with this rule must automatically test for Leadership in the way described above.";info:always="  ";info:always="Hunger (X+) At the end of the close combat phase, roll aD6 for each unit with this Special Rule that caused at least one wound during the phase. On the roll of X+ a single wound is Raised to the unit, where X is the number stated within the brackets. Characters must cause wounds and roll for Raised wounds separately from any unit they are joined to.";none:"Standard Army";info:always="It is your responsibility to know the rules ";tlmt:MasteroftheDead-unit=1@max-msg=vmmsg801;tlmt:mannfred-unit=1@max-msg=vmmsg803;tlmt:ghoulsmax-unit=4+4/4000-msg=vmmsg804;tlmt:thinblood-unit=1@max-msg=vmmsg901-istype=!bloodlinearmy;tlmt:blineunitsk-unit=0@max-msg=vmmsg903-istype=!silverkeepbl;tlmt:unlivingshield-unit=0@max-msg=vmmsg904-istype=!vampiric;tlmt:blineunitst-unit=0@max-msg=vmmsg903-istype=!strigoibl;tlmt:blineunitbd-unit=0@max-msg=vmmsg903-istype=!bloodwarriorbl;tlmt:blineunitvc-unit=0@max-msg=vmmsg903-istype=!voncastlesteinbl;tlmt:notstr-model=0@max-msg=vmmsg905-istype=strigoibl;tlmt:notnec-model=0@max-msg=vmmsg905-istype=nosferatubl;tlmt:notcar-model=0@max-msg=vmmsg905-istype=voncastlesteinbl;tlmt:notlah-model=0@max-msg=vmmsg905-istype=silverkeepbl;tlmt:notany-model=0@max-msg=vmmsg905-istype=nobloodline	
+^
+vmbscrsc	 Battlescroll - Crypt Scavengers		N/A	Regiment		1:1	0	0		hide		#For every Crypt Scavenger scroll you can place a Garden of Morr in your own board half. If there is no room you can move terrain out of the way;;#Domain of the Dead: -1 Ld to units without the undead/Nehekharan undead special rule within 6" of a Garden of Morr; Regeneration(6+) to units with the undead/Nehekharan undead special rule within 6" of a Garden of Morr;; #Fresh Corpses to Eat: Crypt Horrors, Varghulfs, Terrorgheists and Ghoul Kings (friend or foe) re-roll failed regen saves within 6" of a Garden of Morr;; #Heavy with Death: All Wizards that know any spells from either the Lore of Death or the Lore of the Vampires roll 2 additional D6 when Channelling power dice if they are within 6" of a Garden of Morr.		Battlescroll - Crypt Scavengers; consists of 1 Necromancer, 1 Unit of Crypt Ghouls (min 20), 1 Unit of Crypt Horrors, 1 Garden of Morr;		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+vmbsrest	 Battlescroll - The Restless Dead		N/A	Regiment		1:1	0	0		hide		#Death Mission: After both armies have deployed, the player in command of this formation must pick one unit in the enemy army, or a terrain piece that is at least partially in the enemy deployment area. All units from this formation that are within 12" of the nominated unit or terrain piece suffer one less Wound than they normally would due to the Unstable special rule, or following the death of the army’s General. #Master of Undeath: The Wight King, and all units in this formation within 12" of the Wight King, can March, even if they are not within 12" of the army General. This special rule can no longer be used if the Wight King is removed as a casualty.		Battlescroll - The Restless Dead; consists of 1 Wight King, 1-2 units of Black Knights, 1-2 units of Grave Guard, 1-4 units of Skeleton Warriors		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+vmblocha	 Bloodline Chariot	BloCh	N/A	Machine	chariot	1:1	160	0	attr:Type="Ch";calc:Num=#	race:un;hide		Chariot; Undead; Large Target; Fear; Ward Save (4+); Ethereal (Mount only); Scaly Skin (4+)		The model must be upgraded to one of the following Bloodlines. If you have characters of a Bloodline in your army, the Chariot must be upgraded to the same Bloodline; Bloodline Aura		0	0	0	4	5	4	0	0	0	4	4	0	0	0	0	1	0
+vmstguar	 Charnel Guard	ChGua	N/A	Regiment		5:20	10	0	type:skirmishers;calc:Num=#;attr:Type="In"	lglx:mode=f;umax:1u;hide		Infantry	Alive! Cause Fear. Skirmishers. Poisoned Attacks. Cannot be joined by characters.	Alive! Cause Fear. Skirmishers. Poisoned Attacks. Cannot be joined by characters.		4	4	0	4	4	1	4	2	7	7	7	0	0	1	0	0	0
+vmcmani	 Count Mannfred Von Carstein		N/A	Lord		1:1	530	0	spec:+blln;spec:+armr;spec:+wzrd;spec:+spel;catg:wiz;type:Wiz;type:Ld10;type:vmnecro;type:vampire;take:vmunpowr-free-perm;take:vmtmple-free-perm;attr:Type="In";type:mannfred;take:vmnoble-free-perm;take:vmblacks-free-perm;take:vmmcreat-free-perm	umax:1;hide		Infantry (Ca if on Nightmare or Helsteed); Undead; Vampiric; The Hunger (if character kills a model in CC, roll a dice at the end of the phase - on '6' he regains 1 Wound); Loremaster (Lore of Death); Loremaster (Lore of Vampires)			vmaot	6	7	5	5	5	3	7	5	10	7	7	0	0	0	0	1	0
+vmkemmle	 Heinrich Kemmler, The Lichemaster	Kemml	N/A	Wizard		1:1	350	100	ipts:total=100-each=100;attr:Type="In";type:Wiz;spec:+spel;type:skirmishers;type:Ld8;take:vmkemm1-free;take:vmkemm2-free;take:vmkemm3-free	lglx:!(mode=d|mode=f|mode=g|mode=h);hide		Infantry; Undead; Loremaster (Lore of Vampires)		Use Lore of Vampires; Master of the Dead		4	4	3	4	4	3	4	1	8	7	7	0	0	0	0	1	0
+vmhexwra	 Hexwraiths	Cav	N/A	Regiment		5:10	30	0	ipts:total=50;calc:Num=#;attr:Type="Ca"	race:un;hide		Cavalry; Etheral; Fast Cavalry; #Soul Reapers (Magical & Flaming Attacks; no armour saves); #Soulstriders (can move through unengaged units in Remaining Moves sub-phase); #Spectral Hunters (nominate one of units you moved through - that unit suffers S5 hit per Hexwraith that has passed through it); Terror; Undead				6	3	0	3	3	1	2	1	5	7	7	0	0	0	0	1	0
+vmisabel	 Isabella Von Carstein		N/A	Hero	Hero	1:1	175	0	spec:+blln;take:vmbeguil-free-perm;take:vmchalic-free-perm;type:vampire;type:Hero;spec:+spel;type:skirmishers;type:vmnecro;type:Ld7;xmpt:limit;spec:-armr;spec:-weap;spec:-wzrd;attr:Type="In"	umax:1;hide		Infantry; Undead; Vampiric; The Hunger; #Beloved in Death: If Vlad and Isabella von Carstein are in the same unit, they both gain Always Strikes First. When one of them is killed, the other becomes subject to Frenzy and Hatred.				6	6	4	5	4	2	6	4	7	7	7	1	0	0	0	1	0
+vmkonrad	 Konrad Von Carstein		N/A	Hero	Hero	1:1	160	0	ipts:total=0;spec:+blln;type:konrad;take:vmwalden-free-perm;take:vmredfur-free-perm;xmpt:limit;attr:Type="In"	umax:1;hide		Infantry; Undead; Vampiric; The Hunger; #One Bat Short of a Belfry: At the start of each of your turn roll D6, 1-3 subject to Stupidity, 4-6 Frenzy. Effect last until start of his next turn.				6	7	4	5	4	2	6	4	6	7	7	0	0	1	1	0	0
+vmkrell	 Krell, Lord of Undeath	Hero	N/A	Hero	Hero	1:1	205	100	type:skirmishers;attr:Type="In";take:vmkrell1-free-perm;take:vmkrell2-free-perm	hide		Infantry; Killing Blow; Terror; Undead; #Champion of the Dead (Must always issue and accept challenges. If fighting in a challenge whilst in the same unit as Heinrich Kemmler, he has Heroic Killing Blow)		Includes The Black Axe of Krell and Armour of the Barrows		4	5	0	4	5	4	5	3	9	7	7	0	0	0	0	1	0
+vmmanni	 Mannfred the Acolyte		N/A	Hero	Hero	1:1	200	1	ipts:total=100;spec:+blln;spec:+wzrd;spec:+spel;catg:wiz;type:Wiz;type:Ld7;type:vmnecro;type:vampire;take:vmunpowr-free-perm;take:vmnoble-free-perm;attr:Type="In";type:mannfred	umax:1;hide		Infantry (Ca if on Nightmare); Undead; Vampiric; The Hunger (if character kills a model in CC, roll a dice at the end of the phase - on '6' he regains 1 Wound); Loremaster (Lore of Vampires)			September 1, 2002	6	6	4	5	4	2	6	4	7	7	7	2	0	0	0	1	0
+vmstrigo	 Strigoi Ghoul King	Strig	N/A	Lord		1:1	260	200	ipts:total=200-each=100;type:Hero;spec:+spel;spec:+blln;spec:-armr;spec:+wzrd;catg:wiz;type:Wiz;type:vampire;type:skirmishers;type:vmcount;type:Ld9;attr:Type="In"	clmt:spel<=Wz-msg=vmmsg1;lglx:!(mode=c|mode=h);clmt:weap+ench+ward+wzrd<=100-points-msg=vmmsg21;clmt:blln<=100-points-msg=vmmsg20;race:un;hide		Infantry; Undead; Vampiric; The Hunger (if character kills a model in CC, roll a dice at the end of the phase - on '6' he regains 1 Wound); Infinite Hatred; Poisoned Attacks; Regeneration (5+)		Use Lore of Vampires		6	6	3	5	5	3	8	5	9	7	7	0	0	0	0	1	0
+vmbanshe	 Tomb Banshee	Bansh	N/A	Hero	Hero	1:1	95	0	coun;xcmp:spec-mode=e	lglx:!mode=h;race:un;hide		Howl in shooting phase at any one enemy unit in 8" for 2D6+2-Ld wounds with no armour save;				6	3	0	3	3	2	3	1	5	7	7	0	0	1	0	0	0
+vmvlad	 Vlad Von Carstein		N/A	Lord		1:1	495	0	spec:+ward;spec:+blln;spec:+weap;take:vmaura-free-perm;take:vmbeguil-free-perm;take:vmseterr-free-perm;take:vmblood-free-perm;take:vmcarstn-free-perm;type:vampire;type:Ld10;type:Hero;spec:+spel;catg:wiz;type:Wiz;type:skirmishers;type:vmcount;xmpt:limit;spec:-armr;spec:-ench;spec:-wzrd;attr:Type="In"	umax:1;hide		Infantry; Undead; Vampiric; The Hunger; #Beloved in Death: If Vlad and Isabella von Carstein are in the same unit, they both gain Always Strikes First. When one of them is killed, the other becomes subject to Frenzy and Hatred.				6	7	5	5	5	3	7	5	10	7	4	0	0	0	0	1	0
+vmbansh	Banshee	Bansh	N/A	Champion		1:1	25	0	coun;xcst:75-mode=c;xcmp:spec-mode=e	lglx:!mode=h;hide		Howl in shooting phase at any one enemy unit in 8" for 2D6+2-Ld wounds with no armour save;  May stand-n-shoot, or howl into CC				6	3	0	3	3	2	3	1	5	7	7	0	0	1	0	0	0
+vmmarebl	Barded Nightmare		N/A	Mount	mount	1:1	0	0	attr:Mv="8/7"	hide		Barded Nightmare		Bloodline power mount		0	3	0	4	4	1	2	1	3	7	7	0	0	0	0	0	0
+vmmarem	Barded Nightmare		N/A	Mount	mount	1:1	0	0	attr:Mv="8/7"	hide		Undead				0	3	0	4	4	1	2	1	3	7	7	0	0	0	0	0	0
+vmcorpne	Cadaver Wagon		N/A	Mount		1	0	1	type:corpse;spec:+spec;attr:Type="Ch"	hide		Chariot; Regeneration (4+); Undead; Invocation (1); Natural Armour; Random Attack (2D6) (Shambling Horde only); Regeneration (4+); Supernatural Aura: Each time after an Augment spell from Path of Necromancy (including the Curse of Undeath) is resolved against a model with this rule, you may select a single unit within 6” of it. Until the end of the following player turn, all undead models in the chosen units have the Supernatural Reflexes special rule; Cart: The Cadaver Wagon may perform a March moves despite being a Chariot but does not possess the Swiftstride special rule.		 		0	0	0	4	4	4	0	0	0	5	7	0	0	3	0	0	0
+vmchbloo	Champion		N/A	Champion	champ	1:1	10	100	coun;type:vampire	hide						4	6	4	5	4	1	4	3	8	2	7	0	0	1	0	0	0
+vmchguar	Champion	Guard	N/A	Champion	champ	1:1	10	0	coun;type:infantry	hide						4	3	3	4	4	1	3	2	6	5	7	0	0	1	0	0	0
+vmchhorr	Champion	HorCh	N/A	Champion	champ	1:1	10	0	coun;type:skirmishers	hide						6	4	0	4	5	3	2	4	5	7	7	0	0	1	0	0	0
+vmchvarg	Champion	VarCh	N/A	Champion	champ	1:1	10	0	coun;type:skirmishers	hide						6	5	0	5	4	3	4	4	8	7	7	0	0	0	0	0	0
+vmghast	Champion	Ghast	N/A	Champion	champ	1:1	10	0	coun;type:skirmishers	hide						4	4	0	3	4	1	3	3	6	7	7	0	0	1	0	0	0
+vmhellkt	Champion	CHAMP	N/A	Champion	champ	1:1	10	0	coun	hide						4	4	0	4	4	1	3	2	6	2	7	0	0	2	0	0	0
+vmhexcha	Champion	CHAMP	N/A	Champion	champ	1:1	10	0	coun	hide						6	4	0	3	3	1	2	2	5	7	7	0	0	0	0	0	0
+vmsencha	Champion	CHAMP	N/A	Champion	champ	1:1	70	0	coun	hide						6	4	0	3	3	3	2	3	5	7	7	0	0	0	0	0	0
+vmchcg	Charnel Ghast	Ghast	N/A	Champion		1:1	10	0	coun	hide						4	4	0	4	4	1	4	3	7	7	7	0	0	1	0	0	0
+vmbcrew	Crew		N/A	Champion	champ	2:2	0	0	type:charcrew	hide						0	3	3	3	0	0	3	2	7	7	7	0	0	0	0	0	0
+vmbcrew2	Crew		N/A	Champion	champ	2:2	0	0	attr:At="D6"	hide						0	3	3	3	0	0	3	2	7	7	7	0	0	0	0	0	0
+vmstdomn	Domnu		N/A	Champion	infantry	1:1	10	0	coun	hide						4	3	3	3	3	1	3	2	7	7	7	0	0	1	0	0	0
+vmcoven	Floating Court		N/A	Mount		1:1	0	0	attr:Type="Ch";calc:Num=#	hide		Chariot; Large Target; Undead; Invocation (1); Vampiric; Hunger (6+); Ward Save (4+); Terror; Innate Defence (5+); Random Attacks (2D6) (Ghost Steeds only); Ethereal (Ghost Steeds only)				0	0	0	5	5	5	0	0	0	5	4	0	0	0	0	1	0
+vmhellst	Hellsteed		N/A	Mount		1:1	0	0		hide		War Beast; Fly; Undead				8	3	0	4	4	1	2	1	3	7	7	0	0	1	0	0	0
+vmdoom	Leader		N/A	Champion	champ	1:1	10	0	coun;name:"Bad Dog"-mode=h	hide						9	4	0	3	3	1	3	2	3	7	7	0	0	2	0	0	0
+vmvcmark	Marksman		N/A	Champion	infantry	1:1	5	0	coun	hide						4	3	4	3	3	1	3	1	7	7	7	0	0	1	0	0	0
+vmabyssl	Monstrous Revenant	Reve	N/A	Mount		1:1	0	0	attr:Type="MB";type:mrevenant	hide		Monstrous Beast (Stomp 1); Undead; Large Target; Fear				6	4	0	5	5	4	2	4	4	7	7	0	0	4	0	0	0
+vmvcserg	Sergeant		N/A	Champion	infantry	1:1	10	0	coun	hide						4	3	3	3	3	1	3	2	7	7	7	0	0	1	0	0	0
+vmssteed	Skeletal steed		N/A	Mount	mount	1	0	0		hide		Ethereal (Steed only)				8	2	0	3	3	1	2	1	3	7	7	0	0	0	0	0	0
+vmsteed	Skeletal steed		N/A	Mount	mount	1	0	0		hide		Ethereal (Steed only)				8	2	0	3	3	1	2	1	3	7	7	0	0	0	0	0	0
+vmchskel	Skeleton Champion	Skel	N/A	Champion	champ	1:1	10	0	coun;type:infantry	hide					September 1, 2002	4	3	3	3	3	1	2	2	3	7	7	0	0	1	0	0	0
+vmterrom	Titanic Bat		N/A	Monster		1:1	0	0	attr:Type="RMo";calc:Num=#	hide		Ridden Monster (Stomp D6); Fly (8); Terror; Large Target; Regeneration (6+); Undead; Otherworldly Scream (6, 4): may perform a shooting attack with range 8”. It can be used after marching and hits automatically. The target suffers 6 hits with strength equal to 4 plus the current number of Wounds of the shooting part of model. When rolling to wound, compare the Strength with the target’s Leadership instead of Toughness. Wounds caused are Armour Piercing (6) and Magical Attacks. In the combat phase the model may replace its normal attacks to instead scream at one unit that it is in base contact with it.				6	4	0	5	6	6	2	4	4	7	7	0	0	0	0	0	0
+vmblmare	Undead Mount		N/A	Mount	mount	1	0	0		hide						8	3	0	4	3	1	2	1	3	7	7	0	0	0	0	0	0
+vmhmare	Undead Mount		N/A	Mount	mount	1	0	0		hide						8	3	0	5	0	0	2	1	0	7	7	0	0	0	0	0	0
+vmwinged	Winged Nightmare	Wing	N/A	Monster		1:1	175	0	attr:Type="Mo"	hide		Monster (Thunderstomp)	Fly, Terror; Large Target; +1S on charge	Can Fly; Cause Terror; Large Target; +1S on charge		6	4	0	5	5	4	2	3	5	7	7	0	0	4	0	0	0
+vmzmcrew	Zombie Crew		N/A	N/A		3:5	0	0		hide						4	3	0	3	3	1	0	1	2	7	0	0	0	0	0	0	0
+vmdraco	Zombie Dragon	Draco	N/A	Monster	Hero	1:1	0	0	attr:Type="Mo"	hide;umax:1u		Monster (Thunderstomp); Terror; Large Target; Fly (7); Innate Defence (4+); Distracting; Breath Weapon (Strength 2, Armour Piercing (6)), Regeneration (6+)				6	4	0	6	6	6	2	5	4	4	7	0	0	0	0	0	0
+vmnecmas	 Lord: Necromancer Lord	Necro	Hero	Wizard	Lord	1:1	150	100	ipts:total=100-each=100;attr:Type="In";type:Wiz;spec:+spel;type:skirmishers;type:Ld8;spec:+armr	lglx:!(mode=d|mode=f|mode=g|mode=h);race:un		Infantry; Undead; Awaken (Zombies, Skeletons)		May use Vampire, Fire or Death Paths	091	4	3	3	3	4	3	3	1	8	7	7	0	0	0	0	1	0
+vmcount	 Lord: Vampire Count	Count	Hero	Lord	Lord	1:1	200	200	ipts:total=200-each=100;spec:+spel;spec:+blln;spec:+wzrd;catg:wiz;type:Wiz;type:vampiric;type:skirmishers;type:vmcount;type:Ld9;attr:Type="In"	clmt:spel<=Wz-msg=vmmsg1;clmt:weap+armr+ench+ward+wzrd<=100-points-msg=vmmsg21;clmt:blln<=1-count-msg=vmmsg20;race:un		Infantry; Undead; Vampiric; Fear; Hunger (6+); Awaken (Zombies)		May use Path of Necromancy, Death or Shadow	091	6	7	5	5	5	3	7	5	10	7	7	0	0	0	0	1	0
+vmwigld	Hero: Barrow King	Hero	Hero	Hero	Hero	1:1	80	100	ipts:total=125-each=125;type:skirmishers;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;race:un		Infantry; Undead; Lethal Strike; Multiple Wounds (2, Infantry, War Beast, Cavalry); Not a Leader			091	4	4	0	4	5	3	4	3	9	7	7	0	0	1	0	0	0
+vmnecro	Hero: Necromancer	Necro	Hero	Wizard	Hero	1:1	60	100	ipts:total=50-each=50;type:Wiz;type:necro;type:skirmishers;type:Ld7;attr:Type="In";spec:+armr	lglx:!(mode=d|mode=f|mode=g|mode=h);race:un		Infantry; Undead; Awaken (Zombies, Skeletons)			091	4	3	3	3	3	2	3	1	7	7	7	0	0	0	0	1	0
+vmvamp	Hero: Vampire Baron		Hero	Hero	Hero	1:1	80	200	ipts:total=195;spec:+spel;spec:+blln;spec:+wzrd;type:vampiric;type:skirmishers;type:vmnecro;type:Ld8;catg:wiz;type:Wiz;attr:Type="In";type:infantry	clmt:stnd<=1-count;clmt:weap+armr+ench+ward+wzrd<=50-points-msg=vmmsg4;clmt:blln<=1-count-msg=vmmsg5;race:un		Infantry; Undead; Vampiric; Fear; Hunger (6+); Awaken (Zombies)		All Vampires in the army MUST CHOOSE THE SAME BLOODLINE or have no bloodline at all. This is NOT VALIDATED by army builder.	091	6	6	4	5	4	2	6	4	8	7	7	1	1	1	1	0	0
+vmcairnw	Hero: Wraith		Hero	Hero	Hero	1:1	65	0	calc:Num=#;attr:Type="In"	lglx:!(mode=d|mode=f|mode=h);race:un		Infantry; Undead; Ashes to Ashes; Ethereal; Terror; Armour Piercing (6) (Wraith only); Not a Leader; Reaper: Units consisting solely of models with this special rule may move through enemy units during the Remaining Moves Sub-Phase. The unit may attack one enemy enemy unitwhich has been moved through, allowing each Model in the unit to make a single Close Combat attack that hits automatically. These attacks are distributes towards the unit as a whole.		Otherworldly Scream (Wailing Spirit only)	091	6	3	0	3	3	2	2	3	5	7	7	0	0	1	0	0	0
+vmswarm	Bat Swarm	Bat	Core	Regiment		2:10	15	0	calc:Num=#;attr:Type="Sw"	lglx:!(mode=b|mode=c|mode=d|mode=h);race:un		Swarm; Ashes to Ashes; Undead; Fly (6); Disturbing Swarm: Enemy units in base contact with one or more models with this Special Rule have -1 WS (to a minimum of 1).		base cost: 60, size: 2-10	091	1	2	0	2	2	4	3	4	3	7	7	0	0	0	0	0	0
+vmwolves	Direwolves	Wolf	Core	Regiment	warbeast	5:15	7	0	calc:Num=#;attr:Type="WB"	race:un		War Beasts; Undead; Ashes to Ashes; Invocation (D3+3); Thunderous Charge; Vanguard		base cost: 40, size: 5-15	091	9	3	0	3	3	1	3	1	3	7	7	0	0	2	0	0	0
+vmghoul	Ghouls	Ghoul	Core	Regiment	infantry	10:40	9	0	calc:Num=#;attr:Type="In";type:ghoulsmax	race:un		Infantry; Undead; Invocation (D6+3); Poisoned Attacks; Ashes to Ashes		base cost: 90, size: 10-40	091	4	3	0	3	4	1	3	2	6	7	7	0	0	1	0	0	0
+vmghouls	Ghouls Skirmishers	Ghoul	Core	Regiment	infantry	10:15	10	0	calc:Num=#;attr:Type="In";type:ghoulsmax	race:un		Infantry; Undead; Invocation (D6+3); Poisoned Attacks; Ashes to Ashes; Skirmishers		base cost: 100, size: 10-15	091	4	3	0	3	4	1	3	2	6	7	7	0	0	1	0	0	0
+vmskel	Skeletons	Skel	Core	Regiment	infantry	10:60	4	0	ipts:total=25-each=25;calc:Num=#;attr:Type="In"	race:un		Infantry; Undead; Ashes to Ashes; Invocation (D6+3)		base cost: 40, size: 10-60	091	4	2	2	3	3	1	2	1	6	7	7	0	0	1	0	0	0
+vmzomb	Zombies	Zomb	Core	Regiment	infantry	20:60	3	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	race:un		Infantry; Undead; Ashes to Ashes; Invocation (2D6+3)		base cost: 60; size: 20-60	091	4	1	0	3	3	1	1	1	2	7	7	0	0	0	0	0	0
+vmguard	Barrow Guard	Guard	Special	Regiment	infantry	10:40	10	0	ipts:total=50-each=50;calc:Num=#;attr:Type="In"	race:un		Infantry;  Undead; Ashes to Ashes; Lethal Strike; Multiple Wounds (2, Infantry, War Beast, Cavalry), Magical Attacks; Invocation (D3+3); Bodyguard (General, Barrow King)		base cost: 100; size: 10-40	091	4	3	0	4	4	1	3	1	8	5	7	0	0	1	0	0	0
+vmcaval	Barrow Knights	Cav	Special	Regiment	cavalry	5:15	24	0	ipts:total=50-each=50;calc:Num=#;attr:Type="Ca";type:mounted	race:un		Cavalry; Undead; Ashes to Ashes; Lethal Strike (Knight only); Multiple Wounds (2, Infantry, War Beast, Cavalry), Magical Attacks; Invocation (2); Ethereal (Steed only); Natural Armour		base cost: 120, size: 5-15	091	4	3	0	4	4	1	3	1	6	4	7	0	0	2	0	0	0
+vmcorpse	Cadaver Wagon		Special	Machine		1:1	80	1	attr:Type="Ch"	race:un		Chariot; Regeneration (4+); Undead; Invocation (1); Natural Armour; Random Attack (2D6) (Shambling Horde only); Regeneration (4+); Supernatural Aura: Each time after an Augment spell from Path of Necromancy (including the Curse of Undeath) is resolved against a model with this rule, you may select a single unit within 6” of it. Until the end of the following player turn, all undead models in the chosen units have the Supernatural Reflexes special rule; Cart: The Cadaver Wagon may perform a March moves despite being a Chariot but does not possess the Swiftstride special rule.				0	0	0	4	4	4	0	0	0	5	7	0	0	3	0	0	0
+vmspirit	Ghost Horde	Sprt	Special	Regiment		2:6	35	0	calc:Num=#;attr:Type="In"	race:un		Infantry; Undead; Invocation (D3+3); Ashes to Ashes; Ethereal; Fear		base cost: 70, size: 2-6		6	3	0	3	3	4	1	4	4	7	7	0	0	3	0	0	0
+vmcryhor	Ghoul Monstrosities	CryHo	Special	Regiment		3:10	48	0	calc:Num=#;attr:Type="MI"	race:un		Monstrous Infantry (Stomp); Undead; Poisoned Attacks; Regeneration (5+); Ashes to Ashes; Fear; Invocation (2)		base cost: 110, size: 3-10	091	6	3	0	4	5	3	2	3	5	7	7	0	0	0	0	1	0
+vmvambat	Great Bats	VmBat	Special	Regiment		2:9	14	0	xcmp:core-mode=a;xcst:17-mode=c;calc:Num=#;size:1-20-1-mode=zz;xcmp:Core-mode=g;xcst:25-mode=h;name:"Deck Droppers"-mode=h;attr:In="0"-mode=h;attr:Type="WB"	lglx:!(mode=d|mode=e);race:un		War Beasts; Fly (10); Undead; Invocation (D3+3); Skirmishers; Ashes to Ashes		base cost: 40, size 2-9		1	3	0	3	3	2	3	2	3	7	7	0	0	1	0	0	0
+vmvarghe	Vampiric Monstrosities	VaGhe	Special	Regiment		3:10	42	0	calc:Num=#;attr:Type="MI"	race:un		Monstrous Infantry (Stomp 1); Fly (9); Undead; Invocation (2); Vampiric; Hunger (6+); Fear		base cost: 126; size: 3-8; Frenzy	091	6	4	0	5	4	3	4	3	8	7	7	0	0	0	0	1	0
+vmvargh	Vargbeast		Special	Regiment		1:1	150	0	calc:Num=#;attr:Type="MB"	race:un		Monster (Stomp 1); Vampiric; Hunger (3+); Indead; Invocation (1); Fear; Regeneration (4+); Hatred				8	5	0	6	5	4	4	5	7	7	7	0	0	4	0	0	0
+vmangels	Angels of Death	AngDe	Rare	Regiment		2:5	75	0	calc:Num=#;attr:Type="MI"	race:un		Monstrous Infantry (Stomp); Undead; Lethal Strike; Fly (6); Undead; Invocation (2); Undead Constructs: Models with this special rule suffer one less wound from the Unstable and Ashes to Ashes special rules.		base cost: 150, size: 2-5; Anti-Crumble Aura		6	5	3	5	5	4	4	3	10	5	7	0	0	0	0	1	0
+vmwraith	Burning Reapers		Rare	Regiment	infantry	5:10	30	0	calc:Num=#;attr:Type="In"	lglx:!(mode=d|mode=f|mode=h);race:un		Infantry; Ethereal; Terror; Ashes to Ashes; Undead; Invocation (2); Flaming Attacks (Burning Reaper only), Armour Piercing (6) (Burning Reaper only), Free Reform, Reaper		base cost: 150, size: 5-10		6	3	0	3	3	1	2	1	5	7	7	0	0	1	0	0	0
+vmcoach	Dark Coach	Coach	Rare	Machine		1:1	190	6	attr:At="D6+1";type:ward;spec:+spel;calc:Num=#;attr:Type="Ch"	race:un		Chariot; Vampiric; Hunger (4+); Undead; Invocation (1); Ward Save (4+); Terror; Scythes; Heavy Armour; Natural Armour				0	0	0	5	6	4	0	0	0	3	4	0	0	4	0	0	0
+vmfloatc	Floating Court		Rare	Mount		1:1	190	0	attr:Type="Ch";calc:Num=#			Chariot; Large Target; Undead; Invocation (1); Vampiric; Hunger (6+); Ward Save (4+); Terror; Innate Defence (5+); Random Attacks (2D6) (Ghost Steeds only); Ethereal (Ghost Steeds only)				0	0	0	5	5	5	0	0	0	5	4	0	0	0	0	1	0
+vmmortis	Necrotic Engine		Rare	Machine		1:1	200	0	attr:Type="Ch";calc:Num=#	race:un		Chariot; Innate Defence (5+); Undead; Ashes to Ashes; Invocation (1); Otherworldly Scream (2,8) (Wailing Spirits only); Large Target; Random Attack (2D6) (Ghost Steeds only); Ethereal (Ghost Steeds only); Terror; Regeneration (4+); # Necrotic Aura: At the start of each of your player turns you may choose one of the following effects. In both cases, X is equal to the current turn number. 1: All friendly units within 6”+X gain Regeneration which lasts until the end of the following Player Turn. Place a counter next to the units affected to track which is affected by the Regeneration even after leaving the area of effect.If a unit already has Regeneration then it is increased by +1, up to maximum of 4+ Regeneration Save; 2: All enemy units within 12” suffer D6 hits at Strength X.				0	0	0	5	5	5	0	0	0	5	7	0	0	0	0	1	0
+vmterror	Titanic Bat		Rare	Monster	monster	1:1	200	0	attr:Type="Mo";calc:Num=#	race:un		Monster (Stomp D6); Fly (8); Terror; Large Target; Regeneration (6+); Undead; Ashes to Ashes; Invocation (1); Otherworldly Scream (6, 4): may perform a shooting attack with range 8”. It can be used after marching and hits automatically. The target suffers 6 hits with strength equal to 4 plus the current number of Wounds of the shooting part of model. When rolling to wound, compare the Strength with the target’s Leadership instead of Toughness. Wounds caused are Armour Piercing (6) and Magical Attacks. In the combat phase the model may replace its normal attacks to instead scream at one unit that it is in base contact with it.				6	4	0	5	6	6	2	4	4	7	7	0	0	0	0	0	0
+vmblkeep	Vampire Knights		Rare	Regiment	cavalry	5:10	45	0	ipts:total=75-each=75;calc:Num=#;attr:Type="Ca";type:mounted	race:un		Cavalry; Undead; Invocation (2); Vampiric; Hunger (6+); Fear		base cost: 225, size: 5-10	091	4	5	3	5	4	2	5	2	8	2	7	0	0	2	0	0	0
+vmwrasen	Wraith Sentries		Rare	Regiment	infantry	5:8	30	0	calc:Num=#;attr:Type="In"	lglx:!(mode=d|mode=f|mode=h);race:un		Infantry; Undead; Ashes to Ashes; Invocation (2); Ethereal; Armour Piercing (6); Skirmisher; Terror; Bodyguard (Wraith, Wailing Spirit); Reaper; Wizard Conclave (Level 1, Touch of the Reaper, Unseen Lurker)		base cost: 150, size: 5-8		6	3	0	3	3	2	2	2	5	7	7	0	0	1	0	0	0
+xbsrest2	Black Knights	Cav	Other	Regiment		5	21	0	ipts:total=50-each=50;xcst:20-mode=c;calc:Num=#;size:1-20-1-mode=zz;xcmp:Rare-mode=g;attr:Type="Ca";type:mounted	umax:1-mode=g		Cavalry; Killing Blow; Spectral Steeds; Undead		Includes heavy armour, and shield.  		4	3	0	4	4	1	3	1	6	4	7	0	0	2	0	0	0
+xbsghoul	Crypt Ghouls	Ghoul	Other	Regiment		20	10	0	calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:!(mode=a|mode=b|mode=c|mode=d|mode=e|mode=g|mode=h)		Infantry; Undead; Poisoned Attacks; 		 		4	3	0	3	4	1	3	2	5	7	7	0	0	1	0	0	0
+xbshorro	Ghoul Monstrosities	CryHo	Other	Regiment		3:10	42	0	calc:Num=#;attr:Type="MI"			Monstous Infantry (Stomp); Undead; Poisoned Attacks; Regeneration (5+); Ashes to Ashes; Fear				6	3	0	4	5	3	2	3	5	7	7	0	0	0	0	1	0
+xbsrest3	Grave Guard	Guard	Other	Regiment	infantry	10	11	0	ipts:total=50-each=50;xcst:10-mode=c;xcmp:core-mode=d;calc:Num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:!(mode=f|mode=h)		Infantry; Undead; Killing Blow		Includes heavy armour		4	3	0	4	4	1	3	1	6	5	7	0	0	1	0	0	0
+xbsnecro	Necromancer	Necro	Other	Wizard	Hero	1:1	65	100	ipts:total=50-each=50;type:Wiz;type:necro;type:skirmishers;type:Ld7;attr:Type="In";spec:+armr	lglx:!(mode=d|mode=f|mode=g|mode=h)		Infantry (Ca if on Nightmare)		Hero; May use Necromancy lore.		4	3	3	3	3	2	3	1	7	7	7	0	0	0	0	1	0
+xbsrest4	Skeleton Warriors	Skel	Other	Regiment	infantry	20	5	0	ipts:total=25-each=25;xcst:7-mode=c;xcmp:spec-mode=f;xcmp:spec-mode=d;calc:Num=#;size:1-20-1-mode=zz;name:"Sylvanian Militia"-mode=g;xcst:10-mode=g;attr:Type="In"	lglx:!mode=h;slmt:1-msg=vmmsg802		Infantry; Includes light armour, Shield and Hand Weapon				4	2	2	3	3	1	2	1	3	7	7	0	0	1	0	0	0
+xbsrest1	Wight King	Hero	Other	Hero	Hero	1:1	85	100	ipts:total=125-each=125;xcst:50-mode=c;type:skirmishers;xcst:80-mode=h;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;clmt:stnd<=1-count;lglx:!(mode=f)		Infantry (Ca if mounted)	Wight Blades	Hero; Wight Blades - all normal weapons (incl pistols after 1st combat round) used by Wights count as magical and have the Killing Blow special rule.		4	4	3	4	5	3	4	3	9	7	7	0	0	1	0	0	0
+xvmawvam	Awakened Vampire (*)	Vam	N/A	Regiment		1:1	0	0				Hunger (2+)				0	6	0	5	0	0	6	4	8	7	7	0	0	0	0	0	0
+xvmcoca1	Cadaver Master		N/A	Other		1:1	0	0		hide						0	3	0	3	0	0	3	1	5	7	7	0	0	0	0	1	0
+xvmmort3	Ghost Steeds		N/A	Other		1:1	0	0	attr:At="2D6"	hide						8	3	0	3	0	0	2	0	0	7	7	0	0	0	0	0	0
+xvmmort1	Master		N/A	Other		1:1	0	0		hide						0	3	1	3	0	0	3	1	5	7	7	0	0	0	0	0	0
+xvmmount	Mount		N/A	Mount	mount	1	0	0								8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+xvmcove1	Paramours		N/A	Other		1	0	0		hide						0	5	5	5	0	0	6	2	7	7	7	0	0	0	0	0	0
+xvmcoca2	Shambling Horde		N/A	Other		1:1	0	0	attr:At="2D6"	hide		Random Attacks (2D6)				4	1	0	3	0	0	1	0	0	7	7	0	0	0	0	0	0
+xvmmort2	Wailing Spirits		N/A	Other		1:1	0	0	attr:Wo="(2)"	hide						0	3	0	3	0	0	3	3	5	7	7	0	0	0	0	0	0
+xvmwrait	Wraith	Wrai	N/A	Regiment		1:1	0	0	calc:Num=#			Magical Attacks; Chill Grasp				0	3	0	3	0	0	2	3	5	7	7	0	0	0	0	0	0
+^
+vm2000	2000+ Pt Army?		Priority	N/A	0	type:Lord;hide;rsiz:min=2000				
+vmava2nd	2ndWeapon		Priority	N/A	0	slct:vmharm=incl;show:vmmagarm;more:vm2ndhw=incl;slct:vm2ndhw=incl;over:vmgw=delete				
+vmdreadn	Barded Nightmare		Priority	N/A	0	hide;utyp:dreadknight;unit:vmmarebl@per=1;slct:heromnt=incl;type:mnted;more:save2=incl;stxt:Type="Ca"				For bloodline power - dreadknight
+vmstand2	Battle Standard Bearer	Btl	Priority	Bst	25	catg:btl;over:btnostnd=delete;over:general=delete	Units w/in 12" may re-roll break tests		Makes a Fleet Captain into a Battle Standard Bearer; He can't take magic weapons, an additional hand weapon or a brace of pistols; NOTE: This BSB does not work like any other Undead BSB, instead it grants the ability to re-roll break tests, which is useless for Zombie Pirates as they don't take break tests...	
+vmbdrgn	Blood Dragon	Bld	Priority	N/A	0	base:Ws+2;unam:<"Blood Dragon ";type:bdragon;type:notstr;type:notcar;type:notnec;type:notlah;slct:vmfpa=incl;show:vmmagarm		Can cast spells wearing armor.  Generate 1 less power die(included in profile).  Highest Ld Blood Dragon in unit must issue challenges and accept challenges, if possible.	Can cast spells wearing armor.  Generate 1 less power die(included in profile).  Highest Ld Blood Dragon in unit must issue challenges and accept challenges, if possible; NOTE: In order to have the Flayed Hauberk for Counts and Lords you must choose the Allow Magical Armour option.	
+vmapdxbl	Bloodline		Priority	N/A	0	more:vmcarten=incl-mode=a;more:vmbdrgn=incl-mode=d;more:vmnekark=incl-mode=b;more:vmstrigi=incl-mode=f;more:vmlahma=incl-mode=e;more:vmcarten=incl-mode=g;hide				This will assign the appropriate bloodline to all vampires for appendix lists
+vmbldlin	Bloodline		Priority	N/A	0	tabl:VonCarstein=vmcarten,BloodDragon=vmbdrgn,Necrach=vmnekark,Strigoi=vmstrigi,Lahmia=vmlahma;lglx:(mode=zz|mode=default)				
+vmblinet	Bloodline Table		Priority	N/A	0	tabl:NoBloodline=vmbline0,BloodDrake=vmbline1,Strigoi=vmbline2,VonCastel=vmbline3,SilverKeep=vmbline4,Nosferatu=vmbline5-noname-nobrackets				
+vmdread	Dread knight		Priority	N/A	0	hide;utyp:dreadknight;show:vmmagarm;show:vmmashld;slct:vmharm=incl;slct:vmlance=incl;slct:vmshield=incl;type:vmshield				
+vmevinfo	Evocation of Death		Priority	N/A	0	take:vmevinfo				
+vmextra	Extra base cost		Priority	N/A	5	cost:single;hide;xcst:30-unit=vmswarm;xcst:-34-unit=vmcryhor;xcst:12-unit=vmvambat				
+vmnomgar	Forbid Magic Armour		Priority	N/A	0	spec:-armr;hide				
+vmfrdeaw	From Death Awakened	fdea	Priority	N/A	0	apnd:foot;lglx:mode=g		Bound spell, Power Level 4: Rng 6"; Cast on unit Sylvanian Levy/Sylvanian Militia or make new unit.  Summons 2D6 models, +1/die for Levy. Can heal Undead model for 2 Wo. 	Prints the description for the Grave Marker Bound Spell	
+vmgen	General	Gen	Priority	N/A	0	utyp:!forbidden;type:general;more:Gen7=incl;more:Gen8=incl;more:Gen9=incl;more:Gen10=incl;skip over:vmlore2=delete;skip over:vmlore3=delete;skip more:mgnecro=auto;over:vmstand=delete;show:vminvosh	Units w/in 12" may march.		Select Character to be General (highest Ld or your choice if tie). General must be a Wizard with Lore of Vampires.	
+vmgen2	General	Gen	Priority	N/A	0	utyp:forbidden;type:general;more:Gen7=incl;more:Gen8=incl;more:Gen9=incl;more:Gen10=incl;over:vmstand=delete	Units w/in 12" may march.		Select Character to be General (highest Ld or your choice if tie). General must be a Wizard with Lore of Vampires.	
+vmavagw	GW		Priority	N/A	0	slct:vmharm=incl;show:vmmagarm;more:vmgw=incl;slct:vmgw=incl;over:vm2ndhw=delete				
+vmavash	Hw & Shield		Priority	N/A	0	slct:vmharm=incl;show:vmmagarm;show:vmmashld;slct:vmshield=incl;type:vmshield				
+vmignor2	Ignore		Priority	N/A	0	hide;acmp:Hero+2u				
+vmignor3	Ignore		Priority	N/A	0	hide;acmp:Core-1u;lglx:mode=g				
+vmignor4	Ignore		Priority	N/A	0	hide;acmp:Core-1u				
+vmignor5	Ignore		Priority	N/A	0	hide;acmp:Spec+1u				
+vmignore	Ignore		Priority	N/A	0	hide;acmp:Hero+1u				
+vmisabel	Isabella		Priority	N/A	0	unit:vmisabel@abs=1;hide				
+vm1spell	Knows 1 Necro Spell	1Spel	Priority	N/A	0					
+vm2spell	Knows 2 Necro Spells	2Spel	Priority	N/A	15					
+vm3spell	Knows 3 Necro Spells	3Spel	Priority	N/A	30					
+vmlahma	Lahmia	Lah	Priority	N/A	0	type:lahmia;base:In+2;unam:<"Lahmia ";over:2ndhwlrd=delete;over:2ndhwhro=delete;over:2handlrd=delete;over:2handhro=delete;over:lancelrd=delete;over:lancehro=delete;over:hahro=delete;over:lahro=delete;type:notstr;type:notcar;type:notnec;type:notbld;base:Ws-1;over:shlrd=delete;over:shwlrd=delete;over:shhro=delete;over:shwhro=delete			All enemy in base contact suffer -1Ld	
+vmnekark	Necrarch	Nrc	Priority	N/A	0	base:Ws-2;over:hahro=delete;over:lahro=delete;type:necrarch;unam:<"Necrarch ";over:2handlrd=delete;over:2handhro=delete;over:lancelrd=delete;over:lancehro=delete;over:2ndhwlrd=delete;over:2ndhwhro=delete;over:shhro=delete;over:shwhro=delete;type:notstr;type:notcar;type:notlah;type:notbld;over:shlrd=delete;over:shwlrd=delete		+1 to total when casting spell.	+1 to total when casting spell.	
+vmnoshld	No shield		Priority	N/A	0					
+vmnospr	No spear		Priority	N/A	0	over:sprtrp1=delete;lglx:mode=g;hide				
+vmNone	None		Priority	N/A	0					
+vmnocore	Not core		Priority	N/A	0	hide;acmp:Core-1u				
+vmchoice	Opponent's Approval		Priority	N/A	0					
+vminvosh	Show Invocation of the Undead	IoU	Priority	N/A	0	take:vmnecro0-perm				
+vmspear1	Spear	Sp	Priority	N/A	1	cost:single	Corpsemaster has +1S when charging		Corpsemaster's spear	
+vmstrigi	Strigoi	Stg	Priority	N/A	0	type:strigoi;over:vmstand=delete;over:vmlsteed=delete;over:vmhsteed=delete;over:bardhro=delete;over:bardlrd=delete;over:vmwinged=delete;over:vmdraco=delete;over:lancelrd=delete;over:lancehro=delete;over:2ndhwhro=delete;over:2ndhwlrd=delete;over:2handhro=delete;over:2handlrd=delete;unam:<"Strigoi ";over:lahro=delete;over:hahro=delete;over:shhro=delete;over:shwhro=delete;type:notcar;type:notnec;type:notlah;type:notbld;base:At+1;over:shlrd=delete;over:shwlrd=delete;spec:-weap;spec:-armr;spec:-ench;spec:-ward;spec:-wzrd;more:vmsave5=auto;more:vmsave6=auto		Hatred	Hatred.  Counts/Lords: Ward Save 5+.  Thrall: Ward Save 6.	
+vmcarten	Von Carstein	VCr	Priority	N/A	0	type:carstein;unam:<"Von Carstein ";type:notstr;type:notnec;type:notlah;type:notbld;over:shlrd=delete;over:shwlrd=delete	No Special Rules		No Special Rules	
+vmwkbard	Barding	Bd	First	Brd	8	more:save1=incl;skip{chld:mount@Mv-1}				
+vmstand	Battle Standard Bearer	Btl	First	N/A	25	catg:btl;over:btnostnd=delete;over:vmnostnd=delete;over:general=delete;over:vmgen=delete;over:vmgen2=delete	Units w/in 12" lose one less Wo in CR.		Makes a character into a Battle Standard Bearer.	
+vmdrakho	Drakenhof Guard		First	N/A	3	over:haltrp=delete;over:hatrp=delete;over:shoptrp=delete;lglx:mode=g;type:Drakenhof_Guard;slct:vmfpa=incl;show:2handtrp;slct:2handtrp=incl;more:save1=incl;unam:="Drakenhof Guard"				
+vmgrvmrk	Grave Marker	grave	First	N/A	0	lglx:mode=g		^	Each Vampire Lord and Vampire Count grants you an additional Grave Marker.	
+vmlvl3	Magic Level 3	Mg3	First	N/A	50	over:mg2lvl=deselect;type:vmlvl3				
+vmscout	Scout	Scout	First	N/A	1	lglx:mode=g;type:Scouting_Dire_Wolves			Unit can Scout	
+vmsylva2	Sylvanian Troops		First	N/A	0	hide;lglx:mode=g;slct:laoptrp2=incl;slct:sprtrp1=incl				
+vmsylvan	Sylvanian Troops		First	N/A	0	hide;lglx:mode=g;show:laoptrp;show:showtrp1;show:sprtrp1;slct:laoptrp=incl;slct:showtrp1=incl;slct:sprtrp1=incl				
+vmshowcm	All Lore Spells		SpellType	N/A	0	take:vmnecroa;take:vmnecro0;take:vmnecro1;take:vmnecro2;take:vmnecro3;take:vmnecro4;take:vmnecro5;take:vmnecro6;take:death0;take:death1;take:death2;take:death3;take:death4;take:death5;take:death6;stat:Wz=14;item:+14	death1		Shows all spells for this lore, and lists short descriptions on the roster.	
+vmdeath	Death Lore	Death	SpellType	Mgc	0	type:mgdeath;show:mgfull;show:mgshow;utyp:Lord|necro|thralgen|konrad;hide				
+vmfullcm	Full Spell Lists		SpellType	N/A	0	more:vmnecroa=incl;more:vmnecro0=incl;more:vmnecro1=incl;more:vmnecro2=incl;more:vmnecro3=incl;more:vmnecro4=incl;more:vmnecro5=incl;more:vmnecro6=incl;more:mgdeath1=incl;more:mgdeath2=incl;more:mgdeath3=incl;more:mgdeath4=incl;more:mgdeath5=incl;more:mgdeath6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+vm1lvl	Level 1 Wizard	Mg1	SpellType	N/A	0	type:1stlvl	+1 to cast and dispel rolls. Has 1 spell.			
+vm1lvlup	Level 1 Wizard	Mg1	SpellType	Mgc	25	type:1stlvl;show:vmgen;show:vmgen2;show:vmlore3;show:vmalore	+1 to cast and dispel rolls. Has 1 spell.			
+vm2lvl	Level 2 Wizard	Mg2	SpellType	N/A	0	type:2ndlvl	+2 to cast and dispel rolls. Has 2 spells.			
+vm2lvl35	Level 2 Wizard	Mg2	SpellType	N/A	35	type:2ndlvl	+2 to cast and dispel rolls. Has 2 spells.			
+vm2lvlup	Level 2 Wizard	Mg2	SpellType	Mgc	55	type:2ndlvl;show:vmgen;show:vmgen2;show:vmlore3;show:vmalore	+2 to cast and dispel rolls. Has 2 spells.			
+vm3lvl	Level 3 Wizard	Mg3	SpellType	N/A	0		+3 to cast and dispel rolls. Has 3 spells.			
+vm3lvl35	Level 3 Wizard	Mg3	SpellType	N/A	35	over:vm2lvl=delete;stat:Wz+1	+3 to cast and dispel rolls. Has 3 spells.		Increase Magic Level by 1	
+vm3lvl50	Level 3 Wizard	Mg3	SpellType	N/A	50	over:vm2lvl=delete;stat:Wz+1	+3 to cast and dispel rolls. Has 3 spells.		Increase Magic Level by 1	
+vm4lvl10	Level 4 Wizard	Mg4	SpellType	N/A	105	stat:Wz+1	+4 to cast and dispel rolls. Has 4 spells.		Increase Magic Level by 1	
+vmnecrcm	Lore of Vampires	Necro	SpellType	Mgc	0	show:vmfull;show:vmshow;type:vmnecro;utyp:Lord|necro|thralgen|konrad|vampire				
+vmnecro	Lore of Vampires	Vamp	SpellType	Mgc	0	show:vmfull;show:vmshow;type:vmnecro				
+vmlore4	Lore Table		SpellType	N/A	0	tabl:Vampires=vmnecro,Undeath=unundeat-noname-nobrackets				
+vmlores	Lores		SpellType	Mgc	0	utyp:Lord|necro|thralgen|konrad|vampire;tabl:Lore=vmnolore,Necromancy=vmnecro,Death=vmdeath-noname				
+vm3lvl75	Magic Level 3	Mg3	SpellType	N/A	75	stat:Wz+1;over:mg1lvl=delete;over:mg2lvl30=delete	+3 to cast and dispel rolls. Has 3 spells.		Increase Magic Level by 1	
+vmnolore	No Lore		SpellType	Mgc	0	utyp:Lord|necro|thralgen|konrad				
+vmalore	Path Table		SpellType	N/A	0	tabl:Necromancy=mgnecro,Wilderness=mgbeasts,Death=mgdeath,Fire=mgfire,Heavens=mgheaven,Light=mglight,Alchemy=mgmetal,Shadow=mgshadow-noname-nobrackets;utyp:forbidden				
+vmlore2	Path Table		SpellType	N/A	0	tabl:Necromancy=mgnecro,Death=mgdeath,Fire=mgfire-noname-nobrackets				
+vmlore3	Path Table		SpellType	N/A	0	tabl:Necromancy=mgnecro,Death=mgdeath,Shadow=mgshadow-noname-nobrackets;utyp:!forbidden				
+vmlore5	Path Table		SpellType	N/A	0	tabl:Necromancy=mgnecro,Wilderness=mgbeasts-noname-nobrackets;utyp:!forbidden&strigoibl				
+vm2ndhw	2ndWeapon	xhw	Weapon	N/A	4	stat:At+1;stat:In+1;utyp:!mounted	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.			
+vm2ndwt	2ndWeapon	xhw	Weapon	2Hd	5	stat:At+1;xcst:5-unit=vmangels;stat:In+1;utyp:!mounted&!blademaster	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.			
+vmavat	Avatar		Weapon	N/A	0	tabl:GreatWeapon=vmavagw,2ndHandWeapon=vmava2nd,Shield=vmavash-noname-nobrackets;utyp:avatar;show:vmmagarm				
+vmblch01	Blood Drake War Chariot	BDWC	Weapon	2Hd	10	chld:champ@St+2-base;chld:champ@St+2;chld:champ@WS+3-base;type:GreatWeapon;unam:="Blood Drake War Chariot";base:Sv-1;type:bloodwarriorbl	Crew has Light Armour; Great Weapons (+2 Strength. Strikes at initiative 0); Bloodline Aura: All friendly units (including the unit itself) within 6" of a models with this rule gain one of the following effects: +1 Weapon Skill		Crew has +2 WS, +2 S, Light Armour, Great Weapons	
+vmblchta	Bloodline Chariot Table		Weapon	2Hd	0	tabl:BloodWarrior=vmblch01,VonCastel=vmblch02,Strigoi=vmblch03,SilverKeep=vmblch04,Nosferatu=vmblch05-noname-nobrackets				
+vmcrosbw	Crossbow	xbw	Weapon	Rng	0	over:sprtrp1=delete;over:showtrp1=delete;slct:chamstat=incl;type:missiles;lglx:mode=g;over:vmhalber=delete		Range 30". Strength 4 hit. Move or Fire weapon.	Replaces shield and spear with crossbow. 	
+vmgw	Great Weapon	GW	Weapon	2Hd	15	stat:St+2;chld:champ@St+2;type:GreatWeapon;xcst:10-unit=vmvamp;xcst:10-unit=vmwigld;utyp:!blademaster	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+vmgwfth	Great Weapon	GW	Weapon	Wep	10	stat:St+2;type:GreatWeapon;xcst:8-unit=vmvamp;xcst:5-unit=vmwigld	+2S, Always strikes last, Two-handed			
+vmgwgg	Great Weapon	GW	Weapon	2Hd	2	stat:St+2;chld:champ@St+2	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+vmgwmth	Great Weapon	GW	Weapon	2Hd	10	stat:St+2;type:GreatWeapon;utyp:mounted	+2S, Always strikes last, Two-handed		Mounted Wight King GW	
+vmhalber	Halberd	hal	Weapon	2Hd	10	stat:St+1;chld:champ@St+1;xcst:5-unit=vmvamp;xcst:5-unit=vmwigld;xcst:10-unit=vmangels;utyp:!blademaster;xcst:2-unit=vmguard	Requires Two Hands. +1 Strength.			
+vmlance	Lance	La	Weapon	Wep,Lnc	10	utyp:mounted;xcst:5-unit=vmvamp;xcst:5-unit=vmwigld;xcst:2-unit=vmcaval;xcst:5-unit=vmblkeep;utyp:!blademaster			+2S when charging	
+vmwtlnc	Lance	La	Weapon	Wep	10	utyp:mounted;more:heromnt=incl;xcst:8-unit=vmvamp;xcst:5-unit=vmwigld	+2S when charging			
+vmblch05	Nosferatu Cadaver Wagon	NCW	Weapon	2Hd	30	type:GreatWeapon;unam:="Nosferatu Cadaver Wagon";type:nosferatubl	One of the crew has a Bound Spell, Power Level 3: Invocation of the Undead; Bloodline Aura: All friendly units (including the unit itself) within 6" of a models with this rule gain one of the following effects: Friendly Wizards gain +1 to all casting attempts from the Path of Necromancy and raise 1 additional wound with Invocation of the Undead.			
+vmblch03	Strigoi Necrotic Engine	SNE	Weapon	2Hd	30	type:GreatWeapon;unam:="Strigoi Necrotic Engine";type:strigoibl;over:vmbcrew=delete;more:vmbcrew2=incl	Random Attacks (D6), Magical Attacks; Bloodline Aura: All friendly units (including the unit itself) within 6" of a models with this rule gain one of the following effects: Regeneration (6+). If they already had Regeneration, their regeneration save is increased by +1 (up to max. of 4+)		Crew has Random Attacks (D6), Magical Attacks	
+vmblch04	Vampiress of the Silver Keep F	SKFC	Weapon	2Hd	50	chld:champ@St+2-base;chld:champ@WS+2-base;type:GreatWeapon;unam:="Vampiress of the Silver Keep Floating Court";type:silverkeepbl	Bloodline Aura: All friendly units (including the unit itself) within 6" of a models with this rule gain one of the following effects: Distracting		Crew has +2 WS, +2 S	
+vmblch02	Van Castelstein Dark Coach	VCDC	Weapon	2Hd	20	chld:champ@St+2;chld:champ@WS+2-base;type:GreatWeapon;unam:="Van Castelstein Dark Coach";type:vancastlesteinbl	Crew has Great Weapons (+2 Strength. Strikes at initiative 0), Armour Piercing (6), Magical Attacks, Terror; Bloodline Aura: All friendly units (including the unit itself) within 6" of a models with this rule gain one of the following effects: Bodyguard special rule, and they can make march moves as normal even when outside the General Inspiring Presence range		Crew has Great Weapons, Armour Piercing (6), Magical Attacks, Terror	
+vmweptb2	Weapon table		Weapon	N/A	0	tabl:Spear=sprtrp,Halberd=vmhalber;lglx:mode=g				
+vmweptbl	Weapon table		Weapon	N/A	0	tabl:Spear=sprtrp,Halberd=vmhalber,Crossbow=vmcrosbw;lglx:mode=g				
+vmmagarm	Allow Magical Armour		Armour	N/A	0	over:vmfpa=delete;over:vmharm=delete;over:vmwtarm=delete				
+vmharm	Heavy armour	HvA	Armour	Arm	0	more:save2=incl;type:armour;utyp:martial			5+ Armour save	
+vmwtarm	Heavy armour	HvA	Armour	Arm	0	more:save2=incl;type:armour			5+ Armour save	
+vmlighta	Light armour	LtA	Armour	Arm	10	more:save1=incl;type:armour			6+ Armour save	
+vmfpa	Plate Armour	FPA	Armour	Mus,Arm	0	more:save3=incl;type:armour;utyp:!MagicArmour	4+ Armour Save			
+vmmashld	Allow Magic Shield		Shield	N/A	0	over:vmshield=delete;over:vmwtshld=delete;over:vmavash=delete				
+vmshield	Shield	Sh	Shield	Shd	5	more:save1=incl;utyp:!MagicShield&!blademaster;xcst:4-unit=vmwigld	+1 AS; Parry (foot models only)			
+vmwtshld	Shield	Sh	Shield	Shd	0	utyp:mounted|!mounted;more:heromnt=incl;more:save1=incl			+1 AS; +2 when using a mundane handweapon on foot and fighting to the front (not shown in stats); Conflicts with 2 handed weapons and 2nd hand weapons	
+vmchban	Banshee		Champion	N/A	0	unit:vmbansh@abs=1;modl:-1;cost:model				
+vmbcrew	Bloodline Chariot crew		Champion	N/A	0	unit:vmbcrew@var;unit:xvmmount@abs=1;hide				
+vmbcrew2	Bloodline Chariot crew		Champion	N/A	0	unit:vmbcrew2@var;unit:xvmmount@abs=1;hide				
+vmchbloo	Champion		Champion	N/A	0	unit:vmchbloo@abs=1;modl:-1;csiz:vmblmare+1;cost:model				
+vmchguar	Champion		Champion	N/A	0	unit:vmchguar@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+vmchhorr	Champion		Champion	N/A	0	unit:vmchhorr@abs=1;modl:-1;cost:model				
+vmchskel	Champion		Champion	N/A	0	unit:vmchskel@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+vmchvarg	Champion		Champion	N/A	0	unit:vmchvarg@abs=1;modl:-1;cost:model				
+vmdoom	Champion		Champion	N/A	0	unit:vmdoom@abs=1;modl:-1;cost:model				
+vmghast	Champion		Champion	N/A	0	unit:vmghast@abs=1;modl:-1;cost:model				
+vmhellkt	Champion		Champion	N/A	0	unit:vmhellkt@abs=1;modl:-1;csiz:vmssteed+1;cost:model				
+vmhexcha	Champion		Champion	N/A	0	unit:vmhexcha@abs=1;modl:-1;csiz:vmsteed+1;cost:model				
+vmsencha	Champion		Champion	N/A	0	unit:vmsencha@abs=1;modl:-1;cost:model				
+vmghast1	Charnel Ghast		Champion	N/A	0	unit:vmchcg@abs=1;modl:-1;cost:model				
+vmstserg	Domnu		Champion	N/A	0	unit:vmstdomn@abs=1;modl:-1;cost:model				
+vmvcmark	Marksman		Champion	N/A	0	unit:vmvcmark@abs=1;modl:-1;cost:model				
+vmvcserg	Sergeant		Champion	N/A	0	unit:vmvcserg@abs=1;modl:-1;cost:model				
+vmwinged	Abyssal Terror		Mount	Mon	0	unit:vmwinged@abs=1;slct:heromnt=incl;type:monst;more:save1=incl				
+vmbarnig	Barded Nightmare		Mount	Mnt	24	unit:vmmarem@per=1;slct:heromnt=incl;more:save2=incl;stxt:Type="Ca";xcst:20-unit=vmnecmas;xcst:16-unit=vmvamp;xcst:16-unit=vmmanni;over:vm2ndwt=disable				
+vmmarem	Barded Nightmare		Mount	Mnt	0	unit:vmmarem@per=1;slct:heromnt=incl;type:mnted;more:save2=incl;stxt:Type="Ca"			Mounted movement; Mannfred's mount	
+vmcartmt	Cadaver Wagon		Mount	Mnt	100	unit:vmcorpne@abs=1;unit:xvmcoca2@abs=1;slct:heromnt=incl;more:save1=incl				
+vmcoven	Floating Court		Mount	Mon	190	unit:vmcoven@abs=1;slct:heromnt=incl;type:monst;more:save1=incl				
+vmhellcm	Hellsteed		Mount	Mnt	30	unit:vmhellst@abs=1;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca"				
+vmhellh	Hellsteed		Mount	Mnt	20	unit:vmhellst@abs=1;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca";over:vmdreadn=delete				
+vmhellst	Hellsteed		Mount	Mnt	30	unit:vmhellst@abs=1;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca";over:vm2ndwt=disable				
+vmabyssl	Monstrous Revenant		Mount	Mon	100	unit:vmabyssl@abs=1;slct:heromnt=incl;stxt:Type="MC";xcst:120-unit=vmvamp				
+vmnatarm	Natural Armour	NatAr	Mount	N/A	10	base:Sv-1				
+vmhsteed	Nightmare		Mount	Mnt	8	unit:vmhmare@per=1;slct:heromnt=incl;type:mnted;more:save1=incl;stxt:Type="Ca";xcst:15-unit=vmnecro			Mounted movement;	
+vmlsteed	Nightmare		Mount	Mnt	20	unit:vmhmare@per=1;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca";over:vmdreadn=delete			Mounted movement;	
+vmmareh	Nightmare		Mount	Mnt	8	unit:vmhmare@per=1;slct:heromnt=incl;type:mnted;more:save1=incl;stxt:Type="Ca";over:vmdreadn=delete			Mounted movement;	
+vmnmare	Nightmare		Mount	Mnt	15	unit:vmhmare@per=1;slct:heromnt=incl;type:mnted;more:save1=incl;stxt:Type="Ca"			Mounted movement;	
+vmvsteed	Nightmare		Mount	Mnt	0	unit:vmhmare@per=1;utyp:dreadknight;slct:heromnt=incl;slct:bardhro=incl;type:mnted;chld:mount@Mv-1;more:save2=incl;stxt:Type="Ca"			Barded nightmare	
+vmssteed	Skeletal steed		Mount	Mnt	0	unit:vmssteed@per=1;slct:heromnt=incl;more:save2=incl;stxt:Type="Ca"				
+vmsteed	Skeletal steed		Mount	Mnt	20	unit:vmsteed@per=1;slct:heromnt=incl;more:save1=incl;stxt:Type="Ca";xcst:15-unit=vmnecro;xcst:25-unit=vmwigld;xcst:10-unit=vmwraith;show:vmnatarm				
+vmterror	Titanic Bat		Mount	Mon	200	unit:vmterrom@abs=1;slct:heromnt=incl;type:monst				
+vmblmare	Undead Mount		Mount	N/A	0	unit:vmblmare@per=1			Mounted movement;	
+vmwing2	Winged Nightmare		Mount	Mon	0	unit:vmwinged@abs=1;slct:heromnt=incl;type:monst;lglx:mode=b				
+vmdraco	Zombie Dragon		Mount	Mon	280	unit:vmdraco@abs=1;slct:heromnt=incl;type:monst				
+vmcoven2	Coven Crew		Crew	N/A	0	unit:xvmcove1@per=2;unit:xvmmort3@per=1;hide				
+vmcoven3	Coven Crew		Crew	N/A	0	unit:xvmcove1@per=3;unit:xvmmort3@per=1;hide				
+vmmortcr	Mortis Crew		Crew	N/A	0	unit:xvmmort1@per=1;unit:xvmmort3@per=1;hide				
+vmzmcre2	Zombie Crew		Crew	N/A	0	hide;unit:vmzmcrew@abs=5				
+vmzmcrew	Zombie Crew		Crew	N/A	0	hide;unit:vmzmcrew@abs=3				
+vmbline1	Blood Drake	BD	Priority1	Mus	35	type:bloodwarriorbl;unam:+" of Blood Drakes";more:vmfpa=auto;base:WS+2;over:vm2lvlup=delete;over:halrd=delete;over:lahro5=delete;over:hahro=delete;over:lahro1=delete;over:vmlore3=delete;more:mgnecro=auto;xcst:25-unit=vmvamp;type:bloodlinearmy;over:vm3lvl75=delete;type:notstr;type:notcar;type:notnec;type:notlah;type:notany	Vampire cannot refuse a challenge, and must issue one if no other Blood Drake Vampire in the same close combat does.		Vampires with this Bloodline have a Plate Armour, +2 Weapon Skill, but cannot only purchase one Magic Level.	
+vmntable	Necro Spell		Priority1	N/A	0	tabl:1=vm1spell,2=vm2spell,3=vm3spell-nobrackets				
+vmbline0	No Bloodline		Priority1	N/A	0	type:nobloodline;type:notstr;type:notnec;type:notbld;type:notcar;type:notlah				
+vmbline5	Nosferatu	Nosfe	Priority1	N/A	140	type:nosferatubl;unam:+" Nosferatu";base:WS-2;base:At-1;over:halrd=delete;over:hahro=delete;over:lahro=delete;over:lahro1=delete;over:shlrd=delete;over:shhro=delete;slct:vmnomgar=auto;type:bloodlinearmy;show:mg4lvl;slct:mg4lvl=incl;over:mg1lvl=delete;over:vm3lvl50=delete;xcst:80-unit=vmvamp;show:mg2lvl;slct:mg2lvl=incl;over:vm1lvlup=delete;over:vm2lvlup=delete;over:mg2lvl30=delete;over:vm3lvl75=delete;show:vmlore3;show:vmalore;show:vmgen;show:vmgen2;type:notstr;type:notcar;type:notlah;type:notbld;type:notany	Vampire Generates an additional spell and has the Awaken (Zombies; Skeletons) Special Rule. A Nosferatu Vampire may generate spells from more than one Path of Magic. Which Paths and how many spells from each Path will be generated has to be stated on the army list.		The Vampire is a Level 4/2 Wizard, has -1 Attack, -2 Weapon Skill, cannot take any kind of armour. 	
+vmbline4	Sisterhood of the Silver Keep	SilKe	Priority1	N/A	35	type:silverkeepbl;unam:+"ess of the Silver Keep";base:BS+2;base:At-1;more:throww=incl;xcst:25-unit=vmvamp;type:bloodlinearmy;show:vmcoven;type:notstr;type:notcar;type:notnec;type:notbld;type:notany	Supernatural Reflexes. If the Vampire is not wearing any Armour it also has the Distracting special rule.		The Vampire has +2 Ballistic Skill, -1 Attack and Throwing Weapons.	
+vmbline2	Strigoi	Str	Priority1	N/A	50	type:strigoibl;unam:+" of Strigoi";show:vmterror;over:vmdraco=delete;over:vmsteed=delete;over:vmabyssl=delete;over:halrd=delete;over:hahro=delete;over:lahro5=delete;over:lahro1=delete;over:vmshield=delete;slct:vmnomgar=auto;xcst:40-unit=vmvamp;base:Wo+1;over:vmlore3=delete;show:vmlore5;over:vm2lvlup=delete;type:bloodlinearmy;over:vm3lvl75=delete;over:vmstand=delete;type:notcar;type:notnec;type:notlah;type:notbld;type:notany	Regeneration (6+). Hatred.		The Vampire’s model has +1 Wound, Regeneration (6+) and Hatred. The Vampire cannot select any mount except for the Titanic Bat, may not wear any kind of Armour, can only purchase a single additional magic Level and must use Path of Beast or Necromancy.	
+vmbline3	Von Castelstein	VonC	Priority1	N/A	25	type:voncastlesteinbl;unam:+" Von Castelstein";xcst:20-unit=vmvamp;type:bloodlinearmy;type:notstr;type:notnec;type:notlah;type:notbld;type:notany	The presence of one or more Von Castelstein Vampires grants +1 Combat Score. Undead units joined by the Vampire may march as if they had the Vampiric Special Rule. The range of Inspiring Presence and Hold Your Ground of the vampire is increased by 6”. In addition, the Vampire may reroll failed Hunger rolls.			
+vmshow	All Lore Spells		Priority2	N/A	0	take:vmnecroa;take:vmnecro0;take:vmnecro1;take:vmnecro2;take:vmnecro3;take:vmnecro4;take:vmnecro5;take:vmnecro6;stat:Wz=8;spec:+spel;item:+8			Shows all spells for this lore, and lists short descriptions on the roster.	
+vmwagon4	Endless Horde	EnHor	Priority2	N/A	25		The Cadaver Wagon gains the War Platform special rule but may only join units of Zombies. The Cadaver Master may issue challenges as if it was the Champion of any Zombie unit it joins.			
+vmechart	Evocation of Souls Chart	EoS	Priority2	N/A	0	take:vmchart1;take:vmchart2;take:vmchart3;take:vmchart4;take:vmchart5;item:+5				
+vmfull	Full Spell Lists		Priority2	N/A	0	more:vmnecroa=incl;more:vmnecro0=incl;more:vmnecro1=incl;more:vmnecro2=incl;more:vmnecro3=incl;more:vmnecro4=incl;more:vmnecro5=incl;more:vmnecro6=incl			Appends full descriptions of all spells for this Lore to the roster.	
+vmmiscas	Miscast Table	MSCT	Priority2	N/A	0	apnd:foot		Roll 2d6. No armour saves allowed against hits suffered; 2: Caster removed from table, models in base contact get S10 hit; 3-4: Caster and models in base contact get a S6 hit; 5-6: Opponent may cast own spell for free at basic casting value; 7: Caster gets S2 hit and skips rest of magic phase; 8-9: Caster gets S4 hit, all spells in play are dispelled, all stored magic dice are lost; 10-11: Caster gets a S8 hit and loses a magic level (spell lost = spell cast); 12: Spell is cast with Irresistible Force and caster forgets it	Appends miscast table to army list	
+vmnecros	Necro		Priority2	N/A	0	hide;show:vmnecro0;show:vmnecro1;show:vmnecro2				
+vmwailsp	Wailing Spirit	WailS	Priority2	N/A	30	unam:="Hero: Wailing Spirit";over:vmgw=delete;base:At=1	Otherworldly Scream (2,8) (Wailing Spirit only): may perform a shooting attack with range 8”. It can be used after marching and hits automatically. The target suffers 2 hits with strength equal to 8 plus the current number of Wounds of the shooting part of model. When rolling to wound, compare the Strength with the target’s Leadership instead of Toughness. Wounds caused are Armour Piercing (6) and Magical Attacks. In the combat phase the model may replace its normal attacks to instead scream at one unit that it is in base contact with it.			
+vmsave5	Ward Save 5+		Priority2	N/A	0	utyp:!vmthrall;base:Wsv=5;hide;type:ward				
+vmsave6	Ward Save 6+		Priority2	N/A	0	utyp:vmthrall;base:Wsv=6;hide;type:ward				
+vmwagon3	Anti-Crumble Aura	AntCr	Priority3	Oth	20		Units within 6” of one or more models with this Special Rule suffer 1 less Wound than they normallywould due to the Unstable, Ashes to Ashes special rules. Models with this special rule cannot benefit from the effects of this special rule.			
+vmcoach	Coach Crew		Priority3	N/A	0	unit:xvmwrait@per=1;unit:xvmawvam@per=1;unit:vmhmare@per=2;hide				
+vmcccrew	Corpse Cart Crew		Priority3	N/A	0	unit:xvmcoca2@per=1;hide				
+vmcohel	Hellish vigour		Priority3	N/A	0	hide	^	^	Bound spell PL3; All friendly units in 6" ASF;	
+mvabyss4	Hunger (5+)	Hun5	Priority3	N/A	15	type:abyssupg			You can only select 2 of the special options. This in NOT VALIDATED by army builder.	
+vmbfire	Infernal Pyre	Pyre	Priority3	Oth	10		Enemy Wizards within 24” of one or more Cadaver Wagons with this upgrade suffer a -1 modifier to all their casting attempts.			
+vmterro1	Infested	Inf	Priority3	Rng	10		All units in base contact at the moment of his death suffer 3D6 S2 hits	^		
+vmabyss2	Lethal Strike	LethS	Priority3	N/A	10	type:abyssupg			You can only select 2 of the special options. This in NOT VALIDATED by army builder.	
+vmnecroa	LoreAttribute:Curse of Undeath		Priority3	N/A	0	apnd:foot;hide;utyp:vmnecro	When a spell form a Lore of Vampires is successfully cast, the Wizard or another friendly model within 12" recovers 1 Wounds.			
+vmmasdea	Master of the Dead	MoTD	Priority3	N/A	20	type:MasteroftheDead	The Necromancer can use Invocation of Nehek to increase Skeleton Warriors beyond their starting size.			
+vmnecro0	Necro0: Invocation of Nehek		Priority3	N/A	0	apnd:foot;hide;utyp:vmnecro;type:Nehek	Signature Spell. Augment. 6+ to Cast, Range 6"/12+ to Cast, Range 12"/18+ to Cast, Range 18": target all friendly Undead units within range, Infantry recover D6 plus caster's Wizard level in Wounds (roll separately for each unit); other troop types recover 1+Wiz.lvl Wounds and Vampiric, Etheral and Large Targets regain 1 Wound. This spell cannot heal characters or their mounts.			
+vmnecro1	Necro1: Vanhel's Danse Macabre		Priority3	N/A	0	apnd:foot;hide;utyp:vmnecro	Augment. Cast on 6+, Range 12". Friendly Undead unit in close combat may re-roll failed To Hit rolls until start of caster's next Magic phase. If target is not engaged in CC it may move up to 8" in the same way as in Remaining Moves. OR Cast on 12+ to target ALL fiendly Undead units within 12".			
+vmnecro2	Necro2: Hellish Vigour		Priority3	N/A	0	apnd:foot;hide;utyp:vmnecro	Augment. Cast on 8+, Range 12". Friendly Undead unit in may re-roll failed To Wound rolls in Close Combat until start of caster's next Magic phase. OR Cast on 16+ to target ALL friendly Undead units within 12".			
+vmnecro3	Necro3: Gaze of Nagash		Priority3	N/A	0	apnd:foot;hide;utyp:vampire	Magic Missile. Cast on 9+, Range 24" OR Cast on 12+, Range 48. Cause 2D6 St4 hits.			
+vmnecro4	Necro4: Raise Dead		Priority3	N/A	0	apnd:foot;hide;utyp:vampire	Cast on 9+, Range 18". Create new unit of 2D6+3 Zombies anywhere within range, all models in unit must be completely within range, facing any direction, at least 1" from another unit, buildings and impassable terrain, with front rank of at least 5 models. OR Cast on 14+ to summon 2D6+3 Skeleton Warriors instead of Zombies.			
+vmnecro5	Necro5: Curse of Years		Priority3	N/A	0	apnd:foot;hide;utyp:vampire	Hex. Remains in Play. Cast on 12+, Range 18". Roll D6 for every model in target unit - on a roll of '6' that model suffers a Wound with no armour saves. At the end of next Magic phase roll again, this time models suffer a Wound on the roll of 5+, and so on, to a maximum of 2+.			
+vmnecro6	Necro6: Wind of Death		Priority3	N/A	0	apnd:foot;hide;utyp:vampire	Magical Vortex. Remains in Play. Cast on 15+. Small template. Nominate direction, roll artillery dice and multiply result by 3. Any unit beneath or passed over takes D6 S3 hits per rank, with no armour saves. On missfire center template on the caster and scatter it D6". In subsequent turns vortex travels D6" in random direction. OR Cast on 25+ to use large template and increase Strength to 4.			 
+vmabyss1	Poisoned Attacks	Pois	Priority3	N/A	5	type:abyssupg			You can only select 2 of the special options. This in NOT VALIDATED by army builder.	
+vmterro2	Rancid Maw	Pois	Priority3	Rng	15		Poisoned Attacks	^		
+vmflagbk	The Flag of Blood Keep		Priority3	N/A	75	cost:single;spec:+stnd;take:vmbanblo;over:stmg10=delete;more:st10=auto			4+ ward against any ranged attacks.	
+vmloadst	Unholy Convergence	UnhCo	Priority3	Oth	15		Friendly Wizards Raise 2 additional wounds to targets of Small height, or 1 additional wound to targets of Medium height, when casting Invocation of the Undead within 6” of one or more Cadaver Wagons with this upgrade.			
+vmbscryp	Battlescroll - Crypt Scavenger		Special	N/A	0	unit:xbsnecro@abs=1;unit:xbsghoul@var;unit:xbshorro@var				
+vmbsrest	Battlescroll - Restless Dead		Special	N/A	0	unit:xbsrest1@abs=1;unit:xbsrest4@var;rept:xbsrest4@3;unit:xbsrest3@var;rept:xbsrest3@1;unit:xbsrest2@var;rept:xbsrest2@1				
+vmplatup	Bloodline Unit (Blood Drake)	PltAr	Special	N/A	15	type:blineunitbd;over:hatrp=delete;more:save1=incl	Plate Armour (Save 4+); Devastating Charge		Bloodline Unit (Blood Drake) upgrade	
+vmbluvc1	Bloodline Unit (Castelstein)	Stu	Special	N/A	30	type:blineunitvc;show:st10;show:mus10	Stubborn special rule.		Bloodline Unit (Von Castelstein) upgrade. 	
+vmsupera	Bloodline Unit (Silver Keep)	SupAu	Special	N/A	25	type:blineunitsk	Supernatural Aura: each time after an Augment spell from Path of Necromancy (including the Curse of Undeath)is resolved against a model with this rule, you may select a single unit within 6” of it. Until the end ofthe following player turn, all undead models in the chosen units have the Supernatural Reflexes special rule.			
+vmblust1	Bloodline Unit (Strigoi)	Van	Special	N/A	0	type:blineunitst;show:st10;show:mus10;show:vmvangua			Bloodline Unit (Strigoi) upgrade. Enables standard bearer and musician.	
+vmabyss5	Fly (8)	Fly8	Special	N/A	40	type:abyssupg			You can only select 2 of the special options. This in NOT VALIDATED by army builder.	
+vmfly8	Fly (8)	Fly8	Special	Oth	15	xcst:40-unit=vmabyssl;xcst:40-unit=vmvargh			Upgrade model to have Fly (8) special rule.	
+vmdragup	Greater Zombie Dragon	DraUp	Special	N/A	40	base:WS+1;base:Sv-1	Innate Defence to (3+) 		The model gets +1 Weapon Skill, increasing the strength of its Innate Defence to (3+) and changing its base size to100x150mm.	
+vmmortom	Infernal Tome	BlaTo	Special	Oth	20		Friendly Wizardswithin 12” of at least oneNecrotic Enginewith Infernal Tome may add +2 to all casting attempts from the Path of Necromancy. Wizards that suffer a miscast within 12” of a Necrotic Engine with Infernal Tome count as having used two additional PDU for their casting roll.			
+vmnostnd	Non battle standard		Special	N/A	0	ichg:75;hide				
+vmrandat	Random Attacks (D6)	RAD6	Special	N/A	0	stxt:At="D6"				
+vmabyss3	Random Attacks (D6+2)	RndAt	Special	N/A	30	stxt:At="D6+2";type:abyssupg			You can only select 2 of the special options. This in NOT VALIDATED by army builder.	
+vmskirmi	Skirmishers	Skirm	Special	N/A	2	type:ghoulskirmishers			Upgrade Ghouls to skirmishers. 	
+vmstomp2	Stomp (D3+1)	Stmp3	Special	Oth	20					
+vmunshie	Unliving Shield	UnlSh	Special	N/A	15	type:unlivingshield	Close Combat attacks allocated against a Necromancer or Necromancer Lords in base to base contact with a model with this special rule must instead be allocated at the model with this special rule if it passes a Weapon Skill test (determine for each attack separately). This ability cannot be used if the Necromancer, Necromancer Lord or the model with this special rule fights in a Challenge.		The Unliving Shield option may only be taken in armies without any character model with the Vampiric special rule.	
+vmvangua	Vanguard	Vang	Special	Oth	20	xcst:2-unit=vmghoul;xcst:2-unit=vmghouls				
+vmmortws	Wailing Spirits (1)	WaSp	Special	Oth	20	over:vmmortcr=delete;unit:xvmmort1@abs=1;unit:xvmmort2@abs=1;unit:xvmmort3@abs=1	All Wizards within 12" of Blasphemous Tome gain +2 to Cast spells from Lore of Vampires. If Wizard miscasts within 12", roll twice on MIscast table, and opponent picks one of the results.			
+^
+vm9mw01	Blade of Red Thirst	weap	MWp	40	1	itst:race=vm		Any Vampire wielding this blade gains Hunger (3+) and may roll 1D6 for each Wound itinflicted when rolling for Hunger. Any excess wounds Raised can be used to Raise wounds on unit that the character is part of.	^	^	8e
+vm9mw02	The Ancient Bow	weap	MWp	45	1	itst:race=vm		Magic Weapon. This is Bolt Thrower Artillery Weapon with the following profile: Range 36”, Strength 6, Armour Piercing (1), Multiple Wounds (D3)	^	^	8e
+vm9ma01	Bloody Hauberk	armr	Arm,MAr	45	1	itst:race=vm;base:Wo+1;base:Sv-3		Plate Armour. Wearer has +1 Wound.	^	^	
+vm9ta01	Nightshroud	ward	Tal	40	1	itst:race=vm&!type=mounted		Enemy models in base contact with wearer, and all models allocating close combat attacks at the wearer, do not gain strength bonuses conferred by mundane or magical weapons.	^	^	8e
+vm9ei01	The Accursed Book	ench	Enc	55	1	itst:race=vm&!type=mounted		Enchanted Item. Wearer and other models on foot in its unit have the Distracting special rule.	^	^	8e
+vm9ai02	Dark Charm	wzrd	Arc	20	1	itst:race=vm		Arcane Item. At the end of any Magic Phase, the wearer can save one of his unused Magic Dice and add it to your pool of Magic Dice in the next Magic Phase (immediately after rolling Winds of Magic).	^	^	8e
+vm9ai01	Unholy Tome	wzrd	Arc	35	1	itst:race=vm		Arcane Item. Bound Spell, Power Level 5. Contains the spell Danse Macabre.	^	^	8e
+vm9ai03	Wand of Dominaton	wzrd	Arc	35	1	itst:race=vm		Arcane Item. Bound Spell, Power Level 3.If cast successfully this item casts an augment, lasts one turn spellwith range 6”.All undead models in target unit gain +1 attack.	^	^	8e
+vm9mb01	Banner of the Barrows	stnd	Std	50	1	itst:race=vm		Barrow Knights, Barrow Guards and Barrow Kings in this unit have +1 to Hit in close combat.	^	^	8e
+vm9mb02	Castlehof Flag	stnd	Std	75	1	itst:race=vm		The unit carrying this banner has Bodyguard (Vampire Count, Vampire Baron), Vampiric Knights carrying this banner have the Stubborn Special Rule instead. All models in the unit carrying this banner also have 4+ Ward Save against all Ranged Attacks.	^	^	8e
+vmnecro0	0: Invocation of the Undead	spel	N/A	0	50	itst:race=vm&type=general		Signature. Augment. 5+ to cast, Range 18" OR 6+ to cast, Range 6", Aura OR 12+ to cast, Range 12", Aura. Target units Raises wounds depending on the value given by its Invocation special rule. A unit that doesn’t have the Invocation special rule cannot be targeted by this spell.	^	^	
+vmchart1	1-3:	spel	N/A	0	50	itst:reg=vmcoach;xtot		Lethal Strike and Multiple Wounds (2; Infantry, War Beast, Cavalry).	^	^	
+vmchart4	10-12: 	spel	N/A	0	50	itst:reg=vmcoach;xtot		The Dark Coach gains Fly (8)	^	^	
+vmchart5	13+	spel	N/A	0	50	itst:reg=vmcoach;xtot		The Dark Coach becomes Ethereal.	^	^	
+vmchart2	4-6:	spel	N/A	0	50	itst:reg=vmcoach;xtot		GrindingAttacks (D3) and Flaming Attacks.	^	^	
+vmchart6	6: Fly	spel	N/A	0	50	itst:reg=vmcoach;xtot		Coach granted the Fly special rule	^	^	
+vmchart3	7-9:	spel	N/A	0	50	itst:reg=vmcoach;xtot		The Dark Coach is now crewed byAwakened Vampire (1) which possesses Hunger (2+).	^	^	
+vmevinfo	Evocation of Death	spel	N/A	0	50	itst:reg=vmcoach;xtot		To resolve this rule the Player must keep track of how many wounds a Dark Coach has caused. Atthe end of each phase of Close Combat, compare this number with the chart belowto determine the level of Escalation of Power that the model has reached. The Dark Coach gains the bonus corresponding to that escalation level as well as the cumulative bonus of each level that precedes it.	^	^	8e
+vm9bl02	Avatar of Death	blln	Vit	30	99	itst:race=vm|type=nobloodline&!(type=strigoibl|type=voncastlesteinbl|type=silverkeepbl|type=nosferatubl);icnt:1;type:thinblood		The Vampire may re-roll to hit and to wound rolls in challenges.	^ 	^	091
+vm9blbd3	Blademaster	blln	Vit	35	99	itst:race=vm|type=nobloodline&!(type=strigoibl|type=voncastlesteinbl|type=silverkeepbl|type=nosferatubl);icnt:1;type:blademaster;base:Sv-1;type:thinblood		The Vampire has the Weapon Master and Lethal Strike special rules. It is equipped with an Additional Hand Weapon, a Halberd, a Great Weapon, Lance and a Shield.	^ 	^	091
+vm9bl07	Commandment	blln	Vit	50	1	itst:race=vm&type=silverkeepbl&!type=Hero		All Rank and File models in any unit joined by the Vampire have Weapon Skill 5. If the Vampire is not engaged in combat itself, it can instead choose to grant this bonus to a single friendly unit within 6”.	^ 	^	8e
+vm9bl01	Crimson Rage	blln	Vit	65	1	itst:race=vm&type=bloodwarriorbl&!type=Hero		For each unsaved wound the Vampire causes, it makes one out of sequence close combat attack. These additional attacks cannot confer more attacks.	^ 	^	091
+vm9bl06	Curse of the Blood	blln	Vit	70	99	itst:race=vm|type=nobloodline&!(type=bloodwarriorbl|type=voncastlesteinbl|type=silverkeepbl|type=nosferatubl);icnt:1;type:thinblood		The Vampire has Regeneration (5+), if it already has Regeneration its save is increased by 2 points ( to a max. of 4+). All Ghouls is the same unit as the Vampire and any mount ridden by the Vampire has Regeneration (6+), if they already have Regeneration their save is increased by 1 point (to a max. of 4+).	^ 	^	091
+vm9bl03	Dark Storm	blln	Vit	50	1	itst:race=vm&type=voncastlesteinbl&!type=Hero		All units within 12” have the Blurry Special Rule. Once per game the Vampire can grant the Lighting Attacks, Armour Piercing (2) to itself and all models part of the same unit. This ability can be activated at the start of any combat round and lasts until the end of the player turn.	^ 	^	8e
+vm9bl08	Enchanting Dance	blln	Vit	25	99	itst:race=vm|type=nobloodline&!(type=strigoibl|type=voncastlesteinbl|type=bloodwarriorbl|type=nosferatubl);icnt:1;type:thinblood		Enemy units in base contact with one or more Vampire with this power have -1 Leadership. 	^ 	^	8e
+vm9blst3	Flying Terror	blln	Vit	65	99	itst:race=vm|type=nobloodline&!(type=bloodwarriorbl|type=voncastlesteinbl|type=silverkeepbl|type=nosferatubl|type=Hero|type=mounted);icnt:1;type:thinblood		Models on foot only. The Vampire has the Thunderous Charge and Fly (8) special rules. 	^ 	^	8e
+vm9blst4	Flying Terror	blln	Vit	40	99	itst:race=vm|type=nobloodline&!(type=bloodwarriorbl|type=voncastlesteinbl|type=silverkeepbl|type=nosferatubl|type=Lord|type=mounted);icnt:1;type:thinblood		Models on foot only. The Vampire has the Thunderous Charge and Fly (8) special rules. 	^ 	^	8e
+vm9bl10	Forbidden Path	blln	Vit	20	99	itst:race=vm|type=nobloodline&!(type=strigoibl|type=voncastlesteinbl|type=silverkeepbl|type=bloodwarriorbl);icnt:1;type:forbidden;type:thinblood		The Vampire may generate spells from of one of the eight Battle Magic Paths, except Life. The General can take this power but must exchange one of his spells for Invocation of Undead.	^ 	^	8e
+vm9bl05	Ghoul King	blln	Vit	65	1	itst:race=vm&type=strigoibl&!type=Hero		The Vampire has Poisoned Attacks and Armour Piercing (1). All Ghouls in the same unit as the Vampire have Hatred and Armour Piercing (1).	^ 	^	091
+vm9bl09	Master of Black Arts	blln	Vit	50	1	itst:race=vm&type=nosferatubl&!type=Hero		At the start of each Magic Phase,the Player may nominate an enemy Wizard within 18” of the Vampire andwithin Line of Sight. That Wizard cannot add his magic level or use Aided Dispel against spells cast by this Vampire during this phase.	^ 	^	8e
+vm9bl04	Master of the Night	blln	Vit	20	99	itst:race=vm|type=nobloodline&!(type=strigoibl|type=bloodwarriorbl|type=silverkeepbl|type=nosferatubl);icnt:1;type:thinblood		The Vampire has the Awaken (Zombies; Direwolves; Bat Swarms; Great Bats) special rule. The Vampire and any unit joined by the Vampire has the Swiftstride special rule.	^ 	^	8e
+vm9blsk3	Mesmerizing Glance	blln	Vit	25	99	itst:race=vm|type=nobloodline&!(type=strigoibl|type=voncastlesteinbl|type=bloodwarriorbl|type=nosferatubl);icnt:1;type:thinblood		Units charging at or fleeing from units containing at least one Vampire with this power roll an additional dice for their charge/flee move and discard the highest.	^ 	^	8e
+vm9blvc3	Refined Taste	blln	Vit	25	99	itst:race=vm|type=nobloodline&!(type=strigoibl|type=bloodwarriorbl|type=silverkeepbl|type=nosferatubl);icnt:1;type:thinblood		A Vampire with this power has the Hunger (2+) Special Rule. If mounted on a Large Target, it instead has Hunger (5+).	^ 	^	8e
+vm9blno3	Royal Blood	blln	Vit	25	99	itst:race=vm|type=nobloodline&!(type=strigoibl|type=voncastlesteinbl|type=silverkeepbl|type=bloodwarriorbl);icnt:1;type:thinblood		Non-vortex spells cast by the Vampire gain an additional 3'' range, increased to an additional 6'' rage for Damage spells.	^ 	^	8e
+vmnecro1	1: Vanhel's Danse Macabre	unk2	N/A	0	50	itst:race=vm|race=un;xtot		Augment. Cast on 6+, Range 12". Friendly Undead unit in close combat may re-roll failed To Hit rolls until start of caster's next Magic phase. If target is not engaged in CC it may move up to 8" in the same way as in Remaining Moves. OR Cast on 12+ to target ALL fiendly Undead units within 12".	^	^	
+vmnecro2	2: Hellish Vigour	unk2	N/A	0	50	itst:race=vm|race=un;xtot		Augment. Cast on 8+, Range 12". Friendly Undead unit in may re-roll failed To Wound rolls in Close Combat until start of caster's next Magic phase. OR Cast on 16+ to target ALL friendly Undead units within 12".	^	^	
+vmnecro3	3: Gaze of Nagash	unk2	N/A	0	50	itst:race=vm|race=un;xtot		Magic Missile. Cast on 9+, Range 24" OR Cast on 12+, Range 48. Cause 2D6 St4 hits.	^	^	
+vmnecro4	4: Raise Dead	unk2	N/A	0	50	itst:race=vm|race=un;xtot		Cast on 9+, Range 18". Create new unit of 2D6+3 Zombies anywhere within range, all models in unit must be completely within range, facing any direction, at least 1" from another unit, buildings and impassable terrain, with front rank of at least 5 models. OR Cast on 14+ to summon 2D6+3 Skeleton Warriors instead of Zombies.	^	^	
+vmnecro5	5: Curse of Years	unk2	N/A	0	50	itst:race=vm|race=un;xtot		Hex. Remains in Play. Cast on 12+, Range 18". Roll D6 for every model in target unit - on a roll of '6' that model suffers a Wound with no armour saves. At the end of next Magic phase roll again, this time models suffer a Wound on the roll of 5+, and so on, to a maximum of 2+.	^	^	
+vmnecro6	6: Wind of Death	unk2	N/A	0	50	itst:race=vm|race=un;xtot		Magical Vortex. Remains in Play. Cast on 15+. Small template. Nominate direction, roll artillery dice and multiply result by 3. Any unit beneath or passed over takes D6 S3 hits per rank, with no armour saves. On missfire center template on the caster and scatter it D6". In subsequent turns vortex travels D6" in random direction. OR Cast on 25+ to use large template and increase Strength to 4.	^ 	^	
+vmnecroa	Attribute:Curse of Undeath	unk2	N/A	0	50	itst:race=vm|race=un;xtot		When a spell form a Lore of Vampires is successfully cast, the Wizard or another friendly model within 12" recovers 1 Wounds.	^	^	
+vmaura	Aura of Dark Majesty	unk2	N/A	25	50	icnt:1;itst:race=vm		Enemy units within 6" of 1 or more Vampires with this ability suffer -1 to their leadership (cumulative with other modifiers) 	^	^	8e
+vmbarrow	Banner of the Barrows	unk2	Std	50	1	lglx:race=vm|race=un	bsb=incl	GG, BK, Wightkings and Krell in the unit gain +1 to hit. 	^	^	8e
+vmbeguil	Beguile	unk2	N/A	15	50	icnt:1;itst:race=vm		Select one model in BtB at beginning of CC phase (after challenges), it must pass Ld at -3 or will re-roll successful To Hit roll that phase.	^	^	8e
+vmarkhan	Book of Arkhan	unk2	Arc	25	1	itst:(race=vm&!reg=vmcmani)		Bound Spell (Power Level 3). Casts Vanhel's Danse Macabre spell.	^	^	8e
+vmcurse	Curse of the Revenant	unk2	N/A	55	50	icnt:1;itst:race=vm;stat:Wo+1		Gains 1 Wound	^	^	8e
+vmnoble	Dark Acolyte	unk2	N/A	25	50	icnt:1;stat:Wz+1;spec:+spel;itst:race=vm		Vampire adds D3 to casting total whenever he successfully casts Invocation of Nehek.	^	^.	8e
+vmmdread	Dread Knight	unk2	N/A	10	50	icnt:1;itst:race=vm;stat:WS+2		Vampire has +2 WS and must always issue and accept challenges, unless there is Krell or character with higher Ld in the same combat.	^	^	8e
+vmfearin	Fear Incarnate	unk2	N/A	20	50	icnt:1;itst:race=vm		Enemy units must re-roll successful Fear test against Vampire or his unit. If the model taking the test is in range of friendly BSB, there is no re-roll at all.	^ 	^	8e
+vmbat	Flying Horror	unk2	N/A	30	50	icnt:1;itst:(race=vm&!type=mounted)		Fly special rule.	^	^	8e
+vmforlor	Forbidden Lore	unk2	N/A	25	50	icnt:1;type:forbidden;itst:(race=vm&!type=general)		Vampire can choose any of the rulebook Lores, except Life Lore.	^	^	8e
+vmblacks	Master of the Black Arts	unk2	N/A	75	50	icnt:1;itst:race=vm		Player can re-roll one of the dice when he is determining Winds of Magic.	^	^	8e
+vmmasstr	Master Strike	unk2	N/A	15	50	icnt:1;itst:race=vm		May exchange all attacks into one with Heroic Killing Blow.	^	^	8e
+wmnight	Nightshroud	unk2	MAr	40	1	itst:race=vm&!reg=vmmanni&!reg=vmcmani;base:Sv-1		+1 Armour save. Necromancers can use it. Enemy models in BtB lose all Strength bonuses from weapon (even magical ones) and gain Always Strikes Last special rule.	^	^	
+vmquickb	Quickblood	unk2	N/A	30	50	icnt:1;itst:race=vm		Always Strikes First.	^	^	8e
+vmredfur	Red Fury	unk2	N/A	50	50	icnt:1;itst:race=vm		Each unsaved wound dealt generates an extra attack, these extra attacks cannot generate extra attacks. 	^	^	8e
+vmflamin	Rod of Flaming Death	unk2	Enc	40	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)		Bound Spell (Powel Level 3), Rng 18" Magic Missile, D6 St4 hits (Flaming Attacks), units suffering at least one Wound take Panic test. If target moves in its next turn, every model suffers S4 hit, and spell ends. If target does not move next turn, spell ends at the start of caster's next Magic phase.	^	^	8e
+vmscab	Skabscrath	unk2	MWp	75	1	itst:(race=vm&!reg=vmmanni&!reg=vmcmani);stat:At+1		Devastating Charge. Frenzy. Flaming Attacks. Death Shriek. If the bearer does not kill an enemy model in close combat for the entire battle, he is removed as casualty at the end of the game.	^	^	8e
+vmdamn	Staff of Damnation	unk2	Arc	40	1	itst:(race=vm&!reg=vmcmani)		Bound Spell (Power Level 4). Augment. All friendly Undead units within 6" gain Extra Attack until start of bearer's next Magic phase.	^	^	8e
+vmmcreat	Summon Creatures of the Night	unk2	N/A	10	50	icnt:1;itst:race=vm		May use Invocation of Nehek on Dire Wolves, Bat Swarms and Fell Bats to increase them beyond starting size.	^	^	8e
+vmseterr	Supernatural Horror	unk2	N/A	25	50	itst:race=vm;icnt:1		Cause Terror	^	^	8e
+vmperiap	The Black Periapt	unk2	Arc	55	1	itst:(race=vm&!reg=vmcmani);icnt:1		Allows bearer to save two of his own unused dice at the end of any Magic phase to be added to the pool in the next Magic phase.	^	^	8e
+vmcursed	The Cursed Book	unk2	Arc	35	1	itst:race=vm		At the beginning of bearer's Magic phase, the bearer may choose sacrifice D3 power dice, and then roll D6 on the chart. Spell is cast at its basing casting value: 1-Miasma (Shadow), 2-Enfeebling Foe (Shadow), 3-Withering (Shadow), 4-Soulblight (Death), 5-Doom&Darkness (Death), 6-Curse of Midnight Wind (Heaven).	^	^	8e
+vmbanblo	The Flag of Blood Keep	unk2	Std	75	1	itst:reg=vmblkeep	bsb=incl	4+ ward against any ranged attacks.	^	^	8e
+vmscream	The Screaming Banner	unk2	Std	25	1	lglx:race=vm|race=un	bsb=incl	Enemy units taking Fear test caused by unit roll one extra dice and discard lowest.	^	^	8e
+vmaccurs	Accursed Armour	plaq	Arm,MAr	25	1	itst:race=vm&!type=necro&!reg=vmmanni&!reg=vmcmani;base:Ws-3;base:In-3;base:To+1;base:Sv-2		Heavy Armor -3 WS, -3I +1T.	^ 	^	
+vmanight	Armour of Night	plaq	Arm,MAr	25	1	itst:(race=vm&!(type=mounted|type=necro)&!reg=vmmanni&!reg=vmcmani);base:Sv-2		On foot only, Heavy Armor if wearer is on his own enemies suffer an additional -2 to hit penalty when shooting at him	^	^	
+vmbale	Balefire Spike	plaq	MWp	10	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)		Lance, attacks are flaming	^	^	
+vmbanfir	Banner of Hellfire	plaq	Std	10	1	lglx:race=vm	bsb=incl	Unit has magical flaming attacks.	^	^	
+vmdead	Banner of the Dead Legion	plaq	Std	25	1	lglx:race=vm	bsb=incl	Unit counts as having twice the US as it actually does	^	^	
+vmendles	Banner of the Endless Nightmare	plaq	Std	25	1	lglx:race=vm	bsb=incl	The unit may claim up to +4 combat res from ranks if they have the models.	^	^	
+vmcadave	Cadaverous Cuirass	plaq	Arm,MAr	15	1	itst:type=vampire&!reg=vmmanni&!reg=vmcmani;base:Sv-2		Heavy armour, immune to KB and Poison.	^	^	
+vmgemlah	Crimson Gem of Lahmia	plaq	Arc	20	1	itst:(race=vm&type=vampire&!reg=vmcmani);icnt:1		At anytime during the magic phase the bearer may expend one wound to gain a power die. May be done multiple times in a phase and no saves of any kind are allowed	^	^	
+vmdamned	Crown of the Damned	plaq	Tal	35	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)	wsv4=incl,aws4=incl	Ward Save 4+.  Wearer is subject to Stupidity	^	^	
+vmbancur	Cursed Pennant of Mousillon	plaq	Std	25	1	lglx:race=vm	bsb=incl	Unit claiming banner after killing your unit takes d6 st4 hits. If they hold onto the banner they take d6 str3 hits every turn. The banner may be dropped (losing victory points) to avoid the second effect.	^	^	
+vmdread	Dreadlance	plaq	MWp	60	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)		Lance, attacks automatically hit.	^	^	
+vmfrosty	Frostblade	plaq	MWp	100	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)		Model who suffers 1 or more wounds, after saves, from the Frostblade loses all remaining wounds	^	^	
+vmhanddu	Hand of Dust	plaq	Bnd,Enc	50	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)		Bound 3; Inflicts 2d6 str 5 hits to one unit in BtB contact with bearer as shooting. Each use roll a die, on a 1 the item may not be used again this battle	^	^	
+vmcomman	Helm of Commandment	plaq	Enc	30	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)		If wearer is not in combat one friendly Undead unit within 12" (not mounts) may use bearer weapon skill.	^	^	
+vmvengea	Icon of Vengeance	plaq	Std	25	1	lglx:race=vm	bsb=incl	Unit does not crumble when general dies	^	^	
+vmstrigo	Royal Standard of Strigos	plaq	Std	35	1	lglx:race=vm	bsb=incl	Unit hates all enemies	^	^	
+vmscept	Sceptre de Noirot	plaq	Arc	25	1	icnt:1;itst:(race=vm&!reg=vmcmani)		Bearer raises d3+9 zombies with raise dead. 	^	^	
+vmbandea	Standard of Everlasting Death	plaq	Std	15	1	lglx:race=vm	bsb=incl	suffer one fewer casualty from lost combat on a 4+	^	^	
+vmbanhel	Standard of Hellish Vigor	plaq	Std	25	1	lglx:race=vm	bsb=incl	Unit can march as if a Vampire was within 6"	^	^	
+vmkings	Sword of Kings	plaq	MWp	25	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)		Killing blow (5+ for wight kings)	^	^	
+vmdrakho	The Drakenhof Banner	plaq	Std	125	1	lglx:race=vm	bsb=incl	Unit gains regeneration	^	^	
+vmgembld	The Gem of Blood	plaq	Tal	25	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)		One Use Only: After 1st Wo in CC, Before saves, KB, etc.  Roll a die, on 2+ wound is rebounded onto model causing it (no armour saves).  On 1, bearer suffers 2 Wo instead of 1 (no armour saves).  One use only.	^	^	
+wmwbhau	Walach's Bloody Hauberk	plaq	Arm,MAr	45	1	itst:(race=vm&!type=necro&!reg=vmmanni&!reg=vmcmani);base:Wsv=5;base:Sv-3	wsv5=incl,aws5=incl	4+ Armour save and 5+ Ward save	^	^	
+vmwonder	Wristbands of Black Gold	plaq	Tal	30	1	lglx:race=vm;itst:(race=vm&!reg=vmmanni&!reg=vmcmani)		Ward Save 3+ against any type of ranged attack.	^	^	
+vmtmple	Armour of Templehof	spec	Arm,MAr	0	1	itst:reg=vmcmani;base:Sv-2;stat:Wo+2		Heavy Armor, Wearer gains 2 wounds.	^ 	^	8e
+vmkrell2	Armour of the Barrows	spec	Arm,MAr	0	1	itst:reg=vmkrell|reg=unkrell;base:Sv=4		Armour Save 4+. If wounding hit from magic weapon is saved by the Armour, that weapon loses its magical abilities and becomes normal weapon of its type.	^	^	8e
+vmkrell1	Black Axe of Krell	spec	MWp,M2H	0	1	itst:reg=vmkrell|reg=unkrell;stat:St+2		Great Weapon. Multiple Wounds (D3). Models wounded must roll D6 at the start of each of its subsequent turns. If the result is higher than number of remaining Wounds, model suffers additional Wound with no armour saves.	^	^	8e
+vmchalic	Blood Chalice of Bathori	spec	Tal	0	1	itst:reg=vmisabel		Isabella or another Vampiric character in the same unit may drink from the Chalice at the start of each friendly magic phase and be healed one Wound.	^	^	8e
+vmblood	Blood Drinker	spec	MWp	40	1	itst:reg=vmvlad|reg=unvlad;stat:St+1		+1 Strength. The Hunger restores Wounds on 4+.	^	^	8e
+vmkemm1	Chaos Tomb Blade	spec	N/A	0	1	stat:At+2;itst:reg=vmkemmle		+2 Attacks. If he is in the regiment of Skeleton Warriors or Grave Guard, for each model he slays in close combat, an extra model is added to his unit.	^	^	8e
+vmkemm2	Cloak of Mists and Shadows	spec	Tal	0	1	itst:reg=vmkemmle		At the beginning of your turn choose either Fly or Etheral special rule. Kemmler has this rule until start of your next turn.	^	^	8e
+vmkemm3	Skull Staff	spec	Arc	0	1	itst:reg=vmkemmle		+1 dispelling rolls. At the beginning of your Magic Phase opponent must declare all of his magic items within 12" of Kemmler.	^	^	8e
+vmunpowr	Sword of Unholy Power	spec	MWp	0	1	itst:(reg=vmmanni|reg=vmcmani)		For each unsaved would caused by the sword Mannfred gains 1 extra dice in the next magic phase.	^	^	8e
+vmwalden	Sword of Waldenhof	spec	N/A	0	1	itst:(reg=vmkonrad);stat:At+1		Multiple Wounds (2). Paired Weapon.	^	^	8e
+vmtalon	Tallisman of Lycni	spec	Enc	10	1	itst:(race=vm&type=vampire&!reg=vmmanni&!reg=vmcmani);base:Mv=9		Move 9	^	^	
+vmcarstn	The Carstein Ring	spec	Tal	0	1	itst:reg=vmvlad|reg=unvlad		Ward Save 4+. First time Vlad is killed, on 2+ he returns to life with 1 Wound and is placed in front rank of friendly unit within 12" of the point he fell. If no such unit exists, he is removed as casualty.	^	^	8e
+^
+^
+vmtallow	Allow armour		Priority	N/A	0	zspc:+armr				
+vmtarm	Heavy Armour		Priority	Arm	0	zsta:Sv-2;zspc:-armr				
+vmtshd	Shield		Priority	Shd	0	zsta:Sv-1;ztyp:unmod;zspc:+rarm				
+^
+vmcaval	hatrp	appl
+vmcaval	vmlance	incl
+vmcaval	mus10	cost
+vmcaval	shwtrp	appl
+vmcaval	stmg10	cost
+vmcaval	vmssteed	appl
+vmcaval	vmhellkt	cost
+vmcoach	vmcoach	appl
+vmcount	mg1lvl	incl
+vmcount	mgfull	hide
+vmcount	mgshow	hide
+vmcount	vmlore3	cost
+vmcount	vmgen	cost
+vmcount	mgmiscas	cost
+vmcount	vmdraco	cost
+vmcount	halrd	cost
+vmcount	vmgw	cost
+vmcount	vmsteed	cost
+vmcount	vmabyssl	cost
+vmcount	heromnt	hide
+vmcount	vmshield	cost
+vmcount	vmlance	cost
+vmcount	vmhalber	cost
+vmcount	vm2ndwt	cost
+vmcount	lahro5	cost
+vmghoul	vmghast	cost
+vmguard	hatrp	appl
+vmguard	mus10	cost
+vmguard	shoptrp	cost
+vmguard	stmg10	cost
+vmguard	vmchguar	cost
+vmguard	vmgwgg	cost
+vmkonrad	hahro	incl
+vmmanni	vmfull	cost
+vmmanni	vmgen	cost
+vmmanni	mgmiscas	cost
+vmmanni	vmnecro	incl
+vmmanni	vmshow	cost
+vmmanni	mg2lvl	incl
+vmmanni	heromnt	hide
+vmmanni	vmabyssl	cost
+vmmanni	vmbarnig	cost
+vmnecro	mg1lvl	incl
+vmnecro	mgfull	hide
+vmnecro	mgmiscas	cost
+vmnecro	vmlore2	cost
+vmnecro	mg2lvl30	cost
+vmnecro	vmsteed	cost
+vmnecro	vmgen	cost
+vmskel	laoptrp2	incl
+vmskel	mus10	cost
+vmskel	showtrp1	cost
+vmskel	sprtrp1	free
+vmskel	stmg10	cost
+vmskel	vmchskel	cost
+vmvlad	vmfull	hide
+vmvlad	vmgen	cost
+vmvlad	vmnecro	incl
+vmvlad	vmshow	hide
+vmvlad	vmlores	hide
+vmwigld	vmnostnd	incl
+vmwigld	heromnt	hide
+vmwigld	vmsteed	cost
+vmwigld	vmstand	cost
+vmwigld	vmgw	cost
+vmwigld	vmlance	cost
+vmwigld	vm2ndwt	cost
+vmwigld	shhro	incl
+vmwigld	hahro	incl
+vmwolves	vmdoom	cost
+vmwraith	vmgw	incl
+vmzomb	mus10	cost
+vmzomb	st10	cost
+vmstguar	vmghast1	cost
+vmdraco	vmignore	incl
+vmvcserg	2ndhwtrp	incl
+vmwraith	vmhexcha	cost
+vmblkeep	bardinc	incl
+vmblkeep	hatrp	appl
+vmblkeep	vmlance	incl
+vmblkeep	mus10	cost
+vmblkeep	stmg10	cost
+vmblkeep	shwtrp	appl
+vmblkeep	vmblmare	appl
+vmblkeep	vmchbloo	cost
+vmcorpse	vmbfire	cost
+vmvamp	heromnt	hide
+vmvamp	vmgen	hide
+vmvamp	mgmiscas	cost
+vmvamp	vm1lvlup	cost
+vmvamp	vmshield	cost
+vmvamp	vmalore	cost
+vmvamp	vmsteed	cost
+vmvamp	vmnostnd	incl
+vmvamp	vmstand	cost
+vmvamp	mgfull	hide
+vmvamp	mgshow	hide
+vmvamp	vmlore3	hide
+vmvamp	vmlance	cost
+vmvamp	vm2ndwt	cost
+vmvamp	vmgw	cost
+vmvamp	hahro	cost
+vmcorpse	vmloadst	cost
+vmmarebl	bardhro	free
+vmcoach	vmechart	cost
+vmvlad	vmlvl3	incl
+vmisabel	vmfull	hide
+vmisabel	vmgen	cost
+vmisabel	vmnecro	incl
+vmisabel	vmshow	hide
+vmisabel	vmlores	hide
+vmisabel	mg1lvl	incl
+vmmarem	bardhro	free
+vmcmani	vmgen	cost
+vmcmani	mgmiscas	cost
+vmcmani	vmnecro	incl
+vmcmani	heromnt	hide
+vmcmani	vmabyssl	cost
+vmcmani	vmbarnig	cost
+vmcmani	vmhellst	cost
+vmcmani	mgdeath	appl
+vmcmani	mg4lvl	incl
+vmcoach	vmevinfo	appl
+vmcorpne	vmbfire	cost
+vmcorpne	vmloadst	cost
+vmcairnw	vmgw	incl
+vmvarghe	frenzy	incl
+vmmortis	vmmortcr	incl
+vmcoven	vmcoven2	incl
+vmhexwra	2handtrp	appl
+vmhexwra	vmsteed	appl
+vmhexwra	vmhexcha	cost
+vmvlad	halrd	incl
+vmcount	vmblinet	cost
+vmstrigo	vm1lvl	incl
+vmstrigo	vmlore4	cost
+vmstrigo	vmfull	hide
+vmstrigo	vmgen	cost
+vmstrigo	mgmiscas	cost
+vmstrigo	vmshow	hide
+vmstrigo	vmterror	cost
+vmstrigo	vmalore	incl
+vmstrigo	heromnt	hide
+vmnecmas	mg3lvl	incl
+vmnecmas	mgshow	hide
+vmnecmas	vmfull	hide
+vmnecmas	mgmiscas	cost
+vmnecmas	vmlore2	cost
+vmnecmas	mg4lvl60	cost
+vmnecmas	vmgen	cost
+vmnecmas	vmabyssl	cost
+vmnecmas	heromnt	hide
+vmnecmas	vmsteed	cost
+vmcorpse	vmcccrew	incl
+vmvamp	vmgen2	hide
+vmvamp	vmblinet	cost
+vmvamp	vm2lvlup	cost
+vmcryhor	vmchhorr	cost
+vmvarghe	vmchvarg	cost
+vmmortis	vmmortom	cost
+vmisabel	hahro	incl
+vmcmani	vmshow	cost
+vmcmani	mgshow	cost
+vmkemmle	mg4lvl	incl
+vmkemmle	vmfull	hide
+vmkemmle	mgmiscas	cost
+vmkemmle	vmshow	hide
+vmkemmle	vmgen	cost
+vmkemmle	vmmasdea	incl
+vmkemmle	vmnecro	incl
+xbsnecro	mg1lvl	incl
+xbsnecro	mgfull	hide
+xbsnecro	vmfull	hide
+xbsnecro	mgmiscas	cost
+xbsnecro	vmlore2	cost
+xbsnecro	vmshow	hide
+xbsnecro	vmcartmt	cost
+xbsnecro	mg2lvl35	cost
+xbsnecro	vmhsteed	cost
+xbsnecro	vmmasdea	cost
+xbsnecro	vmgen	cost
+xbsghoul	vmghast	cost
+xbshorro	vmchhorr	cost
+vmbscrsc	vmbscryp	auto
+vmbsrest	vmbsrest	auto
+xbsrest1	vmwkbard	hide
+xbsrest1	vmnostnd	incl
+xbsrest1	heromnt	hide
+xbsrest1	vmsteed	cost
+xbsrest1	vmstand	cost
+xbsrest1	vmgwfth	cost
+xbsrest1	vmwtlnc	cost
+xbsrest1	vm2ndwt	cost
+xbsrest1	vmshield	cost
+xbsrest1	hahro	incl
+xbsrest2	bardhro2	cost
+xbsrest2	hatrp	appl
+xbsrest2	lancetrp	cost
+xbsrest2	mus10	cost
+xbsrest2	shwtrp	appl
+xbsrest2	stmg10	cost
+xbsrest2	vmsteed	appl
+xbsrest2	vmhellkt	cost
+xbsrest3	hatrp	appl
+xbsrest3	mus10	cost
+xbsrest3	shoptrp	incl
+xbsrest3	stmg10	cost
+xbsrest3	vmchguar	cost
+xbsrest3	vmdrakho	cost
+xbsrest3	vmgwgg	cost
+xbsrest4	laoptrp2	incl
+xbsrest4	mus10	cost
+xbsrest4	showtrp1	appl
+xbsrest4	sprtrp1	free
+xbsrest4	stmg10	cost
+xbsrest4	vmchskel	cost
+xbsrest4	vmsylva2	incl
+xbsrest4	vmweptbl	free
+xbsrest4	vmnospr	incl
+vmstrigo	unshow	hide
+vmsteed	vmfly8	cost
+vmcount	vmalore	cost
+vmcount	vmterror	hide
+vmcount	vmnomgar	hide
+vmvamp	lahro5	cost
+vmvamp	vmhalber	cost
+vmvamp	vmabyssl	cost
+vmwigld	vmhalber	cost
+vmcairnw	vmwailsp	cost
+vmghouls	vmghast	cost
+vmghouls	vmblust1	cost
+vmwraith	vmsteed	cost
+vmangels	vm2ndwt	cost
+vmangels	vmhalber	cost
+vmangels	vmlighta	cost
+vmblocha	vmbcrew	auto
+vmblocha	vmblchta	cost
+vmbcrew	vmrandat	hide
+vmcount	vminvosh	hide
+vmcount	vmgen2	cost
+vmvamp	vmnomgar	hide
+vmvamp	vmlore5	hide
+vmcount	vmlore5	hide
+vmvamp	vminvosh	hide
+vmnecmas	vminvosh	hide
+vmnecro	vminvosh	hide
+vmvamp	mgnecro	hide
+vmcount	mg4lvl	hide
+vmvamp	mg2lvl	hide
+vmcount	mg2lvl30	cost
+vmcount	vm3lvl75	cost
+vmcount	vmnatarm	hide
+vmabyssl	vmfly8	cost
+vmabyssl	vmabyss1	cost
+vmabyssl	vmabyss2	cost
+vmabyssl	vmabyss3	cost
+vmabyssl	mvabyss4	cost
+vmcorpne	vmwagon3	cost
+vmnecmas	vmcartmt	cost
+vmcount	vmcoven	hide
+xvmcove1	throww	incl
+vmcoven	vmsupera	cost
+vmcorpne	vmwagon4	cost
+vmnecro	vmcartmt	cost
+vmwigld	vmunshie	cost
+vmghoul	vmblust1	cost
+vmghoul	st10	hide
+vmghoul	mus10	hide
+vmghouls	st10	hide
+vmghouls	mus10	hide
+vmwolves	vmextra	auto
+vmswarm	vmextra	auto
+vmguard	vmhalber	cost
+vmcryhor	vmextra	auto
+vmvambat	vmextra	auto
+vmvargh	vmfly8	cost
+vmvargh	vmvangua	cost
+vmvargh	vmstomp2	cost
+vmcorpse	vmwagon3	cost
+vmcorpse	vmwagon4	cost
+vmblkeep	vmplatup	cost
+vmwrasen	vmgw	incl
+vmwrasen	vmsencha	cost
+vmsencha	mg1lvl	incl
+vmangels	vmwagon3	incl
+vmmortis	vmmortws	cost
+xvmwrait	vmgw	incl
+vmcoach	vmbluvc1	cost
+vmfloatc	vmcoven3	incl
+vmfloatc	vmsupera	cost
+vmvamp	vmnatarm	hide
+vmwigld	vmnatarm	hide
+vmnecro	vmnatarm	hide
+vmnecmas	vmnatarm	hide
+vmghouls	vmvangua	hide
+vmghoul	vmvangua	hide
+^
+^
+vmmsg905	Bloodline conflict	All Vampires in the army must choose the same bloodline or have no bloodline at all.
+vmmsg901	Bloodline power duplicated	Thin Blood powers may not be duplicated by Vampires with no Bloodline.
+vmmsg903	Bloodline required	Your Bloodline Unit does not match the Bloodline of the Vampires in army.
+vmmsg2	DOW as Special	Need Opponent's Approval
+vmmsg8	Krell	Heinrich Kemmler must be the Army General to take Krell in your army.
+vmmsg3	Luthor Harkon	You must field Luthor Harkon unless your have your opponent's approval to ignore this rule
+vmmsg21	Magic Items	Vampire Lords can take up to 100 points of magic items
+vmmsg6	Magic items	Vampires can take up to 50 points of magic items
+vmmsg904	No Vampiric characters allowed	The Unliving Shield option may only be taken in armies without any character model with the Vampiric special rule.
+vmmsg803	Only One Mannfred may appear	You can only choose either Mannfred the Acolyte or Count Mannfred, not both.
+vmmsg801	Only one Master of the Dead	Only one Necromancer/Master Necromancer may take Master of the Dead upgrade.
+vmmsg804	Too many Ghouls	You can only have 4 units of Ghouls of any type (8 for armies of 4000 points or more).
+vmmsg802	Too many magic banners	Only one unit of Skeleton Warriors may take Magic Banner.
+vmmsg1	Too many spells	Too many spells have been selected for a Vampire or Necromancer
+vmmsg902	Too many upgrades	Monstrous Revenant can only take maximum of 2 special options.
+vmmsg12	Vampire Family	All Vampires must be from the same family.
+vmmsg4	Vampiric Magic Items	Vampires may only take up to 50 points of Magic Items
+vmmsg20	Vampiric Powers	Vampire Counts may only take one Vampiric Power
+vmmsg5	Vampiric Powers	Vampire Barons may only take one Vampiric Power
+^

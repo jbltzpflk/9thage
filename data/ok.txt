@@ -1,0 +1,723 @@
+Description: Unknown
+Version: Unknown
+Author: Unknown
+None
+^
+Ogre Khans	ok	0	sm,dw,he,we,br,lz,em,ch,dm,dk,og,sk,dz,tk,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="Dec 2015, ver. 0.10.0";info:display="modified by AJT";info:display="";none:"Standard Army";mode:a="Gnoblar Hordes";mode:b="Ironskin Tribe";info:display="";info:always="Meat Avalanche: Impact Hits (1). Characters with this Special Rule have Impact Hits (D3)";info:display="The Gnoblar Horde gets D6 free rerolls per game"-mode=a;trat:Skrag@1u:Skrag_in_army@1u-flat-msg=okmsg4;olmt:unit=okeater-okbtdt1=1u-max-msg=okmsg9;tlmt:lord-pct=35@max-msg=okmsg12;tlmt:darkfist-model=1@max-msg=okmsgdu;trat:darkfist@1u:marktaken@1u-flat-msg=okmsgdar;trat:beastspeaker@1u:freebsb@1u-flat-msg=okmsgbs1;trat:beastspeaker@1u:freecore@1u-flat-msg=okmsgbs2;trat:darkfist@0u:NoDarkfist@1u-msg=okmsgndf;trat:beastspeaker@0u:NoSpeaker@1u-msg=okmsgnbs;tlmt:beastspeaker-model=1@max-msg=okmsgdu;tlmt:rottenjaw-model=1@max-msg=okmsgdu;tlmt:trolleat-model=1@max-msg=okmsgdu;tlmt:fleshglutton-model=1@max-msg=okmsgdu;tlmt:spine-model=1@max-msg=okmsgdu;tlmt:warcollector-model=1@max-msg=okmsgdu;tlmt:freebsb-model=1@max-msg=okmsgbsb;tlmt:btdt1-unit=1@max-msg=okmsg9;tlmt:btdt2-unit=1@max-msg=okmsg9;tlmt:btdt3-unit=1@max-msg=okmsg9;tlmt:btdt6-unit=1@max-msg=okmsg9;tlmt:btdt5-unit=1@max-msg=okmsg9;tlmt:btdt7-unit=1@max-msg=okmsg9;tlmt:btdt8-unit=1@max-msg=okmsg9;tlmt:btdt9-unit=1@max-msg=okmsg9;tlmt:freecoreYeti-unit=1@max-msg=okmsgfc;tlmt:freecoreSabre-unit=1@max-msg=okmsgfc	
+^
+okrhinox	Beast		N/A	Mount		1:1	0	0		hide						6	3	0	5	0	0	2	3	0	7	7	0	0	0	0	0	0
+okbulrhi	Bull Rhinox		N/A	Mount		1:1	45	0		hide		Causes Terror; Large Target; Must be targetted seperately from normal Rhinoxes; Chariot Base				7	4	0	6	0	0	2	4	5	7	7	0	0	6	0	0	0
+okchbull	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	4	4	4	4	3	2	4	7	6	7	0	0	3	0	1	0
+okchgtrp	Champion		N/A	Champion	champ	1:1	4	0	coun	hide						5	3	4	3	3	1	3	1	6	7	7	0	0	1	0	0	0
+okchgut	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	4	4	4	4	3	2	4	8	5	7	0	0	3	0	1	0
+okchld	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	4	5	4	4	3	2	4	7	6	7	0	0	0	0	1	0
+okchmour	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	4	3	4	4	3	2	4	7	5	7	0	0	3	0	1	0
+okchyte	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						7	4	1	5	4	3	4	4	7	7	7	0	0	3	0	0	0
+okgbiter	Champion		N/A	Champion	champ	1:1	5	0	coun	hide						4	3	3	3	3	1	2	2	5	6	7	0	0	1	0	0	0
+okmanche	Champion		N/A	Champion	champ	1:1	10	0	coun	hide						6	5	5	5	4	3	3	5	8	7	7	0	0	3	0	1	0
+oksplitt	Goresplitter		N/A	Champion	champ	1:1	6	0	coun	hide						4	2	5	2	3	1	3	1	5	7	7	0	0	1	0	0	0
+okgrhino	Grimhorn Rhinox		N/A	Mount		1	0	0		hide						7	3	0	5	5	4	2	4	5	7	7	0	0	0	0	0	0
+okgbite2	Groinbiter		N/A	Champion	champ	1:1	4	0	coun	hide						4	2	3	2	3	1	3	2	5	7	7	0	0	1	0	0	0
+okskullf	Hill Goblin Foreman		N/A	Champion	champ	1:1	2	0	coun	hide		Throwing Weapons, Light Armour, Insignificant, Back to Work!: have the Hold Your Ground rule even though it is not the Battle Standard Bearer, but only Hill Goblins, Scratapults, and Trapsetters may benefit from this Hold Your Ground.				4	3	4	3	3	2	4	3	5	6	7	0	0	1	0	0	0
+okstonem	Horned Auroch		N/A	Mount		1:1	190	0	attr:Type="Mo"	hide		Impact Hits (3D3), Scaly Skin (4+), Frenzy (Horned Auroch only)				6	3	0	6	6	6	2	5	5	4	7	0	0	0	0	0	0
+okexthvy	Maneater		N/A	Champion	infantry	1:3	84	0	calc:num=#;type:Ogres	hide						6	4	4	5	4	3	3	4	8	7	7	0	0	3	0	0	0
+okextlit	Maneater		N/A	Champion	infantry	1:3	80	0	calc:num=#;type:Ogres	hide						6	4	4	5	4	3	3	4	8	7	7	0	0	3	0	0	0
+okmountb	Mountain Beast		N/A	Mount		1:1	0	0	attr:Type="MC"	hide		Monstrous Beast , Fear, Natural Armour 				8	3	0	5	5	3	2	4	5	7	7	0	0	0	0	0	0
+okmournm	Mountain Beast		N/A	Mount		1	0	0		hide						8	3	0	5	5	3	2	3	5	7	7	0	0	0	0	0	0
+okobiter	Ogrebiter		N/A	Champion	champ	1:1	5	0	coun	hide						4	2	3	3	3	1	3	2	6	7	7	0	0	1	0	0	0
+okpigkni	Pig Knight		N/A	Champion	champ	1:1	4	0	coun	hide						4	2	3	2	3	1	3	3	5	6	7	0	0	2	0	0	0
+okrhino2	Rhinox		N/A	Mount		1	0	0		hide		Causes Fear; Bad Tempered (test Ld on 3D6, pick lowest 2 dice); Immune to Bicker				6	3	0	5	5	3	2	3	5	5	7	0	0	0	0	0	0
+okrhino3	Rhinox		N/A	Mount		1:1	0	0		hide		Causes Fear; Bad Tempered (test Ld on 3D6, pick lowest 2 dice)				7	3	0	5	0	0	2	3	5	7	7	0	0	4	0	0	0
+okrocktr	Rockhorn 		N/A	Mount		1:1	250	0	attr:Type="Mo";calc:num=#	umax:1;hide		Impact Hits (3D3); Scaly Skin (4+); Frenzy (Rockhorn Only); Stubborn; Swiftstride Ogre; Rock Skeleton: If the model suffers a wound with the Multiple Wounds special rule, the number of wounds suffered is halved, rounding up. 		Rider: Crossbow, Throwing Weapon		7	3	0	7	6	6	2	5	5	3	7	0	0	0	0	0	0
+oksludge	Sludgesucker		N/A	Champion	champ	1:1	5	0	coun	hide						4	2	3	2	3	1	3	2	5	7	7	0	0	1	0	0	0
+okirhino	The Iron Rhinox		N/A	Mount	hero	1	253	0		hide		Large Target; Causes Terror; Bad Tempered (test Ld on 3D6, pick lowest 2 dice); D3 impact hits if charging 8" or more; Breath Attack @ S3 w/ -2 Armour Save; Magical Attacks				7	4	0	6	5	5	2	5	9	3	7	0	0	5	0	0	0
+okthund2	Thunderlord		N/A	Champion	champ	1:1	10	0	coun	hide						6	4	4	5	4	3	3	5	8	4	7	0	0	3	0	0	0
+okthunde	Thunderlord		N/A	Champion	champ	1:1	24	0	coun	hide						0	3	2	4	5	5	2	4	7	7	7	0	0	3	0	0	0
+okvlucky	Very Lucky Git		N/A	Champion	champ	1:1	8	0	coun	hide						4	2	3	2	3	1	3	2	5	6	5	0	0	1	0	0	0
+okghark	Ghark Ironskin	Lord	Lord	Special Characters		1:1	232	100	spec:+armr;take:okghark1-free-perm;type:Ld9;type:tyrant;type:hero;attr:Type="MC"	umax:1u;lglx:mode=b;hide		Monstrous Cavalry (Stomp);		Lord		6	6	4	5	5	5	4	5	9	7	7	0	0	3	0	0	0
+okgnoblo	Gnoblar Head Honcho		Lord	Lord		1:1	45	100	ipts:total=100;type:Ld7;attr:Type="In"	lglx:mode=a;hide				Lord		4	4	4	3	4	3	5	3	7	7	7	0	0	1	0	0	0
+okgreasu	Greasus Goldtooth, Overtyrant	Greas	Lord	Lord		1:1	545	0	type:tyrant;spec:+weap;spec:+ward;take:okgreas1-free-perm;take:okgreas2-free-perm;attr:Type="MI";calc:num=#	umax:1;lglx:!mode=a;hide		Monstrous Infantry (Stomp); Fear; #Hoardmaster: unless he is fleeing, friendly units within 18" get +1CR and automatically pass rally tests; #Everyone has their price: at start of each enemy turn, pick D3 enemy units within 18". These are subject to Stupidity for remainder of the turn.		Lord		4	6	3	5	6	6	1	3	9	6	0	0	0	6	0	0	0
+okskragg	Skrag The Slaughterer		Lord	Wizard		1:1	425	0	ipts:total=100-each=100;type:Wiz;type:Skrag;attr:Type="MI";spec:+ench;take:okskrag1-free-perm;calc:num=#	lglx:!mode=a;hide		Monstrous Infantry (Stomp); Killing Blow; Terror; Frenzy; Immune to Poison; Ogre Charge; When an army is led by Skragg, Gorgers have a unit size 1-2 and ignore restrictions of duplicate choices		Lvl 4 Wizard; Special Character; Lore of Great Maw		6	5	3	5	6	5	3	4	9	7	7	4	2	6	0	0	0
+okslaugh	 Lord: Blood Shaman		Hero	Wizard	Lord	1:1	250	100	ipts:total=100-each=100;catg:wiz;type:Wiz;spec:+wzrd;spec:-armr;attr:Type="MI";type:butch2;calc:num=#	lglx:!mode=a;reqd:type=okgutmag-msg=okmsggut		Monstrous Infantry; Meat Avalanche; 				6	4	3	4	5	5	3	4	8	7	7	4	2	3	0	0	0
+okmagna	 Lord: Magmacaster		Hero	Wizard	Lord	1:1	285	100	ipts:total=100-each=100;catg:wiz;type:Wiz;spec:+wzrd;spec:-armr;attr:Type="MI";type:butch2;calc:num=#;type:NoSpeaker	lglx:!mode=a;reqd:type=okgutmag-msg=okmsggut		Monstrous Infantry; Meat Avalanche; 			Separetely because of Marks (different spells)	6	4	3	4	5	5	3	4	8	7	7	4	2	3	0	0	0
+oklord	 Lord: Ogre Warlord 	Lord	Hero	Lord	Lord	1:1	200	100	ipts:total=100-each=100;type:Ld9;skip spec:+name;type:tyrant;dflt:lalrd;attr:Type="MI";calc:num=#;type:NoSpeaker	lglx:!mode=a		Meat Avalanche, Fear		Heavy Armour 		6	6	4	5	5	5	4	5	9	7	7	0	0	3	0	0	0
+okbragg	Bragg the Gutsman	Bragg	Hero	Hero		1:1	210	0	spec:+weap;attr:Type="MI";take:okbragg1-free-perm;calc:num=#	umax:1;lglx:!mode=a;hide		Monstrous Infantry (Stomp); Fear; Ogre Charge		Hero; Special Character		6	5	3	5	5	4	3	4	8	6	0	0	0	0	0	0	0
+okgnobhe	Gnoblar Honcho		Hero	Hero	Hero	1:1	20	100	ipts:total=60-each=60;type:Ld6;type:1stC;attr:Type="In"	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;lglx:mode=a;hide				Hero; May be upgraded to BSB		4	3	3	3	3	2	4	3	6	7	7	0	0	1	0	0	0
+okgolgfa	Golgfag Maneater	Golgf	Hero	Hero		1:1	260	0	spec:+weap;spec:+ward;attr:Type="MI";calc:num=#	umax:1;lglx:!mode=a;hide		Monstrous Infantry (Stomp); Fear; Ogre Charge; #Golgfag's Maneaters: may deploy a unit of Maneaters with Vanguard and Stubborn skills, must deploy with them (when he does he also gains Vanguard and Stubborn), and no other character may join them. In alliance, this unit is always considered to be 'trusted ally'; #Easy Come, Easy Go: before the battle roll 2D6 and multiple the result by 10 - this is how many points he may use on Magic Items, normal restrictions apply.		Hero; Special Character		6	5	4	5	5	4	4	5	8	7	0	0	0	0	0	0	0
+okbutche	Hero: Blood Shaman		Hero	Wizard	Hero	1:1	100	100	ipts:total=50-each=50;catg:wiz;type:Wiz;spec:+wzrd;spec:+armr;attr:Type="MI";type:butch1;calc:num=#	lglx:!mode=a;reqd:type=okgutmag-msg=okmsggut;hide		Impact Hits (1)				6	3	3	4	5	4	2	3	7	7	7	0	0	0	0	0	0
+okbruisr	Hero: Brawler		Hero	Hero	Hero	1:1	110	100	ipts:total=100-each=100;dflt:lahro;type:Ld8;name:"OK Bruiser"-race=vm;type:hero;skip spec:+name;attr:Type="MI";calc:num=#;type:NoSpeaker	clmt:weap+armr+ench+ward+name<=50-points-msg=crbsb1;lglx:(race=ok&!mode=a)^(race=vm&mode=e);race:vm		Impact Hits (1), Meat Avalanche 		Heavy Armour 		6	5	4	5	5	4	3	4	8	7	7	0	0	3	0	0	0
+okbelly	Hero: Gorelock		Hero	Wizard	Hero	1:1	100	100	ipts:total=50-each=50;catg:wiz;type:Wiz;spec:+wzrd;spec:-armr;attr:Type="MI";type:butch1;calc:num=#	lglx:!mode=a		Impact Hits (1); Meat Avalanche				6	3	3	4	4	4	2	3	7	7	7	0	0	0	0	0	0
+oklavam	Hero: Lavamancer		Hero	Wizard	Hero	1:1	125	100	ipts:total=50-each=50;catg:wiz;type:Wiz;spec:+wzrd;spec:-armr;attr:Type="MI";type:butch1;calc:num=#;type:NoSpeaker	lglx:!mode=a		Impact Hits (1); Meat Avalanche			Separetely because of Marks (different spells)	6	3	3	4	4	4	2	3	7	7	7	0	0	0	0	0	0
+okhunter	Hero: Tracker		Hero	Hero	Hero	1:1	120	100	ipts:total=50-each=50;type:hunter;dflt:lahro;name:"OK Hunter"-race=vm;type:hero;attr:Type="MI";calc:num=#;type:NoDarkfist	lglx:(race=ok&!mode=a)^(race=vm&mode=e);race:vm		Monstrous Infantry; Meat Avalanche; Not a Leader; Swiftstride; Tiger Wrangler (Trackers on foot may join units of Sabretooth Tigers. If a Tracker is deployed inside one of these units (and only whilst he is inside it), the unit loses Insignificant but instead gains Vanguard. Tracker counts as having the Warbeast Troop Type for the purposes of allocating hits and template hits at combined units; Loner: May only join unit of Yetis or Saabretooths. Mounted may not join any units.		Light Armour, Hunting Spear 		7	4	5	5	5	4	4	4	9	7	7	0	0	3	0	0	0
+okfighte	Gnoblar Fighters		Core	Regiment	infantry	20	2	0	calc:num=#;type:Gnoblars;size:1-20-1-mode=zz;attr:Type="In"	lglx:mode=a		Infantry; Bicker		Unit Size: 20+		4	2	3	2	3	1	3	1	5	7	7	0	0	1	0	0	0
+okgnob	Hill Goblin		Core	Regiment	infantry	10:60	3	0	calc:num=#;type:Gnoblars;name:"Gnoblar Flingers"-mode=a;xcst:3-mode=a;size:1-20-1-mode=zz;size:10-1000-1-mode=a;xcmp:Spec-mode=b;attr:Type="In";type:NoDarkfist	reqd:unit=okfighte@1u:1u-mode=a;umax:1		Infantry;Insignificant; Throwing Weapons; 				4	2	3	3	3	1	3	1	6	7	7	0	0	1	0	0	0
+okiguts	Ironclads		Core	Regiment	infantry	3:10	40	0	calc:num=#;ipts:total=50-each=50;type:Ogres;size:1-20-1-mode=zz;attr:Type="MI";type:NoSpeaker;type:NoDarkfist	lglx:!mode=a;skip slmt:1-msg=okmsg8		Monstrous Infantry; Heavy Armour; Great Weapon; Meat Avalanche				6	3	3	4	4	3	2	3	8	5	7	0	0	3	0	0	0
+okmanbit	Manbiters		Core	Regiment	infantry	20	5	1	calc:num=#;ipts:total=50-each=50;size:1-20-1-mode=zz;attr:Type="In"	lglx:mode=a;umax:2;reqd:unit=okfighte@1u:1u-mode=a		Bicker		Unit Size: 20+		4	2	3	3	3	1	3	1	6	6	7	0	0	1	0	0	0
+okpigbak	Pigback Riders		Core	Regiment	Infantry	10	4	0	calc:num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:mode=a		Bicker; Models in BtB contact with enemy get +1A		Unit Size: 10+		4	2	3	2	3	1	3	1	5	6	7	0	0	2	0	0	0
+okbull	Tribesmen		Core	Regiment	infantry	3:15	30	0	calc:num=#;type:Ogres;type:Bulls;size:1-20-1-mode=zz;attr:Type="MI";ipts:total=25-each=25	lglx:!mode=a		Impact Hits (1), Hobgoblin Look-out		Light Armour, Ironfists; Meat Avalanche 		6	3	3	4	4	3	2	3	7	6	7	0	0	3	0	0	0
+okblood	Blood Gnoblars		Special	Regiment		10	6	0	calc:num=#;type:skirmishers;size:1-20-1-mode=zz;attr:Type="In"	lglx:mode=a		Bicker; Skirmish; Traps (do nothing in free terrain 1 turn = each enemy models who enter terrain get S3 hit)		Unit Size: 10+		4	2	4	2	3	1	3	1	5	7	7	0	0	1	0	0	0
+oklbelch	Cannoners		Special	Regiment	infantry	3:8	43	0	calc:num=#;type:Ogres;size:1-20-1-mode=zz;xcmp:Core-mode=b;attr:Type="MI";ipts:total=25-each=25;type:NoSpeaker	lglx:!mode=a		Monstrous Infantry; Light Armour;Handcannons;Meat Avalanche 				6	3	3	4	4	3	2	3	7	6	7	0	0	3	0	0	0
+okbulrid	Grimgorn Rhinox Riders	GBuRi	Special	Alternate Rules		1	105	1	ipts:total=50-each=50;attr:Type="MC";zero			Monstrous Cavalry (Stomp); Fear; Impact Hits (D3+1); Iron Skinned (+3 armour save); Broad Backed (Rider may use additional hand weapon despite being mounted); Stubborn		Grimhorn Rhinox Riders are mounted on 50x100mm bases; Frenzy		6	4	4	5	4	3	3	4	8	4	0	0	0	0	0	0	0
+oklucky	Lucky Gits		Special	Regiment	infantry	20	5	0	calc:num=#;size:1-20-1-mode=zz;attr:Type="In"	lglx:mode=a		Bicker; May reroll any dice; Magic Resistance (2)		Unit Size: 20+		4	2	3	2	3	1	3	1	5	6	6	0	0	1	0	0	0
+okmournf	Mountain Riders		Special	Regiment		2:5	68	0	calc:num=#;ipts:total=50-each=50;attr:Type="MC"	slmt:1		Monstrous Cavalry;Impact Hits (D3); Fear		Light Armour, Natural Armour 		6	3	3	4	4	3	2	3	8	5	0	0	0	0	0	0	0
+okeater	Ogre Mercenary		Special	Regiment	infantry	3:8	50	0	calc:num=#;type:Ogres;attr:Type="MI";ipts:total=50-each=50;dflt:lahro;type:NoSpeaker	lglx:!mode=a;slmt:1		Monstrous Infantry; Meat Avalanche		Heavy Armour; Been Around: Each unit of Mercenaries may be given up to two of the following special rules: Immune to Psychology, Poisoned Attacks, Bodyguard, Lethal Strike, Strider, Swiftstride, Vanguard, Thundereus Charge. Each special rule may only be taken by one unit of Mercenaries in your army. 	Stubborn, Scout, ,Hatred	6	4	4	5	4	3	3	4	8	7	7	0	0	0	0	0	0
+okgorger	Outcast		Special	Monster		1:1	90	0	attr:Type="MI";calc:num=#	lglx:!mode=a;must:option=okskinar@min=1-msg=okmsg3-istype=Skrag		Monstrous Infantry; Regeneration (5+); Fear; Ambush; Hatred; Unbreakable 				6	3	0	5	5	4	3	4	8	7	7	0	0	3	0	0	0
+oktusk	Sabretooth Tigers		Special	Regiment		1:10	15	0	calc:num=#;attr:Type="WB";type:NoDarkfist			Insignificant ;Beasts: Can never benefit from Inspiring Presence or Hold Your Ground, but may use the Leadership of a Tracker within 12” as if he were the General. 				8	4	0	4	4	2	4	3	5	7	7	0	0	2	0	0	0
+okgtrap	Trapsetters 		Special	Regiment		10:20	4	0	calc:num=#;type:Gnoblars;type:skirmishers;size:1-20-1-mode=zz;attr:Type="In";type:NoDarkfist			Insignificant; Scout; Skirmish; Skilled Trappers:All Forest, Fields, and Ruins Terrain features become Dangerous Terrain for the remainder of the game if at the time of deployment or at the end of any movement phase a unit of Trapsetters is in contact with it (and is not fleeing). Models that normally treat these features as dangerous terrain have a -1 modifier to their Dangerous Terrain Tests. Trapsetters do not test for Dangerous Terrain when moving in or out of the modified feature. 		Throwing Weapons		5	2	3	3	3	1	3	1	6	7	7	0	0	1	0	0	0
+okyeti	Yetis		Special	Regiment	infantry	3:8	40	0	calc:num=#;type:Yhetees;size:1-20-1-mode=zz;attr:Type="MI";type:NoDarkfist			Monstrous Infantry; Swiftstride; Strider; Fear; Magical Attacks; Aura of Frost: All enemy units in contact with a model have -1 Initiative (to minimum 1). 		Additional Hand Weapons 		7	3	0	5	4	3	4	3	8	7	7	0	0	3	0	0	0
+okboglin	Boglars		Rare	Regiment		10	3	0	calc:num=#;type:skirmishers;size:1-20-1-mode=zz;attr:Type="In"	lglx:mode=a		Bicker; Aquatic; Skirmish; Traps (do nothing in free terrain 1 turn = each enemy models who enter terrain get S3 hit)		Unit Size: 10+		4	2	3	2	3	1	3	1	5	7	7	0	0	1	0	0	0
+okthutus	Frosthorn		Rare	Monster		1:1	200	0	attr:Type="Mo";calc:num=#;type:frosthorn			Innate Defence (4+); One Huntsman is armed with an Ogre Crossbow and the other with a Hunting Spear;Impact Hits (D3) ; Frozen Aura: All enemy units within 6” strike at Initiative 0. Furthermore the model can cast a bound spell, Power Level 3, Blizzard (Path of Heavens) 				6	3	0	6	6	6	2	4	5	3	7	0	0	0	0	0	0
+okscrap	Hill Goblin Scratapult		Rare	Machine		1:1	150	0	attr:at="D6";xcmp:Rare-mode=b;attr:Type="Ch";calc:num=#;type:NoDarkfist			Innate Defence (5+); Scratapult: Catapult :Range 36", 5" template, Strength 3, Lethal Strike.				0	0	0	5	5	5	0	0	0	4	7	0	0	5	0	0	0
+okguts2	Ironguts		Rare	Dogs of War	infantry	3	48	0	calc:num=#;ipts:total=50-each=50;type:Ogres;xcmp:Spec-race=do;size:1-20-1-mode=zz;xcmp:Core-race=em-mode=b;attr:Type="MI"	race:cd,dw,dk,do,he,em,og,lz,vm,sk,we,ch,tk,sl,ok,dm,mc;lglx:!(race=he&mode=a)&!(race=ch&mode=d)&!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=e)&!(race=vm&mode=g)&(!race=ok);slmt:1-msg=okmsg8;hide				Includes Great Weapon and Heavy Armor; Unit Size: 3+		6	3	2	4	4	3	2	3	8	5	7	0	0	3	0	0	0
+okhalfta	Kathleen Halftank		Rare	Alternate Rules		1:1	150	0	attr:Type="Mo"			Monster (Thunderstomp); Large Target; Unbreakable; Causes Fear; D6 impact hits on charge; D3 hits in subsequent turns; Not a chariot nor a warmachine		From UKWD 314 - Revolt Scenario;; 		6	1	4	5	6	6	0	0	10	7	0	0	0	6	0	0	0
+oklead2	Leadbelchers		Rare	Dogs of War	infantry	2:5	55	0	calc:num=#;type:Ogres;xcmp:Spec-race=do;size:1-20-1-mode=zz;xcmp:Core-race=em-mode=b	race:cd,dk,do,dw,he,em,og,lz,vm,sk,we,ch,tk,sl,dm,mc;lglx:!(race=he&mode=a)&!(race=ch&mode=d)&!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=e)&!(race=vm&mode=g)&(!race=ok);hide				Includes Leadbelcher cannon; Unit Size: 2-5		6	3	3	4	4	3	2	3	7	6	7	0	0	3	0	0	0
+okmanbi2	Manbiters		Rare	Dogs of War	infantry	20	5	1	calc:num=#;ipts:total=50-each=50;size:1-20-1-mode=zz;xcmp:Spec-race=do;xcmp:Core-race=em-mode=b;attr:Type="In"	race:cd,dk,do,dw,he,em,og,lz,vm,sk,we,ch,tk,sl,dm,mc;lglx:!(race=he&mode=a)&!(race=ch&mode=d)&!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=e)&!(race=vm&mode=g)&(!race=ok);umax:2		Infantry; Bicker		Unit Size: 20+		4	2	3	3	3	1	3	1	6	6	7	0	0	1	0	0	0
+okeatdo2	Maneater (heavy armour)		Rare	Dogs of War	infantry	1:1	84	0	calc:num=#;type:Ogres;xcmp:Spec-race=do;xcmp:Core-race=em-mode=b	race:cd,dk,do,dw,he,em,og,lz,vm,sk,we,ch,tk,sl,dm,mc;lglx:!(race=he&mode=a)&!(race=ch&mode=d)&!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=e)&!(race=vm&mode=g)&(!race=ok);hide		Stubborn, Immune to Psychology, Cause Fear				6	4	4	5	4	3	3	4	8	7	7	0	0	3	0	0	0
+okeathvy	Maneater (heavy armour)		Rare	Regiment	infantry	1	84	0	calc:num=#;type:Ogres;attr:Type="MI"	lglx:!mode=a;hide		Monstrous Infantry (Stomp); Stubborn, Immune to Psychology				6	4	4	5	4	3	3	4	8	7	7	0	0	3	0	0	0
+okeatdow	Maneater (light armour)		Rare	Dogs of War	infantry	1:1	80	0	calc:num=#;type:Ogres;xcmp:Spec-race=do;xcmp:Core-race=em-mode=b	race:cd,dk,do,he,dw,em,og,lz,vm,sk,we,ch,tk,sl,dm,mc;lglx:!(race=he&mode=a)&!(race=ch&mode=d)&!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=e)&!(race=vm&mode=g)&(!race=ok);hide		Stubborn, Immune to Psychology, Cause Fear				6	4	4	5	4	3	3	4	8	7	7	0	0	3	0	0	0
+okbulls2	Ogre Bulls		Rare	Dogs of War	infantry	3	35	0	calc:num=#;type:Ogres;xcmp:Spec-race=do;size:1-20-1-mode=zz;xcmp:Core-race=em-mode=b	umin:1u;race:cd,dw,dk,do,he,em,og,lz,vm,sk,we,ch,tk,sl,dm,mc;lglx:!(race=he&mode=a)&!(race=ch&mode=d)&!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=e)&!(race=vm&mode=g)&(!race=ok);hide				Includes Ogre Club; Unit Size: 3+;		6	3	2	4	4	3	2	3	7	7	7	0	0	3	0	0	0
+okbulri2	Rhinox Riders	BulRi	Rare	Regiment		1:3	100	1	ipts:total=50-each=50;xcmp:Spec-mode=b;zero	hide		Cause Fear; Bad Tempered (must charge if able to, unless Ld test is passed); If all models charge more than 7", each causes D3 impact hits; May only wheel once; May only reform to change formation		From USWD 308 & UKWD 309;; NOTE: Rhinox Riders must be based on a 50*50 mm base, Bull Rhinox Riders on a 100*50 mm (chariot) base;Rider and Mount are a single model with Unit Strength given for the Mount;		0	3	2	4	5	5	2	3	7	5	0	0	0	0	0	0	0
+okbulri3	Rhinox Riders	BulRi	Rare	Dogs of War		1:3	100	1	ipts:total=50-each=50;zero;attr:Type="MC"	race:cd,dk,dw,do,he,em,og,lz,vm,sk,we,ch,tk,sl,dm,mc;lglx:!(race=he&mode=a)&!(race=ch&mode=d)&!(race=he&mode=b)&!(race=ch&mode=f)&!(race=og&mode=g)&!(race=dw&mode=h)&!(race=dk&mode=e)&!(race=vm&mode=g)&!(race=ok)		Monstrous Cavalry (Stomp); Fear; Bad Tempered (must charge if able to, unless Ld test is passed); If all models charge more than 7", each causes D3 impact hits; May only wheel once; May only reform to change formation		From USWD 308 & UKWD 309;; NOTE: Rhinox Riders must be based on a 50*50 mm base, Bull Rhinox Riders on a 100*50 mm (chariot) base;;Rider and Mount are a single model with Unit Strength given for the Mount;		0	3	2	4	5	5	2	3	7	5	0	0	0	0	0	0	0
+okstoneh	Rockhorn 		Rare	Monster		1:1	250	0	attr:Type="Mo";calc:num=#			Impact Hits (3D3); Scaly Skin (4+); Frenzy (Rockhorn Only); Stubborn; Swiftstride Ogre; Rock Skeleton: If the model suffers a wound with the Multiple Wounds special rule, the number of wounds suffered is halved, rounding up. 		Rider: Crossbow, Throwing Weapon		7	3	0	7	6	6	2	5	5	3	7	0	0	0	0	0	0
+okgiant	Slave Giant		Rare	Monster		1:1	140	0	attr:At="S";type:Giant;attr:Type="Mo";calc:num=#			Immune to Psychology; Stubborn; Giant Attacks; Do What You’re Told:  All Slave Giants may reroll on the Giant Attacks table, but must accept the second result		Giant Attacks (see below), Heavy Armour 		6	3	0	6	5	6	3	0	8	7	7	0	0	6	0	0	0
+okironbl	Thundercracker		Rare	Machine		1:1	170	0	attr:at="D6";xcmp:Rare-mode=b;attr:Type="Ch";calc:num=#;type:NoSpeaker			Innate Defence (5+),  Titan Cannon ( This weapon can be fired in two ways;#1- As a Cannon: Range 36”, Strength 10, Armour Piercing (2), Multiple Wounds (Ordnance) Cannon bounces 2D6 #2- As a Volley Gun: Range 12", Strength 5, Multiple Shots (2D6),  Armour Piercing (2)				0	0	0	5	6	5	0	0	0	4	0	0	0	0	0	0	0
+xokrcrew	Hobgoblin Crew		N/A	Regiment		1	0	0								0	2	3	3	0	0	3	1	6	7	7	0	0	0	0	0	0
+xokcrewo	Huntsman		N/A	Regiment		1	0	0								0	3	4	4	0	0	3	3	8	7	7	0	0	0	0	0	0
+xokcrewl	Ogre Crew		N/A	Regiment		1	0	0								0	3	3	4	0	0	2	3	7	7	7	0	0	0	0	0	0
+^
+okbeast	Beast Speaker	okb	Priority	N/A	50	show:general;type:beastspeaker;unam:+" Beast Speaker"	A Tracker with this Big Name may be your Army’s General. One tracker in the army may be upgraded to a Battle Standard Bearer for free			
+okbicker	Bicker		Priority	N/A	0	apnd:foot		Roll a D6 at start of your turn unless unit is in combat: 1 = do nothing this turn (but can flee), 2+ = no effect		
+okbnnowi	Big Name No Wizard		Priority	N/A	0	tabl:NoBigName=nobignam,Rottenjaw=okrotten,Trolleater=okeattro,Fleshglutton=okflash,Spinesplitter=okspine,WarCollector=okwarcol				
+okbntrac	Big Name Tracker		Priority	N/A	0	tabl:NoBigName=nobignam,BeastSpeaker=okbeast,Rottenjaw=okrotten,Trolleater=okeattro,Fleshglutton=okflash,Spinesplitter=okspine				
+okbnwar	Big Name Warlord		Priority	N/A	0	tabl:NoBigName=nobignam,Darkfist=okdarkf,Rottenjaw=okrotten,Trolleater=okeattro,Fleshglutton=okflash,Spinesplitter=okspine,WarCollector=okwarcol				
+okbnwiz	Big Name Wizard		Priority	N/A	0	tabl:NoBigName=nobignam,Rottenjaw=okrotten,Trolleater=okeattro,Fleshglutton=okflash				
+okbtdt3	Bodyguard	Sct	Priority	N/A	0	type:btdt3				
+okdglore	Dark Gods Lore		Priority	N/A	0	over:oklore=delete;over:oklore2=delete;over:oklore3=delete				
+okdarkf	Darkfist	df	Priority	MWp	50	stat:At+1;more:save1=incl;show:okdfm5;show:okdfm5w;show:okdfm10;show:okdfm10w;show:okdfm15;show:okdfm15w;type:darkfist;unam:+" Darkfist"	Model gains a Magic Weapon. Type: Ironfist. Any model in the army may be given a Mark of The Dark Gods (from the Warriors of the Dark Gods Army Book)			
+okmore	Extra Base Cost		Priority	N/A	0	hide;cost:single;xcst:10-unit=okgnob;xcst:1-unit=oklbelch;xcst:20-unit=oktusk;xcst:-6-unit=okmournf				
+okchoi99	Extra hero slot		Priority	N/A	0	hide;acmp:hero+1u				
+okchoic2	Extra Rare Slot		Priority	N/A	0	hide;acmp:Rare+1u				
+okchoice	Extra Rare Slot		Priority	N/A	0	hide;acmp:Rare+1u;lglx:!race=do				
+okchoic3	Extra Spec Slot		Priority	N/A	0	hide;acmp:Spec+1u;lglx:!mode=b				
+okflash	Fleshglutton	fl	Priority	N/A	25	unam:+" Fleshglutton";type:bigname;type:fleshglutton	At the end of any CC phase in which the Character has killed one or more models and is not fleeing roll a D6. On a roll of 4+, he regains a single wound lost earlier in the battle. 			
+okmiscas	Gastromancy Miscast Table	MsT	Priority	N/A	0	apnd:foot		1 = Butcher slain, models in btb take a S4 hit, other Butchers lose D3 Wounds (no save); 2 = D6 S4 hits on Butcher and cannot cast spells for the rest of the battle; 3 = Butchers loses D3 Wounds (no save), 4 = The failed spell can't be cast again by anyone in your army, 5 = Everyone in BtB suffers a S2 hit (no armour save); 6 = Butcher is Frenzied	Prints Miscast Table	
+okgen	General	Gen	Priority	N/A	0	type:general	Units w/in 18" may use General's LD & may reroll any Psychology tests.		Units within 18" may use General's Leadership and may reroll any Psychology tests.	
+okha	Heavy Armour	ha	Priority	N/A	10	more:save2=incl;utyp:!MagicArmour				
+okhuntsp	Hunting Spear	hunt	Priority	N/A	0		Range 12”, User Strength +1, Quick to Fire, Leathal Strike.			
+okbtdt1	Immune to Psychology	ItP	Priority	N/A	0	type:btdt1				
+okmisfi2	Iroblaster Missfire Table		Priority	N/A	0	apnd:foot	1- Model removed, all units within D6" take 2D6 S5 hits; 2- Cannon is broken and cannot fire for the rest of the battle; 3-4 May not shoot this turn and next turn; 5-6 Roll scatter dice and turn Ironblaster in that direction, may not fire this turn			Iroblaster Missfire Table
+okbtdt6	Lethal Strike	Stbn	Priority	N/A	0	type:btdt6				
+okgutmag	Lore of Great Maw	Gut	Priority	N/A	0	type:okgutmag;show:okshow;show:okfull				Iroblaster Missfire Table
+oklore	Lore Table		Priority	N/A	0	tabl:Butchery=okgutmag,Death=mgdeath,Wilderness=mgbeasts,Heavens=mgheaven-noname-nobrackets				
+oklore2	Lore Table		Priority	N/A	0	tabl:Butchery=okgutmag,Wilderness=mgbeasts-noname-nobrackets				
+oklore3	Lore Table		Priority	N/A	0	tabl:Fire=mgfire,Alchemy=mgmetal-noname-nobrackets				
+oklore3b	Lore Table		Priority	N/A	0	tabl:Fire=mgfire-noname-nobrackets				
+oklorec	Lore Table		Priority	N/A	0	tabl:Butchery=okgutmag,Change=mgchange,Alchemy=mgmetal-noname-nobrackets				
+oklorec2	Lore Table		Priority	N/A	0	tabl:Fire=mgfire,Change=mgchange,Alchemy=mgmetal-noname-nobrackets				
+oklored	Lore Table		Priority	N/A	0	tabl:Butchery=okgutmag,Disease=mgdiseas,Death=mgdeath-noname-nobrackets				
+oklored2	Lore Table		Priority	N/A	0	tabl:Fire=mgfire,Disease=mgdiseas,Death=mgdeath-noname-nobrackets				
+oklorel	Lore Table		Priority	N/A	0	tabl:Butchery=okgutmag,Lust=mglust,Shadow=mgshadow-noname-nobrackets				
+oklorel2	Lore Table		Priority	N/A	0	tabl:Fire=mgfire,Lust=mglust,Shadow=mgshadow-noname-nobrackets				
+okloreu	Lore Table		Priority	N/A	0	tabl:Butchery=okgutmag,Alchemy=mgmetal,Shadow=mgshadow,Death=mgdeath,Fire=mgfire-noname-nobrackets				
+okloreu2	Lore Table		Priority	N/A	0	tabl:Alchemy=mgmetal,Shadow=mgshadow,Death=mgdeath,Fire=mgfire-noname-nobrackets				
+okchan10	Mark Change	ch	Priority	N/A	10	unam:+" of Change";type:change;type:marktaken	When Shooting, or at the start of each combat, models (or parts of them) with the Mark of the Dark Gods (Change) can choose one of the following Special Rules to apply for their Shooting attacks that phase or Close Combat Attacks done during that combat: Flaming Attacks, Magical Attacks or Hellfire.				
+okchan15	Mark Change	ch	Priority	N/A	15	unam:+" of Change";type:change;type:marktaken;over:oklore=delete;over:oklore2=delete;over:oklore3=delete;over:oklore3=delete;show:oklorec;show:oklorec2	When Shooting, or at the start of each combat, models (or parts of them) with the Mark of the Dark Gods (Change) can choose one of the following Special Rules to apply for their Shooting attacks that phase or Close Combat Attacks done during that combat: Flaming Attacks, Magical Attacks or Hellfire.				
+okchan5	Mark Change	ch	Priority	N/A	5	unam:+" of Change";type:change;type:marktaken	When Shooting, or at the start of each combat, models (or parts of them) with the Mark of the Dark Gods (Change) can choose one of the following Special Rules to apply for their Shooting attacks that phase or Close Combat Attacks done during that combat: Flaming Attacks, Magical Attacks or Hellfire.				
+okmarkdf	Mark from Darkfist		Priority	N/A	0					
+okwrat10	Mark Wrath	wr	Priority	N/A	10	unam:+" of Wrath";type:wrath;type:marktaken	Models (or parts of them) with the Mark of the Dark Gods (Wrath) have +1 Strength on their attacks for the first round of combat. Furthermore, a unit with one or more models with this mark must always Pursue (if able). Wizards cannot use, have, or gain this Mark in any way.				
+okwrat15	Mark Wrath	wr	Priority	N/A	15	unam:+" of Wrath";type:wrath;type:marktaken	Models (or parts of them) with the Mark of the Dark Gods (Wrath) have +1 Strength on their attacks for the first round of combat. Furthermore, a unit with one or more models with this mark must always Pursue (if able). Wizards cannot use, have, or gain this Mark in any way.				
+okwrat5	Mark Wrath	wr	Priority	N/A	5	unam:+" of Wrath";type:wrath;type:marktaken	Models (or parts of them) with the Mark of the Dark Gods (Wrath) have +1 Strength on their attacks for the first round of combat. Furthermore, a unit with one or more models with this mark must always Pursue (if able). Wizards cannot use, have, or gain this Mark in any way.				
+okmisfir	Misfire chart		Priority	N/A	0	apnd:foot	1 Model removed; 2 May not shoot this turn, from next turn gains Random Movement (2D6) rule and moves in random direction; 3-4 Suffers 1 Wound and May not shoot next round; 5-6 May not fire this turn			
+nobignam	No Big Name		Priority	N/A	0					
+oknocore	No Core Choice		Priority	N/A	0	hide;acmp:Core-1u				
+oknomark	No Mark		Priority	N/A	0					
+okbtdt2	Poisoned Attacks	Pois	Priority	N/A	0	type:btdt2				
+okrotten	Rottenjaw	rot	Priority	N/A	30	unam:+" Rottenjaw";type:bigname;type:rottenjaw	The Character gains Poisoned Attacks. For duration of single CC phase all model in his unit also gain Poisoned Attacks. Declare this at the start of combat phase.			
+okscout	Scout	sc	Priority	N/A	10	utyp:!mounted	 Scout			
+okskill3	Skill Table		Priority	N/A	0	tabl:ImmuneToPsychology=okbtdt1,PoisonedAttacks=okbtdt2,Bodyguard=okbtdt3,Strider=okbtdt5,LethalStrike=okbtdt6,Swiftstride=okbtdt7,Vanguard=okbtdt8,ThundereusCharge=okbtdt9-noname-nobrackets				
+okskills	Skill Table		Priority	N/A	0	tabl:ImmuneToPsychology=okbtdt1,PoisonedAttacks=okbtdt2,Bodyguard=okbtdt3,Strider=okbtdt5,LethalStrike=okbtdt6,Swiftstride=okbtdt7,Vanguard=okbtdt8,ThundereusCharge=okbtdt9-noname-nobrackets				
+okskinar	Skragg in army		Priority	N/A	0	type:Skrag_in_army;prng:max=2				
+okbtdt4	Sniper	Sni	Priority	N/A	0	type:btdt4				
+okspine	Spinesplitter	ss	Priority	N/A	20	unam:+" Spinesplitter";type:bigname;type:spine	Gains Devastating Charge and Thunderous Charge (also affecting Impact Hits and Stomp). 			
+okbtdt5	Strider	Stri	Priority	N/A	0	type:btdt5				
+okbtdt7	Swiftstride	Swft	Priority	N/A	0	type:btdt7				
+okbtdt9	Thundereus Charge	Hat	Priority	N/A	0	type:btdt9				
+okeattro	Troll Eater	eat	Priority	N/A	25	unam:+" Troll Eater";type:bigname;type:trolleat	The Character gains the Regeneration (5+) and Stupidity Special Rules. In addition has Multiple Wounds (2, Monstrous Infantry).  			
+okunb	Unbound	unb	Priority	N/A	0	type:unbound;type:marktaken;over:oklore=delete;over:oklore2=delete;over:oklore3=delete;over:oklore3b=delete;show:okloreu;show:okloreu2	Models with the Mark of the Dark Gods (Unbound) may reroll failed Panic tests.	Models with the Mark of the Dark Gods (Unbound) may reroll failed Panic tests.				
+okbtdt8	Vanguard	Vang	Priority	N/A	0	type:btdt8				
+okwarcol	War Collector	wc	Priority	N/A	20	unam:+" War Collector";type:bigname;base:Sv=4;type:warcollector;over:okahw3=delete;over:okgwtyr=delete;over:okbrtyr=delete;over:okpistol=delete;over:okcrossb=delete;over:okifist2=delete;show:okmeat2;show:okmeat1;show:okmeat4;show:okmeat3;show:okcross2;show:okifist3	The character gains the Weapon Master and Plate Armour, and may also purchase any number of mundane close combat and shooting weapons available to him rather than just one of each type. 			
+okdfm10	Darkfist Mark		First	N/A	0	tabl:NoMark=oknomark,Unbound=okunb,Pestilence=okpest10,Lust=oklust10,Change=okchan10,Wrath=okwrat10				
+okdfm10w	Darkfist Mark		First	N/A	0	tabl:NoMark=oknomark,Unbound=okunb,Pestilence=okpest10,Lust=oklust10,Change=okchan10				
+okdfm15	Darkfist Mark		First	N/A	0	tabl:NoMark=oknomark,Unbound=okunb,Pestilence=okpest15,Lust=oklust15,Change=okchan15,Wrath=okwrat15				
+okdfm15w	Darkfist Mark		First	N/A	0	tabl:NoMark=oknomark,Unbound=okunb,Pestilence=okpest15,Lust=oklust15,Change=okchan15				
+okdfm5	Darkfist Mark		First	N/A	0	tabl:NoMark=oknomark,Unbound=okunb,Pestilence=okpest5,Lust=oklust5,Change=okchan5,Wrath=okwrat5				
+okdfm5w	Darkfist Mark		First	N/A	0	tabl:NoMark=oknomark,Unbound=okunb,Pestilence=okpest5,Lust=oklust5,Change=okchan5				
+oklook	Look-Out Gnoblar	LookG	First	N/A	5	cost:single;type:gnob		Only 3 models needed for Look Out Sir rolls	Model requirement for "Look Out Sir" rolls is reduced from 5 to 3	
+okluck	Luck Gnoblar	LuckG	First	N/A	5	rang:0-1;cost:single;type:gnob		Re-roll one armour or ward save per game	Re-roll one armour or ward save per game	
+oksword	Sword Gnoblar	SwrdG	First	N/A	5	rang:0-2;cost:single;type:gnob		+1A, always at S2	Character gets 1 extra attack at own WS but with S2	
+oksw2	Sword Gnoblars	SwrdG	First	N/A	5	rang:5-5;cost:single;type:gnob		+1A, always at S2	Character gets 1 extra attack at own WS but with S2	
+oktoad	Toad-Gnoblars	Toad	First	N/A	2			+D6 models at end of turn if they were in water	Unit gets +D6 models at the end of a turn that the unit spends at least part of the turn in the water	
+oktooth	Tooth Gnoblar	TothG	First	N/A	5	rang:0-2;cost:single;type:gnob		+1 to the casting roll, one use only, multiple can be used	+1 to the casting roll, one use only but can use multiple Tooth Gnoblars	
+okfull	Full Spell List	Full	SpellType	N/A	0	more:okspella=incl;more:okspell0=incl;more:okspell1=incl;more:okspell2=incl;more:okspell3=incl;more:okspell4=incl;more:okspell5=incl;more:okspell6=incl				
+okmagma	Magmacaster	mag	SpellType	N/A	35	over:oklore=delete;show:oklore3	Breath Weapon (Strength 4, Flaming Attacks), Flaming Attacks, and Fireborn 			
+okshow	Show Gut Magic		SpellType	N/A	0	take:okspella-perm;take:okspell0-perm;take:okspell1-perm;take:okspell2-perm;take:okspell3-perm;take:okspell4-perm;take:okspell5-perm;take:okspell6-perm;spec:+spel;item:+8				
+okahw3	Additional Hand Weapon	Ahw	Weapon	Wep,2Hd	3	over:okifist=delete;over:2hand8pt=delete;stat:At+1;chld:champ@At+1;xcst:10-unit=oklord;xcst:5-unit=okslaugh;xcst:5-unit=okbruisr;xcst:2-unit=okbelly;xcst:5-unit=okhunter;xcst:2-unit=oklavam	+1 At			
+okmeat2	Additional Hand Weapon	Ahw	Weapon	N/A	2	rang:0-99-unit=okeater;cost:single;xcst:10-unit=oklord	+1 At			
+okvultur	Blood Vulture	BVu	Weapon	Wep,Rng	10		Missile Weapon, Range 36", St:4, Quick to Fire, Ignore Cover			
+okmeat4	Brace of Ogre Pistols	BoP	Weapon	N/A	14	rang:0-99-unit=okeater;cost:single;xcst:6-unit=okchmour;xcst:6-unit=okthund2;xcst:12-unit=okeater;stat:At+1;xcst:8-unit=oklord	Range 24", St4, Armour Piercing (1), Quick to Fire, Multiple Shots (2), Additional hand weapon			
+okkatana	Cathayan longsword	Cat	Weapon	Wep	6	stat:WS+1;stat:In+1;over:okclub=delete		^	+1WS, +1In, Armour Piercing	
+okkattyr	Cathayan longsword 	Cat	Weapon	Wep	10	stat:WS+1;stat:In+1;xcst:8-unit=okbruisr;over:okclub=delete		^	+1WS, +1In, Armour Piercing	
+okchaint	Crossbow	ChnT	Weapon	MWp	0		Range 30”. Strength 4. Unwieldy.			
+okflail	Flail	fla	Weapon	Wep	8	xcst:3-unit=okbruisr;xcst:3-unit=okhunter;xcst:2-unit=okbelly;xcst:2-unit=okbutche	^	^	+2S in 1st rnd of HtH	
+okmace	Greasus Mace		Weapon	N/A	0	stat:St=10				
+okgrthsp	Great Throwing Spear	GTS	Weapon	N/A	0		Missile Weapon, Range 12", St: as user +1, Quick to Fire			
+okgwtyr	Great Weapon	GW	Weapon	Wep,2Hd	20	stat:st+2;xcst:10-unit=okmournf;xcst:15-unit=okbruisr;xcst:12-unit=okhunter;xcst:4-unit=okbutche;xcst:6-unit=okbelly;xcst:15-unit=okslaugh;xcst:5-unit=okskullf;xcst:15-unit=okmagna;xcst:6-unit=oklavam			+2S, Always strikes last, Two-handed	
+okmeat1	Great Weapon	GW	Weapon	N/A	11	rang:0-99;cost:single;xcst:20-unit=oklord	+2S, Always strikes last, Two-handed			
+okhcan	Handcannon		Weapon	Wep,Rng	0	apnd;type:missiles	 Range 24", Strength 4, Multiple Shots (D6), Armour Piercing (1), Slow to Fire ], Quick to Fire.  do not suffer any To Hit penalties for Moving and Shooting or for Multiple Shots. In Close Combat, a Handcannon counts as a Halberd that strikes at Initiative 0. 			
+oklance	Lance	la	Weapon	N/A	10	utyp:mounted;utyp:!frosthorn;xcst:5-unit=okstoneh	+2S on charge			
+okclub	Ogre Club	Club	Weapon	N/A	0			-1 Armour Save	Hand weapon, additional -1 to Armour Save	
+okmeat3	Ogre Pistol	OPi	Weapon	N/A	7	rang:0-99;cost:single;stat:At+1;xcst:6-unit=oklord	Range 24", St4, Armour Piercing, Quick to Fire, Additional hand weapon			
+okrepcro	Replace Crossbow		Weapon	N/A	0	over:okchaint=delete;show:okhuntsp;slct:okhuntsp=incl	Replace Hunting Spear with Ogre Crossbow			okhuntsp
+okreplac	Replace Hunting Spear		Weapon	N/A	0	over:okhuntsp=delete;show:okcross2;slct:okcross2=incl;over:okchaint=delete	Replace Hunting Spear with Ogre Crossbow			
+okrepthr	Replace Throwing Weapons		Weapon	N/A	0	over:throww=delete;show:sprlrd;slct:sprlrd=incl	Replace Hunting Spear with Ogre Crossbow			
+oksharp	Sharp Stuff	Sharp	Weapon	N/A	0	type:missiles		^	Throwing Weapons; Range 8", S2, Multiple Shots	
+okshort	Short Bow	sb	Weapon	N/A	1	type:missiles	Range 18". S3. Volley fire			
+oksoupcn	Soupcannon	Soup	Weapon	N/A	0		45 degrees LOS; Flame template placed against cannon and moved inches = Artillery Die roll; S5, no Armour Saves			
+okharpla	Throwing Weapon	HLa	Weapon	Wep,Rng	0	xcst:10-unit=okhunter	Range 12”. Strength 3. Quick to Fire. Multiple Shots (2)			
+okweapta	Weapon Table		Weapon	MWp	0	tabl:Chaintrap=okchaint,HarpoonLauncher=okharpla-nobrackets				
+okbrtyr	Brace of Ogre Pistols	BoP	Missile	Wep,2Hd,Rng	8	stat:At+1;xcst:8-unit=okbruisr;xcst:11-unit=okhunter;xcst:8-unit=okeater;stat:At+1		Range 24", St4, Armour Piercing (1), Quick to Fire, Multiple Shots (2), Additional hand weapon	Range 24", St4, Armour Piercing (1), Quick to Fire, Multiple Shots (2), Additional hand weapon	
+okmeat0	Hand Weapon		Missile	N/A	0			Strikes last in HtH unless charging		
+okharpoo	Harpoon Launcher	Hrpn	Missile	N/A	0		Bolt Thrower with 36" range and S5; Large Target suffers 1 extra Wo unless passes S-test; Is move-or-shoot but may stand and shoot			
+okcross2	Ogre Crossbow	cr	Missile	N/A	8		Range 30”, Strength 5, Penetrates ranks like a Bolt Thrower. 			
+okcrossb	Ogre Crossbow	cr	Missile	Wep,Rng	8		Range 30”, Strength 5, Penetrates ranks like a Bolt Thrower. 			
+okpistol	Ogre Pistol	OgPi	Missile	Wep,Rng	6	type:missiles;xcst:6-unit=okbruisr;xcst:7-unit=okhunter;xcst:5-unit=okeater;stat:At+1		Range 24", St4, Armour Piercing, Quick to Fire, Additional hand weapon	Range 24", St4, Armour Piercing, Quick to Fire, Additional hand weapon	
+okha6	Heavy Armour	HvA	Armour	N/A	6	more:save2=incl;over:lahro=delete;utyp:!MagicArmour;xcst:10-unit=okmournf;xcst:5-unit=okbulrid;xcst:10-unit=oklord;xcst:8-unit=okhunter;xcst:8-unit=okbruisr;xcst:5-unit=okbull				non-mus armour for Rinox upgrade
+okham	Heavy Armour	HvA	Armour	N/A	10	more:save2=incl;over:lahro=delete;utyp:!MagicArmour;xcst:5-unit=okbulrid;xcst:10-unit=oklord;xcst:8-unit=okhunter;xcst:8-unit=okbruisr				non-mus armour for Rinox upgrade
+okifist2	Iron Fist	Fist	Shield	Wep,Shd	10	over:2ndhwtr4=delete;xcst:15-unit=oklord;xcst:10-unit=okbruisr;over:okgwtyr=delete;over:2hand8pt=delete;stat:At+1;chld:champ@At+1;xcst:5-unit=okeater;over:okham=delete;xcst:12-unit=okmournf;base:Sv-1;chld:champ@Sv-1-base	Requires Two Hands. CC weapon that adds +1 to the model’s Armour Save and counts as an Additional Hand Weapon (also applicable to mounted models). 			
+okifist3	Iron Fist	Fist	Shield	N/A	5	over:2ndhwtr4=delete;xcst:15-unit=oklord;xcst:8-unit=okbruisr;over:okgwtyr=delete;over:2hand8pt=delete;base:Sv-1;stat:At+1;chld:champ@At+1;chld:champ@Sv-1-base	Requires Two Hands. CC weapon that adds +1 to the model’s Armour Save and counts as an Additional Hand Weapon (also applicable to mounted models). 			more:save1=incl
+okifist	Shield (instead AHW)	Fist	Shield	Shd	3	more:save1=incl;over:2ndhwtr1=delete;xcst:5-unit=oklord;xcst:4-unit=okbruisr;over:okgwtyr=delete;over:2hand8pt=delete;xcst:10-unit=okbulrid;xcst:10-unit=okmournf;xcst:3-unit=okslaugh;xcst:4-unit=okhunter;xcst:3-unit=okbutche;xcst:5-unit=okbulrid;over:okahw3=delete				
+okfreebs	Free BSB (Beast Speaker)		Standard	M2H	0	slct:btstand8=incl;show:btstand8;type:freebsb				
+okhillgo	Hill Goblin Lookout	hg	Standard	N/A	5	cost:single	Units that carry a standard with the Hill Goblin Lookout upgrade must be fewer than 3 Rank and File models before hits			
+okmagsdt	Warlord General - Magical STD	mst	Standard	N/A	0	over:st10=delete;show:stmg10	Tribesman can take Magical Standard (up to 25 points) if Warlord is general			
+okchbull	Champion		Champion	N/A	0	unit:okchbull@abs=1;cost:model;modl:-1				
+okchgtrp	Champion		Champion	N/A	0	unit:okchgtrp@abs=1;cost:model;modl:-1				
+okchgut	Champion		Champion	N/A	0	unit:okchgut@abs=1;cost:model;modl:-1				
+okchld	Champion		Champion	N/A	0	unit:okchld@abs=1;cost:model;modl:-1				
+okchmour	Champion		Champion	N/A	0	unit:okchmour@abs=1;cost:model;modl:-1;csiz:okmournm+1				
+okchyte	Champion		Champion	N/A	0	unit:okchyte@abs=1;cost:model;modl:-1				
+okgbite2	Champion		Champion	N/A	0	unit:okgbite2@abs=1;cost:model;modl:-1				
+okgbiter	Champion		Champion	N/A	0	unit:okgbiter@abs=1;cost:model;modl:-1;lglx:mode=default				
+okmanche	Champion		Champion	N/A	0	unit:okmanche@abs=1;cost:model;modl:-1				
+okobiter	Champion		Champion	N/A	0	unit:okobiter@abs=1;cost:model;modl:-1				
+okpigkni	Champion		Champion	N/A	0	unit:okpigkni@abs=1;cost:model;modl:-1				
+oksludge	Champion		Champion	N/A	0	unit:oksludge@abs=1;cost:model;modl:-1				
+oksplitt	Champion		Champion	N/A	0	unit:oksplitt@abs=1;cost:model;modl:-1				
+okthund2	Champion		Champion	N/A	0	unit:okthund2@abs=1;cost:model;modl:-1;csiz:okgrhino+1				
+okthunde	Champion		Champion	N/A	0	unit:okthunde@abs=1;cost:model;modl:-1				
+okvlucky	Champion		Champion	N/A	0	unit:okvlucky@abs=1;cost:model;modl:-1				
+okforema	Hill Goblin Foreman		Champion	N/A	20	unit:okskullf@abs=1;modl:-1;over:okgbiter=delete;cost:single				
+okbulrhi	Bull Rhinox		Mount	N/A	0	unit:okbulrhi@abs=1				
+okgrhino	Grimhorn Rhinox		Mount	N/A	0	unit:okgrhino@per=1;hide				
+okstonem	Horned Auroch		Mount	N/A	0	unit:okstonem@abs=1;more:save1=incl				
+oktable	Mount Table		Mount	N/A	0	tabl:Rhinox=okrhino3,Bull_Rhinox=okbulrhi;usiz:min=1-eff				
+oktable2	Mount Table		Mount	N/A	0	tabl:Rhinox=okrhino3,Bull_Rhinox=okbulrhi;usiz:min=2-eff				
+oktable3	Mount Table		Mount	N/A	0	tabl:Rhinox=okrhino3,Bull_Rhinox=okbulrhi;usiz:min=3-eff				
+okmountb	Mountain Beast		Mount	N/A	50	unit:okmountb@abs=1;more:save2=incl				
+okmournm	Mountain Beast		Mount	N/A	0	unit:okmournm@per=1;hide				
+okrhino2	Rhinox		Mount	N/A	55	unit:okrhino2@abs=1				
+okrhino3	Rhinox		Mount	N/A	0	unit:okrhino3@abs=1				
+okrocktr	Rockhorn	rh	Mount	N/A	0	unit:okrocktr@abs=1;over:okbntrac=delete;show:okbeast	Cannot use Meat Avalanche rule.			
+okirhino	The Iron Rhinox		Mount	N/A	0	unit:okirhino@abs=1;hide				
+okcrewl	Ironblaster Crew		Crew	N/A	0	unit:xokcrewl@per=1;unit:xokrcrew@per=1;hide				
+okrcrew	Scraplaucher Crew		Crew	N/A	0	unit:xokrcrew@per=7;hide				
+okskirmi	Skirmish	sk	Crew	N/A	5		Skirmish			
+okcrewst	Stonehorn Crew		Crew	N/A	0	unit:xokcrewo@per=1;hide				
+okcrewth	Thundertusk Crew		Crew	N/A	0	unit:xokcrewo@per=2;hide				
+okrhinox	Beast		Priority1	N/A	0	hide;unit:okrhinox@abs=1				
+oktrappe	Gnoblar Trappers	GTrap	Priority1	N/A	25	cost:single	Enemy models charging into base contact with the unit must make Dangerous Terrain test.			
+oklust10	Mark Lust	lust	Priority1	N/A	10	unam:+" of Lust";type:lust;type:marktaken	Models (or parts of them) with the Mark of the Dark Gods (Lust) have Armour Piercing (1).			
+oklust15	Mark Lust	lust	Priority1	N/A	15	unam:+" of Lust";type:lust;type:marktaken;over:oklore=delete;over:oklore2=delete;over:oklore3=delete;over:oklore3b=delete;show:oklorel;show:oklorel2	Models (or parts of them) with the Mark of the Dark Gods (Lust) have Armour Piercing (1).			
+oklust5	Mark Lust	lust	Priority1	N/A	5	unam:+" of Lust";type:lust;type:marktaken	Models (or parts of them) with the Mark of the Dark Gods (Lust) have Armour Piercing (1).			
+okpest10	Mark Pestilence	pes	Priority1	N/A	10	unam:+" of Pestilence";type:pestilence;type:marktaken	Enemy units in base contact with one more models (or parts of them) with Mark of the Dark Gods (Pestilence) have -1 Weapon Skill (to a minimum of 1). Toxic Attacks are at -1 to wound against models (or parts of them) with Mark of the Dark Gods (Pestilence).				
+okpest15	Mark Pestilence	pes	Priority1	N/A	15	unam:+" of Pestilence";type:pestilence;type:marktaken;over:oklore=delete;over:oklore2=delete;over:oklore3=delete;over:oklore3b=delete;show:oklored;show:oklored2	Enemy units in base contact with one more models (or parts of them) with Mark of the Dark Gods (Pestilence) have -1 Weapon Skill (to a minimum of 1). Toxic Attacks are at -1 to wound against models (or parts of them) with Mark of the Dark Gods (Pestilence).				
+okpest5	Mark Pestilence	pes	Priority1	N/A	5	unam:+" of Pestilence";type:pestilence;type:marktaken	Enemy units in base contact with one more models (or parts of them) with Mark of the Dark Gods (Pestilence) have -1 Weapon Skill (to a minimum of 1). Toxic Attacks are at -1 to wound against models (or parts of them) with Mark of the Dark Gods (Pestilence).				
+okspell0	0: Teetch-cracker		Priority3	N/A	0	apnd:foot;hide		Augment. Cast on 8+, Range 18" OR Cast on 12+, Range 12", Aura. Lasts one Turn. Target has +1 Toughness.		
+okspell1	1: Marrow Drinker		Priority3	N/A	0	apnd:foot;hide		Universal. Cast on 7+, Range 12"  OR Cast on 10+, Range 24". Lasts one turn. Target has Stubborn		
+okspell2	2: Entrails-gorger		Priority3	N/A	0	apnd:foot;hide		Augment, Cast on 7+, Range 18" OR Cast on 11+, Range 12", Aura. Lasts one turn. Target has +1 Strength.		
+okspell3	3: Bone-crusher		Priority3	N/A	0	apnd:foot;hide		Hex. Missile. Damage. Cast on 8+, Range 24". Target suffers 2D6 strength 2 hits with Armour Piercing (6). OR Cast on 12+, Range to 36". Target suffers 2D6 strength 3 hits with Armour Piercing (6). 		
+okspell4	4: Brain-slurper		Priority3	N/A	0	apnd:foot;hide		Hex. Cast on 8+, Range 36"  OR Cast on 11+, Range 72". Target must take panic test. Furthermore, all units has hatred against target.		
+okspell5	5: Troll-heart		Priority3	N/A	0	apnd:foot;hide		Augment, Cast on 9+, Range 12". Lasts one turn. Unit has Regeneration (5+) OR Cast on 12+, Range 12". Unit has Regeneration (4+).		
+okspell6	6: Giant's Gullet		Priority3	N/A	0	apnd:foot;hide		Hex. Direct. Damage. Cast on 15+, Range 18". Lasts one turn. Target instantly suffer D6 Strength hits with Armour Piercing (6). If one or more wounds were dealt, target cannot march, and rolls one dice less for charge range, flee distance and pursuit distance.		
+okspella	Attr: Blood of Kholagh		Priority3	N/A	0	apnd:foot;hide		Attribute. Caster. Lasts one Turn. Target has +1 Toughness, +1 casting modifier and +1 dispelling modifier to any dispelling attempt the caster is involved in. No model can be affected by this spell more than once.		
+okcore	Beast Speaker Core		Special	N/A	0	xcmp:core;type:freecore;type:freecoreSabre				
+okcore2	Beast Speaker Core		Special	N/A	0	xcmp:core;type:freecore;type:freecoreYeti				
+okluckgn	Luck Gnoblar		Special	N/A	5	cost:single	^	^	Reroll a single D6 once per battle	
+oktusk	Saber Tusk		Special	N/A	0	unit:oktusk@var				
+okss	Scouts and Skirmishers	ss	Special	N/A	30	cost:single;usiz:max=4	Scouts and Skirmishers			
+okexthvy	Extra Man-Eaters		Last	N/A	0	rept:okexthvy;hide				
+okextlit	Extra Man-Eaters		Last	N/A	0	rept:okextlit;hide				
+oklist	Kill Bonuses	List	Last	N/A	0	apnd	1+: Skrag gains Regeneration + all Gorgers arrive on next OK turn, 5+ Skrag & Gorgers +1A, 10+ Skrag & Gorgers gain Hatred, 15+ Skrag becomes Unbreakable + Gorgers gain Regeneration	# = kills by Skrag	For certain numbers of kills Skrag bestows bonuses on himself and Gorgers	
+^
+oktmace	Iron Mace	weap	MWp,M2H	50	1	itst:race=ok;stat:St+2;lglx:!mode=a		Type: Great weapon. Multiple Wounds (D3). Wielder may choose each combat to make a Crush Attack instead of normal attacks.	^	^	
+okgrabfi	The Grabbing Fist	weap	MWp	25	1	stat:Sv-1;itst:race=ok;stat:At+1		Type: Ironfist. If wielder score one or more hits against enemy model with Magical Weapon roll D6. On 4+ that weapon is destroyed.	^	^	
+okbragg1	The Wicked Fist	weap	MWp	30	1	stat:Sv-1;itst:race=ok;stat:At+1		Type: Ironfist. Attacks made with this weapon will always hit on no worse than 3+ in Close Combat . Lethal Strike 	^	^	
+okghark1	Frosthorn Armour	armr	MAr	15	1	itst:race=ok;stat:Sv=6		Type: None (6+ Armour Save). Enemy models in base contact with the Wearer have -3 to Initiative (to minimum of 1)	^	^	
+okmammot	Mammoth Armour	armr	MAr	40	1	itst:race=ok&!type=mounted;stat:Sv=5		Models on foot only. Type: Heavy Armour. If the wearer is hit by an attack with a Strength value of 6 or more, the Strength of the attack is reduced to 5. 	^	^	
+okstone	Runic Jaw	ward	Tal	25	100	itst:race=ok	okstone=cost	One use only. Activate at the beginning of the opponent’s magic phase. The bearer of this item, the unit he is in, and any other characters in it cannot be chosen as targets of non-aura spells cast by enemy wizards.	^	Magic Resistance +1 per token	
+okskrag1	Rockhorn Charm	ench	Enc	15	1	itst:race=ok		The bearer of this item gains the Rock Skeleton Special Rule (If the model suffers a wound with the Multiple Wounds special rule, the number of wounds suffered is halved, rounding up.)	^	^	
+okheart	Demon Heart	wzrd	Arc	55	1	itst:race=ok		One use only. Activate at the beginning of the opponent’s magic phase. For that phase, all enemy wizards within 24” will suffer a miscast on a roll that includes any doubles (only double 6 counts as Overwhelming Power, and no more than one miscast can be suffered per roll). Furthermore, all miscasts will be considered to have been rolled using one more Power Dice than used.	^	^	
+oksicle	Gut Knife	wzrd	Arc	30	1	itst:race=ok		After rolling a casting roll, Gut Knife may be used. Caster inflicts 1 wound with no saves allowed on his unit. Add a +D3 casting modifier to the casting roll	^	^	
+okdragb	Dragonskin Banner	stnd	Std	40	1	itst:race=ok;lglx:!mode=a	bsb=incl	Models in the unit can reroll to hit and to wound rolls of 1 in the first round of combat. Bearer of the banner has a Breath Weapon (Strength 3, Flaming Attacks).	^	^	
+pkpenwen	Pennant of the Wendigo	stnd	Std	20	1	itst:race=ok;lglx:!mode=a	bsb=incl	Models in the unit gain the Fear Special Rule and automatically pass Terror tests	^	^	
+okspell0	0: Teeth-cracker	spel	N/A	0	100	itst:race=ok;xtot		Augment. Cast on 8+, Range 18" OR Cast on 12+, Range 12", Aura. Lasts one Turn. Target has +1 Toughness.	^	^	
+okspell1	1: Marrow Drinker	spel	N/A	0	100	itst:race=ok;xtot		Augment. Cast on 8+, Range 18" OR Cast on 12+, Range 12", Aura. Lasts one Turn. Target has +1 Toughness.	^	^	
+okspell2	2: Entrails-gorger	spel	N/A	0	100	itst:race=ok;xtot		Augment, Cast on 7+, Range 18" OR Cast on 11+, Range 12", Aura. Lasts one turn. Target has +1 Strength.	^	^	
+okspell3	3: Bone-crusher	spel	N/A	0	100	itst:race=ok;xtot		Hex. Missile. Damage. Cast on 8+, Range 24". Target suffers 2D6 strength 2 hits with Armour Piercing (6). OR Cast on 12+, Range to 36". Target suffers 2D6 strength 3 hits with Armour Piercing (6). 	^	^	
+okspell4	4: Brain-slurper	spel	N/A	0	100	itst:race=ok;xtot		Hex. Cast on 8+, Range 36"  OR Cast on 11+, Range 72". Target must take panic test. Furthermore, all units has hatred against target.	^	^	
+okspell5	5: Troll-heart	spel	N/A	0	100	itst:race=ok;xtot		Augment, Cast on 9+, Range 12". Lasts one turn. Unit has Regeneration (5+) OR Cast on 12+, Range 12". Unit has Regeneration (4+).	^	^	
+okspell6	6: Giant's Gullet	spel	N/A	0	100	itst:race=ok;xtot		Hex. Direct. Damage. Cast on 15+, Range 18". Lasts one turn. Target instantly suffer D6 Strength hits with Armour Piercing (6). If one or more wounds were dealt, target cannot march, and rolls one dice less for charge range, flee distance and pursuit distance.	^	^	
+okspella	Attr: Blood of Kholagh	spel	N/A	0	100	itst:race=ok;xtot		Attribute. Caster. Lasts one Turn. Target has +1 Toughness, +1 casting modifier and +1 dispelling modifier to any dispelling attempt the caster is involved in. No model can be affected by this spell more than once.	^	^	
+oktrinke	Funny Trinket	unk2	Enc	30	1	lglx:mode=a;itst:race=ok		Re-roll an failed Armour and Ward saves	^	^	
+okgnobtf	Gnoblar Thiefstone	unk2	Tal	45	1	itst:race=ok;lglx:!mode=a		Magic Resistance (2). In addition roll on the table to see what else bearer stolen - if this item is in possession of other model (friend or foe), this model loses that item. D6: 1-Nothing,2-Luckstone,3-Talisman of Protection,4-TheOtherTrickstersShard,5-RubyRingofRuin,6-Talisman of Preservation	^	^	
+okgrfist	Greedy Fist	unk2	Tal	40	1	itst:race=ok;base:WSv=6;base:St+1;lglx:!mode=a		+1 Strength & 6+ Ward Save. If this Ward will save a wound caused by a magic weapon, the weapon loses magical abilities. Enemy Wizards lose a Wizard level and random spell per hit, including hits from missiles.	^	+1 Sv, destroys magic weapon on succuesful save, Wizards lose a magic level when hit	
+okgrubbi	Grubbi's Dice Bag	unk2	N/A	25	1	lglx:mode=a;itst:race=ok		May roll a D6 when losing a Wound: On a 1 bearer is slain, on a 2+ regain Wound lost and ignore any further Wounds this turn; One use only	^	^	
+okgutmaw	Gut Maw	unk2	Arm,MAr	45	1	itst:race=ok;base:Sv-2;lglx:!mode=a;type:MagicArmour		Heavy Armour. Terror. Bearer regains 1 wound per each wound caused in a challenge.	^	Heavy Armour. Terror. Bearer regains 1 wound per each wound caused in a challenge.	
+okhonco	Honcho Helm	unk2	Tal	45	1	base:Wsv=4;lglx:mode=a;itst:race=ok		4+ Ward Save	^	^	
+okotooth	Ogre Tooth	unk2	N/A	20	1	lglx:mode=a;itst:race=ok		Roll a D6: On a 1 bearer is slain, on a 2+ all units within 6" Immune to Psychology until your next turn; One use only	^	^	
+okheadst	Ogre-Head Standard	unk2	N/A	20	1	lglx:mode=a;itst:race=ok	bsb=incl	Immune to Bicker & Ogres hate unit	^	^	
+okgreas2	Overtyrant's Crown	unk2	N/A	0	1	itst:reg=okgreasu;base:WSv=4		Talisman. 4+ Ward Save. Greasus and his unit Immune to Psychology.	^	4+ Ward Save. Greasus and his unit Immune to Psychology.	
+okpurple	Purple Rock	unk2	N/A	40	1	lglx:mode=a;itst:race=ok		Instead of dispelling a non-IF spell, roll a D6: 1-3 = S3 hit on bearer; 4-6 = spell dispelled	^	^	
+okredsto	Red Stone	unk2	Tal	30	1	base:Wsv=5;lglx:mode=a;itst:race=ok		5+ Ward Save & Magic Resistance (1)	^	^	
+okrhinox	Rhinox Horn	unk2	Enc	30	1	lglx:mode=a;itst:race=ok		+2 Ld until the start of your next turn; One use only	^	^	
+okeye	Rock Eye	unk2	Enc	5	1	itst:race=ok;lglx:!mode=a		At start of your turn, pick one enemy unit in LoS. Ppponent must reveal presence of hidden models and magic items (but not which model carries them)	^	Once per your turn, pick unit, enemy must reveal presence of hidden models and magic items	
+okrmaw	Rune Maw	unk2	Std	60	1	itst:race=ok;lglx:!mode=a	bsb=incl	When enemy spell targeting a unit is cast, on 2+ caster must choose another legal target for the spell, or it will be wasted (but counts as cast).	^	When enemy spell targeting a unit is cast, on 2+ caster must choose another legal target for the spell, or it will be wasted (but counts as cast).	
+okgreas1	Scepter of the Titans	unk2	N/A	0	1	itst:race=ok;stat:St=10		Magic Weapon. S10, Multiple Wounds (D3).	^	S10, Multiple Wounds (D3).	
+oksiegeb	Siegebreaker	unk2	MWp	85	1	itst:race=ok;stat:St+2;lglx:!mode=a		Always Strikes Last. Requires Two Hands. +2 Strength. Roll to hit agains enemy In instead of WS. No Parry saves allowed. When attacking models in the buiding may exchange attack for Siegebreaker Attack - it inflicts D6 hits with Strength equal to height of the building in inches.	^	^	
+okgrabbi	The Wicked Fist	unk2	MWp	30	1	stat:Sv-1;itst:race=ok;stat:At+1		Type: Ironfist. If the wielder scores one or more hits against an enemy model with a Magic Weapon, roll a D6: On a roll of 4+, all of the model’s Magic Weapons are destroyed. 	^	^	
+okbkill	Beastkiller	name	Mrk	20	100	itst:reg=okhunter		+1 to rolls To Wound against models with Large Target special rule. Does not work with magic weapons.	^	+1 to rolls To Wound against models with Large Target special rule. Does not work with magic weapons.	
+okbrawlg	Brawlerguts	name	Mrk	15	100	itst:race=ok		Re-roll failed To Wound rolls from Impact Hits.	^	Re-roll failed To Wound rolls from Impact Hits.	&!type=btl
+okdfist	Darkfist	name	MWp,Mrk	50	1	itst:reg=oklord;stat:At+1;stat:Sv-1			Model gains a Magic Weapon. Type: Ironfist. Any model in the army may be given a Mark of The Dark Gods (from the Warriors of the Dark Gods Army Book)		
+okdcheat	Deathcheater	name	Mrk	20	100	itst:race=ok		Once per game, pick enemy model in base contact that has hit the Deathcheater, but not yet rolled To Wound. Model (and his mount) must re-roll successful To Wound rolls against Deathcheater with any attacks this round.	^	^	
+okgbeat	Giantbreaker	name	Mrk	25	100	base:St+1;itst:race=ok		+1 S, may never refuse challenges, cannot choose flee as charge reaction.	^	+1 S, may never refuse challenges, cannot choose flee as charge reaction.	
+okkineat	Kineater	name	Mrk	25	100	itst:reg=oklord		Friendly units within 6" may re-roll failed Panic tests	^	^	
+oklongs	Longstrider	name	Mrk	20	100	stat:Mv+1;itst:race=ok		+1 Movement 	^	^	
+okmseek	Mawseeker	name	Mrk	40	100	stat:To+1;itst:race=ok&reg=oklord		+1 Toughness and suffers from Stupidity	^	+1 Toughness and suffers from Stupidity	
+okmteat	Mountaineater	name	Mrk	25	100	itst:race=ok		May never be wounded on better than a 3+. Hits causing automatic Wounds are unaffected.	^	^	
+okwcrush	Wallcrusher	name	Mrk	30	100	itst:race=ok		Inflicts an additional impact hit and ignores penalties for attacking defended obstacles	^	Inflicts an additional impact hit and ignores penalties for attacking defended obstacles	&!type=btl
+^
+^
+okstone	Stone Number		Priority	N/A	15	zrng:1-3				
+^
+okbruisr	general	cost
+okslaugh	okfull	hide
+okhunter	lahro	incl
+oklord	general	cost
+oklord	okgwtyr	cost
+oklord	okahw3	cost
+oklord	okha6	incl
+oklord	okbrtyr	cost
+okhunter	okahw3	cost
+okbull	stmg10vt	cost
+okbull	okchbull	cost
+okbull	latrp	incl
+okiguts	stmg10vt	cost
+okiguts	okchgut	cost
+okbull	okifist3	incl
+okiguts	okhillgo	hide
+okbull	mus10	cost
+oklord	okpistol	cost
+okbull	okhillgo	hide
+okiguts	hatrp	appl
+okbruisr	okahw3	cost
+okslaugh	okshow	hide
+oklord	shhro5	cost
+okgnob	okforema	cost
+okgnob	okgbiter	cost
+okyeti	okchyte	cost
+oklbelch	okhcan	incl
+okiguts	2handtrp	appl
+okiguts	mus10	cost
+okbruisr	okha6	incl
+okbruisr	okgwtyr	cost
+okbruisr	okbrtyr	cost
+okbruisr	btnostnd	incl
+oklbelch	okchld	cost
+oklbelch	mus10	cost
+okgorger	frenzy	incl
+okeater	okmanche	cost
+okbruisr	btstand8	cost
+okslaugh	mgmiscas	cost
+okgtrap	okharpla	incl
+okgtrap	okchgtrp	cost
+okslaugh	mg3lvl	incl
+okslaugh	mg4lvl60	cost
+okgtrap	okmore	cost
+okskragg	okfull	cost
+okskragg	okshow	cost
+okskragg	mgmiscas	cost
+okskragg	general	cost
+okskragg	okgutmag	incl
+okscrap	okrhinox	incl
+okscrap	okrcrew	incl
+okbruisr	okpistol	cost
+okbruisr	okhillgo	hide
+okgiant	chgiant1	cost
+okgiant	chgiant2	cost
+okgnob	throww	incl
+okbruisr	okbnnowi	cost
+okextlit	okkatana	cost
+okextlit	okpistol	cost
+okextlit	2handlrd	cost
+okextlit	lahro	appl
+okbruisr	okcrossb	cost
+okguts2	stmg20	cost
+okguts2	okchgut	cost
+okguts2	oklook	hide
+okguts2	hatrp	appl
+okguts2	2handtrp	appl
+okguts2	mus10	cost
+okbulls2	okclub	incl
+okbulls2	st20	cost
+okbulls2	okchbull	cost
+okbulls2	lalrd	cost
+okbulls2	okifist	cost
+okbulls2	oklook	hide
+okbulls2	2ndhwtr4	cost
+okbulls2	mus10	cost
+oklead2	okhcan	incl
+oklead2	okchld	cost
+oklead2	mus10	cost
+okeatdow	okkatana	cost
+okeatdow	okpistol	cost
+okeatdow	2handlrd	cost
+okeatdow	okextlit	incl
+okeatdow	lahro	appl
+okeatdow	okclub	incl
+okeatdow	okchoice	incl
+okguts2	okclub	incl
+okextlit	okclub	incl
+oklead2	latrp	incl
+oklbelch	latrp	incl
+okpigbak	okpigkni	cost
+okpigbak	sprtrp4	incl
+okpigbak	mus4	cost
+okmanbit	okobiter	cost
+okmanbit	flailtr1	incl
+okmanbit	stmg10	cost
+okmanbit	mus5	cost
+okmanbit	latrp	incl
+oklucky	okvlucky	cost
+oklucky	okbicker	appl
+oklucky	oksharp	incl
+okboglin	oksharp	incl
+okboglin	oksludge	cost
+okboglin	oktoad	cost
+oklucky	mus4	cost
+oklucky	st8	cost
+okpigbak	st8	cost
+okgnobhe	general	cost
+okgnobhe	2ndhwhro	cost
+okgnobhe	slinghro	cost
+okgnobhe	btstand2	cost
+okgnobhe	lahro	cost
+okgnoblo	general	cost
+okgnoblo	2ndhwhro	cost
+okgnoblo	lahro	cost
+okgnoblo	okrhino2	cost
+okgnoblo	shhro	cost
+okgnoblo	flailhro	cost
+okeathvy	okkatana	cost
+okeathvy	okpistol	cost
+okeathvy	2handlrd	cost
+okeathvy	okexthvy	incl
+okeathvy	haupg4	incl
+okeathvy	okclub	incl
+okexthvy	okkatana	cost
+okexthvy	okpistol	cost
+okexthvy	2handlrd	cost
+okexthvy	halrd	incl
+okexthvy	okclub	incl
+okeatdo2	okkatana	cost
+okeatdo2	okpistol	cost
+okeatdo2	2handlrd	cost
+okeatdo2	haupg4	incl
+okeatdo2	okclub	incl
+okeatdo2	okchoice	incl
+okeatdo2	okexthvy	incl
+okfighte	okgbite2	cost
+okfighte	okbicker	appl
+okfighte	laoptrp	cost
+okfighte	shoptrp	cost
+okblood	oksharp	incl
+okblood	oksplitt	cost
+okblood	oknocore	incl
+okgnoblo	sprmtrp2	hide
+okgnoblo	slinglrd	cost
+okgnobhe	flailhro	cost
+okfighte	2ndhwtr1	cost
+okfighte	st8	cost
+okfighte	mus4	cost
+okgnob	st10	cost
+okmanbit	shoptrp	cost
+oklucky	latrp	incl
+oklucky	shoptrp	cost
+okgnobhe	oksharp	incl
+okmanbi2	okobiter	cost
+okmanbi2	flailtr1	incl
+okmanbi2	stmg10	cost
+okmanbi2	mus5	cost
+okmanbi2	latrp	incl
+okmanbi2	shoptrp	cost
+okgnoblo	oksharp	incl
+okfighte	oksharp	cost
+okmanbi2	okbicker	incl
+okgnobhe	freecho3	cost
+okgnobhe	shhro	cost
+okskragg	2ndhwlr3	incl
+okbulrid	lahro	incl
+okbulrid	okthund2	cost
+okbulrid	stmg10	cost
+okbulrid	mus10	cost
+okbulrid	okha6	cost
+okbulrid	okgrhino	incl
+okbulrid	frenzy	incl
+okgreasu	general	cost
+okgreasu	latrp	incl
+okghark	general	cost
+okghark	okifist	incl
+okghark	okclub	incl
+okghark	okirhino	incl
+okbulri3	lahro	incl
+okbulri3	oktable	cost
+okbulri3	okthunde	cost
+okbulri3	stmg24	cost
+okbulri3	mus12	cost
+okbulri3	okha6	cost
+okbulri3	okifist3	cost
+okbulri3	okclub	incl
+okbulri3	okchoic2	incl
+okbulri3	okrhino3	hide
+okbulri3	okbulrhi	hide
+okbulri3	oktable2	cost
+okbulri3	oktable3	cost
+okhalfta	oksoupcn	incl
+okghark	okchoi99	auto
+okgnob	mus10	cost
+okgnob	sprlrd	hide
+okironbl	okrhinox	incl
+okironbl	okcrewl	incl
+okstoneh	okcrewst	incl
+okstoneh	frenzy	incl
+okthutus	okcrewth	incl
+okthutus	okchaint	incl
+okthutus	okhuntsp	incl
+okeater	stmg10	cost
+okeater	mus10	cost
+okeater	okskills	cost
+okeater	okskill3	cost
+okeater	haupg6	incl
+okeater	2hand8pt	cost
+okeater	okahw3	cost
+okeater	okbrtyr	cost
+okeater	okpistol	cost
+okeater	okdfm5	cost
+okmournf	lahro	incl
+okmournf	stmg10	cost
+okmournf	mus10	cost
+okmournf	okgwtyr	cost
+okmournf	okmournm	incl
+okmournf	okham	cost
+okmournf	okchmour	cost
+okmournf	okdfm10	cost
+okslaugh	mgshow	hide
+okslaugh	mgfull	hide
+okslaugh	oklore	cost
+okslaugh	general	cost
+okbutche	okfull	hide
+okbutche	okshow	hide
+okbutche	mgmiscas	cost
+okbutche	mg1lvl	incl
+okbutche	mg2lvl35	cost
+okbutche	mgshow	hide
+okbutche	mgfull	hide
+okbutche	oklore	cost
+okbutche	general	cost
+okslaugh	okahw3	cost
+okslaugh	okgwtyr	cost
+oklord	okmeat2	hide
+okhunter	okgwtyr	cost
+okhunter	okmountb	cost
+okbutche	2ndhwtrp	cost
+okbutche	okgwtyr	cost
+okbelly	mgmiscas	cost
+okbelly	mg1lvl	incl
+okbelly	mg2lvl30	cost
+okbelly	mgshow	hide
+okbelly	mgfull	hide
+okbelly	oklore2	cost
+okbelly	general	cost
+okbelly	okahw3	cost
+okbelly	okgwtyr	cost
+okgolgfa	2ndhwlr3	incl
+okgolgfa	okpistol	incl
+okgolgfa	latrp	incl
+okgolgfa	general	cost
+okbragg	latrp	incl
+okbragg	general	cost
+okskragg	frenzy	incl
+okstoneh	okchaint	incl
+okstonem	frenzy	incl
+okbulri2	lahro	incl
+okbulri2	oktable	cost
+okbulri2	okthunde	cost
+okbulri2	stmg24	cost
+okbulri2	mus12	cost
+okbulri2	okha6	cost
+okbulri2	okifist2	cost
+okbulri2	okclub	incl
+okbulri2	okchoic3	incl
+okbulri2	okrhino3	hide
+okbulri2	okbulrhi	hide
+okbulri2	oktable2	cost
+okbulri2	oktable3	cost
+okbulrid	oklook	hide
+okbulrid	2hand8pt	cost
+okthund2	okmeat4	cost
+okbulrid	okifist	cost
+okbulrid	okahw3	cost
+okslaugh	okbnwiz	cost
+okbelly	okbnwiz	cost
+oklord	okmeat1	hide
+okhunter	general	hide
+okhunter	btstand8	hide
+okhunter	okfreebs	cost
+okhunter	okbntrac	cost
+oklbelch	stmg10	cost
+okyeti	2ndhdlr2	incl
+okyeti	okss	cost
+okscrap	okdfm10	hide
+okstoneh	okdfm15	cost
+oktusk	okcore	cost
+okyeti	okcore2	cost
+oklord	okmeat4	hide
+oklord	okmeat3	hide
+oklord	okbnwar	cost
+oklord	okcrossb	cost
+oklord	okcross2	hide
+oklord	okifist2	cost
+oklord	okifist3	hide
+okslaugh	oklorec	hide
+okslaugh	oklored	hide
+okbruisr	okifist2	cost
+okhunter	okhuntsp	incl
+okhunter	okcross2	hide
+okhunter	okifist2	cost
+okhunter	oklance	cost
+okhunter	okscout	cost
+okskullf	okgwtyr	cost
+okskullf	halb3	cost
+okgnob	okmore	auto
+oklbelch	okhillgo	hide
+oklbelch	okmore	auto
+okmagna	okfull	hide
+okmagna	okshow	hide
+okmagna	mgmiscas	cost
+okmagna	mg3lvl	incl
+okmagna	mg4lvl60	cost
+okmagna	mgshow	hide
+okmagna	mgfull	hide
+okmagna	general	cost
+okmagna	okahw3	cost
+okmagna	okgwtyr	cost
+okmagna	oklore3	cost
+okmagna	okbnwiz	cost
+okslaugh	oklorel	hide
+okslaugh	okloreu	hide
+oklord	okdfm15	cost
+okslaugh	okdfm15w	cost
+okmagna	okdfm15w	cost
+okbruisr	okdfm15	cost
+okbelly	okdfm15w	cost
+okhunter	okdfm15w	hide
+okmagna	oklorec2	hide
+okmagna	oklored2	hide
+okmagna	oklorel2	hide
+okmagna	okloreu2	hide
+okbelly	oklorec	hide
+okbelly	oklored	hide
+okbelly	oklorel	hide
+okbelly	okloreu	hide
+oklavam	mgmiscas	cost
+oklavam	mg1lvl	incl
+oklavam	mg2lvl30	cost
+oklavam	mgshow	hide
+oklavam	mgfull	hide
+oklavam	oklore3b	cost
+oklavam	general	cost
+oklavam	okahw3	cost
+oklavam	okgwtyr	cost
+oklavam	okbnwiz	cost
+oklavam	okdfm15w	cost
+oklavam	oklorec2	hide
+oklavam	oklored2	hide
+oklavam	oklorel2	hide
+oklavam	okloreu2	hide
+okbull	okdfm5	cost
+okiguts	okdfm5	cost
+oklbelch	okdfm5	cost
+okeater	okhillgo	hide
+okeater	okifist2	cost
+okmournf	okhillgo	hide
+okmournf	okifist2	cost
+oktusk	okmore	auto
+okgorger	okdfm5	cost
+okyeti	okdfm5	hide
+okyeti	mus10	cost
+okironbl	okdfm10	cost
+okstoneh	okrepcro	cost
+okstoneh	okhuntsp	hide
+xokcrewo	oklance	cost
+okthutus	okdfm15	cost
+okgiant	okha6	incl
+okgiant	okdfm15	cost
+okbull	st10	cost
+okbull	okha6	cost
+okgnob	shhro	cost
+okgnob	lahro1	cost
+okgnob	okshort	cost
+okgnob	sprtrp1	cost
+okstoneh	oklance	cost
+okrocktr	okcrewst	incl
+okrocktr	frenzy	incl
+okrocktr	okchaint	incl
+okrocktr	okdfm15	cost
+okrocktr	okrepcro	cost
+okrocktr	okhuntsp	hide
+okrocktr	oklance	cost
+okhunter	okrocktr	cost
+okhunter	okbeast	hide
+okiguts	st10	cost
+okmournf	okmore	auto
+^
+^
+okmsgdu	Big Name Duplicate	You cant duplicate Big Names
+okmsgbsb	BSB Duplicate	You cant duplicate Free BSB
+okmsg11	Duplicate skill	bla bla
+okmsgbs1	Free BSB	Ta have Free BSB you have to have Beastspeaker Big Name bought. 
+okmsgbs2	Free Core	Ta have Free Core you have to have Beastspeaker Big Name bought. 
+okmsgfc	Free Core 1 u max	Only one unit of Free core Yetis and Sabretooth availble.
+okmsg1	General	One Tyrant or Bruiser must be the General.
+okmsg6	Greyback Pelt	You can't take Yhetees if a character has the Greyback Pelt
+okmsggut	Gur Magic required	At least one Slaughtermaster or Butcher must choose Lore of Great Maw (Gut Magic).
+okmsg7	Honcho's	You can only have 2 Gnoblar Honcho's per Hero choice
+okmsg8	Ironguts Magic Standard	Only 1 unit of Ironguts may have a magical standard
+okmsg12	Lords restriction	No more than 35% points can be assigned to Lord choices.
+okmsg9	Maneater Skills	No two units of Maneaters can choose the same skills - pick another
+okmsgdar	Marks	Ta have marks You have to have Darkfist Big Name bought. 
+okmsgnbs	No Beastspeaker	 Your army may not include Warlords, Brawlers, Ironclads, Ogre Mercenaries, Cannoneers, or Thundercrackers.
+okmsgndf	NoDarkfist	 Your army may not include Trackers, Yetis, Hill Goblins, Trapsetters, Sabretooth Tigers, or Scratapults
+okmsg2	Ogre Bulls	You require at least one unit of Ogre Bulls.
+okmsg3	Skrag	You must select the "Skrag in army" option for your Gorgers
+okmsg5	Skrag requires 2 Gorgers	You must take at least 2 Gorgers if you want to take Skrag
+okmsg4	Skrgg required	You must field Skrag to use the "Skrag in army" option
+^

@@ -1,0 +1,428 @@
+Description: Tomb Kings Army Book
+Version: 3.2 - Dec 11, 2000
+Author: Christepher McKenney & Dave Gilbert
+For comments, suggestions, and bugs go to:
+http://www.wcp-vancouver.com/forum/index.php
+^
+Undying Dynasties	tk	0	sm,dw,he,we,br,lz,ok,ch,dm,dk,og,sk,dz,em,vm,mc		Hero:%max=50,Core:%min=25,Spec:%max=100,Rare:%max=25		info:display="November 2015, v0.9.1 beta";info:display="by DeBelial";info:display=" ";info:display="Rulers of the Dead: A single Wizard must be selected to be the army's Hierophant, which must use the Path of the Sands. The Hierophant and all models in the same unit as him have Regeneration (6+). Units suffer 1 less Wound than they normally would due to the Unstable and Ashes to Ashes and Dust to Dust special rules if within the range of the Battle Standard Bearer’s Hold your Ground.";info:display=" ";info:always="Dust to Dust: At the end of the phase in which the Hierophant is removed as casualty, unit with this rule must take a Leadership test. If they fail, the unit suffers wounds equal to the amount they failed the test with, with no saves allowed. Distribute wounds as unstable.";info:display="At the beginning of the player's next turn, nominate another character with the Path of Sands and perform a Leadership test, at the character's unmodified Leadership value. If it is passed that character becomes the army’s new Hierophant. If no test was passed, perform a new crumble test for all of your units and repeat the process at the beginning of the player's next turn.";info:always="Undead Constructs: Models with this Special Rule are subject to Undead and Dust to Dust Special Rules. However, they suffer one less wound from the Unstable and Dust to Dust special rules.";tlmt:Hierophant-model=1@min-msg=tkmsg1-mode<z;tlmt:Hierophant-model=1-msg=tkmsg2-mode<z;none:"Standard Army List";mode:b="The Army of Quatar (Sehenesmet)";tlmt:Hie8-model=0@max-msg=tkmsg21-istype=Hie9;skip tlmt:Hiero1-model=0@max-msg=tkmsg22-istype=Hiero2;trat:pharaoh@1u:honouredcompany@1u-msg=tkmsg22	
+^
+tkarkhan	 Arkhan the Black		N/A	Lord		1:1	360	0	type:foot;spec:+weap;spec:+armr;spec:+ward;spec:+ench;spec:+wzrd;take:tkarkha1-free-perm;take:tkarkha2-free-perm;take:tkarkha3-free-perm;type:Wiz;type:Ld9;attr:Type="In";type:Hie9;type:Arkhan	umax:1u;lglx:!mode=b;hide		Infantry; Flammable; The Curse; Nehekharan Undead;		Lord;		4	4	3	5	5	3	3	3	9	7	7	0	0	0	0	1	0
+tkkhatep	 Grand Hierophant Khatep	Kha	N/A	Wizard		1:1	330	100	ipts:total=100-each=100;type:Hero;type:Wiz;type:skirmishers;type:foot;type:liche;attr:Type="In";type:Hie9;spec:+wzrd;take:tkliches-free-perm;take:tkcursin-free-perm	lglx:!mode=b;hide		Infantry; Nehekharan Undead; Grand Hierophant of Khemri; Loremaster (Lore of Nehekhara)		Lord; Lvl 4 Wizard - uses Lore of Nehekhara; Must be Hierophant		4	3	3	3	4	3	2	1	9	7	7	0	0	0	0	1	0
+tkneferh	 High Queen Khalida Neferher		N/A	Lord		1:1	365	0	type:skirmishers;type:king;spec:+ench;take:tkvenom-free-perm;type:queen;type:Ld10;attr:Type="In"	umax:1u;lglx:!mode=b;race:un;hide		Infantry; Flammable; The Curse; Nehekharan Undead; Always Strikes First; Poisoned Attacks; Hatred (Vampire Counts); Incarnation of the Asp Goddess (Immune to poison - Poisoned Attacks must roll To Wound as normal); Blessing of Asaph (Skeleleton Archers joined by Khalida will use her unmodified BS as their own, and their shooting attacks will be Poisoned)		Lord;		6	6	3	4	5	3	9	5	10	7	7	0	0	0	0	1	0
+tkapopha	 Prince Apophas	Hero	N/A	Hero	Hero	1:1	130	100	ipts:total=50-each=50;type:skirmishers;type:prince;type:foot;name:"TK Tomb Prince"-race=vm;type:Ld9;attr:Type="In"	skip lglx:(race=tk&!mode=b)|(race=vm&mode=e)|race=un;umax:1u;race:un;hide		Infantry; Nehekharan Undead; Entombed Beneath the Sands; Fly; Terror; Regeneration; Strider; Desert Revenant (cannot join units and be the general); Scarab Prince (Breath Weapon St2. If killed, all enemy units within 2D6" suffer 2D6 St2 hits); Soul Reaper (when prince first appears on the table nominate one enemy character - Apophas re-rolls failed To Hit and To Wound rolls against the chosen character)		Hero		4	4	3	4	3	4	1	5	8	7	7	0	0	0	0	1	0
+tkramhot	 Ramhotep the Visionary		N/A	Hero	Hero	1:1	110	100	ipts:total=50-each=50;type:foot;type:skirmishers;attr:Type="In"	lglx:(race=tk&!mode=b)|(race=vm&mode=e);umax:1u;hide		Infantry (Ca if mounted); Hatred; Flammable; Nehekharan Undead; Wrath of the Creator (his unit gains Hatred); Stone Shaper (Animated Constructs within 12" gain Regeneration (6+)); Frantic Fervour (as long as he is with the unit, this unit gains Frenzy); Master Artisan (Random unit with Animated Construct rule, determined at the start of battle, will re-roll failed armour saves).		Hero; 		4	3	3	4	4	2	3	2	7	7	7	0	0	0	0	1	0
+tksehen	 Sehenesmet		N/A	Lord		1:1	595	0	take:tksehen-free-perm;attr:Type="Mo"	lglx:mode=b;umax:1;hide		Monster (Thunderstomp); Terror; Large Target; Unstoppable Assault (+1 At per Wo hit (before saves) on charge); One less Wo from CR (Construct);May use cast two Incantations per turn (may be same one); Power Level 3D6		Undead;Counts as Lvl 3 Wizard for Dispel Dice; Wizard but does not generate Power Dice;Magic Resistance (Sehenesmet and all TK units within 12" have MR(2))		6	4	2	6	5	6	2	4	9	3	7	0	0	0	0	1	0
+tksettra	 Settra the Imperishable		N/A	Lord		1:1	475	0	type:mounted;spec:+weap;spec:+armr;spec:+ward;spec:+ench;take:tkptra-free-perm;take:tksetsca-free-perm;take:tkncrown-free-perm;take:tkchgods-free-perm;type:king;type:Settra;type:Ld10;attr:Type="In"	umax:1u;lglx:!mode=b;hide		Infantry; Flammable; The Curse; Nehekharan Undead; My Will Be Done (models in his unit use his WS in combat - other characters and mounts are unaffected); Settra the Great (his Inspiring Presence range is 18")		Lord; Rides Chariot of the Gods		4	7	3	6	5	4	3	5	10	7	4	0	0	0	0	1	0
+tkarch	 Skeleton Bowmen	Arch	N/A	Regiment	infantry	10:50	6	0	calc:Num=#;comm:"Two units per army"-legal=(mode=b);attr:Type="In"	umax:2-mode=b;race:un;hide		Infantry; Nehekharan Undead; Arrows of Asaph		Incls bow;		4	2	2	3	3	1	2	1	5	7	7	0	0	1	0	0	0
+tkbowcav	 Skeleton Light Cavalry	Cav	N/A	Regiment	cavalry	5:15	14	0	calc:Num=#;type:shooting;xcmp:Spec-mode=b;attr:Type="Ca"	race:un;hide		Cavalry; Free Reform; Undead; Dust to Dust; Vanguard; Scouts		Includes bow and Skeletal Steed; 		4	2	2	3	3	1	2	1	5	6	7	0	0	2	0	0	0
+tknekaph	 The Herald Nekaph	Nek	N/A	Hero	Hero	1:1	120	100	ipts:total=50-each=50;type:foot;type:skirmishers;attr:Type="In";spec:+weap;take:tkflasku-free-perm	lglx:(race=tk&!mode=b)|(race=vm&mode=e);umax:1u;hide		Infantry (Ca if mounted); Killing Blow; Flammable; Nehekharan Undead; Sworn Bodyguard; Herald of Despair (enemy unit in contact roll extra D6 when takig a Fear test and discard lowest result); Settra's Champion (if able to, must always issue and accept challenges - in challenge gains Ward Save 5+ and his Killing Blow works on 5+)		Hero; 		4	5	3	4	4	2	3	3	8	7	7	0	0	0	0	1	0
+tkserpen	Amuut	Serp	N/A	Mount	mount	1	0	0		hide		Monstrous Beast (Stomp 1); Poisoned Attacks; Fear; Undead Construct				7	3	0	5	4	3	3	3	8	7	7	0	0	0	0	0	0
+tkarkmnt	Ark of Ages		N/A	Machine	mount	1:1	0	1	attr:Type="Ch"	hide		Chariot; Undead Construct; War Platform; Ward Save(5+); Lethal Strike (Necropolis Guard only); Poisoned Attacks (Necropolis Guard Only); Magical Attacks; Natural Armour; # Sacred Ark: The Wizard mounted on the Ark adds 3" to the range of his spells. The model with this Special Rule provides the rider with three spells in addition to any he would otherwise have; these spells are Wind Blast (Path of Heavens), Curse of the Westerlies (Path of Heavens) and Shifting Sands (Path of Sands). Resolve any duplicate spells as explained in the rulebook.				0	0	0	4	5	4	0	0	0	7	7	0	0	0	0	0	0
+tkchanec	Champion	MCav	N/A	Champion	champ	1:1	10	0	coun	hide						4	5	4	4	4	1	3	3	8	3	7	0	0	2	0	0	0
+tkcharch	Champion	Warr	N/A	Champion	champ	1:1	10	0	coun	hide						4	3	3	3	3	1	2	2	5	7	7	0	0	1	0	0	0
+tkchaush	Champion	MInf	N/A	Champion	champ	1:1	10	0	coun	hide						5	5	3	5	4	3	3	4	8	4	7	0	0	2	0	0	0
+tkchcavl	Champion	Cav	N/A	Champion	champ	1:1	10	0	coun	hide						4	3	3	3	3	1	2	2	5	6	7	0	0	2	0	0	0
+tkchchar	Champion	Char	N/A	Champion	champ	1:1	10	0		hide			Upgrades one rider to a champion.	Upgrades one rider to a champion.	9th age	0	4	3	3	0	0	2	3	7	5	7	0	0	0	0	0	0
+tkchguar	Champion	Guard	N/A	Champion	champ	1:1	10	0	coun	hide						4	4	4	4	4	1	3	2	8	6	7	0	0	1	0	0	0
+tkchhcav	Champion	Cav	N/A	Champion	champ	1:1	10	0	coun	hide						4	3	3	3	3	1	2	2	5	5	7	0	0	2	0	0	0
+tkchwarr	Champion	Warr	N/A	Champion	champ	1:1	10	0	coun	hide						4	3	3	3	3	1	2	2	5	7	7	0	0	1	0	0	0
+tkstalch	Champion	MInf	N/A	Champion	champ	1:1	10	0	coun	hide						7	4	7	4	4	3	3	3	8	5	7	0	0	2	0	0	0
+tkchgod	Chariot of the Gods		N/A	Mount	chariot	1:1	0	0	attr:At="D6+1";attr:Type="Ch"	hide		Chariot; D6+1 impact hits on charge				0	0	0	5	5	5	0	0	0	4	4	0	0	0	0	0	0
+tksphmnt	Royal Sphinx		N/A	Mount	Monster	1:1	0	0	xcmp:Spec-mode=b;attr:Type="MB"	hide		Monstrous Beast (Stomp 1); Terror; Large Target; Undead Construct; Poisoned Attacks				6	4	0	5	6	5	1	4	8	7	7	0	0	0	0	0	0
+tkhsteed	Skeletal Horse	Steed	N/A	Mount	mount	1:1	0	0		hide		Undead, Dust to Dust				8	2	0	3	3	1	2	1	5	7	7	0	0	0	0	0	0
+tklsteed	Skeletal Horse		N/A	Mount	mount	1:1	0	0		hide		Undead, Dust to Dust				8	2	0	3	3	1	2	1	3	7	7	0	0	0	0	0	0
+tksteed	Skeletal Steed	Steed	N/A	Mount	mount	1	0	0		hide						8	2	0	3	3	1	2	1	5	7	7	0	0	0	0	0	0
+tkhigh	 Lord: Death Cult Hierarch	LHP	Hero	Wizard	Lord	1:1	155	100	ipts:total=100-each=100;type:Wiz;type:skirmishers;type:foot;type:liche;attr:Type="In";type:Hie9;type:Ld8	lglx:!mode=b;race:un		Infantry; Undead; Dust to Dust		Lord; Lvl 3 Wizard		4	3	3	3	4	3	2	1	8	7	7	0	0	0	0	1	0
+tkking	 Lord: Pharaoh	Lord	Hero	Lord	Lord	1:1	175	100	ipts:total=100-each=100;type:skirmishers;type:pharaoh;type:foot;type:Ld10;attr:Type="In"	lglx:!mode=b;race:un		Infantry; Undead; Dust to Dust; Flammable; Undying Will; Fear; Mummy's Curse; Honoured Company		Lord		4	6	3	5	5	4	3	4	10	7	7	0	0	0	0	1	0
+tkpriest	Hero: Death Cult Acolyte	LP	Hero	Wizard	Hero	1:1	60	100	ipts:total=50-each=50;type:liche;type:Wiz;type:skirmishers;type:foot;name:"TK Liche Priest"-race=vm;attr:Type="In";type:Ld7	skip lglx:race=tk|(race=vm&mode=e)|race=un;lglx:!mode=b;race:un		Infantry; Undead; Dust to Dust		Hero; Lvl 1 Wizard		4	3	3	3	3	2	2	1	7	7	7	0	0	0	0	1	0
+tkprince	Hero: Nomarch	Hero	Hero	Hero	Hero	1:1	115	100	ipts:total=50-each=50;type:skirmishers;type:prince;type:foot;type:Ld9;attr:Type="In"			Infantry; Undead; Dust to Dust; Flammable; Undying Will; Fear; Mummy's Curse		Hero		4	5	2	4	5	3	3	3	9	7	7	0	0	0	0	1	0
+tknecrot	Hero: Tomb Architect	Nct	Hero	Hero	Hero	1:1	85	100	ipts:total=50-each=50;type:foot;type:skirmishers;attr:Type="In";type:Ld7	race:un		Infantry; Undead; Dust to Dust; Flammable; #Master of Stone: At the beginning of the owning player's Turn a single friendly Undead Constructs unit within 12” of a model with this Special Rule may be given the Regeneration (5+) Special Rule. The Regeneration save lasts until the beginning of the next owning player's turn, or until the Tomb Architect is removed from play, whichever comes first; #Artisans Wrath: At the beginning of the owning player's Close Combat phase a single friendly non Undead Construct unit within 6" Hatred Special Rule. The Hatred lasts until the end of owning player's turn, or until the Tomb Architect is removed from play, whichever comes first. If the unit is already in second or other subsequent round of combat the unit counts this turn's close combat round as the first. If the Tomb Architect's unit is engaged the rule may only be used on his unit. The Hatred Special Rule does not work on mounts.				4	4	3	4	4	2	3	2	7	7	7	0	0	0	0	1	0
+tkhero	Hero: Tomb Harbringer	IB	Hero	Hero	Hero	1:1	70	100	ipts:total=100;type:foot;type:skirmishers;attr:Type="In";type:Ld8	clmt:weap+armr+ench+ward<=50-points-msg=crbsb1;skip lglx:(race=tk&!mode=b)|(race=vm&mode=e)|race=un;race:un		Infantry; Undead; Dust to Dust; Flammable; Undying Will; Lethal Strike; Poisoned Attacks; #Royal Guard: Should a Pharaoh, or a Nomarch, in the same unit as the model with this Special Rule be hit in Close Combat, one hit (before rolling to wound) may be transferred onto the Tomb Harbinger. Each model with this Special Rule may intervene against a single attack per round of Close Combat. Models with this Special Rule cannot intervene against hits suffered in a Challenge.		Hero; 		4	4	3	4	5	2	3	3	8	7	7	0	0	0	0	1	0
+tkcaval	Skeleton Cavalry	Cav	Core	Regiment	cavalry	5:20	12	0	calc:Num=#;xcmp:Spec-mode=b;attr:Type="Ca";ipts:total=25-each=50	race:un		Cavalry; Undead; Dust to Dust; Vanguard		base cost: 65, size: 5-20; Scout; Free Reform	9th age	4	2	2	3	3	1	2	1	5	6	7	0	0	2	0	0	0
+tkchar	Skeleton Chariots	Char	Core	Regiment	chariot	3:9	35	0	attr:At="D6";ipts:total=25-each=50;calc:Num=#;type:shooting;xcmp:Rare-mode=b;attr:Type="Ch"	slmt:1;race:un		Chariot; Undead; Dust to Dust		base cost: 135, size: 3-9		0	0	0	4	4	3	0	0	0	5	7	0	0	3	0	0	0
+tkwarr	Skeletons	Warr	Core	Regiment	infantry	10:50	5	0	calc:Num=#;comm:"Two units per army"-legal=(mode=b);attr:Type="In";ipts:total=25-each=50			Infantry; Undead; Dust to Dust		base cost: 50, size 10-50	9th age	4	2	2	3	3	1	2	1	5	7	7	0	0	1	0	0	0
+tksphinx	Battle Sphinx		Special	Monster	monster	1:1	220	0	xcmp:Spec-mode=b;attr:Type="RMo"	race:un		Ridden Monster (Stomp D6); Terror; Large Target; Undead Construct; Lethal Strike (crew only); Poisoned Attack (mount only)		Innate Defence (5+)	9th age	6	4	0	5	8	5	1	4	8	7	7	0	0	0	0	0	0
+tkcarr	Great Vultures	Carri	Special	Regiment		2:10	20	0	calc:Num=#;xcmp:Rare-mode=b;attr:Type="WB"	race:un		War Beast; Undead; Dust to Dust; Fly (10); Skirmishers			9th age	2	3	0	4	4	2	3	3	4	7	7	0	0	1	0	0	0
+tkguard	Nercopolis Guard	Guard	Special	Regiment	infantry	10:40	10	0	ipts:total=50-each=50;calc:Num=#;type:foot;attr:Type="In"	lglx:!mode=b;race:un		Infantry; Undead; Dust to Dust; Lethal Strike; Bodyguard; Magical Attacks; Poisoned Attacks		base cost: 80, size: 10-40		4	3	3	4	4	1	3	1	8	6	7	0	0	1	0	0	0
+tktscor	Sand Scorpion		Special	Monster		1:1	85	0	xcmp:Core-mode=b;attr:Type="MB"	race:un		Monstrous Beast (Stomp 1); Undead; Dust to Dust; Poisoned Attacks; Undead Construct; Magic Resistance (2); Fear; Lethal Strike; Innate Defence (5+)		Underground Ambush	9th age	7	4	0	5	5	4	3	4	8	5	7	0	0	4	0	0	0
+tksepsta	Sand Stalkers		Special	Monster		3:8	55	0	xcmp:Core-mode=b;attr:Type="MB"	race:un		Monstrous Beast (Stomp 1); Undead Construct; Skirmisher; Fear; Innate Defence (5+); # Petryfying Gaze: shooting attack with the following profile: Range 12”, Strength 2, Armour Piercing (6), Multiple Shots (D6+1), Quick to Fire. When rolling To Wound, use the highest Initiative of the model as its Toughness.				7	3	6	4	4	3	3	2	8	5	7	0	0	0	0	0	0
+tkswarm	Scarab Swarms	Swarm	Special	Regiment		2:10	25	0	calc:Num=#;attr:Type="Sw"	race:un		Swarm; Undead  Poisoned Attacks; Armour Piercing (1); Dust to Dust; Scout; Underground Ambush		base cost: 70, Unit size: 2:10		4	3	0	2	2	5	1	5	10	7	7	0	0	3	0	0	0
+tkushab	Shabtis		Special	Monster		3:10	40	0	calc:Num=#;xcmp:Core-mode=b;attr:Type="MI";ipts:total=25-each=25	race:un		Monstrous Infantry (Stomp 1); Undead Construct; Fear; Innate Defence (5+)		Undead; Construct; Unit Size: 3+		6	4	2	5	4	3	3	3	8	4	7	0	0	0	0	0	0
+tkneckni	Tomb Cataphracts	MCav	Special	Regiment		3:6	55	0	calc:Num=#;xcmp:Spec-mode=b;attr:Type="MC";ipts:total=50-each=50	race:un		Monstrous Cavalry (Stomp 1); Undead; Dust to Dust; Undead Construct; Lethal Strike (Rider only); Fear; Poisoned Attacks (Amuut only); Innate Defence (5+)				4	4	3	4	4	1	3	2	8	3	7	0	0	0	0	0	0
+tkcasket	Casket of Phatep		Rare	Machine		1:1	115	0	attr:Type="WM";calc:Num=#	race:un		War Machine; Undead; Dust to Dust; Lethal Strike; Poisoned Attacks; Magical Attacks; Ward Save (5+); # Wailing Spirits: Casket of Phatep can make a shooting attack with the following profile: Range 36”, Armour Piercing (6). This attacks hits automatically. To determine the damage the target suffers, roll a 2D6 + the current number of wounds Casket of Phatep has, and subtract the target's unmodified Leadership value, this is the number of wounds it suffers.				0	0	0	0	7	3	0	0	0	6	7	0	0	0	0	0	0
+tkcata	Charnel Catapult	Cata	Rare	Machine		1:1	115	0	attr:Type="WM";calc:Num=#	race:un		War Machine; Undead; Dust to Dust; Catapult Artillery Weapon: Range 12-60”, 3” template*, Strength 3 [9], Flaming Attacks, Magical Attacks, [Multiple Wounds (Ordnance)]. Unit that suffers at least one casualty from this weapon must take a panic test just as if it had suffered 25% casualties. Panic tests caused by Charnel Catapult are taken at -1 Leadership				0	0	0	0	7	3	0	0	0	6	7	0	0	0	0	0	0
+tknecsph	Dread Sphinx		Rare	Monster		1:1	200	0	calc:Num=#;attr:Type="Mo"	race:un		Monster (Stomp D6); Fly (7); Terror; Large Target; Undead Construct; Devastating Charge; Multiple Wounds (2, Monstrous Cavalry, Monstrous Beasts and Monsters); Poisoned Attacks; Armour Piercing (1)		Innate Defence (5+)	9th age	6	5	0	5	7	5	1	5	8	7	7	0	0	0	0	0	0
+tkhietit	Soul Colossus		Rare	Monster	monster	1:1	185	0	attr:Type="Mo";spec:+spel	race:un		Monster (Stomp D6); Terror; Large Target; Undead Construct; Innate Defence (5+); # Spell Conduit: Friendly Undead Wizards within 12” add a +D3 casting modifier when casting spells; # Divine Reservoir: Once per friendly magic phase, after a friendly wizard has rolled on the Miscast Table (but before applying the effects) a Soul Colossus within 12'' of the Wizard may reduce its Wounds (to a minimum of 1), no saves of any kind allowed. For each wound lost this way reduce the PDU of the miscast effect by one, to a minimum of 1. If the Wizard rolled 2-4 for its miscast, the ability may not be used.			take:light0-perm, take:death3-perm	6	3	2	6	6	5	2	3	8	5	7	0	0	6	0	0	0
+tkgiant	War Colossus		Rare	Monster	monster	1:1	180	0	attr:Type="Mo"	race:un		Monster (Stomp D6); Terror; Large Target; Undead Construct; Grinding Attacks (D3+1); Innate Defence (5+)				6	4	2	6	6	5	2	5	8	4	7	0	0	6	0	0	0
+tkangels	Winged Reapers		Rare	Monster		2:5	75	0	calc:Num=#;xcmp:Core-mode=b;attr:Type="MI"	race:un		Monstrous Infantry (Stomp 1); Undead Construct; Terror; Fly (6); Lethal Strike; Necromantic Aura; Innate Defence (5+)		base cost: 160, size: 2-5		6	5	3	5	5	4	4	3	10	5	7	0	0	0	0	0	0
+xtkarkc2	Bound Spirits		N/A	Regiment	crew	1	0	0								4	2	0	2	0	0	2	6	0	7	0	0	0	0	0	0	0
+xtkguard	Casket Guard	Gu	N/A	Regiment		2:2	0	0				Carry Tomb blades (Killing Blow)				4	3	3	3	3	1	3	2	8	6	7	0	0	1	0	0	0
+xtkccha3	Chariot	Char	N/A	Mount	chariot	0	0	0	attr:At="D6";type:shooting	hide		Undead, Dust to Dust				0	0	0	4	4	3	0	0	0	5	7	0	0	0	0	0	0
+xtkccha2	Desert Chariot	Char	N/A	Mount	chariot	0	0	0	attr:At="D6";type:shooting	hide						0	0	0	4	4	3	0	0	0	5	7	0	0	0	0	0	0
+xtkkeepe	Keeper of the Casket	Ke	N/A	Regiment		1:1	0	0								4	3	3	3	3	1	3	2	8	6	7	0	0	1	0	0	0
+xtkarkcr	Necropolis Guard		N/A	Regiment	crew	1	0	0								0	3	3	4	0	0	3	1	8	7	0	0	0	0	0	0	0
+xtktomb2	Necropolis Guard		N/A	Regiment	crew	1	0	0								0	3	3	4	4	0	3	1	8	7	0	0	0	0	0	0	0
+xtktomb	Riders		N/A	Regiment	crew	1	0	0								0	4	3	4	0	0	3	2	8	7	0	0	0	0	0	0	0
+xtkcwarr	Skeleton Charioteer		N/A	Regiment	crew	1	0	0				Light Armour			9th age	0	3	2	3	0	0	2	2	7	7	0	0	0	0	0	0	0
+xtkcata	Skeletons	Char	N/A	Regiment		3:3	0	0	calc:Num=#							4	2	2	3	3	0	2	1	6	7	7	0	0	0	0	0	0
+^
+tkcast	Casting Order	CO	Priority	N/A	0	rang:1-10			Casting Order within Group	
+tkspec	Count as Special		Priority	N/A	0	xcmp:spec			Skeleton chariots count as Special choices if your General is a Tomb Prince.	
+tkextra	Extra base cost		Priority	N/A	5	cost:single;hide;xcst:30-unit=tkchar;xcst:-20-unit=tkguard;xcst:10-unit=tkcarr;xcst:20-unit=tkswarm;xcst:10-unit=tkangels				
+tkhiero	Hierophant	Hiero	Priority	N/A	0	type:Hierophant;over:tklore=delete;skip more:tklore2=auto;more:mgnehe=incl	Hierophant and all model in the same unit have Regeneration (6+) special rule.		Select Character to be Hierophant (highest Magic Level or your choice if tie).	
+tkhiero2	Hierophant	Hiero	Priority	N/A	0	type:Hie8;type:Hierophant;over:tklore=delete;more:mgnehe=auto	Hierophant and all model in the same unit have Regeneration (6+) special rule.		Select Character to be Hierophant (highest Magic Level or your choice if tie).	
+tkhonoco	Honoured Company	HonCo	Priority	N/A	0	ichg:-25;show:stmg10;over:st10=delete;type:honouredcompany;unam:+" - Honoured Company"				
+tkignore	Ignore		Priority	N/A	0	acmp:Hero+1u;hide				
+tkignor2	Ignore2		Priority	N/A	0	acmp:Rare+1u;hide				
+tklore2	Lore Table	Nhk	Priority	N/A	0	more:mgnehe=incl				Lore of Nehekhara
+tklore3	Lore Table	Dth	Priority	N/A	0	more:mgdeath=incl				Lore of Death
+tklore4	Lore Table		Priority	N/A	0	tabl:Nehekhara=mgnehe,Undeath=unundeat-noname-nobrackets				Lore of Nehekhara
+tklore5	Lore Table		Priority	N/A	0	tabl:Death=mgdeath,Undeath=unundeat-noname-nobrackets				Lore of Nehekhara
+tkmasmas	Master Mason	MaMas	Priority	N/A	30		The range on the Master of Stone special rule is increased by 6''. If a Tomb Architect is the army General it must be taken on him.			
+tkchoice	Opponent Approval?		Priority	N/A	0		Opponent Approval Gained?			
+tklore	Path Table		Priority	N/A	0	tabl:Sands=mgnehe,Death=mgdeath,Light=mglight-noname-nobrackets				
+tkshtrp	Shield	Shd	Priority	N/A	0	more:save1=incl	Shield	+1Sv w/ handweapon in HtH	In HTH combat on foot, additional +1 Save when using hand weapon.	
+tkgen	Tomb King General		Priority	N/A	0	type:TKGen;hide;olgl:race=tk&type=king				
+tkbsb	Battle Standard	BSB	First	N/A	0	catg:btl;type:btl	Units within 12" take one less Wo from CR			
+tkfull	Full Incantation List	Full	SpellType	N/A	0	more:tksmitin=incl;more:tkdjedra=incl;more:tkurgenc=incl;more:tkveng=incl				
+tkfull1	Full Incantation List	Full	SpellType	N/A	0	more:tksmitin=incl;more:tkurgenc=incl				
+tkshow	Show Incantations		SpellType	N/A	0	take:tksekhub-perm;take:tksmite-perm;take:tksummon-perm;take:tkmankar-perm;spec:+spel;item:+4				
+tkshow1	Show Incantations		SpellType	N/A	0	take:tksmite-perm;take:tkmankar-perm;spec:+spel;item:+2				For Tomb King/Prince
+tkorder	Order for Magic		Scroll	N/A	0	apnd:foot	Order is the same every turn.  Characters must be ordered at start of battle and cannot be changed	1.  All Bound items carried by units; 2. Icon Bearer's Bound Items; 3. Tomb Princes: "My Will Be Done!" and Bound Items; 4. Tomb Kings: "My Will Be Done" and Bound Items; 5. Liche Priests: Incantations and Bound Items in increasing order of power (e.g., Hierophant's last); 6. Casket of Souls	Print the Order of Magic at the foot of roster.	
+tkahw5	Additional hand weapon	ahw	Weapon	Wep	5	utyp:!mounted;stat:At+1;stat:In+1;chld:champ@At+1;chld:champ@In+1;xcst:3-unit=tkushab;xcst:3-unit=tkprince;xcst:3-unit=tkhero;xcst:3-unit=tknecrot	Requires Two Hands. +1 Attack and +1 Initiative. Mounted models cannot use Additional Hand Weapons.			
+tkbow	Bow	Bow	Weapon	N/A	0	type:shooting;type:missiles;type:KhalidUnit	Bow			
+tkgiabow	Bow of the Desert	GiBo	Weapon	Wep	20	type:shooting;type:missiles	Bolt Thrower, S6, 48", D3 Wounds, may move and fire			
+tkcasket	Casket of Souls		Weapon	N/A	0	unit:tkcasket@abs=1			Assign Casket of Souls to Liche High Priest	
+tkflail	Flail	Fl	Weapon	2Hd	5	stat:St+2;chld:champ@St+2;xcst:3-unit=tkprince;xcst:3-unit=tkhero	Requires Two Hands. +2 Strength. Close Combat Attacks allocated at a model with Flail has a +1 bonus when rolling To Hit.			
+tkgw10	Great Weapon	gw	Weapon	Wep	15	stat:St+2;type:GreatWeapon;xcst:10-unit=tkgiant	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+tkgwfth	Great Weapon	GW	Weapon	2Hd	6	stat:St+2;chld:champ@St+2;type:GreatWeapon	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+tkgwftl	Great Weapon	GW	Weapon	2Hd	6	stat:St+2;type:GreatWeapon	Requires Two Hands. +2 Strength. Strikes at initiative 0.			
+tkhalber	Halberd	Hal	Weapon	Wep	10	stat:St+1;chld:champ@St+1;xcst:4-unit=tkprince;xcst:4-unit=tkhero;xcst:5-unit=tkushab	Requires Two Hands. +1 Strength.			
+tkhw0	Hand Weapon		Weapon	N/A	0		No options			
+tkllance	Light Lance		Weapon	N/A	1	over:tkasprep=delete	+1 Strength on charge			
+tkgiawea	Weapon of Choice		Weapon	N/A	0	tabl:Nothing=tkhw0,GreatWeapon=tkgw10,AdditionalHandWeapon=tkahw5,BowofDesert=tkgiabow				Necrolith Colossus Weapon table
+tkushwea	Weapon of Choice		Weapon	N/A	6	tabl:GreatWeapon=2handtr2,AdditionalHandWeapon=2ndhwtr2,GiantBow=tkushbow				Ushabti Weapon table
+tkaspbow	Aspen Bow	AspBw	Missile	N/A	0	xcst:3-unit=tkprince	Range 24”, Strength 3, Volley Fire. This weapon ignores all modifiers To Hit.			
+tkasprep	Aspen Bow	AspBw	Missile	N/A	1	over:shoptrp=delete;xcst:2-unit=tkcaval;over:tkllance=delete	Range 24”, Strength 3, Volley Fire. This weapon ignores all modifiers To Hit.		Replace Shields with Aspen Bows	
+tkgiasbo	Giant Aspen Bow	GiBow	Missile	Wep	10	type:shooting;type:missiles	Range 36”, Strength 7, Multiple Wounds (D3), Armour Piercing (6). This weapon ignores all modifiers To Hit.			
+tkgrasbo	Great Aspen Bow	GBow	Missile	Wep	0	type:shooting;type:missiles;stat:St-1;chld:champ@St-1	Range 36”, Strength 5, Volley Fire. This weapon ignores all modifiers To Hit. Counts as Hand Weapon, -1St in CC			
+tkushbow	Great Aspen Bow	GBow	Missile	Rng	10	type:shooting;type:missiles;xcst:15-unit=tkking	Range 36”, Strength 5, Volley Fire. This weapon ignores all modifiers To Hit. Counts as Hand Weapon, -1St in CC			
+tklitdea	Light of Death	LoD	Missile	N/A	0		Innate Bound Spell, Power Level 5, Direct Damage, Range 48", Target must take a Ld test on 3D6, and suffers a wound for each point failed by, with no armour saves allowed. On 3+ spell jumps to another enemy unit within 6", and so on (may not affect same unit twice). This may be cast as long as the Keeper of the Casket is alive and the Casked had not moved this turn.			
+tkhaupg	Heavy Armour	HA	Armour	N/A	12	utyp:!MagicArmour;over:lalrd=delete;more:save2=incl				
+tkinna4	Innate Defence (4+)	Inn4	Armour	N/A	25	more:save3=incl;over:tkinna5=delete				
+tkinna5	Innate Defence (5+)	Inn5	Armour	N/A	0	more:save2=incl				
+tkcav1	Natural Armour	NatAr	Armour	N/A	3	more:save1=incl;over:tkcav0=delete			May exchange Scout and Free Reform for Natural Armour.	
+tkbard	Barding	Bard	Shield	N/A	10	more:save1=incl;chld:mount@Mv-1				
+tkchanec	Champion		Champion	N/A	0	unit:tkchanec@abs=1;csiz:tkserpen+1;modl:-1;cost:model			Upgrades a model to a Champion	
+tkcharch	Champion		Champion	N/A	0	unit:tkcharch@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+tkchaush	Champion		Champion	N/A	0	unit:tkchaush@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+tkchcavl	Champion		Champion	N/A	0	unit:tkchcavl@abs=1;csiz:tksteed+1;modl:-1;cost:model			Upgrades a model to a Champion	
+tkchchar	Champion		Champion	N/A	0	unit:tkchchar@abs=1;csiz:xtkcwarr-1			Upgrades a model to a Champion	
+tkchguar	Champion		Champion	N/A	0	unit:tkchguar@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+tkchhcav	Champion		Champion	N/A	0	unit:tkchhcav@abs=1;csiz:tksteed+1;modl:-1;cost:model			Upgrades a model to a Champion	
+tkchwarr	Champion		Champion	N/A	0	unit:tkchwarr@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+tkstalch	Champion		Champion	N/A	0	unit:tkstalch@abs=1;modl:-1;cost:model			Upgrades a model to a Champion	
+tksteed2	2x Skeletal Horses		Mount	N/A	0	unit:tksteed@per=2				
+tksteed4	4x Skeletal Horse		Mount	N/A	0	unit:tksteed@per=4;over:tksteed2=delete			May be pulled by two additional Skeletal Steeds.	
+tkserpe2	Amuut	Serp	Mount	Mnt	50	unit:tkserpen@per=1;more:heromnt=incl;more:save1=incl;stxt:Type="MC";over:tkahw5=delete			Mounted movement	
+tksphmnt	Royal Sphinx		Mount	Mnt	180	unit:tksphmnt@abs=1;slct:heromnt=incl;stxt:Type="MC";over:tkahw5=delete			   	
+tkserpen	Sand Serpent		Mount	Mnt	0	unit:tkserpen@per=1			Mounted movement;	
+tkhsteed	Skeletal Horse		Mount	Mnt	15	more:save1=incl;unit:tkhsteed@per=1;more:heromnt=incl;stxt:Type="Ca";show:tkbard;over:tkahw5=delete			Mounted movement	
+tklsteed	Skeletal Horse		Mount	Mnt	20	more:save1=incl;unit:tklsteed@per=1;more:heromnt=incl;stxt:Type="Ca";show:tkbard;over:tkahw5=delete				
+tksteed	Skeleton Horse		Mount	Mnt	0	unit:tksteed@per=1			Mounted movement;	
+tkarkmt	Ark of Ages		Crew	Mnt	150	unit:tkarkmnt@per=1;unit:xtkarkcr@per=2;unit:xtkarkc2@per=1			   	
+xtksphix	Battlesphinx crew		Crew	Chr	0	unit:xtktomb@per=4;hide			   	
+xtkcata	Catapult Crew		Crew	N/A	0	unit:xtkcata@per=3;hide			   	
+tkccha2	Chariot		Crew	Chr	0	unit:xtkccha2@abs=1;unit:tksteed@per=2;stat:Sv-1;slct:heromnt=incl;type:chariot			   	
+tkccha3	Chariot		Crew	Chr	45	unit:xtkccha3@abs=1;stat:Sv-1;slct:heromnt=incl;type:chariot;stxt:Type="Ch";over:tkahw5=delete			   	
+xtkchar	Chariot		Crew	Chr	0	unit:xtkcwarr@per=2;unit:tksteed@per=2;hide			   	
+tkguards	Guards		Crew	N/A	0	hide;unit:xtkkeepe@abs=1;unit:xtkguard@abs=2				
+xtktomb2	Spirit Tomb crew		Crew	Chr	0	unit:xtktomb2@per=3;hide			   	
+tkextras	2 Additional Steeds		Priority1	N/A	15	utyp:Arkhan			Extra steeds	
+tkdjedra	Djedra's Summoning		Priority1	N/A	0	apnd:foot;hide		Rng 12"; Unit regains D3 Wos (Tomb Guards D6); For Skeleton Warriors, roll 2D6 and take highest; Healing must follow strict order; May not exceed original models or wounds; Models summoned DO NOT count as charging		
+tksmitin	Horekhah's Righteous Smiting		Priority1	N/A	0	apnd:foot;hide		Rng: 12" (King 6", Prince self or unit joined); If unengaged targeted, unit shoots immediately; If engaged, all models (mount and riders) make 1 normal attack; Only 1 may affect a unit per turn		
+tkurgenc	Mankara's Urgency		Priority1	N/A	0	apnd:foot;hide		Rng: 12" (King 6", Prince self or unit joined); Target: unengaged friendly unit; May take another normal move (incl charge); Unit may be affected only once per turn		
+tkveng	Sekhubi's Vengeance		Priority1	N/A	0	apnd:foot;hide		Magic Missile; Rng 18"; D6 S4 hits		
+tkblasp	Blessings of the Asp	Bless	Priority2	N/A	2	utyp:shooting;type:blessed	All shooting are Poisoned attacks		Only valid in Army of the Queen	
+tkboneng	Bone Engineer	BonEn	Priority3	N/A	25		Friendly Undead Constructs add +1 Regeneration for each model with this rule within 6” (up to a maximum of 5+). Furthermore, all models in the same units as a model with this special rule have Hatred.			
+tkfiery	Breath Weapon	FieRo	Priority3	N/A	25		(Strength 4, Flaming Attacks)			
+tkentomb	Entombed Beneath the Sands	EntBS	Priority3	N/A	5		Entombed Beneath the Sands.			
+tksting	Envenomed Sting	EnvSt	Priority3	N/A	10				Poisoned Attacks	
+tkchafly	Flying Chariot	SkFoe	Priority3	N/A	30		Chariot gains Fly special rule.			Arkhan the Black - flying chariot
+tkskulls	Skulls of the Foe	SkFoe	Priority3	N/A	30		Additional -1 to LD for panic tests from casualties.			
+tkambush	Underground Ambush	Amb	Priority3	N/A	20	cost:single	A unit with this Special Rule follows all the rules for Ambush. However, instead of entering the battlefield from a table edge, it must enter with the front of its first rank or back of its rear rank touching an Underground Point, which is nominated when the Ambushing roll is successful. Nominate any point on the battlefield outside 3" of an enemy unit and 1/2" of impassable terrain and scatter it 2D6" before placing the ambushing unit. If the point ends beneath an enemy unit, place the Ambushing unit in base contact with this enemy’s front facing instead (maximizing contact as normal). The arriving unit counts as charging and no charge reactions can be taken. If it is not possible to place the Ambushing unit (for whatever reason), treat the Ambush roll as failed instead and roll again next turn.			
+tkfreere	Free Reform	FreRe	Special	N/A	0					
+tklethal	Lethal Strike	LetSt	Special	Oth	25					
+tknecaur	Necromantic Aura	NecAu	Special	Oth	15		Units within 6” of one or more models with this Special Rule suffer 1 less Wound than they normally would due to the Unstable and Dust to Dust special rules. Models with this special rule cannot benefit from the effects of this special rule.			
+tkcav0	Scout, Free Reform	ScFRe	Special	N/A	0					
+^
+tk9mw02	Scourge of Kings	weap	MWp	50	1	itst:race=tk		Attacks made with this weapon have Armour Piercing (1). Furthermore, every successful hit with this weapon becomes two hits, instead of one.	^	^	
+tk9mw01	Vanquisher Eternal	weap	MWp	55	1	itst:race=tk&!type=mounted;stat:St+1		Halberd. Models on foot only. The Weapon has two modes of attack, Focused Strike and Sweeping Strike. Chose at the beginning of each combat round which mode is used; #Focused Strike: Attacks in this mode have Multiple Wounds (D3) and Lethal Strike Special Rules; #Sweeping Strike: All of the model's attacks are exchanged for: each enemy model in base to base contact with the wielder suffers an automatic hit, while models which could make a supporting attack against the wielder suffer a hit on 4+. These hits have the Lethal Strike Special Rule.	^	^	
+tk9ma02	Armour of Eternities	armr	Arm,MAr	35	1	itst:race=tk&!type=mounted;base:Wo+1;base:Sv-3;type:MagicArmour		Plate Armour. Models on foot only. The wearer has +1 Wound.	^	^	
+tk9ma01	Crown of the Pharaohs	armr	MAr	45	1	itst:race=tk;base:Sv-1		6+ armour save. The Wearer may use his Undying Will special rule on a single friendly unit within 6". If a character is engaged in close combat, it may only choose to confer its unmodified Weapon Skill to one friendly Undead unit engaged with the same enemy unit as the Character. In addition the player may choose to use the Undying Will special rule in the shooting phase by bestowing his unmodified Ballistic Skill instead of his Weapons Skill. The Undying Will special rule may be used only in a single phase of each turn. Wearer mounted on a mount with Large Target rule adds 6" to the range of the item.	^	^	
+yk9ta01	Brooch of the Sun	ward	Tal	15	1	itst:race=tk		Tlisman. One model, or part of a model, in base contact with the wearer’s model, chosen by the controlling player, has its attacks characteristic reduced by 1 (to a minimum of 1). Models which do not use Attack characteristic to attack cannot be affected by this item.	^	^	
+tk9ei04	Chariot of Nephet-Ra	ench	Enc	25	1	itst:race=tk&type=chariot		Enchanted Item. Models on chariots only. The Impact Hits made by the wearer’s chariot and the chariot's mount’s attacks have Magical Attacks and Flaming Attacks special rules, and are resolved at +1 Strength.	^	^	
+tk9ei01	Death Mask of Teput	ench	Enc	30	1	itst:race=tk		Enchanted Item. Enemy units in base contact with the wearer cannot receive Inspiring Presence or the Hold your Ground rules. Choose before your opponent performs a Leadership test at the end of a round of close combat.	^	^	
+tk9ei02	Sandstorm Cloak	ench	Enc	60	1	itst:race=tk&type=Lord&!type=mounted		Enchanted Item. Models on foot only. Choose at the beginning of owner’s turn, the Wearer either has Fly (7) Special Rule in the Remaining Moves sub-phase or all enemy shooting beyond 12” suffers a penalty of -1 To Hit when targeting the Character, or the unit he is in. Either effect lasts until the beginning of owner’s next turn.	^	^	
+tk9ei03	Sandstorm Cloak	ench	Enc	40	1	itst:race=tk&!type=Lord&!type=mounted		Enchanted Item. Models on foot only. Choose at the beginning of owner’s turn, the Wearer either has Fly (7) Special Rule in the Remaining Moves sub-phase or all enemy shooting beyond 12” suffers a penalty of -1 To Hit when targeting the Character, or the unit he is in. Either effect lasts until the beginning of owner’s next turn.	^	^	
+tk9ar01	Book of the Dead	wzrd	Arc	35	1	itst:race=tk		Arcane Item. Bound Spell, Power Level 5. Contains the spell No Rest in Death (Path of Sands) with range 18”. Successfully casting the Bound Spell also activates the Path of Sands attribute.	^	^	
+tk9mb01	Unyielding Standard	stnd	Std	40	1	itst:race=tk		Bound Spell, Power Level 5. Contains Incantation of Protection, which can only be cast on the unit carrying the standard.	^	^	
+tksummon	Djedra's Incantation of Summoning	spel	N/A	0	100	itst:race=tk;xtot		Rng 12"; Unit regains D3 Wos (Tomb Guards D6); For Skeleton Warriors, roll 2D6 and take highest; Original unit determines Max Wos recovered; Healing must follow strict order; Models summoned DO NOT count as charging	^	^	obsolete
+tksmite	Horekhah's Incantation of Righteous Smiting	spel	N/A	0	100	itst:race=tk;xtot		Rng: 12" (King 6", Prince self or unit joined); If unengaged targeted, unit shoots immediately; If engaged, all models (mount and riders) make 1 normal attack; Only 1 may affect a unit per turn	^	^	obsolete
+tkmankar	Mankara's Incantation of Urgency	spel	N/A	0	100	itst:race=tk;xtot		Rng: 12" (King 6", Prince self or unit joined); Target: unengaged friendly unit; May take another normal move (incl charge); Unit may be affected only once per turn	^	^	obsolete
+tksekhub	Sekhubi's Incantation of Vengeance	spel	N/A	0	100	itst:race=tk;xtot		Magic Missile; Rng 18"; D6 S4 hits	^	^	obsolete
+tkdead	Banner of the Hidden Dead	unk2	Std	90	1	itst:race=tk	bsb=incl	Nominate one unit of infantry, chariots or cavalry with value no greater than 175 points. This unit gains Entombed Beneath the Sands rule, and when it arrives it must do so within 12" of the banner. If the bearer of banner is slain before unit enter the battlefield, hidden unit counts as destroyed. In addition every unit with EBtS rule that attempts to emerge within 12" of the banner can re-roll scatter and artillery dice when emerging - you must re-roll both or neither of the dice.	^	^	
+tkantar	Blade of Antarhak	unk2	MWp	50	1	itst:race=tk		Each unsaved wound from the Blade restores one Wound to the wielder. If the bearer is already at his starting Wounds, he gains Regeneration until end of next player turn.	^	^	
+tkcloak	Cloak of the Dunes	unk2	Enc	50	1	itst:race=tk&type=foot		Wearer gains Fly. If the bearer moves over unengaged enemy unit in the Remaining Moves sub-phase, that unit suffers 2D6 S2 hits. The wearer may move over several enemy units this way.	^	^	
+tkdestr	Destroyer of Eternities	unk2	M2H	80	1	itst:race=tk&type=foot&type=king;stat:St+2		+2 Strength. Heroic Killing bBlow. May Exchange all Attacks to 'Sweeping Attack': all enemy models in BtB take single automatic hit. If a target is model consisting of separate parts, all take a single hit.	^	^	
+tkenkhil	Enkhil's Kanopi	unk2	Arc	25	1	itst:race=tk		Bound spell. Power level 3. Roll a D6 for every remains in play spell in play. On 2+ that spell is dispelled, and you gain D3 power dice to your power pool.	^	^	
+tkdemask	Golden Death Mask of Kharnut	unk2	Enc	60	1	itst:race=tk		Causes Terror. Enemy units within 6" cannot use their general's Inspiring Presence rule or their Battle Standard Hold Your Ground rule.	^	^	
+tkscroll	Neferra's Scrolls of Mighty Incantations	unk2	Arc	50	1	itst:race=tk		One Use Only. A Wizard may declare that he is using this item before rolling to cast the spell. If he does so, he adds a number of extra bonus dice, equal to his Wizard level. You still need to add at least one dice from the power pool. The bonus dice do not count as power dice, however a roll of any double on those extra dice will cause irresitible force and a miscast.	^	^	
+tkundyin	Standard of the Undying Legion	unk2	Std	50	1	itst:race=tk	bsb=incl	Bound spell. Power level 5. Augment spell, can be cast on the bearer's unit. The unit recovers D6+2 Wounds worth of models.	^	^	
+tkgolden	Armour of Golden Magnificence	spec	N/A	0	1	itst:reg=tksettra		2+ Armour Save; may never be modified beyond 4+ (even for "no armour save" attacks)	^	^	
+tkchgods	Chariot of the Gods	spec	N/A	0	1	itst:type=Settra;uadd:tkchgod@1;stat:Sv-1		Enchanted Item. D6+1 Magical and Flaming Impact Hits.	^	^	
+tkncrown	Crown of Nehekhara	spec	N/A	0	1	itst:reg=tksettra		Settra's 'My Will Be Done' affects all friendly Nehekharan Undead units within 6".	^	^	
+tkflasku	Flail of Skulls	spec	MWp	0	1	itst:reg=tknekaph		Flail. Multiple Wounds (2).	^	^	
+tksehen	Sacred Crook of Shapesh	spec	N/A	0	1	stat:St+2		Counts as a Great Weapon and doubles Sehenesmet's incantation ranges.  Keep track of the # of unsaved wounds caused by the Sacred Crook.  In each TK magic phase, Sehenesmet can cast a Magic Missile (24" range, # S4 hits equal to current # of wounds caused by Sacred Crook) that cannot be dispelled.  Once cast # wounds in Crook returns to 0.	^	^	
+tkcursin	Scroll of the Cursing Word	spec	Arc	0	1	itst:reg=tkkhatep		One use only. Use instead of attempting to dispel enemy spell. Spell is cast as normal. Caster must pass Toughness test. If the test is passed, nothing happens. If the test is failed caster cannot cast any more spells this turn. If the test is failed on a roll of 6, the caster suffers D3 Wounds with no saves of any kind. 	^	^	
+tkarkha2	Staff of Nagash	spec	N/A	0	1	itst:type=Arkhan		At the end of opponent's Magic phase you may store up to 3 unused dispel dice from your pool. At the beginning of your next Magic phase add this dice to your power pool.	^	^	
+tkptra	The Blessed Blade of Ptra	spec	N/A	0	1	itst:reg=tksettra		Flaming Attacks. No armour saves. Monster or character that suffers one or more Wounds from this blade will suffer -1 to its rolls To Hit for the remainder of the game.	^	^	
+tkarkha3	The Liber Mortis	spec	N/A	0	1	itst:type=Arkhan		Arkhan's Wizard Level is increased to 5.	^	^	
+tkliches	The Liche Staff	spec	Arc	0	1	itst:reg=tkkhatep		After rolling dice to cast the spell, you may use the Liche Staff to re-roll all the dice used in this casting roll. You may use this ability once per turn.	^	^	
+tksetsca	The Scarab Brooch of Usirian	spec	Tal	0	1	itst:type=Settra		Settra and his Chariot have 4+ Ward Save and Magic Resistance (1).	^	^	
+tkvenom	The Venom Staff	spec	N/A	0	1	itst:reg=tkneferh		Bound Spell; Power Lvl 5; Range 24"; Magic Missile; 2d6 St4 hits.	^	^	
+tkarkha1	Tomb Blade of Arkhan	spec	MWp	0	1	itst:type=Arkhan		Each unsaved wound from Tomb Blade restores one Wound to Arkhan's unit.	^	^	
+^
+^
+tkrem	Remove all Categories		Priority	N/A	0	zhid;zspc:-weap;zspc:-armr;zspc:-wzrd;zspc:-ench				
+^
+tkbowcav	tkaspbow	incl
+tkbowcav	tkchcavl	cost
+tkbowcav	tksteed	appl
+tkbowcav	mus10	cost
+tkbowcav	st10	cost
+tkcata	xtkcata	auto
+tkcaval	tkchhcav	cost
+tkcaval	tksteed	appl
+tkcaval	mus10	cost
+tkcaval	shoptrp	incl
+tkcaval	tkllance	cost
+tkcaval	stmg10	hide
+tkcaval	tkhonoco	cost
+tkchwarr	chamstat	hide
+tkguard	tkchguar	cost
+tkguard	latrp	incl
+tkguard	mus10	cost
+tkguard	shoptrp	cost
+tkguard	stmg10	cost
+tkprince	general	cost
+tkprince	heromnt	hide
+tkprince	lalrd	incl
+tkprince	shlrd	cost
+tkprince	tkflail	cost
+tkprince	tkccha3	cost
+tkprince	lancelrd	hide
+tkking	general	cost
+tkking	tkflail	cost
+tkwarr	tkchwarr	cost
+tkwarr	mus10	cost
+tkwarr	st10	cost
+tkhero	btstand8	cost
+tkhero	tklsteed	cost
+tkhero	tkccha3	cost
+tkhigh	tklsteed	cost
+tkpriest	tkhsteed	cost
+tkhigh	tkhiero	cost
+tkpriest	tkhiero	cost
+tkking	lalrd	incl
+tkprince	tkgwfth	cost
+tkprince	tkhaupg	cost
+tkking	shlrd	cost
+tkhero	lalrd	incl
+tkking	lancelrd	hide
+tkking	heromnt	hide
+tkking	tkgw10	cost
+xtkguard	2handtrp	appl
+xtkguard	latrp	appl
+tkchar	tkchchar	cost
+tkchar	xtkchar	incl
+tkchar	mus10	cost
+tkchar	stmg10	cost
+tkwarr	laoptrp	incl
+tkcasket	xtktomb2	auto
+tkking	tksphmnt	cost
+tkking	tkhaupg	cost
+tkhigh	tklore	cost
+tkhigh	mg3lvl	incl
+tkhigh	mg4lvl60	cost
+tkpriest	tklore	cost
+tkpriest	mg1lvl	incl
+tkpriest	mg2lvl30	cost
+xtkcwarr	sprmtrp1	incl
+xtkcwarr	tkaspbow	incl
+tkwarr	shoptrp	incl
+tkneferh	general	cost
+tkneferh	lalrd	incl
+tksettra	general	incl
+tksettra	tkhiero2	cost
+tksettra	mgfull	cost
+tksettra	mg1lvl	incl
+tksettra	tklore2	incl
+tksehen	tkignor2	incl
+tksehen	hatrp	appl
+tksehen	general	incl
+tksehen	tkhiero	incl
+tknecrot	lalrd	incl
+tkarch	tkcharch	cost
+tkarch	mus10	cost
+tkarch	st10	cost
+tkarch	laoptrp	cost
+tkcharch	chamstat	hide
+tkarch	tkaspbow	incl
+tkwarr	sprtrp	cost
+tkguard	haltrp	cost
+tkneckni	tkchanec	cost
+tkneckni	tkserpen	appl
+tkneckni	mus10	cost
+tkneckni	tkllance	incl
+tkneckni	stmg10	cost
+tkushab	stmg10	cost
+tkushab	mus10	cost
+tkushab	tkchaush	cost
+tkushab	latrp	incl
+tksphinx	tkfiery	cost
+tksphinx	xtksphix	incl
+xtktomb	sprmtrp1	incl
+tksepsta	haltrp	incl
+tkgiant	tkgiasbo	cost
+xtkkeepe	latrp	appl
+tksphmnt	tklethal	cost
+tkhero	tkgwfth	cost
+tkhero	tkflail	cost
+tkhero	lancelrd	hide
+tkhero	shlrd	cost
+tkhero	general	cost
+tknecrot	tkahw5	cost
+tkhigh	mgmiscas	cost
+tkpriest	mgmiscas	cost
+tkpriest	mgfull	hide
+tkpriest	mgshow	hide
+tkramhot	lahro	incl
+tkramhot	2ndhwhro	incl
+tkramhot	frenzy	incl
+tksettra	mgshow	cost
+tksettra	lalrd	incl
+tkchgod	tksteed4	incl
+tknekaph	tkhsteed	cost
+tknekaph	tkccha2	cost
+tknekaph	lahro	incl
+tkkhatep	tkhiero	auto
+tkkhatep	mg4lvl	incl
+tkkhatep	mgmiscas	cost
+tkapopha	lahro	incl
+tkkhatep	tklore4	auto
+tkkhatep	general	cost
+tkhigh	general	cost
+tkpriest	general	cost
+tknecrot	general	cost
+tkramhot	general	cost
+tknekaph	general	cost
+tkarkhan	general	cost
+tkarkhan	tkhiero	cost
+tkarkhan	mgfull	cost
+tkarkhan	mg4lvl	incl
+tkarkhan	tklore5	incl
+tkarkhan	mgshow	cost
+tkarkhan	lalrd	incl
+tkarkhan	tkccha3	cost
+xtkccha3	tksteed2	auto
+xtkccha3	tksteed4	cost
+tkhigh	mgfull	hide
+tkhigh	mgshow	hide
+tkkhatep	unshow	hide
+tkarkhan	unshow	hide
+tkking	tkccha3	cost
+tkking	tklsteed	cost
+tkprince	tklsteed	cost
+tkprince	tkaspbow	cost
+tkhero	tkhaupg	cost
+tkhero	tkserpe2	cost
+tkhero	tkboneng	cost
+tkcaval	st10	cost
+tkneckni	tkambush	cost
+tkushab	tkhalber	cost
+tkushab	tkahw5	cost
+tkushab	tkgrasbo	cost
+tksepsta	tkambush	cost
+tksepsta	tkstalch	cost
+tkgiant	tkgw10	cost
+tkgiant	tkahw5	cost
+tkgiant	latrp	incl
+tkangels	lalrd10	cost
+tkangels	tkhalber	cost
+tkangels	tkahw5	cost
+xtktomb2	haltrp	incl
+tkwarr	tkhonoco	cost
+tkwarr	stmg10	hide
+tkking	tkushbow	cost
+tkking	tkhalber	cost
+tkking	tkahw5	cost
+tkking	tkbard	hide
+tksphmnt	tknecaur	cost
+tkarkmnt	tknecaur	cost
+xtkarkcr	tkaspbow	incl
+tkhigh	tkarkmt	cost
+tkprince	tkhalber	cost
+tkprince	tkahw5	cost
+tkprince	tkbard	hide
+tkpriest	tkarkmt	cost
+tkpriest	tkbard	hide
+tkhigh	tkbard	hide
+tkhero	tkaspbow	cost
+tkhero	tkhalber	cost
+tkhero	tkahw5	cost
+tkhero	tkbard	hide
+tknecrot	lancelrd	hide
+tknecrot	heromnt	hide
+tkhero	heromnt	hide
+tknecrot	tkbard	hide
+tknecrot	tkhsteed	cost
+tknecrot	tkccha3	cost
+tknecrot	tkserpe2	cost
+tknecrot	tkmasmas	cost
+tkwarr	tkasprep	cost
+tkcaval	tkcav0	auto
+tkcaval	tkcav1	cost
+tkcaval	tkextra	auto
+tkcaval	tkasprep	cost
+tkchar	tkextra	auto
+tkchar	tkhonoco	cost
+tkchar	tkfreere	free
+tkguard	tkextra	auto
+tkneckni	latrp	incl
+tktscor	tkambush	incl
+tkcarr	tkextra	auto
+tksphinx	tkinna5	incl
+tksphinx	tkinna4	cost
+tkswarm	tkextra	auto
+tkangels	tkextra	auto
+tknecsph	tkinna5	incl
+tknecsph	tkinna4	cost
+^
+^
+tkmsg17	Chariots Core	Chariots cannot select the 'Count as Special' option if your General is a Tomb King.
+tkmsg16	Chariots Special	Chariots must select the 'Count as Special' option if your General is a Tomb Prince.
+tkmsg1	Hierophant	Choose one Death Cult Hierarch or Acolyte to be the Hierophant.
+tkmsg21	Hierophant Ld	The Liche Priest/Liche High Priest with the highest magic Level must be the Hierophant
+tkmsg9	Khalida's Bow Unit	Khalida requires at least one unit of Skeleton Warriors armed with bows.
+tkmsg5	No Kings	You have selected to have a Tomb Prince as your General so you many not have any Tomb Kings.
+tkmsg20	Opponent's Approval	Need Approval from Opponent to use.
+tkmsg15	Queen's Army	Blessing of the Asp can only be taken if Queen Khalida Neferher is in the army
+tkmsg11	Settra	You have too many Lords (Settra takes up 2 Lord slots).
+tkmsg12	Settra	At least half of your total points must be spent on Chariots, Heavy Horsemen, and Tomb Guard if Settra is leading your army.
+tkmsg8	Settra	No Liche Priests in a Settra Army
+tkmsg10	Settra 	You have too many Lord characters.
+tkmsg6	Tomb King	This army requires a Tomb King as general
+tkmsg2	Too many Hierophants	Only one Liche High Priest or Liche Priest may be the Hierophant
+tkmsg22	Too many Honoured Companies	You may only have one Honoured Company upgrade for each character with this special rule.
+^
