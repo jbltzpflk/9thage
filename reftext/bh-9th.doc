@@ -1,0 +1,491 @@
+bh-9th.doc
+Fantasy Battles
+The 9th Age
+Beast Herds Army Rules Version 0.11.0 Beta
+
+Army Special Rules
+PrimalInstinct: Models with this special rule may reroll failed to hit rolls in close combat on the condition that their unit passes a Leadership test at the start of the combat round.
+Drunkard:
+Units with this rule may gain two different sets of effect depending on whether they show up Sober or Drunk on the battlefield.
+Sober: The Drunkard unit is miraculously sober for once. Each model gains Vanguard and Free Reform.
+Drunk: The Drunkard unit is unbelievably drunk. Each model gains Immune to Psychology and Thunderous Charge. The Player may freely choose at the start of the game whether each Drunkard unit in the army shows up Sober or Drunk. Drunkard Characters may only join Drunkard units who are in the same state of sobriety (or lack thereof).
+Pack Tactics: Units with this rule gain Swiftstride when charging an enemy's flank or rear but loses this rule if joined by any model who does not also have this rule.
+Looted Booze: Units with this rule may change from Sober to Drunk at the beginning of the Player's turn. If a model with Looted Booze joins a unit that is Drunkard and uses this ability then the entire unit will change from Sober to Drunk. This rule has no effect on models who are already Drunk.
+Blood Offering: Units that include at least one Character with this rule may reroll failed Panic tests, at the cost of inflicting one wound with no saves allowed to the Character who performed the Blood Offering. If available, a unit may reroll failed Panic tests using another mean that is less harmful (and bloody), such as benefiting from the influence of a nearby Battle Standard Bearer.
+Half Horse:
+Stomp hits can never be distributed to a model with this rule.
+
+Armoury
+Soothsayer Staff: Close combat weapon. Requires two hands. Models armed with a Soothsayer Staff may use this weapon in one of two manners, decided by the Player at the start of each combat round. The weapon may be used offensively, as a Great Weapon, or defensively, as a Hand Weapon which grants a +2 bonus to Armour Save.
+Beast Axe:
+Close combat weapon, +1 Strength, strikes at Initiative 0 (regardless of wearer's initiative). Wearer has +1 to its armour save.
+Totems: Totems are special upgrades that certain Beast Herd Characters and Champions may take. Each Totem Bearer may cast a Bound Spell (power level 3) of type Augment which lasts one turn. Only one Totem Bound Spell can be active on a unit at a time. Champions and Characters do not carry the same Totems and are not subject to the same rules.
+Character: Totem Bearers may target friendly units up to 18" away and may cast any of the Totem Bound Spells. An army may field a maximum of 3 Characters who carry Totems.
+Champion: Totem Bearers may only target their own units and may only bring one Totem. The chosen Totem must be designated on the army list.
+
+List of Totems
+Gnarled Hide Totem The unit gains Innate Defence (6+) and the Distracting special rule.
+Blooded Horn Totem The unit gains +1 Attack and Armour Piercing (2).
+Clouded Eye Totem The unit counts as having Hard Cover and Magic Resistance (3).
+Black Wing Totem The unit gains +3 Initiative and adds D6 to its charge distance.
+
+Magical Items
+Magical Weapons
+Bragh's Thighbone  (75/50 pts) Type: Great weapon. No saves of any kind can be taken against attacks made by this weapon.
+The Impaler  (40 pts) Type: Hand Weapon. Grants +2 Strength in the Close Combat Phase directly after the Model has charged into combat. The weapon can be shot using the rules for a Bolt Thrower Artillery Weapons: Range 18", Strength 6, Armour Piercing (6), Multiple Wounds (D3). Shots from the weapon don't suffer any to-hit modifiers.
+
+Magical Armour
+Greathorn Helm  (25 pts) Type: None (6+ armour save). The bearer may perform a close combat attack whenever he successfully passes an armour save against a close combat attack. These additional attacks cannot benefit from weapon bonuses and are immediately performed out of sequence, before removing Wounds from unsaved attacks.
+Aaghor's Flayed Hide  (60/50 pts) Type: Light Armour. This item grants the bearer Regeneration (4+) and +1 Toughness.
+Talismans
+Pillager Icon  (25 pts) The bearer grants Vanguard to friendly units within 12" if they are comprised entirely of Razortusks, Chariots (excluding Character mounts), or Feral Hounds.
+Eye of Dominance  (15 pts) The bearer can only be hit by rolls of '6' from attacks made by War Beasts, Monstrous Beasts, Monsters, Swarms, Cavalry mounts, Monstrous Cavalry mounts, Chariot beasts and Ridden Monster mounts. Crew and riders are unaffected by this effect.
+
+Arcane Items
+Gourd of Beetles  (35 pts) The bearer may cast Swarm of Insects from the Path of Wilderness as a Bound Spell (Power Level 4).
+
+Enchanted Items
+Crown of Horns (10 pts) The bearer automatically passes Primal Instinct tests, and so does any unit who may borrow the Character's Leadership.
+Seed of the Dark Forest (40 pts) After all forces have deployed but before the game starts, the bearer may place a Dark Forest (size: no larger than 10" in length and 6" in width) on the battlefield, with its centre 12" or less away from the wearer. All friendly models within this Dark Forest (even partially) add 1 to their Casting Rolls for Augment-type spells, Hex-type spells and Totems.
+
+Magical Standards
+Banner of the Wild Herd  (60 pts) The bearer of the banner gains +1 Strength in close combat and grants this bonus to any unit it joins.
+
+Army List
+LORDS
+Minotaur Warlord  220 pts
+single model
+M WS BS S T W I A Ld
+6 6 4 6 5 5 5 5 8 Monstrous Infantry 40x40mm base
+Armour: Light Armour
+Beasts Special Rules: Strider (Forest), Primal Instinct
+Special Rules:
+Frenzy, Impact Hits (D3)
+Lord of Bulls:  If a Minotaur Warlord is the General, one unit of max. 6 Minotaurs may count as Core but may not take a Magical Standard.
+Options: pts
+May take Magical Items up to 100
+May take any of the following
+Shield 10
+Heavy Armour 15
+May take a weapon (one choice only)
+Additional Hand Weapon 10
+Flail 10
+Great Weapon 20
+Beast Axe 25
+
+Gnarled Soothsayer  185 pts
+single model
+M WS BS S T W I A Ld
+5 5 4 4 5 3 4 2 8 Infantry 25x25mm base
+Magic: Level 3 Wizard Master . Generates spells from the Path of Wilderness, Death, Shadows, or Nature.
+Beasts Special Rules: Strider (Forest), Primal Instinct
+Special Rules: Blood Offering, Pack Tactics
+Options: pts
+May become a Level 4 Wizard 35
+May take Magical Items up to 100
+May take a Weapon (one choice only)
+Additional Hand Weapon 3
+Soothsayer Staff 10
+May ride a Raiding Chariot 70
+
+Beast Lord  140 pts
+single model
+M WS BS S T W I A Ld
+5 6 4 5 5 3 5 4 9 Infantry 25x25mm base
+Armour: Light Armour
+Beasts Special Rules: Strider (Forest), Primal Instinct
+Special Rules: Pack Tactics, Hunting Call (see below)
+Options: pts
+May take Magical Items up to 100
+May take any of the following
+Shield 5
+Heavy Armour 12
+May take Throwing Weapons 3
+May take a Weapon (one choice only)
+Additional Hand Weapon 5
+Great Weapon 10
+Lance 15
+Beast Axe 15
+May take a mount (one choice only)
+Raiding Chariot 70
+Razortusk Chariot 150
+Hunting Call:  If a Beast Lord is the general of the army then your army may reroll Ambush rolls and may roll for Ambush beginning on turn 1, as long as the owning Player does not have first turn.
+
+HEROES
+Minotaur Chieftain  130 pts
+single model
+M WS BS S T W I A Ld
+6 5 4 5 5 4 4 4 7 Monstrous Infantry 40x40mm base
+Armour: Light Armour
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Sp ecial Rules: Frenzy, Impact Hits (1)
+Options: pts
+May be the Battle Standard Bearer 25
+May take Magical Items up to 50
+May upgrade to Totem Bearer 20
+May take any of the following
+Shield 4
+Heavy Armour 12
+May take a Weapon (one choice only)
+Additional Hand Weapon 5
+Flail 5
+Great Weapon 15
+Beast Axe 20
+
+Soothsayer  70 pts
+single model
+M WS BS S T W I A Ld
+5 4 4 3 4 2 3 1 7 Infantry 25x25mm base
+Magic: Level 1 Wizard Apprentice. May generate spells from the Path of Wilderness, Death, Shadows or Nature
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Blood Offering, Pack Tactics, Ambush
+Options: pts
+May become a Level 2 Wizard 25
+May take Magical Items up to 50
+May take a Weapon (one choice only)
+Additional Hand Weapon 2
+Soothsayer Staff 10
+May lose Ambush and ride a Raiding Chariot 70
+
+Beast Chieftain  70 pts
+single model
+M WS BS S T W I A Ld
+5 5 4 4 5 2 4 3 8 Infantry 25x25mm base
+Armour: Light Armour
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Pack Tactics, Ambush
+Options: pts
+May be the Battle Standard Bearer 25
+May take Magic Items up to 50
+May upgrade to Totem Bearer 20
+May take any of the following
+Shield 2
+Heavy Armour 12
+May take Throwing Weapons 2
+May take a Weapon (one choice only)
+Additional Hand Weapon 3
+Lance 6
+Great Weapon 6
+Beast Axe 10
+May lose Ambush and ride a Ramhorn Chariot 70
+
+Centaur Chieftain  100 pts
+single model
+M WS BS S T W I A Ld
+8 5 4 5 5 2 4 4 8 War Beast 25x50mm base
+Armour: Light Armour
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Drunkard, Half Horse
+Hoof Father: If a Centaur Chieftain is the General then units of Centaurs may be taken as Core. Units of Centaurs taken as core may only take a Veteran Magical Standard worth up to 25pts.
+Options: pts
+May be the Battle Standard Bearer 25
+May take Magical Items up to 50
+May upgrade to Totem Bearer 20
+May take Ambush 15
+May take Looted Booze 20
+May take any of the following
+Shield 2
+Heavy Armour 12
+May take Throwing Weapons 3
+May take a Weapon (one choice only)
+Additional Hand Weapon 5
+Lance 15
+Great Weapon 15
+Beast Axe 15
+
+CORE
+Wildhorn Herd  60 pts
+10  models, may add up to 40  models 6 pts/model
+M WS BS S T W I A Ld
+5 4 3 3 4 1 3 1 7 Infantry 25x25mm base
+Armour: Light Armour
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Pack Tactics, Ambush
+Options: pts
+May take (one choice only)
+Shields 1 / model
+Additional Hand Weapons 1 / model
+May take Throwing Weapons 1 / model
+May upgrade one model to each of the following:
+Champion 10
+- may upgrade to Totem Bearer 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer*
+*A Veteran Standard Bearer is One of a Kind and may take a Magical Standard worth up to 25 pts.
+
+Mongrel Herd 50 pts
+10  models, may add up to 50 models 5 pts/model
+M WS BS S T W I A Ld
+5 3 3 3 3 1 3 1 6 Infantry 20x20mm base
+Armour: Shield
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Pack Tactics, Ambush, Insignificant
+Options: pts
+May take Spears free
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+
+Mongrel Raiders  40 pts
+5  models, may add up to 10  models 4 pts/model
+M WS BS S T W I A Ld
+5 3 3 3 3 1 3 1 6 Infantry 20x20mm base
+Weapons: Short Bow
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Pack Tactics, Ambush, Insignificant, Skirmisher
+Options: pts
+May gain Scout 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+
+Feral Hounds  40 pts
+5  models, may add up to 15  models 4 pts/model
+M WS BS S T W I A Ld
+7 4 - 3 3 1 3 1 5 War Beast 25x50mm base
+Beasts Special Rules: Strider (Forest)
+Special Rules: Ambush, Insignificant
+Options: pts
+May take any of the following
+Innate Defence (6+) 1 / model
+Poisoned Attacks 1 / model
+Vanguard 2 / model
+
+Raiding Chariot 70 pts
+1 model, may add up to 2 models for 65 pts/model
+M WS BS S T W I A Ld
+Chariot - - - 5 4 4 - - -
+Wildhorn Crew (1) - 4 3 3 - - 3 1 7
+Longhorn Crew (1) - 4 3 4 - - 3 1 8
+War Hog (2) 7 3 - 4 - - 2 1 3 Chariot 50x100mm base
+Weapons: Great Weapon (Longhorn), Light Lance (Wildhorn)
+Armour: Mount's Protection (5+), Light Armour
+Beasts Special Rules: Primal Instinct (Wildhorn and Longhorn), Strider (Forest)
+Special Rules: Free Reform
+
+SPECIAL
+Minotaurs  120 pts
+3  models, may add up to 7  models 36 pts/model
+M WS BS S T W I A Ld
+6 4 3 5 4 3 3 3 7 Monstrous Infantry 40x40mm base
+Armour: Light Armour
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Frenzy, Impact Hits (1)
+Options: pts
+May take equipment (one choice only)
+Shield 3 / model
+Great Weapon 7 / model
+Additional Hand Weapon 4 / model
+May upgrade one model to each of the following:
+Champion 10
+- may upgrade to Totem Bearer 10
+Musician 10
+Standard Bearer 10
+- may take a Magical Standard up to 50
+
+Longhorn Herd  110 pts
+10  models, may add up to 30  models 11 pts/model
+M WS BS S T W I A Ld
+5 4 3 4 4 1 3 1 8 Infantry 25x25mm base
+Weapons: Great Weapon
+Armour: Heavy Armour
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Pack Tactics
+Options: pts
+May Ambush (units of 20 or less models) 2 / model
+May replace Great Weapons with Halberds free
+May upgrade one model to each of the following:
+Champion 10
+- May upgrade to Totem Bearer 10
+Musician 10
+Standard Bearer 10
+- May take a Magic Standard up to 50
+
+Centaurs  80 pts
+5  models, may add up to 15  models 14 pts/model
+M WS BS S T W I A Ld
+8 4 3 4 4 1 3 2 7 War Beast 25x50mm base
+Armour: Light Armour, Shield
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Drunkard, Half Horse
+Options: pts
+May have the Ambush Special Rule 3 / model
+May take Throwing Weapons 1 / model
+May take equipment (one choice only)
+Additional hand weapons 1 / model
+Great Weapons 2 / model
+Centaur Lances 2 / model
+May upgrade one model to each of the following:
+Champion 10
+- May upgrade to Totem Bearer 10
+Musician 10
+Standard Bearer 10
+- May take a Magical Standard up to 25
+
+Gargoyles 90 pts
+5  models, may add up to 5  models 13 pts/model
+M WS BS S T W I A Ld
+5 4 - 3 4 1 3 2 7 Infantry 20x20mm base
+Beasts Special Rules: Primal Instinct, Strider (Forest)
+Special Rules: Fly (10), Skirmishers, Thunderous Charge
+Options: pts
+May gain Scout 15
+
+Razortusk Herd 50 pts
+1  models, may add up to 9  models 35 pts/model
+M WS BS S T W I A Ld
+7 3 - 5 5 3 2 4 6 Monstrous Beast 50x50mm base
+Beasts Special Rules: Strider (Forest)
+Special Rules: Thunderous Charge
+
+Razortusk Chariot 110 pts
+single model
+M WS BS S T W I A Ld
+Chariot - - - 5 5 5 - - -
+Wildhorn Crew (1) - 4 3 3 - - 3 1 7
+Longhorn Crew (1) - 4 3 4 - - 3 1 8
+Razortusk (1) 7 3 - 5 - - 2 4 6 Chariot 50x100mm base
+Weapons: Great Weapon (Longhorn), Light Lance (Wildhorn)
+Armour: Light Armour, Mount's Protection (5+)
+Beasts Special Rules: Primal Instinct (Wildhorn and Longhorn), Strider (Forest)
+Special Rules:
+Thunderous Charge (Razortusk)
+
+Briar Beast 50 pts
+single model
+M WS BS S T W I A Ld
+* 3 - 4 5 3 2 * 10 Monstrous Beast 40x40mm base
+Beasts Special Rules: Strider (Forest)
+Special Rules: Fear, Random Attacks (1D6+1), Random Movement (3D6), Unbreakable
+Sleeper:  You may choose not to deploy this unit as normal. Instead the controlling Player may choose to wake up the Sleeper at the start of any of his remaining moves sub-phases: place the model completely within any forest on the table.
+
+RARE
+Cyclops 200 pts
+single model
+M WS BS S T W I A Ld
+7 2 3 6 5 6 3 5 8 Monster 50x100mm base
+Beasts Special Rules: Strider (Forest)
+Special Rules: Ward-Breaker Attacks, Immune to Psychology, Magic Resistance (3), Ward Save (5+)
+Hurl Attack: If it has not marched this turn the Cyclops may hurl stones, using the rules for a Catapult Artillery Weapon with: Range 36", 3" Template, Strength 3[9], [Multiple Wounds (Ordnance)], Magical Attacks, Ward-Breaker Attacks.
+
+Gortach 200 pts
+single model
+M WS BS S T W I A Ld
+7 4 - 6 6 6 3 6 10 Monster 50x100mm base
+Beasts Special Rules: Primal Instinct, Strider (Forest), Innate Defense 5+ (Shooting Attacks only)
+Special Rules: Impact Hits (D3), Lethal Strike, Frenzy, Stubborn
+Strength From Flesh: Whenever a Gorgon inflicts an unsaved Lethal Strike, the attack gains Multiple Wounds (D3). If this attack successfully causes an unsaved Wound, the Gorgon recovers a Wound.
+
+Jabberwock 135 pts
+single model
+M WS BS S T W I A Ld
+8 4 2 5 5 5 3 4 8 Monster 50x100mm base
+Beasts Special Rules: Strider (Forest)
+Special Rules: Fly (8), Immune to Psychology, Poisoned Attacks
+Options: pts
+May have a Breath Weapon with
+Strength 3, Armour Piercing (2) 25
+May have Innate Defence (4+) 15
+Aura of Madness: Enemy units not Immune to Psychology and within 6" of one or more units with Aura of Madness
+suffer from -1 Leadership.
+
+Beast Giant 145 pts
+single model
+M WS BS S T W I A Ld
+6 3 - 6 5 6 3 * 10 Monster 50x75mm base
+Army Special Rules: Strider (Forest)
+Special Rules: Drunkard, Stubborn
+Options: pts
+May have (one choice only)
+Looted Booze 10
+Ambush 20
+Giant Attacks: When a giant attacks in Close Combat, pick a target in base contact to attack and roll on the chart below. Giants have two types of attack patterns depending on the Troop Type of the target.
+Against Infantry, War Beast, Swarm, Warmachine and Cavalry targets:
+1: Bellow
+2: Jump
+3: Grab
+4-6: Swing
+Against Monstrous Beast, Monstrous Infantry, Monstrous Cavalry, Chariot, Monster and Ridden Monster targets:
+1: Bellow
+2-3: Thump
+4-6: Smash
+Bellow: Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done (including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2. If two (or more) opposing Giants use "Bellow", the combat is a draw.
+Jump: The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant must take a Dangerous Terrain test.
+Grab: Select a single model in base contact with the Giant. This model must take a Strength and Weapon Skill test. For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
+Swing: The Giant makes 2D6 attacks on the chosen unit.
+Thump: Select a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the test is failed, the model suffers 2D6 wounds with Armour Piercing (6).
+Smash: Select a model from the chosen unit in base contact with the Giant. This model suffers 1 wound with Armour Piercing (6). If the model has not yet attacked it cannot attack in this round. It the model has already attacked, it cannot attack in the next player turn.
+- NotesGiant Attacks count as Close Combat attacks and therefore are affected by all rules normally affecting Close Combat attacks. After rolling on this chart, the Giant may still Stomp as normal.
+
+MOUNTS
+The Mounts section is for Character mounts. Non-Character mounts follow the rules given under their respective entries.
+
+Raiding Chariot
+M WS BS S T W I A Ld
+Chariot - - - 5 4 4 - - -
+Wildhorn Crew (1) - 4 3 3 - - 3 1 7
+War Hog (2) 7 3 - 4 - - 2 1 3 Chariot 50x100mm base
+Weapons: Light Lance (Wildhorn)
+Armour: Mount's Protection (5+), Light Armour
+Beasts Special Rules: Primal Instinct (Wildhorn), Strider (Forest)
+Special Rules: Free Reform
+
+Razortusk Chariot
+M WS BS S T W I A Ld
+Chariot - - - 5 5 5 - - -
+Wildhorn Crew (1) - 4 3 3 - - 3 1 7
+Razortusk (1) 7 3 - 5 - - 2 4 6 Chariot 50x100mm base
+Weapons: Light Lance (Wildhorn)
+Armour: Mount's Protection (5+), Light Armour
+Beasts Special Rules: Strider (Forest), Primal Instinct (Wildhorn)
+Special Rules: Thunderous Charge (Razortusk)
+
+Quick Reference Sheet
+L - Lords, H - Heroes, C - Core, S - Special, R - Rare
+CHARACTERS M WS BS S T W I A Ld
+L Minotaur Warlord 6 6 3 6 5 5 5 5 8
+Gnarled Soothsayer 5 5 3 4 5 3 4 2 8
+Beastlord 5 6 3 5 5 3 5 4 9
+H Minotaur Chieftain 6 5 3 5 5 4 4 4 7
+Soothsayer 5 4 3 3 4 2 3 1 7
+Beast Chieftain 5 5 3 4 5 2 4 3 8
+Centaur Chieftain 8 5 3 5 5 2 4 4 8
+INFANTRY
+C Wildhorn Herd 5 4 3 3 4 1 3 1 7
+Mongrel Herd 5 3 3 3 3 1 3 1 6
+Mongrel Raider 5 3 3 3 3 1 3 1 6
+S Longhorn Herd 5 4 3 4 4 1 3 1 8
+Gargoyle 5 4 - 3 4 1 3 2 7
+MONSTROUS INFANTRY
+S Minotaur 6 4 3 5 4 3 3 3 7
+WAR BEASTS M WS BS S T W I A Ld
+C Feral Hound 7 4 - 3 3 1 3 1 5
+S Centaur 8 4 3 4 4 1 2 2 7
+MONSTROUS BEASTS
+S Razortusk 7 3 - 5 5 3 2 4 6
+S Briar Beast * 3 - 4 5 3 2 * 10
+CHARIOTS
+C Raiding Chariot - - - 5 4 4 - - -
+- Wildhorn (1) - 4 3 3 - - 3 1 7
+- Longhorn (1)[0] - 4 3 4 - - 3 1 8
+- war Hog (2) 7 3 - 4 - - 2 1 3
+S Razortusk Chariot - - - 5 5 5 - - -
+- Wildhorn (1) - 4 3 3 - - 3 1 7
+- Longhorn (1)[0] - 4 3 4 - - 3 1 8
+- Razortusk (1) 7 3 - 5 - - 2 4 6
+(1) number of crew members when taken as a separate unit
+[0] number of crew members when taken as a mount
+MONSTERS
+R Cyclops 7 2 3 6 5 6 3 5 8
+Gortach 7 4 - 6 6 6 3 6 10
+Jabberwock 8 4 2 5 5 5 3 4 8
+Beast Giant 6 3 - 6 5 6 3 * 10
+ARTILLERY WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
+Cyclops Hurl Attack Catapult (3") 36 3[9] - [Ordnance] -
+List of Totems
+Bleak Marsh Totem The unit gains Innate Defence (6+) and the Distracting special rule.
+Biting Wind Totem The unit gains +1 Attack and Armour Piercing (2)
+Pale Sun Totem The unit counts as having Hard Cover and Magic Resistance (3).
+Dark Woods Totem The unit gains +3 Initiative and adds D6 to its charge distance.

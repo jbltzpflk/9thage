@@ -1,0 +1,465 @@
+eq-9th.doc
+Fantasy Battles
+The 9th Age
+Kingdom of Equitaine Army Rules Version 0.11.0 Beta
+
+Special Rules
+TheBlessing: Models with this Special Rule have Ward Save (6+). After all units are deployed, the player may declare that the Kingdom of Equitaine army is praying before battle, which automatically concedes to the opponent the right to decide who wins the roll for first turn. If an army has prayed, the Ward Save granted by The Blessing is increased to (5+) against attacks with Strength 5 or greater. The effect of The Blessing is lost for any model that flees.
+LanceFormation: This Special Rule can only be used when mounted. The model gains Fight in Extra Rank. When in a unit with 3 model wide ranks and charging, models with this rule gain an additional instance of Fight in Extra Rank.
+Jousting: Models with this rule may switch to another weapon in the second round of combat after charging with a Lance.
+Trample: The model gains Stomp (1) in any turn during which it doesn't count as having charged. Only the mount can use this attack.
+Beloved: The model ignores all penalties for refusing a challenge and loses First in Rank when joined to a unit with at least one Full Rank of models with the Lance Formation.
+OathOfFealty: Models with this Special Rule have Inspiring Presence regardless of whether they are the General or not. However, only models with the Insignificant Special Rule may receive this Inspiring Presence and its range is reduced to 6". Characters and Champions with this rule causes their unit to lose The Blessing if they decline any challenge.
+QuestingOath: Models with this Special Rule have WeaponMasters and Multiple Wounds (2, Monstrous Beasts, Monstrous Cavalry, Ridden Monsters, Monsters). When taking a Panic or a Fear test, units comprised of a
+majority of models with this rule roll 3D6 for their Leadership tests and discard the highest. The models may not wield lances. Characters with this special rule are equipped with a Bastard Sword (counts as a Halberd).
+Grail Oath: Models with this Special Rule are Immune to Psychology, have a Ward Save (5+) and their attacks are Magical Attacks and Holy Attacks. Characters with this special rule get +1 weapon skill and Leadership 9.
+
+Virtues
+Virtues cannot be duplicated within an army.
+Zeal (5 pts) : Your army cannot include Knights of the Realm. You can upgrade any unit of Knights Aspirant to Crusaders.
+Humility (20 pts) : A model with this virtue has Insignificant, has Inspiring Presence increased to 12" and has Hold Your Ground regardless of whether they are the Battle Standard Bearer. However, only models that are
+Insignificant may benefit from this Hold Your Ground.
+Daring (25 pts) : The model's unit adds D3 when determining charge distance. Cannot be combined with extra charge range from Impetuous.
+Valour (40 pts) : The bearer automatically issues a Challenge whenever possible and this Challenge is automatically accepted whenever possible. When in a Challenge, the model may reroll all failed to-hit and to-wound rolls.
+Might (45 pts) : When charging and using a Lance as a Close Combat weapon, every unsaved wound caused by the character with normal attacks generates another attack at the same Initiative step. These do not generate further attacks. In addition, the Character gains the Devastating Charge and Thunderous Charge Special Rules while using a Lance as a close combat weapon.
+Audacity (40 pts) : When in base contact with an enemy with either higher Strength or higher Toughness on their characteristic profile, the model gains Stubborn and may reroll all failed to-hit and to-wound rolls.
+Renown (55 / 45 pts) The Character gains Lethal Strike. On a roll of a natural 6 to wound in Close Combat that wound gains Multiple Wounds( Ordnance ).
+Devotion (65 pts) : The model gains Otherworldly, Ethereal, Unstable, Terror, and Ambush. The model must either ride a Barded Warhorse or be on foot. The character has Not a Leader, cannot be the Battle Standard Bearer and may not take Magical Armour.
+Piety (75 pts) : The model's Ward Save is increased by +1, to a maximum of 4+. This bonus is conferred to the non-character models of any unit it joins. The model may only join Cavalry or infantry units.
+
+Magical Items
+Magical Weapons
+Dragon Lance (35 pts)
+Type: Lance. The wielder has a Breath Weapon (Strength 4, Flaming Attacks). Attacks made with this weapon are Flaming Attacks.
+Mace of Tristan (50 pts)
+Type: Hand Weapon. The bearer's Strength count as being 1 higher than the Toughness of the model they are attacking, unless it is already higher. Whenever an enemy model suffers one or more hits from this weapon, roll a dice at the end of current Initiative step. For every hit, roll a D6, on 4+ one of the Magical Items carried by the enemy model is randomly destroyed.
+Magical Armour
+Armour of Percival (20 pts)
+Type: Heavy Armour. This armour confers +1 to any Ward Saves the model may have, up to a maximum of 4+. Any Holy Attacks made against the wielder lose Holy Attacks.
+Crusader's Helm (45 pts)
+Type: Helm (6+ Armour Save). The wearer rerolls all failed Armour Saves. Attacks made against the wearer can never gain any benefits from having Lethal Strike.
+Talismans
+Talisman of Roland (15 pts)
+No unit may use the Stand and Shoot reaction when charged by a character (or its unit) with this item.  Furthermore, the bearer and its unit gain +1 to their Ward Saves against any non-magical Ranged Attacks to a maximum of 3+.
+Enchanted Items
+Blessed Scripture (25 pts)
+One use only. This item may be used at the start of any phase to grant The Blessing to the bearer's unit. This instance of The Blessing counts as if the army had prayed. This item may allow a unit that has lost The Blessing to regain it.
+Storm Clarion (40 pts)
+One use only. This item may be activated at the start of any player turn. Enemy units cannot make Flying Movements during this player turn.
+Arcane Items
+Wafers of Penitence (20 pts)
+Generate D3+1 Wafers at the end of deployment. A single Wafer can be used once per dispelling attempt and adds D3 to dispelling result. If this die rolls a natural 1, the Wizard takes a Strength 3 hit with Armour Piercing (6).
+Magical Standards
+Banner of the Last Charge (20 pts)
+All mounts in the bearer's unit gain Impact Hits (1).
+The Oriflamme (70 pts)
+The bearer causes Fear. Enemy units in base contact with the bearer's unit may not benefit from Hold Your Ground or Inspiring Presence.
+
+Army List
+LORDS
+Duke 95 pts
+single model
+M WS BS S T W I A Ld
+4 6 3 4 4 3 6 4 9 Infantry 20x20mm base
+Armour: Heavy Armour, Shield
+Knights Special Rules: Lance Formation, The Blessing, Oath of Fealty, Jousting
+Options: pts
+May take Magical Items up to 100
+May take a single Virtue no pt limit
+May take one of the following
+Questing Oath 25
+Grail Oath 40
+May take a Shield 5
+May take a weapon (one choice only)
+Great Weapon 10
+Lance 15
+Knight's Sword 4
+May take a mount (one choice only)
+Barded Warhorse 35
+Royal Pegasus 55
+Hippogriff 130
+
+Grail Damsel 175 pts single model
+M WS BS S T W I A Ld
+4 3 3 3 3 3 3 1 8 Infantry 20x20mm base
+Special Rules: Beloved, Lance Formation, The Blessing, Insignificant
+Magic: Level 3 Wizard Master . Generate spells from Paths of Path of Wilderness, Nature, Heavens, Light and White Magic.
+Options: pts
+May take Magical Items up to 100
+Upgrade to Wizard Level 4 35
+May take one of the following
+Magic Resistance (1) 15
+Magic Resistance (2) 35
+May take a mount (one choice only)
+Barded Warhorse 40
+Royal Pegasus 40
+Unicorn 80
+
+HEROES
+Paladin 55 pts
+single model
+M WS BS S T W I A Ld
+4 5 3 4 4 2 5 3 8 Infantry 20x20mm base
+Armour: Heavy Armour, Shield
+Knights Special Rules: Lance Formation, The Blessing, Oath of Fealty, Jousting
+Options: pts
+May be the Battle Standard Bearer 25
+May take Magical Items up to 50
+May take a single Virtue no pt limit
+May take a Shield 2
+May take one of the following*:
+Questing Oath 15
+Grail Oath 25
+May take any of the following
+Great Weapon 4
+Lance 6
+Knight's Sword 2
+May take a mount (one choice only)
+Barded Warhorse 25
+Royal Pegasus 55
+*Paladins with different Codes (Oath of Fealty only, Questing Oath, Grail Oath) count as different choices for army composition (i.e. An Army may include 3 Paladins, 3 Quest Paladins etc).
+
+Damsel 65 pts
+single model
+M WS BS S T W I A Ld
+4 3 3 3 3 2 3 1 7 Infantry 20x20mm base
+Special Rules: Beloved, Lance Formation, The Blessing, Insignificant
+Magic: Level 1 Wizard Apprentice . Generate spells from the Paths of Wilderness, Nature, Heavens, Light and White Magic.
+Options: pts
+May take Magical Items up to 50
+Upgrade to Wizard Level 2 25
+May take Magical Resistance (1) 15
+May take a mount (one choice only)
+Barded Warhorse 25
+
+Castellan 40 pts
+single model
+M WS BS S T W I A Ld
+4 4 4 3 3 2 3 2 7 Infantry 20x20mm base
+Armour: Light Armour
+Peasant Special Rules: Insignificant
+Special Rules:
+Lowborn: The model may only join units that are Insignificant. The model gains any of the special rules of the unit it joins.
+Master at Arms: The model has Weapon Master and confers this special rule to any unit it joins.
+Options: pts
+May take Magical Items up to 25
+May take a shooting weapon
+Longbow 2
+Crossbow 5
+May take a Shield 2
+May take a weapon (one choice only)
+Halberd 2
+Spear 2
+Light lance 2
+May ride a Barded Warhorse 15
+May be a upgraded to
+Rousing Orator 10
+Master Builder 30
+Rousing Orator: Character and his unit gain Devastating Charge.
+Master Builder: One of a kind. Character gains Engineer. An army which includes a Master Builder may bring an additional Siege War Machine as a Rare troop but it must be a Ballista or a Scorpion.
+
+CORE
+Knights Aspirant 95 pts 5 models, may add up to 10 models 17 pts/model
+M WS BS S T W I A Ld
+Knight 4 3 3 3 3 1 3 1 7
+Warhorse 8 3 - 3 3 1 3 1 5 Cavalry 25x50mm base
+Weapons: Lance
+Armour: Mount's Protection (5+), Light Armour, Shield
+Knight Special Rules: Lance Formation, The Blessing, Jousting
+Warhorse Special Rules:
+Monstrous Ranks, Trample
+Special Rules:
+Devastating Charge (Knights only)
+Impetuous: when declaring a charge, the model becomes Immune to Psychology until the end of the turn. A unit which consists entirely of models with this rule may may reroll failed charge range and may not restrain pursue. The unit is not forced to overrun.
+Options: pts
+May be given Heavy Armour 4 / model
+if general has Zeal: May be upgraded to Crusaders 6 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer*
+*The Veteran Standard Bearer is One of a Kind and may take a Magical Standard worth up to 25 pts.
+Crusaders: Knights in the unit lose Devastating Charge, but gain Heavy Armour, +1 Leadership, Thunderous Charge and Oath of Fealty.
+
+Knights of the Realm 120 pts
+5 models, may add up to 10 models 24 pts/model
+M WS BS S T W I A Ld
+Knight 4 4 3 4 3 1 3 1 8
+Warhorse 8 3 - 3 3 1 3 1 5 Cavalry 25x50mm base
+Weapons: Lance, Knight's Sword
+Armour: Mount's Protection (5+), Heavy Armour, Shield
+Knight Special Rules: Lance Formation, The Blessing, Oath of Fealty
+Warhorse Special Rules: Monstrous Ranks, Trample (Warhorse only)
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer
+
+Peasant Levy 40 pts
+10 models, may add up to 50 models 4 pts/model
+M WS BS S T W I A Ld
+4 2 2 3 3 1 3 1 5 Infantry 20x20mm base
+Equipment: Light Armour, Shields
+Peasant Special Rules: Insignificant
+Options: pts
+May take a weapon (one choice only)
+Spear free
+Halberd 1 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+May be Battle hardened (one unit only) 1 / model
+if upgraded, Standard Bearer may become the Veteran Standard Bearer
+Battle Hardened: Unit gains +1 to Weaponskill and +1 to Leadership.
+
+Peasant Bowmen 60 pts
+10 models, may add up to 30 models 6 pts/model
+M WS BS S T W I A Ld
+4 2 3 3 3 1 3 1 5 Infantry 20x20mm base
+Weapons: Longbow
+Peasant Special Rules: Insignificant
+Options: pts
+May take skirmish (20 models or less) 1 / model
+May take the following (one choice only)
+Flaming shooting attacks 10 / unit
+Crossbows (can't Skirmish) 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+Unless skirmishing
+may take Bowmen's Stakes 10 / unit
+Bowmen's Stakes: After deployment but before deploying Scouts, the player may place a wall in base contact with the front of this unit. This wall is as wide as the unit, up to 20mm deep and follows all the normal rules for walls with the
+exception of being Soft Terrain instead of Hard Terrain.
+
+SPECIAL
+Knights of the Quest 135 pts
+5 models, may add up to 10 models 26 pts/model
+M WS BS S T W I A Ld
+Knight 4 5 3 4 3 1 4 1 8
+Warhorse 8 3 - 3 3 1 3 1 5 Cavalry 25x50mm base
+Weapons: Great weapon, Bastard Swords (count as Halberd)
+Armour: Mount's Protection (5+), Heavy Armour, Shield
+Knight Special Rules: Lance Formation, The Blessing, Oath of Fealty
+Warhorse Special Rules: Monstrous Ranks, Trample
+Special Rules: Questing Oath (Knights only)
+Options: pts
+May be Wandering for Grail (6 models or less) 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may take a Magical Banner up to 50
+Wanderers: The unit has Skirmishers and Strider(Forests).
+
+Pegasus Knights 145 pts
+3 models, may add up to 3 models 45 pts/model
+M WS BS S T W I A Ld
+Knight 4 4 3 4 3 1 3 1 8
+Young Pegasus 8 3 - 4 4 2 4 2 7 Monstrous Cavalry 40x40mm base
+Weapons: Lance
+Armour: Mount's Protection (6+), Heavy Armour, Shield
+Knight Special Rules: The Blessing, Oath of Fealty, Jousting
+Special Rules: Fly (9)
+Options: pts
+May take Barding 10 / model
+May take any of the following
+Vanguard 5 / model
+Devastating Charge (Knight only) 5 / model
+Skirmish (3 models or less) 5 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may take a Magical Banner up to 50
+
+Yeoman Outriders 55 pts
+5 models, may add up to 10 models 10 pts/model
+M WS BS S T W I A Ld
+Rider 4 3 3 3 3 1 3 1 6
+Horse 8 3 - 3 3 1 3 1 5 Cavalry 25x50mm base
+Weapon: Bow, Light Lance
+Armour: Mount's Protection (6+)
+Peasant Special Rules: Insignificant
+Special Rules: Fast Cavalry
+Options: pts
+May take any of the following:
+Shields 1 / model
+Light armour 1 / model
+May replace Bow with
+Throwing weapon free
+Crossbow 1 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+
+Knights Forlorn 100 pts
+10 models, may add up to 30 models 10pts/model
+M WS BS S T W I A Ld
+4 4 3 4 3 1 3 1 8 Infantry 20x20mm base
+Armour: Heavy Armour, Shield
+Knight Special Rules: The Blessing, Oath of Fealty
+Special Rules:
+Forlorn Oath: Enemy units in base contact with Knights Forlorn lose Stubborn or Bodyguard (x) when disrupted.
+Options: pts
+Unit May exchange Hand weapons with Flail free
+Halberd 1 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may take a Magical Banner up to 50
+
+Peasant Crusaders 70 pts
+10 models, may add up to 30 models 7 pts/model
+M WS BS S T W I A Ld
+4 3 2 3 3 1 3 1 8 Infantry 20x20mm base
+Armour: Light Armour, Shield
+Peasant Special Rules: Insignificant
+Special Rules: Hatred, Stubborn, Frenzy
+Options: pts
+May swap Shield for Additional Hand Weapon free
+May take Sacred Reliquary 120
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+
+Sacred Reliquary
+(This model is as an upgrade to Peasant Crusaders)
+M WS BS S T W I A Ld
+4 3 2 3 5 4 3 4 8 Infantry 40x60mm base
+Armour: Heavy Armour, Shield
+Peasant Special Rules: Insignificant
+Special Rules: War Platform, Grail Oath, Holy Fervor, Oath of Fealty, Hatred, Stubborn
+Options: pts
+May take a single upgrade see below
+Holy Fervor: A unit of Peasant Crusaders with a Sacred Reliquary is Immune to Psychology, gains The Blessing and loses its Frenzy. The Sacred Reliquary loses First in Rank.
+Consecrated Light: Bound Level 3, Type:Augment, Range 12", Duration: Permanent. Target immediately gains The Blessing and counts as having prayed.
+May take a single upgrade
+Icon of the Lady (40 pts)
+At the start of your movement phase apply one of the following effects to all friendly units within 9": gain Immune to Psychology and reduces incoming attack's Armour Piercing effects with 1 or they can reroll failed Ward Save rolls of "1" until the start of your next movement phase.
+Saintly Vigil (50 pts)
+At the start of your movement phase apply one of the following effects to all friendly units within 9": they gain Fight in Extra Ranks Special Rule or they can reroll failed rolls of "1" to wound until the start of your next movement phase.
+
+RARE
+Knights of the Grail 95pts
+3 models, may add up to 7 models 40 pts/model
+M WS BS S T W I A Ld
+Knight 4 5 3 4 4 1 5 2 9
+Warhorse 8 3 - 3 3 1 3 1 5 Cavalry 25x50mm base
+Weapons: Lance, Knight's Sword
+Armour: Mount's Protection (5+), Heavy Armour, Shield
+Knight Special Rules: Lance Formation, Oath of Fealty, Jousting
+Warhorse Special Rules: Monstrous Ranks, Trample
+Special Rules: Monstrous Support, Grail Oath (Knight's only)
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- May take a Magical Standards up to 50
+
+Siege War Machine -
+single model
+M WS BS S T W I A Ld
+Siege War Machine - - - - 7 3 - - -
+Apprentice (3) - 2 3 3 3 - 3 1 6
+[Craftsman (1)] - 3 3 3 3 - 3 1 7 War Machine 75mm round base
+Peasant Special Rules:
+Insignificant
+Options: pts
+May take a Craftsman 15
+Craftsman: Add one Craftsman as a Crew member. Increases Wounds of the Warmachine to 4.
+Must take one of the following
+Ballista (45 pts)
+A Bolt Thrower Artillery Weapon:
+Range 48", Strength 6, Multiple Wounds (D3), Armour
+Piercing (6)
+Catapult (80 pts)
+A Catapult (3") Artillery Weapon:
+Range 12-60", Strength 3[9];
+[Multiple wounds (Ordnance)].
+Scorpion (70 pts)
+A Bolt Thrower Artillery Weapon:
+Range 48", Strength 6, Multiple Wounds (Ordnance),
+Armour Piercing (6)
+Trebuchet (130 pts)
+A Catapult (3") Artillery Weapon:
+Range 12-60", Strength 4[10];
+[Multiple wounds (Ordnance)], Armor Piercing (1).
+
+MOUNTS
+The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
+Hippogriff
+M WS BS S T W I A Ld
+7 4 - 5 5 4 4 4 6 Monstrous Beasts 50x50mm base
+Armour: Mount's Protection (6+)
+Special Rules: Fear, Large Target, Devastating Charge, Fly(8), Armour Piercing(1)
+
+Royal Pegasus
+M WS BS S T W I A Ld
+7 4 - 4 4 3 4 2 6 Monstrous Beasts 40x40mm base
+Armour: Mount's Protection (6+)
+Special Rules: Fly(8)
+Options: pts
+May take Barding 15
+Unicorn
+M WS BS S T W I A Ld
+10 5 - 5 4 3 5 2 8 War Beasts 50x50mm base
+Armour: Mount's Protection (6+)
+Special Rules: Strider(Forest), Magical Attacks, Magic Resistance (2), Monstrous Ranks
+
+Barded Warhorse
+M WS BS S T W I A Ld
+8 3 - 3 3 1 3 1 5 War Beasts 25x50mm base
+Armour: Mount's Protection (5+)
+Warhorse Special Rules: Monstrous Ranks, Trample
+
+Quick Reference Sheet
+L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
+CHARACTERS M WS BS S T W I A Ld
+L Duke 4 6 3 4 4 3 6 4 9
+L Grail Damsel 4 3 3 3 3 3 3 1 8
+H Paladin 4 6 3 4 4 2 5 3 8
+H Damsel 4 3 3 3 3 2 3 1 7
+H Castellan 4 4 4 3 3 2 3 2 7
+INFANTRY
+C Peasant Levy 4 2 2 3 3 1 3 1 5
+C Peasant Bowman 4 2 3 3 3 1 3 1 5
+S Knight Forlorn 4 4 3 4 3 1 3 1 8
+S Peasant Crusader 4 3 2 3 3 1 3 1 8
+- Sacred Reliquary 4 3 2 3 5 4 3 4 8
+WAR BEASTS
+M Barded Warhorse 8 3 - 3 3 1 3 1 5
+M Unicorn 10 5 - 5 4 3 5 2 8
+MONSTROUS BEASTS
+M Hippogriff 8 4 - 5 5 4 4 4 8
+M Royal Pegasus 8 4 - 4 4 3 4 2 7
+CAVALRY M WS BS S T W I A Ld
+C Knight Aspirant 4 3 3 3 3 1 3 1 7
+- War Horse 8 3 - 3 3 1 3 1 5
+C Knight of the Realm 4 4 3 4 3 1 3 1 8
+- War Horse 8 3 - 3 3 1 3 1 5
+S Knight of the Quest 4 5 3 4 3 1 4 1 8
+- War Horse 8 3 - 3 3 1 3 1 5
+S Yeoman Outrider 8 3 3 3 3 1 3 1 7
+- Horse 8 3 - 3 3 1 3 1 5
+S Pegasus Knight 4 4 3 4 3 1 3 1 8
+- Young Pegasus 8 3 - 4 4 2 4 2 7
+R Knight of the Grail 4 5 3 4 4 1 5 2 9
+- War Horse 8 3 - 3 3 1 3 1 5
+WAR MACHINES
+R Siege War Machine - - - - 7 3 - - -
+- Apprentice (3) - 2 3 3 3 - 3 1 5
+- Craftsman (0) - 2 3 3 3 - 3 1 6
+SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
+Siege War Machine Catapult Catapult (3") 12-60 3[9] - [Ordnance] -
+Trebuchet Catapult (3") 12-60 4[10] - [Ordnance] 1
+Ballista Bolt Thrower 48 6 - D3 6
+Scorpion Bolt Thrower 48 6 - Ordnance 6
