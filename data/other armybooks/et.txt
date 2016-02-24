@@ -1,0 +1,38 @@
+Description: Unknown
+Version: Unknown
+Author: Unknown
+None
+^
+Host of the Eternity King	et	0			Lord:%max=50,Hero:%max=50,Core:%min=25,Spec:%max=50,Rare:%max=25		info:display="1 Dec 2014";info:display="All models that have Martial Prowess also gain Murderous Prowess.";info:display="";info:display="All models with Murderous Prowess also gain Martial Prowess";info:display="";info:display="All models that have Forest Stalker replace it with Forest Strider and Martial Prowess";info:display="";info:display="Arrows of Isha, Blessings of the Ancients, Eternal Hatred, Forest Spirit";info:display="";info:display="Fireborn, Hatred (Elves), Hekarti's Blessing, Lileath's Blessing, Valor of Ages";info:display="";none:"Host of the Eternity King";info:always="It is your responsibility to know the rules ";ulmt:comp=core,spec,rare,ncor-min@unit=3	
+^
+etalarie	Alarielle, Incarnate of Life		Lord	Lord		1:1	540	0	ipts:total=0;spec:+wzrd;spec:+ench;spec:+spel;attr:US="In";take:hestavel-free-perm;take:hesravel-free-perm;type:Ld10	umax:1		Always Strikes First; Valour of Ages; Martial Prowess; Murderous Prowess;  Incarnate of Life - All friendly units within 12" have a 6+ Ward Save and Regeneration. In addition every friendly model within 12" regains a single lost Wound at start of friendly Magic Phase;  Touch of Purity - CC attacks are Magical and always Wounds on 2+ and have Multiple Wounds (D6) against models of the Forces of Destruction; Locus of Renewal - If she suffers a miscast you may reroll the result on the Miscast table; Loremaster (Life)				5	6	5	4	4	4	6	3	10	7	5	0	0	0	0	0	0	0	1
+etking	Malekith, The Eternity King		Lord	Lord		1:1	1000	0	attr:US="Mo";attr:Wsv="2*";type:Ld10;take:pkcircle-free-perm;take:pkmidnig-free-perm;take:etasury-free-perm;spec:+weap;spec:+armr;spec:+wzrd;spec:+spel	umax:1		Lvl5 Wizard; Always Strikes First, Eternal Hatred, Fly, Immune to Psychology, Large Target, Martial Prowess, Terror; Absolute Power - Inspiring Presence is 24"; Noxious Breath - Str4 Breath Weapon. All models in unit that takes one or models casualties suffer -1 to WS and BS until end of following turn; Eternity King - All friendly units within 12" can make supporting attacks with one more ranks than normal. Cumulative. All friendly units within 12" with Murderous Prowess re-roll failed To-Wound rolls in CC; Loremaster (Shadow).				6	8	7	6	6	10	8	10	10	3	0	0	0	0	0	0	0	0	0
+^
+etconju1	Conjure Arcane Fulcrum		Last	N/A	0	take:etconjur;spec:+spel;item:+1				
+^
+etasury	Asuryath Reforged	weap	N/A	0	1	itst:reg=etking		Magic Weapon; Hits have Multiple Wounds (D3+1).			
+etconjur	Conjure Arcane Fulcrum	spel	N/A	0	1	xtot		End of Times; Lvl 3+ only; 12+ to cast; Summoning; Range 6"; Cater summons an Arcane Fulcrum and is placed in it.	^	^	
+^
+^
+^
+etking	general	cost
+etking	mgshow	cost
+etking	mgfull4	cost
+etking	mgshadow	incl
+etalarie	general	cost
+etalarie	mglife	incl
+etalarie	mgfull	cost
+etalarie	mgshow	cost
+etalarie	mgmiscas	cost
+etking	mgmiscas	cost
+etking	etconju1	cost
+etking	ulundlor	cost
+etking	ulfull	hide
+etking	ulshow	hide
+etalarie	ulshow	hide
+etalarie	ulfull	hide
+etalarie	ulundlor	cost
+etalarie	etconju1	cost
+^
+^
+^

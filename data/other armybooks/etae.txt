@@ -1,0 +1,26 @@
+Description: Unknown
+Version: Unknown
+Author: Unknown
+None
+^
+Host of Aestyrion	ae	0			Lord:%max=50,Hero:%max=50,Core:%min=25,Spec:%max=50,Rare:%max=25		info:display="1 Dec 2014";info:display="";info:display="Hatred Elves - All models with the Hatred (High Elves) special rule replace it with Hatred (Elves)";info:display="";info:display="Murderous Prowess - Models with this special rule re-roll all To-Wound rolls of 1 in CC.";info:display="";info:display="Fireborne - 2+ Ward against Wounds caused by Flaming Attacks";info:display="";info:display="Hekarti's Blessing - Add +1 to casting attempts of Dark Magic";info:display="";info:display="Lileath's Blessing - Add +1 to casting attempts of High Magic";info:display="";info:display="Valour of Ages - If your opponents army contains one or more Elven units, models with this special rule re-roll all failed Panic, Fear and Terror tests ";none:"Host of the Aestyrion";info:always="It is your responsibility to know the rules ";ulmt:comp=core,spec,rare,ncor-min@unit=3	
+^
+aemalhan	Malhandir		N/A	Mount		1:1	0	0	attr:US="Ca"	hide						10	4	0	4	2	1	5	2	7	7	7	0	0	0	0	0	0	0	0
+aetyrion	Tyrion, Avatar of Khaine		Lord	Lord		1:1	700	0	spec:+armr;spec:+ench;spec:+weap;attr:US="In";take:aedragon-free-perm;take:aeavelor-free-perm;take:aewidow-free-perm;type:Ld10;ipts:total=0	umax:1		Always Strikes First, Immune to Psycology, Murderous Prowess; Shadow of Khaine - all friendly units within 12" re-roll all failed To-Wound rolls in CC; Avatar of Khaine - knows innate Bound Spell "Summon the Glorious Dead".				5	10	7	5	4	5	10	5	10	1	4	0	0	0	0	0	0	0	1
+^
+aemalhan	Malhandir		Priority	N/A	0	hide;unit:aemalhan@abs=1				
+aeglori	Summon the Glorious Dead	Glori	SpellType	N/A	0	apnd	Innate Bound spell (lvl10), Summoning, Range 18". Summons single unit of 2D6+3 Skeleton Warriors. Can choose to summon 3D6+2 (lvl15). Can choose to summon 4D6+1 (lvl20)			
+^
+aewidow	Widowmaker	weap	N/A	0	1	itst:reg=aetyrion		Magic Weapon; Hits Auto Wound, Multiple Wounds (D6), No Armour save. Cannot be destroyed.	^	^	
+aedragon	Dragon Armour of Aenarion	armr	N/A	0	1	itst:reg=aetyrion		Magic Armour; Grants 1+ Armour save that cannot be improved and a 4+ Ward save and Fireborn special rule.	^	^	
+aeavelor	Heart of Avelorn	ench	N/A	0	1	itst:reg=aetyrion		Enchanted Item; MR(2); if suffers an unsaved Wound that would kill him roll a D6.  On a 2+ he negates the Wound and the Heart is Destroyed.	^	^	
+^
+^
+^
+aetyrion	frenzy	incl
+aetyrion	general	cost
+aetyrion	aeglori	incl
+aetyrion	aemalhan	auto
+^
+^
+^
