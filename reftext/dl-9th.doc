@@ -1,345 +1,171 @@
 dl-9th.doc
 Fantasy Battles
 The 9th Age
-Daemon Legions
-Army Rules
-Version 0.11.1 Beta
-Daemonic Army Rules
-Army Special Rules
-Aspects
-Armoury
-Daemonic Items
-Quick Reference Sheet
-Change Log
-Lords
-Heroes
-Core
-Special
-Rare
-Mounts
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.
-All relevant rules, as well as feedback and suggestions, can be found/given here:
-http://www.the-ninth-age.com/
-Rules changes between versions are colour coded in green. See change log at end of document.
+Daemon Legions Army Rules Version 0.11.1 Beta
+
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/ 
 
 Daemonic Army Rules
-Mark Restrictions
-In addition to the normal army restrictions, units with a Daemonic Mark other than True Chaos are subject to the
-fo
-llowing additional rules:
+Mark Restrictions: In addition to the normal army restrictions, units with a Daemonic Mark other than True Chaos are subject to the following additional rules:
 Duplicate Limit (in Warband) (in Grand Army)
 Core max 2 max 1 max 4
 Special max 2 max 1 max 4
 Rare max 1 max 1 max 2
-These restrictions are lifted for units that share the same Mark as their general. Armies lead by True Chaos Mark
-Generals are not subject to these restrictions.
-Monotheist Army Bonus
-If all units in the army have the same Daemonic Mark, the following bonuses apply.
-● All Core units and Harbinger characters gain their Mark’s Minor Aspect for free.
-● All Standard Bearers with Daemonic Mark: Wrath add +1 to channel attempts in the opponent’s magic phase.
-Standards with the Mark of Wrath may dispel as level 1 Wizards, including Aided Dispel. count as a Wizard
-Apprentice for dispelling purposes.
-● Many Special and Rare units may now be upgraded with their Mark’s Minor Aspect.
-2
+These restrictions are lifted for units that share the same Mark as their general. Armies lead by True Chaos Mark Generals are not subject to these restrictions.
+Monotheist Army Bonus: If all units in the army have the same Daemonic Mark, the following bonuses apply.
+* All Core units and Harbinger characters gain their Mark's Minor Aspect for free.
+* All Standard Bearers with Daemonic Mark: Wrath add +1 to channel attempts in the opponent's magic phase.
+Standards with the Mark of Wrath count as a Wizard Apprentice for dispelling purposes.
+* Many Special and Rare units may now be upgraded with their Mark's Minor Aspect.
+
 Army Special Rules
-Daemonic Marks
-Models in a Daemon Legion army may bear certain unholy marks that denote their allegiance. Certain models may
-fr
-eely choose their Marks and other models may come with a Mark by default. All models in a unit share the same Mark
-and characters may only join units that bear their Mark. The Daemonic Mark confers the following properties:
-Change The bearer may gain one of the following bonus effects: Flaming Attacks, Divine Attacks or Hellfire,
-which affects both close combat attacks and shooting attacks. The effect must be chosen at the start of
-each combat phase and before shooting with a unit. Every model in a unit must choose the same
-bonus effect. Special Attacks such as Stomps or Impact Hits are not affected. Characters with the
-Daemonic Mark (Change) that are Wizards do not get the above effect, instead they add a +1
-modifier to their casting roll.
+Daemonic Marks: Models in a Daemon Legion army may bear certain unholy marks that denote their allegiance. Certain models may freely choose their Marks and other models may come with a Mark by default. All models in a unit share the same Mark and characters may only join units that bear their Mark. The Daemonic Mark confers the following properties:
+Change The bearer may gain one of the following bonus effects: Flaming Attacks, Divine Attacks or Hellfire, which affects both close combat attacks and shooting attacks. The effect must be chosen at the start of each combat phase and before shooting with a unit. Every model in a unit must choose the same bonus effect. Special Attacks such as Stomps or Impact Hits are not affected. Characters with the Daemonic Mark (Change) that are Wizards do not get the above effect, instead they add a +1 modifier to their casting roll.
 Lust The bearer gains Armour Piercing (1), or may increase its existing Armour Piercing by 1.
-Pestilence Enemy units in base contact with these models receive a -1 modifier to their Weapon Skill when they
-attack. This is increased to a -2 modifier to their Weapon Skill if the model attacking is in a unit in
-base contact with two or more units with the Daemonic Mark (Pestilence). This cannot reduce
-Weapon Skill below 1.
-Wrath The bearer gains +1 Strength during first round of combat. Special Attacks such as Stomps or Impact
-Hits are not affected.
+Pestilence Enemy units in base contact with these models receive a -1 modifier to their Weapon Skill when they attack. This is increased to a -2 modifier to their Weapon Skill if the model attacking is in a unit in base contact with two or more units with the Daemonic Mark (Pestilence). This cannot reduce Weapon Skill below 1.
+Wrath The bearer gains +1 Strength during first round of combat. Special Attacks such as Stomps or Impact Hits are not affected.
 True Chaos No additional effects.
-Daemonic Instability
-In addition to the normal Daemonic Instability special rule, units may only benefit from Hold Your Ground and Inspiring
-Presence granted by a model with the same Daemonic Mark as themselves, or by models with the Daemonic Mark (True
-Chaos).
-Elusive
-Units with this rule may declare a Flee charge reaction despite being Immune to Psychology. This ability cannot be used
-if the unit is joined by a character who does not share this rule.
-Trail of Mucus
-Enemy units cannot claim Flank or Rear combat resolution bonuses against a unit containing models with this special
-rule.
-3
+Daemonic Instability: In addition to the normal Daemonic Instability special rule, units may only benefit from Hold Your Ground and Inspiring Presence granted by a model with the same Daemonic Mark as themselves, or by models with the Daemonic Mark (True Chaos).
+Elusive: Units with this rule may declare a Flee charge reaction despite being Immune to Psychology. This ability cannot be used if the unit is joined by a character who does not share this rule.
+Trail of Mucus: Enemy units cannot claim Flank or Rear combat resolution bonuses against a unit containing models with this special rule.
+
 Aspects
-Units which bear a Daemonic Mark other than True Chaos may receive additional bonuses called Aspects​ . Characters
-who benefit from an Aspect grant their effects to any units they join. Therefore, every model in a unit share the same
-Aspects at any given moment. The model may only take Aspects corresponding to its’ own mark.
+Units which bear a Daemonic Mark other than True Chaos may receive additional bonuses called Aspects. Characters who benefit from an Aspect grant their effects to any units they join. Therefore, every model in a unit share the same Aspects at any given moment. The model may only take Aspects corresponding to its' own mark.
+
 Mark of Change
-Far Seeing​ (- / 15 pts) - Minor Aspect
-The model gains an additional 6" range on all shooting
-attacks that use Ballistic Skill.
-Power Vortex​ (35 pts) - Supreme Aspect
-The model may add +1 Strength to any spells cast from the
-Path of Change which inflict hits with a Strength value.
+Far Seeing (- / 15 pts) - Minor Aspect: The model gains an additional 6" range on all shooting attacks that use Ballistic Skill.
+Power Vortex (35 pts) - Supreme Aspect: The model may add +1 Strength to any spells cast from the Path of Change which inflict hits with a Strength value.
+
 Mark of Lust
-Clawed Caress​ (15 pts) - Minor Aspect
-The model gains Armour Piercing (1), which is cumulative
-with other Armour Piercing values.
-Dance of Death​ (35 / 40 pts )- Supreme Aspect
-The model gains Lightning Reflexes.
+Clawed Caress (15 pts) - Minor Aspect: The model gains Armour Piercing (1), which is cumulative with other Armour Piercing values.
+Dance of Death (35 / 40 pts )- Supreme Aspect: The model gains Lightning Reflexes.
+
 Mark of Pestilence
-Contamination​ (10 / 15 pts) - Minor Aspect
-Any unsaved Poison wounds (i.e. a ‘6’ to wound from a
-Poisoned Attack) caused by the model count as 2 wounds
-fo
-r calculating the combat score.
-Bloated Putrefaction​ (45 / 40 pts) - Supreme Aspect
-The model gains Regeneration (4+).
+Contamination (10 / 15 pts) - Minor Aspect: Any unsaved Poison wounds (i.e. a '6' to wound from a Poisoned Attack) caused by the model count as 2 wounds for calculating the combat score.
+Bloated Putrefaction (45 / 40 pts) - Supreme Aspect: The model gains Regeneration (4+).
+
 Mark of Wrath
-Onslaught​ ​ (10 / 15 pts) - Minor Aspect
-The model gains Devastating Charge.
-Eternal Fury​ (30 / 40 pts) - Supreme Aspect
-The model gains Hatred.
-4
+Onslaught  (10 / 15 pts) - Minor Aspect: The model gains Devastating Charge.
+Eternal Fury (30 / 40 pts) - Supreme Aspect: The model gains Hatred.
+
 Armoury
-Blood Swords
-Close Combat Weapon. Type: Hand Weapon. Models armed with a Blood Sword gain Lethal Strike.
-Hell Blades
-Close Combat Weapon. Type: Hand Weapon. Models armed with a Hell Blade always strike with Strength 5 in Close
-Combat. This value cannot be modified in any way.
-Barbed Claws
-Close Combat Weapon. Type: Hand weapon. Models armed with Barbed Claws gain +1 to wound in close combat.
-Firebolts​ :
-Shooting Weapon. Range 24", Strength 3, Quick to Fire
+Blood Swords: Close Combat Weapon. Type: Hand Weapon. Models armed with a Blood Sword gain Lethal Strike.
+Hell Blades: Close Combat Weapon. Type: Hand Weapon. Models armed with a Hell Blade always strike with Strength 5 in Close Combat. This value cannot be modified in any way.
+Barbed Claws: Close Combat Weapon. Type: Hand weapon. Models armed with Barbed Claws gain +1 to wound in close combat.
+Firebolts: Shooting Weapon. Range 24", Strength 3, Quick to Fire
 A unit with at least three full ranks may shoot with Strength 4 and Range 18" which cannot be increased in any way.
 A unit with at least four full ranks may shoot with Strength 5 and Range 12" which cannot be increased in any way.
-5
+
 Daemonic Items
-Daemon Legion armies possess their own version Magical Items called Daemonic Items. Daemonic Items follow the
-same core rules as Magical Items with the exception that items restricted to the bearers of certain Marks may be
-repeated within an army. As an exception, Magical Standards may be taken from the pool of Common Magical Items in
-the Core Rulebook. Any other other Magical Items in a Daemon Legion army must be taken from the list below.
+Daemon Legion armies possess their own version Magical Items called Daemonic Items. Daemonic Items follow the same core rules as Magical Items with the exception that items restricted to the bearers of certain Marks may be repeated within an army. As an exception, Magical Standards may be taken from the pool of Common Magical Items in the Core Rulebook. Any other other Magical Items in a Daemon Legion army must be taken from the list below.
+
 Daemonic Weapons
-Eternal Sword​ (50 / 35 pts)
-Type: Hand Weapon. Bearer gains +1 to their Weapon
-Skill, Initiative, Strength, and Attacks in Close Combat.
-Mortal Blade​ (40 / 30 pts)
-Type: Hand Weapon. Attacks made with this weapon
-have Multiple Wounds (2).
-Soul Drinker​ (50 / 25 pts)
-Soul Harvest Type: Hand Weapon. When the bearer has
-caused 6 or more unsaved wounds with this weapon
-(excluding Breath Weapon wounds), it gains a Breath
-Weapon (Strength 4). Use of this Breath Weapon resets
-the wounds counter and the process can start again.
-Each Breath Weapon gained this way is a separate one,
-so it can be used more than once per battle.
-Lash of Lust​ (40 / 25 pts) - Mark of Lust ​ only
-Type: Shooting Weapon. Range 15”, Strength as User,
-Quick to fire, Multiple Shots (2D6).
-Aether Wand​ (40/ 15 pts ) - Mark of Change Only
-Type: Hand Weapon. Every time the bearer successfully
-casts or dispels a spell, roll a D6. On a 5+ the bearer gains
-a counter. At the start of any Close Combat phase the
-bearer can remove any number of counters to gain +1
-Attack or +1 Strength for each counter removed until the
-end of the phase.
-Heart Seeker ​ (20 /10 pts)
-Type: Hand Weapon. Bearer can reroll any 1s to hit in
-close combat.
-Blade of Grief​ (20 pts)
-Type: Hand Weapon. The bearer causes Fear and gains
-Divine Attacks.
-Trident of Torment​ ​ (15 pts)
-Type: Hand Weapon. Wearer gains +1 Weapon Skill, +1
-Initiative and gain Armour Piercing (1) in Close Combat.
+Eternal Sword (50 / 35 pts): Type: Hand Weapon. Bearer gains +1 to their Weapon Skill, Initiative, Strength, and Attacks in Close Combat.
+Mortal Blade (40 / 30 pts): Type: Hand Weapon. Attacks made with this weapon have Multiple Wounds (2).
+Soul Drinker (50 / 25 pts): Soul Harvest Type: Hand Weapon. When the bearer has caused 6 or more unsaved wounds with this weapon (excluding Breath Weapon wounds), it gains a Breath Weapon (Strength 4). Use of this Breath Weapon resets the wounds counter and the process can start again.  Each Breath Weapon gained this way is a separate one, so it can be used more than once per battle.
+Lash of Lust (40 / 25 pts) - Mark of Lust  only: Type: Shooting Weapon. Range 15", Strength as User, Quick to fire, Multiple Shots (2D6).
+Aether Wand (40/ 15 pts ) - Mark of Change Only: Type: Hand Weapon. Every time the bearer successfully casts or dispels a spell, roll a D6. On a 5+ the bearer gains a counter. At the start of any Close Combat phase the bearer can remove any number of counters to gain +1 Attack or +1 Strength for each counter removed until the end of the phase.
+Heart Seeker  (20 /10 pts): Type: Hand Weapon. Bearer can reroll any 1s to hit in close combat.
+Blade of Grief (20 pts): Type: Hand Weapon. The bearer causes Fear and gains Divine Attacks.
+Trident of Torment  (15 pts): Type: Hand Weapon. Wearer gains +1 Weapon Skill, +1 Initiative and gain Armour Piercing (1) in Close Combat.
+
 Daemonic Talismans
-Mantle of Wrath​ ​ (50 pts) - Mark of Wrath ​ only
-Bearer has Innate Defence (5+). In addition, all Magical
-Weapons wielded by enemy models in base contact
-count as their mundane equivalent.
-Nauseating Aura​ ​ (50 pts) - Mark of Pestilence ​ only
-Enemy units in base contact with the bearer have
-Initiative 1 in the Close Combat phase.
-Shackles of Reality​ (35 pts)
-Bearer has Regeneration (4+).
-Brass Collar ​ (35 pts) - Mark of Wrath ​ only
-Bearer has Magic Resistance (3).
-Veil of Shadows​ (35 pts)
-Bearer and his unit gain the Hard Target and Magical
-Resistance (1).
-Blissful Bindings​ ​ (35 pts) - Mark of Lust ​ only
-Enemy models in base contact with the bearer must
-halve their Weapon Skill and Initiative, rounding up.
-Portal Gem ​ (20 pts)
-All friendly units within 6” of the bearer suffer one
-wound less from failed Daemonic Instability tests.
-Weaver’s Eye​ ​ (10 pts)
-One Use Only. Bearer may reroll one failed Ward Save.
-6
+Mantle of Wrath  (50 pts) - Mark of Wrath  only: Bearer has Innate Defence (5+). In addition, all Magical Weapons wielded by enemy models in base contact count as their mundane equivalent.
+Nauseating Aura  (50 pts) - Mark of Pestilence  only: Enemy units in base contact with the bearer have Initiative 1 in the Close Combat phase.
+Shackles of Reality (35 pts): Bearer has Regeneration (4+).
+Brass Collar  (35 pts) - Mark of Wrath  only: Bearer has Magic Resistance (3).
+Veil of Shadows (35 pts): Bearer and his unit gain the Hard Target and Magical Resistance (1).
+Blissful Bindings  (35 pts) - Mark of Lust  only: Enemy models in base contact with the bearer must halve their Weapon Skill and Initiative, rounding up.
+Portal Gem  (20 pts): All friendly units within 6" of the bearer suffer one wound less from failed Daemonic Instability tests.
+Weaver's Eye  (10 pts): One Use Only. Bearer may reroll one failed Ward Save.
+
 Daemonic Enchanted Items
-Blazing Wings ​ (35 pts) - Harbinger with Mark of
-Change ​ only
-The bearer gains Fly (8).
-Fickle Charm​ ​ (35 pts) - Mark of Change ​ only
-The bearer may reroll a single D6 on two separate
-occasions throughout the game. This can be any dice to
-be chosen from either a Magic Dice, Spell Effects, To
-Wound, To Hit, Saves, Charge Distance, Pursue Distance,
-or one of the dice for a Leadership test.
-Hellish Crown​ (25 pts)
-The bearer gains +1 Leadership.
-Horn of Damnation​ (25 pts)
-Enemy units in base contact with the bearer must reroll
-successful Leadership tests.
-Black Orb ​ (25 pts)
-All enemy wizards attempting to cast spells from the
-Path of Light suffer a -2 penalty to their casting roll.
-Token of the Dark Gods​ (25 pts)
+Blazing Wings  (35 pts) - Harbinger with Mark of Change  only: The bearer gains Fly (8).
+Fickle Charm  (35 pts) - Mark of Change  only: The bearer may reroll a single D6 on two separate occasions throughout the game. This can be any dice to be chosen from either a Magic Dice, Spell Effects, To Wound, To Hit, Saves, Charge Distance, Pursue Distance, or one of the dice for a Leadership test.
+Hellish Crown (25 pts): The bearer gains +1 Leadership.
+Horn of Damnation (25 pts): Enemy units in base contact with the bearer must reroll successful Leadership tests.
+Black Orb  (25 pts): All enemy wizards attempting to cast spells from the Path of Light suffer a -2 penalty to their casting roll.
+Token of the Dark Gods (25 pts):
 The effect depends on the Mark of the Bearer:
-Change​ : The bearer may cast Wave of Transformation
-fr
-om the Path of Change as a Bound Spell with Power
-Level 3.
-Lust​ : The bearer may cast Frenzied Hysteria from the
-Path of Lust as a Bound Spell with Power Level 3.
-Pestilence​ : The bearer may cast Breath of Corruption
-fr
-om the Path of Disease as a Bound Spell with Power
-Level 3.
-Wrath​ : One use only. The player may choose to
-activate this trinket instead making a Dispel roll, in
-which case the Wizard casting the spell cannot cast
-the same spell during the next Game Turn.
-Elixir of Souls​ (15 pts)
-One Use Only. May be activated at the start of the Player
-Turn. The bearer gains +2 Movement.
-Daemonic Arcane Items
-Mirror of Change​ (40 pts) - Mark of Change ​ only
-At the start of the Player’s Magical Phase, the bearer may
-pick an enemy wizard within Line of Sight and within
-30”. For the duration of this Magical Phase the bearer
-may cast spells known by the selected wizard instead of
-its own. If the target wizards knows more spells than the
-bearer is able to learn due to its magical level then the
-bearer cannot copy all of them and must randomize
-which spells are mirrored. Spells which create new units
-or Raise models cannot be mirrored and are ignored
-when randomising.
-Seventh Seal​ ​ (35 pts)
-One Use Only. Instead of making a Dispel attempt, you
+Change : The bearer may cast Wave of Transformation from the Path of Change as a Bound Spell with Power Level 3.
+Lust : The bearer may cast Frenzied Hysteria from the Path of Lust as a Bound Spell with Power Level 3.
+Pestilence : The bearer may cast Breath of Corruption from the Path of Disease as a Bound Spell with Power Level 3.
+Wrath : One use only. The player may choose to activate this trinket instead making a Dispel roll, in which case the Wizard casting the spell cannot cast the same spell during the next Game Turn.
+Elixir of Souls (15 pts): One Use Only. May be activated at the start of the Player Turn. The bearer gains +2 Movement.
+Daemonic Arcane Items: Mirror of Change (40 pts) - Mark of Change  only At the start of the Player's Magical Phase, the bearer may pick an enemy wizard within Line of Sight and within 30". For the duration of this Magical Phase the bearer may cast spells known by the selected wizard instead of its own. If the target wizards knows more spells than the bearer is able to learn due to its magical level then the bearer cannot copy all of them and must randomize which spells are mirrored. Spells which create new units or Raise models cannot be mirrored and are ignored when randomising.
+Seventh Seal  (35 pts): One Use Only. Instead of making a Dispel attempt, you
 may use this item. The spell is automatically dispelled.
-Soul-Bound Staff​ ​ (30 pts)
-Miscasts always count as having rolled 1 dice less when
-working out their effects.
-Scrolls of the Eighth Pact​ (25 pts) - models with Mark
-of Change​ only
-The bearer may choose any of the Battle Magical Paths
-except the Path of Light.
-Sorcerer’s Lodestone​ ​ (25 pts)
-One Use Only. Directly after making a casting or
-dispelling attempt, the bearer may increase the dispel
-roll or casting roll by +D6. This flat bonus is unaffected
-by power dice restrictions.
-Skull of Cacophrax​ (25 pts)
-The bearer knows one additional spell.
-7
+Soul-Bound Staff  (30 pts): Miscasts always count as having rolled 1 dice less when working out their effects.
+Scrolls of the Eighth Pact (25 pts) - models with Mark of Change only: The bearer may choose any of the Battle Magical Paths except the Path of Light.
+Sorcerer's Lodestone  (25 pts): One Use Only. Directly after making a casting or dispelling attempt, the bearer may increase the dispel roll or casting roll by +D6. This flat bonus is unaffected by power dice restrictions.
+Skull of Cacophrax (25 pts): The bearer knows one additional spell.
+
 Army List
 LORDS
-Weaver of Change​​ 490 pts
+Weaver of Change 490 pts
 single model
 M WS BS S T W I A Ld
 8 6 6 6 6 6 6 5 9 Monster 50x50mm base
-Alliance:
-Daemonic Mark (Change)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Fly (8)
-Magic:
-Level 3 Wizard ​ Master​ . ​ Generate spells from the
-Path of Change or Alchemy
+Alliance: Daemonic Mark (Change)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Fly (8)
+Magic: Level 3 Wizard  Master .  Generate spells from the Path of Change or Alchemy
 Options: pts
 May become a Level 4 Wizard 35
 May take Daemonic Items up to 100
 May choose the Greater Aspect no pt limit
-Prince of Lust​ ​ 410 pts
+
+Prince of Lust  410 pts
 single model
 M WS BS S T W I A Ld
 10 9 6 6 6 6 10 6 9 Monster 50x50mm base
-Alliance:
-Daemonic Mark (Lust)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Swiftstride
-Magic:
-Level 1 Wizard ​ Apprentice​ . ​ Generate spells from
-the Path of Lust or Shadow
+Alliance: Daemonic Mark (Lust)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Swiftstride
+Magic: Level 1 Wizard  Apprentice .  Generate spells from the Path of Lust or Shadow
 Options: pts
-May become a
-Level 2 Wizard Apprentice 25
+May become a Level 2 Wizard Apprentice 25
 Level 3 Wizard Master 95
 Level 4 Wizard Master 130
 May take Daemonic Items up to 100
 May choose an Aspect (one choice only) no pt limit
-8
-Father of Pestilence ​ 455 pts
+
+Father of Pestilence  455 pts
 single model
 M WS BS S T W I A Ld
 6 6 3 6 7 7 4 5 9 Monster 50x50mm base
-Alliance:
-Daemonic Mark (Pestilence)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Poisoned Attacks
-Magic:
-Level 1 Wizard ​ Apprentice​ . ​ Generate spells from
-the Path of Pestilence or Death
+Alliance: Daemonic Mark (Pestilence)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Poisoned Attacks
+Magic: Level 1 Wizard  Apprentice .  Generate spells from the Path of Pestilence or Death
 Options: pts
-May become a
-Level 2 Wizard Apprentice 25
+May become a Level 2 Wizard Apprentice 25
 Level 3 Wizard Master 95
 Level 4 Wizard Master 130
 May take Daemonic Items up to 100
 May take a Flail 10
 May choose an Aspect (one choice only) no pt limit
-Scourge of Wrath​​ 420 pts
+
+Scourge of Wrath 420 pts
 single model
 M WS BS S T W I A Ld
 8 10 10 6 6 6 9 7 9 Monster 50x50mm base
-Alliance:
-Daemonic Mark (Wrath)
-Armour:
-Heavy Armour
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Fly (8), Magic Resistance (2)
+Alliance: Daemonic Mark (Wrath)
+Armour: Heavy Armour
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Fly (8), Magic Resistance (2)
 Options: pts
 May take Daemonic Items up to 100
 May choose an Aspect (one choice only) no pt limit
-9
-Daemon Prince​​ 250 pts
+
+Daemon Prince 250 pts
 single model
 M WS BS S T W I A Ld
 8 9 5 6 5 4 8 5 9 Monster 50x50mm base
-Alliance:
-Daemonic Mark (True Chaos)
-Armour:
-Heavy Armour
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Stubborn
+Alliance: Daemonic Mark (True Chaos)
+Armour: Heavy Armour
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Stubborn
 Options: pts
 May replace True Chaos
 with Mark of Change 20
@@ -354,29 +180,21 @@ May take Fly (8) 40
 If Mark of Pestilence may add Poisoned attacks 10
 May take Plate Armour 25
 Magic:
-If upgraded to a Wizard, the available Paths of Magic depend on
-the Mark of the Character. A Prince with Mark of Wrath cannot
-be upgraded to a Wizard.
+If upgraded to a Wizard, the available Paths of Magic depend on the Mark of the Character. A Prince with Mark of Wrath cannot be upgraded to a Wizard.
 Change Path of Change or Alchemy
 Lust Path of Lust, Shadow or Black Magic
 Pestilence Path of Disease or Death
 True Chaos Path of Alchemy, Death, Fire, Heavens or Shadow
-10
+
 HEROES
-Harbinger of Change ​ 100 pts
+Harbinger of Change  100 pts
 single model
 M WS BS S T W I A Ld
 4 3 4 3 3 2 3 2 8 Infantry 25x25mm base
-Alliance:
-Daemonic Mark (Change)
-We
-apons:
-Firebolts
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Magic:
-Level 1 Wizard ​ Apprentice​ . ​ Uses spells from the
-Path of Change or Alchemy
+Alliance: Daemonic Mark (Change)
+Weapons: Firebolts
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Magic: Level 1 Wizard  Apprentice.  Uses spells from the Path of Change or Alchemy
 Options: pts
 May become Battle Standard Bearer 25
 May become a Level 2 Wizard 25
@@ -385,17 +203,14 @@ May choose an Aspect (one choice only) no pt limit
 May take a mount (one choice only)
 Disc of Change 20
 May ride a Blazing Chariot 85
-Harbinger of Lust ​ 95 pts
+
+Harbinger of Lust  95 pts
 single model
 M WS BS S T W I A Ld
 6 7 5 4 3 2 7 4 8 Infantry 25x25mm base
-Alliance:
-Daemonic Mark (Lust)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Distracting
+Alliance: Daemonic Mark (Lust)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Distracting
 Options: pts
 May become Battle Standard Bearer 25
 May become a
@@ -410,21 +225,15 @@ May take a mount (one choice only)
 Steed of Lust 25
 Siren Chariot 70
 Shrine of Temptation 150
-Magic:
-If upgraded to a Wizard, ​ uses spells from the Path of Lust or
-Shadow
-11
-Harbinger of Pestilence ​ 95 pts
+Magic: If upgraded to a Wizard,  uses spells from the Path of Lust or Shadow
+
+Harbinger of Pestilence  95 pts
 single model
 M WS BS S T W I A Ld
 4 5 5 5 5 2 4 3 8 Infantry 25x25mm base
-Alliance:
-Daemonic Mark (Pestilence)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Poisoned Attacks
+Alliance: Daemonic Mark (Pestilence)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Poisoned Attacks
 Options: pts
 May become Battle Standard Bearer 25
 May become a
@@ -438,41 +247,31 @@ Halberd 8
 May take a mount (one choice only)
 Pestilent Palanquin 40
 Blight Fly 50
-Magic:
-If upgraded to a Wizard, ​ uses spells from the Path of Disease or
-Death
-Harbinger of Wrath ​ 95 pts
+Magic: If upgraded to a Wizard,  uses spells from the Path of Disease or Death
+
+Harbinger of Wrath  95 pts
 single model
 M WS BS S T W I A Ld
 5 7 2 5 4 2 6 3 8 Infantry 25x25mm base
-Alliance:
-Daemonic Mark (Wrath)
-We
-apons:
-Blood Sword
-Armour:
-Innate Defence (6+) and Light Armour
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Magic Resistance (1)
+Alliance: Daemonic Mark (Wrath)
+Weapons: Blood Sword
+Armour: Innate Defence (6+) and Light Armour
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Magic Resistance (1)
 Options: pts
 May become Battle Standard Bearer 25
 May take Daemonic Items up to 50
 May choose an Aspect (one choice only) no pt limit
 May gain Innate Defence (4+) 20
 May ride a Crusher 40
-12
+
 CORE
-Horrors ​ 70 pts
-10 ​ models, may add up to 30 ​ models 7 pts/model
+Horrors  70 pts
+10  models, may add up to 30  models 7 pts/model
 M WS BS S T W I A Ld
 4 3 3 3 3 1 3 1 7 Infantry 25x25mm base
-Alliance:
-Mark of the Daemon Legion (Change)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
+Alliance: Mark of the Daemon Legion (Change)
+Daemon Special Rules: Daemonic Instability, Otherworldly
 Options: pts
 May take Firebolts 3 / model
 If General has the same Daemonic Mark,
@@ -484,62 +283,49 @@ Standard Bearer 10
 - May become the Veteran Standard Bearer*
 *A Veteran Standard Bearer is One of a Kind and may take a
 Magical Standard worth up to 25 pts
-Magic:
-Wizard Conclave​ (Path of Change: Blue Fire, Pink Fire)
-Sirens ​ 90 pts
-10 ​ models, may add up to 30 ​ models 9 pts/model
+Magic: Wizard Conclave (Path of Change: Blue Fire, Pink Fire)
+
+Sirens  90 pts
+10  models, may add up to 30  models 9 pts/model
 M WS BS S T W I A Ld
 6 5 4 3 3 1 5 1 7 Infantry 25x25mm base
-Alliance:
-Daemonic Mark (Lust)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
+Alliance: Daemonic Mark (Lust)
+Daemon Special Rules: Daemonic Instability, Otherworldly
 Options: pts
 May take additional hand weapon 1 / model
-If General has the same Daemonic Mark,
-may take a minor Aspect 1 / model
+If General has the same Daemonic Mark, may take a minor Aspect 1 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
 - May become the Veteran Standard Bearer*
-13
-Tallymen​ ​ 120 pts
-10 ​ models, may add up to 20 ​ models 12 pts/model
+
+Tallymen  120 pts
+10  models, may add up to 20  models 12 pts/model
 M WS BS S T W I A Ld
 4 3 3 4 4 1 2 1 7 Infantry 25x25mm base
-Alliance:
-Daemonic Mark (Pestilence)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Poisoned Attacks
+Alliance: Daemonic Mark (Pestilence)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Poisoned Attacks
 Options: pts
 May gain a special rule (one choice only)
 Trail of Mucus 1 / model
 Distracting 3 / model
-If General has the same Daemonic Mark,
-may take a minor Aspect 1 / model
+If General has the same Daemonic Mark, may take a minor Aspect 1 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
 - May become the Veteran Standard Bearer*
-Slaughterers​ ​ 120 pts
-10 ​ models, may add up to 20 ​ models 12 pts/model
+
+Slaughterers  120 pts
+10  models, may add up to 20  models 12 pts/model
 M WS BS S T W I A Ld
 5 5 2 4 3 1 4 1 7 Infantry 25x25mm base
-Alliance:
-Daemonic Mark (Wrath)
-We
-apons:
-Blood Swords
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Magic Resistance (1)
+Alliance: Daemonic Mark (Wrath)
+Weapons: Blood Swords
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Magic Resistance (1)
 Options: pts
 May have Innate Defence (5+) 2 / model
 May replace Blood Swords with Hell Blades 1 / model
@@ -550,55 +336,39 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - May become the Veteran Standard Bearer*
-14
+
 SPECIAL
-Igniters ​ 150 pts
-4 ​ models, may add up to 2 ​ models 43 pts/model
+Igniters  150 pts
+4  models, may add up to 2  models 43 pts/model
 M WS BS S T W I A Ld
 6 3 4 4 3 2 4 2 7 Infantry 25x25mm base
-Alliance:
-Daemonic Mark (Change)
-We
-apons:
-Firestorm​ :
-Range 18”, Strength 4, Multiple Shots (D6), Quick to
-Fire
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Skirmishers
+Alliance: Daemonic Mark (Change)
+Weapons: Firestorm : Range 18", Strength 4, Multiple Shots (D6), Quick to Fire
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Skirmishers
 Options: pts
 May upgrade one model to each of the following:
 Champion 10
 May take a minor Aspect (Monotheist Army only) 6 / model
-Sky Serpents ​ 130 pts
-3 ​ models, may add up to 3 ​ models 43 pts/model
+
+Sky Serpents  130 pts
+3  models, may add up to 3  models 43 pts/model
 M WS BS S T W I A Ld
 1 3 - 4 4 2 4 3 7 War Beast 40x40mm base
-Alliance:
-Daemonic Mark (Change)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Fly (9), Skirmishers
-Slashing: ​ A unit of Sky Serpents may inflict one
-Special Attack per turn. Nominate one enemy unit
-which the Sky Serpents moved over during the
-player’s Remaining Moves sub phase. The target
-suffers D3 Strength 4 hits for each Sky Serpent in
-the unit.
-15
-Mounted Sirens​​ 85 pts
-5 ​ models, may add up to 10 ​ models 15 pts/model
+Alliance: Daemonic Mark (Change)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Fly (9), Skirmishers
+Slashing:  A unit of Sky Serpents may inflict one Special Attack per turn. Nominate one enemy unit which the Sky Serpents moved over during the player's Remaining Moves sub phase. The target suffers D3 Strength 4 hits for each Sky Serpent in the unit.
+
+Mounted Sirens 85 pts
+5  models, may add up to 10  models 15 pts/model
 M WS BS S T W I A Ld
 Rider 6 5 4 3 3 1 5 2 7
 Steed of Lust 10 3 - 3 3 1 5 1 7 Cavalry 25x50mm base
 Alliance:
 Daemonic Mark (Lust)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Daemonic Instability, Otherworldly
 Sp
@@ -614,7 +384,7 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 25
-Siren Chariot​​ 95 pts
+Siren Chariot 95 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 5 4 4 - - -
@@ -623,7 +393,7 @@ Steed of Lust (2) 10 3 - 3 - - 5 1 7 Chariot 50x100mm base
 Alliance:
 Daemonic Mark (Lust)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 We
 apons:
 Barbed Claws (Mounted Sirens only)
@@ -634,8 +404,8 @@ ecial Rules:
 Scythes, Poisoned Attacks (Steed of Lust only)
 Options: pts
 May take a minor Aspect(Monotheist Army only) 5
-Clawed Fiends​​ 100 pts
-2 ​ models, may add up to 4 ​ models 50 pts / model
+Clawed Fiends 100 pts
+2  models, may add up to 4  models 50 pts / model
 M WS BS S T W I A Ld
 10 5 - 4 4 3 5 3 7 Monstrous Beast 40x40mm base
 Alliance:
@@ -651,8 +421,8 @@ Additional hand weapons 5 / model
 Barbed Claws 8 / model
 May take a minor Aspect (Monotheist Army only) 4 / model
 16
-Pestilent Beasts​​ 140 pts
-2 ​ models, may add up to 4 ​ models 70 pts/model
+Pestilent Beasts 140 pts
+2  models, may add up to 4  models 70 pts/model
 M WS BS S T W I A Ld
 6 3 - 4 5 4 2 4 7 Monstrous Beast 40x40mm base
 Alliance:
@@ -665,8 +435,8 @@ Fear, Poisoned Attacks, Regeneration (4+), Trail of
 Mucus
 Options:
 May take a minor Aspect(Monotheist Army only) 5 / model
-Plaguelings​​ 70 pts
-2 ​ models, may add up to 8 ​ models 30 pts/model
+Plaguelings 70 pts
+2  models, may add up to 8  models 30 pts/model
 M WS BS S T W I A Ld
 5 3 3 2 2 5 3 4 7 Swarm 40x40mm base
 Alliance:
@@ -678,12 +448,12 @@ ecial Rules:
 Scouts, Poisoned Attacks
 Options:
 May take a minor Aspect(Monotheist Army only) 3 / model
-Slime Explosion: ​ In close combat, after all attacks have been made, choose a unit that has inflicted a wound on a model
+Slime Explosion:  In close combat, after all attacks have been made, choose a unit that has inflicted a wound on a model
 of a Plaguelings unit this phase. That unit suffers D3 hits for each Plaguelings model removed from play during this
 close combat phase. These hits have the Toxic Attack special rule.
 17
-Hellhounds ​ 130 pts
-5 ​ models, may add up to 10 ​ models 23 pts/model
+Hellhounds  130 pts
+5  models, may add up to 10  models 23 pts/model
 M WS BS S T W I A Ld
 8 5 - 4 4 2 4 2 7 War Beast 25x50mm base
 Alliance:
@@ -699,8 +469,8 @@ Options: pts
 May gain Ambush 20
 May gain Innate Defence (4+) 6 / model
 May take a minor Aspect(Monotheist Army only) 3 / model
-Crusher Cavalry​​ 170 pts
-3 ​ models, may add up to 3 ​ models 60 pts/model
+Crusher Cavalry 170 pts
+3  models, may add up to 3  models 60 pts/model
 M WS BS S T W I A Ld
 Rider 5 5 2 4 3 1 4 2 7
 Crusher 7 5 - 5 4 3 2 3 7 Monstrous Cavalry 50x75mm base
@@ -710,7 +480,7 @@ We
 apons:
 Blood Swords (Riders only)
 Armour:
-Mount’s Protection (6+), Innate Defence (6+)
+Mount's Protection (6+), Innate Defence (6+)
 Daemon Special Rules:
 Daemonic Instability, Otherworldly
 Sp
@@ -725,8 +495,8 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
-Furies​ ​ 70 pts
-5 ​ models, may add up to 10 ​ models 10 pts/model
+Furies  70 pts
+5  models, may add up to 10  models 10 pts/model
 M WS BS S T W I A Ld
 4 3 - 4 3 1 4 1 7 Infantry 25x25mm base
 Alliance:
@@ -742,7 +512,7 @@ with another Daemonic Mark 2 / model
 18
 RA
 RE
-Blazing Chariot ​ 135 pts
+Blazing Chariot  135 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 4 4 4 - - -
@@ -751,7 +521,7 @@ Sky Serpent (2) 1 3 - 4 - - 4 3 7 Chariot 50x100mm base
 Alliance:
 Daemonic Mark (Change)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Daemonic Instability, Otherworldly
 Sp
@@ -761,14 +531,14 @@ Options: pts
 May take a minor Aspect (Monotheist Army only) 10
 We
 apons:
-Searing Firestorm​ : ​ This weapon can be fired in two ways;
-- As a Bolt Thrower Artillery Weapon ​ with
-Range 36”, Strength 4+D3*, Multiple Wounds (D3), Armour Piercing (6)
-- As a Volley Gun Artillery Weapon​ with
+Searing Firestorm :  This weapon can be fired in two ways;
+- As a Bolt Thrower Artillery Weapon  with
+Range 36", Strength 4+D3*, Multiple Wounds (D3), Armour Piercing (6)
+- As a Volley Gun Artillery Weapon with
 Range 30", Multiple Shots(6), Strength 2+D3*
 *Roll once per shooting phase (after hits have been scored) and apply this strength for all shots
 19
-Shrine of Temptation ​ 210 pts
+Shrine of Temptation  210 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 5 4 8 - - -
@@ -781,7 +551,7 @@ We
 apons:
 Barbed Claws (Mounted Siren and Temptress only)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Daemonic Instability, Otherworldly
 Sp
@@ -791,9 +561,9 @@ Impact Hits (2D6), Scythes, Poisoned Attacks
 Options: pts
 Temptress may take a Lash of Lust 20
 May take a minor Aspect (Monotheist Army only) 15
-Aura of Esctasy​ : ​ All friendly models with the Mark of Lust in the same close combat as the model with this rule
+Aura of Esctasy :  All friendly models with the Mark of Lust in the same close combat as the model with this rule
 (including itself) gain Lightning Reflexes.
-Carnal Chariot​​ 110 pts
+Carnal Chariot 110 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 4 4 4 - - -
@@ -806,7 +576,7 @@ We
 apons:
 Barbed Claws (Mounted Sirens and Oracle only)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Daemonic Instability, Otherworldly
 Sp
@@ -814,18 +584,18 @@ ecial Rules:
 Scythes, Poisoned Attacks (Steed of Lust only),
 Options:
 May take a minor Aspect (Monotheist Army only) 10 / model
-Soulreaper: ​ The Impact Hits inflicted by a Carnal Chariot gain Armour Piercing (6) and the Oracle gets +1 Attack for
-each unsaved wound caused by the chariot’s Impact Hits. These attacks are lost at the end of the phase.
+Soulreaper:  The Impact Hits inflicted by a Carnal Chariot gain Armour Piercing (6) and the Oracle gets +1 Attack for
+each unsaved wound caused by the chariot's Impact Hits. These attacks are lost at the end of the phase.
 20
-Blight Flies ​ 185 pts
-3 ​ models, may add up to 3 ​ models 65 pts/model
+Blight Flies  185 pts
+3  models, may add up to 3  models 65 pts/model
 M WS BS S T W I A Ld
 Rider 4 3 4 4 4 1 2 1 7
 Blight Fly 1 4 - 5 5 3 2 3 - Monstrous Cavalry 50x75mm base
 Alliance:
 Daemonic Mark (Pestilence)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Daemonic Instability, Otherworldly
 Sp
@@ -838,7 +608,7 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 25
-Blood Chariot ​ 165 pts
+Blood Chariot  165 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 5 5 4 - - -
@@ -850,7 +620,7 @@ We
 apons:
 Blood Swords (Slaughterers only)
 Armour:
-Mount’s Protection (6+), Innate Defence (4+)
+Mount's Protection (6+), Innate Defence (4+)
 Daemon Special Rules:
 Daemonic Instability, Otherworldly
 Sp
@@ -859,18 +629,18 @@ Magic Resistance (1), Scythes
 Options: pts
 May take a minor Aspect (Monotheist Army only) 10
 Must chose one artillery weapon
-Incinerator ​ (free)
+Incinerator  (free)
 Model equipped with an Inferno gain Fireborn. This is a
-Flame Thrower Artillery Weapon​ with
-Range 8”, Strength 5, Multiple Wounds (D3), Flaming
+Flame Thrower Artillery Weapon with
+Range 8", Strength 5, Multiple Wounds (D3), Flaming
 Attacks.
-Brass Cannon ​ (free)
+Brass Cannon  (free)
 May only be taken if General has the Mark of Wrath
-This is a Cannon (D6”) Artillery Weapon​ with
-Range 48”, Strength 10, Armour Piercing (2), Multiple
+This is a Cannon (D6") Artillery Weapon with
+Range 48", Strength 10, Armour Piercing (2), Multiple
 Wounds (Ordnance), Flaming Attacks
 21
-Altar of Slaughter​ ​ 195 pts
+Altar of Slaughter  195 pts
 single model
 M WS BS S T W I A Ld
 Altar of Blood - - - 5 6 4 - - -
@@ -884,7 +654,7 @@ apons:
 Blood Swords (Doombringer and Slaughterers
 only)
 Armour:
-Mount’s Protection (6+), Innate Defence (4+)
+Mount's Protection (6+), Innate Defence (4+)
 Daemon Special Rules:
 Otherworldly, Daemonic Instability
 Sp
@@ -892,10 +662,10 @@ ecial Rules:
 Magic Resistance (2), Scythes
 Options: pts
 In a Monotheist Army may take a minor Aspect 15
-Blood Feast: ​ At the end of the Initiative step in which an Altar of Slaughter inflicted the first unsaved wound during a
-battle, all units with the Mark of Wrath within 12” gain Frenzy.
+Blood Feast:  At the end of the Initiative step in which an Altar of Slaughter inflicted the first unsaved wound during a
+battle, all units with the Mark of Wrath within 12" gain Frenzy.
 22
-Daemon Engine ​ 220 pts
+Daemon Engine  220 pts
 single model
 M WS BS S T W I A Ld
 8 3 4 6 7 6 3 4 7 Monster 150x100mm base
@@ -921,20 +691,20 @@ Hellish Breath 40
 Hellish Bombard 40
 Hellish Bolt 35
 Must take one of the following:
-Hellish Reaper ​ (free)
-This is a Volley Gun Artillery Weapon ​ with
+Hellish Reaper  (free)
+This is a Volley Gun Artillery Weapon  with
 Range 12", Strength 4, Armour Piercing (3),
 Multiple Shots (2D6)
-Hellish Breath ​ (40 pts)
-This a Flame Thrower Artillery Weapon​ with
-Range 8”, Strength 5, Flaming Attacks. Ignore the -1
+Hellish Breath  (40 pts)
+This a Flame Thrower Artillery Weapon with
+Range 8", Strength 5, Flaming Attacks. Ignore the -1
 modifier on misfire table
-Hellish Bombard ​ (40 pts)
-This is a Catapult (3”) Artillery Weapon​ with
-Range 12-60”, Strength 3[9], [Multiple Wounds
+Hellish Bombard  (40 pts)
+This is a Catapult (3") Artillery Weapon with
+Range 12-60", Strength 3[9], [Multiple Wounds
 (Ordnance)]
-Hellish Bolt ​ (35 pts)
-This is a Bolt Thrower Artillery Weapon​ with
+Hellish Bolt  (35 pts)
+This is a Bolt Thrower Artillery Weapon with
 Range: 48 Strength: 6, Multiple Wounds (D3), Armour
 Piercing (6)
 23
@@ -946,7 +716,7 @@ M WS BS S T W I A Ld
 Alliance:
 Daemonic Mark (Change)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Otherworldly
 Sp
@@ -959,7 +729,7 @@ Sky Serpent (2) 1 3 - 4 - - 4 3 7 Chariot 50x100mm base
 Alliance:
 Daemonic Mark (Change)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 We
 apons:
 Searing Firestorm (see Blazing Chariot entry in
@@ -976,7 +746,7 @@ M WS BS S T W I A Ld
 Alliance:
 Daemonic Mark (Lust)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Otherworldly
 Sp
@@ -990,7 +760,7 @@ Steed of Lust (2) 10 3 - 3 - - 5 1 7 Chariot 50x100mm base
 Alliance:
 Daemonic Mark (Lust)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 We
 apons:
 Barbed Claws (Mounted Siren only)
@@ -1007,7 +777,7 @@ M WS BS S T W I A Ld
 Alliance:
 Daemonic Mark (Pestilence)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Otherworldly
 Sp
@@ -1019,7 +789,7 @@ M WS BS S T W I A Ld
 Alliance:
 Daemonic Mark (Pestilence)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Otherworldly, Daemonic Instability
 Sp
@@ -1031,7 +801,7 @@ M WS BS S T W I A Ld
 Alliance:
 Daemonic Mark (Wrath)
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Daemon Special Rules:
 Otherworldly
 Sp
@@ -1112,7 +882,7 @@ Altar of Slaughter - - - 5 6 4 - - -
 MONSTERS M WS BS S T W I A Ld
 R Daemon Engine 8 3 4 6 7 6 3 4 7
 27
-Monotheist’s Reference Sheet
+Monotheist's Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 (2)- crew members when taken as a separate unit
 [1] - crew members when taken as a mount
@@ -1183,8 +953,8 @@ Igniter Firestorm - 18 4 D6 - -
 Blazing Chariot Searing Firestorm(1) Bolt Thrower 36 4+D3 - D3 6
 Searing Firestorm (2) Volley Gun 30 2+D3 6 - -
 Blood Chariot Incinerator Flame Thrower 8 5 - D3 -
-Brass Cannon Cannon (D6”) 48 10 - Ordnance 2
+Brass Cannon Cannon (D6") 48 10 - Ordnance 2
 Daemon Engine Hellish Reaper Volley Gun 12 4 2D6 - 3
 Hellish Breath Flame Thrower 8 5 - - -
-Hellish Bombard Catapult (3”) 12-60 3[9] - [Ordnance] -
+Hellish Bombard Catapult (3") 12-60 3[9] - [Ordnance] -
 Hellish Bolt Bolt Thrower 48 6 - D3 6
