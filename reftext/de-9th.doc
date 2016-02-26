@@ -1,0 +1,1009 @@
+de-9th.doc
+Fantasy Battles
+The 9th Age
+Dread Elves
+Army Rules
+Version 0.11.0 Beta
+Army Special Rules
+Armoury
+Magical Items
+Quick Reference Sheet
+Change Log
+Lords
+Heroes
+Core
+Special
+Rare
+Mounts
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.
+All relevant rules, as well as feedback and suggestions, can be found/given here:
+http://www.the-ninth-age.com/
+Rules changes between versions are colour coded in green. See change log at end of document.
+Army Special Rules
+Killer Instinct
+A model part with this special rule may reroll all natural to-wound rolls of ‘1’ in Close Combat.
+Master of the Dark Arts
+If your army includes one or more models with this rule, add an additional +1 to channelling attempts for Power Dice.
+Aura of Despair
+Enemy units in base contact with one or more units with this special rule roll an extra D6 for Leadership tests
+(excluding Break tests) and discard the lowest dice.
+Alpha Predator
+A Monster with this special rule gains +1 Weapon Skill, Initiative and Leadership.
+Fleet Commander
+Models with this special rule have Innate Defence (5+) but
+may not take any mount. When a model with this special
+rule joins a unit of Corsairs, Dread Legionnaires or
+Repeater Auxiliaries, the model and all Rank-and-File
+models in the unit gain Swiftstride, and enemy units that
+break from a combat with this combined unit roll an
+additional D6 for the fleeing distance roll and discard the
+highest dice.
+For each character model with this special rule, a single
+unit of Corsairs may have the Vanguard special rule. Fleet
+Commander characters joined to such units also gain the
+Vanguard rule.
+Beast Master
+Friendly units of Cavalry, Monstrous Cavalry, Monsters,
+and War Beasts within 12” of a model with this special
+rule may roll 3D6 for Leadership tests and discard the
+highest dice. Mounted models affected by this special
+rule roll 3D6 for for Frenzy and Stupidity tests and
+discard the highest dice.
+At the beginning of every Close Combat Round, one
+Monster, Monstrous Cavalry, or Cavalry unit within 6" of
+a model with this special rule may gain the Hatred
+special rule for the remainder of the Round. If a Cavalry
+or Monstrous Cavalry unit is chosen, only the mounts are
+affected.
+2
+Divine Blessings
+At the beginning of each Game Turn, the owner chooses one of the three effects listed below to apply for the remainder
+of that Game Turn.
+A single friendly unit with the Killer Instinct special rule within 6” of a model with this special rule may gain one of the
+Blessings listed below. This range is increased to 12” if it is mounted by a Cult High Priest. A single unit cannot be
+affected by more than one Divine Blessing at any time and only model parts with the Killer Instinct special rule are
+affected by the Blessing. Furthermore, only units with the same Cult Alignment or lacking any Cult Alignment may be
+chosen as targets.
+● The unit gains Ward Save (5+) or
+● The unit gains +1 Attack or
+● The unit gains Armour Piercing (1) in Close Combat and for any Shooting Attacks. If the affected models or
+Shooting Attacks already have Armour Piercing, then the Armour Piercing is increased by 1 (Special Attacks
+never benefit from this bonus).
+Armoury
+Petrifying Stare:
+Shooting Weapon. Range (12”), Strength 4, Multiple Shots (2), Armour Piercing (6). The to-wound rolls of attacks made
+with this weapon are made against the target’s Initiative instead of against its Toughness.
+Repeater Crossbow:
+Shooting Weapon. Range (24”), Strength 3, Armour Piercing (1) , Multiple Shots (2).
+Gladiator Weapons:
+Close Combat Weapon. The bearer has the Weapon Master special rule. This weapon may be used as Hand Weapon &
+Shield, Flail, Additional Hand Weapon, Great Weapon or Halberd.
+Executioner’s Blade:
+Great Weapon. Lethal Strike and Multiple Wounds (2, Infantry, Monstrous Beast, Cavalry).
+3
+Cults
+Models from a Dread Elves army may be part of a single cult. Alignment confers various bonuses but also certain
+restrictions.
+Cult Alignment (X)
+Characters aligned with the cult cannot join units with one or more models from the other cult.
+Cult Chosen (X)
+Cult Chosens get special rules corresponding to their cult
+Cult of Nabh
+Models part with the Cult Chosen (Nabh) gain Hatred.
+Characters with the Cult Chosen (Nabh) also gain
+Poisoned Attacks.
+If the General is aligned with the Cult of Nabh the
+fo
+llowing rules apply:
+● Any number of Core units may be upgraded to
+Cult Alignment (Nabh) and Cult Chosen (Nabh)
+fo
+r 1 pt/model
+● Executioner units may be upgraded to Cult
+Chosen (Nabh) for 2 pts/model.
+● The army cannot include any model with the
+Cult Alignment (Yema)
+Cult of Yema
+Models part with the Cult Chosen (Yema) gain
+Armour Piercing (1).
+Characters with the Cult Chosen (Yema) also gain
+Aura of Despair.
+If the General is aligned with the Cult of Yema the
+fo
+llowing rules apply:
+● Any number of Core units may be upgraded to
+Cult Alignment (Yema) and Cult Chosen (Yema)
+fo
+r 1 pt/model
+● Dark Acolytes and Medusa units may be
+upgraded to Cult Chosen (Yema) for 1 pt/model.
+● The army cannot include any model with the
+Cult Alignment (Nabh)
+4
+Magical items
+Magical Weapons
+Headsman’s Axe​ (60 / 40 pts) - Infantry only
+Type: Great Weapon. Attacks with this weapon are made
+at +3 Strength (instead of +2) and have Multiple Wounds
+(2).
+Beastmaster’s Lash ​ (40 pts)
+Type: Hand Weapon. The wearer gains +1 Attack. Close
+Combat attacks with this weapon are always made at
+Strength 5 (ignore any modifiers). If a model suffers an
+unsaved wound from this weapon, reduce target's
+attacks by the number of unsaved wounds dealt for the
+remainder of this Combat Round.
+Magical Armour
+Crimson Mail ​ (20 pts) - Infantry only
+Type: Heavy Armour. For each unsaved wound inflicted
+by the wearer during Combat, the wearer gains +1
+Armour Save (up to a maximum of 1+) for the remainder
+of the game.
+Talismans
+Amulet of Spite ​ (35 pts)
+The bearer gains Magic Resistance (2). If an enemy
+Wizard within 12” successfully casts and resolves a spell
+and two (or more) Power Dice rolled an unmodified '1',
+the caster suffers a Miscast with PDU = 2. A single casting
+roll cannot result in more than 1 Miscast.
+Midnight Cloak​ (60 / 50 pts)
+The wearer gains Ward Save (3+), which can only be
+used against Ranged Attacks. The wearer gains Lethal
+Strike and Multiple Wounds (D3) in the first Combat
+Round after it charged into Close Combat.
+Enchanted Items
+Dragon’s Blood Potion (50 pts)
+One use only. May be activated at the start of any Phase.
+For the duration of the Player Turn, the bearer has
+Strength 6, Toughness 6 and Breath Weapon (Strength 4,
+Flaming Attacks).
+Ring of Shadows ​ (35 pts)
+The bearer's unit counts as being in Soft Cover. If it is
+already in Cover, it gains Hard Cover instead. Close
+Combat attacks made against the bearer's unit are made
+at -1 WS.
+Arcane Items
+Dagger of Moraec ​ (50 / 25 pts)
+At the start of the Magic Phase, the bearer may inflict D3
+wounds on its own unit, with no saves allowed. If the
+bearer does so, during this Magic Phase, the bearer gains
+an additional +2 to the casting modifier it receives from
+its Wizard Level, up to a maximum of +3 .
+Wandering Familiar ​ (25 pts)
+At the start of every friendly Magic Phase, the Player may
+place a 20x20mm base within 6" of the owner of the
+Familiar. This base must be put more than 1” away from
+other models and from Impassable terrain. Once placed
+down, the Player must declare which side of the base is
+the front. When casting spells, the owner of the Familiar
+may choose to use the position of this base when
+drawing Line of Sight, measuring Range and determining
+fr
+ont arc. At the end of the Phase, the Familliar base is
+removed.
+Magical Standards
+Dread Fleet Standard ​ (90pts) - Fleet Commander only
+Each unit of Corsairs and Dread Legionaries within 8"
+gain +1 strength in close combat.
+Bloody Banner of Nabh ​ (35 pts)
+Any model parts with Killer Instinct inside a unit which
+carries this standard may reroll failed to-wound rolls of
+'1' or '2' in Close Combat.
+5
+Army List
+LORDS
+Dread Prince ​ 140 pts
+single model
+M WS BS S T W I A Ld
+5 7 7 4 3 3 8 4 10 Infantry 20x20mm base
+Armour:
+Light Armour
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Options: pts
+May take Magical Items up to 100
+May become (one choice only)
+Fleet Commander 25
+- Fleet Commander may take Vanguard 20
+Beast Master 25
+May take Heavy Armour 8
+May take a Shield 5
+May take a Close Combat Weapon (one choice only)
+Great Weapon 10
+Halberd 10
+Additional Hand Weapon 5
+Lance 15
+May take a Shooting Weapon (one choice only)
+Repeater Crossbow 4
+Throwing Weapon 4
+May take a mount:
+Elven Horse 20
+Raptor 35
+Pegasus 60
+Manticore 120
+Hunting Chariot 120
+Raptor Chariot 125
+Dragon 250
+6
+Cult High Priest ​ 160 pts
+single model
+M WS BS S T W I A Ld
+5 7 6 4 3 3 8 4 9 Infantry 20x20mm base
+We
+apon:
+Additional Hand Weapon
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+A Cult High Priest must take one of the Alignments listed below, granting additional special rules and options.
+May join the Cult of Nabh
+Alignment:
+Cult Alignment (Nabh​ )
+Cult Chosen (Nabh​ )
+Sp
+ecial Rules:
+Magic Resistance (1), Devastating Charge
+Options: pts
+May take Magical Items up to 100
+May take any of the following:
+Light Armour 8
+Executioner’s Blade 25
+May take a mount (one choice only):
+Manticore 120
+Divine Altar of Nabh 150
+May join the Cult of Yema
+Alignment:
+Cult Alignment (Yema​ )
+Cult Chosen (Yema​ )
+Options: pts
+May take Magical Items up to 100
+May take any of the following:
+Shield 5
+Light Armour 8
+Gladiator Weapons 25
+May take a mount (one choice only):
+Elven Horse 20
+Raptor 30
+Pegasus 60
+Divine Altar of Yema 150
+Exalted Oracle​ 190 pts
+single model
+M WS BS S T W I A Ld
+5 4 4 3 3 3 5 1 9 Infantry 20x20mm base
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Sp
+ecial Rules:
+Master of the Dark Arts
+Magic:
+Level 3 Wizard Master .​ Generate spells from any
+Path of Battle Magic or Path of Black Magic. If the
+Cult of Yema upgrade is chosen, only spells from
+the Path of Lust or Path of Black Magic may be
+generated.
+Options: pts
+May become a Level 4 Wizard Master 35
+May join the Cult of Yema 20
+May take Magical Items up to 100
+May take a mount (one choice only)
+Elven Horse 20
+Raptor 25
+Pegasus 40
+Manticore 100
+Dragon 300
+7
+HEROES
+Captain ​ 70 pts
+single model
+M WS BS S T W I A Ld
+5 6 6 4 3 2 7 3 9 Infantry 20x20mm base
+Armour:
+Light Armour
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Options: pts
+May take Magical Items up to 50
+May become Battle Standard Bearer 25
+May become (one choice only)
+Fleet Commander 15
+- Fleet Commander may take Vanguard 20
+Beast Master 15
+May take Heavy Armour 5
+May take a Shield 3
+May take a Close Combat Weapon (one choice only)
+Additional Hand Weapon 5
+Great Weapon 8
+Halberd 8
+Lance 10
+May take a Shooting Weapon (one choice only)
+Repeater Crossbow 4
+Throwing Weapon 4
+May take a mount:
+Elven Horse 15
+Raptor 25
+Pegasus 60
+Hunting Chariot 150
+Raptor Chariot 180
+Manticore 150
+8
+Cult Priest ​ 95 pts
+single model
+M WS BS S T W I A Ld
+5 6 6 4 3 2 7 3 8 Infantry 20x20mm base
+We
+apon:
+Additional Hand Weapon
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+A Cult Priest must take one of the Alignments listed below, granting additional special rules and options.
+Cult of Nabh
+Alignment:
+Cult Alignment (Nabh​ )
+Cult Chosen (Nabh​ )
+Sp
+ecial Rules:
+Magic Resistance(1), Devastating Charge
+Options: pts
+May become Battle Standard Bearer 25
+May take Magical Items up to 50
+May take any of the following:
+Executioner’s Blade 15
+Light Armour 4
+May take a mount (one choice only):
+Manticore 150
+Divine Altar of Nabh 200
+Cult of Yema
+Alignment:
+Cult Alignment (Yema​ )
+Cult Chosen (Yema​ )
+Options: pts
+May become Battle Standard Bearer 25
+May take Magical Items up to 50
+May take any of the following:
+Gladiator Weapons 15
+Light Armour 4
+Shield 3
+May take a mount (one choice only):
+Elven Horse 15
+Raptor 20
+Pegasus 40
+Divine Altar of Yema 200
+Oracle ​ 70 pts
+single model
+M WS BS S T W I A Ld
+Oracle 5 4 4 3 3 2 5 1 8 Infantry 20x20mm base
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Sp
+ecial Rules:
+Master of the Dark Arts
+Magic:
+Level 1 Wizard Apprentice. ​ Generate spells from
+any Path of Battle Magic or Path of Black Magic. If
+the Cult of Yema upgrade is chosen, only spells
+fr
+om the Path of Lust or Path of Black Magic may be
+generated.
+Options: pts
+May take Magical Items up to 50
+May become a Level 2 Wizard Apprentice 25
+May join the Cult of Yema 25
+May take a mount (one choice only)
+Elven Horse 15
+Raptor 20
+Pegasus 40
+9
+Assassin ​ 90 pts
+single model
+M WS BS S T W I A Ld
+Assassin 6 7 7 4 3 2 9 3 9 Infantry 20x20mm base
+We
+apon:
+Additional Hand Weapon,
+Assassin Throwing Weapon:
+Range 12”. Strength as user, Armour Piercing (1).
+Quick to Fire. Multiple Shots (3). These attacks are
+affected by Master Poisoner.
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Sp
+ecial Rules:
+Scout, Ward Save (4+) (only in Close Combat),
+Armour Piercing (1), Poisoned Attacks, Not a
+Leader, Hidden
+Options: pts
+May take Magical Items (Not Magical Armour) up to 50
+May join the Cult of Nabh 20
+May take Ward Save (4+) 50
+May take Additional Hand Weapon 6
+May purchase any number of Poisons see below
+Master Poisoner​ :
+An Assassin may purchase any number of Poisons. At the start of every Player Turn, declare a single Poison to be
+used by the Assassin during this Player Turn. Poisons may only be combined with mundane weapons and are applied
+in Ranged and Close Combat.
+Poison Upgrade Special Effect
+Nightshade​ (20 pts) Attacks made with this Poison are resolved at [the target's Toughness +1] Strength, up
+to a maximum of Strength 6.
+Wolfsbane ​ (20 pts) Attacks made with this Poison gain Lethal Strike and may re-roll failed to-wound rolls.
+Bloodroot ​ (20 pts) Attacks made with this Poison gain +1 to wound and Multiple Wounds (2, Monstrous
+Beasts, Monstrous Cavalry, Chariots, Monster)
+10
+CORE
+Dread Legionnaires ​ 80 pts
+10 ​ models, may add up to 40 ​ models 8 pts/model
+M WS BS S T W I A Ld
+5 4 4 3 3 1 5 1 8 Infantry 20x20mm base
+Armour:
+Light Armour, Shield
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Options: pts
+May take Spears free
+May take Heavy Armour 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard bearer 10
+- May become the Veteran Standard Bearer*
+*A Veteran Standard Bearer is One of a Kind and may take a
+Magical Standard worth up to 25 pts.
+Repeater Auxiliaries 110 pts
+10 ​ models, may add up to 20 ​ models 11 pts/model
+M WS BS S T W I A Ld
+5 4 4 3 3 1 5 1 8 Infantry 20x20mm base
+We
+apon:
+Repeater Crossbow
+Armour:
+Light Armour
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Options: pts
+May take Shields 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard bearer 10
+- May become the Veteran Standard Bearer
+11
+Corsairs ​ 80 pts
+10 ​ models, may add up to 30 ​ models 8 pts/model
+M WS BS S T W I A Ld
+5 4 4 3 3 1 5 1 8 Infantry 20x20mm base
+Armour:
+Light Armour, Innate Defence (5+),
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Options: pts
+May take Additional Hand Weapon 1 / model
+Throwing Weapon 1 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard bearer 10
+- May become the Veteran Standard Bearer
+For each character model with the Fleet Commander​ upgrade:
+One unit of Corsairs may gain Vanguard 1 / model
+Dark Raiders ​ 85 pts
+5 ​ models, may add up to 10 models 17 pts/model
+M WS BS S T W I A Ld
+Rider 5 4 4 3 3 1 5 1 8
+Elven Horse 9 3 - 3 3 1 4 1 3 Cavalry 25x50mm base
+We
+apon:
+Light Lance
+Armour:
+Mount’s Protection (6+), Light Armour
+Elves Special Rules:
+Killer Instinct (Rider only), Lightning Reflexes
+(Rider only)
+Sp
+ecial Rules:
+Fast Cavalry
+Options: pts
+May take Repeater Crossbow 3 / model
+May take Shields 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard bearer 10
+12
+SPECIAL
+Blades of Nabh ​ 120 pts
+10 ​ models, may add up to 30 ​ models 12 pts/model
+M WS BS S T W I A Ld
+5 5 4 3 3 1 5 1 8 Infantry 20x20mm base
+Alignment:
+Cult Alignment (Nabh​ )
+Cult Chosen (Nabh​ )
+We
+apon:
+Additional Hand Weapon
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Sp
+ecial Rules:
+Devastating Charge, Poisoned Attacks
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard bearer 10
+- May take a Magical Standard up to 25
+Dancers of Yema ​ 130 pts
+10 ​ models, may add up to 20 ​ models 13 pts / model
+M WS BS S T W I A Ld
+5 5 4 3 3 1 5 1 9 Infantry 20x20mm base
+Alignment:
+Cult Alignment (Yema​ )
+Cult Chosen (Yema​ )
+We
+apon:
+Gladiator Weapons
+Armour:
+Light Armour, Shield
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Sp
+ecial Rules:
+Ward Save (4+) (only in Close Combat )
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard bearer 10
+- may take a Magical Standard up to 25
+13
+Executioners ​ 130 pts
+10 ​ models, may add up to 20 ​ models 13 pts/model
+M WS BS S T W I A Ld
+5 5 4 4 3 1 5 1 9 Infantry 20x20mm base
+Alignment:
+Cult Alignment (Nabh​ )
+We
+apon:
+Executioner’s Blade
+Armour:
+Heavy Armour
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard bearer 10
+- may take a Magical Standard up to 50
+Tower Guard ​ 130 pts
+10 ​ models, may add up to 20 ​ models 13 pts/model
+M WS BS S T W I A Ld
+5 5 4 3 3 1 6 2 9 Infantry 20x20mm base
+We
+apon:
+Halberd
+Armour:
+Heavy Armour
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Sp
+ecial Rules:
+Immune to Psychology, Bodyguard,
+Armour Piercing (1)
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard bearer 10
+- may take a Magical Standard up to 50
+May be upgraded to Dread Guardians 2/ model
+Dread Guardians​ : If this unit is joined by a Dread Prince or
+Captain that has not purchased the Fleet Commander or
+Beast Master upgrade, the unit gains Hatred.
+14
+Raven Cloaks ​ 80 pts
+5​ models, may add up to 5 ​ models 16 pts / model
+M WS BS S T W I A Ld
+5 5 5 3 3 1 5 1 8 Infantry 20x20mm base
+We
+apon:
+Repeater Crossbow
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes
+Sp
+ecial Rules:
+Scout, Skirmishers
+Options: pts
+May take Light Armour 1 / model
+May take Great Weapons 1 / model
+May take Additional Hand Weapon 1 / model
+May take Poisoned Attacks (Close Combat only) 1 / model
+May upgrade one model to a champion 10
+Harpies ​ 70 pts
+5 ​ models, may add up to 10 ​ models 10 pts/model
+M WS BS S T W I A Ld
+5 3 - 3 3 1 5 2 6 Infantry 20x20mm base
+Sp
+ecial Rules:
+Skirmishers, Fly (10)
+Dread Knights ​ 130 pts
+5 ​ models, may add up to 10 ​ models 26 pts/model
+M WS BS S T W I A Ld
+Rider 5 5 4 4 3 1 6 1 9
+Raptor 7 3 - 4 4 1 2 2 5 Cavalry 25x50mm base
+We
+apon:
+Lance
+Armour:
+Mount’s Protection (5+), Heavy Armour, Shield
+Elves Special Rules:
+Killer Instinct (Knight only),
+Lightning Reflexes (Knight only)
+Sp
+ecial Rules:
+Stupidity
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard bearer 10
+- may take a Magic Standard up to 50
+15
+Raptor Chariot ​ 100 pts
+single model
+M WS BS S T W I A Ld
+Chariot - - - 5 5 4 - - -
+Crew (2) - 5 4 4 - - 6 1 9
+Raptor (2) 7 3 - 4 - - 2 2 5 Chariot 50x100mm base
+We
+apon:
+Lance, Repeater Crossbow
+Armour:
+Mount’s Protection (5+), Heavy Armour
+Elves Special Rules:
+Killer Instinct (Crew only), Lightning Reflexes (Crew only)
+Sp
+ecial Rules:
+Scythes, Stupidity
+Hunting Chariot ​ 100 pts
+single model
+M WS BS S T W I A Ld
+Chariot - - - 5 4 4 - - -
+Crew (2) - 4 5 3 - - 5 1 8
+Elven Horse (2) 9 3 - 3 - - 4 1 3 Chariot 50x100mm base
+We
+apon:
+Light Lance, Repeater Crossbow
+Armour:
+Mount’s Protection (5+), Light Armour
+Elves Special Rules:
+Killer Instinct (Crew only), Lightning Reflexes (Crew only)
+Sp
+ecial Rules:
+Scythes
+Must take a one of the following:
+Giant Bow
+This is a Bolt Thrower Artillery Weapon​ with
+Range 24”, Strength 5, Armour Piercing (6), and Multiple
+Wounds (D3).
+Harpoon Launcher
+This is a Ranged Weapon with
+Range 24", Strength 7, Cumbersome, Multiple Wounds
+(D3).
+16
+Dread Reaper ​ 60 pts
+single model
+M WS BS S T W I A Ld
+Bolt Thrower - - - - 7 2 - - -
+Crew (2) 5 4 4 3 3 - 5 1 8 War Machine 60mm round base
+We
+apon:
+Elven Bolt Thrower:
+This is a Bolt Thrower Artillery Weapon ​ with
+Range 48", Strength 6, Multiple Wounds (D3),
+Armour Piercing (6).
+Armour:
+Light Armour
+Elves Special Rules:
+Killer Instinct (Crew only),
+Lightning Reflexes (Crew only)
+Options: pts
+May purchase Repeating Shot 15
+Repeating Shot: ​ The Elven Bolt Thrower may also fire as a
+Volley Gun Artillery Weapon​ with
+Range 48", Strength 4, Armour Piercing (1), Multiple Shots
+(6).
+17
+RA
+RE
+Kraken ​ 175 pts
+single model
+M WS BS S T W I A Ld
+6 4 1 7 5 5 3 4 6 Monster 50x100mm base
+Armour:
+Innate Defence (4+)
+Sp
+ecial Rules:
+Poisoned Attacks, Multiple Wounds (D3),
+Strider (Water)
+Options: pts
+May become Alpha Predator 25
+Hydra ​ 180 pts
+single model
+M WS BS S T W I A Ld
+6 4 1 5 5 5 2 7 6 Monster 50x100mm base
+Armour:
+Innate Defence (4+)
+Sp
+ecial Rules:
+Regeneration (4+)
+Options: pts
+May become Alpha Predator 25
+Breath Weapon (Strength 4, Flaming Attacks) 30
+Dark Acolytes ​ 120 pts
+5 ​ models, may add up to 5 ​ models 24 pts/model
+M WS BS S T W I A Ld
+Rider 5 4 4 4 3 1 5 2 8
+Elven Horse 9 3 - 3 3 1 4 1 3 Cavalry 25x50mm base
+Elves Special Rules:
+Killer Instinct (Rider only),
+Lightning Reflexes (Rider only)
+Sp
+ecial Rules:
+Free Reform, Ward Save (4+), Poisoned Attacks
+(Rider only)
+Options: pts
+May upgrade one model to a champion 70
+May take Poison Dart 1 / model
+Magic:
+Wizard Conclave​ (Curse of Mortality, Bolt of Darkness)
+If the unit is upgraded to Chosen of Yema, Wizard Conclave
+instead gives (Crippling Agony, Wicked Lash)
+Poison Dart: ​ Range 12”, Strength 3, Poisoned Attacks, Quick
+to Fire
+18
+Medusas ​ 120 pts
+2 ​ models, may add up to 3 ​ models 60 pts/model
+M WS BS S T W I A Ld
+6 5 5 5 4 3 5 4 8 Monstrous Infantry 40x40mm base
+Alignment:
+Cult Alignment (Yema​ )
+We
+apon:
+Petrifying Stare
+Elves Special Rules:
+Killer Instinct
+Sp
+ecial Rules:
+Distracting, Armour Piercing (1), Swiftstrider,
+Skirmishers, Aura of Despair, Fear
+Options: pts
+May upgrade one model to a champion 15
+19
+Divine Altar ​ 200 pts
+single model
+M WS BS S T W I A Ld
+Wagon - - - 5 6 5 - - -
+Disciples of Nabh (3) - 5 4 3 - - 5 1 8
+Disciples of Yema (2) - 4 4 3 - - 5 1 8
+Cult of Yema Medusa (1) - 5 5 5 - - 5 4 8
+Will of the Gods 8 - - - - - - - - Chariot 60x100mm base
+Armour:
+Mount’s Protection (6+), Light Armour
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes (Crew only)
+Sp
+ecial Rules:
+Scythes, War Platform, Large Target, Fear, Ward Save (4+), Divine Blessing
+A Divine Altar must take one of the Alignments listed below, gaining the corresponding equipment, special rules and
+Charioteers.
+Altar of Nabh
+Alignment:
+Cult Alignment (Nabh​ )
+Cult Chosen (Nabh​ )
+We
+apon:
+Additional Hand Weapon (Disciples of Nabh)
+Sp
+ecial Rules:
+Magic Resistance(1), Devastating Charge (Disciples of
+Nabh only), Poisoned Attacks (Disciples of Nabh only)
+Altar of Yema
+Alignment:
+Cult Alignment (Yema​ )
+Cult Chosen (Yema​ )
+We
+apon:
+Lance (Disciples of Yema only), Petrifying Stare
+(Medusa only)
+Sp
+ecial Rules:
+Aura of Despair
+20
+MOUNTS
+The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
+Elven Horse
+M WS BS S T W I A Ld
+9 3 - 3 3 1 4 1 3 War Beast 25x50mm base
+Armour:
+Mount’s Protection (6+)
+Options: pts
+May take Mount’s Protection (5+) 10
+Raptor
+M WS BS S T W I A Ld
+7 3 - 4 4 1 2 2 5 War Beast 25x50mm base
+Armour:
+Mount’s Protection (5+)
+Sp
+ecial Rules:
+Stupidity
+Pegasus
+M WS BS S T W I A Ld
+7 4 - 4 4 3 4 2 6 Monstrous Beast 40x40mm base
+Armour:
+Mount’s Protection (6+)
+Sp
+ecial Rules:
+Fly (8)
+Options: pts
+May take Thunderous Charge 10
+Manticore
+M WS BS S T W I A Ld
+6 5 - 5 5 4 5 3 5 Monstrous Beast 50x100mm base
+Sp
+ecial Rules:
+Fly (8), Large Target, Fear, Lethal Strike, Frenzy,
+Multiple Wounds (D3)
+Options: pts
+Alpha Predator (Beast Master’s mount only) 20
+21
+Raptor Chariot
+M WS BS S T W I A Ld
+Chariot - - - 5 5 4 - - -
+Crew (2) - 5 4 4 - - 6 1 9
+Raptor (2) 7 3 - 4 - - 2 2 5 Chariot 50x100mm base
+We
+apon:
+Lance, Repeater Crossbow
+Armour:
+Mount’s Protection (5+), Heavy Armour
+Elves Special Rules:
+Killer Instinct (Crew only), Lightning Reflexes (Crew only)
+Sp
+ecial Rules:
+Scythes, Stupidity
+Hunting Chariot
+M WS BS S T W I A Ld
+Chariot - - - 5 4 4 - - -
+Crew (2) - 4 5 3 - - 5 1 8
+Elven Horse (2) 9 3 - 3 - - 4 1 3 Chariot 50x100mm base
+We
+apon:
+Light Lance, Repeater Crossbow
+Armour:
+Mount’s Protection (6+), Light Armour
+Elves Special Rules:
+Killer Instinct (Crew only), Lightning Reflexes (Crew only)
+Sp
+ecial Rules:
+Scythes
+Must take one of the following:
+Giant Bow
+This is a Bolt Thrower Artillery Weapon​ with
+Range 24”, Strength 5, Armour Piercing (6), and Multiple
+Wounds (D3).
+Harpoon Launcher
+This is a Ranged Weapon with Range 24", Strength 7,
+Cumbersome, Multiple Wounds (D3).
+22
+Divine Altar
+single model
+M WS BS S T W I A Ld
+Wagon - - - 5 6 5 - - -
+Disciples of Nabh (3) - 5 4 3 - - 5 1 8
+Disciples of Yema (2) - 4 4 3 - - 5 1 8
+Cult of Yema Medusa (1) - 5 5 5 - - 5 4 8
+Will of the Gods 8 - - - - - - - - Chariot 60x100mm base
+Armour:
+Mount’s Protection (6+), Light Armour
+Elves Special Rules:
+Killer Instinct, Lightning Reflexes (Crew only)
+Sp
+ecial Rules:
+Scythes, Large Target, Fear, Ward Save (4+), Divine Blessing
+A Divine Altar must take one of the Alignments listed below which must be the same as its rider. The model gains the
+corresponding equipment, special rules and Charioteers.
+Altar of Nabh
+Alignment:
+Cult Alignment (Nabh​ )
+Cult Chosen (Nabh​ )
+We
+apon:
+Additional Hand Weapon (Disciples of Nabh)
+Sp
+ecial Rules:
+Magic Resistance(1), Devastating Charge (Disciples of
+Nabh only), Poisoned Attacks (Disciples of Nabh only)
+Altar of Yema
+Alignment:
+Cult Alignment (Yema​ )
+Cult Chosen (Yema​ )
+We
+apon:
+Lance (Disciples of Yema only), Petrifying Stare
+(Medusa only)
+Sp
+ecial Rules:
+Aura of Despair
+Dragon (One of a Kind)
+M WS BS S T W I A Ld
+6 5 1 6 6 6 3 5 9 Monster 50x100mm base
+Armour:
+Innate Defence (3+)
+Sp
+ecial Rules:
+Breath Weapon (Strength 4, Flaming Attacks),
+Fly (7)
+Options: pts
+Alpha Predator (Beast Master’s mount only) 35
+23
+Quick Reference Sheet
+L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
+CHARACTERS M WS BS S T W I A Ld
+L Dread Prince 5 7 7 4 3 3 8 4 10
+Exalted Oracle 5 4 4 3 3 3 5 1 9
+Cult High Priest 5 7 6 4 3 3 8 4 9
+H Captain 5 6 6 4 3 2 6 3 9
+Oracle 5 4 4 3 3 2 5 1 8
+Cult Priest 5 6 5 4 3 2 7 3 9
+Assassin 5 7 6 4 3 2 9 3 9
+INFANTRY
+C Dread Legionnaire 5 4 4 3 3 1 5 1 8
+Repeater Auxiliary 5 4 4 3 3 1 5 1 8
+Corsair 5 4 4 3 3 1 5 1 8
+S Blade of Nabh 5 5 4 3 3 1 5 1 8
+S Dancer of Yema 5 5 4 3 3 1 5 1 8
+Raven Cloak 5 5 5 3 3 1 5 1 8
+Tower Guard 5 5 4 3 3 1 6 2 9
+Executioner 5 5 4 4 3 1 5 1 9
+Harpy 5 3 - 3 3 1 5 2 6
+MONSTROUS INFANTRY
+R Medusa 6 5 5 5 4 3 5 4 8
+WA
+R BEASTS
+M Elven Horse 9 3 - 3 3 1 4 1 3
+Raptor 7 3 - 4 4 1 2 2 5
+MONSTROUS BEASTS
+M Pegasus 7 4 - 4 4 3 4 2 6
+Manticore 6 5 - 5 5 4 5 3 5
+CAVALRY M WS BS S T W I A Ld
+C Dark Raider 5 4 4 3 3 1 5 1 8
+Elven Horse 9 3 - 3 3 1 4 1 3
+S Dread Knight - 5 4 4 3 1 6 1 9
+Raptor 7 3 - 4 4 1 2 2 5
+R Dark Acolyte - 4 4 4 3 1 5 2 8
+Elven Horse 9 3 - 3 3 1 4 1 3
+CHARIOTS
+S Raptor Chariot 7 - - 5 5 4 - - -
+- Crew (2) - 5 4 4 - - 6 1 9
+- Raptor (2) 7 3 0 4 4 1 2 2 5
+Hunting Chariot 9 - - 5 4 4 - - -
+- Crew (2) - 4 5 3 - - 5 1 8
+- Elven Horse (2) 9 3 - 3 3 1 4 1 3
+R Altar of Nabh 8 - - 5 6 5 - - -
+- Disciples of Nabh (3) - 5 4 3 - - 5 2 8
+Altar of Yema 8 - - 5 6 5 - - -
+- Disciples of Yema (2) - 4 4 3 - - 5 1 8
+- Medusa (1) - 5 5 5 - - 5 4 8
+MONSTERS
+R Kraken 6 4 1 7 5 5 3 4 6
+Hydra 6 4 1 5 5 5 2 7 6
+M Dragon 6 5 1 6 6 6 3 5 9
+WA
+R MACHINES
+S Dread Reaper - - - - 7 2 - - -
+- Crew (2) 5 4 4 3 3 - 5 1 8
+SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
+- common - Repeater Crossbow - 24 3 2 - 1
+Medusa Petrifying Stare - 12 4 2 - 6
+Dread Reaper Elven Bolt Thrower Bolt Thrower 48 6 - D3 6
+- Repeating Shot Volley Gun 48 4 6 - 1
+Hunting Chariot Giant Bow Bolt Thrower 24 5 - D3 6
+Harpoon Thrower - 24 7 - D3 1
