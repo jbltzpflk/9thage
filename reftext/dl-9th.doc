@@ -365,15 +365,10 @@ Mounted Sirens 85 pts
 M WS BS S T W I A Ld
 Rider 6 5 4 3 3 1 5 2 7
 Steed of Lust 10 3 - 3 3 1 5 1 7 Cavalry 25x50mm base
-Alliance:
-Daemonic Mark (Lust)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Fast Cavalry, Poisoned Attacks (Steed of Lust only)
+Alliance: Daemonic Mark (Lust)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Fast Cavalry, Poisoned Attacks (Steed of Lust only)
 Options: pts
 May take (one choice only)
 Barbed Claws 2 / model
@@ -384,108 +379,79 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 25
+
 Siren Chariot 95 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 5 4 4 - - -
 Mounted Siren (2) - 5 4 3 - - 5 2 7
 Steed of Lust (2) 10 3 - 3 - - 5 1 7 Chariot 50x100mm base
-Alliance:
-Daemonic Mark (Lust)
-Armour:
-Mount's Protection (6+)
-We
-apons:
-Barbed Claws (Mounted Sirens only)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Scythes, Poisoned Attacks (Steed of Lust only)
+Alliance: Daemonic Mark (Lust)
+Armour: Mount's Protection (6+)
+Weapons: Barbed Claws (Mounted Sirens only)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Scythes, Poisoned Attacks (Steed of Lust only)
 Options: pts
 May take a minor Aspect(Monotheist Army only) 5
 Clawed Fiends 100 pts
 2  models, may add up to 4  models 50 pts / model
 M WS BS S T W I A Ld
 10 5 - 4 4 3 5 3 7 Monstrous Beast 40x40mm base
-Alliance:
-Daemonic Mark (Lust)
-Daemon Special Rules:
-Otherworldly, Daemonic Instability
-Sp
-ecial Rules:
-Fear
+Alliance: Daemonic Mark (Lust)
+Daemon Special Rules: Otherworldly, Daemonic Instability
+Special Rules: Fear
 Options: pts
 May take a weapons (one choice only)
 Additional hand weapons 5 / model
 Barbed Claws 8 / model
 May take a minor Aspect (Monotheist Army only) 4 / model
-16
+
 Pestilent Beasts 140 pts
 2  models, may add up to 4  models 70 pts/model
 M WS BS S T W I A Ld
 6 3 - 4 5 4 2 4 7 Monstrous Beast 40x40mm base
-Alliance:
-Daemonic Mark (Pestilence)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Fear, Poisoned Attacks, Regeneration (4+), Trail of
-Mucus
+Alliance: Daemonic Mark (Pestilence)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Fear, Poisoned Attacks, Regeneration (4+), Trail of Mucus
 Options:
 May take a minor Aspect(Monotheist Army only) 5 / model
+
 Plaguelings 70 pts
 2  models, may add up to 8  models 30 pts/model
 M WS BS S T W I A Ld
 5 3 3 2 2 5 3 4 7 Swarm 40x40mm base
-Alliance:
-Daemonic Mark (Pestilence)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Scouts, Poisoned Attacks
+Alliance: Daemonic Mark (Pestilence)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Scouts, Poisoned Attacks
 Options:
 May take a minor Aspect(Monotheist Army only) 3 / model
 Slime Explosion:  In close combat, after all attacks have been made, choose a unit that has inflicted a wound on a model
 of a Plaguelings unit this phase. That unit suffers D3 hits for each Plaguelings model removed from play during this
 close combat phase. These hits have the Toxic Attack special rule.
-17
+
 Hellhounds  130 pts
 5  models, may add up to 10  models 23 pts/model
 M WS BS S T W I A Ld
 8 5 - 4 4 2 4 2 7 War Beast 25x50mm base
-Alliance:
-Daemonic Mark (Wrath)
-Armour:
-Innate Defence (6+)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Magic Resistance (3)
+Alliance: Daemonic Mark (Wrath)
+Armour: Innate Defence (6+)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Magic Resistance (3)
 Options: pts
 May gain Ambush 20
 May gain Innate Defence (4+) 6 / model
 May take a minor Aspect(Monotheist Army only) 3 / model
+
 Crusher Cavalry 170 pts
 3  models, may add up to 3  models 60 pts/model
 M WS BS S T W I A Ld
 Rider 5 5 2 4 3 1 4 2 7
 Crusher 7 5 - 5 4 3 2 3 7 Monstrous Cavalry 50x75mm base
-Alliance:
-Daemonic Mark (Wrath)
-We
-apons:
-Blood Swords (Riders only)
-Armour:
-Mount's Protection (6+), Innate Defence (6+)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Fear, Magic Resistance (1)
+Alliance: Daemonic Mark (Wrath)
+Weapons: Blood Swords (Riders only)
+Armour: Mount's Protection (6+), Innate Defence (6+)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Fear, Magic Resistance (1)
 Options: pts
 May gain Innate Defence (4+) 20 / model
 May replace Blood Swords with Hell Blades 3 / model
@@ -495,49 +461,34 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
+
 Furies  70 pts
 5  models, may add up to 10  models 10 pts/model
 M WS BS S T W I A Ld
 4 3 - 4 3 1 4 1 7 Infantry 25x25mm base
-Alliance:
-Daemonic Mark (True Chaos)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly,
-Sp
-ecial Rules:
-Fly (10), Skirmishers
+Alliance: Daemonic Mark (True Chaos)
+Daemon Special Rules: Daemonic Instability, Otherworldly,
+Special Rules: Fly (10), Skirmishers
 Options: pts
 May replace True Chaos
 with another Daemonic Mark 2 / model
-18
-RA
-RE
+
+RARE
 Blazing Chariot  135 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 4 4 4 - - -
 Exalted Igniter (1) - 4 4 4 - - 4 3 7
 Sky Serpent (2) 1 3 - 4 - - 4 3 7 Chariot 50x100mm base
-Alliance:
-Daemonic Mark (Change)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Fly (9)
+Alliance: Daemonic Mark (Change)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Fly (9)
 Options: pts
 May take a minor Aspect (Monotheist Army only) 10
-We
-apons:
-Searing Firestorm :  This weapon can be fired in two ways;
-- As a Bolt Thrower Artillery Weapon  with
-Range 36", Strength 4+D3*, Multiple Wounds (D3), Armour Piercing (6)
-- As a Volley Gun Artillery Weapon with
-Range 30", Multiple Shots(6), Strength 2+D3*
+Weapons: Searing Firestorm :  This weapon can be fired in two ways; - As a Bolt Thrower Artillery Weapon  with Range 36", Strength 4+D3*, Multiple Wounds (D3), Armour Piercing (6) - As a Volley Gun Artillery Weapon with Range 30", Multiple Shots(6), Strength 2+D3*
 *Roll once per shooting phase (after hits have been scored) and apply this strength for all shots
-19
+
 Shrine of Temptation  210 pts
 single model
 M WS BS S T W I A Ld
@@ -545,24 +496,17 @@ Chariot - - - 5 4 8 - - -
 Temptress (1) - 5 5 3 - - 5 4 7
 Mounted Siren (3) - 5 4 3 - - 5 2 7
 Steed of Lust (4) 10 3 - 3 - - 5 1 7 Chariot 100x150mm base
-Alliance:
-Daemonic Mark (Lust)
-We
-apons:
-Barbed Claws (Mounted Siren and Temptress only)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Impact Hits (2D6), Scythes, Poisoned Attacks
-(Steed of Lust only)
+Alliance: Daemonic Mark (Lust)
+Weapons: Barbed Claws (Mounted Siren and Temptress only)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Impact Hits (2D6), Scythes, Poisoned Attacks (Steed of Lust only)
 Options: pts
 Temptress may take a Lash of Lust 20
 May take a minor Aspect (Monotheist Army only) 15
 Aura of Esctasy :  All friendly models with the Mark of Lust in the same close combat as the model with this rule
 (including itself) gain Lightning Reflexes.
+
 Carnal Chariot 110 pts
 single model
 M WS BS S T W I A Ld
@@ -570,37 +514,25 @@ Chariot - - - 4 4 4 - - -
 Oracle(1) - 5 4 3 - - 5 4 7
 Mounted Siren (2) - 5 4 3 - - 5 2 7
 Steed of Lust (2) 10 3 - 3 - - 5 1 7 Chariot 100x50mm base
-Alliance:
-Daemonic mark (Lust)
-We
-apons:
-Barbed Claws (Mounted Sirens and Oracle only)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Scythes, Poisoned Attacks (Steed of Lust only),
+Alliance: Daemonic mark (Lust)
+Weapons: Barbed Claws (Mounted Sirens and Oracle only)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Scythes, Poisoned Attacks (Steed of Lust only),
 Options:
 May take a minor Aspect (Monotheist Army only) 10 / model
 Soulreaper:  The Impact Hits inflicted by a Carnal Chariot gain Armour Piercing (6) and the Oracle gets +1 Attack for
 each unsaved wound caused by the chariot's Impact Hits. These attacks are lost at the end of the phase.
-20
+
 Blight Flies  185 pts
 3  models, may add up to 3  models 65 pts/model
 M WS BS S T W I A Ld
 Rider 4 3 4 4 4 1 2 1 7
 Blight Fly 1 4 - 5 5 3 2 3 - Monstrous Cavalry 50x75mm base
-Alliance:
-Daemonic Mark (Pestilence)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Fear, Poisoned Attacks, Fly (6), Hard Target
+Alliance: Daemonic Mark (Pestilence)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Fear, Poisoned Attacks, Fly (6), Hard Target
 Options: pts
 May take a minor Aspect (Monotheist Army only) 5 / model
 May upgrade one model to each of the following:
@@ -608,38 +540,24 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 25
+
 Blood Chariot  165 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 5 5 4 - - -
 Slaughterer (2) - 5 3 4 - - 4 1 7
 Crusher (1) 7 5 - 5 - - 2 3 7 Chariot 50x100mm base
-Alliance:
-Daemonic Mark (Wrath)
-We
-apons:
-Blood Swords (Slaughterers only)
-Armour:
-Mount's Protection (6+), Innate Defence (4+)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Magic Resistance (1), Scythes
+Alliance: Daemonic Mark (Wrath)
+Weapons: Blood Swords (Slaughterers only)
+Armour: Mount's Protection (6+), Innate Defence (4+)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Magic Resistance (1), Scythes
 Options: pts
 May take a minor Aspect (Monotheist Army only) 10
 Must chose one artillery weapon
-Incinerator  (free)
-Model equipped with an Inferno gain Fireborn. This is a
-Flame Thrower Artillery Weapon with
-Range 8", Strength 5, Multiple Wounds (D3), Flaming
-Attacks.
-Brass Cannon  (free)
-May only be taken if General has the Mark of Wrath
-This is a Cannon (D6") Artillery Weapon with
-Range 48", Strength 10, Armour Piercing (2), Multiple
-Wounds (Ordnance), Flaming Attacks
-21
+Incinerator  (free): Model equipped with an Inferno gain Fireborn. This is a Flame Thrower Artillery Weapon with Range 8", Strength 5, Multiple Wounds (D3), Flaming Attacks.
+Brass Cannon  (free): May only be taken if General has the Mark of Wrath This is a Cannon (D6") Artillery Weapon with Range 48", Strength 10, Armour Piercing (2), Multiple Wounds (Ordnance), Flaming Attacks
+
 Altar of Slaughter  195 pts
 single model
 M WS BS S T W I A Ld
@@ -647,43 +565,26 @@ Altar of Blood - - - 5 6 4 - - -
 Doombringer (1) - 5 3 4 - - 4 2 7
 Slaughterer (2) - 5 3 4 - - 4 1 7
 Crusher (1) 7 5 - 5 - - 2 3 7 Chariot 50x100mm base
-Alliance:
-Daemonic Mark (Wrath)
-We
-apons:
-Blood Swords (Doombringer and Slaughterers
-only)
-Armour:
-Mount's Protection (6+), Innate Defence (4+)
-Daemon Special Rules:
-Otherworldly, Daemonic Instability
-Sp
-ecial Rules:
-Magic Resistance (2), Scythes
+Alliance: Daemonic Mark (Wrath)
+Weapons: Blood Swords (Doombringer and Slaughterers only)
+Armour: Mount's Protection (6+), Innate Defence (4+)
+Daemon Special Rules: Otherworldly, Daemonic Instability
+Special Rules: Magic Resistance (2), Scythes
 Options: pts
 In a Monotheist Army may take a minor Aspect 15
-Blood Feast:  At the end of the Initiative step in which an Altar of Slaughter inflicted the first unsaved wound during a
-battle, all units with the Mark of Wrath within 12" gain Frenzy.
-22
+Blood Feast:  At the end of the Initiative step in which an Altar of Slaughter inflicted the first unsaved wound during a battle, all units with the Mark of Wrath within 12" gain Frenzy.
+
 Daemon Engine  220 pts
 single model
 M WS BS S T W I A Ld
 8 3 4 6 7 6 3 4 7 Monster 150x100mm base
-Alliance:
-Daemonic Mark (True Chaos)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-We
-apon:
-Hellish Reaper (see below)
-Armour:
-Innate Defence (4+)
-Sp
-ecial Rules:
-Crush Attack
+Alliance: Daemonic Mark (True Chaos)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Weapon: Hellish Reaper (see below)
+Armour: Innate Defence (4+)
+Special Rules: Crush Attack
 Options: pts
-May replace True Chaos
-with another Daemonic Mark 10
+May replace True Chaos with another Daemonic Mark 10
 May take Poison Attacks (Pestilence only) 5
 May take Additional Hand Weapons 10
 May upgrade Hellish Reaper to one of the following:
@@ -691,123 +592,75 @@ Hellish Breath 40
 Hellish Bombard 40
 Hellish Bolt 35
 Must take one of the following:
-Hellish Reaper  (free)
-This is a Volley Gun Artillery Weapon  with
-Range 12", Strength 4, Armour Piercing (3),
-Multiple Shots (2D6)
-Hellish Breath  (40 pts)
-This a Flame Thrower Artillery Weapon with
-Range 8", Strength 5, Flaming Attacks. Ignore the -1
-modifier on misfire table
-Hellish Bombard  (40 pts)
-This is a Catapult (3") Artillery Weapon with
-Range 12-60", Strength 3[9], [Multiple Wounds
-(Ordnance)]
-Hellish Bolt  (35 pts)
-This is a Bolt Thrower Artillery Weapon with
-Range: 48 Strength: 6, Multiple Wounds (D3), Armour
-Piercing (6)
-23
+Hellish Reaper  (free): This is a Volley Gun Artillery Weapon  with Range 12", Strength 4, Armour Piercing (3), Multiple Shots (2D6)
+Hellish Breath  (40 pts): This a Flame Thrower Artillery Weapon with Range 8", Strength 5, Flaming Attacks. Ignore the -1 modifier on misfire table
+Hellish Bombard  (40 pts): This is a Catapult (3") Artillery Weapon with Range 12-60", Strength 3[9], [Multiple Wounds (Ordnance)]
+Hellish Bolt  (35 pts): This is a Bolt Thrower Artillery Weapon with Range: 48 Strength: 6, Multiple Wounds (D3), Armour Piercing (6)
+
 MOUNTS
 The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
+
 Disc of Change
 M WS BS S T W I A Ld
 1 3 - 4 4 1 4 3 7 War Beast 50x50mm base
-Alliance:
-Daemonic Mark (Change)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Otherworldly
-Sp
-ecial Rules:
-Fly (9)
+Alliance: Daemonic Mark (Change)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Otherworldly
+Special Rules: Fly (9)
+
 Blazing Chariot
 M WS BS S T W I A Ld
 Chariot - - - 4 4 4 - - -
 Sky Serpent (2) 1 3 - 4 - - 4 3 7 Chariot 50x100mm base
-Alliance:
-Daemonic Mark (Change)
-Armour:
-Mount's Protection (6+)
-We
-apons:
-Searing Firestorm (see Blazing Chariot entry in
-rare section)
-Daemon Special Rules:
-Otherworldly, Daemonic Instability
-Sp
-ecial Rules:
-Fly (9)
-24
+Alliance: Daemonic Mark (Change)
+Armour: Mount's Protection (6+)
+Weapons: Searing Firestorm (see Blazing Chariot entry in rare section)
+Daemon Special Rules: Otherworldly, Daemonic Instability
+Special Rules: Fly (9)
+
 Steed of Lust
 M WS BS S T W I A Ld
 10 3 - 3 3 1 5 1 7 War Beast 25x50mm base
-Alliance:
-Daemonic Mark (Lust)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Otherworldly
-Sp
-ecial Rules:
-Fast Cavalry, Elusive, Poisoned Attacks
+Alliance: Daemonic Mark (Lust)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Otherworldly
+Special Rules: Fast Cavalry, Elusive, Poisoned Attacks
+
 Siren Chariot
 M WS BS S T W I A Ld
 Chariot - - - 5 4 4 - - -
 Mounted Siren (1) - 5 4 3 - - 5 2 7
 Steed of Lust (2) 10 3 - 3 - - 5 1 7 Chariot 50x100mm base
-Alliance:
-Daemonic Mark (Lust)
-Armour:
-Mount's Protection (6+)
-We
-apons:
-Barbed Claws (Mounted Siren only)
-Daemon Special Rules:
-Daemonic Instability, Otherworldly
-Sp
-ecial Rules:
-Free Reform, Poisoned Attacks (Steed of Lust only),
-Scythes
-25
+Alliance: Daemonic Mark (Lust)
+Armour: Mount's Protection (6+)
+Weapons: Barbed Claws (Mounted Siren only)
+Daemon Special Rules: Daemonic Instability, Otherworldly
+Special Rules: Free Reform, Poisoned Attacks (Steed of Lust only), Scythes
+
 Pestilent Palanquin
 M WS BS S T W I A Ld
 4 3 3 3 3 3 3 6 7 Infantry 50x50mm base
-Alliance:
-Daemonic Mark (Pestilence)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Otherworldly
-Sp
-ecial Rules:
-Poisoned Attacks
+Alliance: Daemonic Mark (Pestilence)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Otherworldly
+Special Rules: Poisoned Attacks
+
 Blight Fly
 M WS BS S T W I A Ld
 1 4 3 5 5 3 2 3 7 Monstrous Beast 50x75mm base
-Alliance:
-Daemonic Mark (Pestilence)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Otherworldly, Daemonic Instability
-Sp
-ecial Rules:
-Fear, Fly (6), Poisoned Attacks, Hard Target
+Alliance: Daemonic Mark (Pestilence)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Otherworldly, Daemonic Instability
+Special Rules: Fear, Fly (6), Poisoned Attacks, Hard Target
+
 Crusher
 M WS BS S T W I A Ld
 7 5 - 5 4 3 4 3 7 Monstrous Beast 50x75mm base
-Alliance:
-Daemonic Mark (Wrath)
-Armour:
-Mount's Protection (6+)
-Daemon Special Rules:
-Otherworldly
-Sp
-ecial Rules:
-Fear
-26
+Alliance: Daemonic Mark (Wrath)
+Armour: Mount's Protection (6+)
+Daemon Special Rules: Otherworldly
+Special Rules: Fear
+
 Quick Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 CHARACTERS M WS BS S T W I A Ld
@@ -828,8 +681,7 @@ Slaughterer 5 5 2 4 3 1 4 1 7
 S Igniter 6 3 4 3 3 2 4 2 7
 Furie 4 3 - 4 3 1 4 1 7
 M Palanquin 4 3 3 3 3 3 3 6 7
-WA
-R BEASTS M WS BS S T W I A Ld
+WAR BEASTS M WS BS S T W I A Ld
 S Sky Serpent 1 3 - 4 4 2 4 3 7
 Hellhound 8 5 - 4 4 2 4 2 7
 M Disc of change 1 3 - 4 4 1 4 3 7
@@ -851,24 +703,18 @@ R Blight Fly Rider 4 3 4 4 4 1 2 1 7
 - Blight Fly 1 4 3 5 5 3 2 3 7
 CHARIOTS M WS BS S T W I A Ld
 S Siren Chariot - - - 5 4 4 - - -
-- Mounted Siren
-(2)[1]
-- 5 4 3 - - 5 2 7
+- Mounted Siren (2)[1] - 5 4 3 - - 5 2 7
 - Steed of Lust (2) 10 3 - 3 - - 5 1 -
 R Blazing Chariot - - - 4 4 4 - - -
 - Ignitier (1) - 4 4 4 - - 4 3 7
 - Sky Serpent (2) 1 3 0 4 - - 4 3 7
 Shrine of Temptation - - - 4 4 8 - - -
 - Temptress (1)[0] - 5 5 3 - - 5 4 7
-- Mounted Siren
-(3)
-- 5 4 3 - - 5 2 7
+- Mounted Siren (3) - 5 4 3 - - 5 2 7
 - Steed of Lust (4) 10 3 - 3 - - 5 1 -
 Carnal Chariot - - - 4 4 4 - * -
 - Oracle (1) - 5 4 3 - - 5 * 7
-- Mounted Siren
-(2)
-- 5 4 3 - - 5 2 7
+- Mounted Siren (2) - 5 4 3 - - 5 2 7
 - Steed of Lust (2) 10 3 - 3 - - 5 1 -
 Blood Chariot - - - 5 5 4 - - -
 - Slaughterer (2) - 5 3 4 - - 4 1 7
@@ -881,40 +727,43 @@ Altar of Slaughter - - - 5 6 4 - - -
 [1] - number of crew members when taken as a mount
 MONSTERS M WS BS S T W I A Ld
 R Daemon Engine 8 3 4 6 7 6 3 4 7
-27
+
 Monotheist's Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 (2)- crew members when taken as a separate unit
 [1] - crew members when taken as a mount
+
 CHANGE M WS BS S T W I A Ld
 L Weaver of Change 8 6 6 6 6 6 6 5 9
 H Harbinger of Change 4 3 4 3 3 2 3 2 8
 C Horror 4 3 3 3 3 1 3 1 7
 S Igniter 6 3 4 4 3 2 4 2 7
-Sky Serpent 1 3 - 4 4 2 4 3 7
+S Sky Serpent 1 3 - 4 4 2 4 3 7
 R Blazing Chariot - - - 4 4 4 - - -
 - Ignitier (1) - 4 4 4 - - 4 3 7
 - Sky Serpent (2) 1 3 - 4 - - 4 3 7
 M Disc of change 1 3 - 4 4 1 4 3 7
+
 LUST M WS BS S T W I A Ld
 L Prince of Lust 10 9 6 6 6 6 10 6 9
 H Harbinger of Lust 6 7 5 4 3 2 7 4 8
 C Siren 6 5 4 3 3 1 5 1 7
 S Clawed Fiend 10 5 - 4 4 3 5 3 7
-Mounted Siren - 5 4 3 3 1 5 2 7
+S Mounted Siren - 5 4 3 3 1 5 2 7
 - Steed of Lust 10 3 - 3 - - 5 1 -
-Siren Chariot - - - 5 4 4 - - -
+S Siren Chariot - - - 5 4 4 - - -
 - Mounted Siren (2)[1] - 5 4 3 - - 5 2 7
 - Steed of Lust (2) 10 3 - 3 - - 5 1 -
 R Shrine of Temptation - - - 4 4 8 - - -
 - Temptress (1)[0] - 5 5 3 - - 5 4 7
 - Mounted Siren (3) - 5 4 3 - - 5 2 7
 - Steed of Lust (4) 10 3 - 3 - - 5 1 -
-Carnal Chariot - - - 4 4 4 - * -
+R Carnal Chariot - - - 4 4 4 - * -
 - Oracle (1) - 5 4 3 - - 5 * 7
 - Mounted Siren (2) - 5 4 3 - - 5 2 7
 - Steed of Lust (2) 10 3 - 3 - - 5 1 -
 M Steed of Lust 10 3 - 3 3 1 5 1 7
+
 PESTILENCE M WS BS S T W I A Ld
 L Father of Pestilence 6 6 3 6 7 7 4 5 9
 H Harbinger of Pestilence 4 5 5 5 5 2 4 3 8
@@ -925,26 +774,28 @@ R Blight Fly Rider 4 3 4 4 4 1 2 1 7
 - Blight Fly 1 4 3 5 5 3 2 3 7
 M Pestilent Palanquin 4 3 3 3 3 3 3 6 7
 Blight Fly 1 4 3 5 5 3 2 3 7
+
 WRATH M WS BS S T W I A Ld
 L Scourge of Wrath 8 10 10 6 6 6 9 6 9
 H Harbinger of Wrath 5 7 2 5 4 2 6 3 8
 C Slaughterer 5 5 2 4 3 1 4 1 7
 S Hellhound 8 5 - 4 4 2 4 2 7
-Crusher Cavalry Rider 5 5 3 4 3 1 5 2 7
+S Crusher Cavalry Rider 5 5 3 4 3 1 5 2 7
 - Crusher 7 5 3 5 4 3 2 3 7
 R Blood Chariot - - - 5 5 4 - - -
 - Slaughterer(2) - 5 3 4 - - 4 1 7
 - Crusher(1) 7 5 - 5 - - 2 3 -
-Altar of Slaughter - - - 5 6 4 - - -
+R Altar of Slaughter - - - 5 6 4 - - -
 - Doombringer (1) - 5 3 4 - - 4 2 7
 - Slaughterer (2) - 5 3 4 - - 4 1 7
 - Crusher(1) 7 5 - 5 - - 2 3 -
 M Crusher 7 5 3 5 4 3 2 3 7
+
 TRUE CHAOS M WS BS S T W I A Ld
 L Daemon Prince 8 9 5 6 5 4 8 5 9
 S Furie 4 3 - 4 3 1 4 1 7
 R Daemon Engine 8 3 4 6 7 6 3 4 7
-28
+
 SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
 common Firebolts (normal) 24 3 - - -
 (if 3+ ranks) 18 4 - - -
