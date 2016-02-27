@@ -57,7 +57,6 @@ Amulet of Spite  (35 pts): The bearer gains Magic Resistance (2). If an enemy Wi
 Midnight Cloak (60 / 50 pts): The wearer gains Ward Save (3+), which can only be used against Ranged Attacks. The wearer gains Lethal Strike and Multiple Wounds (D3) in the first Combat Round after it charged into Close Combat.
 
 Enchanted Items
-Dragon's Blood Potion (50 pts): One use only. May be activated at the start of any Phase.  For the duration of the Player Turn, the bearer has Strength 6, Toughness 6 and Breath Weapon (Strength 4, Flaming Attacks).
 Ring of Shadows  (35 pts): The bearer's unit counts as being in Soft Cover. If it is already in Cover, it gains Hard Cover instead. Close Combat attacks made against the bearer's unit are made at -1 WS.
 
 Arcane Items
@@ -110,7 +109,7 @@ Elves Special Rules: Killer Instinct, Lightning Reflexes
 A Cult High Priest must take one of the Alignments listed below, granting additional special rules and options.
 May join the Cult of Nabh
 Alignment: Cult Alignment (Nabh), Cult Chosen (Nabh)
-Special Rules: Magic Resistance (1), Devastating Charge
+Special Rules: Devastating Charge
 Options: pts
 May take Magical Items up to 100
 May take any of the following:
@@ -192,7 +191,7 @@ Elves Special Rules: Killer Instinct, Lightning Reflexes
 A Cult Priest must take one of the Alignments listed below, granting additional special rules and options.
 Cult of Nabh
 Alignment: Cult Alignment (Nabh), Cult Chosen (Nabh)
-Special Rules: Magic Resistance(1), Devastating Charge
+Special Rules: Devastating Charge
 Options: pts
 May become Battle Standard Bearer 25
 May take Magical Items up to 50
@@ -237,9 +236,9 @@ Assassin  90 pts
 single model
 M WS BS S T W I A Ld
 Assassin 6 7 7 4 3 2 9 3 9 Infantry 20x20mm base
-Weapon: Additional Hand Weapon, Assassin Throwing Weapon: Range 12". Strength as user, Armour Piercing (1).  Quick to Fire. Multiple Shots (3). These attacks are affected by Master Poisoner.
+Weapon: Assassin Throwing Weapon: Range 12". Strength as user, Armour Piercing (1).  Quick to Fire. Multiple Shots (3). These attacks are affected by Master Poisoner.
 Elves Special Rules: Killer Instinct, Lightning Reflexes
-Special Rules: Scout, Ward Save (4+) (only in Close Combat), Armour Piercing (1), Poisoned Attacks, Not a Leader, Hidden
+Special Rules: Scout, Armour Piercing (1), Poisoned Attacks, Not a Leader, Hidden
 Options: pts
 May take Magical Items (Not Magical Armour) up to 50
 May join the Cult of Nabh 20
@@ -496,7 +495,7 @@ M WS BS S T W I A Ld
 Alignment: Cult Alignment (Yema)
 Weapon: Petrifying Stare
 Elves Special Rules: Killer Instinct
-Special Rules: Distracting, Armour Piercing (1), Swiftstrider, Skirmishers, Aura of Despair, Fear
+Special Rules: Distracting, Swiftstrider, Skirmishers, Aura of Despair, Fear
 Options: pts
 May upgrade one model to a champion 15
 
@@ -510,8 +509,7 @@ Cult of Yema Medusa (1) - 5 5 5 - - 5 4 8
 Will of the Gods 8 - - - - - - - - Chariot 60x100mm base
 Armour: Mount's Protection (6+), Light Armour
 Elves Special Rules: Killer Instinct, Lightning Reflexes (Crew only)
-Special Rules:
-Scythes, War Platform, Large Target, Fear, Ward Save (4+), Divine Blessing
+Special Rules: Scythes, Large Target, Fear, Ward Save (4+), Divine Blessing
 A Divine Altar must take one of the Alignments listed below, gaining the corresponding equipment, special rules and Charioteers.
 Altar of Nabh
 Alignment: Cult Alignment (Nabh), Cult Chosen (Nabh)
