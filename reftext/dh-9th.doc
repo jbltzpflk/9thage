@@ -1,294 +1,101 @@
 dh-9th.doc
 Fantasy Battles
 The 9th Age
-Dwarven Holds
-Army Rules
-Version 0.11.0 Beta
+Dwarven Holds Army Rules Version 0.11.0 Beta
 
 Fantasy Battles: The 9th Age is a community-made miniatures wargame.
 All relevant rules, as well as feedback and suggestions, can be found/given here:
 http://www.the-ninth-age.com/
-Rules changes between versions are colour coded in green. See change log at end of document.
+
 Army Wide Rules
-Hewn out of Mountains
-Dwarven Hold armies always count as having a Wizard’s Apprentice for the purpose of dispelling.
-Ancient Grudge
-Dwarven Hold armies have a number of Ancient Grudges which confers certain bonuses when attacking specific
-enemies. The total amount of Grudges held by a Dwarven Hold army is calculated in the following manner:
-- One Grudge​ for each Dwarf King in the army;
-- Additional D3 Grudges ​ for each Dwarf King mounted on the Throne of War;
-- One Additional Grudge​ when facing opponents who field units from the army books Orcs and Goblins or The Vermin
-Swarm.
-For each Grudge held by a Dwarven Hold army, the Player may choose one enemy model or unit to be the target of the
-Grudge. This choice is made after the Deployment Phase. All models in the Dwarven Hold army have Hatred against a
-begrudged enemy. If a Dwarven Hold unit already had Hatred it may also reroll failed to-wound rolls against the enemy
-in every first Round of combat.
-When an enemy unit is begrudged, any model which joins that unit also become subject to the Grudge for as long as it
-remains a part of the unit. However if a single model is begrudged and it joins a unit, the entire unit does not become
-subject to the grudge. No enemy unit may be targeted more than once by this rule.
+Hewn out of Mountains: Dwarven Hold armies always count as having a Wizard's Apprentice for the purpose of dispelling.
+Ancient Grudge: Dwarven Hold armies have a number of Ancient Grudges which confers certain bonuses when attacking specific enemies. The total amount of Grudges held by a Dwarven Hold army is calculated in the following manner:
+- One Grudge for each Dwarf King in the army;
+- Additional D3 Grudges for each Dwarf King mounted on the Throne of War;
+- One Additional Grudge when facing opponents who field units from the army books Orcs and Goblins or The Vermin Swarm.
+For each Grudge held by a Dwarven Hold army, the Player may choose one enemy model or unit to be the target of the Grudge. This choice is made after the Deployment Phase. All models in the Dwarven Hold army have Hatred against a begrudged enemy. If a Dwarven Hold unit already had Hatred it may also reroll failed to-wound rolls against the enemy in every first Round of combat.
+When an enemy unit is begrudged, any model which joins that unit also become subject to the Grudge for as long as it remains a part of the unit. However if a single model is begrudged and it joins a unit, the entire unit does not become subject to the grudge. No enemy unit may be targeted more than once by this rule.
+
 Special Rules
-Relentless
-A model with this rule may march as normal even when within 8” of enemy units. Infantry models may march triple
-their Movement if they are farther than 8” away from enemy units at the start of their Movement Phase. A unit may only
-perform these moves if it consists entirely of models with this rule.
-Sturdy
-A model with this rule gains Thunderous Charge. The model does not suffer -1 to hit when taking a Stand and Shoot
-charge reaction.
-Shield Wall
-A model with this rule adds an additional+1 to its Armour Save in Close Combat when using a shield against non-special
-Close Combat Attacks from enemies to the model's front.
-Entrench
-Once deployment has finished but before moving Vanguards and Scouts, a model with this rule may entrench one War
-Machine. The War Machine counts as if in Hard Cover (but loses this rule permanently if it moves).
-2
-Holdstone
-At the start of any Round of Combat, a model carrying the Holdstone may declare that it is using it. Once it does, the
-model’s unit treat flanks and rear as front for the purposes of Parry, Shieldwall and Supporting Attacks (to their
-fl
-anks/rear). The unit may still be Disrupted as normal. While the Holdstone is active, the bearer must always issue and
-accept challenges. The unit cannot pursue any enemies in the same combat that the Holdstone was used.
-Once the combat is over or the bearer slain, the beneficial effects of the Holdstone immediately end.
-Yer comin’ with me…!
-Close Combat Attacks from models with this rule always successfully wound on to-wound rolls of 4+ (or better if the
-model’s Strength would allow it). Any model with this rule that is removed as a casualty in Close Combat may
-immediately make a Close Combat Attack with the weapon choice for this Combat Round. This attack must be allocated
-either towards the model that caused the casualty, or its unit (in that case, distributing the hits as shooting) applying all
-special rules and bonuses. It may however never exceed one attack.
+Relentless: A model with this rule may march as normal even when within 8" of enemy units. Infantry models may march triple their Movement if they are farther than 8" away from enemy units at the start of their Movement Phase. A unit may only perform these moves if it consists entirely of models with this rule.
+Sturdy: A model with this rule gains Thunderous Charge. The model does not suffer -1 to hit when taking a Stand and Shoot charge reaction.
+Shield Wall: A model with this rule adds an additional+1 to its Armour Save in Close Combat when using a shield against non-special Close Combat Attacks from enemies to the model's front.
+Entrench: Once deployment has finished but before moving Vanguards and Scouts, a model with this rule may entrench one War Machine. The War Machine counts as if in Hard Cover (but loses this rule permanently if it moves).
+Holdstone: At the start of any Round of Combat, a model carrying the Holdstone may declare that it is using it. Once it does, the model's unit treat flanks and rear as front for the purposes of Parry, Shieldwall and Supporting Attacks (to their flanks/rear). The unit may still be Disrupted as normal. While the Holdstone is active, the bearer must always issue and accept challenges. The unit cannot pursue any enemies in the same combat that the Holdstone was used. Once the combat is over or the bearer slain, the beneficial effects of the Holdstone immediately end.
+Yer comin' with me!: Close Combat Attacks from models with this rule always successfully wound on to-wound rolls of 4+ (or better if the model's Strength would allow it). Any model with this rule that is removed as a casualty in Close Combat may immediately make a Close Combat Attack with the weapon choice for this Combat Round. This attack must be allocated either towards the model that caused the casualty, or its unit (in that case, distributing the hits as shooting) applying all special rules and bonuses. It may however never exceed one attack.
+
 Armoury
-Wyrm-Slayer Rocket:
-Shooting Weapon. Range 24”, Strength 8, Multiple Wounds (D3), Flaming Attacks, Cumbersome
-Forge Repeater:
-Shooting Weapon. Range 18”, Strength 5, Armour Piercing (1), Flaming Attacks, Quick to Fire, Multiple Shots(2D3)
+Wyrm-Slayer Rocket: Shooting Weapon. Range 24", Strength 8, Multiple Wounds (D3), Flaming Attacks, Cumbersome
+Forge Repeater: Shooting Weapon. Range 18", Strength 5, Armour Piercing (1), Flaming Attacks, Quick to Fire, Multiple Shots(2D3)
+
 Battle Runes
-Runic Master, Runic Smiths and Anvils of Power may take these, under the rules detailed in the each Unit entry, and cast
-them as Bound Spells:
-Rune of Metal
-Type: Augment
-Duration: Lasts One Turn
-Target may reroll failed Armour
-Saves.
-Rune of Resolve
-Type: Augment
-Duration: Instant
-Target friendly unit may perform a 6"
-Magical Move.
-Rune of Reckoning
-Type: Augment
-Duration: Lasts One Turn
-Target friendly unit may reroll failed
-to-hit rolls in Close Combat.
-Rune of Oaths
-Type: Augment
-Duration: Lasts One Turn
-Target friendly unit gains Stubborn
-and Immune to Psychology.
-Rune of Gleaming
-Type: Augment
-Duration: Lasts One Turn
-Target friendly unit gains Hard Target
-and Distracting.
-Rune of Resilience
-Type: Augment
-Duration: Lasts One Turn
-All to-wound rolls against target
-fr
-iendly unit receive a -1 penalty
-(multiple instances cast on the same
-unit are not stackable).
-3
+Runic Master, Runic Smiths and Anvils of Power may take these, under the rules detailed in the each Unit entry, and cast them as Bound Spells:
+
+Rune of Metal: Type: Augment Duration: Lasts One Turn Target may reroll failed Armour Saves.
+Rune of Resolve: Type: Augment Duration: Instant Target friendly unit may perform a 6" Magical Move.
+Rune of Reckoning: Type: Augment Duration: Lasts One Turn Target friendly unit may reroll failed to-hit rolls in Close Combat.
+Rune of Oaths: Type: Augment Duration: Lasts One Turn Target friendly unit gains Stubborn and Immune to Psychology.
+Rune of Gleaming: Type: Augment Duration: Lasts One Turn Target friendly unit gains Hard Target and Distracting.
+Rune of Resilience: Type: Augment Duration: Lasts One Turn All to-wound rolls against target friendly unit receive a -1 penalty (multiple instances cast on the same unit are not stackable).
+
 Runic Standards
-Dwarfs may use Magical Standards from the Common Magical Items list as well as the Runic Standards listed below. A
-Battle Standard Bearer can take a Runic Standard as part of its Runic Item allowance.
-Runic Standard of Shielding
-(45 pts)
-All units within 6” have a Ward Save
-(5+) against Shooting Attacks.
-Runic Standard of Swiftness
-(25 pts)
-The unit gains Vanguard.
-Runic Standard of Dismay
-(30 pts)
-Units charging this unit reduce their
-charge distance by D6”. This can
-cause a failed charge.
+Dwarfs may use Magical Standards from the Common Magical Items list as well as the Runic Standards listed below. A Battle Standard Bearer can take a Runic Standard as part of its Runic Item allowance.
+Runic Standard of Shielding: (45 pts) All units within 6" have a Ward Save (5+) against Shooting Attacks.
+Runic Standard of Swiftness: (25 pts) The unit gains Vanguard.
+Runic Standard of Dismay: (30 pts) Units charging this unit reduce their charge distance by D6". This can cause a failed charge.
+
 Dwarven Runes
-Dwarven Holds armies cannot pick from the pool of common Magical Items and instead create their own, using a
-combination of Dwarven Relics and Dwarven Runes. The resulting objects, called Runic Items, follow all the normal
-rules for Magical Items (i.e. Runic Weapon is Magical Weapon, Runic Armour is Magical Armour, Runic Talisman is
-Talisman and Runic Arcane Item is Arcane Item). Each rune combination forms a unique Magical Item which cannot be
-duplicated.
+Dwarven Holds armies cannot pick from the pool of common Magical Items and instead create their own, using a combination of Dwarven Relics and Dwarven Runes. The resulting objects, called Runic Items, follow all the normal rules for Magical Items (i.e. Runic Weapon is Magical Weapon, Runic Armour is Magical Armour, Runic Talisman is Talisman and Runic Arcane Item is Arcane Item). Each rune combination forms a unique Magical Item which cannot be duplicated.
+
 Weapon Runes
 Any Hand Weapon or Additional Hand Weapons can be engraved with up to 3 Runes from this set.
-Rune of Fury
-(15 pts each)
-For each Rune of Fury engraved on a
-weapon the bearer gains +1 Attack.
-Rune of Might
-(20 pts each)
-For each Rune of Might engraved on a
-weapon the bearer gains +1 Strength.
-Rune of Precision
-(20 pts each)
-For each Rune of Precision engraved
-on a weapon the bearer gains +1 to
-hit.
-Rune of Quickening
-(20 pts each)
-For each Rune of Quickening
-engraved on a weapon the bearer
-gains +2 Initiative.
-Rune of Craftsmanship
-(25 pts)
-A weapon engraved with this Rune
-changes to a Great Weapon.
-Rune of Penetrating
-(40 pts)
-A weapon engraved with this Rune
-gains Armour Piercing (6).
-Rune of Smashing
-(40 pts)
-A Weapon engraved with a this Rune
-inflicts attacks at Strength 10 against
-targets with a Toughness of 5 or
-greater.
-Rune of Destruction
-(40 pts)
-A weapon engraved with this Rune
-gains Multiple Wounds (D3).
-Rune of Fire
-(5 pts)
-A weapon engraved with this Rune
-gains the Flaming Attacks special
-rule.
-4
+Rune of Fury: (15 pts each) For each Rune of Fury engraved on a weapon the bearer gains +1 Attack.
+Rune of Might: (20 pts each) For each Rune of Might engraved on a weapon the bearer gains +1 Strength.
+Rune of Precision: (20 pts each) For each Rune of Precision engraved on a weapon the bearer gains +1 to hit.
+Rune of Quickening: (20 pts each) For each Rune of Quickening engraved on a weapon the bearer gains +2 Initiative.
+Rune of Craftsmanship: (25 pts) A weapon engraved with this Rune changes to a Great Weapon.
+Rune of Penetrating: (40 pts) A weapon engraved with this Rune gains Armour Piercing (6).
+Rune of Smashing: (40 pts) A Weapon engraved with a this Rune inflicts attacks at Strength 10 against targets with a Toughness of 5 or greater.
+Rune of Destruction: (40 pts) A weapon engraved with this Rune gains Multiple Wounds (D3).
+Rune of Fire: (5 pts) A weapon engraved with this Rune gains the Flaming Attacks special rule.
+
 Armour Runes
 Any suit of Armour can be engraved with up to 3 runes from this set.
-Rune of Crushing
-(10 pts each)
-An armour engraved with a Rune of
-Crushing grants the wearer Impact
-Hits (1). Each additional rune adds +1
-to the number of Impact Hits.
-Rune of Aegis
-(15 pts each)
-An armour engraved with a Rune of
-Aegis grants Magic Resistance (1) or
-increases this effect by +1 per rune,
-up to Magic Resistance (4).
-Rune of Iron
-(10 pts each)
-An armour engraved with a Rune of
-Iron grants Innate Defence (6+). One
-additional rune may be used to
-increase this effect to (5+).
-Rune of Steel
-(30 pts)
-An armour engraved with this Rune
-allows the wearer to reroll failed
-Armour Saves .
-Rune of Mountains
-(30 pts)
-An armour engraved with this Rune
-grants the wearer +1 Toughness, up
-to a maximum of Toughness 6.
-Rune of Bronze
-(30 pts)
-An armour engraved with this Rune
-grants the wearer +1 additional
-Wound.
-Rune of Resistance
-(45 pts)
-An armour engraved with this Rune
-fo
-rces enemies to reroll successful
-to-wound rolls against the wearer.
+Rune of Crushing: (10 pts each) An armour engraved with a Rune of Crushing grants the wearer Impact Hits (1). Each additional rune adds +1 to the number of Impact Hits.
+Rune of Aegis: (15 pts each) An armour engraved with a Rune of Aegis grants Magic Resistance (1) or increases this effect by +1 per rune, up to Magic Resistance (4).
+Rune of Iron: (10 pts each) An armour engraved with a Rune of Iron grants Innate Defence (6+). One additional rune may be used to increase this effect to (5+).
+Rune of Steel: (30 pts) An armour engraved with this Rune allows the wearer to reroll failed Armour Saves .
+Rune of Mountains: (30 pts) An armour engraved with this Rune grants the wearer +1 Toughness, up to a maximum of Toughness 6.
+Rune of Bronze: (30 pts) An armour engraved with this Rune grants the wearer +1 additional Wound.
+Rune of Resistance: (45 pts) An armour engraved with this Rune forces enemies to reroll successful to-wound rolls against the wearer.
+
 Talismanic Runes
 Up to 3 runes from this set may be taken as a single Talisman.
-Rune of the Forge
-(5 pts)
-The bearer gains Fireborn.
-Rune of Kinship
-(10 pts)
-The bearer gains Scout and Ambush
-but may not ride a Throne of War.
-Rune of Infamy
-(20 pts)
-The bearer gains Fear.
-Rune of Shielding
-(15 pts each)
-An armour engraved with a Rune of
-Shielding grants the wearer a Ward
-Save (6+) or increases this effect by
-+1 per rune.
-Rune of Retribution
-(​ 35 pts) - One per army
-One Use Only. This is used at the
-beginning of the Movement Phase.
-Friendly units within 6” gain
-Devastating Charge for one Turn.
-Rune of Courage
-(30 pts)
-​ One use only. May be activated at the
-start of any Round of Combat. For the
-duration of the Phase, the wearer has
-Stubborn.
-Rune of Dragon’s Breath
-(35 pts)
-The bearer has a Breath Weapon with
-the following profile: Strength 4,
-Flaming Attacks, Magical Attacks.
-5
+Rune of the Forge: (5 pts) The bearer gains Fireborn.
+Rune of Kinship: (10 pts) The bearer gains Scout and Ambush but may not ride a Throne of War.
+Rune of Infamy: (20 pts) The bearer gains Fear.
+Rune of Shielding: (15 pts each) An armour engraved with a Rune of Shielding grants the wearer a Ward Save (6+) or increases this effect by +1 per rune.
+Rune of Retribution: ( 35 pts) - One per army One Use Only. This is used at the beginning of the Movement Phase. Friendly units within 6" gain Devastating Charge for one Turn.
+Rune of Courage: (30 pts) One use only. May be activated at the start of any Round of Combat. For the duration of the Phase, the wearer has Stubborn.
+Rune of Dragon's Breath: (35 pts) The bearer has a Breath Weapon with the following profile: Strength 4, Flaming Attacks, Magical Attacks.
+
 Arcane Runes
 Models with the Rune Craft or Rune Craft Mastery rules may take up to 3 of the following runes as a single Arcane Item.
-Rune of Denial
-(35 pts) - One per army
-One use only. The player may
-choose to use this rune instead of
-making a dispel roll. The spell is
-automatically dispelled.
-Rune of Brilliance
-(35 pts)
-The bearer adds a +1 bonus to all
-casting rolls when casting Bound
-Spells .
-Rune of Harnessing
-(25 pts)
-The Dwarven Hold player receives a
-+1 bonus to Channel rolls and the
-opponent receives a -1 penalty to
-Channel rolls.
-Rune of Mastery
-(40 pts)
-Once per Magic Phase, the bearer
-may reroll one Power Dice when
-casting a Bound Spell.
-Rune of Devouring
-(35 pts) - One per army
-One use only. The player may choose
-to use this rune instead of making a
-dispel roll. The spell is cast as normal
-but is afterward lost and cannot be
-cast again for the rest of the game.
-This rune cannot be combined with
-the Rune of Denial on the same item.
-Rune of Grounding
-​ (50 pts) - One per army
-The Dwarven player may remove a
-Power Dice from his own Magic
-Phase and add it as an additional
-Dispel Dice in the opponent's Magic
-Phase.
-6
+Rune of Denial: (35 pts) - One per army One use only. The player may choose to use this rune instead of making a dispel roll. The spell is automatically dispelled.
+Rune of Brilliance: (35 pts) The bearer adds a +1 bonus to all casting rolls when casting Bound Spells .
+Rune of Harnessing: (25 pts) The Dwarven Hold player receives a +1 bonus to Channel rolls and the opponent receives a -1 penalty to Channel rolls.
+Rune of Mastery: (40 pts) Once per Magic Phase, the bearer may reroll one Power Dice when casting a Bound Spell.
+Rune of Devouring: (35 pts) - One per army One use only. The player may choose to use this rune instead of making a dispel roll. The spell is cast as normal but is afterward lost and cannot be cast again for the rest of the game. This rune cannot be combined with the Rune of Denial on the same item.
+Rune of Grounding: (50 pts) - One per army The Dwarven player may remove a Power Dice from his own Magic Phase and add it as an additional Dispel Dice in the opponent's Magic Phase.
+
 Army List
 LORDS
-King ​ 125 pts
+King 125 pts
 single model
 M WS BS S T W I A Ld
 3 7 4 4 5 3 4 4 10 Infantry 20x20mm base
-Armour:
-Plate Armour
-Dwarf Special Rules:
-Sturdy, Relentless, Shield Wall
+Armour: Plate Armour
+Dwarf Special Rules: Sturdy, Relentless, Shield Wall
 Options: pts
 May take Holdstone 30
 May take Runic Items up to 125
@@ -301,21 +108,14 @@ May take a Great Weapon 10
 May take a mount (one choice only)
 Shield Bearers 50
 War Throne 150
-Daemon Seeker ​ 130 pts
+
+Daemon Seeker 130 pts
 single model
 M WS BS S T W I A Ld
 3 7 4 5 5 3 5 5 10 Infantry 20x20mm base
-We
-apons:
-Additional Hand Weapon, Great Weapon
-Dwarf Special Rules:
-Relentless, Sturdy
-Sp
-ecial Rules:
-Hatred (Army Book: Daemon Legion), Lethal Strike,
-Not a Leader, Swiftstride, Unbreakable, Vanguard,
-Ward Save (6+), Weaponmaster, “Yer comin’ with
-me…!”
+Weapons: Additional Hand Weapon, Great Weapon
+Dwarf Special Rules: Relentless, Sturdy
+Special Rules: Hatred (Army Book: Daemon Legion), Lethal Strike, Not a Leader, Swiftstride, Unbreakable, Vanguard, Ward Save (6+), Weaponmaster, "Yer comin' with me!"
 Options: pts
 May take Runic Items (Weapon only) up to 125
 May take up to two of the following:
@@ -323,44 +123,32 @@ Magic Resistance (1) 15
 Fear 20
 Monster Seeker 30
 Grim Resolve 40
-Monster Seeker:​ The model gains Multiple Wounds (2,
-Monstrous Infantry, Monstrous Beast, Monstrous Cavalry,
-Monster and Ridden Monster)
-Grim Resolve: ​ The model gains one attack per enemy model
-in Base Contact.
-7
-Runic Master ​ 125 pts
+Monster Seeker: The model gains Multiple Wounds (2), Monstrous Infantry, Monstrous Beast, Monstrous Cavalry, Monster and Ridden Monster)
+Grim Resolve: The model gains one attack per enemy model in Base Contact.
+
+Runic Master 125 pts
 single model
 M WS BS S T W I A Ld
 3 6 4 4 5 3 3 2 10 Infantry 20x20mm base
-Armour:
-Plate Armour
-Dwarf Special Rules:
-Relentless, Sturdy, Shield Wall
-Sp
-ecial Rules:
-Channel, Magic Resistance (2)
+Armour: Plate Armour
+Dwarf Special Rules: Relentless, Sturdy, Shield Wall
+Special Rules: Channel, Magic Resistance (2)
 Options: pts
 May take Runic Items up to 125
 May take a Shield 3
 May take a Great Weapon 8
 May take up to 3 Battle Runes 5 / rune
-Rune Craft Mastery: ​ A Runic Master has Armour Piercing (1) and confers this bonus to any unit it joins. The
-character may dispel as if it were a Wizard Master, including Aided Dispel, and may cast Bound Spells from the Battle
-Runes list as either:
-- Power Level 4, spell type: Range: 6”
-- Power Level 5, spell type: Range 12”
-Master Engineer ​ 120 pts
+Rune Craft Mastery: A Runic Master has Armour Piercing (1) and confers this bonus to any unit it joins. The character may dispel as if it were a Wizard Master, including Aided Dispel, and may cast Bound Spells from the Battle Runes list as either:
+- Power Level 4, spell type: Range: 6"
+- Power Level 5, spell type: Range 12"
+
+Master Engineer 120 pts
 single model
 M WS BS S T W I A Ld
 3 6 4 4 5 3 3 2 10 Infantry 20x20mm base
-Armour:
-Plate Armour
-Dwarf Special Rules:
-Sturdy, Relentless, Shield Wall
-Sp
-ecial Rules:
-Engineer, Entrench
+Armour: Plate Armour
+Dwarf Special Rules: Sturdy, Relentless, Shield Wall
+Special Rules: Engineer, Entrench
 Options: pts
 May take Runic Items up to 100
 May take a Shield 3
@@ -372,45 +160,37 @@ Crossbow 8
 Forge Repeater 20
 Wyrm-Slayer Rocket 20
 May take a Great Weapon 8
-Master Marksman: ​ At the start of the Shooting Phase, a Master Engineer may grant one of the following bonus
-effects to a friendly Infantry unit within 6":
+Master Marksman: At the start of the Shooting Phase, a Master Engineer may grant one of the following bonus effects to a friendly Infantry unit within 6":
 - Target unit gains +1 to hit for all Shooting Attacks.
-- Target unit may reroll rolls of ‘1' to wound for all Shooting Attacks.
+- Target unit may reroll rolls of '1' to wound for all Shooting Attacks.
 - Target unit increases the range of its Shooting Weapons by 1d6+1.
-The bonus effect lasts until the end of the Shooting Phase. Multiple instances of the same effect do not stack. A Master
-Engineer who confers one of these bonus effects may not use the special rule Engineer during the same Shooting
-Phase.
-8
+The bonus effect lasts until the end of the Shooting Phase. Multiple instances of the same effect do not stack. A Master Engineer who confers one of these bonus effects may not use the special rule Engineer during the same Shooting Phase.
+
 HEROES
-Thane ​ 85 pts
+Thane 85 pts
 single model
 M WS BS S T W I A Ld
 3 6 4 4 5 2 3 3 10 Infantry 20x20mm base
-Armour:
-Plate Armour
-Dwarf Special Rules:
-Sturdy, Relentless, Shield Wall
+Armour: Plate Armour
+Dwarf Special Rules: Sturdy, Relentless, Shield Wall
 Options: pts
 May take Holdstone 25
 May be upgraded to Battle Standard Bearer 25
-May take Runic Items up to 75
-(If BSB, May take a Runic Standard)
+May take Runic Items up to 75 (If BSB, May take a Runic Standard)
 May take a Shield 8
 May take a Shooting Weapon (one choice only)
 Pistol 4
 Handgun 8
 Crossbow 8
 May take a Great Weapon 10
-Engineer ​ 65 pts
+
+Engineer 65 pts
 single model
 M WS BS S T W I A Ld
 3 5 4 4 4 2 3 2 9 Infantry 20x20mm base
-Armour:
-Plate Armour
-Dwarf Special Rules:
-Sturdy, Relentless, Shield Wall
-Dwarf Rules:
-Engineer, Entrench
+Armour: Plate Armour
+Dwarf Special Rules: Sturdy, Relentless, Shield Wall
+Dwarf Rules: Engineer, Entrench
 Options: pts
 May take Runic Items Up to 50
 May take a Shield 2
@@ -422,8 +202,8 @@ Crossbow 8
 Handgun 8
 Forge Repeater 20
 Wyrm-Slayer Rocket 20
-9
-Runic Smith ​ 65 pts
+
+Runic Smith 65 pts
 single model
 M WS BS S T W I A Ld
 3 5 3 4 4 2 3 2 9 Infantry 20x20mm base
@@ -431,33 +211,23 @@ Armour:
 Plate Armour
 Dwarf Special Rules:
 Relentless, Sturdy, Shieldwall
-Sp
-ecial Rules:
-Channel, Magic Resistance (1)
+Special Rules: Channel, Magic Resistance (1)
 Options: pts
 May take Runic Items up to 75
 May take a Shield 2
 May take a Great Weapon 6
 May take up to 3 Battle Runes 5 / rune
-Rune Craft: ​ A Runic Smith has Armour Piercing (1) and confers this bonus to any unit he joins. The model may dispel
-as if it were a Wizard Apprentice, including Aided Dispel, and may cast Bound Spells from the Battle Runes list as
-either:
-Power Level 4, spell type: Caster’s Unit
-Power Level 5, spell type: Range 6”
-Dragon Seeker ​ 50 pts
+Rune Craft: A Runic Smith has Armour Piercing (1) and confers this bonus to any unit he joins. The model may dispel as if it were a Wizard Apprentice, including Aided Dispel, and may cast Bound Spells from the Battle Runes list as either:
+Power Level 4, spell type: Caster's Unit
+Power Level 5, spell type: Range 6"
+
+Dragon Seeker 50 pts
 single model
 M WS BS S T W I A Ld
 3 6 3 4 5 2 4 4 10 Infantry 20x20mm base
-We
-apons:
-Additional Hand Weapon, Great Weapon
-Dwarf Special Rules:
-Relentless, Sturdy
-Sp
-ecial Rules:
-Unbreakable, Lethal Strike, Vanguard, Not a Leader,
-Swiftstride, Ward Save (6+), Weaponmaster, ”Yer
-comin’ with me…!”
+Weapons: Additional Hand Weapon, Great Weapon
+Dwarf Special Rules: Relentless, Sturdy
+Special Rules: Unbreakable, Lethal Strike, Vanguard, Not a Leader, Swiftstride, Ward Save (6+), Weaponmaster, "Yer comin' with me!"
 Options: pts
 May take Weapon Runic Items up to 75
 May take up to two of the following
@@ -465,24 +235,18 @@ Magic Resistance (1) 15
 Fear 20
 Monster Seeker 20
 Grim Resolve 25
-Monster Seeker:​ The model gains Multiple Wounds (2,
-Monstrous Infantry, Monstrous Beast, Monstrous Cavalry,
-Monster and Ridden Monster)
-Grim Resolve: ​ The model gains one attack per enemy model
-in Base Contact.
-10
+Monster Seeker: The model gains Multiple Wounds (2, Monstrous Infantry, Monstrous Beast, Monstrous Cavalry, Monster and Ridden Monster)
+Grim Resolve: The model gains one attack per enemy model in Base Contact.
+
 CORE
-Clan Warriors ​ 70 pts
-10 ​ models, may add up to 30 ​ models 7 pts/model
+Clan Warriors 70 pts
+10 models, may add up to 30 models 7 pts/model
 M WS BS S T W I A Ld
 3 4 3 3 4 1 2 1 9 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Dwarf Special Rules:
-Sturdy, Relentless, Shield Wall
+Armour: Heavy Armour
+Dwarf Special Rules: Sturdy, Relentless, Shield Wall
 Options: pts
-A single Clan Warriors or Graybeards unit
-may Vanguard (max 30 models) 1 / model
+A single Clan Warriors or Graybeards unit may Vanguard (max 30 models) 1 / model
 May take Shield 2 / model
 if taken with Great Weapon 1 / model
 or Additional Hand Weapon 1 / model
@@ -496,24 +260,18 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may become Veteran Standard Bearer*
-*A Veteran Standard Bearer is One of a Kind and may take a
-Magical Banner worth up to 25 pts.
-Greybeards ​ 120 pts
-10 ​ models, may add up to 20 ​ models 11 pts/model
+*A Veteran Standard Bearer is One of a Kind and may take a Magical Banner worth up to 25 pts.
+
+Greybeards 120 pts
+10 models, may add up to 20 models 11 pts/model
 M WS BS S T W I A Ld
 3 5 3 4 4 1 2 1 9 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Dwarf Special Rules:
-Relentless, Sturdy, Shieldwall
-Sp
-ecial Rules:
-Immune to Psychology
-Seen It All: ​ Units within 6” of the Greybeards may
-reroll failed Panic tests.
+Armour: Heavy Armour
+Dwarf Special Rules: Relentless, Sturdy, Shieldwall
+Special Rules: Immune to Psychology
+Seen It All: Units within 6" of the Greybeards may reroll failed Panic tests.
 Options: pts
-A single Clan Warriors or Graybeards unit
-may Vanguard (max 20 models) 1 / model
+A single Clan Warriors or Graybeards unit may Vanguard (max 20 models) 1 / model
 May take Throwing Weapons 2 / model
 May take (one choice only)
 Shield 2 / model
@@ -524,18 +282,14 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may become Veteran Standard Bearer
-11
-Clan Marksmen ​ 60 pts
-5 ​ models, may add up to 20 ​ models 12 pts/model
+
+Clan Marksmen 60 pts
+5 models, may add up to 20 models 12 pts/model
 M WS BS S T W I A Ld
 3 4 3 3 4 1 2 1 9 Infantry 20x20mm base
-We
-apons:
-Crossbow
-Armour:
-Heavy Armour
-Dwarf Special Rules:
-Relentless, Sturdy
+Weapons: Crossbow
+Armour: Heavy Armour
+Dwarf Special Rules: Relentless, Sturdy
 Options: pts
 May swap Crossbow for Handgun free
 May take Shield 1 / model
@@ -544,39 +298,30 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
-12
+
 SPECIAL
-Iron Guard ​ 130 pts
-10 ​ models, may add up to 20 ​ models 14 pts/model
+Iron Guard 130 pts
+10 models, may add up to 20 models 14 pts/model
 M WS BS S T W I A Ld
 3 5 3 4 4 1 2 1 9 Infantry 20x20mm base
-Armour:
-Plate Armour, Shields
-Dwarf Special Rules:
-Sturdy, Relentless, Shield Wall
-Sp
-ecial Rules:
-Bodyguard,
+Armour: Plate Armour, Shields
+Dwarf Special Rules: Sturdy, Relentless, Shield Wall
+Special Rules: Bodyguard,
 Options: pts
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
 - may take Magical Standard up to 50
-King’s Guard ​ 150 pts
-10 ​ models, may add up to 20 ​ models 15 pts/model
+
+King's Guard 150 pts
+10 models, may add up to 20 models 15 pts/model
 M WS BS S T W I A Ld
 3 5 3 4 4 1 2 2 9 Infantry 20x20mm base
-We
-apons:
-Great Weapons
-Armour:
-Plate Armour
-Dwarf Special Rules:
-Relentless, Sturdy
-Sp
-ecial Rules:
-Bodyguard (General, Dwarf King)
+Weapons: Great Weapons
+Armour: Plate Armour
+Dwarf Special Rules: Relentless, Sturdy
+Special Rules: Bodyguard (General, Dwarf King)
 Options: pts
 May take Shield 1 / model
 May upgrade one model to each of the following:
@@ -584,22 +329,15 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take Magical Standard up to 50
-13
-Forge Wardens ​ 150 pts
-10 ​ models, may add up to 15 ​ models 15 pts/model
+
+Forge Wardens 150 pts
+10 models, may add up to 15 models 15 pts/model
 M WS BS S T W I A Ld
 3 5 3 4 4 1 2 1 9 Infantry 20x20mm base
-We
-apons:
-Forge Gun: ​ Range 18”, Strength 5, Armour Piercing
-(1), Flaming Attacks, Quick to Fire
-Armour:
-Plate Armour
-Dwarf Special Rules:
-Relentless, Sturdy
-Sp
-ecial Rules:
-Ward Save (6+), Fireborn
+Weapons: Forge Gun: Range 18", Strength 5, Armour Piercing (1), Flaming Attacks, Quick to Fire
+Armour: Plate Armour
+Dwarf Special Rules: Relentless, Sturdy
+Special Rules: Ward Save (6+), Fireborn
 Options: pts
 May upgrade one model to each of the following:
 Champion 10
@@ -607,19 +345,14 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take Magical Standard up to 25
-Seekers ​ 55 pts
-5 ​ models, may add up to 25 ​ models 11 pts/model
+
+Seekers 55 pts
+5 models, may add up to 25 models 11 pts/model
 M WS BS S T W I A Ld
 3 4 3 4 4 1 2 1 10 Infantry 20x20mm base
-We
-apons:
-Additional Hand Weapon, Great Weapon
-Dwarf Special Rules:
-Relentless, Sturdy
-Sp
-ecial Rules:
-Unbreakable, Ward Save (6+), Swiftstride, Weapon
-Master, ”Yer comin’ with me…!”
+Weapons: Additional Hand Weapon, Great Weapon
+Dwarf Special Rules: Relentless, Sturdy
+Special Rules: Unbreakable, Ward Save (6+), Swiftstride, Weapon Master, "Yer comin' with me!"
 Options: pts
 May take Vanguard 1 / model
 May take Skirmisher (max 15 models) 1 / model
@@ -628,224 +361,123 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take Magical Standard up to 25
-14
-Steam Copter ​ 80 pts
-1​ model, may add up to 2 ​ models 70 pts/model
+
+Steam Copter 80 pts
+1 model, may add up to 2 models 70 pts/model
 M WS BS S T W I A Ld
 Copter 1 - - - 5 3 - - -
 Driver - 4 3 4 4 - 2 2 9 Cavalry 40x40mm base
-We
-apons:
-Forge Repeater
-Armour:
-Heavy Armour, Mount’s Protection (6+)
-Dwarf Special Rules:
-Relentless
-Sp
-ecial Rules:
-Fly(8)
+Weapons: Forge Repeater
+Armour: Heavy Armour, Mount's Protection (6+)
+Dwarf Special Rules: Relentless
+Special Rules: Fly(8)
 Options: pts
 May swap Forge Repeater for Flame Culverin free
 (Only units of 1 model)
 May Skirmish (units of 2 or more models) free
-Flame Culverin:
-This is a Flame Thrower Artillery Weapon​ with
-Range 3", Strength 3, Flaming Attacks.
-This weapon may not be used if the model performed a
-March Move. Ignore the -1 modifier to rolls on the Misfire
-Table.
-15
-Anvil of Power ​ 150 pts
+Flame Culverin: This is a Flame Thrower Artillery Weapon with Range 3", Strength 3, Flaming Attacks. This weapon may not be used if the model performed a March Move. Ignore the -1 modifier to rolls on the Misfire Table.
+
+Anvil of Power 150 pts
 single model
 M WS BS S T W I A Ld
 Anvil - - - - 7 4 - - -
 Anvil Guard (4) 3 5 3 4 4 - 2 1 9 War Machine 60mm round base
-Armour:
-Plate Armour
-Sp
-ecial Rules:
-Unbreakable, Ward Save (5+), Magic Resistance (2), Channel
-Runic Anvil: ​ A model with this rule can make can make dispel attempts as if it were a Wizard Apprentice , including
-Aided Dispel. An anvil comes with 3 Battle Runes and casts them with Power Level (5).
-Rune of Storms
-Type: Damage, Hex,
-Range:48”
-Duration: Lasts One Turn.
-The target suffers D6 Strength 6 hits
-that are Magical Attacks and
-Lightning Attacks. Target can not
-use flying movement for the
-duration of the spell.
-Rune of Shattering
-Type: Damage, Hex,
-Range 48”
-Duration: Lasts One Turn.
-The target suffers 2D6 Strength 4
-hits that are Magical Attacks. Units
-who suffer at least one wound from
-this Runic Bound Spell suffer -1 to
-hit in Close Combat and treat all
-terrain as Dangerous Terrain.
-Rune of Cleansing
-Type: Universal,
-Range 60”
-Duration: Instant.
-The casting player may remove one
-spell with Duration: Lasts One Turn
-or Duration: Remains in Play from
-the target unit. This bound spell
-may target either a friendly unit or
+Armour: Plate Armour
+Special Rules: Unbreakable, Ward Save (5+), Magic Resistance (2), Channel
+Runic Anvil: A model with this rule can make can make dispel attempts as if it were a Wizard Apprentice , including Aided Dispel. An anvil comes with 3 Battle Runes and casts them with Power Level (5).
+Rune of Storms: Type: Damage, Hex, Range:48" Duration: Lasts One Turn. The target suffers D6 Strength 6 hits that are Magical Attacks and Lightning Attacks. Target can not use flying movement for the duration of the spell.
+Rune of Shattering: Type: Damage, Hex, Range 48" Duration: Lasts One Turn. The target suffers 2D6 Strength 4 hits that are Magical Attacks. Units who suffer at least one wound from this Runic Bound Spell suffer -1 to hit in Close Combat and treat all terrain as Dangerous Terrain.
+Rune of Cleansing: Type: Universal, Range 60" Duration: Instant. The casting player may remove one spell with Duration: Lasts One Turn or Duration: Remains in Play from the target unit. This bound spell may target either a friendly unit or
 an enemy unit.
-An Anvil of Power may also swap one or more of these Battle Runes for one from the Battle Runes section. These
-Bound Spells are cast with Power Level 4 and Range 60”.
-Ballista 55​ pts
+An Anvil of Power may also swap one or more of these Battle Runes for one from the Battle Runes section. These Bound Spells are cast with Power Level 4 and Range 60".
+
+Ballista 55 pts
 single model
 M WS BS S T W I A Ld
 Machine - - - - 7 3 - - -
 Crew (3) 3 4 3 3 4 - 2 1 9 War Machine 60mm round base
-We
-apons:
-Dwarf Ballista:
-This is a Bolt Thrower Artillery Weapon​ :
-Range 48", Strength 6, Multiple Wounds (D3),
-Armour Piercing (6).
-Armour:
-Heavy Armour
-Sp
-ecial Rules:
-Stubborn
+Weapons: Dwarf Ballista: This is a Bolt Thrower Artillery Weapon : Range 48", Strength 6, Multiple Wounds (D3), Armour Piercing (6).
+Armour: Heavy Armour
+Special Rules: Stubborn
 Options:
 May take any of the following upgrades:
-Flaming Shot ​ (5 pts)
-All hits caused by the War Machine have Flaming and Magical
-attacks.
-Rune Crafted​ (10 pts)
-All hits caused by the War Machine have +1 to hit against
-Flying units and Magical Attacks.
-16
-RA
-RE
-Field Artillery​ -
+Flaming Shot (5 pts): All hits caused by the War Machine have Flaming and Magical attacks.
+Rune Crafted (10 pts): All hits caused by the War Machine have +1 to hit against Flying units and Magical Attacks.
+
+RARE
+Field Artillery -
 single model
 M WS BS S T W I A Ld
 Machine - - - - 7 3 - - -
 Crew (3) 3 4 3 3 4 - 2 1 9 War Machine 60mm round base
-Armour:
-Heavy Armour
-Sp
-ecial Rules:
-Stubborn
+Armour: Heavy Armour
+Special Rules: Stubborn
 Options:
 May take any of the following upgrades:
-Flaming Shot ​ (5 pts)
-All hits caused by the War Machine have Flaming and Magical
-attacks.
-Engineering Rune ​ (15 pts)
-Adds +4 to any rolls on the Misfire Table.
-Rune Crafted​ (50 pt)
-All hits caused by the War Machine have +1 Strength (up to a
-maximum of 10). Dwarf Catapult gains Armour Piercing (1).
+Flaming Shot (5 pts): All hits caused by the War Machine have Flaming and Magical attacks.
+Engineering Rune (15 pts): Adds +4 to any rolls on the Misfire Table.
+Rune Crafted (50 pt): All hits caused by the War Machine have +1 Strength (up to a maximum of 10). Dwarf Catapult gains Armour Piercing (1).
 Must take one of the following:
-Catapult ​ (90 pts)
-This is a Catapult (3”) Artillery Weapon​ with
-Range 60", Strength 3(9) [Multiple wounds (Ordnance)].
-Cannon ​ (100 pts)
-This weapon can be fired in two ways;
-- As a Cannon (D6”) Artillery Weapon​ with
-Range 60”, Strength 10, Armour Piercing (2), Multiple
-Wounds (Ordnance) .
-- As a Volley Gun Artillery Weapon​ with
-Range 12", Strength 4, Armour Piercing (3), Multiple
-Shots (2D6).
-17
-Tunnel Artillery​ -
+Catapult (90 pts): This is a Catapult (3") Artillery Weapon with Range 60", Strength 3(9) [Multiple wounds (Ordnance)].
+Cannon (100 pts): This weapon can be fired in two ways;
+- As a Cannon (D6") Artillery Weapon with Range 60", Strength 10, Armour Piercing (2), Multiple Wounds (Ordnance) .
+- As a Volley Gun Artillery Weapon with Range 12", Strength 4, Armour Piercing (3), Multiple Shots (2D6).
+
+Tunnel Artillery -
 single model
 M WS BS S T W I A Ld
 Machine - - - - 7 3 - - -
 Crew (3) 3 4 3 3 4 - 2 1 9 War Machine 60mm round base
-Armour:
-Heavy Armour
-Sp
-ecial Rules:
-Stubborn
+Armour: Heavy Armour
+Special Rules: Stubborn
 Options:
 May take any of the following upgrades:
-Flaming Shot ​ (5 pts)
-All hits caused by the War Machine have Flaming and Magical
-Attacks.
-Engineering Rune​ (15 pts)
-Adds +4 to any rolls on the Misfire Table.
-Rune Struck​ (20 pts)
-All hits caused by the War Machine have +3” range and
-Magical Attacks.
-Rune Crafted​ (30 pts) - ​ Organ Gun only
-All hits caused by the War Machine have +1 to wound and
-Magical Attacks.
+Flaming Shot (5 pts): All hits caused by the War Machine have Flaming and Magical Attacks.
+Engineering Rune (15 pts): Adds +4 to any rolls on the Misfire Table.
+Rune Struck (20 pts): All hits caused by the War Machine have +3" range and Magical Attacks.
+Rune Crafted (30 pts): Organ Gun only All hits caused by the War Machine have +1 to wound and Magical Attacks.
 Must take one of the following:
-Flame Cannon ​ (110 pts)
-This a Flame Thrower Artillery Weapon​ with
-Range 12", Strength 5, Multiple Wounds (D3), Flaming
-Attacks.
-Organ Gun ​ (125 pts)
-This is a Volley Gun Artillery Weapon​ with
-Range 30", Strength 5, Armour Piercing (1), Multiple
-Shots (2D6*2).
-18
-Steam Bomber ​ 125 pts (One of a Kind)
+Flame Cannon (110 pts): This a Flame Thrower Artillery Weapon with Range 12", Strength 5, Multiple Wounds (D3), Flaming Attacks.
+Organ Gun (125 pts): This is a Volley Gun Artillery Weapon with Range 30", Strength 5, Armour Piercing (1), Multiple Shots (2D6*2).
+
+Steam Bomber 125 pts (One of a Kind)
 single model
 M WS BS S T W I A Ld
 Copter 1 - - - 5 4 - - -
 Driver - 4 3 4 4 - 2 2 9 Cavalry 40x40mm base
-We
-apons:
-Swivel Gun:​ Range 24”, Strength 4, Armour Piercing (1), Multiple Shots (4), Quick to Fire.
-Armour:
-Heavy Armour
-Mount’s Protection (6+)
-Dwarf Special Rules:
-Relentless
-Sp
-ecial Rules:
-Fly(8)
-Bombing Run: ​ During the Remaining Moves sub-phase you can bomb an unengaged enemy unit. Nominate one
-enemy unit which the unit moved or marched over this turn. This unit suffers 2D6 Strength 4 hits.
-Hold Guardians ​ 210 pts
-3 ​ models, may add up to 3 ​ models 70 pts / model
+Weapons: Swivel Gun: Range 24", Strength 4, Armour Piercing (1), Multiple Shots (4), Quick to Fire.
+Armour: Heavy Armour, Mount's Protection (6+)
+Dwarf Special Rules: Relentless
+Special Rules: Fly(8)
+Bombing Run: During the Remaining Moves sub-phase you can bomb an unengaged enemy unit. Nominate one enemy unit which the unit moved or marched over this turn. This unit suffers 2D6 Strength 4 hits.
+
+Hold Guardians 210 pts
+3 models, may add up to 3 models 70 pts / model
 M WS BS S T W I A Ld
 5 4 3 6 5 3 2 2 10 Monstrous Infantry 40x40mm base
-Armour:
-Plate Armour, Innate Defence (6+)
-Sp
-ecial Rules:
-Immune to Psychology, Magical Attacks, Multiple
-Wounds (D3)
+Armour: Plate Armour, Innate Defence (6+)
+Special Rules: Immune to Psychology, Magical Attacks, Multiple Wounds (D3)
 Options: pts
 May gain Flaming Attacks and Fireborn 5 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
-Vengeance Seeker ​ 60 pts
+
+Vengeance Seeker 60 pts
 single model
 M WS BS S T W I A Ld
 3 5 3 5 4 3 10 * 10 Infantry 20x20mm base
-Dwarf Special Rules:
-Relentless
-Sp
-ecial Rules:
-Unbreakable, Ward Save (6+), Swiftstride, Hard Target, Distracting, Random Attacks (3D3), ”Yer comin’ with me…!”
-19
-Rangers ​ 65 pts
-5 ​ models, may add up to 15 ​ models 11 pts/model
+Dwarf Special Rules: Relentless
+Special Rules: Unbreakable, Ward Save (6+), Swiftstride, Hard Target, Distracting, Random Attacks (3D3), "Yer comin' with me!"
+
+Rangers 65 pts
+5 models, may add up to 15 models 11 pts/model
 M WS BS S T W I A Ld
 3 4 4 3 4 1 2 1 9 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Dwarf Special Rules:
-Relentless, Sturdy
-Sp
-ecial Rules:
-Scout, Strider (Forest)
+Armour: Heavy Armour
+Dwarf Special Rules: Relentless, Sturdy
+Special Rules: Scout, Strider (Forest)
 Options: pts
 May take Skirmisher (max 10 models) 1 / model
 May take Shield 1 / model
@@ -858,17 +490,14 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
-Miners ​ 60 pts
-5 ​ models, may add up to 15 ​ models 10 pts/model
+
+Miners 60 pts
+5 models, may add up to 15 models 10 pts/model
 M WS BS S T W I A Ld
 3 4 3 4 4 1 2 1 9 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Dwarf Special Rules:
-Relentless, Sturdy
-Sp
-ecial Rules:
-Ambush
+Armour: Heavy Armour
+Dwarf Special Rules: Relentless, Sturdy
+Special Rules: Ambush
 Options: pts
 May take Shield 1 / model
 May take any of the following
@@ -879,54 +508,48 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
-20
+
 MOUNTS
 The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
+
 Shield Bearers
 M WS BS S T W I A Ld
 3 5 3 4 4 4 2 2 10 Infantry 40x20mm base
-Armour:
-Mount’s Protection (5+)
-Dwarf Special Rules:
-Sturdy, Relentless
+Armour: Mount's Protection (5+)
+Dwarf Special Rules: Sturdy, Relentless
+
 War Throne
 M WS BS S T W I A Ld
 3 5 3 4 4 6 2 4 10 Infantry 40x60mm base
-Armour:
-Mount’s Protection (5+)
-Dwarf Special Rules:
-Sturdy, Relentless
-Sp
-ecial Rules:
-Hatred
-Majesty of High Kings: ​ A General mounted on a Throne of War increases the range of its Inspiring Presence to 18” (if
-chosen as General). All friendly units within 6” of a Throne of War gain Swiftstride. If a character mounted on a
-Throne of War joins a unit and is subsequently slain, the unit gains Frenzy.
-21
+Armour: Mount's Protection (5+)
+Dwarf Special Rules: Sturdy, Relentless
+Special Rules: Hatred
+Majesty of High Kings: A General mounted on a Throne of War increases the range of its Inspiring Presence to 18" (if chosen as General). All friendly units within 6" of a Throne of War gain Swiftstride. If a character mounted on a Throne of War joins a unit and is subsequently slain, the unit gains Frenzy.
+
 Quick Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 CHARACTERS M WS BS S T W I A Ld
 L King 3 7 4 4 5 3 4 4 10
-Runic Master 3 6 4 4 5 3 3 3 10
-Daemon Seeker 3 7 4 5 5 3 5 4 10
-Master Engineer 3 6 4 4 5 3 3 3 10
+L Runic Master 3 6 4 4 5 3 3 3 10
+L Daemon Seeker 3 7 4 5 5 3 5 4 10
+L Master Engineer 3 6 4 4 5 3 3 3 10
 H Thane 3 6 4 4 5 2 3 3 10
-Runic Smith 3 5 3 4 4 2 3 2 9
-Dragon Seeker 3 6 3 4 5 2 4 4 10
-Engineer 3 5 4 4 4 2 3 2 9
+H Runic Smith 3 5 3 4 4 2 3 2 9
+H Dragon Seeker 3 6 3 4 5 2 4 4 10
+H Engineer 3 5 4 4 4 2 3 2 9
 INFANTRY
 C Clan Warrior 3 4 3 3 4 1 2 1 9
-Clan Marksman 3 4 3 3 4 1 2 1 9
-Greybeard 3 5 3 4 4 1 2 1 9
+C Clan Marksman 3 4 3 3 4 1 2 1 9
+C Greybeard 3 5 3 4 4 1 2 1 9
 S Iron Guard 3 5 3 4 4 1 2 1 9
-King’s Guard 3 5 3 4 4 1 2 2 9
-Forge Warden 3 5 3 4 4 1 2 1 9
-Seeker 3 4 3 4 4 1 2 1 10
+S King's Guard 3 5 3 4 4 1 2 2 9
+S Forge Warden 3 5 3 4 4 1 2 1 9
+S Seeker 3 4 3 4 4 1 2 1 10
 R Vengeance Seeker 3 5 3 5 4 3 10 * 10
-Ranger 3 4 4 3 4 1 2 1 9
-Miner 3 4 3 4 4 1 2 1 9
+R Ranger 3 4 4 3 4 1 2 1 9
+R Miner 3 4 3 4 4 1 2 1 9
 M Shield Bearer 3 5 3 4 4 4 2 2 10
-War Throne 3 5 3 4 4 6 2 4 10
+M War Throne 3 5 3 4 4 6 2 4 10
 MONSTROUS INF. M WS BS S T W I A Ld
 R Hold Guardian 5 4 3 6 5 3 2 2 10
 CAVALRY M WS BS S T W I A Ld
@@ -934,15 +557,14 @@ S Steam Copter 1* - - - 5 3 - - -
 - Driver - 4 3 4 4 - 2 2 9
 R Steam Bomber 1* - - - 5 3 - - -
 - Driver - 4 3 4 4 - 2 2 9
-WA
-RMACHINES
+WARMACHINES
 S Anvil of Power - - - - 7 4 - - -
 - Guard(4) 3 5 3 4 4 - 2 1 9
-Ballista - - - - 7 3 - - -
+S Ballista - - - - 7 3 - - -
 - Crew (3) 3 4 3 3 4 - 2 1 9
 R Field Artillery - - - - 7 3 - - -
 - Crew (3) 3 4 3 3 4 - 2 1 9
-Tunnel Artillery - - - - 7 3 - - -
+R Tunnel Artillery - - - - 7 3 - - -
 - Crew (3) 3 4 3 3 4 - 2 1 9
 SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
 common Wyrm-Slayer Rocket 24 8 - D3 -
@@ -950,8 +572,8 @@ common Forge Repeater 18 5 2D3 - 1
 Steam Bomber Swivel Gun 24 4 4 - 1
 Steam Copter Flame Culverin Flame Thrower 3 3 - - -
 Ballista Ballista Bolt Thrower 48 6 - D3 6
-Field Artillery Catapult Catapult (3”) 60 3[9] - [Ordnance] -
-Cannon (1) Cannon (D6”) 60 10 - Ordnance 2
+Field Artillery Catapult Catapult (3") 60 3[9] - [Ordnance] -
+Cannon (1) Cannon (D6") 60 10 - Ordnance 2
 Cannon (2) Volley Gun 12 4 2D6 - 3
 Tunnel Artillery Flame Cannon Flame Thrower 12 5 - D3 -
 Organ Gun Volley Gun 30 5 2D6*2 - 1
