@@ -13,10 +13,10 @@ Blessings
 Characters with this rule have Hatred and grants this bonus to any unit they join. The character may cast three different
 type of Bound Spells (Power Level 3) with the keyword Augment. These Bound Spells automatically target the caster's
 unit and last one turn.
-Volund’s Blessing Target unit may Reroll failed rolls to wound in close combat.
-Sunna’s Blessing Target unit gains Flaming Attacks. Any enemy unit in base contact with the target
+Volund's Blessing Target unit may Reroll failed rolls to wound in close combat.
+Sunna's Blessing Target unit gains Flaming Attacks. Any enemy unit in base contact with the target
 takes D6 Strength 4 Flaming Attacks hits.
-Ullor’s Blessing Target unit gain a Ward Save (5+) against Close Combat attacks.
+Ullor's Blessing Target unit gain a Ward Save (5+) against Close Combat attacks.
 Zealot
 A character with this special rule may join units of Flagellants and gains Unbreakable while it remains in the unit.
 Parent Units And Support Units
@@ -87,7 +87,7 @@ values are never swapping with the mount of the enemy
 model.
 Magical Standards
 Banner of the Stallion ​ (25 pts)
-The bearer’s unit ignores the movement penalty for
+The bearer's unit ignores the movement penalty for
 Barding and may reroll results of 1 when charging,
 fl
 eeing, pursuing or performing an overrun move.
@@ -156,7 +156,7 @@ Horse 8 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
 Armour:
 Plate Armour
 Mount:
-Horse with Barding and Mount’s Protection (6+)
+Horse with Barding and Mount's Protection (6+)
 Options: pts
 May take Magical Items up to 100
 May take a Shield 3
@@ -396,7 +396,7 @@ We
 apons:
 Great Weapon
 Armour:
-Mount’s Protection (6+), Plate Armour and Barding
+Mount's Protection (6+), Plate Armour and Barding
 Options: pts
 May replace Great Weapon with Lance 1 / model
 May take Shields 1 / model
@@ -454,7 +454,7 @@ We
 apons:
 Lance
 Armour:
-Mount’s Protection (6+), Plate Armour, shield
+Mount's Protection (6+), Plate Armour, shield
 and Barding
 Sp
 ecial rules:
@@ -477,7 +477,7 @@ We
 apons:
 Pistol
 Armour:
-Mount’s Protection (6+), Light Armour
+Mount's Protection (6+), Light Armour
 Sp
 ecial rules:
 Fast Cavalry
@@ -562,7 +562,7 @@ We
 apons:
 Halberd
 Armour:
-Mount’s Protection (6+), Plate Armour
+Mount's Protection (6+), Plate Armour
 Sp
 ecial rules:
 Armour Piercing (1) (mount only), Fear
@@ -610,7 +610,7 @@ ecial Rules:
 Random Movement (*), Large Target, Unbreakable, Breath Weapon (Strength 3, Armour Piercing (1)), Terror
 Steel Behemoth: ​ A Steel Tank always count as stationary for shooting purposes. A Steel Tank can never Pursue or
 Overrun.
-Steam Engine: ​ The Steel Tank’s current number of wounds dictates the value of its Movement, its number of
+Steam Engine: ​ The Steel Tank's current number of wounds dictates the value of its Movement, its number of
 Grinding Attacks and the range of its Steam Powered Cannon. A Steam tank may choose not to move.
 Current number of wounds Movement Grinding Attack Cannon Range
 8-10 wounds 1D6, 2D6 or 3D6 3D3 42”
@@ -624,14 +624,14 @@ Horse
 M WS BS S T W I A Ld
 8 3 - 3 3 1 3 1 3 War Beast 25x50mm base
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Options: pts
 May take Barding 15
 Pegasus
 M WS BS S T W I A Ld
 7 4 - 4 4 3 4 2 6 Monstrous Beast 40x40mm base
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Sp
 ecial Rules:
 Fly (8)
@@ -639,7 +639,7 @@ Young Griffon
 M WS BS S T W I A Ld
 7 4 - 5 4 3 4 3 7 Monstrous Beast 50x75mm base
 Armour:
-Mount’s Protection (6+)
+Mount's Protection (6+)
 Sp
 ecial Rules
 Armour Piercing (1), Fear
