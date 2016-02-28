@@ -1,0 +1,849 @@
+Fantasy Battles
+The 9th Age
+Highborn Elves
+Army Rules
+Version 0.11.0 Beta
+Army Special Rules
+Armoury
+Honours
+Magical Items
+Quick Reference Sheet
+Change Log
+Lords
+Heroes
+Core
+Special
+Rare
+Mounts
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.
+All relevant rules, as well as feedback and suggestions, can be found/given here:
+http://www.the-ninth-age.com/
+Rules changes between versions are colour coded in green. See change log at end of document.
+Army Special Rules
+Martial Discipline
+Models with this special rule test to make Leadership Tests on three dice, and may discard the highest. This rule cannot
+be used for Panic Tests nor Break Tests.
+Master of Balance
+If your army includes one or more models with this rule, add an additional +1 to Channel attempts in the opponent’s
+Magic Phase.
+Sword Sworn
+At the start of each Combat Phase a model with this rule that is on foot and fighting with a Great Weapon must choose to
+gain either +1 to-hit or Distracting from models in the front. This decision lasts until the end of that Combat Phase. All
+models in the same unit must choose the same effect.
+The model also gains Ward Save (6+) against Shooting attacks and Close Combat attacks.
+Valiant
+Models with this special rule gains Stubborn when in base contact with a model that causes Fear.
+Armoury
+Moonlight Arrows​ .
+When fired from a mundane Bow or Longbow, Moonlight Arrows grant +1 to-wound, Armour Piercing (1), Magical
+Attacks and Flaming Attacks.
+Lion’s Fur.
+Models on Foot only. Wearer has Innate Defence (6+) or Innate Defence (5+) against Shooting attacks. May not be taken
+by a model with Dragonforged Armour.
+Dragonforged Armour.
+Heavy Armour. The wearer gains Fireborn and Ward Save (6+).
+2
+Honours
+Honours of High Princes and​ ​ Commanders
+Master of Canreig Tower ​ (120/75 pts) - Models on foot only
+Bearer gains Sword Sworn, Master of Balance and becomes a Level 1
+Wizard Apprentice​ . Chooses 8/2 spells from the Lost Path
+(Commanders must note which spells on the army list).
+Fleet Officer ​ (20 pts)
+Bearer gains Quick to Fire and Weapon Master.
+If the bearer is on foot, wearer’s unit may perform a Combat Reform if it
+is successfully charged. This is performed after all charged towards
+bearer’s unit has been moved, and follows all rules and restrictions for
+Combat Reforms.
+Instead of the normal mount selection,
+the bearer may choose:
+Giant Eagle 50 / 60 pts
+Sky Sloop 65 / 75 pts
+The bearer may take
+Ambush 5 pts
+High Warden of the Flame ​ (90/75 pts)
+Bearer gains Ward Save (4+), Immune to Psychology, Magic Resistance
+(1). Bearer and the unit he/she join gain Holy Attacks.
+Instead of the normal mount selection,
+the bearer may choose:
+Fire Phoenix 160 / 210 pts
+Frost Phoenix* 200 pts
+*Hight Prince only
+Queen's Companion ​ (20 pts) - Models on foot only.
+Bearer gain Multiple Shot (3).
+Bearer’s unit gains Quick to Fire and ignore to-hit penalties for Multiple
+Shot.
+The bearer may take (one choice only)
+Scout 15 pts
+Moonlight Arrows 5 pts
+Royal Huntsman ​ (​ 40/30 pts)
+Bearer gain Valiant. When fighting with mundane Great Weapon, it gains
+Multiple Wounds (2, Monstrous Beast, Monstrous Cavalry, Chariot,
+Monsters, Ridden Monsters).
+Instead of the normal mount selection,
+the bearer may choose:
+Lion Chariot 90/ 100 pts
+Honours of Archmages and Mages
+Master of the Wizard Tower​ ​ (50 pts)
+The range of all non-aura, non-vortex spells cast by bearer is increased
+by +6”. In addition, the Wizard has a bound spell:
+Drain Magic: Power Level 4, Type:
+Range: 18”, Universal. Duration: Instant.
+All spell with Duration: Last One Turn or
+Remains In Play affecting the target
+immediately comes to an end.
+Order of the Fiery Heart​ (220/205 pts)
+The bearer must generate spells from Path of Fire, and always knows
+the spell Flaming Swords in addition to its normal spells. If the Flaming
+Sword is rolled while generating spells, simply reroll the dice. This does
+not prevent other wizards from knowing this spell. In addition, the Path
+Attribute Raging Fire deals D6 hits instead of D3 when cast by the
+bearer.
+Instead of the normal mount selection,
+the bearer must take:
+Young Dragon free
+Dragon* 130 pts
+Fire Phoenix* 20 pts
+*Archmage only
+3
+Magical items
+Magical Weapons
+Great Bow of Elu ​ (25 pts)
+Type: Longbow . Range 30”, Strength: As user +1 ,
+Armour Piercing (1).
+Magical Armour
+Daemon Hunter’s Helm ​ (25 pts)
+Type: None (6+ Armour Save). Wearer gains a Ward Save
+(3+) against Magical Attacks.
+Talismans
+Gleaming Robes ​ (45 pts) - Mage or Archmage only.
+Cannot be taken on Ridden Monsters.
+Wearer gain Ethereal. Bearer and his mount may not
+make attacks, including special attacks, and may not take
+Magical Weapons.
+Enchanted Items
+Shard of Nullification ​ (100 pts) - Model on foot only.
+Models within 6" of the bearer cannot Cast (including
+Aided Casting), Dispel (including Aided Dispels), and
+Channel. Magical Items (other than Shard of
+Nullification) within 6" have no effects (revert to
+mundane version of the items).
+Cloak of the Stars​ (25 pts)
+Spells cast against the bearer or his unit suffer -2 to their
+casting roll.
+Shard of Cenyrn ​ (10 pts)
+One use only. Use at the start of any combat phase. The
+wearer may reroll all to-hit and to-wound rolls until the
+end of the phase. Wounds caused by the bearer must
+reroll all successful saves of any kind. At the end of the
+phase the model suffers 1 wound with no saves of any
+kind allowed.
+Arcane Items
+Book of Meladys ​ (50/30 pts)
+Once per magic phase, the bearer can reroll a single
+Power or Dispel Dice when making casting or dispelling
+attempts, provided the dice ​ was not a '6'.
+Amethyst Crystal ​ (70 pts)
+During the enemy's magic phase, the Crystal allows the
+player to remove 1 dice from the opponent's Power Dice
+pool and add it to his own Dispel Dice pool.
+Magical Standards
+War Banner of Ryma ​ (50 pts)
+All Dragons within 12” gain Stubborn. The bearer and his
+unit gain Ward Save (5+) against Ranged Attacks and
+Ward Save (6+) against Close Combat Attacks.
+Banner of Becalming​ (25 pts)
+A Unit with this banner may perform Channeling, All
+fr
+iendly Wizards gain +1 to Dispel Attempts, up to a total
+maximum of +2.
+4
+Army List
+LORDS
+High Prince ​ 130 pts
+single model
+M WS BS S T W I A Ld
+5 7 7 4 3 3 8 4 10 Infantry 20x20mm base
+Armour:
+Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Options: pts
+May take Magical Items up to 100
+May take a single Honour no pt limit
+May take (one choice only):
+Lion’s Fur 15
+Dragonforged Armour 15
+May take any of the following
+Shield 5
+Heavy Armour 8
+May take a Longbow 3
+May take a weapon (one choice only)
+Additional Hand Weapon 5
+Spear 5
+Light Lance 5
+Great Weapon 10
+Halberd 10
+Lance 15
+May take a mount (one choice only)
+Elven Horse 20
+Giant Eagle 50
+Reaver Chariot 60
+Lion Chariot 90
+Griffon 120
+Young Dragon 170
+Dragon 250
+5
+Archmage ​ 190 pts
+single model
+M WS BS S T W I A Ld
+5 4 4 3 3 3 5 1 9 Infantry 20x20mm base
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Sp
+ecial Rules:
+Master of Balance
+Magic:
+Level 3 Wizard ​ Master​ . ​ Generate spells from Path
+of White Magic or any of the Battle Magic Paths
+Options: pts
+May become a Level 4 Wizard 35
+May take Magical Items up to 100
+May take a single Honour no pt limit
+May take a mount (one choice only)
+Elven Horse 20
+Giant Eagle 40
+Reaver Chariot 60
+Griffon 100
+Young Dragon 170
+Dragon 300
+6
+HEROES
+Commander ​ 70 pts
+single model
+M WS BS S T W I A Ld
+5 6 6 4 3 2 7 3 9 Infantry 20x20mm base
+Armour:
+Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Options: pts
+May be the Battle Standard Bearer 25
+May take Magical Items up to 50
+May take a single Honour no pt limit
+May take (one choice only):
+Lion’s Fur 4
+Dragonforged Armour 12
+May take any of the following
+May take a Shield 2
+Heavy Armour 5
+May take a Longbow 2
+May take a weapon (one choice only)
+Additional Hand Weapon 5
+Spear 5
+Light Lance 5
+Great Weapon 8
+Halberd 8
+Lance 10
+May take a mount (one choice only)
+Elven Horse 15
+Giant Eagle 60
+Reaver Chariot 70
+Lion Chariot 100
+Griffon 150
+Mage ​ 70 pts
+single model
+M WS BS S T W I A Ld
+5 4 4 3 3 2 5 1 8 Infantry 20x20mm base
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Sp
+ecial Rules:
+Master of Balance
+Magic:
+Level 1 Wizard​ Apprentice​ . ​ Generate spells from
+Path of White Magic or any of the Battle Magic
+Paths
+Options: pts
+May become a Level 2 Wizard 25
+May take Magical Items up to 50
+May take a single Honour no pt limit
+May take a mount (one choice only)
+Elven Horse 15
+Giant Eagle 40
+Reaver Chariot 60
+7
+CORE
+Citizen Spears ​ 80 pts
+10 ​ models, may add up to 40 ​ models 8 pts/model
+M WS BS S T W I A Ld
+5 4 4 3 3 1 5 1 8 Infantry 20x20mm base
+We
+apons:
+Spear
+Armour:
+Light Armour and Shields
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Sp
+ecial Rules:
+Fight in Extra Rank
+Options: pts
+May take Heavy Armour 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer*
+*The Veteran Standard Bearer is One of a Kind and may take a
+Magical Standard worth up to 25 pts.
+Citizen Archers ​ 90 pts
+10 ​ models, may add up to 20 ​ models 9 pts/model
+M WS BS S T W I A Ld
+5 4 4 3 3 1 5 1 8 Infantry 20x20mm base
+We
+apons:
+Longbow
+Armour:
+Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer
+Sea Guard ​ 110 pts
+10 ​ models, may add up to 30 ​ models 11 pts/model
+M WS BS S T W I A Ld
+5 4 4 3 3 1 5 1 8 Infantry 20x20mm base
+We
+apons:
+Spear and Bow
+Armour:
+Light Armour and Shield
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Sp
+ecial Rules:
+Fight in Extra Rank, Quick to Fire and Weapon
+Master
+Options: pts
+May take Heavy Armour 2 / model
+A single unit up to 30 models may purchase
+Ambush 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer
+8
+Highborn Lancers ​ 95 pts
+5 ​ models, may add up to 10 ​ models 18 pts/model
+M WS BS S T W I A Ld
+Rider 5 4 4 3 3 1 5 1 8
+Elven Horse 9 3 - 3 3 1 4 1 3 Cavalry 25x50mm base
+We
+apons:
+Lance
+Armour:
+Mount’s Protection (6+), Heavy Armour and Shield
+Army Special Rules:
+Martial Discipline and Lightning Reflexes (Rider
+only)
+Options: pts
+May take Mount’s Protection (5+) 4 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer
+Elein Reavers ​ 80 pts
+5 ​ models, may add up to 5 ​ models 16 pts/model
+M WS BS S T W I A Ld
+Rider 5 4 4 3 3 1 5 1 8
+Elven Horse 9 3 - 3 3 1 4 1 3 Cavalry 25x50mm base
+We
+apons:
+Light Lance
+Armour:
+Mount’s Protection (6+) and Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes (Rider
+only)
+Special Rules:
+Fast Cavalry
+Options: pts
+May take Mount’s Protection (5+) 3 / model
+May take Bow 1 / model
+May upgrade one Rider to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+9
+SPECIAL
+Sword Masters 65 pts
+5 ​ models, may add up to 25 ​ models 13 pts/model
+M WS BS S T W I A Ld
+5 6 4 3 3 1 6 2 8 Infantry 20x20mm base
+We
+apons:
+Great Weapon
+Armour:
+Heavy Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Sp
+ecial Rules:
+Sword Sworn
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+- may take a single Magical Weapon up to 25
+Musician 10
+Standard Bearer 10
+- may take Magical Standard up to 50
+Lion Guard ​ 130 pts
+10 ​ models, may add up to 20 ​ models 13 pts/model
+M WS BS S T W I A Ld
+5 5 4 4 3 1 5 1 8 Infantry 20x20mm base
+We
+apons:
+Great Weapon
+Armour:
+Heavy Armour and Lion’s Fur
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Sp
+ecial Rules:
+Multiple Wounds (2, Monstrous Cavalry, Monstrous
+Beasts, Chariot, Monster and Ridden Monster),
+Strider (Forest), Valiant and Bodyguard (High
+Prince and Commander)
+Options: pts
+A single unit may Skirmish (up to 15 models) 2 / model
+May upgrade one model to each of the following:
+Champion 10
+- may take a single Magical Weapon up to 25
+Musician 10
+Standard Bearer 10
+- may take Magical Standard up to 50
+10
+Flame Wardens ​ 150 pts
+10 ​ models, may add up to 15 ​ models 15 pts/model
+M WS BS S T W I A Ld
+5 5 4 3 3 1 6 1 9 Infantry 20x20mm base
+We
+apons:
+Halberd
+Armour:
+Heavy Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Sp
+ecial Rules:
+Fight in Extra Ranks, Immune to Psychology and
+Ward Save (4+)
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+- may take a single Magical Weapon up to 25
+Musician 10
+Standard Bearer 10
+- may take Magical Standard up to 50
+Grey Watchers ​ 80 pts
+5 ​ models, may add up to 7 ​ models 16 pts/model
+M WS BS S T W I A Ld
+5 5 5 3 3 1 5 1 8 Infantry 20x20mm base
+We
+apons:
+Bow
+Armour:
+Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Sp
+ecial Rules:
+Poisoned Attacks (Shooting only), Skirmishers and
+Scout
+Options: pts
+Additional Hand Weapon 1 / model
+May upgrade one model to Champion 10
+11
+Reaver Chariot ​ 65 pts
+1 ​ model, may add up to 3 ​ models 60 pts/model
+M WS BS S T W I A Ld
+Chariot - - - 5 4 4 - - -
+Crew (2) - 4 4 3 - - 5 1 8
+Elven Horse (2) 9 3 - 3 - - 4 1 3 Chariot 50x100mm base
+We
+apons:
+Light Lance and Longbow
+Armour:
+Mount’s Protection (6+) and Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes (Crew
+only)
+Sp
+ecial Rules:
+Free Reform
+Options: pts
+May purchase the Vanguard special rule 15 / model
+Lion Chariot ​ 90 pts
+single model
+M WS BS S T W I A Ld
+Chariot - - - 5 4 4 - - -
+Crew (2) - 5 4 4 - - 5 1 8
+Lion (2) 8 5 - 5 - - 4 2 - Chariot 50x100mm base
+We
+apons:
+Great Weapon
+Armour:
+Mount’s Protection (5+) and Heavy Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes (Crew
+only)
+Sp
+ecial Rules:
+Multiple Wounds (2, Monstrous Cavalry, Monstrous
+Beasts, Chariot, Monster and Ridden Monster)
+(Crew only), Valiant and Scythes
+12
+Sky Sloop ​ 70 pts
+1 ​ model, may add up to 2 ​ models 65 pts/model
+M WS BS S T W I A Ld
+Chariot - - - 4 4 4 - - -
+Crew (2) - 4 4 3 - - 5 1 8
+Hawk (1) 2 4 - 4 - - 4 2 8 Chariot 50x100mm base
+Weapons:
+Light Lance
+Sky Reaper:
+This is a Volley Gun Artillery Weapon​ with
+Range 24", Strength 3, Armour Piercing (1),
+Multiple Shots (5)
+Armour:
+Mount’s Protection (6+) and Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes (Crew
+only)
+Special Rules:
+Fly (9), Quick to Fire and Free Reform
+Options: pts
+May take a Giant Bow 25
+Giant Bow
+A Sky Reaper upgraded with Giant Bow may alternatively be
+fi
+red as a Bolt Thrower Artillery Weapon​ with the
+fo
+llowing profile:
+Range 24", Strength 5, Multiple Wounds (D3), Armour
+Piercing (6)
+Sea Guard Reaper​60 pts
+single model
+M WS BS S T W I A Ld
+Reaper - - - - 7 2 - - -
+Crew (2) 5 4 4 3 3 - 5 1 8 Warmachine 60mm round base
+We
+apons:
+Elven Bolt Thrower:
+This is a Bolt Thrower Artillery Weapon ​ with
+Range 48", Strength 6, Multiple Wounds (D3),
+Armour Piercing (6)
+Armour:
+Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Options: pts
+May purchase Repeating Shot 15
+Repeating Shot: ​ An Elven Bolt Thrower upgraded with
+Repeating Shots may alternatively be fired as a Volley Gun
+Artillery Weapon​ with the following profile:
+Range 48", Strength 4, Armour Piercing (1), Multiple Shots
+(6)
+13
+Giant Eagle ​ 50 pts
+1 ​ model, may add up to 4 ​ models 35 pts/model
+M WS BS S T W I A Ld
+2 5 0 4 4 3 4 2 8 Monstrous Beast 50x50mm base
+Sp
+ecial Rules:
+Fly (9)
+Options: pts
+May take Armour Piercing (1) 5 / model
+May take Lightning Reflexes 10 / model
+Knights of Ryma ​ 135 pts
+5 ​ models, may add up to 7 ​ models 27 pts / model
+M WS BS S T W I A Ld
+Knight 5 5 4 4 3 1 6 1 9
+Elven Horse 9 3 - 3 3 1 4 1 3 Cavalry 25x50mm base
+We
+apons:
+Lance
+Armour:
+Mount’s Protection (5+), Dragonforged Armour
+and Shields
+Army Special Rules:
+Martial Discipline and Lightning Reflexes (Knight
+only)
+Options: pts
+May take Devastating Charge 5 / model
+May upgrade one model to each of the following:
+Champion 10
+- may take a single Magical Weapon up to 25
+Musician 10
+Standard Bearer 10
+- may take Magical Standard up to 50
+14
+RA
+RE
+Queen’s Guard ​ 65 pts
+5 ​ models, may add up to 15 ​ models 13 pts/model
+M WS BS S T W I A Ld
+5 5 5 3 3 1 5 1 8 Infantry 20x20mm base
+We
+apons:
+Bow and Moonlight Arrows
+Armour:
+Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes
+Options: pts
+May take Spears 1 / model
+May take one of the following:
+Longbow 1 / model
+Skirmish (up to 10 models) 3 / model
+May upgrade one model to each of the following :
+Champion 10
+Musician* 10
+Standard Bearer* 10
+* cannot be taken if Skirmish
+15
+Phoenix 160 pts
+single model
+M WS BS S T W I A Ld
+Fire Phoenix 2 5 0 5 5 5 4 3 8 Monster 50x100mm base
+Frost Phoenix 2 5 0 5 5 5 3 5 8 Monster 50x100mm base
+Must become one of the following:
+Fire Phoenix​ (free)
+Sp
+ecial Rules:
+Fly (9), Magical Attacks, Ward Save (5+), Fireborn,
+Flaming Attacks
+Flame Swoop: ​ During the Remaining Moves sub-phase
+models with this rule can activate it over an unengaged
+enemy unit. Nominate one unit which the model moved
+over this turn. This unit suffers D6 hits, plus additional
+D3 hits for each rank the unit has after the first rank.
+These hits are Strength 4 with the Flaming Attacks
+Special Rule and are considered special and shooting
+attacks. Note that Magical Moves can also activate this
+ability.
+Rebirth: ​ When a Fire Phoenix loses its last wound, place
+a marker centered on the final position of the model. At
+the start of each of your remaining moves sub-phases,
+roll a D6 for each marker and consult the table below. If
+the Fire Phoenix is ridden, add 1 to the result, except for
+rolls of a natural 1.
+Frost Phoenix ​ (40 pts)
+Armour:
+Innate Defence (5+)
+Sp
+ecial Rules:
+Fly (8), Magical Attacks, Ward Save (5+)
+Chill Aura: ​ The model causes ​ enemy units in base
+contact to suffer -3 Initiative and -1 Strength, to a
+minimum of 1. Enemy units may only be affected by one
+Chill Aura at the time.
+1 or less Dead Embers: ​ Remove the marker
+2-3 Dying Flames:​ Marker remains, but subtract 1 from your next Rebirth
+roll
+4-5 Kindled Embers:​ Marker remains, but add 1 to your next Rebirth roll
+6 or more Phoenix Reborn: ​ Replace the marker with the model at full wounds,
+including any rider, within 3" from the marker (in any direction) and
+remove the marker. If you cannot place the model, treat the result as a 1.
+16
+MOUNTS
+The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
+Giant Eagle
+M WS BS S T W I A Ld
+2 5 0 4 4 3 4 2 8 Monstrous Beast 50x50mm base
+Armour:
+Mount’s Protection (6+)
+Sp
+ecial Rules:
+Fly (9)
+Options: pts
+May take Armour Piercing (1) 5
+May take Lightning Reflexes 10
+Griffon
+M WS BS S T W I A Ld
+6 5 0 5 5 4 5 4 5 Monstrous Beast 50x50mm base
+Sp
+ecial Rules:
+Fly (8), Large Target and Fear
+Options: pts
+May take Armour Piercing (1) 5
+May take Lightning Reflexes 10
+May take Thunderous Charge and Devastating
+Charge 25
+Elven Horse
+M WS BS S T W I A Ld
+9 3 0 3 3 1 4 1 3 War Beast 25x50mm base
+Armour:
+Mount’s Protection (6+)
+Options: pts
+May increase it’s Mount’s Protection to (5+) 10
+17
+Reaver Chariot
+M WS BS S T W I A Ld
+Chariot - - - 5 4 4 - - -
+Crew (2) - 4 4 3 - - 5 1 8
+Elven Horse (2) 9 3 - 3 - - 4 1 3 Chariot 50x100mm base
+We
+apons:
+Light Lance and Longbow
+Armour:
+Mount’s Protection (6+) and Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes (Crew
+only)
+Sp
+ecial Rules:
+Free Reform
+Options: pts
+May gain Vanguard 10 / model
+Lion Chariot
+M WS BS S T W I A Ld
+Chariot - - - 5 4 4 - - -
+Crew (2) - 5 4 4 - - 5 1 8
+Lion (2) 8 5 5 5 - - 4 2 - Chariot 50x100mm base
+We
+apons:
+Great Weapon
+Armour:
+Mount’s Protection (5+) and Heavy Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes (Crew only)
+Sp
+ecial Rules:
+Multiple Wounds (2, Monstrous Cavalry, Monstrous Beasts, Chariot, Monsters and Ridden Monster) (Crew only),
+Valiant and Scythes
+18
+Sky Sloop
+M WS BS S T W I A Ld
+Chariot - - - 4 4 4 - - -
+Crew (2) - 4 4 3 - - 5 1 8
+Hawk (1) 2 4 - 4 - - 4 2 8 Chariot 50x100mm base
+Weapons:
+Light Lance
+Sky Reaper:
+This is a Volley Gun Artillery Weapon​ with
+Range 24", Strength 3, Armour Piercing (1),
+Multiple Shots (5)
+Armour:
+Mount’s Protection (6+) and Light Armour
+Army Special Rules:
+Martial Discipline and Lightning Reflexes (Crew
+only)
+Special Rules:
+Fly (9), Quick to Fire and Ward Save (5+)
+Options: pts
+May take a Giant Bow 25
+Giant Bow
+A Sky Reaper upgraded with Giant Bow may alternatively fire
+as a Bolt Thrower Artillery Weapon​ with the following
+profile:
+Range 24", Strength 5, Multiple Wounds (D3), Armour Piercing
+(6)
+Fire Phoenix
+M WS BS S T W I A Ld
+2 5 0 5 5 5 4 3 8 Monster 50x100mm base
+Sp
+ecial Rules:
+Fly (9), Magical Attacks, Ward Save (4+), Fireborn, Flaming Attacks, Flame Swoop and Rebirth (see Phoenix rare
+unit)
+Frost Phoenix
+M WS BS S T W I A Ld
+2 5 0 5 5 5 3 5 8 Monster 50x100mm base
+Sp
+ecial Rules:
+Fly (8), Magical Attacks, Ward Save (4+), Innate Defence (5+) and Chill Aura (see Phoenix rare unit)
+19
+Young Dragon
+M WS BS S T W I A Ld
+6 5 1 5 5 5 3 4 9 Monster 50x100mm base
+Armour:
+Innate Defence (3+)
+Sp
+ecial Rules:
+Fly (8) and Breath Weapon (Strength 4, Flaming
+Attacks)
+Dragon ​ (One of a Kind)
+M WS BS S T W I A Ld
+Dragon 6 5 1 6 6 6 3 5 9 Monster 50x100mm base
+(Ancient Dragon) 6 6 1 7 7 7 3 6 9 Monster 50x100mm base
+Armour:
+Innate Defence (3+)
+Sp
+ecial Rules:
+Fly (7) and Breath Weapon (Strength 4, Flaming
+Attacks)
+Options: pts
+If mounted by a High Prince, may upgrade to
+Ancient Dragon 100
+
+Quick Reference Sheet
+L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
+CHARACTERS M WS BS S T W I A Ld
+L High Prince 5 7 7 4 3 3 8 4 10
+Archmage 5 4 4 3 3 3 5 1 9
+H Commander 5 6 6 4 3 2 7 3 9
+Mage 5 4 4 3 3 2 5 1 8
+INFANTRY
+C Citizen Spear 5 4 4 3 3 1 5 1 8
+Citizen Archer 5 4 4 3 3 1 5 1 8
+Seal Guard 5 4 4 3 3 1 5 1 8
+S Sword Master 5 6 4 3 3 1 6 2 8
+Flame Warden 5 5 4 3 3 1 6 1 9
+Lion Guard 5 5 4 4 3 1 5 1 8
+Grey Watcher 5 5 5 3 3 1 5 1 8
+R Queen’s Guard 5 5 5 3 3 1 5 1 8
+CAVALRY
+C Elein Reaver 5 4 4 3 3 1 5 1 8
+- Elven Horse 9 3 - 3 3 1 4 1 3
+Highborn Lancer 5 4 4 3 3 1 5 1 8
+- Elven Horse 9 3 - 3 3 1 4 1 3
+S Knight of Ryma 5 5 4 4 3 1 6 1 9
+- Elven Horse 9 3 - 3 3 1 4 1 3
+WA
+R BEASTS M WS BS S T W I A Ld
+M - Elven Horse 9 3 - 3 3 1 4 1 3
+MONSTROUS BEASTS
+S Giant Eagle 2 5 - 4 4 3 4 2 8
+M Griffon 6 5 - 5 5 4 5 4 5
+WA
+R MACHINES
+S Sea Guard Reaper - - - - 7 2 - - -
+- Crew (2) 5 4 4 3 3 - 5 1 8
+CHARIOTS
+S Reaver Chariot - - - 5 4 4 - - -
+- Crew (2) - 4 4 3 - - 5 1 8
+- Elven Horse (2) 9 3 - 3 - - 4 1 3
+Sky Sloop - - - 4 4 4 - - -
+- Crew (2) - 4 4 3 - - 5 1 8
+- Hawk (1) 2 4 - 4 - - 4 2 -
+Lion Chariot - - - 5 4 4 - - -
+- Crew (2) - 5 4 4 - - 5 1 8
+- Lion (2) 8 5 - 5 - - 4 2 -
+MONSTERS
+R Fire Phoenix 2 5 - 5 5 5 4 3 8
+Frost Phoenix 2 5 - 5 5 5 3 5 8
+M Young Dragon 6 5 1 5 5 5 3 4 9
+Dragon 6 5 1 6 6 6 3 5 9
+Ancient Dragon 6 6 1 7 7 7 3 6 9
+ARTILLERY WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
+Sea Guard Reaper Elven Bolt Thrower Bolt Thrower 48 6 - D3 6
+- Repeating Shot Volley Gun 48 4 6 - 1
+Hawk Chariot Sky Reaper Bolt Thrower 24 5 - D3 6
+Sky Repeater Volley Gun 24 3 5 - 1
