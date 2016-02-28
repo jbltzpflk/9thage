@@ -1,100 +1,56 @@
 Fantasy Battles
 The 9th Age
-Empire of Sonnstahl
-Army Rules
-Version 0.11.1 Beta
+Empire of Sonnstahl Army Rules Version 0.11.1 Beta
 
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.
-All relevant rules, as well as feedback and suggestions, can be found/given here:
-http://www.the-ninth-age.com/
-Rules changes between versions are colour coded in green. See change log at end of document.
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+
 Special Rules
-Blessings
-Characters with this rule have Hatred and grants this bonus to any unit they join. The character may cast three different
-type of Bound Spells (Power Level 3) with the keyword Augment. These Bound Spells automatically target the caster's
-unit and last one turn.
-Volund's Blessing Target unit may Reroll failed rolls to wound in close combat.
-Sunna's Blessing Target unit gains Flaming Attacks. Any enemy unit in base contact with the target
-takes D6 Strength 4 Flaming Attacks hits.
-Ullor's Blessing Target unit gain a Ward Save (5+) against Close Combat attacks.
-Zealot
-A character with this special rule may join units of Flagellants and gains Unbreakable while it remains in the unit.
+Blessings: Characters with this rule have Hatred and grants this bonus to any unit they join. The character may cast three different type of Bound Spells (Power Level 3) with the keyword Augment. These Bound Spells automatically target the caster's unit and last one turn.
+Volund's Blessing: Target unit may Reroll failed rolls to wound in close combat.
+Sunna's Blessing: Target unit gains Flaming Attacks. Any enemy unit in base contact with the target takes D6 Strength 4 Flaming Attacks hits.
+Ullor's Blessing: Target unit gain a Ward Save (5+) against Close Combat attacks.
+Zealot: A character with this special rule may join units of Flagellants and gains Unbreakable while it remains in the unit.
+
 Parent Units And Support Units
-Certain units in this Army Book are designated as either Parent Units or Support Units. Support Units are considered
-Insignificant to Parent Units and may perform Supporting Actions.
-Supporting Actions
-Whenever a Parent Unit is the target of a charge, or successfully declare a charge, a Support Unit within 6" of the Parent
-Unit may perform one of the following actions:
-1. The Support Unit may Stand and Shoot as if it were the target of the charge, applying all usual restrictions for a
-Stand and Shoot reaction.
-2. The Support Unit may declare a Charge upon an enemy unit which has successfully Charged a Parent Unit,
-applying all usual restrictions for Charging. This counter-charge is completed during your opponent's turn,
-after all charge movements have been finalized, but before the Compulsory Movement Sub-phase.
-3. The Support Unit may declare a charge against the same unit that the Parent Unit has declared a charge against.
-At the end of the round of combat, when calculating the Combat Resolution, both units may combine their rank
-bonus (following all normal restrictions), up to maximum of +6.
+Certain units in this Army Book are designated as either Parent Units or Support Units. Support Units are considered Insignificant to Parent Units and may perform Supporting Actions.
+Supporting Actions: Whenever a Parent Unit is the target of a charge, or successfully declare a charge, a Support Unit within 6" of the Parent Unit may perform one of the following actions:
+1. The Support Unit may Stand and Shoot as if it were the target of the charge, applying all usual restrictions for a Stand and Shoot reaction.
+2. The Support Unit may declare a Charge upon an enemy unit which has successfully Charged a Parent Unit, applying all usual restrictions for Charging. This counter-charge is completed during your opponent's turn, after all charge movements have been finalized, but before the Compulsory Movement Sub-phase.
+3. The Support Unit may declare a charge against the same unit that the Parent Unit has declared a charge against.  At the end of the round of combat, when calculating the Combat Resolution, both units may combine their rank bonus (following all normal restrictions), up to maximum of +6.
 
 Orders
-Lord-level Characters with this special rule may give a single Order to a friendly Parent or Support Unit within a 6",
-whilst Hero-level Characters may only give a single Order to a Parent or Support Unit it has joined. Orders are given at
+Lord-level Characters with this special rule may give a single Order to a friendly Parent or Support Unit within a 6", whilst Hero-level Characters may only give a single Order to a Parent or Support Unit it has joined. Orders are given at
 the start of each friendly player turn. Each order has the following effect:
-On The Double! The target unit gains +2 Movement but cannot declare a charge this turn.
-Steady Men! The target unit may roll an additional D6 when taking Leadership Tests and discard the
-highest roll. A unit that receives this Order and passes a Rally test may act in the same turn
-but counts as having moved, which means the unit receives a shooting penalty, cannot March
-and cannot declare charges.
-Ready! Aim! Fire! The target unit gains +1 to hit with shooting attacks
-Brace For Impact! The target unit gains Fight In Extra Rank but cannot declare charges
-The effect of Orders applies immediately to the target unit and lasts one turn. A unit cannot receive the same order
-more than once during the same turn.
+On The Double!: The target unit gains +2 Movement but cannot declare a charge this turn.
+Steady Men!: The target unit may roll an additional D6 when taking Leadership Tests and discard the highest roll. A unit that receives this Order and passes a Rally test may act in the same turn but counts as having moved, which means the unit receives a shooting penalty, cannot March and cannot declare charges.
+Ready! Aim! Fire!: The target unit gains +1 to hit with shooting attacks
+Brace For Impact!: The target unit gains Fight In Extra Rank but cannot declare charges
+The effect of Orders applies immediately to the target unit and lasts one turn. A unit cannot receive the same order more than once during the same turn.
+
 Armoury
-Repeater Gun
-Shooting Weapon. Range 24", Strength 4, Armour Piercing (1), Multiple shots (3), Unwieldy.
-Long Rifle
-Shooting Weapon. Range 48", Strength 5, Armour Piercing (1), Move or Fire, Multiple Wounds (D3), adds +1 to hit when
-shooting.
+Repeater Gun: Shooting Weapon. Range 24", Strength 4, Armour Piercing (1), Multiple shots (3), Unwieldy.
+Long Rifle: Shooting Weapon. Range 48", Strength 5, Armour Piercing (1), Move or Fire, Multiple Wounds (D3), adds +1 to hit when shooting.
 
 Magical Items
 Magical Weapons
-The Sonnstahl  (85 pts)
-Type: Hand weapon. Attacks made with this weapon
-wounds automatically and have Armour Piercing (6).
-Hammer of Witches  (35 pts)
-Type: Hand weapon. Attacks made with this weapons has
-Lighting reflexes and +1 Strength.
-Star Mace  (30 pts)
-Type: Great weapon. The bearer gains Crush Attack.
+The Sonnstahl (85 pts): Type: Hand weapon. Attacks made with this weapon wounds automatically and have Armour Piercing (6).
+Hammer of Witches (35 pts): Type: Hand weapon. Attacks made with this weapons has Lighting reflexes and +1 Strength.
+Star Mace (30 pts): Type: Great weapon. The bearer gains Crush Attack.
+
 Magical Armour
-Blessed Armour of Frederick the Great  (35 pts) –
-models on foot only
-Type: Plate Armour. The wearer has a 1+ armour save.
-The Black Helm  (15 pts)
-Type: None (6+ armour save). The wearer causes Fear.
-Armour of Volund  (25 pts)
-Type: Plate armour. Attacks against the wearer with
-Lethal Strike loses this special rule.
+Blessed Armour of Frederick the Great (35 pts): models on foot only Type: Plate Armour. The wearer has a 1+ armour save.
+The Black Helm (15 pts): Type: None (6+ armour save). The wearer causes Fear.
+Armour of Volund (25 pts): Type: Plate armour. Attacks against the wearer with Lethal Strike loses this special rule.
+
 Talismans
-The Winter Cloak  (50 pts)
-The bearer gains Distracting, Fireborn and Ward Save
-(5+).
+The Winter Cloak (50 pts): The bearer gains Distracting, Fireborn and Ward Save (5+).
+
 Enchanted Items
-Locket of Sunna  (30 pts)
-The bearer automatically swaps the characteristic values
-of Strength, Toughness, Initiative and Attack on his
-profile with those of his opponent when fighting in a
-challenge. Use the unmodified value. The exchanged
-values are never swapping with the mount of the enemy
-model.
+Locket of Sunna (30 pts): The bearer automatically swaps the characteristic values of Strength, Toughness, Initiative and Attack on his profile with those of his opponent when fighting in a challenge. Use the unmodified value. The exchanged values are never swapping with the mount of the enemy model.
+
 Magical Standards
-Banner of the Stallion  (25 pts)
-The bearer's unit ignores the movement penalty for
-Barding and may reroll results of 1 when charging,
-fl
-eeing, pursuing or performing an overrun move.
-Banner of Unity  (25 pts) - Infantry only
-The bearer's unit cannot be disrupted from being
-fl
-anked. Notice it can be disrupted by the rear.
+Banner of the Stallion (25 pts): The bearer's unit ignores the movement penalty for Barding and may reroll results of 1 when charging, fleeing, pursuing or performing an overrun move.
+Banner of Unity (25 pts) - Infantry only: The bearer's unit cannot be disrupted from being flanked. Notice it can be disrupted by the rear.
 
 Army List
 LORDS
@@ -102,11 +58,8 @@ Marshal 90 pts
 single model
 M WS BS S T W I A Ld
 4 5 5 4 4 3 5 3 9 Infantry 20x20mm base
-Armour:
-Plate Armour
-Sp
-ecial rules:
-Orders
+Armour: Plate Armour
+Special rules: Orders
 Options: pts
 May take Magical Items Up to 100
 May take a Shield 3
@@ -122,41 +75,18 @@ Pegasus 60
 Great Griffon 130
 Dragon (Imperial Prince only) 250
 May upgrade to one of the following (One of a Kind each):
-Seasoned General  (10 pts) Great Tactician (30 pts) Imperial Prince  (100 pts)
-A Seasoned General gains +1
-Weapon Skill. If a Seasoned General
-is included in the army, one unit of
-Heavy Infantry may be upgraded to
-Veterans. Additionally, one unit of
-Light Infantry may be upgraded to
-Veterans.
-A Great Tactician may give two
-orders per turn instead of one and
-these two orders may each target a
-different unit. If a Great Tactician is
-the General of the army then he may
-give Orders to any Parent or Support
-unit within the range of his Inspiring
-Presence. A Marshal who is
-upgraded to Great Tactician may be
-the General of the army even if they
-are not the character with the
-highest Leadership value.
-An Imperial Prince gains +1
-Leadership and is equipped with the
-Sonnstahl. An Imperial Prince may
-not purchase any other Magical
-Weapon.
+Seasoned General (10 pts) Great Tactician (30 pts) Imperial Prince (100 pts)
+A Seasoned General gains +1 Weapon Skill. If a Seasoned General is included in the army, one unit of Heavy Infantry may be upgraded to Veterans. Additionally, one unit of Light Infantry may be upgraded to Veterans.
+A Great Tactician may give two orders per turn instead of one and these two orders may each target a different unit. If a Great Tactician is the General of the army then he may give Orders to any Parent or Support unit within the range of his Inspiring Presence. A Marshal who is upgraded to Great Tactician may be the General of the army even if they are not the character with the highest Leadership value.
+An Imperial Prince gains +1 Leadership and is equipped with the Sonnstahl. An Imperial Prince may not purchase any other Magical Weapon.
 
-Knight Commander  135 pts
+Knight Commander 135 pts
 single model
 M WS BS S T W I A Ld
 Commander 4 6 3 4 4 3 6 4 9
 Horse 8 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
-Armour:
-Plate Armour
-Mount:
-Horse with Barding and Mount's Protection (6+)
+Armour: Plate Armour
+Mount: Horse with Barding and Mount's Protection(6+)
 Options: pts
 May take Magical Items up to 100
 May take a Shield 3
@@ -166,15 +96,13 @@ Great Weapon 10
 Lance 15
 May replace Horse and its Barding with
 Young Griffon 35
-Legendary Warrior : A Knight Commander is Immune to Psychology and confers this effect to any unit he joins. If a
-Knight Commander is included in the army, one unit of Electoral Cavalry may be upgraded to Imperial Cavalry.
-Archwizard  175 pts
+Legendary Warrior : A Knight Commander is Immune to Psychology and confers this effect to any unit he joins. If a Knight Commander is included in the army, one unit of Electoral Cavalry may be upgraded to Imperial Cavalry.
+
+Archwizard 175 pts
 single model
 M WS BS S T W I A Ld
 4 3 3 3 4 3 3 1 8 Infantry 20x20mm base
-Magic:
-Level 3 Wizard Master . Generates spells from one
-of the Battle Magic Paths.
+Magic: Level 3 Wizard Master . Generates spells from one of the Battle Magic Paths.
 Options: pts
 May take Magical Items up to 100
 May become Wizard Level 4 35
@@ -184,15 +112,12 @@ Pegasus 40
 Arcane Engine 130
 Great Griffon (Path of Wilderness only) 130
 
-Prelate  85 pts
+Prelate 85 pts
 single model
 M WS BS S T W I A Ld
 4 4 3 4 4 3 4 2 9 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Sp
-ecial Rules:
-Blessings, Channel, Divine Attacks, Zealot
+Armour: Heavy Armour
+Special Rules: Blessings, Channel, Divine Attacks, Zealot
 Options: pts
 May take Magical Items up to 100
 May take a Shield 3
@@ -210,11 +135,8 @@ Captain 60 pts
 single model
 M WS BS S T W I A Ld
 4 5 5 4 4 2 5 3 8 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Sp
-ecial Rules:
-Orders
+Armour: Heavy Armour
+Special Rules: Orders
 Options: pts
 May be the Battle Standard Bearer 25
 May take Magical Items up to 50
@@ -230,15 +152,13 @@ Pistol 6
 May take a mount (one choice only):
 Horse 15
 Pegasus 55
+
 Artificer 50 pts
 single model
 M WS BS S T W I A Ld
 4 3 4 3 3 2 3 1 7 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Sp
-ecial Rules:
-Engineer
+Armour: Heavy Armour
+Special Rules: Engineer
 Options: pts
 May take Magical Items up to 25
 May take a weapon (one choice only)
@@ -249,30 +169,24 @@ Repeater Gun 10
 Long Rifle 15
 May ride a Horse 10
 May become a Master Artificer 25
-Master Artificer : The Engineer may give the order
-Ready! Aim! Fire!  to a Parent Unit or Support Unit
-it has joined.
+Master Artificer: The Engineer may give the order Ready! Aim! Fire! to a Parent Unit or Support Unit it has joined.
 
-Wizard  65 pts
+Wizard 65 pts
 single model
 M WS BS S T W I A Ld
 4 3 3 3 3 2 3 1 7 Infantry 20x20mm base
-Magic:
-Level 1 Wizard Apprentice . Generates spells from
-one of the Battle Magic Paths.
+Magic: Level 1 Wizard Apprentice . Generates spells from one of the Battle Magic Paths.
 Options: pts
 May take Magical Items Up to 50
 May become a Level 2 Wizard 25
 May ride a Horse 10
-Preacher  65 pts
+
+Preacher 65 pts
 single model
 M WS BS S T W I A Ld
 4 4 4 4 4 2 4 2 8 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Sp
-ecial Rules:
-Blessings, Channel, Divine Attacks, Zealot
+Armour: Heavy Armour
+Special Rules: Blessings, Channel, Divine Attacks, Zealot
 Options: pts
 May take Magical Items Up to 50
 May take a Shield 2
@@ -281,16 +195,13 @@ Additional Hand Weapon 3
 Flail 3
 Great Weapon 6
 May ride a Horse 15
-Inquisitor  55 pts
+
+Inquisitor 55 pts
 single model
 M WS BS S T W I A Ld
 4 5 4 4 4 2 4 2 8 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Sp
-ecial Rules:
-Immune to Psychology, Not a Leader, Lethal Strike,
-Multiple Wounds (D3), Magic Resistance (2)
+Armour: Heavy Armour
+Special Rules: Immune to Psychology, Not a Leader, Lethal Strike, Multiple Wounds (D3), Magic Resistance (2)
 Options: pts
 May take Magical Items up to 50
 May take a Shield 2
@@ -301,33 +212,18 @@ Great Weapon 6
 Crossbow 5
 May ride Horse 15
 - May gain Free Reform 15
-Nobody Expects…:  The Inquisitor may choose one of the following specialization at the start of the game:
-Wi
-tch Hunter
-A Witch Hunter causes enemy spells
-targeting the character or his unit to
-receive a -1 penalty to their Casting
-rolls. Spells with the Aura keyword
-are not affected.
-Daemon Hunter
-A Daemon Hunter has Divine
-Attacks.
-Va
-mpire Hunter
-A Vampire Hunter gains Flaming
-Attacks and Magical Attacks.
+Nobody Expects...: The Inquisitor may choose one of the following specialization at the start of the game:
+Witch Hunter: A Witch Hunter causes enemy spells targeting the character or his unit to receive a -1 penalty to their Casting rolls. Spells with the Aura keyword are not affected.
+Daemon Hunter: A Daemon Hunter has Divine Attacks.
+Vampire Hunter: A Vampire Hunter gains Flaming Attacks and Magical Attacks.
 
 CORE
-Light Infantry  80 pts
+Light Infantry 80 pts
 10 models, may add up 10 models 7 pts / model
 M WS BS S T W I A Ld
 4 3 3 3 3 1 3 1 7 Infantry 20x20mm base
-We
-apons:
-Crossbow
-Sp
-ecial Rules:
-Support Unit
+Weapons: Crossbow
+Special Rules: Support Unit
 Options: pts
 May replace Crossbow with Handgun free
 May upgrade one model to each of the following:
@@ -338,20 +234,15 @@ Repeater Gun 10
 Musician 10
 Standard Bearer 10
 If the army has a Seasoned General :
-One unit of Heavy Infantry of Light Infantry
-may be upgraded to Veterans: 2 / model
-Veterans: models get +1 Ballistic Skill and gain Light
-Armour
-Heavy Infantry  50 pts
+One unit of Heavy Infantry of Light Infantry may be upgraded to Veterans: 2 / model
+Veterans: models get +1 Ballistic Skill and gain Light Armour
+
+Heavy Infantry 50 pts
 10 models, may add up 50 models 5 pts / model
 M WS BS S T W I A Ld
 4 3 3 3 3 1 3 1 7 Infantry 20x20mm base
-Armour:
-Light Armour and Shield
-Sp
-ecial Rules:
-Support Unit (Only units of 20 or less models)
-Parent Unit (Only units of 21 or more models)
+Armour: Light Armour and Shield
+Special Rules: Support Unit (Only units of 20 or less models) Parent Unit (Only units of 21 or more models)
 Options: pts
 May take a weapon (one choice only)
 Spear free
@@ -361,42 +252,30 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - May become the Veteran Standard Bearer*
-*A Veteran Standard Bearer is One of a Kind and may take a
-Magical Standard worth up to 25 pts.
-If the army has a Seasoned General :
-One unit of Heavy Infantry of Light Infantry
-may be upgraded to Veterans: 1 / model
-Veterans:  models get +1 Weapon Skill and +1 Initiative
+*A Veteran Standard Bearer is One of a Kind and may take a Magical Standard worth up to 25 pts.
+If the army has a Seasoned General: One unit of Heavy Infantry of Light Infantry may be upgraded to Veterans: 1 / model
+Veterans: models get +1 Weapon Skill and +1 Initiative
 
 State Militia 40 pts
 5 models, may add up 50 models 4 pts / model
 M WS BS S T W I A Ld
 4 3 3 3 3 1 3 1 6 Infantry 20x20mm base
-We
-apons:
-Additional Hand Weapon
-Sp
-ecial Rules:
-Support Unit (Only units of 20 or less models),
-Skirmishers (when 15 or less models).
+Weapons: Additional Hand Weapon
+Special Rules: Support Unit (Only units of 20 or less models), Skirmishers (when 15 or less models).
 Options: pts
-All models may replace Additional Hand Weapon
-with Bow 2 / model
-with Pistol 2 / model
+All models may replace Additional Hand Weapon with Bow 2 / model with Pistol 2 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
-Electoral Cavalry  90 pts
+
+Electoral Cavalry 90 pts
 5 models, may add up 10 models 18 pts / model
 M WS BS S T W I A Ld
 Rider 4 3 3 3 3 1 3 1 8
 Horse 8 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
-We
-apons:
-Great Weapon
-Armour:
-Mount's Protection (6+), Plate Armour and Barding
+Weapons: Great Weapon
+Armour: Mount's Protection (6+), Plate Armour and Barding
 Options: pts
 May replace Great Weapon with Lance 1 / model
 May take Shields 1 / model
@@ -405,82 +284,58 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - May become the Veteran Standard Bearer
-If army have a Knight Commander :
-One unit may be upgraded to Imperial Cavalry 4 / model
-Imperial Cavalry:  Riders gain +1 Weapon Skill and +1
-Strength on their characteristic profile.
-If upgraded, may replace Great Weapon with
-Cavalry Hammers (count as Halberds) 1 / model
+If army have a Knight Commander : One unit may be upgraded to Imperial Cavalry 4 / model
+Imperial Cavalry: Riders gain +1 Weapon Skill and +1 Strength on their characteristic profile.  If upgraded, may replace Great Weapon with Cavalry Hammers (count as Halberds) 1 / model
 
 SPECIAL
-Imperial Guard  90 pts
+Imperial Guard 90 pts
 10 models, may add up 30 models 9 pts / model
 M WS BS S T W I A Ld
 4 4 3 4 3 1 3 1 8 Infantry 20x20mm base
-We
-apons:
-Hand Weapon and Shield
-Armour:
-Plate Armour
-Sp
-ecial Rules
-Bodyguard, Parent Unit
+Weapons: Hand Weapon and Shield
+Armour: Plate Armour
+Special Rules: Bodyguard, Parent Unit
 Options: pts
-May replace Shield with
-Great Weapon 1 / model
+May replace Shield with Great Weapon 1 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
-Imperial Rangers  50 pts
+
+Imperial Rangers 50 pts
 5 models, may add up 5 models 10 pts / mode
 M WS BS S T W I A Ld
 4 3 4 3 3 1 3 1 7 Infantry 20x20mm base
-We
-apons:
-Bow
-Sp
-ecial Rules:
-Multiple Shots (2), Scout, Skirmishers
+Weapons: Bow
+Special Rules: Multiple Shots (2), Scout, Skirmishers
 Options: pts
 May upgrade one model to a Champion 10
-Knightly Orders  145 pts
+
+Knightly Orders 145 pts
 5 models, may add up 7 models 26 pts / model
 M WS BS S T W I A Ld
 Rider 4 4 3 4 3 1 4 2 8
 Horse 8 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
-We
-apons:
-Lance
-Armour:
-Mount's Protection (6+), Plate Armour, shield
-and Barding
-Sp
-ecial rules:
-Bodyguard (Knight Commander, General)
+Weapons: Lance
+Armour: Mount's Protection (6+), Plate Armour, shield and Barding
+Special rules: Bodyguard (Knight Commander, General)
 Options: pts
-May replace Lance and Shield with
-Cavalry Hammers (count as Halberd) free
+May replace Lance and Shield with Cavalry Hammers (count as Halberd) free
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
 
-Reiters  75 pts
+Reiters 75 pts
 5 models, may add up 10 models 15 pts / model
 M WS BS S T W I A Ld
 Rider 4 3 4 3 3 1 3 1 7
 Horse 8 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
-We
-apons:
-Pistol
-Armour:
-Mount's Protection (6+), Light Armour
-Sp
-ecial rules:
-Fast Cavalry
+Weapons: Pistol
+Armour: Mount's Protection (6+), Light Armour
+Special rules: Fast Cavalry
 Options: pts
 May take Heavy Armour 2 / model
 May replace Pistol with
@@ -492,80 +347,48 @@ Champion 10
 - may take:
 Repeater Gun 10
 Musician 10
-Fire on Impact!
-In the first Round of Combat after Charging, a model with this rule may perform additional attacks; 1 attack if
-equipped with a Pistol or 2 attacks if equipped with a Brace of Pistols. These attacks are resolved at Initiative (10),
-Strength 4 and benefit from Armour Piercing (1).
-Flagellants  100 pts
+Fire on Impact!: In the first Round of Combat after Charging, a model with this rule may perform additional attacks; 1 attack if equipped with a Pistol or 2 attacks if equipped with a Brace of Pistols. These attacks are resolved at Initiative (10), Strength 4 and benefit from Armour Piercing (1).
+
+Flagellants 100 pts
 10 models, may add up 30 models 9 pts / model
 M WS BS S T W I A Ld
 4 3 3 3 4 1 3 1 6 Infantry 20x20mm base
-We
-apons:
-Flail
-Sp
-ecial Rules:
-Unbreakable
-Fanatical:  Models with this rule benefit from
-Frenzy and may never lose it.
+Weapons: Flail
+Special Rules: Unbreakable
+Fanatical: Models with this rule benefit from Frenzy and may never lose it.
 Options: pts
 May upgrade one model to a Champion 10
 
-Arcane Engine  130 pts
+Arcane Engine 130 pts
 single model
 M WS BS S T W I A Ld
 Arcane Engine - - - 5 5 5 - - -
 Crew (2) 4 3 3 3 - - 3 1 7
 Horse (2) 8 3 - 3 - - 3 1 3 Chariot 50x100mm base
-Armour:
-Heavy Armour
-Sp
-ecial Rules:
-Channel, Large Target
-An Arcane Altar must  take one of the following upgrades:
-Arcane Shield  (free)
-An Arcane Engine with Arcane Shield grants Hard
-Target to every friendly unit within 6". The Engine may
-cast Shield of Protection from the Path of Light as a
-bound spell (power level 3).
-Foreseeing  (free)
-An Arcane Engine with Foreseeing grants Lighting
-Reflexes to every friendly unit within 6", excluding
-mounts. The Engine may cast Thunderbolt from the
-Path of Heavens as a bound spell (power level 4).
+Armour: Heavy Armour
+Special Rules: Channel, Large Target
+An Arcane Altar must take one of the following upgrades:
+Arcane Shield (free): An Arcane Engine with Arcane Shield grants Hard Target to every friendly unit within 6". The Engine may cast Shield of Protection from the Path of Light as a bound spell (power level 3).
+Foreseeing (free): An Arcane Engine with Foreseeing grants Lighting Reflexes to every friendly unit within 6", excluding mounts. The Engine may cast Thunderbolt from the Path of Heavens as a bound spell (power level 4).
+
 Light Artillery
 single model
 M WS BS S T W I A Ld
 Machine - - - - 7 3 - - -
 Crew (3) 4 3 3 3 3 - 3 1 7 Warmachine 60mm round base
 Must take one of the following:
-Rocket Battery  (130 pts)
-This is a Catapult (3") Artillery Weapon with
-Range 36". This war machine never subtract the BS of
-the crew for the shooting outside line of sight. Instead of
-hitting models under the template as normal, any unit
-under the template suffers D6 hits with Strength 5 and
-Armour Piercing (1), Multiple Wounds (D3) and Flaming
-Attacks special rules.
-Mortar  (60 pts)
-This is a Catapult (5") Artillery Weapon with
-Range 12-48", Strength 2, Armour Piercing (1).
+Rocket Battery (130 pts): This is a Catapult (3") Artillery Weapon with Range 36". This war machine never subtract the BS of the crew for the shooting outside line of sight. Instead of hitting models under the template as normal, any unit under the template suffers D6 hits with Strength 5 and Armour Piercing (1), Multiple Wounds (D3) and Flaming Attacks special rules.
+Mortar (60 pts): This is a Catapult (5") Artillery Weapon with Range 12-48", Strength 2, Armour Piercing (1).  
 
-RA
-RE
-Knights of the Sun Griffon  150 pts
+RARE
+Knights of the Sun Griffon 150 pts
 3 models, may add up 4 models 52 pts / model
 M WS BS S T W I A Ld
 Rider 4 4 3 4 3 1 4 1 8
 Young Griffon 7 4 - 5 4 3 4 3 7 Monstrous Cavalry 50x75mm base
-We
-apons:
-Halberd
-Armour:
-Mount's Protection (6+), Plate Armour
-Sp
-ecial rules:
-Armour Piercing (1) (mount only), Fear
+Weapons: Halberd
+Armour: Mount's Protection (6+), Plate Armour
+Special rules: Armour Piercing (1) (mount only), Fear
 Options: pts
 May replace Halberd with Lance and Shield 5 /model
 May upgrade one Model to each of the following:
@@ -573,128 +396,99 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
+
 Heavy Artillery
 single model
 M WS BS S T W I A Ld
 Machine - - - - 7 3 - - -
 Crew (3) 4 3 3 3 3 - 3 1 7 Warmachine 60mm round base
 Must take one of the following:
-Volley Gun  (125 pts)
-This is a Volley Gun Artillery Weapon with
-Range 24", Strength 5, Armour Piercing (1), Multiple
-Shots (3D6*2)
-Cannon  (100 pts)
-This weapon can be fired in two ways:
-- As a Cannon (D6) Artillery Weapon with
-Range 72", Strength 10, Armour Piercing (2), Multiple
-Wounds (Ordnance)
-- As a Volley Gun Artillery Weapon with
-Range 12", Strength 4, Armour Piercing (3), Multiple
-Shots (2D6).
+Volley Gun (125 pts): This is a Volley Gun Artillery Weapon with Range 24", Strength 5, Armour Piercing (1), Multiple Shots (3D6*2)
+Cannon (100 pts): This weapon can be fired in two ways:
+- As a Cannon (D6) Artillery Weapon with Range 72", Strength 10, Armour Piercing (2), Multiple Wounds (Ordnance)
+- As a Volley Gun Artillery Weapon with Range 12", Strength 4, Armour Piercing (3), Multiple Shots (2D6).
 
-Steam Tank  300 pts (one of a kind)
+Steam Tank 300 pts (one of a kind)
 single model
 M WS BS S T W I A Ld
 Steampanzer * - - 6 6 10 - - -
 Crew (1) - 3 3 3 - - 3 1 7 Chariot 50x100mm base
-We
-apons:
-Repeater Gun
-Steam Powered Cannon:
-This is a Cannon (D6) Artillery Weapon with
-Range: see below, Strength 7, Armour Piercing (2), Multiple Wounds (D3)
-Armour:
-Innate Defence (1+)
-Sp
-ecial Rules:
-Random Movement (*), Large Target, Unbreakable, Breath Weapon (Strength 3, Armour Piercing (1)), Terror
-Steel Behemoth:  A Steel Tank always count as stationary for shooting purposes. A Steel Tank can never Pursue or
-Overrun.
-Steam Engine:  The Steel Tank's current number of wounds dictates the value of its Movement, its number of
-Grinding Attacks and the range of its Steam Powered Cannon. A Steam tank may choose not to move.
+Weapons: Repeater Gun
+Steam Powered Cannon: This is a Cannon (D6) Artillery Weapon with Range: see below, Strength 7, Armour Piercing (2), Multiple Wounds (D3)
+Armour: Innate Defence (1+)
+Special Rules: Random Movement (*), Large Target, Unbreakable, Breath Weapon (Strength 3, Armour Piercing (1)), Terror
+Steel Behemoth: A Steel Tank always count as stationary for shooting purposes. A Steel Tank can never Pursue or Overrun.
+Steam Engine: The Steel Tank's current number of wounds dictates the value of its Movement, its number of Grinding Attacks and the range of its Steam Powered Cannon. A Steam tank may choose not to move.
 Current number of wounds Movement Grinding Attack Cannon Range
 8-10 wounds 1D6, 2D6 or 3D6 3D3 42"
 4-7 wounds 1D6 or 2D6 2D3 30"
 1-3 wounds 1D6 1D3 18"
 
 MOUNTS
-This section show the profile entries of mount options for characters. Models of the same name but which are not
-character mounts must follow the rules given under their respective entries.
+This section show the profile entries of mount options for characters. Models of the same name but which are not character mounts must follow the rules given under their respective entries.
+
 Horse
 M WS BS S T W I A Ld
 8 3 - 3 3 1 3 1 3 War Beast 25x50mm base
-Armour:
-Mount's Protection (6+)
+Armour: Mount's Protection (6+)
 Options: pts
 May take Barding 15
+
 Pegasus
 M WS BS S T W I A Ld
 7 4 - 4 4 3 4 2 6 Monstrous Beast 40x40mm base
-Armour:
-Mount's Protection (6+)
-Sp
-ecial Rules:
-Fly (8)
+Armour: Mount's Protection (6+)
+Special Rules: Fly (8)
+
 Young Griffon
 M WS BS S T W I A Ld
 7 4 - 5 4 3 4 3 7 Monstrous Beast 50x75mm base
-Armour:
-Mount's Protection (6+)
-Sp
-ecial Rules
-Armour Piercing (1), Fear
+Armour: Mount's Protection (6+)
+Special Rules: Armour Piercing (1), Fear
+
 Great Griffon
 M WS BS S T W I A Ld
 7 5 - 6 5 4 5 4 7 Monstrous Beast 50x100mm base
-Sp
-ecial Rules
-Fear, Fly (8), Large Target
+Special Rules: Fear, Fly (8), Large Target
 
-Altar of Battle  (one of a kind)
+Altar of Battle (one of a kind)
 M WS BS S T W I A Ld
 Altar of Battle - - - 5 5 5 - - -
 Horses (2) 8 3 - 3 - - 3 1 - Chariot 50x100mm base
-Sp
-ecial Rules
-Large Target, Ward Save (4+), Stubborn
-Holy Relic:  The Altar of Battle grants Hatred to all friendly units within 6", excluding mounts, and allows affected
-models to cast Blessings on units within 6"away. A High Cleric that rides an Altar of Battle may cast Banishment from
-the Path of Light as a bound spell (power level 4).
-Dragon  (One of a Kind)
+Special Rules: Large Target, Ward Save (4+), Stubborn
+Holy Relic: The Altar of Battle grants Hatred to all friendly units within 6", excluding mounts, and allows affected models to cast Blessings on units within 6"away. A High Cleric that rides an Altar of Battle may cast Banishment from the Path of Light as a bound spell (power level 4).
+
+Dragon (One of a Kind)
 M WS BS S T W I A Ld
 6 5 - 6 6 6 3 5 9 Monster 50x100mm base
-Armour:
-Innate Defence (3+)
-Sp
-ecial Rules:
-Breath Weapon (Strength 4 Flaming Attacks), Fly (7)
+Armour: Innate Defence (3+)
+Special Rules: Breath Weapon (Strength 4 Flaming Attacks), Fly (7)
 
 Quick Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 CHARACTERS M WS BS S T W I A Ld
 L Marshall 4 5 5 4 4 4 5 3 9
-Knight Commander 4 6 3 4 4 3 6 4 9
-Archwizard 4 3 3 3 4 3 3 1 8
-Prelate 4 4 3 4 4 3 4 2 9
+L Knight Commander 4 6 3 4 4 3 6 4 9
+L Archwizard 4 3 3 3 4 3 3 1 8
+L Prelate 4 4 3 4 4 3 4 2 9
 H Captain 4 5 5 4 4 2 5 3 8
-Artificier 4 3 4 3 3 2 3 1 7
-Wizard 4 3 3 3 3 2 3 1 7
-Preacher 4 4 4 4 4 2 4 2 8
-Inquisitor 4 4 4 4 4 2 4 2 8
+H Artificier 4 3 4 3 3 2 3 1 7
+H Wizard 4 3 3 3 3 2 3 1 7
+H Preacher 4 4 4 4 4 2 4 2 8
+H Inquisitor 4 4 4 4 4 2 4 2 8
 INFANTRY
 C Light Infantry 4 3 3 3 3 1 3 1 7
-Heavy Infantry 4 3 3 3 3 1 3 1 7
-State Militia 4 3 3 3 3 1 3 1 6
+C Heavy Infantry 4 3 3 3 3 1 3 1 7
+C State Militia 4 3 3 3 3 1 3 1 6
 S Imperial Guard 4 4 3 3 3 1 3 1 8
-Imperial Ranger 4 3 4 3 3 1 3 1 7
-Flagellant 4 3 3 3 3 1 3 1 6
-WA
-R BEASTS
+S Imperial Ranger 4 3 4 3 3 1 3 1 7
+S Flagellant 4 3 3 3 3 1 3 1 6
+WAR BEASTS
 M Horse 8 3 - 3 3 1 3 1 3
 MONSTROUS BEASTS
 M Pegasus 7 4 - 4 4 3 4 2 6
-Young Griffon 7 4 - 5 4 3 4 3 7
-Great Griffon 6 5 - 6 5 4 5 4 5
+M Young Griffon 7 4 - 5 4 3 4 3 7
+M Great Griffon 6 5 - 6 5 4 5 4 5
 MONSTERS
 M Dragon 6 5 - 6 6 6 3 5 9
 CAVALRY M WS BS S T W I A Ld
@@ -702,7 +496,7 @@ C Electoral Cavalry 4 3 3 3 3 1 3 1 8
 - Horse 8 3 - 3 3 1 3 1 3
 S Knightly Order 4 4 3 3 3 1 3 1 8
 - Horse 8 3 - 3 3 1 3 1 3
-Reiter 4 3 4 3 3 1 3 1 7
+S Reiter 4 3 4 3 3 1 3 1 7
 - Horse 8 3 - 3 3 1 3 1 3
 MONSTROUS CAVALRY
 R Knight of the Sun 4 4 3 4 3 1 4 1 8
@@ -715,8 +509,7 @@ R Steam Tank * - - 6 6 10 - - -
 - Crew (1) 4 3 3 3 - - 3 1 7
 M Altar of Battle - - - 5 5 5 - - -
 - Horse (2) 8 3 - 3 3 1 3 1 3
-WA
-R MACHINES
+WAR MACHINES
 R Light Artillery - - - - 7 3 - - -
 - Crew (3) 4 3 3 3 3 - 3 1 7
 S Heavy Artillery - - - - 7 3 - - -
