@@ -23,7 +23,7 @@ Parent Units And Support Units
 Certain units in this Army Book are designated as either Parent Units or Support Units. Support Units are considered
 Insignificant to Parent Units and may perform Supporting Actions.
 Supporting Actions
-Whenever a Parent Unit is the target of a charge, or successfully declare a charge, a Support Unit within 6” of the Parent
+Whenever a Parent Unit is the target of a charge, or successfully declare a charge, a Support Unit within 6" of the Parent
 Unit may perform one of the following actions:
 1. The Support Unit may Stand and Shoot as if it were the target of the charge, applying all usual restrictions for a
 Stand and Shoot reaction.
@@ -35,7 +35,7 @@ At the end of the round of combat, when calculating the Combat Resolution, both 
 bonus (following all normal restrictions), up to maximum of +6.
 
 Orders
-Lord-level Characters with this special rule may give a single Order to a friendly Parent or Support Unit within a 6”,
+Lord-level Characters with this special rule may give a single Order to a friendly Parent or Support Unit within a 6",
 whilst Hero-level Characters may only give a single Order to a Parent or Support Unit it has joined. Orders are given at
 the start of each friendly player turn. Each order has the following effect:
 On The Double! The target unit gains +2 Movement but cannot declare a charge this turn.
@@ -49,9 +49,9 @@ The effect of Orders applies immediately to the target unit and lasts one turn. 
 more than once during the same turn.
 Armoury
 Repeater Gun
-Shooting Weapon. Range 24”, Strength 4, Armour Piercing (1), Multiple shots (3), Unwieldy.
+Shooting Weapon. Range 24", Strength 4, Armour Piercing (1), Multiple shots (3), Unwieldy.
 Long Rifle
-Shooting Weapon. Range 48”, Strength 5, Armour Piercing (1), Move or Fire, Multiple Wounds (D3), adds +1 to hit when
+Shooting Weapon. Range 48", Strength 5, Armour Piercing (1), Move or Fire, Multiple Wounds (D3), adds +1 to hit when
 shooting.
 
 Magical Items
@@ -525,12 +525,12 @@ Channel, Large Target
 An Arcane Altar must ​ take one of the following upgrades:
 Arcane Shield ​ (free)
 An Arcane Engine with Arcane Shield grants Hard
-Target to every friendly unit within 6”. The Engine may
+Target to every friendly unit within 6". The Engine may
 cast Shield of Protection from the Path of Light as a
 bound spell (power level 3).
 Foreseeing ​ (free)
 An Arcane Engine with Foreseeing grants Lighting
-Reflexes to every friendly unit within 6”, excluding
+Reflexes to every friendly unit within 6", excluding
 mounts. The Engine may cast Thunderbolt from the
 Path of Heavens as a bound spell (power level 4).
 Light Artillery
@@ -540,15 +540,15 @@ Machine - - - - 7 3 - - -
 Crew (3) 4 3 3 3 3 - 3 1 7 Warmachine 60mm round base
 Must take one of the following:
 Rocket Battery ​ (130 pts)
-This is a Catapult (3”) Artillery Weapon​ with
-Range 36”. This war machine never subtract the BS of
+This is a Catapult (3") Artillery Weapon​ with
+Range 36". This war machine never subtract the BS of
 the crew for the shooting outside line of sight. Instead of
 hitting models under the template as normal, any unit
 under the template suffers D6 hits with Strength 5 and
 Armour Piercing (1), Multiple Wounds (D3) and Flaming
 Attacks special rules.
 Mortar ​ (60 pts)
-This is a Catapult (5”) Artillery Weapon​ with
+This is a Catapult (5") Artillery Weapon​ with
 Range 12-48", Strength 2, Armour Piercing (1).
 
 RA
@@ -586,7 +586,7 @@ Shots (3D6*2)
 Cannon ​ (100 pts)
 This weapon can be fired in two ways:
 - As a Cannon (D6) Artillery Weapon​ with
-Range 72”, Strength 10, Armour Piercing (2), Multiple
+Range 72", Strength 10, Armour Piercing (2), Multiple
 Wounds (Ordnance)
 - As a Volley Gun Artillery Weapon​ with
 Range 12", Strength 4, Armour Piercing (3), Multiple
@@ -613,9 +613,9 @@ Overrun.
 Steam Engine: ​ The Steel Tank's current number of wounds dictates the value of its Movement, its number of
 Grinding Attacks and the range of its Steam Powered Cannon. A Steam tank may choose not to move.
 Current number of wounds Movement Grinding Attack Cannon Range
-8-10 wounds 1D6, 2D6 or 3D6 3D3 42”
-4-7 wounds 1D6 or 2D6 2D3 30”
-1-3 wounds 1D6 1D3 18”
+8-10 wounds 1D6, 2D6 or 3D6 3D3 42"
+4-7 wounds 1D6 or 2D6 2D3 30"
+1-3 wounds 1D6 1D3 18"
 
 MOUNTS
 This section show the profile entries of mount options for characters. Models of the same name but which are not
@@ -657,8 +657,8 @@ Horses (2) 8 3 - 3 - - 3 1 - Chariot 50x100mm base
 Sp
 ecial Rules
 Large Target, Ward Save (4+), Stubborn
-Holy Relic: ​ The Altar of Battle grants Hatred to all friendly units within 6”, excluding mounts, and allows affected
-models to cast Blessings on units within 6”away. A High Cleric that rides an Altar of Battle may cast Banishment from
+Holy Relic: ​ The Altar of Battle grants Hatred to all friendly units within 6", excluding mounts, and allows affected
+models to cast Blessings on units within 6"away. A High Cleric that rides an Altar of Battle may cast Banishment from
 the Path of Light as a bound spell (power level 4).
 Dragon ​ (One of a Kind)
 M WS BS S T W I A Ld
@@ -722,9 +722,9 @@ R Light Artillery - - - - 7 3 - - -
 S Heavy Artillery - - - - 7 3 - - -
 - Crew (3) 4 3 3 3 3 - 3 1 7
 ARTILLERY WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
-Light Artillery Rocket Battery Catapult (3”) 36 3(5) (D3)(Flaming Attack) (1)
-Mortar Catapult (5”) 12-48 2(6) - (D3) 1
+Light Artillery Rocket Battery Catapult (3") 36 3(5) (D3)(Flaming Attack) (1)
+Mortar Catapult (5") 12-48 2(6) - (D3) 1
 Heavy Artillery Volley Gun Volley Gun 24 5 3D6*2 - 1
-Cannon (1) Cannon (D6”) 72 10 (Ordnance) 2
+Cannon (1) Cannon (D6") 72 10 (Ordnance) 2
 Cannon (2) Volley Gun 12 4 2D6 3
-Steampanzer Steam Cannon Cannon (D6”) * 7 - D3 2
+Steampanzer Steam Cannon Cannon (D6") * 7 - D3 2
