@@ -1,125 +1,49 @@
 Fantasy Battles
 The 9th Age
-Infernal Dwarves
-Army Rules
-Version 0.11.0 Beta
-WiP Playtest version awaiting final rules and options review in January by the Rules Team
+Infernal Dwarves Army Rules Version 0.11.0 Beta
+
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+
 Army Special Rules
+Relentless: Units containing only models with this rule may march even when there are enemies within 8". If an infantry unit that contains only models with this special rule starts their move more than 8" from an enemy unit it may triple its movement when marching instead of doubling it.
+Sturdy: A model with this rule gets Thunderous Charge special rule. Furthermore it does not suffer -1 to hit when taking a Stand and Shoot charge reaction.
+Chosen of Ashuruk: Models with this rule will automatically pass all Fear tests (but still suffer -1 Ld from Fear). Models with this rule consider all units, without this rule, to have the Insignificant special rule and will not use their Engineer rule on models without Chosen of Ashuruk rule.
+Daemonic Infusion: The war machine gets Magical Attacks rule (not applicable to crew), and any Panic Test caused to enemy units is taken with a -1 Leadership modifier.
+Volcanic Embrace: All attacks made by a model with this Special Rule (even Special Attacks) are Flaming Attacks. In addition enemy models in base contact with one or more models with this rule suffer a Strength 4 hit at the start of each Combat Phase.
+Shackles Of Fire: When rolling To Wound against a model with this rule, any natural roll of '6' must be re-rolled, Magical Attacks are not affected by this.  At the start of its second and any subsequent turn, the unit must take a Leadership Test. If failed it suffers a Wound with no save possible, furthermore if there are no friendly wizards in the army, the wound is taken with the Multiple Wounds(D3) rule.
+Unruly: Unruly units have -1 Ld to rolls on following tests: Restrain Frenzy, Restrain Pursuit. In addition, if in horde formation roll 3 dice for panic tests and discard the highest.
+Opportunist: When fighting an enemy unit in the flank or rear, models on foot in a unit with this special rule gain +1 to hit as long as their unit isn't attacked in the flank or rear.
+
 Armoury
-Magical Items
-Quick Reference Sheet
-Change Log
-Lords
-Heroes
-Core
-Special
-Rare
-Mounts
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.
-All relevant rules, as well as feedback and suggestions, can be found/given here:
-http://www.the-ninth-age.com/
-Rules changes between versions are colour coded in green. See change log at end of document.
-Army Special Rules
-Relentless
-Units containing only models with this rule may march even when there are enemies within 8". If an infantry unit that
-contains only models with this special rule starts their move more than 8" from an enemy unit it may triple its
-movement when marching instead of doubling it.
-Sturdy
-A model with this rule gets Thunderous Charge special rule. Furthermore it does not suffer -1 to hit when taking a
-Stand and Shoot charge reaction.
-Chosen of Ashuruk
-Models with this rule will automatically pass all Fear tests (but still suffer -1Ld from Fear). Models with this rule
-consider all units, without this rule, to have the Insignificant special rule and will not use their Engineer rule on models
-without Chosen of Ashuruk rule.
-Daemonic Infusion
-The war machine gets Magical Attacks rule (not applicable to crew), and any Panic Test caused to enemy units is taken
-with a -1 Leadership modifier.
-Volcanic Embrace
-All attacks made by a model with this Special Rule (even Special Attacks) are Flaming Attacks. In addition enemy
-models in base contact with one or more models with this rule suffer a Strength 4 hit at the start of each Combat Phase.
-Shackles Of Fire
-When rolling To Wound against a model with this rule, any natural roll of '6' must be re-rolled, Magical Attacks are not
-affected by this.
-At the start of its second and any subsequent turn, the unit must take a Leadership Test. If failed it suffers a Wound with
-no save possible, furthermore if there are no friendly wizards in the army, the wound is taken with the Multiple
-Wounds(D3) rule.
-Unruly
-Unruly units have -1 Ld to rolls on following tests: Restrain Frenzy, Restrain Pursuit. In addition, if in horde formation
-roll 3 dice for panic tests and discard the highest.
-Opportunist
-When fighting an enemy unit in the flank or rear, models on foot in a unit with this special rule gain +1 to hit as long as
-their unit isn't attacked in the flank or rear.
-2
-Armoury
-Infernal Weapon
-Close Combat Weapon. Type: Hand Weapon, +1 Strength, Magical Attacks.
-Flintlock Axe
-Shooting Weapon. Range 18". Strength 4. Armour Piercing (1). Flaming Attacks.
-Counts as Halberd in Close Combat.
-Blunderbuss
-A: Shooting Weapon. Range 18", Strength 3, Fusillade
-Fusillade: In the Shooting Phase the weapon may be used with a following profile;
-Range 8", Strength 4, Armour Piercing (1). Any enemy model within range, and within the width of the firing unit's
-fr
-ontage is hit on 6+, for each full rank after the first add +1 to hit. May be fired after marching.
-Infernal Armour
-Plate Armour. The wearer gains Ward Save (5+) against Flaming Attacks.
-3
+Infernal Weapon: Close Combat Weapon. Type: Hand Weapon, +1 Strength, Magical Attacks.
+Flintlock Axe: Shooting Weapon. Range 18". Strength 4. Armour Piercing (1). Flaming Attacks.  Counts as Halberd in Close Combat.
+Blunderbuss: A: Shooting Weapon. Range 18", Strength 3, Fusillade
+Fusillade: In the Shooting Phase the weapon may be used with a following profile; Range 8", Strength 4, Armour Piercing (1). Any enemy model within range, and within the width of the firing unit's frontage is hit on 6+, for each full rank after the first add +1 to hit. May be fired after marching.
+Infernal Armour: Plate Armour. The wearer gains Ward Save (5+) against Flaming Attacks.
+
 Magical Items
 Magical Weapons
-Onyx Hammer (70 pts)
-Type: Hand Weapon. +2 Strength. This weapon grants
-Multiple Wounds (D3) against models which are
-Flammable.
-Blade of Burning Steel (30 pts)
-Type: Hand weapon. Armour piercing (1).
-One use only. May be activated at the start of any Phase.
-For the duration of the Player Turn, the bearer's attacks
-made with this weapon have Metalshifting.
+Onyx Hammer (70 pts): Type: Hand Weapon. +2 Strength. This weapon grants Multiple Wounds (D3) against models which are Flammable.
+Blade of Burning Steel (30 pts): Type: Hand weapon. Armour piercing (1).  One use only. May be activated at the start of any Phase.  For the duration of the Player Turn, the bearer's attacks made with this weapon have Metalshifting.
+
 Magical Armour
-Mask of the Furnace (30 pts)
-Type: None (6+ armour save). Wearer gains Fireborn
-and a Breath Weapon (Strength 3, Flaming Attacks).
+Mask of the Furnace (30 pts): Type: None (6+ armour save). Wearer gains Fireborn and a Breath Weapon (Strength 3, Flaming Attacks).
+
 Talismans
-Icon of Lugar (40 pts)
-Model gains Frenzy and Blood of Lugal but cannot use
-their armour nor buy any magical armour except for
-those with the type: none. The model gets a ward save of
-2+, which from turn 2 and each turn thereafter is
-worsened by 1 point. So in turn 2 it will be a 3+ ward and
-so on to a minimum of 6+
+Icon of Lugar (40 pts): Model gains Frenzy and Blood of Lugal but cannot use their armour nor buy any magical armour except for those with the type: none. The model gets a ward save of 2+, which from turn 2 and each turn thereafter is worsened by 1 point. So in turn 2 it will be a 3+ ward and so on to a minimum of 6+
+
 Enchanted Items
-Ring of Desiccation (30 pts)
-All enemy units in base contact with the bearer become
-Flammable. If the army does not include any casters on
-its army roster the wearer counts as a caster for the
-purpose of the Shackles of Fire rule.
-Vial of Mercury (35 pts) - Infantry only.
-One use only. The model may drink from the Vial at the
-start of any Player Turn. The model gains Magical
-Attacks, Ward Save (5+), Holy Attacks and +1 Strength.
-Roll a D6 at the start of each Player Turn after the
-Chalice is used: On a roll of 1-2 model takes a wound
-with no saves allowed.
-Gauntlets of Madzhab (10pts)
-Bearer has +1 Strength. Each roll of 1 to hit is resolved
-against a friendly model in base contact, chosen by the
-owning player, or if mounted the model itself.
+Ring of Desiccation (30 pts): All enemy units in base contact with the bearer become Flammable. If the army does not include any casters on its army roster the wearer counts as a caster for the purpose of the Shackles of Fire rule.
+Vial of Mercury (35 pts): Infantry only.  One use only. The model may drink from the Vial at the start of any Player Turn. The model gains Magical Attacks, Ward Save (5+), Holy Attacks and +1 Strength.  Roll a D6 at the start of each Player Turn after the Chalice is used: On a roll of 1-2 model takes a wound with no saves allowed.
+Gauntlets of Madzhab (10pts): Bearer has +1 Strength. Each roll of 1 to hit is resolved against a friendly model in base contact, chosen by the owning player, or if mounted the model itself.
+
 Arcane Items
-Besheluk's Mechanism (45 pts)
-This item may be activated after Channels are rolled. 2
-Power Dice and 1 Dispel Dice are removed from the
-Power/Dispel pools. After each use roll a D6: On a roll of
-1-2 the item can no longer be used.
+Besheluk's Mechanism (45 pts): This item may be activated after Channels are rolled. 2 Power Dice and 1 Dispel Dice are removed from the Power/Dispel pools. After each use roll a D6: On a roll of 1-2 the item can no longer be used.
+
 Magical Standards
-Banner of the Brazen Bull (40 pts)
-Infantry only. The bearer's unit has Vanguard. Units
-within 12" with the Unruly rule may re-roll failed Panic
-Tests.
-Banner of Nezibkesh (25 pts)
-All Special Close Combat Attacks against the bearer or
-his unit are at half strength (rounding fractions up).
-4
+Banner of the Brazen Bull (40 pts): Infantry only. The bearer's unit has Vanguard. Units within 12" with the Unruly rule may re-roll failed Panic Tests.
+Banner of Nezibkesh (25 pts): All Special Close Combat Attacks against the bearer or his unit are at half strength (rounding fractions up).
+
 Army List
 LORDS
 Prophet 210 pts
@@ -139,6 +63,7 @@ Level 4 Wizard Master 35
 May take a mount (one choice only)
 Bull of Shamut 150
 Temple Lamassu 155
+
 Overlord 125 pts
 single model
 M WS BS S T W I A Ld
@@ -158,7 +83,7 @@ Infernal Weapon 20
 May take a mount (one choice only)
 Bull of Shamut 150
 Great Bull of Shamut 265
-5
+
 HEROES
 Magus 50 pts
 single model
@@ -176,6 +101,7 @@ Level 2 Wizard Apprentice 75
 May take Temple Lamassu 155
 Magic: Wizard Apprentice . Generate spells from Path of Death,
 Shadow, Fire, Alchemy or the Forge
+
 Vizier 75 pts
 single model
 M WS BS S T W I A Ld
@@ -192,14 +118,13 @@ Flintlock Axe 10
 Great Weapon 10
 Infernal Weapon 20
 May ride a Bull of Shamut 165
-6
+
 Taurukh Subjugator 165 pts
 single model
 M WS BS S T W I A Ld
 7 5 4 5 5 4 4 4 9 Monstrous Beast 50x75mm base
 Armour: Light Armour, Innate Defence (5+)
-Ta
-urukh Special Rules: Chosen of Ashuruk, Thunderous Charge
+Taurukh Special Rules: Chosen of Ashuruk, Thunderous Charge
 Special Rules: Not a Leader
 Options: pts
 May be the Battle Standard Bearer 25
@@ -211,6 +136,7 @@ May take a weapon (one choice only)
 Additional Hand Weapon 5
 Light Lance 5
 Great Weapon 15
+
 Hobgoblin Chieftain 35 pts
 single model
 M WS BS S T W I A Ld
@@ -230,7 +156,7 @@ Additional Hand Weapon 3
 Light Lance 3
 Great Weapon 6
 May ride a Wolf 20
-7
+
 CORE
 Infernal Warriors 75 pts
 10 models, may add up to 30 models 7 pts/model
@@ -249,8 +175,8 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may become Veteran Standard Bearer*
-*The Veteran Standard Bearer is One of a Kind and may take a
-Magical Standard worth up to 25 pts.
+*The Veteran Standard Bearer is One of a Kind and may take a Magical Standard worth up to 25 pts.
+
 Disciples of Lugar 80 pts
 10 models, may add up to 30 models 10 pts / model
 M WS BS S T W I A Ld
@@ -266,9 +192,8 @@ Champion 10
 Musician 10
 Standard Bearer 10
 May take Blood of Lugar 1 / model
-Blood of Lugar: The model gains Innate Defence (5+) against
-ranged attacks.
-8
+Blood of Lugar: The model gains Innate Defence (5+) against ranged attacks.
+
 Hobgoblins 80 pts
 20 models, may add up to 30 models 4 pts/model
 M WS BS S T W I A Ld
@@ -284,7 +209,7 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
-9
+
 SPECIAL
 Citadel Guard 100 pts
 10 models, may add up to 20 models 10 pts/model
@@ -301,8 +226,8 @@ Standard Bearer 10
 - may take a Magical Standard up to 50
 May be upgraded to Immortals 3 / model
 -may take Infernal Weapon 3 / model
-Immortals : Unit gains +1 Weapon Skill, Immune to
-Psychology, Bodyguard (Overlord)
+Immortals : Unit gains +1 Weapon Skill, Immune to Psychology, Bodyguard (Overlord)
+
 Ziggurat Guard 150 pts
 10 models, may add up to 20 models 15 pts/model
 M WS BS S T W I A Ld
@@ -318,29 +243,25 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
-10
+
 Kadim Incarnates 150 pts
 3 models, may add up to 5 models 55 pts/model
 M WS BS S T W I A Ld
 6 4 3 5 4 3 4 2 7 Monstrous Infantry 40x40mm base
 Armour: Innate Defence (5+)
-Ka
-dim Special Rules: Daemonic Instability, Otherworldly, Flaming
-Attacks, Fireborn, Volcanic Embrace, Shackles of
-Fire
+Kadim Special Rules: Daemonic Instability, Otherworldly, Flaming Attacks, Fireborn, Volcanic Embrace, Shackles of Fire
 Special Rules: Fear
 Options: pts
 May take Fly (6) 5 / model
 May upgrade one model to a Champion 10
+
 Taurukh 110 pts
 5 models, may add up to 10 for 18 pts / model
 M WS BS S T W I A Ld
 7 4 3 4 4 1 2 2 9 War Beast 25x50mm base
 Armour: Light Armour, Innate Defence (6+)
-Ta
-urukh Special Rules: Thunderous Charge, Chosen of Ashuruk
-Half Bull: Stomp hits can never be distributed onto
-a model with this rule.
+Taurukh Special Rules: Thunderous Charge, Chosen of Ashuruk
+Half Bull: Stomp hits can never be distributed onto a model with this rule.
 Options: pts
 May take Heavy Armour 3 / model
 May take one of the following
@@ -353,7 +274,7 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
-11
+
 Hobgoblins Backstabbers 60 pts
 10 models, may add up to 40 models for 7 / model
 M WS BS S T W I A Ld
@@ -361,10 +282,7 @@ M WS BS S T W I A Ld
 Weapons: Additional Hand Weapon
 Army Special Rules: Opportunist, Unruly
 Special Rules: Poisoned Attacks
-Devious:
-If not engaged to either flank or rear the unit gains a
-cumulative Fight in Extra Rank after each round of
-close combat.
+Devious: If not engaged to either flank or rear the unit gains a cumulative Fight in Extra Rank after each round of close combat.
 Options: pts
 One unit of 25 or less models
 can take Ambush 2 / model
@@ -372,6 +290,7 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
+
 Orc Slaves 100 pts
 20 models, may add up to 30 models 5 pts/model
 M WS BS S T W I A Ld
@@ -379,14 +298,11 @@ M WS BS S T W I A Ld
 Weapons: Additional Hand Weapon
 Armour: Light Armour
 Special Rules: Unruly, Insignificant
-Born to Fight: Models with this rule have +1
-Strength until they lose or draw a combat.
-Slaves: If there are no Units with the Chosen of
-Ashuruk or Opportunist rules on the table remove
-the unit from the game at the end of the phase.
+Born to Fight: Models with this rule have +1 Strength until they lose or draw a combat.
+Slaves: If there are no Units with the Chosen of Ashuruk or Opportunist rules on the table remove the unit from the game at the end of the phase.
 Options: pts
 May upgrade one model to Musician 10
-12
+
 Light Artillery -
 single model
 Must take one of the following:
@@ -402,20 +318,14 @@ M WS BS S T W I A Ld
 Weapon - - - - 7 2 - - -
 Crew (2) 4 3 3 3 3 - 3 1 6
 War Machine 40mm round base
-Weapons: This is a Volley Gun Artillery Weapon with
-Range 18", Strength 4, Armour Piercing (1), Multiple
-Shots (6)
+Weapons: This is a Volley Gun Artillery Weapon with Range 18", Strength 4, Armour Piercing (1), Multiple Shots (6)
 Armour: Infernal Armour
 Dwarves Special Rules: Chosen of Ashuruk
 Options: pts
-May exchange Armour Piercing (1)
-fo
-r Flaming Attacks free
-Weapons: This is a Bolt Thrower Artillery Weapon with
-Range 48", Strength 6, Multiple Wounds (D3), Armour
-Piercing (6)
+May exchange Armour Piercing (1) for Flaming Attacks free
+Weapons: This is a Bolt Thrower Artillery Weapon with Range 48", Strength 6, Multiple Wounds (D3), Armour Piercing (6)
 Hobgoblins Special Rules: Insignificant
-13
+
 RARE
 Hobgoblin Wolf Riders 65 pts
 5 models, may add up to 10 models 10 pts/model
@@ -434,13 +344,13 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
+
 Taurukh Anointed 150 pts
 3 models, may add up to 4 models 55 pts / model
 M WS BS S T W I A Ld
 7 4 3 5 5 3 3 3 9 Monstrous Beast 50x75mm base
 Armour: Light Armour, Innate Defence (5+)
-Ta
-urukh Special Rules: Chosen of Ashuruk, Thunderous Charge
+Taurukh Special Rules: Chosen of Ashuruk, Thunderous Charge
 Options: pts
 May take one of the following
 Light Lance 3 / model
@@ -452,22 +362,18 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
-14
+
 Infernal Engine 300 pts
 single model
 M WS BS S T W I A Ld
 Infernal Engineer 6 - - 6 6 7 2 - -
 Crew (3) - 4 4 3 4 - 2 1 9 Chariot 60x100mm base
 Special Rules: Unbreakable, Large Target
-Full Steam Ahead!: At the beginning of the turn, the model may opt to engage its boiler. If it does so, the unit may
-not shoot and gains Random Movement (2D6+6), except it may not pivot before moving. If a double 1 is rolled for
-distance, there is a malfunction and the unit does not move.
+Full Steam Ahead!: At the beginning of the turn, the model may opt to engage its boiler. If it does so, the unit may not shoot and gains Random Movement (2D6+6), except it may not pivot before moving. If a double 1 is rolled for distance, there is a malfunction and the unit does not move.
 Ponderous: Due to its ponderous speed the unit may not declare charge, pursuit or overrun.
 Must take one of the following:
 Shrapnel Guns (free)
-Weapons: Shrapnel Guns: is a Volley Gun Artillery Weapon with
-Range 18", Strength 6, Quick to Fire, Armour Piercing
-(1), Multiple Shots (2D6+2)
+Weapons: Shrapnel Guns: is a Volley Gun Artillery Weapon with Range 18", Strength 6, Quick to Fire, Armour Piercing (1), Multiple Shots (2D6+2)
 Armour: Innate Defence (2+)
 Special Rules: Grinding Attacks (D6)
 Options: pts
@@ -478,15 +384,13 @@ Attacks (2D6) and Impact Hits (2D6)
 Armour: Innate Defence (3+)
 Options: pts
 May take Daemonic Infusion 10
-15
+
 Kadim Titan 315 pts
 single model
 M WS BS S T W I A Ld
 8 5 3 7 6 6 6 6 8 Monster 100x150mm base
-Ka
-dim Special Rules: Daemonic Instability, Otherworldly, Flaming Attacks, Fireborn, Volcanic Embrace, Shackles Of Fire
-Searing Rage: Each time the model fails a Frenzy test it add +1A to its Frenzy attacks. If the Frenzy is lost then so are
-these additional attacks.
+Kadim Special Rules: Daemonic Instability, Otherworldly, Flaming Attacks, Fireborn, Volcanic Embrace, Shackles Of Fire
+Searing Rage: Each time the model fails a Frenzy test it add +1A to its Frenzy attacks. If the Frenzy is lost then so are these additional attacks.
 Lord of Flame: The model has Holy Attacks against models with Fireborn.
 Must take one of the following:
 Basalt Form (free)
@@ -495,7 +399,7 @@ The model suffers -2 Movement.
 Fiery Form (25 pts)
 Armour: Innate Defence (5+)
 Special Rules: Ward Save (4+)
-16
+
 Heavy Artillery -
 single model
 M WS BS S T W I A Ld
@@ -506,21 +410,15 @@ Dwarves Special Rules: Chosen of Ashuruk
 Must take one of the following:
 Rocket Battery (100 pts)
 This weapon have two modes of fire:
-Catapult (Single Point) Artillery Weapon with
-Range 48", Strength 8, Multiple Wounds (Ordnance)
-Catapult (5") Artillery Weapon with
-Range 48", 5" Template, Strength 2, Armour Piercing(1)
-A unit which suffers 1 or more casualties from a Rocket
-Battery must immediately take a Panic Test.
+Catapult (Single Point) Artillery Weapon with Range 48", Strength 8, Multiple Wounds (Ordnance)
+Catapult (5") Artillery Weapon with Range 48", 5" Template, Strength 2, Armour Piercing(1)
+A unit which suffers 1 or more casualties from a Rocket Battery must immediately take a Panic Test.
 Options: pts
 May take Daemonic Infusion 15
-Volcano Cannon (120 pts)
-This a Flame Thrower Artillery Weapon with
-Range 15", Strength 5, Multiple Wounds (D3), Flaming
-Attacks
+Volcano Cannon (120 pts): This a Flame Thrower Artillery Weapon with Range 15", Strength 5, Multiple Wounds (D3), Flaming Attacks
 Options: pts
 May take Daemonic Infusion 20
-17
+
 Infernal Artillery -
 single model
 Must take one of the following:
@@ -535,44 +433,21 @@ Hellscream Cannon (200 pts)
 M WS BS S T W I A Ld
 1 4 3 5 6 5 1 4 6
 Monster 100x150mm base
-Weapons: This is a Catapult (3") Artillery Weapon with
-Range 48", Strength 4[10], [Multiple Wounds
-(Ordnance)]
-Aftershock: Any unit that suffers an unsaved wound
-fr
-om a weapon with this rule will count all terrain
-(including open ground) as dangerous terrain and must
-re-roll To Hit rolls of '6'. War machines within 6" of the
-fi
-nal location of the template can only fire on a roll of 4+.
-The effect lasts until the end of the next player turn.
+Weapons: This is a Catapult (3") Artillery Weapon with Range 48", Strength 4[10], [Multiple Wounds (Ordnance)]
+Aftershock: Any unit that suffers an unsaved wound fr om a weapon with this rule will count all terrain (including open ground) as dangerous terrain and must re-roll To Hit rolls of '6'. War machines within 6" of the final location of the template can only fire on a roll of 4+.  The effect lasts until the end of the next player turn.
 Armour: Heavy Armour
 Dwarves Special Rules: Chosen of Ashuruk
 Options: pts
 May take Daemonic Infusion 20
 May take Ogre Slave 50
-Ogre Slave: The War Machine gains an Ogre as an
-additional Crew member and increases its number of
-wounds by 1.
-The model treats the roll of Jammed (3-4) on the
-Misfire Table as Malfunction (5+).
-Weapons: Hellscream Cannon: This is a Catapult (3") Artillery
-Weapon with Range 60", Strength 4 [9], Armour
-Piercing (1), [Multiple Wounds (Ordnance)]. A unit
-which suffers 1 or more casualties from a Hellscream
-Cannon must immediately take a Panic Test with -1 to its
-Leadership.
+Ogre Slave: The War Machine gains an Ogre as an additional Crew member and increases its number of wounds by 1.  The model treats the roll of Jammed (3-4) on the Misfire Table as Malfunction (5+).
+Weapons: Hellscream Cannon: This is a Catapult (3") Artillery Weapon with Range 60", Strength 4 [9], Armour Piercing (1), [Multiple Wounds (Ordnance)]. A unit which suffers 1 or more casualties from a Hellscream Cannon must immediately take a Panic Test with -1 to its Leadership.
 Armour: Innate Defence (4+)
 Special Rules: Otherwordly, Unbreakable, Frenzy
 Options: pts
 May upgrade to Unchained free
-Unchained: Model gains +3 Movement, Free Reform
-and replaces Hellscream Cannon with Hellscream
-Mortar :
-This is a Catapult (3") Artillery Weapon with the
-fo
-llowing profile: Range 24", Strength 3
-18
+Unchained: Model gains +3 Movement, Free Reform and replaces Hellscream Cannon with Hellscream Mortar : This is a Catapult (3") Artillery Weapon with the following profile: Range 24", Strength 3
+
 Armoured Giant 160 pts
 single model
 M WS BS S T W I A Ld
@@ -581,100 +456,80 @@ Armour: Heavy Armour, Innate Defence (6+)
 Special Rules: Immune to Psychology, Stubborn
 Options: pts
 May take Plate Armour 15
-Giant Attacks: When a giant attacks in Close Combat, pick a target in base contact to attack and roll on the chart
-below. Giants have two types of attack patterns depending on the Troop Type of the target.
+Giant Attacks: When a giant attacks in Close Combat, pick a target in base contact to attack and roll on the chart below. Giants have two types of attack patterns depending on the Troop Type of the target.
 Against Infantry, War Beast, Swarm, Warmachine
 and Cavalry targets:
 1 : Bellow
 2: Jump
 3 : Grab
 4-6: Swing
-Against Monstrous Beast, Monstrous Infantry,
-Monstrous Cavalry, Chariot, Monster and Ridden
-Monster targets:
+Against Monstrous Beast, Monstrous Infantry, Monstrous Cavalry, Chariot, Monster and Ridden Monster targets:
 1 : Bellow
 2-3: Thump
 4-6: Smash
-Bellow : Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done
-(including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2.
-If two (or more) opposing Giants “Bellow", the combat is a draw.
-Jump: The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant
-must take a Dangerous Terrain test.
-Grab: Select a single model in base contact with the Giant. This model must take a Strength and Weapon Skill test. For
-each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
+Bellow : Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done (including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2.  If two (or more) opposing Giants "Bellow", the combat is a draw.
+Jump: The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant must take a Dangerous Terrain test.
+Grab: Select a single model in base contact with the Giant. This model must take a Strength and Weapon Skill test. For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
 Swing: The Giant makes 2D6 attacks on the chosen unit.
-Thump: Select a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the
-test is failed, the model suffers 2D6 wounds with Armour Piercing (6).
-Smash: Select a model from the chosen unit in base contact with the Giant. This model suffers 1 wound with Armour
-Piercing (6). If the model has not yet attacked it cannot attack in this round. It the model has already attacked, it
-cannot attack in the next player turn.
-- NotesGiant Attacks counts as Close Combat attack and therefore are affected by all rules normally affecting Close Combat
-attacks. After rolling on this chart, the Giant may still Stomp as normal.
-19
+Thump: Select a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the test is failed, the model suffers 2D6 wounds with Armour Piercing (6).
+Smash: Select a model from the chosen unit in base contact with the Giant. This model suffers 1 wound with Armour Piercing (6). If the model has not yet attacked it cannot attack in this round. It the model has already attacked, it cannot attack in the next player turn.
+- Notes Giant Attacks counts as Close Combat attack and therefore are affected by all rules normally affecting Close Combat attacks. After rolling on this chart, the Giant may still Stomp as normal.
+
 MOUNTS
 The Mounts section is for character mounts. Non-character mounts follow the rules under respective entries.
+
 Temple Lamassu(One of a kind)
 M WS BS S T W I A Ld
 6 3 - 5 5 4 2 2 8 Monstrous Beast 50x50mm base
-Special Rules: Fly (8), Magic Resistance (2), Fear, Magical Attacks,
-Ward Save (5+)
-Aura of Unbinding: Any Magical Weapon in the
-hands of a friendly or enemy models in base
-contact with a Lammasu becomes a mundane
-weapons of the same type. This effect lasts for as
-long as models remain in base contact. A character
-riding a Lamassu is unaffected.
-Magic: Level 1 Wizard Apprentice that generates spells
-fr
-om the Path of Death, Fire or Shadow.
+Special Rules: Fly (8), Magic Resistance (2), Fear, Magical Attacks, Ward Save (5+)
+Aura of Unbinding: Any Magical Weapon in the hands of a friendly or enemy models in base contact with a Lammasu becomes a mundane weapons of the same type. This effect lasts for as long as models remain in base contact. A character riding a Lamassu is unaffected.
+Magic: Level 1 Wizard Apprentice that generates spells from the Path of Death, Fire or Shadow.
 Options: pts
 May upgrade to Level 2 Wizard Apprentice 25
-May take Breath Weapon 30
-(Strength 4, Magical Attacks)
+May take Breath Weapon 30 (Strength 4, Magical Attacks)
 May take Mace Tail 20
-Mace Tail: Model has +1 Attack. When fighting enemies in
-its rear, the model gains +1 to-hit.
+Mace Tail: Model has +1 Attack. When fighting enemies in its rear, the model gains +1 to-hit.
+
 Bull of Shamut
 M WS BS S T W I A Ld
 6 5 - 5 5 4 3 4 6 Monstrous Beast 50x50mm base
-Ka
-dim Special Rules: Flaming Attacks, Fireborn, Volcanic Embrace, Magical Attacks
+Kadim Special Rules: Flaming Attacks, Fireborn, Volcanic Embrace, Magical Attacks
 Special Rules: Fly (8), Large Target, Fear
+
 Great Bull of Shamut(One of a Kind)
 M WS BS S T W I A Ld
 6 5 - 6 6 6 3 4 6 Monster 60x100mm base
 Armour: Innate Defence (5+)
-Ka
-dim Special Rules: Flaming Attacks, Fireborn, Volcanic Embrace, Magical Attacks
+Kadim Special Rules: Flaming Attacks, Fireborn, Volcanic Embrace, Magical Attacks
 Special Rules: Fly (7), Breath Weapon (Strength 4, Flaming Attacks), Ward Save (5+)
-20
+
 Wolf
 M WS BS S T W I A Ld
 9 3 - 3 3 1 3 1 3 War Beast 25x50mm base
 Armour: Mount's Protection (6+)
 Special Rules: Fast Cavalry
-21
+
 Quick Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 CHARACTERS M WS BS S T W I A Ld
 L Prophet 3 5 4 4 5 3 2 2 9
-Overlord 3 7 4 4 5 3 4 4 10
+L Overlord 3 7 4 4 5 3 4 4 10
 H Magus 3 4 4 4 4 2 3 2 9
-Vizier 3 6 4 4 5 2 3 3 9
-Taurukh Subjugator 7 5 4 5 5 4 4 4 9
-Hobgoblin Chieftain 4 4 4 4 4 2 4 3 7
+H Vizier 3 6 4 4 5 2 3 3 9
+H Taurukh Subjugator 7 5 4 5 5 4 4 4 9
+H Hobgoblin Chieftain 4 4 4 4 4 2 4 3 7
 INFANTRY
 C Disciple of Lugar 3 4 3 4 4 1 2 1 9
-Infernal Warrior 3 4 3 3 4 1 2 1 9
-Hobgoblin 4 3 3 3 3 1 3 1 6
+C Infernal Warrior 3 4 3 3 4 1 2 1 9
+C Hobgoblin 4 3 3 3 3 1 3 1 6
 S Citadel Guard 3 4 3 4 4 1 2 1 9
-Ziggurat Guard 4 5 3 4 4 1 2 2 9
-Hobgoblin Backstabber 4 3 3 3 3 1 3 1 6
-Orc Slaves 4 3 3 3 4 1 2 1 5
+S Ziggurat Guard 4 5 3 4 4 1 2 2 9
+S Hobgoblin Backstabber 4 3 3 3 3 1 3 1 6
+S Orc Slaves 4 3 3 3 4 1 2 1 5
 MONSTROUS INFANTRY
 S Kadim Incarnate 6 4 3 5 4 3 4 2 7
 CAVALRY
-Ρ Hobgoblin Wolf Rider 4 3 3 3 3 1 3 1 6
+R Hobgoblin Wolf Rider 4 3 3 3 3 1 3 1 6
 - Wolf 9 3 - 3 3 1 3 1 3
 CHARIOTS
 R Infernal Engine 6 - - 6 6 7 2 - -
@@ -685,22 +540,21 @@ M Wolf 9 3 - 3 3 1 3 1 3
 MONSTROUS BEASTS
 R Taurukh Anointed 7 4 3 5 5 3 3 3 9
 M Temple Lamassu 6 3 - 5 5 4 2 2 8
-Bull of Shamut 6 5 - 5 5 4 3 4 6
+M Bull of Shamut 6 5 - 5 5 4 3 4 6
 MONSTERS
 R Hellscream Cannon 1 4 3 5 6 5 1 5 4
-Armoured Giant 6 3 - 6 5 6 3 * 10
-Kadim Titan 8 5 3 7 6 6 6 6 8
+R Armoured Giant 6 3 - 6 5 6 3 * 10
+R Kadim Titan 8 5 3 7 6 6 6 6 8
 M Great Bull of Shamut 6 5 - 6 6 6 3 4 6
 WAR MACHINES
 R Heavy Artillery - - - - 7 3 - - -
 - Crew (3) 3 4 3 3 4 - 2 1 9
-Earthquake Mortar - - - - 7 3 - - -
+R Earthquake Mortar - - - - 7 3 - - -
 - Crew (3) 3 4 3 3 4 - 2 1 9
 - (Ogre Slave) - 3 - 4 - - 2 3 -
 S Gunnery Team - - - - 4 2 - - -
 - Crew (3) 3 4 4 4 4 - 2 1 9
-Hobgoblin Bolt
-Thrower
+S Hobgoblin Bolt Thrower
 - - - - 7 2 - - -
 - Crew (3) 4 3 3 3 3 - 2 1 6
 SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
@@ -715,7 +569,3 @@ Infernal Artillery Earthquake Mortar Catapult (3") 48 4[10] - [Ordnance] -
 Hellscream Cannon Catapult (3") 60 4[9] - [Ordnance] 1
 Unchained Hellmortar Catapult (3") 24 3 - - -
 Infernal Engine Shrapnel Guns Volley Gun 18 6 2D6+2 - 1
-22
-CHANGE LOG
-version 0.11.0 beta released
-23
