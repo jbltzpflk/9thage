@@ -1,153 +1,56 @@
 Fantasy Battles
 The 9th Age
-Orcs and Goblins
-Army Rules
-Version 0.11.0 Beta
+Orcs and Goblins Army Rules Version 0.11.0 Beta
+
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+
 Army Special Rules
-Armoury
-Magical items
-Quick Reference Sheet
-Change Log
-Lords
-Heroes
-Core
-Special
-Rare
-Mounts
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.
-All relevant rules, as well as feedback and suggestions, can be found/given here:
-http://www.the-ninth-age.com/
-Rules changes between versions are colour coded in green. See change log at end of document.
-Army Special Rules
-Greenhide Races
-Different models in the army have a specific set of special rules depending on their race.
-Common Orc
-Unruly, Born to Fight
-Iron Orc
-Born to Fight, Weapon Masters,
-Immune to Psychology
-Feral Orc
-Unruly, Born to Fight, Frenzy, Ward
-Save (6+)
-Common Goblin
-Insignificant, Unruly
-Cave Goblin
-Insignificant, Unruly, Hatred (Army
-book: Dwarven Holds)
-Forest Goblin
-Insignificant, Unruly, Strider
-(Forests)
-Unruly
-Unruly units have -1 Leadership when rolling to restrain Pursuit Moves and Frenzy Tests. In addition, if they are in
-horde formation, roll 3 dice for Panic tests and discard the highest dice.
-Born to Fight
-Model parts with this special rule have +1 Strength until they lose or draw a combat.
-Waaargh!
-Once per game, a model with this Special Rule that is the army's General may declare a Waaargh! at the start of the
-Turn. All models in the army belonging to any Greenhide Race gain the Devastating Charge and Swiftstride special rules
-until the end of the Player Turn.
-Venomous Fangs
-Nominate one attack from the model with this special rule before rolling to hit. This attack has the Multiple Wounds
-(Ordnance) special rule.
-2
-Shambolic (X, mode)
-Units with this Special Rule follow the Random Movement (X) Special Rule. Shambolic units are Immune to Psychology
-and cannot be joined by characters. If this unit rolls for its Random Movement and all the dice show the same result, it
-takes D3 wounds with no saves allowed and then moves in a randomized direction.
+Greenhide Races: Different models in the army have a specific set of special rules depending on their race.
+Common Orc: Unruly, Born to Fight
+Iron Orc: Born to Fight, Weapon Masters, Immune to Psychology
+Feral Orc: Unruly, Born to Fight, Frenzy, Ward Save (6+)
+Common Goblin: Insignificant, Unruly
+Cave Goblin: Insignificant, Unruly, Hatred (Army book: Dwarven Holds)
+Forest Goblin: Insignificant, Unruly, Strider (Forests)
+Unruly: Unruly units have -1 Leadership when rolling to restrain Pursuit Moves and Frenzy Tests. In addition, if they are in horde formation, roll 3 dice for Panic tests and discard the highest dice.
+Born to Fight: Model parts with this special rule have +1 Strength until they lose or draw a combat.
+Waaargh!: Once per game, a model with this Special Rule that is the army's General may declare a Waaargh! at the start of the Turn. All models in the army belonging to any Greenhide Race gain the Devastating Charge and Swiftstride special rules until the end of the Player Turn.
+Venomous Fangs: Nominate one attack from the model with this special rule before rolling to hit. This attack has the Multiple Wounds (Ordnance) special rule.
+
+Shambolic (X, mode): Units with this Special Rule follow the Random Movement (X) Special Rule. Shambolic units are Immune to Psychology and cannot be joined by characters. If this unit rolls for its Random Movement and all the dice show the same result, it takes D3 wounds with no saves allowed and then moves in a randomized direction.
 Shambolic Random Movement has two optional modes, stated in brackets.
-Running Amok!!
-Units with Shambolic (Running Amok!!) always move in
-a randomized direction during their random movement.
-Steady
-Units with Shambolic (Steady) may re-roll their random
-movement distance roll, but must accept the second one.
-Boing!
-Boing! units may move through friendly units during their move. If a Boing! unit would end its movement inside a
-fr
-iendly unit without also being in contact with an enemy unit, backtrack along its path until it is in a legal position (at
-least 1'' away from any units).
-Boing! units do not count as "touching" terrain (e.g. for the purposes for Dangerous Terrain tests) unless they begin or
+Running Amok!!  Units with Shambolic (Running Amok!!) always move in a randomized direction during their random movement.
+Steady: Units with Shambolic (Steady) may re-roll their random movement distance roll, but must accept the second one.
+Boing!: Boing! units may move through friendly units during their move. If a Boing! unit would end its movement inside a friendly unit without also being in contact with an enemy unit, backtrack along its path until it is in a legal position (at least 1" away from any units).  Boing! units do not count as "touching" terrain (e.g. for the purposes for Dangerous Terrain tests) unless they begin or
 end their move on it, but they are still blocked by Impassable Terrain.
-Ricochet (X)
-Ricochet models ignore the 1" unit spacing rule during their Random Movement. If a Ricochet model touches another
-unit (friend or foe), it continues moving in the same direction until it is 1'' clear of the other unit. If this would cause it to
-contact a third unit (or fourth, etc), the Ricochet model keeps moving in the same direction through units until it can be
-placed (it must be at least 1'' away from other units or impassible terrain to be placed). If it cannot be placed through
-this process it is removed as a casualty.
-Any units passed through by a Ricochet model that is within the movement distance rolled are hit. The units that are hit
-suffer X hits, where X is given in brackets. All units in same Close Combat that are hit are treated as a single unit for hit
-purposes. Owning player distribute hits as evenly as possible between units, then follow normal rules for distributing
-hits to models within each unit.
-This is increased by an additional D6 hits if the Ricochet model was removed as a casualty because it couldn't be placed
-anywhere.
-Other units cannot charge Ricochet models, but may charge, flee, pursue or move through them. Units that do so take X
-hits plus an additional D6 hits, and the Ricochet model is removed as a casualty.
-All hits inflicted by Ricochet models are at the unmodified strength of the model and are Armour Piercing (1).
-Accident Prone
-When Accident Prone models contact any terrain feature except Open Terrain or Hills, contact the board edge, or stop
-1'' away from Impassable Terrain, they must take a Dangerous Terrain test, which is failed on a roll of ‘1' or ‘2'. If two
-Accident Prone units touch each other, they are both removed as casualties.
-3
+Ricochet (X): Ricochet models ignore the 1" unit spacing rule during their Random Movement. If a Ricochet model touches another unit (friend or foe), it continues moving in the same direction until it is 1" clear of the other unit. If this would cause it to contact a third unit (or fourth, etc), the Ricochet model keeps moving in the same direction through units until it can be placed (it must be at least 1" away from other units or impassible terrain to be placed). If it cannot be placed through this process it is removed as a casualty.  Any units passed through by a Ricochet model that is within the movement distance rolled are hit. The units that are hit suffer X hits, where X is given in brackets. All units in same Close Combat that are hit are treated as a single unit for hit purposes. Owning player distribute hits as evenly as possible between units, then follow normal rules for distributing hits to models within each unit.  This is increased by an additional D6 hits if the Ricochet model was removed as a casualty because it couldn't be placed anywhere.  Other units cannot charge Ricochet models, but may charge, flee, pursue or move through them. Units that do so take X hits plus an additional D6 hits, and the Ricochet model is removed as a casualty.  All hits inflicted by Ricochet models are at the unmodified strength of the model and are Armour Piercing (1).
+Accident Prone: When Accident Prone models contact any terrain feature except Open Terrain or Hills, contact the board edge, or stop 1" away from Impassable Terrain, they must take a Dangerous Terrain test, which is failed on a roll of ‘1' or ‘2'. If two Accident Prone units touch each other, they are both removed as casualties.
+
 Armoury
-Power ‘Shrooms
-Generate D3+1 Power ‘Shrooms at the end of deployment. When declaring usage of Power Dice you may use a single
-mushroom to add D3 to the casting result. If this dice rolls a natural ‘1', the Wizard takes a Strength 3 hit with Armour
-Piercing (6).
-Mammoth Stabber
-Units with at least one Full Rank have Impact Hits (D3) with Strength 5 and Multiple Wounds (Ordnance; Large
-Targets).
+Power ‘Shrooms: Generate D3+1 Power ‘Shrooms at the end of deployment. When declaring usage of Power Dice you may use a single mushroom to add D3 to the casting result. If this dice rolls a natural ‘1', the Wizard takes a Strength 3 hit with Armour Piercing (6).
+Mammoth Stabber: Units with at least one Full Rank have Impact Hits (D3) with Strength 5 and Multiple Wounds (Ordnance; Large Targets).
+
 Magical items
 Magical Weapons
-Axe of the Aporcalypse (65 pts / 50 pts) - Orcs only
-Type: Hand weapon. Wielder has +D3 Strength and +D3
-Attacks.
-Backstabbing Dirks (15 pts) - Models on foot only
-Type: Additional Hand Weapon. Attacks made with this
-weapon have Armour Piercing (1). If the wielder is
-attacking an enemy unit in their flank or rear, attacks
-made with this weapon gain +2 Strength.
+Axe of the Aporcalypse (65 pts / 50 pts): Orcs only Type: Hand weapon. Wielder has +D3 Strength and +D3 Attacks.
+Backstabbing Dirks (15 pts): Models on foot only Type: Additional Hand Weapon. Attacks made with this weapon have Armour Piercing (1). If the wielder is attacking an enemy unit in their flank or rear, attacks made with this weapon gain +2 Strength.
+
 Magical Armour
-Plates of Tuktek (35 pts)
-Type: Heavy Armour. Wearer gains +1 Toughness and
-the Impact Hits(D3) special rule.
-Crown of the Cavern King (40 pts) - Cave Goblin only
-Magical Armour. Type: None (5+ Armour Save). Wearer
-may only join units of Cave Goblins. Wearer's unit gains
-Vanguard and may move after Rallying, although it may
-not march nor shoot in the same turn. Wearer's
-Inspiring Presence or Hold Your Ground range is
-increased by 6".
+Plates of Tuktek (35 pts): Type: Heavy Armour. Wearer gains +1 Toughness and the Impact Hits(D3) special rule.
+Crown of the Cavern King (40 pts): Cave Goblin only Magical Armour. Type: None (5+ Armour Save). Wearer may only join units of Cave Goblins. Wearer's unit gains Vanguard and may move after Rallying, although it may not march nor shoot in the same turn. Wearer's Inspiring Presence or Hold Your Ground range is increased by 6".
+
 Talismans
-Pan of Protection Pinchin' (25 pts) - Goblins only
-The bearer, when wounded, may use the Armour Save,
-Ward Save, Regeneration Save, or Magic Resistance of
-the model that has inflicted the wound.
+Pan of Protection Pinchin' (25 pts): Goblins only The bearer, when wounded, may use the Armour Save, Ward Save, Regeneration Save, or Magic Resistance of the model that has inflicted the wound.
+
 Enchanted Items
-Lucky Boar's Leg (40 pts)
-Orc General mounted on War Boar or Boar Chariot only.
-Boar Riders (not Brutal Boar riders ) count as a core
-choice and The Wearer and his unit have +1 Movement
-that can't be combined with other Magical Items granting
-positive modifications to movement or Swiftstride.
-Waaargh! Paint (30 pts) - Feral Orc only
-Models with the "Greenhide Race: Feral Orc" in the
-wearer's unit have Frenzy, which they cannot lose, and
-gain Swiftstride for the purpose of Pursue and Overrun.
+Lucky Boar's Leg (40 pts): Orc General mounted on War Boar or Boar Chariot only.  Boar Riders (not Brutal Boar riders ) count as a core choice and The Wearer and his unit have +1 Movement that can't be combined with other Magical Items granting positive modifications to movement or Swiftstride.
+Waaargh! Paint (30 pts): Feral Orc only Models with the "Greenhide Race: Feral Orc" in the wearer's unit have Frenzy, which they cannot lose, and gain Swiftstride for the purpose of Pursue and Overrun.
+
 Magical Standards
-Mikinok's Totem (75 pts)
-Grants Magical Resistance (D6), determined by rolling D6
-each time that Magical Resistance is used. Magical items
-in base contact with the bearer have no effects and revert
-to a mundane version of the item. The ability to revert
-magical items into mundane version will always work
-regardless of similar effects affecting this banner.
-Mother's Gift (25 pts)
-All Forest Goblins in the bearer's unit have Poisoned
-Attacks.
-Ironhide Icon (25 pts )
-This banner grants Ward Save (5+) against shooting
-attacks.
-4
+Mikinok's Totem (75 pts): Grants Magical Resistance (D6), determined by rolling D6 each time that Magical Resistance is used. Magical items in base contact with the bearer have no effects and revert to a mundane version of the item. The ability to revert magical items into mundane version will always work regardless of similar effects affecting this banner.
+Mother's Gift (25 pts): All Forest Goblins in the bearer's unit have Poisoned Attacks.
+Ironhide Icon (25 pts ): This banner grants Ward Save (5+) against shooting attacks.
+
 Army List
 LORDS
 Orc Warlord 130 pts
