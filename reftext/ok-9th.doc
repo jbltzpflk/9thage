@@ -1,133 +1,53 @@
 Fantasy Battles
 The 9th Age
-Ogre Khans
-Army Rules
-Version 0.11.0 Beta
+Ogre Khans Army Rules Version 0.11.0 Beta
+
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+
 Special Rules
+Sons of the Avalanche: Models with this Special Rule have Impact Hits (1). Characters with this Special Rule have Impact Hits (D3).
+Scrapling Lookout: Units that carry a standard with the Scrapling Lookout upgrade must be fewer than 3 Rank and File models before hits can be distributed onto Characters with the same troop type as the unit.
+
 Armoury
-Big Names
-Magical Items
-Quick Reference Sheet
-Change Log
-Lords
-Heroes
-Core
-Special
-Rare
-Mounts
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.
-All relevant rules, as well as feedback and suggestions, can be found/given here:
-http://www.the-ninth-age.com/
-Rules changes between versions are colour coded in green. See change log at end of document.
-Special Rules
-Sons of the Avalanche
-Models with this Special Rule have Impact Hits (1). Characters with this Special Rule have Impact Hits (D3).
-Scrapling Lookout
-Units that carry a standard with the Scrapling Lookout upgrade must be fewer than 3 Rank and File models before hits
-can be distributed onto Characters with the same troop type as the unit.
-Armoury
-Iron Fist:
-Close Combat Weapon. Requires Two Hands. This is a Close Combat weapon that adds +1 to the model's Armour Save
-and counts as an Additional Hand Weapon.
-Ogre Pistol:
-Shooting Weapon. Range 24", Strength 4, Quick to Fire, Armour Piercing (1), counts as an Additional Hand Weapon in
-Close Combat.
-Brace of Ogre Pistols:
-Shooting Weapon. Range 24", Strength 4, Quick to Fire, Armour Piercing (1), Multiple Shots (2), counts as Additional
-Hand Weapon in Close Combat.
-Ogre Crossbow:
-Shooting Weapon. Range 30", Strength 5, Penetrates ranks like a Bolt Thrower.
-Hunting Spear:
-Shooting Weapon. Range 12", User Strength +1, Quick to Fire, Lethal Strike.
-2
+Iron Fist: Close Combat Weapon. Requires Two Hands. This is a Close Combat weapon that adds +1 to the model's Armour Save and counts as an Additional Hand Weapon.
+Ogre Pistol: Shooting Weapon. Range 24", Strength 4, Quick to Fire, Armour Piercing (1), counts as an Additional Hand Weapon in Close Combat.
+Brace of Ogre Pistols: Shooting Weapon. Range 24", Strength 4, Quick to Fire, Armour Piercing (1), Multiple Shots (2), counts as Additional Hand Weapon in Close Combat.
+Ogre Crossbow: Shooting Weapon. Range 30", Strength 5, Penetrates ranks like a Bolt Thrower.
+Hunting Spear: Shooting Weapon. Range 12", User Strength +1, Quick to Fire, Lethal Strike.
+
 Big Names
 Each Ogre Character can take a single Big Name. No two Characters can have the same Big Name.
-Hellfist (50 pts) - Great Khans only
-Model gains a Magical Weapon. Type: Iron Fist. Any model in the army may be given a Mark of The Dark Gods from the
-Wa
-rriors of the Dark Gods Army Book for the following cost: 5 pts per Monstrous Infantry model, 10 pts per Monstrous
-Cavalry or Chariot model, 15 pts per Monster or Character model. Alternatively they may be given the Mark of True
-Chaos at no cost.
-Shamans and Great Shamans with a Mark other than True Chaos may choose a Path available to those Marks in addition
-to any path normally available to them, including Shamans upgraded with Fire Blessing or Greater Fire Blessing.
-Shamans and Great Shamans may not choose Mark of Wrath.
-The army may not include Mammoth Hunters, Yeti, Scraplings, Scrapling Trappers, Sabretooth Tigers or Scratapults.
-Wildheart (50 pts) - Mammoth Hunters only
-A Mammoth Hunter with this Big Name may be the Army's General. One Mammoth Hunter in the army may be
-upgraded to a Battle Standard Bearer for 25 pts. One unit of Yeti and a single unit of Sabretooth Tigers may be taken as
-Core. The army may not include Great Khans, Khans, Shamans with Fire Blessing, Greater Shamans with Greater Fire
-Blessing, Bruisers, Mercenary Veteran, Bombardiers, or Thunder Cannons.
-Rottenjaw (30 pts)
-The Character gains Poisoned Attacks. For the duration of a one Close Combat phase, all models in the Character's unit
-may gain Poisoned Attacks. The Player must declare at the start of the combat phase if they are using this ability.
-Trolleater (25 pts)
-The Character known for this unsavoury diet gains the Regeneration (5+) and Stupidity Special Rules. In addition, the
-Character has Multiple Wounds (2, Monstrous Infantry).
-Headhunter (25 pts)
-The Character with this Big Name gorges himself on the flesh of his fallen foes even in the heat of battle. At the end of
-any Close Combat phase in which the Character has killed one or more models and is not fleeing, roll a D6. On a roll of
-4+, he regains a single wound lost earlier in the battle.
-Spinesplitter (20 pts) - Models on foot only, May not be taken by a Wizard
-The Character gains the Devastating Charge and Thunderous Charge Special Rules (also affecting Impact Hits and
-Stomp).
-Hoardmaster (20 pts) - May not be taken by a Wizard or a Mammoth Hunter
-The Character gains the Weapon Master Special Rule and Plate Armour, and may also purchase any number of mundane
-close combat and shooting weapons available to him rather than just one of each type.
-3
+Hellfist (50 pts): Great Khans only Model gains a Magical Weapon. Type: Iron Fist. Any model in the army may be given a Mark of The Dark Gods from the Warriors of the Dark Gods Army Book for the following cost: 5 pts per Monstrous Infantry model, 10 pts per Monstrous Cavalry or Chariot model, 15 pts per Monster or Character model. Alternatively they may be given the Mark of True Chaos at no cost.  Shamans and Great Shamans with a Mark other than True Chaos may choose a Path available to those Marks in addition to any path normally available to them, including Shamans upgraded with Fire Blessing or Greater Fire Blessing.  Shamans and Great Shamans may not choose Mark of Wrath.  The army may not include Mammoth Hunters, Yeti, Scraplings, Scrapling Trappers, Sabretooth Tigers or Scratapults.
+Wildheart (50 pts): Mammoth Hunters only A Mammoth Hunter with this Big Name may be the Army's General. One Mammoth Hunter in the army may be upgraded to a Battle Standard Bearer for 25 pts. One unit of Yeti and a single unit of Sabretooth Tigers may be taken as Core. The army may not include Great Khans, Khans, Shamans with Fire Blessing, Greater Shamans with Greater Fire Blessing, Bruisers, Mercenary Veteran, Bombardiers, or Thunder Cannons.
+Rottenjaw (30 pts): The Character gains Poisoned Attacks. For the duration of a one Close Combat phase, all models in the Character's unit may gain Poisoned Attacks. The Player must declare at the start of the combat phase if they are using this ability.
+Trolleater (25 pts): The Character known for this unsavoury diet gains the Regeneration (5+) and Stupidity Special Rules. In addition, the Character has Multiple Wounds (2, Monstrous Infantry).
+Headhunter (25 pts): The Character with this Big Name gorges himself on the flesh of his fallen foes even in the heat of battle. At the end of any Close Combat phase in which the Character has killed one or more models and is not fleeing, roll a D6. On a roll of 4+, he regains a single wound lost earlier in the battle.
+Spinesplitter (20 pts): Models on foot only, May not be taken by a Wizard. The Character gains the Devastating Charge and Thunderous Charge Special Rules (also affecting Impact Hits and Stomp).
+Hoardmaster (20 pts): May not be taken by a Wizard or a Mammoth Hunter The Character gains the Weapon Master Special Rule and Plate Armour, and may also purchase any number of mundane close combat and shooting weapons available to him rather than just one of each type.
+
 Magical Items
 Magical Weapons
-Khagadai's Maul (50 pts)
-Type: Great weapon. Multiple Wounds (D3). The wielder
-may choose each round of combat to make a Crush
-Attack instead of normal attacks.
-Heart-Ripper (30 pts)
-Type: Iron Fist. Attacks made with this weapon will
-always hit on no worse than 3+ in Close Combat
-regardless of any negative modifiers, and have the Lethal
-Strike and Armour Piercing (1) Special Rules.
-Axe-Breaker Gauntlet (25 pts)
-Type: Iron Fist. If the wielder scores one or more hits
-using this weapon against an enemy model with a
-Magical Weapon, roll a D6: On a roll of 4+, all of the
-model's Magical Weapons are destroyed.
+Khagadai's Maul (50 pts): Type: Great weapon. Multiple Wounds (D3). The wielder may choose each round of combat to make a Crush Attack instead of normal attacks.
+Heart-Ripper (30 pts): Type: Iron Fist. Attacks made with this weapon will always hit on no worse than 3+ in Close Combat regardless of any negative modifiers, and have the Lethal Strike and Armour Piercing (1) Special Rules.
+Axe-Breaker Gauntlet (25 pts): Type: Iron Fist. If the wielder scores one or more hits using this weapon against an enemy model with a Magical Weapon, roll a D6: On a roll of 4+, all of the model's Magical Weapons are destroyed.
+
 Magical Armour
-Mammoth-Hide Armour (40 pts)
-Model on foot only. Type: Heavy Armour. If the wearer is
-hit by an attack with a Strength value of 6 or more, the
-Strength of the attack is reduced to 5.
-Yeti Furs (15 pts)
-Type: None (6+ Armour Save). Enemy models in base
-contact with the wearer have -3 Initiative to a minimum
-of 1.
+Mammoth-Hide Armour (40 pts): Model on foot only. Type: Heavy Armour. If the wearer is hit by an attack with a Strength value of 6 or more, the Strength of the attack is reduced to 5.
+Yeti Furs (15 pts): Type: None (6+ Armour Save). Enemy models in base contact with the wearer have -3 Initiative to a minimum of 1.
+
 Talismans
-Blind Eye of Nyanggai (25 pts)
-One use only. Activate at the beginning of the opponent's
-magic phase. The bearer of this item, the unit he is in,
-and any other characters in it cannot be chosen as
-targets of non-aura spells cast by enemy wizards.
+Blind Eye of Nyanggai (25 pts): One use only. Activate at the beginning of the opponent's magic phase. The bearer of this item, the unit he is in, and any other characters in it cannot be chosen as targets of non-aura spells cast by enemy wizards.
+
 Arcane Items
-Daemon Heart (50 pts)
-One use only. Activate at the beginning of the opponent's
-magic phase. For that phase, all enemy wizards within
-24" will suffer a miscast on a roll that includes any
-doubles (only double 6 counts as Overwhelming Power,
-and no more than one miscast can be suffered per roll).
-All miscasts will be considered to have been rolled using
-one more Power Dice than used.
+Daemon Heart (50 pts): One use only. Activate at the beginning of the opponent's magic phase. For that phase, all enemy wizards within 24" will suffer a miscast on a roll that includes any doubles (only double 6 counts as Overwhelming Power, and no more than one miscast can be suffered per roll).  All miscasts will be considered to have been rolled using one more Power Dice than used.
+
 Enchanted Items
-Aurochs Charm (15 pts)
-The bearer of this item gains the Rock Skin Special Rule
-(see Rock Aurochs Rare unit).
+Aurochs Charm (15 pts): The bearer of this item gains the Rock Skin Special Rule (see Rock Aurochs Rare unit).
+
 Magical Standards
-Dragonskin Banner (40 pts)
-Models in the unit may reroll failed to hit, to wound, and
-armour save rolls of 1 during the Close Combat phase on
-the turn they charged. The bearer gains Breath Weapon
-(Strength 3, Flaming Attacks).
-Skull of Qenghet (20 pts)
-Models in the unit cause Fear and automatically pass
-Terror tests.
-4
+Dragonskin Banner (40 pts): Models in the unit may reroll failed to hit, to wound, and armour save rolls of 1 during the Close Combat phase on the turn they charged. The bearer gains Breath Weapon (Strength 3, Flaming Attacks).
+Skull of Qenghet (20 pts): Models in the unit cause Fear and automatically pass Terror tests.
+
 Army List
 LORDS
 Great Khan 180 pts
@@ -148,14 +68,13 @@ May take a combat weapon (one choice only)
 Additional Hand Weapon 10
 Iron Fist 15
 Great Weapon 20
+
 Great Shaman 275 pts
 single model
 M WS BS S T W I A Ld
 6 4 3 4 5 5 3 4 8 Monstrous Infantry 40x40mm base
 Ogre Special Rules: Sons of the Avalanche
-Magic: Level 3 Wizard Master . Generates spells from one
-of the following Paths: Death, Heavens, Wilderness,
-or Butchery.
+Magic: Level 3 Wizard Master . Generates spells from one of the following Paths: Death, Heavens, Wilderness, or Butchery.
 Options: pts
 May take a single Big Name no limit
 May become a Level 4 wizard 35
@@ -164,11 +83,8 @@ May take a weapon (one choice only)
 Additional Hand Weapon 5
 Great Weapon 15
 May be take Greater Fire Blessing 35
-Greater Fire Blessing : The Great Shaman gains Flaming
-Attacks, Fireborn and Breath Weapon (Strength 4, Flaming
-Attacks). The Great Shaman must generate spells from the
-Path of Fire or Alchemy.
-5
+Greater Fire Blessing : The Great Shaman gains Flaming Attacks, Fireborn and Breath Weapon (Strength 4, Flaming Attacks). The Great Shaman must generate spells from the Path of Fire or Alchemy.
+
 HEROES
 Khan 105 pts
 single model
@@ -189,13 +105,13 @@ May take a combat weapon (one choice only)
 Additional Hand Weapon 5
 Iron Fist 10
 Great Weapon 15
+
 Shaman 105 pts
 single model
 M WS BS S T W I A Ld
 6 3 3 4 4 4 2 3 7 Monstrous Infantry 40x40mm base
 Ogre Special Rules: Sons of the Avalanche
-Magic: Level 1 Wizard Apprentice . Generate spells from
-Path of Beasts or Path of Butchery.
+Magic: Level 1 Wizard Apprentice . Generate spells from Path of Beasts or Path of Butchery.
 Options: pts
 May take a single Big Name no limit
 May become a Level 2 wizard 25
@@ -204,10 +120,8 @@ May take a weapon (one choice only)
 Additional Hand Weapon 3
 Great Weapon 6
 May take Fire Blessing 25
-Fire Blessing : The Shaman gains Flaming Attacks, Fireborn
-and Breath Weapon (Strength 3, Flaming Attacks). The
-Shaman automatically generate spells from the Path of Fire.
-6
+Fire Blessing : The Shaman gains Flaming Attacks, Fireborn and Breath Weapon (Strength 3, Flaming Attacks). The Shaman automatically generate spells from the Path of Fire.
+
 Mammoth Hunter 120 pts
 single model
 M WS BS S T W I A Ld
@@ -216,16 +130,8 @@ Weapons: Hunting Spear
 Armour: Light Armour
 Ogre Special Rules: Sons of the Avalanche
 Special Rules: Not a Leader, Swiftstride
-Loner: Mammoth Hunters on foot may only join
-units of Yeti and Sabretooth Tigers. Mounted
-Mammoth Hunters may not join any units at all.
-Leader of the Pack: If a Mammoth Hunter is
-deployed inside one of these units (and only whilst
-he is inside it), the unit loses Insignificant but
-instead gains Vanguard. Furthermore, the
-Mammoth Hunter counts as having the Warbeast
-Troop Type for the purposes of allocating hits and
-template hits at combined units.
+Loner: Mammoth Hunters on foot may only join units of Yeti and Sabretooth Tigers. Mounted Mammoth Hunters may not join any units at all.
+Leader of the Pack: If a Mammoth Hunter is deployed inside one of these units (and only whilst he is inside it), the unit loses Insignificant but instead gains Vanguard. Furthermore, the Mammoth Hunter counts as having the Warbeast Troop Type for the purposes of allocating hits and template hits at combined units.
 Options: pts
 May take a single Big Name no pt limit
 May take Magical Items up to 50
@@ -239,10 +145,8 @@ Great Weapon 15
 May take a mount:
 Tusker 60
 Rock Aurochs (One of a Kind)* 250
-*A Mammoth Hunter mounted on a Rock Aurochs cannot use
-the Sons of the Avalanche special rule. Furthermore, it may only
-choose Wildheart as a Big Name, if any is chosen.
-7
+*A Mammoth Hunter mounted on a Rock Aurochs cannot use the Sons of the Avalanche special rule. Furthermore, it may only choose Wildheart as a Big Name, if any is chosen.
+
 CORE
 Tribesmen 85 pts
 3 models, may add up to 12 models 28 pts/model
@@ -260,8 +164,8 @@ Musician 10
 Standard Bearer 10
 - May take Scrapling Lookout 5
 - May become Veteran Standard Bearer*
-*A Veteran Standard Bearer is One of a Kind and may take a
-Magical Standard worth up to 25 pts.
+*A Veteran Standard Bearer is One of a Kind and may take a Magical Standard worth up to 25 pts.
+
 Bruisers 120 pts
 3 models, may add up to 7 models 40 pts/model
 M WS BS S T W I A Ld
@@ -276,7 +180,7 @@ Musician 10
 Standard Bearer 10
 - May take Scrapling Lookout 5
 - May become Veteran Standard Bearer
-8
+
 Scraplings 40 pts
 10 models, may add up to 50 models 3 pts/model
 M WS BS S T W I A Ld
@@ -285,14 +189,14 @@ Weapons: Throwing Weapons
 Special Rules: Insignificant
 Options: pts
 May take Light Armour 1 / model
-May replace Throwing Weapons with
-Short Bow free
+May replace Throwing Weapons with Short Bow free
 Spear and Shield 1/ model
 May upgrade one model to each of the following:
 Champion 10
 - One unit may upgrade to Foreman 20
 Musician 10
 Standard Bearer 10
+
 Scrapling Foreman
 single model (this is an upgrade for Scrapling unit)
 M WS BS S T W I A Ld
@@ -300,17 +204,12 @@ M WS BS S T W I A Ld
 Weapons: Throwing Weapons
 Armour: Light Armour
 Special Rules: Insignificant
-Back to Work!: Models with this Special Rule have
-the Hold Your Ground rule even though it is not the
-Battle Standard Bearer. Only Scraplings,
-Scratapults and Scrapling Trappers may benefit
-fr
-om this Hold Your Ground.
+Back to Work!: Models with this Special Rule have the Hold Your Ground rule even though it is not the Battle Standard Bearer. Only Scraplings, Scratapults and Scrapling Trappers may benefit from this Hold Your Ground.
 Options: pts
 May take a weapon (one choice only)
 Halberd 3
 Great Weapon 3
-9
+
 SPECIAL
 Bombardiers 130 pts
 3 models, may add up to 5 models 43 pts/model
@@ -325,9 +224,8 @@ Musician 10
 Standard Bearer 10
 - May take Scrapling Lookout 5
 - May take a Magical Standard up to 25
-Weapons: Hand Cannon: Range 24", Strength 4, Multiple Shots (D6), Armour Piercing (1), Cumbersome. Hand Cannons do not
-suffer any To Hit penalties for Moving and Shooting or for Multiple Shots. In Close Combat, a Hand Cannon counts as a
-Halberd that strikes at Initiative 0.
+Weapons: Hand Cannon: Range 24", Strength 4, Multiple Shots (D6), Armour Piercing (1), Cumbersome. Hand Cannons do not suffer any To Hit penalties for Moving and Shooting or for Multiple Shots. In Close Combat, a Hand Cannon counts as a Halberd that strikes at Initiative 0.
+
 Mercenary Veterans 150 pts
 3 models, may add up to 5 models 50 pts/model
 M WS BS S T W I A Ld
@@ -335,13 +233,7 @@ M WS BS S T W I A Ld
 Armour: Heavy Armour
 Ogre Special Rules: Sons of the Avalanche
 Special Rules: Weapon Masters
-Battle-Scarred: Each unit of Mercenary Veterans
-may be given up to two of the following special
-rules: Immune to Psychology, Poisoned Attacks,
-Bodyguard, Lethal Strike, Strider, Swiftstride,
-Vanguard, Thunderous Charge. Each special rule
-may only be taken by one unit of Mercenary
-Veterans in your army.
+Battle-Scarred: Each unit of Mercenary Veterans may be given up to two of the following special rules: Immune to Psychology, Poisoned Attacks, Bodyguard, Lethal Strike, Strider, Swiftstride, Vanguard, Thunderous Charge. Each special rule may only be taken by one unit of Mercenary Veterans in your army.
 Options: pts
 May take a weapon (one choice only)
 Additional Hand Weapon 3 / model
@@ -355,7 +247,7 @@ Musician 10
 Standard Bearer 10
 - May take Scrapling Lookout 5
 - May take a Magical Standard up to 50
-10
+
 Tusker Cavalry 130 pts
 2 models, may add up to 3 models 68 pts/model
 M WS BS S T W I A Ld
@@ -374,37 +266,34 @@ Musician 10
 Standard Bearer 10
 - Scrapling Lookout 5
 - May take a Magical Standard up to 50
+
 Sabretooth Tigers 35 pts
 1 model, may add up to 9 models 15 pts/model
 M WS BS S T W I A Ld
 8 4 - 4 4 2 4 3 5 War Beast 25x50mm base
 Special Rules: Insignificant
-Wild Beasts: A unit with this special rule can never
-benefit from Inspiring Presence or Hold Your
-Ground, but may use the Leadership of a Mammoth
-Hunter within 12" as if he were the General.
+Wild Beasts: A unit with this special rule can never benefit from Inspiring Presence or Hold Your Ground, but may use the Leadership of a Mammoth Hunter within 12" as if he were the General.
+
 Kin-Eater 90 pts
 single model
 M WS BS S T W I A Ld
 6 3 - 5 5 4 3 4 8 Monstrous Infantry 40x40mm base
-Special Rules: Regeneration (5+), Fear, Ambush, Hatred,
-Unbreakable
-11
+Special Rules: Regeneration (5+), Fear, Ambush, Hatred, Unbreakable
+
 Yeti 120 pts
 3 models, may add up to 5 models 40 pts/model
 M WS BS S T W I A Ld
 7 3 - 5 4 3 4 3 8 Monstrous Infantry 40x40mm base
 Weapons: Additional Hand Weapon
 Special Rules: Swiftstride, Strider, Fear, Magical Attacks
-Touch of Frost: All enemy units in contact with a
-model with this special rule have -1 Initiative to a
-minimum of 1.
+Touch of Frost: All enemy units in contact with a model with this special rule have -1 Initiative to a minimum of 1.
 Options: pts
 May gain Scout and Skirmisher
 (Unit maximum size 4 models) 30
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
+
 Scrapling Trappers 60 pts
 10 models, may add up to 10 models 4 pts/model
 M WS BS S T W I A Ld
@@ -413,12 +302,8 @@ Weapons: Throwing Weapons
 Special Rules: Insignificant, Scouts, Skirmishers
 Options: pts
 May upgrade one model to a Champion 10
-It's A Trap!: All Forest, Fields, and Ruins Terrain features become Dangerous Terrain for the remainder of the game
-if at the time of deployment or at the end of any movement phase a unit of Scrapling Trappers is in contact with it
-(and is not fleeing). Models that normally treat these features as dangerous terrain have a -1 modifier to their
-Dangerous Terrain Tests. Scrapling Trappers do not test for Dangerous Terrain when moving in or out of the
-modified feature.
-12
+It's A Trap!: All Forest, Fields, and Ruins Terrain features become Dangerous Terrain for the remainder of the game if at the time of deployment or at the end of any movement phase a unit of Scrapling Trappers is in contact with it (and is not fleeing). Models that normally treat these features as dangerous terrain have a -1 modifier to their Dangerous Terrain Tests. Scrapling Trappers do not test for Dangerous Terrain when moving in or out of the modified feature.
+
 RARE
 Thunder Cannon 150 pts
 single model
@@ -430,10 +315,9 @@ Woolly Rhino (1) 6 3 - 5 - - 2 3 5 Chariot 50x100mm base
 Armour: Mount's Protection (6+), Innate Defence (5+)
 Special Rules: Large Target
 Weapons: Thunder Cannon: This weapon can be fired in two ways:
- As a Cannon (2D6") Artillery Weapon with
-Range 48", Strength 10, Armour Piercing (2), Multiple Wounds (Ordnance).
- As a Volley Gun Artillery Weapon with
-Range 12", Strength 5, Armour Piercing (2), Multiple Shots (2D6).
+ As a Cannon (2D6") Artillery Weapon with Range 48", Strength 10, Armour Piercing (2), Multiple Wounds (Ordnance).
+ As a Volley Gun Artillery Weapon with Range 12", Strength 5, Armour Piercing (2), Multiple Shots (2D6).
+
 Scratapult 130 pts
 single model
 M WS BS S T W I A Ld
@@ -441,9 +325,8 @@ Scratapult - - - 5 4 4 - - -
 Scrapling Crew (7) - 2 3 3 - - 3 1 6
 Woolly Rhino (1) 6 3 - 5 - - 2 3 5 Chariot 50x100mm base
 Armour: Mount's Protection (6+), Innate Defence (5+)
-Weapons: Scratapult: This is a Catapult (5") Artillery Weapon with
-Range 48", Strength 3, Lethal Strike.
-13
+Weapons: Scratapult: This is a Catapult (5") Artillery Weapon with Range 48", Strength 3, Lethal Strike.
+
 Rock Aurochs 250 pts
 single model
 M WS BS S T W I A Ld
@@ -451,14 +334,12 @@ Rock Aurochs 7 3 - 7 6 6 2 5 5
 Rider (1) - 3 4 4 - - 3 3 8 Ridden Monster 100x150mm base
 Weapons: Ogre Crossbow
 Armour: Innate Defence (4+)
-Special Rules: Impact Hits (3D3), Frenzy (Rockhorn Only),
-Stubborn, Swiftstride
+Special Rules: Impact Hits (3D3), Frenzy (Rockhorn Only), Stubborn, Swiftstride
 Options: pts
-Rider may replace Ogre Crossbow with
-Hunting Spear free
+Rider may replace Ogre Crossbow with Hunting Spear free
 Lance 5
-Stone Skin: If the model suffers a wound with the Multiple Wounds special rule, the number of wounds suffered is
-halved, rounding up.
+Stone Skin: If the model suffers a wound with the Multiple Wounds special rule, the number of wounds suffered is halved, rounding up.
+
 Frost Mammoth 200 pts
 single model
 M WS BS S T W I A Ld
@@ -467,9 +348,8 @@ Rider (2) - 3 4 4 - - 3 3 8 Ridden Monster 100x150mm base
 Weapons: One Rider is armed with an Ogre Crossbow and the other with a Hunting Spear.
 Armour: Innate Defence (4+)
 Special Rules: Impact Hits (D3)
-Freezing Aura: The model may cast Blizzard from the Path of Heavens as a bound spell (Power Level 3). All enemy
-units within 6" of the model suffer -3 Initiative to a minimum of 1.
-14
+Freezing Aura: The model may cast Blizzard from the Path of Heavens as a bound spell (Power Level 3). All enemy units within 6" of the model suffer -3 Initiative to a minimum of 1.
+
 Slave Giant 150 pts
 single model
 M WS BS S T W I A Ld
@@ -477,38 +357,27 @@ M WS BS S T W I A Ld
 Armour: Heavy Armour
 Special Rules: Immune to Psychology, Stubborn
 Do What You're Told: All Slave Giants may reroll on the Giant Attacks table, but must accept the second result.
-Giant Attacks: When a giant attacks in Close Combat, pick a target in base contact to attack and roll on the chart
-below. Giants have two types of attack patterns depending on the Troop Type of the target.
-Against Infantry, War Beast, Swarm,
-Warmachine and Cavalry targets:
+Giant Attacks: When a giant attacks in Close Combat, pick a target in base contact to attack and roll on the chart below. Giants have two types of attack patterns depending on the Troop Type of the target.
+Against Infantry, War Beast, Swarm, Warmachine and Cavalry targets:
 1: Bellow
 2: Jump
 3: Grab
 4-6: Swing
-Against Monstrous Beast, Monstrous
-Infantry, Monstrous Cavalry, Chariot,
-Monster and Ridden Monster targets:
+Against Monstrous Beast, Monstrous Infantry, Monstrous Cavalry, Chariot, Monster and Ridden Monster targets:
 1: Bellow
 2-3: Thump
 4-6: Smash
-Bellow: Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done
-(including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2.
-If two (or more) opposing Giants "Bellow", the combat is a draw.
-Jump: The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant
-must take a Dangerous Terrain test.
-Grab: Select a single model in base contact with the Giant. This model must take a Strength and a Weapon Skill test.
-For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
+Bellow: Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done (including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2.  If two (or more) opposing Giants "Bellow", the combat is a draw.
+Jump: The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant must take a Dangerous Terrain test.
+Grab: Select a single model in base contact with the Giant. This model must take a Strength and a Weapon Skill test.  For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
 Swing: The Giant makes 2D6 attacks on the chosen unit.
-Thump: Select a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the
-test is failed, the model suffers 2D6 wounds with Armour Piercing (6).
-Smash: Select a model from the chosen unit in base contact with the Giant. This model suffers 1 wound with Armour
-Piercing (6). If the model has not yet attacked it cannot attack in this round. It the model has already attacked, it
-cannot attack in the next player turn.
-- NotesGiant Attacks count as Close Combat attacks and are therefore affected by all rules normally affecting Close Combat
-attacks. After rolling on this chart, the Giant may still Stomp as normal.
-15
+Thump: Select a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the test is failed, the model suffers 2D6 wounds with Armour Piercing (6).
+Smash: Select a model from the chosen unit in base contact with the Giant. This model suffers 1 wound with Armour Piercing (6). If the model has not yet attacked it cannot attack in this round. It the model has already attacked, it cannot attack in the next player turn.
+- Notes Giant Attacks count as Close Combat attacks and are therefore affected by all rules normally affecting Close Combat attacks. After rolling on this chart, the Giant may still Stomp as normal.
+
 MOUNTS
 The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
+
 Tusker
 M WS BS S T W I A Ld
 8 3 - 5 5 3 2 4 5 Monstrous Beast 50x100mm base
@@ -519,16 +388,15 @@ M WS BS S T W I A Ld
 7 3 - 7 6 6 2 5 5 Monster 100x150mm base
 Armour: Innate Defence (4+)
 Special Rules: Impact Hits (3D3), Frenzy, Stubborn, Swiftstride
-Stone Skin: If the model suffers a wound with the Multiple Wounds special rule, the number of wounds suffered is
-halved, rounding up.
-16
+Stone Skin: If the model suffers a wound with the Multiple Wounds special rule, the number of wounds suffered is halved, rounding up.
+
 Quick Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 CHARACTERS M WS BS S T W I A Ld
 L Great Khan 6 6 4 5 5 5 4 5 9
-Great Shaman 6 4 3 4 5 5 3 4 8
+L Great Shaman 6 4 3 4 5 5 3 4 8
 H Khan 6 5 4 5 5 4 3 4 8
-Shaman 6 3 3 4 4 4 2 3 7
+H Shaman 6 3 3 4 4 4 2 3 7
 Mammoth Hunter 7 4 5 5 5 4 4 4 9
 INFANTRY
 C Scrapling 4 2 3 3 3 1 3 1 6
@@ -536,11 +404,11 @@ C Scrapling 4 2 3 3 3 1 3 1 6
 S Scrapling Trapper 5 2 3 3 3 1 3 1 6
 MONSTROUS INFANTRY
 C Tribesman 6 3 3 4 4 3 2 3 7
-Bruiser 6 3 3 4 4 3 2 3 8
+C Bruiser 6 3 3 4 4 3 2 3 8
 S Bombardier 6 3 3 4 4 3 2 3 7
-Mercenary Veteran 6 4 4 5 4 3 3 4 8
-Kin-Eater 6 3 - 5 5 4 3 4 8
-Yeti 7 3 - 5 4 3 4 3 8
+S Mercenary Veteran 6 4 4 5 4 3 3 4 8
+S Kin-Eater 6 3 - 5 5 4 3 4 8
+S Yeti 7 3 - 5 4 3 4 3 8
 WAR BEASTS
 S Sabretooth Tiger 8 4 - 4 4 2 4 3 5
 MONSTROUS BEASTS
@@ -550,7 +418,7 @@ R Thunder Cannon - - - 5 5 5 - - -
 - Whooly Rhino (1) 6 3 - 5 - - 2 3 5
 - Bombardier Crew (1) - 3 3 4 - - 2 3 7
 - Scrapling Crew (1) - 2 3 3 - - 3 1 6
-Scratapult - - - 5 4 4 - - -
+R Scratapult - - - 5 4 4 - - -
 - Whooly Rhino (1) 6 3 0 5 - - 2 3 5
 - Scrapling Crew (7) - 2 3 3 - - 3 1 6
 MONSTROUS CAVALRY
@@ -561,7 +429,7 @@ R Slave Giant 6 3 - 6 5 6 3 * 8
 RIDDEN MONSTERS
 R Roch Aurochs 7 3 - 7 6 6 2 5 5
 - Rider (1) - 3 4 4 - - 3 3 8
-Frost Mammoth 6 3 - 6 6 6 2 4 5
+R Frost Mammoth 6 3 - 6 6 6 2 4 5
 - Rider (2) - 3 4 4 - - 3 3 8
 SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
 Bombardier Handcannons - 24 4 D6 - 1
