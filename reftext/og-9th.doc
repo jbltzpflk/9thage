@@ -1,0 +1,1093 @@
+Fantasy Battles
+The 9th Age
+Orcs and Goblins
+Army Rules
+Version 0.11.0 Beta
+Army Special Rules
+Armoury
+Magical items
+Quick Reference Sheet
+Change Log
+Lords
+Heroes
+Core
+Special
+Rare
+Mounts
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.
+All relevant rules, as well as feedback and suggestions, can be found/given here:
+http://www.the-ninth-age.com/
+Rules changes between versions are colour coded in green. See change log at end of document.
+Army Special Rules
+Greenhide Races
+Different models in the army have a specific set of special rules depending on their race.
+Common Orc
+Unruly, Born to Fight
+Iron Orc
+Born to Fight, Weapon Masters,
+Immune to Psychology
+Feral Orc
+Unruly, Born to Fight, Frenzy, Ward
+Save (6+)
+Common Goblin
+Insignificant, Unruly
+Cave Goblin
+Insignificant, Unruly, Hatred (Army
+book: Dwarven Holds)
+Forest Goblin
+Insignificant, Unruly, Strider
+(Forests)
+Unruly
+Unruly units have -1 Leadership when rolling to restrain Pursuit Moves and Frenzy Tests. In addition, if they are in
+horde formation, roll 3 dice for Panic tests and discard the highest dice.
+Born to Fight
+Model parts with this special rule have +1 Strength until they lose or draw a combat.
+Waaargh!
+Once per game, a model with this Special Rule that is the army’s General may declare a Waaargh! at the start of the
+Turn. All models in the army belonging to any Greenhide Race gain the Devastating Charge and Swiftstride special rules
+until the end of the Player Turn.
+Venomous Fangs
+Nominate one attack from the model with this special rule before rolling to hit. This attack has the Multiple Wounds
+(Ordnance) special rule.
+2
+Shambolic (X, mode)
+Units with this Special Rule follow the Random Movement (X) Special Rule. Shambolic units are Immune to Psychology
+and cannot be joined by characters. If this unit rolls for its Random Movement and all the dice show the same result, it
+takes D3 wounds with no saves allowed and then moves in a randomized direction.
+Shambolic Random Movement has two optional modes, stated in brackets.
+Running Amok!!
+Units with Shambolic (Running Amok!!) always move in
+a randomized direction during their random movement.
+Steady
+Units with Shambolic (Steady) may re-roll their random
+movement distance roll, but must accept the second one.
+Boing!
+Boing! units may move through friendly units during their move. If a Boing! unit would end its movement inside a
+fr
+iendly unit without also being in contact with an enemy unit, backtrack along its path until it is in a legal position (at
+least 1’’ away from any units).
+Boing! units do not count as "touching" terrain (e.g. for the purposes for Dangerous Terrain tests) unless they begin or
+end their move on it, but they are still blocked by Impassable Terrain.
+Ricochet (X)
+Ricochet models ignore the 1" unit spacing rule during their Random Movement. If a Ricochet model touches another
+unit (friend or foe), it continues moving in the same direction until it is 1'' clear of the other unit. If this would cause it to
+contact a third unit (or fourth, etc), the Ricochet model keeps moving in the same direction through units until it can be
+placed (it must be at least 1'' away from other units or impassible terrain to be placed). If it cannot be placed through
+this process it is removed as a casualty.
+Any units passed through by a Ricochet model that is within the movement distance rolled are hit. The units that are hit
+suffer X hits, where X is given in brackets. All units in same Close Combat that are hit are treated as a single unit for hit
+purposes. Owning player distribute hits as evenly as possible between units, then follow normal rules for distributing
+hits to models within each unit.
+This is increased by an additional D6 hits if the Ricochet model was removed as a casualty because it couldn't be placed
+anywhere.
+Other units cannot charge Ricochet models, but may charge, flee, pursue or move through them. Units that do so take X
+hits plus an additional D6 hits, and the Ricochet model is removed as a casualty.
+All hits inflicted by Ricochet models are at the unmodified strength of the model and are Armour Piercing (1).
+Accident Prone
+When Accident Prone models contact any terrain feature except Open Terrain or Hills, contact the board edge, or stop
+1'' away from Impassable Terrain, they must take a Dangerous Terrain test, which is failed on a roll of ‘1’ or ‘2’. If two
+Accident Prone units touch each other, they are both removed as casualties.
+3
+Armoury
+Power ‘Shrooms
+Generate D3+1 Power ‘Shrooms at the end of deployment. When declaring usage of Power Dice you may use a single
+mushroom to add D3 to the casting result. If this dice rolls a natural ‘1’, the Wizard takes a Strength 3 hit with Armour
+Piercing (6).
+Mammoth Stabber
+Units with at least one Full Rank have Impact Hits (D3) with Strength 5 and Multiple Wounds (Ordnance; Large
+Targets).
+Magical items
+Magical Weapons
+Axe of the Aporcalypse ​ (65 pts / 50 pts) - Orcs only
+Type: Hand weapon. Wielder has +D3 Strength and +D3
+Attacks.
+Backstabbing Dirks ​ (15 pts) - Models on foot only
+Type: Additional Hand Weapon. Attacks made with this
+weapon have Armour Piercing (1). If the wielder is
+attacking an enemy unit in their flank or rear, attacks
+made with this weapon gain +2 Strength.
+Magical Armour
+Plates of Tuktek ​ (35 pts)
+Type: Heavy Armour. Wearer gains +1 Toughness and
+the Impact Hits(D3) special rule.
+Crown of the Cavern King ​ (40 pts) - Cave Goblin only
+Magical Armour. Type: None (5+ Armour Save). Wearer
+may only join units of Cave Goblins. Wearer's unit gains
+Vanguard and may move after Rallying, although it may
+not march nor shoot in the same turn. Wearer’s
+Inspiring Presence or Hold Your Ground range is
+increased by 6".
+Talismans
+Pan of Protection Pinchin’ ​ (25 pts) - Goblins only
+The bearer, when wounded, may use the Armour Save,
+Ward Save, Regeneration Save, or Magic Resistance of
+the model that has inflicted the wound.
+Enchanted Items
+Lucky Boar’s Leg ​ (40 pts)
+Orc General mounted on War Boar or Boar Chariot only.
+Boar Riders (not Brutal Boar riders ) count as a core
+choice and The Wearer and his unit have +1 Movement
+that can't be combined with other Magical Items granting
+positive modifications to movement or Swiftstride.
+Waaargh! Paint ​ (30 pts) - Feral Orc only
+Models with the “Greenhide Race: Feral Orc” in the
+wearer's unit have Frenzy, which they cannot lose, and
+gain Swiftstride for the purpose of Pursue and Overrun.
+Magical Standards
+Mikinok’s Totem ​ (75 pts)
+Grants Magical Resistance (D6), determined by rolling D6
+each time that Magical Resistance is used. Magical items
+in base contact with the bearer have no effects and revert
+to a mundane version of the item. The ability to revert
+magical items into mundane version will always work
+regardless of similar effects affecting this banner.
+Mother’s Gift ​ (25 pts)
+All Forest Goblins in the bearer’s unit have Poisoned
+Attacks.
+Ironhide Icon ​ (25 pts )
+This banner grants Ward Save (5+) against shooting
+attacks.
+4
+Army List
+LORDS
+Orc Warlord ​ 130 pts
+single model
+M WS BS S T W I A Ld
+Common Orc 4 6 3 5 5 3 4 4 9
+Iron Orc 4 7 3 5 5 3 4 4 9
+Feral Orc 4 6 3 5 5 3 4 4 9 Infantry 25x25mm base
+Sp
+ecial Rule:
+Waaargh!
+Options: pts
+May take Magical Items up to 100
+May take any of the following:
+Additional Hand Weapon 5
+Shield 10
+Great Weapon 15
+Lance 15
+Must take one of the following Greenhide Races
+Common Orc​ (free)
+Armour:
+Light Armour
+Options: pts
+Heavy Armour 10
+A mount (one choice only)
+War Boar 20
+Orc Boar Chariot 35
+Wyvern 120
+Iron Orc​ (20 pts)
+Armour:
+Heavy Armour
+Options: pts
+Plate Armour 20
+A mount (one choice only)
+War Boar 20
+Orc Boar Chariot 35
+Wyvern 120
+Feral Orc ​ (20 pts)
+Options: pts
+A mount (one choice only)
+War Boar 20
+Wyvern 120
+Orc Big Shaman ​ 180 pts
+single model
+M WS BS S T W I A Ld
+4 3 3 4 5 3 2 1 8 Infantry 25x25mm base
+Magic:
+Level 3 Wizard ​ Master​ . ​ Generate spells from
+Path of the Big Green Gods, Path of Wilderness
+Options: pts
+May take Magical Items up to 100
+May become a Level 4 wizard 35
+Must take one of the following Greenhide Races
+Common Orc​ (free)
+Options: pts
+A mount (one choice only)
+War Boar 20
+Orc Boar Chariot 35
+Wyvern 120
+Feral Orc ​ (5 pts)
+Options: pts
+A mount (one choice only)
+War Boar 20
+Wyvern 120
+5
+Goblin King ​ 60 pts
+single model
+M WS BS S T W I A Ld
+Common Goblin 4 5 3 4 4 3 4 4 8
+Cave Goblin 4 5 3 4 4 3 5 4 8
+Forest Goblin 4 5 3 4 4 3 4 4 8 Infantry 20x20mm base
+Armour:
+Light Armour
+Sp
+ecial Rule:
+Green Tide: ​ A Goblin King and all Goblins of the
+same Greenhide Race in it's unit gain the Fight In
+Extra Ranks Special Rule.
+Options: pts
+May take Magical Items up to 100
+May take any of the following:
+a Shield 5
+Heavy Armour 15
+May take a weapon (one choice only)
+Additional Hand Weapon 5
+Great Weapon 15
+Lance 15
+Must take one of the following Greenhide Races
+Common Goblin​ (free)
+Options: pts
+A mount (one choice only):
+Wolf 15
+Goblin Wolf Chariot 25
+Cave Goblin​ (5 pts)
+Options: pts
+A mount:
+Cave Gnasher 20
+Forest Goblin​ (free)
+Options: pts
+Poisoned Attacks 10
+A mount (one choice only):
+Scuttler Spider 20
+Huntsmen Spider 20
+Gargantula 210
+Goblin Big Shaman ​ 175 pts
+single model
+M WS BS S T W I A Ld
+Common Goblin 4 2 3 3 4 3 2 1 7
+Cave Goblin 4 2 3 3 4 3 3 1 6
+Forest Goblin 4 2 3 3 4 3 2 1 7 Infantry 20x20mm base
+Magic:
+Level 3 Wizard ​ Master​ . ​ Generate spells from
+Path of the Little Green Gods, Path of Shadow
+Options: pts
+May take Magical Items up to 100
+May become a Level 4 wizard 35
+Must take one of the following Greenhide Races
+Common Goblin​ (free)
+Options: pts
+A mount (one choice only):
+Wolf 15
+Goblin Wolf Chariot 20
+Cave Goblin​ (free)
+Options: pts
+Power ‘Shrooms 20
+Forest Goblin​ (free)
+Options: pts
+A mount (one choice only):
+Scuttler Spider 20
+Gargantula 210
+6
+HEROES
+Orc Chief ​ 55 pts
+single model
+M WS BS S T W I A Ld
+Common Orc 4 5 3 4 5 2 3 3 8
+Iron Orc 4 6 3 4 5 2 3 3 8
+Feral Orc 4 5 3 4 5 2 3 3 8 Infantry 25x25mm base
+Sp
+ecial Rule:
+Waaargh!
+Options: pts
+May become the Battle Standard Bearer 25
+May take Magical Items up to 50
+May take any of the following:
+Shield 5
+Great Weapon 10
+Lance 10
+Additional Hand Weapon 5
+Must take one of the following Greenhide Races
+Common Orc​ (free)
+Armour:
+Light Armour
+Options: pts
+Heavy Armour 5
+A mount (one choice only)
+War Boar 15
+Orc Boar Chariot 70
+Wyvern 150
+Iron Orc​ (10 pts)
+Armour:
+Heavy Armour
+Options: pts
+Plate Armour 15
+A mount (one choice only)
+War Boar 15
+Wyvern 150
+Feral Orc ​ (10 pts)
+Options: pts
+A mount (one choice only)
+War Boar 15
+Wyvern 150
+Orc Shaman 65 pts
+single model
+M WS BS S T W I A Ld
+4 3 3 3 4 2 2 1 7 Infantry 25x25mm base
+Magic:
+Level 1 Wizard ​ Apprentice​ . ​ Generate spells from
+Path of the Big Green Gods, Path of Wilderness
+Options: pts
+May take Magical Items up to 50
+May become a Level 2 wizard 25
+Must take one of the following Greenhide Races
+Common Orc​ (free)
+Options: pts
+A mount (one choice only)
+War Boar 15
+Orc Boar Chariot 50
+Feral Orc ​ (5 pts)
+Options: pts
+A mount (one choice only)
+War Boar 15
+7
+Goblin Chief ​ 40 pts
+single model
+M WS BS S T W I A Ld
+Common Goblin 4 4 3 4 4 2 3 3 7
+Cave Goblin 4 4 3 4 4 2 4 3 6
+Forest Goblin 4 4 3 4 4 2 3 3 7 Infantry 20x20mm base
+Armour:
+Light Armour
+Options: pts
+May become the Battle Standard Bearer 25
+May take Magical Items up to 50
+May take Shield free
+May take a weapon (one choice only)
+Additional Hand Weapon 3
+Light Lance 3
+Great Weapon 6
+Lance 6
+Must take one of the following Greenhide Races
+Common Goblin​ (free)
+Options: pts
+Heavy Armour 10
+A mount (one choice only):
+Wolf 15
+Goblin Wolf Chariot 40
+Cave Goblin​ (free)
+Options: pts
+A mount:
+Cave Gnasher 20
+Forest Goblin​ (free)
+Options: pts
+Poisoned Attacks 5
+A mount (one choice only):
+Scuttler Spider 15
+Huntsmen Spider 15
+Goblin Shaman ​ 65 pts
+single model
+M WS BS S T W I A Ld
+Common Goblin 4 2 3 3 3 2 2 1 6
+Cave Goblin 4 2 3 3 3 2 3 1 5
+Forest Goblin 4 2 3 3 3 2 2 1 6 Infantry 20x20mm base
+Magic:
+Level 1 Wizard ​ Apprentice​ . ​ Generate spells from
+Path of the Little Green Gods, Path of Shadow
+Options: pts
+May take Magical Items up to 50
+May become a Level 2 wizard 25
+Must take one of the following Greenhide Races
+Common Goblin​ (free)
+Options: pts
+A mount (one choice only):
+Wolf 15
+Goblin Wolf Chariot 25
+Cave Goblin​ (free)
+Options: pts
+Power ‘Shrooms 20
+Forest Goblin​ (free)
+Options: pts
+A mount (one choice only):
+Scuttler Spider 25
+8
+CORE
+Orcs ​ 50 pts
+10 ​ models, may add up to 40 ​ models 6 pts/model
+M WS BS S T W I A Ld
+4 3 3 3 4 1 2 1 7 Infantry 25x25mm base
+Options: pts
+May take
+Shields 1 / model
+Additional Hand Weapons 1 / model
+Spears and Shields 1 / model
+Bows 1 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer
+Must take one of the following Greenhide Races
+Common Orc​ (free)
+Armour:
+Light Armour
+Options: pts
+May exchange all their equipment for
+Crossbows and Heavy Armour 4 / model
+Feral Orc ​ (2 pts / model)
+Options: pts
+May take Mammoth Stabber 15 / unit
+Orc ‘Eadbashers ​ 60 pts (One of a Kind)
+10 ​ models, may add up to 30 ​ models 8 pts/model
+M WS BS S T W I A Ld
+4 4 3 4 4 1 2 1 7 Infantry 25x25mm base
+Options: pts
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer
+Must take one of the following Greenhide Races
+Common Orc​ (free)
+Armour:
+Light Armour
+May take:
+Additional Hand Weapons 1 / model
+Spears and Shields 1 / model
+Shields 1 / model
+Feral Orc ​ (2 pts / model)
+Options: pts
+May take Mammoth Stabber 15 / unit
+May take: (one choice only)
+Additional Hand Weapons 1 / model
+Spears and Shields 2 / model
+Shields 1 / model
+9
+Goblins ​ 60 pts
+20 ​ models, may add up to 40 ​ models 3 pts/model
+M WS BS S T W I A Ld
+Common Goblin 4 2 3 3 3 1 2 1 6
+Cave Goblin 4 2 3 3 3 1 3 1 5
+Forest Goblin 4 2 3 3 3 1 2 1 6 Infantry 20x20mm base
+Options: pts
+May take weapons (one choice only)
+Spears & Shields 1 / model
+Short Bows free
+Shields 1 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may become the Veteran Standard Bearer
+Must take one of the following Greenhide Races
+Common Goblin​ (free)
+Armour:
+Light Armour
+Options: pts
+Take up to 3 Shady Gits 15 / git
+Exchange all weapons for
+Shields and short bows 1 / model
+Cave Goblin​ (free)
+Options: pts
+Take Nets 45 / unit
+Take up to 3 Mad Gits 30 / git
+Forest Goblin​ (free)
+We
+apon:
+Throwing Weapon
+Options: pts
+Upgrade the unit to
+Skirmishers* 1 / model
+*only if 20 or less models
+Nets: ​ At the start of a round of combat, choose one unit in base contact
+with the unit carrying nets. Roll a D6. On 2+ the target unit suffers -1
+Strength (to a minimum of 1) for the remainder of the player turn. On
+the roll of 1, the unit with Nets suffers the penalty instead. Units can be
+affected by Nets only once per phase.
+10
+Shady Git
+(This model is a part of Goblins unit)
+M WS BS S T W I A Ld
+4 4 3 3 3 1 6 2 6 Infantry 20x20mm base
+Greenhide Race:
+Common Goblin
+We
+apon:
+Additional Hand Weapon
+Armour:
+Light Armour
+Sp
+ecial Rules:
+Lightning Reflexes (only for their first round of combat in the game) Lethal Strike, Multiple Wounds (D3, Infantry
+and Cavalry)
+Mad Git
+(This model is a part of a Goblin unit)
+M WS BS S T W I A Ld
+2d6 - - 5 3 1 3 1 5 Infantry 25mm round base
+Greenhide Race:
+Cave Goblin
+Sp
+ecial Rules:
+Shambolic (2d6, Running Amok!!), Accident Prone, Ricochet (1d6), Hard Target
+Surprise!: ​ Mad Gits are not deployed, but must be concealed inside their Cave Goblin unit. They are unit upgrades and
+as such they are ignored when calculating victory points (their points are already included in the Goblin unit concealing
+them). When Mad Gits are removed as casualties they do not cause Panic tests. They still move, act and are influenced
+by special rules independently like normal units and do not count towards model count of units concealing them.
+Mad Gits are used in two ways:
+- Any number may be used as separate Stand and Shoot reactions. Normal Stand & Shoot reactions may also be taken.
+- All must be used at the start of Shooting Phase if the unit is not in close combat and is within 8" of an enemy unit.
+Resolve one model at a time. Place the Mad Git in base contact with the concealing unit (note that in this one case, the
+Mad Git contacts a unit without inflicting hits on it) and choose a direction. Move the Mad Git 2D6'' in this direction. Mad
+Git follows his own rules for movement in subsequent turns.
+11
+Goblin Raiders ​ 60 pts
+5 ​ models, may add up to 15 ​ models 8 pts/model
+M WS BS S T W I A Ld
+Goblin Rider 4 2 3 3 3 1 2 1 6
+Wolf 9 3 - 3 3 1 3 1 3
+Scuttler Spider 7 3 - 3 3 1 4 1 - Cavalry 25x50mm base
+Sp
+ecial Rules:
+Fast Cavalry
+Options: pts
+May take any of the following
+Shields 1 / model
+Light Lances 1 / model
+Short Bows 1 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+Must take one of the following Greenhide races (only the rider gets the special rule)
+Common Goblin​ (free)
+Mount:
+Wolf
+Armour:
+Mount’s Protection (6+), Light Armour
+Forest Goblin ​ (free)
+Mount:
+Scuttler Spider
+Armour:
+Mount’s Protection (6+)
+Sp
+ecial Rules:
+Scouts, Strider, Poisoned Attacks (Scuttler Spider only)
+Orc Boar Riders ​ 75 pts
+5 ​ models, may add up to 10 ​ models 15 pts/model
+M WS BS S T W I A Ld
+Rider 4 3 3 3 4 1 2 1 7
+War Boar 7 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
+We
+apon:
+Light Lance
+Sp
+ecial Rules:
+Thunderous Charge (War Boar only)
+Options: pts
+May take Shield 3 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+Must take one of the following Greenhide races (only the rider gets the special rule)
+Common Orc​ (free)
+Armour:
+Mount’s Protection (5+), Light Armour
+Options: pts
+May take Lances 4 / model
+Feral Orc ​ (1 pts / model)
+Armour:
+Mount’s Protection (5+)
+Options: pts
+May take Additional Hand Weapons 2 / model
+12
+SPECIAL
+Grotlings ​ 40 pts
+2 ​ models, may add up to 4 ​ models 10 pts/model
+M WS BS S T W I A Ld
+4 2 3 2 2 5 2 5 4 Swarm 40x40mm base
+We
+apon:
+Throwing Weapons
+Sp
+ecial Rules:
+Insignificant, Scout
+Iron Orcs ​ 120 pts
+10 ​ models, may add up to 25 ​ models 12 pts/model
+M WS BS S T W I A Ld
+4 5 3 4 4 1 2 1 8 Infantry 25x25mm base
+Greenhide Race:
+Iron Orcs
+We
+apon:
+Additional Hand Weapon, Great Weapon
+Armour:
+Heavy Armour, Shields
+Options: pts
+May take Plate Armour 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- May take a Magical Standard up to 50
+13
+Mounted ‘Eadbashers ​ 90 pts
+5 ​ models, may add up to 10 ​ models 18 pts/model
+M WS BS S T W I A Ld
+‘Eadbasher Rider 4 4 3 4 4 1 2 1 7
+War Boar 7 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
+We
+apon:
+Light Lance
+Sp
+ecial Rules:
+Thunderous Charge (War Boar only)
+Options: pts
+May take Shield 3 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may take a Magical Standard up to 25
+Must take one of the following Greenhide races (only the rider gets the special rule)
+Common Orc​ (free)
+Armour:
+Mount’s Protection (5+), Light Armour
+Options: pts
+May take Heavy Armour 2 / model
+May take Lances 4 / model
+Feral Orc ​ (1 pts / model)
+Armour:
+Mount’s Protection (5+)
+Options: pts
+May take Additional Hand Weapons 2 / model
+Orc Boar Chariot ​ 85 pts
+single model
+M WS BS S T W I A Ld
+Chariot - - - 5 5 4 - - -
+‘Eadbasher Riders (2) - 4 3 4 - - 2 1 7
+War Boars (2) 7 3 - 3 - - 3 1 3 Chariot 50x100mm base
+We
+apon:
+Lance
+Armour:
+Mount’s Protection (5+), Light Armour
+Sp
+ecial Rules:
+Born to Fight (Rider only), Thunderous Charge
+(War Boar only), Scythes
+Options: pts
+May take Heavy Armour 10
+14
+Goblin Wolf Chariot ​ 55 pts
+1 ​ model, may add up to 3 ​ models 55 pts/model
+M WS BS S T W I A Ld
+Chariot - - - 5 4 3 - - -
+Rider (3) - 2 3 3 - - 2 1 6
+Wolf (2) 9 3 - 3 - - 3 1 3 Chariot 50x100mm base
+We
+apon:
+Light Lances, Short Bow
+Armour:
+Mount’s Protection (6+), Light Armour
+Sp
+ecial Rules:
+Free Reform, Insignificant, Scythes
+Skewerer ​ 45 pts
+single model
+M WS BS S T W I A Ld
+Machine - - - - 7 3 - - -
+Crew (3) 4 2 3 3 3 - 2 1 6 War Machine 60mm round base
+We
+apon:
+Ballista
+This is a Bolt Thrower Artillery Weapon​ with
+Range 48”, Strength 6, Multiple Wounds (D3),
+Armour Piercing (6)
+Sp
+ecial Rules:
+Insignificant
+15
+Gnasher Dashers ​ 55 pts
+5 ​ model, may add up to 5 ​ models 10 pts/model
+M WS BS S T W I A Ld
+Gnasher Dasher 3d6 4 - 5 3 1 4 2 5
+Rider - 2 3 3 3 1 3 1 5 Cavalry 20x20mm base
+Greenhide Race:
+Cave Goblin ​ (Riders only)
+Armour:
+Mount’s Protection (6+), Light Armour
+Sp
+ecial Rules:
+Shambolic(3d6, Steady), Boing!, Skirmishers,
+Rows of Teeth​ : Gnashers make supporting attacks
+instead of their Cave Goblin riders
+Gnasher Herd ​ 70 pts
+10​ ​ model, may add up to 40​ ​ models 7 pts/model
+M WS BS S T W I A Ld
+5 4 - 5 3 1 4 2 5 War Beast 20x20mm base
+Sp
+ecial Rules:
+Cannot be joined by characters, Immune to Psychology, Insignificant
+They’re Everywhere!: ​ When a Gnasher Herd breaks from combat, the unit is immediately removed as a casualty and
+all units within 6’’ take a Strength 5 hit for every 3 Gnashers in the Gnasher Herd.
+16
+Trolls ​ 42 pts
+1 ​ model, may add up to 8​ ​ models 42 pts/model
+M WS BS S T W I A Ld
+6 3 2 5 4 3 2 3 4 Monstrous Infantry 40x40mm base
+Must take one of the following Troll Types
+Common Trolls ​ (free)
+Sp
+ecial Rules:
+Regeneration (4+), Stupidity, Troll
+Belch
+Cave Trolls ​ (8 pts / model)
+Only units of 9 or less models
+Armour:
+Innate Defence (4+)
+Sp
+ecial Rules:
+Regeneration (4+), Stupidity, Troll
+Belch, Magic Resistance (3),
+Bridge Trolls​ (8 pts / model)
+Only units of 9 or less models
+Sp
+ecial Rules:
+Regeneration (4+), Stupidity, Troll
+Belch, Distracting, Strider (Water)
+Troll Belch: ​ Instead of making its usual attacks the model may choose to make a single attack, which hits automatically
+and has Strength 5 and Armour Piercing (6).
+Scrap Wagon ​ 45 pts
+single model
+M WS BS S T W I A Ld
+Scrap Wagon 3d6 - - 4 4 4 - - -
+Grotlings (1) - 2 3 2 - - 2 5 4 Chariot 50x100mm base
+We
+apon:
+Throwing Weapons
+Armour:
+Mount’s Protection (6+)
+Sp
+ecial Rules:
+Shambolic (3d6), Impact Hits (2D6), Insignificant,
+Unstable
+Options:
+May take any number of upgrades:
+Smasher ​ (15 pts)
+Scrap Wagon has +1 Strength.
+Pointed Sticks ​ (10 pts)
+Impact Hits have Armour Piercing (2).
+Pursuit Mode ​ (10 pts)
+Unit replaces Shambolic (3d6) with Shambolic (3d6, steady)
+and gains Boing! .
+Smells Like Green Spirit ​ (10 pts)
+Unit gains Distracting and Hard Target.
+17
+Giant​ 140 pts
+single model
+M WS BS S T W I A Ld
+6 3 - 6 5 6 3 * 10 Monster 50x75mm base
+We
+apon:
+Giant Attacks (see below)
+Sp
+ecial Rules:
+Immune to Psychology, Stubborn
+Options: pts
+May take Ward Save (6+) 10
+Giant Attacks:​ When a giant attacks in Close Combat, pick a target in base contact to attack and roll on the chart
+below. Giants have two types of attack patterns depending on the Troop Type of the target.
+Against Infantry, War Beast, Swarm, War Machine
+and Cavalry targets:
+1:​ Bellow
+2:​ Jump
+3:​ Grab
+4-6:​ Swing
+Against Monstrous Beast, Monstrous Infantry,
+Monstrous Cavalry, Chariot, Monster and Ridden
+Monster targets:
+1:​ Bellow
+2-3:​ Thump
+4-6:​ Smash
+Bellow:​ Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done
+(including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by
+2. If two (or more) opposing Giants “Bellow”, the combat is a draw.
+Jump:​ The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The
+Giant must take a Dangerous Terrain test.
+Grab:​ Select a single model in base contact with the Giant. This model must take a Strength and Weapon Skill test.
+For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
+Swing:​ The Giant makes 2D6 attacks on the chosen unit.
+Thump:​ Select a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the
+test is failed, the model suffers 2D6 wounds with Armour Piercing (6).
+Smash:​ Select a model from the chosen unit in base contact with the Giant. This model suffers 1 wound with
+Armour Piercing (6). If the model has not yet attacked it cannot attack in this round. If the model has already
+attacked, it cannot attack in the next player turn.
+- NotesGiant Attacks counts as Close Combat attack and are affected by all rules normally affecting Close Combat attacks.
+After rolling on this chart, the Giant may still Stomp as normal.
+18
+RA
+RE
+Gnasher Wrecking Team ​ 70 pts
+single model
+M WS BS S T W I A Ld
+3d6 - - 6 4 3 3 2 3 Monstrous Beast 60mm round base
+Sp
+ecial Rules:
+Shambolic(3d6), Ricochet (2d6), Accident Prone, Hard Target
+Look At ‘Em Go!: ​ After touching the unit for the first time in the game Gnashers substitute their Shambolic (3d6)
+with Shambolic (3d6, Running Amok!!) special sule.
+Gargantula ​ 210 pts
+single model
+M WS BS S T W I A Ld
+Gargantula 7 4 - 5 6 8 4 8 -
+Forest Goblin (8) - 2 3 3 - - 2 1 6 Ridden Monster 100x150mm base
+We
+apon:
+Light Lances (Goblins), Short Bows (Goblins)
+Armour:
+Innate Defence (4+)
+Sp
+ecial Rules:
+Venomous Fangs, Immune to Psychology,
+Insignificant, Poisoned Attack (Spider only),
+Strider, Stubborn, Swiftstride
+Options: pts
+May take Web Launcher 30
+Web Launcher: ​ This is a Catapult (3”) Artillery Weapon
+with Range 6”-36”, Strength 3. Targets hit suffer -D3 to their
+Movement and Initiative characteristics until the start of your
+next turn. Effects of several Web Launchers do not stack.
+Great Green Idol ​ 230 pts
+single model
+M WS BS S T W I A Ld
+6 2 - 6 6 7 2 3 10 Monster 100x100mm base
+Armour:
+Innate Defence (2+)
+Sp
+ecial Rules:
+Immune to Psychology, Crush Attack, Impact Hits
+(D3)
+Options: pts
+May become the Battle Standard Bearer
+and gain Ward Save (5+) 60
+Smash ‘Em Flat:​ All friendly Units within 8“ have the Hatred special rule if the Great Green Idol is in combat.
+We’ve Got The Green Light:​ All friendly Units within 8” can re-roll charge distance rolls if the Great Green Idol
+declared a charge this turn.
+19
+Splatterer ​ 90 pts
+single model
+M WS BS S T W I A Ld
+Machine - - - - 7 3 - - -
+Common Goblin (3) 4 2 3 3 3 - 2 1 6
+(Common Orc) 4 3 3 3 4 - 2 1 7 War Machine 75mm round base
+We
+apon:
+Stone Thrower:
+This is a Catapult (3”) Artillery Weapon ​ with
+Range 12-60”, Strength 3 [9], [Multiple Wounds
+(Ordnance)]
+Sp
+ecial Rules:
+Insignificant
+Options: pts
+May take Orc Overseer 15
+Orc Overseer: ​ The War Machine gains a Common Orc as an
+additional Crew member, increasing its number of wounds by
+1 and losing Insignificant.
+This Warmachine may choose to lose one wound in order to
+reroll a roll on the Misfire Table.
+Git Launcher ​ 110 pts
+single model
+M WS BS S T W I A Ld
+Machine - - - - 7 3 - - -
+Common Goblin (3) 4 2 3 3 3 - 2 1 6
+(Common Orc) 4 3 3 3 4 - 2 1 7 War Machine 75mm round base
+Sp
+ecial Rules:
+Insignificant
+Options: pts
+May take Orc Overseer 15
+Orc Overseer: ​ Add one Common Orc as a Crew member.
+Increases Wounds of the Machine to 4 and removes the
+Insignificant special rule.
+This Warmachine may choose to lose one wound in order to
+reroll a roll on the Misfire Table.
+We
+apon:
+Git Launcher: ​ This is a Catapult (1”) Artillery Weapon ​ with the following profile:
+Range 12-60”, Strength 5, Armour Piercing (6). Instead of hitting models under the Template, any unit under the
+Template suffers D6 hits. After the scatter of the Template has been determined, you may roll D6 and move the
+Template that amount of inches in any direction except moving on to units in close combat or onto friendly units.
+This is the final position of the template.
+20
+MOUNTS
+The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
+Wyvern
+M WS BS S T W I A Ld
+4 5 - 6 5 4 3 3 6 Monstrous Beast 50x50mm base
+Sp
+ecial Rules:
+Venomous Fangs, Fear, Fly (8), Large Target,
+Poisoned Attacks
+War Boar
+M WS BS S T W I A Ld
+7 3 - 3 3 1 3 1 3 War Beast 25x50mm base
+Armour:
+Mount’s Protection (5+)
+Sp
+ecial Rules:
+Thunderous Charge
+Orc Boar Chariot ​ 85 pts
+M WS BS S T W I A Ld
+Chariot - - - 5 5 4 - - -
+Rider (1) - 4 3 4 - - 2 1 7
+War Boar (2) 7 3 - 3 - - 3 1 3 Chariot 50x100mm base
+We
+apon:
+Lance
+Armour:
+Mount’s Protection (5+), Light Armour
+Sp
+ecial Rules:
+Born to Fight (Rider only), Thunderous Charge
+(War boar only), Scythes
+21
+Wolf
+M WS BS S T W I A Ld
+9 3 - 3 3 1 3 1 3 War Beast 25x50mm base
+Armour:
+Mount’s Protection (6+)
+Sp
+ecial Rules:
+Fast Cavalry
+Goblin Wolf Chariot
+M WS BS S T W I A Ld
+Chariot - - - 5 4 3 - - -
+Common Goblin (2) - 2 3 3 - - 2 1 6
+Wolf (2) 9 3 - 3 - - 3 1 3 Chariot 50x100mm base
+We
+apon:
+Light Lances, Short Bow
+Armour:
+Mount’s Protection (6+), Light Armour
+Sp
+ecial Rules:
+Insignificant, Scythes, Free Reform
+Cave Gnasher
+M WS BS S T W I A Ld
+3d6 4 - 6 4 3 3 3 3 Monstrous Beast 40x40mm base
+Armour:
+Mount’s Protection (6+)
+Sp
+ecial Rules:
+Impact Hits (1), Shambolic(3d6, Steady), Hard
+Target, Boing!
+Bouncers:​ Can join units of Gnasher Dashers and
+Cave Gnashers.
+22
+Scuttler Spider
+M WS BS S T W I A Ld
+7 3 - 3 3 1 4 1 2 War Beast 25x50mm base
+Armour:
+Mount’s Protection (6+)
+Sp
+ecial Rules:
+Fast Cavalry, Poisoned Attacks, Scout, Strider
+Huntsm​ e​ n Spider
+M WS BS S T W I A Ld
+7 3 - 4 4 3 4 3 7 Monstrous Beast 50x50mm base
+Armour:
+Mount’s Protection (5+)
+Sp
+ecial Rules:
+Poisoned Attacks, Strider
+Gargantula
+M WS BS S T W I A Ld
+Spider 7 4 - 5 6 8 4 8 -
+Forest Goblin (8) - 2 3 3 - - 2 1 6 Ridden Monster 100x150mm base
+We
+apon:
+Light Lances (Goblins), Short Bows (Goblins)
+Armour:
+Innate Defence (4+)
+Sp
+ecial Rules:
+Venomous Fangs, Immune to Psychology,
+Insignificant, Poisoned Attack (Spider only),
+Strider, Stubborn, Swiftstride
+Options: pts
+If mounted by a Wizard,
+may take Spider-Mother Shrine 40
+Spider-Mother Shrine: ​ The Wizard mounted on the
+Gargantula gains Pathmaster (Small Green Gods). All friendly
+models within 12” with the ability to Channel may add +2
+instead of +1 to the Channel attempt.
+23
+Quick Reference Sheet
+L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
+CHARACTERS M WS BS S T W I A Ld
+L Orc Warlord* 4 3 6 5 5 3 4 4 9
+Orc Big Shaman 4 3 3 4 5 3 2 1 8
+Goblin King** 4 5 3 4 4 3 4 4 8
+Goblin Big
+Shaman***
+4 2 3 3 4 3 2 1 7
+H Orc Chief* 4 5 3 4 5 2 3 3 8
+Orc Shaman 4 3 3 3 4 2 2 1 7
+Goblin Chief*** 4 4 3 4 4 2 3 3 7
+Goblin Shaman*** 4 2 3 3 3 2 2 1 6
+INFANTRY
+C Orc 4 3 3 3 4 1 2 1 7
+Orc ‘Eadbasher 4 4 3 4 4 1 2 1 7
+Goblin*** 4 2 3 3 3 3 2 1 6
+- Mad Git 2d6 - - 5 3 1 3 1 5
+- Shady Git 4 4 3 3 3 1 6 2 6
+S Iron Orcs 4 5 3 4 4 1 2 1 8
+* units belonging to Iron Orcs​ get +1 WS,
+** units belonging to Cave Goblins​ gets +1 I
+*** units belonging to Cave Goblins​ gets +1 I, -1 Ld
+MONSTROUS INFANTRY
+S Troll 6 3 2 5 4 3 2 3 4
+WA
+R BEASTS
+S Gnasher Herd 5 4 0 5 3 1 4 2 5
+M Wolf 9 3 - 3 3 1 3 1 3
+War Boar 7 3 - 3 - - 3 1 3
+Scuttler Spider 7 3 - 3 3 1 4 1 2
+MONSTROUS BEASTS
+R Gnasher Wrecking Team 3d6 - - 6 4 3 3 2 3
+M Wyvern 4 5 0 6 5 4 3 3 6
+Cave Gnasher 3d6 4 - 6 4 3 3 3 3
+Huntsmen Spider 7 3 - 4 4 3 4 3 7
+SWARMS
+S Grotling 4 2 2 2 3 5 2 5 4
+CAVALRY M WS BS S T W I A Ld
+C Goblin Raider 4 2 3 3 3 1 2 1 7
+- Wolf 9 3 - 3 3- 1 3 1 3
+- Scuttler Spider 7 3 - 3 3 1 4 1 2
+S Orc Boar Rider 4 3 3 3 4 1 2 1 7
+- Mounted ‘Eadbasher 4 4 3 4 4 1 2 1 7
+- War Boar 7 3 - 3 4 1 3 1 3
+Gnasher Dasher 3d6 4 0 5 3 1 4 2 5
+CHARIOTS
+S Orc Boar Chariot - - - 5 5 4 - - -
+- Rider (2)[1] - 4 3 4 - - 2 1 7
+- War Boar (2) 7 3 - 3 - - 3 1 -
+Goblin Wolf Chariot
+- - - 5 4 3 - - -
+- Goblin (3)[2] - 2 3 3 - - 2 1 6
+- Wolf (2) 9 3 - 3 - - 3 1 -
+Scrap Wagon 3d6 - - 4 4 4 - - -
+- Grotling (5) - 2 3 2 - - 2 1 4
+(2) - number of crew members when taken as a separate unit
+[1] - number of crew members when taken as a mount
+MONSTERS
+S Giant 6 3 - 6 5 6 3 * 10
+R Great Green Idol 6 2 - 6 6 7 2 3 9
+RIDDEN MONSTERS
+R Gargantula 7 4 - 5 6 8 4 8 -
+- Crew (8) - 2 3 3 - - 2 1 6
+WA
+R MACHINES
+S Skewerer - - - - 7 3 - - -
+- Crew (3) 4 2 3 3 3 - 2 1 6
+R Splatterer - - - - 7 3 - - -
+- Crew (3) 4 2 3 3 3 - 2 1 6
+Git Launcher - - - - 7 3 - - -
+- Crew (3) 4 2 3 3 3 - 2 1 6
+SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
+Skewerer Ballista Bolt Thrower 48 6 - D3 6
+Splatterer Stone Thrower Catapult (3”) 12-60 3[9] - [Ordnance] -
+Git Launcher Goblin Slingshot Catapult (1”) 12-60 5 D6 hits - 6
+Gargantula Web Launcha Catapult (3”) 6-36 3 - - -
