@@ -466,8 +466,7 @@ Options: pts
 Take Nets 45 / unit
 Take up to 3 Mad Gits 30 / git
 Forest Goblin (free)
-We
-apon:
+Weapon:
 Throwing Weapon
 Options: pts
 Upgrade the unit to
@@ -485,8 +484,7 @@ M WS BS S T W I A Ld
 4 4 3 3 3 1 6 2 6 Infantry 20x20mm base
 Greenhide Race:
 Common Goblin
-We
-apon:
+Weapon:
 Additional Hand Weapon
 Armour: Light Armour
 Special Rules: Lightning Reflexes (only for their first round of combat in the game) Lethal Strike, Multiple Wounds (D3, Infantry
@@ -540,8 +538,7 @@ Orc Boar Riders 75 pts
 M WS BS S T W I A Ld
 Rider 4 3 3 3 4 1 2 1 7
 War Boar 7 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
-We
-apon:
+Weapon:
 Light Lance
 Special Rules: Thunderous Charge (War Boar only)
 Options: pts
@@ -565,8 +562,7 @@ Grotlings 40 pts
 2 models, may add up to 4 models 10 pts/model
 M WS BS S T W I A Ld
 4 2 3 2 2 5 2 5 4 Swarm 40x40mm base
-We
-apon:
+Weapon:
 Throwing Weapons
 Special Rules: Insignificant, Scout
 Iron Orcs 120 pts
@@ -575,8 +571,7 @@ M WS BS S T W I A Ld
 4 5 3 4 4 1 2 1 8 Infantry 25x25mm base
 Greenhide Race:
 Iron Orcs
-We
-apon:
+Weapon:
 Additional Hand Weapon, Great Weapon
 Armour: Heavy Armour, Shields
 Options: pts
@@ -592,8 +587,7 @@ Mounted ‘Eadbashers 90 pts
 M WS BS S T W I A Ld
 ‘Eadbasher Rider 4 4 3 4 4 1 2 1 7
 War Boar 7 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
-We
-apon:
+Weapon:
 Light Lance
 Special Rules: Thunderous Charge (War Boar only)
 Options: pts
@@ -619,8 +613,7 @@ M WS BS S T W I A Ld
 Chariot - - - 5 5 4 - - -
 ‘Eadbasher Riders (2) - 4 3 4 - - 2 1 7
 War Boars (2) 7 3 - 3 - - 3 1 3 Chariot 50x100mm base
-We
-apon:
+Weapon:
 Lance
 Armour: Mount's Protection (5+), Light Armour
 Special Rules: Born to Fight (Rider only), Thunderous Charge
@@ -634,8 +627,7 @@ M WS BS S T W I A Ld
 Chariot - - - 5 4 3 - - -
 Rider (3) - 2 3 3 - - 2 1 6
 Wolf (2) 9 3 - 3 - - 3 1 3 Chariot 50x100mm base
-We
-apon:
+Weapon:
 Light Lances, Short Bow
 Armour: Mount's Protection (6+), Light Armour
 Special Rules: Free Reform, Insignificant, Scythes
@@ -644,8 +636,7 @@ single model
 M WS BS S T W I A Ld
 Machine - - - - 7 3 - - -
 Crew (3) 4 2 3 3 3 - 2 1 6 War Machine 60mm round base
-We
-apon:
+Weapon:
 Ballista
 This is a Bolt Thrower Artillery Weapon with
 Range 48", Strength 6, Multiple Wounds (D3),
@@ -695,8 +686,7 @@ single model
 M WS BS S T W I A Ld
 Scrap Wagon 3d6 - - 4 4 4 - - -
 Grotlings (1) - 2 3 2 - - 2 5 4 Chariot 50x100mm base
-We
-apon:
+Weapon:
 Throwing Weapons
 Armour: Mount's Protection (6+)
 Special Rules: Shambolic (3d6), Impact Hits (2D6), Insignificant,
@@ -717,8 +707,7 @@ Giant 140 pts
 single model
 M WS BS S T W I A Ld
 6 3 - 6 5 6 3 * 10 Monster 50x75mm base
-We
-apon:
+Weapon:
 Giant Attacks (see below)
 Special Rules: Immune to Psychology, Stubborn
 Options: pts
@@ -766,8 +755,7 @@ single model
 M WS BS S T W I A Ld
 Gargantula 7 4 - 5 6 8 4 8 -
 Forest Goblin (8) - 2 3 3 - - 2 1 6 Ridden Monster 100x150mm base
-We
-apon:
+Weapon:
 Light Lances (Goblins), Short Bows (Goblins)
 Armour: Innate Defence (4+)
 Special Rules: Venomous Fangs, Immune to Psychology,
@@ -799,8 +787,7 @@ M WS BS S T W I A Ld
 Machine - - - - 7 3 - - -
 Common Goblin (3) 4 2 3 3 3 - 2 1 6
 (Common Orc) 4 3 3 3 4 - 2 1 7 War Machine 75mm round base
-We
-apon:
+Weapon:
 Stone Thrower:
 This is a Catapult (3") Artillery Weapon with
 Range 12-60", Strength 3 [9], [Multiple Wounds
@@ -827,8 +814,7 @@ Increases Wounds of the Machine to 4 and removes the
 Insignificant special rule.
 This Warmachine may choose to lose one wound in order to
 reroll a roll on the Misfire Table.
-We
-apon:
+Weapon:
 Git Launcher: This is a Catapult (1") Artillery Weapon with the following profile:
 Range 12-60", Strength 5, Armour Piercing (6). Instead of hitting models under the Template, any unit under the
 Template suffers D6 hits. After the scatter of the Template has been determined, you may roll D6 and move the
@@ -852,8 +838,7 @@ M WS BS S T W I A Ld
 Chariot - - - 5 5 4 - - -
 Rider (1) - 4 3 4 - - 2 1 7
 War Boar (2) 7 3 - 3 - - 3 1 3 Chariot 50x100mm base
-We
-apon:
+Weapon:
 Lance
 Armour: Mount's Protection (5+), Light Armour
 Special Rules: Born to Fight (Rider only), Thunderous Charge
@@ -869,8 +854,7 @@ M WS BS S T W I A Ld
 Chariot - - - 5 4 3 - - -
 Common Goblin (2) - 2 3 3 - - 2 1 6
 Wolf (2) 9 3 - 3 - - 3 1 3 Chariot 50x100mm base
-We
-apon:
+Weapon:
 Light Lances, Short Bow
 Armour: Mount's Protection (6+), Light Armour
 Special Rules: Insignificant, Scythes, Free Reform
@@ -897,8 +881,7 @@ Gargantula
 M WS BS S T W I A Ld
 Spider 7 4 - 5 6 8 4 8 -
 Forest Goblin (8) - 2 3 3 - - 2 1 6 Ridden Monster 100x150mm base
-We
-apon:
+Weapon:
 Light Lances (Goblins), Short Bows (Goblins)
 Armour: Innate Defence (4+)
 Special Rules: Venomous Fangs, Immune to Psychology,
