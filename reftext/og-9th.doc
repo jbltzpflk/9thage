@@ -2,7 +2,7 @@ Fantasy Battles
 The 9th Age
 Orcs and Goblins Army Rules Version 0.11.0 Beta
 
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+Fantasy Battles: The 9th Age is a community-made miniatures wargame. All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
 
 Army Special Rules
 Greenhide Races: Different models in the army have a specific set of special rules depending on their race.
@@ -19,15 +19,15 @@ Venomous Fangs: Nominate one attack from the model with this special rule before
 
 Shambolic (X, mode): Units with this Special Rule follow the Random Movement (X) Special Rule. Shambolic units are Immune to Psychology and cannot be joined by characters. If this unit rolls for its Random Movement and all the dice show the same result, it takes D3 wounds with no saves allowed and then moves in a randomized direction.
 Shambolic Random Movement has two optional modes, stated in brackets.
-Running Amok!!  Units with Shambolic (Running Amok!!) always move in a randomized direction during their random movement.
+Running Amok!! Units with Shambolic (Running Amok!!) always move in a randomized direction during their random movement.
 Steady: Units with Shambolic (Steady) may re-roll their random movement distance roll, but must accept the second one.
-Boing!: Boing! units may move through friendly units during their move. If a Boing! unit would end its movement inside a friendly unit without also being in contact with an enemy unit, backtrack along its path until it is in a legal position (at least 1" away from any units).  Boing! units do not count as "touching" terrain (e.g. for the purposes for Dangerous Terrain tests) unless they begin or
+Boing!: Boing! units may move through friendly units during their move. If a Boing! unit would end its movement inside a friendly unit without also being in contact with an enemy unit, backtrack along its path until it is in a legal position (at least 1" away from any units). Boing! units do not count as "touching" terrain (e.g. for the purposes for Dangerous Terrain tests) unless they begin or
 end their move on it, but they are still blocked by Impassable Terrain.
-Ricochet (X): Ricochet models ignore the 1" unit spacing rule during their Random Movement. If a Ricochet model touches another unit (friend or foe), it continues moving in the same direction until it is 1" clear of the other unit. If this would cause it to contact a third unit (or fourth, etc), the Ricochet model keeps moving in the same direction through units until it can be placed (it must be at least 1" away from other units or impassible terrain to be placed). If it cannot be placed through this process it is removed as a casualty.  Any units passed through by a Ricochet model that is within the movement distance rolled are hit. The units that are hit suffer X hits, where X is given in brackets. All units in same Close Combat that are hit are treated as a single unit for hit purposes. Owning player distribute hits as evenly as possible between units, then follow normal rules for distributing hits to models within each unit.  This is increased by an additional D6 hits if the Ricochet model was removed as a casualty because it couldn't be placed anywhere.  Other units cannot charge Ricochet models, but may charge, flee, pursue or move through them. Units that do so take X hits plus an additional D6 hits, and the Ricochet model is removed as a casualty.  All hits inflicted by Ricochet models are at the unmodified strength of the model and are Armour Piercing (1).
-Accident Prone: When Accident Prone models contact any terrain feature except Open Terrain or Hills, contact the board edge, or stop 1" away from Impassable Terrain, they must take a Dangerous Terrain test, which is failed on a roll of ‘1' or ‘2'. If two Accident Prone units touch each other, they are both removed as casualties.
+Ricochet (X): Ricochet models ignore the 1" unit spacing rule during their Random Movement. If a Ricochet model touches another unit (friend or foe), it continues moving in the same direction until it is 1" clear of the other unit. If this would cause it to contact a third unit (or fourth, etc), the Ricochet model keeps moving in the same direction through units until it can be placed (it must be at least 1" away from other units or impassible terrain to be placed). If it cannot be placed through this process it is removed as a casualty. Any units passed through by a Ricochet model that is within the movement distance rolled are hit. The units that are hit suffer X hits, where X is given in brackets. All units in same Close Combat that are hit are treated as a single unit for hit purposes. Owning player distribute hits as evenly as possible between units, then follow normal rules for distributing hits to models within each unit. This is increased by an additional D6 hits if the Ricochet model was removed as a casualty because it couldn't be placed anywhere. Other units cannot charge Ricochet models, but may charge, flee, pursue or move through them. Units that do so take X hits plus an additional D6 hits, and the Ricochet model is removed as a casualty. All hits inflicted by Ricochet models are at the unmodified strength of the model and are Armour Piercing (1).
+Accident Prone: When Accident Prone models contact any terrain feature except Open Terrain or Hills, contact the board edge, or stop 1" away from Impassable Terrain, they must take a Dangerous Terrain test, which is failed on a roll of '1' or '2'. If two Accident Prone units touch each other, they are both removed as casualties.
 
 Armoury
-Power ‘Shrooms: Generate D3+1 Power ‘Shrooms at the end of deployment. When declaring usage of Power Dice you may use a single mushroom to add D3 to the casting result. If this dice rolls a natural ‘1', the Wizard takes a Strength 3 hit with Armour Piercing (6).
+Power 'Shrooms: Generate D3+1 Power 'Shrooms at the end of deployment. When declaring usage of Power Dice you may use a single mushroom to add D3 to the casting result. If this dice rolls a natural '1', the Wizard takes a Strength 3 hit with Armour Piercing (6).
 Mammoth Stabber: Units with at least one Full Rank have Impact Hits (D3) with Strength 5 and Multiple Wounds (Ordnance; Large Targets).
 
 Magical items
@@ -43,7 +43,7 @@ Talismans
 Pan of Protection Pinchin' (25 pts): Goblins only The bearer, when wounded, may use the Armour Save, Ward Save, Regeneration Save, or Magic Resistance of the model that has inflicted the wound.
 
 Enchanted Items
-Lucky Boar's Leg (40 pts): Orc General mounted on War Boar or Boar Chariot only.  Boar Riders (not Brutal Boar riders ) count as a core choice and The Wearer and his unit have +1 Movement that can't be combined with other Magical Items granting positive modifications to movement or Swiftstride.
+Lucky Boar's Leg (40 pts): Orc General mounted on War Boar or Boar Chariot only. Boar Riders (not Brutal Boar riders ) count as a core choice and The Wearer and his unit have +1 Movement that can't be combined with other Magical Items granting positive modifications to movement or Swiftstride.
 Waaargh! Paint (30 pts): Feral Orc only Models with the "Greenhide Race: Feral Orc" in the wearer's unit have Frenzy, which they cannot lose, and gain Swiftstride for the purpose of Pursue and Overrun.
 
 Magical Standards
@@ -168,7 +168,7 @@ Wolf 15
 Goblin Wolf Chariot 20
 Cave Goblin (free)
 Options: pts
-Power ‘Shrooms 20
+Power 'Shrooms 20
 Forest Goblin (free)
 Options: pts
 A mount (one choice only):
@@ -285,7 +285,7 @@ Wolf 15
 Goblin Wolf Chariot 25
 Cave Goblin (free)
 Options: pts
-Power ‘Shrooms 20
+Power 'Shrooms 20
 Forest Goblin (free)
 Options: pts
 A mount (one choice only):
@@ -316,7 +316,7 @@ Crossbows and Heavy Armour 4 / model
 Feral Orc (2 pts / model)
 Options: pts
 May take Mammoth Stabber 15 / unit
-Orc ‘Eadbashers 60 pts (One of a Kind)
+Orc 'Eadbashers 60 pts (One of a Kind)
 10 models, may add up to 30 models 8 pts/model
 M WS BS S T W I A Ld
 4 4 3 4 4 1 2 1 7 Infantry 25x25mm base
@@ -485,10 +485,10 @@ Musician 10
 Standard Bearer 10
 - May take a Magical Standard up to 50
 13
-Mounted ‘Eadbashers 90 pts
+Mounted 'Eadbashers 90 pts
 5 models, may add up to 10 models 18 pts/model
 M WS BS S T W I A Ld
-‘Eadbasher Rider 4 4 3 4 4 1 2 1 7
+'Eadbasher Rider 4 4 3 4 4 1 2 1 7
 War Boar 7 3 - 3 3 1 3 1 3 Cavalry 25x50mm base
 Weapon:
 Light Lance
@@ -514,7 +514,7 @@ Orc Boar Chariot 85 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 5 5 4 - - -
-‘Eadbasher Riders (2) - 4 3 4 - - 2 1 7
+'Eadbasher Riders (2) - 4 3 4 - - 2 1 7
 War Boars (2) 7 3 - 3 - - 3 1 3 Chariot 50x100mm base
 Weapon:
 Lance
@@ -651,7 +651,7 @@ single model
 M WS BS S T W I A Ld
 3d6 - - 6 4 3 3 2 3 Monstrous Beast 60mm round base
 Special Rules: Shambolic(3d6), Ricochet (2d6), Accident Prone, Hard Target
-Look At ‘Em Go!: After touching the unit for the first time in the game Gnashers substitute their Shambolic (3d6)
+Look At 'Em Go!: After touching the unit for the first time in the game Gnashers substitute their Shambolic (3d6)
 with Shambolic (3d6, Running Amok!!) special sule.
 Gargantula 210 pts
 single model
@@ -680,7 +680,7 @@ Special Rules: Immune to Psychology, Crush Attack, Impact Hits
 Options: pts
 May become the Battle Standard Bearer
 and gain Ward Save (5+) 60
-Smash ‘Em Flat: All friendly Units within 8" have the Hatred special rule if the Great Green Idol is in combat.
+Smash 'Em Flat: All friendly Units within 8" have the Hatred special rule if the Great Green Idol is in combat.
 We've Got The Green Light: All friendly Units within 8" can re-roll charge distance rolls if the Great Green Idol
 declared a charge this turn.
 19
@@ -813,7 +813,7 @@ Goblin Chief*** 4 4 3 4 4 2 3 3 7
 Goblin Shaman*** 4 2 3 3 3 2 2 1 6
 INFANTRY
 C Orc 4 3 3 3 4 1 2 1 7
-Orc ‘Eadbasher 4 4 3 4 4 1 2 1 7
+Orc 'Eadbasher 4 4 3 4 4 1 2 1 7
 Goblin*** 4 2 3 3 3 3 2 1 6
 - Mad Git 2d6 - - 5 3 1 3 1 5
 - Shady Git 4 4 3 3 3 1 6 2 6
@@ -840,7 +840,7 @@ C Goblin Raider 4 2 3 3 3 1 2 1 7
 - Wolf 9 3 - 3 3- 1 3 1 3
 - Scuttler Spider 7 3 - 3 3 1 4 1 2
 S Orc Boar Rider 4 3 3 3 4 1 2 1 7
-- Mounted ‘Eadbasher 4 4 3 4 4 1 2 1 7
+- Mounted 'Eadbasher 4 4 3 4 4 1 2 1 7
 - War Boar 7 3 - 3 4 1 3 1 3
 Gnasher Dasher 3d6 4 0 5 3 1 4 2 5
 CHARIOTS
