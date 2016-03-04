@@ -30,79 +30,77 @@ When a model with this special rule is in a unit with 5 or more models with the 
 Front Rank rule. A model with this special rule can be the General even if it is also the Battle Standard Bearer and
 ignores all penalties when refusing a challenge.
 Telepathic Link
-A Cuatl Lord may cast spells of type “Damage” through a model with this special rule within 24”. When casting through
+A Cuatl Lord may cast spells of type "Damage" through a model with this special rule within 24". When casting through
 the vassal, measure range from the Telepathic Link and use its forward arc and Line of sight. The Cuatl Lord may cast
-spells of type “missile” even if it is engaged in combat as long as the Telepathic Link isn’t. If the spell is miscast, the Cuatl
+spells of type "missile" even if it is engaged in combat as long as the Telepathic Link isn't. If the spell is miscast, the Cuatl
 Lord rolls on the miscast table as normal and the Telepathic Link suffers a Strength PDU+1 hit. If you cast a spell
 through a Telepathic Link, the attribute gets cast through it as well.
 Armoury
 Blowpipe:
-Shooting Weapon. Range 12”, Strength 3, Multiple Shot (2), Poisoned Attacks, +1 to hit against Large Targets.
+Shooting Weapon. Range 12", Strength 3, Multiple Shot (2), Poisoned Attacks, +1 to hit against Large Targets.
 Javelin:
-Shooting Weapon. Range 12”, Strength As User, Poisoned Attacks, Quick to Fire.
+Shooting Weapon. Range 12", Strength As User, Poisoned Attacks, Quick to Fire.
 Giant Blowpipe
-This is a is Volley Gun Artillery Weapon​ with the following profile:
-Range 18”, Strength 3, Quick to Fire, Poisoned Attacks, Multiple shots (2D6).
-Great ​ Bow:
-This is a is Bolt Thrower Artillery Weapon​ with the following profile:
-Range 36”, Strength 6, Multiple Wounds (D3), Armour Piercing (6), Quick to fire
+This is a is Volley Gun Artillery Weapon with the following profile:
+Range 18", Strength 3, Quick to Fire, Poisoned Attacks, Multiple shots (2D6).
+Great Bow:
+This is a is Bolt Thrower Artillery Weapon with the following profile:
+Range 36", Strength 6, Multiple Wounds (D3), Armour Piercing (6), Quick to fire
 2
 Magical items
 Magical Weapons
-Sword of the Dawn Ages​ (45 / 35 pts)
+Sword of the Dawn Ages (45 / 35 pts)
 Type: Hand Weapon. Attacks made with this weapon
 have Armour Piercing (1) and Multiple Wounds (2).
-Spear of the Stampede​ (40 pts)
+Spear of the Stampede (40 pts)
 Type: Lance. The mount of the wearer has Impact Hits
 (D6) or (+D6) if it already has Impact Hits, resolved at
 the mounts strength.
-Serpent Bow​ (40 pts)
-Type: Short Bow. ​ Range 18". The Serpent Bow can be
+Serpent Bow (40 pts)
+Type: Short Bow. Range 18". The Serpent Bow can be
 shot using the rules for Bolt Thrower Artillery Weapons:
 Strength 6, Armour Piercing (6), Multiple Wounds (D3).
 Magical Armour
-Taurosaur Helm ​ (35 pts)
+Taurosaur Helm (35 pts)
 Type: None (6+ armour save). Grants wearer +1
 Toughness and Impact Hits (1).
 Talismans
-Starfall Shard ​ (45 / 30 pts)
-Bearer’s model gains Fireborn. All attacks made against
-the bearer’s model suffer -1 to hit.
+Starfall Shard (45 / 30 pts)
+Bearer's model gains Fireborn. All attacks made against
+the bearer's model suffer -1 to hit.
 Enchanted Items
-Jade Staff​ (20 pts)
+Jade Staff (20 pts)
 The bearer of the Jade Staff may cast The Phoenix Rises
 fr
 om the path of White Magic as a bound spell (Power
 level 3).
-Egg of the Quetzal​ (35 pts)
+Egg of the Quetzal (35 pts)
 The bearer gains a Breath Weapon (Strength D3+2,
 Magical Attacks).
 Arcane Items
-Black Cube ​ (50 pts)
+Black Cube (50 pts)
 The player may remove 1 Power Dice from the
-opponent’s pool of Power Dice at the start of each of the
-opponent’s magic phases.
-Ancient Plaque​ (60 / 40 pts)
+opponent's pool of Power Dice at the start of each of the
+opponent's magic phases.
+Ancient Plaque (60 / 40 pts)
 Once per magic phase, the bearer may reroll one Power
 Dice that was used for a casting roll. This ability cannot
 be used when the bearer is casting with one dice and
-cannot reroll a dice which shows a natural ‘6’.
+cannot reroll a dice which shows a natural '6'.
 Magical Standards
-Totem of Mixoatl​ (35 pts)
-All non-character models in bearer’s unit with the Born
-Predator special rule may also reroll to-hit-rolls of ‘2’ in
+Totem of Mixoatl (35 pts)
+All non-character models in bearer's unit with the Born
+Predator special rule may also reroll to-hit-rolls of '2' in
 close combat.
 3
 Army List
 LORDS
-Saurian Warlord ​ 145 pts
+Saurian Warlord 145 pts
 single model
 M WS BS S T W I A Ld
 4 6 - 5 5 3 4 5 9 Infantry 25x25mm base
-Armour:
-Innate Defence (5+)
-Predator Special Rules:
-Cold-blooded, Born Predator
+Armour: Innate Defence (5+)
+Predator Special Rules: Cold-blooded, Born Predator
 Options: pts
 May take Magical Items up to 100
 May take any of the following
@@ -117,19 +115,14 @@ Great Weapon 20
 May take a mount (one choice only)
 Raptor 50
 Alpha Carnosaur 230
-Skink High Priest ​ 175 pts
+Skink High Priest 175 pts
 single model
 M WS BS S T W I A Ld
 6 2 3 3 3 3 4 1 7 Infantry 20x20mm base
-Armour:
-Innate Defence (6+)
-Skink Special Rules:
-Cold-blooded, Strider (Water)
-Sp
-ecial Rules:
-Telepathic Link
-Magic:
-Level 3 Wizard ​ Master​ . Generate spells from Path
+Armour: Innate Defence (6+)
+Skink Special Rules: Cold-blooded, Strider (Water)
+Special Rules: Telepathic Link
+Magic: Level 3 Wizard Master . Generate spells from Path
 of Wilderness, Heavens, Light or Nature.
 Options: pts
 May become a Level 4 wizard 35
@@ -139,65 +132,61 @@ Alpha Pteradon 30
 Skink Palanquin 35
 Taurosaur 160
 4
-Cuatl Lord ​ 270 pts
+Cuatl Lord 270 pts
 single model
 M WS BS S T W I A Ld
 4 2 3 3 4 4 2 1 9 Infantry 50x50mm base
-Reptilian Special Rules:
-Cold-blooded
-Sp
-ecial Rules:
-Palanquin, Ward Save (4+)
-Magic:
-Level 4 Wizard ​ Master​ . Generate spells from the
+Reptilian Special Rules: Cold-blooded
+Special Rules: Palanquin, Ward Save (4+)
+Magic: Level 4 Wizard Master . Generate spells from the
 Path of White Magic or any of the Battle Magic
 Paths
 Options: pts
 May be the Battle Standard Bearer 50
 May take Magical Items up to 100
 May take Cuatl Lord Disciplines up to 150
-Cuatl Lord Disciplines​ : Disciplines cannot be duplicated within an army. Maximum 150 points of disciplines per
+Cuatl Lord Disciplines : Disciplines cannot be duplicated within an army. Maximum 150 points of disciplines per
 army (300 in a grand army)
-Wellspring of Power​ (60 pts)
+Wellspring of Power (60 pts)
 Choose one combination at the start of the game: The
 Cuatl Lord gives you an additional +4 bonus when
 rolling to channel in your magic phase and +1 to cast,
 OR a +4 bonus when rolling to channel in your
-opponent’s magic phase and +1 to dispel.
-Unconquerable Will​ (60 pts )
+opponent's magic phase and +1 to dispel.
+Unconquerable Will (60 pts )
 The Cuatl Lord may reroll the first failed dispel
 attempt in each magic phase. At the end of the
-opponent’s magic phase, the player may store a single
+opponent's magic phase, the player may store a single
 unused dispel dice and add this dice to the power pool
 of the next magic phase.
-Master of Magic​ (85 pts)
+Master of Magic (85 pts)
 When rolling for Magic Flux in your own magic phase,
 roll an additional D6 and discard the lowest D6 rolled.
 Cannot be combined with Wellspring of Power or
 Unconquerable Will in the same army.
-Telepathic Control​ (40 pts)
+Telepathic Control (40 pts)
 The Cuatl Lord may cast any kind of spell through a
 Telepathic Link (and is not limited to just "Damage"
 spells). If the Cuatl Lord is the General and alive, all
 Telepathic Links in the army gain Inspiring Presence
 and Leadership 7. However, the range of the
-Telepathic Link’s Inspiring Presence is limited to 6".
-Shielded Soul​ (30 pts )
+Telepathic Link's Inspiring Presence is limited to 6".
+Shielded Soul (30 pts )
 When the Cuatl Lord rolls on the miscast table, you
 may add or subtract one from the result.
-Higher State of Mind​ (30 pts)
+Higher State of Mind (30 pts)
 The Cuatl Lord gains Ethereal but cannot be the
-army’s General nor the Battle Standard Bearer.
-Veteran of the Cataclysm​ (50 pts)
+army's General nor the Battle Standard Bearer.
+Veteran of the Cataclysm (50 pts)
 The Cuatl Lord knows the spells Luminous Bolts
-(Path of White Magic) and Moraec’s Fury (Path of
+(Path of White Magic) and Moraec's Fury (Path of
 Black Magic) in addition to its normal spells.
-Wandering Path ​ (75 pts)
+Wandering Path (75 pts)
 The Cuatl Lord knows the signature spell from each
 of the eight Paths of Battle Magic but does not
 generate spells normally. Cannot be combined with
 Ancient Knowledge.
-Contemplations​ ​ (55 pts)
+Contemplations (55 pts)
 The Cuatl Lord knows one additional spell and has
 to generate all his spells from Path of White Magic.
 When he successfully casts a White Magic spell, he
@@ -208,19 +197,14 @@ cannot use this to choose its new spells, but must
 randomize as normal.
 5
 HEROES
-Skink Priest ​ 65 pts
+Skink Priest 65 pts
 single model
 M WS BS S T W I A Ld
 6 2 3 3 2 2 4 1 6 Infantry 20x20mm base
-Armour:
-Innate Defence (6+)
-Skink Special Rules:
-Cold-blooded, Strider (Water)
-Sp
-ecial Rules:
-Telepathic Link
-Magic:
-Level 1 Wizard ​ Apprentice​ . Generate spells from
+Armour: Innate Defence (6+)
+Skink Special Rules: Cold-blooded, Strider (Water)
+Special Rules: Telepathic Link
+Magic: Level 1 Wizard Apprentice . Generate spells from
 Path of Wilderness or Heavens.
 Options: pts
 May become a Level 2 wizard 25
@@ -228,14 +212,12 @@ May take Magical Items up to 50
 May take a mount (one choice only)
 Alpha Pteradon 30
 Taurosaur 160
-Skink Captain ​ 40 pts
+Skink Captain 40 pts
 single model
 M WS BS S T W I A Ld
 6 4 5 4 3 2 6 3 6 Infantry 20x20mm base
-Armour:
-Innate Defence (6+)
-Skink Special Rules:
-Cold-blooded, Strider (Water)
+Armour: Innate Defence (6+)
+Skink Special Rules: Cold-blooded, Strider (Water)
 Options: pts
 May be the Battle Standard Bearer 25
 May take Magical Items up to 50
@@ -253,14 +235,12 @@ Alpha Pteradon 40
 Alpha Rhamphodon 45
 Taurosaur 160
 6
-Saurian Veteran ​ 90 pts
+Saurian Veteran 90 pts
 single model
 M WS BS S T W I A Ld
 4 5 - 5 5 2 3 4 8 Infantry 25x25mm base
-Armour:
-Innate Defence (5+)
-Predator Special Rules:
-Cold-blooded, Born Predator
+Armour: Innate Defence (5+)
+Predator Special Rules: Cold-blooded, Born Predator
 Options: pts
 May be the Battle Standard Bearer 25
 May take Magical Items up to 50
@@ -276,37 +256,30 @@ Lance 15
 May take a mount (one choice only)
 Raptor 40
 Carnosaur 140
-Caiman Ancient ​ 130 pts
+Caiman Ancient 130 pts
 single model
 M WS BS S T W I A Ld
 6 4 - 5 5 4 3 3 8 Monstrous Infantry 40x40mm base
-We
-apons:
+Weapons:
 Great Weapon
-Armour:
-Innate Defence (4+)
-Caiman Special Rules:
-Cold-blooded, Born Predator, Strider (Water)
-Sp
-ecial Rules:
-Fear
+Armour: Innate Defence (4+)
+Caiman Special Rules: Cold-blooded, Born Predator, Strider (Water)
+Special Rules: Fear
 Options: pts
 May be the Battle Standard Bearer 25
 May take Magical Items up to 50
 May replace Great Weapon with Halberd free
-Pack Leader: ​ Any Caiman in the same unit as a Caiman Ancient may use his Weapon Skill (before any modifications
+Pack Leader: Any Caiman in the same unit as a Caiman Ancient may use his Weapon Skill (before any modifications
 fr
 om e.g. Magical Items or the Sun Engine) instead of their own.
 7
 CORE
-Saurian Warriors ​ 100 pts
-10 ​ models, may add up to 25 ​ models 11 pts/model
+Saurian Warriors 100 pts
+10 models, may add up to 25 models 11 pts/model
 M WS BS S T W I A Ld
 4 3 - 4 4 1 2 2 8 Infantry 25x25mm base
-Armour:
-Innate Defence (5+), Shield
-Predator Special Rules:
-Cold-blooded, Born Predator
+Armour: Innate Defence (5+), Shield
+Predator Special Rules: Cold-blooded, Born Predator
 Options: pts
 May take Spear 2 / model
 May upgrade one model to each of the following:
@@ -317,26 +290,23 @@ Standard Bearer 10
 May take a single Totem Animal see below
 *A Veteran Standard Bearer is One of a Kind and may take a
 Magical Standard worth up to 25 pts.
-Piranha Warriors​ (1 pt / model)
+Piranha Warriors (1 pt / model)
 The model gains Fear.
-Serpent Warriors ​ (1 pt / model)
+Serpent Warriors (1 pt / model)
 The model gains Fight in Extra Rank.
-Jaguar Warriors ​ (1 pt / model)
+Jaguar Warriors (1 pt / model)
 The model gains +1 Movement.
-Crocodile Warriors ​ (2 pts / model)
+Crocodile Warriors (2 pts / model)
 The model gains Innate Defence (4+) and may not pursue or overrun.
 8
-Skink Braves ​ 125 pts
-25​ ​ Skink Braves, may add up to ​ 15​ ​ Skink Braves 5 pts/model
+Skink Braves 125 pts
+25 Skink Braves, may add up to 15 Skink Braves 5 pts/model
 M WS BS S T W I A Ld
 Skink Brave 6 2 3 3 2 1 4 1 5 Infantry 20x20mm base
-We
-apons:
+Weapons:
 Javelins
-Armour:
-Innate Defence (6+), Shield
-Skink Special Rules:
-Cold-blooded, Strider (Water)
+Armour: Innate Defence (6+), Shield
+Skink Special Rules: Cold-blooded, Strider (Water)
 Options: pts
 May add Caimans* 50 / model
 *Max one for every 8 Skinks in the unit
@@ -354,14 +324,11 @@ Caiman
 This model is a part of Skink Braves unit
 M WS BS S T W I A Ld
 6 3 - 5 4 3 2 3 7 Monstrous Infantry 40x40mm base
-We
-apons:
+Weapons:
 Great Weapon
-Armour:
-Innate Defence (4+)
-Caiman Special Rules:
-Cold-blooded, Born Predator, Strider (Water)
-Combined Strength: ​ Skink Braves may add Caimans to their unit. These Caimans are Rank and File models of a
+Armour: Innate Defence (4+)
+Caiman Special Rules: Cold-blooded, Born Predator, Strider (Water)
+Combined Strength: Skink Braves may add Caimans to their unit. These Caimans are Rank and File models of a
 different unit type (Monstrous Infantry). The unit is considered Infantry if there are more Skinks than Caimans and
 Monstrous Infantry if the number of Caimans are equal to or more than the number of Skinks. Caimans follow the rules
 fo
@@ -377,55 +344,42 @@ procedure for the Caimans). As long as 5 or more Caiman models are part of the u
 cannot be distributed hits to and any template hit is transferred to a R&F Caiman instead. When casting a spell that
 raises wounds on a combined unit distribute the raised wounds the same way as above (1-4 Skink, 5-6 Caiman.)
 9
-Skink Hunters ​ 50 pts
-10​ ​ models, may add up to 10 ​ models 5 pts/model
+Skink Hunters 50 pts
+10 models, may add up to 10 models 5 pts/model
 M WS BS S T W I A Ld
 6 2 3 3 2 1 4 1 5 Infantry 20x20mm base
-We
-apons:
+Weapons:
 Javelins
-Armour:
-Innate Defence (6+), Shields
-Skink Special Rules:
-Cold-blooded, Strider (Water)
-Sp
-ecial Rules:
-Skirmishers
+Armour: Innate Defence (6+), Shields
+Skink Special Rules: Cold-blooded, Strider (Water)
+Special Rules: Skirmishers
 Options: pts
 May exchange Javelins for Blowpipe free
 May exchange Shield for Skirmish 3 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Snake Swarms ​ 55 pts
-2 ​ models, may add up to 4 ​ models 20 pts/model
+Snake Swarms 55 pts
+2 models, may add up to 4 models 20 pts/model
 M WS BS S T W I A Ld
 5 3 - 2 2 5 1 5 10 Swarm 40x40mm base
-Reptilian Special Rules:
-Cold-blooded
-Sp
-ecial Rules:
-Venomous Tide: ​ If an enemy unit is in base
+Reptilian Special Rules: Cold-blooded
+Special Rules: Venomous Tide: If an enemy unit is in base
 contact with a model with this rule, all attacks
 made against that unit are Poisoned Attacks.
 Options: pts
 May gain Scout 5 / model
 10
 SPECIAL
-Temple Guard ​ 130 pts
-10 ​ models, may add up to 20 ​ models 13 pts/model
+Temple Guard 130 pts
+10 models, may add up to 20 models 13 pts/model
 M WS BS S T W I A Ld
 4 4 - 4 4 1 2 2 8 Infantry 25x25mm base
-We
-apons:
+Weapons:
 Halberd
-Armour:
-Light Armour, Innate Defence (5+), Shields
-Predator Special Rules:
-Cold-blooded, Born Predator
-Sp
-ecial Rules:
-Bodyguard (General), Immune to Psychology
+Armour: Light Armour, Innate Defence (5+), Shields
+Predator Special Rules: Cold-blooded, Born Predator
+Special Rules: Bodyguard (General), Immune to Psychology
 Options: pts
 May gain Weapon Master 1 / model
 May upgrade one model to each of the following:
@@ -433,22 +387,18 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - One unit may take a Magical Standard up to 50
-Raptor Riders​ ​ 160 pts
-5 ​ models, may add up to 7 ​ models 34 pts/model
+Raptor Riders 160 pts
+5 models, may add up to 7 models 34 pts/model
 M WS BS S T W I A Ld
 Rider 4 4 - 4 4 1 2 2 8
 Raptor 7 3 - 4 4 1 2 2 2 Cavalry 25x50mm base
-We
-apons:
+Weapons:
 Lance
 Armour Rules:
-Mount’s Protection (5+), Innate Defence (5+),
+Mount's Protection (5+), Innate Defence (5+),
 Shields
-Predator Special Rules:
-Cold-blooded, Born Predator (riders only)
-Sp
-ecial Rules:
-Stupidity
+Predator Special Rules: Cold-blooded, Born Predator (riders only)
+Special Rules: Stupidity
 Options: pts
 May upgrade one model to each of the following:
 Champion 10
@@ -456,33 +406,25 @@ Musician 10
 Standard Bearer 10
 - One unit may take a Magical Standard up to 50
 11
-Chameleons ​ 60 pts
-5 ​ models, may add up to 10 ​ models 10 pts/model
+Chameleons 60 pts
+5 models, may add up to 10 models 10 pts/model
 M WS BS S T W I A Ld
 6 2 4 3 2 1 4 1 6 Infantry 20x20mm base
-We
-apons:
+Weapons:
 Blowpipe
-Armour:
-Innate Defence (6+),
-Skink Special Rules:
-Cold-blooded, Strider (Water)
-Sp
-ecial Rules:
-Skirmishers, Hard Target, Scouts
+Armour: Innate Defence (6+),
+Skink Special Rules: Cold-blooded, Strider (Water)
+Special Rules: Skirmishers, Hard Target, Scouts
 Options: pts
 May upgrade one model to a Champion 10
-Caimans ​ 120 pts
-3 ​ models, may add up to 7 ​ models 40 pts/model
+Caimans 120 pts
+3 models, may add up to 7 models 40 pts/model
 M WS BS S T W I A Ld
 6 3 - 5 4 3 2 3 7 Monstrous Infantry 40x40mm base
-We
-apons:
+Weapons:
 Great Weapon
-Armour:
-Innate Defence (4+)
-Caiman Special Rules:
-Cold-blooded, Born Predator, Strider (Water)
+Armour: Innate Defence (4+)
+Caiman Special Rules: Cold-blooded, Born Predator, Strider (Water)
 Options: pts
 May replace Great Weapons with Halberds free
 May upgrade one model to each of the following:
@@ -490,157 +432,130 @@ Champion 10
 Musician 10
 Standard Bearer 10
 May gain Hardened Scales 10 / model
-Hardened Scales: ​ A model with Hardened Scales gains +1
+Hardened Scales: A model with Hardened Scales gains +1
 Toughness.
 12
-Skink Sky-Riders ​ 100 pts
-3 ​ models, may add up to 2 ​ models 35 pts/model
+Skink Sky-Riders 100 pts
+3 models, may add up to 2 models 35 pts/model
 M WS BS S T W I A Ld
 Rider 6 2 3 3 2 1 4 1 5
 Pteradon 2 3 - 4 3 2 2 1 3
 Rhamphodon 2 3 - 4 3 2 4 2 3 Monstrous Cavalry 40x40mm base
 Armour Rules:
-Mount’s Protection (6+)
-We
-apons:
+Mount's Protection (6+)
+Weapons:
 Light Lance, Javelins
-Reptilian Special Rules:
-Cold-blooded
+Reptilian Special Rules: Cold-blooded
 Options: pts
 May take Shield 5 / model
 May upgrade one model to Champion 10
 May replace Javelins with Fire Bolas 1 / model
-Fire Bola: ​ Range 8”, Strength 4, Flaming Attacks, Quick to
+Fire Bola: Range 8", Strength 4, Flaming Attacks, Quick to
 fi
 re.
 Must choose a single mount:
-Pteradon ​ (free)
-Armour:
-Mount’s Protection (6+), Innate Defence (6+)
-Sp
-ecial Rules:
-Strider (Forest), Fast Cavalry, Skirmishers, Fly (9)
-Release Rocks: ​ During the Remaining Moves sub-phase
+Pteradon (free)
+Armour: Mount's Protection (6+), Innate Defence (6+)
+Special Rules: Strider (Forest), Fast Cavalry, Skirmishers, Fly (9)
+Release Rocks: During the Remaining Moves sub-phase
 you can once per game Release Rocks on an unengaged
 enemy unit. Nominate one enemy unit which the unit
 moved over this turn. This unit suffers D3 Strength 4 hits
 per Pteranodon in the unit. This is a Special Shooting
 Attack.
-Rhamphodon ​ (5 pts / model)
-Armour:
-Mount’s Protection (5+), Innate Defence (6+)
-Sp
-ecial Rules:
-Strider (Forest), Fast Cavalry, Skirmishers, Frenzy,
+Rhamphodon (5 pts / model)
+Armour: Mount's Protection (5+), Innate Defence (6+)
+Special Rules: Strider (Forest), Fast Cavalry, Skirmishers, Frenzy,
 Armour Piercing (1), Fly (8), Lethal Strike
-Prey Scent: ​ After Deployment, if you have a unit of
+Prey Scent: After Deployment, if you have a unit of
 Rhamphodon Riders or a Skink Captain on a Alpha
-Rhamphodon, you may mark 2 of the enemies’ units with
+Rhamphodon, you may mark 2 of the enemies' units with
 a counter. Against a marked unit the Rhamphodons (not
 their riders) may re-roll to hit and gain an additional D3
 attacks/model.
 13
-Thyroscutus ​ -
+Thyroscutus -
 single model
 M WS BS S T W I A Ld
 Thyroscutus 4 3 - 4 5 4 1 3 6
 Skink Crew (4) - 2 3 3 - - 4 1 6 Ridden Monster 50x100mm base
-We
-apons:
+Weapons:
 Javelins (Crew only)
-Armour:
-Innate Defence (2+)
-Reptilian Special Rules:
-Cold-blooded
-Sp
-ecial Rules:
-Crush Attack (Thyroscutus only)
+Armour: Innate Defence (2+)
+Reptilian Special Rules: Cold-blooded
+Special Rules: Crush Attack (Thyroscutus only)
 Must take one of the following:
-Altar of the Snake-God​ (110 pts)
-Friendly units within 6” of one or more models with this
+Altar of the Snake-God (110 pts)
+Friendly units within 6" of one or more models with this
 special rule have Poisoned Attacks in Close Combat. If
 the unit already has Poisoned Attacks in Close Combat
 then they gain +1 to their Poisoned Attacks instead (e.g.
 6+ becomes 5+). The Altar of the Snake God contains the
 bound spell Putrefying Touch from the Path of Disease
 (Power level 3).
-Sun Engine​ (130 pts)
-All friendly units within 6” of one or more models with
+Sun Engine (130 pts)
+All friendly units within 6" of one or more models with
 this Special Rule have +1 Weapon Skill. The Sun Engine
 contains the bound spell Burning Brightness from Path
 of Light (Power level 3).
 14
-Spearback ​ 58 pts
-1 ​ model, may add up to 2 ​ models 58 pts/model
+Spearback 58 pts
+1 model, may add up to 2 models 58 pts/model
 M WS BS S T W I A Ld
 6 3 4 5 4 3 4 3 6 Monstrous Beast 40x40mm base
-We
-apons:
-Shoot Spikes: ​ Shooting Weapon with the following
+Weapons:
+Shoot Spikes: Shooting Weapon with the following
 profile:
-Range 18”, Strength 4, Quick to Fire, Armour
+Range 18", Strength 4, Quick to Fire, Armour
 Piercing (1) Multiple shots (2D6).
-Armour:
-Innate Defence (4+)
-Reptilian Special Rules:
-Cold-blooded
-Sp
-ecial Rules:
-Skirmishers, Strider (Water)
-Living Weapon: ​ The Spearback can move and fire,
+Armour: Innate Defence (4+)
+Reptilian Special Rules: Cold-blooded
+Special Rules: Skirmishers, Strider (Water)
+Living Weapon: The Spearback can move and fire,
 but not march and fire. If they can, Spike Lizards
 must declare Stand & Shoot as a charge reaction,
-but they don’t suffer the -1 to hit penalty for it.
+but they don't suffer the -1 to hit penalty for it.
 Options: pts
 May upgrade to (one choice only):
 Pteradon Hunter Spikes 5 / model
 Razor Sharp Spikes 7 / model
-Razor Sharp Spikes​ : When shooting at short range replace
+Razor Sharp Spikes : When shooting at short range replace
 Armour Piercing (1) with Armour Piercing (2)
-Pteradon Hunter Spikes​ : When shooting a Spearback with
+Pteradon Hunter Spikes : When shooting a Spearback with
 this upgrade has +1 to hit and +1 to wound against flying
 units.
 15
-RA
-RE
-Salamander ​ 70 pts
-1 ​ model, may add up to 1 ​ model 70 pts/model
+RARE
+Salamander 70 pts
+1 model, may add up to 1 model 70 pts/model
 M WS BS S T W I A Ld
 6 3 4 5 4 3 4 3 6 Monstrous Beast 40x40mm base
-Armour:
-Innate Defence (4+)
-Reptilian Special Rules:
-Cold-blooded
-Sp
-ecial Rules:
-Skirmishers, Strider (Water)
-Living Artillery: ​ The Salamander can move and
+Armour: Innate Defence (4+)
+Reptilian Special Rules: Cold-blooded
+Special Rules: Skirmishers, Strider (Water)
+Living Artillery: The Salamander can move and
 fi
 re, but not march and fire. If a misfire is rolled,
 add +4 to the result rolled on the misfire chart.
 Must take one of the following:
-Spout Flames​ (5 pts)
-This is a Flame Thrower Artillery Weapon​ with
-Range 8”, Strength 4, Flaming Attacks.
-Spout Venom​ (free)
-This is a Catapult (3”) Artillery weapon​ with
-Range 18”, Strength 1, +1 to wound, Armour Piercing (6).
+Spout Flames (5 pts)
+This is a Flame Thrower Artillery Weapon with
+Range 8", Strength 4, Flaming Attacks.
+Spout Venom (free)
+This is a Catapult (3") Artillery weapon with
+Range 18", Strength 1, +1 to wound, Armour Piercing (6).
 16
-Taurosaur ​ 175 ​ pts
+Taurosaur 175 pts
 single model
 M WS BS S T W I A Ld
 Taurosaur 6 3 - 5 6 5 2 4 -
 Skink Crew (5) - 2 3 3 - - 4 1 7 Ridden Monster 50x100mm base
-We
-apons:
+Weapons:
 Javelin (Crew only), Great Bow (Taurosaur only)
 Armour::
 Innate Defence (3+)
-Reptilian Special Rules:
-Cold-blooded
-Sp
-ecial Rules:
-Immune to Psychology, Stubborn, Impact Hits
+Reptilian Special Rules: Cold-blooded
+Special Rules: Immune to Psychology, Stubborn, Impact Hits
 (D6+1)
 Options: pts
 May take Sharp Horns 25
@@ -650,9 +565,9 @@ two Giant Blowpipes 10
 Engine of the Ancients* 40
 *One of a Kind. This upgrade may only be taken by Ancient
 Taurosaur
-Sharp Horns: ​ The model's Impact Hits have Multiple Wounds (D3).
-Ancient Taurosaur: ​ An Ancient Taurosaur has +1 Strength and +1 Wound on its characteristic profile.
-Engine of the Ancients: ​ Telepathic Link. At the beginning of each Game Turn the owner chooses one of the 3
+Sharp Horns: The model's Impact Hits have Multiple Wounds (D3).
+Ancient Taurosaur: An Ancient Taurosaur has +1 Strength and +1 Wound on its characteristic profile.
+Engine of the Ancients: Telepathic Link. At the beginning of each Game Turn the owner chooses one of the 3
 fo
 llowing effects to apply for the remainder of the game turn. The player may choose the same configuration
 repeatedly, but only one configuration may be active at the same time.
@@ -660,15 +575,15 @@ Power of Tezqatl
 Choose a Path. All friendly wizards
 casting spells from this Path have
 their casting value decreased by 2.
-All friendly units within 6” of an
+All friendly units within 6" of an
 Engine of the Ancients have a Ward
 Save (6+).
 Flames of Xiteqli
-In owner’s Shooting phase pick an
+In owner's Shooting phase pick an
 enemy unit within 9" that is not in
 close combat. That unit suffers D3
 Metalshifting Hits. All friendly units
-within 6” of an Engine of the
+within 6" of an Engine of the
 Ancients have a Ward Save (6+).
 Shield of Tlaloq
 All friendly units within 12" gain
@@ -679,38 +594,33 @@ already have a ward save gain +1 to
 their ward save instead (up to a
 maximum of 5+).
 17
-Stygiosaur ​ 110 pts
+Stygiosaur 110 pts
 single model
 M WS BS S T W I A Ld
 Stygiosaur 7 4 4 5 5 5 2 4 5
 Skink Rider (1) - 4 2 3 - - 4 1 6 Monstrous Cavalry 50x100mm base
-We
-apons:
+Weapons:
 Javelin (crew only)
 Armour
 Innate Defence (4+), Mounts Protection (6+)
-Predator Special Rules:
-Cold-blooded, Born Predator (Stygiosaur only)
-Sp
-ecial Rules:
-Magic Beacon, Poisoned Attacks (Stygiosaur only),
+Predator Special Rules: Cold-blooded, Born Predator (Stygiosaur only)
+Special Rules: Magic Beacon, Poisoned Attacks (Stygiosaur only),
 Stomp (D3), Terror, Large Target
 Options: pts
 May gain Predatory Roar 35
 The Skink Rider may be upgraded to Champion 60
-Magic:
-if upgraded to a champion, Skink Rider gains Wizard Conclave
+Magic: if upgraded to a champion, Skink Rider gains Wizard Conclave
 (Redwood Shaft, The Beast Within)
-Predatory Roar: ​ One Use only. At the start of any close
-combat phase pick an enemy unit within 18”. That unit has to
+Predatory Roar: One Use only. At the start of any close
+combat phase pick an enemy unit within 18". That unit has to
 reroll successful to hit rolls for the remainder of the phase.
 May take one Shooting Weapon:
-Poisonous Breath ​ (30 pts)
+Poisonous Breath (30 pts)
 This is a Breath Weapon with the Toxic Attacks special
 rule.
-Spit Poison ​ (30 pts)
+Spit Poison (30 pts)
 This is a shooting attack with the following profile:
-Range 8”, Quick to fire, Poisoned Attacks, Strength 6,
+Range 8", Quick to fire, Poisoned Attacks, Strength 6,
 Multiple Wounds (Ordnance), Armour Piercing (3).
 18
 MOUNTS
@@ -718,85 +628,64 @@ The Mounts section is for character mounts. Non-character mounts follow the rule
 Carnosaur
 M WS BS S T W I A Ld
 7 3 - 6 5 4 2 4 5 Monstrous Beast 50x100mm base
-Predator Special Rules:
-Cold-blooded, Born Predator
-Sp
-ecial Rules:
-Frenzy, Large Target, Multiple Wounds (D3), Fear
+Predator Special Rules: Cold-blooded, Born Predator
+Special Rules: Frenzy, Large Target, Multiple Wounds (D3), Fear
 Alpha Carnosaur
 M WS BS S T W I A Ld
 7 5 - 7 6 6 3 6 5 Monster 50x100mm base
-Armour:
-Innate Defence (3+)
-Predator Special Rules:
-Cold-blooded, Born Predator
-Sp
-ecial Rules:
-Multiple Wounds (D3), Swiftstride
-Apex Predator:​ When charging a Large Target or a
+Armour: Innate Defence (3+)
+Predator Special Rules: Cold-blooded, Born Predator
+Special Rules: Multiple Wounds (D3), Swiftstride
+Apex Predator: When charging a Large Target or a
 single model with the Fly special rule, the Apex
 Predator adds +2 to his charging distance roll.
 Raptor
 M WS BS S T W I A Ld
 7 3 - 4 4 1 2 2 2 War Beast 25x50mm base
 Armour Rules:
-Mount’s Protection (5+)
-Sp
-ecial Rules:
-Stupidity
+Mount's Protection (5+)
+Special Rules: Stupidity
 19
 Alpha Pteradon
 M WS BS S T W I A Ld
 2 3 - 4 4 3 2 1 3 Monstrous Beast 40x40mm base
 Armour Rules:
-Mount’s Protection (6+)
-Reptilian Special Rules:
-Cold-blooded
-Sp
-ecial Rules:
-Fly (9), Fast Cavalry, Strider (Forest), Release
+Mount's Protection (6+)
+Reptilian Special Rules: Cold-blooded
+Special Rules: Fly (9), Fast Cavalry, Strider (Forest), Release
 Rocks (see Skink Sky-Riders riders Special unit)
 Alpha Rhamphodon
 M WS BS S T W I A Ld
 2 3 - 4 4 3 4 2 3 Monstrous Beast 40x40mm base
 Armour Rules:
-Mount’s Protection (5+)
-Reptilian Special Rules:
-Cold-blooded
-Sp
-ecial Rules:
-Fly (8), Strider (Forest), Fast Cavalry, Armour
+Mount's Protection (5+)
+Reptilian Special Rules: Cold-blooded
+Special Rules: Fly (8), Strider (Forest), Fast Cavalry, Armour
 Piercing (1), Frenzy, Lethal Strike, Prey Scent (see
 Skink Sky-Riders riders Special unit)
 Skink Palanquin
 M WS BS S T W I A Ld
 6 - - 3 3 3 2 - 2 Infantry 50x50mm base
 Armour Rules:
-Mount’s Protection (6+)
-Sp
-ecial Rules:
-Skink Palanquin​ : A model with this special rule
+Mount's Protection (6+)
+Special Rules: Skink Palanquin : A model with this special rule
 loses the Front Rank rule when it is in a unit of
-Saurian Warriors or Skink Braves that don’t have
+Saurian Warriors or Skink Braves that don't have
 any Caimans in them.
 Options: pts
 May switch Base Size to 40x40mm free
 May takePlaque of the Snake God 30
-Plaque of the Snake God: ​ The bearer’s unit gains Hatred.
+Plaque of the Snake God: The bearer's unit gains Hatred.
 20
 Taurosaur
 M WS BS S T W I A Ld
 Taurosaur 6 3 - 5 6 5 2 4 -
 Skink Crew (4) - 2 3 3 - - 4 1 7 Ridden Monster 50x100mm base
-We
-apons:
+Weapons:
 Javelins (Crew only), Innate Defence (3+), Great
 Bow
-Reptilian Special Rules:
-Cold-blooded
-Sp
-ecial Rules:
-Immune to Psychology, Stubborn, Impact Hits
+Reptilian Special Rules: Cold-blooded
+Special Rules: Immune to Psychology, Stubborn, Impact Hits
 (D6+1)
 Options: pts
 May take Sharp Horns 25
@@ -831,8 +720,7 @@ SWARMS
 S Snake Swarm 5 3 0 2 2 5 1 5 10
 MONSTERS
 M Alpha Carnosaur 7 5 - 7 6 6 3 6 5
-WA
-R BEASTS M WS BS S T W I A Ld
+WAR BEASTS M WS BS S T W I A Ld
 M Raptor 7 3 - 4 4 1 2 2 2
 MONSTROUS BEASTS
 S Spearback 6 3 4 5 4 3 4 3 6
@@ -864,5 +752,5 @@ user
 Skink Sky-Rider Fire Bola - 8 4 - - -
 Spearback Shoot Spikes - 18 4 2D6 - 1
 Salamander Spout Flames Flame Thrower 8 4 - - -
-Spout Venom Catapult (3”) 18 1 - +1 to wound 6
+Spout Venom Catapult (3") 18 1 - +1 to wound 6
 Stygiosaur Spit Poison - 8 6 - Ordnance 4
