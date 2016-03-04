@@ -23,7 +23,7 @@ Running Amok!! Units with Shambolic (Running Amok!!) always move in a randomized
 Steady: Units with Shambolic (Steady) may re-roll their random movement distance roll, but must accept the second one.
 Boing!: Boing! units may move through friendly units during their move. If a Boing! unit would end its movement inside a friendly unit without also being in contact with an enemy unit, backtrack along its path until it is in a legal position (at least 1" away from any units). Boing! units do not count as "touching" terrain (e.g. for the purposes for Dangerous Terrain tests) unless they begin or
 end their move on it, but they are still blocked by Impassable Terrain.
-Ricochet (X): Ricochet models ignore the 1" unit spacing rule during their Random Movement. If a Ricochet model touches another unit (friend or foe), it continues moving in the same direction until it is 1" clear of the other unit. If this would cause it to contact a third unit (or fourth, etc), the Ricochet model keeps moving in the same direction through units until it can be placed (it must be at least 1" away from other units or impassible terrain to be placed). If it cannot be placed through this process it is removed as a casualty. Any units passed through by a Ricochet model that is within the movement distance rolled are hit. The units that are hit suffer X hits, where X is given in brackets. All units in same Close Combat that are hit are treated as a single unit for hit purposes. Owning player distribute hits as evenly as possible between units, then follow normal rules for distributing hits to models within each unit. This is increased by an additional D6 hits if the Ricochet model was removed as a casualty because it couldn't be placed anywhere. Other units cannot charge Ricochet models, but may charge, flee, pursue or move through them. Units that do so take X hits plus an additional D6 hits, and the Ricochet model is removed as a casualty. All hits inflicted by Ricochet models are at the unmodified strength of the model and are Armour Piercing (1).
+Ricochet (X): Ricochet models ignore the 1" unit spacing rule during their Random Movement. If a Ricochet model touches another unit (friend or foe), it continues moving in the same direction until it is 1" clear of the other unit. If this would cause it to contact a third unit (or fourth, etc), the Ricochet model keeps moving in the same direction through units until it can be placed (it must be at least 1" away from other units or impassible terrain to be placed). If it cannot be placed through this process it is removed as a casualty. Any units passed through by a Ricochet model that is within the movement distance rolled are hit. The units that are hit suffer X hits, where X is given in brackets. All units in same Close Combat that are hit are treated as a single unit for hit purposes. Owning player distribute hits as evenly as possible between units, then follow normal rules for distributing hits to models within each unit. Other units cannot charge Ricochet models, but may charge, flee, pursue or move through them. Units that do so take X hits plus an additional D6 hits, and the Ricochet model is removed as a casualty. All hits inflicted by Ricochet models are at the unmodified strength of the model and are Armour Piercing (1).
 Accident Prone: When Accident Prone models contact any terrain feature except Open Terrain or Hills, contact the board edge, or stop 1" away from Impassable Terrain, they must take a Dangerous Terrain test, which is failed on a roll of '1' or '2'. If two Accident Prone units touch each other, they are both removed as casualties.
 
 Armoury
@@ -43,7 +43,7 @@ Talismans
 Pan of Protection Pinchin' (25 pts): Goblins only The bearer, when wounded, may use the Armour Save, Ward Save, Regeneration Save, or Magic Resistance of the model that has inflicted the wound.
 
 Enchanted Items
-Lucky Boar's Leg (40 pts): Orc General mounted on War Boar or Boar Chariot only. Boar Riders (not Brutal Boar riders ) count as a core choice and The Wearer and his unit have +1 Movement that can't be combined with other Magical Items granting positive modifications to movement or Swiftstride.
+Lucky Boar's Leg (40 pts): Orc mounted on War Boar or Boar Chariot only. Wearer and his unit have +1 Movement that can't be combined with other Magical Items granting positive modifications to movement or Swiftstride.
 Waaargh! Paint (30 pts): Feral Orc only Models with the "Greenhide Race: Feral Orc" in the wearer's unit have Frenzy, which they cannot lose, and gain Swiftstride for the purpose of Pursue and Overrun.
 
 Magical Standards
@@ -297,7 +297,7 @@ Options: pts
 May take
 Shields 1 / model
 Additional Hand Weapons 1 / model
-Spears and Shields 1 / model
+Spears 1 / model
 Bows 1 / model
 May upgrade one model to each of the following:
 Champion 10
@@ -328,14 +328,14 @@ Common Orc (free)
 Armour: Light Armour
 May take:
 Additional Hand Weapons 1 / model
-Spears and Shields 1 / model
+Spears 1 / model
 Shields 1 / model
 Feral Orc (2 pts / model)
 Options: pts
 May take Mammoth Stabber 15 / unit
 May take: (one choice only)
 Additional Hand Weapons 1 / model
-Spears and Shields 2 / model
+Spears 2 / model
 Shields 1 / model
 
 Goblins 60 pts
@@ -545,11 +545,9 @@ Must take one of the following Troll Types
 Common Trolls (free)
 Special Rules: Regeneration (4+), Stupidity, Troll Belch
 Cave Trolls (8 pts / model)
-Only units of 9 or less models
 Armour: Innate Defence (4+)
 Special Rules: Regeneration (4+), Stupidity, Troll Belch, Magic Resistance (3),
 Bridge Trolls (8 pts / model)
-Only units of 9 or less models
 Special Rules: Regeneration (4+), Stupidity, Troll Belch, Distracting, Strider (Water)
 Troll Belch: Instead of making its usual attacks the model may choose to make a single attack, which hits automatically and has Strength 5 and Armour Piercing (6).
 
@@ -715,7 +713,7 @@ Special Rules: Venomous Fangs, Immune to Psychology, Insignificant, Poisoned Att
 Options: pts
 If mounted by a Wizard,
 may take Spider-Mother Shrine 40
-Spider-Mother Shrine: The Wizard mounted on the Gargantula gains Pathmaster (Small Green Gods). All friendly models within 12" with the ability to Channel may add +2 instead of +1 to the Channel attempt.
+Spider-Mother Shrine: The Wizard mounted on the Gargantula gains Pathmaster. All friendly models within 12" with the ability to Channel may add +2 instead of +1 to the Channel attempt.
 
 Quick Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
