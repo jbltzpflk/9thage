@@ -10,6 +10,7 @@ while (<>) {
 	s/\nSp\necial/\nSpecial/igs ;
 	s/\nWe\napon/\nWeapon/igs ;
 	s/Special Rules:\n/Special Rules: /igs ;
+	s/Special Rule:\n/Special Rules: /igs ;	
 	s/\nWA\nR /\nWAR /igs ;
 	s/\nRA\nRE\n/\nRARE\n/igs ;
 	s/\nArmour:\n/\nArmour: /igs ;
