@@ -154,7 +154,7 @@ M WS BS S T W I A Ld
 Common Goblin 4 2 3 3 4 3 2 1 7
 Cave Goblin 4 2 3 3 4 3 3 1 6
 Forest Goblin 4 2 3 3 4 3 2 1 7 Infantry 20x20mm base
-Magic: Level 3 Wizard Master . Generate spells from Path of the Little Green Gods, Path of Shadow
+Magic: Level 3 Wizard Master. Generate spells from Path of the Little Green Gods, Path of Shadow
 Options: pts
 May take Magical Items up to 100
 May become a Level 4 wizard 35
@@ -180,8 +180,7 @@ M WS BS S T W I A Ld
 Common Orc 4 5 3 4 5 2 3 3 8
 Iron Orc 4 6 3 4 5 2 3 3 8
 Feral Orc 4 5 3 4 5 2 3 3 8 Infantry 25x25mm base
-Special Rule:
-Waaargh!
+Special Rules: Waaargh!
 Options: pts
 May become the Battle Standard Bearer 25
 May take Magical Items up to 50
@@ -216,7 +215,7 @@ Orc Shaman 65 pts
 single model
 M WS BS S T W I A Ld
 4 3 3 3 4 2 2 1 7 Infantry 25x25mm base
-Magic: Level 1 Wizard Apprentice . Generate spells from Path of the Big Green Gods, Path of Wilderness
+Magic: Level 1 Wizard Apprentice. Generate spells from Path of the Big Green Gods, Path of Wilderness
 Options: pts
 May take Magical Items up to 50
 May become a Level 2 wizard 25
@@ -367,8 +366,7 @@ Options: pts
 Take Nets 45 / unit
 Take up to 3 Mad Gits 30 / git
 Forest Goblin (free)
-Weapon:
-Throwing Weapon
+Weapon: Throwing Weapon
 Options: pts
 Upgrade the unit to
 Skirmishers* 1 / model *only if 20 or less models
@@ -378,10 +376,8 @@ Shady Git
 (This model is a part of Goblins unit)
 M WS BS S T W I A Ld
 4 4 3 3 3 1 6 2 6 Infantry 20x20mm base
-Greenhide Race:
-Common Goblin
-Weapon:
-Additional Hand Weapon
+Greenhide Race: Common Goblin
+Weapon: Additional Hand Weapon
 Armour: Light Armour
 Special Rules: Lightning Reflexes (only for their first round of combat in the game) Lethal Strike, Multiple Wounds (D3, Infantry and Cavalry)
 
@@ -415,12 +411,10 @@ Musician 10
 Standard Bearer 10
 Must take one of the following Greenhide races (only the rider gets the special rule)
 Common Goblin (free)
-Mount:
-Wolf
+Mount: Wolf
 Armour: Mount's Protection (6+), Light Armour
 Forest Goblin (free)
-Mount:
-Scuttler Spider
+Mount: Scuttler Spider
 Armour: Mount's Protection (6+)
 Special Rules: Scouts, Strider, Poisoned Attacks (Scuttler Spider only)
 
@@ -459,10 +453,8 @@ Iron Orcs 120 pts
 10 models, may add up to 25 models 12 pts/model
 M WS BS S T W I A Ld
 4 5 3 4 4 1 2 1 8 Infantry 25x25mm base
-Greenhide Race:
-Iron Orcs
-Weapon:
-Additional Hand Weapon, Great Weapon
+Greenhide Race: Iron Orcs
+Weapon: Additional Hand Weapon, Great Weapon
 Armour: Heavy Armour, Shields
 Options: pts
 May take Plate Armour 2 / model
@@ -533,8 +525,7 @@ Gnasher Dashers 55 pts
 M WS BS S T W I A Ld
 Gnasher Dasher 3d6 4 - 5 3 1 4 2 5
 Rider - 2 3 3 3 1 3 1 5 Cavalry 20x20mm base
-Greenhide Race:
-Cave Goblin (Riders only)
+Greenhide Race: Cave Goblin (Riders only)
 Armour: Mount's Protection (6+), Light Armour
 Special Rules: Shambolic(3d6, Steady), Boing!, Skirmishers,
 Rows of Teeth : Gnashers make supporting attacks instead of their Cave Goblin riders
@@ -567,18 +558,14 @@ single model
 M WS BS S T W I A Ld
 Scrap Wagon 3d6 - - 4 4 4 - - -
 Grotlings (1) - 2 3 2 - - 2 5 4 Chariot 50x100mm base
-Weapon:
-Throwing Weapons
+Weapon: Throwing Weapons
 Armour: Mount's Protection (6+)
 Special Rules: Shambolic (3d6), Impact Hits (2D6), Insignificant, Unstable
 Options:
 May take any number of upgrades:
-Smasher (15 pts)
-Scrap Wagon has +1 Strength.
-Pointed Sticks (10 pts)
-Impact Hits have Armour Piercing (2).
-Pursuit Mode (10 pts)
-Unit replaces Shambolic (3d6) with Shambolic (3d6, steady) and gains Boing! .
+Smasher (15 pts) Scrap Wagon has +1 Strength.
+Pointed Sticks (10 pts) Impact Hits have Armour Piercing (2).
+Pursuit Mode (10 pts) Unit replaces Shambolic (3d6) with Shambolic (3d6, steady) and gains Boing! .
 Smells Like Green Spirit (10 pts) Unit gains Distracting and Hard Target.
 
 Giant 140 pts
@@ -660,8 +647,7 @@ Special Rules: Insignificant
 Options: pts
 May take Orc Overseer 15
 Orc Overseer: Add one Common Orc as a Crew member.  Increases Wounds of the Machine to 4 and removes the Insignificant special rule.  This Warmachine may choose to lose one wound in order to reroll a roll on the Misfire Table.
-Weapon: Git Launcher: This is a Catapult (1") Artillery Weapon with the following profile:
-Range 12-60", Strength 5, Armour Piercing (6). Instead of hitting models under the Template, any unit under the Template suffers D6 hits. After the scatter of the Template has been determined, you may roll D6 and move the Template that amount of inches in any direction except moving on to units in close combat or onto friendly units.  This is the final position of the template.
+Weapon: Git Launcher: This is a Catapult (1") Artillery Weapon with the following profile: Range 12-60", Strength 5, Armour Piercing (6). Instead of hitting models under the Template, any unit under the Template suffers D6 hits. After the scatter of the Template has been determined, you may roll D6 and move the Template that amount of inches in any direction except moving on to units in close combat or onto friendly units.  This is the final position of the template.
 
 MOUNTS
 The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
