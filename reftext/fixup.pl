@@ -16,7 +16,7 @@ while (<>) {
 	s/\nArmour:\n/\nArmour: /igs ;
 	s/\nWeapon:\n/\nWeapons: /igs ;
 	s/\nMagic:\n/\nMagic: /igs ;
-	s/\nWe\napons:\n/\nWeapons: /igs ;
+	s/\nWeapons:\n/\nWeapons: /igs ;
 	s/\'\'/\"/g ;
 	s/  / /g ;
 	print $_;
