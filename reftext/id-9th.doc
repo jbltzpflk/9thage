@@ -2,7 +2,7 @@ Fantasy Battles
 The 9th Age
 Infernal Dwarves Army Rules Version 0.11.0 Beta
 
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+Fantasy Battles: The 9th Age is a community-made miniatures wargame. All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
 
 Army Special Rules
 Relentless: Units containing only models with this rule may march even when there are enemies within 8". If an infantry unit that contains only models with this special rule starts their move more than 8" from an enemy unit it may triple its movement when marching instead of doubling it.
@@ -10,13 +10,13 @@ Sturdy: A model with this rule gets Thunderous Charge special rule. Furthermore 
 Chosen of Ashuruk: Models with this rule will automatically pass all Fear tests (but still suffer -1 Ld from Fear). Models with this rule consider all units, without this rule, to have the Insignificant special rule and will not use their Engineer rule on models without Chosen of Ashuruk rule.
 Daemonic Infusion: The war machine gets Magical Attacks rule (not applicable to crew), and any Panic Test caused to enemy units is taken with a -1 Leadership modifier.
 Volcanic Embrace: All attacks made by a model with this Special Rule (even Special Attacks) are Flaming Attacks. In addition enemy models in base contact with one or more models with this rule suffer a Strength 4 hit at the start of each Combat Phase.
-Shackles Of Fire: When rolling To Wound against a model with this rule, any natural roll of '6' must be re-rolled, Magical Attacks are not affected by this.  At the start of its second and any subsequent turn, the unit must take a Leadership Test. If failed it suffers a Wound with no save possible, furthermore if there are no friendly wizards in the army, the wound is taken with the Multiple Wounds(D3) rule.
+Shackles Of Fire: When rolling To Wound against a model with this rule, any natural roll of '6' must be re-rolled, Magical Attacks are not affected by this. At the start of its second and any subsequent turn, the unit must take a Leadership Test. If failed it suffers a Wound with no save possible, furthermore if there are no friendly wizards in the army, the wound is taken with the Multiple Wounds(D3) rule.
 Unruly: Unruly units have -1 Ld to rolls on following tests: Restrain Frenzy, Restrain Pursuit. In addition, if in horde formation roll 3 dice for panic tests and discard the highest.
 Opportunist: When fighting an enemy unit in the flank or rear, models on foot in a unit with this special rule gain +1 to hit as long as their unit isn't attacked in the flank or rear.
 
 Armoury
 Infernal Weapon: Close Combat Weapon. Type: Hand Weapon, +1 Strength, Magical Attacks.
-Flintlock Axe: Shooting Weapon. Range 18". Strength 4. Armour Piercing (1). Flaming Attacks.  Counts as Halberd in Close Combat.
+Flintlock Axe: Shooting Weapon. Range 18". Strength 4. Armour Piercing (1). Flaming Attacks. Counts as Halberd in Close Combat.
 Blunderbuss: A: Shooting Weapon. Range 18", Strength 3, Fusillade
 Fusillade: In the Shooting Phase the weapon may be used with a following profile; Range 8", Strength 4, Armour Piercing (1). Any enemy model within range, and within the width of the firing unit's frontage is hit on 6+, for each full rank after the first add +1 to hit. May be fired after marching.
 Infernal Armour: Plate Armour. The wearer gains Ward Save (5+) against Flaming Attacks.
@@ -24,7 +24,7 @@ Infernal Armour: Plate Armour. The wearer gains Ward Save (5+) against Flaming A
 Magical Items
 Magical Weapons
 Onyx Hammer (70 pts): Type: Hand Weapon. +2 Strength. This weapon grants Multiple Wounds (D3) against models which are Flammable.
-Blade of Burning Steel (30 pts): Type: Hand weapon. Armour piercing (1).  One use only. May be activated at the start of any Phase.  For the duration of the Player Turn, the bearer's attacks made with this weapon have Metalshifting.
+Blade of Burning Steel (30 pts): Type: Hand weapon. Armour piercing (1). One use only. May be activated at the start of any Phase. For the duration of the Player Turn, the bearer's attacks made with this weapon have Metalshifting.
 
 Magical Armour
 Mask of the Furnace (30 pts): Type: None (6+ armour save). Wearer gains Fireborn and a Breath Weapon (Strength 3, Flaming Attacks).
@@ -34,7 +34,7 @@ Icon of Lugar (40 pts): Model gains Frenzy and Blood of Lugal but cannot use the
 
 Enchanted Items
 Ring of Desiccation (30 pts): All enemy units in base contact with the bearer become Flammable. If the army does not include any casters on its army roster the wearer counts as a caster for the purpose of the Shackles of Fire rule.
-Vial of Mercury (35 pts): Infantry only.  One use only. The model may drink from the Vial at the start of any Player Turn. The model gains Magical Attacks, Ward Save (5+), Holy Attacks and +1 Strength.  Roll a D6 at the start of each Player Turn after the Chalice is used: On a roll of 1-2 model takes a wound with no saves allowed.
+Vial of Mercury (35 pts): Infantry only. One use only. The model may drink from the Vial at the start of any Player Turn. The model gains Magical Attacks, Ward Save (5+), Holy Attacks and +1 Strength. Roll a D6 at the start of each Player Turn after the Chalice is used: On a roll of 1-2 model takes a wound with no saves allowed.
 Gauntlets of Madzhab (10pts): Bearer has +1 Strength. Each roll of 1 to hit is resolved against a friendly model in base contact, chosen by the owning player, or if mounted the model itself.
 
 Arcane Items
@@ -226,7 +226,7 @@ Standard Bearer 10
 - may take a Magical Standard up to 50
 May be upgraded to Immortals 3 / model
 -may take Infernal Weapon 3 / model
-Immortals : Unit gains +1 Weapon Skill, Immune to Psychology, Bodyguard (Overlord)
+Immortals: Unit gains +1 Weapon Skill, Immune to Psychology, Bodyguard (Overlord)
 
 Ziggurat Guard 150 pts
 10 models, may add up to 20 models 15 pts/model
@@ -434,19 +434,19 @@ M WS BS S T W I A Ld
 1 4 3 5 6 5 1 4 6
 Monster 100x150mm base
 Weapons: This is a Catapult (3") Artillery Weapon with Range 48", Strength 4[10], [Multiple Wounds (Ordnance)]
-Aftershock: Any unit that suffers an unsaved wound fr om a weapon with this rule will count all terrain (including open ground) as dangerous terrain and must re-roll To Hit rolls of '6'. War machines within 6" of the final location of the template can only fire on a roll of 4+.  The effect lasts until the end of the next player turn.
+Aftershock: Any unit that suffers an unsaved wound fr om a weapon with this rule will count all terrain (including open ground) as dangerous terrain and must re-roll To Hit rolls of '6'. War machines within 6" of the final location of the template can only fire on a roll of 4+. The effect lasts until the end of the next player turn.
 Armour: Heavy Armour
 Dwarves Special Rules: Chosen of Ashuruk
 Options: pts
 May take Daemonic Infusion 20
 May take Ogre Slave 50
-Ogre Slave: The War Machine gains an Ogre as an additional Crew member and increases its number of wounds by 1.  The model treats the roll of Jammed (3-4) on the Misfire Table as Malfunction (5+).
+Ogre Slave: The War Machine gains an Ogre as an additional Crew member and increases its number of wounds by 1. The model treats the roll of Jammed (3-4) on the Misfire Table as Malfunction (5+).
 Weapons: Hellscream Cannon: This is a Catapult (3") Artillery Weapon with Range 60", Strength 4 [9], Armour Piercing (1), [Multiple Wounds (Ordnance)]. A unit which suffers 1 or more casualties from a Hellscream Cannon must immediately take a Panic Test with -1 to its Leadership.
 Armour: Innate Defence (4+)
 Special Rules: Otherwordly, Unbreakable, Frenzy
 Options: pts
 May upgrade to Unchained free
-Unchained: Model gains +3 Movement, Free Reform and replaces Hellscream Cannon with Hellscream Mortar : This is a Catapult (3") Artillery Weapon with the following profile: Range 24", Strength 3
+Unchained: Model gains +3 Movement, Free Reform and replaces Hellscream Cannon with Hellscream Mortar: This is a Catapult (3") Artillery Weapon with the following profile: Range 24", Strength 3
 
 Armoured Giant 160 pts
 single model
@@ -459,15 +459,15 @@ May take Plate Armour 15
 Giant Attacks: When a giant attacks in Close Combat, pick a target in base contact to attack and roll on the chart below. Giants have two types of attack patterns depending on the Troop Type of the target.
 Against Infantry, War Beast, Swarm, Warmachine
 and Cavalry targets:
-1 : Bellow
+1: Bellow
 2: Jump
-3 : Grab
+3: Grab
 4-6: Swing
 Against Monstrous Beast, Monstrous Infantry, Monstrous Cavalry, Chariot, Monster and Ridden Monster targets:
-1 : Bellow
+1: Bellow
 2-3: Thump
 4-6: Smash
-Bellow : Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done (including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2.  If two (or more) opposing Giants "Bellow", the combat is a draw.
+Bellow: Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done (including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2. If two (or more) opposing Giants "Bellow", the combat is a draw.
 Jump: The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant must take a Dangerous Terrain test.
 Grab: Select a single model in base contact with the Giant. This model must take a Strength and Weapon Skill test. For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
 Swing: The Giant makes 2D6 attacks on the chosen unit.

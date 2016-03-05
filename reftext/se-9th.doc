@@ -2,7 +2,7 @@ Fantasy Battles
 The 9th Age
 Sylvan Elves Army Rules Version 0.11.1 Beta
 
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+Fantasy Battles: The 9th Age is a community-made miniatures wargame. All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
 
 Army Special Rules
 The Forest Follows: After both players have selected their respective deployment zones but before any models are deployed, the player may place a single Forest entirely within their half of the board. The terrain feature may not be larger than 27 cm in length and 19 cm in width. All Forests on the table are considered Dangerous Terrain.
@@ -16,19 +16,19 @@ There are 6 different types of Fey Arrows which provide different effects when f
 1) Use the Longbow's normal rules
 or
 2) Ignore penalties for moving and shooting, lose Volley Fire, and apply the rules below
-  Black Arrow: Strength 4 in Short Range, Armour Piercing (1) in Long Range
-  Hawthorn Point: Poisoned Attacks, Armour Piercing (1)
-  Truemark Arrow: Ignore to-hit modifiers from Cover, Skirmishers and Long Range
-  Starlight Shaft: Magical Attacks, Flaming Attacks, Divine Attacks
-  Perforating Tip: Armour Piercing (3)
-  Jewelweed Shot: Multiple Shots (2)
+ Black Arrow: Strength 4 in Short Range, Armour Piercing (1) in Long Range
+ Hawthorn Point: Poisoned Attacks, Armour Piercing (1)
+ Truemark Arrow: Ignore to-hit modifiers from Cover, Skirmishers and Long Range
+ Starlight Shaft: Magical Attacks, Flaming Attacks, Divine Attacks
+ Perforating Tip: Armour Piercing (3)
+ Jewelweed Shot: Multiple Shots (2)
 Impaling Roots: This is a Shooting Attack with the following profile: Range 12", Multiple Shots (D6+2), Strength 4 (Strength 5 if its target touches a Forest), Quick to Fire, can march and fire, ignores to-hit modifiers for Cover and Long Range.
 
 Kindreds
 Kindreds may be duplicated within an army.
 Blade Dancer (50 / 35 pts): Models on foot only.The model gains +2 Weapon Skill, +1 Strength, +1 Initiative, +1 Attack, Ward Save (4+), Immune to Psychology and Dances of Cenyrn (see Blade Dancers unit). The model may only join units of Blade Dancers. It can't take any other Close Combat or Shooting Weapon or Armour (magical or mundane).
 Forest Guardian (40 / 30 pts): Models on foot only. The model gains Innate Defence (5+) and +1 Attack. Can only be armed with a Spear or Great Weapon but may still use a Longbow.
-Pathfinder (30 / 25 pts): Models on foot only. The model gains +1 Ballistic Skill.  The model must be equipped with a Shooting Weapon and gains the special rules Scout, Master Archer and Multiple Shots (Attacks on profile).
+Pathfinder (30 / 25 pts): Models on foot only. The model gains +1 Ballistic Skill. The model must be equipped with a Shooting Weapon and gains the special rules Scout, Master Archer and Multiple Shots (Attacks on profile).
 Wild Hunter (20 / 15 pts): Models mounted on Elven Horse or Great Elk only. The model gains Frenzy and Devastating Charge. The model gains Fear for the duration of any Player Turn in which it charged.
 Shapeshifter (45 / 35 pts): Models on foot only. The model gains +4 Movement, +2 Initiative, +1 Attack, Ward Save (4+). The model gains Not A Leader and may never join any unit.
 
@@ -56,7 +56,7 @@ Enchanted Items
 Drums of Cenyrn 55 pts: Blade Dancer kindred only. Enemy units can only declare a Hold reaction when charged by the bearer's unit unless already fleeing. The enemy unit may still declare a Flee reaction if it is subsequently charged by another unit.
 Sacred Seeds 50 pts: One use only. The player may activate the item at the start of any friendly Player Turn and place a Forest terrain feature within 12" of the bearer and more than 1" away from enemy units. The Forest may not be larger than 6" in diameter.
 Hail Shot 30 pts: One use only. This item is used as a Shooting Weapon with the following Profile: Range 30". Strength 4, Armour Piercing (1), Multiple Shots (3D6). Fey Arrows cannot be used in conjunction with Hail Shot.
-Mist Walker's Mirror 35 pts: Models on foot only. If the bearer's unit is unengaged, consists entirely of Infantry models and is entirely within a Forest Terrain Feature, the unit may teleport to any other Forest Terrain Feature on the game board.  This special movement is resolved at the end of the Player's Movement Phase. When teleporting, the unit is placed entirely within the target Forest in any formation and following the 1" unit spacing rule. When teleporting, the unit must be placed entirely within the target Forest.  The unit counts as having performed a March Move.
+Mist Walker's Mirror 35 pts: Models on foot only. If the bearer's unit is unengaged, consists entirely of Infantry models and is entirely within a Forest Terrain Feature, the unit may teleport to any other Forest Terrain Feature on the game board. This special movement is resolved at the end of the Player's Movement Phase. When teleporting, the unit is placed entirely within the target Forest in any formation and following the 1" unit spacing rule. When teleporting, the unit must be placed entirely within the target Forest. The unit counts as having performed a March Move.
 
 Magical Standards
 Amryl's Banner 25 pts: The bearer's unit gains Fight in Extra Rank.
@@ -271,7 +271,7 @@ Dances of Cenyrn: At the start of each Round of Combat, models with this special
 Dance of Whirling Blades +1 Attack
 Dance of the Parting Mists Ward Save (3+), -1 Strength
 Dance of Bedevilments The unit causes Fear and enemy units in base contact with it do not receive any Rank Bonus to their Combat Score.
-Dance of a Thousand Cuts Each Blade Dancer model in the unit that is eligible to attack (including supporting attacks) may instead choose to attack an enemy character in base contact with at least one of them, with all their attacks. For this purpose, every Blade Dancer model counts as being in base contact with the enemy character.  Enemy characters in a Challenge cannot be chosen as a target for this dance.  Blade Dancer characters in a Challenge do not benefit from the effects of this
+Dance of a Thousand Cuts Each Blade Dancer model in the unit that is eligible to attack (including supporting attacks) may instead choose to attack an enemy character in base contact with at least one of them, with all their attacks. For this purpose, every Blade Dancer model counts as being in base contact with the enemy character. Enemy characters in a Challenge cannot be chosen as a target for this dance. Blade Dancer characters in a Challenge do not benefit from the effects of this
 dance.
 
 Sylvan Sentinels 55 pts

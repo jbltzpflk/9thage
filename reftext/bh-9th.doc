@@ -31,37 +31,36 @@ Black Wing Totem The unit gains +3 Initiative and adds D6 to its charge distance
 
 Magical Items
 Magical Weapons
-Bragh's Thighbone  (75/50 pts) Type: Great weapon. No saves of any kind can be taken against attacks made by this weapon.
-The Impaler  (40 pts) Type: Hand Weapon. Grants +2 Strength in the Close Combat Phase directly after the Model has charged into combat. The weapon can be shot using the rules for a Bolt Thrower Artillery Weapons: Range 18", Strength 6, Armour Piercing (6), Multiple Wounds (D3). Shots from the weapon don't suffer any to-hit modifiers.
+Bragh's Thighbone (75/50 pts) Type: Great weapon. No saves of any kind can be taken against attacks made by this weapon.
+The Impaler (40 pts) Type: Hand Weapon. Grants +2 Strength in the Close Combat Phase directly after the Model has charged into combat. The weapon can be shot using the rules for a Bolt Thrower Artillery Weapons: Range 18", Strength 6, Armour Piercing (6), Multiple Wounds (D3). Shots from the weapon don't suffer any to-hit modifiers.
 
 Magical Armour
-Greathorn Helm  (25 pts) Type: None (6+ armour save). The bearer may perform a close combat attack whenever he successfully passes an armour save against a close combat attack. These additional attacks cannot benefit from weapon bonuses and are immediately performed out of sequence, before removing Wounds from unsaved attacks.
-Aaghor's Flayed Hide  (60/50 pts) Type: Light Armour. This item grants the bearer Regeneration (4+) and +1 Toughness.
+Greathorn Helm (25 pts) Type: None (6+ armour save). The bearer may perform a close combat attack whenever he successfully passes an armour save against a close combat attack. These additional attacks cannot benefit from weapon bonuses and are immediately performed out of sequence, before removing Wounds from unsaved attacks.
+Aaghor's Flayed Hide (60/50 pts) Type: Light Armour. This item grants the bearer Regeneration (4+) and +1 Toughness.
 Talismans
-Pillager Icon  (25 pts) The bearer grants Vanguard to friendly units within 12" if they are comprised entirely of Razortusks, Chariots (excluding Character mounts), or Feral Hounds.
-Eye of Dominance  (15 pts) The bearer can only be hit by rolls of '6' from attacks made by War Beasts, Monstrous Beasts, Monsters, Swarms, Cavalry mounts, Monstrous Cavalry mounts, Chariot beasts and Ridden Monster mounts. Crew and riders are unaffected by this effect.
+Pillager Icon (25 pts) The bearer grants Vanguard to friendly units within 12" if they are comprised entirely of Razortusks, Chariots (excluding Character mounts), or Feral Hounds.
+Eye of Dominance (15 pts) The bearer can only be hit by rolls of '6' from attacks made by War Beasts, Monstrous Beasts, Monsters, Swarms, Cavalry mounts, Monstrous Cavalry mounts, Chariot beasts and Ridden Monster mounts. Crew and riders are unaffected by this effect.
 
 Arcane Items
-Gourd of Beetles  (35 pts) The bearer may cast Swarm of Insects from the Path of Wilderness as a Bound Spell (Power Level 4).
+Gourd of Beetles (35 pts) The bearer may cast Swarm of Insects from the Path of Wilderness as a Bound Spell (Power Level 4).
 
 Enchanted Items
 Crown of Horns (10 pts) The bearer automatically passes Primal Instinct tests, and so does any unit who may borrow the Character's Leadership.
 Seed of the Dark Forest (40 pts) After all forces have deployed but before the game starts, the bearer may place a Dark Forest (size: no larger than 10" in length and 6" in width) on the battlefield, with its centre 12" or less away from the wearer. All friendly models within this Dark Forest (even partially) add 1 to their Casting Rolls for Augment-type spells, Hex-type spells and Totems.
 
 Magical Standards
-Banner of the Wild Herd  (60 pts) The bearer of the banner gains +1 Strength in close combat and grants this bonus to any unit it joins.
+Banner of the Wild Herd (60 pts) The bearer of the banner gains +1 Strength in close combat and grants this bonus to any unit it joins.
 
 Army List
 LORDS
-Minotaur Warlord  220 pts
+Minotaur Warlord 220 pts
 single model
 M WS BS S T W I A Ld
 6 6 4 6 5 5 5 5 8 Monstrous Infantry 40x40mm base
 Armour: Light Armour
 Beasts Special Rules: Strider (Forest), Primal Instinct
-Special Rules:
-Frenzy, Impact Hits (D3)
-Lord of Bulls:  If a Minotaur Warlord is the General, one unit of max. 6 Minotaurs may count as Core but may not take a Magical Standard.
+Special Rules: Frenzy, Impact Hits (D3)
+Lord of Bulls: If a Minotaur Warlord is the General, one unit of max. 6 Minotaurs may count as Core but may not take a Magical Standard.
 Options: pts
 May take Magical Items up to 100
 May take any of the following
@@ -73,7 +72,7 @@ Flail 10
 Great Weapon 20
 Beast Axe 25
 
-Gnarled Soothsayer  185 pts
+Gnarled Soothsayer 185 pts
 single model
 M WS BS S T W I A Ld
 5 5 4 4 5 3 4 2 8 Infantry 25x25mm base
@@ -88,7 +87,7 @@ Additional Hand Weapon 3
 Soothsayer Staff 10
 May ride a Raiding Chariot 70
 
-Beast Lord  140 pts
+Beast Lord 140 pts
 single model
 M WS BS S T W I A Ld
 5 6 4 5 5 3 5 4 9 Infantry 25x25mm base
@@ -109,10 +108,10 @@ Beast Axe 15
 May take a mount (one choice only)
 Raiding Chariot 70
 Razortusk Chariot 150
-Hunting Call:  If a Beast Lord is the general of the army then your army may reroll Ambush rolls and may roll for Ambush beginning on turn 1, as long as the owning Player does not have first turn.
+Hunting Call: If a Beast Lord is the general of the army then your army may reroll Ambush rolls and may roll for Ambush beginning on turn 1, as long as the owning Player does not have first turn.
 
 HEROES
-Minotaur Chieftain  130 pts
+Minotaur Chieftain 130 pts
 single model
 M WS BS S T W I A Ld
 6 5 4 5 5 4 4 4 7 Monstrous Infantry 40x40mm base
@@ -132,7 +131,7 @@ Flail 5
 Great Weapon 15
 Beast Axe 20
 
-Soothsayer  70 pts
+Soothsayer 70 pts
 single model
 M WS BS S T W I A Ld
 5 4 4 3 4 2 3 1 7 Infantry 25x25mm base
@@ -147,7 +146,7 @@ Additional Hand Weapon 2
 Soothsayer Staff 10
 May lose Ambush and ride a Raiding Chariot 70
 
-Beast Chieftain  70 pts
+Beast Chieftain 70 pts
 single model
 M WS BS S T W I A Ld
 5 5 4 4 5 2 4 3 8 Infantry 25x25mm base
@@ -169,7 +168,7 @@ Great Weapon 6
 Beast Axe 10
 May lose Ambush and ride a Ramhorn Chariot 70
 
-Centaur Chieftain  100 pts
+Centaur Chieftain 100 pts
 single model
 M WS BS S T W I A Ld
 8 5 4 5 5 2 4 4 8 War Beast 25x50mm base
@@ -194,8 +193,8 @@ Great Weapon 15
 Beast Axe 15
 
 CORE
-Wildhorn Herd  60 pts
-10  models, may add up to 40  models 6 pts/model
+Wildhorn Herd 60 pts
+10 models, may add up to 40 models 6 pts/model
 M WS BS S T W I A Ld
 5 4 3 3 4 1 3 1 7 Infantry 25x25mm base
 Armour: Light Armour
@@ -215,7 +214,7 @@ Standard Bearer 10
 *A Veteran Standard Bearer is One of a Kind and may take a Magical Standard worth up to 25 pts.
 
 Mongrel Herd 50 pts
-10  models, may add up to 50 models 5 pts/model
+10 models, may add up to 50 models 5 pts/model
 M WS BS S T W I A Ld
 5 3 3 3 3 1 3 1 6 Infantry 20x20mm base
 Armour: Shield
@@ -228,8 +227,8 @@ Champion 10
 Musician 10
 Standard Bearer 10
 
-Mongrel Raiders  40 pts
-5  models, may add up to 10  models 4 pts/model
+Mongrel Raiders 40 pts
+5 models, may add up to 10 models 4 pts/model
 M WS BS S T W I A Ld
 5 3 3 3 3 1 3 1 6 Infantry 20x20mm base
 Weapons: Short Bow
@@ -241,8 +240,8 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 
-Feral Hounds  40 pts
-5  models, may add up to 15  models 4 pts/model
+Feral Hounds 40 pts
+5 models, may add up to 15 models 4 pts/model
 M WS BS S T W I A Ld
 7 4 - 3 3 1 3 1 5 War Beast 25x50mm base
 Beasts Special Rules: Strider (Forest)
@@ -266,8 +265,8 @@ Beasts Special Rules: Primal Instinct (Wildhorn and Longhorn), Strider (Forest)
 Special Rules: Free Reform
 
 SPECIAL
-Minotaurs  120 pts
-3  models, may add up to 7  models 36 pts/model
+Minotaurs 120 pts
+3 models, may add up to 7 models 36 pts/model
 M WS BS S T W I A Ld
 6 4 3 5 4 3 3 3 7 Monstrous Infantry 40x40mm base
 Armour: Light Armour
@@ -285,8 +284,8 @@ Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
 
-Longhorn Herd  110 pts
-10  models, may add up to 30  models 11 pts/model
+Longhorn Herd 110 pts
+10 models, may add up to 30 models 11 pts/model
 M WS BS S T W I A Ld
 5 4 3 4 4 1 3 1 8 Infantry 25x25mm base
 Weapons: Great Weapon
@@ -303,8 +302,8 @@ Musician 10
 Standard Bearer 10
 - May take a Magic Standard up to 50
 
-Centaurs  80 pts
-5  models, may add up to 15  models 14 pts/model
+Centaurs 80 pts
+5 models, may add up to 15 models 14 pts/model
 M WS BS S T W I A Ld
 8 4 3 4 4 1 3 2 7 War Beast 25x50mm base
 Armour: Light Armour, Shield
@@ -325,7 +324,7 @@ Standard Bearer 10
 - May take a Magical Standard up to 25
 
 Gargoyles 90 pts
-5  models, may add up to 5  models 13 pts/model
+5 models, may add up to 5 models 13 pts/model
 M WS BS S T W I A Ld
 5 4 - 3 4 1 3 2 7 Infantry 20x20mm base
 Beasts Special Rules: Primal Instinct, Strider (Forest)
@@ -334,7 +333,7 @@ Options: pts
 May gain Scout 15
 
 Razortusk Herd 50 pts
-1  models, may add up to 9  models 35 pts/model
+1 models, may add up to 9 models 35 pts/model
 M WS BS S T W I A Ld
 7 3 - 5 5 3 2 4 6 Monstrous Beast 50x50mm base
 Beasts Special Rules: Strider (Forest)
@@ -350,8 +349,7 @@ Razortusk (1) 7 3 - 5 - - 2 4 6 Chariot 50x100mm base
 Weapons: Great Weapon (Longhorn), Light Lance (Wildhorn)
 Armour: Light Armour, Mount's Protection (5+)
 Beasts Special Rules: Primal Instinct (Wildhorn and Longhorn), Strider (Forest)
-Special Rules:
-Thunderous Charge (Razortusk)
+Special Rules: Thunderous Charge (Razortusk)
 
 Briar Beast 50 pts
 single model
@@ -359,7 +357,7 @@ M WS BS S T W I A Ld
 * 3 - 4 5 3 2 * 10 Monstrous Beast 40x40mm base
 Beasts Special Rules: Strider (Forest)
 Special Rules: Fear, Random Attacks (1D6+1), Random Movement (3D6), Unbreakable
-Sleeper:  You may choose not to deploy this unit as normal. Instead the controlling Player may choose to wake up the Sleeper at the start of any of his remaining moves sub-phases: place the model completely within any forest on the table.
+Sleeper: You may choose not to deploy this unit as normal. Instead the controlling Player may choose to wake up the Sleeper at the start of any of his remaining moves sub-phases: place the model completely within any forest on the table.
 
 RARE
 Cyclops 200 pts

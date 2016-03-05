@@ -2,12 +2,12 @@ Fantasy Battles
 The 9th Age
 Highborn Elves Army Rules Version 0.11.0 Beta Army Special Rules
 
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+Fantasy Battles: The 9th Age is a community-made miniatures wargame. All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
 
 Army Special Rules
 Martial Discipline: Models with this special rule test to make Leadership Tests on three dice, and may discard the highest. This rule cannot be used for Panic Tests nor Break Tests.
 Master of Balance: If your army includes one or more models with this rule, add an additional +1 to Channel attempts in the opponent's Magic Phase.
-Sword Sworn: At the start of each Combat Phase a model with this rule that is on foot and fighting with a Great Weapon must choose to gain either +1 to-hit or Distracting from models in the front. This decision lasts until the end of that Combat Phase. All models in the same unit must choose the same effect.  The model also gains Ward Save (6+) against Shooting attacks and Close Combat attacks.
+Sword Sworn: At the start of each Combat Phase a model with this rule that is on foot and fighting with a Great Weapon must choose to gain either +1 to-hit or Distracting from models in the front. This decision lasts until the end of that Combat Phase. All models in the same unit must choose the same effect. The model also gains Ward Save (6+) against Shooting attacks and Close Combat attacks.
 Valiant: Models with this special rule gains Stubborn when in base contact with a model that causes Fear.
 
 Armoury
@@ -18,20 +18,20 @@ Dragonforged Armour: Heavy Armour. The wearer gains Fireborn and Ward Save (6+).
 Honours
 Honours of High Princes and Commanders
 
-Master of Canreig Tower (120/75 pts) : Models on foot only Bearer gains Sword Sworn, Master of Balance and becomes a Level 1 Wizard Apprentice . Chooses 8/2 spells from the Lost Path (Commanders must note which spells on the army list).
+Master of Canreig Tower (120/75 pts): Models on foot only Bearer gains Sword Sworn, Master of Balance and becomes a Level 1 Wizard Apprentice . Chooses 8/2 spells from the Lost Path (Commanders must note which spells on the army list).
 
-Fleet Officer (20 pts): Bearer gains Quick to Fire and Weapon Master.  If the bearer is on foot, wearer's unit may perform a Combat Reform if it is successfully charged. This is performed after all charged towards bearer's unit has been moved, and follows all rules and restrictions for Combat Reforms.
+Fleet Officer (20 pts): Bearer gains Quick to Fire and Weapon Master. If the bearer is on foot, wearer's unit may perform a Combat Reform if it is successfully charged. This is performed after all charged towards bearer's unit has been moved, and follows all rules and restrictions for Combat Reforms.
 Instead of the normal mount selection, the bearer may choose:
 Giant Eagle 50 / 60 pts
 Sky Sloop 65 / 75 pts
 The bearer may take
 Ambush 5 pts
 
-High Warden of the Flame (90/75 pts): Bearer gains Ward Save (4+), Immune to Psychology, Magic Resistance (1). Bearer and the unit he/she join gain Holy Attacks.  Instead of the normal mount selection, the bearer may choose:
+High Warden of the Flame (90/75 pts): Bearer gains Ward Save (4+), Immune to Psychology, Magic Resistance (1). Bearer and the unit he/she join gain Holy Attacks. Instead of the normal mount selection, the bearer may choose:
 Fire Phoenix 160 / 210 pts
 Frost Phoenix* 200 pts *High Prince only
 
-Queen's Companion (20 pts): Models on foot only.  Bearer gain Multiple Shot (3).  Bearer's unit gains Quick to Fire and ignore to-hit penalties for Multiple Shot.
+Queen's Companion (20 pts): Models on foot only. Bearer gain Multiple Shot (3). Bearer's unit gains Quick to Fire and ignore to-hit penalties for Multiple Shot.
 The bearer may take (one choice only)
 Scout 15 pts
 Moonlight Arrows 5 pts
@@ -42,7 +42,7 @@ Lion Chariot 90/ 100 pts
 
 Honours of Archmages and Mages
 Master of the Wizard Tower (50 pts): The range of all non-aura, non-vortex spells cast by bearer is increased by +6". 
-In addition, the Wizard has a bound spell: Drain Magic: Power Level 4, Type: Range: 18", Universal. Duration: Instant.  All spell with Duration: Last One Turn or Remains In Play affecting the target immediately comes to an end.
+In addition, the Wizard has a bound spell: Drain Magic: Power Level 4, Type: Range: 18", Universal. Duration: Instant. All spell with Duration: Last One Turn or Remains In Play affecting the target immediately comes to an end.
 
 Order of the Fiery Heart (220/205 pts): The bearer must generate spells from Path of Fire, and always knows the spell Flaming Swords in addition to its normal spells. If the Flaming Sword is rolled while generating spells, simply reroll the dice. This does not prevent other wizards from knowing this spell. In addition, the Path Attribute Raging Fire deals D6 hits instead of D3 when cast by the bearer.
 Instead of the normal mount selection,
@@ -60,10 +60,10 @@ Magical Armour
 Daemon Hunter's Helm (25 pts): Type: None (6+ Armour Save). Wearer gains a Ward Save (3+) against Magical Attacks.
 
 Talismans
-Gleaming Robes (45 pts) : Mage or Archmage only.  Cannot be taken on Ridden Monsters.  Wearer gain Ethereal. Bearer and his mount may not make attacks, including special attacks, and may not take Magical Weapons.
+Gleaming Robes (45 pts): Mage or Archmage only. Cannot be taken on Ridden Monsters. Wearer gain Ethereal. Bearer and his mount may not make attacks, including special attacks, and may not take Magical Weapons.
 
 Enchanted Items
-Shard of Nullification (100 pts) : Model on foot only.  Models within 6" of the bearer cannot Cast (including Aided Casting), Dispel (including Aided Dispels), and Channel. Magical Items (other than Shard of Nullification) within 6" have no effects (revert to mundane version of the items).
+Shard of Nullification (100 pts): Model on foot only. Models within 6" of the bearer cannot Cast (including Aided Casting), Dispel (including Aided Dispels), and Channel. Magical Items (other than Shard of Nullification) within 6" have no effects (revert to mundane version of the items).
 Cloak of the Stars (25 pts): Spells cast against the bearer or his unit suffer -2 to their casting roll.
 Shard of Cenyrn (10 pts): One use only. Use at the start of any combat phase. The wearer may reroll all to-hit and to-wound rolls until the end of the phase. Wounds caused by the bearer must reroll all successful saves of any kind. At the end of the phase the model suffers 1 wound with no saves of any kind allowed.
 
@@ -414,7 +414,7 @@ May take Spears 1 / model
 May take one of the following:
 Longbow 1 / model
 Skirmish (up to 10 models) 3 / model
-May upgrade one model to each of the following :
+May upgrade one model to each of the following:
 Champion 10
 Musician* 10
 Standard Bearer* 10
@@ -428,7 +428,7 @@ Frost Phoenix 2 5 0 5 5 5 3 5 8 Monster 50x100mm base
 Must become one of the following:
 Fire Phoenix (free)
 Special Rules: Fly (9), Magical Attacks, Ward Save (5+), Fireborn, Flaming Attacks
-Flame Swoop: During the Remaining Moves sub-phase models with this rule can activate it over an unengaged enemy unit. Nominate one unit which the model moved over this turn. This unit suffers D6 hits, plus additional D3 hits for each rank the unit has after the first rank.  These hits are Strength 4 with the Flaming Attacks Special Rule and are considered special and shooting attacks. Note that Magical Moves can also activate this ability.
+Flame Swoop: During the Remaining Moves sub-phase models with this rule can activate it over an unengaged enemy unit. Nominate one unit which the model moved over this turn. This unit suffers D6 hits, plus additional D3 hits for each rank the unit has after the first rank. These hits are Strength 4 with the Flaming Attacks Special Rule and are considered special and shooting attacks. Note that Magical Moves can also activate this ability.
 Rebirth: When a Fire Phoenix loses its last wound, place a marker centered on the final position of the model. At the start of each of your remaining moves sub-phases, roll a D6 for each marker and consult the table below. If the Fire Phoenix is ridden, add 1 to the result, except for rolls of a natural 1.
 1 or less Dead Embers: Remove the marker
 2-3 Dying Flames: Marker remains, but subtract 1 from your next Rebirth roll

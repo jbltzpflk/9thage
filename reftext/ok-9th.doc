@@ -2,7 +2,7 @@ Fantasy Battles
 The 9th Age
 Ogre Khans Army Rules Version 0.11.0 Beta
 
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+Fantasy Battles: The 9th Age is a community-made miniatures wargame. All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
 
 Special Rules
 Sons of the Avalanche: Models with this Special Rule have Impact Hits (1). Characters with this Special Rule have Impact Hits (D3).
@@ -17,7 +17,7 @@ Hunting Spear: Shooting Weapon. Range 12", User Strength +1, Quick to Fire, Leth
 
 Big Names
 Each Ogre Character can take a single Big Name. No two Characters can have the same Big Name.
-Hellfist (50 pts): Great Khans only Model gains a Magical Weapon. Type: Iron Fist. Any model in the army may be given a Mark of The Dark Gods from the Warriors of the Dark Gods Army Book for the following cost: 5 pts per Monstrous Infantry model, 10 pts per Monstrous Cavalry or Chariot model, 15 pts per Monster or Character model. Alternatively they may be given the Mark of True Chaos at no cost.  Shamans and Great Shamans with a Mark other than True Chaos may choose a Path available to those Marks in addition to any path normally available to them, including Shamans upgraded with Fire Blessing or Greater Fire Blessing.  Shamans and Great Shamans may not choose Mark of Wrath.  The army may not include Mammoth Hunters, Yeti, Scraplings, Scrapling Trappers, Sabretooth Tigers or Scratapults.
+Hellfist (50 pts): Great Khans only Model gains a Magical Weapon. Type: Iron Fist. Any model in the army may be given a Mark of The Dark Gods from the Warriors of the Dark Gods Army Book for the following cost: 5 pts per Monstrous Infantry model, 10 pts per Monstrous Cavalry or Chariot model, 15 pts per Monster or Character model. Alternatively they may be given the Mark of True Chaos at no cost. Shamans and Great Shamans with a Mark other than True Chaos may choose a Path available to those Marks in addition to any path normally available to them, including Shamans upgraded with Fire Blessing or Greater Fire Blessing. Shamans and Great Shamans may not choose Mark of Wrath. The army may not include Mammoth Hunters, Yeti, Scraplings, Scrapling Trappers, Sabretooth Tigers or Scratapults.
 Wildheart (50 pts): Mammoth Hunters only A Mammoth Hunter with this Big Name may be the Army's General. One Mammoth Hunter in the army may be upgraded to a Battle Standard Bearer for 25 pts. One unit of Yeti and a single unit of Sabretooth Tigers may be taken as Core. The army may not include Great Khans, Khans, Shamans with Fire Blessing, Greater Shamans with Greater Fire Blessing, Bruisers, Mercenary Veteran, Bombardiers, or Thunder Cannons.
 Rottenjaw (30 pts): The Character gains Poisoned Attacks. For the duration of a one Close Combat phase, all models in the Character's unit may gain Poisoned Attacks. The Player must declare at the start of the combat phase if they are using this ability.
 Trolleater (25 pts): The Character known for this unsavoury diet gains the Regeneration (5+) and Stupidity Special Rules. In addition, the Character has Multiple Wounds (2, Monstrous Infantry).
@@ -39,7 +39,7 @@ Talismans
 Blind Eye of Nyanggai (25 pts): One use only. Activate at the beginning of the opponent's magic phase. The bearer of this item, the unit he is in, and any other characters in it cannot be chosen as targets of non-aura spells cast by enemy wizards.
 
 Arcane Items
-Daemon Heart (50 pts): One use only. Activate at the beginning of the opponent's magic phase. For that phase, all enemy wizards within 24" will suffer a miscast on a roll that includes any doubles (only double 6 counts as Overwhelming Power, and no more than one miscast can be suffered per roll).  All miscasts will be considered to have been rolled using one more Power Dice than used.
+Daemon Heart (50 pts): One use only. Activate at the beginning of the opponent's magic phase. For that phase, all enemy wizards within 24" will suffer a miscast on a roll that includes any doubles (only double 6 counts as Overwhelming Power, and no more than one miscast can be suffered per roll). All miscasts will be considered to have been rolled using one more Power Dice than used.
 
 Enchanted Items
 Aurochs Charm (15 pts): The bearer of this item gains the Rock Skin Special Rule (see Rock Aurochs Rare unit).
@@ -83,7 +83,7 @@ May take a weapon (one choice only)
 Additional Hand Weapon 5
 Great Weapon 15
 May be take Greater Fire Blessing 35
-Greater Fire Blessing : The Great Shaman gains Flaming Attacks, Fireborn and Breath Weapon (Strength 4, Flaming Attacks). The Great Shaman must generate spells from the Path of Fire or Alchemy.
+Greater Fire Blessing: The Great Shaman gains Flaming Attacks, Fireborn and Breath Weapon (Strength 4, Flaming Attacks). The Great Shaman must generate spells from the Path of Fire or Alchemy.
 
 HEROES
 Khan 105 pts
@@ -120,7 +120,7 @@ May take a weapon (one choice only)
 Additional Hand Weapon 3
 Great Weapon 6
 May take Fire Blessing 25
-Fire Blessing : The Shaman gains Flaming Attacks, Fireborn and Breath Weapon (Strength 3, Flaming Attacks). The Shaman automatically generate spells from the Path of Fire.
+Fire Blessing: The Shaman gains Flaming Attacks, Fireborn and Breath Weapon (Strength 3, Flaming Attacks). The Shaman automatically generate spells from the Path of Fire.
 
 Mammoth Hunter 120 pts
 single model
@@ -367,9 +367,9 @@ Against Monstrous Beast, Monstrous Infantry, Monstrous Cavalry, Chariot, Monster
 1: Bellow
 2-3: Thump
 4-6: Smash
-Bellow: Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done (including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2.  If two (or more) opposing Giants "Bellow", the combat is a draw.
+Bellow: Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done (including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2. If two (or more) opposing Giants "Bellow", the combat is a draw.
 Jump: The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant must take a Dangerous Terrain test.
-Grab: Select a single model in base contact with the Giant. This model must take a Strength and a Weapon Skill test.  For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
+Grab: Select a single model in base contact with the Giant. This model must take a Strength and a Weapon Skill test. For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
 Swing: The Giant makes 2D6 attacks on the chosen unit.
 Thump: Select a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the test is failed, the model suffers 2D6 wounds with Armour Piercing (6).
 Smash: Select a model from the chosen unit in base contact with the Giant. This model suffers 1 wound with Armour Piercing (6). If the model has not yet attacked it cannot attack in this round. It the model has already attacked, it cannot attack in the next player turn.
