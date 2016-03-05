@@ -18,17 +18,17 @@ At the beginning of your next Player's Turn following the death of the Master, a
 do so, the Player must nominate another eligible character who is a Wizard using the Path of Necromancy. This
 character is your new Master. If the army does not have any eligible character, every unit with the Ashes to Ashes rule
 must once again pass a Leadership test or suffer wounds as described above. This effect will repeat itself at the start of
-each of the owning Player’s turn until the game ends.
+each of the owning Player's turn until the game ends.
 Chilling Shriek (X, Y)
-Part of a model with this Special Rule may perform a shooting special attack with range 8”. It can be used after
+Part of a model with this Special Rule may perform a shooting special attack with range 8". It can be used after
 marching and hits automatically. The target suffers X hits with strength equal to Y plus the current number of Wounds
 of the shooting part of model, where X and Y are the number within the brackets. When rolling to wound, compare the
-Strength with the target’s Leadership instead of Toughness. Wounds caused are Armour Piercing (6) and Magical
+Strength with the target's Leadership instead of Toughness. Wounds caused are Armour Piercing (6) and Magical
 Attacks. In the combat phase the model may replace its normal attacks to instead scream at one unit that it is in base
 contact with it.
 Awaken (X)
 Models with this special rule can Raise wounds of all the units stated within the brackets above their starting size, using
-any effect that Raises wounds. A unit’s starting size is the size they are written as in the army list. Units can be increased
+any effect that Raises wounds. A unit's starting size is the size they are written as in the army list. Units can be increased
 even beyond the maximum size written in their unit entry using this rule.
 Reaper
 Units consisting solely of models with this special rule may move through enemy units during the Remaining Moves
@@ -37,14 +37,14 @@ has been moved through. These attacks hit automatically and are distributed towa
 2
 Vampiric (X)
 Models with this Special Rule can make march moves as normal even when outside the range of the General's Inspiring
-Presence. They still have to test Leadership if they are within 8” of enemy units.
+Presence. They still have to test Leadership if they are within 8" of enemy units.
 At the end of the close combat phase, units with this Special Rule can make a single Vampiric Roll if a Model part with
 this Special Rule cased least one wound during the phase. Roll a D6 for each Vampiric Roll, X+ a single wound is Raised
 to the unit, where X is the number stated within the brackets (a 1 is always a failure). Characters must cause wounds
 and roll for Raised wounds separately from any unit they are joined to.
 Wake the Dead
 Each time after an Augment spell from Path of Necromancy (including the Curse of Undeath) is resolved against a unit
-containing at least one model with this rule, you may select a single unit within 6” of it. Until the end of the following
+containing at least one model with this rule, you may select a single unit within 6" of it. Until the end of the following
 player turn, all Models in the chosen units have the Lightning Reflexes special rule.
 Necromantic Aura
 All friendly units within 6" of one or models with this Special Rule reduce the number of wounds caused by Ashes to
@@ -64,14 +64,14 @@ Independent Vampires
 A Vampire that is not part of a Bloodline may choose
 between non Ancient Blood Powers of all the Bloodlines.
 All Bloodline powers are One of a Kind.
-Blood Ties (X): ​ Certain unit entries in this army book bear the mention Blood Ties, followed by the name of a Bloodline
+Blood Ties (X): Certain unit entries in this army book bear the mention Blood Ties, followed by the name of a Bloodline
 between brackets. If the Bloodline of the Vampire characters in the army matches the one written within the Brackets,
 you gain access to the upgrade written in this rule on the unit entry.
 Brotherhood of the Dragon Bloodline: 35 / 25 pts
 The Vampire gains +2 Weapon Skill and wears Plate Armour. It is restricted to purchasing only one additional magic
 Level and may only use Path of Necromancy. The Vampire cannot refuse challenges and must issue one whenever
 possible, unless another character does it first.
-Blood Ties:​ Vampire Knights
+Blood Ties: Vampire Knights
 Ancient Blood Power: 65 pts
 Cri
 mson Rage
@@ -98,10 +98,10 @@ a Great Weapon, a Lance and a
 Shield.
 4
 Strigoi Bloodline: 50 / 40 pts
-The Vampire’s model has +1 Wound, Regeneration (5+) and Hatred. The Vampire cannot select any mount except for
+The Vampire's model has +1 Wound, Regeneration (5+) and Hatred. The Vampire cannot select any mount except for
 the Shrieking Horror, may not wear any kind of Armour, can only purchase a single additional magic Level and must use
 Path of Wilderness or Necromancy.
-Blood Ties:​ Ghouls
+Blood Ties: Ghouls
 Ancient Blood Power: 65 pts
 Ghoul Lord
 The Vampire model gains Poisoned
@@ -120,7 +120,7 @@ rule already has Regeneration then
 then their Regeneration Save is
 increased by 1 point to a maximum
 of 4+.
-Bloodline Power: ​ 65/40 pts
+Bloodline Power: 65/40 pts
 Bat Form
 (models on foot only)
 The Vampire model gains Fly (8) and
@@ -128,11 +128,11 @@ Thunderous Charge.
 Von Karnstein Bloodline: 25 / 20 pts
 The presence of one or more Von Karnstein Vampires grants +1 Combat Score. Undead units joined by the Vampire may
 march as if they had the Vampiric Special Rule. The range of Inspiring Presence and Hold Your Ground of the vampire is
-increased by 6”. In addition, the Vampire may reroll failed Vampiric Rolls.
-Blood Ties:​ Dark Coach
+increased by 6". In addition, the Vampire may reroll failed Vampiric Rolls.
+Blood Ties: Dark Coach
 Ancient Blood Power: 50 pts
 Storm Caller
-All units within 12” of the Vampire
+All units within 12" of the Vampire
 gain Hard Target. Once per game, the
 Vampire may grant Lightning
 Attacks and Armour Piercing (2) to
@@ -147,7 +147,7 @@ confers this special rule to any unit it
 joins. The Vampire gains Awaken
 (Zombies; Direwolves; Bat Swarms;
 Great Bats).
-Bloodline Power: ​ 25 pts
+Bloodline Power: 25 pts
 Refined Taste
 The Vampire gains Vampiric (2+). If
 the Vampire is riding a mount with
@@ -157,7 +157,7 @@ Vampiric (4+).
 Lamia Bloodline: 35 / 25 pts
 The Vampire has +2 Ballistic Skill, -1 Attack, Lightning Reflexes and Throwing Weapons. If the Vampire is not wearing
 any Armour it also has the Distracting special rule.
-Blood Ties:​ Court of the Damned
+Blood Ties: Court of the Damned
 Ancient Blood Power: 50 pts
 Co
 mmandment
@@ -168,13 +168,13 @@ in combat itself, it can instead, at the
 start of the Close Combat Phase,
 choose to grant this bonus to a single
 fr
-iendly unit within 6”.
+iendly unit within 6".
 Bloodline Power: 25 pts
 Mask of Innocence
 Enemy units in base contact with
 one or more Vampire with this
 power have -1 Leadership.
-Bloodline Power: ​ 25 pts
+Bloodline Power: 25 pts
 Mesmerizing Gaze
 Units charging at or fleeing from
 units containing at least one
@@ -187,13 +187,13 @@ Wizard Apprentice if it is a Hero character or becomes a level 4 Wizard Master i
 generates an additional spell and gains Awaken (Zombies; Skeletons). A Nosferatu Vampire may generate spells from
 more than one Path of Magic. The player must write on the Army List which Paths the Vampire knows and how many
 spells are generated from each Path.
-Blood Ties:​ Wraiths
+Blood Ties: Wraiths
 Ancient Blood Power: 50 pts
 Un
 bearable Scrutiny
 At the start of each Magic Phase, the
 Player may nominate an enemy
-Wizard within 18” of the Vampire
+Wizard within 18" of the Vampire
 and within Line of Sight. In this
 phase, that Wizard cannot add his
 magic level or use Aided Dispel
@@ -206,59 +206,59 @@ Path of Nature. The Vampire can
 generate spells from this Path in
 addition to those normally available
 to it.
-Bloodline Power: ​ 25 pts
+Bloodline Power: 25 pts
 Arcane Knowledge
 Spells cast by the Vampire gain an
-additional 3’’ range. This effect is
-increased to an additional 6’ range
+additional 3" range. This effect is
+increased to an additional 6' range
 fo
 r Damage spells. Vortex spells are
 not affected.
 6
 Magical items
 Magical Weapons
-Blade of Red Thirst ​ (40 pts) - Vampires only
+Blade of Red Thirst (40 pts) - Vampires only
 Type: Hand weapon. The Model gains Vampiric (5+) if
 mounted on a Large Target and Vampiric (3+) otherwise.
 The Model part makes a Vampiric Roll for each unsaved
 wound caused by this weapon (instead of just one). Any
 excess wounds Raised can be used to Raise wounds on
 the unit that the Model is part of.
-Bow of Nepharet​ (45 pts)
+Bow of Nepharet (45 pts)
 Magical Weapon. This is Bolt Thrower Artillery Weapon
-with the following profile: Range 36”, Strength 6, Armour
+with the following profile: Range 36", Strength 6, Armour
 Piercing (1), Multiple Wounds (D3)
 Magical Armour
-Red Plate of Gilles de Raux ​ (40 pts)
+Red Plate of Gilles de Raux (40 pts)
 Type: Plate Armour. Wearer has +1 Wound.
 Talismans
-Mantle of Night ​ (40 pts) - models on foot only
+Mantle of Night (40 pts) - models on foot only
 Enemy models in base contact with wearer, and all
 models allocating close combat attacks at the wearer do
 not gain strength bonuses of the +X type conferred by
 mundane or magical weapons.
 Enchanted Items
-Tullius’ Teeth ​ (50pts) - models on foot only
+Tullius' Teeth (50pts) - models on foot only
 Wearer and other R&F models in its unit have the
 Distracting special rule.
 Arcane Items
-Eye of Setesh ​ (20 pts)
+Eye of Setesh (20 pts)
 At the end of any Magic Phase, the play may save one
 unused Magic Dice and add it to the pool of Magic Dice in
 the next Magic Phase (immediately after rolling Magic
 Flux).
-Unholy Tome ​ (35 pts)
+Unholy Tome (35 pts)
 Bound Spell, Power Level 4. Contains the spell Danse
 Macabre from Path of Necromancy.
-Staff of the Vengeful Dead ​ (35 pts)
+Staff of the Vengeful Dead (35 pts)
 Bound Spell, Power Level 3. If cast successfully this item
-casts an augment, lasts one turn spell with range 6”. All
+casts an augment, lasts one turn spell with range 6". All
 undead models in target unit gain +1 attack.
 Magical Standards
-Banner of the Barrows Kings ​ (50 pts)
+Banner of the Barrows Kings (50 pts)
 Barrow Knights, Barrow Guards and Barrow Kings in this
 unit have +1 to Hit in close combat.
-Black Standard of Zagvozd ​ (75 pts)
+Black Standard of Zagvozd (75 pts)
 The unit carrying this banner gains Bodyguard (Vampire
 Count, Vampire Courtiers). Vampiric Knights carrying
 this banner instead gain Stubborn. All models in the unit
@@ -267,18 +267,14 @@ Attacks.
 7
 Army List
 LORDS
-Vampire Count ​ 205 pts
+Vampire Count 205 pts
 single model
 M WS BS S T W I A Ld
 6 7 5 5 5 3 7 5 10 Infantry 20x20mm base
 Va
-mpiric Special Rules:
-Undead, Vampiric (6+), Fear
-Sp
-ecial Rules:
-Awaken (Zombies), Master of Undeath
-Magic:
-Level 1 Wizard ​ Apprentice​ . Generate spells from
+mpiric Special Rules: Undead, Vampiric (6+), Fear
+Special Rules: Awaken (Zombies), Master of Undeath
+Magic: Level 1 Wizard Apprentice . Generate spells from
 Path of Necromancy, Shadow or Death.
 Options: pts
 May become one of the following:
@@ -301,17 +297,13 @@ Monstrous Revenant 100
 Court of the Damned (Lamia only) 190
 Shrieking Horror (Strigoi only) 200
 Zombie Dragon 270
-Necromancer Lord ​ 175 pts
+Necromancer Lord 175 pts
 single model
 M WS BS S T W I A Ld
 4 3 3 3 4 3 3 1 8 Infantry 20x20mm base
-Undead Special Rules:
-Undead
-Sp
-ecial Rules:
-Awaken (Zombies; Skeletons), Master of Undeath
-Magic:
-Level 3 Wizard ​ Master​ . Generate spells from Path
+Undead Special Rules: Undead
+Special Rules: Awaken (Zombies; Skeletons), Master of Undeath
+Magic: Level 3 Wizard Master . Generate spells from Path
 of Necromancy, Fire or Death.
 Options: pts
 May become a Level 4 Wizard Master 35
@@ -322,18 +314,14 @@ Cadaver Wagon 100
 Monstrous Revenant 100
 8
 HEROES
-Vampire Courtier ​ 80 pts
+Vampire Courtier 80 pts
 single model
 M WS BS S T W I A Ld
 6 6 4 5 4 2 6 4 8 Infantry 20x20mm base
 Va
-mpiric Special Rules:
-Undead, Vampiric (6+), Fear
-Sp
-ecial Rules:
-Awaken (Zombies), Master of Undeath
-Magic:
-If upgraded to a Wizard, generate spells from Path
+mpiric Special Rules: Undead, Vampiric (6+), Fear
+Special Rules: Awaken (Zombies), Master of Undeath
+Magic: If upgraded to a Wizard, generate spells from Path
 of Necromancy, Shadow or Death.
 Options: pts
 May be the Battle Standard Bearer (not Strigoi) 25
@@ -354,17 +342,13 @@ Great Weapon 10
 May take a mount (one choice only)
 Skeletal Steed 20
 Monstrous Revenant 120
-Necromancer ​ 65 pts
+Necromancer 65 pts
 single model
 M WS BS S T W I A Ld
 4 3 3 3 3 2 3 1 7 Infantry 20x20mm base
-Undead Special Rules:
-Undead
-Sp
-ecial Rules:
-Awaken (Zombies; Skeletons), Master of Undeath
-Magic:
-Level 1 Wizard ​ Apprentice​ . Generate spells from
+Undead Special Rules: Undead
+Special Rules: Awaken (Zombies; Skeletons), Master of Undeath
+Magic: Level 1 Wizard Apprentice . Generate spells from
 Path of Necromancy, Fire or Death.
 Options: pts
 May become a Level 2 Wizard Apprentice 25
@@ -373,17 +357,13 @@ May take a mount (one choice only)
 Skeletal Steed 20
 Cadaver Wagon 100
 9
-Barrow King ​ 80 pts
+Barrow King 80 pts
 single model
 M WS BS S T W I A Ld
 4 4 - 4 5 3 4 3 9 Infantry 20x20mm base
-Armour:
-Heavy Armour and Shield
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Lethal Strike, Multiple Wounds (2, Infantry, War
+Armour: Heavy Armour and Shield
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Lethal Strike, Multiple Wounds (2, Infantry, War
 Beast, Cavalry), Not a Leader, Magical Attacks
 Options: pts
 May be the Battle Standard Bearer 25
@@ -395,53 +375,44 @@ Lance 6
 Great Weapon 6
 May ride a Skeletal Steed 20
 May gain Unliving Shield 15
-Unliving Shield:​ Close Combat attacks allocated against a Necromancer or Necromancer Lords in base to base
+Unliving Shield: Close Combat attacks allocated against a Necromancer or Necromancer Lords in base to base
 contact with a model with this special rule must instead be allocated at the model with this special rule if it passes
 a Weapon Skill test (determine for each attack separately). This ability cannot be used if the Necromancer,
 Necromancer Lord or the model with this special rule fights in a Challenge.
 The Unliving Shield option may only be taken in armies without any character model with the Vampiric special
 rule.
-Fell Wraith ​ 55 pts
+Fell Wraith 55 pts
 single model
 M WS BS S T W I A Ld
 Fell Wraith 6 3 - 3 3 2 2 3 5 Infantry 20x20mm base
 Banshee 6 3 - 3 3 2 3 1 5 Infantry 20x20mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Ethereal, Terror, Reaper, Not a Leader
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Ethereal, Terror, Reaper, Not a Leader
 Must become one of the following:
-Fell Wraith​ (free)
-Sp
-ecial Rules:
-Armour Piercing (6)
+Fell Wraith (free)
+Special Rules: Armour Piercing (6)
 Options: pts
 May take a Great Weapon 10
 May take Magical Weapon up to 50
 May ride Skeletal Steed with Free Reform 20
-Banshee​ (30 pts)
-Sp
-ecial Rules:
-Chilling Shriek (2, 8)
+Banshee (30 pts)
+Special Rules: Chilling Shriek (2, 8)
 10
 CORE
-Zombies ​ 60 points
-20 ​ models, may add up to 40 ​ models 3 points/model
+Zombies 60 points
+20 models, may add up to 40 models 3 points/model
 M WS BS S T W I A Ld Invocation
 4 1 - 3 3 1 1 1 2 2D6+3 Infantry 20x20mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
+Undead Special Rules: Undead, Ashes to Ashes
 Options: pts
 May upgrade one model to each of the following:
 Musician 10
 Standard Bearer 10
-Skeletons ​ 40 points
-10 ​ models, may add up to 50 ​ models 4 points/model
+Skeletons 40 points
+10 models, may add up to 50 models 4 points/model
 M WS BS S T W I A Ld Invocation
 4 2 2 3 3 1 2 1 6 D6+3 Infantry 20x20mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
+Undead Special Rules: Undead, Ashes to Ashes
 Armour
 Light Armour
 Options: pts
@@ -454,15 +425,12 @@ Standard Bearer 10
 - May become Veteran Standard Bearer*
 *A Veteran Standard Bearer is One of a Kind and may take a
 Magical Standard worth up to 25 pts.
-Ghouls ​ 90 points
-10 ​ models, may add up to 30 ​ models 9 points/model
+Ghouls 90 points
+10 models, may add up to 30 models 9 points/model
 M WS BS S T W I A Ld Invocation
 4 3 - 3 4 1 3 2 6 D6+3 Infantry 20x20mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Poisoned Attacks
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Poisoned Attacks
 Options: pts
 May gain Skirmishers (15 models or less) 1 / model
 May upgrade one model to each of the following:
@@ -475,46 +443,34 @@ May take Vanguard Special Rule* 2 / model
 *Strigoi Vampires in the same unit can make a Vanguard
 movement with this unit
 11
-Dire Wolves ​ 40 points
-5 ​ models, may add up to 10 ​ models 7 points/model
+Dire Wolves 40 points
+5 models, may add up to 10 models 7 points/model
 M WS BS S T W I A Ld Invocation
 9 3 - 3 3 1 3 1 3 D3+3 Warbeast 25x50mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Thunderous Charge, Vanguard
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Thunderous Charge, Vanguard
 Options: pts
 May upgrade one model to a Champion 10
-Bat Swarm ​ 60 points
-2 ​ models, may add up to 8 ​ models 15 points/model
+Bat Swarm 60 points
+2 models, may add up to 8 models 15 points/model
 M WS BS S T W I A Ld Invocation
 1 3 - 2 2 4 3 4 3 D6+3 Swarm 40x40mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Fly (6)
-Storm of Wings: ​ Enemy units in base contact with
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Fly (6)
+Storm of Wings: Enemy units in base contact with
 one or more Bat Swarm suffer a -1 penalty to their
 Weapon Skill, down to a minimum of 1.
 12
 SPECIAL
-Barrow Knights ​ 120 points
-5 ​ models, may add up to 10 ​ models 24 points/model
+Barrow Knights 120 points
+5 models, may add up to 10 models 24 points/model
 M WS BS S T W I A Ld Invocation
 Rider 4 3 - 4 4 1 3 1 7 2
 Skeletal Steed 8 2 - 3 3 1 2 1 3 Cavalry 25x50mm base
-We
-apon:
-Lance
-Armour:
-Mount’s Protection (5+), Heavy Armour, Shield
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Lethal Strike (Knight Only), Multiple Wounds (2,
+Weapons: Lance
+Armour: Mount's Protection (5+), Heavy Armour, Shield
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Lethal Strike (Knight Only), Multiple Wounds (2,
 Infantry, War Beast, Cavalry), Magical Attacks,
 Ethereal (Skeletal Steed Only)
 Options: pts
@@ -523,17 +479,13 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
-Barrow Guard ​ 100 points
-10 ​ models, may add up to 30 ​ models 10 points/model
+Barrow Guard 100 points
+10 models, may add up to 30 models 10 points/model
 M WS BS S T W I A Ld Invocation
 4 3 - 4 4 1 3 1 7 D3+3 Infantry 20x20mm base
-Armour:
-Heavy Armour
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Lethal Strike, Bodyguard (General, Barrow King),
+Armour: Heavy Armour
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Lethal Strike, Bodyguard (General, Barrow King),
 Multiple Wounds (2; Infantry, War Beast, Cavalry),
 Magical Attacks
 Options: pts
@@ -547,80 +499,61 @@ Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
 13
-Ghasts ​ 110 points
-3 ​ models, may add up to 7 ​ models 48 pts / model
+Ghasts 110 points
+3 models, may add up to 7 models 48 pts / model
 M WS BS S T W I A Ld Invocation
 6 3 - 4 5 3 2 3 5 2 Monstrous Infantry 40x40mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Poisoned Attacks, Regeneration (5+​ ), Fear
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Poisoned Attacks, Regeneration (5+ ), Fear
 Options: pts
 May upgrade one Model to a Champion 10
-Vampire Spawn ​ 117​ points
-3 ​ models, may add up to 3​ ​ models 39 pts / model
+Vampire Spawn 117 points
+3 models, may add up to 3 models 39 pts / model
 M WS BS S T W I A Ld Invocation
 6 4 - 5 4 3 4 3 8 2 Monstrous Infantry 40x40mm base
 Va
-mpiric Special Rules:
-Undead, Vampiric (6+), Fear
-Sp
-ecial Rules:
-Fly (9​ ), Skirmishers, Frenzy
+mpiric Special Rules: Undead, Vampiric (6+), Fear
+Special Rules: Fly (9 ), Skirmishers, Frenzy
 Options: pts
 May upgrade one Model to a Champion 10
 May upgrade to Skirmishers 3/model
 *if no more than 3 models
-Phantom Host ​ 70 points
-2 ​ models, may add up to 4 ​ models 30 pts / model
+Phantom Host 70 points
+2 models, may add up to 4 models 30 pts / model
 M WS BS S T W I A Ld Invocation
 6 3 - 3 3 4 1 4 4 D3+3 Infantry 40x40mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Ethereal, Fear
-Great Bats ​ 40 points
-2 ​ models, may add up to 7 ​ models 14 pts / model
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Ethereal, Fear
+Great Bats 40 points
+2 models, may add up to 7 models 14 pts / model
 M WS BS S T W I A Ld Invocation
 1 3 - 3 3 2 3 2 3 D3+3 War Beasts 40x40mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Skirmishers, Fly (10​ )
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Skirmishers, Fly (10 )
 14
-Varkolak 165​ points
+Varkolak 165 points
 single model
 M WS BS S T W I A Ld Invocation
 8 5 - 6 5 4 4 5 7 1 Monstrous Beasts 50x50mm base
 Va
-mpiric Special Rules:
-Undead, Vampiric (3+), Fear
-Sp
-ecial Rules:
-Hatred, Regeneration (4+​ )
+mpiric Special Rules: Undead, Vampiric (3+), Fear
+Special Rules: Hatred, Regeneration (4+ )
 Options: pts
 May take one of the following:
-Fly (8​ ) 40
+Fly (8 ) 40
 Vanguard 20
-Stomp (D3+1​ ) 20
-Cadaver Wagon ​ 80 points
+Stomp (D3+1 ) 20
+Cadaver Wagon 80 points
 single model
 M WS BS S T W I A Ld Invocation
 Cadaver Wagon - - - 4 4 4 - - - 1
 Cadaver Master - 3 - 3 - - 3 1 5
 Shambling Horde 4 1 - 3 3 - 1 * - Chariot 50x100mm base
-Armour:
-Mount’s Protection (5+)
-Undead Special Rules:
-Undead, Ashes to Ashes, Invocation (1​ )
-Sp
-ecial Rules:
-Random Attack (2D6​ ) (Shambling Horde only),
-Regeneration (4+​ ), Wake the Dead
-Cart: ​ The Cadaver Wagon may perform a March
+Armour: Mount's Protection (5+)
+Undead Special Rules: Undead, Ashes to Ashes, Invocation (1 )
+Special Rules: Random Attack (2D6 ) (Shambling Horde only),
+Regeneration (4+ ), Wake the Dead
+Cart: The Cadaver Wagon may perform a March
 moves despite being a Chariot but does not
 possess the Swiftstride special rule.
 Options: pts
@@ -629,36 +562,31 @@ May take one of the following:
 Bone Pyre 10
 Bring Out Your Dead 15
 Necromantic Aura 20
-Endless Horde: ​ The Cadaver Wagon gains the War Platform
+Endless Horde: The Cadaver Wagon gains the War Platform
 special rule but may only join units of Zombies. The Cadaver
 Master may issue challenges as if it was the Champion of any
 Zombie unit it joins. If this upgrade is taken model changes its
 base to 60x100mm
-Bone Pyre: ​ Enemy Wizards within 24” of one or more
+Bone Pyre: Enemy Wizards within 24" of one or more
 Cadaver Wagons with this upgrade suffer a -1 modifier to all
 their casting attempts.
-Bring Out Your Dead: ​ Friendly Wizards Raise 2 additional
+Bring Out Your Dead: Friendly Wizards Raise 2 additional
 wounds to targets of Small height, or 1 additional wound to
 targets of Medium height, when casting Invocation of the
-Undead within 6”​ of one or more Cadaver Wagons with this
+Undead within 6" of one or more Cadaver Wagons with this
 upgrade
 15
-RA
-RE
-Vampire Knights ​ 225 points
-5 ​ models, may add up to 3​ ​ models 45 points/model
+RARE
+Vampire Knights 225 points
+5 models, may add up to 3 models 45 points/model
 M WS BS S T W I A Ld Invocation
 Rider 4 5 3 5 4 2 5 2 8 2
 Undead Mount 8 3 - 4 3 1 2 1 3 Cavalry 25x50mm base
-We
-apon:
-Lance
-Armour:
-Mount’s Protection (6+), Heavy Armour, Shield,
+Weapons: Lance
+Armour: Mount's Protection (6+), Heavy Armour, Shield,
 Barding
 Va
-mpiric Special Rules:
-Undead, Vampiric (6+), Fear
+mpiric Special Rules: Undead, Vampiric (6+), Fear
 Options: pts
 May upgrade one Model to each of the following:
 Champion 10
@@ -669,55 +597,39 @@ Blood Ties (Brotherhood of the Dragon) options*:
 May take Plate Armour and gain the
 Devastating Charge special rule 15 / model
 *Only may add up to 1 model to the unit
-Wraiths ​ 90 pts
-3 ​ models, may add up to 5 ​ models 30 pts / model
+Wraiths 90 pts
+3 models, may add up to 5 models 30 pts / model
 M WS BS S T W I A Ld Invocation
 6 3 - 3 3 2 2 2 5 2 Infantry 20x20mm base
-We
-apon:
-Great Weapon
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Ethereal, Armour Piercing (6), Skirmisher, Terror,
+Weapons: Great Weapon
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Ethereal, Armour Piercing (6), Skirmisher, Terror,
 Bodyguard (Fell Wraith, Banshee), Reaper
 Options: pts
 Blood Ties (Nosferatu) options:
 May upgrade one Model to a Champion 70
-Magic:
-Wizard Conclave​ (Touch of the Reaper (Path of Death), Shadow
+Magic: Wizard Conclave (Touch of the Reaper (Path of Death), Shadow
 Miasma (Path of Shadow)).
 16
-Mounted Wraiths ​ 135 pts
-5 ​ models, may add up to 5 ​ models 35 pts / model
+Mounted Wraiths 135 pts
+5 models, may add up to 5 models 35 pts / model
 M WS BS S T W I A Ld Invocation
 Rider 6 3 - 3 3 1 2 1 5 2
 Ghost Steed 8 3 - 3 3 1 2 1 3 Cavalry 25x50mm base
-We
-apon:
-Great Weapon
-Armour:
-Mount’s Protection (6+)
-Undead Special Rules:
-Undead, Ashes to Ashes
+Weapons: Great Weapon
+Armour: Mount's Protection (6+)
+Undead Special Rules: Undead, Ashes to Ashes
 Options: pts
 May upgrade one Model to a Champion 10
-Sp
-ecial Rules:
-Ethereal, Flaming Attacks (Reaper only), Armour Piercing (6) (Reaper only), Free Reform, Terror, Reaper
-Winged Reapers ​ 160 pts
-2 ​ models, may add up to 3 ​ models 75 pts / model
+Special Rules: Ethereal, Flaming Attacks (Reaper only), Armour Piercing (6) (Reaper only), Free Reform, Terror, Reaper
+Winged Reapers 160 pts
+2 models, may add up to 3 models 75 pts / model
 M WS BS S T W I A Ld Invocation
 6 5 3 5 5 4 4 3 10 2 Monstrous Infantry 50x75mm base
-Armour:
-Innate Defence (5+​ )
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Fly (6​ ), Lethal Strike, Terror, Necromantic Aura
-Undead Constructs:​ Models with this special rule
+Armour: Innate Defence (5+ )
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Fly (6 ), Lethal Strike, Terror, Necromantic Aura
+Undead Constructs: Models with this special rule
 suffer one less wound from the Unstable and
 Ashes to Ashes special rules.
 Options: pts
@@ -726,74 +638,61 @@ May take a weapon (one choice only)
 Additional Hand Weapon 5 / model
 Halberd 10 / model
 17
-Altar of Undeath ​ 200 points
+Altar of Undeath 200 points
 single model
 M WS BS S T W I A Ld Invocation
 Reaper - - - 5 5 5 - - - 1
 Master - 3 1 3 - - 3 1 5
 [Banshee (0)] - 3 - 3 - - 3 3 5
 Ghost Steeds (1) 8 3 - 3 - - 2 * 4 Chariot 50x100mm base
-Armour:
-Innate Defence (5+)
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Chilling Shriek (2,8​ ) (Banshee only), Large Target,
-Random Attack (2D6​ ) (Ghost Steeds only),
+Armour: Innate Defence (5+)
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Chilling Shriek (2,8 ) (Banshee only), Large Target,
+Random Attack (2D6 ) (Ghost Steeds only),
 Ethereal (Ghost Steeds only), Terror, Regeneration
-(4+​ ), Aura of Undeath
+(4+ ), Aura of Undeath
 Options: pts
 May take one of the following:
 Banshee (1) 20
 Infernal Tome 20
-Dark Tome: ​ Friendly Wizards within 12” of at least one Altar
+Dark Tome: Friendly Wizards within 12" of at least one Altar
 of Undeath with Dark Tome may add +2 to all casting attempts
 fr
 om the Path of Necromancy (to a maximum of +3). Wizards
-that suffer a miscast within 12” of a Altar of Undeath with
+that suffer a miscast within 12" of a Altar of Undeath with
 Dark Tome count as having used two additional PDU for their
 casting roll (up to a maximum of 5).
-Aura of Undeath:​ ​ At the start of each of your player turns you may choose one of the following effects. In both cases,
+Aura of Undeath: At the start of each of your player turns you may choose one of the following effects. In both cases,
 X is equal to the current turn number.
-❖ All friendly units within 6”+X gain Regeneration (6+), which lasts until the end of the
+❖ All friendly units within 6"+X gain Regeneration (6+), which lasts until the end of the
 fo
 llowing Player Turn. Place a counter next to the units affected to track which is affected
 by the Regeneration even after leaving the area of effect. If a unit already has Regeneration
 then it is increased by +1, up to maximum of 4+ Regeneration Save.
-❖ All enemy units within 12” suffer D6 hits at Strength X.
-Shrieking Horror ​ 200 pts
+❖ All enemy units within 12" suffer D6 hits at Strength X.
+Shrieking Horror 200 pts
 single model
 M WS BS S T W I A Ld Invocation
 6 4 - 5 6 6 2 4 4 1 Monster 100x150mm base
-Undead Special Rules:
-Undead, Ashes to Ashes
-Sp
-ecial Rules:
-Chilling Shriek (6, 4​ ), Fly (8​ ), Regeneration (6+​ ),
+Undead Special Rules: Undead, Ashes to Ashes
+Special Rules: Chilling Shriek (6, 4 ), Fly (8 ), Regeneration (6+ ),
 18
-Dark Coach ​ 190 points
+Dark Coach 190 points
 single model
 M WS BS S T W I A Ld Invocation
 Wagon - - - 5 6 4 - - - 1
 Fell Wraith (1) - 3 - 3 - - 3 3 5
 [Awakened Vampire (0)] - 6 - 5 - - 6 4 8
 Undead Mounts (2) 8 3 - 4 - - 2 1 - Chariot 50x100mm base
-We
-apon:
-Great Weapon (Wraith only)
-Armour:
-Mount’s Protection (5+), Heavy Armour
+Weapons: Great Weapon (Wraith only)
+Armour: Mount's Protection (5+), Heavy Armour
 Va
-mpiric Special Rules:
-Undead, Vampiric (4+)
-Sp
-ecial Rules:
-Ward Save (4+), Terror, Scythes
+mpiric Special Rules: Undead, Vampiric (4+)
+Special Rules: Ward Save (4+), Terror, Scythes
 Options: pts
 Blood Ties (Von Karnstein) options:
 May gain Stubborn 30
-Soul Syphon:​ ​ To resolve this rule the Player must keep track of how many wounds a Dark Coach has caused. At the
+Soul Syphon: To resolve this rule the Player must keep track of how many wounds a Dark Coach has caused. At the
 end of each phase of Close Combat, compare this number with the chart below to determine the level of Soul Syphon
 that the model has reached. The Dark Coach gains the bonus corresponding to that level as well as the cumulative
 bonus of each level that precedes it.
@@ -810,80 +709,60 @@ and Flaming Attacks.
 Dark Coach gains Fly (8).
 13+ The Dark Coach becomes Ethereal. Spooky.
 19
-Court of the Damned ​ 190 points
+Court of the Damned 190 points
 single model
 M WS BS S T W I A Ld Invocation
 Floating Court - - - 5 5 5 - - - 1
 Paramours (3) - 5 5 5 - - 6 2 7
 Ghost Steeds (1) 8 3 0 3 - - 2 * 4 Chariot 50x100mm base
-We
-apon:
-Throwing Weapons (Paramours only)
-Armour:
-Innate Defence (5+​ )
+Weapons: Throwing Weapons (Paramours only)
+Armour: Innate Defence (5+ )
 Va
-mpiric Special Rules:
-Undead, Vampiric (6+)
+mpiric Special Rules: Undead, Vampiric (6+)
 Options: pts
 Blood Ties (Lamia) options:
 May gain Wake the Dead 25
-Sp
-ecial Rules:
-Large Target, Random Attack (2D6​ ) (Ghost Steeds only), Ethereal (Ghost Steeds only), Terror, Ward Save (4+​ )
+Special Rules: Large Target, Random Attack (2D6 ) (Ghost Steeds only), Ethereal (Ghost Steeds only), Terror, Ward Save (4+ )
 20
 MOUNTS
 The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
 Skeletal Steed
 M WS BS S T W I A Ld
 8 2 - 3 3 1 2 1 3 WAr Beast 25x50mm base
-Armour:
-Mount’s Protection (6+)
-Undead Special Rules:
-Undead
-Sp
-ecial Rules:
-Ethereal (Skeletal Steed only)
+Armour: Mount's Protection (6+)
+Undead Special Rules: Undead
+Special Rules: Ethereal (Skeletal Steed only)
 Options: pts
 May take one of the following upgrades:
-Mount’s Protection (5+) 15
-Fly (8​ ) (only as Vampire´s Mount) 35
+Mount's Protection (5+) 15
+Fly (8 ) (only as Vampire´s Mount) 35
 Monstrous Revenant
 M WS BS S T W I A Ld
 6 4 - 5 5 4 2 4 4 Monstrous Beast 50x50mm base
-Undead Special Rules:
-Undead
-Sp
-ecial Rules:
-Large Target, Fear
+Undead Special Rules: Undead
+Special Rules: Large Target, Fear
 Options: pts
 May take up to two of the following upgrades:
 Poisoned Attacks 5
 Lethal Strike 10
-Vampiric (5+​ ) 15
-Random Attacks (D6+2​ ) 30
-Fly (8​ ) 40
+Vampiric (5+ ) 15
+Random Attacks (D6+2 ) 30
+Fly (8 ) 40
 Shrieking Horror
 M WS BS S T W I A Ld
 6 4 - 5 6 6 2 4 4 Monster 100x150mm base
-Undead Special Rules:
-Undead
-Sp
-ecial Rules:
-Chilling Shriek (6, 4​ ), Fly (8​ ), Regeneration (6+​ )
+Undead Special Rules: Undead
+Special Rules: Chilling Shriek (6, 4 ), Fly (8 ), Regeneration (6+ )
 21
 Cadaver Wagon
 M WS BS S T W I A Ld
 Cadaver Wagon - - - 4 4 4 - - -
 Shambling Horde 4 1 - 3 3 - 1 * - Chariot 50x100mm base
-Armour:
-Mount’s Protection (5+)
-Undead Special Rules:
-Undead
-Sp
-ecial Rules:
-Random Attack (2D6​ ) (Shambling Horde only),
-Regeneration (4+​ ), Supernatural Aura
-Cart: ​ The Cadaver Wagon may perform a March
+Armour: Mount's Protection (5+)
+Undead Special Rules: Undead
+Special Rules: Random Attack (2D6 ) (Shambling Horde only),
+Regeneration (4+ ), Supernatural Aura
+Cart: The Cadaver Wagon may perform a March
 moves despite being a Chariot but does not possess
 the Swiftstride special rule.
 Options: pts
@@ -898,35 +777,26 @@ M WS BS S T W I A Ld
 Floating Court - - - 5 5 5 - - -
 Paramours (2) - 5 5 5 - - 6 2 7
 Ghost Steeds (1) 8 3 0 3 - - 2 * Chariot 50x100mm base
-We
-apon:
-Throwing Weapons (Paramours only)
-Armour:
-Innate Defence (5+​ )
+Weapons: Throwing Weapons (Paramours only)
+Armour: Innate Defence (5+ )
 Va
-mpiric Special Rules:
-Undead, Vampiric (6+)
-Sp
-ecial Rules:
-Large Target, Random Attack (2D6​ ) (Ghost Steeds
+mpiric Special Rules: Undead, Vampiric (6+)
+Special Rules: Large Target, Random Attack (2D6 ) (Ghost Steeds
 only), Ethereal (Ghost Steeds only), Terror, Ward
-Save (4+​ ).
+Save (4+ ).
 Options: pts
 Blood Ties (Lamia) options:
 May gain Wake the Dead 25
 22
-Zombie Dragon​ (One of a Kind)
+Zombie Dragon (One of a Kind)
 M WS BS S T W I A Ld
 6 4 - 6 6 6 2 5 4 Monster 50x100mm base
-Armour:
-Innate Defence (4+​ )
-Sp
-ecial Rules:
-Fly (7​ ), Distracting, Breath Weapon (Strength 2​ )
-with Armour Piercing (6​ ), Regeneration (6+​ )
+Armour: Innate Defence (4+ )
+Special Rules: Fly (7 ), Distracting, Breath Weapon (Strength 2 )
+with Armour Piercing (6 ), Regeneration (6+ )
 Options: pts
 May be upgraded to Colossal Zombie Dragon 40
-Colossal Zombie Dragon: ​ The model gets +1 Weapon Skill,
+Colossal Zombie Dragon: The model gets +1 Weapon Skill,
 increasing the strength of its Innate Defence to (3+) and
 changing its base size to 100x150mm.
 23
@@ -951,8 +821,7 @@ MONSTROUS INFANTRY
 S Ghasts 6 3 - 4 5 3 2 3 5
 Vampire Spawn 6 4 - 5 4 3 4 3 8
 R Winged Reaper 6 5 - 5 5 4 4 3 10
-WA
-R BEASTS
+WAR BEASTS
 C Dire Wolf 9 3 - 3 3 1 3 1 3
 S Great Bat 1 3 - 3 3 2 3 2 3
 M Skeletal Steed 8 2 - 3 3 1 2 1 3
