@@ -13,6 +13,7 @@ while (<>) {
 	s/\x{c2}\x{ad}/-/g ;
 	s/\x{c2}\x{bc}/1\/4/g ;
 	s/\x{c2}\x{bd}/1\/2/g ;
+	s/\x{c2}\x{b4}/\'/g ;
 	s/\x{c2}\x{b0}/ degrees/g ;
 	s/\nSp\necial/\nSpecial/igs ;
 	s/\nWe\napon/\nWeapon/igs ;
