@@ -45,7 +45,6 @@ Lust: +1 Movement and Armour Piercing (1), or increases its existing Armour Pier
 Pestilence: +1 Toughness.
 Wrath: +1 Strength.
 Lightning Rage: The model has Ward Save (2+) against attacks with the Lightning Attack special rule. If a model is hit by Lightning Attack it gains Frenzy Special rule.
-Brute Force: If a Unit has this Special Rule, the unit only needs to be 4 models wide to form Full Ranks. Models with this Special rule have the Monstrous Support rule and cannot be the target of a stomp.
 Inspire Greatness: As long as one or more models with this special rule are alive and in a unit of the same troop type as themselves, the unit can make an additional Supporting attack from the second rank (but not from the third rank). Mounts can still never make supporting attacks.
 
 Armoury
@@ -54,7 +53,6 @@ Daemon Weapon: Close Combat Weapon. A Daemon Weapon grants +1 Strength and Magic
 Gifts of the Gods
 Gifts of the Gods cannot be duplicated within the army unless stated otherwise.
 Soul Feeder (15 pts): For every wound the wearer inflicts in close combat, excluding Special attacks, roll a D6. For each 6+, the wearer recovers 1 wound. This Gift cannot be taken by a model mounted on a Wasteland Dragon and does not count towards the limitation on Gifts per Character.
-Mutant of the Dark Gods (20 pts): Infantry Character only. A model with this gift receives +1 Wound, +1 Movement, has 40x40 base size, and the Brute Force Special Rule. This Gift can be duplicated within an army.
 Third Eye of Change: (Models with Mark of the Daemon Legion (Change) 45 pts, Models with Mark of the Dark Gods (Change) 30 pts) A model with this Gift has its Ward save increased by one to a maximum of 4+.
 Waste Hardened Skin: (35 pts) Wearer has Innate Defense (5+). This item cannot be taken by a model mounted on a Manticore.
 Daemonic Wings (50 pts): models On Foot only Bearer gains the Fly (8) special rule.
@@ -405,7 +403,6 @@ M WS BS S T W I A Ld
 Alliance:
 Mark of the Dark Gods (True Chaos )
 Armour: Plate Armour
-Special Rules: Brute Force
 Options: pts
 All models may replace True Chaos with another Mark of the Dark Gods 5 / model
 All models may be upgraded with the Chosen by the Gods (use the same Mark as Mark of the Dark Gods) 12 / model
