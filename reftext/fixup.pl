@@ -7,6 +7,7 @@ while (<>) {
 	s/\o{342}\o{200}\o{223}//g ;
 	s/\o{342}\o{200}\o{246}/.../g ;
 	s/\x{e2}\x{80}\x{9c}/\"/g ;
+	s/\x{e2}\x{9d}\x{96}/*/g ;
 	s/\nSp\necial/\nSpecial/igs ;
 	s/\nWe\napon/\nWeapon/igs ;
 	s/Special Rules:\n/Special Rules: /igs ;
