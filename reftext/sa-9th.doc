@@ -5,7 +5,7 @@ Saurian Ancients Army Rules Version 0.11.0 Beta
 Fantasy Battles: The 9th Age is a community-made miniatures wargame. All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
 
 Army Special Rules
-Cold-Blooded: When a model with this special rule takes a Leadership test, roll one additional D6 and remove the highest rolled D6. 
+Cold-Blooded: When a model with this special rule takes a Leadership test, roll one additional D6 and remove the highest rolled D6.
 Born Predator: Part of Models with this special rule may reroll to hit rolls of '1' in close combat.
 Palanquin: When a model with this special rule is in a unit with 5 or more models with the Bodyguard special rule, it loses the Front Rank rule. A model with this special rule can be the General even if it is also the Battle Standard Bearer and ignores all penalties when refusing a challenge.
 Telepathic Link: A Cuatl Lord may cast spells of type "Damage" through a model with this special rule within 24". When casting through the vassal, measure range from the Telepathic Link and use its forward arc and Line of sight. The Cuatl Lord may cast spells of type "missile" even if it is engaged in combat as long as the Telepathic Link isn't. If the spell is miscast, the Cuatl Lord rolls on the miscast table as normal and the Telepathic Link suffers a Strength PDU+1 hit. If you cast a spell through a Telepathic Link, the attribute gets cast through it as well.
@@ -91,7 +91,7 @@ May take Magical Items up to 100
 May take Cuatl Lord Disciplines up to 150
 Cuatl Lord Disciplines: Disciplines cannot be duplicated within an army. Maximum 150 points of disciplines per army (300 in a grand army)
 Wellspring of Power (60 pts)
-Choose one combination at the start of the game: 
+Choose one combination at the start of the game:
 The Cuatl Lord gives you an additional +4 bonus when rolling to channel in your magic phase and +1 to cast,
 OR a +4 bonus when rolling to channel in your opponent's magic phase and +1 to dispel.
 Unconquerable Will (60 pts )
@@ -418,7 +418,7 @@ May gain Predatory Roar 35
 The Skink Rider may be upgraded to Champion 60
 Magic: if upgraded to a champion, Skink Rider gains Wizard Conclave (Redwood Shaft, The Beast Within)
 Predatory Roar: One Use only. At the start of any close combat phase pick an enemy unit within 18". That unit has to reroll successful to hit rolls for the remainder of the phase.
-May take one Shooting Weapon: 
+May take one Shooting Weapon:
 Poisonous Breath (30 pts) This is a Breath Weapon with the Toxic Attacks special rule.
 Spit Poison (30 pts) This is a shooting attack with the following profile: Range 8", Quick to fire, Poisoned Attacks, Strength 6, Multiple Wounds (Ordnance), Armour Piercing (3).
 
