@@ -126,7 +126,7 @@ Type: Plate Armour. For every successful Armour Save
 made by the bearer, the unit which caused the wound
 suffers a hit with the Toxic Attack Special Rule.
 Deceiver's Buckler (25 pts)
-Type : Shield. One enemy model in base contact with the
+Type: Shield. One enemy model in base contact with the
 wielder (owning player's choice), has -1 attack down to a
 minimum of 1. The wielder gains Distracting.
 Talismans
@@ -277,7 +277,7 @@ May take a weapon (one choice only)
 Halberd 4
 Gas Globes 5
 Ratlock Pistol 10
-Ratlock Pistol : Range 12", Strength 5, Quick to Fire, Armour
+Ratlock Pistol: Range 12", Strength 5, Quick to Fire, Armour
 Piercing (1), Magical Attacks.
 In Close Combat a Ratlock Pistol count as an Additional Hand
 Weapon that inflicts Magical Attacks.
@@ -401,7 +401,7 @@ M WS BS S T W I A Ld
 Ve
 rmin Special Rules: Safety in Numbers
 Special Rules: Insignificant
-Disposable : Units with this rule that break from
+Disposable: Units with this rule that break from
 combat are immediately destroyed.
 Options: pts
 May upgrade one model to a Musician 10 pts
@@ -445,7 +445,7 @@ Jezails 90 pts
 M WS BS S T W I A Ld
 5 3 3 3 3 2 4 2 5 Infantry 25x50mm base
 Armour: Pavise: Grants the model a 4+ Armour Save against ranged attacks.
-Weapons: Jezail : Shooting weapon. Range 36". Strength 6. Armour Piercing (1), Unwieldy, Magical Attacks.
+Weapons: Jezail: Shooting weapon. Range 36". Strength 6. Armour Piercing (1), Unwieldy, Magical Attacks.
 Muskets never suffer To Hit penalties from long range.
 Ve
 rmin Special Rules: Safety in Numbers, Callous
@@ -508,7 +508,7 @@ Weapons: Rotary Gun, Naphtha Thrower, Globe Launcher, Meat Grinder.
 Ve
 rmin Special Rules: Safety in Numbers, Callous
 Special Rules: Immune to Psychology,
-Thunder Hulks : In each turn one model in the unit may use one of its weapons. If a misfire is rolled in the shooting
+Thunder Hulks: In each turn one model in the unit may use one of its weapons. If a misfire is rolled in the shooting
 phase, no shots are fired and the unit suffers D3 wounds with no saves of any kind allowed.
 Rat Swarm 40 pts
 2 models, may add up to 8 models for 15 pts / model
@@ -567,7 +567,7 @@ M WS BS S T W I A Ld
 Catapult - - - - 7 3 - - -
 Crew (3) 5 3 3 3 4 - 4 1 7 War Machine 75mm round base
 Weapons: Additional Hand Weapon (Crew Only)
-Plague Catapult :
+Plague Catapult:
 This is a Catapult (3") Artillery Weapon with
 Range 12-48", Toxic Attacks, Magical Attacks.
 Ve
@@ -645,7 +645,7 @@ Options: pts
 May take Cauldron of Blight 20
 State of Trance: The Blight Furnace and the unit it is within have the Immune To Psychology special rule. A Blight
 Furnace may only join a unit of Blight Monks.
-Cauldron of Blight : A wizard with this Special Rule does not roll for spells but always knows the following 3 spells:
+Cauldron of Blight: A wizard with this Special Rule does not roll for spells but always knows the following 3 spells:
 Putrefying Touch (Path of Disease), Mass of Flesh (Path of Disease) and The Hunger (Path of Ruin). These spells
 cannot be duplicated within the army. If a model with this Special rule is not a wizard the Furnace can reroll its
 grinding attacks.
