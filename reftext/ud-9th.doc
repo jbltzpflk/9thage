@@ -1,0 +1,827 @@
+Fantasy Battles
+The 9th Age
+Undying Dynasties
+Army Rules
+Version 0.11.0 Beta
+Army Special Rules
+Armoury
+Magical Items
+Quick Reference Sheet
+Change Log
+Lords
+Heroes
+Core
+Special
+Rare
+Mounts
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.
+All relevant rules, as well as feedback and suggestions, can be found/given here:
+http://www.the-ninth-age.com/
+Rules changes between versions are colour coded in green. See change log at end of document.
+Army Special Rules
+Rulers of the Dead
+An Undying Dynasty army requires the Player to field a special model called an Hierophant. The Hierophant of the army
+must be a Wizard using the Path of Sands and must be designated as the Hierophant on the army list. The chosen
+character gains Regeneration (6+) and grants this effect to any unit it joins. Units suffer one less wound than normally
+inflicted by Unstable and Dust to Dust if within the range of the Battle Standard Bearer’s Hold your Ground.
+Dust to Dust
+At the end of any phase in which the Hierophant is removed as a casualty, every unit in the army with one or more
+models with Dust to Dust must pass a Leadership test or suffer an amount of wounds with no saves of any kind allowed,
+equal to the amount by which the test was failed. These wounds are distributed following the rules for Unstable except
+they can never be distributed to models that do not have Dust to Dust. This is reduced by one wound if the unit received
+Hold Your Ground.
+At the beginning of your next Player's Turn following the death of the Hierophant, a new Hierophant may be selected. In
+order to do so, the Player must nominate another eligible character who is a Wizard using the Path of the Sands. This
+character is your new Hierophant. If the army does not have any eligible character, every unit with the Dust to Dust rule
+must once again pass a Leadership test or suffer wounds as described above. This effect will repeat itself at the start of
+each of the owning Player’s turn until the game ends.
+Undead Constructs
+Models with this special rule reduce the number of wounds caused by the Dust to Dust and Unstable Special Rules by 1.
+Furthermore, models with this Special Rule are subject to Undead and Dust to Dust.
+Undying Will
+A character with this rule may confer its unmodified Weapon Skill to all Undead models that are part of its unit. The
+Player may chose to do so at the start of ,any Close Combat phase. If the Character is mounted on a Large Target, it may
+instead choose to confer this bonus to a friendly Undead unit within 6” or, if engaged in combat, to one friendly Undead
+unit engaged with the same enemy unit as the Character. In either case, the effect lasts until the end of the phase.
+Necromantic Aura
+All friendly units within 6" of one or models with this Special Rule reduce the number of wounds caused by Dust to Dust
+and Unstable by 1. Models with the Necromantic Aura cannot benefit themselves from Necromantic Aura.
+2
+Mummy's Curse
+When a model with this rule is removed from play, the model which caused the final wound automatically suffers a
+Strength 6 hit with Armour Piercing (6). If more than one model was part of the action which brought the downfall of
+the character, the hit is randomly distributed like shooting.
+Underground Ambush
+A unit with this rule follows the same rules for Ambush with one exception: instead of entering the battlefield from a
+table edge, the designated unit must enter the board from a location called the Underground Point. To designate an
+Underground Point, the Undying Dynasties Player may select any point on the battlefield outside 3" of an enemy unit
+and outside 1/2" of impassable terrain. The point is then scattered 2D6" in a random direction. The Underground
+Ambush unit may be placed with with the front of its first rank, or back of its rear rank, touching the Underground
+Point. If the point ends beneath an enemy unit, place the Ambushing unit in base contact with this enemy’s front facing
+instead (maximizing contact as normal). The arriving unit counts as having successfully charged with no charge
+reaction allowed. If it is not possible to place the Ambushing unit for whatever reason, the ambush is failed and the
+Player may roll again next turn.
+Risen
+Each unit's profile contains a Risen sub-section that determines the number of wounds healed or raised with No Rest in
+Death.
+Armoury
+Aspen Bow
+Shooting Weapon. Range 24”, Strength 3, Volley Fire; This weapon ignores all modifiers To Hit.
+Great Aspen Bow
+Shooting Weapon. Range 36”, Strength 5, Volley Fire; This weapon ignores all shooting modifiers To Hit.
+Counts as; Hand Weapon, -1 Strength in Close Combat
+Giant Aspen Bow
+Shooting Weapon. Range 48”, Strength 7, Multiple Wounds (D3), Armour Piercing (6); This weapon ignores all
+modifiers To Hit.
+3
+Monarchs of Undeath
+These options represent various kinds of Undead forces that can be encountered in the world.
+Commander of the Terracotta Army
+Skeletons, Skeleton Cavalry and Necropolis Guard must be
+upgraded with +1 Toughness, -1 Initiative and Undead
+Construct for +3 pts/model.
+Necropolis Guard may only add up to 20​ models to the
+unit.
+All other non Undead Construct units (including
+characters) must be upgraded with +1 Toughness, -1
+Initiative and Undead Construct for +15 pts/model.
+Skeleton Chariots may only add up to 3​ models to the unit.
+All models reduce their Risen characteristic to 1.
+The Underground Ambush and Free Reform special rule
+cannot be used by any unit in the army.
+Great Vultures, Scarab Swarm and Winged Reapers may
+not be taken in the army.
+Lord of the Barrow Legion
+Skeletons must take Heavy Armour for +2 pts/model;
+may exchange Spears for Halberds +2 pts/model.
+Skeleton Cavalry may take Lance for +3 pts/model; may take
+Heavy Armour for +3 pts/model.
+Skeleton Chariots must take Heavy Armour for +5 pts/model;
+may take Halberds for +5 pts/model; may only add up to 4
+models to the unit.
+Necropolis Guard must be upgraded with Heavy Armour for
++2 pts/model; may only add up to 25​ models to the unit.
+Scarab Swarm must be upgraded with the Ethereal special
+rule for +15 pts/model; may only add up to 2 models to the
+unit.
+Ethereal models reduce their Risen characteristic to 1.
+Models with Large Target and Monstrous Cavalry may not be
+taken in the army. Underground Ambush and Scout Special
+Rules may not be used by any unit in the army. Units with
+Heavy Armour cannot use Free Reform Special Rule.
+4
+Magical Items
+Magical Weapons
+Vanquisher Eternal ​ (55 pts)
+Type: Halberd. Models on foot only. The Weapon has two
+modes of attack, Focused Strike and Sweeping Strike.
+Choose at the beginning of each combat round which
+mode is used.
+Focused Strike: Attacks in this mode have Multiple
+Wounds (D3) and Lethal Strike Special Rules.
+Sweeping Strike: All of the model's attacks are
+exchanged for: each enemy model in base to base contact
+with the wielder suffers an automatic hit, while models
+which could make a supporting attack against the
+wielder suffer a hit on 4+. These hits have the Lethal
+Strike Special Rule.
+Scourge of Kings ​ (50 pts)
+Type: Hand Weapon. Attacks made with this weapon
+have Armour Piercing (1). Furthermore, every successful
+hit with this weapon becomes two hits, instead of one.
+Magical Armour
+Crown of the Pharaohs ​ (45 pts)
+Type: None (6+ armour save). The Wearer may use his
+Undying Will special rule on a single friendly unit within
+6". If a character is engaged in close combat, it may only
+choose to confer its unmodified Weapon Skill to one
+fr
+iendly Undead unit engaged with the same enemy unit
+as the Character. In addition the player may choose to
+use the Undying Will special rule in the shooting phase
+by bestowing his unmodified Ballistic Skill instead of his
+Weapons Skill. The Undying Will special rule may be
+used only in a single phase of each turn. Wearer mounted
+on a mount with Large Target rule adds 6" to the range
+of the item.
+Armour of Eternities ​ (35 pts)
+Type: Plate Armour. Models on foot only. The wearer has
++1 Wound.
+Talismans
+Brooch of the Sun ​ (15 pts)
+One model, or part of a model, in base contact with the
+wearer’s model, chosen by the controlling player, has its
+attacks characteristic reduced by 1 (to a minimum of 1).
+Models which do not use Attack characteristic to attack
+cannot be affected by this item.
+Enchanted Items
+Death Mask of Teput ​ (30 pts)
+Enemy units in base contact with the wearer cannot
+receive the Inspiring Presence or the Hold your Ground
+rule. Choose before your opponent performs a
+Leadership test at the end of a round of close combat.
+Sandstorm Cloak ​ (60/40 pts)
+Models on foot only. Choose at the beginning of owner’s
+turn one of the following effect: the Wearer either gains
+Fly (7) in the Remaining Moves sub-phase or all enemy
+shooting beyond 12” suffers a penalty of -1 To Hit when
+targeting the Character or the unit he is in. Both effect
+lasts until the beginning of owner’s next turn.
+Chariot of Nephet-Ra ​ (25 pts)
+- models on chariots only
+The Impact Hits made by the wearer’s chariot and the
+chariot's mount’s attacks have Magical Attacks and
+Flaming Attacks special rules, and are resolved at +1
+Strength.
+Arcane Items
+Book of the Dead​ (35 pts)
+When generation spells the bearer must exchange the
+Path Attribute of his chosen Path with No Rest In Death
+Path Attribute from Path of the Sands. If already using
+No Rest In Death, the D3 for healing effect may be
+re-rolled.
+Magical Standards
+Unyielding Standard ​ (40 pts)
+Bound Spell, Power Level 4. Contains Protection of
+Phatep, which can only be cast on the unit carrying the
+standard.
+5
+Army List
+LORDS
+Pharaoh ​ 175 pts
+single model
+M WS BS S T W I A Ld Risen
+4 6 3 5 5 4 3 4 10 1 Infantry 20x20mm base
+Armour:
+Light Armour
+Undead Special Rules:
+Undead, Dust to Dust
+Sp
+ecial Rules:
+Flammable, Undying Will, Fear, Mummy’s Curse
+Options: pts
+May take Magical Items up to 100
+May take any of the following
+Heavy Armour 12
+Shield 3
+May take a Great Aspen Bow 15
+May take a weapon (one choice only)
+Additional Hand Weapon 5
+Flail 5
+Halberd 10
+Lance 15
+Great Weapon 15
+May take a mount (one choice only)
+Skeletal Horse 20
+Chariot 45
+Royal Sphinx 180
+May select Monarchs of Undeath (General only):
+Commander of the Terracotta Army free
+Lord of the Barrow Legion free
+Death Cult Hierarch ​ 175 pts
+single model
+M WS BS S T W I A Ld Risen
+4 3 3 3 4 3 2 1 8 1 Infantry 20x20mm base
+Undead Special Rules:
+Undead, Dust to Dust
+Magic:
+Level 3 Wizard ​ Master​ .
+Generate spells from the Path of the Sands, Light or
+Death.
+Options: pts
+May become a Level 4 wizard 35
+May take Magical Items up to 100
+May take a mount (one choice only)
+Skeletal Horse 20
+Ark of Ages 150
+May be upgraded to Soul Conduit 50
+Soul Conduit:​ If a friendly model with this rule is present on the battlefield at the
+beginning of the Magic Phase, the owning player rolls 7+D3 instead of 2D6 to determine
+the effects of the Magic Flux roll. The number of Dispel Dice designated to the opposing
+player is always 6 plus any generated through channeling and other means.
+6
+HEROES
+Nomarch ​ 115 pts
+single model
+M WS BS S T W I A Ld Risen
+4 5 3 4 5 3 3 3 9 1 Infantry 20x20mm base
+Armour:
+Light Armour
+Undead Special Rules:
+Undead, Dust to Dust
+Sp
+ecial Rules:
+Flammable, Undying Will, Fear, Mummy’s Curse
+Options: pts
+May take Magical Items up to 50
+May take any of the following
+Heavy Armour 12
+Shield 3
+May take an Aspen Bow 3
+May take a weapon (one choice only)
+Additional Hand Weapon 3
+Flail 3
+Halberd 4
+Lance (mounted only) 6
+Great Weapon 6
+May take a mount (one choice only)
+Skeletal Horse 20
+Chariot 45
+Death Cult Acolyte ​ 65 pts
+single model
+M WS BS S T W I A Ld Risen
+4 3 3 3 3 2 2 1 7 1 Infantry 20x20mm base
+Undead Special Rules:
+Undead, Dust to Dust
+Magic:
+Level 1 Wizard ​ Apprentice​ .
+Generate spells from the Path of the Sands, Light or
+Death.
+Options: pts
+May become a Level 2 wizard 25
+May take Magical Items: up to 50
+May take a mount (one choice only)
+Skeletal Horse 15
+Ark of Ages 150
+7
+Tomb Harbinger ​ 70 pts
+single model
+M WS BS S T W I A Ld Risen
+4 4 3 4 5 2 3 3 8 1 Infantry 20x20mm base
+Armour:
+Light Armour
+Undead Special Rules:
+Undead, Dust to Dust
+Sp
+ecial Rules:
+Flammable, Undying Will, Lethal Strike, Poisoned
+Attacks
+Options: pts
+May be the Battle Standard Bearer 25
+May take Magical Items up to 50
+May take any of the following
+Shield 3
+Heavy Armour 12
+May take an Aspen Bow 3
+May take a weapon (one choice only)
+Additional Hand Weapon 3
+Flail 3
+Halberd 4
+Lance 6
+Great Weapon 6
+May take a mount (one choice only)
+Skeletal Horse 20
+Chariot 45
+Amuut 50
+Royal Guard: ​ Should a Pharaoh or Nomarch in the same unit as a Tomb Harbinger be attacked in Close Combat, before
+rolling to wound, one hit may be transferred onto the Tomb Harbinger instead. A Tomb Harbinger may intervene
+against only a single attack per round of Close Combat and cannot intervene against hits suffered during a Challenge.
+8
+Tomb Architect ​ 70 pts
+single model
+M WS BS S T W I A Ld Risen
+4 4 3 4 4 2 3 2 7 1 Infantry 20x20mm base
+Armour:
+Light Armour
+Undead Special Rules:
+Undead, Dust to Dust
+Sp
+ecial Rules:
+Flammable,
+Options: pts
+May take Magical Items up to 50
+May take a Weapon (one choice only)
+Additional Hand Weapon 3
+Lance 6
+May take a mount (one choice only)
+Skeletal Horse 15
+Chariot 45
+Amuut 50
+May be upgraded to Master Mason 30
+Master Mason: ​ The range on the Master of Stone special rule is
+increased by 6''.
+Master of Stone: ​ At the beginning of the owning player's Turn a single friendly Undead Constructs unit within 12” of a
+Tomb Architect may be given Regeneration (5+). The Regeneration save lasts until the beginning of the next owning
+player's turn, or until the Tomb Architect is removed from play, whichever comes first.
+Artisan’s Wrath: ​ At the beginning of the owning player's Close Combat phase a single friendly non Undead Construct
+unit within 6" of a Tomb Architect may be given the Hatred special rule. The Hatred lasts until the end of owning
+player's turn, or until the Tomb Architect is removed from play, whichever comes first. If the unit is already in second or
+other subsequent round of combat the unit counts this turn's close combat round as the first. If the Tomb Architect's
+unit is engaged the rule may only be used on his unit. The Hatred Special Rule does not work on mounts. The Artisans
+Wrath cannot be used in the same turn as the Master of Stone.
+Mason’s Menagerie: If a Tomb Architect is your army General one unit of Shabties may be taken as a Core rather than a
+Special choice.
+9
+CORE
+Skeletons ​ 50 pts
+10 ​ models, may add up to 40 ​ models 5 pts/model
+M WS BS S T W I A Ld Risen
+4 2 2 3 3 1 2 1 6 D3+3 Infantry 20x20mm base
+Armour:
+Shields, Light Armour
+Undead Special Rules:
+Undead, Dust to Dust
+Options: pts
+May take (one choice only)
+Spears free
+exchange Shields for Aspen Bows 1 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- May become the Veteran Standard Bearer*
+*A Veteran Standard Bearer is One of a Kind and may take a
+Magical Standard worth up to 25 pts.
+Skeleton Cavalry ​ 65 pts
+5 ​ models, may add up to 15 ​ models 11 pts/model
+M WS BS S T W I A Ld Risen
+Rider 4 3 2 3 3 1 2 1 6 D3+2
+Skeletal Horse 8 2 - 3 3 1 2 1 3 Cavalry 25x50mm base
+Armour:
+Mount's Protection (6+), Shields
+Undead Special Rules:
+Undead, Dust to Dust
+Sp
+ecial Rules:
+Vanguard, Scout, Free Reform
+Options: pts
+May exchange Scout and Free Reform for
+Mount's Protection (5+) 3 / model
+May take (one choice only)
+Light Lances 1 / model
+exchange Shields for Aspen Bows 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- May become the Veteran Standard Bearer
+10
+Skeleton Chariots ​ 135 pts
+3 ​ models, may add up to 7 ​ models 35 pts/model
+M WS BS S T W I A Ld Risen
+Chariot - - - 4 4 3 - - - D3+1
+Charioteer (2) - 3 2 3 - - 2 2 7
+Skeletal Horse (2) 8 2 - 3 - - 2 1 - Chariot 50x100mm base
+We
+apons:
+Aspen Bows, Light Lances
+Armour:
+Mount's Protection (6+), Light Armour
+Undead Special Rules:
+Undead, Dust to Dust
+Options: pts
+May take Free Reform free
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- May become the Veteran Standard Bearer
+11
+SPECIAL
+Necropolis Guard ​ 80 pts
+10 ​ models, may add up to 30 ​ models 10 pts/model
+M WS BS S T W I A Ld Risen
+4 3 3 4 4 1 3 1 8 D3+1 Infantry 20x20mm base
+Armour:
+Light Armour
+Undead Special Rules:
+Undead, Dust to Dust
+Sp
+ecial Rules:
+Lethal Strike, Bodyguard, Magical Attacks,
+Poisoned Attacks
+Options: pts
+May take Shields 1 / model
+May take one of the following weapons
+Additional Hand Weapons 1 / model
+Halberds 2 / model
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may take a Magical Standard up to 50
+Scarab Swarms ​ 70 pts
+2 ​ models, may add up to 5 ​ models 25 pts/model
+M WS BS S T W I A Ld Risen
+5 3 - 2 2 5 1 5 10 D3+3 Swarm 40x40mm base
+Undead Special Rules:
+Undead, Dust to Dust
+Sp
+ecial Rules:
+Armor Piercing (1), Poisoned Attacks, Scout,
+Underground Ambush
+Shabtis ​ 120 pts
+3 ​ models, may add up to 7 ​ models 40 pts/model
+M WS BS S T W I A Ld Risen
+6 4 2 5 4 3 3 3 8 1 Monstrous Infantry 40x40mm base
+Armour:
+Light Armour, Innate Defence (5+)
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Fear
+Options: pts
+May take one of the following weapons
+Additional Hand Weapons 3 / model
+Halberds 5 / model
+Great Aspen Bow free
+May upgrade one Shabti to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may take a Magical Standard up to 25
+12
+Tomb Cataphracts ​ 165 pts
+3 ​ models, may add up to 3 ​ models 55 pts/model
+M WS BS S T W I A Ld Risen
+Rider 4 4 3 4 4 1 3 2 8 1
+Amuut 7 3 - 5 4 3 3 3 8 Monstrous Cavalry 50x100mm base
+We
+apons:
+Light Lances
+Armour:
+Mount's Protection (6+), Light Armour, Innate
+Defence (5+)
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Lethal Strike (Rider Only), Fear, Poisoned Attacks
+(Amuut Only)
+Options: pts
+May take Underground Ambush 20
+May upgrade one model to each of the following:
+Champion 10
+Musician 10
+Standard Bearer 10
+- may take a Magical Standard up to 50
+Great Vultures ​ 60 pts
+2 ​ models, may add up to 7 ​ models 20 pts/model
+M WS BS S T W I A Ld Risen
+2 3 - 4 4 2 3 3 4 D3+1 War Beast 40x40mm base
+Undead Special Rules:
+Undead, Dust to Dust
+Sp
+ecial Rules:
+Fly (10), Skirmishers
+Sand Scorpion ​ 85 pts
+Single Model
+M WS BS S T W I A Ld Risen
+7 4 - 5 5 4 3 4 8 1 Monstrous Beast 50x50mm base
+Armour:
+Innate Defence (5+)
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Lethal Strike, Fear, Poisoned Attacks, Magic
+Resistance (2), Underground Ambush
+13
+Sand Stalkers ​ 150 pts
+3 ​ models, may add up to 4​ ​ models 50 pts/model
+M WS BS S T W I A Ld Risen
+7 3 6 4 4 3 3 2 8 1 Monstrous Beast 50x100mm base
+We
+apons:
+Halberd
+Armour:
+Innate Defence (5+)
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Fear, Free Reform
+Options: pts
+May take Underground Ambush 20
+May upgrade one model to a Champion 10
+Petrifying Gaze: ​ Models with this rule may perform a special shooting attack with the following profile:
+Range 12”, Strength 2, Armour Piercing (6), Multiple Shots (D6+1), Quick to Fire. When rolling To Wound, use the
+highest Initiative of the model as its Toughness.
+Battle Sphinx ​ 220 pts
+Single Model
+M WS BS S T W I A Ld Risen
+Battle Sphinx 6 4 - 5 8 5 1 4 8 1
+Riders (4) - 4 3 4 - - 3 2 8 Ridden Monster 50x100mm base
+We
+apons:
+Light Lances
+Armour:
+Innate Defence (5+)
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Lethal Strike (Rider Only), Poisoned Attacks
+(Mount Only)
+Options: pts
+May take Innate Defence (4+) 25
+May take Breath Weapon 25
+(Strength 4, Flaming Attacks)
+14
+RA
+RE
+Winged Reapers​ 160 pts
+2 ​ models, may add up to 3 ​ models 75 pts/model
+M WS BS S T W I A Ld Risen
+6 5 3 5 5 4 4 3 10 1 Monstrous Infantry 50x75mm base
+Armour:
+Innate Defence (5+)
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Fly (6), Lethal Strike, Terror, Necromantic Aura
+Options: pts
+May take Light Armor 10 / model
+May take a weapon (one choice only)
+Additional Hand Weapons 5 / model
+Halberds 10 / model
+Dread Sphinx ​ 225 pts
+Single Model
+M WS BS S T W I A Ld Risen
+6 5 - 5 8 5 1 5 8 1 Monstrous Beast 50x100mm base
+Armour:
+Innate Defence (5+)
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Fly (7), Devastating Charge, Large Target, Multiple
+Wounds (2, Monstrous Cavalry, Monstrous Beasts
+and Monsters), Terror, Lethal Strike, Poisoned
+Attacks, Armour Piercing (1)
+Options: pts
+May be upgraded with Innate Defence (4+) 25
+15
+Colossus ​ 180 pts
+Single Model
+M WS BS S T W I A Ld Risen
+6 4 2 6 6 5 2 5 8 1 Monster 50x50mm base
+Armour:
+Light Armour, Innate Defence (5+)
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Grinding Attacks (D3+1)
+Options: pts
+May take a weapon (one choice only)
+Additional Hand Weapon 5
+Great Weapon 10
+Giant Aspen Bow 15
+Scales of Destiny 5
+Scales of Destiny: ​ Close Combat Weapon. Type: Hand Weapon,
+-1 Attack in Close Combat. The Colossus has two Bound Spells:
+Burning Brightness (Power Level 4) and Touch of the Reaper
+(Power Level 4).
+16
+Casket of Phatep ​ 115 pts
+Single Model
+M WS BS S T W I A Ld Risen
+Casket - - - - 7 3 - - - 1
+Necropolis Guard (3) 4 3 3 4 4 - 3 1 8 War Machine 75mm round base
+We
+apons:
+Halberds
+Armour:
+Light Armour
+Undead Special Rules:
+Undead, Dust to Dust
+Sp
+ecial Rules:
+Lethal Strike, Poisoned Attacks, Magical Attacks, Ward Save (5+)
+Wailing Spirits: ​ A Casket of Phatep may perform a special shooting attack with Range 36”, Armour Piercing (6), Magical
+Attacks, Multiple Wounds (Ordnance). Instead of rolling to hit and to wound as normal, the target of this attack must
+take a Leadership test on 3D6. If the test is failed, the target is automatically hit and wounded. Hold Your Ground cannot
+be used for this Leadership test.
+Charnel Catapult ​ 130 pts
+Single Model
+M WS BS S T W I A Ld Risen
+Charnel Catapult - - - - 7 3 - - - 1
+Skeletons (3) 4 2 2 3 3 - 2 1 6 War Machine 75mm round base
+Undead Special Rules:
+Undead, Dust to Dust
+We
+apons:
+Charnel Catapult:​ This is a Catapult (5”) Artillery Weapon​ with
+Range 48”, Strength 3, Flaming Attacks, Magical Attacks.
+Units that suffer at least one casualty from this weapon must take a panic test just as if had suffered 25% casualties.
+Panic tests caused by a Charnel Catapult are taken at -1 Leadership.
+17
+MOUNTS
+The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
+Skeletal Horse
+M WS BS S T W I A Ld
+8 2 - 3 3 1 2 1 3 War Beast 25x50mm base
+Armour:
+Mount's Protection (6+)
+Undead Special Rules:
+Undead, Dust to Dust
+Options: pts
+May take Barding 10
+Amuut
+M WS BS S T W I A Ld
+7 3 - 5 4 3 3 3 8 Monstrous Beast 50x100mm base
+Armour:
+Mount's Protection (6+)
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Poisoned Attacks, Fear
+Royal Sphinx
+M WS BS S T W I A Ld
+6 4 - 5 6 5 1 4 8 Monstrous Beast 50x100mm base
+Undead Special Rules:
+Undead Construct
+Sp
+ecial Rules:
+Poisoned Attacks, Large Target, Terror
+Options: pts
+May be upgraded with (one choice only)
+Lethal Strike 25
+Necromantic Aura 15
+18
+Chariot
+M WS BS S T W I A Ld
+Chariot - - - 4 4 3 - - -
+Skeletal Horse (2) 8 2 - 3 - - 2 1 - Chariot 50x100mm base
+Armour:
+Mount's Protection (6+)
+Undead Special Rules:
+Undead, Dust to Dust
+Options: pts
+May be pulled by two additional Skeletal Steeds free
+[Base Size increased to 100x100mm]
+Ark of Ages
+M WS BS S T W I A Ld
+Ark of Ages - - - 4 5 4 - - -
+Necropolis Guard (2) - 3 3 4 - - 3 1 8
+Bound Spirits 4 2 - 2 - - 2 6 - Chariot 60x100mm base
+Armour:
+Mount's Protection (5+)
+We
+apons:
+Aspen Bow (Necropolis Guard only)
+Undead Special Rules:
+Undead Construct
+Options: pts
+May gain Necromantic Aura 15
+Sp
+ecial Rules:
+War Platform, Ward Save (5+), Lethal Strike (Necropolis Guard only), Poisoned Attacks (Necropolis Guard Only),
+Magical Attacks
+Sacred Ark: A Wizard mounted on an Ark of Ages adds 3" to the range of his spells and gains three additional spells:
+Wi
+nd Blast from the Path of Heavens, Curse of the Westerlies from the Path of Heavens and Shifting Sands from the
+Path of Sands. The wizard gains these spells in addition to any spell he might already have. Duplicate spells are
+resolved following the normal rules for duplicate spells in the Rulebook
+19
+Quick Reference Sheet
+L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
+CHARACTERS M WS BS S T W I A Ld
+L Pharaoh 4 6 3 5 5 4 3 4 10
+Death Cult Hierarch 4 3 3 3 4 3 2 1 8
+H Death Cult Acolyte 4 3 3 3 3 2 2 1 7
+Nomarch 4 5 3 4 5 3 3 3 9
+Tomb Harbinger 4 4 3 4 5 2 3 3 8
+Tomb Architect 4 4 2 4 4 2 3 2 7
+INFANTRY
+C Skeleton 4 2 2 3 3 1 2 1 6
+S Necropolis Guard 4 3 3 4 4 1 3 1 8
+MONSTROUS INFANTRY
+S Shabti 6 4 2 5 4 3 3 3 8
+R Winged Reaper 6 5 3 5 5 4 4 3 10
+WA
+R BEASTS
+S Great Vulture 2 3 - 4 4 2 3 3 4
+M Skeletal Horse 8 2 - 3 3 1 2 1 3
+MONSTROUS BEASTS
+S Sand Scorpion 7 4 - 5 5 4 3 4 8
+Sand Stalker 7 3 6 4 4 3 3 2 8
+R Dread Sphinx 6 5 - 5 8 5 1 5 8
+M Amuut 7 3 - 5 4 3 3 3 8
+Royal Sphinx 6 4 - 5 6 5 1 4 8
+SWARMS
+S Scarab Swarm 5 3 - 2 2 5 1 5 10
+CAVALRY M WS BS S T W I A Ld
+C Skeleton Cavalry 4 3 2 3 3 1 2 1 6
+- Skeletal Horse 8 2 - 3 3 1 2 1 3
+MONSTROUS CAVALRY
+S Tomb Cataphract 4 4 3 4 4 1 3 2 8
+- Amuut 7 3 - 5 4 3 3 3 8
+CHARIOTS
+C Skeleton Chariot - - - 4 4 3 - - -
+- Charioteer (2)[0] - 3 2 3 - - 2 2 7
+- Skeletal Steed (2)[2-4] 8 2 - 3 - - 2 1 3
+M Ark of Ages - - - 4 5 4 - - -
+- Necropolis Guard [2] - 3 3 4 - - 2 1 8
+- Bound Spirits 4 2 - 2 - - 2 6 -
+(2) - number of crew members when taken as a separate unit
+[0] - number of crew members when taken as a mount
+MONSTERS
+R Colossus 6 4 2 6 6 5 2 5 8
+RIDDEN MONSTERS
+S Battle Sphinx 6 4 - 5 8 5 1 4 8
+- Rider (4) - 4 3 4 - - 3 2 8
+WA
+R MACHINES
+R Casket of Phatep - - - - 7 3 - - -
+- Necropolis Guard (crew) 4 3 3 4 4 - 3 1 8
+Charnel Catapult - - - - 7 3 - - -
+- Skeleton Crew 4 2 2 3 3 - 2 1 6
+SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
+Sand Stalkers Petrifying Gaze - 12 2 D6+1 - 6
+Casket of Phatep Wailing Spirits - 36 * * * 6
+Charnel Catapult Charnel Catapult Catapult (5”) 48 3 - -
+RISEN
+All Characters 1 Other: Skeleton D3+3 Necropolis Guard D3+1
+All Undead Constructs 1 Scarab Swarm D3+3 Skeleton Chariot D3+1
+All War Machines 1 Skeleton Cavalry D3+2
+20
+CHANGE LOG
+released version 0.9.0 beta
+v0.9.1
+Casket of Phatep poisoned attacks
+Ark of ages, poisoned attacks and lethal strike
+catapult crew initiative
+Royal Sphinx points
+Skeletons Ld
+casket of phatep, shooting attacks
+v0.10.0
+Additional hand weapons for Necropolis Guard
+Increased Skeleton Chariots unit size by 1
+Tomb Architect Rules made exclusive
+Casket of Phatep reduced damage output
+Changes to the Book of the Dead
+Changes to Divine Reservoir
+Added Sacred Guardian to Soul Colossus
+Huntersphinx toughness and cost
+great vultures cost
+core units magic banners
+Added Risen to Army Rules and unit
+Tomb Architect got ‘Not a Leader’ (no functional change)
+Soul Conduit added to Cult Hierarch
+Soul Colossus cost reduced
+Stalkers exchange Skirmish for Free Reform
+Reduced size on Vultures and Swarms
+Casket shooting attack reworked
+v0.10.1
+Tomb Cataphracts gains Mount protection 6+ (typo fixed)
+Changed Innate Protection to Innate Defence in the whole document
+v0.11.0
+Monarchs of Undeath added
+Mason’s Menageire added to the Tomb Architect
+Cost changed on additional Skeleton Cavalry models
+Cost changed on Sand Stalkers
+Soul Colossus and War Colossus merged
+Dust to Dust, Undead Construct and Necromantic Aura streamlined
+Charnel Catapult weapon change
+Wailing Spirits
+v0.11.1
+Catapult base changed from 75” to 75mm
+Added lines to Lord of the Barrow Legion which prevents healing Swarms D3+3 and combining Halberds and Bows on
+Skeletons
+Upped the cost of the Terracotta upgrades, added maximum unit sizes
+21
