@@ -11,6 +11,9 @@ while (<>) {
 	s/\x{e2}\x{9d}\x{96}/*/g ;
 	s/\x{e2}\x{97}\x{8f}/*/g ;
 	s/\x{c2}\x{ad}/-/g ;
+	s/\x{c2}\x{bc}/1\/4/g ;
+	s/\x{c2}\x{bd}/1\/2/g ;
+	s/\x{c2}\x{b0}/ degrees/g ;
 	s/\nSp\necial/\nSpecial/igs ;
 	s/\nWe\napon/\nWeapon/igs ;
 	s/Special Rules:\n/Special Rules: /igs ;

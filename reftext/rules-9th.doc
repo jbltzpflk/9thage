@@ -232,14 +232,14 @@ to choose the Deployment Zone
 decides if they want to be the attacker
 or the defender. The attacker may
 deploy more than 9" from the central
-line if within ¼ of the table's length
+line if within 1/4 of the table's length
 fr
 om either table edge (18" on a 72"
 table), and more than 15" from the
 central line elsewhere. The defender
 does the opposite: more than 15" away
 fr
-om the central line if within ¼ of the
+om the central line if within 1/4 of the
 table's length from the table's short
 edges, and more than 9" away from the
 central line elsewhere.
@@ -462,7 +462,7 @@ Any model with the special rule Large Target.
 23
 Unit Spacing
 All units must under normal circumstances be separated by at least 1" fromanyotherunits(friendsorfoes)andfrom
-Impassable Terrain. A unit may come within ½" of these elements during the course of a move but must be kept 1"
+Impassable Terrain. A unit may come within 1/2" of these elements during the course of a move but must be kept 1"
 away once the move ends. Certain forms of movement are specifically allowedtobreakthisspacingrule,withthebest
 example being a charge which allows a unit to engageenemiesinCloseCombat.Othertypesofmovesmayallowaunit
 to come closer than 1" tofriendlyunitsorImpassableTerrainbutonlyachargeallowsdirectcontactwithenemyunits.
@@ -517,7 +517,7 @@ A unit's Centre is defined by drawinganimaginaryrectanglearoundtheouteredgesofth
 of this box is considered to be the Centre of the unit.
 Unit Facing and Arcs
 A unit has 4 arcs: front, rear,andtwoflanks.Eacharcisdeterminedbyextendingastraightlinefromthecornersofthe
-unit's bases, in a 135° angle from the unit's front(forthefrontarc),rear(forthereararc)orflanks(fortheflankarcs),
+unit's bases, in a 135 degrees angle from the unit's front(forthefrontarc),rear(forthereararc)orflanks(fortheflankarcs),
 see figure 3. Units on round bases don't have arcs (they can draw Line of Sight from any point on their bases, in any
 direction).
 Fig
@@ -538,7 +538,7 @@ is
 the centre of the rectangle drawn
 around its outer edges (marked with a
 red x). The front, side and rear arcs are
-defined by using a 135° angle from the
+defined by using a 135 degrees angle from the
 unit's edges.
 26
 Recover Wounds and Raise Wounds
@@ -618,7 +618,7 @@ to complete the charge), the charge has failed and the charger performs a Failed
 Charge Move
 A Charge Move is resolved as follows:
 - The unit may move forward up an unlimited distance.
-- A single Wheel can be performed during the move. This Wheel may not exceed 90°.
+- A single Wheel can be performed during the move. This Wheel may not exceed 90 degrees.
 - The front of the charging unit must contact the enemy unit in the Facing where the majority of the charging
 unit's frontage was when the charge was declared (see figure 4). If the frontage of the charging unit is equally
 split in two, randomize which of the two Facings the unit is in before declaring any Charges.
@@ -732,7 +732,7 @@ always perform any number of Pivots during an Advance Move.
 Forward: The unit moves forward a distance up to its Movement Characteristic. During a forward Advance Move, a unit
 may perform any number of Wheel Manoeuvres.
 Backwards: The unit moves backwards a distance up to half its Movement Characteristic. For example, a unit with
-Movement Characteristic 5 could move backwards 2½".
+Movement Characteristic 5 could move backwards 21/2".
 Sidestep: The unit moves to either side a distance up to half its Movement Characteristic.
 March Move
 When performing a March Move, the unit can only move forward, up to twice its Movement Characteristic. During a
@@ -2684,7 +2684,7 @@ Models with Scythes add +1 to their number of Impact Hits.
 97
 Skirmishers
 Models with this special rule always also have Free Reform. Shooting at Skirmishers suffers a -1 to hit penalty.
-Skirmishing models are not placed in base to base contact with each other. Instead, models are placed with a ½"
+Skirmishing models are not placed in base to base contact with each other. Instead, models are placed with a 1/2"
 distance between them. Other than this gap between models, units of Skirmishers follow the normal rules for forming
 units and therefore have a front, two flanks and a rear. Skirmishing units can only be joined by Characters that have the
 same Troop Type as the unit. A Character which joins a unit of Skirmishers gains Skirmishers for as long as it remains
