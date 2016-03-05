@@ -2,198 +2,89 @@ Fantasy Battles
 The 9th Age
 Warriors of the Dark Gods Army Rules Version 0.11.0 Beta
 
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.
-All relevant rules, as well as feedback and suggestions, can be found/given here:
-http://www.the-ninth-age.com/
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
 
 Army Special Rules
-Gaze of the Gods
-A model with this rule cannot refuse a challenge, and must issue one if no other model does so. Immediately after killing
-a non-champion model in a challenge or slaying a monster, the controlling player rolls on the table and confers to the
-part of the model that has Gaze of the Gods:
-1 +1 Initiative If this is the second time receiving this gift, the model must take a toughness
-test. If the test passed, the model gains Stupidity. If the test is failed, the
-model turns into a Fallen Beast.
-2 +1 Weapon Skill If this is the second time receiving this gift, the model gains Lightning
-Reflexes.
+Gaze of the Gods: A model with this rule cannot refuse a challenge, and must issue one if no other model does so. Immediately after killing a non-champion model in a challenge or slaying a monster, the controlling player rolls on the table and confers to the part of the model that has Gaze of the Gods:
+1 +1 Initiative If this is the second time receiving this gift, the model must take a toughness test. If the test passed, the model gains Stupidity. If the test is failed, the model turns into a Fallen Beast.
+2 +1 Weapon Skill If this is the second time receiving this gift, the model gains Lightning Reflexes.
 3 +1 Attack If this is the second time receiving this gift, the model gains Lethal Strike.
-4 +1 Strength If this is the second time receiving this gift, the model gains Multiple Wounds
-(2).
-5 +1 Toughness If this is the second time receiving this gift, the model may gain Ward Save
-(5+) or increase an existing Regeneration or Ward Save by +1, up to a
-maximum of 3+. The player decides which effect takes place.
-6 +1 Leadership If this is the second time receiving this gift, the model may gain Stubborn or
-turn into a Daemon Prince. The player decides which effect takes place.
-Re-roll any roll that results in getting a gift a 3rd time. If the model is a combined model, special rules or Characteristic
-increases from this special rule only affect the part of the model that has Gaze of the Gods.
-When turning into a new model remove the old model from the board. It counts as being killed for all purposes, except
-fo
-r the King is Dead and the Their Flag is Down. Place the new model back on the the table within 6" of the old model's
-position. Keep it at least 1" away from all other models and impassable terrain. If the model is impossible to place
-within these guidelines, place it as close as possible to a legal position. This new model becomes your Battle Standard or
-General if replacing a model with that rule. Spawns only retain the mark of the old model, while Demonic Princes keep
-all Gifts, Magical or Mundane Items, and Marks. Fallen Beasts can never confer their Leadership to another model.
-2
+4 +1 Strength If this is the second time receiving this gift, the model gains Multiple Wounds(2).
+5 +1 Toughness If this is the second time receiving this gift, the model may gain Ward Save (5+) or increase an existing Regeneration or Ward Save by +1, up to a maximum of 3+. The player decides which effect takes place.
+6 +1 Leadership If this is the second time receiving this gift, the model may gain Stubborn or turn into a Daemon Prince. The player decides which effect takes place.  Re-roll any roll that results in getting a gift a 3rd time. If the model is a combined model, special rules or Characteristic increases from this special rule only affect the part of the model that has Gaze of the Gods.  When turning into a new model remove the old model from the board. It counts as being killed for all purposes, except for the King is Dead and the Their Flag is Down. Place the new model back on the the table within 6" of the old model's position. Keep it at least 1" away from all other models and impassable terrain. If the model is impossible to place within these guidelines, place it as close as possible to a legal position. This new model becomes your Battle Standard or General if replacing a model with that rule. Spawns only retain the mark of the old model, while Demonic Princes keep all Gifts, Magical or Mundane Items, and Marks. Fallen Beasts can never confer their Leadership to another model.
+
 Marks of the Dark Gods
-There are different Marks of the Dark Gods, each one with a different effect, explained below. Which mark a model has
-is stated in brackets. Models with a Mark of the Dark Gods (True Chaos) can join a unit with any Mark of the Dark Gods.
-Models with a Mark of the Dark Gods other than True Chaos cannot join Units with one or more models with a Mark of
-the Dark Gods other than the same as themselves or True Chaos. Wizards cannot join units with Mark of the Dark Gods
-(Wrath) or Chosen by the Gods (Wrath) models and cannot gain the Mark of the Dark Gods (Wrath) in any way. Models
-who choose a Mark of the Dark Gods as an option must specify which mark they have on the army list.
-True Chaos
-Units with majority of models with the Mark of the Dark Gods (True Chaos) may reroll failed Panic tests.
-Change
-The bearer may gain one of the following bonus effect:
-Flaming Attacks, Ward-Breaker Attacks or Hellfire, which
-affects both close combat attacks and shooting attacks.
-The effect must be chosen at the start of each combat
-phase and before shooting with a unit. Every model in a
-unit must choose the same bonus effect. Special Attacks
-such as Stomps or Impact Hits are not affected.
-Characters with a Marks of the Dark Gods (Change) that
-are Wizards do not get above effect, instead they add a
-+1 modifier to their casting roll.
-Lust
-Units with majority of models with the Mark of the Dark
-Gods (Lust) can reroll charge, pursuit and random
-movement rolls and are Immune to panic caused by 25%
-casualties (but not immune to any other kinds of panic:
-unit destroyed or broken within 6", terror-caused panic
-etc.).
-Pestilence
-Enemy models attacking or being attacked by models
-with Mark of the Dark Gods (Pestilence) have -1 Weapon
-Skill (to a minimum of 1) when rolling to hit. Toxic
-Attacks are at -1 to wound against the model.
-Wrath
-Parts of models with the Mark of the Dark Gods (Wrath)
-have +1 to hit in combat, are immune to Fear and cannot
-declare 'Flee' as a charge reaction.
-3
+There are different Marks of the Dark Gods, each one with a different effect, explained below.
+Which mark a model has is stated in brackets.
+Models with a Mark of the Dark Gods (True Chaos) can join a unit with any Mark of the Dark Gods.
+Models with a Mark of the Dark Gods other than True Chaos cannot join Units with one or more models with a Mark of the Dark Gods other than the same as themselves or True Chaos.
+Wizards cannot join units with Mark of the Dark Gods (Wrath) or Chosen by the Gods (Wrath) models and cannot gain the Mark of the Dark Gods (Wrath) in any way.
+Models who choose a Mark of the Dark Gods as an option must specify which mark they have on the army list.
+
+* True Chaos: Units with majority of models with the Mark of the Dark Gods (True Chaos) may reroll failed Panic tests.
+* Change: The bearer may gain one of the following bonus effect: Flaming Attacks, Ward-Breaker Attacks or Hellfire, which affects both close combat attacks and shooting attacks.  The effect must be chosen at the start of each combat phase and before shooting with a unit. Every model in a unit must choose the same bonus effect. Special Attacks such as Stomps or Impact Hits are not affected.  Characters with a Marks of the Dark Gods (Change) that are Wizards do not get above effect, instead they add a +1 modifier to their casting roll.
+* Lust: Units with majority of models with the Mark of the Dark Gods (Lust) can reroll charge, pursuit and random movement rolls and are Immune to panic caused by 25% casualties (but not immune to any other kinds of panic: unit destroyed or broken within 6", terror-caused panic etc.).
+* Pestilence: Enemy models attacking or being attacked by models with Mark of the Dark Gods (Pestilence) have -1 Weapon Skill (to a minimum of 1) when rolling to hit. Toxic Attacks are at -1 to wound against the model.
+* Wrath: Parts of models with the Mark of the Dark Gods (Wrath) have +1 to hit in combat, are immune to Fear and cannot declare 'Flee' as a charge reaction.
+
 Wizards with Marks
 Wizards with Mark of the Dark Gods must use certain Paths depending on the mark chosen
-True Chaos Path of Heavens (Lord only), Alchemy, Shadow, Death or Fire
-Change Path of Change or Alchemy
-Lust Path of Lust or Shadows
-Pestilence Path of Disease or Death
+* True Chaos Path of Heavens (Lord only), Alchemy, Shadow, Death or Fire
+* Change Path of Change or Alchemy
+* Lust Path of Lust or Shadows
+* Pestilence Path of Disease or Death
+
 Chosen by the Gods:
-A model with this special rule is one of the few Chosen of the Dark Gods. Those models gain an additional effect from
-their Mark of the Dark Gods. These follow the same rules as Mark of the Dark Gods in relation to Characters joining
-units (for example, a character with Mark of the Dark Gods (Wrath) can not join a unit with Chosen by the Gods (Lust)).
-True Chaos +1 Leadership
-Change 6+ Ward Save (or improving their existing Ward Save by 1) and Wizard Conclave (Level 1:
-Path of Change: Blue Fire, Pink Fire) Special rule.
-Lust +1 Movement and Armour Piercing (1), or increases its existing Armour Piercing by 1. The
-additional Movement speed is also conferred to any Character with the Mark of the Dark Gods
-(Lust) that joins this unit.
-Pestilence +1 Toughness.
-Wrath +1 Strength.
-Lightning Rage
-The model has Ward Save (2+) against attacks with the Lightning Attack special rule. If a model is hit by Lightning
-Attack it gains Frenzy Special rule.
-Brute Force
-If a Unit has this Special Rule, the unit only needs to be 4 models wide to form Full Ranks. Models with this Special rule
-have the Monstrous Support rule and cannot be the target of a stomp.
-Inspire Greatness
-As long as one or more models with this special rule are alive and in a unit of the same troop type as themselves, the
-unit can make an additional Supporting attack from the second rank (but not from the third rank). Mounts can still
-never make supporting attacks.
+A model with this special rule is one of the few Chosen of the Dark Gods.
+Those models gain an additional effect from their Mark of the Dark Gods.
+These follow the same rules as Mark of the Dark Gods in relation to Characters joining units 
+(for example, a character with Mark of the Dark Gods (Wrath) can not join a unit with Chosen by the Gods (Lust)).
+True Chaos: +1 Leadership
+Change: 6+ Ward Save (or improving their existing Ward Save by 1) and Wizard Conclave (Level 1: Path of Change: Blue Fire, Pink Fire) Special rule.
+Lust: +1 Movement and Armour Piercing (1), or increases its existing Armour Piercing by 1. The additional Movement speed is also conferred to any Character with the Mark of the Dark Gods (Lust) that joins this unit.
+Pestilence: +1 Toughness.
+Wrath: +1 Strength.
+Lightning Rage: The model has Ward Save (2+) against attacks with the Lightning Attack special rule. If a model is hit by Lightning Attack it gains Frenzy Special rule.
+Brute Force: If a Unit has this Special Rule, the unit only needs to be 4 models wide to form Full Ranks. Models with this Special rule have the Monstrous Support rule and cannot be the target of a stomp.
+Inspire Greatness: As long as one or more models with this special rule are alive and in a unit of the same troop type as themselves, the unit can make an additional Supporting attack from the second rank (but not from the third rank). Mounts can still never make supporting attacks.
+
 Armoury
-Daemon Weapon
-Close Combat Weapon. A Daemon Weapon grants +1 Strength and Magical Attacks.
-4
+Daemon Weapon: Close Combat Weapon. A Daemon Weapon grants +1 Strength and Magical Attacks.
+
 Gifts of the Gods
 Gifts of the Gods cannot be duplicated within the army unless stated otherwise.
-Soul Feeder (15 pts)
-For every wound the wearer inflicts in close combat,
-excluding Special attacks, roll a D6. For each 6+, the
-wearer recovers 1 wound. This Gift cannot be taken by a
-model mounted on a Wasteland Dragon and does not
-count towards the limitation on Gifts per Character.
-Mutant of the Dark Gods (20 pts)
-Infantry Character only. A model with this gift receives
-+1 Wound, +1 Movement, has 40x40 base size, and the
-Brute Force Special Rule. This Gift can be duplicated
-within an army.
-Third Eye of Change (Models with Mark of the Daemon
-Legion (Change) 45 pts,
-Models with Mark of the Dark Gods (Change) 30 pts)
-A model with this Gift has its Ward save increased by one
-to a maximum of 4+.
-Waste Hardened Skin (35 pts)
-Wearer has Innate Defense (5+). This item cannot be
-taken by a model mounted on a Manticore.
-Daemonic Wings (50 pts) - models On Foot only
-Bearer gains the Fly (8) special rule.
-Crushing Strength (30 pts)
-Model has the Crush Attack Special Rule.
-Necrotic Miasma (35 pt)
-Mark of the Dark God (Pestilence) only. Model has a
-Breath Attack (Toxic Attack). In addition, every round of
-combat each enemy model in base contact with the
-bearer suffers a Strength 1 hit with Armour Piercing (6)
-special rule at Initiative 10.
-Blessed by the Dark Gods (50 / 30 pts)
-Model with Gaze of the Gods only. When you deploy this
-model the wearer can increase one of its statistics by 1.
-This can never increase Mounts statistics.
-Wildling Blood (40 pts)
-Units with Warbeast, Monstrous Infantry, Monstrous
-Beast, and Monster troop type in 12" can use this model's
-Leadership instead of their own. If the gifted is your
-General the range of this Leadership is increased by 6"
-and one unit of Wasteland Trolls count as a Core choice
-instead of Special.
-5
+Soul Feeder (15 pts): For every wound the wearer inflicts in close combat, excluding Special attacks, roll a D6. For each 6+, the wearer recovers 1 wound. This Gift cannot be taken by a model mounted on a Wasteland Dragon and does not count towards the limitation on Gifts per Character.
+Mutant of the Dark Gods (20 pts): Infantry Character only. A model with this gift receives +1 Wound, +1 Movement, has 40x40 base size, and the Brute Force Special Rule. This Gift can be duplicated within an army.
+Third Eye of Change: (Models with Mark of the Daemon Legion (Change) 45 pts, Models with Mark of the Dark Gods (Change) 30 pts) A model with this Gift has its Ward save increased by one to a maximum of 4+.
+Waste Hardened Skin: (35 pts) Wearer has Innate Defense (5+). This item cannot be taken by a model mounted on a Manticore.
+Daemonic Wings (50 pts): models On Foot only Bearer gains the Fly (8) special rule.
+Crushing Strength (30 pts): Model has the Crush Attack Special Rule.
+Necrotic Miasma (35 pt): Mark of the Dark God (Pestilence) only. Model has a Breath Attack (Toxic Attack). In addition, every round of combat each enemy model in base contact with the bearer suffers a Strength 1 hit with Armour Piercing (6) special rule at Initiative 10.
+Blessed by the Dark Gods (50 / 30 pts): Model with Gaze of the Gods only. When you deploy this model the wearer can increase one of its statistics by 1.  This can never increase Mounts statistics.
+Wildling Blood (40 pts): Units with Warbeast, Monstrous Infantry, Monstrous Beast, and Monster troop type in 12" can use this model's Leadership instead of their own. If the gifted is your General the range of this Leadership is increased by 6" and one unit of Wasteland Trolls count as a Core choice instead of Special.
+
 Magical Items
 Magical Weapons
-Burning Blade of Chaos (65 pts)
-Type: Hand weapon. Attacks made by the Weapons have
-Flaming Attacks, Multiple Wounds (D3) and Armour
-Piercing (6). After all attacks are made, for each model
-slain by this sword, that model's unit suffers a Strength 4
-hit with the Flaming Attack Special Rule.
-Spear of Gagnir (30 pts) - Requires Mark of Pestilence
-Type: Spear. +1 Strength. Poisoned Attacks. Wielder has
-the Fear Special rule. If the wielder kills a model in
-combat he gains the Terror Special Rule. Counts as a
-Light Lance if taken on a mounted character.
-Dagger of Change (25 pts) - Requires Mark of Change
-Type: Hand Weapon. All hits from spells from the Path of
-Change cast by the wearers unit are at +1 Strength.
+Burning Blade of Chaos (65 pts): Type: Hand weapon. Attacks made by the Weapons have Flaming Attacks, Multiple Wounds (D3) and Armour Piercing (6). After all attacks are made, for each model slain by this sword, that model's unit suffers a Strength 4 hit with the Flaming Attack Special Rule.
+Spear of Gagnir (30 pts) - Requires Mark of Pestilence Type: Spear. +1 Strength. Poisoned Attacks. Wielder has the Fear Special rule. If the wielder kills a model in combat he gains the Terror Special Rule. Counts as a Light Lance if taken on a mounted character.
+Dagger of Change (25 pts) - Requires Mark of Change Type: Hand Weapon. All hits from spells from the Path of Change cast by the wearers unit are at +1 Strength.
+
 Magical Armour
-Helm of Foresight (35 pts)
-Type: None (6+ Armour Save). Wearer has Lightning
-Reflexes.
+Helm of Foresight (35 pts) Type: None (6+ Armour Save). Wearer has Lightning Reflexes.
+
 Talismans
-Sorcerer's Bane (30 pts) - Requires Mark of Wrath
-Magical Resistance (1). The wearer's unit is immune to
-all effects from non damage hex and augment spells.
+Sorcerer's Bane (30 pts) - Requires Mark of Wrath Magical Resistance (1). The wearer's unit is immune to all effects from non damage hex and augment spells.
+
 Enchanted Items
-Beguiling Chains (20 pts) - Requires Mark of Lust
-Whenever the wearer issues a Challenge the opponent
-has to accept it, if possible.
+Beguiling Chains (20 pts) - Requires Mark of Lust Whenever the wearer issues a Challenge the opponent has to accept it, if possible.
+
 Magical Standards
-Nine-Tailed Standard (55 pts)
-Friendly Infantry units with a Standard Bearer within
-12" of this banner gain +1 Movement. All enemy units
-within 12" of this banner have -1 Initiative.
-Banner of Transmutation (30 pts) - Requires Mark of
-Change
-All Shooting Attacks made against the unit have -1 on any
-to wound rolls
-Banner of Temptation (30 pts) - Requires Mark of Lust
-When a unit is charged by the bearer of this banner, they
-may only declare Hold as their Charge reaction unless
-they are already Fleeing.
-Banner of Fury (25 pts) - Requires Mark of Wrath
-All models in the wearer's unit gain Frenzy (until they
-have lost a combat).
-Banner of Filth (25 pts) - Requires Mark of Pestilence
-All Models in wearer's unit Close Combat attacks have
-the Poisoned Attack Special Rule.
-6
+Nine-Tailed Standard (55 pts) Friendly Infantry units with a Standard Bearer within 12" of this banner gain +1 Movement. All enemy units within 12" of this banner have -1 Initiative.
+Banner of Transmutation (30 pts) - Requires Mark of Change All Shooting Attacks made against the unit have -1 on any to wound rolls
+Banner of Temptation (30 pts) - Requires Mark of Lust When a unit is charged by the bearer of this banner, they may only declare Hold as their Charge reaction unless they are already Fleeing.
+Banner of Fury (25 pts) - Requires Mark of Wrath All models in the wearer's unit gain Frenzy (until they have lost a combat).
+Banner of Filth (25 pts) - Requires Mark of Pestilence All Models in wearer's unit Close Combat attacks have the Poisoned Attack Special Rule.
+
 Army List
 LORDS
 Daemon Prince 245 pts
@@ -213,37 +104,13 @@ Level 1 (Wizard Apprentice) 40
 Level 2 (Wizard Apprentice) 65
 Level 3 (Wizard Master) 135
 Level 4 (Wizard Master) 170
-Daemonic Marks: Models with Daemonic Marks Special rule have different marks than mortals and get access to
-different magic paths:
-Bonus Magical Path
-True Chaos A Daemon Prince with this mark has +1 Leadership. A Filr ce h,e H m ey a,vD ee na sto hr ,
-Shadow
-Change
-The bearer may gain one of the following bonus effect: Flaming Attacks,
-Ward-Breaker Attacks or Hellfire, which affects both close combat attacks
-and shooting attacks. The effect must be chosen at the start of each combat
-phase and before shooting with a unit. Every model in a unit must choose the
-same bonus effect. Special Attacks such as Stomps or Impact Hits are not
-affected. Characters with a Daemonic Mark (Change) that are Wizards do
-not get above effect, instead they add a +1 modifier to their casting roll.
-Change or Alchemy
-Lust
-The bearer gains Armour Piercing (1), or may increase its existing Armour
-Piercing by 1.
-Lust, Shadow or
-Black Magic
-Pestilence
-Enemy units in base contact with these models receive a -1 modifier to their
-Weapon Skill when they attack. This is increased to a -2 modifier to their
-Weapon Skill if the model attacking is in a unit in base contact with two or
-more units with the Daemonic Mark (Pestilence). This cannot reduce
-Weapon Skill below 1.
-Disease or Death
-Wrath The bearer gains +1 Strength during first round of combat. Special Attacks
-such as Stomps or Impact Hits are not affected.
-May not take magic
-levels
-7
+Daemonic Marks: Models with Daemonic Marks Special rule have different marks than mortals and get access to different magic paths; Bonus Magical Path
+True Chaos: A Daemon Prince with this mark has +1 Leadership. Alchemy,Death,Fire,Heavens,Shadow
+Change: The bearer may gain one of the following bonus effect: Flaming Attacks, Ward-Breaker Attacks or Hellfire, which affects both close combat attacks and shooting attacks. The effect must be chosen at the start of each combat phase and before shooting with a unit. Every model in a unit must choose the same bonus effect. Special Attacks such as Stomps or Impact Hits are not affected. Characters with a Daemonic Mark (Change) that are Wizards do not get above effect, instead they add a +1 modifier to their casting roll.;  Change or Alchemy
+Lust: The bearer gains Armour Piercing (1), or may increase its existing Armour Piercing by 1.; Lust, Shadow or Black Magic
+Pestilence: Enemy units in base contact with these models receive a -1 modifier to their Weapon Skill when they attack. This is increased to a -2 modifier to their Weapon Skill if the model attacking is in a unit in base contact with two or more units with the Daemonic Mark (Pestilence). This cannot reduce Weapon Skill below 1.; Disease or Death
+Wrath: The bearer gains +1 Strength during first round of combat. Special Attacks such as Stomps or Impact Hits are not affected.;  May not take magic levels
+
 Lord of Chaos 160 pts
 single model
 M WS BS S T W I A Ld
@@ -274,20 +141,17 @@ Disc of Change 60
 Wasteland Chariot 95
 Manticore 120
 Wasteland Dragon 270
+
 Sorcerer Lord  205 pts
 single model
 M WS BS S T W I A Ld
 4 5 3 4 4 3 5 3 8 Infantry 25x25mm base
-Alliance:
-Mark of the Dark Gods (True Chaos )
+Alliance: Mark of the Dark Gods (True Chaos)
 Armour: Plate Armour
 Special Rules: Gaze of the Gods
-Magic: Level 3 Wizard Master . Generates spells from
-Paths of Magic that depends on the model's Mark
-of the Dark Gods.
+Magic: Level 3 Wizard Master . Generates spells from Paths of Magic that depends on the model's Mark of the Dark Gods.
 Options: pts
-May replace True Chaos with another
-Mark of the Dark Gods 15
+May replace True Chaos with another Mark of the Dark Gods 15
 May take a single Gift no pt limit
 Upgrade to Wizard level 4 35
 May take Magical Items up to 100
@@ -300,7 +164,7 @@ Disc of Change 50
 Wasteland Chariot 95
 Manticore 120
 Wasteland Dragon 320
-8
+
 HEROES
 Harbinger of Chaos 100 pts
 single model
@@ -332,7 +196,7 @@ Disc of Change 50
 Daemonic Steed 50
 Manticore 150
 Wasteland Chariot 100
-9
+
 Sorcerer 90 pts
 single model
 M WS BS S T W I A Ld
@@ -352,28 +216,22 @@ Daemonic Steed 50
 Wasteland Chariot 100
 Must be upgraded into
 Sorcerer (free)
-Alliance:
-Mark of the Dark Gods (True Chaos )
-Magic: Level 1 Wizard Apprentice . Generates spells from
-Paths of Magic that depends on the model's Mark of the
-Dark Gods.
+Alliance: Mark of the Dark Gods (True Chaos )
+Magic: Level 1 Wizard Apprentice . Generates spells from Paths of Magic that depends on the model's Mark of the Dark Gods.
 Options: pts
-May replace True Chaos with another
-Mark of the Dark Gods 10
+May replace True Chaos with another Mark of the Dark Gods 10
 May become level 2 Wizard 25
 Wrath Priest (10 pts)
 Alliance:
 Mark of the Dark Gods (Wrath )
-Special Rules: Wrath Priest:
-A Wrath Priest can make Dispel attempts as if he was a
-Wizard Apprentice and is able to channel Dispel Dice.
+Special Rules: Wrath Priest: A Wrath Priest can make Dispel attempts as if he was a Wizard Apprentice and is able to channel Dispel Dice.
 Options: pts
 May have Magic Resistance (2) 35
 May take a weapon
 Additional hand weapon 3
 Flail 5
 Great Weapon 10
-10
+
 Barbarian Chief 55 pts
 single model
 M WS BS S T W I A Ld
@@ -381,14 +239,7 @@ M WS BS S T W I A Ld
 Alliance:
 Mark of the Dark Gods (True Chaos )
 Armour: Light Armour
-Special Rules: Inspire Barbarians: When in a unit of Barbarians
-or Barbarian Horsemen that unit has Fight in
-Extra Ranks Special Rule until Barbarian Chief
-dies or leaves that unit. A unit can only benefit
-fr
-om either Inspire Barbarians or Inspire
-Greatness but not from both at the same time. Pick
-which one at the start of Combat.
+Special Rules: Inspire Barbarians: When in a unit of Barbarians or Barbarian Horsemen that unit has Fight in Extra Ranks Special Rule until Barbarian Chief dies or leaves that unit. A unit can only benefit from either Inspire Barbarians or Inspire Greatness but not from both at the same time. Pick which one at the start of Combat.
 Options: pts
 May replace True Chaos with another
 Mark of the Dark Gods 10
@@ -408,27 +259,18 @@ May be mounted on (one choice only)
 Warhorse 20
 Steed of Lust 20
 May have one of the following upgrades
-Osklander Jarl (40 pts)
-The model gains the Ambush and Vanguard. Choose
-one Barbarian unit without Veteran Magical Standard,
-that unit gains Ambush and Vanguard special rules and
-the Osklander Jarl has to be deployed in that unit.
-Makhar Khan (15 pts)
-The model gains the Devastating Charge. If the model
-joins a unit of Barbarian Horsemen or Hell Riders, this
-unit also gains the Thunderous Charge special rule.
-11
+Osklander Jarl (40 pts): The model gains the Ambush and Vanguard. Choose one Barbarian unit without Veteran Magical Standard, that unit gains Ambush and Vanguard special rules and the Osklander Jarl has to be deployed in that unit.
+Makhar Khan (15 pts): The model gains the Devastating Charge. If the model joins a unit of Barbarian Horsemen or Hell Riders, this unit also gains the Thunderous Charge special rule.
+
 CORE
 Wasteland Warriors 130 pts
 10 models, may add up to 15 models 13 pts/model
 M WS BS S T W I A Ld
 4 5 3 4 4 1 4 2 8 Infantry 25x25mm base
-Alliance:
-Mark of the Dark Gods (True Chaos )
+Alliance: Mark of the Dark Gods (True Chaos )
 Armour: Plate Armour
 Options: pts
-All models may replace True Chaos with another
-Mark of the Dark Gods 2 / model
+All models may replace True Chaos with another Mark of the Dark Gods 2 / model
 May take any of the following:
 Shields 1 / model
 Additional Hand Weapons 2 / model
@@ -437,51 +279,42 @@ Halberds 3 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- May become Veteran Standard Bearer*
-*A Veteran Standard Bearer is One of a Kind and may take
-Magical Standard worth up to 25 pts.
+Standard Bearer 10 - May become Veteran Standard Bearer* *A Veteran Standard Bearer is One of a Kind and may take Magical Standard worth up to 25 pts.
+
 Fallen  85 pts
 5 models, may add up to 7 models 15 pts/model
 M WS BS S T W I A Ld
 6 4 - 4 4 1 4 D3 8 Infantry 25x25mm base
-Alliance:
-Mark of the Dark Gods (True Chaos )
+Alliance: Mark of the Dark Gods (True Chaos )
 Armour: Plate Armour
-Special Rules: Random Attacks (D3), Frenzy, Immune to
-Psychology, Skirmishers
+Special Rules: Random Attacks (D3), Frenzy, Immune to Psychology, Skirmishers
 Options: pts
-All models must replace True Chaos
-with another Mark of the Dark Gods free
+All models must replace True Chaos with another Mark of the Dark Gods free
 May upgrade one model to Champion 10
-12
+
 Wasteland Chariot 95 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 5 4 4 - - -
 Crew (2) - 5 3 4 - - 4 2 8
 Waste Steeds (2) 8 3 - 4 - - 3 1 - Chariot 50x100mm base
-Alliance:
-Mark of the Dark Gods (True Chaos ) (Crew only)
+Alliance: Mark of the Dark Gods (True Chaos ) (Crew only)
 Weapons: Halberd (Crew only)
 Armour: Mount's Protection (6+), Heavy Armour
 Special Rules: Scythes
 Options: pts
-May replace True Chaos with another
-Mark of the Dark Gods 10
+May replace True Chaos with another Mark of the Dark Gods 10
 May take barding 15
+
 Barbarians 60 pts
 15 models, may add up to 35 models 4 pts/model
 M WS BS S T W I A Ld
 4 4 3 3 3 1 3 1 7 Infantry 25x25mm base
-Alliance:
-Mark of the Dark Gods (True Chaos )
+Alliance: Mark of the Dark Gods (True Chaos )
 Armour: Light Armour
 Options: pts
-May replace True Chaos with another
-Mark of the Dark Gods 1 / model
-All models replace Light Armour
-with Additional Hand Weapons free
+May replace True Chaos with another Mark of the Dark Gods 1 / model
+All models replace Light Armour with Additional Hand Weapons free
 All models may take
 Shields 1 / model
 Flails 1 / model
@@ -491,21 +324,18 @@ Great weapons 3 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- May become the Veteran Standard Bearer
-13
+Standard Bearer 10 - May become the Veteran Standard Bearer
+
 Barbarian Horsemen 80 pts
 5 models, may add up to 10 models 12 pts/model
 M WS BS S T W I A Ld
 Riders 4 4 3 3 3 1 3 1 7
 Warhorse 8 3 3 3 3 1 3 1 5 Cavalry 25x50mm base
-Alliance:
-Mark of the Dark Gods (True Chaos ) (Riders only)
+Alliance: Mark of the Dark Gods (True Chaos ) (Riders only)
 Armour: Mount's Protection (6+), Light Armour
 Special Rules: Fast Cavalry
 Options: pts
-May replace True Chaos with another
-Mark of the Dark Gods 1 / model
+May replace True Chaos with another Mark of the Dark Gods 1 / model
 May replace Fast Cavalry special rule
 with Mount's Protection (5+) free
 All models may take
@@ -516,8 +346,8 @@ Throwing weapons 2 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- May become the Veteran Standard Bearer
+Standard Bearer 10 - May become the Veteran Standard Bearer
+
 Warhounds 35 pts
 5 models, may add up to 30 models 4 pts/model
 M WS BS S T W I A Ld
@@ -528,21 +358,17 @@ All models may have
 Innate Defence (6+) 1 / model
 Poisoned Attacks 1 / model
 Vanguard 2 / model
-14
+
 SPECIAL
 Chosen  130 pts
 10 models, may add up to 15 models 13 pts/model
 M WS BS S T W I A Ld
 4 6 3 4 4 1 5 2 8 Infantry 25x25mm base
-Alliance:
-Mark of the Dark Gods (True Chaos ),
-Chosen by the Gods (True Chaos )
+Alliance: Mark of the Dark Gods (True Chaos ), Chosen by the Gods (True Chaos )
 Armour: Plate Armour
 Special Rules: Immune to Psychology
 Options: pts
-All models may replace True Chaos
-with another Mark of the Dark Gods and
-the same Chosen by the Gods 4 / model
+All models may replace True Chaos with another Mark of the Dark Gods and the same Chosen by the Gods 4 / model
 All models may take:
 Shields 1 / model
 Additional Hand Weapons 2 / model
@@ -554,28 +380,24 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - may take a Magical Standard up to 50
+
 Wasteland Knights 170 pts
 5 models, may add up to 5 models 34 pts/model
 M WS BS S T W I A Ld
 Rider 4 5 3 4 4 1 5 2 8
 Wasteland Steed 8 3 - 4 3 1 3 1 5 Cavalry 25x50mm base
-Alliance:
-Mark of the Dark Gods (True Chaos )(Riders only)
+Alliance: Mark of the Dark Gods (True Chaos )(Riders only)
 Weapons: Lance (Riders only)
-Armour: Mount's Protection (6+), Plate Armour, Shields and
-Barding
+Armour: Mount's Protection (6+), Plate Armour, Shields and Barding
 Special Rules: Fear
 Options: pts
-May replace True Chaos with another
-Mark of the Dark Gods 2 / model
-All models may replace Lance
-with Daemon Weapons 4 / model
+May replace True Chaos with another Mark of the Dark Gods 2 / model
+All models may replace Lance with Daemon Weapons 4 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- may take a Magical Standard up to 50
-15
+Standard Bearer 10 - may take a Magical Standard up to 50
+
 Once-Chosen 105 pts
 3 models, may add up to 5 models 35 pts/model
 M WS BS S T W I A Ld
@@ -585,11 +407,8 @@ Mark of the Dark Gods (True Chaos )
 Armour: Plate Armour
 Special Rules: Brute Force
 Options: pts
-All models may replace True Chaos
-with another Mark of the Dark Gods 5 / model
-All models may be upgraded with the Chosen by
-the Gods (use the same Mark as Mark of
-the Dark Gods) 12 / model
+All models may replace True Chaos with another Mark of the Dark Gods 5 / model
+All models may be upgraded with the Chosen by the Gods (use the same Mark as Mark of the Dark Gods) 12 / model
 All models may take:
 Shields 3 / model
 Additional Hand Weapons 4 / model
@@ -598,18 +417,16 @@ Flail 4 / model
 Halberds 7 / model
 Great weapons 8 / model
 May upgrade one model to each of the following:
-Champion 10
-- may take Magical Weapon up to 25
+Champion 10 - may take Magical Weapon up to 25
 Musician 10
-Standard Bearer 10
-- may take a Magical Standard up to 25
+Standard Bearer 10 - may take a Magical Standard up to 25
+
 Hell Riders 80 pts
 5 models, may add up to 10 models 10 pts/model
 M WS BS S T W I A Ld
 Rider 4 4 3 3 3 1 5 1 7
 Steed of Lust 10 3 - 3 3 1 5 1 7 Cavalry 25x50mm base
-Alliance:
-Mark of the Dark Gods (Lust )(Riders only)
+Alliance: Mark of the Dark Gods (Lust )(Riders only)
 Armour: Mount's Protection (6+), Shield
 Special Rules: Fast Cavalry, Lightning Reflexes (Strider only),
 Poisoned Attacks (Steed of Lust only)
@@ -619,19 +436,13 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
-Hellish Whip: This is a shooting weapon with Range 4". Strength as user. Quick to Fire.
-When making an attack with this weapon treat it as a Close combat attack as if you were in base contact with your
-target (including all special rules that would apply, use Weapon skill instead of Ballistic skill). Units that suffer a hit
-fr
-om this weapon have Initiative 0 and Stupidity Special Rule until the start of the current player's next shooting
-phase.
-16
+Hellish Whip: This is a shooting weapon with Range 4". Strength as user. Quick to Fire.  When making an attack with this weapon treat it as a Close combat attack as if you were in base contact with your target (including all special rules that would apply, use Weapon skill instead of Ballistic skill). Units that suffer a hit from this weapon have Initiative 0 and Stupidity Special Rule until the start of the current player's next shooting phase.
+
 Dragon Centaurs 192 pts
 3 models, may add up to 2 models 64 pts/model
 M WS BS S T W I A Ld
 7 4 2 5 5 4 2 3 8 Monstrous Beast 50x75mm base
-Alliance:
-Mark of the Dark Gods (True Chaos )
+Alliance: Mark of the Dark Gods (True Chaos )
 Armour: Light Armour and Innate Defence (5+)
 Special Rules: Lightning Rage, Stomp(2)
 Options: pts
@@ -643,6 +454,7 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
+
 Wasteland Trolls 135 pts
 3 models, may add up to 6 models 45 pts/model
 M WS BS S T W I A Ld
@@ -650,53 +462,35 @@ M WS BS S T W I A Ld
 Special Rules: Regeneration (4+), Stupidity
 Options: pts
 All models may take Additional Hand Weapons 3 / model
-Troll Belch: Instead of making its usual attacks the model may choose to make a single attack, which hits
-automatically and has Strength 5 and Armour Piercing (6).
-Warped Regeneration: When a unit of Wasteland Trolls successfully saves 4 or more Regenerations saves in one
-phase, roll on Gaze of the Gods table and always treat the roll as if it was their first. All models in the unit with
-Warped Regeneration receive the characteristic increase. This could result in the same characteristic being increased
-more than once.
-17
+Troll Belch: Instead of making its usual attacks the model may choose to make a single attack, which hits automatically and has Strength 5 and Armour Piercing (6).
+Warped Regeneration: When a unit of Wasteland Trolls successfully saves 4 or more Regenerations saves in one phase, roll on Gaze of the Gods table and always treat the roll as if it was their first. All models in the unit with Warped Regeneration receive the characteristic increase. This could result in the same characteristic being increased more than once.
+
 Bloodbeast 175 pts
 single model
 M WS BS S T W I A Ld
 6 3 0 6 5 5 3 5 4 Monster 50x100mm base
 Armour: Innate Defence (4+)
 Special Rules: Frenzy, Hatred
-Rites of Binding: When deploying a Bloodbeast, the player must nominate one character in the army to be its Master.
-For as long as the Bloodbeast's Master lives, the Bloodbeast gains their corresponding Mark of the Dark Gods and
-may use their Weapon Skills and Leadership. For as long as the Bloodbeast lives, its Master gains Hatred. A character
-cannot be the Master of more than one Bloodbeast and a Bloodbeast cannot receive Inspiring Presence from the
-General.
+Rites of Binding: When deploying a Bloodbeast, the player must nominate one character in the army to be its Master.  For as long as the Bloodbeast's Master lives, the Bloodbeast gains their corresponding Mark of the Dark Gods and may use their Weapon Skills and Leadership. For as long as the Bloodbeast lives, its Master gains Hatred. A character cannot be the Master of more than one Bloodbeast and a Bloodbeast cannot receive Inspiring Presence from the General.
+
 Vortex Fiend 175 pts
 single model
 M WS BS S T W I A Ld
 6 4 - 5 5 5 3 * 8 Monster 50x100mm base
 Armour: Innate Defence (4+)
 Special Rules: Random Attacks (D6+2), Ward Save (5+), Hard Target, Channel
-Waves of Change: Enemy units within 6" of a Vortex Fiend are affected by Fear as if they were in base contact. Every
-fr
-iendly unit within 6" of a Vortext Fiend is immune to Fear. Wizards may cast spells with the Type:Damage through
-this model if within 24". When using this ability, the spell range is measured using the Vortex Fiend model using its
-fo
-rward arc and Line of sight. Wizards may cast spells with the Type:Missile through a Vortext Fiend even when
-engaged in combat as long as the Vortex Fiend isn't. If a spell cast through a Vortext Fiend causes a miscast, the
-casting Wizard rolls on the Miscast Table as normal and the Vortex Fiend suffers a Strength PDU+2 hit.
+Waves of Change: Enemy units within 6" of a Vortex Fiend are affected by Fear as if they were in base contact. Every friendly unit within 6" of a Vortext Fiend is immune to Fear. Wizards may cast spells with the Type:Damage through this model if within 24". When using this ability, the spell range is measured using the Vortex Fiend model using its forward arc and Line of sight. Wizards may cast spells with the Type:Missile through a Vortext Fiend even when engaged in combat as long as the Vortex Fiend isn't. If a spell cast through a Vortext Fiend causes a miscast, the casting Wizard rolls on the Miscast Table as normal and the Vortex Fiend suffers a Strength PDU+2 hit.
+
 Fallen Beast 55 pts
 single model
 M WS BS S T W I A Ld
 * 3 - 4 5 3 2 * 10 Monstrous Beast 40x40mm base
-Alliance:
-Mark of the Dark Gods (True Chaos )
-Special Rules: Fear, Random Movement (3D6), Random Attacks
-(D6+1), Unbreakable
+Alliance: Mark of the Dark Gods (True Chaos )
+Special Rules: Fear, Random Movement (3D6), Random Attacks(D6+1), Unbreakable
 Options: pts
-May replace True Chaos with another
-Mark of the Dark Gods 10
-Wasteland Wanderer: The Fallen Beast has Ambush. When entering the Battlefield, the Fallen Beast may perform a
-2D6 Random move as if in Compulsory Moves sub-phase but treating all friendly and enemy units as Impassable
-Terrain.
-18
+May replace True Chaos with another Mark of the Dark Gods 10
+Wasteland Wanderer: The Fallen Beast has Ambush. When entering the Battlefield, the Fallen Beast may perform a 2D6 Random move as if in Compulsory Moves sub-phase but treating all friendly and enemy units as Impassable Terrain.
+
 RARE
 Chimera 200 pts
 single model
@@ -705,28 +499,20 @@ M WS BS S T W I A Ld
 Armour: Innate Defence (4+)
 Special Rules: Fly (8), Regeneration (5+)
 Options: pts
-May have a Breath Weapon:
-(Strength 4, Flaming Attacks) 30
-May be upgrade to Ancient Chimera 60
-Ancient Chimera: One of a Kind. The model gains
-Regeneration (4+) and adds +1 Wound to its profile.
+May have a Breath Weapon: (Strength 4, Flaming Attacks) 30
+May be upgrade to Ancient Chimera 60 Ancient Chimera: One of a Kind. The model gains Regeneration (4+) and adds +1 Wound to its profile.
+
 Hellscream Cannon 200 pts
 single model
 M WS BS S T W I A Ld
 1 4 3 5 6 5 1 4 6 Monster 100x150mm base
 Armour: Innate Defence (4+)
-Special Rules: Otherworldly, Unbreakable, Frenzy, Innate Defense
-(4+)
+Special Rules: Otherworldly, Unbreakable, Frenzy, Innate Defense (4+)
 Options: pts
 May upgrade to Unchained free
-Unchained: Model gains +3 Movement, Free Reform and
-replaces Hellscream Cannon with Hellscream Mortar:
-This is a Catapult (3") Artillery Weapon with the following
-profile: Range 24", Strength 3
-Weapons: Hellscream Cannon: This is a Catapult (3") Artillery Weapon with Range 60", Strength 4 [9], Armour Piercing (1),
-[Multiple Wounds (Ordnance)]. A unit which suffers 1 or more casualties from a Hellscream Cannon must immediately
-take a Panic Test with -1 to its Leadership.
-19
+Unchained: Model gains +3 Movement, Free Reform and replaces Hellscream Cannon with Hellscream Mortar: This is a Catapult (3") Artillery Weapon with the following profile: Range 24", Strength 3
+Weapons: Hellscream Cannon: This is a Catapult (3") Artillery Weapon with Range 60", Strength 4 [9], Armour Piercing (1), [Multiple Wounds (Ordnance)]. A unit which suffers 1 or more casualties from a Hellscream Cannon must immediately take a Panic Test with -1 to its Leadership.
+
 Elder Dragon Centaur 220 pts
 single model
 M WS BS S T W I A Ld
@@ -740,16 +526,15 @@ May take a weapon (one choice only)
 Additional Hand weapon 5
 Great weapon 10
 Halberd 15
+
 Crusher Knights 140 pts
 2 models, may add up to 3 models 70 pts/model
 M WS BS S T W I A Ld
 Rider 4 5 3 4 4 1 5 2 8
 Crusher 7 5 - 5 4 3 2 3 7 Monstrous Cavalry 50x75mm base
-Alliance:
-Mark of the Dark Gods (Wrath )
+Alliance: Mark of the Dark Gods (Wrath )
 Armour: Mount's Protection (6+), Plate Armour and Shields
-Special Rules: Frenzy (Riders only), Magical Attacks (Crusher
-only), Fear
+Special Rules: Frenzy (Riders only), Magical Attacks (Crusher only), Fear
 Options: pts
 May take a weapon (one choice only)
 Daemon Weapons 5 / model
@@ -757,52 +542,40 @@ Lances 3 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- may take a Magical Standard up to 50
+Standard Bearer 10 - may take a Magical Standard up to 50
+
 Mauler Chariot 150 pts
 single model
 M WS BS S T W I A Ld
 Chariot - - - 5 6 5 - - -
 Crew (2) - 5 3 4 - - 5 2 8
 Mauler (1) 7 4 - 5 - - 2 3 - Chariot 50x100mm base
-Alliance:
-Mark of the Dark Gods (True Chaos ) (Crew only)
+Alliance: Mark of the Dark Gods (True Chaos ) (Crew only)
 Weapons: Halberds
 Armour: Mount's Protection (6+), Plate Armour
 Options: pts
-May replace True Chaos with another
-Mark of the Dark Gods 10
+May replace True Chaos with another Mark of the Dark Gods 10
 May take Barding 20
 Special Rules: Scythes, Lethal Strike (Mauler only), Grinding attacks (D3) (Chariot only), Fear
-20
+
 Battle Shrine 150 pts
 single model
 M WS BS S T W I A Ld
 Battle Shrine - - - 0 5 5 - - -
 Shrine Priest (1) - 5 3 4 - - 4 2 8
 Shrine Bearer (1) 6 3 3 4 - - 2 * - Chariot 50x100mm base
-Alliance:
-Mark of the Dark Gods (True Chaos )
+Alliance: Mark of the Dark Gods (True Chaos )
 Armour: Mount's Protection (6+), Heavy Armour
 Options: pts
-May replace True Chaos with another
-Mark of the Dark Gods 10
+May replace True Chaos with another Mark of the Dark Gods 10
 Special Rules: Fear, Ward Save (4+), Random Attack (3D3) (Shrine Bearers only)
-The Gods Are Watching: This model grants a Ward Save (5+) against shooting attacks to all friendly units within
-12". If these units already have a Ward Save then it is increased by two, up to a maximum of Ward Save (4+) against
-shooting attacks. The model also gains a special effect that varies depending on its Mark of the Dark Gods.
-If it gains an augment spell it may only target units with the same mark or units which are True Chaos. If it gains an
-aura it may only benefit units with majority of models with the same mark or units which are True Chaos.
-True Chaos The model may cast the spell Wind Blast from the Path of Heaven as a Bound Spell (Power Level
-5).
-Change The model may cast the spell Wave of Transformation from the Path of Change as a Bound Spell
-(Power Level 5)
-Lust The model may cast the spell Frenzied Histeria from the Path of Lust as a Bound Spell (Power
-Level 5).
-Pestilence The model may cast the spell Shadow Miasma from the Path of Shadow as a Bound Spell (Power
-Level 5).
-Wrath The model grants the special rule Magic Resistance (2) to all friendly units within 6"
-21
+The Gods Are Watching: This model grants a Ward Save (5+) against shooting attacks to all friendly units within 12". If these units already have a Ward Save then it is increased by two, up to a maximum of Ward Save (4+) against shooting attacks. The model also gains a special effect that varies depending on its Mark of the Dark Gods.  If it gains an augment spell it may only target units with the same mark or units which are True Chaos. If it gains an aura it may only benefit units with majority of models with the same mark or units which are True Chaos.
+True Chaos: The model may cast the spell Wind Blast from the Path of Heaven as a Bound Spell (Power Level 5).
+Change: The model may cast the spell Wave of Transformation from the Path of Change as a Bound Spell (Power Level 5)
+Lust: The model may cast the spell Frenzied Histeria from the Path of Lust as a Bound Spell (Power Level 5).
+Pestilence: The model may cast the spell Shadow Miasma from the Path of Shadow as a Bound Spell (Power Level 5).
+Wrath: The model grants the special rule Magic Resistance (2) to all friendly units within 6"
+
 Wasteland Giant 140 pts
 single model
 M WS BS S T W I A Ld
@@ -811,36 +584,26 @@ Special Rules: Immune to Psychology, Stubborn
 Options: pts
 May take a single Mark of the Dark Gods 5
 - May be Chosen by the Gods 15
-Giant Attacks: When a giant attacks in Close Combat, pick a target in base contact to attack and roll on the chart
-below. Giants have two types of attack patterns depending on the Troop Type of the target.
+Giant Attacks: When a giant attacks in Close Combat, pick a target in base contact to attack and roll on the chart below. Giants have two types of attack patterns depending on the Troop Type of the target.
 Against Infantry, War Beast, Swarm, Warmachine
 and Cavalry targets:
 1: Bellow
 2: Jump
 3: Grab
 4-6: Swing
-Against Monstrous Beast, Monstrous Infantry,
-Monstrous Cavalry, Chariot, Monster and Ridden
-Monster targets:
+Against Monstrous Beast, Monstrous Infantry, Monstrous Cavalry, Chariot, Monster and Ridden Monster targets:
 1: Bellow
 2-3: Thump
 4-6: Smash
-Bellow: Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done
-(including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2.
-If two (or more) opposing Giants "Bellow", the combat is a draw.
-Jump: The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant
-must take a Dangerous Terrain test.
-Grab: Select a single model in base contact with the Giant. This model must take a Strength and Weapon Skill test. For
-each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
+Bellow: Neither the giant nor the chosen unit can make any Close Combat attacks this phase. Attacks already done (including those simultaneous with this attack) are not affected. The Giant's side automatically wins the combat by 2.  If two (or more) opposing Giants "Bellow", the combat is a draw.
+Jump: The chosen unit suffers D6 hits with the Giant's Strength, carried out as if it were a Grinding Attack. The Giant must take a Dangerous Terrain test.
+Grab: Select a single model in base contact with the Giant. This model must take a Strength and Weapon Skill test. For each failed test, the model suffers a hit with the Giant's Strength and Multiple Wounds (D3).
 Swing: The Giant makes 2D6 attacks on the chosen unit.
-Thump: Select a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the
-test is failed, the model suffers 2D6 wounds with Armour Piercing (6).
-Smash: Select a model from the chosen unit in base contact with the Giant. This model suffers 1 wound with Armour
-Piercing (6). If the model has not yet attacked it cannot attack in this round. It the model has already attacked, it
-cannot attack in the next player turn.
-- NotesGiant Attacks counts as Close Combat attack and therefore are affected by all rules normally affecting Close Combat
+Thump: Select a model from the chosen unit in base contact with the Giant. This model takes a Initiative test. If the test is failed, the model suffers 2D6 wounds with Armour Piercing (6).
+Smash: Select a model from the chosen unit in base contact with the Giant. This model suffers 1 wound with Armour Piercing (6). If the model has not yet attacked it cannot attack in this round. It the model has already attacked, it cannot attack in the next player turn.
+- Notes Giant Attacks counts as Close Combat attack and therefore are affected by all rules normally affecting Close Combat
 attacks. After rolling on this chart, the Giant may still Stomp as normal.
-22
+
 MOUNTS
 The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
 Warhorse
@@ -851,10 +614,12 @@ Special Rules: Fast Cavalry
 Options: pts
 May take Mount's Protection (5+) 10
 (model loses Fast Cavalry Special Rule)
+
 Wasteland Steed
 M WS BS S T W I A Ld
 8 3 - 4 3 1 3 1 5 War Beast 25x50mm base
 Armour: Mount's Protection (6+), Barding
+
 Daemonic Steed
 M WS BS S T W I A Ld
 8 4 - 5 5 3 2 2 8 Monstrous Beast 50x50mm base
@@ -862,101 +627,97 @@ Armour: Mount's Protection (6+)
 Special Rules: Magical Attacks, Fear
 Options: pts
 May take Barding 20
-23
+
 Disc of Change
 (Model with Mark of Change only)
 M WS BS S T W I A Ld
 1 3 - 4 4 1 4 3 7 War Beast 50x50mm base
-Alliance:
-Mark of the Dark Gods (Change )
+Alliance: Mark of the Dark Gods (Change )
 Armour: Mount's Protection (6+)
 Special Rules: Magical Attacks, Fly (9), Flaming Attacks
+
 Pestilent Palanquin
 (Model with Mark of Pestilence only)
 M WS BS S T W I A Ld
 4 3 3 3 3 4 3 6 7 Infantry 50x50mm base
-Alliance:
-Mark of the Dark Gods (Pestilence )
+Alliance: Mark of the Dark Gods (Pestilence)
 Armour: Mount's Protection (6+)
 Special Rules: Magical Attacks, Poisoned Attacks
+
 Crusher
 (Model with Mark of Wrath only)
 M WS BS S T W I A Ld
 7 5 - 5 4 3 2 3 7 Monstrous Beast 50x75mm base
-Alliance:
-Mark of the Dark Gods (Wrath )
+Alliance: Mark of the Dark Gods (Wrath )
 Armour: Mount's Protection (6+)
 Special Rules: Magical Attacks
-24
+
 Steed of Lust
 (Model with Mark of Lust only)
 M WS BS S T W I A Ld
 10 3 - 3 3 1 5 1 7 War Beast 25x50mm base
-Alliance:
-Mark of the Dark Gods (Lust )
+Alliance: Mark of the Dark Gods (Lust )
 Armour: Mount's Protection (6+)
 Special Rules: Vanguard, Magical Attacks, Poisoned Attacks
+
 Wasteland Chariot
 M WS BS S T W I A Ld
 Chariot - - - 5 4 4 - - -
 Crew (1) - 5 3 4 - - 4 2 8
 Waste steed (2) 8 3 - 4 - - 3 1 - Chariot 50x100mm base
-Alliance:
-Same as character.
+Alliance: Same as character.
 Weapons: Halberd (Crew only)
 Options: pts
 May take Barding 20
 Armour: Mount's Protection (6+)
 Special Rules: Scythes
+
 Manticore
 M WS BS S T W I A Ld
 6 5 - 5 5 4 5 3 5 Monstrous Beast 50x100mm base
-Special Rules: Fly (8), Large Target, Fear, Lethal Strike, Frenzy,
-Multiple Wounds (D3)
-25
+Special Rules: Fly (8), Large Target, Fear, Lethal Strike, Frenzy, Multiple Wounds (D3)
+
 Wasteland Dragon (one of a kind)
 M WS BS S T W I A Ld
 6 5 1 6 6 6 3 6 9 Monster 50x100mm base
 Armour: Innate Defence (3+)
-Special Rules: Breath Weapon (Strength 4, Flaming Attacks),
-Breath Weapon (Strength 3, Armour Piercing (3)),
-Fly (7)
-26
+Special Rules: Breath Weapon (Strength 4, Flaming Attacks), Breath Weapon (Strength 3, Armour Piercing (3)), Fly (7)
+
 Quick Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 CHARACTERS M WS BS S T W I A Ld
 L Daemonic Prince 8 9 5 6 5 4 8 5 9
-Lord of Chaos 4 8 3 5 5 3 7 5 9
-Sorcerer Lord 4 5 3 4 4 3 5 3 8
+L Lord of Chaos 4 8 3 5 5 3 7 5 9
+L Sorcerer Lord 4 5 3 4 4 3 5 3 8
 H Harbinger of Chaos 4 7 3 5 4 2 6 4 8
-Sorcerer 4 5 3 4 4 2 4 2 8
-Barbarian Chieftain 4 5 4 4 4 2 5 3 8
+H Sorcerer 4 5 3 4 4 2 4 2 8
+H Barbarian Chieftain 4 5 4 4 4 2 5 3 8
 INFANTRY
 C Wasteland Warrior 4 5 3 4 4 1 4 2 8
-Fallen 6 4 0 4 4 1 4 * 8
-Barbarian 4 4 3 3 3 1 3 1 7
+C Fallen 6 4 0 4 4 1 4 * 8
+C Barbarian 4 4 3 3 3 1 3 1 7
 S Chisen 4 6 3 4 4 1 5 2 8
 M Pestilent Palanquin 4 3 3 3 3 4 3 6 7
 MONSTROUS INFANTRY
 S Wasteland Troll 6 3 1 5 4 3 2 3 4
-Once- Chosen 5 5 3 4 4 3 4 3 8
+S Once- Chosen 5 5 3 4 4 3 4 3 8
 WAR BEASTS
 C Warhound 7 4 - 3 3 1 3 1 5
 M War Horse 8 3 - 3 3 1 3 1 5
-Wasteland Steed 8 3 - 4 3 1 3 1 5
-Disc of Change 1 3 - 4 4 1 4 3 7
-Steed of Lust 10 3 - 3 3 1 5 1 7
+M Wasteland Steed 8 3 - 4 3 1 3 1 5
+M Disc of Change 1 3 - 4 4 1 4 3 7
+M Steed of Lust 10 3 - 3 3 1 5 1 7
 MONSTROUS BEASTS
 S Fallen Beast * 3 - 4 5 3 2 * 10
 M Daemonic Steed 8 4 - 5 5 3 2 2 8
-Crusher 7 5 - 5 4 3 2 3 7
-Manticora 6 5 - 5 5 4 5 3 5
+M Crusher 7 5 - 5 4 3 2 3 7
+M Manticora 6 5 - 5 5 4 5 3 5
 CAVALRY M WS BS S T W I A Ld
 C Mounted Barbarian 4 4 3 3 3 1 3 1 7
 - Warhorse 8 3 - 3 3 1 3 1 5
 S Wasteland Knight 4 5 3 4 4 1 5 2 8
 - Wasteland Steed 8 3 - 4 3 1 3 1 5
-Hell Riders 4 4 4 3 3 1 5 1 7
+S Hell Riders 4 4 4 3 3 1 5 1 7
 - Steed of Lust 10 3 - 3 3 1 5 1 7
 MONSTROUS CAVALRY
 R Crusher Knights 4 5 3 4 4 1 5 2 8
@@ -970,18 +731,18 @@ C Wasteland Chariot - - - 5 4 4 - - -
 R Battle Shrine - - - 0 5 5 - - -
 - Shrine Priest (1) - 5 3 4 - - 4 2 8
 - Shrine Bearer (1) 6 3 3 4 - - 2 * -
-Mauler Chariot - - - 5 6 5 - - -
+R Mauler Chariot - - - 5 6 5 - - -
 - Crew (2) - 5 3 4 - - 5 2 8
 - Mauler(1) 7 4 - 5 - - 2 3 -
 (2) - number of crew members when taken as a separate unit
 [1] - number of crew members when taken as a mount
 MONSTERS
 S Bloodbrute 6 4 - 6 5 4 3 4 4
-Vortex Fiend 6 4 - 5 5 5 3 * 8
+S Vortex Fiend 6 4 - 5 5 5 3 * 8
 R Chimera 6 4 - 6 7 4 3 6 5
-Hellscream Cannon 1 4 3 5 6 5 1 4 6
-Elder Dragon Centaur 7 6 3 6 6 6 4 5 9
-Wasteland Giant 6 3 - 6 5 6 3 * 10
+R Hellscream Cannon 1 4 3 5 6 5 1 4 6
+R Elder Dragon Centaur 7 6 3 6 6 6 4 5 9
+R Wasteland Giant 6 3 - 6 5 6 3 * 10
 M Wasteland Dragon 6 5 1 6 6 6 3 6 9
 SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
 Hellscream Cannon Hellscream Cannon Catapult (3") 60 4[9] - [Ordnance] 1
