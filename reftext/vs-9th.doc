@@ -1,183 +1,72 @@
 Fantasy Battles
 The 9th Age
-The Vermin Swarm
-Army Rules
-Version 0.11.0 Beta
+The Vermin Swarm Army Rules Version 0.11.0 Beta
+
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+
 Army Special Rules
-Armoury
-Magic items
-Quick Reference Sheet
-Change Log
-Lords
-Heroes
-Core
-Special
-Rare
-Mounts
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.
-All relevant rules, as well as feedback and suggestions, can be found/given here:
-http://www.the-ninth-age.com/
-Rules changes between versions are colour coded in green. See change log at end of document.
-Army Special Rules
-Safety in Numbers
-Non-fleeing units comprised solely of models with this Special Rule add their number of Full Ranks after the first one to
-their Leadership (up to maximum of +3). This rule cannot be used to modify the Leadership that is distributed by
-models with Inspiring Presence (but the received Inspiring Presence can be modified by Safety in Numbers).
-Furthermore if all models in a unit have this Special Rule, they add +1 to any flee distances they roll.
-Callous
-A model with this special rule is allowed to use non-template shooting weapons against an enemy unit in close combat
-with friendly units of Infantry, or Swarms, not containing any characters. When firing at an enemy unit in close combat
-with friendly units, roll to hit as normal and then randomize each hit scored. On a 4+ it hits the target, otherwise it hits a
-fr
-iendly unit in that combat (randomize if several friendly units are involved in the combat).
-Honourless
-Characters that are Honourless do not receive the usual penalties from refusing a challenge.
-State of Trance (X)
-The war platform and the unit it has joined gains the Immune To Psychology special rule. The war platform may only
-join units of (x). Disregard other characters.
-Greater Clan
-Plague Cult
-Toxic attacks have -1 to wound against models with this rule.
-Volatile
+Safety in Numbers: Non-fleeing units comprised solely of models with this Special Rule add their number of Full Ranks after the first one to their Leadership (up to maximum of +3). This rule cannot be used to modify the Leadership that is distributed by models with Inspiring Presence (but the received Inspiring Presence can be modified by Safety in Numbers).  Furthermore if all models in a unit have this Special Rule, they add +1 to any flee distances they roll.
+Callous: A model with this special rule is allowed to use non-template shooting weapons against an enemy unit in close combat with friendly units of Infantry, or Swarms, not containing any characters. When firing at an enemy unit in close combat with friendly units, roll to hit as normal and then randomize each hit scored. On a 4+ it hits the target, otherwise it hits a friendly unit in that combat (randomize if several friendly units are involved in the combat).
+Honourless: Characters that are Honourless do not receive the usual penalties from refusing a challenge.
+State of Trance (X): The war platform and the unit it has joined gains the Immune To Psychology special rule. The war platform may only join units of (x). Disregard other characters.
+Plague Cult: Toxic attacks have -1 to wound against models with this rule.
+Volatile:
 When a model with this rule rolls a misfire, roll a D6 and consult the table below.
-1 (or less) Explosion!
-No shots are fired. Scatter the model D6". If it hits any unit in its path the unit takes D6 Strength 5
-hits. Remove the model.
-2-3 Malfunction
-No shots are fired. The model suffers a Wound with no Saves of any kind allowed.
-4-5 Overcharged
-Pivot the unit towards a random direction and then resolve the shooting attack as normal against
-the first unit within line of sight and range, straight in front of the shooting model. Replace
-Lightning Cannon's and Dreadmill's normal shooting with a Line Template (6D6"). Models hit take
-a Strength 10 hit with Magical Attacks, Lightning Attacks and Armour Piercing (6).
-6+ Spent
-The shooting is resolved as normal (a Dreadmill will fire 3 shots). The Warp Weapon is then
-considered broken and can't be used anymore for the rest of the game. If the model is a Warp
-Weapon Team, remove it as casualty instead.
-2
+1 (or less) Explosion!: No shots are fired. Scatter the model D6". If it hits any unit in its path the unit takes D6 Strength 5 hits. Remove the model.
+2-3 Malfunction: No shots are fired. The model suffers a Wound with no Saves of any kind allowed.
+4-5 Overcharged: Pivot the unit towards a random direction and then resolve the shooting attack as normal against the first unit within line of sight and range, straight in front of the shooting model. Replace Lightning Cannon's and Dreadmill's normal shooting with a Line Template (6D6"). Models hit take a Strength 10 hit with Magical Attacks, Lightning Attacks and Armour Piercing (6).
+6+ Spent: The shooting is resolved as normal (a Dreadmill will fire 3 shots). The Warp Weapon is then considered broken and can't be used anymore for the rest of the game. If the model is a Warp Weapon Team, remove it as casualty instead.
+
 Armoury
 Close Combat Weapons
-Meat Grinder
-A model with Meat Grinder has Impact Hits (2D6),
-Grinding Attacks (2D6). A Weapon Team carrying this
-weapon gains Innate Defence (5+).
-These Impact hits and Grinding Attacks are resolved at
-Strength 4 and have Armour Piercing (1).
-Plague Flail
-Uses rules for Flails, with the following addition:
-Models with Plague Flails can make a single additional
-special attack against a model in base contact. This is
-resolved at Initiative 10, hits automatically and has the
-Toxic Attacks Special Rule.
+Meat Grinder: A model with Meat Grinder has Impact Hits (2D6), Grinding Attacks (2D6). A Weapon Team carrying this weapon gains Innate Defence (5+).  These Impact hits and Grinding Attacks are resolved at Strength 4 and have Armour Piercing (1).
+Plague Flail: Uses rules for Flails, with the following addition: Models with Plague Flails can make a single additional special attack against a model in base contact. This is resolved at Initiative 10, hits automatically and has the Toxic Attacks Special Rule.
+
 Other Equipment
-Tail Weapon
-If using mundane weapons the wielder gains +1 Attack.
-Dark Shard
-One use only. When casting a spell but before rolling
-power dice, the caster may decide to use a single Dark
-Shard which adds a +D3 casting bonus to the spell. If a
-natural '1' is rolled on the dice, the caster suffers a hit
-with a Strength value equal to the number of Power Dice
-used, with no saves of any kind allowed.
+Tail Weapon: If using mundane weapons the wielder gains +1 Attack.
+Dark Shard: One use only. When casting a spell but before rolling power dice, the caster may decide to use a single Dark Shard which adds a +D3 casting bonus to the spell. If a natural '1' is rolled on the dice, the caster suffers a hit with a Strength value equal to the number of Power Dice used, with no saves of any kind allowed.
+
 Shooting Weapons
-Rotary Gun
-This is a shooting weapon with Multiple Shots (2d6*2) or
-Multiple Shots (3d6*2) to the player choice; Range 24",
-Strength 4, Armour Piercing (1), Slow to Fire, Magical
-Attacks, Volatile. This weapon never suffers To Hit
-penalties from Multiple Shots or from moving. If a double
-comes up when rolling for number of shots the weapon
-misfires.
-Globe Launcher
-This is a shooting weapon Multiple Shots (2d6*2); Range
-18", Toxic Attacks, Slow to Fire, Magical Attacks, Volley
-Fire, Volatile. This weapon never suffers To Hit penalties
-fr
-om Multiple Shots or from moving. If a double comes
-up when rolling for number of shots the weapon misfires.
-Naphtha Thrower
-This is a shooting weapon Multiple Shots (2D6); Range
-12", Strength 5, Multiply Wound (D3), Flaming Attacks,
-Magical Attacks, Volatile, Slow To Fire. This weapon
-never suffers To Hit penalties from Multiple Shots or
-fr
-om moving. If a double comes up when rolling for
-number of shots the weapon misfires.
-Sling
-Range 18", Strength 3, Multiple Shots (2).
-Gas Globes
-Range 12", Quick to Fire, Volley Fire, always wounds on
-4+, Magical Attacks, Armour Piercing (6).
-3
+Rotary Gun: This is a shooting weapon with Multiple Shots (2d6*2) or Multiple Shots (3d6*2) to the player choice; Range 24", Strength 4, Armour Piercing (1), Slow to Fire, Magical Attacks, Volatile. This weapon never suffers To Hit penalties from Multiple Shots or from moving. If a double comes up when rolling for number of shots the weapon misfires.
+Globe Launcher: This is a shooting weapon Multiple Shots (2d6*2); Range 18", Toxic Attacks, Slow to Fire, Magical Attacks, Volley Fire, Volatile. This weapon never suffers To Hit penalties from Multiple Shots or from moving. If a double comes up when rolling for number of shots the weapon misfires.
+Naphtha Thrower: This is a shooting weapon Multiple Shots (2D6); Range 12", Strength 5, Multiply Wound (D3), Flaming Attacks, Magical Attacks, Volatile, Slow To Fire. This weapon never suffers To Hit penalties from Multiple Shots or from moving. If a double comes up when rolling for number of shots the weapon misfires.
+Sling: Range 18", Strength 3, Multiple Shots (2).
+Gas Globes: Range 12", Quick to Fire, Volley Fire, always wounds on 4+, Magical Attacks, Armour Piercing (6).
+
 Magical Items
 Magical Weapons
-The Doom Blade (100 pts) - Infantry only
-Type: Hand weapon. Attacks made with this weapon
-have Strength 10 and Multiple Wounds (D6), Holy
-Attacks. At the end of your turn, the wielder suffers a hit
-with the Toxic Attack special rule. A character with this
-weapon gains the Not A Leader special rule.
-Thunder Shuriken (45 pts) - Sicarra Assassin only
-Type: Throwing Weapon. Range 12", Strength (5),
-Multiple Shots (3), Multiple Wounds (D3), Quick to Fire.
+The Doom Blade (100 pts): Infantry only Type: Hand weapon. Attacks made with this weapon have Strength 10 and Multiple Wounds (D6), Holy Attacks. At the end of your turn, the wielder suffers a hit with the Toxic Attack special rule. A character with this weapon gains the Not A Leader special rule.
+Thunder Shuriken (45 pts): Sicarra Assassin only Type: Throwing Weapon. Range 12", Strength (5), Multiple Shots (3), Multiple Wounds (D3), Quick to Fire.
+
 Magical Armour
-Putrid Plate (25 pts, 35 pts if Mounted)
-Type: Plate Armour. For every successful Armour Save
-made by the bearer, the unit which caused the wound
-suffers a hit with the Toxic Attack Special Rule.
-Deceiver's Buckler (25 pts)
-Type: Shield. One enemy model in base contact with the
-wielder (owning player's choice), has -1 attack down to a
-minimum of 1. The wielder gains Distracting.
+Putrid Plate (25 pts, 35 pts if Mounted): Type: Plate Armour. For every successful Armour Save made by the bearer, the unit which caused the wound suffers a hit with the Toxic Attack Special Rule.
+Deceiver's Buckler (25 pts): Type: Shield. One enemy model in base contact with the wielder (owning player's choice), has -1 attack down to a minimum of 1. The wielder gains Distracting.
+
 Talismans
-Armlet of Power (25 pts)
-Contains a bound spell power level (4). Type: Caster,
-Duration: lasts one turn. The character doubles his
-strength (this cannot modify the strength of a mount).
+Armlet of Power (25 pts): Contains a bound spell power level (4). Type: Caster, Duration: lasts one turn. The character doubles his strength (this cannot modify the strength of a mount).
+
 Enchanted Items
-Sceptre of Vermin Valour (35 pts) - Models on foot only
-The character can ignore the 'First In Rank' rule and may
-thus be placed in any rank.
-Scabbing Potion (25 pts, 35 pts if Mounted)
-One use only. May be activated at the beginning of any of
-your phases. The bearer recovers D3 wounds. This item
-can't be bought by a Magister mounted on The Doom Bell
-or Plague Priest mounted on a Plague Pendulum.
-Implosion Sphere (40 pts)
-One use only. This is a Catapult Artillery Weapon with
-the following profile: Range: 8", 3" template, Magical
-Attack. Every model hit by the template must pass an
-Initiative Test or suffer a wound with Armour Piercing
-(6) and Multiples Wounds (Ordnance) with no saves of
-any kind allowed. If a misfire is rolled, center the
-template on the user instead of rolling on the misfire
-table and work out the damage as normal.
-Eye of the Storm (20pts)
-When casting Black Lightning (Path of Ruin) the Eye of
-the Storm adds +2 hits, except on a roll of a natural '1'.
+Sceptre of Vermin Valour (35 pts): Models on foot only The character can ignore the 'First In Rank' rule and may thus be placed in any rank.
+Scabbing Potion (25 pts, 35 pts if Mounted): One use only. May be activated at the beginning of any of your phases. The bearer recovers D3 wounds. This item
+can't be bought by a Magister mounted on The Doom Bell or Plague Priest mounted on a Plague Pendulum.
+Implosion Sphere (40 pts): One use only. This is a Catapult Artillery Weapon with the following profile: Range: 8", 3" template, Magical Attack. Every model hit by the template must pass an Initiative Test or suffer a wound with Armour Piercing (6) and Multiples Wounds (Ordnance) with no saves of any kind allowed. If a misfire is rolled, center the template on the user instead of rolling on the misfire table and work out the damage as normal.
+Eye of the Storm (20pts): When casting Black Lightning (Path of Ruin) the Eye of the Storm adds +2 hits, except on a roll of a natural '1'.
+
 Magical Standards
-The Lightning Rod (50 pts)
-One use only. Activate at the start of an opponents turn.
-During this player turn, all shooting attacks receive a -2
-penalty to hit all friendly units gains the Blurry special
-rule. Shooting attacks that don't roll to hit must roll a 4+
-or the attack is lost. No Flying movement may take place.
-4
+The Lightning Rod (50 pts): One use only. Activate at the start of an opponents turn.  During this player turn, all friendly units gains the Blurry special rule. Shooting attacks that don't roll to hit must roll a 4+ or the attack is lost. No Flying movement may take place.
+
 Army List
 LORDS
 Vermin Daemon 315 pts
 single model
 M WS BS S T W I A Ld
 8 8 4 6 6 5 9 5 9 Monster 50x50mm base
-Magic: Level 1 Wizard Apprentice . Generates spells from
-the Path of Ruin, Disease or Shadows.
-Special Rules: Otherworldly, Multiple Wounds (D3), Swiftstride,
-Daemonic Instability
+Magic: Level 1 Wizard Apprentice . Generates spells from the Path of Ruin, Disease or Shadows.
+Special Rules: Otherworldly, Multiple Wounds (D3), Swiftstride, Daemonic Instability
 Options: pts
 May have the Not a Leader Special Rule free
 May take one of the following:
-Grinding Attacks (2D6*) 30
-*resolved at Strength 3
+Grinding Attacks (2D6*) 30 *resolved at Strength 3
 Lightning Reflexes 35
 Regeneration (4+) 40
 Path Master 50
@@ -186,16 +75,14 @@ May become a
 Level 2 Wizard Apprentice 25
 Level 3 Wizard Master 95
 Level 4 Wizard Master 130
-Exalted: Vermin Daemon has +1 Wound, +1 Attack, +1
-Movement and uses a 100x60mm base size.
-5
+Exalted: Vermin Daemon has +1 Wound, +1 Attack, +1 Movement and uses a 100x60mm base size.
+
 Tyrant 80 pts
 single model
 M WS BS S T W I A Ld
 5 6 4 4 4 3 7 4 7 Infantry 20x20mm base
 Armour: Light Armour
-Ve
-rmin Special Rules: Safety in Numbers, Honourless
+Vermin Special Rules: Safety in Numbers, Honourless
 Options: pts
 May take Magic Items up to 100
 May take a Shield 5
@@ -208,29 +95,27 @@ May take a mount (one choice only)
 Vermin Hulk Bodyguard 55
 Vermin Guard Litter 45
 Monstrous Rat 125
-Magister1 75 pts
+
+Magister 175 pts
 single model
 M WS BS S T W I A Ld
 5 3 3 3 4 3 5 1 6 Infantry 20x20mm base
-Ve
-rmin Special Rules: Safety in Numbers, Honourless
-Magic: Wizard Level 3 Master . Generates spells from
-the Path of Ruin or Shadows
+Vermin Special Rules: Safety in Numbers, Honourless
+Magic: Wizard Level 3 Master . Generates spells from the Path of Ruin or Shadows
 Options: pts
 May take Magic Items up to 100
 May purchase up to four Dark Shards 10 / Shard
 May Become a level 4 Wizard 35
 May take a mount
 Doom Bell 200
-6
+
 HEROES
 Chief 45 pts
 single model
 M WS BS S T W I A Ld
 5 5 4 4 4 2 6 3 6 Infantry 20x20mm base
 Armour: Light Armour
-Ve
-rmin Special Rules: Safety in Numbers, Honourless
+Vermin Special Rules: Safety in Numbers, Honourless
 Options: pts
 May be the Battle Standard Bearer 25
 May be upgraded to Fetthis Broodmaster 10
@@ -244,91 +129,62 @@ Halberd 4
 May take a mount (one choice only)
 Vermin Hulk Bodyguard 60
 Monstrous Rat 140
-Fetthis Broodmaster: Chief has +1 Movement and gains
-Swiftstride.
+Fetthis Broodmaster: Chief has +1 Movement and gains Swiftstride.
+
 Apprentice Magister 65 pts
 single model
 M WS BS S T W I A Ld
 5 3 3 3 3 2 4 1 5 Infantry 20x20mm base
-Ve
-rmin Special Rules: Safety in Numbers, Honourless
-Magic: Level 1 Wizard Apprentice . Generates spells from
-the Path of Ruin or Shadows.
+Vermin Special Rules: Safety in Numbers, Honourless
+Magic: Level 1 Wizard Apprentice . Generates spells from the Path of Ruin or Shadows.
 Options: pts
 May become a Level 2 Wizard 25
 May purchase up to two Dark Shards 10 / Shard
 May take Magic Items up to 50
-Strain Master 55 pts
-7
+
 Rakachit Engineer 65 pts
 single model
 M WS BS S T W I A Ld
 5 4 4 4 4 2 5 2 6 Infantry 20x20mm base
-Ve
-rmin Special Rules: Safety in Numbers, Honourless, Callous
+Vermin Special Rules: Safety in Numbers, Honourless, Callous
 Special Rules: Channel, Magical Attacks
-Additional Options: pts
-Up to two Warp Tokens 10 / token
 Options: pts
 May take Magic Items up to 50
-May take the Greater Clan special rule 10
 May take a Heavy Armour 5
 May take a weapon (one choice only)
 Halberd 4
 Gas Globes 5
 Ratlock Pistol 10
-Ratlock Pistol: Range 12", Strength 5, Quick to Fire, Armour
-Piercing (1), Magical Attacks.
-In Close Combat a Ratlock Pistol count as an Additional Hand
-Weapon that inflicts Magical Attacks.
-Aether Turbine: The Rakachit Engineer may cast three different type of Bound Spells (Power Level 4) as described
-below:
-Black
-Lightning
-Path of
-Ruin
-Range 24". Target suffers D6 strength 5 Lightning hits. For each '1' rolled, the caster
-suffers a strength 5 hit instead of the target.
-Enchanted
-Blades
-Path of
-Alchemy
-May only target caster's unit. Target has +1 to hit. All target's attacks (including Shooting)
-gain the Magical Attacks and Armour Piercing (1) special rules. Any attacks which already
-had Armour Piercing gains +1 to its Armour Piercing instead.
-Pink Fire Path of
-Change The caster gains the Breath Weapon (Strength D3+2, Hellfire) special rule.
-8
+Ratlock Pistol: Range 12", Strength 5, Quick to Fire, Armour Piercing (1), Magical Attacks.  In Close Combat a Ratlock Pistol count as an Additional Hand Weapon.
+Aether Turbine: The Rakachit Engineer may cast three different type of Bound Spells (Power Level 4) as described below:
+Black Lightning: Path of Ruin Range 24". Target suffers D6 strength 5 Lightning hits. For each '1' rolled, the caster suffers a strength 5 hit instead of the target.
+Enchanted Blades: Path of Alchemy May only target caster's unit. Target has +1 to hit. All target's attacks (including Shooting) gain the Magical Attacks and Armour Piercing (1) special rules. Any attacks which already had Armour Piercing gains +1 to its Armour Piercing instead.
+Pink Fire: Path of Change The caster gains the Breath Weapon (Strength D3+2, Hellfire) special rule.
+
 Sicarra Assassin 100 pts
 single model
 M WS BS S T W I A Ld
 6 6 5 4 4 2 8 3 7 Infantry 20x20mm base
 Weapons: Additional Hand Weapon, Throwing Weapon
-Ve
-rmin Special Rules: Safety in Numbers, Honourless, Callous
-Special Rules: Lightning Reflexes, Ward Save (4+), Poisoned
-Attacks, Hidden, Not A Leader.
+Vermin Special Rules: Safety in Numbers, Honourless, Callous
+Special Rules: Lightning Reflexes, Ward Save (4+), Poisoned Attacks, Hidden, Not A Leader.
 Options: pts
 May take Magic Items up to 50
-May take the Greater Clan special rule 10
 May gain any of the following
 Lethal Strike 10
 Scout and Ambush 15
-Multiple Wounds (D3)* 25
-*Only affects Mundane Close Combat weapons
+Multiple Wounds (D3)* 25 *Only affects Mundane Close Combat weapons
 May take a Sling 5
 May take a Tail Weapon 10
-Master of Assassins: The character's Inspiring Presence range is increased to 18" if he is chosen as general. The
-character may only confer his Leadership to Deathrunners, Footpads and Gutter Blades even if he is the general.
+Master of Assassins: The character may only confer his Leadership to Deathrunners, Footpads and Gutter Blades.
+
 Plague Prophet 70 pts
 single model
 M WS BS S T W I A Ld
 5 5 3 4 5 2 5 3 6 Infantry 20x20mm base
-Ve
-rmin Special Rules: Safety in Numbers, Plague Cult, Honourless
+Vermin Special Rules: Safety in Numbers, Plague Cult, Honourless
 Special Rules: Hatred
 Options: pts
-May take the Greater Clan special rule 10
 May take Magic Items up to 50
 May become
 a Level 1 Wizard Apprentice 40
@@ -340,50 +196,41 @@ Halberd 4
 Flail 4
 Plague Flail 10
 May ride a Plague Pendulum 150
-Magic: If upgraded to a Wizard, Generates spells from the Path of
-Disease.
-9
+Magic: If upgraded to a Wizard, Generates spells from the Path of Disease.
+
 CORE
 Rats-at-Arms 100 pts
 20 models, may add up to 50 models for 5 pts / model
 M WS BS S T W I A Ld
 5 3 3 3 3 1 4 1 5 Infantry 20x20mm base
 Armour: Light Armour, Shield
-Ve
-rmin Special Rules: Safety in Numbers
+Vermin Special Rules: Safety in Numbers
 Options: pts
 May take Spears free
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- May become the Veteran Standard Bearer*
-*The Veteran Standard Bearer is One of a Kind, and can take
-magic banners up to 25 pts.
+Standard Bearer 10 - May become the Veteran Standard Bearer* *The Veteran Standard Bearer is One of a Kind, and can take magic banners up to 25 pts.
+
 Vermin Guard 70 pts
 10 models, may add up to 50 models for 7 pts / model
 M WS BS S T W I A Ld
 5 4 3 3 3 1 5 1 5 Infantry 20x20mm base
 Weapons: Halberd
 Armour: Heavy Armour, Shield
-Ve
-rmin Special Rules: Safety in Numbers
+Vermin Special Rules: Safety in Numbers
 Options: pts
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- May become the Veteran Standard Bearer**
-** The Vermin Guard Veteran Standard Bearer can take magic
-banners up to 50 pts.
-10
+Standard Bearer 10 - May become the Veteran Standard Bearer** ** The Vermin Guard Veteran Standard Bearer can take magic banners up to 50 pts.
+
 Weapon Team 50 pts
 single model
 M WS BS S T W I A Ld
 5 3 3 3 3 2 4 2 5 Infantry 25x50mm base
 Armour: Heavy Armour
-Ve
-rmin Special Rules: Safety in Numbers, Callous
+Vermin Special Rules: Safety in Numbers, Callous
 Special Rules: Insignificant
 Options: pts
 Must take a single weapon:
@@ -391,54 +238,49 @@ Rotary Gun free
 Naphtha Thrower free
 Globe Launcher free
 Meat Grinder free
-Tag-Along: The amounts of Warp Tech Weapon Teams in your army can never exceed your total amount of
-Rats-at-Arms and Vermin Guard units. Furthermore if a model with this special rule is within 3" of a non-fleeing
-Rats-at-Arms or Vermin Guard unit it counts as being in Hard Cover, and may use the unit's Leadership for tests.
+Tag-Along: The amounts of Warp Tech Weapon Teams in your army can never exceed your total amount of Rats-at-Arms and Vermin Guard units. Furthermore if a model with this special rule is within 3" of a non-fleeing Rats-at-Arms or Vermin Guard unit it counts as being in Hard Cover, and may use the unit's Leadership for tests.
+
 Slaves 50 pts
 20 models, may add up to 30 models for 2 pts / model
 M WS BS S T W I A Ld
 5 2 2 3 3 1 4 1 2 Infantry 20x20mm base
-Ve
-rmin Special Rules: Safety in Numbers
+Vermin Special Rules: Safety in Numbers
 Special Rules: Insignificant
-Disposable: Units with this rule that break from
-combat are immediately destroyed.
+Disposable: Units with this rule that break from combat are immediately destroyed.
 Options: pts
 May upgrade one model to a Musician 10 pts
+
 Footpads 70 pts
 10 models, may add up to 10 models for 7 pts / model
 M WS BS S T W I A Ld
 6 3 3 3 3 1 4 1 6 Infantry 20x20mm base
 Weapons: Additional Hand Weapon, Throwing Weapon
-Ve
-rmin Special Rules: Safety in Numbers, Callous
+Vermin Special Rules: Safety in Numbers, Callous
 Special Rules: Skirmishers, Vanguard
 Options: pts
 May upgrade one model to Champion 10
-11
+
 Plague Brotherhood 90 pts
 15 models, may add up to 45 models for 7 pts / model
 M WS BS S T W I A Ld
 5 3 3 3 4 1 3 1 5 Infantry 20x20mm base
 Weapons: Additional Hand Weapon
-Ve
-rmin Special Rules: Safety in Numbers, Plague Cult
+Vermin Special Rules: Safety in Numbers, Plague Cult
 Special Rules: Hatred
 Options: pts
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- May take Veteran Magic Banner up to 25
+Standard Bearer 10 - May take Veteran Magic Banner up to 25
+
 Giant Rats 40 pts
 10 models, may add up to 40 models for 3 pts / model
 M WS BS S T W I A Ld
 6 3 - 3 3 1 4 1 5 Infantry 20x20mm base
-Ve
-rmin Special Rules: Safety in Numbers
+Vermin Special Rules: Safety in Numbers
 Special Rules: Fight in Extra Rank, Swiftstride.
 Handlers: The unit may always perform a Swift Reform with no Leadership test required.
-12
+
 SPECIAL
 Jezails 90 pts
 5 models, may add up to 5 models for 16 pts / model
@@ -447,24 +289,23 @@ M WS BS S T W I A Ld
 Armour: Pavise: Grants the model a 4+ Armour Save against ranged attacks.
 Weapons: Jezail: Shooting weapon. Range 36". Strength 6. Armour Piercing (1), Unwieldy, Magical Attacks.
 Muskets never suffer To Hit penalties from long range.
-Ve
-rmin Special Rules: Safety in Numbers, Callous
+Vermin Special Rules: Safety in Numbers, Callous
+
 Grenadiers 75 pts
 5 models, may add up to 5 models for 15 pts / model
 M WS BS S T W I A Ld
 5 3 4 3 3 1 4 1 6 Infantry 20x20mm base
 Weapons: Gas Globes
 Armour: Heavy Armour
-Ve
-rmin Special Rules: Safety in Numbers, Callous
+Vermin Special Rules: Safety in Numbers, Callous
 Special Rules: Skirmishers
+
 Gutter Blades 55 pts
 5 models, may add up to 5 models for 9 pts / model
 M WS BS S T W I A Ld
 6 4 4 3 3 1 5 1 7 Infantry 20x20mm base
 Weapons: Additional Hand Weapon, Throwing Weapons
-Ve
-rmin Special Rules: Safety in Numbers, Callous
+Vermin Special Rules: Safety in Numbers, Callous
 Special Rules: Skirmishers, Vanguard
 Options: pts
 May gain any of the following:
@@ -474,51 +315,47 @@ May take a weapon (one choice only)
 Slings 1 / model
 Tail Weapons 2 / model
 May upgrade one model to Champion 10
-13
+
 Plague Disciples 60 pts
 5 models, may add up to 10 models for 9 pts / model
 M WS BS S T W I A Ld
 5 3 3 3 4 1 4 1 5 Infantry 20x20mm base
 Weapons: Plague Flail
-Ve
-rmin Special Rules: Safety in Numbers
+Vermin Special Rules: Safety in Numbers
 Special Rules: Plague Cult, Skirmishers, Hatred, Frenzy
 Options: pts
 May upgrade one model to Champion 10
-Disciples: A unit with this special rule can use the ranks of a Plague Brotherhood unit within 6" as their own for the
-purpose of calculating the Leadership bonus from Safety in Numbers.
+Disciples: A unit with this special rule can use the ranks of a Plague Brotherhood unit within 6" as their own for the purpose of calculating the Leadership bonus from Safety in Numbers.
+
 Vermin Hulks 90 pts
 3 models, may add up to 9 models for 35 pts / model
 M WS BS S T W I A Ld
 6 3 1 5 4 3 4 3 6 Monstrous Infantry 40x40mm base
-Ve
-rmin Special Rules: Safety in Numbers
+Vermin Special Rules: Safety in Numbers
 Special Rules: Immune To Psychology
 Options: pts
 May take Swiftstride 5 / model
 May take Thunderous Charge 5 / model
 May upgrade one model to Champion 10
-14
+
 Thunder Hulks 200 pts
 3 models, may add up to 3 models for 50 pts / model
 M WS BS S T W I A Ld
 6 3 3 5 4 4 4 3 6 Monstrous Infantry 50x50mm base
 Armour: Plate Armour
 Weapons: Rotary Gun, Naphtha Thrower, Globe Launcher, Meat Grinder.
-Ve
-rmin Special Rules: Safety in Numbers, Callous
+Vermin Special Rules: Safety in Numbers, Callous
 Special Rules: Immune to Psychology,
-Thunder Hulks: In each turn one model in the unit may use one of its weapons. If a misfire is rolled in the shooting
-phase, no shots are fired and the unit suffers D3 wounds with no saves of any kind allowed.
+Thunder Hulks: In each turn one model in the unit may use one of its weapons. If a misfire is rolled in the shooting phase, no shots are fired and the unit suffers D3 wounds with no saves of any kind allowed.
+
 Rat Swarm 40 pts
 2 models, may add up to 8 models for 15 pts / model
 M WS BS S T W I A Ld
 6 3 - 2 2 5 4 5 10 Swarm 40x40mm base
-Ve
-rmin Special Rules: Safety in Numbers
+Vermin Special Rules: Safety in Numbers
 Special Rules: Insignificant, Swiftstride
 Tiny: This unit is able to Move and Charge through friendly units, but can never end its movement inside one.
-15
+
 RARE
 Dreadmill 150 pts
 single model
@@ -527,103 +364,65 @@ Chariot - - - 6 6 5 - - -
 Crew (1) - 3 3 3 - - 4 1 7
 Pulling Beasts (1) * 3 - 3 - - 4 * - Chariot 50x100mm base
 Armour: Innate Defence (4+)
-Ve
-rmin Special Rules: Safety in Numbers, Volatile
-Special Rules: Large Target, Immune to Psychology, Grinding Attacks (D3), Random Movement (3D6), Random Attacks (2D6)
-(Pulling beast only), Scythes
-Weapons: Electric Discharge: Range 12", Strength 10, Multiple Shots (D3), Multiple Wounds (D3), Magical Attacks, Lightning
-Attacks, Slow to Fire. Shots with Electric Discharge can shoot at 360o and automatically hit. If a natural '6' comes up
-when rolling for the number of shots, the attacks are lost and the model must roll on the Volatile Table.
+Vermin Special Rules: Safety in Numbers, Volatile
+Special Rules: Large Target, Immune to Psychology, Grinding Attacks (D3), Random Movement (3D6), Random Attacks (2D6) (Pulling beast only), Scythes
+Weapons: Electric Discharge: Range 12", Strength 10, Multiple Shots (D3), Multiple Wounds (D3), Magical Attacks, Lightning Attacks, Slow to Fire. Shots with Electric Discharge can shoot at 360o and automatically hit. If a natural '6' comes up when rolling for the number of shots, the attacks are lost and the model must roll on the Volatile Table.
+
 Abomination 210 pts
 single model
 M WS BS S T W I A Ld
 * 3 1 6 5 6 4 * 8 Monster 60x100mm base
-Ve
-rmin Special Rules: Safety in Numbers
-Special Rules: Immune to Psychology, Random Movement (3D6),
-Random Attacks (3D6), Regeneration (4+),
-Stubborn
+Vermin Special Rules: Safety in Numbers
+Special Rules: Immune to Psychology, Random Movement (3D6), Random Attacks (3D6), Regeneration (4+), Stubborn
 Options: pts
 May take Toxic Retaliation 20
-Toxic Retaliation: For every unsaved wound the
-Abomination suffers during the Close Combat Phase, it inflicts
-D3 Toxic hits to the unit causing the wound.
-16
+Toxic Retaliation: For every unsaved wound the Abomination suffers during the Close Combat Phase, it inflicts D3 Toxic hits to the unit causing the wound.
+
 Lightning Cannon 100 pts
 single model
 M WS BS S T W I A Ld
 Cannon - - - - 7 3 - - -
 Crew (3) 5 3 3 3 3 - 4 1 7 War Machine 75mm round base
 Weapons: Lightning Cannon:
-This is a Cannon Artillery (D6) Weapon with
-Range 60", Strength 2D6, Armour Piercing (6), Magical Attacks, Lightning Attacks, Multiple Wounds (Ordnance). The
-cannonball does not reduce its strength after impact. If a 11 or more is rolled the cannon fires at Strength 10 and the
-cannonball is not stopped if it fails to kill a model.
-Ve
-rmin Special Rules: Safety in Number, Volatile
+This is a Cannon Artillery (D6) Weapon with Range 60", Strength 2D6, Armour Piercing (6), Magical Attacks, Lightning Attacks, Multiple Wounds (Ordnance). The cannonball does not reduce its strength after impact. If a 11 or more is rolled the cannon fires at Strength 10 and the cannonball is not stopped if it fails to kill a model.
+Vermin Special Rules: Safety in Number, Volatile
+
 Plague Catapult 120 pts
 single model
 M WS BS S T W I A Ld
 Catapult - - - - 7 3 - - -
 Crew (3) 5 3 3 3 4 - 4 1 7 War Machine 75mm round base
 Weapons: Additional Hand Weapon (Crew Only)
-Plague Catapult:
-This is a Catapult (3") Artillery Weapon with
-Range 12-48", Toxic Attacks, Magical Attacks.
-Ve
-rmin Special Rules: Safety in Numbers
+Plague Catapult: This is a Catapult (3") Artillery Weapon with Range 12-48", Toxic Attacks, Magical Attacks.
+Vermin Special Rules: Safety in Numbers
 Special Rules: Plague Cult, Hatred (Crew Only)
-17
+
 MOUNTS
 The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
 Monstrous Rat
 M WS BS S T W I A Ld
 7 4 0 5 5 4 4 4 5 Monstrous Beast 50x100mm base
-Ve
-rmin Special Rules: Callous
+Vermin Special Rules: Callous
 Special Rules: Fear, Large Target, Regeneration (4+), Breath Weapon (Toxic Attacks), Immune To Panic.
+
 Doom Bell
 M WS BS S T W I A Ld
 Chariot - - - 5 5 5 - - -
 Crew (1) - 3 3 5 - - 4 3 5
 Pulling Beast (1) 5 - - - - - - - - Chariot 60x100mm base
 Special Rules
-Large Target, Magic Resistance (2), Stubborn, Terror, War Platform, Ward Save (4+), Innate Defence (5+), State of
-Trance (Rats-at-Arms, Vermin Guard).
-Sounding The Bell: At the beginning of each of your magic phases, roll 2D6 and choose one of the two effects on the
-table below. If a double comes up no effect takes place and the model instead takes a Strength 5 hit with no save of
-any kind allowed.
-3-5
-Pick one model with the type War
-Machine or Chariot, or with the Special
-Rule War Platform or Undead Construct
-on the battlefield that possesses
-Toughness 7 or greater; the model suffers
-D3 wounds with Armour Piercing (6)
-- or -
-The Magister gains a Warp Token (See under
-'Other Equipment').
-6-8
-One friendly unit within 12" of the Doom
-Bell causes Fear until the start of your
-next magic phase.
-- or -
-The Magister riding the Doom Bell gets
-+1 casting modifier for the phase.
-9-11
-One friendly unit within 12" of the Doom
-Bell gains Lightning Reflexes until the
-start of your next magic phase.
-- or -
-All caster within 12" of the model reduces
-casting values in Path of Ruin by 1.
-18
+Large Target, Magic Resistance (2), Stubborn, Terror, War Platform, Ward Save (4+), Innate Defence (5+), State of Trance (Rats-at-Arms, Vermin Guard).
+Sounding The Bell: At the beginning of each of your magic phases, roll 2D6 and choose one of the two effects on the table below. If a double comes up no effect takes place and the model instead takes a Strength 5 hit with no save of any kind allowed.
+3-5: Pick one model with the type War Machine or Chariot, or with the Special Rule War Platform or Undead Construct on the battlefield that possesses Toughness 7 or greater; the model suffers D3 wounds with Armour Piercing (6) - or - The Magister gains a Warp Token (See under 'Other Equipment').
+6-8: One friendly unit within 12" of the Doom Bell causes Fear until the start of your next magic phase.  - or - The Magister riding the Doom Bell gets +1 casting modifier for the phase.
+9-11: One friendly unit within 12" of the Doom Bell gains Lightning Reflexes until the start of your next magic phase.  - or - All caster within 12" of the model reduces casting values in Path of Ruin by 1.
+
 Vermin Guard Litter
 M WS BS S T W I A Ld
 5 4 - 4 4 2 5 4 5 Infantry 40x40mm base
 Armour: Mount's Protection (5+)
-Special Rules: Herding the Swarm: Inspiring presence is
-extended by 6"
+Special Rules: Herding the Swarm: Inspiring presence is extended by 6"
+
 Vermin Hulk Bodyguard
 M WS BS S T W I A Ld
 6 4 3 5 4 4 4 4 6 Monstrous Infantry 40x40mm base
@@ -631,55 +430,46 @@ Armour: Mount's Protection (6+)
 Options: pts
 May take Swiftstride 5
 May take Thunderous Charge 5
+
 Plague Pendulum
 M WS BS S T W I A Ld
 Chariot - - - 6 5 5 - - -
 Crew (4) 5 3 3 3 - - 4 1 5 Chariot 60x100mm base
 Weapons: Additional hand weapon (crew only)
-Special Rules: Plague Cult, Hatred (Crew only), Large Target,
-Magic Resistance (2), Stubborn, Fear, War
-Platform, Ward Save (4+), Grinding Attacks
-(D6+2), Innate defense (5+), State of Trance
-(Plague Brotherhood)
+Special Rules: Plague Cult, Hatred (Crew only), Large Target, Stubborn, Fear, War Platform, Ward Save (4+), Grinding Attacks (D6+2), Innate defense (5+), State of Trance (Plague Brotherhood)
 Options: pts
 May take Cauldron of Blight 20
-State of Trance: The Blight Furnace and the unit it is within have the Immune To Psychology special rule. A Blight
-Furnace may only join a unit of Blight Monks.
-Cauldron of Blight: A wizard with this Special Rule does not roll for spells but always knows the following 3 spells:
-Putrefying Touch (Path of Disease), Mass of Flesh (Path of Disease) and The Hunger (Path of Ruin). These spells
-cannot be duplicated within the army. If a model with this Special rule is not a wizard the Furnace can reroll its
-grinding attacks.
-19
+State of Trance: The Blight Furnace and the unit it is within have the Immune To Psychology special rule. A Blight Furnace may only join a unit of Blight Monks.
+Cauldron of Blight: A wizard with this Special Rule does not roll for spells but always knows the following 3 spells: Putrefying Touch (Path of Disease), Mass of Flesh (Path of Disease) and The Hunger (Path of Ruin). These spells cannot be duplicated within the army.
+
 Quick Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 CHARACTERS M WS BS S T W I A Ld
 L Vermin Daemon 8 8 4 6 5 5 9 5 9
-Tyrant 5 6 4 4 4 3 7 4 7
-Magister 5 3 3 3 4 3 5 1 6
+L Tyrant 5 6 4 4 4 3 7 4 7
+L Magister 5 3 3 3 4 3 5 1 6
 H Chief 5 5 4 4 4 2 6 3 6
-Magister Apprentice 5 3 3 3 3 2 4 1 5
-Rakachit Engineer 5 4 4 4 4 2 5 2 6
-Sicarra Assassin 6 6 5 4 4 2 8 3 7
-Plague Prophet 5 5 3 4 5 2 5 3 6
+H Magister Apprentice 5 3 3 3 3 2 4 1 5
+H Rakachit Engineer 5 4 4 4 4 2 5 2 6
+H Sicarra Assassin 6 6 5 4 4 2 8 3 7
+H Plague Prophet 5 5 3 4 5 2 5 3 6
 INFANTRY
 C Rats-At-Arms 5 3 3 3 3 1 4 1 5
-Vermin Guard 5 4 3 3 3 1 5 1 5
-Weapon Team 5 3 3 3 3 2 4 2 5
-Slaves 5 2 2 3 3 1 4 1 2
-Footpads 6 3 3 3 3 1 4 1 6
-Plague Brotherhood 5 3 3 3 4 1 3 1 5
-Giant Rats 6 3 - 3 3 1 4 1 5
+C Vermin Guard 5 4 3 3 3 1 5 1 5
+C Weapon Team 5 3 3 3 3 2 4 2 5
+C Slaves 5 2 2 3 3 1 4 1 2
+C Footpads 6 3 3 3 3 1 4 1 6
+C Plague Brotherhood 5 3 3 3 4 1 3 1 5
+C Giant Rats 6 3 - 3 3 1 4 1 5
 S Jezails 5 3 3 3 3 2 4 2 5
-Grenadier 5 3 4 3 3 1 4 1 6
-Gutter Blades 6 4 4 3 3 1 5 1 7
-Plague Disciple 5 3 3 3 4 1 4 1 5
+S Grenadier 5 3 4 3 3 1 4 1 6
+S Gutter Blades 6 4 4 3 3 1 5 1 7
+S Plague Disciple 5 3 3 3 4 1 4 1 5
 M Vermin Guard Litter 5 4 - 4 4 2 5 4 5
 MONSTROUS INFANTRY
 S Vermin Hulks 6 3 1 5 4 3 4 3 6
-Thunder Hulks 6 3 3 5 4 4 4 3 6
-M Vermin Hulk
-Bodyguard
-6 4 3 5 4 4 4 4 6
+S Thunder Hulks 6 3 3 5 4 4 4 3 6
+M Vermin Hulk Bodyguard 6 4 3 5 4 4 4 4 6
 SWARMS M WS BS S T W I A Ld
 S Rat Swarm 6 3 - 2 2 5 4 5 10
 MONSTROUS BEASTS
@@ -693,12 +483,12 @@ R Vermin Dreadmill - - - 6 6 5 - - -
 M Doom Bell - - - 5 5 5 - - -
 - Crew (1) - 3 3 5 - - 4 3 5
 - Pulling Beast (1) 5 - - - - - - - -
-Plague Pendulum - - - 6 5 5 - - -
+M Plague Pendulum - - - 6 5 5 - - -
 - Crew (4) 5 3 3 3 - - 4 1 5
 WAR MACHINES
 R Lightning Cannon - - - - 7 3 - - -
 - Crew (3) 5 3 3 3 3 - 4 1 7
-Plague Catapult - - - - 7 3 - - -
+R Plague Catapult - - - - 7 3 - - -
 - Crew (3) 5 3 3 3 3 - 4 1 7
 SPECIAL SHOOTING WEAPON Range S Multiple Shots Multiple Wounds Armour Piercing
 -common- Rotary Gun - 24 4 2D6*2/3D6*2 - 1
