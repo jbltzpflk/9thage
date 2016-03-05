@@ -1,176 +1,66 @@
 Fantasy Battles
 The 9th Age
-Sylvan Elves
-Army Rules
-Version 0.11.1 Beta
+Sylvan Elves Army Rules Version 0.11.1 Beta
+
+Fantasy Battles: The 9th Age is a community-made miniatures wargame.  All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+
 Army Special Rules
-Armoury
-Kindreds
-Aspects of Nature
-Magical Items
-Quick Reference Sheet
-Change Log
-Lords
-Heroes
-Core
-Special
-Rare
-Mounts
-Fantasy Battles: The 9th Age is a community-made miniatures wargame.
-All relevant rules, as well as feedback and suggestions, can be found/given here:
-http://www.the-ninth-age.com/
-Rules changes between versions are colour coded in green. See change log at end of document.
-Army Special Rules
-The Forest Follows
-After both players have selected their respective deployment zones but before any models are deployed, the player may
-place a single Forest entirely within their half of the board. The terrain feature may not be larger than 27 cm in length
-and 19 cm in width. All Forests on the table are considered Dangerous Terrain.
-Forest Walker
-Models with this special rule have the Strider (Forest) special rule. Close Combat Attacks from model parts with this
-special rule have Armour Piercing (1), with the exception of models with the Otherworldly special rule. If a unit is
-comprised entirely of models with this special rule and starts the Close Combat Phase with the majority of its models in
-a Forest, all model parts with this special rule have Fight in Extra Rank and may reroll to-wound rolls of '1' in Close
-Combat for the duration of that phase. Wizards may add an additional +1 to Channel attempts if the army has one or
-more models with this rule channeling from within a Forest.
-Master Archers
-Models with this special rule count as being equipped with the following Fey Arrows (see Armoury): Truemark Arrow,
-Starlight Shaft, Perforating Tip and Jewelweed Shot.
-Tree Singing
-Bound spell, Power Level 3, Range 24", Special, Instant. This spell may target a single Forest terrain feature and affects
-any friendly unit completely inside of it and any enemy unit touching it in any manner. Enemy units suffer D6 Strength 4
-hits with Armour Piercing (1). The target Forest and all eligible friendly units (but not enemy units) are moved D3+1" in
-a single direction chosen by the caster, following the rules for Magical Movement. The Forest immediately stops just
-before moving into contact with enemy units or other terrain feature. After the spell is resolved, Breath of Life (Path of
-Nature) is automatically cast as Path Attribute.
-2
+The Forest Follows: After both players have selected their respective deployment zones but before any models are deployed, the player may place a single Forest entirely within their half of the board. The terrain feature may not be larger than 27 cm in length and 19 cm in width. All Forests on the table are considered Dangerous Terrain.
+Forest Walker: Models with this special rule have the Strider (Forest) special rule. Close Combat Attacks from model parts with this special rule have Armour Piercing (1), with the exception of models with the Otherworldly special rule. If a unit is comprised entirely of models with this special rule and starts the Close Combat Phase with the majority of its models in a Forest, all model parts with this special rule have Fight in Extra Rank and may reroll to-wound rolls of '1' in Close Combat for the duration of that phase. Wizards may add an additional +1 to Channel attempts if the army has one or more models with this rule channeling from within a Forest.
+Master Archers: Models with this special rule count as being equipped with the following Fey Arrows (see Armoury): Truemark Arrow, Starlight Shaft, Perforating Tip and Jewelweed Shot.
+Tree Singing: Bound spell, Power Level 3, Range 24", Special, Instant. This spell may target a single Forest terrain feature and affects any friendly unit completely inside of it and any enemy unit touching it in any manner. Enemy units suffer D6 Strength 4 hits with Armour Piercing (1). The target Forest and all eligible friendly units (but not enemy units) are moved D3+1" in a single direction chosen by the caster, following the rules for Magical Movement. The Forest immediately stops just before moving into contact with enemy units or other terrain feature. After the spell is resolved, Breath of Life (Path of Nature) is automatically cast as Path Attribute.
+
 Armoury
 Fey Arrows:
-There are 6 different types of Fey Arrows which provide different effects when fired with a bow. All models with Fey
-Arrows in a unit, except for characters, must choose the same effect during a Shooting Phase. Whenever a model
-equipped with Fey Arrows is shooting its Longbow, it may choose one of the following:
+There are 6 different types of Fey Arrows which provide different effects when fired with a bow. All models with Fey Arrows in a unit, except for characters, must choose the same effect during a Shooting Phase. Whenever a model equipped with Fey Arrows is shooting its Longbow, it may choose one of the following:
 1) Use the Longbow's normal rules
 or
 2) Ignore penalties for moving and shooting, lose Volley Fire, and apply the rules below
-Black Arrow Strength 4 in Short Range, Armour Piercing (1) in Long Range
-Hawthorn Point Poisoned Attacks, Armour Piercing (1)
-Truemark Arrow Ignore to-hit modifiers from Cover, Skirmishers and Long Range
-Starlight Shaft Magical Attacks, Flaming Attacks, Divine Attacks
-Perforating Tip Armour Piercing (3)
-Jewelweed Shot Multiple Shots (2)
-Impaling Roots:
-This is a Shooting Attack with the following profile: Range 12", Multiple Shots (D6+2), Strength 4 (Strength 5 if its target
-touches a Forest), Quick to Fire, can march and fire, ignores to-hit modifiers for Cover and Long Range.
-3
+  Black Arrow: Strength 4 in Short Range, Armour Piercing (1) in Long Range
+  Hawthorn Point: Poisoned Attacks, Armour Piercing (1)
+  Truemark Arrow: Ignore to-hit modifiers from Cover, Skirmishers and Long Range
+  Starlight Shaft: Magical Attacks, Flaming Attacks, Divine Attacks
+  Perforating Tip: Armour Piercing (3)
+  Jewelweed Shot: Multiple Shots (2)
+Impaling Roots: This is a Shooting Attack with the following profile: Range 12", Multiple Shots (D6+2), Strength 4 (Strength 5 if its target touches a Forest), Quick to Fire, can march and fire, ignores to-hit modifiers for Cover and Long Range.
+
 Kindreds
 Kindreds may be duplicated within an army.
-Blade Dancer (50 / 35 pts)
-Models on foot only.The model gains +2 Weapon Skill, +1
-Strength, +1 Initiative, +1 Attack, Ward Save (4+),
-Immune to Psychology and Dances of Cenyrn (see Blade
-Dancers unit). The model may only join units of Blade
-Dancers. It can't take any other Close Combat or Shooting
-Weapon or Armour (magical or mundane).
-Forest Guardian (40 / 30 pts)
-Models on foot only. The model gains Innate Defence
-(5+) and +1 Attack. Can only be armed with a Spear or
-Great Weapon but may still use a Longbow.
-Pathfinder (30 / 25 pts)
-Models on foot only. The model gains +1 Ballistic Skill.
-The model must be equipped with a Shooting Weapon
-and gains the special rules Scout, Master Archer and
-Multiple Shots (Attacks on profile).
-Wild Hunter (20 / 15 pts)
-Models mounted on Elven Horse or Great Elk only. The
-model gains Frenzy and Devastating Charge. The model
-gains Fear for the duration of any Player Turn in which it
-charged.
-Shapeshifter (45 / 35 pts)
-Models on foot only. The model gains +4 Movement, +2
-Initiative, +1 Attack, Ward Save (4+). The model gains
-Not A Leader and may never join any unit.
+Blade Dancer (50 / 35 pts): Models on foot only.The model gains +2 Weapon Skill, +1 Strength, +1 Initiative, +1 Attack, Ward Save (4+), Immune to Psychology and Dances of Cenyrn (see Blade Dancers unit). The model may only join units of Blade Dancers. It can't take any other Close Combat or Shooting Weapon or Armour (magical or mundane).
+Forest Guardian (40 / 30 pts): Models on foot only. The model gains Innate Defence (5+) and +1 Attack. Can only be armed with a Spear or Great Weapon but may still use a Longbow.
+Pathfinder (30 / 25 pts): Models on foot only. The model gains +1 Ballistic Skill.  The model must be equipped with a Shooting Weapon and gains the special rules Scout, Master Archer and Multiple Shots (Attacks on profile).
+Wild Hunter (20 / 15 pts): Models mounted on Elven Horse or Great Elk only. The model gains Frenzy and Devastating Charge. The model gains Fear for the duration of any Player Turn in which it charged.
+Shapeshifter (45 / 35 pts): Models on foot only. The model gains +4 Movement, +2 Initiative, +1 Attack, Ward Save (4+). The model gains Not A Leader and may never join any unit.
+
 Aspects of Nature
 Aspect of Nature cannot be duplicated within an army.
-Entangling Vines (25 pts)
-In a Challenge, opponents must reroll successful rolls to
-hit.
-Entwined Roots (5 pts)
-During Army creation, upgrade one unit of Dryads for +4
-points/model or one unit of Thicket Beasts for +10
-points/model to +1 Strength. This bonus applies only as
-long as the wearer is alive.
-Toxic Spores (30 pts)
-Every model in the bearer's unit gains a Shooting Attack
-with the following profile: Range 18", Strength 3, Lethal
-Strike.
-Oaken Crown (25 pts) - General only
-If the General of the army bears the Oaken Crown, every
-unit of Dryads and Thicket Beasts in the army may
-upgrade one model to a Standard Bearer and one model
-to a Musician for 10 pts each.
-Fertile Seeds (15 pts)
-Whenever a Wizard within 12" of the bearer resolves the
-Path Attribute of the Path of Nature, the player may Raise
-Wounds instead of Recover Wounds. This effect may only
-be used on Otherworldly units.
-4
+Entangling Vines (25 pts): In a Challenge, opponents must reroll successful rolls to hit.
+Entwined Roots (5 pts): During Army creation, upgrade one unit of Dryads for +4 points/model or one unit of Thicket Beasts for +10 points/model to +1 Strength. This bonus applies only as long as the wearer is alive.
+Toxic Spores (30 pts): Every model in the bearer's unit gains a Shooting Attack with the following profile: Range 18", Strength 3, Lethal Strike.
+Oaken Crown (25 pts): General only If the General of the army bears the Oaken Crown, every unit of Dryads and Thicket Beasts in the army may upgrade one model to a Standard Bearer and one model to a Musician for 10 pts each.
+Fertile Seeds (15 pts): Whenever a Wizard within 12" of the bearer resolves the Path Attribute of the Path of Nature, the player may Raise Wounds instead of Recover Wounds. This effect may only be used on Otherworldly units.
+
 Magical Items
 Magical Weapons
-Bow of Wyscan 35 pts
-Type: Longbow. The bearer may elect to replace its
-normal shooting attack with Multiple Attacks (2D6), S1,
-Poisoned Attacks. This special shooting attack cannot be
-combined with Fey Arrows.
-Sacred Spear of Cadaron 30 pts
-Type: Spear. Attacks made with this weapon has Multiple
-Wounds (2). If the bearer causes at least one unsaved
-wound with this weapon, all models in the bearer's unit
-gain Distracting until the end of the Close Combat Phase.
-Whirlwind Blade 50 /40 pts
-Type: Great Weapon. Models on foot only. The bearer
-gains +1 to Armour Save in Close Combat up to a
-maximum of 2+, +1 Weapon Skill and all attacks made
-with this weapon has Multiple Wounds (2).
+Bow of Wyscan 35 pts: Type: Longbow. The bearer may elect to replace its normal shooting attack with Multiple Attacks (2D6), S1, Poisoned Attacks. This special shooting attack cannot be combined with Fey Arrows.
+Sacred Spear of Cadaron 30 pts: Type: Spear. Attacks made with this weapon has Multiple Wounds (2). If the bearer causes at least one unsaved wound with this weapon, all models in the bearer's unit gain Distracting until the end of the Close Combat Phase.
+Whirlwind Blade 50 /40 pts: Type: Great Weapon. Models on foot only. The bearer gains +1 to Armour Save in Close Combat up to a maximum of 2+, +1 Weapon Skill and all attacks made with this weapon has Multiple Wounds (2).
+
 Magical Armour
-Helm of the Wild Hunt 20 pts
-Type: None (6+ Armour Save). When the bearer charges,
-it has +1 Weapon Skill and +1 Attack until the end of the
-Turn.
+Helm of the Wild Hunt 20 pts: Type: None (6+ Armour Save). When the bearer charges, it has +1 Weapon Skill and +1 Attack until the end of the Turn.
+
 Talismans
-Ancient Brooch 35 pts
-The bearer has Ward Save (3+), which cannot be used
-against Magical Attacks.
+Ancient Brooch 35 pts: The bearer has Ward Save (3+), which cannot be used against Magical Attacks.
+
 Enchanted Items
-Drums of Cenyrn 55 pts
-Blade Dancer kindred only. Enemy units can only declare
-a Hold reaction when charged by the bearer's unit unless
-already fleeing. The enemy unit may still declare a Flee
-reaction if it is subsequently charged by another unit.
-Sacred Seeds 50 pts
-One use only. The player may activate the item at the
-start of any friendly Player Turn and place a Forest
-terrain feature within 12" of the bearer and more than 1"
-away from enemy units. The Forest may not be larger
-than 6" in diameter.
-Hail Shot 30 pts
-One use only. This item is used as a Shooting Weapon
-with the following Profile: Range 30". Strength 4, Armour
-Piercing (1), Multiple Shots (3D6). Fey Arrows cannot be
-used in conjunction with Hail Shot.
-Mist Walker's Mirror 35 pts
-Models on foot only. If the bearer's unit is unengaged,
-consists entirely of Infantry models and is entirely
-within a Forest Terrain Feature, the unit may teleport to
-any other Forest Terrain Feature on the game board.
-This special movement is resolved at the end of the
-Player's Movement Phase. When teleporting, the unit is
-placed entirely within the target Forest in any formation
-and following the 1" unit spacing rule. When teleporting,
-the unit must be placed entirely within the target Forest.
-The unit counts as having performed a March Move.
+Drums of Cenyrn 55 pts: Blade Dancer kindred only. Enemy units can only declare a Hold reaction when charged by the bearer's unit unless already fleeing. The enemy unit may still declare a Flee reaction if it is subsequently charged by another unit.
+Sacred Seeds 50 pts: One use only. The player may activate the item at the start of any friendly Player Turn and place a Forest terrain feature within 12" of the bearer and more than 1" away from enemy units. The Forest may not be larger than 6" in diameter.
+Hail Shot 30 pts: One use only. This item is used as a Shooting Weapon with the following Profile: Range 30". Strength 4, Armour Piercing (1), Multiple Shots (3D6). Fey Arrows cannot be used in conjunction with Hail Shot.
+Mist Walker's Mirror 35 pts: Models on foot only. If the bearer's unit is unengaged, consists entirely of Infantry models and is entirely within a Forest Terrain Feature, the unit may teleport to any other Forest Terrain Feature on the game board.  This special movement is resolved at the end of the Player's Movement Phase. When teleporting, the unit is placed entirely within the target Forest in any formation and following the 1" unit spacing rule. When teleporting, the unit must be placed entirely within the target Forest.  The unit counts as having performed a March Move.
+
 Magical Standards
-Amryl's Banner 25 pts
-The bearer's unit gains Fight in Extra Rank.
-5
+Amryl's Banner 25 pts: The bearer's unit gains Fight in Extra Rank.
+
 Army List
 LORDS
 Forest Prince 130 pts
@@ -197,14 +87,13 @@ Elven Horse 20
 Great Elk 50
 Forest Eagle 60
 Dragon 250
+
 High Druid 190 pts
 single model
 M WS BS S T W I A Ld
 5 4 4 3 3 3 5 1 9 Infantry 20x20mm base
 Elves Special Rules: Forest Walker, Lightning Reflexes
-Magic: Level 3 Wizard Master . Generate spells from Path
-of Black Magic, Path of White Magical or any of the
-Paths of Battle Magic.
+Magic: Level 3 Wizard Master . Generate spells from Path of Black Magic, Path of White Magical or any of the Paths of Battle Magic.
 Options: pts
 May become a Level 4 Wizard 35
 May take the bound spell Tree Singing 25
@@ -214,16 +103,14 @@ Elven Horse 20
 Forest Eagle 50
 Unicorn 60
 Dragon 300
-6
+
 Treefather Ancient 225 pts
 single model
 M WS BS S T W I A Ld
 Treefather Ancient 5 4 4 5 6 6 2 3 9 Monster 75x50mm base
 Avatar of Nature 5 6 5 7 6 6 3 6 9 Monster 75x50mm base
 Armour: Innate Defence (3+)
-Sy
-lvan Special Rules: Forest Walker, Otherworldly, Flammable
-Special Rules: Crush Attack, Stubborn, Impaling Roots
+Sylvan Special Rules: Forest Walker, Otherworldly, Flammable Special Rules: Crush Attack, Stubborn, Impaling Roots
 Must become one of the following:
 Treefather Ancient (free)
 Options: pts
@@ -234,15 +121,13 @@ Level 1 Wizard Apprentice 40
 Level 2 Wizard Apprentice 65
 Level 3 Wizard Master 135
 Level 4 Wizard Master 170
-If upgraded to a wizard
-may take an Arcane Item up to 50
-Magic: If a Wizard, generate spells from Path of Nature or
-Wilderness
+If upgraded to a wizard may take an Arcane Item up to 50
+Magic: If a Wizard, generate spells from Path of Nature or Wilderness
 Avatar of Nature (one of a kind, 70 pts)
 Options: pts
 May take a single Aspect of Nature no pts limit
 May take the bound spell Tree Singing 25
-7
+
 HEROES
 Chieftain 70 pts
 single model
@@ -268,14 +153,13 @@ May take a mount (one choice only)
 Elven Horse 15
 Great Elk 50
 Forest Eagle 60
+
 Druid 70 pts
 single model
 M WS BS S T W I A Ld
 5 4 4 3 3 2 5 1 8 Infantry 20x20mm base
 Elves Special Rules: Forest Walker, Lightning Reflexes
-Magic: Level 1 Wizard Apprentice . Generate spells from
-the Path of Black Magic, the Path of White Magic or
-any of the Paths of Battle Magic.
+Magic: Level 1 Wizard Apprentice . Generate spells from the Path of Black Magic, the Path of White Magic or any of the Paths of Battle Magic.
 Options: pts
 May take Magical Items up to 50
 May become a Level 2 Wizard 25
@@ -284,37 +168,30 @@ May take a mount (one choice only)
 Elven Horse 15
 Forest Eagle 50
 Unicorn 60
-8
+
 Dryad Matriarch 80 pts
 single model
 M WS BS S T W I A Ld
 5 6 6 4 4 2 7 3 9 Infantry 25x25mm base
-Sy
-lvan Special Rules: Forest Walker, Otherworldly
+Sylvan Special Rules: Forest Walker, Otherworldly
 Special Rules: Hatred
-Magic: Level 1 Wizard Apprentice . Generate spells from
-the Path of Nature or Wilderness.
+Magic: Level 1 Wizard Apprentice . Generate spells from the Path of Nature or Wilderness.
 Options: pts
 May take a single Aspect of Nature up to 50
 May become a Level 2 Wizard 25
 May take the bound spell Tree Singing 25
+
 Thicket Shepherd 130 pts
 single model
 M WS BS S T W I A Ld
 5 5 3 5 5 4 4 4 9 Monstrous Infantry 40x40mm base
 Armour: Innate Defence (4+)
-Sy
-lvan Special Rules: Forest Walker, Otherworldly, Flammable, Armour
-Piercing (1), Stubborn when within Forests
+Sylvan Special Rules: Forest Walker, Otherworldly, Flammable, Armour Piercing (1), Stubborn when within Forests
 Options: pts
 May take a single Aspect of Nature up to 50
 May be the Battle Standard Bearer 25
-- May take a Magical Standard *
-*If this model takes an Aspect of Nature, the total cost of that
-Aspect and this Magical Standard must not exceed 50 points. If
-this model does not take an Aspect of Nature, its Magical
-Standard has no points limit.
-9
+- May take a Magical Standard * *If this model takes an Aspect of Nature, the total cost of that Aspect and this Magical Standard must not exceed 50 points. If this model does not take an Aspect of Nature, its Magical Standard has no points limit.
+
 CORE
 Forest Guard 80 pts
 10 models, may add up to 30 models 8 pts/model
@@ -332,9 +209,8 @@ May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
-- May become the Veteran Standard Bearer*
-*A Veteran Standard Bearer is One of a Kind and may take a
-Magical Standard worth up to 25 pts.
+- May become the Veteran Standard Bearer* *A Veteran Standard Bearer is One of a Kind and may take a Magical Standard worth up to 25 pts.
+
 Sylvan Archers 90 pts
 10 models, may add up to 20 models 9 pts/model
 M WS BS S T W I A Ld
@@ -348,9 +224,8 @@ Champion 10
 Musician 10
 Standard Bearer 10
 - May become the Veteran Standard Bearer
-Black Arrows: Fey Arrows with Strength 4 in Short Range,
-Armour Piercing (1) in Long Range.
-10
+Black Arrows: Fey Arrows with Strength 4 in Short Range, Armour Piercing (1) in Long Range.
+
 Heath Riders 90 pts
 5 models, may add up to 10 models 18 pts/model
 M WS BS S T W I A Ld
@@ -358,60 +233,47 @@ Rider 5 4 4 3 3 1 5 1 8
 Elven Horse 9 3 - 3 3 1 4 1 3 Cavalry 25x50mm base
 Weapons: Longbow, Light Lance
 Armour: Mount's Protection (6+), Light Armour
-Elves Special Rules: Forest Walker (Rider only), Lightning Reflexes
-(Rider only)
+Elves Special Rules: Forest Walker (Rider only), Lightning Reflexes (Rider only)
 Special Rules: Fast Cavalry, Ambush
 Options: pts
 May exchange Longbow for Shield free
-May exchange Fast Cavalry and Ambush
-fo
-r Mount's Protection (5+) free
+May exchange Fast Cavalry and Ambush for Mount's Protection (5+) free
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
-- May become the Veteran Standard Bearer*
-*unit without Fast Cavalry only
+- May become the Veteran Standard Bearer* *unit without Fast Cavalry only
+
 Dryads 90 pts
 8 models, may add up to 30 models 11 pts/model
 M WS BS S T W I A Ld
 5 4 4 4 4 1 5 2 8 Infantry 25x25mm base
-Sy
-lvan Special Rules: Forest Walker, Otherworldly
+Sylvan Special Rules: Forest Walker, Otherworldly
 Special Rules: Hatred (if joined by a Dryad Matriarch)
 Options: pts
 May Skirmish (units of 15 models or less) 10
 May upgrade one model to a Champion 10
-11
+
 SPECIAL
 Blade Dancers 75pts
 5 models, may add up to 10 models 15 pts/model
 M WS BS S T W I A Ld
 5 6 4 4 3 1 6 2 8 Infantry 20x20mm base
 Elves Special Rules: Forest Walker, Lightning Reflexes
-Special Rules: Skirmishers, Immune to Psychology, Ward Save
-(6+), Magic Resistance (1)
+Special Rules: Skirmishers, Immune to Psychology, Ward Save (6+), Magic Resistance (1)
 Options: pts
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
 Standard Bearer 10
 - Magical Standard up to 50
-Dances of Cenyrn: At the start of each Round of Combat, models with this special rule may choose one of the following
-effects. No model may use the same effect in two player turns in a row. All models in the same unit must choose the
-same effect. The effects last until the end of the Round of Combat.
+Dances of Cenyrn: At the start of each Round of Combat, models with this special rule may choose one of the following effects. No model may use the same effect in two player turns in a row. All models in the same unit must choose the same effect. The effects last until the end of the Round of Combat.
 Dance of Whirling Blades +1 Attack
 Dance of the Parting Mists Ward Save (3+), -1 Strength
-Dance of Bedevilments The unit causes Fear and enemy units in base contact with it do not receive any
-Rank Bonus to their Combat Score.
-Dance of a Thousand Cuts Each Blade Dancer model in the unit that is eligible to attack (including
-supporting attacks) may instead choose to attack an enemy character in base
-contact with at least one of them, with all their attacks. For this purpose, every
-Blade Dancer model counts as being in base contact with the enemy character.
-Enemy characters in a Challenge cannot be chosen as a target for this dance.
-Blade Dancer characters in a Challenge do not benefit from the effects of this
+Dance of Bedevilments The unit causes Fear and enemy units in base contact with it do not receive any Rank Bonus to their Combat Score.
+Dance of a Thousand Cuts Each Blade Dancer model in the unit that is eligible to attack (including supporting attacks) may instead choose to attack an enemy character in base contact with at least one of them, with all their attacks. For this purpose, every Blade Dancer model counts as being in base contact with the enemy character.  Enemy characters in a Challenge cannot be chosen as a target for this dance.  Blade Dancer characters in a Challenge do not benefit from the effects of this
 dance.
-12
+
 Sylvan Sentinels 55 pts
 5 models, may add up to 10 models 11 pts/model
 M WS BS S T W I A Ld
@@ -430,6 +292,7 @@ Standard Bearer 10
 - Magical Standard on one unit up to 25
 Hawthorn Points: Fey Arrows with Poisoned Attacks and
 Armour Piercing (1).
+
 Forest Rangers 130 pts
 10 models, may add up to 20 models 13 pts/model
 M WS BS S T W I A Ld
@@ -443,9 +306,8 @@ May take Innate Defence (6+) 1 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- May take a Magical Standard up to 50
-13
+Standard Bearer 10 - May take a Magical Standard up to 50
+
 Wild Huntsmen 150 pts
 5 models, may add up to 7 models 30 pts/model
 M WS BS S T W I A Ld
@@ -453,10 +315,8 @@ Rider 5 5 4 4 3 1 6 1 9
 Elven Deer 9 3 - 4 3 1 4 1 3 Cavalry 25x50mm base
 Weapons: Light Lance
 Armour: Mount's Protection (6+), Light Armour
-Elves Special Rules: Forest Walker (Rider only), Lightning Reflexes
-(Rider only)
-Special Rules: Devastating Charge (Rider only), Frenzy, Ward
-Save (6+), Free Reform
+Elves Special Rules: Forest Walker (Rider only), Lightning Reflexes (Rider only)
+Special Rules: Devastating Charge (Rider only), Frenzy, Ward Save (6+), Free Reform
 Options: pts
 May take Shield 3 / model
 May exchange Free Reform for
@@ -464,8 +324,8 @@ Mount's Protection (5+) 2 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- Magical Standard up to 50
+Standard Bearer 10 - Magical Standard up to 50
+
 Forest Eagle 50 pts
 1 model, may add up to 4 models 35 pts/model
 M WS BS S T W I A Ld
@@ -473,17 +333,16 @@ M WS BS S T W I A Ld
 Special Rules: Strider (Forest), Fly (9)
 Options: pts
 May take Armour Piercing (1) 5 / model
+
 Thicket Beasts 130 pts
 3 models, may add up to 7 models 45 pts/model
 M WS BS S T W I A Ld
 5 4 4 4 5 3 3 3 8 Monstrous Infantry 40x40mm base
 Armour: Innate Defence (4+)
-Sy
-lvan Special Rules: Forest Walker, Otherworldly, Flammable, Armour
-Piercing (1), Stubborn when within Forests
+Sylvan Special Rules: Forest Walker, Otherworldly, Flammable, Armour Piercing (1), Stubborn when within Forests
 Options: pts
 May upgrade one model to a Champion 10
-14
+
 RARE
 Kestrel Knights 100 pts
 2 models, may add up to 4 models 50pts/model
@@ -494,8 +353,7 @@ Weapons: Longbow, Light Lance
 Armour: Mount's Protection (6+)
 Elves Special Rules: Forest Walker (Rider only),
 Lightning Reflexes (Rider only)
-Special Rules: Fast Cavalry, Skirmisher, Fly (9), Lethal Strike
-(Kestrel only)
+Special Rules: Fast Cavalry, Skirmisher, Fly (9), Lethal Strike (Kestrel only)
 Options: pts
 May take Shield 5 / model
 May take Light Armour 5 / model
@@ -503,29 +361,24 @@ May take Skirmishers (if 3 or less models) 5 / model
 May upgrade one model to each of the following:
 Champion 10
 Musician 10
-Standard Bearer 10
-- May take a Magical Standard up to 25
+Standard Bearer 10 - May take a Magical Standard up to 25
+
 Briar Maidens 120 pts
 5 models, may add up to 5 models 24 pts/model
 M WS BS S T W I A Ld
 Rider 5 4 5 3 3 1 5 1 9
 Elven Deer 9 3 - 4 3 1 4 1 3 Cavalry 25x50mm base
-Weapons: Poisoned Thorn: This is a shooting weapon with
-the following profile: Range 12", Strength 3, Quick
-to Fire, Armour Piercing (1)
+Weapons: Poisoned Thorn: This is a shooting weapon with the following profile: Range 12", Strength 3, Quick to Fire, Armour Piercing (1)
 Armour: Mount's Protection (6+)
-Elves Special Rules: Forest Walker (Rider only), Lightning Reflexes
-(Rider only)
-Special Rules: Poisoned Attacks (Rider only), Ward Save (4+),
-Free Reform
+Elves Special Rules: Forest Walker (Rider only), Lightning Reflexes (Rider only)
+Special Rules: Poisoned Attacks (Rider only), Ward Save (4+), Free Reform
 Options: pts
 May upgrade one model to each of the following:
 Champion 70
 Musician 10
-Standard Bearer 10
-- May take a Magical Standard up to 50
+Standard Bearer 10 - May take a Magical Standard up to 50
 Magic: Wizard Conclave (Luminous Bolts, Curse of the Wild Wood)
-15
+
 Pathfinders 100 pts
 5 models, may add up to 5 models 20 pts/model
 M WS BS S T W I A Ld
@@ -535,17 +388,17 @@ Elves Special Rules: Forest Walker, Lightning Reflexes
 Special Rules: Skirmishers, Scout, Master Archer
 Options: pts
 May upgrade one model to a Champion 10
+
 Treefather 220 pts
 single model
 M WS BS S T W I A Ld
 5 5 5 6 6 5 2 5 8 Monster 75x50mm base
 Armour: Innate Defence (3+)
-Sy
-lvan Special Rules: Forest Walker, Otherworldly
+Sylvan Special Rules: Forest Walker, Otherworldly
 Special Rules: Crush Attack, Stubborn, Flammable, Impaling Roots
 Options: pts
 May take the bound spell Tree Singing 25
-16
+
 MOUNTS
 The Mounts section is for character mounts. Non-character mounts follow the rules given under their respective entries.
 Elven Horse
@@ -555,6 +408,7 @@ Armour: Mount's Protection (6+)
 Special Rules: Strider (Forest)
 Options: pts
 May take Mount's Protection (5+) 10
+
 Forest Eagle
 M WS BS S T W I A Ld
 2 5 - 4 4 3 4 2 8 Monstrous Beast 50x50mm base
@@ -562,50 +416,50 @@ Armour: Mount's Protection (6+)
 Special Rules: Strider (Forest), Fly (9)
 Options: pts
 May add Armour Piercing (1) 5
+
 Great Elk
 M WS BS S T W I A Ld
 9 4 - 4 5 1 4 2 5 War Beast 50x50mm base
 Armour: Mount's Protection (6+)
 Special Rules: Strider (Forest)
+
 Unicorn
 M WS BS S T W I A Ld
 10 5 - 5 4 3 5 2 8 War Beast 50x50mm base
 Armour: Mount's Protection (6+)
-Special Rules: Strider (Forest), Magical Attacks, Magic Resistance
-(2)
-17
+Special Rules: Strider (Forest), Magical Attacks, Magic Resistance(2)
+
 Dragon (One of a Kind)
 M WS BS S T W I A Ld
 6 5 1 6 6 6 3 5 9 Monster 50x100mm base
 Armour: Innate Defence (3+)
-Special Rules: Strider (Forest), Fly (7), Breath Weapon (Strength
-4, Flaming Attacks)
-18
+Special Rules: Strider (Forest), Fly (7), Breath Weapon (Strength 4, Flaming Attacks)
+
 Quick Reference Sheet
 L - Lords, H - Heroes, C - Core, S - Special, R - Rare, M - Mounts only
 CHARACTERS M WS BS S T W I A Ld
 L Forest Prince 5 7 7 4 3 3 8 4 10
-High Druid 5 4 4 3 3 3 5 1 9
-Treefather Ancient 5 4 4 5 6 6 2 3 9
+L High Druid 5 4 4 3 3 3 5 1 9
+L Treefather Ancient 5 4 4 5 6 6 2 3 9
 H Chieftain 5 6 6 4 3 2 7 3 9
-Druid 5 4 4 3 3 2 5 1 8
-Dryad Matriarch 5 6 6 4 4 2 7 3 9
-Thicket Shepherd 5 5 3 5 5 4 4 4 9
+H Druid 5 4 4 3 3 2 5 1 8
+H Dryad Matriarch 5 6 6 4 4 2 7 3 9
+H Thicket Shepherd 5 5 3 5 5 4 4 4 9
 INFANTRY
 C Forest Guard 5 5 4 3 3 1 5 1 8
-Sylvan Archer 5 4 4 3 3 1 5 1 8
-Dryad 5 4 4 4 4 1 5 2 8
+C Sylvan Archer 5 4 4 3 3 1 5 1 8
+C Dryad 5 4 4 4 4 1 5 2 8
 S Blade Dancer 5 6 4 4 3 1 6 2 8
-Sylvan Sentinel 5 4 4 3 3 1 5 1 8
-Forest Ranger 5 5 4 3 3 1 5 2 9
+S Sylvan Sentinel 5 4 4 3 3 1 5 1 8
+S Forest Ranger 5 5 4 3 3 1 5 2 9
 R Pathfinder 5 4 5 3 3 1 5 1 8
 MONSTROUS INFANTRY
 S Thicket Beast 5 4 4 4 5 3 3 3 8
 WAR BEASTS M WS BS S T W I A Ld
 M Elven Horse 9 3 - 3 3 1 4 1 3
-Forest Eagle 2 5 - 4 4 3 4 2 8
-Great Elk 9 4 - 4 5 1 4 2 5
-Unicorn 10 5 - 5 4 3 5 2 8
+M Forest Eagle 2 5 - 4 4 3 4 2 8
+M Great Elk 9 4 - 4 5 1 4 2 5
+M Unicorn 10 5 - 5 4 3 5 2 8
 CAVALRY
 C Heath Rider 5 4 4 3 3 1 5 1 8
 - Elven Horse 9 3 - 3 3 1 4 1 3
@@ -626,70 +480,3 @@ Master Archer Truemark Arrow Ignore to-hit modifiers from Cover, Skirmishers and
 Master Archer Starlight Shaft Magical Attacks, Flaming Attacks, Divine Attacks
 Master Archer Perforating Tip Armour Piercing (3)
 Master Archer Jewelweed Shot Multiple Shots (2)
-19
-Change Log
-v0.9.1
-Fey Arrows: changed
-Bladedancer Kindred: changed
-Ancient Treant: points adjustment
-Avatar of Nature: Magic Weapons allowance removed
-Treant: points adjustment
-Thicket Beasts: points adjustment
-Forest Guardian+King's Guard: points adjustment
-Dryad Matriarch: Level 2 Wizard points adjustment
-Banner of the Living Forest: changed
-Wild Huntsmen: points, initiative, natural armour adjustments
-Forest Eagle: points adjustment
-Sentinels: Fey Arrows cost adjustment
-v0.10.0
-Names of units, rules and items updated.
-Forest Walker: clarifications, removed AP(1) for Otherworldly units
-Master Archers: clarifications
-Fey Arrows: clarifications, 2 new Fey Arrows added, ignore penalties for moving and shooting
-Avatar of Nature: BS reduced to 5
-Dryad Matriarch: points adjustment
-Blade Dancers: shield option removed, max. unit size, Fear added to Dance of Bedevilments
-Forest Rangers: split from Forest Guard and moved to special
-Forest Eagle: Innate Defence option removed
-Kestrel Knights: unit size, equipment options/points adjustments
-Briar Maidens: Multiple Shots removed, points adjustments
-Tree Singing: clarifications
-Dryads: max. unit size
-Heath Riders: equipment, max. unit size
-Thicket Shepherd and Thicket Beasts: Stubborn (in Forests) and Armour Piercing (1)
-Max. 1 Magic Banner for Core units
-Fey Bow replaced by Longbow
-Sylvan Sentinels: equipment, points adjustment, BS reduced to 4
-Pathfinders: equipment
-Blade Dancer kindred: points adjustment, +1 Strength, removed access to other weapons
-Pathfinder kindred: points adjustment
-Shapeshifter kindred: points adjustment
-Forest Guardian kindred: points adjustment
-Aspects of Nature: cannot be duplicated within the army
-v0.10.1
-Forest guard armour upgrades
-v0.11.0
-Heath Riders: equipment
-Wild Hunters: equipment
-Bow of Wyscan and Wardancer Drums: effect changed
-Sword of the Dance: points adjustment and limited to 2+ AS
-20
-Pathfinder Kindred: points adjustment
-Thicket Shepherd Battle Standard Bearer: access to Magic Standard
-Wizards, points cost due to new magic system
-Master Archer: clarification
-Forest Prince and Chieftain magical arrows
-Avatar of Nature: one of a kind
-Blade Dancers: points adjustment
-Treefather: -1 wound
-Kestrel Knights: Skirmishers optional
-Entwined Roots: changed
-Black Arrows: points adjustment
-Magic items renamed to magical items
-Holy Attacks renamed to Divine Attacks
-v0.11.1
-Entwined Roots
-Whirlwind Blade
-Sacred Spear of Cadaron
-Dance of a thousand cuts
-21
