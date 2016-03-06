@@ -1500,13 +1500,12 @@ can move into base contact anywhere (since all War Machines have round bases and
 Machines, and units Engaged in Combat with them, cannot make Combat Reforms. When fighting a War Machine in
 combat, do not allocate attacks as normal. Instead, at the start of each Round of Combat choose up to 6 models that are
 not in base contact with any other enemies (you must choose as many as possible). Chariots, Monstrous Cavalry,
-Monstrous Infantry and Monstrous Beasts count as 3 models each, while Monsters and Ridden Monsters count as 6
-models each. The chosen models may then attack the War Machine as if they wereinbasecontact,butnootherattack
+Monstrous Infantry and Monstrous Beasts count as 3 models each, while Monsters and Ridden Monsters count as 6 models each. The chosen models may then attack the War Machine as if they were in base contact, but no other attack
 can be directed at it, nor can the War Machine attack models outside the chosen party. Casualties among the chosen
-models are removed from the back of the unitasnormal.ThereforeifR&Fmodelsdiebeforestriking,thechosenparty
-size does not reduce in size. Break Tests are taken asnormal.WarMachinesthatBreakfromcombatareautomatically
+models are removed from the back of the unitasnormal. Therefore if R&F models die before striking, the chosen party
+size does not reduce in size. Break Tests are taken as normal.War Machines that Break from combat are automatically
 destroyed.
-68
+
 Mundane Equipment
 Combat Weapons
 Weapons listed in this section are used in Close Combat and can confer various benefits and penalties. The rules for
@@ -1536,7 +1535,7 @@ Beasts and Monstrous Beasts can use a Light Lance.
 Spear Fight in Extra Ranks. Armour Piercing (1). Spears confer the Lethal Strike special rule
 against Cavalry, Monstrous Cavalry and Chariots Engaged to the front. Mounted models
 cannot use Spears.
-69
+
 Shooting Weapons
 Weapons listed in this section are used for making Shooting Attacks. Each model can normally only use one Shooting
 Weapon per phase even if it is equipped with more than one, and all R&F models in a unit must use the same Shooting
@@ -1553,7 +1552,7 @@ Counts as an Additional Hand Weapon in Close Combat.
 Brace of Pistols 12" 4 Quick to Fire, Armour Piercing (1), Multiple Shots (2)
 Counts as an Additional Hand Weapon in Close Combat.
 Throwing Weapons 12" Same as user Quick to Fire, Multiple Shots (2)
-70
+
 Artillery Weapons
 Weapons listed in this section are a special kind of Shooting Weapons. These weapons are sometimes mounted on War
 Machine Troop Type models, but can on other occasions be mounted on Chariots, carried by Monsters or contained
@@ -1585,7 +1584,7 @@ Otherwise, all models touched by the Template during this D6" movement are hit, 
 given by the Weapon's profile. Any unit that could potentially be hit by the Template (i.e. is under the Template's initial
 position and 5" forward) is considered a potential target for the attack (and thus may not be a friendly unit or be
 Engaged in Combat).
-71
+
 Bolt Thrower
 Bolt Throwers follow the normal rules for shooting except that they can penetrate their target's ranks (or files), causing
 additional hits. Determine the maximum number of possible hits by measuring in which of the Target's arcs the Bolt
@@ -1618,24 +1617,15 @@ Shots (2D6)), the Volley Gun can misfire. If one unmodified '6 ' (after rerolls)
 shots, the Volley Gun has a -1 to hit modifier for this attack. If you roll two or more unmodified '6 ' (after rerolls) when
 rolling for the number of shots, the Volley Gun misfired: all shots are discarded and the Volley Gun must roll on the
 Misfire Table.
-72
+
 The Misfire Table
 When an Artillery Weapon misfires, roll a D6 and consult the table below:
 Dice result Misfire Effect
-0
-(or less)
-Explosion!
-All models within D6" of the misfiring model suffer a Strength 5 hit. The shooting model is
-then destroyed. Remove it as a casualty.
-1-2
-Breakdown
-The firing mechanism of the weapon is damaged. The model cannot shoot anymore with the
-weapon for the rest of the game.
-3-4 Jammed
-The Artillery Weapon may not be fired in the controlling player's next Player Turn.
-5+ Malfunction
-The shooting model suffers a Wound with no Saves of any kind allowed.
-73
+0(or less): Explosion!: All models within D6" of the misfiring model suffer a Strength 5 hit. The shooting model is then destroyed. Remove it as a casualty.
+1-2: Breakdown: The firing mechanism of the weapon is damaged. The model cannot shoot anymore with the weapon for the rest of the game.
+3-4: Jammed: The Artillery Weapon may not be fired in the controlling player's next Player Turn.
+5+: Malfunction: The shooting model suffers a Wound with no Saves of any kind allowed.
+
 Armour Types
 The Armour Save of a model part is determined by its armour and possibly also by special rules and spells. Combine all
 the armour pieces a model has to form a combined Armour Save. Each piece of armour adds +1 (or more) to the Saving
@@ -1673,26 +1663,26 @@ Protection (6+) (+1) and with Barding (+1), it has a total of +5 to its Armour S
 equal 7 or more (and thus being a successful Saving Throw). Normally such an Armour Save would be referred to as a
 2+ Armour Save. Note that with a total of +6 to Armour Save, no model can ever have a better save than 1+ (and even
 with this, an unmodified score of '1' will always be a failed Armour Saving Throw).
-74
+
 Characters
 Unless specifically noted otherwise, any model bought as part of the Heroes or Lords section of an Army Book is a
 Character.
 Lone Characters
 All Characters can operate as a unit consisting of just a single model. In this case, follow the normal rules for units.
 Characters Joined to Units
-Characters can operate aspartofotherunits,byjoiningthem.ThiscanbedoneeitherbydeployingtheCharacterinthe
+Characters can operate as part of other units, by joining them.This can be done either by deploying the Character in the
 unit or by moving into contact with the unit during theRemainingMovessub-phase.UnitsthatareEngagedinCombat
 or fleeing cannot be joined.
 Characters can join other Characters to form a unit consisting only of Characters.
-When a Character joins a unit, it is immediately moved toalegalposition(seeFrontRankrule),possiblymovingother
+When a Character joins a unit, it is immediately moved to a legal position (see Front Rank rule), possibly moving other
 models backwards. A Character can freely choose any legal position it could have reached with its move (moving
 through the unit it joins), possibly replacing other models with the Front Rank rule (move the displaced Front Rank
-model aslittleaspossibleinordertokeepallmodelsinlegalpositions).IftheCharacterdoesnothaveasufficientmove
-to reach itsdesiredposition,itmovestheshortestdistancepossible(fromitsstartingposition),inordertoreachalegal
+model as little as possible in order to keep all models in legal positions).If the Character does not have a sufficient move
+to reach its desired position, it moves the shortest distance possible (from its starting position), in order to reach a legal
 position, and can only displace models without the Front Rank rule. When a Character joins a unit with just a single
-rank, the owner can choose to either displace a model to the second rank, or to expand the unit's widthandplacethe
+rank, the owner can choose to either displace a model to the second rank, or to expand the unit's width and place the
 displaced model at either side of the front rank.
-If a unit is joined by a Character,theunitcannotmoveanyfurtherinthesameRemainingMovessub-phase.Characters
+If a unit is joined by a Character, the unit cannot move any further in the same Remaining Moves sub-phase.Characters
 joining a unit however do not affect if the unit counts as moving or not (for purposes of shooting etc.). The Character
 itself still counts as having moved though.
 Once joined to a unit, the Character is considered as part of the unit for all rules purposes. When moving a combined
@@ -1701,23 +1691,23 @@ Advance or March Moves.
 Combined Unit wiped out
 If a combined unit has all its R&F models (and its Champion) killed, leaving one or more Characters behind, the
 remaining Characters keep forming a unit (which is still considered to be the same unit).
-75
+
 Leaving a combined unit
 A Character can leave a combined unit in the Remaining Moves sub-phase if it isabletomove(i.e.ifitisn'tEngagedin
 Combat, hasn't already moved, isn't fleeing, etc.). Roll a combined March Test for the whole unit before moving any
 model, if necessary. Characters leaving a unit do notaffectiftheunitcountsasmovingornot(forpurposesofshooting
-etc.). When leaving its unit, a Character can move through thisunit,andcanthusexittheunitfromanypoint(andmay
-make a Flying Movement if it has the Fly special rule). The Character counts as apartoftheunituntilithasphysically
-left it, which means that the Character will be subject tomovementalterationsduringthemovetoleavetheunit.Ifthe
+etc.). When leaving its unit, a Character can move through this unit, and can thus exit the unit from any point (and may
+make a Flying Movement if it has the Fly special rule). The Character counts as a part of the unit until it has physically
+left it, which means that the Character will be subject to movement alterations during the move to leave the unit. If the
 Character does not have enough movement to be placed at least 1" away from the unit, it cannot leave the unit.
 Charging out of a unit
 A Character can also leave a combined unit by charging out of it. To do this, declare a Charge with a Character in the
 combined unit (during the Declare Charges sub-phase as normal). If this is done, the unit itself (including other
 Characters in the unit) cannot Declare Charges in the same Player Turn. Stand and Shoot Charge Reactions declared
 against a Character charging out of a unit are all distributed onto the Character. When charging out of a unit, the
-Character uses its own movement (and may even make aFlyingMovementifithastheFlyspecialrule),andisaffected
-by movement alterations affecting the unit during the Charge Move.IftheChargeissuccessful,movetheCharacterout
-of the unit and Charge as normal. If the Charge is not successful, the Character makes a Failed ChargeMoveoutofthe
+Character uses its own movement (and may even make a Flying Movement if it has the Fly special rule), and is affected
+by movement alterations affecting the unit during the Charge Move.If the Charge is successful, move the Character out
+of the unit and Charge as normal. If the Charge is not successful, the Character makes a Failed Charge Move out of the
 unit. If the Failed Charge Move is too short to place the Character outside 1" of the combined unit, the Character
 remains in the unit and the combined unit is treated as if it had failed a Charge.
 Distributing hits at combined units
@@ -1739,18 +1729,16 @@ When a Template hits a Character in a unit, the
 Character suffers the hit as normal.
 If a unit of 5 or more R&F models contains several Characters of both the same and different Troop Type, Characters
 with the same Troop Type as the R&F models are ignored for the hit distributions.
-76
+
 Front Rank
-All Characters and Command Group models have the Front Rank rule. Models with this rule must alwaysbeplacedas
-fa
-r forward as possible in their unit. Normally this means thattheymustbeplacedinthefirstrank,butifthefirstrank
+All Characters and Command Group models have the Front Rank rule. Models with this rule must always be placed as far forward as possible in their unit. Normally this means that they must be placed in the first rank, but if the first rank
 is full of other models with the Front Rank rule, they are placed in the second rank instead. If this rank is also full of
 models with the Front Rank rule, they are placed in the 3rd rank, and so on.
-When moving a unit that includes modelswiththeFrontRankspecialrule,thesemodelscanbereorganizedintoanew
+When moving a unit that includes models with the Front Rank special rule, these models can be reorganized into a new
 position (still as far forward as possible) as part of the move. This can be done as a part of an Advance move, March,
 Wheel or Reform move, and counts towards the Movement allowance of the unit(measurefromaCharacter'sstarting
 position to its ending position to determine how far it has moved).
-If a model withtheFrontRankspecialruleleavesaunitorisremovedasacasualty,thegapitleavesmustbefilledwith
+If a model with the Front Rank special rule leaves a unit or is removed as a casualty, the gap it leaves must be filled with
 models from other ranks, possibly moving up models with the FrontRankspecialrule,ifthismeanstheyaremovedto
 positions further forward. If more than one model with the Front Rank special rule could move forward,theownerof
 the models decides which model is moved forward. If all models with the Front Rank special rule already are as far
