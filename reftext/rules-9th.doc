@@ -4,21 +4,12 @@ Rulebook Version 0.11.9.3 Beta
 
 Introduction
 What is Fantasy Battles: The 9th Age?
-Fantasy Battles: The 9th Age, often simply called The 9th Age, is a community-made miniatures wargame in which two
-grand armies clash in an epic battle for power or survival. Each army can be composed of simple foot soldiers, skilled
-archers, armour-clad mounted knights, powerful wizards, legendary heroes, epic monsters, huge dragons, and more.
-The game takes place on a 4 by 6 foot battlefield and uses six-sided dice to resolve different actions such as charging
-into battle, letting arrows loose, or casting spells.
-All relevant rules, as well as feedback and suggestions, can be found/given here:
-http://www.the-ninth-age.com/
-To make the transition easier for veteran players, we have colour-coded the most relevant changes (from 8th edition) in
-blue.
-Rules Changes between versions (not from alpha version) are colour-coded in green (see change log at the end of the
-document).
-6
+Fantasy Battles: The 9th Age, often simply called The 9th Age, is a community-made miniatures wargame in which two grand armies clash in an epic battle for power or survival. Each army can be composed of simple foot soldiers, skilled archers, armour-clad mounted knights, powerful wizards, legendary heroes, epic monsters, huge dragons, and more.
+The game takes place on a 4 by 6 foot battlefield and uses six-sided dice to resolve different actions such as charging into battle, letting arrows loose, or casting spells.
+All relevant rules, as well as feedback and suggestions, can be found/given here: http://www.the-ninth-age.com/
+
 The Scale of the Game
-Playing tabletop war games is often an exercise in abstract thought, especially when it comes to mass battle games like
-The 9th Age. As such there is no prescribed scale while playing The 9th Age; a single miniature could represent a single,
+Playing tabletop war games is often an exercise in abstract thought, especially when it comes to mass battle games like The 9th Age. As such there is no prescribed scale while playing The 9th Age; a single miniature could represent a single,
 a dozen or even a hundred warriors. Though players are welcome to interpret the scale as they like, the distances used
 in the rules do not seem realistic if the scale of 1:1 compared to the actual size of the miniatures is used for the game.
 The scale of miniatures used for The 9th Age is roughly 1:72 when compared to real-life sized equivalents. Based on
@@ -52,35 +43,21 @@ game we are creating. An average game will be played on a 72"x48" table, and thu
 480 meters or roughly 50 football pitches. In medieval times (the closest thing we have to our fantasy world) this would
 represent an average sized battlefield where two forces with soldiers numbering from a few hundred to several
 thousand would meet.
-7
+
 Setting up a Game
 Building an Army
-Fantasy Battles: The 9th Age includes a series of Army Books which contain descriptions of the different armies. Each
-army has unique characters, troops and rules. Characters are divided into Lords and Heroes. Troops are divided into
-Core, Special and Rare.
-Lords are the most powerful
-individuals in the army.
-Heroes are exceptional individuals in
-the army.
-Core units represent regiments of
-most common warriors in the army.
-Special units are veteran and elite
-regiments.
-Rare units represent extraordinary
-troops, uncommon monsters and
-unusual war machines.
-The first step to building an army is to write down a selection of units, options and their point costs on a document,
-called the "army list". The exact composition of an army is subject to certain rules and restrictions which the following
-chapter will describe in detail.
-8
+Fantasy Battles: The 9th Age includes a series of Army Books which contain descriptions of the different armies. Each army has unique characters, troops and rules. Characters are divided into Lords and Heroes. Troops are divided into Core, Special and Rare.
+Lords are the most powerful individuals in the army.
+Heroes are exceptional individuals in the army.
+Core units represent regiments of most common warriors in the army.
+Special units are veteran and elite regiments.
+Rare units represent extraordinary troops, uncommon monsters and unusual war machines.
+The first step to building an army is to write down a selection of units, options and their point costs on a document, called the "army list". The exact composition of an army is subject to certain rules and restrictions which the following chapter will describe in detail.
+
 Army Restrictions
 An army in Fantasy Battles: The 9th Age is subject to basic composition rules:
-* Army Points
-The combined points value of every unit in the army, including options and equipment, must not exceed the
-determined point limit for the battle. An army may fall below the limit only by 20 points or less.
-* Unit Categories
-All units are separated into five categories. The number of points one can spend on these categories differs.
-Additionally the same unit can only be taken a limited number of times.
+* Army Points: The combined points value of every unit in the army, including options and equipment, must not exceed the determined point limit for the battle. An army may fall below the limit only by 20 points or less.
+* Unit Categories: All units are separated into five categories. The number of points one can spend on these categories differs.  Additionally the same unit can only be taken a limited number of times.
 Point limit Duplicate limit
 Core at least 25% max 4
 Special - max 3
@@ -89,22 +66,13 @@ Heroes max 50% max 3
 Lords max 35% max 3
 Heroes + Lords max 50% -
 * Minimum Army Size
-Every army must contain a minimum of 4 units excluding the Characters. For this purpose, all units with the
-War Machine Troop Type count together as one.
-* The General
-One Character in the army must be named the General. Therefore there must be at least one Hero or Lord
-included in the army who is eligible to fulfil this role. An Army can only have one General.
-* One of a Kind and One per Army
-Units, upgrades and items marked as "One of a Kind" and "One per Army" may only be taken once per army.
-"One of a Kind" can be taken twice per Grand Army.
-9
+Every army must contain a minimum of 4 units excluding the Characters. For this purpose, all units with the War Machine Troop Type count together as one.
+* The General: One Character in the army must be named the General. Therefore there must be at least one Hero or Lord included in the army who is eligible to fulfil this role. An Army can only have one General.
+* One of a Kind and One per Army: Units, upgrades and items marked as "One of a Kind" and "One per Army" may only be taken once per army.  "One of a Kind" can be taken twice per Grand Army.
+
 Warbands and Grand Armies
-The rules for army composition are modified depending on the size of an army. An army that is unusually small or
-unusually large is subject to the following rules.
-Warbands
-Armies of 1500 points or less are called
-Warbands. The minimum army size is decreased
-to 3 units.
+The rules for army composition are modified depending on the size of an army. An army that is unusually small or unusually large is subject to the following rules.
+Warbands: Armies of 1500 points or less are called Warbands. The minimum army size is decreased to 3 units.
 Warband duplicate limit
 Core max 2
 Special max 2
@@ -113,9 +81,7 @@ Heroes & Lords max 2
 One of a Kind max 1
 One per Army max 1
 Grand Armies
-Armies of 4000 points and more are called
-Grand Armies. Units which are marked as One
-of a Kind can be taken up to 2 times.
+Armies of 4000 points and more are called Grand Armies. Units which are marked as One of a Kind can be taken up to 2 times.
 Grand Army duplicate limit
 Core max 8
 Special max 6
@@ -123,48 +89,28 @@ Rare max 4
 Heroes & Lords max 6
 One of a Kind max 2
 One per Army max 1
-10
+
 Hidden or Open Lists ?
-Rules are written and balanced based on the principle of openness, i.e.youropponentknowswhatMagicalItemsyour
-models are equipped with. We encourage players to share their full army lists with their opponents at thestartofthe
-game. This army list should include all units, unit options, Magical Items, special abilities, point costs and so on. The
-only things that arenotopentoyouropponentarethingsthatareexplicitlystatedashiddenorsecret(suchasinwhich
-unit an assassin is hiding). Note that the presence of an assassin in the army (and its equipment) is still open.
+Rules are written and balanced based on the principle of openness, i.e.your opponent knows what Magical Items your models are equipped with. We encourage players to share their full army lists with their opponents at the start of the game. This army list should include all units, unit options, Magical Items, special abilities, point costs and so on. The only things that are not open to your opponent are things that are explicitly stated as hidden or secret (such as in which unit an assassin is hiding). Note that the presence of an assassin in the army (and its equipment) is still open.
+
 Hidden Lists
-Someplayersmayprefertouseso-calledhiddenlists.Forsuchplayers,weincludethehiddenlistrules.Pleasenotethat
-the game is not balanced with these rules in mind. In this format,mostofyourarmyrosterwillbeopen(meaningthat
-your opponent should know whatyourarmyconsistsofbeforethegamestarts).However,somepartsofyourarmyare
-secret or "hidden". Both players should provide their opponent with the open part of their army (a "mundane army
+Some players may prefer to use so-called hidden lists. For such players,we include the hidden list rules.Please note that the game is not balanced with these rules in mind. In this format, most of your army roster will be open (meaning that your opponent should know what your army consists of before the game starts). However, some parts of your army are secret or "hidden". Both players should provide their opponent with the open part of their army (a "mundane army
 list") before the game begins.
 The following is included in the hidden part of your army.
 1. Magical Items that are picked from the common list of Magical Items.
 2. Magical Items that are specific to Army Books, as well as any option that follows the rules for Magical Items
 such as Daemonic Items and Dwarven Runes.
-Anything notonthatlistbelongstotheopenpartofthearmylist.Inaddition,allMagicalItems(andsimilar)thathavea
-mundane part should be presented with the open part of your army (such asaMagicalWeapon'sorMagicalArmour's
-type).
-If an army hastwoormoreunitsormodelsthatareidenticalregardingtheiropenpartbuthavehiddendifferences,the
-player must be able to tell the units apart in the hidden list. For example if a player fields two units identicalinevery
-way except that one has a Magical Standard and the other doesn't, the Army List may specify that the unit with the
-Magical Standard has a red banner while the unit with a blue banner possesses no such Magical Item.
-Revealing Magical Items
-A Magical Item (orsimilar)mustberevealedthefirsttimeitisused.Anitemisconsideredbeingusedwhenitaffectsor
-could affect the game in any way. For example:
+Anything not on that list belongs to the open part of the army list. In addition, all Magical Items (and similar) that have a mundane part should be presented with the open part of your army (such as a Magical Weapon's or Magical Armour's type).
+If an army has two or more units or models that are identical regarding their open part but have hidden differences, the player must be able to tell the units apart in the hidden list. For example if a player fields two units identical in every way except that one has a Magical Standard and the other doesn't, the Army List may specify that the unit with the Magical Standard has a red banner while the unit with a blue banner possesses no such Magical Item.
+Revealing Magical Items:
+A Magical Item (or similar) must be revealed the first time it is used. An item is considered being used when it affects or could affect the game in any way. For example:
 - It affects a dice roll (even if the actual result of the dice has no effect).
 - It alters an attack (such as a Magical Weapon, or any item with a special rule that affects an attack).
-- It alters a saving throw (reveal the item before rolling the saving throw). Note that an item that affects the save the
-same way as the mundane counterpart would (such as many magical shields) does not need to be revealed.
-An item that increases movement only counts as being used if the unit moves further than it couldwithoutitorwhen
-charging (declare that you have the item before rolling the charge distance but after reactions are taken). When
-revealing Dwarven Runic Items, only reveal the rune that is being used, not the entire combined item.
-11
+- It alters a saving throw (reveal the item before rolling the saving throw). Note that an item that affects the save the same way as the mundane counterpart would (such as many magical shields) does not need to be revealed.
+An item that increases movement only counts as being used if the unit moves further than it could without it or when charging (declare that you have the item before rolling the charge distance but after reactions are taken). When revealing Dwarven Runic Items, only reveal the rune that is being used, not the entire combined item.
+
 The Pre-Game Sequence
-There are several steps that players must go through in order to set up a game of Fantasy Battles: The 9th Age. These
-steps are referred to as the pre-game sequence. The first and foremost step is to find a suitable opponent and agree on
-the size of the game. The players may then share their army lists and begin building the Battlefield, followed by picking
-the deployment type, choosing the Secondary Objectives of the game, determining Deployment Zones and generating
-Wizard spells. The last step will consist of going through what is called the Deployment.
-Before the game can begin, some preparations have to be made.
+There are several steps that players must go through in order to set up a game of Fantasy Battles: The 9th Age. These steps are referred to as the pre-game sequence. The first and foremost step is to find a suitable opponent and agree on the size of the game. The players may then share their army lists and begin building the Battlefield, followed by picking the deployment type, choosing the Secondary Objectives of the game, determining Deployment Zones and generating Wizard spells. The last step will consist of going through what is called the Deployment.  Before the game can begin, some preparations have to be made.
 1 Decide on Game Size.
 2 Share Army List with Opponent.
 3 Build the Battlefield.
@@ -174,105 +120,39 @@ Before the game can begin, some preparations have to be made.
 7 Generate Spells.
 8 Deployment Phase.
 The Size of the Game
-In Fantasy Battles: The 9th Age, two armies opposing each other on the battlefield must have roughly the same point
-cost. This ensures that the battle will be decided through the clever strategies and tactics of the players rather than by
-an unfair difference in army size. The first step to setting up a game is to agree on the total point cost of the army that
-each player will bring. This pre-determined point cost will henceforth correspond to the size of the game. Armies are
-typically worth between 500 and 1000 points for small engagements, between 1000 and 2000 points for serious battles
-and beyond 2000 points for mighty clashes between epic armies.
+In Fantasy Battles: The 9th Age, two armies opposing each other on the battlefield must have roughly the same point cost. This ensures that the battle will be decided through the clever strategies and tactics of the players rather than by an unfair difference in army size. The first step to setting up a game is to agree on the total point cost of the army that each player will bring. This pre-determined point cost will henceforth correspond to the size of the game. Armies are typically worth between 500 and 1000 points for small engagements, between 1000 and 2000 points for serious battles and beyond 2000 points for mighty clashes between epic armies.
+
 Sharing Army Lists
-After deciding the size of the game, the next step is for both players to swap Army Lists and share all relevant
-information about the upcoming game. Alternatively, the players may agree to keep certain aspects about their armies
-secret, which they will progressively reveal during the course of the game. For more information please see the section
-on Hidden Lists.
-12
+After deciding the size of the game, the next step is for both players to swap Army Lists and share all relevant information about the upcoming game. Alternatively, the players may agree to keep certain aspects about their armies secret, which they will progressively reveal during the course of the game. For more information please see the section on Hidden Lists.
+
 Building the Battlefield
-A game of Fantasy Battles: The9thAgeisplayedonaboardthatis72"wideand48"deep.Forsmallerbattlesinvolving
-Warbands, it is recommended to use a board that is 36" wide and 48" deep, while for bigger games involving Grand
-Armies it is recommended to adjust the size depending onthesizeofthearmies.Whilesomebattlesmaytakeplaceon
-a completely flat board, a Battlefield typically has Terrain Features placed upon it. The players canfreelyagreeonthe
-size, type and number of Terrain Features to be placed, as well as their positions. If an agreement cannot be reached,
-the game provides the following default rules for setting up a randomly generated Battlefield.
+A game of Fantasy Battles: The 9th Age is played on a board that is 72" wide and 48" deep. For smaller battles involving Warbands, it is recommended to use a board that is 36" wide and 48" deep, while for bigger games involving Grand Armies it is recommended to adjust the size depending on the size of the armies. While some battles may take place on a completely flat board, a Battlefield typically has Terrain Features placed upon it. The players can freely agree on the size, type and number of Terrain Features to be placed, as well as their positions. If an agreement cannot be reached, the game provides the following default rules for setting up a randomly generated Battlefield.
 * First, divide the gaming board into 24" x 24" sections.
 * Place the following Terrain Features in the centre of a randomly selected section (max 1 piece in each section):
-One Building or Impassable Terrain (randomly decide which of the two), one Hill, and one Forest. Then move
-each Terrain piece 2D6" in a random direction.
-* Next, add 2D3 additional pieces of Terrain following the rules above to determine their position. Roll a D6 and
-consult the table below to determine the type of each additional Terrain Feature.
+One Building or Impassable Terrain (randomly decide which of the two), one Hill, and one Forest. Then move each Terrain piece 2D6" in a random direction.
+* Next, add 2D3 additional pieces of Terrain following the rules above to determine their position. Roll a D6 and consult the table below to determine the type of each additional Terrain Feature.
 1: Hill 2: Forest 3: Field 4: Water 5: Wall 6: Ruin
-* All Terrain Features must be placed at least 6" away from each other. You may move the pieces as little as
-possible from their rolled position in order to meet this criterion. If it is not possible to place the Terrain piece
-more than 6" away from any other Terrain then discard the problematic piece.
+* All Terrain Features must be placed at least 6" away from each other. You may move the pieces as little as possible from their rolled position in order to meet this criterion. If it is not possible to place the Terrain piece more than 6" away from any other Terrain then discard the problematic piece.
 * Recommended Terrain piece sizes are between 6" x 8" and 6" x 10" except for Walls which are 1" x 10".
-13
+
 Deployment Type
-Players may agree on which deployment type to use or may want to randomize this variable by rolling a D6 and
-consulting the following table.
-1-3: Classic
-The Table is divided into two
-halves by the straight line through
-the centre of the board, parallel to
-the table's long edges.
-Deployment Zones are areas more
-than 12" away from this line.
-4-5: Diagonal
-The Table is divided into two
-halves by a diagonal line across
-the table. Whoever gets to choose
-the Deployment Zone decides
-which diagonal to use.
-Deployment Zones are areas more
-than 9" away from this line.
-6: Flank Attack
-The Table is divided into two halves by
-drawing a straight line through the
-centre of the board, parallel to the
-table's long edges. The player who gets
-to choose the Deployment Zone
-decides if they want to be the attacker
-or the defender. The attacker may
-deploy more than 9" from the central
-line if within 1/4 of the table's length
-fr
-om either table edge (18" on a 72"
-table), and more than 15" from the
-central line elsewhere. The defender
-does the opposite: more than 15" away
-fr
-om the central line if within 1/4 of the
-table's length from the table's short
-edges, and more than 9" away from the
-central line elsewhere.
-Fig
-ure 1
-Vis
-ualisation of the three different deployment types.
-14
+Players may agree on which deployment type to use or may want to randomize this variable by rolling a D6 and consulting the following table.
+1-3: Classic: The Table is divided into two halves by the straight line through the centre of the board, parallel to the table's long edges.  Deployment Zones are areas more than 12" away from this line.
+4-5: Diagonal: The Table is divided into two halves by a diagonal line across the table. Whoever gets to choose the Deployment Zone decides which diagonal to use.  Deployment Zones are areas more than 9" away from this line.
+6: Flank Attack: The Table is divided into two halves by drawing a straight line through the centre of the board, parallel to the table's long edges. The player who gets to choose the Deployment Zone decides if they want to be the attacker or the defender. The attacker may deploy more than 9" from the central line if within 1/4 of the table's length from either table edge (18" on a 72" table), and more than 15" from the central line elsewhere. The defender does the opposite: more than 15" away from the central line if within 1/4 of the table's length from the table's short edges, and more than 9" away from the central line elsewhere.
+Figure 1 Visualisation of the three different deployment types.
+
 Secondary Objectives
-Both players may agree on which Secondary Objective to use, or they can randomly choose by rolling a D6 and
-consulting the table below. See section Scoring and Victory Conditions for more details on the impact of Secondary
-Objectives at the end of the game.
+Both players may agree on which Secondary Objective to use, or they can randomly choose by rolling a D6 and consulting the table below. See section Scoring and Victory Conditions for more details on the impact of Secondary Objectives at the end of the game.
 1-2: Hold the Ground 3-4: Breakthrough 5-6: Secure Target
+
 Deployment Zones
-In a Classic deployment type the players must pick one of the long board edges as their Deployment Zone, while in a
-Diagonal deployment type, the players must pick one of the corners. In a Flank Attack deployment type the players
-must decide who is the attacker or defender. The players may agree on which Deployment Zones to use or alternatively
-may decide to randomize this decision. For example, a player may roll a D6 and get to choose on a 4+.
+In a Classic deployment type the players must pick one of the long board edges as their Deployment Zone, while in a Diagonal deployment type, the players must pick one of the corners. In a Flank Attack deployment type the players must decide who is the attacker or defender. The players may agree on which Deployment Zones to use or alternatively may decide to randomize this decision. For example, a player may roll a D6 and get to choose on a 4+.
+
 Generating Spells
-Starting with the player that picked their Deployment Zone, each player must now generate spells for all their Wizards.
-To do this, pick a Wizard and consult the chosen Path of Magic (the Path used by the Wizard must be noted on the army
-list). All Magic Paths can be found in Fantasy Battles: The 9th Age: Paths of Magic. All Paths contain spells numbered 0
-through 6. Roll a D6 for each spell the Wizard has (normally the same number as its Wizard Level) to see which spells
-the Wizard can use in this battle. If a '1' is rolled, the Wizard knows the spell number 1, and so on. If a duplicate spell is
-rolled (either because another Wizard in the same army has already rolled the spell or because the same Wizard rolled
-a double), the Wizard must replace the duplicate result with a freely chosen other spell from the same Path that has not
-already been rolled. Two Wizards in the same army cannot know the same spell, and no Wizard can know a single spell
-more than once (if you are unable to replace the duplicate spell with an unoccupied spell, the spell is lost). The Wizard
-may always exchange one of its spells for the signature spell of that Magic Path (labelled as spell number 0). This spell
-can be chosen even if other Wizards already have that spell.
-Spells that are not generated using these rules (such as spells belonging to Wizards with predetermined spells, or any
-Bound Spells) are ignored for the purpose of duplicated spells. A player can have more than one such spell in the army.
-15
+Starting with the player that picked their Deployment Zone, each player must now generate spells for all their Wizards.  To do this, pick a Wizard and consult the chosen Path of Magic (the Path used by the Wizard must be noted on the army list). All Magic Paths can be found in Fantasy Battles: The 9th Age: Paths of Magic. All Paths contain spells numbered 0 through 6. Roll a D6 for each spell the Wizard has (normally the same number as its Wizard Level) to see which spells the Wizard can use in this battle. If a '1' is rolled, the Wizard knows the spell number 1, and so on. If a duplicate spell is rolled (either because another Wizard in the same army has already rolled the spell or because the same Wizard rolled a double), the Wizard must replace the duplicate result with a freely chosen other spell from the same Path that has not already been rolled. Two Wizards in the same army cannot know the same spell, and no Wizard can know a single spell more than once (if you are unable to replace the duplicate spell with an unoccupied spell, the spell is lost). The Wizard may always exchange one of its spells for the signature spell of that Magic Path (labelled as spell number 0). This spell can be chosen even if other Wizards already have that spell.
+Spells that are not generated using these rules (such as spells belonging to Wizards with predetermined spells, or any Bound Spells) are ignored for the purpose of duplicated spells. A player can have more than one such spell in the army.
+
 Deployment Phase
 Deployment Phase Sequence
 1 Determine who deploys first.
@@ -283,103 +163,61 @@ Deployment Phase Sequence
 6 Move Vanguard units.
 7 Other rules and abilities.
 8 Roll for first turn.
+
 Determine Who Deploys First
 The player that did not choose the Deployment Zone decides which player deploys first.
+
 Deploy Units
-The players then take turns to deploy their units (fully inside their own Deployment Zone). On each of their turns, a
-player must deploy at least one unit, but can choose to deploy any number of units. All units with the War Machine
-Troop Type count as a single unit during the Deployment Phase. The same goes for all Characters. Once a player has
-deployed all of their units (excluding units that are not deployed using the normal rules, such as scouting or ambushing
-units), that player must announce if they will roll to play first or second.
+The players then take turns to deploy their units (fully inside their own Deployment Zone). On each of their turns, a player must deploy at least one unit, but can choose to deploy any number of units. All units with the War Machine Troop Type count as a single unit during the Deployment Phase. The same goes for all Characters. Once a player has deployed all of their units (excluding units that are not deployed using the normal rules, such as scouting or ambushing units), that player must announce if they will roll to play first or second.
+
 Deploy Remaining Units
-The remaining player must now deploy the rest of their army. Count how many units are deployed in this step and
-remember the value. This value is called the "Undeployed Units Number" and will be used at the end of this sequence.
-As before, deploying all remaining War Machines and Characters counts as one unit each.
+The remaining player must now deploy the rest of their army. Count how many units are deployed in this step and remember the value. This value is called the "Undeployed Units Number" and will be used at the end of this sequence.  As before, deploying all remaining War Machines and Characters counts as one unit each.
+
 Other Rules And Abilities
-Put into effect all remaining rules and abilities described as taking place right before the battle.
-16
-Roll For First Turn
-Both players must now roll a D6. The player that finished deploying first adds the "Undeployed Units Number" score to
-their dice roll.
-- If the player who finished deploying first gets a higher result, they play first or second as was previously
-announced.
-- If the score is a tie or the player who finished deploying second wins, they can now choose which player has
-the first turn.
-17
+Put into effect all remaining rules and abilities described as taking place right before the battle.  
+
+Roll For First Turn: Both players must now roll a D6. The player that finished deploying first adds the "Undeployed Units Number" score to their dice roll.
+- If the player who finished deploying first gets a higher result, they play first or second as was previously announced.
+- If the score is a tie or the player who finished deploying second wins, they can now choose which player has the first turn.
+
 General Principles
 Game Turn
-Fantasy Battles: The 9th Age is a turn based game. A standard game lasts for 6 Game Turns. One player has the first turn
-(called a Player Turn), in which they use their units to move and attack. After this, the other player has their first Player
-Turn. When this comes to an end, Game Turn 1 is completed. In Game Turn 2, the first player now has their second
-Player Turn, and so on, until both players have completed 6 Player Turns. This marks the end of the game.
+Fantasy Battles: The 9th Age is a turn based game. A standard game lasts for 6 Game Turns. One player has the first turn (called a Player Turn), in which they use their units to move and attack. After this, the other player has their first Player Turn. When this comes to an end, Game Turn 1 is completed. In Game Turn 2, the first player now has their second Player Turn, and so on, until both players have completed 6 Player Turns. This marks the end of the game.
+
 Player Turn
 Each Player Turn is divided into four Phases, performed in the following order:
 1 Movement Phase
 2 Magic Phase
 3 Shooting Phase
 4 Close Combat Phase
+
 Active and Reactive Player
 The Active Player is the player whose turn it currently is.
 The Reactive Player is the player whose turn it currently is not.
+
 Simultaneous Abilities
-Whenever two or more abilities happen at the same time, the Active Player must declare the usage of their abilities
-before the Reactive Player. Once both players have declared the usage of their abilities, the effects of the abilities are
-resolved, starting with the Active Player. Each player is free to decide the order of their own simultaneous abilities. For
-example, if both players have abilities that may be activated at the beginning of the magic phase, the player whose
-magic phase it is must choose first if they are using their abilities or not. Then the Reactive Player can choose if they are
-using their abilities or not. After this, the effects of the abilities from both sides are resolved, starting with the Active
-Player's abilities.
-18
+Whenever two or more abilities happen at the same time, the Active Player must declare the usage of their abilities before the Reactive Player. Once both players have declared the usage of their abilities, the effects of the abilities are resolved, starting with the Active Player. Each player is free to decide the order of their own simultaneous abilities. For example, if both players have abilities that may be activated at the beginning of the magic phase, the player whose magic phase it is must choose first if they are using their abilities or not. Then the Reactive Player can choose if they are using their abilities or not. After this, the effects of the abilities from both sides are resolved, starting with the Active Player's abilities.
+
 Rolling Dice
-In Fantasy Battles: The 9th Age, dice are often used to determine random outcomes. The most commonlyusedtypeis
-the six-sided dice, named "D6", with a range from 1 to 6. The effects of a dice roll areoftendependingonwhetherthe
-rolled value is equal toorhigherthanasetvalue(suchasadicerollthatissuccessfulifthedicerolls'3'orhigher).This
-is often referred to as a "3+" (or 2+, 4+, 6+, etc.). Sometimes, you are calledupontorollmorethanoneofthesediceat
-the same time. This is represented by a number before the type of dice rolled, such as "3D6", which means to roll 3
-six-sided dice and add the results together. On other occasions, a dice roll may be modifiedbyaddingorsubtractinga
-number, such as D6+1. In such cases,simplyaddtherelevantnumbertoorsubtractitfromtheresultoftheroll.Lastly,
-some effects in the game call for rerolling certain dice, such as "failed to-wound rolls", or "Ward Save results of '1'".
-When you encounter such situations, reroll the relevant dice.
-Dice can only be rerolled once . The second result is final, no matter the cause/source or result.
-The gamesometimesrequirestorollaD3.ThisisperformedbyrollingaD6andthenhalvingtheresult,roundingup,so
-that the result can only end up being 1, 2 or 3. If the game requires a natural '1' or a natural '6' when rolling D3, it
-always refers to the value of the D6 before halving.
+In Fantasy Battles: The 9th Age, dice are often used to determine random outcomes. The most commonly used type is the six-sided dice, named "D6", with a range from 1 to 6. The effects of a dice roll are often depending on whether the rolled value is equal to or higher than a set value (such as a dice roll that is successful if the dice rolls '3' or higher). This is often referred to as a "3+" (or 2+, 4+, 6+, etc.). Sometimes, you are called up on to roll more than one of these dice at the same time. This is represented by a number before the type of dice rolled, such as "3D6", which means to roll 3 six-sided dice and add the results together. On other occasions, a dice roll may be modified by adding or subtracting a number, such as D6+1. In such cases, simply add the relevant number to or subtract it from the result of the roll. Lastly, some effects in the game call for rerolling certain dice, such as "failed to-wound rolls", or "Ward Save results of '1'".  When you encounter such situations, reroll the relevant dice.
+Dice can only be rerolled once . The second result is final, no matter the cause/source or result.  The game sometimes requires to roll a D3. This is performed by rolling a D6 and then halving the result, rounding up, so that the result can only end up being 1, 2 or 3. If the game requires a natural '1' or a natural '6' when rolling D3, it always refers to the value of the D6 before halving.
+
 The Scatter Dice
-The Scatter Dice is a special six-sided dicewithtwosidesmarkedwith"Hit"andfoursidesmarkedwithanarrow.This
-dice is typically used in a situation where a projectile or spell effect comes with a risk of deviating in a random direction.
+The Scatter Dice is a special six-sided dice with two sides marked with "Hit" and four sides marked with an arrow. This dice is typically used in a situation where a projectile or spell effect comes with a risk of deviating in a random direction.
+
 Scatter
-When you are called upon to Scatter an object (for example "Scatter a Template
-D6""), roll the Scatter Dice. If a "Hit" symbol is rolled, do not move the object. If an
-arrow is rolled then roll the specified deviation distance (D6 in this case) and move
-the object by that number of inches inthedirectionpointedbytheScatterDice.Note
-that this is not the same thing as randomizing a direction.
+When you are called upon to Scatter an object (for example "Scatter a Template D6""), roll the Scatter Dice. If a "Hit" symbol is rolled, do not move the object. If an arrow is rolled then roll the specified deviation distance (D6 in this case) and move the object by that number of inches in the direction pointed by the Scatter Dice. Note that this is not the same thing as randomizing a direction.
+
 Representing the Scatter Dice with a standard D6
-Alternatively a Scatter Dice can be represented by rolling a standard six-sided dice
-and using thesidewithasingledottorepresentthedirectionofanarrowasdepicted
-on Figure 2. Rolling a result of '1' or '6' is considereda"Hit"withnodeviation.Since
-'1' and '6' are on opposite faces onastandarddice,anyresultotherthan'1'or'6'can
-be interpreted as an arrow.
-Fig
-ure 2
-Tw
-o different ways of representing a Scatter Dice.
-19
+Alternatively a Scatter Dice can be represented by rolling a standard six-sided dice and using the side with a single dot to represent the direction of an arrow as depicted on Figure 2. Rolling a result of '1' or '6' is considered a "Hit" with no deviation. Since '1' and '6' are on opposite faces on a standard dice, any result other than '1' or '6' can be interpreted as an arrow.
+Figure 2: Two different ways of representing a Scatter Dice.
+
 Random Direction
-Certain rules may ask the player to determine a random direction. In such cases, roll the Scatter Dice until an arrow is
-rolled and then use the direction in which it points. Ignore any "Hit" result; in this special case you are allowed to reroll
-an already rerolled dice. Some Scatter Dice feature a small arrow within the "Hit" symbol. If that is the case you do not
-need to reroll "Hit" results, simply use the small arrow to determine the direction.
+Certain rules may ask the player to determine a random direction. In such cases, roll the Scatter Dice until an arrow is rolled and then use the direction in which it points. Ignore any "Hit" result; in this special case you are allowed to reroll an already rerolled dice. Some Scatter Dice feature a small arrow within the "Hit" symbol. If that is the case you do not need to reroll "Hit" results, simply use the small arrow to determine the direction.
+
 Templates
-Templates are used to determine areas of effect. There are several different types and sizes of Templates. The most
-commonly used Templates are 3" and 5" Templates. These are disk-shaped Templates with a 3" and 5" diameter
-respectively. Other less commonly used Templates include the 1" round Template (called 1" Template) and the Line
-Template (used for Cannons and some spells). When determining how many models are beneath (or touched by) the
-Template, hold the appropriate Template over the target to see which model bases are directly underneath it. If any
-part of a model's base is beneath a Template (however small that part is), that model counts as being under the
-Template. Any given point on a Template can only ever be in contact with one base. The model bases are based on the
-metric system, while the Template sizes are in inches. This means, for example, that a 3" Template is capable of
-touching the bases of 5 lined up models with 25mm bases (3" = 7.62cm).
-20
+Templates are used to determine areas of effect. There are several different types and sizes of Templates. The most commonly used Templates are 3" and 5" Templates. These are disk-shaped Templates with a 3" and 5" diameter respectively. Other less commonly used Templates include the 1" round Template (called 1" Template) and the Line Template (used for Cannons and some spells). When determining how many models are beneath (or touched by) the Template, hold the appropriate Template over the target to see which model bases are directly underneath it. If any part of a model's base is beneath a Template (however small that part is), that model counts as being under the Template. Any given point on a Template can only ever be in contact with one base. The model bases are based on the metric system, while the Template sizes are in inches. This means, for example, that a 3" Template is capable of touching the bases of 5 lined up models with 25mm bases (3" = 7.62cm).
+
 Characteristics
 The Characteristics Profile
 Each model part has a Characteristics Profile , which contains 9 different Characteristics:
@@ -393,6 +231,7 @@ I Initiative Models with a higher initiative strike first.
 A Attacks The number of times the model can attack in close combat.
 Ld Leadership Shows the model's discipline and ability to stand and fight in life-threatening situations.
 All Characteristics have a numeric value between 0 and 10 and can never go outside this range.
+
 Value of 0
 When a Characteristic value is 0, it can also be labelled as a dash ("-").
 0 Movement The model cannot move.
@@ -400,78 +239,48 @@ When a Characteristic value is 0, it can also be labelled as a dash ("-").
 0 Ballistic Skill The model part cannot use Shooting Weapons.
 0 Wounds A model with its Wounds reduced to 0 is removed as a casualty.
 0 Attacks A model part with an unmodified Attacks of 0 can never make normal Close Combat Attacks.
-21
+
 Performing a Characteristic Test
-To perform a Characteristic Test, roll a D6. If the result is less or equal than the tested Characteristic, the test is passed.
-Otherwise the test is failed. A test always fails on the result of '6'. This means that models that have a Characteristic with
-a value of 0 will automatically fail Characteristic Tests targeting that Characteristic.
-When a model with more than one value of a Characteristic (such as a dragon and its rider) is called upon to take a
-Characteristic Test, take a single test for the combined model, using the highest Characteristic available. When a unit as
-a whole takes a Characteristic Test, use the highest value.
+To perform a Characteristic Test, roll a D6. If the result is less or equal than the tested Characteristic, the test is passed.  Otherwise the test is failed. A test always fails on the result of '6'. This means that models that have a Characteristic with a value of 0 will automatically fail Characteristic Tests targeting that Characteristic.  When a model with more than one value of a Characteristic (such as a dragon and its rider) is called upon to take a Characteristic Test, take a single test for the combined model, using the highest Characteristic available. When a unit as a whole takes a Characteristic Test, use the highest value.
+
 Using Unmodified Characteristics
-An unmodified Characteristic is the exact value that can be read on a unit profile when ignoring any modification from
-equipment, spells and rules. The only exceptions are Characteristic changes made when building the army, such as
-upgrading a model to a 'veteran', thereby granting +1 Strength on its profile. Such a modification is considered included
-in the model's unmodified Characteristic.
+An unmodified Characteristic is the exact value that can be read on a unit profile when ignoring any modification from equipment, spells and rules. The only exceptions are Characteristic changes made when building the army, such as upgrading a model to a 'veteran', thereby granting +1 Strength on its profile. Such a modification is considered included in the model's unmodified Characteristic.
+
 Using Borrowed Characteristics
-In certain situations a model may borrow or use the Characteristic of another model. In this case the value of the
-borrowed Characteristic is taken after applying any modification from equipment, spells or special rules that the owner
-of the Characteristic is subject to. Modification from equipment, spells or special rules that affects the unit will then be
-applied to this (following the rules for Priority of Modifiers below).
+In certain situations a model may borrow or use the Characteristic of another model. In this case the value of the borrowed Characteristic is taken after applying any modification from equipment, spells or special rules that the owner of the Characteristic is subject to. Modification from equipment, spells or special rules that affects the unit will then be applied to this (following the rules for Priority of Modifiers below).
+
 Performing a Leadership Test
-To perform a Leadership Test the player rolls 2D6 and compares the result with the Leadership Characteristic of a
-model. If the roll result is equal or less then the Leadership value, the test is passed. Otherwise, the Test is failed. If a
-unit takes a Leadership Test and more than one Leadership value is available (for example when a Character joins a
-unit), the player must always use the highest value.
-There are many different game mechanics that may call for a Leadership Test, such as performing a Panic Test or a
-Break Test. All such game mechanics are Leadership Tests, regardless of any additional rules and modifications
-described in the relevant sections of the rulebook.
+To perform a Leadership Test the player rolls 2D6 and compares the result with the Leadership Characteristic of a model. If the roll result is equal or less then the Leadership value, the test is passed. Otherwise, the Test is failed. If a unit takes a Leadership Test and more than one Leadership value is available (for example when a Character joins a unit), the player must always use the highest value.  There are many different game mechanics that may call for a Leadership Test, such as performing a Panic Test or a Break Test. All such game mechanics are Leadership Tests, regardless of any additional rules and modifications described in the relevant sections of the rulebook.
+
 Priority of Modifiers
 When Characteristics are modified, the modifiers are applied in a strict order:
 1. Characteristics borrowed* or set to certain values (such as Inspiring Presence or a failed Fear Test)
-2. Multiplications (such as halved, doubled or multiplied by 2). Unless noted otherwise, always round fractions
-up.
+2. Multiplications (such as halved, doubled or multiplied by 2). Unless noted otherwise, always round fractions up.
 3. Addition and Subtraction (such as -1 or +3)
-*If the Characteristic to be borrowed is modified, apply these modifiers before borrowing the Characteristic.
-If several modifications within the same group are to be applied, apply them chronologically. Remember that
-Characteristics can never (not even temporarily) be modified to above 10 or below 0.
-22
+*If the Characteristic to be borrowed is modified, apply these modifiers before borrowing the Characteristic.  If several modifications within the same group are to be applied, apply them chronologically. Remember that Characteristics can never (not even temporarily) be modified to above 10 or below 0.
+
 Battlefield Logistics
 Measuring Distances
-The measuring unit in Fantasy Battles: The 9th Age, is the inch ("). An inch corresponds to 2.54 cm. All distances and
-ranges are indicated and measured in inches. To determine the distance between two points on the Battlefield (or two
-units, or any other elements), you must always measure from the closest points, even if the line of measuring goes
-through any kind of intervening or obstructing element. Ignore such obstructions for the purposes of measurement.
-Players are always allowed to measure any distance at any time .
+The measuring unit in Fantasy Battles: The 9th Age, is the inch ("). An inch corresponds to 2.54 cm. All distances and ranges are indicated and measured in inches. To determine the distance between two points on the Battlefield (or two units, or any other elements), you must always measure from the closest points, even if the line of measuring goes through any kind of intervening or obstructing element. Ignore such obstructions for the purposes of measurement.  Players are always allowed to measure any distance at any time .
+
 Line of Sight
-A model can trace a Line of Sight to its target (a point or model) if you can extend a straight line from the front of its
-base directly to its target, without going outside of the model's front arc, and without being interrupted by Obscuring
-Terrain or by the base of a model which has a larger Height than both the unit and its target. Models in back ranks
-always draw Line of Sight as if they were in the front rank, in the same file(s) they are in. A unit is considered to have a
-Line of Sight to a target if one or more models in the unit has Line of Sight. Models in a unit never block Line of Sight to
-other models in the same unit.
+A model can trace a Line of Sight to its target (a point or model) if you can extend a straight line from the front of its base directly to its target, without going outside of the model's front arc, and without being interrupted by Obscuring Terrain or by the base of a model which has a larger Height than both the unit and its target. Models in back ranks always draw Line of Sight as if they were in the front rank, in the same file(s) they are in. A unit is considered to have a Line of Sight to a target if one or more models in the unit has Line of Sight. Models in a unit never block Line of Sight to other models in the same unit.
+
 Model Height
 Models are divided into the following three Heights:
-Small
-Any model with one of the following Troop Types: Infantry, War Beast, Swarm and War Machine.
-Medium
-Any model with one of the following Troop Types: Cavalry, Monstrous Infantry, Monstrous Beast, Monstrous Cavalry
-and Chariot.
-Large
-Any model with the special rule Large Target.
-23
+Small: Any model with one of the following Troop Types: Infantry, War Beast, Swarm and War Machine.
+Medium: Any model with one of the following Troop Types: Cavalry, Monstrous Infantry, Monstrous Beast, Monstrous Cavalry and Chariot.
+Large: Any model with the special rule Large Target.
+
 Unit Spacing
-All units must under normal circumstances be separated by at least 1" fromanyotherunits(friendsorfoes)andfrom
-Impassable Terrain. A unit may come within 1/2" of these elements during the course of a move but must be kept 1"
-away once the move ends. Certain forms of movement are specifically allowedtobreakthisspacingrule,withthebest
-example being a charge which allows a unit to engageenemiesinCloseCombat.Othertypesofmovesmayallowaunit
-to come closer than 1" tofriendlyunitsorImpassableTerrainbutonlyachargeallowsdirectcontactwithenemyunits.
+All units must under normal circumstances be separated by at least 1" from any other units (friends or foes) and from Impassable Terrain. A unit may come within 1/2" of these elements during the course of a move but must be kept 1" away once the move ends. Certain forms of movement are specifically allowed to break this spacing rule, with the best example being a charge which allows a unit to engage enemies in Close Combat. Other types of moves may allow a unit
+to come closer than 1" to friendly units or Impassable Terrain but only a charge allows direct contact with enemy units.
 If a unit is allowed to temporarily break the spacing rule for one reason or another and then moves away, the rule
 automatically begins to apply again.
 Board Edge
 The board edge represents the boundaries of the game. Models can move temporarily outside the board edge on the
 condition that no more than 50% of the model's Footprint is outside the board and as long as the move does not end
-with any part of the model outside the board. Templates can be partiallyoutsidetheboardandstillaffectmodelswith
+with any part of the model outside the board. Templates can be partially outside the board and still affect models with
 the parts of the Template that are still on the board.
 24
 Units and Formations
@@ -506,20 +315,11 @@ Full Ranks
 A Full Rank is any rank which is at least 5 models wide. Some units (such as Monstrous Infantry) require less than 5
 models to form a Full Rank, see Troop Types section for details.
 25
-Horde Formation
-Units in ranks of 10 or more models (6 or more in the case of Monstrous Ranks) are considered to be in Horde
-fo
-rmation.
-Footprint
-A unit's Footprint is the area occupied by the combined bases of all the models in a unit.
-Centre of Unit
-A unit's Centre is defined by drawinganimaginaryrectanglearoundtheouteredgesoftheunit'sFootprint.TheCentre
-of this box is considered to be the Centre of the unit.
-Unit Facing and Arcs
-A unit has 4 arcs: front, rear,andtwoflanks.Eacharcisdeterminedbyextendingastraightlinefromthecornersofthe
-unit's bases, in a 135 degrees angle from the unit's front(forthefrontarc),rear(forthereararc)orflanks(fortheflankarcs),
-see figure 3. Units on round bases don't have arcs (they can draw Line of Sight from any point on their bases, in any
-direction).
+Horde Formation: Units in ranks of 10 or more models (6 or more in the case of Monstrous Ranks) are considered to be in Horde
+formation.
+Footprint: A unit's Footprint is the area occupied by the combined bases of all the models in a unit.
+Centre of Unit: A unit's Centre is defined by drawing an imaginary rectangle around the outer edges of the unit's Footprint. The Centre of this box is considered to be the Centre of the unit.
+Unit Facing and Arcs: A unit has 4 arcs: front, rear, and two flanks. Each arc is determined by extending a straight line from the corners of the unit's bases, in a 135 degree angle from the unit's front (for the front arc), rear (for the rear arc) or flanks (for the flank arcs), see figure 3. Units on round bases don't have arcs (they can draw Line of Sight from any point on their bases, in any direction).
 Fig
 ure 3
 Th
@@ -577,30 +377,30 @@ If you want any of your units to engage an enemy unit in Close Combat, you must 
 attempt to charge which enemy unit, one at a time. Each time the Active Player declares a charge, the ReactivePlayer
 must declare the charged unit's Charge Reaction.
 Charges can only be declared at targets that are in the charging unit's Line of Sight and that the charging unit has a
-chance of completing the charge against. This means that the targetunitmustbewithinthecharger'spotentialCharge
+chance of completing the charge against. This means that the target unit must be within the charger's potential Charge
 Range and there must be enough room to move the charger into base contact with its target. When considering if a
 charge is possible, do not take potential Flee Charge Reactions into account (not even mandatory ones), but do take
 already declared charges into account (since charging models might have a chance to move out of the way).
-28
+
 Charge Reactions
 A unit that has a charge declared against it must now declare its Charge Reaction. There are three different Charge
 Reactions: "Hold", "Stand and Shoot" and "Flee".
 Hold
 A Hold reaction means that the unit does nothing. A unit Engaged in Combat can only choose a Hold reaction.
 Stand and Shoot
-A StandandShootreactionmaybetakenifthechargedunithasShootingWeapons,thechargingenemyisintheirFront
-Arc and the chargingunitisfurtherawaythanitsMovementvalue(usingthelowestvalueintheunitifithasmorethan
-one). The charged unit immediately performsaShootingAttackasifintheShootingPhase,eveniftheenemyisbeyond
-the weapon's maximum Range. (Remember to apply any applicable modifierslikeLongRangeandStandandShoot).A
+A Stand and Shoot reaction may be taken if the charged unit has Shooting Weapons, the charging enemy is in their Front
+Arc and the charging unit is further away than its Movement value (using the lowest value in the unit if it has more than
+one). The charged unit immediately performs a Shooting Attack as if in the Shooting Phase, even if the enemy is beyond
+the weapon's maximum Range. (Remember to apply any applicable modifiers like Long Range and Stand and Shoot). A
 unit can only choose this Charge Reaction once per turn, even if it is charged multiple times.
 Flee
 The charged unit immediately flees directly away from the charging enemy (in the direction of a line drawn from the
-Centre of the charging unit through the Centreofthechargedunit).AfteraunitcompletestheFleemovement,anyunit
-that declared a charge towards this unitmayimmediatelyattempttoRedirecttheirCharge.Analreadyfleeingunitthat
+Centre of the charging unit through the Centre of the charged unit). After a unit completes the Flee movement, any unit
+that declared a charge towards this unit may immediately attempt to Redirect their Charge. An already fleeing unit that
 is charged must always choose to flee.
 Redirecting a Charge
-When a unit chooses the Flee Charge Reaction, the charger maytrytoRedirecttheCharge.Ifso,rollaLeadershipTest.
-If failed, the unit will try tocompletethechargetowardstheunitthatfled.Ifpassed,theunitcanimmediatelydeclarea
+When a unit chooses the Flee Charge Reaction, the charger may try to Redirect the Charge. If so, roll a Leadership Test.
+If failed, the unit will try to complete the charge towards the unit that fled.If passed, the unit can immediately declare a
 new charge towards another viable target unit, which may choose their Charge Reaction as normal. If more than one
 unit declared a charge against the fleeing unit, each may try to redirect its charge in any order chosen by the Active
 Player. A unit can only redirect a charge once per turn. If the situation arises that a unit redirects a charge and the
@@ -643,7 +443,7 @@ into contact with any Facing of its target, no aligning is made and no maximizin
 consideration. Once the charger reaches base contact with the fleeing target, the fleeing unit is removed as a casualty.
 The charging unit can take a Leadership Test. If the test it passed, the unit may perform a Post-Combat Pivot
 manoeuvre.
-30
+
 Multiple Charges
 If more than one unit has declared a charge against a single enemy unit, charges are moved in a slightly different
 manner. Roll Charge Range for all the units charging that same unit before moving any of them. Once it has been
@@ -652,15 +452,15 @@ wish. When maximizing the number of models in base contact, take into considerat
 models in base contact from all units that successfully completed the charge, prioritizing getting as many units into
 combat as possible over Maximizing Contact.
 Impossible Charge
-When moving the charges, this sometimes resultsinasituationwhereunitsblockeachotherfromreachingcombat(or
-there is not enough space tofitallchargers).Whenthishappens,theunitsthatcannolongermakeitintocombatmake
+When moving the charges, this sometimes results in a situation where units block each other from reaching combat (or
+there is not enough space to fit all chargers).When this happens, the units that can no longer make it into combat make
 a Failed Charge Move.
 Blocked Path
-To prevent certain abusive situations where a unit cannot charge an enemy unit wellwithinChargeRangeandLineof
-Sightduetoaconvolutedpositioningoftheenemyunits,thefollowingrulesareapplied.Ifaunitisunabletocompletea
-charge solely due to unengaged enemyunitsthatitcouldnotchargenormally,itcanmakeaspecialchargemove:Move
+To prevent certain abusive situations where a unit cannot charge an enemy unit well within Charge Range and Line of
+Sight due to a convoluted positioning of the enemy units, the following rules are applied. If a unit is unable to complete a
+charge solely due to unengaged enemy units that it could not charge normally, it can make a special charge move: Move
 the unit straight forward up to its Charge Range. If this brings it into contact with the enemy, the enemy is charged.
-Instead of doing the normal aligning, the enemyperformsaCombatReforminordertobringtheunitsalignedtowards
+Instead of doing the normal aligning, the enemy performs a Combat Reform in order to bring the units aligned towards
 each other (Combat Reform in such a way that the correct facing is turned towards the enemy).
 Failed Charge
 If a unit does not roll a sufficient Charge Range, or is unable to complete the Charge for other reasons, it performs a
@@ -678,47 +478,47 @@ e majority of the charging unit's frontage is in the enemy's front arc, so the c
 (n
 eeded Charge Range is 1"). It moves forward and then wheels into base contact. Align move is then performed by rotating
 the charged unit around the point of contact.
-31
+
 Fig
 ure 5
 Th
 e charging purple unit tries to maximize models in base contact. However the units cannot be aligned without the
 charged unit making an Align Move (a). Since the charging unit can move into contact without the enemy Aligning (b), it
 must do so instead.
-32
+
 Compulsory Moves
 In the Compulsory Moves sub-phase, models that do not have a choice concerning whether to move or not (such as
 fl
-eeing units, units with Random Movement or units that havefailedaStupidityTest)mustmove.First,rollRallyTests
+eeing units, units with Random Movement or units that have failed a Stupidity Test) must move. First, roll Rally Tests
 fo
-r all fleeing units (and maketheappropriatemovesafterthetestspassedorfailed),thenmoveyournon-fleeingunits
+r all fleeing units (and make the appropriate moves after the tests passed or failed), then move your non-fleeing units
 that move in the Compulsory Moves sub-phase, in any order.
 Rally Tests
-At thestartoftheCompulsoryMovessub-phase,allfleeingunitsmusttakeaLeadershipTest(inanorderchosenbythe
+At the start of the Compulsory Moves sub-phase, all fleeing units must take a Leadership Test (in an order chosen by the
 Active Player). Units that are at 25% or less of their starting number (unit size on army list), including joined
-Characters, must take this LeadershipTestathalftheirLeadership(roundfractionsup).Forexample;aunitstartedthe
-game as 40 models, was reduced to 9 models, buttwoCharactershadjoinedtheunit.ThisunittakesaRallyTestonits
-normal Leadership.AnyunitthatpassesitstestisnolongerconsideredfleeingandmayimmediatelyperformaReform.
-A unit that has rallied cannot move any further in this movement phase and cannot shoot in the subsequentShooting
+Characters, must take this Leadership Test at half their Leadership (round fractions up).For example; a unit started the
+game as 40 models, was reduced to 9 models, but two Characters had joined the unit. This unit takes a Rally Test on its
+normal Leadership. Any unit that passes its test is no longer considered fleeing and may immediately perform a Reform.
+A unit that has rallied cannot move any further in this movement phase and cannot shoot in the subsequent Shooting
 Phase. If the test is failed, the unit immediately performs a Flee Move.
 Flee Moves
 To perform a Flee Move, roll the Flee Distance, which is normally 2D6". Move the fleeing unit this distance straight
 fo
-rward. If this move should makethefleeingunitenditsmovewithin1"ofanotherunitorImpassableTerrain,extend
-the Flee Distance with the minimum distance needed for the unit to getclearofallsuchobstructions.Iffleeingmodels
-move throughenemymodelsorImpassableTerrain,theymusttakeaDangerousTerraintest,whichisfailedonarollof
-1-3. If the Flee Move takes the fleeing unit intocontactwith(orbeyond)theBoardEdge,theunitisdestroyed.Remove
-the unit as a casualtyassoonasittouchestheBoardEdge(possiblycausingPanicTeststonearbyunits).NotethatFlee
-Moves are often preceded by a Pivot. If this is the case, this Pivot follows the same rules as theFleeMove.FleeMoves
+rward. If this move should make the fleeing unit end its move within 1" of another unit or Impassable Terrain, extend
+the Flee Distance with the minimum distance needed for the unit to get clear of all such obstructions. If fleeing models
+move through enemy models or Impassable Terrain, they must take a Dangerous Terrain test, which is failed on a roll of
+1-3. If the Flee Move takes the fleeing unit into contact with (or beyond) the Board Edge, the unit is destroyed. Remove
+the unit as a casualty as soon as it touches the Board Edge (possibly causing Panic Tests to nearby units). Note that Flee
+Moves are often preceded by a Pivot. If this is the case, this Pivot follows the same rules as the Flee Move. Flee Moves
 ignore all obstructions.
 Fleeing Units
-When a unit is fleeing, it cannot perform any voluntary actions (if the unit would normally not have the option ofnot
-doing an action, it cannot perform that action if fleeing). This includes (but is not limited to): DeclareCharges,Charge
-Reaction(otherthanflee),MoveinanywayotherthanaFleeMove,Shoot,Channel,CastSpells,DispelSpells,oractivate
-One Use Only items which need to be activated. Other models cannot receive Inspiring Presence orHoldYourGround
+When a unit is fleeing, it cannot perform any voluntary actions (if the unit would normally not have the option of not
+doing an action, it cannot perform that action if fleeing). This includes (but is not limited to): Declare Charges, Charge
+Reaction (other than flee), Move in any way other than a Flee Move, Shoot, Channel, Cast Spells, Dispel Spells, or activate
+One Use Only items which need to be activated. Other models cannot receive Inspiring Presence or Hold Your Ground
 fr
 om a fleeing General or Battle Standard Bearer.
-33
+
 Remaining Moves
 In the Remaining Moves sub-phase, units that haven't moved yet will get a chance to do so.
 1. Start of the Remaining Moves sub-phase Phase. Reinforcements arrive.
@@ -732,23 +532,23 @@ always perform any number of Pivots during an Advance Move.
 Forward: The unit moves forward a distance up to its Movement Characteristic. During a forward Advance Move, a unit
 may perform any number of Wheel Manoeuvres.
 Backwards: The unit moves backwards a distance up to half its Movement Characteristic. For example, a unit with
-Movement Characteristic 5 could move backwards 21/2".
+Movement Characteristic 5 could move backwards 2-1/2".
 Sidestep: The unit moves to either side a distance up to half its Movement Characteristic.
 March Move
 When performing a March Move, the unit can only move forward, up to twice its Movement Characteristic. During a
 March Move a unit may perform any number of Wheel Manoeuvres.
-If there areenemyunitswithin8"ofaunitthatwishestoperformaMarchMove(beforetheunitisactuallymoved),the
-unit must take a March Test. Take a Leadership Test. Ifthetestispassed,theunitmayproceedwithitsMarchMoveas
+If there are enemy units within 8" of a unit that wishes to perform a March Move (before the unit is actually moved), the
+unit must take a March Test. Take a Leadership Test. If the test is passed, the unit may proceed with its March Move as
 normal. If the tests is failed, the unit must still make a March Move, however, it can only move up to its Movement
 Characteristic. A unit that has Marched cannot shoot in the Shooting Phase. Units consisting of a single model can
 always perform any number of Pivots during a March Move.
 Reform
-Mark the Centre of the unit. Remove the unit from the Battlefield, and then place it backontheBattlefieldinanylegal
+Mark the Centre of the unit. Remove the unit from the Battlefield, and then place it back on the Battlefield in any legal
 fo
 rmation (following the Unit Spacing rule) with its Centre in the same place as before. After the Reform, no single
-model can be further away fromitsstartingposition(beforethereform)thantwiceitsMovementCharacteristic.Aunit
+model can be further away from its starting position (before the reform) than twice its Movement Characteristic. A unit
 that has Reformed cannot shoot in the Shooting Phase.
-34
+
 Pivots and Wheels
 When a unit Pivots (a move mostly used by single model units), mark the Centre of the unit. Remove the unit from the
 Battlefield, and then place it back on the Battlefield again facing any direction with its Centre in the same place as before
@@ -766,7 +566,7 @@ eel during its March Move. However, even though the outer model has only moved 9
 have moved more than 10", making this move illegal. The yellow unit makes a single Wheel during its March Move. This
 unit counts as moving 10" (since you measure distances from the outermost model's outer edge). Note that no model has
 moved more than 10" from its starting position.
-35
+
 Magic Phase
 In the Magic Phase, your Wizards can cast spells and your opponent can try to dispel those spells.
 Wizards
@@ -782,8 +582,8 @@ Wizard Masters
 Wizards of levels 3 and 4 are called Wizard Masters. They add +2 to their casting and dispelling rolls.
 If a Wizard's level increases or decreases for any reasons, its casting and dispelling bonus also changes.
 Spells
-SpellscanbecastduringtheMagicPhase.ThespellsaWizardknowsareusuallyrandomizedbeforethegame,usingthe
-rules given under Generate Spells. Most spellsbelongtoaspecificPathofMagic.EachofyourWizardshastochoosean
+Spells can be cast during the Magic Phase. The spells a Wizard knows are usually randomized before the game, using the
+rules given under Generate Spells. Most spells belong to a specific Path of Magic. Each of your Wizards has to choose an
 available Path of Magic to generate spells from; this choice has to be written down in your army list. All spells are
 defined by the following 5 properties:
 Spell Name
@@ -792,16 +592,16 @@ Casting Value
 The Casting Value is the minimum value you need to reach to successfully cast the spell. Spells may have different
 casting values available (see Boosted Spells).
 Type
-A spell's Type describes how the spell's targets have to be chosen. A spell can have morethanonetype.Ifso,applyall
-targeting restrictions at the same time. For example, if a spell has the types "Range 12", "Hex",and"Direct",thetarget
-must be within 12", be an enemyunitandbeinthecaster'sfrontarc.Unlessstatedotherwise,aspellcanonlyhaveone
+A spell's Type describes how the spell's targets have to be chosen. A spell can have more than one type. If so, apply all
+targeting restrictions at the same time. For example, if a spell has the types "Range 12", "Hex", and "Direct", the target
+must be within 12", be an enemy unit and be in the caster's front arc. Unless stated otherwise, a spell can only have one
 target.
 Duration
 A spell's Duration determines how long the effects of the spell are applied.
 Effect
 The Effect of a spell defines what happens to the target of the spell when the spell is successfully cast (and not
 dispelled).
-36
+
 Boosted Spells
 Some spells have more than one casting value, the higher casting values being called the 'boosted' versions of the spell.
 Boosted versions may have their Range and/or target restrictions modified (for example giving the spell a longer
@@ -835,7 +635,7 @@ model with more than one part (such as a chariot with 2 riders and 2 pulling bea
 part may be chosen as the target.
 Hex
 Spells with the target restriction "Hex" may only choose enemy units (or models inside units if Focused) as targets.
-37
+
 Ground
 Spells with the target restriction "Ground" don't target units or models. Instead, a "Ground" spell's target is a point on
 the Battlefield, chosen by the casting player.
@@ -859,34 +659,34 @@ reached its final position, the Template is removed from play and the spell ends
 Universal
 Spells with the target restriction "Universal" may choose both friendly and enemy units (or models inside units if
 "Focused") as targets.
-38
+
 Spell Duration
-A spell's Durationspecifieshowlongtheeffectsofthespellareapplied.Aspell'sDurationcaneitherbe"Instant","Lasts
+A spell's Duration specifies how long the effects of the spell are applied. A spell's Duration can either be "Instant", "Lasts
 one Turn", "Permanent" or "Remains in Play" as described below:
 Instant
-If a spell is marked as "Instant" the effect of the spell has no lasting Duration-effectsareappliedonce,afterwardsthe
+If a spell is marked as "Instant" the effect of the spell has no lasting Duration - effects are applied once, afterwards the
 spell ends automatically.
 Lasts One Turn
-If a spell is marked as "Lasts One Turn", the effect of thespelllastsuntilthestartofthecaster'snextMagicPhase.Ifan
+If a spell is marked as "Lasts One Turn", the effect of the spell lasts until the start of the caster's next Magic Phase. If an
 affected unit is divided into several units (the most common example is that a Character leaves its unit), each of the
-units formed this way keeps being affected by the spell's effects. Characters that joinaunitaffectedbyLastsOneTurn
+units formed this way keeps being affected by the spell's effects. Characters that join a unit affected by Lasts One Turn
 spells are not affected by the spell.
 Permanent
 If a spell is marked as "Permanent", the effect of the spell lasts until the end of the game or until a designated ending
-condition (as detailed in the spell's effect) is met.Permanentspellscanneverberemovedbyanyothermeansthanthe
-way describedinthespell.Ifanaffectedunitisdividedintoseveralunits(themostcommonexampleisthataCharacter
-leaves its unit), each of the units formed this way keeps being affected by thespell'seffects.Charactersthatjoinaunit
+condition (as detailed in the spell's effect) is met. Permanent spells can never be removed by any other means than the
+way described in the spell. If an affected unit is divided into several units (the most common example is that a Character
+leaves its unit), each of the units formed this way keeps being affected by the spell's effects.Characters that join a  unit
 affected by Permanent spells are not affected by the spell.
 Remains in Play
 If a spell is marked as "Remains in Play" (abbreviation 'RiP'), the effects of the spell remain in play until the spell is
 dispelled or the caster is slain. "Remains in Play" spells may be dispelled during each subsequent Magic Phase, see
 Dispel "Remains in Play" Spells. If an affected unit is divided into several units (the most common example is that a
-Character leaves its unit), each of the units formed thiswaykeepsbeingaffectedbythespell'seffects.Inthatsituation,
-one successfuldispelattemptwillremovethespellfromallaffectedunits.Charactersthatjoinaunitalreadyaffectedby
+Character leaves its unit), each of the units formed this way keeps being affected by the spell's effects.Inthatsituation,
+one successful dispel attempt will remove the spell from all affected units. Characters that join a unit already affected by
 "Remains in Play" spells are not affected by the spell. Until the "Remains in Play" spell has ended, the spell cannot be
-cast again by the same caster. If the caster of the spell is slain, thespell'seffectsareautomaticallydispelledatthefirst
+cast again by the same caster. If the caster of the spell is slain, the spell's effects are automatically dispelled at the first
 possible moment the spell could normally have been dispelled (see Magic Phase Sequence).
-39
+
 Magic Phase Sequence
 1 Start of the Magic Phase. Roll for Magic Flux and Channelling.
 2 "Remains in Play" spells may be dispelled (see Dispel "Remains in Play" Spells).
@@ -918,7 +718,7 @@ the Reactive Player has to take the dispel decision first. They have to choose i
 "Remains in Play" spells that the Active Player might want to dispell anyway, or keep the dice and risk that the Active
 Player does nothing and ends the Magic Phase immediately, leaving the "Remains in Play" spell in play (see the Magic
 Phase Sequence).
-40
+
 Spellcasting Sequence
 Each of Active Player's non-fleeing Wizards (or models with Bound Spells) may attempt to cast each of its spells up to
 one time per Magic Phase. Each Casting Attempt is resolved as follows:
@@ -957,9 +757,9 @@ Not Enough Power
 When rolling casting or dispel rolls with a single Magic Dice, a result of '1' or '2' on the Magic Dice is always a failed
 casting or dispel attempt, regardless of any modifiers.
 Overwhelming Power
-When casting ordispellingaspellandtwoormoreMagicDicerollanatural'6',thecasting/dispelattemptisperformed
+When casting or dispelling a spell and two or more Magic Dice roll a natural '6', the casting/dispel attempt is performed
 with Overwhelming Power. When this happens, immediately add a casting/dispel modifier to the total roll, equal to
-D3+MDU, where MDU ("Magic Dice Used") is the number of Magic Dice used to cast/dispel thespell.Ifacastingrollis
+D3+MDU, where MDU ("Magic Dice Used") is the number of Magic Dice used to cast/dispel the spell. If a casting roll is
 performed with Overwhelming Power and the spell is not dispelled, the casting Wizard also suffers a Miscast.
 Miscast
 Roll 2D6 and apply the table on the left.
@@ -975,9 +775,9 @@ Miscast Table
 2-4 Breach in the Veil
 Centre the 5" Template over the caster. Each
 model touched by the Template takes a hit.
-If 4 Power Dice were used, roll aD6.Onarollof
+If 4 Power Dice were used, roll a D6. On a roll of
 1-3, the caster is removed from the game.
-If 5 PowerDicewereused,thecasterisremoved
+If 5 Power Dice were used, the caster is removed
 fr
 om the game.
 5-6 Catastrophic Detonation
@@ -985,16 +785,16 @@ Centre the 3" Template over the caster. Each
 model touched by the Template takes a hit. The
 caster must take one hit.
 7 Witch Fire
-Thecaster'sunitsuffersMDUhits(distributedas
+The caster's unit suffers MDU hits (distributed as
 hits towards a unit as whole), except the caster
 itself cannot receive more than 1 hit.
 8-9 Sorcerous Backlash
 The caster and each friendly Wizard take a hit.
 10-12 Amnesia
 The caster's Wizard Level is reduced by MDU-2,
-it losesonespellforeachlevellost(startingwith
+it loses one spell for each level lost (starting with
 the miscast spell, randomizing the rest).
-42
+
 Path Attributes
 Path Attributes are special spells that cannot be cast independently. Instead, they are always cast automatically
 (provided there are any available targets) each time another spell from the same Path has been successfully cast and
@@ -1029,7 +829,7 @@ Moves sub-phase can be made (such as Wheeling, Reforming, joining units, leaving
 cannot March. A Magical movement always has a given limit (for example, "target may make a 12" Magical Move"): this
 distance is used instead of the target's Movement Characteristic (no Marching is allowed). If a unit has already done a
 Magical Move in this Magic Phase, it cannot move again.
-43
+
 Shooting Phase
 In the Shooting Phase, models with Shooting Attacks get a chance to use them.
 Shooting Phase Sequence
@@ -1039,19 +839,19 @@ The Shooting Phase is divided into the following steps.
 3 Repeat step 2 with a different unit that has not fired during this Phase yet.
 4 When all units that can (and want to) shoot have done so, the Shooting Phase ends.
 Shooting With a Unit
-Each unit (with a Shooting Weapon) can shoot once per Shooting Phase. Units that areFleeing,EngagedinCombat,or
+Each unit (with a Shooting Weapon) can shoot once per Shooting Phase. Units that are Fleeing, Engaged in Combat, or
 that have Marched, Reformed, Rallied, or Declared a Charge in their previous Movement Phase cannot shoot.
 When a unit shoots, first nominate a target within the shooting unit's Line of Sight. Units that are Engaged in Combat
-cannot be chosen as targets. Allmodelsinthesameunitmustshootatthesametargetand only models in the 1st and
+cannot be chosen as targets. All models in the same unit must shoot at the same target and only models in the 1st and
 2nd rank may fire . If the models in the unit have more than one type of Shooting Weapon, declare which weapon is
-used. All R&F models except Champions must use the same type of weapon. ChampionsandCharactersarefreetouse
+used. All R&F models except Champions must use the same type of weapon. Champions and Characters are free to use
 other types of Shooting Weapons if they wish. Any model in the unit is free to choose not to shoot.
-Check the Line of Sight foreachmodel.RememberthatLineofSightisalwaysdrawnfromthefront!Modelsthatdonot
+Check the Line of Sight for each model. Remember that Line of Sight is always drawn from the front! Models that do not
 have a Line of Sight to the target unit cannot shoot. Measure the Range for each individual shooting model. This is
-measured from the actual position of each shooting model to the closest pointofthetargetunit(evenifthisparticular
-point is not within Line of Sight). Models that are further away from the target thantheRangeoftheirweaponcannot
+measured from the actual position of each shooting model to the closest point of the target unit (even if this particular
+point is not within Line of Sight). Models that are further away from the target than the Range of their weapon can not
 shoot. Once it has been established which models can shoot, roll to hit with each model (as described below).
-44
+
 Shooting To-Hit Rolls
 When rolling to hit with Shooting Attacks, use the Ballistic Skill of the shooting model. If the model has more than one
 profile (such as a knight riding a horse), use the part of model that is actually performing the Shooting Attack. The
@@ -1059,8 +859,7 @@ player controlling the shooting unit rolls a D6 and adds the Ballistic Skill of 
 higher, the attack hits. An unmodified roll of '1' is always a miss. If one or more hits are scored, follow the procedure
 described under Attacks and Damage.
 Shooting To-Hit Table
-Ballistic Skill (BS) +
-modifiers
+Ballistic Skill (BS) + modifiers
 To-Hit Roll
 6 or more 2+
 5 2+
@@ -1092,7 +891,7 @@ Moving and Shooting (-1 to hit)
 It the unit has moved during this Player Turn, all models in the unit receive a -1 to hit modifier.
 Stand and Shoot (-1 to hit)
 Shooting Attacks made as part of a Stand and Shoot Charge Reaction receive a -1 to hit modifier.
-45
+
 Cover
 Cover is determined individually for each model in a unit that is shooting. There are two types of Cover: Soft Cover and
 Hard Cover. In both cases, Cover is worked out using the Line of Sight of the shooting model. Draw Lines of Sight from a
@@ -1127,7 +926,7 @@ b) Models can shoot (enemy within Line of Sight), no Cover since less than half 
 c)
 Models can shoot (enemy within Line of Sight), Soft Cover since more than half of the enemy unit's Footprint is obscured
 by the Forest.
-46
+
 Fig
 ure 8
 a) Models cannot shoot, Line of Sight is blocked.
@@ -1143,7 +942,7 @@ Fo
 otprint is obscured by either Hard or Soft Cover.
 However, more than half is obscured by the combination
 of both. In this case, the target counts as in Soft Cover.
-47
+
 Close Combat Phase
 In the Close Combat Phase, the players' models Engaged in Combat can (and must) strike.
 Close Combat Phase Sequence
@@ -1154,20 +953,20 @@ Each Close Combat Phase is divided into the following steps.
 4 Repeat steps 2 and 3. Each time choose a new combat which has not already been fought during this
 Close Combat Phase.
 5 Once all units that are Engaged in Combat have fought, the Close Combat Phase ends.
-A Combatisdefinedasagroupofopposingunits,whichareallconnectedthroughbasecontact.Normally,thiswouldbe
+A Combat is defined as a  group of opposing units, which are all connected through base contact. Normally, this would be
 two units pitted against one another, but it could also be several units against a single enemy unit or a long chain of
-units from both sides. Complete all actions in theRoundofCombatSequenceofallunitsinvolvedinthechosencombat
+units from both sides. Complete all actions in the Round of Combat Sequence of all units involved in the chosen combat
 before moving on to the next combat.
-Units are considered Engaged in Combat if one or more models in the unit is in base contactwithanenemyunit.Ifa
-unit is Engaged in Combat, all models in the unit arealsoEngagedinCombat.UnitsthatareEngagedinCombatcannot
+Units are considered Engaged in Combat if one or more models in the unit is in base contact with an enemy unit. If a
+unit is Engaged in Combat, all models in the unit are also Engaged in Combat. Units that are Engaged in Combat cannot
 move unless specifically stated (such as during Combat Reforms or Breaking from combat).
 No Longer Engaged
-A unit follows the rules for No MoreFoesifitwasEngagedinCombatpreviously,buthadallofitsopponentsmovedor
+A unit follows the rules for No More Foes if it was Engaged in Combat previously, but had all of its opponents moved or
 removed between the previous Movement Phase and this Close Combat Phase (and base contact could not be
 maintained through nudging, following the instructions under "Dropping Out of Combat"). That unit may do a
 Post-Combat Pivot (or Overrun if it just charged) before any combats are fought. This cannot be done if the unit has
 moved since the opposing units was removed (such as with a Magical Move).
-48
+
 Round of Combat Sequence
 Each Combat Round is divided into the following steps:
 1 Start of Round of Combat.
@@ -1192,7 +991,7 @@ strike simultaneously. Under normal circumstances, a model strikes at the Initia
 some attacks are made at a different Initiative step than the model's own Initiative (such as Chariots' Impact Hits, which
 are Initiative 10). For models with more than one profile (such as a knight and its mount), each part of the model strikes
 at its own Initiative.
-49
+
 Who Can Strike
 Models in base contact with an enemy attack when it is their turn in the Initiative order. Models from both sides attack
 in each player's Close Combat Phase.
@@ -1218,22 +1017,22 @@ Models with a bold frame count as being in base contact
 with an enemy (models are considered to be in base
 contact across empty gaps), models colour-coded with a
 lighter shade cannot make Supporting Attacks.
-50
+
 Allocating Attacks
-At each Initiative step, before any attacks are rolled, attacksmustfirstbeallocatedagainstenemymodels.Ifamodelis
-in base contact with morethanonemodel,itcanchoosewhichmodeltoattack.Attackscanbeallocatedagainstmodels
-with different Wound pools, i.e. R&F models, Champions andCharacters.Thenumberofattacksthatamodelcanmake
-is equal toitsAttacksCharacteristic.Equipment,specialrules,spells,etc.canfurtherchangethisnumber.Ifamodelhas
+At each Initiative step, before any attacks are rolled, attacks must first be allocated against enemy models. If a model is
+in base contact with more than one model, it can choose which model to attack. Attacks can be allocated against models
+with different Wound pools, i.e. R&F models, Champions and Characters. The number of attacks that a model can make
+is equal to its Attacks Characteristic. Equipment, special rules, spells, etc. can further change this number. If a model has
 more than one attack, it can allocate them at will to different targets in base contact. If a model is making Supporting
 Attacks, it can allocate its attack as if it was in the front of the unit (in the same file). If a model could either strike at
-models in base contact or make Supporting Attacks, it mustallocateitsattacksagainstmodelsinbasecontact.Allocate
+models in base contact or make Supporting Attacks, it must allocate its attacks against models in base contact.Allocate
 all attacks at a given Initiative step before rolling any to-hit rolls.
 If a R&F model can allocate its attacks against a model in a unit, it may always choose to allocate any number of its
-attacksagainstR&Fmodelsinstead(inthesameunitasitsinitialtarget),i.e.R&Fmodelsarenotlimitedtoonlystriking
-models in base contact but can always attack the unit as a whole instead. In cases whereR&Fmodelsinthesameunit
+attacks against R&F models instead (in the same unit as its initial target),i.e.R&F models are not limited to only striking
+models in base contact but can always attack the unit as a whole instead. In cases where R&F models in the same unit
 do not all have the same relevant Characteristics or rules (such as a different Weapon Skill), use the value that the
 majority of the R&F models have (attacker chooses in case of a tie). These attacks are distributed as ShootingAttacks
-(distribute before rolling to hit). Note that thisdoesnotapplytoCharacters,whocanonlyallocatetheirattacksagainst
+(distribute before rolling to hit). Note that this does not apply to Characters, who can only allocate their attacks against
 models in base contact.
 Rolling to Hit
 To make a to-hit roll, roll a D6 for each attack and compare the Weapon Skill of the model making the attacks (the
@@ -1241,7 +1040,7 @@ attacker) to the Weapon Skill of the model against which the attack was allocate
 - If the defender has a lower Weapon Skill than the attacker, the attack hits on 3+ .
 - If the defender has a Weapon Skill equal to or up to twice that of the attacker, the attack hits on 4+ .
 - If the defender has a Weapon Skill more than twice that of the attacker, the attack hits on 5+ .
-51
+
 Close Combat To-Hit Table
 Roll a D6 for each attack. To find out what score is needed to successfully hit the target, cross-reference the Weapon
 Skill of the attacker (A-WS) versus the Weapon Skill of the Defender (D-WS).
@@ -1256,12 +1055,12 @@ D-WS: 1 4+ 3+ 3+ 3+ 3+ 3+ 3+ 3+ 3+ 3+
 8 5+ 5+ 5+ 4+ 4+ 4+ 4+ 4+ 3+ 3+
 9 5+ 5+ 5+ 5+ 4+ 4+ 4+ 4+ 4+ 3+
 10 5+ 5+ 5+ 5+ 4+ 4+ 4+ 4+ 4+ 4+
-To-hitmodifierscanalterthisto-hitroll.Unlessspecifiedotherwise,ato-hitmodifierappliestobothShootingandClose
-Combat to-hitrolls.CloseCombatto-hitrollsalwaysfailonanunmodifiedrollof'1',whiletheyarealwayssuccessfulon
+To-hit modifiers can alter this to-hitroll. Unless specified otherwise, a to-hit modifier applies to both Shooting and Close
+Combat to-hitrolls. Close Combat to-hitrolls always fail on an unmodified roll of '1', while they are always successful on
 an unmodified roll of '6'.
 Example: a model has Weapon Skill 3, two attacks and is equipped with an Additional Hand Weapon which gives it a
 total of three attacks. The model may allocate two attacks towards a model with Weapon Skill 2, which hiton3+,and
-one towards a model with Weapon Skill 7, which hits on 5+. If one ormorehitsarescored,theplayermaythenfollow
+one towards a model with Weapon Skill 7, which hits on 5+. If one or more hits are scored, the player may then follow
 the procedure described under Attacks and Damage.
 Fig
 ure 11
@@ -1278,25 +1077,25 @@ at all. Character C
 1 cannot strike because the only model
 it is in base contact with is a Champion that is locked in
 a Challenge.
-52
+
 Dropping out of Combat
 Removing casualties may cause units to drop out of base contact with their foe. When this happens, units are nudged
 into combat using the following procedure:
-1. TheunitthatisgoingtodropoutofCloseCombatwhilenotsufferingcasualtiesismovedtheminimumamount
+1. The unit that is going to drop out of Close Combat while not suffering casualties is moved the minimum amount
 needed to keep the units in base contact.
 2. If this will not bring the units back into contact, move the unit suffering casualties the minimum amount
 needed to keep the units in base contact.
 Units that are in base contact with other enemy units can never be nudged in this way. Nudged units cannot move
-through other units or Impassable Terrain, but they are allowed to move within 1" of other units inthesamecombat.
+through other units or Impassable Terrain, but they are allowed to move within 1" of other units in the same combat.
 Nudge moves cannot be used to change the facing in which any unit is fighting (which means that if the unit was
-attacked in the flank before the nudge move, this must still be true after the nudge move). If several units dropoutof
+attacked in the flank before the nudge move, this must still be true after the nudge move). If several units drop out of
 combat at the same time, move them in the order that allows the maximum number of units to stay in combat. If this
 number is equal, the Active Player decides the order.
-If nudging either unit does not manage to bring the units back intocontactwitheachother,theunitdropsoutofClose
+If nudging either unit does not manage to bring the units back into contact with each other, the unit drops out of Close
 Combat. Any units that are no longer Engaged in Combat follow the rules given under No More Foes.
 If base contact was lost due to units deliberately moving out of combat (some spells allow units to move out of
 combats), do not nudge the units back together. Instead follow the rules for No More Foes.
-53
+
 Winning a Round of Combat
 Once all models' Initiative steps have passed (i.e. all models have had a chance to attack), the winner of this Round of
 Combat is determined. This is done by calculating each side's Combat Score. To calculate Combat Score, simply add up
@@ -1329,7 +1128,7 @@ one of these units has one or more Full Ranks, add +2 instead.
 Rear Bonus: +2 or +3
 Each side adds +2 to their Combat Score if they have one or more units fighting an enemy in the enemy's rear. If at least
 one of these units has one or more Full Ranks, add +3 instead.
-54
+
 Combat Score Summary
 Caused Wounds +1 for each Wound
 Overkill +1 for each Wound (maximum +3 )
@@ -1357,7 +1156,7 @@ either make an Overrun (if applicable) or a Post-Combat Pivot.
 When this happens in multiple combats, the Wounds caused to and by the unit are counted towards the Combat Score,
 but all other Combat Score bonuses are ignored. Note that the unit itself doesn't need to take a Break Test since it
 always counts as if on the winning side.
-55
+
 Pursuits and Overruns
 Before moving broken units, units that are in base contact with the broken unit(s) may declare a Pursuit of a single
 broken unit. To be able to pursue a broken enemy, the unit cannot be Engaged with any non-broken enemy units. Units
@@ -1383,7 +1182,7 @@ same combat do not cause Dangerous Terrain tests). Keep the flee distance noted 
 needed to determine whether or not the pursuers catch the fleeing unit. If several units are fleeing from the same
 combat, the units move in the same order as their flee distance was rolled (the player controlling the units chooses in
 which order they roll the flee distance).
-56
+
 Pursuit Distance and Pursuing Units
 Once the final positions of all fleeing broken units have been determined, each unit that has declared a Pursuit now rolls
 2D6 to determine its Pursuit distance. If any pursuing unit rolls an equal or higher Pursuit distance than the flee
@@ -1421,7 +1220,7 @@ the controlling player's next Remaining Moves sub-phase, using the rules for arr
 arrive), except that they must be placed (in the same formation) with their back rank centred on the point at which they
 contacted the Board Edge, or as close as possible. Models that have pursued off the table, cannot do any actions at all,
 and all items, rules, abilities stop working while off the table.
-57
+
 Fig
 ure 12
 In these examples, the purple unit is in the green unit's flank. The green
@@ -1439,7 +1238,7 @@ Here, the green unit's rotation leaves part of the unit over another unit
 (b
 lue - it could be either friendly or enemy). However, in this case, the front
 of the pursuing unit is clear, so it will move forward.
-58
+
 Combat Reform
 If there are still units left Engaged in the combat after all the fleeing and pursuing has been rolledandmoved,eachof
 these units may try to perform a Combat Reform. Units Engaged in more than one facing (for example,bothfrontand
@@ -1448,19 +1247,19 @@ ank) can never perform a Combat Reform. Units on the losing side of the combat m
 able to perform a Combat Reform, with a Leadership value equal to what would have been used for a Break Test (i.e.
 apply the Combat Score difference, unless the unit is Steadfast).
 If both players want to perform Combat Reforms, the Active Player chooses which player goes first. This player
-completes allCombatReformswithalltheirunits(oneatatimeinanyorder),beforetheotherplayercanreformanyof
+completes all Combat Reforms with all their units (one at a time in any order), before the other player can reform any of
 their units.
-WhenaunitperformsaCombatReform,removetheunitfromtheBattlefield,andthenplaceitbackontheBattlefieldin
-alegalformation,inbasecontactwiththeenemyunit(s)itwasfightingbefore,andintheenemy'ssamefacing.Youmay
-ignore the Unit Spacing rule for units involved in the same combat (but cannot move into basecontactwithunitsthat
-you were not in base contact with previously, and no model may end up more than twiceitsMovementvaluefromits
+When a unit performs a Combat Reform, remove the unit from the Battlefield, and then place it back on the Battlefield in
+a legal formation, in base contact with the enemy unit(s) it was fighting before, and in the enemy's same facing. You may
+ignore the Unit Spacing rule for units involved in the same combat (but cannot move into base contact with units that
+you were not in base contact with previously, and no model may end up more than twice its Movement value from its
 starting position).
-At the end of each Combat Reform, you must have at least as many models in base contact with an enemy as youhad
+At the end of each Combat Reform, you must have at least as many models in base contact with an enemy as you had
 before the Reform. Any Character models that were in base contact with an enemy must be kept in base contact
-(although it can be with different enemy models). Furthermore, at the end ofallyourCombatReforms,theexactsame
-enemy models that were in base contact with opposing models beforetheCombatReformmuststillbeinbasecontact
+(although it can be with different enemy models). Furthermore, at the end of all your Combat Reforms, the exact same
+enemy models that were in base contact with opposing models before the Combat Reform must still be in base contact
 after the Reform (but they may be Engaged with different models or even units).
-59
+
 Attacks and Damage
 Attacks are divided into Close Combat and Ranged Attacks:
 Close Combat Attacks
@@ -1485,23 +1284,23 @@ Whenever an attack hits a model, use the following sequence:
 6 Defender checks for Panic.
 Complete each step for all the attacks that are happening simultaneously (such as all Shooting Attacks from a single unit
 or all Close Combat Attacks at a given Initiative step) before moving on to the next step.
-60
+
 Distribute Hits
-All attacks that target a unit as a whole (this includes most Ranged Attacks andSpecialCloseCombatAttacks),arenot
-distributed (under normal circumstances) considered toonlyhitR&Fmodels.WhenCharactersarejoinedtounits,this
+All attacks that target a unit as a whole (this includes most Ranged Attacks and Special Close Combat Attacks), are not
+distributed (under normal circumstances) considered to only hit R&F models. When Characters are joined to units, this
 may change, as described in the Character section. When this happens and Ranged Attacks are to be distributed, the
 player making the attack chooses which models take the hits. These hits must be distributed as equally as possible,
 meaning that each model must be hit once before any model can be hit twice, and so on.
-Normal Close Combat Attacks are not distributed, butareinsteadAllocatedbeforeto-hitrollsaremade.Inthiscase,do
-not redistribute the hits at this stage. Close Combat Attacks that are made towards the unitasawhole(suchasStomp
+Normal Close Combat Attacks are not distributed, but are instead Allocated before to-hitrolls are made.In this case, do
+not redistribute the hits at this stage. Close Combat Attacks that are made towards the unit as a whole (such as Stomp
 and Impact Hits) are distributed.
-In cases where R&FmodelsinthesameunitdonotallhavethesamerelevantCharacteristicsorrules(suchasdifferent
-Toughness values or different saves), use thevalueorrulesthatthemajorityoftheR&Fmodelshave(attackerchooses
+In cases where R&F models in the same unit do not all have the same relevant Characteristics or rules (such as different
+Toughness values or different saves), use the value or rules that the majority of the R&F models have (attacker chooses
 if a tie), and apply them to all rolls (to-hit, to-wound, saves).
 To-Wound Rolls
 If an attack has a Strength value, it must successfully wound the target to have a chance to harm it. Compare the
-Strength oftheattacktotheToughnessCharacteristicofthetarget.AnattackwithStrength0cannotwound.Otherwise,
-a roll of '6' will always succeed and a roll of '1' will always fail. The player that inflicted thehitmakesato-woundroll
+Strength of the attack to the Toughness Characteristic of the target. An attack with Strength 0 cannot wound. Otherwise,
+a roll of '6' will always succeed and a roll of '1' will always fail. The player that inflicted the hit makes a to-wound roll
 fo
 r each attack that hit the target. If the attack does nothaveaStrengthvalue,followtherulesgivenforthatparticular
 attack.
@@ -1519,7 +1318,7 @@ T:1 4+ 3+ 2+ 2+ 2+ 2+ 2+ 2+ 2+ 2+
 8 6+ 6+ 6+ 6+ 6+ 6+ 5+ 4+ 3+ 2+
 9 6+ 6+ 6+ 6+ 6+ 6+ 6+ 5+ 4+ 3+
 10 6+ 6+ 6+ 6+ 6+ 6+ 6+ 6+ 5+ 4+
-61
+
 Armour Saves and Armour Modifiers
 If one or more Wounds are scored, the player whose unit is being attacked now has a chance to save the Wound(s). Roll
 a D6 for each successful to-wound roll, called an "Armour Saving Throw" and compare it with the model's Armour Save
@@ -1530,17 +1329,17 @@ Strength 1 2 3 4 5 6 7 8 9 10
 Modifier 0 0 0 -1 -2 -3 -4 -5 -6 -7
 Special rules and abilities might further modify Armour Save rolls (such as Armour Piercing).
 Regeneration and Ward Saves
-If a Wound was notsavedbyamodel'sArmourSave,theattackedmodelnowhasafinalchancetodiscounttheWound,
-by rolling its Regeneration or Ward Save (if it hasone).RegenerationandWardSavesworksimilarlytoArmourSaves,
+If a Wound was not saved by a model's ArmourSave, the attacked model now has a final chance to discount the Wound,
+by rolling its Regeneration or Ward Save (if it has one). Regeneration and WardSaves work similarly to Armour Saves,
 except that they cannot be modified or combined. A Regeneration or Ward Save is always given with the minimum
 score needed to be rolled on a D6 to discard the Wound within brackets (for example, a Ward Save (4+) means the
 Wound is discounted on a roll of 4 or more).
 Roll one saving throw for each Wound that was not saved by the model's Armour Save.
-If a model hasmorethanoneRegenerationand/orWardSave,choosewhichonetousebeforerollingthesavingthrow.
+If a model has more than one Regeneration and/or WardSave, choose which one to use before rolling the saving throw.
 Only a single Regeneration or Ward Save can be used against a single attack.
-Ward Saves and Regeneration both work the same way, butsomespellsorspecialruleswillaffectonetypeofsavebut
+Ward Saves and Regeneration both work the same way, but some spells or special rules will affect one type of save but
 not the other.
-62
+
 Inflicting Wounds
 For each failed special saving throw (or Armour Saving Throw if the attacked model had no special save), the attacked
 model loses a Wound.
@@ -1569,11 +1368,11 @@ gained, etc. - this is normally due to spells or Magical Items), or they come wi
 are ignored when removing casualties. They are normally removed from the rear rank even if a model in the rear has
 some special rule or equipment (i.e. only differences due to Troop Type cause R&F models to have separate Wound
 pools).
-63
+
 Removing Casualties
 Removing R&F models
-R&F casualties areremovedfromtherearrank.Iftheunitisinasinglerank,removemodelsasequallyaspossiblefrom
-both sides of the unit. Note that therequirementtoremovecasualtiesequallyfrombothsidesofasinglerankunitonly
+R&F casualties are removed from the rear rank. If the unit is in a single rank, remove models as equally as possible from
+both sides of the unit. Note that the requirement to remove casualties equally from both sides of a single rank unit only
 applies to each batch of simultaneous attacks.
 If a non-R&F model is standing in a position that would normally be removed as a casualty, remove the next eligible
 R&F model and move the non-R&F model(s) inwards.
@@ -1593,51 +1392,32 @@ Panic Tests are Leadership Tests taken immediately after any of the following si
 at the start of the phase. This rule is called Heavy Casualties.
 Units which fail a Panic Test flee from the closest enemy unit (Centre of Unit to Centre of Unit). If therearenoenemy
 units on the board, randomize direction.
-If the Panic Test was forced by any of cases listed below, the unit flees directly away(CentreofUnittoCentreofUnit)
+If the Panic Test was forced by any of cases listed below, the unit flees directly away (Centre of Unit to Centre of Unit)
 fr
 om the enemy unit that caused the Panic Test.
 * A spell cast by an enemy model
 * A special rule on an enemy model (such as Terror)
-* The unit suffers HeavyCasualties,andthefinalwoundscausingthecasualtiestogoabove25%wasdonebyan
+* The unit suffers Heavy Casualties, and the final wounds causing the casualties to go above 25% was done by an
 enemy unit
-Units do not need to take PanicTestsiftheyareEngagedinCombat,iftheyarealreadyfleeingoriftheyalreadypassed
+Units do not need to take Panic Tests if they are Engaged in Combat, if they are already fleeing or if they already passed
 a Panic Test during this Phase.
-64
+
 Troop Types
 All models and units have a Troop Type. A unit's Troop Type is the same as that of the majority of its R&F models (or all
 models, if there are no R&F models); the opponent makes the decision if the numbers are equal. Each Troop Type has a
 number of rules associated with it, as described below.
-Infantry
-No additional rules.
-War Beast
-Special rules: Swiftstride
-Cavalry
-Troop Type rules: Combined Profile, Cavalry Support
-Special rules: Swiftstride
-Monstrous Infantry
-Troop Type rules: Monstrous Support, Monstrous Ranks
-Special rules: Stomp (1)
-Monstrous Beast
-Troop Type rules: Monstrous Support, Monstrous Ranks
-Special rules: Swiftstride, Stomp (1)
-Monstrous Cavalry
-Troop Type rules: Combined Profile, Cavalry Support, Monstrous Support, Monstrous Ranks
-Special rules: Swiftstride, Stomp (1)
-Chariot
-Troop Type rules: Combined Profile, Cavalry support, Monstrous Ranks
-Special rules: Impact Hits (D6), Swiftstride, Cannot March
-Monster
-Troop Type rules: Monster Ranks
-Special rules: Stomp (D6), Large Target, Terror
-Ridden Monster
-Troop Type rules: Ridden Monster's Profile, Monster Ranks
-Special rules: Stomp (D6), Large Target, Terror
-Swarm
-Special rules: Skirmishers, Unbreakable, Unstable
-War Machine
-Troop Type rules: War Machine Profile
-Special rules: Cumbersome, Move or Fire, Cannot March
-65
+Infantry: No additional rules.
+War Beast: Special rules: Swiftstride
+Cavalry: Troop Type rules: Combined Profile, Cavalry Support ; Special rules: Swiftstride
+Monstrous Infantry: Troop Type rules: Monstrous Support, Monstrous Ranks; Special rules: Stomp (1)
+Monstrous Beast: Troop Type rules: Monstrous Support, Monstrous Ranks; Special rules: Swiftstride, Stomp (1)
+Monstrous Cavalry: Troop Type rules: Combined Profile, Cavalry Support, Monstrous Support, Monstrous Ranks; Special rules: Swiftstride, Stomp (1)
+Chariot: Troop Type rules: Combined Profile, Cavalry support, Monstrous Ranks; Special rules: Impact Hits (D6), Swiftstride, Cannot March
+Monster: Troop Type rules: Monster Ranks; Special rules: Stomp (D6), Large Target, Terror
+Ridden Monster: Troop Type rules: Ridden Monster's Profile, Monster Ranks; Special rules: Stomp (D6), Large Target, Terror
+Swarm: Special rules: Skirmishers, Unbreakable, Unstable
+War Machine: Troop Type rules: War Machine Profile; Special rules: Cumbersome, Move or Fire, Cannot March
+
 Models on Foot and Mounted Models
 Certain spells or rules can affect mounted models or models on foot differently. For all purposes, Swarms, Infantry,
 Monstrous Infantry, War Beasts, Monstrous Beasts, Monsters and War Machines are considered models on foot, unless
@@ -1659,15 +1439,11 @@ which only they can use. However, the combined model has a single Armour Save, i
 Armour of the a rider/crew member (including Mount's Protection and Barding) or the Armour of the Character
 (including Mount's Protection and Barding).
 Troop Type Rules
-Cavalry support
-Mounts cannot make Supporting Attacks.
-Monster Ranks
-A unit with this rule only needs to be 1 model wide to form a Full Rank.
-Monstrous Ranks
-A unit with this rule only needs to be 3 models wide to form Full Ranks, and 6 models wide to form a Horde Formation.
-Monstrous Support
-Models with this rule may make up to 3 Supporting Attacks instead of 1.
-66
+Cavalry support: Mounts cannot make Supporting Attacks.
+Monster Ranks: A unit with this rule only needs to be 1 model wide to form a Full Rank.
+Monstrous Ranks: A unit with this rule only needs to be 3 models wide to form Full Ranks, and 6 models wide to form a Horde Formation.
+Monstrous Support: Models with this rule may make up to 3 Supporting Attacks instead of 1.
+
 Combined Profile
 A model with this rule has separate profiles for each of its parts (such as a rider and its mount).
 When attacking or shooting , each part of the multipart model uses its own Characteristics. Each part ofamodelcan
@@ -3293,117 +3069,39 @@ Moving and Shooting -1
 Stand and Shoot -1
 Soft Cover -1
 Hard Cover -2
-116
-Line of Sight and Cover
-Th
-is
-diagram summarises the most common cases for Line of Sight and Cover between a model with Ranged Attacks, an
-obscuring model and its target.
+
+Line of Sight and Cover: This diagram summarises the most common cases for Line of Sight and Cover between a model with Ranged Attacks, an obscuring model and its target.
 Soft Cover (-1 to hit) Hard Cover (-2 to hit)
 No Cover No Line of Sight
-117
-The Miscast Table
-2-4 Breach in the Veil
-Centre the 5" Template over the caster. Each model touched by the Template takes a hit.
-If 4 Power Dice were used, roll a D6. On a roll of 1-3, the caster is removed from the game.
-If 5 Power Dice were used, the caster is removed from the game.
-5-6 Catastrophic Detonation
-Centre the 3" Template over the caster. Each model touched by the Template takes a hit. The
-caster must take one hit.
-7 Witch Fire
-The caster's unit suffers MDU hits (distributed as hits towards a unit as whole), except the caster
-itself cannot receive more than 1 hit.
-8-9 Sorcerous Backlash
-The caster and each friendly Wizard take a hit.
-10-12 Amnesia
-The caster's Wizard Level is reduced by MDU-2, it loses one spell for each level lost (starting with
-the miscast spell, randomizing the rest).
+
+The Miscast Table:
+2-4 Breach in the Veil: Centre the 5" Template over the caster. Each model touched by the Template takes a hit. If 4 Power Dice were used, roll a D6. On a roll of 1-3, the caster is removed from the game. If 5 Power Dice were used, the caster is removed from the game.
+5-6 Catastrophic Detonation: Centre the 3" Template over the caster. Each model touched by the Template takes a hit. The caster must take one hit.
+7 Witch Fire: The caster's unit suffers MDU hits (distributed as hits towards a unit as whole), except the caster itself cannot receive more than 1 hit.
+8-9 Sorcerous Backlash: The caster and each friendly Wizard take a hit.
+10-12 Amnesia: The caster's Wizard Level is reduced by MDU-2, it loses one spell for each level lost (starting with the miscast spell, randomizing the rest).
 The Misfire Table
-0
-(or less)
-Explosion!
-All models within D6" of the misfiring model suffer a Strength 5 hit. The shooting model is
-then destroyed. Remove it as a casualty.
-1-2 Breakdown
-The firing mechanism of the weapon is damaged. The model cannot shoot anymore with
-the weapon for the rest of the game.
-3-4 Jammed
-The Artillery Weapon may not be fired in the controlling player's next Player Turn.
-5+ Malfunction
-The shooting model suffers a Wound with no Saves of any kind allowed.
-118
+0 (or less) Explosion!: All models within D6" of the misfiring model suffer a Strength 5 hit. The shooting model is then destroyed. Remove it as a casualty.
+1-2 Breakdown: The firing mechanism of the weapon is damaged. The model cannot shoot anymore with the weapon for the rest of the game.
+3-4 Jammed: The Artillery Weapon may not be fired in the controlling player's next Player Turn.
+5+ Malfunction: The shooting model suffers a Wound with no Saves of any kind allowed.
+
 Template Hits
-Th
-is
-diagram shows the maximum number of models that can be hit for each template size. Green bases are 20x20mm,
-magenta bases are 25x25mm, cyan bases are 40x40mm and orange bases are 25x100mm.
-Line Template
-119
+This diagram shows the maximum number of models that can be hit for each template size. Green bases are 20x20mm, magenta bases are 25x25mm, cyan bases are 40x40mm and orange bases are 25x100mm.
+Line Template: 
+
 Troop Types Summary
-Profile
-Type
-Models to form a
-Full Rank (Horde)
-Supporting
-Attacks per
-model
-Special Rules Heigth**
+Profile Type Models to form a Full Rank (Horde) Supporting Attacks per model Special Rules Height**
 Infantry - 5 (10) 1 - Small
 War Beast - 5 (10) 1 Swiftstride Small
-Cavalry Combined
-Profile 5 (10) (rider 1only) Swiftstride Medium
-Monstrous
-Infantry - 3 (6) up to 3 Stomp(1) Medium
-Monstrous
-Beast
-- 3 (6)
-up to 3
-Swiftstride
-Stomp(1) Medium
-Monstrous
-Cavalry
-Combined
-Profile 3 (6) up to 3
-(rider only)
-Swiftstride
-Stomp(1) Medium
-Chariot Combined
-Profile 3 (6) 1
-(one rider only)
-Swiftstride
-Cannot March
-Impact Hits (D6)
-Medium
-Monster -
-1
--
-Stomp (D6)
-Large Target
-Terror
-Large
-Ridden
-Monster
-Ridden
-Monster's
-Profile
-1 -
-Stomp (D6)
-Large Target
-Terror
-Large
-Swarm - * (10) 1
-Skirmishers
-Unbreakable
-Unstable
-Small
-War Machine
-War
-Machine
-Profile
-no ranks -
-Cannot March
-Cumbersome
-Move or Fire
-Small
+Cavalry Combined Profile 5 (10) (rider 1only) Swiftstride Medium
+Monstrous Infantry - 3 (6) up to 3 Stomp(1) Medium
+Monstrous Beast - 3 (6) up to 3 Swiftstride Stomp(1) Medium
+Monstrous Cavalry Combined Profile 3 (6) up to 3 (rider only) Swiftstride Stomp(1) Medium
+Chariot Combined Profile 3 (6) 1(one rider only) Swiftstride Cannot March Impact Hits (D6) Medium
+Monster - 1 - Stomp (D6) Large Target Terror Large
+Ridden Monster Ridden Monster's Profile 1 - Stomp (D6) Large Target Terror Large
+Swarm - * (10) 1 Skirmishers Unbreakable Unstable Small
+War Machine War Machine Profile no ranks - Cannot March Cumbersome Move or Fire Small
 * Swarms cannot claim Full Ranks due to being Skirmishers.
 ** All models with the Large Target special rule are considered to be of Large Height.
