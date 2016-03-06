@@ -1449,7 +1449,7 @@ A model with this rule has separate profiles for each of its parts (such as a ri
 When attacking or shooting , each part of the multipart model uses its own Characteristics. Each part ofamodelcan
 make a Shooting Attack in the same phase, but must choose the same target. A crew member or rider can choose to
 shoot a weapon carried by the chariot instead of its own weapon.
-In other situations, the multipart model is considered tobeasinglemodelwithasinglesetofCharacteristics,defined
+In other situations, the multipart model is considered to be a single model with a single set of Characteristics, defined
 as follows:
 Movement Use the Movement of the mount or pulling beast .
 Weapon Skill Use the rider's WeaponSkillorthebestWeaponSkillamongriders/crewmenifthere
@@ -1461,25 +1461,26 @@ Leadership Use the rider's Leadership or the best Leadership among riders/crewme
 more than one.
 Armour and Saves Use the best Armour Save, Ward Save and Regeneration available among all parts.
 Combined model's Armour Save can be increased by the Mount's Protection.
-Ridden Monster's Profile
-A model with this rule has a profile for the Monster andaprofileforitsriders/crewmen.Whenbeingattacked,attacks
+
+Ridden Monster's Profile: 
+A model with this rule has a profile for the Monster and a profile for its riders/crewmen. When being attacked, attacks
 are always resolved against the Monster.
-When attacking or shooting , eachpartofthemultipartmodelusesitsownCharacteristics.Eachpartofthemodelcan
+When attacking or shooting , each part of the multipart model uses its own Characteristics. Each part of the model can
 make Shooting Attacks in the same phase, but must choose the same target. A crew member or rider can choose to
 shoot a weapon carried by the Monster instead of its own weapon.
-In other situations , the multipart model is considered tobeasinglemodelwithasinglesetofCharacteristics,defined
+In other situations , the multipart model is considered to be a single model with a single set of Characteristics, defined
 as follows:
 Movement Use the Movement of the Monster.
 Weapon Skill Use the Monster's Weapon Skill.
 Toughness Use Monster's Toughness.
-Wounds Use the Monster's Wounds. When the Monster reaches 0 Wounds,removethewhole
+Wounds Use the Monster's Wounds. When the Monster reaches 0 Wounds, remove the whole
 model as a casualty.
 Leadership Use the rider's Leadership or the best Leadership among riders/crewmen if there is
 more than one.
 Armour and Saves Use the saves of the Monster. Any armour equipment worn by the rider or its
 Ward/Regeneration Save have no effect, unless noted otherwise. Ridden Monsters
 may only have Innate Defence armour type.
-67
+
 War Machine Profile
 A War Machine is considered to be a single model with a single set of Characteristics, defined as follows:
 Toughness Use the machine's Toughness against Ranged Attacks and the crew's
@@ -1488,16 +1489,16 @@ Wounds Use the machine's Wounds.
 Other Characteristics
 and Armour and Saves
 Use the crew's Characteristics, Armour and other Saves.
-War Machineshaveseparateprofilesforthemachineanditscrewmembers.Usethemachine'sWoundCharacteristicin
+War Machines have separate profiles for the machine and its crew members.Use the machine's Wound Characteristic in
 all cases. Use the machine's Toughness against Ranged Attacks. Use the crew's Characteristics for all other purposes.
-WarMachinesautomaticallyfailanyCharacteristicTestsexceptLeadershipTestsandcannotMarch,DeclareChargesor
+War Machines automatically fail any Characteristic Tests except Leadership Tests and cannot March, Declare Charges or
 Declare Flee as Charge Reaction. If a War Machine fails a Panic Test, instead of fleeing it cannot shoot in its next
-Shooting Phase. When the model reaches 0 Wounds, remove all parts of the combined modelasacasualty.Characters
+Shooting Phase. When the model reaches 0 Wounds, remove all parts of the combined model as a casualty.Characters
 can never join units of War Machines.
-When a unit charges a War Machine, follow the same rules as for normal Charge Moves, except that the chargingunit
+When a unit charges a War Machine, follow the same rules as for normal Charge Moves, except that the charging unit
 can move into base contact anywhere (since all War Machines have round bases and thus don't have facings). War
 Machines, and units Engaged in Combat with them, cannot make Combat Reforms. When fighting a War Machine in
-combat, do not allocate attacks as normal. Instead, at thestartofeachRoundofCombatchooseupto6modelsthatare
+combat, do not allocate attacks as normal. Instead, at the start of each Round of Combat choose up to 6 models that are
 not in base contact with any other enemies (you must choose as many as possible). Chariots, Monstrous Cavalry,
 Monstrous Infantry and Monstrous Beasts count as 3 models each, while Monsters and Ridden Monsters count as 6
 models each. The chosen models may then attack the War Machine as if they wereinbasecontact,butnootherattack
