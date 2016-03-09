@@ -2483,56 +2483,37 @@ All Magical Items belong to one of the following categories:
 * Magical Standards
 Each category of Magical Items is subject to the following specific rules.
 Magical Weapons
-A model armed with a Magical Weapon (including Magical Hand Weapons) is obliged to use it,evenifitisarmedwith
-more than one weapon. A Magical Hand Weapon cannot be used to Parry.
+A model armed with a Magical Weapon (including Magical Hand Weapons) is obliged to use it, even if it is armed with more than one weapon. A Magical Hand Weapon cannot be used to Parry.
 Magical Armour
-Most Magical Armour have a type, their mundane counterpart. They follow all the rules associatedwiththismundane
-armour in addition to the rules stated in their description. If a Magical Armour is ever destroyed, it reverts to its
-mundane type. If a model has an armour of the same type as its Magical Armour, the Magical Armour replaces it (for
-example, if a model has Heavy ArmourandbuysaMagicalLightArmour,themundaneheavyarmourislost).AMagical
-Shield cannot be used alongside a Hand Weapon to Parry.
-A Magical Armour cannot be taken by Wizards, unless the Wizard has a mundane armour other than Innate Defence,
-Mount's Protection and Barding or the option to buy it.
+Most Magical Armour have a type, their mundane counterpart. They follow all the rules associated with this mundane armour in addition to the rules stated in their description. If a Magical Armour is ever destroyed, it reverts to its mundane type. If a model has an armour of the same type as its Magical Armour, the Magical Armour replaces it (for example, if a model has Heavy Armour and buys a Magical Light Armour, the mundane heavy armour is lost). A Magical Shield cannot be used alongside a Hand Weapon to Parry.
+A Magical Armour cannot be taken by Wizards, unless the Wizard has a mundane armour other than Innate Defence, Mount's Protection and Barding or the option to buy it.
 Talismans and Enchanted Items
 No additional rules.
 Arcane Items
 Arcane Items can only be taken by Wizards.
 Magical Standards
-Only Standard Bearers can bear Magical Standards. They are usually either a unit's Standard Bearer or the army's Battle
-Standard Bearer.
+Only Standard Bearers can bear Magical Standards. They are usually either a unit's Standard Bearer or the army's Battle Standard Bearer.
 Magical Item Types
-Each Magical Item has a typewhichisthesameasitsmundanecounterpartandwhichfollowsallofitsassociatedrules
-and restrictions. For example, a Magical Lance confers +2 Strength when charging and can only be used by mounted
-models, War Beasts or Monstrous Beasts, exactly like a normal Lance would. If a Magical Item is destroyed it is
-considered to revert to its mundane type.
-102
+Each Magical Item has a type which is the same as its mundane counterpart and which follows all of its associated rules and restrictions. For example, a Magical Lance confers +2 Strength when charging and can only be used by mounted models, War Beasts or Monstrous Beasts, exactly like a normal Lance would. If a Magical Item is destroyed it is considered to revert to its mundane type.
+
 Restrictions
 * All Magical Items have the rule One per Army: they cannot be duplicated within an army.
 * No model can have more than one Magical Item of the same category.
 * Certain Magical Items may have additional restrictions associated with them.
 Point Cost
-Most Magical Items have a point cost displayed after theirname.SomeMagicalItemshavetwopointcostsinstead(e.g.
-Giant Sword (60 pts / 50 pts) ). The first value has to be paid if the modelchoosingtheItemisaLordchoice,andthe
-second if the model is a Hero choice.
+Most Magical Items have a point cost displayed after their name. Some Magical Items have two point costs instead (e.g. Giant Sword (60 pts / 50 pts) ). The first value has to be paid if the model choosing the Item is a Lord choice, and the second if the model is a Hero choice.
 Magical Items and Mounted Models
-Magical Items often refer to their "wearer" or "bearer". These terms mean the same thing and refer to the part of the
-model the item was bought for, excluding its mount . Other Items affect the "model" or the "wearer's model"; these
-terms refer to the entire model including the mount (note that these terms override the restriction for Ridden
-Monster's Profile). Finally, a third group of Items refers to the "unit"; these items affect the entire unit of the model
-(including mounts).
+Magical Items often refer to their "wearer" or "bearer". These terms mean the same thing and refer to the part of the model the item was bought for, excluding its mount . Other Items affect the "model" or the "wearer's model"; these terms refer to the entire model including the mount (note that these terms override the restriction for Ridden Monster's Profile). Finally, a third group of Items refers to the "unit"; these items affect the entire unit of the model (including mounts).
 One Use Only
 These Items can only be used once. Once they are used, the Items count as eliminated for all game purposes.
-103
+
 List of Common Magical Items
-The Magical Items listed below are considered "Common Magical Items" and are available to all models/units who have
-the option to buy Magical Items. They are often bought in addition to army-specific Magical Items.
+The Magical Items listed below are considered "Common Magical Items" and are available to all models/units who have the option to buy Magical Items. They are often bought in addition to army-specific Magical Items.
 Magical Weapons
 Giant Sword (60 pts / 50 pts)
-Type: Hand Weapon. Attacks made with this weapon gain
-+3 Strength.
+Type: Hand Weapon. Attacks made with this weapon gain +3 Strength.
 Skull Splitter (50 pts)
-Type: Shooting Weapon. Range 24", Strength 4, Multiple
-Shots (4), Armour Piercing (1), always hits on 4+.
+Type: Shooting Weapon. Range 24", Strength 4, Multiple Shots (4), Armour Piercing (1), always hits on 4+.
 Blade of Strife (45 pts)
 Type: Hand Weapon. The wielder has +3 Attacks.
 Ogre Sword (40 pts)
@@ -2580,7 +2561,7 @@ Type: Additional Hand Weapon. The wielder causes Fear.
 Razor Blade (5 pts)
 Type: Hand Weapon. Attacks made with this weapon have
 Armour Piercing (1).
-104
+
 Magical Armour
 Force Shield (70 pts)
 Type: Shield. The bearer's model has a Ward Save (5+)
@@ -2599,9 +2580,7 @@ Glittering Cuirass (30 pts)
 Type: Heavy Armour (5+). The wearer has the Distracting
 special rule.
 Bronze Breastplate (25 pts)
-Type: Heavy Armour. One use only. Whenever the wearer's
-model suffers ahit,theitemcanbeactivated.Fortheduration
-of the Phase, the wearer's model has 1+ Armour Save.
+Type: Heavy Armour. One use only. Whenever the wearer's model suffers a hit, the item can be activated. For the duration of the Phase, the wearer's model has 1+ Armour Save.
 Dragon Mantle - models on foot only (25 pts)
 The wearer has Innate Defence (5+).
 Gambler's Armour (15 pts)
@@ -2615,7 +2594,7 @@ Save (for a total of +2).
 Lucky Shield (5 pts)
 Type: Shield. Ignore the first hit the bearer's model suffers
 while wielding the shield.
-105
+
 Talismans
 Talisman of Supreme Shielding (50 pts)
 The bearer has a Ward Save (4+).
@@ -2630,28 +2609,25 @@ The bearer has Magic Resistance (2).
 Talisman of Greater Shielding (30 pts)
 The bearer has a Ward Save (5+).
 Gemstone Amulet (15 pts)
-One use only. May be activated when thebearer'smodel
-fa
-ils an Armour Save (or doesn't get an Armour Save).
+One use only. May be activated when the bearer's model fails an Armour Save (or doesn't get an Armour Save).
 The bearer's model then gains a Ward Save (4+) against
 this Wound.
 Obsidian Pebble (10 pts)
 The bearer has Magic Resistance (1).
 Lucky Charm (5 pts)
-One use only. May be activated when thebearer'smodel
-fa
-ils an Armour Save. That failed Armour Save maythen
+One use only. May be activated when the bearer'smodel
+fails an Armour Save. That failed Armour Save may then
 be rerolled.
 Dragonfire Gem (5 pts)
 The bearer gains the Fireborn special rule.
 Talisman of Shielding (5 pts)
 The bearer has a Ward Save (6+).
-106
+
 Enchanted Items
 Flying Carpet (50 pts) - models on foot only
 The bearer has the Fly (6) special rule.
 Anti-magic Crystal (50 pts)
-One use only. Instead ofmakingadispelroll,youcanuse
+One use only. Instead of making a dispel roll, you can use
 this item. The spell is automatically dispelled.
 You can only take this item in an army with no Wizards.
 Wizard's Hood (45 pts)
@@ -2664,7 +2640,7 @@ Crystal Ball (35 pts)
 The bearer has the Lightning Reflexes special rule.
 Sceptre of Dominion (30 pts)
 One use only. May be activated at the startofanyRound
-of Combat. For the duration of the Phase, the bearerhas
+of Combat. For the duration of the Phase, the bearer has
 Stubborn.
 Gem of Fortune (25 pts)
 Successful to-wound rolls of '6' from Ranged Attacks
@@ -2673,7 +2649,7 @@ Ring of Fire (25 pts)
 Bound Spell, Power Level 3. Contains the spell Fireball
 (Path of Fire).
 Potion of Strength (20 pts)
-One use only. May be activated at the start ofanyPhase.
+One use only. May be activated at the start of any Phase.
 For the duration of the Player Turn, the bearer has +2
 Strength.
 Charm of Cursed Iron (20 pts)
@@ -2682,10 +2658,10 @@ Wounds caused by Artillery Weapons.
 Divine Icon (15 pts)
 The bearer's model gains Divine Attacks.
 Potion of Swiftness (5 pts)
-One use only. May be activated at the start ofanyPhase.
+One use only. May be activated at the start of any Phase.
 For the duration of the Player Turn, the bearer has +3
 Initiative.
-107
+
 Arcane Items
 Essence of a Free Mind (100 pts / 50 pts)
 The Wizard does not have to declare which Path to use
@@ -2693,19 +2669,19 @@ on the Army List. It may choose any of the available
 Paths before generating spells (normal restrictions for
 the Wizard still apply).
 Backlash Scroll (55 pts)
-One use only. Insteadofmakingadispelroll,youcanuse
+One use only. Instead of making a dispelroll, you can use
 the scroll. After the spell effect has been resolved
-(including thePathAttribute),thecastermustrollonthe
+(including the PathAttribute), the caster must roll on the
 Miscast Table. This item has no effect on Bound Spells
-and spells cast with 1PowerDiceorwithOverwhelming
+and spells cast with 1 PowerDice or with Overwhelming
 Power.
 Book of Arcane Power (50 pts / 35 pts)
-The bearer receives a +1 casting modifier tocastingand
+The bearer receives a +1 casting modifier to casting and
 dispelling rolls.
 Book of a Thousand Incantations (50 pts)
 The bearer gains the Pathmaster special rule.
 Dispel Scroll (35 pts)
-One use only. Insteadofmakingadispelroll,youcanuse
+One use only. Instead of making a dispelroll, you can use
 this scroll. The spell is automatically dispelled.
 This item can be taken as an Enchanted Item (50pts)in
 an army that contains no Wizards.
@@ -2715,21 +2691,21 @@ Grounding Rod (25 pts / 15 pts)
 One use only. The bearer can choose to use this item to
 reroll on the Miscast table.
 Sceptre of Power (20 pts / 15 pts)
-One use only. The bearer may reroll asinglePowerDice
+One use only. The bearer may reroll a single PowerDice
 during a casting roll.
 Binding Scroll (20 pts)
-One use only. Insteadofmakingadispelroll,youcanuse
+One use only. Instead of making a dispelroll, you can use
 the scroll. The Wizard casting the spell cannot cast the
 same spell during the next Game Turn.
 Shielding Scroll (15 pts)
-One use only. Insteadofmakingadispelroll,youcanuse
+One use only. Instead of making a dispelroll,you can use
 the scroll. All models affected by the spell have a Ward
 Save (4+) against the spell.
 Wand of Stability (15 pts)
 One use only. The bearer may add a +1D6 modifier to
-one of its dispel rolls (note that this isnotaDispelDice)
+one of its dispel rolls (note that this is not a DispelDice)
 and ignore the Not Enough Power rule.
-108
+
 Magical Standards
 Rending Banner (45 pts)
 The unit has Armour Piercing (1).
@@ -2749,7 +2725,7 @@ Flaming Standard (20 pts)
 At the start of each player's Shooting and Close Combat
 Phase the banner may be activated. If it is, the bearer's
 unit's non-special Close Combat and Shooting Attacks
-have the Flaming Attacks special rule for thedurationof
+have the Flaming Attacks special rule for the duration of
 the phase.
 War Standard (15 pts)
 The bearer's unit adds +1 to the Combat Score of any
@@ -2768,12 +2744,12 @@ Attacks lose this special rule, and all Close Combat
 Attacks without Magical Attacks gain this special rule.
 Gleaming Icon (5 pts)
 One use only. Must be activated the first time the
-bearer's unit fails a Leadership Test. The unitmayreroll
+bearer's unit fails a Leadership Test. The unit may reroll
 the failed test.
 Banner of Courage (5 pts)
 The bearer's unit automatically passes Terror Tests and
 is immune to the effects of Fear.
-109
+
 Index and Summaries
 Blue text in bold are links which will take you to the corresponding sections in the document.
 The Turn Structure
@@ -2799,7 +2775,7 @@ The Deployment Sequence
 6 Move Vanguard units.
 7 Other rules and abilities.
 8 Roll For First Turn .
-110
+
 The Movement Phase Sequence
 1 Start of the Movement Phase.
 2 Start of the Charge sub-phase.
@@ -2825,7 +2801,7 @@ sub-phase.
 which has not yet moved during this Movement Phase.
 15 End of the Remaining Moves sub-phase.
 16 End of the Movement Phase.
-111
+
 The Magic Phase
 1 Start of the Magic Phase.
 2 The Active Player rolls for the Magic Flux .
@@ -2835,7 +2811,7 @@ The Magic Phase
 6 The Active Player may attempt to cast one spell .
 7 Repeat steps 4-6 of this Sequence until neither player performed an action.
 8 End of the Magic Phase. Resolve all abilities triggered by the end of the Magic Phase.
-112
+
 Casting a Spell
 1 The Active Player declares which Wizard is attempting to cast a spell, which spell is being used, who
 is the target of the spell (if applicable), which version of the spell is being used (if applicable) and who
@@ -2858,14 +2834,13 @@ in a Dispel Attempt.
 6 The Reactive Player may now roll the number of Dispel Dice in an attempt to meet the casting roll of
 the spell. If the total dispel roll is equal to or higher than the casting roll the spell is successfully
 dispelled. Proceed to step 9. If the Dispel Attempt was failed, or if no Dispel Attempt was made in the
-fi
-rst place, proceed to step 7.
+first place, proceed to step 7.
 7 The spell was successfully cast. The Active Player may now apply the Spell Effect . Once this is done,
 the player may apply the Spell Path Attribute .
 8 If the spell was cast with Overwhelming Power , the Active Player must now roll on the Miscast
 Table and apply the result to the Wizard who made the casting attempt.
 9 The casting attempt is finished. You may now attempt to cast another spell or end the Magic Phase.
-113
+
 The Shooting Phase
 1 The Active Player may pick any unit that is eligible to perform a Shooting Attack and may then
 declare which enemy unit is the target.
@@ -2890,7 +2865,7 @@ The Close Combat Phase
 4 Repeat steps 2 and 3. Each time choose a new combat, which has not already been fought during this
 Close Combat Phase.
 5 Once all units that are Engaged in Combat have fought, the Close Combat Phase ends.
-114
+
 Fighting a Round of Close Combat
 1 Start of the round of Close Combat .
 2 Characters perform Make Way manoeuvre.
