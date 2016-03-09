@@ -753,118 +753,48 @@ War Machines that Break from combat are automatically destroyed.
 
 Mundane Equipment
 Combat Weapons
-Weapons listed in this section are used in Close Combat and can confer various benefits and penalties. The rules for
-these weapons only apply to the attacks made with the weapon in question (i.e. they don't apply to Special Attacks such
-as Stomp). If a model has more than one Close Combat Weapon, it must choose which one to use at the start of each
-combat, and must continue to use the same weapon for the duration of that combat. All R&F models in a unit must
-choose the same Close Combat Weapon. Unless noted otherwise, mounts never benefit from weapons.
+Weapons listed in this section are used in Close Combat and can confer various benefits and penalties. The rules for these weapons only apply to the attacks made with the weapon in question (i.e. they don't apply to Special Attacks such as Stomp). If a model has more than one Close Combat Weapon, it must choose which one to use at the start of each combat, and must continue to use the same weapon for the duration of that combat. All R&F models in a unit must choose the same Close Combat Weapon. Unless noted otherwise, mounts never benefit from weapons.
 Weapon Special Rules
-Hand Weapon All models are armed with a Hand Weapon. Hand Weapons cannot be lost, destroyed or
-nullified by any means. If a model has any other Close Combat Weapon than a Hand Weapon,
-it cannot choose to use the Hand Weapon (unless specifically stated). Hand Weapons can be
-used alongside a Shield to get the Parry rule.
-Parry: Close Combat Attacks from opponents in the front can never score successful hits on
-to-hit rolls of better than 4+, before applying any to hit modifiers. This can only be used by
-models on foot.
-Flail Requires Two Hands. +2 Strength. Close Combat Attacks allocated at a model with a Flail
-have a +1 bonus when rolling to hit.
-Great Weapon Requires Two Hands. +2 Strength. Strikes at Initiative 0 (regardless of wielder's Initiative).
-Halberd Requires Two Hands. +1 Strength.
-Additional
-Hand Weapon Requires Two Hands. +1 Attack and strikes with +1 Initiative.
-Lance Grants +2 Strength in the Round of Combat directly after the Model has charged into combat.
-This bonus can only be used for attacks directed against the charged enemies. Only mounted
-models, War Beasts and Monstrous Beasts can use a Lance.
-Light Lance Follows the same rules as a Lance, but only grants +1 Strength. Only mounted models, War
-Beasts and Monstrous Beasts can use a Light Lance.
-Spear Fight in Extra Ranks. Armour Piercing (1). Spears confer the Lethal Strike special rule
-against Cavalry, Monstrous Cavalry and Chariots Engaged to the front. Mounted models
-cannot use Spears.
+Hand Weapon: All models are armed with a Hand Weapon. Hand Weapons cannot be lost, destroyed or nullified by any means. If a model has any other Close Combat Weapon than a Hand Weapon, it cannot choose to use the Hand Weapon (unless specifically stated). Hand Weapons can be used alongside a Shield to get the Parry rule.
+Parry: Close Combat Attacks from opponents in the front can never score successful hits on to-hit rolls of better than 4+, before applying any to hit modifiers. This can only be used by models on foot.
+Flail: Requires Two Hands. +2 Strength. Close Combat Attacks allocated at a model with a Flail have a +1 bonus when rolling to hit.
+Great Weapon: Requires Two Hands. +2 Strength. Strikes at Initiative 0 (regardless of wielder's Initiative).
+Halberd: Requires Two Hands. +1 Strength.
+Additional Hand Weapon: Requires Two Hands. +1 Attack and strikes with +1 Initiative.
+Lance: Grants +2 Strength in the Round of Combat directly after the Model has charged into combat.  This bonus can only be used for attacks directed against the charged enemies. Only mounted models, War Beasts and Monstrous Beasts can use a Lance.
+Light Lance: Follows the same rules as a Lance, but only grants +1 Strength. Only mounted models, War Beasts and Monstrous Beasts can use a Light Lance.
+Spear: Fight in Extra Ranks. Armour Piercing (1). Spears confer the Lethal Strike special rule against Cavalry, Monstrous Cavalry and Chariots Engaged to the front. Mounted models cannot use Spears.
 
 Shooting Weapons
-Weapons listed in this section are used for making Shooting Attacks. Each model can normally only use one Shooting
-Weapon per phase even if it is equipped with more than one, and all R&F models in a unit must use the same Shooting
-Weapon. Each Shooting Weapon has a maximum Range, a Strength value, and can have one or more special rules.
-Special rules listed for a Shooting Weapon only apply to the Shooting Attacks made with that weapon.
+Weapons listed in this section are used for making Shooting Attacks. Each model can normally only use one Shooting Weapon per phase even if it is equipped with more than one, and all R&F models in a unit must use the same Shooting Weapon. Each Shooting Weapon has a maximum Range, a Strength value, and can have one or more special rules.  Special rules listed for a Shooting Weapon only apply to the Shooting Attacks made with that weapon.
 Weapon Range Strength Special Rules
 Shortbow 18" 3 Volley fire
 Bow 24" 3 Volley fire
 Longbow 30" 3 Volley fire
 Crossbow 30" 4 Unwieldy
 Handgun 24" 4 Unwieldy, Armour Piercing (1)
-Pistol 12" 4 Quick to Fire, Armour Piercing (1)
-Counts as an Additional Hand Weapon in Close Combat.
-Brace of Pistols 12" 4 Quick to Fire, Armour Piercing (1), Multiple Shots (2)
-Counts as an Additional Hand Weapon in Close Combat.
+Pistol 12" 4 Quick to Fire, Armour Piercing (1) Counts as an Additional Hand Weapon in Close Combat.
+Brace of Pistols 12" 4 Quick to Fire, Armour Piercing (1), Multiple Shots (2) Counts as an Additional Hand Weapon in Close Combat.
 Throwing Weapons 12" Same as user Quick to Fire, Multiple Shots (2)
 
 Artillery Weapons
-Weapons listed in this section are a special kind of Shooting Weapons. These weapons are sometimes mounted on War
-Machine Troop Type models, but can on other occasions be mounted on Chariots, carried by Monsters or contained
-within Magical Items. Artillery Weapons are Shooting Weapons, and always have the Cumbersome special rule. Artillery
-Weapons have specific profiles for Range, Strength and special rules, which you will find in their description. A Shooting
-Attack from an Artillery Weapon is not resolved like other Shooting Attacks. Instead, use the rules below to determine
-the hits they cause.
-Catapult (Template X")
-Place a Template of the size X", with its Centre within Line of Sight, over an enemy model and within Range. No part of
-the Template may be placed over friendly models or units Engaged in Combat. Then Scatter the Template D6*2" to
-determine the final position of the Template. If a natural '6' is rolled for the distance that the Template is moved (before
-the multiplication by 2), the Catapult has misfired: the shot is discarded and the Catapult must roll on the Misfire Table.
-The Centre of the Template can also be placed outside Line of Sight (but must still be over an enemy model, within
-Range and not over friendly models or units Engaged in Combat). In this case, the Template does not stay in place if a
-'Hit' is rolled. Instead, move the Template in a randomized direction, but reduce the distance the Template is moved by
-the shooting model's Ballistic Skill (i.e. D6*2-BS"). If the result is 0 or less0, the Catapult has scored a direct hit.
+Weapons listed in this section are a special kind of Shooting Weapons. These weapons are sometimes mounted on War Machine Troop Type models, but can on other occasions be mounted on Chariots, carried by Monsters or contained within Magical Items. Artillery Weapons are Shooting Weapons, and always have the Cumbersome special rule.  Artillery Weapons have specific profiles for Range, Strength and special rules, which you will find in their description. A Shooting Attack from an Artillery Weapon is not resolved like other Shooting Attacks. Instead, use the rules below to determine the hits they cause.
+
+Catapult (Template X"): Place a Template of the size X", with its Centre within Line of Sight, over an enemy model and within Range. No part of the Template may be placed over friendly models or units Engaged in Combat. Then Scatter the Template D6*2" to determine the final position of the Template. If a natural '6' is rolled for the distance that the Template is moved (before the multiplication by 2), the Catapult has misfired: the shot is discarded and the Catapult must roll on the Misfire Table.  The Centre of the Template can also be placed outside Line of Sight (but must still be over an enemy model, within Range and not over friendly models or units Engaged in Combat). In this case, the Template does not stay in place if a 'Hit' is rolled. Instead, move the Template in a randomized direction, but reduce the distance the Template is moved by the shooting model's Ballistic Skill (i.e. D6*2-BS"). If the result is 0 or less0, the Catapult has scored a direct hit.
 Line of Sight Out of Line of Sight
 Scatter D6*2" D6*2"
 Hit direct hit D6*2 - BS"
-Once the final position of the Template is determined, all models under the Template are hit, using the Strength and
-special rules given by the Weapon's profile. Some Catapults have a higher Strength and/or additional special rules
-stated in square brackets (such as Strength 3[9]). This means that the square bracketed part only affects a single model
-directly under the Centre of the Template.
-Flame Thrower
-Place a 3" Template with its Centre within Line of Sight and Range. Then move the Template D6" straight away from the
-Flame Thrower (centre of the model to the centre of the Template). If a '6' was rolled for the distance, the Flame
-Thrower has misfired: the shot is discarded, and the Flame Thrower must roll on the Misfire Table with a -1 modifier.
-Otherwise, all models touched by the Template during this D6" movement are hit, using the Strength and special rules
-given by the Weapon's profile. Any unit that could potentially be hit by the Template (i.e. is under the Template's initial
-position and 5" forward) is considered a potential target for the attack (and thus may not be a friendly unit or be
-Engaged in Combat).
+Once the final position of the Template is determined, all models under the Template are hit, using the Strength and special rules given by the Weapon's profile. Some Catapults have a higher Strength and/or additional special rules stated in square brackets (such as Strength 3[9]). This means that the square bracketed part only affects a single model directly under the Centre of the Template.
 
-Bolt Thrower
-Bolt Throwers follow the normal rules for shooting except that they can penetrate their target's ranks (or files), causing
-additional hits. Determine the maximum number of possible hits by measuring in which of the Target's arcs the Bolt
-Thrower is. If it is in the Front or Rear arc, the maximum number of hits is equal to the number of ranks in the target
-unit. If the Bolt Thrower is in either flank arc, the maximum number of hits is equal to the number of files in the target
-unit. If the Bolt Thrower hits its target, roll to wound and roll for saves as normal. If a model is removed as a casualty,
-the bolt penetrates the rank (or file) and causes another hit on the target with a -1 Strength modifier. Keep adding hits
-as long as a model is removed as casualty and each time add another -1 Strength modifier (to a minimum of 1). No more
-hits than the "maximum number of hits" can be made (i.e. initial number of ranks or files).
-Strength of first hit Strength of second hit Strength of third hit ... Maximum number of hits:
-S S-1 S-2 etc. Initial number of ranks or files
-Cannon (X")
-Choose a target and roll to hit as normal. Ignore any to-hit modifiers from Hard and Soft Cover, and add +1 to hit if the
-target has the Large Target special rule. If a natural '1' is rolled to hit, the Cannon has misfired: the shot is discarded and
-the Cannon must roll on the Misfire Table. If a successful hit is scored, choose a point on the target unit within Line of
-Sight and draw a Line Template directly away from the Cannon (from the centre of the model) a number of inches as
-given in the bracket (X"). This line immediately stops if it touches impassable Terrain or walls.
-The model under the cannonball's initial landing point suffers a hit with the Strength and special rules given in the
-Cannon's profile, while the next models under the Line Template may suffer a hit with the same rules, except that the
-Strength is halved. Starting with the model that was hit first (i.e. under to the landing point of the cannonball), roll to
-wound and roll for saves as normal. If the model is removed as a casualty, continue rolling to wound against the next
-model, and so on. If a model survives the hit, the cannonball stops and no more models are hit.
-Strength of first hit Strength of second hit Strength of third hit ... To-hit conditions:
-S S/2 S/2 S/2 Line Template and Line of Sight
-Volley Gun
-Volley Guns follow the normal rules for shooting with the following exceptions: all Volley Guns have the Multiple Shots
-special rule, from which they never suffer to-hit penalties. If the number of shots is a predetermined number (such as
-Multiple Shots (6)), the Volley Gun cannot misfire. However, if the number of shots is randomized (such as Multiple
-Shots (2D6)), the Volley Gun can misfire. If one unmodified '6 ' (after rerolls) is rolled when rolling for the number of
-shots, the Volley Gun has a -1 to hit modifier for this attack. If you roll two or more unmodified '6 ' (after rerolls) when
-rolling for the number of shots, the Volley Gun misfired: all shots are discarded and the Volley Gun must roll on the
-Misfire Table.
+Flame Thrower: Place a 3" Template with its Centre within Line of Sight and Range. Then move the Template D6" straight away from the Flame Thrower (centre of the model to the centre of the Template). If a '6' was rolled for the distance, the Flame Thrower has misfired: the shot is discarded, and the Flame Thrower must roll on the Misfire Table with a -1 modifier.  Otherwise, all models touched by the Template during this D6" movement are hit, using the Strength and special rules given by the Weapon's profile. Any unit that could potentially be hit by the Template (i.e. is under the Template's initial position and 5" forward) is considered a potential target for the attack (and thus may not be a friendly unit or be Engaged in Combat).
 
-The Misfire Table
-When an Artillery Weapon misfires, roll a D6 and consult the table below:
+Bolt Thrower: Bolt Throwers follow the normal rules for shooting except that they can penetrate their target's ranks (or files), causing additional hits. Determine the maximum number of possible hits by measuring in which of the Target's arcs the Bolt Thrower is. If it is in the Front or Rear arc, the maximum number of hits is equal to the number of ranks in the target unit. If the Bolt Thrower is in either flank arc, the maximum number of hits is equal to the number of files in the target unit. If the Bolt Thrower hits its target, roll to wound and roll for saves as normal. If a model is removed as a casualty, the bolt penetrates the rank (or file) and causes another hit on the target with a -1 Strength modifier. Keep adding hits as long as a model is removed as casualty and each time add another -1 Strength modifier (to a minimum of 1). No more hits than the "maximum number of hits" can be made (i.e. initial number of ranks or files).  Strength of first hit Strength of second hit Strength of third hit ... Maximum number of hits: S S-1 S-2 etc. Initial number of ranks or files
+
+Cannon (X"): Choose a target and roll to hit as normal. Ignore any to-hit modifiers from Hard and Soft Cover, and add +1 to hit if the target has the Large Target special rule. If a natural '1' is rolled to hit, the Cannon has misfired: the shot is discarded and the Cannon must roll on the Misfire Table. If a successful hit is scored, choose a point on the target unit within Line of Sight and draw a Line Template directly away from the Cannon (from the centre of the model) a number of inches as given in the bracket (X"). This line immediately stops if it touches impassable Terrain or walls.  The model under the cannonball's initial landing point suffers a hit with the Strength and special rules given in the Cannon's profile, while the next models under the Line Template may suffer a hit with the same rules, except that the Strength is halved. Starting with the model that was hit first (i.e. under to the landing point of the cannonball), roll to wound and roll for saves as normal. If the model is removed as a casualty, continue rolling to wound against the next model, and so on. If a model survives the hit, the cannonball stops and no more models are hit.  Strength of first hit Strength of second hit Strength of third hit ... To-hit conditions: S S/2 S/2 S/2 Line Template and Line of Sight
+
+Volley Gun: Volley Guns follow the normal rules for shooting with the following exceptions: all Volley Guns have the Multiple Shots special rule, from which they never suffer to-hit penalties. If the number of shots is a predetermined number (such as Multiple Shots (6)), the Volley Gun cannot misfire. However, if the number of shots is randomized (such as Multiple Shots (2D6)), the Volley Gun can misfire. If one unmodified '6 ' (after rerolls) is rolled when rolling for the number of shots, the Volley Gun has a -1 to hit modifier for this attack. If you roll two or more unmodified '6 ' (after rerolls) when rolling for the number of shots, the Volley Gun misfired: all shots are discarded and the Volley Gun must roll on the Misfire Table.
+
+The Misfire Table: When an Artillery Weapon misfires, roll a D6 and consult the table below:
 Dice result Misfire Effect
 0(or less): Explosion!: All models within D6" of the misfiring model suffer a Strength 5 hit. The shooting model is then destroyed. Remove it as a casualty.
 1-2: Breakdown: The firing mechanism of the weapon is damaged. The model cannot shoot anymore with the weapon for the rest of the game.
