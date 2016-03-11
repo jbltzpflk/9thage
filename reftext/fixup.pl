@@ -26,6 +26,7 @@ while (<>) {
 	s/\nWeapon:\n/\nWeapons: /igs ;
 	s/\nMagic:\n/\nMagic: /igs ;
 	s/\nWeapons:\n/\nWeapons: /igs ;
+	s/(\w)[Cc]lose\w+[Cc]ombat(\w)/${1}Close Combat${2}/g ;
 	s/ :/:/g ;
 	s/\'\'/\"/g ;
 	s/  / /g ;
