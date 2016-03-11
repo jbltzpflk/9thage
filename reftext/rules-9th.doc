@@ -801,11 +801,7 @@ Dice result Misfire Effect
 3-4: Jammed: The Artillery Weapon may not be fired in the controlling player's next Player Turn.
 5+: Malfunction: The shooting model suffers a Wound with no Saves of any kind allowed.
 
-Armour Types
-The Armour Save of a model part is determined by its armour and possibly also by special rules and spells. Combine all
-the armour pieces a model has to form a combined Armour Save. Each piece of armour adds +1 (or more) to the Saving
-Throw, up to a maximum total of +6. If the Armour Saving Throw, including modifiers, equals 7 or more, the Saving
-Throw is successful. An unmodified roll of '1' is always a failure.
+Armour Types: The Armour Save of a model part is determined by its armour and possibly also by special rules and spells. Combine all the armour pieces a model has to form a combined Armour Save. Each piece of armour adds +1 (or more) to the Saving Throw, up to a maximum total of +6. If the Armour Saving Throw, including modifiers, equals 7 or more, the Saving Throw is successful. An unmodified roll of '1' is always a failure.
 There are 5 different types of Armour.
 Suits of Armour
 A model part can only wear a single Suit of Armour.
@@ -813,309 +809,116 @@ A model part can only wear a single Suit of Armour.
 - Heavy Armour: +2
 - Plate Armour: +3
 Shields
-A model part can only carry one Shield. In Close Combat,
-a Shield cannot be used alongside a weapon with the
-Requires Two Hands special rule.
+A model part can only carry one Shield. In Close Combat, a Shield cannot be used alongside a weapon with the Requires Two Hands special rule.
 - Shield: +1
 Mounts
 - Mount's Protection (6+): +1
 - Mount's Protection (5+): +2
-No matter how many mounts a model has, it still only
-gains the largest bonus once.
+No matter how many mounts a model has, it still only gains the largest bonus once.
 - Barding: +1. Barding gives the mount -1 Movement.
-Innate Defence
-A model part can only use one instance of Innate Defence
+Innate Defence: A model part can only use one instance of Innate Defence
 (use the best available).
 - Innate Defence (6+): +1
 - Innate Defence (5+): +2
 - Innate Defence (4+): +3
 and so on.
-Other
-Special equipment and Magical Items (such as Helms), special rules, certain spells, and other rules can further alter a
-model's Armour Save (up to a maximum total of +6).
-For example, if a model has a Light Armour (+1), Shield (+1), Helm (+1) and is mounted on a steed with Mount's
-Protection (6+) (+1) and with Barding (+1), it has a total of +5 to its Armour Saving Throws, meaning a score of 2+ will
-equal 7 or more (and thus being a successful Saving Throw). Normally such an Armour Save would be referred to as a
-2+ Armour Save. Note that with a total of +6 to Armour Save, no model can ever have a better save than 1+ (and even
-with this, an unmodified score of '1' will always be a failed Armour Saving Throw).
+Other: Special equipment and Magical Items (such as Helms), special rules, certain spells, and other rules can further alter a model's Armour Save (up to a maximum total of +6).
+For example, if a model has a Light Armour (+1), Shield (+1), Helm (+1) and is mounted on a steed with Mount's Protection (6+) (+1) and with Barding (+1), it has a total of +5 to its Armour Saving Throws, meaning a score of 2+ will equal 7 or more (and thus being a successful Saving Throw). Normally such an Armour Save would be referred to as a 2+ Armour Save. Note that with a total of +6 to Armour Save, no model can ever have a better save than 1+ (and even with this, an unmodified score of '1' will always be a failed Armour Saving Throw).
 
-Characters
-Unless specifically noted otherwise, any model bought as part of the Heroes or Lords section of an Army Book is a
-Character.
-Lone Characters
-All Characters can operate as a unit consisting of just a single model. In this case, follow the normal rules for units.
-Characters Joined to Units
-Characters can operate as part of other units, by joining them.This can be done either by deploying the Character in the
-unit or by moving into contact with the unit during theRemainingMovessub-phase.UnitsthatareEngagedinCombat
-or fleeing cannot be joined.
-Characters can join other Characters to form a unit consisting only of Characters.
-When a Character joins a unit, it is immediately moved to a legal position (see Front Rank rule), possibly moving other
-models backwards. A Character can freely choose any legal position it could have reached with its move (moving
-through the unit it joins), possibly replacing other models with the Front Rank rule (move the displaced Front Rank
-model as little as possible in order to keep all models in legal positions).If the Character does not have a sufficient move
-to reach its desired position, it moves the shortest distance possible (from its starting position), in order to reach a legal
-position, and can only displace models without the Front Rank rule. When a Character joins a unit with just a single
-rank, the owner can choose to either displace a model to the second rank, or to expand the unit's width and place the
-displaced model at either side of the front rank.
-If a unit is joined by a Character, the unit cannot move any further in the same Remaining Moves sub-phase.Characters
-joining a unit however do not affect if the unit counts as moving or not (for purposes of shooting etc.). The Character
-itself still counts as having moved though.
-Once joined to a unit, the Character is considered as part of the unit for all rules purposes. When moving a combined
-unit with models with different Movement allowances, use the lowest Movement allowance in the unit to perform
-Advance or March Moves.
-Combined Unit wiped out
-If a combined unit has all its R&F models (and its Champion) killed, leaving one or more Characters behind, the
-remaining Characters keep forming a unit (which is still considered to be the same unit).
+Characters: Unless specifically noted otherwise, any model bought as part of the Heroes or Lords section of an Army Book is a Character.
+Lone Characters: All Characters can operate as a unit consisting of just a single model. In this case, follow the normal rules for units.
+Characters Joined to Units: Characters can operate as part of other units, by joining them.This can be done either by deploying the Character in the unit or by moving into contact with the unit during the RemainingMoves sub-phase. Units that are Engaged in Combat or fleeing cannot be joined.  Characters can join other Characters to form a unit consisting only of Characters.  When a Character joins a unit, it is immediately moved to a legal position (see Front Rank rule), possibly moving other models backwards. A Character can freely choose any legal position it could have reached with its move (moving through the unit it joins), possibly replacing other models with the Front Rank rule (move the displaced Front Rank model as little as possible in order to keep all models in legal positions).If the Character does not have a sufficient move to reach its desired position, it moves the shortest distance possible (from its starting position), in order to reach a legal position, and can only displace models without the Front Rank rule. When a Character joins a unit with just a single rank, the owner can choose to either displace a model to the second rank, or to expand the unit's width and place the displaced model at either side of the front rank.  If a unit is joined by a Character, the unit cannot move any further in the same Remaining Moves sub-phase. Characters joining a unit however do not affect if the unit counts as moving or not (for purposes of shooting etc.). The Character itself still counts as having moved though.  Once joined to a unit, the Character is considered as part of the unit for all rules purposes. When moving a combined unit with models with different Movement allowances, use the lowest Movement allowance in the unit to perform Advance or March Moves.
+Combined Unit wiped out: If a combined unit has all its R&F models (and its Champion) killed, leaving one or more Characters behind, the remaining Characters keep forming a unit (which is still considered to be the same unit).
 
-Leaving a combined unit
-A Character can leave a combined unit in the Remaining Moves sub-phase if it isabletomove(i.e.ifitisn'tEngagedin
-Combat, hasn't already moved, isn't fleeing, etc.). Roll a combined March Test for the whole unit before moving any
-model, if necessary. Characters leaving a unit do notaffectiftheunitcountsasmovingornot(forpurposesofshooting
-etc.). When leaving its unit, a Character can move through this unit, and can thus exit the unit from any point (and may
-make a Flying Movement if it has the Fly special rule). The Character counts as a part of the unit until it has physically
-left it, which means that the Character will be subject to movement alterations during the move to leave the unit. If the
-Character does not have enough movement to be placed at least 1" away from the unit, it cannot leave the unit.
-Charging out of a unit
-A Character can also leave a combined unit by charging out of it. To do this, declare a Charge with a Character in the
-combined unit (during the Declare Charges sub-phase as normal). If this is done, the unit itself (including other
-Characters in the unit) cannot Declare Charges in the same Player Turn. Stand and Shoot Charge Reactions declared
-against a Character charging out of a unit are all distributed onto the Character. When charging out of a unit, the
-Character uses its own movement (and may even make a Flying Movement if it has the Fly special rule), and is affected
-by movement alterations affecting the unit during the Charge Move.If the Charge is successful, move the Character out
-of the unit and Charge as normal. If the Charge is not successful, the Character makes a Failed Charge Move out of the
-unit. If the Failed Charge Move is too short to place the Character outside 1" of the combined unit, the Character
-remains in the unit and the combined unit is treated as if it had failed a Charge.
-Distributing hits at combined units
-When an Attack hits a combined unit, there are two possibilities for distributing hits:
-Characters are of the same Troop Type
--andThere are 5 or more R&F models in the unit
-All hits are distributed onto R&F models, Characters
-cannot suffer any hits.
-When a Template hits a Character in a unit, the hit is
-transferred to a R&F model.
-Characters are of a different Troop Type
--orThere are 4 or less R&F models in the unit
-The player making the attack distributes hits onto
-R&F models and Characters. Hits must be distributed
-as equally as possible, meaning that no model can
-take a second hit until all models have taken a single
-hit, and so on.
-When a Template hits a Character in a unit, the
-Character suffers the hit as normal.
-If a unit of 5 or more R&F models contains several Characters of both the same and different Troop Type, Characters
-with the same Troop Type as the R&F models are ignored for the hit distributions.
+Leaving a combined unit: A Character can leave a combined unit in the Remaining Moves sub-phase if it is able to move (i.e. if it isn't Engaged in Combat, hasn't already moved, isn't fleeing, etc.). Roll a combined March Test for the whole unit before moving any model, if necessary. Characters leaving a unit do not affect if the unit counts as moving or not (for purposes of shooting etc.). When leaving its unit, a Character can move through this unit, and can thus exit the unit from any point (and may make a Flying Movement if it has the Fly special rule). The Character counts as a part of the unit until it has physically left it, which means that the Character will be subject to movement alterations during the move to leave the unit. If the Character does not have enough movement to be placed at least 1" away from the unit, it cannot leave the unit.
+Charging out of a unit: A Character can also leave a combined unit by charging out of it. To do this, declare a Charge with a Character in the combined unit (during the Declare Charges sub-phase as normal). If this is done, the unit itself (including other Characters in the unit) cannot Declare Charges in the same Player Turn. Stand and Shoot Charge Reactions declared against a Character charging out of a unit are all distributed onto the Character. When charging out of a unit, the Character uses its own movement (and may even make a Flying Movement if it has the Fly special rule), and is affected by movement alterations affecting the unit during the Charge Move.If the Charge is successful, move the Character out of the unit and Charge as normal. If the Charge is not successful, the Character makes a Failed Charge Move out of the unit. If the Failed Charge Move is too short to place the Character outside 1" of the combined unit, the Character remains in the unit and the combined unit is treated as if it had failed a Charge.
+Distributing hits at combined units: When an Attack hits a combined unit, there are two possibilities for distributing hits:
+Characters are of the same Troop Type -and There are 5 or more R&F models in the unit: All hits are distributed onto R&F models, Characters cannot suffer any hits.  When a Template hits a Character in a unit, the hit is transferred to a R&F model.
+Characters are of a different Troop Type - or There are 4 or less R&F models in the unit: The player making the attack distributes hits onto R&F models and Characters. Hits must be distributed as equally as possible, meaning that no model can take a second hit until all models have taken a single hit, and so on.  When a Template hits a Character in a unit, the Character suffers the hit as normal.
+If a unit of 5 or more R&F models contains several Characters of both the same and different Troop Type, Characters with the same Troop Type as the R&F models are ignored for the hit distributions.
 
-Front Rank
-All Characters and Command Group models have the Front Rank rule. Models with this rule must always be placed as far forward as possible in their unit. Normally this means that they must be placed in the first rank, but if the first rank
-is full of other models with the Front Rank rule, they are placed in the second rank instead. If this rank is also full of
-models with the Front Rank rule, they are placed in the 3rd rank, and so on.
-When moving a unit that includes models with the Front Rank special rule, these models can be reorganized into a new
-position (still as far forward as possible) as part of the move. This can be done as a part of an Advance move, March,
-Wheel or Reform move, and counts towards the Movement allowance of the unit(measurefromaCharacter'sstarting
-position to its ending position to determine how far it has moved).
-If a model with the Front Rank special rule leaves a unit or is removed as a casualty, the gap it leaves must be filled with
-models from other ranks, possibly moving up models with the FrontRankspecialrule,ifthismeanstheyaremovedto
-positions further forward. If more than one model with the Front Rank special rule could move forward,theownerof
-the models decides which model is moved forward. If all models with the Front Rank special rule already are as far
-fo
-rward as possible, fill any empty gaps with R&F models from the back ranks.
-Sometimes Front Rank models must be redistributed in order for all such models to be as far forward as possible. When this happens, move as few models as possible inorder to always have all models with the Front Rank special rule as far forward as possible.
+Front Rank: All Characters and Command Group models have the Front Rank rule. Models with this rule must always be placed as far forward as possible in their unit. Normally this means that they must be placed in the first rank, but if the first rank is full of other models with the Front Rank rule, they are placed in the second rank instead. If this rank is also full of models with the Front Rank rule, they are placed in the 3rd rank, and so on.  When moving a unit that includes models with the Front Rank special rule, these models can be reorganized into a new position (still as far forward as possible) as part of the move. This can be done as a part of an Advance move, March, Wheel or Reform move, and counts towards the Movement allowance of the unit (measure from a Character's starting position to its ending position to determine how far it has moved).  If a model with the Front Rank special rule leaves a unit or is removed as a casualty, the gap it leaves must be filled with models from other ranks, possibly moving up models with the FrontRanks pecial rule, if this means they are moved to positions further forward. If more than one model with the Front Rank special rule could move forward, the owner of the models decides which model is moved forward. If all models with the Front Rank special rule already are as far forward as possible, fill any empty gaps with R&F models from the back ranks. Sometimes Front Rank models must be redistributed in order for all such models to be as far forward as possible. When this happens, move as few models as possible inorder to always have all models with the Front Rank special rule as far forward as possible.
 
-Matching Bases
-If a model with FrontRank has the same base size as the R&F models in its unit, or if it does not have the same base size as the unit it is in, but its base is the same size as two or more of the R&F models' bases (such as a 40x40mm base in a 20x20mm unit), this is called a Matching base. In this case, the Character is placed in the unit as normal, displacing the
-necessary amount of models. The front of the base should be as far forward as possible (as per Front Rank rule).The model is considered to be in all ranks its base occupies for the purposes of calculating Full Ranks. For calculating the number of models in the unit's ranks (such as for FullRanks or Horde Formation), the large base counts as the number of models it replaces.
+Matching Bases: If a model with FrontRank has the same base size as the R&F models in its unit, or if it does not have the same base size as the unit it is in, but its base is the same size as two or more of the R&F models' bases (such as a 40x40mm base in a 20x20mm unit), this is called a Matching base. In this case, the Character is placed in the unit as normal, displacing the necessary amount of models. The front of the base should be as far forward as possible (as per Front Rank rule).The model is considered to be in all ranks its base occupies for the purposes of calculating Full Ranks. For calculating the number of models in the unit's ranks (such as for FullRanks or Horde Formation), the large base counts as the number of models it replaces.
 
-Mismatching Bases
-If, however, a model with the Front Rank rule does not have a Matching base (such as a 50x50mm base inside a
-20x20mm unit), the base is Mismatching, and the Character is placed in base contact to the side of the unit, aligned with its front. Only two Mismatching bases can be joined to a single unit (one at each side).These models are considered to
-be in the front rank of the unit, but are ignored when counting the number of models in each rank (such as for Full
-Ranks or Horde Formation).
+Mismatching Bases: If, however, a model with the Front Rank rule does not have a Matching base (such as a 50x50mm base inside a 20x20mm unit), the base is Mismatching, and the Character is placed in base contact to the side of the unit, aligned with its front. Only two Mismatching bases can be joined to a single unit (one at each side).These models are considered to be in the front rank of the unit, but are ignored when counting the number of models in each rank (such as for Full Ranks or Horde Formation).
 
-Figure 13
-Character C1 is Mismatching and is placed next to the unit. Characters C2 and C3
-are matching and are placed inside the unit, as far forward as possible. This
-unit is considered to have 3 Full Ranks (C1 does not count, but C2 counts as 2
-models wide).
-When Character C4 joins the unit, the Musician must be moved to the side in
-order to have all Front Rank models as far forward as possible.
-Make Way
-At step 3 of the Round of Combat Sequence, any Character placed in the front rank, and not in base contact with an enemy model, may move into contact with an enemy model that is in base contact with the front of the Character's unit. To do this, the Character switches position with another model (or models) in its unit (these models cannot be Characters). Characters with Mismatching bases can never perform a Make Way move.
+Figure 13: 
+Character C1 is Mismatching and is placed next to the unit. 
+Characters C2 and C3 are matching and are placed inside the unit, as far forward as possible. 
+This unit is considered to have 3 Full Ranks (C1 does not count, but C2 counts as 2 models wide).
+When Character C4 joins the unit, the Musician must be moved to the side in order to have all Front Rank models as far forward as possible.
 
-The General
-Choosing the General
-In every army one model must play the role of the General. This model must be the Character with the highest
-Leadership in your army, excluding the Battle Standard Bearer and Characters with the special rule "Not A Leader". If two (or more) eligible Characters are tied for highest Leadership, you are free to choose which Character is your General. This must be noted in the Army List. The General has the rule Inspiring Presence.
-Inspiring Presence
-A non-fleeing model with this rule gives its Leadership to all friendly units within 12". Units under the effect of Inspiring Presence can use the Leadership of the General instead of their own Leadership, if they wish to do so. This ability follows all the normal rules for using a Borrowed Characteristic, meaning that effects modifying the Leadership of the General are applied before borrowing the General's Leadership. This borrowed Leadership may then be further modified.
+Make Way: At step 3 of the Round of Combat Sequence, any Character placed in the front rank, and not in base contact with an enemy model, may move into contact with an enemy model that is in base contact with the front of the Character's unit. To do this, the Character switches position with another model (or models) in its unit (these models cannot be Characters). Characters with Mismatching bases can never perform a Make Way move.  
+The General:
+Choosing the General: In every army one model must play the role of the General. This model must be the Character with the highest Leadership in your army, excluding the Battle Standard Bearer and Characters with the special rule "Not A Leader". If two (or more) eligible Characters are tied for highest Leadership, you are free to choose which Character is your General. This must be noted in the Army List. The General has the rule Inspiring Presence.
+Inspiring Presence: A non-fleeing model with this rule gives its Leadership to all friendly units within 12". Units under the effect of Inspiring Presence can use the Leadership of the General instead of their own Leadership, if they wish to do so. This ability follows all the normal rules for using a Borrowed Characteristic, meaning that effects modifying the Leadership of the General are applied before borrowing the General's Leadership. This borrowed Leadership may then be further modified.
 
 The Battle Standard Bearer
-Choosing the Battle Standard Bearer
-Some Characters can be upgraded to be the Battle Standard Bearer (BSB). This option will be noted under their unit entry in their respective Army Book. An army may only include a single Battle Standard Bearer (One per Army). The Battle Standard Bearer has the rule Hold Your Ground.
-Hold Your Ground
-A non-fleeing model with this rule gives "reroll failed Leadership Tests" to all friendly units within 12". These units receive "reroll failed Leadership Tests" from the model with Hold Your Ground, and they may use this ability to reroll any failed Leadership Tests.
-Magical Standard
-If a Battle Standard Bearer has the option to buy Magical Items, it is allowed to purchase a Magical Standard. This Magical Standard may either be taken as part of the model's Magical Items point limit, or it can be taken without any cost limitations (i.e. it could exceed the usual 50 points allowance for a Hero choice), but in this case the model cannot take any other Magical Items.
-Their Flag is Down
-When a Battle Standard Bearer is removed as a casualty while Engaged in Combat, the Battle Standard is considered
-captured by the opponent. When a Battle Standard Bearer Breaks from Combat, the Battle Standard is lost (along with
-the Hold your Ground rule and any Magical Standard) and the model bearing it loses all the effects of the Battle
-Standard, which is considered captured by the opponent.
+Choosing the Battle Standard Bearer: Some Characters can be upgraded to be the Battle Standard Bearer (BSB). This option will be noted under their unit entry in their respective Army Book. An army may only include a single Battle Standard Bearer (One per Army). The Battle Standard Bearer has the rule Hold Your Ground.
+Hold Your Ground: A non-fleeing model with this rule gives "reroll failed Leadership Tests" to all friendly units within 12". These units receive "reroll failed Leadership Tests" from the model with Hold Your Ground, and they may use this ability to reroll any failed Leadership Tests.
+Magical Standard: If a Battle Standard Bearer has the option to buy Magical Items, it is allowed to purchase a Magical Standard. This Magical Standard may either be taken as part of the model's Magical Items point limit, or it can be taken without any cost limitations (i.e. it could exceed the usual 50 points allowance for a Hero choice), but in this case the model cannot take any other Magical Items.
+Their Flag is Down: When a Battle Standard Bearer is removed as a casualty while Engaged in Combat, the Battle Standard is considered captured by the opponent. When a Battle Standard Bearer Breaks from Combat, the Battle Standard is lost (along with the Hold your Ground rule and any Magical Standard) and the model bearing it loses all the effects of the Battle Standard, which is considered captured by the opponent.
 
 Challenges
-Issuing a Challenge
-Characters and Champions Engaged in a Combat may issue a Challenge. At step 4 of the Round of Combat Sequence, the
-Active Player may nominate one of their Characters or Champions and issue a Challenge. If no Challenge was issued, the
-Reactive Player may nominate one of their Characters or Champions and issue a Challenge.
-Accepting or Refusing a Challenge
-If a Challenge was issued, the opposing player may now choose one of their own Engaged Characters or Champions in
-the same combat to Accept the Challenge and fight the Character or Champions that issued the Challenge. The model
-that Accepts the challenge must be in a unit that is in base contact with the model that issued the challenge.
-If a Challenge isn't accepted this challenge is said to be refused. The player issuing the Challenge now nominates one of
-their opponent's Characters, which could have accepted the Challenge, if there is any (note that Champions cannot be
-nominated). This model's Leadership is reduced to 0 and it loses Stubborn until the end of the turn in which the combat
-ends (or until the Character accepts or issues a Challenge). Also, it cannot make any Close Combat Attacks during this
-Combat Round, and if it is a Battle Standard Bearer, it loses the Hold Your Ground rule and doesn't add +1 to its side's
-Combat Score during this Combat Round.
-Fighting a Challenge
-If the Challenge was accepted, the Character or Champion issuing the Challenge and the Character or Champion that
-answered the Challenge count as being in base contact with each other (even if their bases are not physically touching
-each other) and must allocate all their attacks towards each other, including special attacks made towards units (such
-as Stomp, Breath Weapons, Impact Hits, Grinding Attacks) which are always allocated to the opposing Character or
-Champion (in the case of Stomp attacks, the opposing Character must be of a stompable Troop Type, otherwise the
-Stomp attacks are lost). No other model can allocate attacks at either of these models and attacks/hits can never be
-distributed onto a Character or a Champion in a Challenge. If a Character with more than one Initiative value (such as a
-rider and its mount or a model with Stomp) kills its opponent before it has made all of its attacks, any of the remaining
-attacks can be directed at the killed model (as if it was still alive and in base contact) in order to get an Overkill bonus.
-If one of the models is killed or Breaks from Combat, the Challenge is considered to be over at the end of the Phase. If
-neither model is killed before the next Round of Combat, the Challenge continues. No other Challenges can be issued in
-the same combat until one of the models is killed.
-Overkill
-During a Challenge, any excess Wounds caused count towards the Combat Score, up to a maximum of +3.
+Issuing a Challenge: Characters and Champions Engaged in a Combat may issue a Challenge. At step 4 of the Round of Combat Sequence, the Active Player may nominate one of their Characters or Champions and issue a Challenge. If no Challenge was issued, the Reactive Player may nominate one of their Characters or Champions and issue a Challenge.
+Accepting or Refusing a Challenge: If a Challenge was issued, the opposing player may now choose one of their own Engaged Characters or Champions in the same combat to Accept the Challenge and fight the Character or Champions that issued the Challenge. The model that Accepts the challenge must be in a unit that is in base contact with the model that issued the challenge.  If a Challenge isn't accepted this challenge is said to be refused. The player issuing the Challenge now nominates one of their opponent's Characters, which could have accepted the Challenge, if there is any (note that Champions cannot be nominated). This model's Leadership is reduced to 0 and it loses Stubborn until the end of the turn in which the combat ends (or until the Character accepts or issues a Challenge). Also, it cannot make any Close Combat Attacks during this Combat Round, and if it is a Battle Standard Bearer, it loses the Hold Your Ground rule and doesn't add +1 to its side's Combat Score during this Combat Round.
+Fighting a Challenge: If the Challenge was accepted, the Character or Champion issuing the Challenge and the Character or Champion that answered the Challenge count as being in base contact with each other (even if their bases are not physically touching each other) and must allocate all their attacks towards each other, including special attacks made towards units (such as Stomp, Breath Weapons, Impact Hits, Grinding Attacks) which are always allocated to the opposing Character or Champion (in the case of Stomp attacks, the opposing Character must be of a stompable Troop Type, otherwise the Stomp attacks are lost). No other model can allocate attacks at either of these models and attacks/hits can never be distributed onto a Character or a Champion in a Challenge. If a Character with more than one Initiative value (such as a rider and its mount or a model with Stomp) kills its opponent before it has made all of its attacks, any of the remaining attacks can be directed at the killed model (as if it was still alive and in base contact) in order to get an Overkill bonus.
+If one of the models is killed or Breaks from Combat, the Challenge is considered to be over at the end of the Phase. If neither model is killed before the next Round of Combat, the Challenge continues. No other Challenges can be issued in the same combat until one of the models is killed.
+Overkill: During a Challenge, any excess Wounds caused count towards the Combat Score, up to a maximum of +3.
 
 Command Group
-Certain units feature the option of upgrading regular models to Champion, Musician or Standard Bearer. These models
-are known as the Command Group and have the rule Front Rank. If a Musician or Standard Bearer is to be removed as a
-casualty, replace another R&F model with the Musician or Standard Bearer - it is assumed that another soldier picked
-up their tool and responsibility. Champions however are not easily replaced and can be specifically targeted, wounded
-and slain the same way as Characters. If enough Wounds are suffered by R&F models in order to wipe out the entire
-unit, any remaining Wounds suffered are allocated at the Champion even if it is fighting in a Challenge.
-Musician
-Swift Reform
-A unit with a Musician can make a Swift
-Reform by taking a Leadership Test. If
-the test is failed, the unit makes a
-normal Reform. If the test is passed, the
-unit makes a Reform with the following
-exceptions:
-- The unit is not prohibited from
-shooting in the coming Shooting Phase.
-- The unit can perform an Advance
-Move after the Reform.
-Onwards
-In a situation where the combat results
-in a tie, the side with a Musician wins. If
-both sides have Musicians, neither side
-wins. If a Break Test is caused by one
-side winning through their Musician, no
-Leadership modifier for losing the
-combat is applied to the loser's Break
-Test and Combat Reform Test (Unstable
-units are unaffected).
-Regroup
-A fleeing unit with a Musician has +1
-Leadership when taking its Rally Test.
-Standard Bearer
-Combat Bonus
-A side with one or more Standard
-Bearers adds +1 to its Combat Score.
-Captured Standard
-When a Standard Bearer is removed as a
-casualty while Engaged in Combat, the
-Standard is considered to be captured by
-the opponent. When a Standard Bearer
-Breaks from combat, replace the model
-with a normal non-Command Group R&F
-model. The Standard is captured by the
-opponent and is lost for gaming purposes
-(along with the Combat Bonus rule and
-any Magical Standard).
-Veteran Standard
-Bearer
-Some Standard Bearers in Core troops
-may be upgraded to be the Veteran
-Standard Bearer. The Veteran Standard
-Bearer may take a Magical Standard
-worth up to 25 points. The Veteran
-Standard Bearer is One of a Kind, so only
-a single model in the army (or two in the
-case of a Grand Army) may be upgraded.
-Champion
-First Among Equals
-All Champions have +1 Weapon Skill,
-+1 Ballistic Skill and +1 Attack to their
-Characteristics Profile. If this is a
-model with more than one profile, the
-Characteristics increase only affects a
-single rider or crew member.
-Ordering the Charge
-When a unit with a Champion rolls for
-their Charge Range, they always count
-as rolling at least a '4'. If the Charge is
-still failed, ignore this rule and use the
-rolled dice to determine the Failed
-Charge Move.
+Certain units feature the option of upgrading regular models to Champion, Musician or Standard Bearer. These models are known as the Command Group and have the rule Front Rank. If a Musician or Standard Bearer is to be removed as a casualty, replace another R&F model with the Musician or Standard Bearer - it is assumed that another soldier picked up their tool and responsibility. Champions however are not easily replaced and can be specifically targeted, wounded and slain the same way as Characters. If enough Wounds are suffered by R&F models in order to wipe out the entire unit, any remaining Wounds suffered are allocated at the Champion even if it is fighting in a Challenge.
+Musician:
+Swift Reform: A unit with a Musician can make a Swift Reform by taking a Leadership Test. If the test is failed, the unit makes a normal Reform. If the test is passed, the unit makes a Reform with the following exceptions:
+- The unit is not prohibited from shooting in the coming Shooting Phase.
+- The unit can perform an Advance Move after the Reform.
+Onwards: In a situation where the combat results in a tie, the side with a Musician wins. If both sides have Musicians, neither side wins. If a Break Test is caused by one side winning through their Musician, no Leadership modifier for losing the combat is applied to the loser's Break Test and Combat Reform Test (Unstable units are unaffected).
+Regroup: A fleeing unit with a Musician has +1 Leadership when taking its Rally Test.
+Standard Bearer:
+Combat Bonus: A side with one or more Standard Bearers adds +1 to its Combat Score.
+Captured Standard: When a Standard Bearer is removed as a casualty while Engaged in Combat, the Standard is considered to be captured by the opponent. When a Standard Bearer Breaks from combat, replace the model with a normal non-Command Group R&F model. The Standard is captured by the opponent and is lost for gaming purposes (along with the Combat Bonus rule and any Magical Standard).
+Veteran Standard Bearer: Some Standard Bearers in Core troops may be upgraded to be the Veteran Standard Bearer. The Veteran Standard Bearer may take a Magical Standard worth up to 25 points. The Veteran Standard Bearer is One of a Kind, so only a single model in the army (or two in the case of a Grand Army) may be upgraded.
+Champion:
+First Among Equals: All Champions have +1 Weapon Skill, +1 Ballistic Skill and +1 Attack to their Characteristics Profile. If this is a model with more than one profile, the Characteristics increase only affects a single rider or crew member.
+Ordering the Charge: When a unit with a Champion rolls for their Charge Range, they always count as rolling at least a '4'. If the Charge is still failed, ignore this rule and use the rolled dice to determine the Failed Charge Move.
 
 Terrain
 Terrain Types
 Dangerous Terrain
 When a model Marches, Charges (excluding Failed Charges), Flees, Pursues or Overruns through, into, or out of a Piece of Terrain which counts as Dangerous Terrain, it must take a Dangerous Terrain test. To do this, roll one D6. Models with the Monstrous Troop Type roll two D6 instead, while Chariots, Monsters and Ridden Monsters roll four D6. For each '1' rolled, the model takes a Wound with Armour Piercing (6).
 A model never takes more than one Dangerous Terrain test for the same Piece of Terrain during a single move, but it might have to take several Dangerous Terrain tests caused by different pieces of Terrain or abilities.
-Obscuring Terrain
-Line of Sight cannot be drawn through Obscuring Terrain. Some Obscuring Terrain allows models to move in or on them (such as Hills), Line of Sight can be drawn into or out of (but never through) such Terrain Features.
+Obscuring Terrain: Line of Sight cannot be drawn through Obscuring Terrain. Some Obscuring Terrain allows models to move in or on them (such as Hills), Line of Sight can be drawn into or out of (but never through) such Terrain Features.
 If Obscuring Terrain obscures a target, it is considered to be within Hard Terrain.
-Soft Terrain
-Units in Soft Terrain benefit from Soft Cover if half or more of the target unit's Footprint is obscured.
-Hard Terrain
-Units in Hard Terrain benefit from Hard Cover if half or more of the target unit's Footprint is obscured.
-Terrain Features
-A Terrain Feature is a topographical area on the Battlefield that is a mixture of Dangerous, Obscuring, Soft or Hard
-Terrain and may possess its own special rules.
-Open Terrain
-Open Terrain doesn't normally have any effect upon Line of Sight, Cover modifiers or Movement. All parts of the board
-that are not covered by any other kind of Terrain are considered to be Open Terrain.
-Impassable Terrain
+Soft Terrain: Units in Soft Terrain benefit from Soft Cover if half or more of the target unit's Footprint is obscured.
+Hard Terrain: Units in Hard Terrain benefit from Hard Cover if half or more of the target unit's Footprint is obscured.
+Terrain Features: A Terrain Feature is a topographical area on the Battlefield that is a mixture of Dangerous, Obscuring, Soft or Hard Terrain and may possess its own special rules.
+Open Terrain: Open Terrain doesn't normally have any effect upon Line of Sight, Cover modifiers or Movement. All parts of the board that are not covered by any other kind of Terrain are considered to be Open Terrain.
+Impassable Terrain:
 Line of Sight: Impassable Terrain is Obscuring Terrain.
 Cover: Impassable Terrain is Hard Terrain.
-Movement: Models cannot move into or through Impassable Terrain. If a Charge Move has brought a model within 1"
-of Impassable Terrain, the model (and its unit) is allowed to stay within 1" until moving outside this 1" distance.
+Movement: Models cannot move into or through Impassable Terrain. If a Charge Move has brought a model within 1" of Impassable Terrain, the model (and its unit) is allowed to stay within 1" until moving outside this 1" distance.
 
 Fields
 Soft Terrain: Units with half or more of their Footprint inside a Field benefit from Soft Cover, except Large Targets.
 Dangerous Terrain: Fields are Dangerous Terrain to Cavalry, Monstrous Cavalry and Chariots.
-Easy to Blaze: Units with half or more of their Footprint inside a Field count as Flammable. Models with Flaming
-Attacks (either on the model or on a weapon) treat Fields as Dangerous Terrain.
+Easy to Blaze: Units with half or more of their Footprint inside a Field count as Flammable. Models with Flaming Attacks (either on the model or on a weapon) treat Fields as Dangerous Terrain.
+
 Hills
 Obscuring Terrain: Hills block Line of Sight.
 Soft Terrain: A unit partially on the Hill counts the Hill as Soft Terrain if the hill obscures half or more of its Footprint from the shooter's Line of Sight.
-Hard Terrain: A unit completely off the Hill counts the Hill as Hard Terrain if the hill obscures more than half of its
-Footprint from the shooter's Line of Sight.
-Elevated position: Models with more than half of their base on a Hill are considered to be of Large Height for Line of
-Sight and Cover purposes.
-Charging downhill: A unit initiating a Charge Move with half or more of its Footprint on a Hill and ending the Charge
-Move with half or more of its Footprint no longer on the Hill receives +1 to its Combat Score in its next Round of
-Combat.
+Hard Terrain: A unit completely off the Hill counts the Hill as Hard Terrain if the hill obscures more than half of its Footprint from the shooter's Line of Sight.
+Elevated position: Models with more than half of their base on a Hill are considered to be of Large Height for Line of Sight and Cover purposes.
+Charging downhill: A unit initiating a Charge Move with half or more of its Footprint on a Hill and ending the Charge Move with half or more of its Footprint no longer on the Hill receives +1 to its Combat Score in its next Round of Combat.
 Forests
 Cover: Forests are Soft Terrain.
-Movement: Forests are Dangerous Terrain for Cavalry, Monstrous Cavalry, Chariots and units making a Flying
-Movement.
-Steadfast: Units with the majority of their Footprint in a Forest can never be Steadfast. Skirmishers and lone Infantry
-Characters with the majority of their Footprint in a Forest are Stubborn.
+Movement: Forests are Dangerous Terrain for Cavalry, Monstrous Cavalry, Chariots and units making a Flying Movement.
+Steadfast: Units with the majority of their Footprint in a Forest can never be Steadfast. Skirmishers and lone Infantry Characters with the majority of their Footprint in a Forest are Stubborn.
 Ruins
 Cover: Ruins are Hard Terrain for any unit with half or more of its Footprint inside, except Large Targets.
 Movement: Ruins are Dangerous Terrain for any unit except Skirmishers. Cavalry, MonstrousCavalry and Chariots fail Dangerous Terrain tests in Ruins on a roll of '1' or '2'.
 Water Movement: Units may not March into, through, or out of Water Terrain. Water Terrain is Dangerous Terrain for Cavalry, Monstrous Cavalry and Chariots.
-Disordered for combat: A rank of models that is at least partially inside a Water feature can never count as a Full
-Rank. If the majority of a unit is inside a Water feature, the unit counts as having 0 FullRanks. Disordered for combat does not affect a unit with the Strider or Strider (Water) special rule.
+Disordered for combat: A rank of models that is at least partially inside a Water feature can never count as a Full Rank. If the majority of a unit is inside a Water feature, the unit counts as having 0 FullRanks. Disordered for combat does not affect a unit with the Strider or Strider (Water) special rule.
 Walls
 Cover: A Wall is Hard Cover for any model shooting at a non-LargeTarget model (or unit)with half or more of the front of its base (or front rank) defending the Wall (see below).If the shooter is in the flank or rear, use the corresponding file or the last rank as the front rank instead.
 Movement: A Wall is Dangerous Terrain for Cavalry, Monstrous Cavalry and Chariots.
@@ -1125,380 +928,115 @@ Defending a Wall: In order to defend a Wall, a model must be aligned and in base
 Buildings
 Line of Sight: Buildings are Obscuring Terrain.
 Cover: Buildings are Hard Terrain.
-Entering a Building: Units comprised entirely of Infantry, Monstrous Infantry, War Beasts, Monstrous Beasts and/or
-Swarms may enter an empty Building by getting into base contact in the Remaining Moves sub-phase. The entire unit
-enters the Building and no model in the unit may move more than three times its Movement Characteristic while doing
-so (measure the distance from the models' starting position to the closest point of the Building). Units of the above
-mentioned Troop Types can also be deployed inside an empty Building. While inside the Building, the centre of the unit
-is considered to be the centre of the Building, and Range to and from models in the unit is measured to the edge of the
-Building. (Note that this means that for deploying units other than Scouting units inside Buildings, the Building must be
-completely within your Deployment Zone). A unit inside a Building is always considered to have 1 rank (not Full Rank)
-and 1 file. Models inside a Building gain the Flammable special rule until they leave the Building.
-Leaving a Building: A unit in a Building may abandon it in the Remaining Moves sub-phase, but cannot do so in the
-same turn during which it entered that Building. When it leaves, the unit is deployed in any formation with its back rank
-touching the Building and all models within twice their Movement Characteristic from the Building. The unit may not
-move anymore in this phase. Units in a Building cannot Declare Charges. A Building can also be left when fleeing
-(through failed Panic Tests or Breaking from combat). When this happens, first check the direction of flight and
-measure where the centre point of the unit would end up. Then place the unit with its centre at this point, with its front
-fa
-cing in the direction of flight and in any legal formation in which the unit follows the Unit Spacing rule. If this is not
-possible, deploy the unit in any legal formation, still with its front facing in the direction of flight, and move the unit
-along the flee direction until it can be placed.
-Shooting from a Building: Units shooting from a Building count as being of Large Height. No more than 15 models (or
-5 in the case of Monstrous models) may shoot from a Building.
-Ranged Attacks against units inside Buildings: Buildings are Hard Terrain for any unit inside the Building. If a
-Template touches a Building, it is assumed to touch D6 models of the unit inside the Building. (In case the Template has
-special rules for its centre, apply the rules for the centre for all models, but only if the centre touches the Building).
-Other movement: Any unit that is not entering, leaving, or assaulting a Building treats Buildings exactly like
-Impassable Terrain.
+Entering a Building: Units comprised entirely of Infantry, Monstrous Infantry, War Beasts, Monstrous Beasts and/or Swarms may enter an empty Building by getting into base contact in the Remaining Moves sub-phase. The entire unit enters the Building and no model in the unit may move more than three times its Movement Characteristic while doing so (measure the distance from the models' starting position to the closest point of the Building). Units of the above mentioned Troop Types can also be deployed inside an empty Building. While inside the Building, the centre of the unit is considered to be the centre of the Building, and Range to and from models in the unit is measured to the edge of the Building. (Note that this means that for deploying units other than Scouting units inside Buildings, the Building must be completely within your Deployment Zone). A unit inside a Building is always considered to have 1 rank (not Full Rank) and 1 file. Models inside a Building gain the Flammable special rule until they leave the Building.
+Leaving a Building: A unit in a Building may abandon it in the Remaining Moves sub-phase, but cannot do so in the same turn during which it entered that Building. When it leaves, the unit is deployed in any formation with its back rank touching the Building and all models within twice their Movement Characteristic from the Building. The unit may not move anymore in this phase. Units in a Building cannot Declare Charges. A Building can also be left when fleeing (through failed Panic Tests or Breaking from combat). When this happens, first check the direction of flight and measure where the centre point of the unit would end up. Then place the unit with its centre at this point, with its front facing in the direction of flight and in any legal formation in which the unit follows the Unit Spacing rule. If this is not possible, deploy the unit in any legal formation, still with its front facing in the direction of flight, and move the unit along the flee direction until it can be placed.
+Shooting from a Building: Units shooting from a Building count as being of Large Height. No more than 15 models (or 5 in the case of Monstrous models) may shoot from a Building.
+Ranged Attacks against units inside Buildings: Buildings are Hard Terrain for any unit inside the Building. If a Template touches a Building, it is assumed to touch D6 models of the unit inside the Building. (In case the Template has special rules for its centre, apply the rules for the centre for all models, but only if the centre touches the Building).
+Other movement: Any unit that is not entering, leaving, or assaulting a Building treats Buildings exactly like Impassable Terrain.
 
-Assaulting a Building: Declaring and resolving Charges against a unit in a Building is done in the same way as against a
-War Machine, including the fact that the charged unit cannot Flee as a Charge Reaction. Move the charging unit into
-base contact with the building, maximizing contact as normal. Mounts (of any kind) may not fight the unit in the
-Building in the ensuing combat, and any fighting model will not benefit from Impact Hits, Lances, Light Lances, Mount's
-Protection or Barding Armour Saves. Up to 10 models that are not in base contact with any other enemies can fight from
-each side and are then called Assaulting and Defending models, respectively. (Chariots, Monstrous Cavalry, Monstrous
-Infantry and Monstrous Beasts count as 3 models each for this purpose, while Monsters and Ridden Monsters count as
-6 models each.) These models are selected at the start of each Round of Combat, first by the Assaulting player and then
-by the Defending player.
-Each model can allocate its attacks to enemy models that are Assaulting or Defending models (to whom it will also
-count as being in base contact with). After the combat ends, calculate the Combat Score as usual, except that the unit in
-the Building counts as having no ranks for Combat Score or Steadfast purposes, and Standards (both ordinary
-Standards and Battle Standards) only count if the models carrying them were part of the chosen fighting party for that
-Round of Combat. After the combat is resolved, several different situations may arise:
-* If the combat was draw, or the Assaulting unit(s) won, but the Defenders didn't Break, the Assaulting unit(s)
-can choose to perform a Post Combat Pivot (ignoring the Building), and then be nudged back 1" from the
-Building, or keep Assaulting the Building, in which case both units will count as Engaged and the Assault will go
-on in the next Close Combat Phase. If an Assaulting unit is Engaged to other enemy units, it must choose to
-keep Assaulting the Building.
-* If an Assaulting unit won, and all its enemies broke from combat or were annihilated, an Assaulting unit can
-choose to enter the Building (if able to) or to perform a Post Combat Pivot (ignoring the Building) and then be
-nudged back 1". In the case of a Multiple Combat, it may also pursue an enemy unit that broke and was not
-garrisoning the Building.
-* If the Defending unit won, Assaulting units must pass a Break Test as usual or Flee from the combat. The
-garrisoning unit may not pursue. If the Break Test is passed, Assaulting units can attempt to perform a Combat
-Reform, applying the usual rules for units on the losing side of a combat. After that, Assaulting units are nudged
-back 1" from the Building and the units are no longer Engaged.
+Assaulting a Building: Declaring and resolving Charges against a unit in a Building is done in the same way as against a War Machine, including the fact that the charged unit cannot Flee as a Charge Reaction. Move the charging unit into base contact with the building, maximizing contact as normal. Mounts (of any kind) may not fight the unit in the Building in the ensuing combat, and any fighting model will not benefit from Impact Hits, Lances, Light Lances, Mount's Protection or Barding Armour Saves. Up to 10 models that are not in base contact with any other enemies can fight from each side and are then called Assaulting and Defending models, respectively. (Chariots, Monstrous Cavalry, Monstrous Infantry and Monstrous Beasts count as 3 models each for this purpose, while Monsters and Ridden Monsters count as 6 models each.) These models are selected at the start of each Round of Combat, first by the Assaulting player and then by the Defending player.
+Each model can allocate its attacks to enemy models that are Assaulting or Defending models (to whom it will also count as being in base contact with). After the combat ends, calculate the Combat Score as usual, except that the unit in the Building counts as having no ranks for Combat Score or Steadfast purposes, and Standards (both ordinary Standards and Battle Standards) only count if the models carrying them were part of the chosen fighting party for that Round of Combat. After the combat is resolved, several different situations may arise:
+* If the combat was draw, or the Assaulting unit(s) won, but the Defenders didn't Break, the Assaulting unit(s) can choose to perform a Post Combat Pivot (ignoring the Building), and then be nudged back 1" from the Building, or keep Assaulting the Building, in which case both units will count as Engaged and the Assault will go on in the next Close Combat Phase. If an Assaulting unit is Engaged to other enemy units, it must choose to keep Assaulting the Building.
+* If an Assaulting unit won, and all its enemies broke from combat or were annihilated, an Assaulting unit can choose to enter the Building (if able to) or to perform a Post Combat Pivot (ignoring the Building) and then be nudged back 1". In the case of a Multiple Combat, it may also pursue an enemy unit that broke and was not garrisoning the Building.
+* If the Defending unit won, Assaulting units must pass a Break Test as usual or Flee from the combat. The garrisoning unit may not pursue. If the Break Test is passed, Assaulting units can attempt to perform a Combat Reform, applying the usual rules for units on the losing side of a combat. After that, Assaulting units are nudged back 1" from the Building and the units are no longer Engaged.
 
 Scoring and Victory Conditions
-Scoring Victory Points
-At the end of each game, add up your Victory Points (VP) according to the rules below:
-Dead or Fled For each enemy unit that has been killed or has fled the Battlefield, you gain a number of
-VP equal to its point value.
-Scared For each enemy unit that is fleeing on the Battlefield at the end of the game, you gain a
-number of VP equal to half its point value (rounding up).
-Decimated For each enemy unit that is at or below 25% of its starting number of Wounds at the end
-of the game, you gain a number of VP equal to half its point value (rounding up).
-Characters are counted separately from the units they have joined.
-Their King is Dead If the enemy General was killed or has fled the Battlefield, you gain 100 VP.
-Their Flag is Down If the enemy Battle Standard Bearer was killed in combat or broke from combat, you gain
-100 VP.
-Seized Standards For each enemy unit's Standard Bearer model killed in combat or broken from combat,
-you gain 50 VP .
-Secondary Objectives Securing Secondary Objectives grants additional VP.
-Scoring Secondary Objectives
-There are three Secondary Objectives that can grant extra Victory Points (unless using the Victory Points Table). Before
-picking Deployment Zones, you can agree with your opponent on one or more Secondary Objectives (if any at all), or
-roll a D6 and consult the table below:
-1-2 Hold the Ground The player with the most Scoring Units within 6" of the Centre of the Board at the end
-of the game gains an extra 20% of the game's point size in VP.
-3-4 Breakthrough A player with one or more Scoring Units in their opponent's Deployment Zone at the
-end of the game gains an extra 20% of the game's point size in VP. Ambushers that
-entered the Battlefield on Game Turn 4 or later don't count for this purpose.
-5-6 Secure Target After determining Deployment Zones, both players each place one marker on the
-Battlefield, starting with the player that picked DeploymentZone.Each player has to
-place the marker more than 12" away from their Deployment Zone and 24" away
-from the other marker. At the end of the game, the player controlling the most
-markers gains an extra 20% of the game's point size in VP. A marker is controlled
-by the player who has the most Scoring Units within 6" of the marker.
+Scoring Victory Points: At the end of each game, add up your Victory Points (VP) according to the rules below: Dead or Fled For each enemy unit that has been killed or has fled the Battlefield, you gain a number of VP equal to its point value.
+Scared: For each enemy unit that is fleeing on the Battlefield at the end of the game, you gain a number of VP equal to half its point value (rounding up).  Decimated For each enemy unit that is at or below 25% of its starting number of Wounds at the end of the game, you gain a number of VP equal to half its point value (rounding up).  Characters are counted separately from the units they have joined.
+Their King is Dead: If the enemy General was killed or has fled the Battlefield, you gain 100 VP.
+Their Flag is Down: If the enemy Battle Standard Bearer was killed in combat or broke from combat, you gain 100 VP.
+Seized Standards: For each enemy unit's Standard Bearer model killed in combat or broken from combat, you gain 50 VP .
+Secondary Objectives: Securing Secondary Objectives grants additional VP.
+Scoring Secondary Objectives: There are three Secondary Objectives that can grant extra Victory Points (unless using the Victory Points Table). Before picking Deployment Zones, you can agree with your opponent on one or more Secondary Objectives (if any at all), or roll a D6 and consult the table below:
+1-2 Hold the Ground The player with the most Scoring Units within 6" of the Centre of the Board at the end of the game gains an extra 20% of the game's point size in VP.
+3-4 Breakthrough A player with one or more Scoring Units in their opponent's Deployment Zone at the end of the game gains an extra 20% of the game's point size in VP. Ambushers that entered the Battlefield on Game Turn 4 or later don't count for this purpose.
+5-6 Secure Target After determining Deployment Zones, both players each place one marker on the Battlefield, starting with the player that picked DeploymentZone.Each player has to place the marker more than 12" away from their Deployment Zone and 24" away from the other marker. At the end of the game, the player controlling the most markers gains an extra 20% of the game's point size in VP. A marker is controlled by the player who has the most Scoring Units within 6" of the marker.
 
-Scoring Units
-Scoring Units are used for capturing Secondary Objectives. All units with a Standard Bearer (including the Battle
-Standard Bearer) are Scoring Units, unless the unit (or any model in the unit) has Free Reform. Fleeing units and units
-consisting solely of Characters can never be Scoring Units.
-Who is the Winner?
-Once all the Victory Points are added together, compare the two results.
+Scoring Units: Scoring Units are used for capturing Secondary Objectives. All units with a Standard Bearer (including the Battle Standard Bearer) are Scoring Units, unless the unit (or any model in the unit) has Free Reform. Fleeing units and units consisting solely of Characters can never be Scoring Units.
+Who is the Winner?: Once all the Victory Points are added together, compare the two results.
 * If the difference in Victory Points is less than 5% of the game's point size, the game is a Draw .
 * If the difference is at least 5% and up to 20%, it is a Minor Win for the player who scored higher.
 * If the difference is more than 20% up to 60%, it is a Major Win instead.
 * If the difference is more than 60% of the game size, the game is a Massacre .
 This can also be noted numerically as 0 (Draw), 1 (Minor Win), 2 (Major Win) and 3 (Massacre), with the corresponding negative numbers for the losing player.
-Victory Points Table
-Some players enjoy having the result of the game determined at a finer scale, such as a more refined 10-0 system. This is commonly used in tournaments to be able to determine final standings with greater precision. You should decide before the game if you are using the Victory Points Table or the standard system above. If this system is used, a total of
-10 "Battle Points" are shared between the players, with more or less points to the winner depending on the Victory
-Points difference. Calculate the Victory Points as normal, except that the Secondary Objective is not worth any
-Victory Points but instead modifies the result directly by giving the player that won the Secondary Objective 2
-additional Battle Points, and the player that lost the Secondary Objective loses 2 Battle Points. Use the chart below to
-convert the Victory Points into Battle Points.
+Victory Points Table: Some players enjoy having the result of the game determined at a finer scale, such as a more refined 10-0 system. This is commonly used in tournaments to be able to determine final standings with greater precision. You should decide before the game if you are using the Victory Points Table or the standard system above. If this system is used, a total of 10 "Battle Points" are shared between the players, with more or less points to the winner depending on the Victory Points difference. Calculate the Victory Points as normal, except that the Secondary Objective is not worth any Victory Points but instead modifies the result directly by giving the player that won the Secondary Objective 2 additional Battle Points, and the player that lost the Secondary Objective loses 2 Battle Points. Use the chart below to convert the Victory Points into Battle Points.
 Victory Points Difference Battle Points
-Percentage of Total
-Army Cost
-(if playing 2400
-points)
-Winner Loser
+Percentage of Total Army Cost (if playing 2400 points) Winner Loser
 0 - 10% 0-240 VP 5 5
 >10 - 25% 241-601 VP 6 4
 >25 - 50% 601-1200 VP 7 3
 >50 - 100% >1201 VP 8 2
 Winning Secondary Objective +2 -2
 
-Special Rules
-Special rules are effects and abilities that can apply to whole models, model parts, weapons and spells.
-Special Rules and Multipart Models
-Which parts of the model have the special rule?
-When a multipart model has a special rule written on its profile, all its parts have this special rule unless stated otherwise.
-If a Character and its optional mount are listed under separate profiles, special rules that are listed under the
-Character's profile are not transferred to its mount (as if all rules said "rider only"). The same applies for mounts taken
-fr
-om the mount section of the Army Book: their special rules are not automatically transferred to their riders.
-Which parts of the model are affected by the special rule?
-Special rules have one or more effects. Effects are applied to model parts or whole models. If a special rule has two or
-more effects, these effects may work on different levels.
-* Characteristics change
-Effects changing the values of Characteristics only work on the model part which has the special rule.
-* Special Attacks
-Effects giving Special Attacks (such as Stomp, Grinding Attacks, Impact Hits, Breath Weapons) only work on the
-model part which has the special rule.
-* Attack modifiers
-Effects modifying attacks (such as Lethal Strike, Armour Piercing, Hatred) only work on the model part which
-has the special rule. Such effects are applied only to the Close Combat Attacks made by the model part (i.e. they
-do not apply to Shooting and Special Attacks) unless noted otherwise (such as Magical Attacks and Poisoned
-Attacks).
-* Defence
-Defensive effects (such as Armour Saves, Ward Saves, Regeneration, Fireborn, Distracting) always work on the
-whole model.
-The exceptions are Ridden Monsters: defensive effects specified for the rider are always ignored by the whole
-model.
-* Other
-All other effects always work on the whole model, and apply to all its parts.
+Special Rules: Special rules are effects and abilities that can apply to whole models, model parts, weapons and spells.
+Special Rules and Multipart Models: Which parts of the model have the special rule?  When a multipart model has a special rule written on its profile, all its parts have this special rule unless stated otherwise.  If a Character and its optional mount are listed under separate profiles, special rules that are listed under the Character's profile are not transferred to its mount (as if all rules said "rider only"). The same applies for mounts taken from the mount section of the Army Book: their special rules are not automatically transferred to their riders.
+Which parts of the model are affected by the special rule?: Special rules have one or more effects. Effects are applied to model parts or whole models. If a special rule has two or more effects, these effects may work on different levels.
+* Characteristics change: Effects changing the values of Characteristics only work on the model part which has the special rule.
+* Special Attacks: Effects giving Special Attacks (such as Stomp, Grinding Attacks, Impact Hits, Breath Weapons) only work on the model part which has the special rule.
+* Attack modifiers: Effects modifying attacks (such as Lethal Strike, Armour Piercing, Hatred) only work on the model part which has the special rule. Such effects are applied only to the Close Combat Attacks made by the model part (i.e. they do not apply to Shooting and Special Attacks) unless noted otherwise (such as Magical Attacks and Poisoned Attacks).
+* Defence: Defensive effects (such as Armour Saves, Ward Saves, Regeneration, Fireborn, Distracting) always work on the whole model.
+The exceptions are Ridden Monsters: defensive effects specified for the rider are always ignored by the whole model.
+* Other: All other effects always work on the whole model, and apply to all its parts.
 
-Effects and Units
-Some effects only work at the unit level. Examples are movement effects (such as Flying or Fast Cavalry), deployment
-effects (such as Scout or Vanguard), effects related to Break Tests (such as Unstable or Unbreakable) and effects
-enabling or forcing the unit to perform a special action (such as Frenzy).
-Some special rules specify how many models with this special rule the unit must have in order to be affected. For the
-sake of counting the models, multipart models are considered as having the special rule if at least one model part has it.
-For example, consider a Character that mount a Monstrous Beast with Frenzy. By default, Frenzy is not transferred to
-the rider, so it does not receive the attack bonus. However, when deciding whether to take a Frenzy test, to pursue or to
-overrun, the whole model is considered as having Frenzy.
-Weapons and Special Rules
-If a weapon has a special rule that modifies attacks, then only attacks made with that weapon will benefit from that rule.
-For example, a Handgun with the special rule Armour Piercing will perform Armour Piercing Shooting Attacks. The
-model will not benefit from the Handgun's special rule when performing Close Combat Attacks or when shooting with
-other weapons.
+Effects and Units: Some effects only work at the unit level. Examples are movement effects (such as Flying or Fast Cavalry), deployment effects (such as Scout or Vanguard), effects related to Break Tests (such as Unstable or Unbreakable) and effects enabling or forcing the unit to perform a special action (such as Frenzy).
+Some special rules specify how many models with this special rule the unit must have in order to be affected. For the sake of counting the models, multipart models are considered as having the special rule if at least one model part has it.  For example, consider a Character that mount a Monstrous Beast with Frenzy. By default, Frenzy is not transferred to the rider, so it does not receive the attack bonus. However, when deciding whether to take a Frenzy test, to pursue or to overrun, the whole model is considered as having Frenzy.
+Weapons and Special Rules: If a weapon has a special rule that modifies attacks, then only attacks made with that weapon will benefit from that rule.  For example, a Handgun with the special rule Armour Piercing will perform Armour Piercing Shooting Attacks. The model will not benefit from the Handgun's special rule when performing Close Combat Attacks or when shooting with other weapons.
 Interacting Special Rules
-Duplicated special rules
-Sometimes a model may have the same special rule more than once, for example when a model gains a special rule that
-it already had or gains the same special rule from two different sources. In such a case, the effects of the duplicated
-special rules do not stack and do not offer any additional benefit, unless specifically noted otherwise. If the duplicate
-special rules have different (X) values, choose the version with the highest one. If the X is the result of a dice roll, it
-sometimes is not clear which X is the highest. In this case you may choose which rule to use (before rolling any dice).
-For example, if a unit possesses Magic Resistance (2) and Magic Resistance (3), then it is considered to possess Magic
-Resistance (3). As a counterexample, Fight In Extra Rank is one of the rare special rules specifically allowed to stack. A
-unit that already has Fight In Extra Rank and gains Fight In Extra Rank is able to fight with two extra ranks.
-Special Attacks
-Special Attacks (like Stomp or Breath Weapon) are typically not made with the model's weapon. Special Attacks do not
-benefit from special rules that modify normal Close Combat Attacks or normal Shooting Attacks (including special rules
-that modify Characteristics). However, Special Attacks may benefit from other sources of rules (as long as they are not
-special rules) or characteristics increases, such as spells or Magic Items. For example, a Great Weapon or Thunderous
-Charge does not increase the Strength of Stomp attacks, but a Potion of Strength or the spell "The Beast Within" does.
+Duplicated special rules: Sometimes a model may have the same special rule more than once, for example when a model gains a special rule that it already had or gains the same special rule from two different sources. In such a case, the effects of the duplicated special rules do not stack and do not offer any additional benefit, unless specifically noted otherwise. If the duplicate special rules have different (X) values, choose the version with the highest one. If the X is the result of a dice roll, it sometimes is not clear which X is the highest. In this case you may choose which rule to use (before rolling any dice).
+For example, if a unit possesses Magic Resistance (2) and Magic Resistance (3), then it is considered to possess Magic Resistance (3). As a counterexample, Fight In Extra Rank is one of the rare special rules specifically allowed to stack. A unit that already has Fight In Extra Rank and gains Fight In Extra Rank is able to fight with two extra ranks.
+Special Attacks: Special Attacks (like Stomp or Breath Weapon) are typically not made with the model's weapon. Special Attacks do not benefit from special rules that modify normal Close Combat Attacks or normal Shooting Attacks (including special rules that modify Characteristics). However, Special Attacks may benefit from other sources of rules (as long as they are not special rules) or characteristics increases, such as spells or Magic Items. For example, a Great Weapon or Thunderous Charge does not increase the Strength of Stomp attacks, but a Potion of Strength or the spell "The Beast Within" does.
 
 List of Special Rules
-Ambush
-Before deploying an army that includes units with the Ambush special rule, you must state which of your units with this
-special rule will use it (starting with the player that picked the Deployment Zone). Deploy your army as usual, but
-without deploying any of the Ambushing units. Starting from Turn 2, roll a dice for each Ambushing unit at the start of
-each of your Remaining Moves sub-phases. If a 3+ is rolled, the Ambushing unit enters the Battlefield from any table
-edge. Place the arriving unit with all of its back rank touching the Board Edge. Ambushing models are free to move in
-the Remaining Moves sub-phase, except that they may not March Move, and they must end this Movement Phase no
-more than twice their Movement value from the Board Edge. If an Ambushing unit does not roll 3+ in any Remaining
-Moves sub-phase before the game ends, it fails to enter the board. The unit counts as destroyed. An Ambushing
-Character may choose to be deployed within an Ambushing unit that it would normally be allowed to join. In that case
-the player rolls once for the combined unit.
-Armour Piercing (X)
-Close Combat Attacks made by parts of models with this special rule impose a -X penalty on the enemy's Armour Saves
-taken against them (in addition to the normal modifier from the Strength of the attack). If an attack has more than one
-instance of the Armour Piercing special rule, use the highest value available for the attack.
-Bodyguard (X)
-When a Character is joined to a unit in which at least one model has the Bodyguard special rule, that Character gains
-Stubborn. When Characters or Character types are stated in brackets, Bodyguard only works for the specified
-Characters or Character types.
-Breath Weapon (X)
-A model with a Breath Weapon can use it once during the game. It can be used either as a Special Shooting Attack or as a
-Special Close Combat Attack.
-* As a Special Shooting Attack (normally in the Shooting Phase): Choose a target using the normal rules for
-Shooting Attacks. The attack has a Range of 6". This attack can be used even if the model Marched in the
-previous Movement Phase as well as for a Stand and Shoot Charge Reaction.
-* As a Special Close Combat Attack (normally in the Close Combat Phase): The attack is made at the model's
-Initiative (or the Initiative for the relevant part of the model). Declare that you are using the Breath Weapon
-when allocating attacks, and choose a unit in base contact to attack with it.
-No matter if it is used as a Shooting or Close Combat Attack, a Breath Weapon causes 2D6 automatic hits on its target.
-The Strength and the special rules (if any) of these hits are given within brackets, such as "Breath Weapon (Strength 4,
-Flaming Attacks)".
-Cannot March
-Units with one or more models with this special rule cannot perform a March Move.
-Channel
-Each model with this special rule adds +1 to its side's Channel rolls. All Wizards have this special rule.
-Crush Attack
-A model part with this rule can exchange all of its normal Close Combat Attacks for a single Special Attack, which cannot
-be made as a Supporting Attack, is resolved at Initiative 0, has Strength 10 and Multiple Wounds (Ordnance). The model
-can still make Special Attacks like Stomp or Impact Hits.
-
-Cumbersome
-Shooting Weapons with this special rule or Shooting Attacks from model parts with this special rule can never Stand
-and Shoot as a Charge Reaction.
-Daemonic Instability
-Units with this rule never flee from combat. Instead, the player rolls 2D6 like a normal Break Test, adds the result to the
-Combat Score difference and then deducts the unit's Leadership value. Simplified formula: 2D6+CS-Ld . The test is failed
-if the total is a positive number and the unit loses a number of Wounds equal to the value by which the test was failed.
-These Wounds are distributed following the rules for Unstable with no saves of any kind allowed.
-Devastating Charge
-In the first round of a combat after a model with this rule has successfully charged into combat, model parts with this
-special rule have +1 Attack.
-Distracting
-Close Combat Attacks allocated at a model with this special rule suffer a -1 penalty when rolling to hit. This to-hit
-modifier cannot be combined with any other negative to-hit modifiers.
-Divine Attacks
-Successful Ward Saves taken against attacks with this special rule, or against Close Combat Attacks made by model
-parts with this special rule must be rerolled.
-Engineer
-A model with this special rule allows a War Machine within 3" to use the Engineer's Ballistic Skill instead of its own and
-to reroll any rolls on the Misfire Table. (If there are several War Machines within 3" of the Engineer, declare which one
-will receive the Engineer's benefits this turn before firing it). If the War Machine has an Artillery Weapon type listed
-below, there is an additional benefit. The War Machine may reroll:
+Ambush: Before deploying an army that includes units with the Ambush special rule, you must state which of your units with this special rule will use it (starting with the player that picked the Deployment Zone). Deploy your army as usual, but without deploying any of the Ambushing units. Starting from Turn 2, roll a dice for each Ambushing unit at the start of each of your Remaining Moves sub-phases. If a 3+ is rolled, the Ambushing unit enters the Battlefield from any table edge. Place the arriving unit with all of its back rank touching the Board Edge. Ambushing models are free to move in the Remaining Moves sub-phase, except that they may not March Move, and they must end this Movement Phase no more than twice their Movement value from the Board Edge. If an Ambushing unit does not roll 3+ in any Remaining Moves sub-phase before the game ends, it fails to enter the board. The unit counts as destroyed. An Ambushing Character may choose to be deployed within an Ambushing unit that it would normally be allowed to join. In that case the player rolls once for the combined unit.
+Armour Piercing (X): Close Combat Attacks made by parts of models with this special rule impose a -X penalty on the enemy's Armour Saves taken against them (in addition to the normal modifier from the Strength of the attack). If an attack has more than one instance of the Armour Piercing special rule, use the highest value available for the attack.
+Bodyguard (X): When a Character is joined to a unit in which at least one model has the Bodyguard special rule, that Character gains Stubborn. When Characters or Character types are stated in brackets, Bodyguard only works for the specified Characters or Character types.
+Breath Weapon (X): A model with a Breath Weapon can use it once during the game. It can be used either as a Special Shooting Attack or as a Special Close Combat Attack.
+* As a Special Shooting Attack (normally in the Shooting Phase): Choose a target using the normal rules for Shooting Attacks. The attack has a Range of 6". This attack can be used even if the model Marched in the previous Movement Phase as well as for a Stand and Shoot Charge Reaction.
+* As a Special Close Combat Attack (normally in the Close Combat Phase): The attack is made at the model's Initiative (or the Initiative for the relevant part of the model). Declare that you are using the Breath Weapon when allocating attacks, and choose a unit in base contact to attack with it.
+No matter if it is used as a Shooting or Close Combat Attack, a Breath Weapon causes 2D6 automatic hits on its target.  The Strength and the special rules (if any) of these hits are given within brackets, such as "Breath Weapon (Strength 4, Flaming Attacks)".
+Cannot March: Units with one or more models with this special rule cannot perform a March Move.
+Channel: Each model with this special rule adds +1 to its side's Channel rolls. All Wizards have this special rule.
+Crush Attack: A model part with this rule can exchange all of its normal Close Combat Attacks for a single Special Attack, which cannot be made as a Supporting Attack, is resolved at Initiative 0, has Strength 10 and Multiple Wounds (Ordnance). The model can still make Special Attacks like Stomp or Impact Hits.
+Cumbersome: Shooting Weapons with this special rule or Shooting Attacks from model parts with this special rule can never Stand and Shoot as a Charge Reaction.
+Daemonic Instability: Units with this rule never flee from combat. Instead, the player rolls 2D6 like a normal Break Test, adds the result to the Combat Score difference and then deducts the unit's Leadership value. Simplified formula: 2D6+CS-Ld . The test is failed if the total is a positive number and the unit loses a number of Wounds equal to the value by which the test was failed.  These Wounds are distributed following the rules for Unstable with no saves of any kind allowed.
+Devastating Charge: In the first round of a combat after a model with this rule has successfully charged into combat, model parts with this special rule have +1 Attack.
+Distracting: Close Combat Attacks allocated at a model with this special rule suffer a -1 penalty when rolling to hit. This to-hit modifier cannot be combined with any other negative to-hit modifiers.
+Divine Attacks: Successful Ward Saves taken against attacks with this special rule, or against Close Combat Attacks made by model parts with this special rule must be rerolled.
+Engineer: A model with this special rule allows a War Machine within 3" to use the Engineer's Ballistic Skill instead of its own and to reroll any rolls on the Misfire Table. (If there are several War Machines within 3" of the Engineer, declare which one will receive the Engineer's benefits this turn before firing it). If the War Machine has an Artillery Weapon type listed below, there is an additional benefit. The War Machine may reroll:
 * for Catapults: The Scatter Dice.
 * for Flame Throwers: The D6 roll for the distance the Template moves, unless it is a '6'.
 This rule cannot be used by a model that is Engaged in Combat.
-Ethereal
-Models with this special rule have Magical Attacks and a Ward Save (2+) which cannot be used against Magical Attacks.
-Characters without the Ethereal special rule cannot join units that include R&F models with the Ethereal special rule.
-Models with this special rule treat all Terrain as Open Terrain for movement purposes but cannot end their movement
-inside (or within 1" of) Impassable Terrain. If a multipart model has this rule, mounts will only ever benefit from
-Magical Attacks and treat all Terrain as Open Terrain (for the Ward Save and not being allowed to be joined, the rider
-must have this special rule).
-Fast Cavalry
-Models with this special rule have Free Reform and Vanguard. If a unit consisting solely of models with Fast Cavalry
-voluntarily flees as a Charge Reaction and subsequently rallies the next turn then the unit may move and shoot during
-that turn. The rallied unit may not charge and counts as having moved for the purpose of shooting. This rule cannot be
-applied if a unit fails to rally on the first turn or involuntarily flees, such as a result of a failed Panic Test.
-Fear
-All enemy units in base contact with one or more models with this special rule suffer a -1 Leadership modifier. Models
-that are Immune to Psychology or that have Fear themselves are immune to the effects of Fear. At the start of each Combat Round, units in base contact with one or more enemy models with Fear must take a Leadership Test. If this test
-is failed, the models in the unit have their Weapon Skill reduced to 1 for the remainder of the Combat Round.
-Fight in Extra Rank
-Models with this special rule can make Supporting Attacks from an additional Rank. (So, normally, this means that
-models with this special rule will be able to make Supporting Attacks from the 3rd rank). This rule is cumulative,
-allowing an additional rank to make Supporting Attacks for each instance of this special rule.
-Fireborn
-Model parts with this special rule have a Ward Save (2+) against Flaming Attacks.
-Flaming Attacks
-This rule is applied to attacks made with this special rule and attacks from model parts with this special rule (both Close
-Combat and Shooting Attacks). They don't normally have any special effect. However, they interact with other rules
-(such as Flammable and Regeneration).
-Flammable
-Attacks with the Flaming Attacks special rule must reroll failed to-wound rolls against models with this special rule.
-Fly (X)
-Units composed entirely of models with this special rule can make Flying Movements in the Move Chargers and
-Remaining Moves sub-phases. When a unit makes a Flying Movement, substitute the models' Movement Characteristic
-with the value given in brackets (X). However, they cannot end their Movement inside or within 1" of a unit or
-Impassable Terrain (unless charging, when the normal exceptions to the Unit Spacing rule apply). Units using Flying
-Movement ignore any Terrain or units they fly over from their starting to their ending position, but they are still
-affected by the effects of the Terrain from which they take off and in which they land. Flying Movement can be used to
-March. Models with the Fly special rule also always have Swiftstride and Free Reform.
-Free Reform
-Units composed entirely of models with this special rule are allowed to make any number of Reforms when moving in
-the Remaining Moves sub-phase, while they may still Advance or March. They are allowed to shoot even if they Marched
-or Reformed. No model may move more than its Movement allowance (or twice that number if Marching), from its
-starting position to its final position, around any obstructions (including the Unit Spacing rule). If a model performed
-any action during the movement (such as Sky Serpents' Slashing attacks), the distance moved is counted from its
-starting position to the point on the Battlefield where it performed that action and then to their its position. If at least
-half of the models in a unit have the Free Reform special rule, the unit always counts as having 0 Full Ranks.
-
-Frenzy
-Model parts with Frenzy have +1 Attack and are Immune to Psychology. After all charges have been declared, each of
-your units with one or more models (or model parts) with Frenzy must take a Frenzy Test (Leadership Test) if it did not
-declare a charge. If the test is failed, the unit must declare a charge against the closest viable enemy unit, if there is one.
-Characters are never forced to charge out of units. Units with one or more model parts with Frenzy must always pursue
-and overrun whenever possible. If a model part with Frenzy is ever on the losing side of a Combat Round, it
-immediately loses this special rule.
-Grinding Attacks (X)
-Model parts with this special rule can make a Special Close Combat Attack at their own Initiative against a single enemy
-unit in base contact. This attack deals a number of hits equal to the value stated within brackets (X). These attacks
-automatically hit and have a Strength equal to the model's own Strength. Grinding Attacks never benefit from any
-equipment or special rule the model may have (since they are Special Attacks). If a model has both Grinding Attacks and
-Impact Hits, it may only use one of these rules in the same Round of Combat (you are free to choose which one).
-Hard Target
-Shooting Attacks targeting a unit in which the majority of models have this special rule suffer a -1 penalty when rolling
-to hit.
-Hatred
-Model parts with this special rule may reroll failed to-hit rolls during the first Round of Combat. Sometimes this rule
-may only work against certain enemies, which are then stated in brackets. For example, "Hatred (Army Book: Empire of
-Sonnstahl)" means that Hatred only applies when attacking models from the Empire of Sonnstahl Army Book.
-Hellfire
-At the end of a phase in which a unit has suffered one or more unsaved Wounds from a model part or an Attack with
-this rule, the unit suffers an additional D6 Strength 1 hits. No saves of any kind can be taken against Wounds caused by
-these additional hits.
-Hidden
-A model with this special rule can choose to be deployed as "Hidden". In this case secretly note in which friendly
-(non-Character) unit it is hiding. This unit must already have been deployed, must have the same Troop Type as the
-model with Hidden, and the model must be allowed to join it normally. If the hiding model is a unit Champion, it must
-hide in its own unit.
-While hidden, the model cannot be harmed or otherwise affected, nor affect the game in any way (e.g. attack or use or
-benefit from Magical Items). Unless the unit that the Character is hiding in is fleeing, the model can be revealed at the
-start or end of any Player Turn or at the start of any Round of Combat of a Close Combat that its unit is participating in.
-Place the model inside the unit as if it just joined it, placing it as far forward as possible (Front Rank), except that it
-cannot move other models with the Front Rank rule. Once revealed, the model functions as normal and this rule has no
-further effect. If the model is never revealed during the game (for example, because its unit was destroyed), the hiding
-model counts as killed.
-Immune to Psychology
-If half or more of a unit's models are Immune to Psychology, the unit automatically passes Panic Tests and cannot
-declare a Flee reaction (unless already fleeing). Models that are Immune to Psychology are also immune to the effects of
-Fear.
-
-Impact Hits (X)
-Impact Hits are Special Close Combat Attacks which can only be made in the first Round of Combat after a model with this rule successfully charged into combat. Impact Hits are resolved at Initiative 10 and inflict a number of hits equal to the value stated within brackets (X) to a single enemy unit in base contact, which must be the charged enemy unit.
-Impact Hits automatically hit and have a Strength value equal to the model's own Strength, with +1 to Strength for every Full Rank after the first in the unit, provided that those ranks are comprised entirely of models with the Impact Hits special rule. Due to being Special Attacks, Impact Hits do not benefit from weapon bonuses or special rules. If a model has both Grinding Attacks and Impact Hits, it may only use one of these rule in the same Combat Round (you are free to choose which one).
-Insignificant
-Units consisting entirely of models with this special rule do not cause Panic Tests in units without this special rule. Only
-Insignificant Characters can join units with Insignificant R&F models.
-Large Target
-A Large Target can never be joined or join a unit (unless it is a War Platform). A Large Target increases its Hold Your Ground or Inspiring Presence Range by 6". A model with Large Target is of Large Height.
-Lethal Strike
-If an Attack with this special rule, or a Close Combat Attack from a model part with this special rule rolls an unmodified '6' to wound, this Wound has Armour Piercing (6) and Regeneration Saves cannot be taken against it.
-Lightning Attack
-Units with the Fly special rule that, suffer one or more hits during a single phase from attacks with this special rule, or attacks from model parts with this special rule, suffer an additional D6 Strength 4 hits at the end of that Phase.
-Lightning Reflexes
-Model parts with this special rule have +1 to hit with their Close Combat Attacks.This does not apply if the model part would be striking at initiative 0 (for example due to a Great Weapon or the Mesmeric Allure spell).If this is the case, it strikes at its own Initiative instead.
-Magic Resistance (X)
-All models in a unit with one or more models with Magic Resistance add the value within brackets (X)to any Ward Save rolls (using the same rules as for adding to Armour Saves) when rolling Ward Saves against Wounds caused by spell effects. Magic Resistance, like most special rules, is not cumulative.
-Magical Attacks
-Attacks with this special rule or Attacks made by model parts with this special rule normally don't have any special
-effect. However, they interact with other rules (such as Ethereal). Models with this special rule apply it to all their
-attacks, including Special Attacks such as Stomp, ImpactHits, and BreathAttacks (unless stated otherwise).All damage from spells, Miscast hits and Magical Items causes Magical Attacks.
-Metalshifting
-Attacks with this special rule or CloseCombatAttacks made by model parts with this special rule don't roll to wound as
-normal. Instead, they always wound on a roll equal to or greater than the target's Armour Save. An unmodified '6'
-always wounds and an unmodified '1' always fails to wound. These attacks have Armour Piercing (6) and Flaming
-Attacks.
-Move or Fire
-Shooting Weapons or model parts with this special rule may not shoot if they moved during the current Player Turn.
-Multiple Shots (X)
-Shooting Weapons or model parts with this special rule may choose to fire multiple times instead of a single time, in
-each Shooting Phase. How many times they can shoot is stated in brackets. However, using this special rule imposes a -1
-to hit modifier on all shots fired. All R&F models in a single unit must use the Multiple Shots rule if at least one of them
-uses this rule.
-Multiple Wounds (X, Y )
-Unsaved Wounds caused by attacks with this special rule or by Close Combat Attacks from model parts with this special
-rule are multiplied into the value given in brackets (X). If the value is a Dice (such as "Multiple Wounds (D3)"), roll one
-such Dice for each unsaved Wound with this special rule. The amount of Wounds that the attack is multiplied into can
-never be higher than the Wounds Characteristic of the Target (excluding Wounds suffered previously in the battle). For
-example, if a Multiple Wounds (D6) attack wounds a Troll (W3) and rolls a '5' for the amount of Wounds, this is reduced
-to 3 Wounds.
-If (Ordnance) is stated as the value in brackets, this normally counts as Multiple Wounds (D3+1), but against targets
-with the Fly special rule this is increased to Multiple Wounds (D3+2).
-Sometimes this rule is connected to certain Troop Types or special rules. If this is the case, the Troop Type will be given
-within brackets (Y), for example Multiple Wounds (2, Infantry). If this is the case, only apply the Multiple Wounds rule
-when attacking models of the given Troop Type or possessing the given special rules.
+Ethereal: Models with this special rule have Magical Attacks and a Ward Save (2+) which cannot be used against Magical Attacks.  Characters without the Ethereal special rule cannot join units that include R&F models with the Ethereal special rule.  Models with this special rule treat all Terrain as Open Terrain for movement purposes but cannot end their movement inside (or within 1" of) Impassable Terrain. If a multipart model has this rule, mounts will only ever benefit from Magical Attacks and treat all Terrain as Open Terrain (for the Ward Save and not being allowed to be joined, the rider must have this special rule).
+Fast Cavalry: Models with this special rule have Free Reform and Vanguard. If a unit consisting solely of models with Fast Cavalry voluntarily flees as a Charge Reaction and subsequently rallies the next turn then the unit may move and shoot during that turn. The rallied unit may not charge and counts as having moved for the purpose of shooting. This rule cannot be applied if a unit fails to rally on the first turn or involuntarily flees, such as a result of a failed Panic Test.
+Fear: All enemy units in base contact with one or more models with this special rule suffer a -1 Leadership modifier. Models that are Immune to Psychology or that have Fear themselves are immune to the effects of Fear. At the start of each Combat Round, units in base contact with one or more enemy models with Fear must take a Leadership Test. If this test is failed, the models in the unit have their Weapon Skill reduced to 1 for the remainder of the Combat Round.
+Fight in Extra Rank: Models with this special rule can make Supporting Attacks from an additional Rank. (So, normally, this means that models with this special rule will be able to make Supporting Attacks from the 3rd rank). This rule is cumulative, allowing an additional rank to make Supporting Attacks for each instance of this special rule.
+Fireborn: Model parts with this special rule have a Ward Save (2+) against Flaming Attacks.
+Flaming Attacks: This rule is applied to attacks made with this special rule and attacks from model parts with this special rule (both Close Combat and Shooting Attacks). They don't normally have any special effect. However, they interact with other rules (such as Flammable and Regeneration).
+Flammable: Attacks with the Flaming Attacks special rule must reroll failed to-wound rolls against models with this special rule.
+Fly (X): Units composed entirely of models with this special rule can make Flying Movements in the Move Chargers and Remaining Moves sub-phases. When a unit makes a Flying Movement, substitute the models' Movement Characteristic with the value given in brackets (X). However, they cannot end their Movement inside or within 1" of a unit or Impassable Terrain (unless charging, when the normal exceptions to the Unit Spacing rule apply). Units using Flying Movement ignore any Terrain or units they fly over from their starting to their ending position, but they are still affected by the effects of the Terrain from which they take off and in which they land. Flying Movement can be used to March. Models with the Fly special rule also always have Swiftstride and Free Reform.
+Free Reform: Units composed entirely of models with this special rule are allowed to make any number of Reforms when moving in the Remaining Moves sub-phase, while they may still Advance or March. They are allowed to shoot even if they Marched or Reformed. No model may move more than its Movement allowance (or twice that number if Marching), from its starting position to its final position, around any obstructions (including the Unit Spacing rule). If a model performed any action during the movement (such as Sky Serpents' Slashing attacks), the distance moved is counted from its starting position to the point on the Battlefield where it performed that action and then to their its position. If at least half of the models in a unit have the Free Reform special rule, the unit always counts as having 0 Full Ranks.
+Frenzy: Model parts with Frenzy have +1 Attack and are Immune to Psychology. After all charges have been declared, each of your units with one or more models (or model parts) with Frenzy must take a Frenzy Test (Leadership Test) if it did not declare a charge. If the test is failed, the unit must declare a charge against the closest viable enemy unit, if there is one.  Characters are never forced to charge out of units. Units with one or more model parts with Frenzy must always pursue and overrun whenever possible. If a model part with Frenzy is ever on the losing side of a Combat Round, it immediately loses this special rule.
+Grinding Attacks (X): Model parts with this special rule can make a Special Close Combat Attack at their own Initiative against a single enemy unit in base contact. This attack deals a number of hits equal to the value stated within brackets (X). These attacks automatically hit and have a Strength equal to the model's own Strength. Grinding Attacks never benefit from any equipment or special rule the model may have (since they are Special Attacks). If a model has both Grinding Attacks and Impact Hits, it may only use one of these rules in the same Round of Combat (you are free to choose which one).
+Hard Target: Shooting Attacks targeting a unit in which the majority of models have this special rule suffer a -1 penalty when rolling to hit.
+Hatred: Model parts with this special rule may reroll failed to-hit rolls during the first Round of Combat. Sometimes this rule may only work against certain enemies, which are then stated in brackets. For example, "Hatred (Army Book: Empire of Sonnstahl)" means that Hatred only applies when attacking models from the Empire of Sonnstahl Army Book.
+Hellfire: At the end of a phase in which a unit has suffered one or more unsaved Wounds from a model part or an Attack with this rule, the unit suffers an additional D6 Strength 1 hits. No saves of any kind can be taken against Wounds caused by these additional hits.
+Hidden: A model with this special rule can choose to be deployed as "Hidden". In this case secretly note in which friendly (non-Character) unit it is hiding. This unit must already have been deployed, must have the same Troop Type as the model with Hidden, and the model must be allowed to join it normally. If the hiding model is a unit Champion, it must hide in its own unit.  While hidden, the model cannot be harmed or otherwise affected, nor affect the game in any way (e.g. attack or use or benefit from Magical Items). Unless the unit that the Character is hiding in is fleeing, the model can be revealed at the start or end of any Player Turn or at the start of any Round of Combat of a Close Combat that its unit is participating in.  Place the model inside the unit as if it just joined it, placing it as far forward as possible (Front Rank), except that it cannot move other models with the Front Rank rule. Once revealed, the model functions as normal and this rule has no further effect. If the model is never revealed during the game (for example, because its unit was destroyed), the hiding model counts as killed.
+Immune to Psychology: If half or more of a unit's models are Immune to Psychology, the unit automatically passes Panic Tests and cannot declare a Flee reaction (unless already fleeing). Models that are Immune to Psychology are also immune to the effects of Fear.
+Impact Hits (X): Impact Hits are Special Close Combat Attacks which can only be made in the first Round of Combat after a model with this rule successfully charged into combat. Impact Hits are resolved at Initiative 10 and inflict a number of hits equal to the value stated within brackets (X) to a single enemy unit in base contact, which must be the charged enemy unit.  Impact Hits automatically hit and have a Strength value equal to the model's own Strength, with +1 to Strength for every Full Rank after the first in the unit, provided that those ranks are comprised entirely of models with the Impact Hits special rule. Due to being Special Attacks, Impact Hits do not benefit from weapon bonuses or special rules. If a model has both Grinding Attacks and Impact Hits, it may only use one of these rule in the same Combat Round (you are free to choose which one).
+Insignificant: Units consisting entirely of models with this special rule do not cause Panic Tests in units without this special rule. Only Insignificant Characters can join units with Insignificant R&F models.
+Large Target: A Large Target can never be joined or join a unit (unless it is a War Platform). A Large Target increases its Hold Your Ground or Inspiring Presence Range by 6". A model with Large Target is of Large Height.
+Lethal Strike: If an Attack with this special rule, or a Close Combat Attack from a model part with this special rule rolls an unmodified '6' to wound, this Wound has Armour Piercing (6) and Regeneration Saves cannot be taken against it.
+Lightning Attack: Units with the Fly special rule that, suffer one or more hits during a single phase from attacks with this special rule, or attacks from model parts with this special rule, suffer an additional D6 Strength 4 hits at the end of that Phase.
+Lightning Reflexes: Model parts with this special rule have +1 to hit with their Close Combat Attacks.This does not apply if the model part would be striking at initiative 0 (for example due to a Great Weapon or the Mesmeric Allure spell).If this is the case, it strikes at its own Initiative instead.
+Magic Resistance (X): All models in a unit with one or more models with Magic Resistance add the value within brackets (X)to any Ward Save rolls (using the same rules as for adding to Armour Saves) when rolling Ward Saves against Wounds caused by spell effects. Magic Resistance, like most special rules, is not cumulative.
+Magical Attacks: Attacks with this special rule or Attacks made by model parts with this special rule normally don't have any special effect. However, they interact with other rules (such as Ethereal). Models with this special rule apply it to all their attacks, including Special Attacks such as Stomp, ImpactHits, and BreathAttacks (unless stated otherwise).All damage from spells, Miscast hits and Magical Items causes Magical Attacks.
+Metalshifting: Attacks with this special rule or CloseCombatAttacks made by model parts with this special rule don't roll to wound as normal. Instead, they always wound on a roll equal to or greater than the target's Armour Save. An unmodified '6' always wounds and an unmodified '1' always fails to wound. These attacks have Armour Piercing (6) and Flaming Attacks.
+Move or Fire: Shooting Weapons or model parts with this special rule may not shoot if they moved during the current Player Turn.
+Multiple Shots (X): Shooting Weapons or model parts with this special rule may choose to fire multiple times instead of a single time, in each Shooting Phase. How many times they can shoot is stated in brackets. However, using this special rule imposes a -1 to hit modifier on all shots fired. All R&F models in a single unit must use the Multiple Shots rule if at least one of them uses this rule.
+Multiple Wounds (X, Y): Unsaved Wounds caused by attacks with this special rule or by Close Combat Attacks from model parts with this special rule are multiplied into the value given in brackets (X). If the value is a Dice (such as "Multiple Wounds (D3)"), roll one such Dice for each unsaved Wound with this special rule. The amount of Wounds that the attack is multiplied into can never be higher than the Wounds Characteristic of the Target (excluding Wounds suffered previously in the battle). 
+For example, if a Multiple Wounds (D6) attack wounds a Troll (W3) and rolls a '5' for the amount of Wounds, this is reduced to 3 Wounds.
+If (Ordnance) is stated as the value in brackets, this normally counts as Multiple Wounds (D3+1), but against targets with the Fly special rule this is increased to Multiple Wounds (D3+2).
+Sometimes this rule is connected to certain Troop Types or special rules. If this is the case, the Troop Type will be given within brackets (Y), for example Multiple Wounds (2, Infantry). If this is the case, only apply the Multiple Wounds rule when attacking models of the given Troop Type or possessing the given special rules.
 Not a Leader
 Models with this rule can never be the General.
 Otherworldly
