@@ -1037,146 +1037,43 @@ Multiple Wounds (X, Y): Unsaved Wounds caused by attacks with this special rule 
 For example, if a Multiple Wounds (D6) attack wounds a Troll (W3) and rolls a '5' for the amount of Wounds, this is reduced to 3 Wounds.
 If (Ordnance) is stated as the value in brackets, this normally counts as Multiple Wounds (D3+1), but against targets with the Fly special rule this is increased to Multiple Wounds (D3+2).
 Sometimes this rule is connected to certain Troop Types or special rules. If this is the case, the Troop Type will be given within brackets (Y), for example Multiple Wounds (2, Infantry). If this is the case, only apply the Multiple Wounds rule when attacking models of the given Troop Type or possessing the given special rules.
-Not a Leader
-Models with this rule can never be the General.
-Otherworldly
-Models with this special rule have Magical Attacks, are Immune to Psychology and have a Ward Save (5+). Units with
-the Otherworldly special rule can only be joined by Otherworldly Characters. Similarly, Otherworldly Characters can
-only join Otherworldly units.
-Pathmaster
-Wizards with this special rule do not randomly select spells as usual. Instead, they can freely choose their spells from
-the Path stated in brackets (but they still cannot duplicate non-signature spells).
-Poisoned Attacks
-If an attack with this special rule, or an attack from a model part with this special rule (both Shooting and Close Combat
-Attacks), rolls an unmodified '6' to hit, it automatically wounds with no to-wound roll needed. Shooting Attacks that
-need a 7+ to hit (or more) can never benefit from Poisoned Attacks.
-Quick to Fire
-Shooting Weapons with this special rule or Shooting Attacks from model parts with this special rule don't suffer the -1
-penalty for Moving and Shooting and can make a Stand and Shoot Charge Reaction regardless of the distance to the
-charging unit.
-
-Random Attacks (X)
-A model part with this rule has a random number of Attacks equal to the value between brackets (before adding
-possible modifier to it). For example, a model with Random Attacks (D3+2) can have between 3 and 5 Attacks. These
-attacks ignore the limit which states that a model may have a maximum of 10 attacks.
-Random Movement (X)
-Units with this special rule cannot Declare Charges and cannot move in theRemainingMovessub-phase.Instead,they
-move in the Compulsory Moves sub-phase. Models with this special rule always Charge, Flee, Pursue and Overrunthe
-distance stated in brackets, and can never benefit from Swiftstride.
-During the Compulsory Moves sub-phase, units with this special rule move using the rules for pursuing units, except
-that they can freely choose which direction to rotate towards before rolling the Pursuit distance, cannot move off the
-Board Edge and only take Dangerous Terrain tests if they actually charge an enemy unit (they still test as normal when fleeing, pursuing a broken enemy or Overrunning).
-If a unit with this special rule is garrisoning a Building, it must leave it by placing the unit 1" away from the Building (or as close as possible) during the Compulsory Moves sub-phase, and then move, using the normal rules for Random
-Movement. (It may not charge in the same turn. If it would, it stops 1" before the enemy unit instead).
-Characters with Random Movement can only join units with the same special rule (by moving into contact with them
-during the CompulsoryMoves sub-phase), and units with this rule can only be joined by Random Movement Characters.
-If a unit has several sets of Random Movement, use the lowest one.
-Regeneration (X)
-Regeneration is a special save, taken after a failed Armour Save. The value of the save will be stated in brackets.
-Regeneration Saves cannot be taken alongside Ward Saves (if a model has both, it must choose which onetouse)and
-cannot be taken against Flaming Attacks or Lethal Strike blows that rolled '6' to wound.
-Requires Two Hands
-A model wielding a Weapon with this special rule cannot simultaneously use a Shield.
-Scout
-Before deploying an army that includes units with Scout, you must state which of your units with this special rule will use it, starting with the player that picked the DeploymentZone. Deploy your army as usual, but without deploying any of the Scouting units. These units are placed after all other non-Scouting units have been deployed. They can either be
-deployed in your Deployment Zone, using the normal rules, or they can be deployed outside the Deployment Zone, but must be more than 18" away from any enemy units. Scouting units that are deployed outside their player's Deployment
-Zone may not Declare Charges in the first Player Turn (if their side has the first turn). If both players have Scouting
-units, alternate deploying one unit at a time, starting with the player that finished deploying first.
-Scythes
-Models with Scythes add +1 to their number of Impact Hits.
-Skirmishers
-Models with this special rule always also have Free Reform. Shooting at Skirmishers suffers a -1 to hit penalty.
-Skirmishing models are not placed in base to base contact with each other. Instead, models are placed with a 1/2"
-distance between them. Other than this gap between models, units of Skirmishers follow the normal rules for forming
-units and therefore have a front, two flanks and a rear. Skirmishing units can only be joined by Characters that have the
-same Troop Type as the unit. A Character which joins a unit of Skirmishers gains Skirmishers for as long as it remains
-with the unit. The Character is always considered Mismatched for the purpose of placement within the unit unless it has
-the exact same base size as the other Skirmisher models.
-After Skirmishing units declares a Charges or a Charge Reaction other than Flee, they immediately contract their loose formation into a normal formation. When doing this, the model closest to the charged or charging unit must not change
-position, see Figure 14. If several models are equally close, the Active Player chooses which model is considered to be
-the closest. Skirmishers regain their loose formation if they are not Engaged in Combat at the beginning of any
-Movement Phase (of any player). Keep the centre of the front rank stationary. If there isn't enough room for the unit to
-regain its loose formation, keep the unit in tight formation until the first place where there is enough room.
-Stomp (X)
-A model with this special rule can make a Special Attack in the Close Combat Phase at Initiative 0 against a single enemy
-unit in base contact, provided that the Troop Type of the target unit is Infantry, War Beast, Swarm or War Machine. This
-attack deals a number of hits equal to the value stated within brackets (X), which automatically hit and have a Strength
-equal to the model's own Strength.
-In multipart models, riders can never Stomp. Stomp attacks can only ever be allocated to models that can normally be
-stomped. Being a Special Attack, Stomp never benefits from any equipment or special rule the model has.
-Strider
-Models with this special rule may ignore any movement effect caused by Terrain except Impassable Terrain and
-Buildings and never lose their Steadfast or Rank Bonus due to Terrain. Sometimes this special rule is only linked to a
-specific type of Terrain, stated in brackets. In this case, the Strider rule effect is only applied in relation to the specified
-Terrain type.
-Stubborn
-A unit with at least one model with this special rule ignores any Combat Score penalties to its Leadership when taking
-Break Tests or Combat Reform Leadership Tests.
-Stupidity
-At the start of a Player Turn, each of the Active Player's units with one or more models (or a part of them) with this
-special rule must take a Leadership Test. If the test is failed, the unit must move D6" directly forward (stopping 1"
-before Impassible Terrain or other units) in the Compulsory Moves sub-phase and may not perform any other
-voluntary actions this Player Turn (such as charging, moving, shooting, casting spells and so on). If the model has no
-fr
-ont (i.e. the model is on a round base), randomize which direction to move in. All models with the Stupidity special
-rule are also Immune to Psychology.
-Swiftstride
-When a unit composed entirely of models with this special rule rolls Charge Range, Flee Distance, Pursuit Distance or
-Overrun Distance, it rolls an additional D6 (normally this will lead to rolling 3D6) and discards the lowest dice.
-Terror
-When a unit with one or more models with this special rule declares a Charge, its target must take a Panic Test. If the
-test is failed, the target of the Charge must declare a Flee Reaction, if able to do so. All models with Terror also have the
-Fear special rule and are immune to Fear and Terror.
-Thunderous Charge
-In the first round of a combat after a model with this rule has successfully charged, model parts with this special rule
-receive a +1 Strength bonus to their normal Close Combat Attacks. This Strength bonus can only be used for Attacks
-directed against the charged enemies.
-Toxic Attacks
-Attacks with this special rule or Close Combat Attacks made by models with this special rule are always Strength 3 and
-Armour Piercing (6). Toxic Attacks have a -1 to wound modifier against models (or parts of them) with either the Mark
-of the Dark Gods (Pestilence) or the Plague Cult special rule.
-Unbreakable
-Units with this special rule are Immune to Psychology and automatically pass all Break Tests. Characters with the
-Unbreakable special rule can only join Unbreakable units. Unbreakable units can only be joined by Unbreakable
-Characters.
-Undead
-Units with this special rule have the Unstable and Immune to Psychology special rules. Undead units cannot March,
-unless they start their move within the General's Inspiring Presence Range. The only Charge Reaction an Undead unit
-can make is Hold.
-Unstable
-Units with this special rule automatically pass all Break Tests. When a unit with this special rule loses a combat, it
-suffers a Wound (without any saves allowed) for each point of Combat Score by which it lost the combat. Unstable units
-receiving Hold You Ground reduce the number of Wounds caused by the Combat Score difference by 1. The Wounds are
-distributed in the following order:
+Not a Leader: Models with this rule can never be the General.
+Otherworldly: Models with this special rule have Magical Attacks, are Immune to Psychology and have a Ward Save (5+). Units with the Otherworldly special rule can only be joined by Otherworldly Characters. Similarly, Otherworldly Characters can only join Otherworldly units.
+Pathmaster: Wizards with this special rule do not randomly select spells as usual. Instead, they can freely choose their spells from the Path stated in brackets (but they still cannot duplicate non-signature spells).
+Poisoned Attacks: If an attack with this special rule, or an attack from a model part with this special rule (both Shooting and Close Combat Attacks), rolls an unmodified '6' to hit, it automatically wounds with no to-wound roll needed. Shooting Attacks that need a 7+ to hit (or more) can never benefit from Poisoned Attacks.
+Quick to Fire: Shooting Weapons with this special rule or Shooting Attacks from model parts with this special rule don't suffer the -1 penalty for Moving and Shooting and can make a Stand and Shoot Charge Reaction regardless of the distance to the charging unit.  
+Random Attacks (X): A model part with this rule has a random number of Attacks equal to the value between brackets (before adding possible modifier to it). For example, a model with Random Attacks (D3+2) can have between 3 and 5 Attacks. These attacks ignore the limit which states that a model may have a maximum of 10 attacks.
+Random Movement (X): Units with this special rule cannot Declare Charges and cannot move in the Remaining Moves sub-phase. Instead, they move in the Compulsory Moves sub-phase. Models with this special rule always Charge, Flee, Pursue and Overrunthe distance stated in brackets, and can never benefit from Swiftstride.  During the Compulsory Moves sub-phase, units with this special rule move using the rules for pursuing units, except that they can freely choose which direction to rotate towards before rolling the Pursuit distance, cannot move off the Board Edge and only take Dangerous Terrain tests if they actually charge an enemy unit (they still test as normal when fleeing, pursuing a broken enemy or Overrunning).
+If a unit with this special rule is garrisoning a Building, it must leave it by placing the unit 1" away from the Building (or as close as possible) during the Compulsory Moves sub-phase, and then move, using the normal rules for Random Movement. (It may not charge in the same turn. If it would, it stops 1" before the enemy unit instead).
+Characters with Random Movement can only join units with the same special rule (by moving into contact with them during the CompulsoryMoves sub-phase), and units with this rule can only be joined by Random Movement Characters.  If a unit has several sets of Random Movement, use the lowest one.
+Regeneration (X): Regeneration is a special save, taken after a failed Armour Save. The value of the save will be stated in brackets.  Regeneration Saves cannot be taken alongside Ward Saves (if a model has both, it must choose which one to use) and cannot be taken against Flaming Attacks or Lethal Strike blows that rolled '6' to wound.
+Requires Two Hands: A model wielding a Weapon with this special rule cannot simultaneously use a Shield.
+Scout: Before deploying an army that includes units with Scout, you must state which of your units with this special rule will use it, starting with the player that picked the DeploymentZone. Deploy your army as usual, but without deploying any of the Scouting units. These units are placed after all other non-Scouting units have been deployed. They can either be deployed in your Deployment Zone, using the normal rules, or they can be deployed outside the Deployment Zone, but must be more than 18" away from any enemy units. Scouting units that are deployed outside their player's Deployment Zone may not Declare Charges in the first Player Turn (if their side has the first turn). If both players have Scouting units, alternate deploying one unit at a time, starting with the player that finished deploying first.
+Scythes: Models with Scythes add +1 to their number of Impact Hits.
+Skirmishers: Models with this special rule always also have Free Reform. Shooting at Skirmishers suffers a -1 to hit penalty.  Skirmishing models are not placed in base to base contact with each other. Instead, models are placed with a 1/2" distance between them. Other than this gap between models, units of Skirmishers follow the normal rules for forming units and therefore have a front, two flanks and a rear. Skirmishing units can only be joined by Characters that have the same Troop Type as the unit. A Character which joins a unit of Skirmishers gains Skirmishers for as long as it remains with the unit. The Character is always considered Mismatched for the purpose of placement within the unit unless it has the exact same base size as the other Skirmisher models.  After Skirmishing units declares a Charges or a Charge Reaction other than Flee, they immediately contract their loose formation into a normal formation. When doing this, the model closest to the charged or charging unit must not change position, see Figure 14. If several models are equally close, the Active Player chooses which model is considered to be the closest. Skirmishers regain their loose formation if they are not Engaged in Combat at the beginning of any Movement Phase (of any player). Keep the centre of the front rank stationary. If there isn't enough room for the unit to regain its loose formation, keep the unit in tight formation until the first place where there is enough room.
+Stomp (X): A model with this special rule can make a Special Attack in the Close Combat Phase at Initiative 0 against a single enemy unit in base contact, provided that the Troop Type of the target unit is Infantry, War Beast, Swarm or War Machine. This attack deals a number of hits equal to the value stated within brackets (X), which automatically hit and have a Strength equal to the model's own Strength.  In multipart models, riders can never Stomp. Stomp attacks can only ever be allocated to models that can normally be stomped. Being a Special Attack, Stomp never benefits from any equipment or special rule the model has.
+Strider: Models with this special rule may ignore any movement effect caused by Terrain except Impassable Terrain and Buildings and never lose their Steadfast or Rank Bonus due to Terrain. Sometimes this special rule is only linked to a specific type of Terrain, stated in brackets. In this case, the Strider rule effect is only applied in relation to the specified Terrain type.
+Stubborn: A unit with at least one model with this special rule ignores any Combat Score penalties to its Leadership when taking Break Tests or Combat Reform Leadership Tests.
+Stupidity: At the start of a Player Turn, each of the Active Player's units with one or more models (or a part of them) with this special rule must take a Leadership Test. If the test is failed, the unit must move D6" directly forward (stopping 1" before Impassible Terrain or other units) in the Compulsory Moves sub-phase and may not perform any other voluntary actions this Player Turn (such as charging, moving, shooting, casting spells and so on). If the model has no front (i.e. the model is on a round base), randomize which direction to move in. All models with the Stupidity special rule are also Immune to Psychology.
+Swiftstride: When a unit composed entirely of models with this special rule rolls Charge Range, Flee Distance, Pursuit Distance or Overrun Distance, it rolls an additional D6 (normally this will lead to rolling 3D6) and discards the lowest dice.
+Terror: When a unit with one or more models with this special rule declares a Charge, its target must take a Panic Test. If the test is failed, the target of the Charge must declare a Flee Reaction, if able to do so. All models with Terror also have the Fear special rule and are immune to Fear and Terror.
+Thunderous Charge: In the first round of a combat after a model with this rule has successfully charged, model parts with this special rule receive a +1 Strength bonus to their normal Close Combat Attacks. This Strength bonus can only be used for Attacks directed against the charged enemies.
+Toxic Attacks: Attacks with this special rule or Close Combat Attacks made by models with this special rule are always Strength 3 and Armour Piercing (6). Toxic Attacks have a -1 to wound modifier against models (or parts of them) with either the Mark of the Dark Gods (Pestilence) or the Plague Cult special rule.
+Unbreakable: Units with this special rule are Immune to Psychology and automatically pass all Break Tests. Characters with the Unbreakable special rule can only join Unbreakable units. Unbreakable units can only be joined by Unbreakable Characters.
+Undead: Units with this special rule have the Unstable and Immune to Psychology special rules. Undead units cannot March, unless they start their move within the General's Inspiring Presence Range. The only Charge Reaction an Undead unit can make is Hold.
+Unstable: Units with this special rule automatically pass all Break Tests. When a unit with this special rule loses a combat, it suffers a Wound (without any saves allowed) for each point of Combat Score by which it lost the combat. Unstable units receiving Hold You Ground reduce the number of Wounds caused by the Combat Score difference by 1. The Wounds are distributed in the following order:
 1. R&F models (excluding Champions)
 2. Champion
 3. Characters (distributed by the owner of the unit, as evenly as possible)
 A unit with both Unstable and Stubborn halves (round fractions up) the number of Wounds caused by Unstable (apply this before applying other modifiers to the number of caused Wounds).
-Unwieldy
-Shooting Weapons with this special rule or Shooting Attacks from model parts with this special rule suffer an additional -1 to hit (for a total of -2) for Moving and Shooting.
-Vanguard
-After Deployment (including Scouts), units composed entirely of models with this special rule may performa 12" move.
-The move is performed as if in the Remaining Moves sub-phase, including any actions and restrictions the unit would normally have in the Remaining Moves sub-phase (such as Wheeling, Reforming, joining units, leaving units and so on). The 12" distance is used instead of the unit's Movement Characteristic and no March Moves are allowed. This move cannot be used to move within 12" of enemy units. Units that have moved in this way may not Declare Charges in the
-first Player Turn (if their side has the first turn).If both players have units with Vanguard, alternate moving units one at a time, starting with the player that finished deploying first.
-Volley Fire
-Shooting Weapons with this special rule or ShootingAttacks from model parts with this special rule ignore intervening models for Cover purposes when shooting. (However, they don't ignore Terrain and must still be able to draw a LineofSight to their target). Furthermore, (unless making a Stand and Shoot ChargeReaction)if the unit hasn't moved in this Player Turn, all models with a VolleyFire ShootingWeapon may shoot (even if they are further back than the usual first two ranks allowed to shoot).
-War Platform
-Models with this special rule may join units as if they were Characters (even if they are not Characters and even if they are Large Targets), and follow the rules for Characters with regards to distributing hits. While joined to and moving
-with a unit consisting of 5 or more models (besides the WarPlatform itself)a model with the War Platform special rule
-may March even though its Troop Type would normally forbid it, for example if it is a Chariot.When joined to a unit, it must always be placed in the centre of the front rank (possibly pushing back models with the Front Rank rule). If the model cannot be placed in the centre of the the front rank (for example due to Mismatching bases or the front rank
-being too narrow), the model cannot join the unit. This means that a War Platform can never join a unit with
-Mismatching bases. Models with this rule lose Swiftstride.
-Ward Save (X)
-Ward Saves are special saves, taken after failed Armour Saves. The value of the save will be stated in brackets. Ward
-Saves cannot be taken alongside Regeneration Saves (if a model has both, it must choose which one to use).
-Weapon Master
-At the beginning of each Round of Combat, model parts with this special rule may choose which weapon they fight with.
-This includes selecting to use a Hand Weapon even if they have other weapons. If armed with a Magical Weapon, the
-model must still use it.
-Wizard Conclave (Spells)
-The Champion of a unit with the Wizard Conclave special rule receives +1 Wound in addition to the normal
-Characteristics increases associated with being a Champion and is a Level 1 WizardApprentice. This Champion knows
-predetermined spells, which are defined within brackets. For example, the Champion of a Wizard Conclave(BlueFire, Pink Fire) would be is a 1 Wizard Apprentice with two predetermined spells (Blue Fire and Pink Fire).
+Unwieldy: Shooting Weapons with this special rule or Shooting Attacks from model parts with this special rule suffer an additional -1 to hit (for a total of -2) for Moving and Shooting.
+Vanguard: After Deployment (including Scouts), units composed entirely of models with this special rule may perform a 12" move.
+The move is performed as if in the Remaining Moves sub-phase, including any actions and restrictions the unit would normally have in the Remaining Moves sub-phase (such as Wheeling, Reforming, joining units, leaving units and so on). The 12" distance is used instead of the unit's Movement Characteristic and no March Moves are allowed. This move cannot be used to move within 12" of enemy units. Units that have moved in this way may not Declare Charges in the first Player Turn (if their side has the first turn).If both players have units with Vanguard, alternate moving units one at a time, starting with the player that finished deploying first.
+Volley Fire: Shooting Weapons with this special rule or ShootingAttacks from model parts with this special rule ignore intervening models for Cover purposes when shooting. (However, they don't ignore Terrain and must still be able to draw a LineofSight to their target). Furthermore, (unless making a Stand and Shoot ChargeReaction)if the unit hasn't moved in this Player Turn, all models with a VolleyFire ShootingWeapon may shoot (even if they are further back than the usual first two ranks allowed to shoot).
+War Platform: Models with this special rule may join units as if they were Characters (even if they are not Characters and even if they are Large Targets), and follow the rules for Characters with regards to distributing hits. While joined to and moving with a unit consisting of 5 or more models (besides the WarPlatform itself) a model with the War Platform special rule may March even though its Troop Type would normally forbid it, for example if it is a Chariot. When joined to a unit, it must always be placed in the centre of the front rank (possibly pushing back models with the Front Rank rule). If the model cannot be placed in the centre of the the front rank (for example due to Mismatching bases or the front rank being too narrow), the model cannot join the unit. This means that a War Platform can never join a unit with Mismatching bases. Models with this rule lose Swiftstride.
+Ward Save (X): Ward Saves are special saves, taken after failed Armour Saves. The value of the save will be stated in brackets. Ward Saves cannot be taken alongside Regeneration Saves (if a model has both, it must choose which one to use).
+Weapon Master: At the beginning of each Round of Combat, model parts with this special rule may choose which weapon they fight with.  This includes selecting to use a Hand Weapon even if they have other weapons. If armed with a Magical Weapon, the model must still use it.
+Wizard Conclave (Spells): The Champion of a unit with the Wizard Conclave special rule receives +1 Wound in addition to the normal Characteristics increases associated with being a Champion and is a Level 1 WizardApprentice. This Champion knows predetermined spells, which are defined within brackets. For example, the Champion of a Wizard Conclave(BlueFire, Pink Fire) would be is a 1 Wizard Apprentice with two predetermined spells (Blue Fire and Pink Fire).
 
 Figure 14
 Green unit is a Skirmishing unit (with a joined mismatching Character).
@@ -1186,8 +1083,7 @@ c) Pink unit declares a Charge (note that this unit is now in the flank of the g
 d) Move units into contact.
 
 Magical Items
-Magical Item Categories
-All Magical Items belong to one of the following categories:
+Magical Item Categories: All Magical Items belong to one of the following categories:
 * Magical Weapons
 * Magical Armour
 * Talismans
@@ -1195,273 +1091,110 @@ All Magical Items belong to one of the following categories:
 * Arcane Items
 * Magical Standards
 Each category of Magical Items is subject to the following specific rules.
-Magical Weapons
-A model armed with a Magical Weapon (including Magical Hand Weapons) is obliged to use it, even if it is armed with more than one weapon. A Magical Hand Weapon cannot be used to Parry.
-Magical Armour
-Most Magical Armour have a type, their mundane counterpart. They follow all the rules associated with this mundane armour in addition to the rules stated in their description. If a Magical Armour is ever destroyed, it reverts to its mundane type. If a model has an armour of the same type as its Magical Armour, the Magical Armour replaces it (for example, if a model has Heavy Armour and buys a Magical Light Armour, the mundane heavy armour is lost). A Magical Shield cannot be used alongside a Hand Weapon to Parry.
-A Magical Armour cannot be taken by Wizards, unless the Wizard has a mundane armour other than Innate Defence, Mount's Protection and Barding or the option to buy it.
-Talismans and Enchanted Items
-No additional rules.
-Arcane Items
-Arcane Items can only be taken by Wizards.
-Magical Standards
-Only Standard Bearers can bear Magical Standards. They are usually either a unit's Standard Bearer or the army's Battle Standard Bearer.
-Magical Item Types
-Each Magical Item has a type which is the same as its mundane counterpart and which follows all of its associated rules and restrictions. For example, a Magical Lance confers +2 Strength when charging and can only be used by mounted models, War Beasts or Monstrous Beasts, exactly like a normal Lance would. If a Magical Item is destroyed it is considered to revert to its mundane type.
+Magical Weapons: A model armed with a Magical Weapon (including Magical Hand Weapons) is obliged to use it, even if it is armed with more than one weapon. A Magical Hand Weapon cannot be used to Parry.
+Magical Armour: Most Magical Armour have a type, their mundane counterpart. They follow all the rules associated with this mundane armour in addition to the rules stated in their description. If a Magical Armour is ever destroyed, it reverts to its mundane type. If a model has an armour of the same type as its Magical Armour, the Magical Armour replaces it (for example, if a model has Heavy Armour and buys a Magical Light Armour, the mundane heavy armour is lost). A Magical Shield cannot be used alongside a Hand Weapon to Parry.  A Magical Armour cannot be taken by Wizards, unless the Wizard has a mundane armour other than Innate Defence, Mount's Protection and Barding or the option to buy it.
+Talismans and Enchanted Items: No additional rules.
+Arcane Items: Arcane Items can only be taken by Wizards.
+Magical Standards: Only Standard Bearers can bear Magical Standards. They are usually either a unit's Standard Bearer or the army's Battle Standard Bearer.
+Magical Item Types: Each Magical Item has a type which is the same as its mundane counterpart and which follows all of its associated rules and restrictions. For example, a Magical Lance confers +2 Strength when charging and can only be used by mounted models, War Beasts or Monstrous Beasts, exactly like a normal Lance would. If a Magical Item is destroyed it is considered to revert to its mundane type.
 
 Restrictions
 * All Magical Items have the rule One per Army: they cannot be duplicated within an army.
 * No model can have more than one Magical Item of the same category.
 * Certain Magical Items may have additional restrictions associated with them.
-Point Cost
-Most Magical Items have a point cost displayed after their name. Some Magical Items have two point costs instead (e.g. Giant Sword (60 pts / 50 pts) ). The first value has to be paid if the model choosing the Item is a Lord choice, and the second if the model is a Hero choice.
-Magical Items and Mounted Models
-Magical Items often refer to their "wearer" or "bearer". These terms mean the same thing and refer to the part of the model the item was bought for, excluding its mount . Other Items affect the "model" or the "wearer's model"; these terms refer to the entire model including the mount (note that these terms override the restriction for Ridden Monster's Profile). Finally, a third group of Items refers to the "unit"; these items affect the entire unit of the model (including mounts).
-One Use Only
-These Items can only be used once. Once they are used, the Items count as eliminated for all game purposes.
+Point Cost: Most Magical Items have a point cost displayed after their name. Some Magical Items have two point costs instead (e.g. Giant Sword (60 pts / 50 pts) ). The first value has to be paid if the model choosing the Item is a Lord choice, and the second if the model is a Hero choice.
+Magical Items and Mounted Models: Magical Items often refer to their "wearer" or "bearer". These terms mean the same thing and refer to the part of the model the item was bought for, excluding its mount . Other Items affect the "model" or the "wearer's model"; these terms refer to the entire model including the mount (note that these terms override the restriction for Ridden Monster's Profile). Finally, a third group of Items refers to the "unit"; these items affect the entire unit of the model (including mounts).
+One Use Only: These Items can only be used once. Once they are used, the Items count as eliminated for all game purposes.
 
 List of Common Magical Items
 The Magical Items listed below are considered "Common Magical Items" and are available to all models/units who have the option to buy Magical Items. They are often bought in addition to army-specific Magical Items.
 Magical Weapons
-Giant Sword (60 pts / 50 pts)
-Type: Hand Weapon. Attacks made with this weapon gain +3 Strength.
-Skull Splitter (50 pts)
-Type: Shooting Weapon. Range 24", Strength 4, Multiple Shots (4), Armour Piercing (1), always hits on 4+.
-Blade of Strife (45 pts)
-Type: Hand Weapon. The wielder has +3 Attacks.
-Ogre Sword (40 pts)
-Type: Hand Weapon. Attacks made with this weapon gain
-+2 Strength.
-Obsidian Sword (35 pts)
-Type: Hand Weapon. Attacks made with this weapon have
-Armour Piercing (6).
-Fencer's Swords (35 pts) - models on foot only
-Type: Additional Hand Weapon. The wielder has Weapon
-Skill 10.
-Axe of Battle (35 pts)
-Type: Hand Weapon. The wielder has +2 Attacks.
-King Slayer (30 pts)
-Type: Hand Weapon. The wielder has +1 Strength and +1
-Attack for each enemy Character in base contact with the
-wielder's unit (this bonus is calculated and in effect at the
-Initiative step when the attacks are made).
-Beast-Bane Halberd (30 pts)
-Type: Halberd. Attacks made with this weapon have
-Strength 5 (regardless of modifiers) and Multiple Wounds
-(2, Monsters, Ridden Monsters, Monstrous Cavalry,
-Monstrous Infantry, Monstrous Beasts, Chariots).
-Sword of Haste (25 pts)
-Type: Hand Weapon. The wielder strikes at Initiative 10.
-Attacks with this weapon always wound on a score of 4+ (at
-worst).
-Fleshrender (20 pts)
-Type: Great Weapon. Attacks made with this weapon have
-Armour Piercing (1).
-Blessed Sword (20 pts)
-Type: Hand Weapon. Attacks made with this weapon have
-Divine Attacks and may reroll failed to-wound rolls.
-Sword of Strength (15 pts)
-Type: Hand Weapon. Attacks made with this weapon have
-+1 Strength.
-Sword of Skill (15 pts)
-Type: Hand Weapon. Attacks made with this weapon have
-+1 to hit.
-Flaming Lance (10 pts)
-Type: Lance. Attacks made with this weapon have Flaming
-Attacks.
-Screaming Swords (10 pts) - models on foot only
-Type: Additional Hand Weapon. The wielder causes Fear.
-Razor Blade (5 pts)
-Type: Hand Weapon. Attacks made with this weapon have
-Armour Piercing (1).
+Giant Sword (60 pts / 50 pts): Type: Hand Weapon. Attacks made with this weapon gain +3 Strength.
+Skull Splitter (50 pts): Type: Shooting Weapon. Range 24", Strength 4, Multiple Shots (4), Armour Piercing (1), always hits on 4+.
+Blade of Strife (45 pts): Type: Hand Weapon. The wielder has +3 Attacks.
+Ogre Sword (40 pts): Type: Hand Weapon. Attacks made with this weapon gain +2 Strength.
+Obsidian Sword (35 pts): Type: Hand Weapon. Attacks made with this weapon have Armour Piercing (6).
+Fencer's Swords (35 pts): models on foot only Type: Additional Hand Weapon. The wielder has Weapon Skill 10.
+Axe of Battle (35 pts): Type: Hand Weapon. The wielder has +2 Attacks.
+King Slayer (30 pts): Type: Hand Weapon. The wielder has +1 Strength and +1 Attack for each enemy Character in base contact with the wielder's unit (this bonus is calculated and in effect at the Initiative step when the attacks are made).
+Beast-Bane Halberd (30 pts): Type: Halberd. Attacks made with this weapon have Strength 5 (regardless of modifiers) and Multiple Wounds (2, Monsters, Ridden Monsters, Monstrous Cavalry, Monstrous Infantry, Monstrous Beasts, Chariots).
+Sword of Haste (25 pts): Type: Hand Weapon. The wielder strikes at Initiative 10.  Attacks with this weapon always wound on a score of 4+ (at worst).
+Fleshrender (20 pts): Type: Great Weapon. Attacks made with this weapon have Armour Piercing (1).
+Blessed Sword (20 pts): Type: Hand Weapon. Attacks made with this weapon have Divine Attacks and may reroll failed to-wound rolls.
+Sword of Strength (15 pts): Type: Hand Weapon. Attacks made with this weapon have +1 Strength.
+Sword of Skill (15 pts): Type: Hand Weapon. Attacks made with this weapon have +1 to hit.
+Flaming Lance (10 pts): Type: Lance. Attacks made with this weapon have Flaming Attacks.
+Screaming Swords (10 pts): models on foot only Type: Additional Hand Weapon. The wielder causes Fear.
+Razor Blade (5 pts): Type: Hand Weapon. Attacks made with this weapon have Armour Piercing (1).
 
 Magical Armour
-Force Shield (70 pts)
-Type: Shield. The bearer's model has a Ward Save (5+)
-against Ranged Attacks.
-Armour of Destiny (50 pts)
-Type: Heavy Armour. The wearer has a Ward Save (4+).
-Bluffer's Helm (35 pts) - cannot be taken by Large Targets
-Type: None (6+ Armour Save). Successful to-wound rolls
-against the wearer must be rerolled.
-Armour of Fortune (30 pts)
-Type: Heavy Armour. The wearer has a Ward Save (5+).
-Mithril Mail - models on foot only (30 pts)
-Type: Heavy Armour (2+ Armour Save). This Armour Save
+Force Shield (70 pts): Type: Shield. The bearer's model has a Ward Save (5+) against Ranged Attacks.
+Armour of Destiny (50 pts): Type: Heavy Armour. The wearer has a Ward Save (4+).
+Bluffer's Helm (35 pts): cannot be taken by Large Targets Type: None (6+ Armour Save). Successful to-wound rolls against the wearer must be rerolled.
+Armour of Fortune (30 pts): Type: Heavy Armour. The wearer has a Ward Save (5+).
+Mithril Mail - models on foot only (30 pts): Type: Heavy Armour (2+ Armour Save). This Armour Save
 cannot be combined with Innate Defence or shields.
-Glittering Cuirass (30 pts)
-Type: Heavy Armour (5+). The wearer has the Distracting
-special rule.
-Bronze Breastplate (25 pts)
-Type: Heavy Armour. One use only. Whenever the wearer's model suffers a hit, the item can be activated. For the duration of the Phase, the wearer's model has 1+ Armour Save.
-Dragon Mantle - models on foot only (25 pts)
-The wearer has Innate Defence (5+).
-Gambler's Armour (15 pts)
-Type: Heavy Armour. The wearer has a Ward Save (6+).
-Dragonscale Helm (10 pts)
-Type: None (6+ Armour Save). The wearer has the Fireborn
-special rule.
-Hardened Shield (5 pts)
-Type: Shield. Adds an additional +1 to the bearer's Armour
+Glittering Cuirass (30 pts): Type: Heavy Armour (5+). The wearer has the Distracting special rule.
+Bronze Breastplate (25 pts): Type: Heavy Armour. One use only. Whenever the wearer's model suffers a hit, the item can be activated. For the duration of the Phase, the wearer's model has 1+ Armour Save.
+Dragon Mantle - models on foot only (25 pts): The wearer has Innate Defence (5+).
+Gambler's Armour (15 pts): Type: Heavy Armour. The wearer has a Ward Save (6+).
+Dragonscale Helm (10 pts): Type: None (6+ Armour Save). The wearer has the Fireborn special rule.
+Hardened Shield (5 pts): Type: Shield. Adds an additional +1 to the bearer's Armour
 Save (for a total of +2).
-Lucky Shield (5 pts)
-Type: Shield. Ignore the first hit the bearer's model suffers
-while wielding the shield.
+Lucky Shield (5 pts): Type: Shield. Ignore the first hit the bearer's model suffers while wielding the shield.
 
 Talismans
-Talisman of Supreme Shielding (50 pts)
-The bearer has a Ward Save (4+).
-Sprout of Rebirth ( 50 pts)
-The bearer has Regeneration (4+).
-Obsidian Nullstone (45 pts)
-The bearer has Magic Resistance (3).
-Dusk Stone (30 pts)
-The bearer may reroll failed Armour Saves.
-Obsidian Rock (30 pts)
-The bearer has Magic Resistance (2).
-Talisman of Greater Shielding (30 pts)
-The bearer has a Ward Save (5+).
-Gemstone Amulet (15 pts)
-One use only. May be activated when the bearer's model fails an Armour Save (or doesn't get an Armour Save).
-The bearer's model then gains a Ward Save (4+) against
-this Wound.
-Obsidian Pebble (10 pts)
-The bearer has Magic Resistance (1).
-Lucky Charm (5 pts)
-One use only. May be activated when the bearer'smodel
-fails an Armour Save. That failed Armour Save may then
-be rerolled.
-Dragonfire Gem (5 pts)
-The bearer gains the Fireborn special rule.
-Talisman of Shielding (5 pts)
-The bearer has a Ward Save (6+).
+Talisman of Supreme Shielding (50 pts): The bearer has a Ward Save (4+).
+Sprout of Rebirth (50 pts): The bearer has Regeneration (4+).
+Obsidian Nullstone (45 pts): The bearer has Magic Resistance (3).
+Dusk Stone (30 pts): The bearer may reroll failed Armour Saves.
+Obsidian Rock (30 pts): The bearer has Magic Resistance (2).
+Talisman of Greater Shielding (30 pts): The bearer has a Ward Save (5+).
+Gemstone Amulet (15 pts): One use only. May be activated when the bearer's model fails an Armour Save (or doesn't get an Armour Save).  The bearer's model then gains a Ward Save (4+) against this Wound.
+Obsidian Pebble (10 pts): The bearer has Magic Resistance (1).
+Lucky Charm (5 pts): One use only. May be activated when the bearer's model fails an Armour Save. That failed Armour Save may then be rerolled.
+Dragonfire Gem (5 pts): The bearer gains the Fireborn special rule.
+Talisman of Shielding (5 pts): The bearer has a Ward Save (6+).
 
 Enchanted Items
-Flying Carpet (50 pts) - models on foot only
-The bearer has the Fly (6) special rule.
-Anti-magic Crystal (50 pts)
-One use only. Instead of making a dispel roll, you can use
-this item. The spell is automatically dispelled.
-You can only take this item in an army with no Wizards.
-Wizard's Hood (45 pts)
-The wearer has Stupidity. If the wearer didn't have any
-Wizard Levels, it becomes a Level 1 Wizard Apprentice.
-Instead of selecting a Path as usual, the wearer uses a
-randomly chosen Battle Magic Path at the start of each
-battle.
-Crystal Ball (35 pts)
-The bearer has the Lightning Reflexes special rule.
-Sceptre of Dominion (30 pts)
-One use only. May be activated at the startofanyRound
-of Combat. For the duration of the Phase, the bearer has
-Stubborn.
-Gem of Fortune (25 pts)
-Successful to-wound rolls of '6' from Ranged Attacks
-against the bearer's unit must be rerolled.
-Ring of Fire (25 pts)
-Bound Spell, Power Level 3. Contains the spell Fireball
-(Path of Fire).
-Potion of Strength (20 pts)
-One use only. May be activated at the start of any Phase.
-For the duration of the Player Turn, the bearer has +2
-Strength.
-Charm of Cursed Iron (20 pts)
-The bearer and its unit have a Ward Save (5+) against
-Wounds caused by Artillery Weapons.
-Divine Icon (15 pts)
-The bearer's model gains Divine Attacks.
-Potion of Swiftness (5 pts)
-One use only. May be activated at the start of any Phase.
-For the duration of the Player Turn, the bearer has +3
-Initiative.
+Flying Carpet (50 pts): models on foot only The bearer has the Fly (6) special rule.
+Anti-magic Crystal (50 pts): One use only. Instead of making a dispel roll, you can use this item. The spell is automatically dispelled.  You can only take this item in an army with no Wizards.
+Wizard's Hood (45 pts): The wearer has Stupidity. If the wearer didn't have any Wizard Levels, it becomes a Level 1 Wizard Apprentice.  Instead of selecting a Path as usual, the wearer uses a randomly chosen Battle Magic Path at the start of each battle.
+Crystal Ball (35 pts): The bearer has the Lightning Reflexes special rule.
+Sceptre of Dominion (30 pts): One use only. May be activated at the start of any Round of Combat. For the duration of the Phase, the bearer has Stubborn.
+Gem of Fortune (25 pts): Successful to-wound rolls of '6' from Ranged Attacks against the bearer's unit must be rerolled.
+Ring of Fire (25 pts): Bound Spell, Power Level 3. Contains the spell Fireball (Path of Fire).
+Potion of Strength (20 pts): One use only. May be activated at the start of any Phase.  For the duration of the Player Turn, the bearer has +2 Strength.
+Charm of Cursed Iron (20 pts): The bearer and its unit have a Ward Save (5+) against Wounds caused by Artillery Weapons.
+Divine Icon (15 pts): The bearer's model gains Divine Attacks.
+Potion of Swiftness (5 pts): One use only. May be activated at the start of any Phase. For the duration of the Player Turn, the bearer has +3 Initiative.
 
 Arcane Items
-Essence of a Free Mind (100 pts / 50 pts)
-The Wizard does not have to declare which Path to use
-on the Army List. It may choose any of the available
-Paths before generating spells (normal restrictions for
-the Wizard still apply).
-Backlash Scroll (55 pts)
-One use only. Instead of making a dispelroll, you can use
-the scroll. After the spell effect has been resolved
-(including the PathAttribute), the caster must roll on the
-Miscast Table. This item has no effect on Bound Spells
-and spells cast with 1 PowerDice or with Overwhelming
-Power.
-Book of Arcane Power (50 pts / 35 pts)
-The bearer receives a +1 casting modifier to casting and
-dispelling rolls.
-Book of a Thousand Incantations (50 pts)
-The bearer gains the Pathmaster special rule.
-Dispel Scroll (35 pts)
-One use only. Instead of making a dispelroll, you can use
-this scroll. The spell is automatically dispelled.
-This item can be taken as an Enchanted Item (50pts)in
-an army that contains no Wizards.
-Tome of Arcane Lore (25 pts)
-The bearer knows one additional spell.
-Grounding Rod (25 pts / 15 pts)
-One use only. The bearer can choose to use this item to
-reroll on the Miscast table.
-Sceptre of Power (20 pts / 15 pts)
-One use only. The bearer may reroll a single PowerDice
-during a casting roll.
-Binding Scroll (20 pts)
-One use only. Instead of making a dispelroll, you can use
-the scroll. The Wizard casting the spell cannot cast the
-same spell during the next Game Turn.
-Shielding Scroll (15 pts)
-One use only. Instead of making a dispelroll,you can use
-the scroll. All models affected by the spell have a Ward
-Save (4+) against the spell.
-Wand of Stability (15 pts)
-One use only. The bearer may add a +1D6 modifier to
-one of its dispel rolls (note that this is not a DispelDice)
-and ignore the Not Enough Power rule.
+Essence of a Free Mind (100 pts / 50 pts): The Wizard does not have to declare which Path to use on the Army List. It may choose any of the available Paths before generating spells (normal restrictions for the Wizard still apply).
+Backlash Scroll (55 pts): One use only. Instead of making a dispelroll, you can use the scroll. After the spell effect has been resolved (including the PathAttribute), the caster must roll on the Miscast Table. This item has no effect on Bound Spells and spells cast with 1 PowerDice or with Overwhelming Power.
+Book of Arcane Power (50 pts / 35 pts): The bearer receives a +1 casting modifier to casting and dispelling rolls.
+Book of a Thousand Incantations (50 pts): The bearer gains the Pathmaster special rule.
+Dispel Scroll (35 pts): One use only. Instead of making a dispelroll, you can use this scroll. The spell is automatically dispelled.  This item can be taken as an Enchanted Item (50pts) in an army that contains no Wizards.
+Tome of Arcane Lore (25 pts): The bearer knows one additional spell.
+Grounding Rod (25 pts / 15 pts): One use only. The bearer can choose to use this item to reroll on the Miscast table.
+Sceptre of Power (20 pts / 15 pts): One use only. The bearer may reroll a single PowerDice during a casting roll.
+Binding Scroll (20 pts): One use only. Instead of making a dispelroll, you can use the scroll. The Wizard casting the spell cannot cast the same spell during the next Game Turn.
+Shielding Scroll (15 pts): One use only. Instead of making a dispelroll,you can use the scroll. All models affected by the spell have a Ward Save (4+) against the spell.
+Wand of Stability (15 pts): One use only. The bearer may add a +1D6 modifier to one of its dispel rolls (note that this is not a DispelDice) and ignore the Not Enough Power rule.
 
 Magical Standards
-Rending Banner (45 pts)
-The unit has Armour Piercing (1).
-Stalker's Standard (40 pts)
-The unit gains Strider and Swiftstride.
-Aether Icon (40 pts)
-A unit with this banner can make dispel attempts as ifit
-were a Wizard Master.
-Holy Icon (30 pts)
-The bearer's unit gains Divine Attacks, but must also
-reroll successful Ward Saves themselves.
-Banner of Discipline (25 pts)
-The bearer's unit has +1 Leadership.
-Banner of Speed (25 pts)
-The bearer's unit has +1 Movement.
-Flaming Standard (20 pts)
-At the start of each player's Shooting and Close Combat
-Phase the banner may be activated. If it is, the bearer's
-unit's non-special Close Combat and Shooting Attacks
-have the Flaming Attacks special rule for the duration of
-the phase.
-War Standard (15 pts)
-The bearer's unit adds +1 to the Combat Score of any
-combat they are involved in.
-Icon of the Relentless Company (15 pts)
-- Infantry models only
-One use only. Activate at the start of any of your
-Remaining Moves sub-phases. The bearer's unit can
-triple its Movement when Marching instead of doubling
-it this turn. This March Move cannot be longer than 15"
-and cannot be used on turn 1 if the unit has used
-Vanguard or Scout.
-Standard of Alternate Realities (10 pts)
-All of the unit's Close Combat Attacks with Magical
-Attacks lose this special rule, and all Close Combat
-Attacks without Magical Attacks gain this special rule.
-Gleaming Icon (5 pts)
-One use only. Must be activated the first time the
-bearer's unit fails a Leadership Test. The unit may reroll
-the failed test.
-Banner of Courage (5 pts)
-The bearer's unit automatically passes Terror Tests and
-is immune to the effects of Fear.
+Rending Banner (45 pts): The unit has Armour Piercing (1).
+Stalker's Standard (40 pts): The unit gains Strider and Swiftstride.
+Aether Icon (40 pts): A unit with this banner can make dispel attempts as if it were a Wizard Master.
+Holy Icon (30 pts): The bearer's unit gains Divine Attacks, but must also reroll successful Ward Saves themselves.
+Banner of Discipline (25 pts): The bearer's unit has +1 Leadership.
+Banner of Speed (25 pts): The bearer's unit has +1 Movement.
+Flaming Standard (20 pts): At the start of each player's Shooting and Close Combat Phase the banner may be activated. If it is, the bearer's unit's non-special Close Combat and Shooting Attacks have the Flaming Attacks special rule for the duration of the phase.
+War Standard (15 pts): The bearer's unit adds +1 to the Combat Score of any combat they are involved in.
+Icon of the Relentless Company (15 pts): - Infantry models only One use only. Activate at the start of any of your Remaining Moves sub-phases. The bearer's unit can triple its Movement when Marching instead of doubling it this turn. This March Move cannot be longer than 15" and cannot be used on turn 1 if the unit has used Vanguard or Scout.
+Standard of Alternate Realities (10 pts): All of the unit's Close Combat Attacks with Magical Attacks lose this special rule, and all Close Combat Attacks without Magical Attacks gain this special rule.
+Gleaming Icon (5 pts): One use only. Must be activated the first time the bearer's unit fails a Leadership Test. The unit may reroll the failed test.
+Banner of Courage (5 pts): The bearer's unit automatically passes Terror Tests and is immune to the effects of Fear.
 
 Index and Summaries
 Blue text in bold are links which will take you to the corresponding sections in the document.
@@ -1526,84 +1259,54 @@ The Magic Phase
 8 End of the Magic Phase. Resolve all abilities triggered by the end of the Magic Phase.
 
 Casting a Spell
-1 The Active Player declares which Wizard is attempting to cast a spell, which spell is being used, who
-is the target of the spell (if applicable), which version of the spell is being used (if applicable) and who
-is the target of the Path Attribute is (if applicable).
-2 The Active Player declares how many Power Dice are being used to cast the spell. This number must
-be between 1 and 5.
-3 The Active Player may now roll the number of Power Dice in an attempt to meet the casting value of
-the spell. If the total casting roll is equal to or higher than the Casting Value then the spell is
-successfully cast. Proceed to step 4.
-If the casting roll is less than the Casting Value the Wizard failed to cast the spell and suffers from
-Lost Focus . Proceed to step 9. If two or more natural '6' results were rolled on the dice then the spell
-was cast with Overwhelming Power.
-4 Once the Active Player has successfully cast a spell, the Reactive Player is allowed to attempt to dispel
-it. If the Reactive Player chooses to do so, they must first declare which Wizard will attempt to dispel
-the spell. Fleeing Wizards cannot perform a dispel attempt. If the Reactive Player does not own any
-non-fleeing Wizards then a dispel attempt may still be made.
-5 The Reactive Player must now declare how many Dispel Dice are being used for the Dispel Attempt. A
-minimum of one dice must be used. There is no maximum limit to how many Dispel Dice may be used
-in a Dispel Attempt.
-6 The Reactive Player may now roll the number of Dispel Dice in an attempt to meet the casting roll of
-the spell. If the total dispel roll is equal to or higher than the casting roll the spell is successfully
-dispelled. Proceed to step 9. If the Dispel Attempt was failed, or if no Dispel Attempt was made in the
-first place, proceed to step 7.
-7 The spell was successfully cast. The Active Player may now apply the Spell Effect . Once this is done,
-the player may apply the Spell Path Attribute .
-8 If the spell was cast with Overwhelming Power , the Active Player must now roll on the Miscast
-Table and apply the result to the Wizard who made the casting attempt.
+1 The Active Player declares which Wizard is attempting to cast a spell, which spell is being used, who is the target of the spell (if applicable), which version of the spell is being used (if applicable) and who is the target of the Path Attribute is (if applicable).
+2 The Active Player declares how many Power Dice are being used to cast the spell. This number must be between 1 and 5.
+3 The Active Player may now roll the number of Power Dice in an attempt to meet the casting value of the spell. If the total casting roll is equal to or higher than the Casting Value then the spell is successfully cast. Proceed to step 4.
+If the casting roll is less than the Casting Value the Wizard failed to cast the spell and suffers from Lost Focus . Proceed to step 9. If two or more natural '6' results were rolled on the dice then the spell was cast with Overwhelming Power.
+4 Once the Active Player has successfully cast a spell, the Reactive Player is allowed to attempt to dispel it. If the Reactive Player chooses to do so, they must first declare which Wizard will attempt to dispel the spell. Fleeing Wizards cannot perform a dispel attempt. If the Reactive Player does not own any non-fleeing Wizards then a dispel attempt may still be made.
+5 The Reactive Player must now declare how many Dispel Dice are being used for the Dispel Attempt. A minimum of one dice must be used. There is no maximum limit to how many Dispel Dice may be used in a Dispel Attempt.
+6 The Reactive Player may now roll the number of Dispel Dice in an attempt to meet the casting roll of the spell. If the total dispel roll is equal to or higher than the casting roll the spell is successfully dispelled. Proceed to step 9. If the Dispel Attempt was failed, or if no Dispel Attempt was made in the first place, proceed to step 7.
+7 The spell was successfully cast. The Active Player may now apply the Spell Effect . Once this is done, the player may apply the Spell Path Attribute .
+8 If the spell was cast with Overwhelming Power , the Active Player must now roll on the Miscast Table and apply the result to the Wizard who made the casting attempt.
 9 The casting attempt is finished. You may now attempt to cast another spell or end the Magic Phase.
 
 The Shooting Phase
-1 The Active Player may pick any unit that is eligible to perform a Shooting Attack and may then
-declare which enemy unit is the target.
-2 The player must Measure Distance to ensure that the target enemy unit is effectively within Range
-of the Shooting Attack. The player must also ensure that the shooting unit can draw Line of Sight .
-3 The player rolls on the Shooting Attacks Table , taking in consideration any Shooting Modifiers
-which may apply.
+1 The Active Player may pick any unit that is eligible to perform a Shooting Attack and may then declare which enemy unit is the target.
+2 The player must Measure Distance to ensure that the target enemy unit is effectively within Range of the Shooting Attack. The player must also ensure that the shooting unit can draw Line of Sight .
+3 The player rolls on the Shooting Attacks Table, taking in consideration any Shooting Modifiers which may apply.
 4 For every Hit score, the Active Player rolls on the Wounding Table .
-5 For every Wound received, the Reactive Player attempt to roll any Armour Save , Ward Save or
-Regeneration Save that the wounded model is eligible to take.
-6 The Reactive Player RemovesCasualties for every unsaved Wound and takes notes of the remaining
-Wounds of multiple-Wounds models.
-7 The Active Player may now pick another unit with a Shooting Attack and go again through steps 1
-through 6.
-8 As soon as a unit suffers Heavy Casualties, i.e. as soon as it loses 25% or more of its starting amount of
-models during one Shooting Phase, it must Test for Panic .
+5 For every Wound received, the Reactive Player attempt to roll any Armour Save , Ward Save or Regeneration Save that the wounded model is eligible to take.
+6 The Reactive Player RemovesCasualties for every unsaved Wound and takes notes of the remaining Wounds of multiple-Wounds models.
+7 The Active Player may now pick another unit with a Shooting Attack and go again through steps 1 through 6.
+8 As soon as a unit suffers Heavy Casualties, i.e. as soon as it loses 25% or more of its starting amount of models during one Shooting Phase, it must Test for Panic .
 9 End of the Shooting Phase.
+
 The Close Combat Phase
 1 Start of Close Combat Phase. Apply any "No Longer Engaged ".
 2 Choose a combat to fight in.
 3 Fight a Round of Combat .
-4 Repeat steps 2 and 3. Each time choose a new combat, which has not already been fought during this
-Close Combat Phase.
+4 Repeat steps 2 and 3. Each time choose a new combat, which has not already been fought during this Close Combat Phase.
 5 Once all units that are Engaged in Combat have fought, the Close Combat Phase ends.
 
 Fighting a Round of Close Combat
 1 Start of the round of Close Combat .
 2 Characters perform Make Way manoeuvre.
-3 Issue and Accept Challenges .
-4 Determine which models are allowed to contribute attacks during this round of Close Combat either
-by being in Base Contact with the enemy or by providing Supporting Attacks .
-Determine which models strike first following Initiative order. Remember to apply the Initiative
-penalty to models armed with a Great Weapon .
-5 Determine the total number of attacks and Allocate Attacks .
+3 Issue and Accept Challenges.
+4 Determine which models are allowed to contribute attacks during this round of Close Combat either by being in Base Contact with the enemy or by providing Supporting Attacks.  Determine which models strike first following Initiative order. Remember to apply the Initiative penalty to models armed with a Great Weapon .
+5 Determine the total number of attacks and Allocate Attacks.
 6 Roll for hits, Wounds and saves, remove casualties.
 7 Resolve the attacks of the next models with the highest Initiative.
-8 Once every model has performed every attack they are eligible to make, calculate the Combat Score
-and determine which side won the Round of Combat.
-9 The units on the losing side perform their Break Tests . All units that fail their Break Test
-automatically Flee . If no unit has fled, go to step 16.
-10 Units on the same side as a unit that Breaks from combat test for Panic .
-11 Once a unit Breaks from combat, the winning side must decide whether to Pursue . If the player
-chooses to Restrain, a Leadership Test must be passed.
+8 Once every model has performed every attack they are eligible to make, calculate the Combat Score and determine which side won the Round of Combat.
+9 The units on the losing side perform their Break Tests. All units that fail their Break Test automatically Flee. If no unit has fled, go to step 16.
+10 Units on the same side as a unit that Breaks from combat test for Panic.
+11 Once a unit Breaks from combat, the winning side must decide whether to Pursue . If the player chooses to Restrain, a Leadership Test must be passed.
 12 Roll for Flee distance and move fleeing units.
 13 Roll for Pursuit distance and move pursuing units.
 14 Fleeing units caught by pursuers are destroyed.
-15 Perform any Post-Combat Pivots .
-16 Perform any Combat Reform .
+15 Perform any Post-Combat Pivots.
+16 Perform any Combat Reform.
 17 End of the Round of Combat.
-115
+
 The Close Combat Hitting Chart
 A-WS: 1 2 3 4 5 6 7 8 9 10
 D- WS: 1 4+ 3+ 3+ 3+ 3+ 3+ 3+ 3+ 3+ 3+
@@ -1616,6 +1319,7 @@ D- WS: 1 4+ 3+ 3+ 3+ 3+ 3+ 3+ 3+ 3+ 3+
 8 5+ 5+ 5+ 4+ 4+ 4+ 4+ 4+ 3+ 3+
 9 5+ 5+ 5+ 5+ 4+ 4+ 4+ 4+ 4+ 3+
 10 5+ 5+ 5+ 5+ 4+ 4+ 4+ 4+ 4+ 4+
+
 The Shooting Table
 Ballistic Skill (BS)
 + modifiers
