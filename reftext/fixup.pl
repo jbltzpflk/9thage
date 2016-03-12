@@ -26,10 +26,15 @@ while (<>) {
 	s/\nWeapon:\n/\nWeapons: /igs ;
 	s/\nMagic:\n/\nMagic: /igs ;
 	s/\nWeapons:\n/\nWeapons: /igs ;
-	s/(\w)[Cc]lose\w+[Cc]ombat(\w)/${1}Close Combat${2}/g ;
+	s/(\s)[Cc]lose\s+[Cc]ombat(\s)/${1}CloseCombat${2}/igs ;
+	s/(\s)round\sof\sCloseCombat(\s)/${1}CloseCombatRound${2}/igs ;
+	s/(\s)[Gg]reat\s+[Ww]eapon(\s)/${1}GreatWeapon${2}/igs ;
+	s/(\W)[Bb]reath\s+[Ww]eapon(\W)/${1}BreathWeapon${2}/igs ;
+	s/(\W)[Aa]rmour\s+[Pp]iercing(\W)/${1}ArmourPiercing${2}/igs ;
+	s/(\W)[Ss]hooting\s+[Aa]ttack(s?)(\W)/${1}ShootingAttack${2}${3}/igs ;	
 	s/ :/:/g ;
 	s/\'\'/\"/g ;
 	s/  / /g ;
-	s/ $// ;
+	s/ $//g ;
 	print $_;
 }
